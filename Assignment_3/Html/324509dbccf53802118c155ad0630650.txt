@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#"> 
+    <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_3aee3248873e_128.png" />
+    <meta name="description" content="A place to fangirl over literally anything." />
+    <title>Peace. Love. Happiness.</title>
+    <!-- Default values -->
+    <meta name="text:Header slogan" content= />
+    <meta name="color:Background" content="#FFFFFF"/>
+    <meta name="color:Link" content="#346B9A"/>
+    <meta name="color:Link hover" content="#9A6934"/>
+    <meta name="font:Body" content="Georgia, serif"/>
+    <meta name="font:Date" content="Helvetica, Arial, sans-serif"/>
+    <meta name="if:Show notes" content="0">
+    <meta name="if:Show album art on audio posts" content="1" />
+    <meta name="text:Disqus Shortname" content="" />
+    <meta name="if:Show comment count on frontpage" content="0" />
+
+    <style>
+    /* General styling */
+    body {
+      padding: 0; margin: 0;
+      background: #eb96e3;
+      font: 14px/20px Georgia, serif;
+    }
+    h1 { width: 540px; margin: 0 auto; }
+    h1 a, h1 {
+      color: #000; line-height: 1.2;
+      text-decoration: none;
+      font-family: Georgia, serif;
+      font-size: 19px;
+      font-weight: normal;
+    }
+      h1 a:hover { color: inherit; }
+    h2 { margin-top: 0; font-size: 16px; }
+    /* "fake smallcaps" */
+    h3 { font-size: 12px; text-transform: uppercase; letter-spacing: 2px; }
+    object { margin-bottom: 1em; margin-top: 0.5em; }
+    sup { line-height: 1; }
+    p, pre { margin-top: 0; padding-top: 0; }
+    img { display: block; margin-bottom: 20px; margin-top: 5px; }
+    a { color: #346B9A; text-decoration: none; } 
+      a:hover { color: #9A6934; }
+      a img { outline: 0; border: none; }
+    blockquote { 
+      width: 470px; 
+      margin-left: -30px; 
+      padding-left: 30px; 
+      color: #222;
+      /* This is the quote mark in the left corner (also, the only image
+      in this theme). Remove if you don't want it. */
+      background: url(http://static.tumblr.com/sajzoro/2pUkqr1t1/aster.png) 
+        top left no-repeat; 
+      font-style: italic;
+      margin-top: 0; 
+    }
+      /* Make nested blockquotes behave. */
+      blockquote blockquote { margin-left: 0; }
+      /* ems in blockquotes look like normal text. Could be confusing; should work
+         fine unless there is a giant em block at the end of the blockquote, or
+         worse, making up the whole blockquote. Remove if you don't want to take
+         that risk, but instead suffer from a lack of distinguished emphasis in
+         blockquotes. */
+      blockquote em { font-style: normal; }
+      blockquote ul, blockquote ol { padding-left: 2em; }
+    ul, ol { padding-left: 0; }
+    
+    /* Specific elements. */
+    div#head {
+      padding: 60px;
+    }
+    div#main {
+      width: 800px;
+      margin: 0 auto;
+    }
+    a#past { float: left; } 
+    a#future { float: right; margin-right: 4px; } 
+    span#page { float: left; width: 300px; text-align: center; color: #666; }
+    div#last { margin-bottom: 2em; }
+    ul#bottom {
+      list-style: none; padding-top: 0; margin-top: 0; padding-left: 0; margin-left: 0;
+      width: 340px; float: left; margin-bottom: 2em;
+    }
+    ul#bottom li {
+      float: left; margin-right: 40px; padding-left: 0;
+    }
+    div#foot {
+      width: 540px; margin: 0 auto;
+      margin-bottom: 40px;
+    }
+    
+    /* Various repeated elements. */
+    span.permalink {
+      float: left; width: 130px;
+      font-size: 12px;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    span.permalink a {
+      font-weight: bold;
+      text-decoration: none;
+    }
+    
+    div.realpost {
+      float: left;
+      width: 650px;
+      margin-bottom: 4em; padding-top: 0; margin-top: 0;
+    }
+    
+    
+    
+    
+    body#permalink-page div.realpost {
+      margin-bottom: 2em;
+    }
+    
+    div.realpost div { 
+      /* sorry, css gods */
+      width: 500px; 
+      padding-top: 0;
+    }
+    div.audio embed { margin-top: .3em; margin-bottom: 1em; }
+    img.album-art { float: right; padding-left: 2em; height: 100px; width: 100px; }
+    
+    div.chat ol {
+      list-style: none; margin-top: 0;
+    }
+      span.label { font-weight: bold; }
+    h2 { margin-top: 0; font-size: 16px; }
+    div.text h2 a { color: #000; }
+    /* In case you want to quote in quote post, we need to distinguish
+       *the* quote from any other blockquotes in the post. (No yo dawgs 
+       here. It might be useful.) */
+    blockquote.thequote { 
+      font-size: 1.25em; line-height: 1.3; color: #000;
+    }
+
+    div.text img {
+      max-width: 500px
+    }
+    div.text blockquote img {
+      max-width: 150px
+    }
+    
+    ol.notes {
+        font-size: 12px;
+        font-family: Helvetica, Arial, sans-serif;
+        list-style-type: none;
+        margin: 0 0 70px 130px;
+    }
+        ol.notes img {
+            display: none;
+        }
+    div.post div.question {
+      font-weight: bold;
+      margin-bottom: 1em;
+    }
+        
+    
+    
+    .search_query { font-weight: bold; }
+    
+    
+    </style> 
+  <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=iwannasave-you" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Peace. Love. Happiness." /><meta property="og:url" content="http://iwannasave-you.tumblr.com/?og=1" /><meta property="og:description" content="A place to fangirl over literally anything." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_3aee3248873e_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=iwannasave-you" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=iwannasave-you" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="iwannasave-you" /><meta name="twitter:description" content="A place to fangirl over literally anything." /><meta name="twitter:creator" content="smithy1D" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=iwannasave-you&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=iwannasave-you&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=iwannasave-you&amp;referrer=twitter-cards" />
+
+</head> 
+  <body id="
+"> 
+  
+  <div id="head">
+    <h1><a href="/">Peace. Love. Happiness.</a> <em>/</em></h1> 
+    
+        <div style="width: 540px; margin: 10px auto 0 auto; display: none; display: block;display: block;">
+            
+            <a href="/Fanfic1">Fanfic</a>&nbsp;&nbsp;&nbsp;
+            
+            <a href="/ask">Ask me anything</a>&nbsp;&nbsp;&nbsp;
+            
+        </div>
+  </div>
+    
+  <div id="main">
+    
+    
+    
+    
+    
+    
+    
+    <div class="post video">
+      
+      <span class="permalink">
+          <a href="http://iwannasave-you.tumblr.com/post/98752640760">Sep 29, 2014</a><br />
+          
+      </span>
+      
+      <div class="realpost"><div>
+      <div id="photoset_98752640760" class="html_photoset">    <iframe id="photoset_iframe_98752640760" class="photoset" scrolling="no" frameborder="0" height="384" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://iwannasave-you.tumblr.com/post/98752640760/photoset_iframe/iwannasave-you/tumblr_lt59x8H9UJ1qm1s5c/500/false"></iframe></div>
+      <p>(via <a href='http://troyb0lton.tumblr.com/post/98745101796'>troyb0lton</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post photo">
+      
+      <span class="permalink">
+          <a href="http://iwannasave-you.tumblr.com/post/98752634285">Sep 29, 2014</a><br />
+          
+      </span>
+      
+      <div class="realpost"><div>
+        
+        <img src="http://38.media.tumblr.com/6737e9e2351255212db63be2d1f41e0e/tumblr_n0e5n08KEA1rqmyvho1_500.png" alt=""/>
+        
+        <p>(Source: <a href="http://fandomanon.tumblr.com/post/75417680152" title="fandomanon">fandomanon</a>, via <a href='http://troyb0lton.tumblr.com/post/98745137306'>troyb0lton</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post text">
+      <span class="permalink">
+      
+          <a href="http://iwannasave-you.tumblr.com/post/98752615370/bisexual-community-theshadybisexual-dont">Sep 29, 2014</a><br />
+          
+
+          <br />
+      </span>
+      <div class="realpost"><div>
+        
+        <p><a class="tumblr_blog" href="http://bisexual-community.tumblr.com/post/97423569342/theshadybisexual-dont-trust-anyone-who-says">bisexual-community</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://theshadybisexual.tumblr.com/post/94370327470">theshadybisexual</a>:</p>
+<blockquote>
+<p>don’t trust anyone who says something biphobic then when you call them out on it they say <em>“i don’t mean real bisexuals. just the fake bicurious ones”</em>.</p>
+</blockquote>
+<p><strong>Pro Tip:</strong> Actually there is no such thing as <em>"fake"</em> bisexuals. There are instead a lot of questioning people, worried people, closeted people, scared people, confused people, all sorts of people … and these are <strong>all perfectly normal</strong> things to be. Remember, <strong>there is no wrong way to be bisexual</strong>.</p>
+</blockquote><p>(via <a href='http://troyb0lton.tumblr.com/post/98745229941/bisexual-community-theshadybisexual-dont'>troyb0lton</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="post photo">
+      
+      <span class="permalink">
+          <a href="http://iwannasave-you.tumblr.com/post/98752568790">Sep 29, 2014</a><br />
+          
+      </span>
+      
+      <div class="realpost"><div>
+        
+        <img src="http://33.media.tumblr.com/22645ee38eeea062428037710411afe5/tumblr_nb7frmFx761r4rdbgo1_500.jpg" alt=""/>
+        
+        <p>(Source: <a href="http://irresistibels.tumblr.com/post/96327918418/x" title="irresistibels">irresistibels</a>, via <a href='http://teasedlou.tumblr.com/post/98745353838'>teasedlou</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="post video">
+      
+      <span class="permalink">
+          <a href="http://iwannasave-you.tumblr.com/post/98752553615/i-know-were-recognised-but-none-of-us-consider">Sep 29, 2014</a><br />
+          
+      </span>
+      
+      <div class="realpost"><div>
+      <div id="photoset_98752553615" class="html_photoset">    <iframe id="photoset_iframe_98752553615" class="photoset" scrolling="no" frameborder="0" height="1030" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://iwannasave-you.tumblr.com/post/98752553615/photoset_iframe/iwannasave-you/tumblr_ncgngthhia1r1mrcs/500/false"></iframe></div>
+      <blockquote>
+<p><small>"I know we’re recognised but none of us consider ourselves ‘famous’."</small></p>
+</blockquote><p>(Source: <a href="http://mr-styles.tumblr.com/post/98388154468/i-know-were-recognised-but-none-of-us-consider" title="mr-styles">mr-styles</a>, via <a href='http://teasedlou.tumblr.com/post/98745543513'>teasedlou</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post video">
+      
+      <span class="permalink">
+          <a href="http://iwannasave-you.tumblr.com/post/98752545235/smileylucas-i-love-how-calum-and-ashton-are">Sep 29, 2014</a><br />
+          
+      </span>
+      
+      <div class="realpost"><div>
+      <div id="photoset_98752545235" class="html_photoset">    <iframe id="photoset_iframe_98752545235" class="photoset" scrolling="no" frameborder="0" height="319" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://iwannasave-you.tumblr.com/post/98752545235/photoset_iframe/iwannasave-you/tumblr_ncasrch6pK1sy4bbm/500/false"></iframe></div>
+      <p><a href="http://smileylucas.tumblr.com/post/98135826708/i-love-how-calum-and-ashton-are-drinking-beer-or" class="tumblr_blog">smileylucas</a>:</p>
+
+<blockquote><p>i love how calum and ashton are drinking beer or something, then luke’s in the corner eating yoghurt</p></blockquote><p>(via <a href='http://5sosaremyfave.tumblr.com/post/98745554114/smileylucas-i-love-how-calum-and-ashton-are'>5sosaremyfave</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post photo">
+      
+      <span class="permalink">
+          <a href="http://iwannasave-you.tumblr.com/post/98752478060">Sep 29, 2014</a><br />
+          
+      </span>
+      
+      <div class="realpost"><div>
+        <a href="http://c-isnenegro.tumblr.com/">
+        <img src="http://33.media.tumblr.com/6caf6d0bffb9012d79bb534173b3127a/tumblr_mmytl3qFb91qmbg8bo1_r1_500.jpg" alt=""/>
+        </a>
+        <p>(via <a href='http://teasedlou.tumblr.com/post/98745697633'>teasedlou</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post text">
+      <span class="permalink">
+      
+          <a href="http://iwannasave-you.tumblr.com/post/98752408660/benwinstagram-benwinstagram-when-someone-hot">Sep 29, 2014</a><br />
+          
+
+          <br />
+      </span>
+      <div class="realpost"><div>
+        
+        <p><a class="tumblr_blog" href="http://benwinstagram.tumblr.com/post/98745623661/benwinstagram-when-someone-hot-drops-something">benwinstagram</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://benwinstagram.tumblr.com/post/85835460991/when-someone-hot-drops-something-and-u">benwinstagram</a>:</p>
+<blockquote>
+<p>when someone hot drops something and u automatically stare at the booty</p>
+<p><img alt="image" src="http://media.tumblr.com/39d9ce19471efe2ba670e980f90366f9/tumblr_n5me6fb2Gj1sr8ofxo3_250.gif"/></p>
+</blockquote>
+<p>tru</p>
+<p><img alt="image" src="http://media.tumblr.com/14ea2ff839a21e2f33cf5153c651bb36/tumblr_inline_ncoi7p1URu1rxygqf.gif"/></p>
+</blockquote><p>(via <a href='http://zaynyboy.tumblr.com/post/98746608807/benwinstagram-benwinstagram-when-someone-hot'>zaynyboy</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="post video">
+      
+      <span class="permalink">
+          <a href="http://iwannasave-you.tumblr.com/post/98752387335/eilwaen-looks-like-we-got-a-lying-whore">Sep 29, 2014</a><br />
+          
+      </span>
+      
+      <div class="realpost"><div>
+      <div id="photoset_98752387335" class="html_photoset">    <iframe id="photoset_iframe_98752387335" class="photoset" scrolling="no" frameborder="0" height="859" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://iwannasave-you.tumblr.com/post/98752387335/photoset_iframe/iwannasave-you/tumblr_n9c0tiGX3F1qkfmcu/500/false"></iframe></div>
+      <p><a class="tumblr_blog" href="http://eilwaen.tumblr.com/post/93004751004/looks-like-we-got-a-lying-whore">eilwaen</a>:</p>
+<blockquote>
+<p>looks like we got a lying whore</p>
+</blockquote><p>(Source: <a href="http://angryfemales.tumblr.com/post/92937971824" title="angryfemales">angryfemales</a>, via <a href='http://augustuos.tumblr.com/post/98747073258/eilwaen-looks-like-we-got-a-lying-whore'>augustuos</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post photo">
+      
+      <span class="permalink">
+          <a href="http://iwannasave-you.tumblr.com/post/98752367280/neverenoughnialler-glittercalum-you-dont">Sep 29, 2014</a><br />
+          
+      </span>
+      
+      <div class="realpost"><div>
+        <a href="http://iwannasave-you.tumblr.com/image/98752367280">
+        <img src="http://33.media.tumblr.com/8de178b16dfcf02a8f701acdae9ad19a/tumblr_n8q4wuQEJ21r01nxzo1_500.png" alt="neverenoughnialler:
+
+glittercalum:
+
+you don&rsquo;t even need to type in the band name
+everyone knows
+
+
+Plot twist. If you change it to &ldquo;that one photo shoot from 2012&rdquo; or 2013 and 2014 for that matter, it still gives you one direction photo shoots. No one cares about anyone else&rsquo;s photo shoots apparently. Just One Direction."/>
+        </a>
+        <p><a href="http://neverenoughnialler.tumblr.com/post/96607535669/glittercalum-you-dont-even-need-to-type-in-the" class="tumblr_blog">neverenoughnialler</a>:</p>
+
+<blockquote><p><a class="tumblr_blog" href="http://glittercalum.tumblr.com/post/91787774680/you-dont-even-need-to-type-in-the-band-name">glittercalum</a>:</p>
+<blockquote>
+<p><span>you don’t even need to type in the band name</span></p>
+<p><span>everyone knows</span></p>
+</blockquote>
+
+<p>Plot twist. If you change it to “that one photo shoot from 2012” or 2013 and 2014 for that matter, it still gives you one direction photo shoots. No one cares about anyone else’s photo shoots apparently. Just One Direction.</p></blockquote><p>(Source: <a href="http://prettyboystyles.tumblr.com/post/91787774680/you-dont-even-need-to-type-in-the-band-name" title="prettyboystyles">prettyboystyles</a>, via <a href='http://mrniallhorans.tumblr.com/post/98747379977/neverenoughnialler-glittercalum-you-dont'>mrniallhorans</a>)</p>
+      </div></div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="post">
+    <span class="permalink"><strong>Navigate</strong></span>
+      <div class="realpost"><div>
+      <a href="/page/2" id="past">&laquo; To the past</a>
+      <span id="page">Page 1 of 2158</span>
+      
+      </div></div>
+    </div>
+    
+    
+    
+    <div class="post last" id="it">
+    <span class="permalink"><strong>About</strong></span>
+      <div class="realpost" id="last"><div>
+      A place to fangirl over literally anything.
+      <a href="http://iwannasave-you.tumblr.com/rss">Subscribe via RSS</a>.
+      </div></div>
+    </div>
+    
+    <div id="foot"> 
+    <ul id="bottom">
+      <li><a href="http://tumblr.com/">Tumblr</a></li> 
+      <li>Theme by <a href="http://dailymeh.tumblr.com/">Simen</a></li>
+    </ul> 
+    <form action="/search" method="get"> 
+    <input type="text" name="q" value="Search" onclick="javascript:if (this.value == 'Search') this.value = '';"/> 
+    </form> 
+    </div>
+    
+  </div>
+  
+  
+  <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://iwannasave-you.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037789&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvaXdhbm5hc2F2ZS15b3UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=PBADIGHBDL&K=fe2d11707cac911994b5d80428be0e2d457f079b7446d1a52cb73ddfb7b32100&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037789&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvaXdhbm5hc2F2ZS15b3UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=PBADIGHBDL&K=7c9e526a0eec72a05e3b5371028207a2001ce0497b55e6ac394cd06624c4b4c4&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037789&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2l3YW5uYXNhdmUteW91LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIyMTY5NTQ4NSIsInJvb3RfcG9zdGlkIjoiMTE1MTQwNzI5NDYiLCJwb3N0aWQiOjk4NzUyNjQwNzYwLCJibG9naWQiOiI0NzAxNTc1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NjgwNDY2MiIsInJvb3RfcG9zdGlkIjoiNzU0MTc2ODAxNTIiLCJwb3N0aWQiOjk4NzUyNjM0Mjg1LCJibG9naWQiOiI0NzAxNTc1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1MTk4NDA4Iiwicm9vdF9wb3N0aWQiOiI5NDM3MDMyNzQ3MCIsInBvc3RpZCI6Ijk4NzUyNjE1MzcwIiwiYmxvZ2lkIjoiNDcwMTU3NTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzA3MTUwMzciLCJyb290X3Bvc3RpZCI6OTYzMjc5MTg0MTgsInBvc3RpZCI6OTg3NTI1Njg3OTAsImJsb2dpZCI6IjQ3MDE1NzU1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI2NjQwNDM1Iiwicm9vdF9wb3N0aWQiOiI5ODM4ODE1NDQ2OCIsInBvc3RpZCI6OTg3NTI1NTM2MTUsImJsb2dpZCI6IjQ3MDE1NzU1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExOTI2NTUzOSIsInJvb3RfcG9zdGlkIjoiOTgxMzU4MjY3MDgiLCJwb3N0aWQiOjk4NzUyNTQ1MjM1LCJibG9naWQiOiI0NzAxNTc1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMjc4NjgyNCIsInJvb3RfcG9zdGlkIjoiNTA2ODM4ODE1MjciLCJwb3N0aWQiOjk4NzUyNDc4MDYwLCJibG9naWQiOiI0NzAxNTc1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3NDkyNTAxMiIsInJvb3RfcG9zdGlkIjoiODU4MzU0NjA5OTEiLCJwb3N0aWQiOiI5ODc1MjQwODY2MCIsImJsb2dpZCI6IjQ3MDE1NzU1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5NjIyNTk3Iiwicm9vdF9wb3N0aWQiOiI5MjkzNzk3MTgyNCIsInBvc3RpZCI6Ijk4NzUyMzg3MzM1IiwiYmxvZ2lkIjoiNDcwMTU3NTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjMzNjkxNTgiLCJyb290X3Bvc3RpZCI6IjkxNzg3Nzc0NjgwIiwicG9zdGlkIjo5ODc1MjM2NzI4MCwiYmxvZ2lkIjoiNDcwMTU3NTUiLCJzb3VyY2UiOjMzfV19&U=JBIBNCGCIG&K=db25fb38f7029f3e1ebf03514338e468889a003c8196d5ed7f4659da4f8a2085&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037789&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2l3YW5uYXNhdmUteW91LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIyMTY5NTQ4NSIsInJvb3RfcG9zdGlkIjoiMTE1MTQwNzI5NDYiLCJwb3N0aWQiOjk4NzUyNjQwNzYwLCJibG9naWQiOiI0NzAxNTc1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NjgwNDY2MiIsInJvb3RfcG9zdGlkIjoiNzU0MTc2ODAxNTIiLCJwb3N0aWQiOjk4NzUyNjM0Mjg1LCJibG9naWQiOiI0NzAxNTc1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1MTk4NDA4Iiwicm9vdF9wb3N0aWQiOiI5NDM3MDMyNzQ3MCIsInBvc3RpZCI6Ijk4NzUyNjE1MzcwIiwiYmxvZ2lkIjoiNDcwMTU3NTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzA3MTUwMzciLCJyb290X3Bvc3RpZCI6OTYzMjc5MTg0MTgsInBvc3RpZCI6OTg3NTI1Njg3OTAsImJsb2dpZCI6IjQ3MDE1NzU1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI2NjQwNDM1Iiwicm9vdF9wb3N0aWQiOiI5ODM4ODE1NDQ2OCIsInBvc3RpZCI6OTg3NTI1NTM2MTUsImJsb2dpZCI6IjQ3MDE1NzU1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExOTI2NTUzOSIsInJvb3RfcG9zdGlkIjoiOTgxMzU4MjY3MDgiLCJwb3N0aWQiOjk4NzUyNTQ1MjM1LCJibG9naWQiOiI0NzAxNTc1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMjc4NjgyNCIsInJvb3RfcG9zdGlkIjoiNTA2ODM4ODE1MjciLCJwb3N0aWQiOjk4NzUyNDc4MDYwLCJibG9naWQiOiI0NzAxNTc1NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3NDkyNTAxMiIsInJvb3RfcG9zdGlkIjoiODU4MzU0NjA5OTEiLCJwb3N0aWQiOiI5ODc1MjQwODY2MCIsImJsb2dpZCI6IjQ3MDE1NzU1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5NjIyNTk3Iiwicm9vdF9wb3N0aWQiOiI5MjkzNzk3MTgyNCIsInBvc3RpZCI6Ijk4NzUyMzg3MzM1IiwiYmxvZ2lkIjoiNDcwMTU3NTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjMzNjkxNTgiLCJyb290X3Bvc3RpZCI6IjkxNzg3Nzc0NjgwIiwicG9zdGlkIjo5ODc1MjM2NzI4MCwiYmxvZ2lkIjoiNDcwMTU3NTUiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=JBIBNCGCIG&K=bf7050823f5a058ce441870bb4b650714b7662cf468b3ddbd4e5190285049310&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:47015755,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fiwannasave-you.tumblr.com%2F&amp;lang=en_US&amp;name=iwannasave-you&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_3aee3248873e_64.png&amp;title=Peace.+Love.+Happiness.&amp;url=http%3A%2F%2Fiwannasave-you.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fiwannasave-you.tumblr.com%2F&amp;lang=en_US&amp;name=iwannasave-you&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_3aee3248873e_64.png&amp;title=Peace.+Love.+Happiness.&amp;url=http%3A%2F%2Fiwannasave-you.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

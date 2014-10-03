@@ -1,0 +1,882 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xml:lang="en-US" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2012                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<title>
+	Tyler Texas > Home
+</title><meta http-equiv="x-ua-compatible" content="IE=9" /><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta id="MetaKeywords" name="KEYWORDS" content=",DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2014 by City of Tyler" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="Tyler Texas" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link href="/Portals/_default/default.css?cdv=22" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Skins/CityTyler/skin.css?cdv=22" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/CityTyler/Blank-BlueBackground.css?cdv=22" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/CityTyler/RedBackground Title.css?cdv=22" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/CityTyler/GreenBackground Title.css?cdv=22" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/CityTyler/Welcome.css?cdv=22" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/CityTyler/Black Title - Underline.css?cdv=22" type="text/css" rel="stylesheet"/><link href="/Portals/_default/Containers/CityTyler/Blank.css?cdv=22" type="text/css" rel="stylesheet"/><link href="/Portals/0/portal.css?cdv=22" type="text/css" rel="stylesheet"/><script src="/Resources/Shared/Scripts/jquery/jquery.min.js?cdv=22" type="text/javascript"></script><script src="/Resources/Shared/Scripts/jquery/jquery-ui.min.js?cdv=22" type="text/javascript"></script>
+	<script language="JavaScript" type="text/javascript">
+		
+// defining flags
+var isCtrl = false;
+var isShift = false;
+
+// the magic :)
+$(document).ready(function() {
+	
+	
+	// action on key up
+	$(document).keyup(function(e) {
+
+		if(e.which == 17) {
+			isCtrl = false;
+		}
+		if(e.which == 16) {
+			isShift = false;
+		}
+	});
+	// action on key down
+	$(document).keydown(function(e) {
+		if(e.which == 17) {
+			isCtrl = true; 
+		}
+		if(e.which == 16) {
+			isShift = true; 
+		}
+		if(e.which == 65 && isCtrl && isShift) { 
+			
+var url =$(location).attr('href')+"?ctl=login";   
+$(location).attr('href',url);
+		} 
+if(e.which == 90 && isCtrl && isShift) { 
+		
+var url ="/admin/security/logoff.aspx";    
+$(location).attr('href',url);
+		} 
+	});
+	
+});		
+		
+</script>
+<style >
+.DNNEmptyPane{display:none;}
+</style>
+ <script src="/js/redirection-mobile.js"></script>
+            <script>
+                SA.redirection_mobile ({
+        tablet_redirection : "false",
+        mobile_url : "cityoftyler.org/mobile.aspx",
+        mobile_prefix : "www",
+        mobile_scheme: "http"
+    });
+            </script><link rel='SHORTCUT ICON' href='/Portals/0/favicon.ico' type='image/x-icon' /><link href="/Portals/_default/Skins/CityTyler/Themes/Tyler/theme.css" rel="stylesheet" type="text/css" /></head>
+<body id="Body">
+    
+    <form method="post" action="/" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value="" />
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3afa6755fd-da1a-49d3-9eb4-1e473e780ecd%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="jCn5/4WoU7LfDVG5BRWQibjI176QcUSvNHdT/Hx94HsECbSIJKBZ7pT7MEYe91eYbhHy26gMWC+yi617HxO+uLW/FvClxGvBpP+4Eh6KEdY62Vl8Gzup91ZUGGX7l+f9SajlFx91MjgfLYkMeX4I/LCfIa7McaTwupEVRAofk38qoX/O9NdiUjTxM2xam7r6glZKoVDh5K6lp4LE/kJDWXSwFPd/z3gw+645pA==" />
+</div><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        <script src="/js/dnn.modalpopup.js?cdv=22" type="text/javascript"></script><script src="/js/dnncore.js?cdv=22" type="text/javascript"></script>
+        
+        
+<link href="Skin.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/Portals/_default/Skins/CityTyler/fadein.css" />
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<table width="100%" border="0" height="100%" cellspacing="0" cellpadding="0" class="body_bg">
+  <tr>
+    <td valign="top" class="main_bg"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><div class="body_wrapper"><table border="0" cellspacing="0" cellpadding="0" align="center">
+          <tr>
+            <td class="citytext" valign="bottom"><div class="cover"></div></td>
+            <td class="roze2h"><table border="0" align="center" cellpadding="0" cellspacing="0" class="site_wrapper">
+              <tr>
+                <td class="sitemargin"><div class="menul"><div class="menur"><div class="menub">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="100%"><div id="dnn_HorzNav_pnlCopyright">
+	 
+<!-- 
+###################################################
+#                                                 #
+#   PackFlash Navigation System                   #
+#                                                 #
+#                                                 #
+###################################################
+
+ -->
+
+</div>
+
+
+
+<div id="dnn_HorzNav_MenuDiv">
+<div class="MenuWrapperMega">
+<div class="PfNav"><ul id="PfNavMega">
+
+<li class="Active First" id="Menu1"><a href="http://www.cityoftyler.org/Home.aspx"><span class="MenuText">Home</span></a><div class="PostMenuDiv"></div></li>
+
+<li class="Inactive HasChildren" id="Menu2"><a href="http://www.cityoftyler.org/IWantTo.aspx"><span class="MenuText">I Want To</span></a> <div class="shadow">
+<div class="InnerMegaDiv" id="Menu2Div">
+	
+	<div class="Column First" id="Menu2_Col1">
+	<ul>
+	<li class="Inactive First" id="Menu2_Col1_L1_1">
+	<span class="HtmlBeforeLevel1" id="HtmlBefore_Menu2_Col11_1" style="display:block;"><img alt="" src="/Portals/0/Images/Search.png" /></span>
+	<a href="http://typl-mt.iii.com/iii/encore/?lang=eng">Search the Library Catalog </a></li>
+	<li class="Inactive" id="Menu2_Col1_L1_2"><a href="http://www.cityoftyler.org/Departments/CodeEnforcement/ToReportCodeViolations.aspx">Notify City of Code Violation </a></li>
+	<li class="Inactive" id="Menu2_Col1_L1_3"><a href="http://www.cityoftyler.org/IWantTo/SearchtheCodeofOrdinances.aspx">Search the Code of Ordinances </a></li>
+	<li class="Inactive" id="Menu2_Col1_L1_4"><a href="http://www.cityoftyler.org/IWantTo/LookUpaBuildingPermit.aspx">Look Up a Building Permit </a></li>
+	<li class="Inactive" id="Menu2_Col1_L1_5"><a href="http://www.cityoftyler.org/IWantTo/SearchCityMaps.aspx">Search City Maps </a></li>
+	<li class="Inactive" id="Menu2_Col1_L1_6"><a href="http://www.cityoftyler.org/IWantTo/ReportFraud.aspx">Report Fraud </a></li>
+	<li class="Inactive" id="Menu2_Col1_L1_7"><a href="http://www.cityoftyler.org/IWantTo/ReportGraffiti.aspx">Report Graffiti </a></li>
+	<li class="Inactive Last" id="Menu2_Col1_L1_8"><a href="http://www.cityoftyler.org/Departments/TylerTransit.aspx">Find a Bus Route </a></li>
+	</ul>
+	</div>
+	<div class="Column" id="Menu2_Col2">
+	<ul>
+	<li class="Inactive First" id="Menu2_Col2_L1_1">
+	<span class="HtmlBeforeLevel1" id="HtmlBefore_Menu2_Col21_1" style="display:block;"><img alt="" src="/Portals/0/Images/Connect.png" /></span>
+	<a href="https://hr.cityoftyler.org/emp_welcome.asp">Apply For a Job </a></li>
+	<li class="Inactive" id="Menu2_Col2_L1_2"><a href="http://www.cityoftyler.org/Departments/Communications/MayorsCitizensAcademy.aspx">Apply for Citizens Academy </a></li>
+	<li class="Inactive" id="Menu2_Col2_L1_3"><a href="http://www.cityoftyler.org/IWantTo/GetEmailUpdates.aspx">Get E-mail Updates </a></li>
+	<li class="Inactive" id="Menu2_Col2_L1_4"><a href="http://tylercitytx.iqm2.com/Citizens/Default.aspx">Watch a Council Meeting </a></li>
+	<li class="Inactive" id="Menu2_Col2_L1_5"><a href="http://www.cityoftyler.org/Departments/TylerTV3.aspx">Watch My Tyler TV 3 </a></li>
+	<li class="Inactive" id="Menu2_Col2_L1_6"><a href="http://www.cityoftyler.org/Departments/SolidWaste/Recycling.aspx">Sign up for Recycling </a></li>
+	<li class="Inactive" id="Menu2_Col2_L1_7"><a href="http://www.cityoftyler.org/Government/MayorandCouncil/Mayor/AsktheMayor.aspx">Ask the Mayor</a></li>
+	<li class="Inactive Last" id="Menu2_Col2_L1_8"><a href="http://www.cityoftyler.org/Government/ContacttheCityCouncil.aspx">Contact City Council</a></li>
+	</ul>
+	</div>
+	<div class="Column Last" id="Menu2_Col3">
+	<ul>
+	<li class="Inactive First" id="Menu2_Col3_L1_1">
+	<span class="HtmlBeforeLevel1" id="HtmlBefore_Menu2_Col31_1" style="display:block;"><img alt="" src="/Portals/0/Images/Paybill.png" /></span>
+	<a href="http://www.cityoftyler.org/Departments/TylerWaterUtilities/WaterBillingOffice/PayingYourBill.aspx">Pay My Water Bill </a></li>
+	<li class="Inactive" id="Menu2_Col3_L1_2"><a href="https://www.cityoftyler.org/CustomerServiceRequest.aspx">Request Water Service</a></li>
+	<li class="Inactive" id="Menu2_Col3_L1_3"><a href="http://www.cityoftyler.org/Departments/TylerWaterUtilities/WaterBillingOffice/ChangeMyWaterService.aspx">Change My Water Service </a></li>
+	<li class="Inactive" id="Menu2_Col3_L1_4"><a href="http://www.cityoftyler.org/Departments/TylerWaterUtilities/WaterBillingOffice/EnrollinElectronicBilling.aspx">Enroll in Electronic Billing </a></li>
+	<li class="Inactive Last" id="Menu2_Col3_L1_5"><a href="http://www.cityoftyler.org/Departments/MunicipalCourt/MunicipalCourt/MakeaPayment.aspx">Pay a Traffic Ticket </a>
+	<span class="HtmlAfterLevel1" id="HtmlAfter_Menu2_Col31_5" style="text-align:left; display:block;"><br />
+<a href="/IWantTo/MoreServices.aspx"><img alt="" style="border-width: 0px; border-style: solid;" src="/Portals/0/Images/menumore.png" /></a></span>
+	</li>
+	</ul>
+	</div>
+	
+<span class="HtmlAfterLevel0" id="HtmlAfter0_2" style="float:right;"><img alt="" src="/Portals/0/Images/iwant.png" /></span>
+</div></div><div class="PostMenuDiv"></div></li>
+
+<li class="Inactive HasChildren" id="Menu3"><a href="http://www.cityoftyler.org/Departments.aspx"><span class="MenuText">Departments</span></a> <div class="shadow">
+<div class="InnerMegaDiv" id="Menu3Div">
+	
+	<div class="Column First" id="Menu3_Col1">
+	<ul>
+	<li class="Inactive First" id="Menu3_Col1_L1_1"><a href="http://www.cityoftyler.org/Departments/Airport.aspx" title="Tyler Pounds Regional Airport">Airport</a></li>
+	<li class="Inactive" id="Menu3_Col1_L1_2"><a href="http://www.cityoftyler.org/Departments/DevelopmentServices/BuildingInspectionsDivision.aspx">Building Inspections</a></li>
+	<li class="Inactive" id="Menu3_Col1_L1_3"><a href="http://www.cityoftyler.org/Departments/CityClerk.aspx">City Clerk</a></li>
+	<li class="Inactive" id="Menu3_Col1_L1_4"><a href="http://www.cityoftyler.org/Departments/CityManagersOffice.aspx">City Manager's Office</a></li>
+	<li class="Inactive" id="Menu3_Col1_L1_5"><a href="http://www.cityoftyler.org/Departments/InnovationLeanSixSigma/CityUniversity.aspx">City University</a></li>
+	<li class="Inactive" id="Menu3_Col1_L1_6"><a href="http://www.cityoftyler.org/Departments/CodeEnforcement.aspx">Code Enforcement</a></li>
+	<li class="Inactive" id="Menu3_Col1_L1_7"><a href="http://www.cityoftyler.org/Departments/Communications.aspx">Communications</a></li>
+	<li class="Inactive" id="Menu3_Col1_L1_8"><a href="http://www.cityoftyler.org/Departments/DevelopmentServices.aspx">Development Services</a></li>
+	<li class="Inactive" id="Menu3_Col1_L1_9"><a href="http://www.cityoftyler.org/Departments/EngineeringServices.aspx">Engineering Services</a></li>
+	<li class="Inactive" id="Menu3_Col1_L1_10"><a href="http://www.cityoftyler.org/Departments/FinanceDepartment.aspx">Finance Department</a></li>
+	<li class="Inactive" id="Menu3_Col1_L1_11"><a href="http://fire.cityoftyler.org">Fire</a></li>
+	<li class="Inactive" id="Menu3_Col1_L1_12"><a href="http://www.cityoftyler.org/Departments/GIS.aspx">GIS</a></li>
+	<li class="Inactive Last" id="Menu3_Col1_L1_13"><a href="http://www.cityoftyler.org/Departments/HistoricPreservation.aspx">Historic Preservation</a></li>
+	</ul>
+	</div>
+	<div class="Column" id="Menu3_Col2">
+	<ul>
+	<li class="Inactive First" id="Menu3_Col2_L1_1"><a href="http://www.cityoftyler.org/Departments/HumanResources.aspx">Human Resources</a></li>
+	<li class="Inactive" id="Menu3_Col2_L1_2"><a href="http://www.cityoftyler.org/Departments/InformationTechnology.aspx">Information Technology</a></li>
+	<li class="Inactive" id="Menu3_Col2_L1_3"><a href="http://www.cityoftyler.org/Departments/InnovationLeanSixSigma.aspx">Innovation/ Lean Six Sigma</a></li>
+	<li class="Inactive" id="Menu3_Col2_L1_4"><a href="http://www.cityoftyler.org/Departments/Legal.aspx">Legal</a></li>
+	<li class="Inactive" id="Menu3_Col2_L1_5"><a href="http://www.libertytyler.com/">Liberty</a></li>
+	<li class="Inactive" id="Menu3_Col2_L1_6"><a href="http://library.cityoftyler.org">Library</a></li>
+	<li class="Inactive" id="Menu3_Col2_L1_7"><a href="http://www.cityoftyler.org/Departments/MainStreet.aspx">Main Street</a></li>
+	<li class="Inactive" id="Menu3_Col2_L1_8"><a href="http://www.cityoftyler.org/Departments/MunicipalCourt.aspx">Municipal Court</a></li>
+	<li class="Inactive" id="Menu3_Col2_L1_9"><a href="http://www.cityoftyler.org/Departments/NeighborhoodServices.aspx">Neighborhood Services</a></li>
+	<li class="Inactive" id="Menu3_Col2_L1_10"><a href="http://parksandrec.cityoftyler.org">Parks and Recreation</a></li>
+	<li class="Inactive" id="Menu3_Col2_L1_11"><a href="http://www.cityoftyler.org/Departments/Planning.aspx">Planning</a></li>
+	<li class="Inactive" id="Menu3_Col2_L1_12"><a href="http://www.tylerpolice.com/">Police</a></li>
+	<li class="Inactive Last" id="Menu3_Col2_L1_13"><a href="http://www.cityoftyler.org/Departments/Purchasing.aspx">Purchasing</a></li>
+	</ul>
+	</div>
+	<div class="Column Last" id="Menu3_Col3">
+	<ul>
+	<li class="Inactive First" id="Menu3_Col3_L1_1"><a href="http://www.cityoftyler.org/Departments/RiskManagement.aspx">Risk Management</a></li>
+	<li class="Inactive" id="Menu3_Col3_L1_2"><a href="http://www.cityoftyler.org/Departments/StormwaterManagementProgram.aspx">Stormwater Management Program</a></li>
+	<li class="Inactive" id="Menu3_Col3_L1_3"><a href="http://www.cityoftyler.org/Departments/Streets.aspx">Streets</a></li>
+	<li class="Inactive" id="Menu3_Col3_L1_4"><a href="http://www.cityoftyler.org/Departments/SolidWaste.aspx">Solid Waste</a></li>
+	<li class="Inactive" id="Menu3_Col3_L1_5"><a href="http://www.cityoftyler.org/Departments/TrafficEngineering.aspx">Traffic Engineering</a></li>
+	<li class="Inactive" id="Menu3_Col3_L1_6"><a href="http://www.cityoftyler.org/Departments/TylerAreaMetropolitanPlanningOrganization.aspx">Tyler Area Metropolitan Planning Organization</a></li>
+	<li class="Inactive" id="Menu3_Col3_L1_7"><a href="http://www.cityoftyler.org/Departments/TylerTransit.aspx">Tyler Transit</a></li>
+	<li class="Inactive" id="Menu3_Col3_L1_8"><a href="http://www.cityoftyler.org/Departments/TylerTV3.aspx">Tyler TV 3</a></li>
+	<li class="Inactive" id="Menu3_Col3_L1_9"><a href="http://www.cityoftyler.org/Departments/TylerWaterUtilities.aspx">Tyler Water Utilities</a></li>
+	<li class="Inactive" id="Menu3_Col3_L1_10"><a href="http://www.cityoftyler.org/Departments/VehicleServices.aspx">Vehicle Services</a></li>
+	<li class="Inactive Last" id="Menu3_Col3_L1_11"><a href="http://www.cityoftyler.org/Departments/VolunteerServices.aspx">Volunteer Services</a></li>
+	</ul>
+	</div>
+	
+<span class="HtmlAfterLevel0" id="HtmlAfter0_3" style="float:right;"><img alt="" src="/Portals/0/Images/department.png" /></span>
+</div></div><div class="PostMenuDiv"></div></li>
+
+<li class="Inactive HasChildren" id="Menu4"><a><span class="MenuText">Government</span></a> <div class="shadow">
+<div class="InnerMegaDiv" id="Menu4Div">
+	
+	<div class="Column First Last" id="Menu4_Col1">
+	<ul>
+	<li class="Inactive First" id="Menu4_Col1_L1_1"><a href="http://www.cityoftyler.org/Government/MayorandCouncil.aspx">Mayor and Council</a></li>
+	<li class="Inactive" id="Menu4_Col1_L1_2"><a href="http://www.cityoftyler.org/Government/MayorandCouncil/Mayor.aspx">Mayor</a></li>
+	<li class="Inactive" id="Menu4_Col1_L1_3"><a href="http://www.cityoftyler.org/Government/MayorandCouncil.aspx">Council</a></li>
+	<li class="Inactive" id="Menu4_Col1_L1_4"><a href="http://www.cityoftyler.org/Departments/CityManagersOffice.aspx">City Manager Office</a></li>
+	<li class="Inactive" id="Menu4_Col1_L1_5"><a href="http://www.cityoftyler.org/Departments/CityClerk/BoardsCommission.aspx">Boards and Commissions</a></li>
+	<li class="Inactive" id="Menu4_Col1_L1_6"><a href="http://www.cityoftyler.org/Government/Agendas.aspx">Agendas</a></li>
+	<li class="Inactive Last" id="Menu4_Col1_L1_7"><a href="http://www.cityoftyler.org/Government/ContacttheCityCouncil.aspx">Contact the City Council</a></li>
+	</ul>
+	</div>
+	
+<span class="HtmlAfterLevel0" id="HtmlAfter0_4" style="float:right;"><img alt="" src="/Portals/0/Images/concil2.png" /></span>
+</div></div><div class="PostMenuDiv"></div></li>
+
+<li class="Inactive HasChildren" id="Menu5"><a><span class="MenuText">Residents</span></a> <div class="shadow">
+<div class="InnerMegaDiv" id="Menu5Div">
+	
+	<div class="Column First Last" id="Menu5_Col1">
+	<ul>
+	<li class="Inactive First" id="Menu5_Col1_L1_1"><a href="http://www.cityoftyler.org/Residents/AnimalControl.aspx">Animal Control</a></li>
+	<li class="Inactive" id="Menu5_Col1_L1_2"><a href="http://www.cityoftyler.org/Residents/CityHolidays.aspx">City Holidays</a></li>
+	<li class="Inactive" id="Menu5_Col1_L1_3"><a href="http://www.cityoftyler.org/Departments/MunicipalCourt.aspx">Municipal Court</a></li>
+	<li class="Inactive" id="Menu5_Col1_L1_4"><a href="http://www.cityoftyler.org/Residents/SchoolDistrict.aspx">School District</a></li>
+	<li class="Inactive Last" id="Menu5_Col1_L1_5"><a href="http://parksandrec.cityoftyler.org">Parks & Recreation</a></li>
+	</ul>
+	</div>
+	
+<span class="HtmlAfterLevel0" id="HtmlAfter0_5" style="float:right;"><img alt="" src="/Portals/0/Images/Residents.png" /></span>
+</div></div><div class="PostMenuDiv"></div></li>
+
+<li class="Inactive HasChildren" id="Menu6"><a><span class="MenuText">Business</span></a> <div class="shadow">
+<div class="InnerMegaDiv" id="Menu6Div">
+	
+	<div class="Column First Last" id="Menu6_Col1">
+	<ul>
+	<li class="Inactive First" id="Menu6_Col1_L1_1"><a href="http://www.cityoftyler.org/Business/BuildingInspectionForms.aspx">Building Inspection Forms</a></li>
+	<li class="Inactive" id="Menu6_Col1_L1_2"><a href="http://www.cityoftyler.org/Business/OnLinePermitServices.aspx">On-Line Permit Services</a></li>
+	<li class="Inactive" id="Menu6_Col1_L1_3"><a href="http://www.cityoftyler.org/Business/PlanningandZoningForms.aspx">Planning and Zoning Forms</a></li>
+	<li class="Inactive" id="Menu6_Col1_L1_4"><a href="http://www.cityoftyler.org/Business/CodeofOrdinances.aspx">Code of Ordinances</a></li>
+	<li class="Inactive" id="Menu6_Col1_L1_5"><a href="http://www.cityoftyler.org/Departments/Purchasing/VendorBidList.aspx">Vendor/Bid Information</a></li>
+	<li class="Inactive" id="Menu6_Col1_L1_6"><a href="http://www.cityoftyler.org/Business/AppraisalDistrict.aspx">Appraisal District</a></li>
+	<li class="Inactive Last" id="Menu6_Col1_L1_7"><a href="http://www.cityoftyler.org/Business/EconomicDevelopment.aspx">Economic Development</a></li>
+	</ul>
+	</div>
+	
+<span class="HtmlAfterLevel0" id="HtmlAfter0_6" style="float:right;"><img alt="" src="/Portals/0/Images/menu-business.png" /></span>
+</div></div><div class="PostMenuDiv"></div></li>
+
+<li class="Inactive HasChildren" id="Menu7"><a><span class="MenuText">Visitors</span></a> <div class="shadow">
+<div class="InnerMegaDiv" id="Menu7Div">
+	
+	<div class="Column First Last" id="Menu7_Col1">
+	<ul>
+	<li class="Inactive First" id="Menu7_Col1_L1_1"><a href="http://www.cityoftyler.org/Departments/Airport.aspx">Airport</a></li>
+	<li class="Inactive" id="Menu7_Col1_L1_2"><a href="http://parksandrec.cityoftyler.org/ConventionTourismFacilities/HarveyConventionCenter.aspx">Convention Center</a></li>
+	<li class="Inactive" id="Menu7_Col1_L1_3"><a href="http://www.cityoftyler.org/Vistors/CottonBeltDepotMuseum.aspx">Cotton Belt Depot Museum</a></li>
+	<li class="Inactive" id="Menu7_Col1_L1_4"><a href="http://parksandrec.cityoftyler.org/ParkDirectory/GoodmanLeGrand.aspx">Goodman Museum	</a></li>
+	<li class="Inactive" id="Menu7_Col1_L1_5"><a href="http://www.cityoftyler.org/Departments/TylerWaterUtilities/Lakes/LakeTylerLakeTylerEast.aspx">Lake Tyler</a></li>
+	<li class="Inactive" id="Menu7_Col1_L1_6"><a href="http://parksandrec.cityoftyler.org/ConventionTourismFacilities/RoseGardenCenter.aspx">Rose Garden Center</a></li>
+	<li class="Inactive" id="Menu7_Col1_L1_7"><a href="http://www.cityoftyler.org/Vistors/TylerHistory.aspx">Tyler History</a></li>
+	<li class="Inactive" id="Menu7_Col1_L1_8"><a href="http://www.cityoftyler.org/Vistors/TylerTourism.aspx">Tyler Tourism</a></li>
+	<li class="Inactive Last" id="Menu7_Col1_L1_9"><a href="http://www.cityoftyler.org/Visitors/CalendarofEvents.aspx">Calendar of Events</a></li>
+	</ul>
+	</div>
+	
+<span class="HtmlAfterLevel0" id="HtmlAfter0_7" style="float:right;"><img alt="" src="/Portals/0/Images/menu-visitor.png" /></span>
+</div></div><div class="PostMenuDiv"></div></li>
+
+<li class="Inactive Last" id="Menu8"><a href="http://www.cityoftyler.org/Departments/Planning/ComprehensivePlan/Tyler1st.aspx" title="Tyler 1st"><span class="MenuText">Tyler 1st</span></a><div class="PostMenuDiv"></div></li>
+</ul>
+
+</div></div>
+
+</div>
+
+</td>
+                  <td><a href="http://www.cityoftyler.org"><img src="/Portals/_default/Skins/CityTyler/useng.png" width="34" height="22" border="0" /></a></td>
+                    <td><a href="http://translate.google.com/translate?hl=en&ie=UTF8&prev=_t&rurl=translate.google.com&sl=en&tl=es&u=http://www.cityoftyler.org"><img src="/Portals/_default/Skins/CityTyler/espanol.png" width="97" height="22" border="0" /></a></td>
+                  </tr>
+                </table>
+                </div></div></div></td>
+              </tr>
+              <tr>
+                <td valign="top" class="header"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="logo_wrapper" valign="top" width="100%" align="left"><div class="dnn_logo"><a id="dnn_dnnLOGO_hypLogo" title="Tyler Texas" href="http://www.cityoftyler.org/Home.aspx"><img id="dnn_dnnLOGO_imgLogo" src="/Portals/0/Tyler-Logo2.png" alt="Tyler Texas" style="border-width:0px;" /></a></div></td>
+                    <td><table border="0" cellspacing="0" cellpadding="0" align="right">
+                      <tr> 
+                        <td align="right"><table border="0" cellspacing="0" cellpadding="0" align="right">
+                          <tr>
+                             <td align="right" style="padding-right:15px;"><a href="/Home.aspx"><img src="/Portals/_default/Skins/CityTyler/homeico.png" width="63" height="23" border="0" /></a></td>
+                            <td><ul class="list2 social-icons2">
+                            <li><a href="http://www.facebook.com/pages/City-of-Tyler-Texas-Government/328744635747" class="facebook" title="Facebook" target="_blank"></a></li>
+                            <li><a href=" https://twitter.com/CityofTyler" class="twitter" title="Twitter" target="_blank"></a></li>
+                            <li><a href="http://www.youtube.com/user/TylerCityof?feature=guide" class="youtube" title="YouTube" target="_blank"></a></li>
+                            <li><a href="http://instagram.com/cityoftylertexasgovernment#" class="flickr" title="Instagram" target="_blank"></a></li>
+                            <li><a href="http://pinterest.com/cityoftylertx/" class="pintrest" title="Pintrest" target="_blank"></a></li>
+                            <li><a href="http://www.linkedin.com/company/city-of-tyler---municipal-government#" class="linkedin" title="Linkedin" target="_blank"></a></li>
+                            </ul></td>
+                          </tr>
+                        </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="search_wrapper"><div class="search_bg"><span id="dnn_dnnSEARCH_ClassicSearch">
+  <span class="search" title="Google Web Search"><input id="dnn_dnnSEARCH_WebRadioButton" type="radio" name="dnn$dnnSEARCH$Search" value="WebRadioButton" checked="checked" /><label for="dnn_dnnSEARCH_WebRadioButton">Web</label></span>
+  <span class="search" title="Site Search"><input id="dnn_dnnSEARCH_SiteRadioButton" type="radio" name="dnn$dnnSEARCH$Search" value="SiteRadioButton" checked="checked" /><label for="dnn_dnnSEARCH_SiteRadioButton">Site</label></span>
+  <input name="dnn$dnnSEARCH$txtSearch" type="text" maxlength="255" size="20" id="dnn_dnnSEARCH_txtSearch" class="NormalTextBox" onkeydown="return __dnn_KeyDown(&#39;13&#39;, &#39;javascript:__doPostBack(%27dnn$dnnSEARCH$cmdSearch%27,%27%27)&#39;, event);" />&nbsp;
+  <a id="dnn_dnnSEARCH_cmdSearch" class="search" href="javascript:__doPostBack(&#39;dnn$dnnSEARCH$cmdSearch&#39;,&#39;&#39;)">Search</a>
+</span>
+
+
+</div></td>
+                      </tr>
+                    </table>
+                    </td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td valign="top" class="sitetop"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="right" class="regwrapper"><p><span id="dnn_dnnCURRENTDATE_lblDate" class="reg_login">Monday, September 29, 2014</span>
+</p></td>
+                    </tr>
+                  <tr>
+                    <td><div id="container">
+                        <div id="lofslidecontent45" class="lof-slidecontent" style="width: 1030px; height: 320px;">
+                        <div class="preload">
+                        <div>
+                        </div>
+                        </div>
+                        <div class="lof-main-outer">
+                        <div onclick="return false" class="lof-previous"></div>
+                        <ul class="lof-main-wapper">
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-01.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-02.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-03.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-04.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-05.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-06.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-07.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-08.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-09.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-10.png" /></li>
+                            
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-11.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-12.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-13.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-14.png" /></li>
+                            <li><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/Banners/CityTyler/slide-15.png" /></li>
+                        </ul>
+                        <div onclick="return false" class="lof-next"></div>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="quickbtn">
+                        <div><a href="/Government/MayorandCouncil.aspx" id="mayor"></a></div>
+                        <div><a href="/Departments.aspx" id="city"></a></div>
+                        <div><a href="/SiteLinks/TylerLinks.aspx" id="road"></a></div>
+                        <div><a href="/IWantTo/ApplyForaJob.aspx" id="job"></a></div>
+                        <div><a href="/Departments/FinanceDepartment.aspx" id="transparency"></a></div>
+                        <div><a href="/News.aspx" id="conventions"></a></div>
+                        </div></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td class="sitemargin"><table border="0" cellpadding="0" cellspacing="0" width="100%"  class="main_body">
+                  <tr>
+                    <td id="dnn_ContentPane" class="content_pane DNNEmptyPane" valign="top"></td>
+
+                  </tr>
+                  <tr>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          
+                          <td id="dnn_CenterPane" class="center_pane DNNEmptyPane" valign="top"></td>
+
+                          
+                        </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td id="dnn_MainLeftPane" class="main_left_pane" valign="top"><div class="DnnModule DnnModule-DNN_HTML DnnModule-370"><a name="370"></a>
+
+<div class="welcome">
+       <div class="title_wrapper">
+			 <div class="action"></div>
+             <div class="title_box"><span id="dnn_ctr370_dnnTITLE_titleLabel" class="title_text">Welcome to Tyler, Texas through the Internet!</span>
+
+
+</div>
+		</div>
+        <div class="clear"></div>
+        <div class="bleft"><div class="bright"><div class="bbg">
+	   <div id="dnn_ctr370_ContentPane" class="cbody"><!-- Start_Module_370 --><div id="dnn_ctr370_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr370_HtmlModule_lblContent" class="Normal">
+	<p>Welcome to the City of Tyler!&nbsp; Tyler is an economic hub in northeast Texas - and the Rose Capitol of the United States.&nbsp; </p>
+<br />
+<p>On the City of Tyler website you will discover everything you need to know concerning Tyler municipal government, including City services, City Council meetings, City employment opportunities, recreational opportunities and more. Our goal is to provide you with the latest and most accurate City news and information.&nbsp;<br />
+<br />
+Please don't hesitate to call us if you can't find what you are looking for at (903) 531-1100.</p>
+</div>
+
+</div><!-- End_Module_370 --></div>
+       </div></div></div>
+</div>
+
+
+
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-8570"><a name="8570"></a>
+<div class="blank_bb">
+  <div class="action"></div>
+  <div id="dnn_ctr8570_ContentPane" class="cbody"><!-- Start_Module_8570 --><div id="dnn_ctr8570_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr8570_HtmlModule_lblContent" class="Normal">
+	<span style="color: #ffffff;"><strong><span style="font-size: 18px;">VISION</span></strong><br />
+To be the standard for performance excellence in local government.<br />
+<br />
+<strong><span style="font-size: 18px;">MISSION</span></strong><br />
+To be a results-oriented service organization with a focus on responsiveness, efficiency, sound financial management and quality service to our citizens.</span>
+</div>
+
+</div><!-- End_Module_8570 --></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-8602"><a name="8602"></a>
+<div class="blank">
+  <div class="action"></div>
+  <div id="dnn_ctr8602_ContentPane" class="cbody"><!-- Start_Module_8602 --><div id="dnn_ctr8602_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr8602_HtmlModule_lblContent" class="Normal">
+	<span style="color: #ffffff;">....</span>
+</div>
+
+</div><!-- End_Module_8602 --></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-373"><a name="373"></a>
+
+<div class="redbg_title">
+       <div class="title_wrapper">
+			 <div class="action"></div>
+             <div class="title_box"><span id="dnn_ctr373_dnnTITLE_titleLabel" class="title_text">View the 2013 E-Annual Report</span>
+
+
+</div>
+		</div>
+	   <div id="dnn_ctr373_ContentPane" class="cbody"><!-- Start_Module_373 --><div id="dnn_ctr373_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr373_HtmlModule_lblContent" class="Normal">
+	<table cellspacing="5" cellpadding="5">
+    <tbody>
+        <tr>
+            <td>&nbsp;<iframe width="108" height="135" src="http://bluetoad.com/reports/getCover.php?popup=true&amp;isz=small&amp;m=32320" frameborder="0" scrolling="no"></iframe> </td>
+            <td><span style="font-family: Arial; font-size: 18px;">Check out the 2013 Annual Report online by <br />
+            clicking the link to the left.</span></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<span style="font-size: 18px;">
+</span>
+<span style="font-size: 18px;">
+</span>
+<p style="text-align: center;">
+</p>
+<div style="text-align: left;"><span style="color: #ff0000; font-size: 24px;"><strong>City changes water disinfectant process for one month</strong></span></div>
+<p>The City of Tyler will begin converting its disinfection process to free chlorine for a period of approximately one month beginning Oct. 7 and ending on Nov. 6. Generally, there are no noticeable changes in water quality as a result of this temporary conversion.&nbsp; However, some individuals may notice taste and odor changes and a slight discoloration to the water.&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="/Portals/0/Documents/Communications/Other/Notice%20of%20Free%20Chlorine%20Conversion%202014.pdf" target="_blank">Click here to read the notice of free chlorine conversion. </a></p>
+<p>&nbsp;</p>
+<p><a href="/Portals/0/Documents/Communications/Other/Free%20Chlorine%20Conversion%20Frequently%20Asked%20Questions%20(FAQ).pdf" target="_blank">Click here to read some answers to frequently asked questions.</a></p>
+</div>
+
+</div><!-- End_Module_373 --></div>
+</div>
+
+
+
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-8654"><a name="8654"></a>
+
+<div class="greenbg_title">
+       <div class="title_wrapper">
+			 <div class="action"></div>
+             <div class="title_box"><span id="dnn_ctr8654_dnnTITLE_titleLabel" class="title_text">City of Tyler Budget Information</span>
+
+
+</div>
+		</div>
+	   <div id="dnn_ctr8654_ContentPane" class="cbody"><!-- Start_Module_8654 --><div id="dnn_ctr8654_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr8654_HtmlModule_lblContent" class="Normal">
+	<p><img alt="" style="width: 150px; height: 87px; margin-bottom: 10px; margin-left: 10px; float: right;" src="http://www.cityoftyler.org/portals/0/Images/lean-sigma-video.jpg" /></p>
+<p>&nbsp;</p>
+<p><a href="/Portals/0/Documents/Updated%20-%20FY%2014-15%20Comb.Statements%2081114%20FINAL%20Draft%20website.pdf">City of Tyler proposed budget 2014/2015.</a><br />
+<span style="font-size: 18px;"><strong><br />
+<br />
+</strong></span></p>
+<p>&nbsp;</p>
+</div>
+
+</div><!-- End_Module_8654 --></div>
+</div>
+
+
+
+</div></td>
+
+                          <td id="dnn_MainRightPane" class="main_right_pane" valign="top"><div class="DnnModule DnnModule-DNN_HTML DnnModule-372"><a name="372"></a>
+
+<div class="black_title">
+       <div class="title_wrapper">
+			 <div class="action"></div>
+             <div class="title_box"><span id="dnn_ctr372_dnnTITLE_titleLabel" class="title_text">Quick <span class="RedHead">Links</span></span>
+
+
+</div>
+		</div>
+	   <div id="dnn_ctr372_ContentPane" class="cbody"><!-- Start_Module_372 --><div id="dnn_ctr372_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr372_HtmlModule_lblContent" class="Normal">
+	<div id="quick">
+<ul>
+    <li><a href="/Home/MyTylerENewsletter.aspx">My Tyler Newsletter</a></li>
+    <li><a href="/Home/ContactUs.aspx">Contact Us</a></li>
+    <li><a target="_blank" href="http://www.TylerSpeaks.com">Tyler Speaks</a> </li>
+    <li><a href="/IWantTo/Click4Service.aspx">Click4Service</a></li>
+    <li><a href="/Departments/CityManagersOffice/PerformanceExcellenceProgram.aspx">Performance Excellence Program</a></li>
+    <li><a href="http://parksandrec.cityoftyler.org/Portals/Parks/Documents/Parks%20and%20Recreation/PAG/2014%20Tyler%20Parks%20Summer-Fall%20Activity%20Guide.pdf" target="_blank">Parks Activities Guide</a></li>
+    <li><a href="/Visitors/CalendarofEvents.aspx">Calendar of Events</a>&nbsp;</li>
+</ul>
+</div>
+</div>
+
+</div><!-- End_Module_372 --></div>
+</div>
+
+
+
+</div><div class="DnnModule DnnModule-HomeNews DnnModule-6350"><a name="6350"></a>
+
+<div class="black_title">
+       <div class="title_wrapper">
+			 <div class="action"></div>
+             <div class="title_box"><span id="dnn_ctr6350_dnnTITLE_titleLabel" class="title_text">My <span class="RedHead">Tyler</span> <span class="BlueHead">News</span><a href="/NewsRSSFeed.aspx"><img alt="Subscribe RSS" src="/portals/0/images/Stock/subscribeRss-75.png" style="float: right;" class="Image-PaddingR" /></a></span>
+
+
+</div>
+		</div>
+	   <div id="dnn_ctr6350_ContentPane" class="cbody"><!-- Start_Module_6350 --><div id="dnn_ctr6350_ModuleContent" class="DNNModuleContent ModHomeNewsC">
+	
+
+
+<table width="100%">
+    <tr>
+        <td>
+            <a id="dnn_ctr6350_HomeNews_hyplnkMainPage" href="/News/tabid/1554/ctl/NewsCategory/mid/3011/Default.aspx">Go to Main News Page</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div>
+		<table cellspacing="0" Border="0" id="dnn_ctr6350_HomeNews_grdNews" style="font-size:10pt;width:100%;border-collapse:collapse;">
+			<tr>
+				<td>
+              
+							<span id="dnn_ctr6350_HomeNews_grdNews_lblHeadline_0" class="NormalBlue" style="font-weight:bold;">“Festival of Fear” at Liberty Hall</span><BR>
+							<a id="dnn_ctr6350_HomeNews_grdNews_lnkCategory_0" class="NormalRed" href="/tabid/1554/ctl/NewsCategory/mid/3011/CategoryID/33/NewsID//Default.aspx">Liberty Hall</a>
+							<span id="dnn_ctr6350_HomeNews_grdNews_lblDatePublished_0" class="Comments">
+								&nbsp;-&nbsp;September 25, 2014</span><BR>
+							<span id="dnn_ctr6350_HomeNews_grdNews_lblIntro_0">October is scary movie month at the City of Tyler&rsquo;s Liberty Hall, with a &ldquo;Festival of</span>
+							&nbsp;&nbsp;<a id="dnn_ctr6350_HomeNews_grdNews_lnkMore_0" class="more" href="/tabid/1554/ctl/NewsArticle/mid/3011/CategoryID/33/NewsID/22558/Default.aspx"><span>Read More</span></a><BR>
+							<hr />
+                            </td>
+			</tr><tr>
+				<td>
+              
+							<span id="dnn_ctr6350_HomeNews_grdNews_lblHeadline_1" class="NormalBlue" style="font-weight:bold;">Downtown Tyler Finalist in Three Texas Downtown Award Categories</span><BR>
+							<a id="dnn_ctr6350_HomeNews_grdNews_lnkCategory_1" class="NormalRed" href="/tabid/1554/ctl/NewsCategory/mid/3011/CategoryID/34/NewsID//Default.aspx">Main Street</a>
+							<span id="dnn_ctr6350_HomeNews_grdNews_lblDatePublished_1" class="Comments">
+								&nbsp;-&nbsp;September 25, 2014</span><BR>
+							<span id="dnn_ctr6350_HomeNews_grdNews_lblIntro_1">The Fair Plaza Garage, Tyler&rsquo;s African American Heritage Trail and Regions Bank have all been</span>
+							&nbsp;&nbsp;<a id="dnn_ctr6350_HomeNews_grdNews_lnkMore_1" class="more" href="/tabid/1554/ctl/NewsArticle/mid/3011/CategoryID/34/NewsID/22559/Default.aspx"><span>Read More</span></a><BR>
+							<hr />
+                            </td>
+			</tr>
+		</table>
+	</div>
+        </td>
+    </tr>
+</table>
+</div><!-- End_Module_6350 --></div>
+</div>
+
+
+
+</div><div class="DnnModule DnnModule-DNN_HTML DnnModule-446"><a name="446"></a>
+
+<div class="black_title">
+       <div class="title_wrapper">
+			 <div class="action"></div>
+             <div class="title_box"><span id="dnn_ctr446_dnnTITLE_titleLabel" class="title_text">Don't <span class="RedHead">Miss ...</span></span>
+
+
+</div>
+		</div>
+	   <div id="dnn_ctr446_ContentPane" class="cbody"><!-- Start_Module_446 --><div id="dnn_ctr446_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr446_HtmlModule_lblContent" class="Normal">
+	<div id="SlideFrame">
+<div id="slider">
+<ul>
+    <li><a href="https://cne.coderedweb.com/Default.aspx?groupid=21wKlSaog8sfkw7OHS29qQ%3d%3d" target="_blank"><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/sponsors-01.png" /></a></li>
+    <li><a href="http://bluetoad.com/publication/?i=208445" target="_blank"><img alt="" style="border-color: #ffffff; width: 245px; height: 130px;" src="/portals/0/Images/Departments/Communications/Other/Website%20Logo.PNG" /></a></li>
+    <li><a href="/Departments/TylerTV3.aspx" target="_blank"><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/DontMiss/channel3.jpg" /></a></li>
+    <li><a href="http://www.youtube.com/watch?v=k-HI16Xa564&amp;list=UU5xdSzNJDGK92xye4taGmug" target="_blank"><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/departments/communications/stateofthecityvideo.png" /></a></li>
+    <li><a href="/Departments/CityManagersOffice/PerformanceExcellenceProgram.aspx" target="_blank"><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/DontMiss/PEP-Banner.png" /></a></li>
+    <li><a href="http://www.youtube.com/watch?v=0x2THj6HLkw&amp;feature=c4-overview&amp;list=UU5xdSzNJDGK92xye4taGmug" target="_blank"><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/sponsors-02.png" /></a></li>
+    <li><a href="http://www.youtube.com/watch?v=ifW0xaj3bEg" target="_blank"><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/DontMiss/FlyTyler.png" /></a></li>
+    <li><a href="http://cotparks.netsam.com/SpecialProjects/MayorsTreeInitiative.aspx" target="_blank"><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/sponsors-03.png" /></a></li>
+    <li><a href="/Departments/TrafficEngineering/FlashingYellowArrow.aspx"><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/sponsors-04.png" /></a></li>
+    <li><a href="/Departments/Communications/IndustryGrowthInitiative.aspx" target="_blank"><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/sponsors-05.png" /></a></li>
+    <li><a href="http://tylercitytx.iqm2.com/Citizens/Default.aspx" target="_blank"><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/CouncilOnline_button.gif" /></a></li>
+    <li><a href="/Departments/Innovation/PerformanceExcellence.aspx"><img alt="" style="width: 140px; height: 77px;" src="/portals/0/Images/DontMiss/QT%20Progress.JPG" /></a></li>
+    <li><a href="http://www.lightenupeasttexas.com/%20(" target="_blank"><img alt="" style="border-width: 0px; border-style: solid;" src="/portals/0/Images/LUETlogo2.jpg" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div><!-- End_Module_446 --></div>
+</div>
+
+
+
+</div></td>
+
+                        </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td id="dnn_ContentLeft" class="content_left_pane DNNEmptyPane" valign="top"></td>
+
+                           
+                        </tr>
+                    </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td id="dnn_BodyLeft" class="body_left_pane DNNEmptyPane" valign="top"></td>
+
+                          
+                        </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td id="dnn_BottomPane" class="bottom_pane DNNEmptyPane" valign="top"></td>
+
+                  </tr>
+              </table></td>
+              </tr>
+              <tr>
+                <td class="sitemargin"><div class="footerl">
+                  <div class="footerr">
+                    <div class="footerb"></div>
+                  </div>
+                </div></td>
+              </tr>
+            </table></td>
+            <td class="roze">&nbsp;</td>
+          </tr>
+          </table></div>
+          <div class="footer_wrapper">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" class="footer_bg">
+            <tr>
+              <td><table border="0" cellspacing="0" cellpadding="0" align="center"  class="site_wrapper">
+                <tr>
+                  <td valign="top" width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                          <td id="dnn_FooterLeft" class="footer_left_pane" valign="top"><div class="DnnModule DnnModule-DNN_HTML DnnModule-448"><a name="448"></a>
+<div class="blank">
+  <div class="action"></div>
+  <div id="dnn_ctr448_ContentPane" class="cbody"><!-- Start_Module_448 --><div id="dnn_ctr448_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr448_HtmlModule_lblContent" class="Normal">
+	<table border="0" width="100%" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td valign="top" class="WhiteHead" style="white-space: nowrap;">Contact Us: &nbsp;&nbsp;&nbsp;</td>
+            <td class="NormalWhite" style="width: 100%;">City of Tyler mailing address: P.O. Box 2039, Tyler, TX, 75710<br />
+            Dial 2-1-1 to access the health and social services available to East Texans. </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+</div><!-- End_Module_448 --></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></td>
+
+                        </tr>
+                        <tr>
+                          <td class="copywrapper"><span id="dnn_dnnCOPYRIGHT_lblCopyright" class="Copyright">Copyright 2014 by City of Tyler</span>
+&nbsp; | &nbsp;<a id="dnn_dnnPRIVACY_hypPrivacy" class="terms_privacy" rel="nofollow" href="http://www.cityoftyler.org/privacy.aspx">Privacy Statement</a>&nbsp; | &nbsp;<a id="dnn_dnnTERMS_hypTerms" class="terms_privacy" rel="nofollow" href="http://www.cityoftyler.org/terms.aspx">Terms Of Use</a></td>
+                      	</tr>
+                    </table></td>
+                  <td valign="top"><table border="0" cellspacing="0" cellpadding="0" align="right" class="footerright">
+                    <tr>
+                      <td id="dnn_FooterRight" class="footer_right_pane DNNEmptyPane" valign="top"></td>
+
+                      </tr>
+                    <tr>
+                      <td><table border="0" cellspacing="0" cellpadding="0" align="right">
+                      <tr>
+                        <td nowrap="nowrap"><ul class="list social-icons">
+                          <li><a href="http://www.facebook.com/pages/City-of-Tyler-Texas-Government/328744635747" class="facebook" title="Facebook" target="_blank"></a></li>
+                          <li><a href=" https://twitter.com/CityofTyler" class="twitter" title="Twitter" target="_blank"></a></li>
+                          <li><a href="http://www.youtube.com/user/TylerCityof?feature=guide" class="youtube" title="YouTube" target="_blank"></a></li>
+                          <li><a href="http://instagram.com/cityoftylertexasgovernment#" class="flickr" title="Instagram" target="_blank"></a></li>
+                          <li><a href="http://pinterest.com/cityoftylertx/" class="pintrest" title="Pintrest" target="_blank"></a></li>
+                          <li><a href="http://www.linkedin.com/company/city-of-tyler---municipal-government#" class="linkedin" title="Linkedin" target="_blank"></a></li>
+                          </ul></td>
+                        <td class="flike"><div class="fb-like" data-href="http://www.facebook.com/pages/City-of-Tyler-Texas-Government/328744635747" data-send="false" data-layout="button_count" data-width="80" data-show-faces="false"></div></td>
+                      </tr>
+                    </table>
+                    </td>
+                      </tr>
+                    </table></td>
+                </tr>
+                </table></td>
+              </tr>
+            </table>
+           </div>
+          </td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+	<script type="text/javascript" src="/Portals/_default/Skins/CityTyler/easySlider1.5.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){	
+			$("#slider").easySlider({
+				auto:true,
+				continuous: true 
+			});
+		});	
+	</script>
+<script language="javascript" type="text/javascript" src="/Portals/_default/Skins/CityTyler/fadein.js"></script>
+<script type="text/javascript">
+ $(document).ready( function(){	
+	var buttons = { previous:$('#lofslidecontent45 .lof-previous') ,
+		next:$('#lofslidecontent45 .lof-next') };		
+		$obj = $('#lofslidecontent45').lofJSidernews( { interval : 4000,
+			direction: 'opacity',	
+			easing: 'swing',
+			duration: 1200,
+			auto: true,
+			mainWidth:980,
+			buttons: buttons} );	
+	});
+</script>
+<script language="javascript">
+$(document).ready(function () {
+    $('img.menu_class').click(function () {
+	$('ul.the_menu').slideToggle('slow');
+    });
+});
+</script>
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" />
+        
+    </form>
+    
+    
+</body>
+</html>

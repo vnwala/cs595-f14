@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+ 
+ 
+<title>Out There's The Maze.</title>
+ 
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_e27e9e2f9ada_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://stilvinski.tumblr.com/rss">
+<meta name="description" content="| Allie | I kinda obsess over Teen Wolf &amp; anything to do with fiction | Now don&#039;t be mislead by the things that I said in the past, I was young. I was looking for a thrill. That didn&#039;t last long i was..." />
+ 
+<!--Default Variables-->
+ 
+<meta name="color:Background" content="#ffffff"/>
+<meta name="color:Text" content="#aaaaaa"/>
+<meta name="color:Link" content="#000000"/>
+ 
+<meta name="image:Sidebar Image" content=""/>
+<meta name="text:SecondTitle" content="title" />
+ 
+<meta name="text:Link 1 URL" content="" />
+<meta name="text:Link 1" content="" />
+<meta name="text:Link 2 URL" content="" />
+<meta name="text:Link 2" content="" />
+<meta name="text:Link 3 URL" content="" />
+<meta name="text:Link 3" content="" />
+ 
+<meta name="if:sidebarunderlinks" content="1" />
+<meta name="if:sidebarleft" content="1" />
+ 
+ 
+<!-- jquery for tooltips-->
+ 
+ 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+ 
+<script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+ 
+<script>
+ 
+(function($){
+ 
+$(document).ready(function(){
+ 
+$("a[title]").style_my_tooltips({
+ 
+tip_follows_cursor:true,
+ 
+tip_delay_time:30,
+ 
+tip_fade_speed:300,
+ 
+attribute:"title"
+ 
+});
+ 
+});
+ 
+})(jQuery);
+ 
+</script>
+ 
+ 
+<!--CSS customization here. -->
+ 
+<style type="text/css">
+ 
+#s-m-t-tooltip{
+    position:absolute;
+    margin-top: 15px;
+    z-index:9999;
+    background:#fffef4;
+}
+ 
+ 
+ 
+/*basics*/
+blockquote {padding:5px 0 5px 30px;
+border-left:1px solid #000000;
+margin-left:30px;
+}
+ 
+body {
+background:#fffef4;
+color:#000000;
+font-family:arial;
+font-size:11px;
+text-align:justify;
+margin:0;
+line-height:16px;}
+ 
+ 
+a {
+color:#000000;
+text-decoration:none;
+}
+ 
+a:hover {
+text-decoration:underline;}
+ 
+img{opacity:1;
+border:none;
+text-decoration:none}
+ 
+ 
+small {
+font-size:9px;}
+ 
+big {
+font-size:12px;}
+ 
+ 
+#title {font-size:12px;
+line-height:18px;
+font-weight:bold;
+margin-bottom:10px;
+text-transform:uppercase;
+text-align:left;}
+ 
+ 
+/*sidebar*/
+#sidebar {
+position:fixed;
+
+margin-left:-300px;
+
+
+margin-top:100px;
+width:250px;
+}
+ 
+#sidebarim {margin-bottom:5px}
+ 
+#sidebarim img {width:250px}
+ 
+#blogt {font-size:18px;
+font-weight:bold;
+margin-bottom:5px;
+text-align:left;}
+ 
+ 
+#description {
+    margin-bottom:5px;
+}
+ 
+ 
+/*pagination*/
+#pagination {
+margin:50px 0;
+text-transform:lowercase;
+font-weight:bold;
+}
+#pagination a {
+padding:0 15px;
+}
+ 
+/*container*/
+#con {
+left:50%;
+margin-left:-250px;
+position:absolute;
+}
+ 
+ 
+ 
+/*posts*/
+ 
+#entries {
+margin-top:75px;
+width:500px;
+
+margin-left:105px;
+
+
+ 
+}
+ 
+ 
+ 
+#posts {
+width:500px;
+
+margin-bottom:75px;
+
+
+ 
+}
+#posts img {
+max-width:500px;
+}
+ 
+#posts img, #posts li, #posts blockquote {max-width: 100%;}
+.caption {width:100%;
+margin-top:10px;
+ 
+}
+ 
+/*quote*/
+ 
+#titlequote{text-align:left;
+font-size:14px;
+line-height:18px;
+font-weight:bold;
+}
+#source {
+margin-top:15px;
+margin-left:15px;}
+ 
+/*audio*/
+ 
+.player {
+width:25px;
+height:25px;
+overflow:hidden;
+position:absolute;
+background:white;}
+ 
+.audioinfo {
+margin-left:50px;
+}
+ 
+ 
+/*asks*/
+.q {margin-bottom:10px;
+}
+.as {
+font-weight:bold;}
+ 
+.a {
+margin-top:10px;
+}
+ 
+ 
+/*chat*/
+ 
+.chat ol {
+padding:0;
+list-style:none;
+}
+.line {padding:5px 0;}
+ 
+.label {font-weight:bold;
+}
+ 
+ 
+ 
+ 
+ 
+/*permalink and notes*/
+ 
+#permalink {
+margin-top:5px;
+font-size:9px;
+text-transform:lowercase;
+}
+#permalink a {margin-right:10px;
+}
+ 
+ 
+.tags {
+word-break:break-all;
+font-size:9px;
+}
+ 
+.pagenotes {
+
+display: none!important;
+
+width:400px;
+text-align:left;
+ 
+}
+.pagenotes img {
+display:none!important;}
+.pagenotes li {
+list-style-type:none;
+padding:5px 0px;
+text-align:left;
+margin:0 0 0 -40px;
+}
+ 
+ 
+ 
+ 
+Hi
+ 
+ 
+</style>
+ 
+ 
+ 
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=stilvinski" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/bodonirecutfs/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="LMFAO" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Out There&#039;s The Maze." /><meta property="og:url" content="http://stilvinski.tumblr.com/?og=1" /><meta property="og:description" content="| Allie | I kinda obsess over Teen Wolf &amp; anything to do with fiction | Now don&#039;t be mislead by the..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_e27e9e2f9ada_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=stilvinski" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=stilvinski" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="stilvinski" /><meta name="twitter:description" content="&lt;p&gt;| Allie | I kinda obsess over Teen Wolf &amp;amp; anything to do with fiction | Now don&#039;t be mislead by the things that I said in the past, I was young. I was looking for a thrill. That didn&#039;t last long i was in it for the wrong, wrong reason, wrong season, wrong person.&lt;/p&gt;" /><meta name="twitter:creator" content="StarlightCyrusx" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=stilvinski&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=stilvinski&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=stilvinski&amp;referrer=twitter-cards" />
+
+</head>
+ 
+<body>
+ 
+<div id="con">
+ 
+<div id="sidebar">
+<div id="blogt">I Guess You Don't Know What You Got Till It's Gone...</div>
+
+<div id="description"><p>| Allie | I kinda obsess over Teen Wolf &amp; anything to do with fiction | Now don't be mislead by the things that I said in the past, I was young. I was looking for a thrill. That didn't last long i was in it for the wrong, wrong reason, wrong season, wrong person.</p></div>
+<div style="font-weight:bold;">
+<a href="/">home</a>&nbsp;&nbsp;
+<a href="/ask">ask</a>&nbsp;&nbsp;
+<a href="/tagged/faq">faq</a>&nbsp;&nbsp;
+<a href="/tagged/mine" >edits</a>&nbsp;&nbsp;
+<a href="/whatipost">who i post</a>&nbsp;&nbsp;<br></div><br>
+<div id="sidebarim"><img src="http://static.tumblr.com/50f6e05624983be9b4e5ced6e9dabf8e/wnnqwr3/tshnazo3c/tumblr_static_3ttzg22u6eo04wo4s0s4ww004.gif"></div>
+</div>
+ 
+ 
+ 
+ 
+ 
+<div id="entries">
+ 
+
+<div id="posts">
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="photoset_98730341161" class="html_photoset">    <iframe id="photoset_iframe_98730341161" class="photoset" scrolling="no" frameborder="0" height="1220" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://stilvinski.tumblr.com/post/98730341161/photoset_iframe/stilvinski/tumblr_n8zgr5s1Cj1rbijdf/500/false"></iframe></div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="permalink">
+<a href="http://stilvinski.tumblr.com/post/98730341161" ><b>September 29th</b></a><a href="http://stilvinski.tumblr.com/post/98730341161">(+ 2117)</a><a href="http://del-sinrowe.tumblr.com/post/98329539474" title="del-sinrowe">via</a><a href="http://mrnathandrake.tumblr.com/post/92280506325" title="mrnathandrake">source</a>
+
+</div>
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+ 
+ 
+
+<div id="posts">
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="photoset_98730288446" class="html_photoset">    <iframe id="photoset_iframe_98730288446" class="photoset" scrolling="no" frameborder="0" height="610" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://stilvinski.tumblr.com/post/98730288446/photoset_iframe/stilvinski/tumblr_n7gqj7PUrr1ra49xp/500/false"></iframe></div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="permalink">
+<a href="http://stilvinski.tumblr.com/post/98730288446" ><b>September 29th</b></a><a href="http://stilvinski.tumblr.com/post/98730288446">(+ 748)</a><a href="http://del-sinrowe.tumblr.com/post/98480318399" title="del-sinrowe">via</a><a href="http://amal-albuloshia.tumblr.com/post/89350562088" title="amal-albuloshia">source</a>
+
+</div>
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+ 
+ 
+
+<div id="posts">
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+<p><a class="tumblr_blog" href="http://alphiewolf.tumblr.com/post/91568999130/kayteesometimes-tangledbeast-a-lycanthrope">alphiewolf</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://kayteesometimes.tumblr.com/post/88973454590/tangledbeast-a-lycanthrope-transforms-in-front">kayteesometimes</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://tangledbeast.tumblr.com/post/64666839275/a-lycanthrope-transforms-in-front-if-his-friend">tangledbeast</a>:</p>
+<blockquote>
+<p>A lycanthrope transforms in front if his friend for the first time.</p>
+<p>"Oh my god."says his friend,"You just turned into a wolf."</p>
+<p>"Yes,"he replies "I am a were"</p>
+</blockquote>
+<p><a class="post_tag" href="http://tumblr.com/tagged/if-stiles-was-the-werewolf-instead-of-scott">#if stiles was the werewolf instead of scott</a></p>
+</blockquote>
+<p><img alt="image" src="http://media.tumblr.com/fe16b2aea30605aade05d72b5d3718b7/tumblr_n68u06JMsv1qfg6byo8_250.gif"/></p>
+</blockquote>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="permalink">
+<a href="http://stilvinski.tumblr.com/post/98729925761/alphiewolf-kayteesometimes-tangledbeast-a" ><b>September 29th</b></a><a href="http://stilvinski.tumblr.com/post/98729925761/alphiewolf-kayteesometimes-tangledbeast-a">(+ 192466)</a><a href="http://mundane-bastard.tumblr.com/post/98729678480/alphiewolf-kayteesometimes-tangledbeast-a" title="mundane-bastard">via</a><a href="http://tangledbeast.tumblr.com/post/64666839275/a-lycanthrope-transforms-in-front-if-his-friend" title="tangledbeast">source</a>
+
+</div>
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+ 
+ 
+
+<div id="posts">
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="photoset_98729669801" class="html_photoset">    <iframe id="photoset_iframe_98729669801" class="photoset" scrolling="no" frameborder="0" height="740" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://stilvinski.tumblr.com/post/98729669801/photoset_iframe/stilvinski/tumblr_ncn6ipXrRc1rsc3z0/500/false"></iframe></div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="permalink">
+<a href="http://stilvinski.tumblr.com/post/98729669801" ><b>September 29th</b></a><a href="http://stilvinski.tumblr.com/post/98729669801">(+ 6179)</a><a href="http://makos-lightningrod.tumblr.com/post/98728921647" title="makos-lightningrod">via</a><a href="http://stydia.co.vu/post/98694012852" title="brendas-thomas">source</a>
+
+</div>
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+ 
+ 
+
+<div id="posts">
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="photoset_98729648491" class="html_photoset">    <iframe id="photoset_iframe_98729648491" class="photoset" scrolling="no" frameborder="0" height="470" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://stilvinski.tumblr.com/post/98729648491/photoset_iframe/stilvinski/tumblr_nbe6bi49Yo1tyewpc/500/false"></iframe></div>
+
+ 
+
+ 
+
+ 
+
+ 
+<div class="caption"><blockquote>
+<p><small><a href="http://hemmingsluked.tumblr.com/tagged/*mmc"><strong>make me choose</strong></a>: <a href="http://tmblr.co/m6CEyETFMUgBEgUe_x89HwQ">alshtonirwin</a> asked&#160;» <strike>sterek</strike> or stalia</small></p>
+</blockquote></div>
+ 
+
+<div id="permalink">
+<a href="http://stilvinski.tumblr.com/post/98729648491/make-me-choose-alshtonirwin-asked-sterek-or" ><b>September 29th</b></a><a href="http://stilvinski.tumblr.com/post/98729648491/make-me-choose-alshtonirwin-asked-sterek-or">(+ 448)</a><a href="http://delenasfaith.tumblr.com/post/98728946450/make-me-choose-alshtonirwin-asked-sterek-or" title="delenasfaith">via</a><a href="http://hemmingsluked.tumblr.com/post/96638959208/make-me-choose-alshtonirwin-asked-sterek-or" title="hemmingsluked">source</a>
+<div class="tags"><a href="http://stilvinski.tumblr.com/tagged/I-hate-STALIA-but-I-only-reblogged-this-bc-anti-sterek">#I hate STALIA but I only reblogged this bc anti sterek</a><a href="http://stilvinski.tumblr.com/tagged/LMFAO">#LMFAO</a></div>
+</div>
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+ 
+ 
+
+<div id="posts">
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="photoset_98729624906" class="html_photoset">    <iframe id="photoset_iframe_98729624906" class="photoset" scrolling="no" frameborder="0" height="500" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://stilvinski.tumblr.com/post/98729624906/photoset_iframe/stilvinski/tumblr_ncmu5qNytZ1rsc3z0/500/false"></iframe></div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="permalink">
+<a href="http://stilvinski.tumblr.com/post/98729624906" ><b>September 29th</b></a><a href="http://stilvinski.tumblr.com/post/98729624906">(+ 506)</a><a href="http://coltonsdylan.tumblr.com/post/98728950178" title="coltonsdylan">via</a><a href="http://stydia.co.vu/post/98673287187" title="brendas-thomas">source</a>
+
+</div>
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+ 
+ 
+
+<div id="posts">
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="photoset_98729470016" class="html_photoset">    <iframe id="photoset_iframe_98729470016" class="photoset" scrolling="no" frameborder="0" height="213" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://stilvinski.tumblr.com/post/98729470016/photoset_iframe/stilvinski/tumblr_naz2ynDj1E1qewaco/500/false"></iframe></div>
+
+ 
+
+ 
+
+ 
+
+ 
+<div class="caption"><p><a href="http://fuckmoxy.tumblr.com/post/95972982515/d-e-a-d" class="tumblr_blog">fuckmoxy</a>:</p>
+
+<blockquote><p>d e a d</p></blockquote></div>
+ 
+
+<div id="permalink">
+<a href="http://stilvinski.tumblr.com/post/98729470016/fuckmoxy-d-e-a-d" ><b>September 29th</b></a><a href="http://stilvinski.tumblr.com/post/98729470016/fuckmoxy-d-e-a-d">(+ 246057)</a><a href="http://legalmexican.tumblr.com/post/98728973960/fuckmoxy-d-e-a-d" title="legalmexican">via</a><a href="http://tumblr.tastefullyoffensive.com/post/95919283765/via" title="tastefullyoffensive">source</a>
+
+</div>
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+ 
+ 
+
+<div id="posts">
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="photoset_98729267971" class="html_photoset">    <iframe id="photoset_iframe_98729267971" class="photoset" scrolling="no" frameborder="0" height="895" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://stilvinski.tumblr.com/post/98729267971/photoset_iframe/stilvinski/tumblr_nc9mke91FZ1s6z4zd/500/false"></iframe></div>
+
+ 
+
+ 
+
+ 
+
+ 
+<div class="caption"><p><a href="http://mockingday.tumblr.com/post/98077888780/watch-emmas-speech-and-take-action" class="tumblr_blog">mockingday</a>:</p>
+
+<blockquote><p><a href="https://www.youtube.com/watch?v=p-iFl4qhBsE">Watch Emma’s speech</a> <em><a href="http://www.heforshe.org/">and take action</a></em></p></blockquote></div>
+ 
+
+<div id="permalink">
+<a href="http://stilvinski.tumblr.com/post/98729267971/mockingday-watch-emmas-speech-and-take-action" ><b>September 29th</b></a><a href="http://stilvinski.tumblr.com/post/98729267971/mockingday-watch-emmas-speech-and-take-action">(+ 418662)</a><a href="http://partofthesupersecretboyband.tumblr.com/post/98728997596/mockingday-watch-emmas-speech-and-take-action" title="partofthesupersecretboyband">via</a><a href="http://mockingday.tumblr.com/post/98077888780/watch-emmas-speech-and-take-action" title="mockingday">source</a>
+
+</div>
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+ 
+ 
+
+<div id="posts">
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+<a href="http://beyonceknowells.tumblr.com"><img src="http://38.media.tumblr.com/7ccf21326badfea9b547c8fc865a7698/tumblr_n9pwfmSwIO1sel8rpo1_r4_500.png" alt="
+***Flawless (Remix) feat. Nicki Minaj
+"/></a>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div class="caption"><blockquote>
+<p>***Flawless (Remix) feat. Nicki Minaj</p>
+</blockquote></div>
+ 
+
+<div id="permalink">
+<a href="http://stilvinski.tumblr.com/post/98729155091/flawless-remix-feat-nicki-minaj" ><b>September 29th</b></a><a href="http://stilvinski.tumblr.com/post/98729155091/flawless-remix-feat-nicki-minaj">(+ 17714)</a><a href="http://argentie.tumblr.com/post/98729036260/flawless-remix-feat-nicki-minaj" title="argentie">via</a><a href="http://beyonceknowells.tumblr.com/post/93659583154/flawless-remix-feat-nicki-minaj" title="beyonceknowells">source</a>
+
+</div>
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+ 
+ 
+
+<div id="posts">
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="photoset_98729109706" class="html_photoset">    <iframe id="photoset_iframe_98729109706" class="photoset" scrolling="no" frameborder="0" height="644" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://stilvinski.tumblr.com/post/98729109706/photoset_iframe/stilvinski/tumblr_nbvlz8bw7U1tkhjzv/500/false"></iframe></div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="permalink">
+<a href="http://stilvinski.tumblr.com/post/98729109706" ><b>September 29th</b></a><a href="http://stilvinski.tumblr.com/post/98729109706">(+ 37096)</a><a href="http://partofthesupersecretboyband.tumblr.com/post/98729100531" title="partofthesupersecretboyband">via</a><a href="http://parksandcap.tumblr.com/post/97449265324" title="parksandcap">source</a>
+
+</div>
+
+ 
+ 
+ 
+</div>
+ 
+ 
+
+ 
+ 
+
+ 
+<div id="pagination">
+
+
+ 
+ 
+
+<a href="/page/2">next &rarr;</a>
+
+
+</div>
+ 
+ 
+ 
+</div>
+ 
+</div>
+ 
+ 
+
+ 
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://stilvinski.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037407&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc3RpbHZpbnNraS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=MILCGOHDDK&K=ebad8c9d403b60a88591a42e703e9100484cc8819234d91dbaca46e3172ab94e&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037407&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc3RpbHZpbnNraS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=MILCGOHDDK&K=8b63ef742c5472f5ffbadacd2a90ca353f7f90aa1252f39c734a40fa92a2acac&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037407&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3N0aWx2aW5za2kudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjY1MTA4MzU2Iiwicm9vdF9wb3N0aWQiOiI5MjI4MDUwNjMyNSIsInBvc3RpZCI6Ijk4NzMwMzQxMTYxIiwiYmxvZ2lkIjoiMjYzMTA4NjIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjIxMzg5ODgiLCJyb290X3Bvc3RpZCI6Ijg5MzUwNTYyMDg4IiwicG9zdGlkIjoiOTg3MzAyODg0NDYiLCJibG9naWQiOiIyNjMxMDg2MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMTc0ODg3MCIsInJvb3RfcG9zdGlkIjoiNjQ2NjY4MzkyNzUiLCJwb3N0aWQiOiI5ODcyOTkyNTc2MSIsImJsb2dpZCI6IjI2MzEwODYyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ5Njc0MTIwIiwicm9vdF9wb3N0aWQiOiI5ODY5NDAxMjg1MiIsInBvc3RpZCI6Ijk4NzI5NjY5ODAxIiwiYmxvZ2lkIjoiMjYzMTA4NjIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTgwNzk3ODgxIiwicm9vdF9wb3N0aWQiOiI5NjYzODk1OTIwOCIsInBvc3RpZCI6Ijk4NzI5NjQ4NDkxIiwiYmxvZ2lkIjoiMjYzMTA4NjIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDk2NzQxMjAiLCJyb290X3Bvc3RpZCI6Ijk4NjczMjg3MTg3IiwicG9zdGlkIjoiOTg3Mjk2MjQ5MDYiLCJibG9naWQiOiIyNjMxMDg2MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5MTA5NDM5Iiwicm9vdF9wb3N0aWQiOiI5NTkxOTI4Mzc2NSIsInBvc3RpZCI6Ijk4NzI5NDcwMDE2IiwiYmxvZ2lkIjoiMjYzMTA4NjIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTQ4ODUxMDYiLCJyb290X3Bvc3RpZCI6Ijk4MDc3ODg4NzgwIiwicG9zdGlkIjoiOTg3MjkyNjc5NzEiLCJibG9naWQiOiIyNjMxMDg2MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzA3MjE3OTYiLCJyb290X3Bvc3RpZCI6IjkzNjU5NTgzMTU0IiwicG9zdGlkIjoiOTg3MjkxNTUwOTEiLCJibG9naWQiOiIyNjMxMDg2MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDExMTA0NDIiLCJyb290X3Bvc3RpZCI6Ijk3NDQ5MjY1MzI0IiwicG9zdGlkIjoiOTg3MjkxMDk3MDYiLCJibG9naWQiOiIyNjMxMDg2MiIsInNvdXJjZSI6MzN9XX0=&U=JBADKDGLHF&K=3885ff1a692cd8e2044f67ce737deae9ea43aaaf6ca963d20b084b8cc40b2165&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037407&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3N0aWx2aW5za2kudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjY1MTA4MzU2Iiwicm9vdF9wb3N0aWQiOiI5MjI4MDUwNjMyNSIsInBvc3RpZCI6Ijk4NzMwMzQxMTYxIiwiYmxvZ2lkIjoiMjYzMTA4NjIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjIxMzg5ODgiLCJyb290X3Bvc3RpZCI6Ijg5MzUwNTYyMDg4IiwicG9zdGlkIjoiOTg3MzAyODg0NDYiLCJibG9naWQiOiIyNjMxMDg2MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMTc0ODg3MCIsInJvb3RfcG9zdGlkIjoiNjQ2NjY4MzkyNzUiLCJwb3N0aWQiOiI5ODcyOTkyNTc2MSIsImJsb2dpZCI6IjI2MzEwODYyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ5Njc0MTIwIiwicm9vdF9wb3N0aWQiOiI5ODY5NDAxMjg1MiIsInBvc3RpZCI6Ijk4NzI5NjY5ODAxIiwiYmxvZ2lkIjoiMjYzMTA4NjIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTgwNzk3ODgxIiwicm9vdF9wb3N0aWQiOiI5NjYzODk1OTIwOCIsInBvc3RpZCI6Ijk4NzI5NjQ4NDkxIiwiYmxvZ2lkIjoiMjYzMTA4NjIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDk2NzQxMjAiLCJyb290X3Bvc3RpZCI6Ijk4NjczMjg3MTg3IiwicG9zdGlkIjoiOTg3Mjk2MjQ5MDYiLCJibG9naWQiOiIyNjMxMDg2MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5MTA5NDM5Iiwicm9vdF9wb3N0aWQiOiI5NTkxOTI4Mzc2NSIsInBvc3RpZCI6Ijk4NzI5NDcwMDE2IiwiYmxvZ2lkIjoiMjYzMTA4NjIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTQ4ODUxMDYiLCJyb290X3Bvc3RpZCI6Ijk4MDc3ODg4NzgwIiwicG9zdGlkIjoiOTg3MjkyNjc5NzEiLCJibG9naWQiOiIyNjMxMDg2MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzA3MjE3OTYiLCJyb290X3Bvc3RpZCI6IjkzNjU5NTgzMTU0IiwicG9zdGlkIjoiOTg3MjkxNTUwOTEiLCJibG9naWQiOiIyNjMxMDg2MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDExMTA0NDIiLCJyb290X3Bvc3RpZCI6Ijk3NDQ5MjY1MzI0IiwicG9zdGlkIjoiOTg3MjkxMDk3MDYiLCJibG9naWQiOiIyNjMxMDg2MiIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=JBADKDGLHF&K=725aff3c8787b51439ca4764181e7767eba1c0abeae2c65cd4eb5ea2f51cb7b2&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:26310862,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fstilvinski.tumblr.com%2F&amp;lang=en_US&amp;name=stilvinski&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_e27e9e2f9ada_64.png&amp;title=Out+There%26%23039%3Bs+The+Maze.&amp;url=http%3A%2F%2Fstilvinski.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fstilvinski.tumblr.com%2F&amp;lang=en_US&amp;name=stilvinski&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_e27e9e2f9ada_64.png&amp;title=Out+There%26%23039%3Bs+The+Maze.&amp;url=http%3A%2F%2Fstilvinski.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+   
+<div style="position:fixed;bottom:5px;right:5px;z-index:999;font-size:8px;"><a href="http://hoenarry.tumblr.com">theme</a></div>    
+</html>

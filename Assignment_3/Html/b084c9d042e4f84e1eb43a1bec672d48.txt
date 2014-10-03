@@ -1,0 +1,666 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--[if lt IE 7]> <html class="no-js ie6 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> <!--<![endif]-->
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwcDVlBaGwAGUFRbAQU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&&r.length||0,s=n[i]||(n[i]={}),u=0;a>u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,n,i,s){try{u?u-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(d){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t(5),a=window.onerror,s=!1,u=0;t("loader").features.push("err"),window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(c){"stack"in c&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),s=!0)}i.on("fn-start",function(){s&&(u+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&u>0&&(u-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);try{i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1)}catch(r){try{i.emit("internal-error",r)}catch(s){}}return n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,c="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,d=e(c);if(d&&(r.rxSize=d),this.sameOrigin){var f=t.getResponseHeader("X-NewRelic-App-Data");f&&(n.cat=f.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,c=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var c=e(o);c&&(r.txSize=c)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var d=0;u>d;d++)n.addEventListener(s[d],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+c(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+c(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&u&&u.body){p.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=p.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,c="addEventListener",d="attachEvent",f=(""+location).split("?")[0],p=e.exports={offset:i(),origin:f,features:[]};u[c]?(u[c]("DOMContentLoaded",o,!1),s[c]("load",n,!1)):(u[d]("onreadystatechange",r),s[d]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,r,s){function nrWrapper(){try{var n,a=u(arguments),c=this,d=r&&r(a,c)||{}}catch(f){i([f,"",[a,c,s],d])}o(e+"start",[a,c,s],d);try{return n=t.apply(c,a)}catch(p){throw o(e+"err",[a,c,p],d),p}finally{o(e+"end",[a,c,n],d)}}return a(t)?t:(e||(e=""),nrWrapper[n.flag]=!0,nrWrapper)}function r(t,e,r,o){r||(r="");var i,s,u,c="-"===r.charAt(0);for(u=0;u<e.length;u++)s=e[u],i=t[s],a(i)||(t[s]=n(i,c?s+r:r,o,s,t))}function o(t,e,n){try{s.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{s.emit("internal-error",t)}catch(e){}}function a(t){return!(t&&"function"==typeof t&&t.apply&&!t[n.flag])}var s=t(1),u=t(2);e.exports=n,n.inPlace=r,n.flag="nr@wrapper"},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
+
+								<meta property="og:url" content="http://www.selenagomez.com/" />
+				<meta property="og:site_name" content="Selena Gomez" />
+				<meta property="fb:admins" content="620488868,682091272,799055396,573242407,589532541,584578491" />
+				<meta property="og:title" content="Selena Gomez" />
+				<meta property="og:image" content="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/opengraph.jpg" />
+				<meta property="og:description" content="" />
+				<meta property="og:type" content="website" />
+				
+						<link rel="shortcut icon" href="/themes/master/img/favicon.ico" />
+		
+				
+				<title>Home : Selena Gomez</title>
+
+				
+				<!--[if !IE 6]><!-->
+		<link href="/themes/master/css/master.css" media="screen" rel="stylesheet" type="text/css" />
+				<link href="/clients/selena_gomez/css/client.css" media="screen" rel="stylesheet" type="text/css" />
+						<!--<![endif]-->
+					<!--[if IE 6]><link href="/themes/master/css/client_IE6.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+		
+
+				
+				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<script>window.jQuery || document.write('<script src="/engine/js/jquery/jquery-1.7.1.min.js" type="text/javascript"><\/script>')</script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+		<script>window.jQuery.ui || document.write('<script src="/engine/js/jquery/jquery-ui-1.8.16.min.js" type="text/javascript"><\/script>')</script>
+
+		<script src="/engine/js/underscore.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/engine/js/jquery/plugins/fancybox/jquery.fancybox-1.3.1.js" type="text/javascript"></script>
+		<script src="/engine/js/jquery/plugins/jquery.json.js" type="text/javascript"></script>
+		<script src="/engine/js/jquery/plugins/jquery.cookie.js" type="text/javascript"></script>
+		<script src="/engine/js/swfobject/swfobject-2.2.js" type="text/javascript"></script>
+		<script src="/themes/master/js/master.js" type="text/javascript"></script>
+		
+				<script src="/clients/selena_gomez/js/home.js" type="text/javascript"></script>
+<script src="/engine/js/jquery/plugins/jquery-css-slider/jquery.css.slider.js" type="text/javascript"></script> 
+
+
+
+
+<!-- 
+ -->
+<script src="/clients/selena_gomez/js/client.js" type="text/javascript"></script>
+
+				<link rel="alternate" type="application/rss+xml" title="News" href="/api/rss/news" />
+		<link rel="alternate" type="application/rss+xml" title="Events" href="/api/rss/events" />
+
+						
+
+	</head>
+	<body class="home">
+		<!--[if lt IE 7]>
+		<div id="ie6alert">
+			<p><strong>Warning:</strong> We do not support the <a href="http://en.wikipedia.org/wiki/Web_browser" title="What is a web browser, you ask?" target="_blank" class="help">web browser</a> you are using, and cannot guarantee a problem free experience. Please upgrade to one of these modern web browsers (they&rsquo;re free):</p>
+			<ul>
+				<li><a href="http://www.mozilla.com/en-US/firefox/firefox.html" title="Download Firefox for Windows, Mac OS X, and Linux">Mozilla Firefox 3.5+</a></li>
+				<li><a href="http://www.apple.com/safari/" title="Download Safari for Mac OS X and Windows">Apple Safari 3.0+</a></li>
+				<li><a href="http://www.google.com/chrome?brand=CHFV" title="Download Google Chrome for Windows, Mac OS X, and Linux">Google Chrome 4.0+</a></li>
+				<li><a href="http://www.opera.com/download/" title="Download Opera for Windows, Mac OS X and Linux">Opera 9.5+</a></li>
+				<li><a href="http://www.microsoft.com/windows/Internet-explorer/default.aspx" title="Download a newer Internet Explorer Windows">Internet Explorer 7.0+</a></li>
+			</ul>
+		</div>
+		<![endif]-->
+
+		<div id="dashboard">
+	<div class="section">
+					<ul class="nav controls">
+				<li class="register"><a href="/register">Register</a></li>
+				<li>/</li>
+				<li class="login"><a href="/login">Login</a></li>
+			</ul>
+			</div><!-- .section -->
+</div>
+
+		
+		<div id="header">
+	<div class="selena-gomez logo">
+		<h1 class="logo">
+			<a href="/">Selena Gomez</a>
+		</h1>
+	</div>
+	<div class="section">
+		<div class="nav">
+	<ul>
+		<li class="news">
+			<a href="/news">News</a>
+		</li>
+		<li class="events">
+			<a href="/events">Tour</a>
+		</li>
+		<li class="releases">
+			<a href="/releases">Music</a>
+		</li>
+		<li><a href="/film">Film</a></li>
+		<li><a href="/charity">Charity</a></li>
+		<li><a href="/fashion">Fashion</a></li>
+		<li class="media parent">
+			<a href="/media">Media</a>
+			<ul class="media drop">
+				<li class="photos first"><a href="/media/photos">Photos</a></li>
+				<li class="videos alt"><a href="/media/videos">Videos</a></li>
+			</ul>
+		</li>
+		<li class="community parent">
+			<a href="#">The Scene</a>
+			<ul class="community drop">
+				<li class="first"><a href="/users">Users</a></li>
+				<li class="alt"><a href="/blogs">Blogs</a></li>
+				<li><a href="/forum">Forums</a></li>
+				<li class="alt"><a href="/contests">Contests</a></li>
+				<li><a href="/campaigns">Campaigns</a></li>
+				<li class="alt"><a href="/store">Scene Store</a></li>
+			</ul>
+		</li>
+		<li class="store">
+			<a href="http://store.feamerch.com/selenagomez/">Store</a>
+		</li>
+	</ul>
+</div>
+	</div><!-- .section -->
+</div>
+
+<div id="home-slider">
+	<ul id="slides"></ul>
+</div>
+
+
+
+		
+		<div id="breadcrumbs">
+	<div class="nav">
+		<span class="here">You are here:</span> <a href="/" class="home">Home</a>
+	</div><!-- .nav -->
+</div>
+
+		<div id="page">
+			<div id="container">
+				<div id="feature-dock">
+	<ul>
+		<li id="home-feature-one">
+			<div class="figure" style="background:url('http://groundctrl.s3.amazonaws.com/clients/selena-gomez/homepage_mini_ads/on-itunes-now-available.jpg');">
+				<a target="_blank" href="http://smarturl.it/sgiTunesa2">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/homepage_mini_ads/on-itunes-now-available.jpg" />
+				</a>
+			</div>
+		</li>
+		<li id="home-feature-two" style="background:url('http://groundctrl.s3.amazonaws.com/clients/selena-gomez/homepage_mini_ads/neo-collection-ad.jpg');">
+			<div class="figure">
+				<a target="_blank" href="http://www.adidas.com/selenagomez">
+					<img src="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/homepage_mini_ads/neo-collection-ad.jpg" alt="Selena Gomez Neo Collection" />
+				</a>
+			</div>
+		</li>
+		<li id="home-feature-three" style="background:url('//groundctrl.s3.amazonaws.com/clients/selena-gomez/site/home/dream_out-loud.jpg');">
+			<div class="figure">
+				<a target="_blank" href="/fashion">
+					<img src="//groundctrl.s3.amazonaws.com/clients/selena-gomez/site/home/dream_out-loud.jpg" alt="Dream Out Loud Clothing Line" />
+				</a>
+			</div>
+		</li>
+	</ul>
+</div>
+
+<div id="main">
+
+			<div class="section news recent">
+		<div class="header">
+			<h2 class="title"><span>Recent News</span></h2>
+		</div><!-- .header -->
+
+		<ol class='listing full'>
+
+	
+	<li class="item  has-figure">
+		<div class="article" >
+			<div class="header">
+				<h3 class="title"><a href="/news/218993">Happy Birthday, Selena! </a></h3>
+				<div class="meta">
+					<span class="time">Posted July 22 2014</span>
+				</div><!-- .meta -->
+			</div><!-- .header -->
+						<div class="figure">
+								<img src="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/media/11/01/images/assets/small.zgvMEpcEapCu2CfEycCIB2KmuL_a5kevAjsSNUvsmRc.png"  alt="" />
+								<!-- <p class="caption"></p> -->
+			</div>
+						<div class="details content excerpt">
+				<p>Selena turns 22 today! Wish her a happy birthday.</p>
+
+			</div><!-- .details.content.excerpt -->
+			<div class="footer">
+				<div class='meta'>
+					<span class='time'>Posted July 22 2014</span>
+					<span class='author'>by User</span>
+					<span class="comments"><a href="/news/218993/#comments"><span>225</span> Comments</a></span>
+				</div><!-- .meta -->
+				<ul class="nav actions">
+										<li class="GC_sharing">
+						<span class="twitter">
+							<a href="http://twitter.com/share" data-count="horizontal" data-url="http://www.selenagomez.com/news/218993" class="twitter-share-button">Tweet</a>
+						</span>
+						<span class="google">
+							<g:plusone href="http://www.selenagomez.com/news/218993" size="medium"></g:plusone>
+						</span>
+						<span class="facebook">
+							<fb:like href="http://www.selenagomez.com/news/218993" send="false" layout="button_count" width="100" show_faces="false"></fb:like>
+						</span>
+					</li>
+										<li class="readmore">
+						<a href="/news/218993" class="button continue"><span>Read Full Article</span></a>
+					</li>
+				</ul><!-- .actions -->
+			</div><!-- .footer -->
+
+		</div><!-- .article -->
+	</li>
+
+	
+	<li class="item alt has-figure">
+		<div class="article" >
+			<div class="header">
+				<h3 class="title"><a href="/news/210063">Selena Gomez Pleases The Masses At The Met Gala!</a></h3>
+				<div class="meta">
+					<span class="time">Posted May  6 2014</span>
+				</div><!-- .meta -->
+			</div><!-- .header -->
+						<div class="figure">
+								<img src="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/media/12/14/images/assets/small.EQOB9_pgPXM6g67oQAQbeni5tN8x5jIEwvcfcV6hH78.jpg"  alt="" />
+								<!-- <p class="caption"></p> -->
+			</div>
+						<div class="details content excerpt">
+				<p>Hello most amazing shade of purple EVER!</p>
+<p>Selena Gomez wrapped her body up in the sexily dark color at the Met Gala and we LOVE it!</p>
+
+			</div><!-- .details.content.excerpt -->
+			<div class="footer">
+				<div class='meta'>
+					<span class='time'>Posted May  6 2014</span>
+					<span class='author'>by User</span>
+					<span class="comments"><a href="/news/210063/#comments"><span>113</span> Comments</a></span>
+				</div><!-- .meta -->
+				<ul class="nav actions">
+										<li class="GC_sharing">
+						<span class="twitter">
+							<a href="http://twitter.com/share" data-count="horizontal" data-url="http://www.selenagomez.com/news/210063" class="twitter-share-button">Tweet</a>
+						</span>
+						<span class="google">
+							<g:plusone href="http://www.selenagomez.com/news/210063" size="medium"></g:plusone>
+						</span>
+						<span class="facebook">
+							<fb:like href="http://www.selenagomez.com/news/210063" send="false" layout="button_count" width="100" show_faces="false"></fb:like>
+						</span>
+					</li>
+										<li class="readmore">
+						<a href="/news/210063" class="button continue"><span>Read Full Article</span></a>
+					</li>
+				</ul><!-- .actions -->
+			</div><!-- .footer -->
+
+		</div><!-- .article -->
+	</li>
+
+	
+	<li class="item  has-figure">
+		<div class="article" >
+			<div class="header">
+				<h3 class="title"><a href="/news/208253">New Contest: WIN Dream Out Loud Clothing!</a></h3>
+				<div class="meta">
+					<span class="time">Posted April 18 2014</span>
+				</div><!-- .meta -->
+			</div><!-- .header -->
+						<div class="figure">
+								<img src="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/media/14/07/images/assets/small.E3iIbxnCNajYBdxnotsSZ4-P_U5cPBGfhgOgWloxYlo.jpg"  alt="" />
+								<!-- <p class="caption"></p> -->
+			</div>
+						<div class="details content excerpt">
+				<p>There&rsquo;s a new contest in the Selena Gomez fan club, Selenators! Check out more information after the jump.</p>
+
+			</div><!-- .details.content.excerpt -->
+			<div class="footer">
+				<div class='meta'>
+					<span class='time'>Posted April 18 2014</span>
+					<span class='author'>by User</span>
+					<span class="comments"><a href="/news/208253/#comments"><span>180</span> Comments</a></span>
+				</div><!-- .meta -->
+				<ul class="nav actions">
+										<li class="GC_sharing">
+						<span class="twitter">
+							<a href="http://twitter.com/share" data-count="horizontal" data-url="http://www.selenagomez.com/news/208253" class="twitter-share-button">Tweet</a>
+						</span>
+						<span class="google">
+							<g:plusone href="http://www.selenagomez.com/news/208253" size="medium"></g:plusone>
+						</span>
+						<span class="facebook">
+							<fb:like href="http://www.selenagomez.com/news/208253" send="false" layout="button_count" width="100" show_faces="false"></fb:like>
+						</span>
+					</li>
+										<li class="readmore">
+						<a href="/news/208253" class="button continue"><span>Read Full Article</span></a>
+					</li>
+				</ul><!-- .actions -->
+			</div><!-- .footer -->
+
+		</div><!-- .article -->
+	</li>
+
+	
+</ol><!-- .news.listing.full -->
+
+<div class="nav pagination">
+
+	<h6 class="title">Page 1 of 50</h6>
+
+	<div class="pages">
+
+		<ul class="actions back">
+								</ul>
+
+					<ul class="actions forth">
+				<li><a href="?h=2014-04-18+12%3A40%3A00&p=2&d=next">></a></li>
+				<li><a href="?h=l">Last</a></li>
+			</ul>
+		
+	</div>
+
+	<p class="results">149 Results Found</p>
+
+</div>
+
+
+		<div class="footer">
+			<ul class="nav actions">
+				<li><a class="viewall" href="/news">View All</a></li>
+			</ul>
+		</div><!-- .footer -->
+	</div><!-- .section.news.recent -->
+	
+</div><!-- #main -->
+
+<div id="aside">
+
+	<div id="twitter" class="section">
+		<div class="content">
+			<a class="twitter-timeline"  href="https://twitter.com/selenagomez"  data-widget-id="347773994411388928" data-tweet-limit="1" data-link-color="#AC474B" data-chrome="noheader nofooter transparent noborders noscrollbar">Tweets by @selenagomez</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		<div class="footer">
+			<ul class="stuff">
+				<li class="getmore">Get more Selena Gomez</li>
+				<li class="apple">
+					<a target="_blank" href="http://itunes.com/selenagomez">
+						Apple
+					</a>
+				</li>
+				<li class="youtube">
+					<a target="_blank" href="http://www.youtube.com/selenagomez">
+						YouTube
+					</a>
+				</li>
+				<li class="twitter">
+					<a target="_blank" href="http://twitter.com/selenagomez">
+						Twitter
+					</a>
+				</li>
+				<li class="facebook">
+					<a target="_blank" href="https://www.facebook.com/Selena">
+						Facebook
+					</a>
+				</li>
+				<li class="plus">
+					<a target="_blank" rel="author" href="https://plus.google.com/103944754466061975087/">
+					  <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32" />
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+			<div class="section video">
+		<div class="header">
+			<h2 class="title"><span>Featured Video</span></h2>
+		</div>
+		<div id="featured_video" class="section">
+			<div id="video_player" data-video-poster="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/media/01/05/images/assets/medium.FoVpTPDKiemMMssX7qF4zT_KhNXeMmpMho0wlE01yXY.jpg">
+
+<!-- embed code for VEVO/VIMEO -->
+<iframe title="Selena Gomez - Slow Down (Official)" width="450" height="285" src="http://www.youtube.com/embed/Z8eXaXoUJRQ?wmode=transparent" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+
+</div>
+		</div>
+		<div class="footer">
+			<ul class="nav actions">
+				<li><a class="viewall" href="/media/videos">View All Videos</a></li>
+			</ul>
+		</div><!-- .footer -->
+	</div>
+	
+			<div class="section events">
+		<div class="header">
+			<h2 class="title"><span>Upcoming Events</span></h2>
+			<ul class="nav actions">
+				<li><a class="viewall" href="/events/">View All</a></li>
+			</ul>
+		</div><!-- .header -->
+
+		<div class="listing compact">
+	<table>
+		<thead>
+			<tr>
+				<th>Date</th>
+				<th>Location</th>
+				<th>Tickets</th>
+			</tr>
+		</thead>
+		<tbody>
+						<tr>
+				<td colspan="3">There is nothing to display yet, check back soon.</td>
+			</tr>
+					</tbody>
+	</table>
+</div>
+
+		<div class="footer">
+			<ul class="nav actions">
+				<li><a class="viewall" href="/events">View All Tour Dates</a></li>
+			</ul>
+		</div><!-- .footer -->
+	</div><!-- .section.events -->
+	
+			<div class="section recent media">
+		<div class="header">
+			<h2 class="title"><span>Recent Media</span></h2>
+			<ul class="nav actions">
+				<li><a class="viewall" href="/media">View All</a></li>
+			</ul>
+		</div><!-- .header -->
+
+		<div class="thumbs">
+
+						<a class="photo" href="/media/photos/18851/542921">
+				<img src="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/media/05/00/medium.zsf67ptanuu3.jpeg" alt=""/>
+			</a>
+						<a class="photo" href="/media/photos/18291/515221">
+				<img src="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/media/07/01/medium.48u93i34c6gl.jpeg" alt=""/>
+			</a>
+						<a class="photo" href="/media/photos/36291/985931">
+				<img src="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/media/09/03/images/assets/medium.JGz4S22olNeYcGHwCZH2eO2Bz2s9DQoSvwQ2QxWLZj0.jpg" alt=""/>
+			</a>
+						<a class="video" href="/media/videos/21341/37461">
+				<img src="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/media/12/00/images/assets/medium.1wC6PXOt-1Wu5gy2NAVTcxP_q3cb3OQQgdOJNCkJtRw.jpg" alt="A Birthday Tribute to Selena Gomez"/>
+			</a>
+						<a class="video" href="/media/videos/18031/64753">
+				<img src="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/media/01/03/images/assets/medium.zLvNL8WQiA5YidEKlvFDQgFfVGwnCDEAqBYcoVNG-Os.jpg" alt="Win a chance to meet Selena Gomez and help The Salvation Army"/>
+			</a>
+						<a class="video" href="/media/videos/18021/63333">
+				<img src="http://groundctrl.s3.amazonaws.com/clients/selena-gomez/media/01/05/images/assets/medium.FoVpTPDKiemMMssX7qF4zT_KhNXeMmpMho0wlE01yXY.jpg" alt="Selena Gomez - Slow Down (Official)"/>
+			</a>
+			
+		</div><!-- .thumbs -->
+
+		<div class="footer">
+			<ul class="nav actions">
+				<li><a class="viewall" href="/media">View All Recent Media</a></li>
+			</ul>
+		</div><!-- .footer -->
+	</div><!-- .section.recent.media -->
+	
+
+	<div class="section poll">
+		<div class="header">
+			<h2 class="title">
+				<span>
+					Take The Poll
+				</span>
+			</h2>
+		</div>
+		<div class="contnet">
+												<div id="wufoo-p1atmlrr0m455ub">
+Fill out my <a href="https://groundctrl.wufoo.com/forms/p1atmlrr0m455ub">online form</a>.
+</div>
+<script type="text/javascript">var p1atmlrr0m455ub;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'groundctrl',
+'formHash':'p1atmlrr0m455ub',
+'autoResize':true,
+'height':'338',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { p1atmlrr0m455ub = new WufooForm();p1atmlrr0m455ub.initialize(options);p1atmlrr0m455ub.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+									</div>
+	</div>
+
+</div><!-- #aside -->
+			</div><!-- #container -->
+		</div><!-- #page -->
+
+		<div id="footer">
+	<div class="section">
+		<div class="nav">
+	<ul>
+		<li class="news">
+			<a href="/news">News</a>
+		</li>
+		<li class="events">
+			<a href="/events">Tour</a>
+		</li>
+		<li class="releases">
+			<a href="/releases">Music</a>
+		</li>
+		<li><a href="/film">Film</a></li>
+		<li><a href="/charity">Charity</a></li>
+		<li><a href="/fashion">Fashion</a></li>
+		<li class="media parent">
+			<a href="/media">Media</a>
+			<ul class="media drop">
+				<li class="photos first"><a href="/media/photos">Photos</a></li>
+				<li class="videos alt"><a href="/media/videos">Videos</a></li>
+			</ul>
+		</li>
+		<li class="community parent">
+			<a href="#">The Scene</a>
+			<ul class="community drop">
+				<li class="first"><a href="/users">Users</a></li>
+				<li class="alt"><a href="/blogs">Blogs</a></li>
+				<li><a href="/forum">Forums</a></li>
+				<li class="alt"><a href="/contests">Contests</a></li>
+				<li><a href="/campaigns">Campaigns</a></li>
+				<li class="alt"><a href="/store">Scene Store</a></li>
+			</ul>
+		</li>
+		<li class="store">
+			<a href="http://store.feamerch.com/selenagomez/">Store</a>
+		</li>
+	</ul>
+</div>
+		<div id="google_translate_element"></div>
+			
+			<script>
+			// function googleTranslateElementInit() {
+			//     new google.translate.TranslateElement({
+			//         pageLanguage: 'en',
+			//         gaTrack: false,
+			//         layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+			//     },'google_translate_element');
+			// }
+			</script>
+			
+
+			<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		
+		<div class="lower-portion">
+
+			<ul class="social-farm">
+				<li class="facebook">
+					<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FSelena&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=233276590057652" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+				</li>
+				<li>
+					<a href="https://twitter.com/selenagomez" class="twitter-follow-button" data-show-count="true" data-lang="en" data-show-screen-name="false">Follow @selenagomez</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</li>
+				<li>
+					<g:plusone size="medium"></g:plusone>
+				</li>
+			</ul>
+
+			<div class="rights">
+				<ul class="footer-links">
+					<li><span class="copyright">&copy; 2014 Selena Gomez.  All rights reserved.</span></li>
+					<li class="ctrl privacy"><a href="/privacy/" class="privacy coppa" >Privacy Policy</a></li> |
+					<li class="ctrl"><a href="http://groundctrl.com/terms/">Terms &amp; Conditions</a></li> |
+					<li class="ctrl"><a href="http://support.groundctrl.com/">Support</a></li> | 
+					<li class="ctrl"><span class="poweredby">Powered by <a href="http://groundctrl.com"><strong>ground</strong>(ctrl)</a></span></li>
+				</ul>
+
+				<p class="copy"><span>Visit <a href="http://www.OnGuardOnline.gov" target='blank'>www.OnGuardOnline.gov</a> for social networking safety tips for parents and youth</span></p>
+			</div>
+
+		</div>
+	</div><!-- .section -->
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+
+	//client specific
+			var pageTracker = _gat._getTracker("UA-2233934-81");
+		pageTracker._trackPageview();
+			
+	//ground(ctrl) wide
+	var pageTrackerAll = _gat._getTracker("UA-2233934-41");
+	pageTrackerAll._setDomainName("none");
+	pageTrackerAll._setAllowLinker(true);
+	pageTrackerAll._trackPageview();
+</script>
+
+<script type="text/javascript">
+
+   var GoSquared={};
+   GoSquared.acct = "GSN-353074-Z";
+   (function(w){
+       function gs(){
+           w._gstc_lt=+(new Date); var d=document;
+           var g = d.createElement("script"); g.type = "text/javascript"; g.async = true; g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+           var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);
+       }
+       w.addEventListener?w.addEventListener("load",gs,false):w.attachEvent("onload",gs);
+   })(window);
+
+</script>
+
+<div id="fb-root"></div>
+<script src="//connect.facebook.net/en_US/all.js#xfbml=1&amp;appId=148881529100"></script>
+<script src="//platform.twitter.com/widgets.js"></script>
+<script src="//apis.google.com/js/plusone.js"></script>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<!-- Google Code for Selena Gomez Remarketing List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1035879503;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "z4u3CPG9gwIQz4j57QM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1035879503/?label=z4u3CPG9gwIQz4j57QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-6.newrelic.com","licenseKey":"765edf4a24","applicationID":"3645964","transactionName":"ZV1QN0BXD0pZW0RaX1wXcRZBQg5UF3BfXlU=","queueTime":0,"applicationTime":57,"ttGuid":"","agentToken":"","atts":"SRpTQQhNHEQ=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-412.min.js"}</script></body>
+</html>

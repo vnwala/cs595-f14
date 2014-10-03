@@ -1,0 +1,141 @@
+
+<html lang="en"><head>
+        <title>Tweetsta</title>
+<meta content="authenticity_token" name="csrf-param" />
+<meta name="description" content="Buy and Sell tweets at the tweet marketplace.">
+<meta name="keywords" content="tweet,twitter,buy,sell,marketplace,pay4tweet,purchase, pay to tweet,promoted tweets">
+<link href='//fonts.googleapis.com/css?family=Muli:400,400italic|Roboto:700' rel='stylesheet' type='text/css'><meta charset="utf-8">
+<link rel="stylesheet" href="http://tweetsta.com/css/style.css">
+</head>
+<body>
+
+<div id="header">
+		<!-- Logo -->
+		<div id="header-content">
+			<!-- Nav Login -->
+			<div id="nav-login">
+			<form onsubmit="return form_submit(this)" >
+<input name="section" value="user" type="hidden">
+<input name="action" value="login" type="hidden">
+					      <label for="email">Email</label> <input  name="paypal" type="email" valid="email"/> <label for="password">Password</label> <input  name="password" type="password" valid="password" /> 
+					      <input type="submit" value="Log In" />
+</form>	<div style="text-align:right;">or <a href="forgot.php" class="nav-login">Forgot Password</a> | <a href="register.php" class="nav-login">Register</a></div> 
+</div><div><a href="http://tweetsta.com/"><img src="http://tweetsta.com/logo.png" style="height:75px;"></a></div></div>
+</div>
+<div style="background-color: #64cef1; height: 3px;">
+<!-- border -->
+</div>
+<div id="bot-nav">
+<a  href="http://tweetsta.com/tweetlist.php" >Tweet Market</a> 
+<a href="http://tweetsta.com/register.php" >Register</a> 
+
+<a  href="http://tweetsta.com/learn.php" >Learn More</a>
+</div>
+<div id="wrapper">
+<div id="content"> 
+
+
+<h1><img class="col-lg-1" src="https://pbs.twimg.com/profile_images/1281284240/SRFile2011_3_20_22_39_19_625_normal.jpg" alt="" >
+           balmayo</h1>
+<a target="_blank" href="http://twitter.com/@balmayo">@balmayo</a> | <a href="javascript:void(0);" class="" button-data="action,update,id" button-value="open,tweetlist.php?,">Quotes &amp; Inspiration</a><br>
+
+<br><br>
+<!-- Retweet -->
+<div id="details">
+  <h2>Buy a Retweet from balmayo</h2>
+        <h3>Details</h3>
+        • The price is <b>$3.5</b> <br>
+        • You are purchasing one retweet on balmayo <br>
+          • The retweet will be posted instantly. <br>
+        • The retweet is not allowed be deleted, doing so will result in balmayo being banned from Tweetsta.<br>
+        • Paypal fees apply.
+        <br><br>
+      <img style="display: none;" alt="Gettweetid" id="tweet-id-img" src="http://tweetsta.com/images/gettweetid.png">
+          <br>
+      <!-- <form class="form-horizontal col-lg-12 " onsubmit="return form_submit(this)">-->
+      <form class="form-horizontal col-lg-12 " action="http://tweetsta.com/payment.php" method="POST">
+<input type="hidden" name="section" value="message">
+<input type="hidden" name="action" value="insert">
+	<input type="hidden" name="screen" value="balmayo">
+	<input type="hidden" name="account" value="ZkRUK245RGZyNjA0ZDJOQk9PbkpZdz09">
+	<input type="hidden" name="uid" value="Z2Jkdi8wOXJua2FXaXF5QmloeWR3dz09">
+	<input type="hidden" name="price" value="3.5">
+Tweet Id 
+<input id="tweet_id" placeholder="Enter Tweet Id" type="text" class="form-control col-lg-4" name="retweetid">
+<a href="#question" id="question"><b>?</b></a>
+<br><br><br>
+<b>Please log in to purchase, or <a href="http://tweetsta.com/register.php?next=balmayo">click here</a> to register in seconds</b></form></div>
+
+<!-- Tweet -->
+ <h2>Buy a Tweet from balmayo</h2>
+   <h3>Details</h3>
+  • The price is <b>$3.5</b> <br>
+  • You are purchasing one tweet from balmayo <br>
+    • The tweet will be posted instantly. <br>
+  • The tweet is not allowed be deleted, doing so will result in balmayo being banned from Tweetsta.<br>
+  • Paypal fees apply.
+  <br><br>
+ <!--<form class="form-horizontal col-lg-12 " onsubmit="return form_submit(this)">-->
+ <form class="form-horizontal col-lg-12 " action="http://tweetsta.com/payment.php" method="POST">
+	<input type="hidden" name="section" value="message">
+	<input type="hidden" name="action" value="insert">
+	<input type="hidden" name="screen" value="balmayo">
+		<input type="hidden" name="account" value="ZkRUK245RGZyNjA0ZDJOQk9PbkpZdz09">
+		<input type="hidden" name="uid" value="Z2Jkdi8wOXJua2FXaXF5QmloeWR3dz09">
+	<input type="hidden" name="price" value="3.5">
+<textarea id="tweet-content-box" name="message" valid="name"></textarea>
+<br>
+<span style="font-size:10px;">*All tweets are appended with the "#ad" hashtag.</span>
+<span id="char-count" style="margin-left: 140px;">135</span><br>
+  <span style="font-size:10px;">Twitter counts all URLs as 20 characters long.</span>
+	<br>
+	<b>Please log in to purchase, or <a href="http://tweetsta.com/register.php?next=balmayo">click here</a> to register in seconds</b></form>
+</div>
+<div id="footer"><div style="float:left;">Copyright 2014 http://tweetsta.com/</div> 
+<span style="word-spacing: 5px;">
+<a href="http://tweetsta.com/tweetlist.php">Buy</a>
+<a href="http://tweetsta.com/terms.php">Terms</a>  
+<a href="http://tweetsta.com/rules.php">Rules</a> 
+<a href="http://tweetsta.com/privacy.php">Privacy</a> 
+<a href="http://tweetsta.com/contact.php">Contact</a></span></div>
+</div>
+<noscript>
+  <h1>Please Enable Javascript in Browser...........</h1> 
+  <style> div{ display:none; }</style>
+</noscript>
+<script>var BASEURL='http://tweetsta.com/';</script>
+<script src="http://tweetsta.com/js/jquery.min.js"></script>
+<script src="http://tweetsta.com/js/jquery.cookie.js"></script>
+<script src="http://tweetsta.com/js/defaultscript.js"></script>
+<script type="text/javascript" >
+	
+$(document).ready(function(){
+	
+	$('#tweet-id-img').hide();
+
+	$('#question').click(function () {
+		$('#tweet-id-img').fadeIn();
+	});
+
+	$('#tweet-content-box').keyup(function () {
+	
+  var max = 135;
+  var len = $(this).val().length;
+  if (len > max) {
+  	var char = max - len;
+    $('#char-count').text(char);
+    $('#submit-tag').attr('disabled','disabled');
+    $('#char-count').css("color", "red")
+  } else {
+    var char = max - len;
+    $('#char-count').text(char);
+    $('#submit-tag').removeAttr('disabled');
+    $('#char-count').css("color", "black")
+  }
+	});
+
+
+});
+</script>
+
+</html>

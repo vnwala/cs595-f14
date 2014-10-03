@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--
+  ==========================================================================
+   ____                     ___       __  __
+  /\  _`\  __              /\_ \     /\ \/\ \          __
+  \ \ \L\ \\_\  __  _    __\//\ \    \ \ \ \ \    ___ /\_\    ___    ___
+   \ \ ,__//\ \/\ \/'\ /'__`\\ \ \    \ \ \ \ \ /' _ `\/\ \  / __`\/' _ `\
+    \ \ \/ \ \ \/>  <//\  __/ \_\ \_   \ \ \_\ \/\ \/\ \ \ \/\ \L\ \\ \/\ \
+     \ \_\  \ \_\\_/\_\ \____\/\____\   \ \_____\ \_\ \_\ \_\ \____/ \_\ \_\
+      \/_/   \/_///\/_/\/____/\/____/    \/_____/\/_/\/_/\/_/\/___/ \/_/\/_/
+  ==========================================================================
+    The Minimalist v1.3.0
+    Website: http://pixelunion.net
+    Themes: http://www.pixelunion.net/themes
+  ==========================================================================
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+     <title>SYMPHONY SOLDIER</title>
+     <meta name="description" content="the blog of alexander michael deleon" />
+     <meta name="if:Show description" content="1" />
+     <meta name="if:Show search" content="1" />
+     <meta name="text:Twitter name" content="" />
+     <meta name="text:Disqus Shortname" content="" />
+     <meta name="text:Google Analytics ID" content="" />
+     <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_56a2aadf9c16_128.png" />
+     <link rel="alternate" type="application/rss+xml" title="SYMPHONY SOLDIER" href="http://symphonysoldier.tumblr.com/rss" />
+
+<!-- Styles -->
+
+<link rel="stylesheet" href="http://static.tumblr.com/f1whv92/Mp9l6ewcg/reset.css" />
+<style type="text/css">
+
+/*----- GENERAL -----*/
+
+     header, footer, section, article, nav, aside {
+        display: block;
+     }
+
+     body {
+        background: #ffffff;
+        color: #222;
+        font: 12px/20px Georgia, "Times New Roman", Times, serif;
+        padding-top: 25px;
+        text-align: center;
+        width:500px;
+        margin: 0 auto;
+     }
+
+     h1, h2, h3, hQ {
+        font-family: Cufon;
+     }
+
+     h1 {
+        font-size: 50px;
+        line-height: 50px;
+     }
+
+     h2 {
+        font-size: 31px;
+        line-height: 37px;
+     }
+
+     h3 {
+        font-size: 21px;
+        line-height: 27px;
+     }
+
+     a:link, a:visited {
+        color: #222222;
+        font-weight: bold;
+        text-decoration: none;
+     }
+
+     a:hover, a:active {
+        text-decoration: underline;
+     }
+
+     hr{
+        border:0 #ccc solid;
+        border-top-width:1px;
+        clear:both;
+        height:0;
+     }
+
+     ol{list-style:decimal}
+
+     ul{list-style:disc}
+
+     li{margin-left:30px}
+
+     p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin-bottom:15px}
+
+     #main {
+        padding: 0px;
+     }
+
+/*----- MASTHEAD -----*/
+
+     .noMeta > div {
+        padding: 0px;
+     }
+
+     #masthead {
+        margin-bottom: 0px;
+     }
+
+     #masthead h1 {
+        margin-bottom: 0;
+     }
+
+     #masthead h1 a:link, #masthead h1 a:visited {
+        text-transform: Uppercase;
+        color: #222;
+        text-decoration: none;
+     }
+
+     #masthead h1 a:active {
+        outline: 0;
+     }
+
+     #masthead p {
+        font-family: Georgia, serif;
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 0;
+     }
+
+     #masthead a:link, #masthead a:visited {
+        color: #fff;
+     }
+
+     #siteDescription{
+        font-size: 13px;
+        color: #222;
+        text-transform: Uppercase;
+        border-top: 1px solid #222;
+        margin-top: 20px;
+        margin-bottom: -5px;
+        padding: 10px 0 0 0;
+        font-family: Cufon;
+     }
+
+/*----- SEARCH FORM -----*/
+
+     #frmSearch {
+        padding-top: 20px;
+        display: none;
+     }
+
+     #txtSearch {
+        background: url(http://static.tumblr.com/bpryy0m/6lRl6gmys/search.jpg) left no-repeat;
+        width: 225px;
+        padding: 2px 0 0 20px;
+        font: 12px/12px Georgia, "Times New Roman", Times, serif;
+        color: #222;
+        border: 0px;
+     }
+
+/*----- MAIN HEADER NAV STRIP -----*/
+
+     #mainNav {
+        border-top: 1px solid #222;
+        border-bottom: 2px solid #222;
+        margin-top: 20px;
+        padding: 13px 0 14px 0;
+        font-family: Cufon;
+     }
+
+     #mainNav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+     }
+
+     #mainNav li {
+        margin: 5px;
+        display: inline;
+        padding: 0;
+     }
+
+     #mainNav a:link, #mainNav a:visited {
+        padding: 0;
+        font-size: 14px;
+        line-height: 14px;
+        margin: 0 2px;
+        text-decoration: none;
+        color: #222;
+        text-transform: Uppercase;
+     }
+
+     #mainNav a:hover, #mainNav a:active {
+        outline: none;
+        text-decoration: none;
+        border-bottom: 1px solid #222;
+     }
+
+     #mainNav a.active {
+        text-decoration: none;
+        border-bottom: 1px solid #222;
+     }
+
+/*----- ARTICLE META INFO -----*/
+
+     #designline {
+        margin-top: 50px;
+     }
+
+     h5{
+        position: relative;
+        top: -35px;
+        margin-bottom: 0px;
+        font-family: Georgia, serif;
+        font-size: 10px;
+        color: #bca474;
+        text-decoration: none;
+        text-transform: Uppercase;
+        font-weight: bold;
+        border-bottom: 1px solid #bca474;
+        background: #fff;
+     }
+
+     h5 a:link, .line a:visited{
+        font-family: Georgia, serif;
+        font-size: 10px;
+        color: #bca474;
+        text-decoration: none;
+        text-transform: Uppercase;
+        font-weight: bold;
+     }
+
+     h5 a:hover{
+        text-decoration: underline;
+     }
+
+     h5 abbr{
+        display: inline-block;
+        position: relative;
+        margin: 0 auto;
+        padding: 0 8px;
+        background: #fff;
+        top: 10px;
+     }
+
+     h5.postDate a{
+        color: #bca474;
+     }
+
+/*----- ARTICLE -----*/
+
+     article {
+        background: #fff;
+        margin-bottom: 20px;
+        text-align: left;
+       position: relative;
+      }
+
+     article img {
+        border: none;
+        margin-bottom: 15px;
+        max-width: 500px;
+     }
+
+     article p img {
+        margin: 0;
+     }
+     article > div {
+        padding: 0px;
+        overflow: hidden;
+     }
+     article .searchPage {
+        margin: 35px 0 0 0;
+     }
+
+     .searchPageText {
+        margin: 0 0 30px 0;
+     }
+
+     article .meta a:link, article .meta a:visited {
+        text-decoration: none;
+     }
+
+     article .meta a:hover, article .meta a:active {
+        text-decoration: underline;
+     }
+
+     article h2 {
+        text-align: center;
+        color: #222222;
+     }
+
+     article h2 a:link, article h2 a:visited {
+        text-transform: Uppercase;
+        color: #222;
+        text-decoration: none;
+     }
+
+     article h2 a:hover, article h2 a:active {
+        text-decoration: none;
+        border-bottom: 1px solid #222;
+     }
+
+     blockquote {
+        border-left: 2px solid #bca474;
+        margin-left: 0;
+        padding-left: 1em;
+     }
+
+     #quoteSource{
+        margin: 0 auto;
+        text-align: left;
+     }
+
+     #quoteText h2 {
+        text-align: left;
+        color: #222222;
+     }
+
+     article .chat {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+     }
+
+     article .chat li {
+        margin: 0 0 2px;
+        padding: 2px 0 2px 0;
+     }
+
+     .photoCaption {
+        text-align: center;
+     }
+
+/*----- AUDIO PLAYER -----*/
+
+     .audio {
+        height: 28px;
+        width: 26px;
+        overflow: hidden;
+        margin: auto;
+        padding-top: 7px;
+     }
+
+     .audioc {
+        background-image:url('http://static.tumblr.com/f1whv92/9iCl6bfgp/audiocircle.png');
+        background-repeat: no-repeat;
+        height: 41px;
+        width: 41px;
+     }
+
+     .audioCaption {
+        margin-top: 1px;
+     }
+
+     .audioleft {
+        width: 41px;
+        float: left;
+      }
+
+     .audioright {
+        width: 444px;
+        float: right;
+      }
+
+     .audioContainer {
+        margin-top: 5px;
+     }
+
+     .audioClear {
+        clear:both;
+     }
+
+/*----- ARTICLE NOTES -----*/
+
+     .notes {
+        border-top: 1px solid #bca474;
+        list-style: none;
+        padding: 20px 0 5px 0;
+        margin: 30px 0 0 0;
+     }
+     .notes li {
+        margin: 0;
+     }
+
+     .notes .avatar {
+        margin: 0 5px 0 0;
+        position: relative;
+        top: 5px;
+     }
+
+     .notes blockquote {
+        margin: 10px 0 0 35px;
+        padding-left: 10px;
+        border-left: 2px solid #222222;
+     }
+
+     .media {
+        width: 500px;
+        margin-bottom: 20px;
+     }
+
+/*----- PAGE NAVIGATION -----*/
+
+     #pageNav {
+        margin-top: 20px;
+        border-top: 1px solid #222;
+     }
+
+     #pageNav ul {
+        list-style: none;
+        padding: 10px 15px;
+        margin: 10px 0;
+     }
+
+     #pageNav li {
+        margin: 0;
+        display: inline;
+     }
+
+     #pageNav a:link, #pageNav a:visited {
+        font: 11px Georgia, "Times New Roman", Times, serif;
+        padding: 0;
+        margin: 0 2px;
+        background: #34hdf5;
+        color: #222;
+        text-decoration: none;
+     }
+
+     #pageNav a:hover, #pageNav a:active, #pageNav a.active:link, #pageNav a.active:visited {
+        text-decoration: underline;
+     }
+
+     #pageNavOlder:after {
+        content: "\0020\00BB";
+        font-size: 10px;
+     }
+
+     #pageNavNewer:before {
+        content: "\00AB\0020";
+     }
+
+/*----- FOOTER META -----*/
+
+     #sitemeta {
+        border-top: 2px solid #222;
+        color: #222;
+        padding: 20px 0 32px 0;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 11px;
+     }
+
+     #sitemeta p {
+        margin: 0;
+     }
+
+     #sitemeta a:link, #sitemeta a:visited {
+        color: #222;
+        font-weight: bold;
+     }
+
+
+</style>
+
+<!-- Scripts -->
+
+<!--[if IE]>
+     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+     <script src="http://static.tumblr.com/oawavkn/JPAlyq9zp/cufon-yui.js" type="text/javascript"></script>
+     <script src="http://static.tumblr.com/f1whv92/fgIl65bo1/cufon_300.font.js" type="text/javascript"></script>
+
+     <script type="text/javascript">
+        Cufon.replace('h1',{ fontFamily: "Cufon" });
+        Cufon.replace('h2',{ fontFamily: "Cufon" });
+        Cufon.replace('h3',{ fontFamily: "Cufon" });
+        Cufon.replace('#mainNav',{ fontFamily: "Cufon" });
+        Cufon.replace('#siteDescription',{ fontFamily: "Cufon" });
+     </script>
+
+<script>
+     $(function() {
+        var search = $("#txtSearch").val();
+        var placeholder = "Search...";
+        var fadeToOpacity = 0.4;
+        $("#txtSearch").fadeTo("normal", fadeToOpacity);
+        if (search == "") {
+     $("#txtSearch").val(placeholder);
+     }
+     $("#txtSearch").blur(function() {
+        search = $("#txtSearch").val();
+        if (!(search != "" && search != placeholder)) {
+        $("#txtSearch").val(placeholder);
+     }
+     $("#txtSearch").fadeTo("normal", fadeToOpacity);
+     });
+     $("#txtSearch").focus(function() {
+        search = $("#txtSearch").val();
+        if (search == placeholder) {
+        $("#txtSearch").val("");
+     }
+     $("#txtSearch").fadeTo("normal", 1);
+     });
+     $("#btnSearch").click(function() {
+     $("#frmSearch").slideToggle("normal");
+     $(this).toggleClass("active");
+ //  $("#txtSearch").focus();
+     });
+     });
+</script>
+
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=symphonysoldier" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="SYMPHONY SOLDIER" /><meta property="og:url" content="http://symphonysoldier.tumblr.com/?og=1" /><meta property="og:description" content="the blog of alexander michael deleon" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_56a2aadf9c16_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=symphonysoldier" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=symphonysoldier" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="symphonysoldier" /><meta name="twitter:description" content="the blog of alexander michael deleon" /><meta name="twitter:creator" content="alexanderdeleon" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=symphonysoldier&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=symphonysoldier&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=symphonysoldier&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+
+     <header id="masthead" class="clearfix">
+        <div id="thehead">
+              <h1 class="cufon"><a href="/">SYMPHONY SOLDIER</a></h1>
+              <form action="/search" method="get" id="frmSearch">
+              <input type="text" id="txtSearch" name="q" value="" />
+              </form>
+
+     
+        <div id="siteDescription">the blog of alexander michael deleon</div>
+     
+
+           <nav id="mainNav">
+              
+              
+              
+              <li><a href="/archive">Archive</a></li>
+              <li><a href="/random">Random</a></li>
+              <li><a href="http://symphonysoldier.tumblr.com/rss">RSS</a></li>
+              <li><a href="javascript:;" id="btnSearch">Search</a></li>
+              
+              <li><a href="http://twitter.com/@alexanderdeleon">Twitter</a></li>
+              
+           </nav>
+        </div>
+     </header>
+
+     <section id="main" class="clearfix">
+     <div class="layout">
+     
+
+     
+
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://symphonysoldier.tumblr.com/post/91275113026/excerpt-from-a-book-that-i-have-been-writing">9th Jul 2014</a> | <a href="http://symphonysoldier.tumblr.com/post/91275113026/excerpt-from-a-book-that-i-have-been-writing#notes">367 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              
+              <p>excerpt from a book that i have been writing. sorry if it is slightly controversial and if the grammar is bad at the moment. just an informal collection of ideas right now. </p>
+
+<p>"i am sick and tired of watching people put all of their stock in angels that they hope will come later. so many of us are impatiently waiting for angels to come when we die and for them to carry us peacefully into eternal light. i&#8217;m all for that idea.. but i believe that more often than not.. it blinds us of the angels that exist in the NOW. sure.. i am guilty of throwing pennies in wells in case i need friends in hell.. but why do so many people place so many nets under each and every cliff in life? they want to experience the view but don&#8217;t want to be prepared to feel the fall. isn&#8217;t the possibility of the fall what makes it grand? isn&#8217;t the inevitability of death what drives us to feel alive? playing it safe is truly the most dangerous way to live. crazy how little of the population sees that the evils in life can be the best church. that your sins can be a sermon.. and the lack of sanity itself can be the very cathedral they have been waiting for but are ironically already standing in. and angels? people pray to them and god as if they only exist in the latter pages. or as if they can only be found when the book is finished being read. can&#8217;t they see that there are angels here and now? they are all around us. are the halos not bright enough for them? do they feel as if they have not yet been saved? the greatest angels aren&#8217;t perfect and the highest heaven isn&#8217;t pure. my angels have chips in their halos… my angels have tears in their wings.. scraped knees and holes in their jeans. my angels are broken like me.. sad like me..  but also fighters like me. perfection isn&#8217;t what determines if light exists. all is created by light  in some way. after all.. light creates shadows. darkness is the absence of light. if you leave this life looking pretty… you didn&#8217;t do it right. scars are the souvenirs and unlike most theme parks.. the exit is not found through the gift shop. you can&#8217;t buy them at the end of the ride. why don&#8217;t more believe in that religion? the religion of here and now? the religion of seeing god in the eyes and heartbeat of a fellow broken, yet beautiful being? the religion of finding nirvana in a place here on earth that captures both our breath and imagination? we spend so much time pleading for angels that we don&#8217;t take the time to ask ourselves what angels truly are. we fail to see that both the gowns of white and the horns of night can be found in the very mirrors we vainly live by. demons? yes.. them too. i&#8217;m not running from them. they can come along for the ride. because i see myself in those as well. angels are just demons that got second chances… and demons are just angels who weren&#8217;t ready to say goodbye. we are all saints by day and sinners by night. it&#8217;s what makes us human. that&#8217;s what makes it right. why can&#8217;t the world we live in be good enough? why do we have to count on places outside of our reach? if you want heaven and hell so badly i say love like heaven and live like hell. THAT is a religion. THAT is something that i am willing to put my time and faith in. religion is not somebody else&#8217;s book.. it is not somebody else&#8217;s story… it is your own. if you want a bible… write it. believe in belief, have faith in faith itself, and learn to feel love towards love. i live by this and most importantly live FOR this. hell.. believe in whatever movement, god, or idea that you wish to.. but never believe in anything more than you believe in yourself."</p>
+
+<p>-amd</p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://symphonysoldier.tumblr.com/post/51932118362/love-the-ultimate-journey-the-ultimate">1st Jun 2013</a> | <a href="http://symphonysoldier.tumblr.com/post/51932118362/love-the-ultimate-journey-the-ultimate#notes">868 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+
+           
+              <a href="http://symphonysoldier.tumblr.com/image/51932118362"><img src="http://40.media.tumblr.com/493dd456df359e44146b5e6e2299268b/tumblr_mnqu89TJRi1qzv096o1_500.jpg" alt="love. the ultimate journey. the ultimate consequence.
+
+people spend all of their forevers trying to find love. we break open our piggybanks.. we paint masks&hellip; we become top notch conmen. we keep aces up our sleeves and the sheep out of our dreams in hope to find the final treasure.. the light at the end of a tunnel.. the pot of gold. ironically.. we don&amp;#8217;t yet know who we are conning or stealing from until it&amp;#8217;s too late.. because in the end.. we are conning ourselves. as people.. for whatever reason, we are wired to steal from ourselves. to live within the thoughts that we aren&amp;#8217;t good enough.. that we have to fit certain molds with the expectations and weights of multiple worlds telling us we have to find love (and to keep it) to live a life of value and worth. we are rabbits chasing a carrot dangling from a string. riding carousels tricking ourselves into believing that we sit upon majestic stallions on our way to a promised land of gold and eternity. we spend our entire lives chasing these crowns. we pick up gems along the way, sliding them into our pockets with sheepish grins, being too greedy to share or to allow them to see the light of the day. they become hidden mischievous paper weights reminding us that even when we find items of worth.. we will always want more. after all.. isn&amp;#8217;t that in our nature? to want MORE. because sand isn&amp;#8217;t as grand as a pebble.. which will never be as prized as a stone&hellip; which only dreams of being as mighty as a mountain. what we fail to realize is that the more we strain our bodies traveling to find these crowns.. to find love.. the more we turn ourselves into walking palms across it&amp;#8217;s very face. contradictions of the very sermon we intend to preach. we need to stop hiding behind our own eyelids. i have found that the crown can be the ground that our starving feet stand and dance upon. life isn&amp;#8217;t always love. it is the journey TO love. the pain? that&amp;#8217;s a gem. the disappointment? another one. life is a journey.. and in turn becomes the destination all at the same time. you already have what you are looking for. it was found before you ever started searching for it. if you are walking and living in a world that you have yet to understand.. then the battle is won. understanding is a hand that i hope my mind never shakes. we should enjoy living in wonder. we should enjoy feeling small. instead of putting the gems in your pocket, upset that they all individually are much smaller than you had hoped to find.. gather the gems and align them within the gold that can be found within you flowing through your veins and allow them to form a crown. wear it upon your head like a sky. love does not shape who you are.. because love is actually not knowing who you are. we create IT&amp;#8217;S meaning.. not the other way around. love is finding and running into people and places that make you redefine it&amp;#8217;s very being. love is the journey itself. this why i live with such wanderlust. i thank the universe constantly for fairy tales.. for the mountains we&amp;#8217;ll never climb.. for the stars we&amp;#8217;ll never see&hellip; because maybe love isn&amp;#8217;t found at the end of the road&hellip; maybe it can be found along the way&hellip; maybe love is the road itself.&nbsp;
+
+-alexander michael deleon" /></a>
+              <div class="photoCaption"><p><strong>love. the ultimate journey. the ultimate consequence.</strong></p>
+
+<p>people spend all of their forevers trying to find love. we break open our piggybanks.. we paint masks… we become top notch conmen. we keep aces up our sleeves and the sheep out of our dreams in hope to find the final treasure.. the light at the end of a tunnel.. the pot of gold. ironically.. we don&#8217;t yet know who we are conning or stealing from until it&#8217;s too late.. because in the end.. we are conning ourselves. as people.. for whatever reason, we are wired to steal from ourselves. to live within the thoughts that we aren&#8217;t good enough.. that we have to fit certain molds with the expectations and weights of multiple worlds telling us we have to find love (and to keep it) to live a life of value and worth. we are rabbits chasing a carrot dangling from a string. riding carousels tricking ourselves into believing that we sit upon majestic stallions on our way to a promised land of gold and eternity. we spend our entire lives chasing these crowns. we pick up gems along the way, sliding them into our pockets with sheepish grins, being too greedy to share or to allow them to see the light of the day. they become hidden mischievous paper weights reminding us that even when we find items of worth.. we will always want more. after all.. isn&#8217;t that in our nature? to want MORE. because sand isn&#8217;t as grand as a pebble.. which will never be as prized as a stone… which only dreams of being as mighty as a mountain. what we fail to realize is that the more we strain our bodies traveling to find these crowns.. to find love.. the more we turn ourselves into walking palms across it&#8217;s very face. contradictions of the very sermon we intend to preach. we need to stop hiding behind our own eyelids. i have found that the crown can be the ground that our starving feet stand and dance upon. life isn&#8217;t always love. it is the journey TO love. the pain? that&#8217;s a gem. the disappointment? another one. life is a journey.. and in turn becomes the destination all at the same time. you already have what you are looking for. it was found before you ever started searching for it. if you are walking and living in a world that you have yet to understand.. then the battle is won. understanding is a hand that i hope my mind never shakes. we should enjoy living in wonder. we should enjoy feeling small. instead of putting the gems in your pocket, upset that they all individually are much smaller than you had hoped to find.. gather the gems and align them within the gold that can be found within you flowing through your veins and allow them to form a crown. wear it upon your head like a sky. love does not shape who you are.. because love is actually not knowing who you are. we create IT&#8217;S meaning.. not the other way around. love is finding and running into people and places that make you redefine it&#8217;s very being. love is the journey itself. this why i live with such wanderlust. i thank the universe constantly for fairy tales.. for the mountains we&#8217;ll never climb.. for the stars we&#8217;ll never see… because maybe love isn&#8217;t found at the end of the road… maybe it can be found along the way… maybe love is the road itself. </p>
+
+<p><strong>-alexander michael deleon</strong></p></div>
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://symphonysoldier.tumblr.com/post/38896546620/i-never-believed-in-angels-because-i-had-never">26th Dec 2012</a> | <a href="http://symphonysoldier.tumblr.com/post/38896546620/i-never-believed-in-angels-because-i-had-never#notes">1,012 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+
+           
+              <img src="http://41.media.tumblr.com/e68e79d20945faefbdd24b9ebf8f4142/tumblr_mfnrsdQq371qzv096o1_500.jpg" alt="i never believed in angels&hellip;
+because i had never felt their wings.
+
+
+i never believed in paradise&hellip;
+because i had never held the key.
+
+
+i never believed in mirrors&hellip;
+because i hated what i&amp;#8217;d see.
+
+
+i never believed in love&hellip;
+because it never believed in me.
+
+
+until you.
+
+-alexander michael deleon" />
+              <div class="photoCaption"><p>i never believed in angels…</p>
+<p>because i had never felt their wings.</p>
+
+
+<p>i never believed in paradise…</p>
+<p>because i had never held the key.</p>
+
+
+<p>i never believed in mirrors…</p>
+<p>because i hated what i&#8217;d see.</p>
+
+
+<p>i never believed in love…</p>
+<p>because it never believed in me.</p>
+
+
+<p><strong>until you.</strong></p>
+
+<p>-alexander michael deleon</p></div>
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://symphonysoldier.tumblr.com/post/38345844807/2013-art-credit-helenshowalter-tumblr-com">19th Dec 2012</a> | <a href="http://symphonysoldier.tumblr.com/post/38345844807/2013-art-credit-helenshowalter-tumblr-com#notes">1,209 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+
+           
+              <a href="http://symphonysoldier.tumblr.com/image/38345844807"><img src="http://40.media.tumblr.com/62a362faee9871e404fd27f0b78be8c0/tumblr_mfb1xaknVX1qzv096o1_500.jpg" alt="2013.&nbsp;
+art credit:&nbsp;helenshowalter.tumblr.com" /></a>
+              <div class="photoCaption"><p>2013. </p>
+<p>art credit: <a href="http://helenshowalter.tumblr.com/" target="_blank">helenshowalter.tumblr.com</a></p></div>
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://symphonysoldier.tumblr.com/post/37841464183/these-are-the-lies">13th Dec 2012</a> | <a href="http://symphonysoldier.tumblr.com/post/37841464183/these-are-the-lies#notes">1,065 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://symphonysoldier.tumblr.com/post/37841464183/these-are-the-lies">THESE ARE THE LIES</a></h2>
+              <div>
+<div>
+
+<p>i don&#8217;t love you, i don&#8217;t need you</p>
+<p>i don&#8217;t ever want to see you again</p>
+<p>i have moved on, and things are perfect</p>
+<p>i&#8217;m okay with us just being friends.</p>
+
+<p>cuz i don&#8217;t think about you, every single night i am fine without you</p>
+<p>  i sleep tight when i&#8217;m not beside you.</p>
+<p>i&#8217;m moving on, moving on</p>
+<p>no, i don&#8217;t cry about you, no those ain&#8217;t tears in my eyes about you</p>
+<p>gonna be fine if i die without you</p>
+<p>i&#8217;m moving on, moving</p>
+
+<p>these are the lies</p>
+<p>that i tell myself at night</p>
+<p>these are the lies</p>
+<p>that are keeping me alive.</p>
+<p>cuz the truth is i&#8217;m in pieces</p>
+<p>my heart may not survive</p>
+
+<p>i tell myself i&#8217;m fine. </p>
+<p>i know i&#8217;ll be alright&#8230;</p>
+
+<p>these are the lies.</p>
+
+<p>-alexander</p>
+
+
+</div>
+</div>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://symphonysoldier.tumblr.com/post/37606636879/life-is-cruel-truth-it-bends-music-is-my">9th Dec 2012</a> | <a href="http://symphonysoldier.tumblr.com/post/37606636879/life-is-cruel-truth-it-bends-music-is-my#notes">1,045 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+
+           
+              <a href="http://symphonysoldier.tumblr.com/image/37606636879"><img src="http://41.media.tumblr.com/e35fbedfb16e51f4474ff218759894b3/tumblr_mesmcfFUiE1qzv096o1_500.png" alt="life is cruel. truth, it bends.&nbsp;
+
+music is my only friend.
+
+hearts they break. love pretends.
+
+music is my only friend.&nbsp;
+
+winter comes. summer ends.&nbsp;
+
+music is my only friend.
+
+don&amp;#8217;t feel bad. i&amp;#8217;m content.
+
+music is my only friend.
+
+
+-amd" /></a>
+              <div class="photoCaption"><p>life is cruel. truth, it bends. </p>
+
+<p>music is my only friend.</p>
+
+<p>hearts they break. love pretends.</p>
+
+<p>music is my only friend. </p>
+
+<p>winter comes. summer ends. </p>
+
+<p>music is my only friend.</p>
+
+<p>don&#8217;t feel bad. i&#8217;m content.</p>
+
+<p>music is my only friend.</p>
+
+
+<p><strong>-amd</strong></p></div>
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://symphonysoldier.tumblr.com/post/37577377942/dont-be-afraid-to-grow-old">9th Dec 2012</a> | <a href="http://symphonysoldier.tumblr.com/post/37577377942/dont-be-afraid-to-grow-old#notes">1,222 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+              <h2><a href="http://symphonysoldier.tumblr.com/post/37577377942/dont-be-afraid-to-grow-old">don&#8217;t be afraid to grow old</a></h2>
+              <p>when wrinkles paint your skin… i&#8217;ll admire every inch… yes, i&#8217;ll hold you from within… though versus time we never win… i will love you while we live.</p>
+
+<p>when your hair is turning gray… i will remind you every day… that seasons, they will change… but through december i will stay… and be your march, april, may.</p>
+
+<p>when you&#8217;re far too old to dance… even if i can barely stand… i&#8217;ll find the strength to grab your hand… i&#8217;ll pick you up, love, if i can… and spin you slowly to the band.</p>
+
+<p>when your body&#8217;s feeling weak… and your lips can barely speak… my knees will still be weak… from the loveliness i see… you&#8217;ll still be my beauty queen.</p>
+
+<p>when you&#8217;re missing all of your youth… i will take off both your shoes… kiss you like young lovers do… hold you tight under the moon… and make you feel like you&#8217;re brand new.</p>
+
+<p>when you think that life is done… i will love you like i&#8217;m young… like the day has just begun… with no clouds to block the sun… i&#8217;ll show you that there&#8217;s no need to run.</p>
+
+<p>when you&#8217;re crying from the pain… i&#8217;ll kiss your head and lay… i&#8217;ll cry too so you&#8217;re not ashamed  …while singing songs we used to play… when we were young and on our way.</p>
+
+<p>when you&#8217;re too afraid to die… i will lay down by your side… as i look into your eyes… tell you we&#8217;re never too old to fly… when you sail to the other side… i&#8217;m prepared to be your kite. </p>
+
+<p><strong>-alexander michael</strong></p>
+           
+
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://symphonysoldier.tumblr.com/post/37529488211/what-does-it-take-to-fall-apart-ive-shipped-off">8th Dec 2012</a> | <a href="http://symphonysoldier.tumblr.com/post/37529488211/what-does-it-take-to-fall-apart-ive-shipped-off#notes">810 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+
+           
+              <a href="http://symphonysoldier.tumblr.com/image/37529488211"><img src="http://36.media.tumblr.com/28c90726c8cbc4cb4c9b163f0c047905/tumblr_meqx5zdlLb1qzv096o1_500.jpg" alt="
+
+what does it take to fall apart? i&amp;#8217;ve shipped off pieces of my broken heart. for being lonely is a lost art&hellip; and i&amp;#8217;m van gogh painting my own stars.
+
+
+what does it take to runaway? tears roll fast like a runaway train. you pack the bags and i&amp;#8217;ll pack the pain. head to the tracks i won&amp;#8217;t feel a thing.
+
+
+what does it take to lose control? i have lived so fast just to die real slow. played with fire yet it still felt cold. put a smile on&hellip; call it fool&amp;#8217;s gold.
+
+
+what does it take to save a life? i send wishes up to satellites. writing letters to the better times. signing &amp;#8220;won&amp;#8217;t give up without a fight&amp;#8221;.
+
+-amd
+
+
+" /></a>
+              <div class="photoCaption"><div>
+
+<p>what does it take to fall apart? i&#8217;ve shipped off pieces of my broken heart. for being lonely is a lost art… and i&#8217;m van gogh painting my own stars.</p>
+
+
+<p>what does it take to runaway? tears roll fast like a runaway train. you pack the bags and i&#8217;ll pack the pain. head to the tracks i won&#8217;t feel a thing.</p>
+
+
+<p>what does it take to lose control? i have lived so fast just to die real slow. played with fire yet it still felt cold. put a smile on… call it fool&#8217;s gold.</p>
+
+
+<p>what does it take to save a life? i send wishes up to satellites. writing letters to the better times. signing &#8220;won&#8217;t give up without a fight&#8221;.</p>
+
+<p><strong>-amd</strong></p>
+<div><strong><br/></strong></div>
+
+</div></div>
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://symphonysoldier.tumblr.com/post/37433583194/love-is-life-and-life-is-pain-its-all-one-in-the">7th Dec 2012</a> | <a href="http://symphonysoldier.tumblr.com/post/37433583194/love-is-life-and-life-is-pain-its-all-one-in-the#notes">650 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+
+           
+              <a href="http://symphonysoldier.tumblr.com/image/37433583194"><img src="http://40.media.tumblr.com/0c312ac427af137aafd65341858f0462/tumblr_meopgiiffG1qzv096o1_500.jpg" alt="
+
+love is life and life is pain. it&amp;#8217;s all one in the same. you grow tall just to fall and are born just to crawl until someone finds warmth in your name. if the way to die is through a tale of time then please send me on my way. for kingdom come and the wars that i&amp;#8217;ve won were just steps to my cheek on your face. stars they shine if not just to remind that to be close is to be far away. so the more that we reach is the more that we see that heaven is not just a place. a hand is a hand to a fool in a land where love does not apply. for what poor skin if it fails to begin to let out what&amp;#8217;s been hiding inside. like a light in the night, i still reach for the bright in the form of your soul next to mine. so why would i lie you are far too divine for this love to be close to blind. some kiss to feel missed like a wish towards bliss while others may kiss just to play. but your lips take a trip to the gold in my ribs when i meet them with all of my pain. the roads that i take like the faith that i taste they will always lead straight to you. for if love is life and life is pain then to my chest i will beg you to shoot.&nbsp;
+
+-alexander michael
+
+
+" /></a>
+              <div class="photoCaption"><div>
+
+<p>love is life and life is pain. it&#8217;s all one in the same. you grow tall just to fall and are born just to crawl until someone finds warmth in your name. if the way to die is through a tale of time then please send me on my way. for kingdom come and the wars that i&#8217;ve won were just steps to my cheek on your face. stars they shine if not just to remind that to be close is to be far away. so the more that we reach is the more that we see that heaven is not just a place. a hand is a hand to a fool in a land where love does not apply. for what poor skin if it fails to begin to let out what&#8217;s been hiding inside. like a light in the night, i still reach for the bright in the form of your soul next to mine. so why would i lie you are far too divine for this love to be close to blind. some kiss to feel missed like a wish towards bliss while others may kiss just to play. but your lips take a trip to the gold in my ribs when i meet them with all of my pain. the roads that i take like the faith that i taste they will always lead straight to you. for if love is life and life is pain then to my chest i will beg you to shoot. </p>
+
+<p>-alexander michael</p>
+<div></div>
+
+</div></div>
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+     <div id="designline">
+        <h5 class="postDate">
+           <abbr><a href="http://symphonysoldier.tumblr.com/post/30418868577/i-love-you-i-love-you-means-that-ill-always">28th Aug 2012</a> | <a href="http://symphonysoldier.tumblr.com/post/30418868577/i-love-you-i-love-you-means-that-ill-always#notes">1,943 notes</a> 
+           </abbr>
+        </h5>
+     </div>
+
+     <article>
+        <div>
+           
+
+           
+              <img src="http://41.media.tumblr.com/tumblr_m9hpidqwZg1qzv096o1_400.jpg" alt="i love you.
+i love you means that i&amp;#8217;ll always love you. that i loved you then. that i love you now. that i will love you after. i love you means i loved you before the word was defined. since before life existed. it means that i will love you even when earth is just stardust scattering across infinite space. i love you means you are felt and not just heard. that you exist both behind my eyes and inside my chest. i love you means that i love who you are, who you will be, and who you have been. it means that i love what you do and what you say.&nbsp; i love you means that your scars and your triumphs are both one in the same. i love you means wrinkles and grey are just the same as porcelain and brown. i love you means i love me. because you are apart of me and i love everywhere and everything that you are.&nbsp;i love you means leaving the world around us in our crossfire. i love you means that we may burn&hellip; but that we would rather burn than to live without knowing what it feels like to be ignited. i love you means i won&amp;#8217;t let go&hellip; that i was holding on before i knew exactly what i was holding on to. i love you means i am prepared to free fall&hellip; but never prepared to land. i love you means i will never intentionally inflict pain upon you&amp;#8230; but if for some reason i ever do.. i will hurt with you until it is gone. i love you means there will be no one else. i love you means that there never was. i love you means a moment. i love you means a lifetime. i love you isn&amp;#8217;t just three simple words&amp;#8230; it&amp;#8217;s every word i&amp;#8217;ve spoken since your eyes met mine.&nbsp;
+&nbsp;i love you.
+-alexander michael deleon" />
+              <div class="photoCaption"><p><strong>i love you.</strong></p>
+<p>i love you means that i&#8217;ll always love you. that i loved you then. that i love you now. that i will love you after. i love you means i loved you before the word was defined. since before life existed. it means that i will love you even when earth is just stardust scattering across infinite space. i love you means you are felt and not just heard. that you exist both behind my eyes and inside my chest. i love you means that i love who you are, who you will be, and who you have been. it means that i love what you do and what you say.  i love you means that your scars and your triumphs are both one in the same. i love you means wrinkles and grey are just the same as porcelain and brown. i love you means i love me. because you are apart of me and i love everywhere and everything that you are. i love you means leaving the world around us in our crossfire. i love you means that we may burn… but that we would rather burn than to live without knowing what it feels like to be ignited. i love you means i won&#8217;t let go… that i was holding on before i knew exactly what i was holding on to. i love you means i am prepared to free fall… but never prepared to land. i love you means i will never intentionally inflict pain upon you&#8230; but if for some reason i ever do.. i will hurt with you until it is gone. i love you means there will be no one else. i love you means that there never was. i love you means a moment. i love you means a lifetime. i love you isn&#8217;t just three simple words&#8230; it&#8217;s every word i&#8217;ve spoken since your eyes met mine. </p>
+<p> i love you.</p>
+<p><strong>-alexander michael deleon</strong></p></div>
+           
+
+           
+
+           
+
+           
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+        </div>
+     </article>
+
+
+
+
+     
+
+     
+        <nav id="pageNav">
+           <ul class="clearfix">
+             
+             
+             <li><a href="" class="active">1</a></li>
+             
+             
+             
+             <li><a href="/page/2">2</a></li>
+             
+             
+             <li><a href="/page/3">3</a></li>
+             
+             
+             <li><a href="/page/4">4</a></li>
+             
+             
+             <li><a href="/page/5">5</a></li>
+             
+             <li><a href="/page/2" id="pageNavOlder">Older</a></li>
+           </ul>
+        </nav>
+     
+
+     
+
+     </div><!-- END layout -->
+     </section>
+
+     <footer id="sitemeta">
+        <div class="clearfix">
+           <div class="thefooter">
+              <p>The Minimalist Theme &mdash; <a href="https://www.pixelunion.net/?utm_source=tumblr&utm_medium=link&utm_term=tumblr%20themes&utm_campaign=sdoppler">Tumblr themes</a> by Pixel Union | Powered by <a href="http://tumblr.com">Tumblr</a></p>
+           </div>
+        </div>
+     </footer>
+
+     
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://symphonysoldier.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412038120&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc3ltcGhvbnlzb2xkaWVyLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=BKOPAFGHDO&K=5bc56236684141b1304ed20e498e3df3a768136d74a31d9b80ca977be6edf9a6&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412038120&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc3ltcGhvbnlzb2xkaWVyLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=BKOPAFGHDO&K=7724d1fae083d1779e1c2544a996a8628e8e40500106b23f87a8ffffc7841874&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412038120&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3N5bXBob255c29sZGllci50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6IjkxMjc1MTEzMDI2IiwiYmxvZ2lkIjoiNjM0MzE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI1MTkzMjExODM2MiIsImJsb2dpZCI6IjYzNDMxNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMzg4OTY1NDY2MjAiLCJibG9naWQiOiI2MzQzMTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjM4MzQ1ODQ0ODA3IiwiYmxvZ2lkIjoiNjM0MzE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiIzNzg0MTQ2NDE4MyIsImJsb2dpZCI6IjYzNDMxNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMzc2MDY2MzY4NzkiLCJibG9naWQiOiI2MzQzMTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjM3NTc3Mzc3OTQyIiwiYmxvZ2lkIjoiNjM0MzE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiIzNzUyOTQ4ODIxMSIsImJsb2dpZCI6IjYzNDMxNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMzc0MzM1ODMxOTQiLCJibG9naWQiOiI2MzQzMTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjMwNDE4ODY4NTc3IiwiYmxvZ2lkIjoiNjM0MzE0Iiwic291cmNlIjozM31dfQ==&U=PLKDHAEKOO&K=a6eed1844c79845bdfdc3b839b396b665e8fe33ca566c5076e79d5d37f041aff&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412038120&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3N5bXBob255c29sZGllci50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6IjkxMjc1MTEzMDI2IiwiYmxvZ2lkIjoiNjM0MzE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI1MTkzMjExODM2MiIsImJsb2dpZCI6IjYzNDMxNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMzg4OTY1NDY2MjAiLCJibG9naWQiOiI2MzQzMTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjM4MzQ1ODQ0ODA3IiwiYmxvZ2lkIjoiNjM0MzE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiIzNzg0MTQ2NDE4MyIsImJsb2dpZCI6IjYzNDMxNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMzc2MDY2MzY4NzkiLCJibG9naWQiOiI2MzQzMTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjM3NTc3Mzc3OTQyIiwiYmxvZ2lkIjoiNjM0MzE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiIzNzUyOTQ4ODIxMSIsImJsb2dpZCI6IjYzNDMxNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMzc0MzM1ODMxOTQiLCJibG9naWQiOiI2MzQzMTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjMwNDE4ODY4NTc3IiwiYmxvZ2lkIjoiNjM0MzE0Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=PLKDHAEKOO&K=ae47b4e028db74b6ee68e49b0a2fe4a49e175b89eaf72fac8e7bb57bbfa24439&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:634314,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fsymphonysoldier.tumblr.com%2F&amp;lang=en_US&amp;name=symphonysoldier&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_56a2aadf9c16_64.png&amp;title=SYMPHONY+SOLDIER&amp;url=http%3A%2F%2Fsymphonysoldier.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fsymphonysoldier.tumblr.com%2F&amp;lang=en_US&amp;name=symphonysoldier&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_56a2aadf9c16_64.png&amp;title=SYMPHONY+SOLDIER&amp;url=http%3A%2F%2Fsymphonysoldier.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

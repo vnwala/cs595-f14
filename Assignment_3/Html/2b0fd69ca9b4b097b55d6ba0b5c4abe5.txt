@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+<!--Notes are written like this. So long as they are enclosed in tags like these, your browser will not read them.-->
+
+<!--Customisation Options (part 2)-->
+
+<meta name="color:Background" content="#cccccc" />
+<meta name="color:Primary Colour" content="#03999b" />
+<meta name="color:Secondary Colour" content="#4cc3c5" />
+
+<meta name="font:Body" content="Georgia" />
+
+<meta name="image:Background" content="http://i41.tinypic.com/wvztsk.png" />
+<meta name="image:Sidebar" content="" />
+
+<meta name="if:Infinite Scroll" content="0">
+
+
+<!--Things that go in the tab (part 1)-->
+
+<title>magneticdice</title>
+<meta name="description" content="Hello there and welcome to by blog! My name is Tanya. This is a 90% Shameless blog... Gallavich = OTP but I love all of the characters on the show (except Frank and Terry, obviously). I watch a LOT of..." />
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_d5a403ac568d_128.png" />
+
+<!--Custom font (part 4)-->
+
+<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+
+
+
+<style type="text/css">
+
+/*Notes in CSS look like this. If you use <!--these--> it will not work*/
+
+/*The Background (part 3)*/
+
+body {
+	background-color: #070e2b;
+	font-family: 'Calluna Sans', sans-serif;
+	background-image: url(http://static.tumblr.com/3f68cfe2ef554145a9fef107bd52ed98/py7qiwy/gF3n5mgie/tumblr_static_c9fgkjo9ydc0k8gcosgckoc4s.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	margin: 0;
+	word-wrap: break-word;
+	
+	
+}
+
+/*The Sidebar (part 4)*/
+
+#sidebar {
+	background-color: rgba(0, 0, 0, .7);
+	width: 260px;	
+	position: fixed;
+	top: 25px;
+	left: 25px;
+	}
+
+/*The Sidebar: Title*/
+
+#sidebar .title {
+	font-family: 'Great Vibes', cursive, bold;
+	font-size: 40px;
+	text-align: center;
+	padding: 10px;
+}
+
+#sidebar .title a {
+	color: #315283;
+	text-decoration: none;
+}
+
+#sidebar .title a:hover {
+	color: #5184dc;
+}
+
+/*The Sidebar: Image*/
+
+#sidebar .image {
+	width: 260px;
+	height: auto;
+}
+
+/*The Sidebar: Description*/
+
+#sidebar .description {
+	color: lightblue;
+	font-size: 12px;
+	text-align: center;
+	padding:10px;
+	line-height:100%;
+}
+
+#sidebar .description a {
+	color: #315283;
+	text-decoration: none;
+}
+
+#sidebar .description a:hover {
+	color: #5184dc;
+}
+
+/*The Sidebar: Links*/
+
+#sidebar .links {
+	background-color: #315283;
+    	color: lightblue;
+	font-size: 11px;
+	text-align: center;
+	padding: 5px 3px;
+    	margin: 2px;
+   	float: left;
+	width: 120px;
+}
+    
+#sidebar .links a {
+	text-decoration:none;
+}
+
+#sidebar .links:hover {
+	background-color: #5184dc;
+}
+
+/*The Sidebar: Pagination (part 8)*/
+
+#sidebar .pagination {
+    width: 260px;
+    text-align: center;
+    padding: 3px;
+}
+
+#sidebar .pagination a {
+    color: #315283;
+    text-decoration: none;
+}
+
+#sidebar .pagination a:hover {
+    color: #5184dc;
+}
+
+
+/***************************/
+
+/*The Main Content (Part 6)*/
+	
+#content {
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 25px 0 0px 310px;
+    padding: 75px 0;
+    color: black;
+}
+
+#content a {
+    color: #315283;
+    text-decoration: none;
+}
+
+#content a:hover {
+    color: #5184dc;
+}
+
+#content blockquote {
+    border-left: solid 2px black;
+    margin: 0;
+    padding-left: 10px;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+#content #posts {
+    background-color: black;
+    width: 500px;
+    margin: 0 auto 75px;
+    padding:10px;
+    color: lightblue;
+}
+
+#content #posts .title {
+    font-size: 30px;
+}
+
+#content #posts .text {
+    font-size:13px;
+}
+
+/***************************/
+
+/*The Permalink and Tags (part 7)*/
+
+#content #posts #permalink {
+    font-size:15px;
+    margin-top:20px;
+}
+
+#content #posts #tags {
+    font-size:13px;
+}
+
+#content #posts #tags .comma:last-child {
+    display: none;
+}
+
+/*Note Container (part 7)*/
+
+#content #notecontainer {
+    margin: 50px 100px 100px 100px;
+    width: 700px;
+    font-size: 14px;
+    color: lightblue;
+}
+
+#content #notecontainer ol.notes {
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+}
+
+#content #notecontainer img.avatar {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+/*Custom CSS (part 8)*/
+
+	
+
+</style>
+
+<!--Infinite Scroll (part 8)-->
+
+
+<script type="text/javascript" src="http://codysherman.com/tools/infinite-scrolling/code"></script>
+
+
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=magneticdice" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/callunasans/stylesheet.css?v=3"><link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/streetscript/stylesheet.css?v=1">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="thank queue very much,she is so beautiful,shameless s5,shameless season 5,shameless spoilers" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="magneticdice" /><meta property="og:url" content="http://magneticdice.tumblr.com/?og=1" /><meta property="og:description" content="Hello there and welcome to by blog! My name is Tanya. This is a 90% Shameless blog... Gallavich =..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_d5a403ac568d_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=magneticdice" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=magneticdice" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="magneticdice" /><meta name="twitter:description" content="Hello there and welcome to by blog!&lt;/p&gt;My name is Tanya. This is a 90% Shameless blog... Gallavich = OTP but I love all of the characters on the show (except Frank and Terry, obviously). &lt;/p&gt;I watch a LOT of TV and I&#039;m a spoiler addict, so be forewarned. I love meeting new people so don&#039;t be shy and &lt;a href=&quot;http://magneticdice.tumblr.com/ask&quot;&gt;send me a message&lt;/a&gt; if you want to talk, whether it&#039;s Shameless related or not! :)&lt;/p&gt;If you still want to know more about me, there&#039;s a link below... *points down*&lt;/p&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=magneticdice&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=magneticdice&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=magneticdice&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+
+<!--The Sidebar (part 4)-->
+
+<div id="sidebar">
+<div class="title"><a href="/">magneticdice</a></div>
+<img class="image" src="http://static.tumblr.com/47c723c690a86525166d5aeca26a41a7/py7qiwy/dUwn5cjwc/tumblr_static_dr2rxc142fsc800888444kgww.gif" />
+<div class="description">Hello there and welcome to by blog!</p>My name is Tanya. This is a 90% Shameless blog... Gallavich = OTP but I love all of the characters on the show (except Frank and Terry, obviously). </p>I watch a LOT of TV and I'm a spoiler addict, so be forewarned. I love meeting new people so don't be shy and <a href="http://magneticdice.tumblr.com/ask">send me a message</a> if you want to talk, whether it's Shameless related or not! :)</p>If you still want to know more about me, there's a link below... *points down*</p></div>
+
+<a href="/ask"><div class="links">Ask Me Something</div></a>
+
+<a href="/moreinfo"><div class="links">More About Me</div></a><a href="/fanfiction"><div class="links">My Fanfiction</div></a><a href="/mygifs"><div class="links">Things I've Made</div></a><a href="/tvshows"><div class="links">Shows I Watch</div></a><a href="/otherblogs"><div class="links">My Other Blogs</div></a><a href="/events"><div class="links">Writing Events</div></a><a href="/ficrec"><div class="links">Gallavich FicRec</div></a><a href="/noelfisher"><div class="links">Noel Fisher Tag</div></a><a href="/nfn"><div class="links">Noel Fisher Network</div></a><a href="/twitter"><div class="links">Twitter</div></a><a href="/archive"><div class="links">Archive</div></a>
+
+<!--Pagination (part 8)-->
+
+
+
+</div> <!--sidebar-->
+<!--I like to label my closing divs like I did above to make the code easier to read. It is not compulsary.-->
+
+<!--------------------------->
+
+<!--The Main Content (part 5 & 6)-->
+
+
+
+<div id="content">
+<div class="autopagerize_page_element">
+
+<div id="posts">
+
+
+
+
+<div id="photoset_98761921431" class="html_photoset">    <iframe id="photoset_iframe_98761921431" class="photoset" scrolling="no" frameborder="0" height="553" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://magneticdice.tumblr.com/post/98761921431/photoset_iframe/magneticdice/tumblr_ncbp5mXoJO1tpgcb9/500/false"></iframe></div>
+<div class="text"><p>(Source: <a href="http://gallishger.tumblr.com/post/98175411904" title="gallishger">gallishger</a>)</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------->
+
+<!--The Permalink (Part 7)-->
+
+<div id="permalink">
+<a href="http://magneticdice.tumblr.com/post/98761921431">
+Posted 1 hour ago
+ with 119 notes
+</a>
+</div> <!--permalink-->
+
+<!--The Tags (Part 7)-->
+
+<div id="tags">
+<a href="http://magneticdice.tumblr.com/tagged/shameless-us">#shameless us</a>
+<a href="http://magneticdice.tumblr.com/tagged/shameless-spoilers">#shameless spoilers</a>
+<a href="http://magneticdice.tumblr.com/tagged/shameless-season-5">#shameless season 5</a>
+<a href="http://magneticdice.tumblr.com/tagged/shameless-s5">#shameless s5</a>
+<a href="http://magneticdice.tumblr.com/tagged/thank-queue-very-much">#thank queue very much</a>
+
+</div> <!--tags-->
+
+
+</div> <!--posts-->
+
+<!--Note Container (Part 7)-->
+
+
+
+
+
+<div id="posts">
+
+
+
+
+<div id="photoset_98752377378" class="html_photoset">    <iframe id="photoset_iframe_98752377378" class="photoset" scrolling="no" frameborder="0" height="2024" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://magneticdice.tumblr.com/post/98752377378/photoset_iframe/magneticdice/tumblr_n9l2dmuCls1sxuq1k/500/false"></iframe></div>
+<div class="text"><p>(Source: <a href="http://mickeygallagherr.tumblr.com/post/93410491211" title="mickeygallagherr">mickeygallagherr</a>, via <a href='http://martaaajt.tumblr.com/post/97745685548'>martaaajt</a>)</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------->
+
+<!--The Permalink (Part 7)-->
+
+<div id="permalink">
+<a href="http://magneticdice.tumblr.com/post/98752377378">
+Posted 3 hours ago
+ with 528 notes
+</a>
+</div> <!--permalink-->
+
+<!--The Tags (Part 7)-->
+
+
+
+</div> <!--posts-->
+
+<!--Note Container (Part 7)-->
+
+
+
+
+
+<div id="posts">
+
+
+
+
+<div id="photoset_98742460391" class="html_photoset">    <iframe id="photoset_iframe_98742460391" class="photoset" scrolling="no" frameborder="0" height="500" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://magneticdice.tumblr.com/post/98742460391/photoset_iframe/magneticdice/tumblr_ncavkx4ogK1rvrf0e/500/false"></iframe></div>
+<div class="text"><p>(Source: <a href="http://toughguyuh.tumblr.com/post/98156457713" title="toughguyuh">toughguyuh</a>)</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------->
+
+<!--The Permalink (Part 7)-->
+
+<div id="permalink">
+<a href="http://magneticdice.tumblr.com/post/98742460391">
+Posted 5 hours ago
+ with 248 notes
+</a>
+</div> <!--permalink-->
+
+<!--The Tags (Part 7)-->
+
+<div id="tags">
+<a href="http://magneticdice.tumblr.com/tagged/thank-queue-very-much">#thank queue very much</a>
+
+</div> <!--tags-->
+
+
+</div> <!--posts-->
+
+<!--Note Container (Part 7)-->
+
+
+
+
+
+<div id="posts">
+
+
+
+
+<div id="photoset_98734055154" class="html_photoset">    <iframe id="photoset_iframe_98734055154" class="photoset" scrolling="no" frameborder="0" height="490" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://magneticdice.tumblr.com/post/98734055154/photoset_iframe/magneticdice/tumblr_nc12gxAVHP1qdrjxf/500/false"></iframe></div>
+<div class="text"><blockquote>
+<p><small>So… did you guys just meet last night, or <em>are you <strong>t o g e t h e r</strong></em>?</small></p>
+</blockquote><p>(Source: <a href="http://noelffisher.tumblr.com" title="noelffisher">noelffisher</a>, via <a href='http://noelffisher.tumblr.com/post/97762327899/so-did-you-guys-just-meet-last-night-or-are-you'>noelffisher</a>)</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------->
+
+<!--The Permalink (Part 7)-->
+
+<div id="permalink">
+<a href="http://magneticdice.tumblr.com/post/98734055154">
+Posted 7 hours ago
+ with 392 notes
+</a>
+</div> <!--permalink-->
+
+<!--The Tags (Part 7)-->
+
+<div id="tags">
+<a href="http://magneticdice.tumblr.com/tagged/thank-queue-very-much">#thank queue very much</a>
+
+</div> <!--tags-->
+
+
+</div> <!--posts-->
+
+<!--Note Container (Part 7)-->
+
+
+
+
+
+<div id="posts">
+
+
+
+
+<div id="photoset_98726637294" class="html_photoset">    <iframe id="photoset_iframe_98726637294" class="photoset" scrolling="no" frameborder="0" height="500" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://magneticdice.tumblr.com/post/98726637294/photoset_iframe/magneticdice/tumblr_nc2uhsHZXR1qdoecs/500/false"></iframe></div>
+<div class="text"><p>(Source: <a href="http://televisionsgifs.tumblr.com/post/97783574526" title="televisionsgifs">televisionsgifs</a>)</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------->
+
+<!--The Permalink (Part 7)-->
+
+<div id="permalink">
+<a href="http://magneticdice.tumblr.com/post/98726637294">
+Posted 9 hours ago
+ with 741 notes
+</a>
+</div> <!--permalink-->
+
+<!--The Tags (Part 7)-->
+
+<div id="tags">
+<a href="http://magneticdice.tumblr.com/tagged/she-is-so-beautiful">#she is so beautiful</a>
+<a href="http://magneticdice.tumblr.com/tagged/thank-queue-very-much">#thank queue very much</a>
+
+</div> <!--tags-->
+
+
+</div> <!--posts-->
+
+<!--Note Container (Part 7)-->
+
+
+
+
+
+<div id="posts">
+
+
+
+
+<div id="photoset_98720416717" class="html_photoset">    <iframe id="photoset_iframe_98720416717" class="photoset" scrolling="no" frameborder="0" height="630" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://magneticdice.tumblr.com/post/98720416717/photoset_iframe/magneticdice/tumblr_nc2voma75Z1t0bytd/500/false"></iframe></div>
+<div class="text"><blockquote>
+<p><em>I have looked at you in millions of ways and I have loved you in each</em></p>
+</blockquote><p>(Source: <a href="http://justinfcukintaylor.tumblr.com/post/97785419921/i-have-looked-at-you-in-millions-of-ways-and-i" title="justinfcukintaylor">justinfcukintaylor</a>)</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------->
+
+<!--The Permalink (Part 7)-->
+
+<div id="permalink">
+<a href="http://magneticdice.tumblr.com/post/98720416717">
+Posted 11 hours ago
+ with 344 notes
+</a>
+</div> <!--permalink-->
+
+<!--The Tags (Part 7)-->
+
+<div id="tags">
+<a href="http://magneticdice.tumblr.com/tagged/thank-queue-very-much">#thank queue very much</a>
+
+</div> <!--tags-->
+
+
+</div> <!--posts-->
+
+<!--Note Container (Part 7)-->
+
+
+
+
+
+<div id="posts">
+
+
+<img src="http://31.media.tumblr.com/0869cd074ddff504c5d5f1d592ad43e4/tumblr_nc49kop7YP1rifsmuo1_500.gif" />
+<div class="text"><p><a href="http://beautiful-ruiner.tumblr.com/post/97838628178/shameless-season-3-titles" class="tumblr_blog" target="_blank">beautiful-ruiner</a>:</p>
+
+<blockquote><pre>SHAMELESS: Season 3 Titles</pre></blockquote></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------->
+
+<!--The Permalink (Part 7)-->
+
+<div id="permalink">
+<a href="http://magneticdice.tumblr.com/post/98715761111">
+Posted 14 hours ago
+ with 173 notes
+</a>
+</div> <!--permalink-->
+
+<!--The Tags (Part 7)-->
+
+<div id="tags">
+<a href="http://magneticdice.tumblr.com/tagged/thank-queue-very-much">#thank queue very much</a>
+
+</div> <!--tags-->
+
+
+</div> <!--posts-->
+
+<!--Note Container (Part 7)-->
+
+
+
+
+
+<div id="posts">
+
+
+
+
+<div id="photoset_98712298881" class="html_photoset">    <iframe id="photoset_iframe_98712298881" class="photoset" scrolling="no" frameborder="0" height="570" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://magneticdice.tumblr.com/post/98712298881/photoset_iframe/magneticdice/tumblr_nc4bto8TnO1qf917p/500/false"></iframe></div>
+<div class="text"><p>(Source: <a href="http://dannymahelani.tumblr.com/post/97841370243" title="dannymahelani">dannymahelani</a>, via <a href='http://daphneblake.co.vu/post/97841370243'>jennifer-mason</a>)</p></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------->
+
+<!--The Permalink (Part 7)-->
+
+<div id="permalink">
+<a href="http://magneticdice.tumblr.com/post/98712298881">
+Posted 16 hours ago
+ with 716 notes
+</a>
+</div> <!--permalink-->
+
+<!--The Tags (Part 7)-->
+
+<div id="tags">
+<a href="http://magneticdice.tumblr.com/tagged/thank-queue-very-much">#thank queue very much</a>
+
+</div> <!--tags-->
+
+
+</div> <!--posts-->
+
+<!--Note Container (Part 7)-->
+
+
+
+
+
+<div id="posts">
+
+
+<img src="http://33.media.tumblr.com/1154c341def9c234bd2f21dc77c7d6cc/tumblr_nc4oynA8Mi1rifsmuo1_500.gif" />
+<div class="text"><p><a href="http://beautiful-ruiner.tumblr.com/post/97892079448/shameless-season-4-titles" class="tumblr_blog" target="_blank">beautiful-ruiner</a>:</p>
+
+<blockquote><pre>SHAMELESS: Season 4 Titles</pre></blockquote></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------->
+
+<!--The Permalink (Part 7)-->
+
+<div id="permalink">
+<a href="http://magneticdice.tumblr.com/post/98707708405">
+Posted 18 hours ago
+ with 188 notes
+</a>
+</div> <!--permalink-->
+
+<!--The Tags (Part 7)-->
+
+<div id="tags">
+<a href="http://magneticdice.tumblr.com/tagged/thank-queue-very-much">#thank queue very much</a>
+
+</div> <!--tags-->
+
+
+</div> <!--posts-->
+
+<!--Note Container (Part 7)-->
+
+
+
+
+
+<div id="posts">
+
+
+
+
+<div id="photoset_98688939321" class="html_photoset">    <iframe id="photoset_iframe_98688939321" class="photoset" scrolling="no" frameborder="0" height="1180" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://magneticdice.tumblr.com/post/98688939321/photoset_iframe/magneticdice/tumblr_nc5w51ungq1rifsmu/500/false"></iframe></div>
+<div class="text"><p><a href="http://beautiful-ruiner.tumblr.com/post/97906028998/take-your-hand-off-the-glass" class="tumblr_blog" target="_blank">beautiful-ruiner</a>:</p>
+
+<blockquote><pre>Take your hand off the glass.</pre></blockquote></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------------------->
+
+<!--The Permalink (Part 7)-->
+
+<div id="permalink">
+<a href="http://magneticdice.tumblr.com/post/98688939321">
+Posted 22 hours ago
+ with 520 notes
+</a>
+</div> <!--permalink-->
+
+<!--The Tags (Part 7)-->
+
+<div id="tags">
+<a href="http://magneticdice.tumblr.com/tagged/thank-queue-very-much">#thank queue very much</a>
+
+</div> <!--tags-->
+
+
+</div> <!--posts-->
+
+<!--Note Container (Part 7)-->
+
+
+
+
+
+</div> <!--autopagerize_page_element-->
+</div> <!--content-->
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'Yes';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://www.magneticdice.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037685&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3Lm1hZ25ldGljZGljZS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=BMNGLJGOCN&K=90c0b898bdab3ce00ebdb2da190e97b04c733810eef0fdd8d202d790be562e96&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037685&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3Lm1hZ25ldGljZGljZS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=BMNGLJGOCN&K=c0c9baf36ce84660f50980e6c5bc86a24f0e85715713fc7a0a7967944c9f394b&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037685&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5tYWduZXRpY2RpY2UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE2NTc4Mjg0MSIsInJvb3RfcG9zdGlkIjoiOTgxNzU0MTE5MDQiLCJwb3N0aWQiOiI5ODc2MTkyMTQzMSIsImJsb2dpZCI6Ijk3NzQyNTczIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExODE3NzM2NSIsInJvb3RfcG9zdGlkIjoiOTM0MTA0OTEyMTEiLCJwb3N0aWQiOiI5ODc1MjM3NzM3OCIsImJsb2dpZCI6Ijk3NzQyNTczIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjU0MjMxMzg3Iiwicm9vdF9wb3N0aWQiOjk4MTU2NDU3NzEzLCJwb3N0aWQiOiI5ODc0MjQ2MDM5MSIsImJsb2dpZCI6Ijk3NzQyNTczIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjcyMDgwNDQiLCJyb290X3Bvc3RpZCI6Ijk3NzYyMzI3ODk5IiwicG9zdGlkIjoiOTg3MzQwNTUxNTQiLCJibG9naWQiOiI5Nzc0MjU3MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3MDYxNzYzIiwicm9vdF9wb3N0aWQiOiI5Nzc4MzU3NDUyNiIsInBvc3RpZCI6Ijk4NzI2NjM3Mjk0IiwiYmxvZ2lkIjoiOTc3NDI1NzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTQ1Mzg4NzE0Iiwicm9vdF9wb3N0aWQiOiI5Nzc4NTQxOTkyMSIsInBvc3RpZCI6Ijk4NzIwNDE2NzE3IiwiYmxvZ2lkIjoiOTc3NDI1NzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzY3MDM5ODEiLCJyb290X3Bvc3RpZCI6Ijk3ODM4NjI4MTc4IiwicG9zdGlkIjoiOTg3MTU3NjExMTEiLCJibG9naWQiOiI5Nzc0MjU3MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDI5MzMzNiIsInJvb3RfcG9zdGlkIjoiOTc4NDEzNzAyNDMiLCJwb3N0aWQiOiI5ODcxMjI5ODg4MSIsImJsb2dpZCI6Ijk3NzQyNTczIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc2NzAzOTgxIiwicm9vdF9wb3N0aWQiOiI5Nzg5MjA3OTQ0OCIsInBvc3RpZCI6Ijk4NzA3NzA4NDA1IiwiYmxvZ2lkIjoiOTc3NDI1NzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzY3MDM5ODEiLCJyb290X3Bvc3RpZCI6Ijk3OTA2MDI4OTk4IiwicG9zdGlkIjoiOTg2ODg5MzkzMjEiLCJibG9naWQiOiI5Nzc0MjU3MyIsInNvdXJjZSI6MzN9XX0=&U=FJDFFLLPEP&K=598dc2dd1ee1493aaa24d5849c8fa7a4a9c89767ed09fd10f6776504d62d6fe8&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037685&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5tYWduZXRpY2RpY2UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE2NTc4Mjg0MSIsInJvb3RfcG9zdGlkIjoiOTgxNzU0MTE5MDQiLCJwb3N0aWQiOiI5ODc2MTkyMTQzMSIsImJsb2dpZCI6Ijk3NzQyNTczIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExODE3NzM2NSIsInJvb3RfcG9zdGlkIjoiOTM0MTA0OTEyMTEiLCJwb3N0aWQiOiI5ODc1MjM3NzM3OCIsImJsb2dpZCI6Ijk3NzQyNTczIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjU0MjMxMzg3Iiwicm9vdF9wb3N0aWQiOjk4MTU2NDU3NzEzLCJwb3N0aWQiOiI5ODc0MjQ2MDM5MSIsImJsb2dpZCI6Ijk3NzQyNTczIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjcyMDgwNDQiLCJyb290X3Bvc3RpZCI6Ijk3NzYyMzI3ODk5IiwicG9zdGlkIjoiOTg3MzQwNTUxNTQiLCJibG9naWQiOiI5Nzc0MjU3MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3MDYxNzYzIiwicm9vdF9wb3N0aWQiOiI5Nzc4MzU3NDUyNiIsInBvc3RpZCI6Ijk4NzI2NjM3Mjk0IiwiYmxvZ2lkIjoiOTc3NDI1NzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTQ1Mzg4NzE0Iiwicm9vdF9wb3N0aWQiOiI5Nzc4NTQxOTkyMSIsInBvc3RpZCI6Ijk4NzIwNDE2NzE3IiwiYmxvZ2lkIjoiOTc3NDI1NzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzY3MDM5ODEiLCJyb290X3Bvc3RpZCI6Ijk3ODM4NjI4MTc4IiwicG9zdGlkIjoiOTg3MTU3NjExMTEiLCJibG9naWQiOiI5Nzc0MjU3MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDI5MzMzNiIsInJvb3RfcG9zdGlkIjoiOTc4NDEzNzAyNDMiLCJwb3N0aWQiOiI5ODcxMjI5ODg4MSIsImJsb2dpZCI6Ijk3NzQyNTczIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc2NzAzOTgxIiwicm9vdF9wb3N0aWQiOiI5Nzg5MjA3OTQ0OCIsInBvc3RpZCI6Ijk4NzA3NzA4NDA1IiwiYmxvZ2lkIjoiOTc3NDI1NzMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzY3MDM5ODEiLCJyb290X3Bvc3RpZCI6Ijk3OTA2MDI4OTk4IiwicG9zdGlkIjoiOTg2ODg5MzkzMjEiLCJibG9naWQiOiI5Nzc0MjU3MyIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=FJDFFLLPEP&K=9472a6c3209acd342560a94457376db313629d0e3af9e82210c9f73b9fb24b94&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:97742573,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fwww.magneticdice.tumblr.com%2F&amp;lang=en_US&amp;name=magneticdice&amp;brag=false&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_d5a403ac568d_64.png&amp;title=magneticdice&amp;url=http%3A%2F%2Fmagneticdice.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fwww.magneticdice.tumblr.com%2F&amp;lang=en_US&amp;name=magneticdice&amp;brag=false&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_d5a403ac568d_64.png&amp;title=magneticdice&amp;url=http%3A%2F%2Fmagneticdice.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

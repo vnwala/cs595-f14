@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Minimal Theme designed by Artur Kim (http://arturkim.com) for Tumblr | version 1.5 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>MY MECCA</title>
+    <meta name="description" content="I store my emotions in writing pads, I am a writer. I display my soul on canvases, I am a painter. Lenses capture my soul and my spirit is guided by Jesus, I am a disciple. @KolourMeKapes" />
+    <link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_f70b9649554d_128.png" />
+    <link rel="apple-touch-icon" href="http://31.media.tumblr.com/avatar_f70b9649554d_128.png"/>
+    <link rel="alternate" type="application/rss+xml" href="http://mymecca.tumblr.com/rss" />
+
+    <!-- DEFAULT VARIABLES -->
+    <meta name="color:Post Type Text" content="#555555"/>
+    <meta name="color:Post Type Photo" content="#555555"/>
+    <meta name="color:Post Type Photoset" content="#555555"/>
+    <meta name="color:Post Type Quote" content="#555555"/>
+    <meta name="color:Post Type Link" content="#555555"/>
+    <meta name="color:Post Type Chat" content="#555555"/>
+    <meta name="color:Post Type Video" content="#555555"/>
+    <meta name="color:Post Type Audio" content="#555555"/>
+    <meta name="image:Header" content=""/>
+    <meta name="if:Show About Widget" content="1"/>
+    <meta name="if:Show Stuff I Like Widget" content="1"/>
+    <meta name="if:Show Latest Tweets Widget" content="0"/>
+    <meta name="if:Show People I Follow Widget" content="1"/>
+    <meta name="text:Number of Tweets" content="3"/>
+    <meta name="text:Google Analytics ID" content="" />
+    <meta name="text:Disqus Shortname" content="" />
+
+    <style type="text/css" media="screen">
+    /* Minimal Theme designed by Artur Kim (http://arturkim.com) for Tumblr | version 1.5 */
+
+    /* RESET */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;
+    }
+    body { line-height: 1; }
+    ol, ul { list-style: none; }
+    blockquote, q { quotes: none; }
+    blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+    :focus { outline: 0; }
+    del { text-decoration: line-through; }
+    table { border-collapse: collapse; border-spacing: 0; }
+
+    /* GLOBAL ELEMENTS */
+    body { background: #fff; }
+    body, input, textarea { color: #000; font: 14px/20px "helvetica neue",helvetica,arial,sans-serif; }
+    p, ul, ol, dd, pre { margin-bottom: 20px; }
+    pre, code { font: 12px Monaco,monospace; line-height: 20px; }
+    blockquote { border-left: 5px solid #ddd; color: #555; font-style: italic; margin-bottom: 20px; padding-left: 10px; }
+    table { border: 1px solid #ccc; border-width: 1px 1px 0 1px; font-size: 14px; line-height: 20px; margin: 0 0 22px 0; text-align: left; }
+    caption { text-align: left; }
+    tr { border-bottom: 1px solid #ccc; }
+    th, td { padding: .7em 1.25em; }
+    hr { background-color: #ccc; border: 0; color: #555; height: 1px; margin-bottom: 20px; }
+    a:link, a:visited { color: #555; }
+    a:focus, a:hover, a:active { color: #dd3333; }
+    h1, h2, h3, h4, h5, h6 {  font-weight:normal; clear:both; }
+    img { background: #eee; }
+    a img:focus, a img:hover, a img:active { background: #dd3333; }
+
+    /* DEFAULT CSS */
+    #header .menu {
+        border-bottom: 1px solid #ccc;
+        margin: 0 auto 3px;
+        overflow: hidden;
+        padding: 20px 0 10px;
+        width: 900px;
+    }
+        #header #pages {
+            float: left;
+            width: 580px;
+        }
+            #header #pages ul {
+                float: left;
+                margin-bottom: 0;
+            }
+                #header #pages li {
+                    float: left;
+                    margin-right: 10px;
+                    padding: 4px 10px 3px 0;
+                }
+                    #header #pages a, #header #pages a:visited {
+                        color: #555;
+                        font-size: 16px;
+                        text-decoration: none;
+                    }
+                    #header #pages a:focus, #header #pages a:hover, #header #pages a:active {
+                        color: #dd3333;
+                    }
+        #header #search {
+            float: right;
+        }
+            #header #search input {
+                border: 1px solid #ccc;
+                line-height: 20px;
+                padding: 4px;
+            }
+            #header #search input.search-button {
+                background: #eee;
+                color: #555;
+                padding: 3px;
+                width: 60px;
+            }
+    #header #branding {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin: 0 auto 3px;
+        
+        width: 900px;
+    }
+        #header h1 a {
+            color: #111;
+            font: 80px Georgia,serif;
+            font-weight: normal;
+            line-height: 100px;
+            text-decoration: none;
+        }
+        #header h1 a:focus, #header h1 a:hover, #header h1 a:active {
+            color: #dd3333;
+        }
+        #header img {
+            max-width: 900px;
+        }
+    #main {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        clear: both;
+        margin: 0 auto 3px;
+        overflow: hidden;
+        width: 900px;
+    }
+        #container {
+            border-right: 1px solid #ccc;
+            float: left;
+            min-height: 400px;
+            width: 580px;
+        }
+            .post-meta {
+                border-bottom: 1px solid #ccc;
+                color: #555;
+                overflow: hidden;
+                padding: 9px 0;
+            }
+                .post-meta .type {
+                    float: left;
+                }
+                    .post-meta .type a {
+                        border-bottom: 1px solid #ccc;
+                        font-weight: bold;
+                        padding: 0 10px 10px;
+                        text-decoration: none;
+                    }
+                    .post-type-text .post-meta .type a {
+                        border-bottom: 1px solid #0078ff;
+                        color: #0078ff;
+                    }
+                    .post-type-photo .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-photoset .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-quote .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-link .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-chat .post-meta .type a {
+                        border-bottom: 1px solid #00a1ff;
+                        color: #00a1ff;
+                    }
+                    .post-type-video .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-audio .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-meta .type a:focus, .post-meta .type a:hover, .post-meta .type a:active {
+                        margin-left: 5px;
+                    }
+                .post-meta .date, .post-meta .comments, .post-meta .note-count {
+                    float: left;
+                    padding: 0 10px;
+                }
+            .post-content {
+                padding: 30px 30px 60px;
+            }
+            .post-content div:last-child, .post-content div:last-child p,
+            .post-content div:last-child ul, .post-content div:last-child ol,
+            .post-content div:last-child blockquote {
+                margin-bottom: 0;
+            }
+                .post-content h3 {
+                    font: 20px Georgia,serif;
+                    margin-bottom: 20px;
+                }
+                    .post-content h3 a, .post-content h3 a:visited {
+                        color: #111;
+                        text-decoration: none;
+                    }
+                    .post-content h3 a:focus, .post-content h3 a:hover, .post-content h3:active {
+                        color: #dd3333;
+                    }
+                .post-content img {
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                .post-type-text .post-content ul {
+                    padding-left: 30px;
+                }
+                    .post-type-text .post-content ul ul {
+                        margin-bottom: 0;
+                    }
+                    .post-type-text .post-content ul li {
+                        list-style-type: disc;
+                    }
+                        .post-type-text .post-content ul ul li {
+                            list-style-type: circle;
+                        }
+                .post-type-text .post-content ol {
+                    padding-left: 30px;
+                }
+                    .post-type-text .post-content ol ol {
+                        margin-bottom: 0;
+                    }
+                    .post-type-text .post-content ol li {
+                        list-style-type: upper-latin;
+                    }
+                        .post-type-text .post-content ol ol li {
+                            list-style-type: lower-latin;
+                        }
+                .post-type-photoset .post-content .html_photoset {
+                    background: #eee;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                .post-type-link .post-content .link-wrap {
+                    margin-bottom: 20px;
+                }
+                .post-type-chat .post-content .label {
+                    color: #333;
+                    font-weight: bold;
+                }
+                .post-type-video .post-content .video-wrap {
+                    background: #f0f0f0;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                .post-type-audio .post-content .caption {
+                    margin-top: 10px;
+                }
+                .tags {
+                    font-size: 13px;
+                }
+                .tags a {
+                    text-decoration: none;
+                }
+                .tags a:after {
+                    content: ",";
+                }
+                .tags a:last-child:after {
+                    content: "";
+                }
+            #disqus_thread {
+                border-top: 1px solid #ccc;
+                padding: 10px 30px 0;
+            }
+                #disqus_thread h3 {
+                    color: #111;
+                    font: 18px Georgia,serif;
+                    margin: 20px 0 10px;
+                }
+                #dsq-content .dsq-subscribe-menu {
+                    font-size: 12px;
+                }
+            #post-notes {
+                border-top: 1px solid #ccc;
+                padding: 30px;
+            }
+                #post-notes ol li {
+                    border-bottom: 1px dotted #ccc;
+                    padding: 10px 0;
+                }
+                    #post-notes ol li img {
+                        background: none;
+                        padding-right: 3px;
+                        vertical-align: middle;
+                    }
+            .pagination {
+                border-top: 1px solid #ccc;
+                overflow: hidden;
+                padding: 20px 0;
+            }
+                .pagination .previous-page {
+                    float: left;
+                }
+                .pagination .next-page {
+                    float: right;
+                    margin-right: 30px;
+                }
+                    .pagination a {
+                        font: 20px Georgia,serif;
+                        text-decoration: none;
+                    }
+        #sidebar {
+            float: left;
+            padding-bottom: 30px;
+            width: 319px;
+        }
+            #sidebar h3 {
+                border-bottom: 1px dotted #ccc;
+                color: #999;
+                font-size: 14px;
+                font-weight: bold;
+                margin: 0 0 20px;
+                padding: 9px 20px;
+                text-transform: uppercase;
+            }
+                #sidebar h3 a, #sidebar h3 a:visited {
+                    color: #999;
+                    text-decoration: none;
+                }
+                #sidebar h3 a:focus, #sidebar h3 a:hover, #sidebar h3 a:active {
+                    color: #dd3333;
+                }
+
+            #sidebar ul {
+                margin-bottom: 0;
+            }
+            .widget {
+                border-bottom: 1px solid #ccc;
+                color: #333;
+                font-size: 13px;
+                padding: 0 20px 20px 20px;
+            }
+                .widget h3 {
+                    font: 20px Georgia,serif;
+                    margin-bottom: 20px;
+                }
+                    .widget h3 a, .widget h3 a:visited {
+                        color: #000;
+                        text-decoration: none;
+                    }
+                    .widget h3 a:focus, .widget h3 a:hover, .widget h3 a:active {
+                        color: #dd3333;
+                    }
+                .widget img {
+                    padding: 5px;
+                    max-width: 250px;
+                }
+                .widget p:last-child, .widget ul:last-child, .widget ol:last-child, .widget blockquote:last-child {
+                    margin-bottom: 0;
+                }
+            #about {
+                overflow: hidden;
+            }
+                #about img {
+                    background: #fff;
+                    border: 1px solid #ccc;
+                    float: left;
+                    margin: 0 10px 0 0;
+                    padding: 3px;
+                }
+            .like_post {
+                border-bottom: 1px dotted #ccc;
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+            }
+            .like_post:last-child {
+                border: none;
+                margin: 0;
+                padding: 0;
+            }
+                .like_post ul {
+                    padding-left: 20px;
+                }
+                    .like_post ul ul {
+                        margin-bottom: 0;
+                    }
+                    .like_post ul li {
+                        list-style-type: disc;
+                    }
+                        .like_post ul ul li {
+                            list-style-type: circle;
+                        }
+                .like_post ol {
+                    padding-left: 20px;
+                }
+                    .like_post ol ol {
+                        margin-bottom: 0;
+                    }
+                    .like_post ol li {
+                        list-style-type: upper-latin;
+                    }
+                        .like_post ol ol li {
+                            list-style-type: lower-latin;
+                        }
+                .like_post p:last-child, .like_post ul:last-child, .like_post ol:last-child, .like_post blockquote:last-child {
+                    margin-bottom: 0;
+                }
+            #tweets {
+                margin-bottom: 10px;
+            }
+                #tweets .content {
+                    margin-bottom: 10px;
+                }
+                    #tweets a {
+                        text-decoration: none;
+                    }
+            #following_container {
+                overflow: hidden;
+                padding-bottom: 20px;
+            }
+                #following_container li {
+                    display: inline;
+                    padding: 0;
+                    margin: 0;
+                }
+    #footer {
+        border-top: 1px solid #ccc;
+        clear: both;
+        margin: 0 auto;
+        overflow: hidden;
+        width: 900px;
+    }
+        #colophon {
+            color: #555;
+            float: right;
+            font-size: 12px;
+            padding: 10px 0 20px;
+        }
+            #footer a {
+                border-bottom: 1px dotted #555;
+                text-decoration: none;
+            }
+    
+    </style>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=mymecca" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="MY MECCA" /><meta property="og:url" content="http://mymecca.tumblr.com/?og=1" /><meta property="og:description" content="I store my emotions in writing pads, I am a writer. I display my soul on canvases, I am a painter...." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://31.media.tumblr.com/avatar_f70b9649554d_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=mymecca" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=mymecca" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="mymecca" /><meta name="twitter:description" content="I store my emotions in writing pads, I am a writer. I display my soul on canvases, I am a painter. Lenses capture my soul and my spirit is guided by Jesus, I am a disciple. 
+
+@KolourMeKapes
+" /><meta name="twitter:creator" content="KolourMeKapes" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=mymecca&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=mymecca&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=mymecca&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="access">
+                <div class="menu">
+                    <div id="pages">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            
+                            <li class="ask"><a href="/ask" class="page">Ask me anything</a></li>
+                            
+                            <li class="archive"><a href="/archive">Archive</a></li>
+                            <li class="mobile"><a href="/mobile">Mobile</a></li>
+                            <li class="rss"><a href="http://mymecca.tumblr.com/rss">RSS</a></li>
+                        </ul>
+                    </div><!-- #pages -->
+                    <div id="search">
+                        <form action="/search" method="get">
+                            <input type="text" name="q" value=""/>
+                            <input type="submit" value="Search" class="search-button"/>
+                        </form>
+                    </div><!-- #search -->
+                </div><!-- .menu -->
+            </div><!-- #access -->
+            <div id="branding">
+                <h1>
+                    <a href="/"><img src="http://static.tumblr.com/7b61320d5748ae5fc3140b4419715028/o2hxrak/PWzmtn22r/tumblr_static_spokenword_20copy_1_.gif" alt="MY MECCA" /></a>
+                    
+                </h1>
+            </div><!-- #branding -->
+        </div><!-- #header -->
+        <div id="main">
+            <div id="container">
+                <div id="content">
+                
+                    <div id="post-98570244581" class="post post-type-quote">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://mymecca.tumblr.com/post/98570244581/eat-better-run-more-squat-more-sleep-earlier">Quote</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://mymecca.tumblr.com/post/98570244581/eat-better-run-more-squat-more-sleep-earlier#notes">98,902 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                        
+                            <div class="quote-content">"Eat better. Run more. Squat more. Sleep earlier. Wake up earlier. Make a good breakfast. Drink water. Eat fruits. Read books. Adventure. Talk less. Listen more. Feel deeper. Love better. Open your eyes. Experience life. Be happy."</div>
+                            <p class="quote-source">&mdash; my motivation to be happy. (via <a class="tumblr_blog" href="http://insignificantttt.tumblr.com/">insignificantttt</a>)<p>(via <a href='http://minidlamini.tumblr.com/post/98533836415/eat-better-run-more-squat-more-sleep-earlier'>minidlamini</a>)</p></p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-98570183341" class="post post-type-quote">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://mymecca.tumblr.com/post/98570183341/when-its-silent-the-world-inside-me-is-a-raging">Quote</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://mymecca.tumblr.com/post/98570183341/when-its-silent-the-world-inside-me-is-a-raging#notes">1 note</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                        
+                            <div class="quote-content">"When its silent, the world inside me is a raging war. My thoughts are at their loudest…"</div>
+                            <p class="quote-source">&mdash; (via <a class="tumblr_blog" href="http://theladyliviano.tumblr.com/">theladyliviano</a>)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-98570145266" class="post post-type-quote">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://mymecca.tumblr.com/post/98570145266/every-night-i-said-a-prayer-for-you-and-i-asked">Quote</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://mymecca.tumblr.com/post/98570145266/every-night-i-said-a-prayer-for-you-and-i-asked#notes">1 note</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                        
+                            <div class="quote-content">"Every night I said a prayer for you and I asked God to bring you another angel that would take my place. Then when I saw you standing next to her with the same smile you had when you stood next to me, I wished I could take back prayers."</div>
+                            <p class="quote-source">&mdash; (via <a class="tumblr_blog" href="http://theladyliviano.tumblr.com/">theladyliviano</a>)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-98570023191" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://mymecca.tumblr.com/post/98570023191/yue-minjun-in-his-studio-beijing-may-2007-by">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://mymecca.tumblr.com/post/98570023191/yue-minjun-in-his-studio-beijing-may-2007-by#notes">21,730 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <a href="http://mymecca.tumblr.com/image/98570023191"><img src="http://36.media.tumblr.com/a3e9f9dab7419788c10c2850ede07dfe/tumblr_mjvv99qgvm1qzh5ano1_500.jpg" class="photo" alt="
+Yue Minjun in his studio, Beijing, May 2007 by Jonathan Becker
+" /></a>
+                            <a href="http://40.media.tumblr.com/a3e9f9dab7419788c10c2850ede07dfe/tumblr_mjvv99qgvm1qzh5ano1_1280.jpg" class="high-res" target="_blank"></a>
+                            <div class="caption"><blockquote>
+<p><em><span>Yue Minjun in his studio, Beijing, May 2007 by Jonathan Becker</span></em></p>
+</blockquote><p>(Source: <a href="http://satan-o-matic.tumblr.com/post/45719146591" title="satan-o-matic">satan-o-matic</a>, via <a href='http://minidlamini.tumblr.com/post/98538183314/yue-minjun-in-his-studio-beijing-may-2007-by'>minidlamini</a>)</p></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-98569862556" class="post post-type-quote">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://mymecca.tumblr.com/post/98569862556/i-only-write-when-i-am-falling-in-love-or-falling">Quote</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://mymecca.tumblr.com/post/98569862556/i-only-write-when-i-am-falling-in-love-or-falling#notes">96,040 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                        
+                            <div class="quote-content">"I only write when I am falling in love, or falling apart."</div>
+                            <p class="quote-source">&mdash; e.s. (via <a class="tumblr_blog" href="http://selectables.tk/">selectables</a>)<p>(via <a href='http://90-s-kid.tumblr.com/post/98549968255/i-only-write-when-i-am-falling-in-love-or-falling'>90-s-kid</a>)</p></p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-98569832531" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://mymecca.tumblr.com/post/98569832531/blackfashion-african-woman-maria-al-jarreau">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://mymecca.tumblr.com/post/98569832531/blackfashion-african-woman-maria-al-jarreau#notes">695 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <a href="http://mymecca.tumblr.com/image/98569832531"><img src="http://33.media.tumblr.com/e1328ba84b2e2e29f0418c6406195b7d/tumblr_nck9ivZ8TE1qasnrqo1_500.jpg" class="photo" alt="blackfashion:
+
+African Woman:&nbsp;Maria Al Jarreau&nbsp;
+Photo by: Abdel Queta Tavares
+Tumblr:&nbsp;http://blackfashionstars.tumblr.com/
+Instagram: @abdelkeitatavares
+Blog:&nbsp;http://blackfashionstars.blogspot.pt/
+" /></a>
+                            <a href="http://33.media.tumblr.com/e1328ba84b2e2e29f0418c6406195b7d/tumblr_nck9ivZ8TE1qasnrqo1_1280.jpg" class="high-res" target="_blank"></a>
+                            <div class="caption"><p><a class="tumblr_blog" href="http://blackfashion.tumblr.com/post/98552133478/african-woman-maria-al-jarreau-photo-by-abdel">blackfashion</a>:</p>
+<blockquote>
+<p>African Woman: <a href="https://www.facebook.com/maria.badu.1">Maria Al Jarreau</a> </p>
+<p>Photo by: Abdel Queta Tavares</p>
+<p>Tumblr: http://blackfashionstars.tumblr.com/</p>
+<p>Instagram: @abdelkeitatavares</p>
+<p>Blog: http://blackfashionstars.blogspot.pt/</p>
+</blockquote></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-98569708736" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://mymecca.tumblr.com/post/98569708736">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://mymecca.tumblr.com/post/98569708736#notes">269,271 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <a href="http://mymecca.tumblr.com/image/98569708736"><img src="http://41.media.tumblr.com/8fe0b3d67cfc4af7b4c524685d1ba3b8/tumblr_n89dwtdVwy1rnuh3qo1_500.jpg" class="photo" alt="" /></a>
+                            <a href="http://40.media.tumblr.com/8fe0b3d67cfc4af7b4c524685d1ba3b8/tumblr_n89dwtdVwy1rnuh3qo1_1280.jpg" class="high-res" target="_blank"></a>
+                            <div class="caption"><p>(Source: <a href="http://princusbeau.tumblr.com/post/90882858956/kat-got-me-those-mugs-the-cluster-fuck-in-this" title="princusbeau">princusbeau</a>, via <a href='http://everything-in-black.tumblr.com/post/98557259837'>everything-in-black</a>)</p></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-98569609161" class="post post-type-photoset">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://mymecca.tumblr.com/post/98569609161/beautiesofafrique-chimamanda-ngozi-adichie-will">Photoset</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://mymecca.tumblr.com/post/98569609161/beautiesofafrique-chimamanda-ngozi-adichie-will#notes">792,632 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                            <div id="photoset_98569609161" class="html_photoset">    <iframe id="photoset_iframe_98569609161" class="photoset" scrolling="no" frameborder="0" height="2411" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://mymecca.tumblr.com/post/98569609161/photoset_iframe/mymecca/tumblr_mqytblafpE1sx3p04/500/false"></iframe></div>
+                            <div class="caption"><p><a class="tumblr_blog" href="http://beautiesofafrique.tumblr.com/post/98078985845/chimamanda-ngozi-adichie-will-forever-be-in-my">beautiesofafrique</a>:</p>
+<blockquote>
+<p>Chimamanda Ngozi Adichie will forever be in my heart</p>
+</blockquote><p>(Source: <a href="http://sad--anime.tumblr.com/post/57263224200/chimamamda-ngozi-adiche-we-should-all-be" title="sad--anime">sad--anime</a>, via <a href='http://theladyliviano.tumblr.com/post/98558105870/beautiesofafrique-chimamanda-ngozi-adichie-will'>theladyliviano</a>)</p></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-98532474891" class="post post-type-quote">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://mymecca.tumblr.com/post/98532474891/silence-it-has-a-sound-a-fullness-its-heavy">Quote</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://mymecca.tumblr.com/post/98532474891/silence-it-has-a-sound-a-fullness-its-heavy#notes">649 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                        
+                            <div class="quote-content">"<p>Silence</p>
+
+<p>It has a sound, a fullness.<br/>
+It’s heavy with sigh of tree,<br/>
+and space between breaths.<br/>
+It’s ripe with pause between birdsong<br/>
+and crash of surf. <br/>
+It’s golden they say.<br/>
+But no one tells us it’s addictive.</p>"</div>
+                            <p class="quote-source">&mdash; Angela Long (via <a class="tumblr_blog" href="http://observando.net/">observando</a>)<p>(via <a href='http://minidlamini.tumblr.com/post/98477092435/silence-it-has-a-sound-a-fullness-its-heavy'>minidlamini</a>)</p></p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-98532411621" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://mymecca.tumblr.com/post/98532411621/halfcast-n-latino-follow-halfcast-n-latino-for">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://mymecca.tumblr.com/post/98532411621/halfcast-n-latino-follow-halfcast-n-latino-for#notes">7,125 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <a href="http://fedswatching.tumblr.com"><img src="http://33.media.tumblr.com/a3de0303db0356df5684b852e031b0c0/tumblr_ncfaekQgQw1qdie0jo1_500.gif" class="photo" alt="halfcast-n-latino:
+
+Follow&nbsp;halfcast-n-latino&nbsp;for streetwear
+" /></a>
+                            
+                            <div class="caption"><p><a class="tumblr_blog" href="http://halfcast-n-latino.tumblr.com/post/98481993091/follow-halfcast-n-latino-for-streetwear">halfcast-n-latino</a>:</p>
+<blockquote>
+<p><strong>Follow <a href="http://halfcast-n-latino.tumblr.com/">halfcast-n-latino</a> for streetwear</strong></p>
+</blockquote></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                
+                    <div class="pagination">
+                        
+                        <span class="next-page"><a href="/page/2">Next &#187;</a></span>
+                    </div><!-- .pagination -->
+                
+                </div><!-- #content -->
+            </div><!-- #container -->
+            <div id="sidebar">
+            
+                <h3>About</h3>
+                <div id="about" class="widget">
+                    <img src="http://33.media.tumblr.com/avatar_f70b9649554d_64.png" alt="portrait" />
+                    <div class="description"><p>I store my emotions in writing pads, I am a writer. I display my soul on canvases, I am a painter. Lenses capture my soul and my spirit is guided by Jesus, I am a disciple. <br />
+<br />
+@KolourMeKapes</p></div>
+                </div>
+            
+			
+                <h3><a href="http://www.tumblr.com/liked/by/mymecca">Stuff I like</a></h3>
+                <div id="likes_container" class="widget">
+                    <ul id="likes"><li class="like_post like_quote_post"><div class="post_info_top" style="display:none;"><a href="http://thembakazimatroshe.tumblr.com/post/64234438737/will-you-still-love-me-when-im-no-longer-young">Quote</a> <span class="via">via</span> <a href="http://thembakazimatroshe.tumblr.com/">thembakazimatroshe</a></div><div class="like_quote"><span class="like_left_quote">&#8220;</span><span class="like_quote"><p>Will you still love me when I’m no longer young and beautiful? <br>
+Will you still love me when I got...</p></span><span class="like_right_quote">&#8221;</span></div><div class="post_info_bottom" style="display:none;"><a href="http://thembakazimatroshe.tumblr.com/post/64234438737/will-you-still-love-me-when-im-no-longer-young">Quote</a> <span class="via">via</span> <a href="http://thembakazimatroshe.tumblr.com/">thembakazimatroshe</a></div></li>
+</ul>
+                </div>
+            
+            
+            
+                <h3>People I follow</h3>
+                <div id="following_container" class="widget">
+                    <ul>
+                        
+                            <li><a href="http://foxxxynegrodamus.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_c4ef84bb627f_30.png" alt="foxxxynegrodamus"/></a></li>
+                        
+                            <li><a href="http://90-s-kid.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_78251fbbbdba_30.png" alt="90-s-kid"/></a></li>
+                        
+                            <li><a href="http://longlivechelley.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_0c923713ca8e_30.png" alt="longlivechelley"/></a></li>
+                        
+                            <li><a href="http://guys-tees.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_b0b1585a48fb_30.png" alt="guys-tees"/></a></li>
+                        
+                            <li><a href="http://halfcast-n-latino.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_b4ae3b0b400c_30.png" alt="halfcast-n-latino"/></a></li>
+                        
+                            <li><a href="http://cogitoergoblog.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_28ba81dab3a3_30.png" alt="cogitoergoblog"/></a></li>
+                        
+                            <li><a href="http://minidlamini.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_7f688a9b1367_30.png" alt="minidlamini"/></a></li>
+                        
+                            <li><a href="http://everything-in-black.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_a90d285c116e_30.png" alt="everything-in-black"/></a></li>
+                        
+                            <li><a href="http://shelteredwillow.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_fdbac4661f19_30.png" alt="shelteredwillow"/></a></li>
+                        
+                            <li><a href="http://nyane-mpho.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_b5fd0fbe4d97_30.png" alt="nyane-mpho"/></a></li>
+                        
+                            <li><a href="http://epeira.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_071e5e48ac11_30.png" alt="epeira"/></a></li>
+                        
+                            <li><a href="http://novaherself.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_41dfd04a9f9f_30.png" alt="novaherself"/></a></li>
+                        
+                            <li><a href="http://staff.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_fee7ff3e9d6a_30.png" alt="staff"/></a></li>
+                        
+                            <li><a href="http://strawberrykissesandlamusique.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_bd71f6ba950c_30.png" alt="strawberrykissesandlamusique"/></a></li>
+                        
+                            <li><a href="http://blackfashion.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_94daa427864e_30.png" alt="blackfashion"/></a></li>
+                        
+                            <li><a href="http://nyane-duro-nervioso.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_a0d93d08322b_30.png" alt="nyane-duro-nervioso"/></a></li>
+                        
+                            <li><a href="http://buntuthatsme.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_f19ef688f6f4_30.png" alt="buntuthatsme"/></a></li>
+                        
+                            <li><a href="http://pearlxolathusi.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_443f6501b3a2_30.png" alt="pearlxolathusi"/></a></li>
+                        
+                            <li><a href="http://bradaki.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_2f8581e0e5f9_30.png" alt="bradaki"/></a></li>
+                        
+                            <li><a href="http://iam-rebel.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_0f7fe22b618d_30.png" alt="iam-rebel"/></a></li>
+                        
+                            <li><a href="http://theladyliviano.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_abf142892ad1_30.png" alt="theladyliviano"/></a></li>
+                        
+                            <li><a href="http://what-she-likes.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_a11e39a5e55e_30.png" alt="what-she-likes"/></a></li>
+                        
+                            <li><a href="http://nouselifestyle.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_89596c2360b6_30.png" alt="nouselifestyle"/></a></li>
+                        
+                            <li><a href="http://nosticthepoet.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_147aceea4bda_30.png" alt="nosticthepoet"/></a></li>
+                        
+                            <li><a href="http://iseeadifferentyou.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_848edc1670a7_30.png" alt="iseeadifferentyou"/></a></li>
+                        
+                            <li><a href="http://mymindwithwords.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_3b0fa7a18533_30.png" alt="mymindwithwords"/></a></li>
+                        
+                            <li><a href="http://simplympho.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_0ebd3043ef7b_30.png" alt="simplympho"/></a></li>
+                        
+                            <li><a href="http://keyvine.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_1841fe201e7d_30.png" alt="keyvine"/></a></li>
+                        
+                            <li><a href="http://the-son-of-ra.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_1d1506c46a13_30.png" alt="the-son-of-ra"/></a></li>
+                        
+                            <li><a href="http://rudyfrancisco.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_3b2ffa232f9e_30.png" alt="rudyfrancisco"/></a></li>
+                        
+                            <li><a href="http://brilliantly-rebellious.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_decbfe6342fa_30.png" alt="brilliantly-rebellious"/></a></li>
+                        
+                            <li><a href="http://lulamawolf.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_2db1b497358f_30.png" alt="lulamawolf"/></a></li>
+                        
+                            <li><a href="http://brunchwithtiffany.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_91ca618e347b_30.png" alt="brunchwithtiffany"/></a></li>
+                        
+                            <li><a href="http://thembakazimatroshe.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_d6a3cd7491e3_30.png" alt="thembakazimatroshe"/></a></li>
+                        
+                            <li><a href="http://southafricasmostfashionable.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_cf2ff31ec2eb_30.png" alt="southafricasmostfashionable"/></a></li>
+                        
+                            <li><a href="http://clingingtosanity.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_fb511d55841e_30.png" alt="clingingtosanity"/></a></li>
+                        
+                            <li><a href="http://awkwardnorman.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_42d4e030cfaf_30.png" alt="awkwardnorman"/></a></li>
+                        
+                            <li><a href="http://moonshining-and-mollying.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_044bbe96a337_30.png" alt="moonshining-and-mollying"/></a></li>
+                        
+                            <li><a href="http://kissmeonmylips01.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_1c5ec412d2b6_30.png" alt="kissmeonmylips01"/></a></li>
+                        
+                            <li><a href="http://inandaroundmyhead.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_b169820780db_30.png" alt="inandaroundmyhead"/></a></li>
+                        
+                            <li><a href="http://siphilehlwatika.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_b2a98dc42d23_30.png" alt="siphilehlwatika"/></a></li>
+                        
+                            <li><a href="http://ongezwarini.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_01ca4cf5bd05_30.png" alt="ongezwarini"/></a></li>
+                        
+                            <li><a href="http://tsepslostgeneration1.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_bca2daf87d77_30.png" alt="tsepslostgeneration1"/></a></li>
+                        
+                            <li><a href="http://younger-than-yanga.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_c2d2aac30bcf_30.png" alt="younger-than-yanga"/></a></li>
+                        
+                            <li><a href="http://loveee-at-first-bite.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_3666b33dcc3a_30.png" alt="loveee-at-first-bite"/></a></li>
+                        
+                            <li><a href="http://spicesugarandallthingsnice.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_34d81b5991ef_30.png" alt="spicesugarandallthingsnice"/></a></li>
+                        
+                            <li><a href="http://im-a-kool-kid.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_3b1f1c58c45a_30.png" alt="im-a-kool-kid"/></a></li>
+                        
+                            <li><a href="http://asneezeandacupofsugar.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_055efe204c1f_30.png" alt="asneezeandacupofsugar"/></a></li>
+                        
+                    </ul>
+                </div>
+            
+            </div><!-- #sidebar -->
+        </div><!-- #main -->
+        <div id="footer">
+            <div id="colophon"><p>Powered by <a href="http://tumblr.com">Tumblr</a>. <a href="http://www.tumblr.com/theme/10375">Minimal Theme</a> designed by <a href="http://arturkim.com">Artur Kim</a>.</p></div>
+        </div><!-- #footer -->
+    </div><!-- #wrapper -->
+
+<script type="text/javascript" src="/tweets.js"></script>
+
+
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://mymecca.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037800&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbXltZWNjYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=IJCLICIGJD&K=0351fe5954d155c3a18bb3fffecf8481f1f6bd57d62f7f86b448c33a820e1d23&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037800&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbXltZWNjYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=IJCLICIGJD&K=9509dfab42d46514a9eba83c08848ac975b238147c80e69f369c24ede2c0826e&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037800&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL215bWVjY2EudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE2ODg3MDMwIiwicm9vdF9wb3N0aWQiOiI5MzM2MDkwMTQ0OCIsInBvc3RpZCI6Ijk4NTcwMjQ0NTgxIiwiYmxvZ2lkIjoiMTM2NTQzOTEwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5MTA4MDEwNyIsInJvb3RfcG9zdGlkIjoiOTg1MzUzMjA1NjAiLCJwb3N0aWQiOiI5ODU3MDE4MzM0MSIsImJsb2dpZCI6IjEzNjU0MzkxMCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTEwODAxMDciLCJyb290X3Bvc3RpZCI6Ijk4NTM1NDg3MDYwIiwicG9zdGlkIjoiOTg1NzAxNDUyNjYiLCJibG9naWQiOiIxMzY1NDM5MTAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTIwMTE3NCIsInJvb3RfcG9zdGlkIjo0NTcxOTE0NjU5MSwicG9zdGlkIjoiOTg1NzAwMjMxOTEiLCJibG9naWQiOiIxMzY1NDM5MTAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDkwODE1NDciLCJyb290X3Bvc3RpZCI6IjkzMjc5NTA2Mjk0IiwicG9zdGlkIjoiOTg1Njk4NjI1NTYiLCJibG9naWQiOiIxMzY1NDM5MTAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjE4NzEwOSIsInJvb3RfcG9zdGlkIjoiOTg1NTIxMzM0NzgiLCJwb3N0aWQiOiI5ODU2OTgzMjUzMSIsImJsb2dpZCI6IjEzNjU0MzkxMCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0MDkzNzExMyIsInJvb3RfcG9zdGlkIjoiOTA4ODI4NTg5NTYiLCJwb3N0aWQiOiI5ODU2OTcwODczNiIsImJsb2dpZCI6IjEzNjU0MzkxMCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTc1MjI4MjAiLCJyb290X3Bvc3RpZCI6NTcyNjMyMjQyMDAsInBvc3RpZCI6Ijk4NTY5NjA5MTYxIiwiYmxvZ2lkIjoiMTM2NTQzOTEwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0NjY0Iiwicm9vdF9wb3N0aWQiOiI5ODMxNTUxNzMxMyIsInBvc3RpZCI6Ijk4NTMyNDc0ODkxIiwiYmxvZ2lkIjoiMTM2NTQzOTEwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc5OTQwMDAiLCJyb290X3Bvc3RpZCI6Ijk4MzMwODE0MjIwIiwicG9zdGlkIjoiOTg1MzI0MTE2MjEiLCJibG9naWQiOiIxMzY1NDM5MTAiLCJzb3VyY2UiOjMzfV19&U=MMCKFJHELK&K=d0adf31766a3df8724e615e98fb95709417eab209bbc9558c0f336ccb1dfb9fa&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037800&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL215bWVjY2EudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE2ODg3MDMwIiwicm9vdF9wb3N0aWQiOiI5MzM2MDkwMTQ0OCIsInBvc3RpZCI6Ijk4NTcwMjQ0NTgxIiwiYmxvZ2lkIjoiMTM2NTQzOTEwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5MTA4MDEwNyIsInJvb3RfcG9zdGlkIjoiOTg1MzUzMjA1NjAiLCJwb3N0aWQiOiI5ODU3MDE4MzM0MSIsImJsb2dpZCI6IjEzNjU0MzkxMCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTEwODAxMDciLCJyb290X3Bvc3RpZCI6Ijk4NTM1NDg3MDYwIiwicG9zdGlkIjoiOTg1NzAxNDUyNjYiLCJibG9naWQiOiIxMzY1NDM5MTAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTIwMTE3NCIsInJvb3RfcG9zdGlkIjo0NTcxOTE0NjU5MSwicG9zdGlkIjoiOTg1NzAwMjMxOTEiLCJibG9naWQiOiIxMzY1NDM5MTAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDkwODE1NDciLCJyb290X3Bvc3RpZCI6IjkzMjc5NTA2Mjk0IiwicG9zdGlkIjoiOTg1Njk4NjI1NTYiLCJibG9naWQiOiIxMzY1NDM5MTAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjE4NzEwOSIsInJvb3RfcG9zdGlkIjoiOTg1NTIxMzM0NzgiLCJwb3N0aWQiOiI5ODU2OTgzMjUzMSIsImJsb2dpZCI6IjEzNjU0MzkxMCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0MDkzNzExMyIsInJvb3RfcG9zdGlkIjoiOTA4ODI4NTg5NTYiLCJwb3N0aWQiOiI5ODU2OTcwODczNiIsImJsb2dpZCI6IjEzNjU0MzkxMCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTc1MjI4MjAiLCJyb290X3Bvc3RpZCI6NTcyNjMyMjQyMDAsInBvc3RpZCI6Ijk4NTY5NjA5MTYxIiwiYmxvZ2lkIjoiMTM2NTQzOTEwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0NjY0Iiwicm9vdF9wb3N0aWQiOiI5ODMxNTUxNzMxMyIsInBvc3RpZCI6Ijk4NTMyNDc0ODkxIiwiYmxvZ2lkIjoiMTM2NTQzOTEwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc5OTQwMDAiLCJyb290X3Bvc3RpZCI6Ijk4MzMwODE0MjIwIiwicG9zdGlkIjoiOTg1MzI0MTE2MjEiLCJibG9naWQiOiIxMzY1NDM5MTAiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=MMCKFJHELK&K=9c8cd6969904340948c48888087f6e51fde50265593a8e183a33dc370ca33731&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:136543910,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fmymecca.tumblr.com%2F&amp;lang=en_US&amp;name=mymecca&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_f70b9649554d_64.png&amp;title=MY+MECCA&amp;url=http%3A%2F%2Fmymecca.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fmymecca.tumblr.com%2F&amp;lang=en_US&amp;name=mymecca&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_f70b9649554d_64.png&amp;title=MY+MECCA&amp;url=http%3A%2F%2Fmymecca.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

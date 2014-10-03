@@ -1,0 +1,2172 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+
+<!--                                                                                                 
+
+Observer Theme
+By Zack Sultan
+Released January 2013
+Revised April 16, 2014
+                
+-->
+
+<html>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        <title>The Jacqui Devaney</title>
+        <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_52d3e3ee5dad_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://jacquigoestonyc.tumblr.com/rss">
+        
+            <meta name="description" content="We are all star stuff." />
+        
+        <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_52d3e3ee5dad_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://jacquigoestonyc.tumblr.com/rss">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />
+
+
+
+<!-- Options -->
+
+
+        <meta name="if:Show Navigation" content="1"/>
+        <meta name="if:Alternate Header Layout" content="0"/>
+        <meta name="if:Show Description" content="0"/>
+        <meta name="if:Show Archive Navigation Link" content="1"/>
+        <meta name="if:Wide Images" content="1"/>
+        <meta name="if:Photoset Layout" content="0"/>
+        <meta name="if:Show Post Tags" content="1"/>
+        <meta name="if:Show Post Notes" content="1"/>
+        <meta name="if:Show Copyright" content="0"/>
+        <meta name="if:Infinite Scroll" content="1"/>
+        
+        <meta name="Title font" content="Gibson">
+        <meta name="Title font weight" content="bold" title="Bold">
+        <meta name="Title font weight" content="normal" title="Normal">
+        <meta name="font:Body font" content="Calluna"/>
+        
+        <meta name="Background color" content="#fff">
+        <meta name="Title color" content="#444444">
+        <meta name="Link color" content="#5f79a4">
+        
+        <meta name="color:Body text" content="#333333"/>
+		<meta name="color:Secondary text" content="#888888"/>    
+        <meta name="image:Logo" content=""/>
+        <meta name="text:TypeKit ID" content=""/>
+        <meta name="text:Title Font" content=""/>
+        <meta name="text:Body Font" content=""/>
+        <meta name="text:Post Headline Font" content=""/>
+        <!--<meta name="text:Secondary Font" content=""/>-->
+        
+        <meta name='text:Disqus Shortname' content='' />
+        <meta name='text:Google Analytics' content='' />
+        
+<!-- Scripts -->
+
+    <script src="http://static.tumblr.com/4kpnlef/Pttmhz2ap/jquery-1.9.1.min.js"></script>
+    
+    
+    <!-- Infinite Scroll -->
+    <script type="text/javascript" src="http://static.tumblr.com/rsdylxf/v40mu99v6/infinitescrolling.js" ></script>
+    
+    
+    
+    
+    <!-- Media resizing -->    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Make desktop tumblr video stretch to 100%
+            $('.tumblr_video_container').css({ 'width' : '100%', 'height' : '100%' });
+            // Resize tumblr video on mobile
+            $('.iphone-video a').css({ 'width' : '100%', 'height' : '200px' });
+		});        
+        
+        //Make Spotify the right size and responsive
+	    $(document).ready(function(){
+	        $('.mobile-spotify iframe').css('height', '80px');
+            $('.mobile-spotify iframe').css('width', '290px'); 
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+        $(window).resize(function() {
+            $('iframe[src*="embed.spotify.com"]').each( function() {
+                $(this).css('width',$(this).parent(1).css('width'));
+                $(this).css('height', '82');
+                $(this).attr('src',$(this).attr('src'));
+            });
+        });
+        
+        //disable safari active states
+        document.addEventListener("touchstart", function() {},false);
+        
+	</script>
+
+
+    
+
+<!-- Style Sheet -->
+        
+<style type="text/css">
+
+.regular p {
+	font-weight: bold;
+	color:aqua;
+}
+
+.regular .bottom-nav {
+	display: none;
+}
+
+::selection {
+    background: #529ECC; /* Safari */
+	color: #333333;
+	}
+	
+::-moz-selection {
+	background: #529ECC; /* Firefox */
+	color: #333333;
+}
+
+body {
+	margin: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+    font-size:18px;
+	-webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+	
+p, li, blockquote {
+	line-height: 28px;
+	margin: 0;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.ir {
+	text-indent: -99999em;
+}
+
+.center {
+	text-align: center;
+}
+
+/* Global colors 
+********************************/
+
+body {
+	color: #333333;
+	background-color: #FAFAFA;
+}
+
+.blog-description {
+	color: #888888;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+#header h1 a {
+	color: #444444;
+	border-bottom: none;
+}
+
+a:hover {
+}
+
+a:active {
+	position: relative;
+	outline: none;
+	top: 1px;
+}
+
+
+.metadata a, #footer-links a, #footer p.promo a, .links a {
+	color: #888888;
+	border-bottom: none;
+}
+
+.metadata a:hover, #footer-links a:hover, #footer p.promo a:hover, .links a:hover, .more a:hover, a.mobile-player:hover {
+
+}
+
+.post {
+	border-bottom: 1px solid rgba(136, 136, 136, 0.2);
+}
+
+.colophon p {
+	color: #888888;
+}
+
+
+/* Global fonts 
+********************************/
+
+body {
+	font-family: georgia, 'Calluna', serif, georgia, serif;
+	font-weight: normal;
+}
+
+.title h1, .link-title h1, .chat-title h1, .q h1, .a h1, .album-info h2, #footer h2 {
+	font-family:  'Gibson', sans-serif, georgia, serif;
+	font-weight: bold;
+}
+
+.blog-title h1 {
+	font-family: futura, 'Gibson', sans-serif, futura, helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 96px;
+	line-height: 1em;
+}
+
+.metadata a {
+	font-family: futura, , helvetica, arial, sans-serif;
+	font-weight: normal;
+}
+
+
+/* Page 
+********************************/
+
+
+#page {
+	border: 0px solid;
+	max-width: 900px;
+	padding-left:  50px;
+	padding-right: 50px;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+/* Header Centered
+********************************/
+
+#header {
+	margin-top: 20px;
+	margin-bottom: 80px;
+	display: block;
+	overflow: visible;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+.blog-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.blog-title a {
+	border-bottom: none;
+}
+
+.blog-title img {
+	max-width: 100%;
+}
+
+.blog-description { 
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+.links {
+	margin-top: 0px;
+	text-align: center;
+	float: none;
+	border-bottom: 1px solid rgba(136, 136, 136, 0.2);
+}
+
+.links ul {
+	margin-top: 10px;
+	padding: 0;
+	display: block;	
+	text-align: center;
+	float: none;
+}
+
+.links li {
+	display: inline;
+	margin-left: 10px;
+	text-transform: none;	
+}
+
+.links li:first-child {
+	margin-left: 0px;	
+}
+
+
+
+/* Post wrappers
+********************************/
+
+#content {
+	width: 100%;
+	overflow-x: hidden;
+	clear: both;
+}
+
+.post {
+	margin-bottom: 45px;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+.narrow {
+	max-width: 640px;
+	margin: auto;
+}
+
+
+/* Headings
+********************************/
+
+.title h1, .link-title h1, .chat-title h1 {
+	text-align: center;
+	margin: auto;
+	margin-bottom: 25px;
+	font-size: 42px;
+	line-height: 50px;
+}
+
+.link-title a {
+	text-decoration: none;
+	position: relative;
+	border: none;
+	color: #529ECC;
+}
+
+span.link-arrow {
+	position: relative;
+	font-size: 20px;
+	bottom: 3px;
+}
+
+.quote-short {
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 25px;
+}
+
+.photo img, .album-art img, .videoWrapper {
+    max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	border-radius: 2px;
+}
+
+.photo img, .album-art img {
+	min-width: 640px;
+}
+
+.photoset-layout {
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.tumblr_audio_player {
+	height: 250px;
+}
+
+.audio iframe {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;	
+}
+
+.videoWrapper iframe, .videoWrapper object {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* Post body styles
+********************************/
+
+.caption p {
+	margin-bottom: 15px;
+}
+
+.caption h1 {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.caption h2 {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 24px;
+}
+
+.caption blockquote {
+	margin-bottom: 10px;
+	border-left: 3px solid rgba(136, 136, 136, 0.2);
+	margin-left: 5px;
+	padding-left: 15px;
+	line-height: 26px;
+}
+
+.caption pre {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	background-color: rgba(136, 136, 136, 0.2);
+	border-radius: 2px;
+	padding: 10px 15px 10px 15px;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 15px 0 25px 0;
+}
+
+.caption ul, ol {
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding-left: 40px;
+}
+
+.caption img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto 30px auto;
+    border-radius: 2px;
+}    
+
+.quote-short {
+	line-height: 40px;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.quote-medium, .quote-long {
+	line-height: 32px;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+ul.chat {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.chat li {
+	border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.chat li:last-child {
+	border: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+span.odd, span.even  {
+	font-weight: bold;
+}
+
+.more a {
+	display: block;
+	width: 99%;
+	height: 30px;
+	border: 1px solid rgba(136, 136, 136, 0.3);
+	text-align: center;
+	text-decoration: none;
+	border-radius: 2px;
+	padding-top: 10px;
+	margin-bottom: 30px;
+}
+
+
+.more a:active {
+    background: rgba(136, 136, 136, 0.08);
+    box-shadow: inset 0px 1px 4px rgba(136, 136, 136, 0.2);
+    top: 0px;
+} 
+
+.audio-module {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+a.mobile-player {
+	border: 1px solid rgba(136, 136, 136, 0.2);
+	background: rgba(136, 136, 136, 0.1);
+	width: 99%;
+	padding: 30px 0 30px 0;
+	margin-bottom: 25px;
+	border-radius: 2px;
+	display: none;
+}
+
+a.mobile-player:active {
+    top: 0px;
+    box-shadow: inset 0px 1px 4px rgba(136, 136, 136, 0.2);
+    background: rgba(136, 136, 136, 0.18);
+    border: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+.play-triangle {
+	margin-left: 20px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 6.5px 0 6.5px 10px;
+	border-color: transparent transparent transparent rgba(136, 136, 136, 0.8);
+}
+
+.album-info {
+	display: block;
+	float: left;
+	width: 63%;
+}
+
+.player {
+	display: block;
+	background-color: #ffffff;
+	float: right;
+	padding-top: 5px;
+	padding-right: 2px;
+	border: 1px solid rgba(136, 136, 136, 0.3);
+}
+
+.desktop-spotify {
+	display: block;
+	
+}
+
+.mobile-spotify {
+	display: none;
+	width: 290px;
+	margin: auto;
+}
+
+.iphone-video object {
+    display: block;
+    margin: 0px auto 20px; 
+}
+
+.asker-block, .answer-text {
+	display: block;
+	overflow: auto;
+}
+
+p.question {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+p.album, p.question {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+h1.qa-letter {
+	display: block;
+	float: left;
+	width: 45px;
+	position: relative;
+	bottom: 3px;
+	font-size: 30px;
+}
+
+.q {
+	margin-bottom: 20px; 
+}
+
+img.asker {
+	float:left;
+	margin-right: 8px;
+	border-radius: 2px; 
+	position: relative;
+	top: 2px;
+}
+
+p.asker {
+	font-style: italic;
+}
+
+p.question {
+	clear: both;
+}
+
+
+/* Metadata
+********************************/
+
+.metadata {
+	border: 0px solid gray;
+	overflow: auto;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.metadata a {
+	text-decoration: none;
+}
+
+.date, .tags, .notes-count {
+	display: block;
+	float: left;
+	margin-right: 15px;
+}
+
+.tags a, .notes-count a, .date a {
+	margin-right: 5px;
+}
+
+
+/* Footer
+********************************/
+
+#footer {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#footer a {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+a.back-next {
+    margin: 0px 10px 0px 10px;    
+}
+
+#footer h2 {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+
+#footer-links ul {
+	margin-bottom: 0px;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+
+#footer-links li {
+	display: inline;
+	margin-left: 5px;
+	font-size: 14px;
+}
+
+#footer-links li:first-child {
+	margin-left: 0px;
+}
+
+#footer .colophon p {
+	font-size: 14px;
+	font-style: italic;
+}
+
+#footer p.promo {
+	font-size: 12px;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+
+/* Notes and comments
+********************************/
+
+#permalink-content {
+	margin-top: 40px;
+}
+
+.avatar_frame {
+	position: relative;
+	top: 4px;
+	margin-right: 10px;
+}
+
+.comments {
+	margin-bottom: 35px;
+}
+
+.comments h3, .permalink-notes h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.permalink-notes ol {
+	padding-left: 0;
+}
+
+.permalink-notes li {
+	list-style: none;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	border-top: 1px solid rgba(136, 136, 136, 0.3);
+	font-size: 13px; 
+}
+
+.permalink-notes blockquote {
+	margin: 5px 0px 5px 0px;
+	border-left: 3px solid rgba(136, 136, 136, 0.2);
+	margin-left: 20px;
+	padding-left: 15px;
+    line-height: 24px;
+}
+
+.notes a {
+	border-bottom: none;
+	text-decoration: underline;
+}
+
+
+.post iframe, .post object {
+max-width: 100%;
+}
+
+
+/* Browser size break-points
+********************************/
+
+
+@media screen and (max-width: 800px) {
+
+#header {
+	margin-top: 20px;
+	display: block;
+	overflow: visible;
+	padding-bottom: 0px;
+}
+
+.blog-title {
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	float: none;
+	width: 100%;
+    margin-bottom: 50px;
+}
+
+.blog-title h1 {
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.blog-description {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.links {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	float: none;
+	border-bottom: 1px solid rgba(136, 136, 136, 0.4);
+}
+
+.links ul {
+	margin-top: 10px;
+	padding: 0;
+	display: block;	
+	text-align: center;
+	float: none;
+}
+
+.links li {
+	display: inline;
+	margin-left: 16px;
+	font-size: 17px;
+	text-transform: none;	
+}
+
+
+.metadata {
+	font-size: 16px;
+	}
+
+.player {
+	display: none;
+}
+
+a.mobile-player {
+	display: block;
+}
+
+.album-info {
+	width: 100%
+}
+
+.title h1, .link-title h1, .chat-title h1 {
+text-align: center;
+font-size: 36px;
+line-height: 42px;
+}
+
+}
+
+@media screen and (max-width: 740px) {
+
+#page {
+	padding-left:  1em;
+	padding-right: 1em;	
+}
+
+#header {
+	margin-bottom: 50px;
+}
+
+/* WRANGLE TUMBLR VIDEO PLAYER */
+
+
+.iphone-video img {
+	width: 90%;
+}
+
+.iphone-video a {
+	margin-bottom: 20px;
+}
+
+/* IMAGES */
+
+.photo img, .album-art img {
+	min-width: 100%;
+}
+
+.link-title a {
+	line-height: 50px;
+}
+
+.desktop-spotify {
+	display: none;
+}
+
+.mobile-spotify {
+	display: block;
+}
+
+}
+
+
+    
+</style>
+
+<!-- End header -->
+    
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=jacquigoestonyc" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/calluna/stylesheet.css?v=3"><link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="global,technology,joan rivers,literacy" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="The Jacqui Devaney" /><meta property="og:url" content="http://jacquigoestonyc.tumblr.com/?og=1" /><meta property="og:description" content="We are all star stuff." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_52d3e3ee5dad_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=jacquigoestonyc" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=jacquigoestonyc" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="jacquigoestonyc" /><meta name="twitter:description" content="We are all star stuff. " /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=jacquigoestonyc&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=jacquigoestonyc&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=jacquigoestonyc&amp;referrer=twitter-cards" />
+
+</head>
+       
+	<body>
+		
+		<div id="page">
+		
+			<div id="header">
+                
+                
+				<div class="links">
+					<ul>
+						<li><a href="/">Home</a></li>
+                        
+                        
+                        
+                        
+                        <li><a href="/archive">Archive</a></li>
+                        
+					</ul>
+				</div>
+				
+                
+                
+                
+				<div class="blog-title">
+                
+                    
+                    
+                    
+                    <h1><a href="/">The Jacqui Devaney</a></h1>
+                    
+					
+                    
+				</div>
+				
+				
+			
+			</div> <!-- header end -->
+			
+			<div id="content">
+            
+			
+				
+                
+				
+				
+                
+                
+                 
+    			<!-- PHOTOSET POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					
+					<div class="wide">  		
+                         
+                        
+						<img src="http://33.media.tumblr.com/3f3fe9c9c59a20f5135fb004eb223e88/tumblr_nbxyllb5nj1qaityko3_1280.png" alt="scienceisbeauty:
+
+Light Printing
+
+We are exploring new modalities of creative photography through robotics and long-exposure photography. Using a robotic arm, a light source is carried through precise movements in front of a camera. Photographic compositions are recorded as images of volumetric light. Robotic light &ldquo;painting&rdquo; can also be inverted: the camera is moved via the arm to create an image &ldquo;painted&rdquo; with environmental light. Finally, adding real-time sensor input to the moving arm and programming it to explore the physical space around objects can reveal immaterial fields like radio waves, magnetic fields, and heat flows.
+
+Via&nbsp;Mediated Matter (MIT)
+" />
+                        
+                         
+                        
+						<img src="http://33.media.tumblr.com/96cbd503cf74e6ef39272edcc699a236/tumblr_nbxyllb5nj1qaityko2_1280.png" alt="scienceisbeauty:
+
+Light Printing
+
+We are exploring new modalities of creative photography through robotics and long-exposure photography. Using a robotic arm, a light source is carried through precise movements in front of a camera. Photographic compositions are recorded as images of volumetric light. Robotic light &ldquo;painting&rdquo; can also be inverted: the camera is moved via the arm to create an image &ldquo;painted&rdquo; with environmental light. Finally, adding real-time sensor input to the moving arm and programming it to explore the physical space around objects can reveal immaterial fields like radio waves, magnetic fields, and heat flows.
+
+Via&nbsp;Mediated Matter (MIT)
+" />
+                        
+                         
+                        
+						<img src="http://31.media.tumblr.com/151342cc9b1fa355d7f9e149cbb50bc7/tumblr_nbxyllb5nj1qaityko1_1280.png" alt="scienceisbeauty:
+
+Light Printing
+
+We are exploring new modalities of creative photography through robotics and long-exposure photography. Using a robotic arm, a light source is carried through precise movements in front of a camera. Photographic compositions are recorded as images of volumetric light. Robotic light &ldquo;painting&rdquo; can also be inverted: the camera is moved via the arm to create an image &ldquo;painted&rdquo; with environmental light. Finally, adding real-time sensor input to the moving arm and programming it to explore the physical space around objects can reveal immaterial fields like radio waves, magnetic fields, and heat flows.
+
+Via&nbsp;Mediated Matter (MIT)
+" />
+                        
+                                 
+					</div>
+					
+					
+					
+					
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p><a class="tumblr_blog" href="http://scienceisbeauty.tumblr.com/post/97559669165/light-printing-we-are-exploring-new-modalities" target="_blank">scienceisbeauty</a>:</p>
+<blockquote>
+<p><strong>Light Printing</strong></p>
+<blockquote>
+<p>We are exploring new modalities of creative photography through robotics and <a href="http://en.wikipedia.org/wiki/Long-exposure_photography" target="_blank"><em>long-exposure photography</em></a>. Using a robotic arm, a light source is carried through precise movements in front of a camera. Photographic compositions are recorded as images of volumetric light. Robotic light “painting” can also be inverted: the camera is moved via the arm to create an image “painted” with environmental light. Finally, adding real-time sensor input to the moving arm and programming it to explore the physical space around objects can reveal immaterial fields like radio waves, magnetic fields, and heat flows.</p>
+</blockquote>
+<p><a href="http://matter.media.mit.edu/tools/details/robotic-light-expressions#prettyPhoto" target="_blank">Via <strong>Mediated Matter</strong></a> (MIT)</p>
+</blockquote><p>(via <a href='http://goodtypography.tumblr.com/post/98023638170/scienceisbeauty-light-printing-we-are'>goodtypography</a>)</p>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://jacquigoestonyc.tumblr.com/post/98031758005/scienceisbeauty-light-printing-we-are">Sep. 21 2014</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://scienceisbeauty.tumblr.com/post/97559669165/light-printing-we-are-exploring-new-modalities">Via scienceisbeauty</a>
+							</div>
+                            
+                            
+                             
+							 
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://jacquigoestonyc.tumblr.com/post/98031758005/scienceisbeauty-light-printing-we-are">2,440 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				<!-- QUOTE POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post quote">
+					
+					<div class="narrow">
+					
+						<div class="quote-short">
+						
+							&#8220;When people say ‘This is my baby,’ they don’t always mean a baby. Sometimes they mean a dog.&#8221;
+						
+						</div>
+						
+                         
+						<div class="caption">
+						
+							&#8212; A Somali student, on what has surprised her most about the United States (via <a href="http://thedapperproject.com/" class="tumblr_blog" target="_blank">thedapperproject</a>)<p>(via <a href='http://thedapperproject.com/post/97775398272/when-people-say-this-is-my-baby-they-dont'>thedapperproject</a>)</p>
+						
+						</div>
+                         
+						
+						<div class="metadata">
+						
+							
+            				<div class="date">
+								<a href="http://jacquigoestonyc.tumblr.com/post/97797963485/when-people-say-this-is-my-baby-they-dont">Sep. 18 2014</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://africandogontheprairie.tumblr.com/post/97606193735/when-people-say-this-is-my-baby-they-dont">Via africandogontheprairie</a>
+							</div>
+                            
+                            
+                             
+							 
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://jacquigoestonyc.tumblr.com/post/97797963485/when-people-say-this-is-my-baby-they-dont">194,561 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+                
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				 
+				<!-- PHOTO POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					<div class="wide">
+                        <a href="http://justfunnypics.net">
+                        
+						<img src="http://41.media.tumblr.com/28b9d313ca112f5c5b55f548d42fdbe9/tumblr_mp9qhoBGLm1rtvihro1_1280.jpg" alt="jailbait:
+
+they&rsquo;re waiting for me" />
+				        
+                        </a>
+					</div>
+				
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p><a href="http://jailbait.tumblr.com/post/91552312491" class="tumblr_blog" target="_blank">jailbait</a>:</p>
+
+<blockquote><p>they’re waiting for me</p></blockquote><p>(via <a href='http://bergdorfprincess.tumblr.com/post/97783371175/jailbait-theyre-waiting-for-me'>bergdorfprincess</a>)</p>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://jacquigoestonyc.tumblr.com/post/97797794725/jailbait-theyre-waiting-for-me">Sep. 18 2014</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://sarah-rmz.tumblr.com/post/54355943271">Via sarah-rmz</a>
+							</div>
+                            
+                            
+                             
+							 
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://jacquigoestonyc.tumblr.com/post/97797794725/jailbait-theyre-waiting-for-me">146,801 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				 
+				<!-- PHOTO POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					<div class="wide">
+                        <a href="http://parkaavenue.com">
+                        
+						<img src="http://36.media.tumblr.com/tumblr_m4ort5f9ol1qiswcdo1_1280.jpg" alt="broadcastarchive-umd:
+
+parkaavenue:
+
+Panasonic TR 005 Orbitel television and Zenith remote control unit.
+
+The Panasonic TR-005 Orbitel (also known as the &ldquo;Flying Saucer&rdquo; or &ldquo;The Eyeball&rdquo; due to its shape) was a television set manufactured from the late 1960s to early 1970s by Panasonic. It had a five-inch screen, earphone jack, and could rotate 180 degrees on its chrome tripod. (Wikipedia)" />
+				        
+                        </a>
+					</div>
+				
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p><a href="http://broadcastarchive-umd.tumblr.com/post/97784193988/parkaavenue-panasonic-tr-005-orbitel-television" class="tumblr_blog" target="_blank">broadcastarchive-umd</a>:</p>
+
+<blockquote><p><a class="tumblr_blog" href="http://parkaavenue.tumblr.com/post/23862927499/welcome-to-my-space-age-decor-parkaavenue-com" target="_blank">parkaavenue</a>:</p>
+<blockquote>
+<p>Panasonic TR 005 Orbitel television and Zenith remote control unit.</p>
+</blockquote>
+<p>The Panasonic TR-005 Orbitel (also known as the “Flying Saucer” or “The Eyeball” due to its shape) was a television set manufactured from the late 1960s to early 1970s by <a href="http://en.wikipedia.org/wiki/Panasonic" title="Panasonic" target="_blank">Panasonic</a>. It had a five-inch screen, earphone jack, and could rotate 180 degrees on its chrome tripod. (Wikipedia)</p></blockquote>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://jacquigoestonyc.tumblr.com/post/97797754055/broadcastarchive-umd-parkaavenue-panasonic">Sep. 18 2014</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://parkaavenue.com">Via parkaavenue.com</a>
+							</div>
+                            
+                            
+                             
+							 
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://jacquigoestonyc.tumblr.com/post/97797754055/broadcastarchive-umd-parkaavenue-panasonic">91 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				
+                
+                
+                 
+    			<!-- PHOTOSET POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					
+					<div class="wide">  		
+                         
+                        
+						<img src="http://31.media.tumblr.com/10ba493bdd5cdb464e098370e1cd84e7/tumblr_nc2yovnUSm1r6f15co7_1280.jpg" alt="bloombergphotos:
+
+Gadget Graveyard &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Discarded computer peripherals and electronics components are dismantled at a family compound of houses in Sangrampur village, West Bengal, India, on Sept. 9, 2014.
+In 2012, 48.9 million tons of electronic waste, or e-waste, was generated worldwide, according to the Solving the e-Waste Problem (StEP) initiative, a United Nations program based in Germany.
+Small-scale, household-style e-waste recycling of the sort practiced developing countries can involve hazardous, low-tech refining of metals from circuit boards and other difficult-to-recycle items.
+The amount of e-waste generated worldwide &mdash; comprising everything from old black-and-white televisions to first-generation iPads &mdash; is set to grow 33 percent by 2017,&nbsp; according to data culled from StEP&rsquo;s press releases and its&nbsp;E-Waste World Map, an ongoing, online amalgamation of global data on the disposal of electronic gadgets.
+
+Photographer: Sanjit Das/Bloomberg
+&copy; 2014 Bloomberg Finance LP" />
+                        
+                         
+                        
+						<img src="http://38.media.tumblr.com/892fc9070dfa68b54e4e0cfc47ebc314/tumblr_nc2yovnUSm1r6f15co2_1280.jpg" alt="bloombergphotos:
+
+Gadget Graveyard &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Discarded computer peripherals and electronics components are dismantled at a family compound of houses in Sangrampur village, West Bengal, India, on Sept. 9, 2014.
+In 2012, 48.9 million tons of electronic waste, or e-waste, was generated worldwide, according to the Solving the e-Waste Problem (StEP) initiative, a United Nations program based in Germany.
+Small-scale, household-style e-waste recycling of the sort practiced developing countries can involve hazardous, low-tech refining of metals from circuit boards and other difficult-to-recycle items.
+The amount of e-waste generated worldwide &mdash; comprising everything from old black-and-white televisions to first-generation iPads &mdash; is set to grow 33 percent by 2017,&nbsp; according to data culled from StEP&rsquo;s press releases and its&nbsp;E-Waste World Map, an ongoing, online amalgamation of global data on the disposal of electronic gadgets.
+
+Photographer: Sanjit Das/Bloomberg
+&copy; 2014 Bloomberg Finance LP" />
+                        
+                         
+                        
+						<img src="http://38.media.tumblr.com/e15c3b77acfb59b482a472933a97a6ee/tumblr_nc2yovnUSm1r6f15co3_1280.jpg" alt="bloombergphotos:
+
+Gadget Graveyard &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Discarded computer peripherals and electronics components are dismantled at a family compound of houses in Sangrampur village, West Bengal, India, on Sept. 9, 2014.
+In 2012, 48.9 million tons of electronic waste, or e-waste, was generated worldwide, according to the Solving the e-Waste Problem (StEP) initiative, a United Nations program based in Germany.
+Small-scale, household-style e-waste recycling of the sort practiced developing countries can involve hazardous, low-tech refining of metals from circuit boards and other difficult-to-recycle items.
+The amount of e-waste generated worldwide &mdash; comprising everything from old black-and-white televisions to first-generation iPads &mdash; is set to grow 33 percent by 2017,&nbsp; according to data culled from StEP&rsquo;s press releases and its&nbsp;E-Waste World Map, an ongoing, online amalgamation of global data on the disposal of electronic gadgets.
+
+Photographer: Sanjit Das/Bloomberg
+&copy; 2014 Bloomberg Finance LP" />
+                        
+                         
+                        
+						<img src="http://38.media.tumblr.com/cf4e4c7fc656c899b516cfff2a5d9268/tumblr_nc2yovnUSm1r6f15co1_1280.jpg" alt="bloombergphotos:
+
+Gadget Graveyard &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Discarded computer peripherals and electronics components are dismantled at a family compound of houses in Sangrampur village, West Bengal, India, on Sept. 9, 2014.
+In 2012, 48.9 million tons of electronic waste, or e-waste, was generated worldwide, according to the Solving the e-Waste Problem (StEP) initiative, a United Nations program based in Germany.
+Small-scale, household-style e-waste recycling of the sort practiced developing countries can involve hazardous, low-tech refining of metals from circuit boards and other difficult-to-recycle items.
+The amount of e-waste generated worldwide &mdash; comprising everything from old black-and-white televisions to first-generation iPads &mdash; is set to grow 33 percent by 2017,&nbsp; according to data culled from StEP&rsquo;s press releases and its&nbsp;E-Waste World Map, an ongoing, online amalgamation of global data on the disposal of electronic gadgets.
+
+Photographer: Sanjit Das/Bloomberg
+&copy; 2014 Bloomberg Finance LP" />
+                        
+                         
+                        
+						<img src="http://38.media.tumblr.com/22c58a3ef5d7d379220f6a5abe3108ee/tumblr_nc2yovnUSm1r6f15co8_1280.jpg" alt="bloombergphotos:
+
+Gadget Graveyard &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Discarded computer peripherals and electronics components are dismantled at a family compound of houses in Sangrampur village, West Bengal, India, on Sept. 9, 2014.
+In 2012, 48.9 million tons of electronic waste, or e-waste, was generated worldwide, according to the Solving the e-Waste Problem (StEP) initiative, a United Nations program based in Germany.
+Small-scale, household-style e-waste recycling of the sort practiced developing countries can involve hazardous, low-tech refining of metals from circuit boards and other difficult-to-recycle items.
+The amount of e-waste generated worldwide &mdash; comprising everything from old black-and-white televisions to first-generation iPads &mdash; is set to grow 33 percent by 2017,&nbsp; according to data culled from StEP&rsquo;s press releases and its&nbsp;E-Waste World Map, an ongoing, online amalgamation of global data on the disposal of electronic gadgets.
+
+Photographer: Sanjit Das/Bloomberg
+&copy; 2014 Bloomberg Finance LP" />
+                        
+                         
+                        
+						<img src="http://38.media.tumblr.com/8be01e620ae2f927fad9560ee650402f/tumblr_nc2yovnUSm1r6f15co4_1280.jpg" alt="bloombergphotos:
+
+Gadget Graveyard &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+Discarded computer peripherals and electronics components are dismantled at a family compound of houses in Sangrampur village, West Bengal, India, on Sept. 9, 2014.
+In 2012, 48.9 million tons of electronic waste, or e-waste, was generated worldwide, according to the Solving the e-Waste Problem (StEP) initiative, a United Nations program based in Germany.
+Small-scale, household-style e-waste recycling of the sort practiced developing countries can involve hazardous, low-tech refining of metals from circuit boards and other difficult-to-recycle items.
+The amount of e-waste generated worldwide &mdash; comprising everything from old black-and-white televisions to first-generation iPads &mdash; is set to grow 33 percent by 2017,&nbsp; according to data culled from StEP&rsquo;s press releases and its&nbsp;E-Waste World Map, an ongoing, online amalgamation of global data on the disposal of electronic gadgets.
+
+Photographer: Sanjit Das/Bloomberg
+&copy; 2014 Bloomberg Finance LP" />
+                        
+                                 
+					</div>
+					
+					
+					
+					
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p><a href="http://bloombergphotos.tumblr.com/post/97789610851/gadget-graveyard" class="tumblr_blog" target="_blank">bloombergphotos</a>:</p>
+
+<blockquote><p><a href="http://bloombergphotos.tumblr.com/post/97789610851/gadget-graveyard" target="_blank"><strong>Gadget Graveyard</strong></a>                                                                    </p>
+<p>Discarded computer peripherals and electronics components are dismantled at a family compound of houses in Sangrampur village, West Bengal, India, on Sept. 9, 2014.</p>
+<p>In 2012, 48.9 million tons of electronic waste, or e-waste, was generated worldwide, according to the <a href="http://www.step-initiative.org/" target="_blank">Solving the e-Waste Problem</a> (StEP) initiative, a United Nations program based in Germany.</p>
+<p>Small-scale, household-style e-waste recycling of the sort practiced developing countries can involve hazardous, low-tech refining of metals from circuit boards and other difficult-to-recycle items.</p>
+<p>The amount of e-waste generated worldwide — comprising everything from old black-and-white televisions to first-generation iPads — is set to grow 33 percent by 2017,  according to data culled from StEP’s press releases and its <a href="http://www.step-initiative.org/index.php/WorldMap.html" target="_blank"><span>E</span><span>-</span><span>Waste</span><span> World Map</span></a><span>, an ongoing, online amalgamation of global data on the disposal of electronic gadgets.</span><span><br/></span></p>
+
+<p>Photographer: Sanjit Das/Bloomberg</p>
+<p>© 2014 Bloomberg Finance LP</p></blockquote>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://jacquigoestonyc.tumblr.com/post/97797597025/bloombergphotos-gadget-graveyard">Sep. 18 2014</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://bloombergphotos.tumblr.com/post/97789610851/gadget-graveyard">Via bloombergphotos</a>
+							</div>
+                            
+                            
+                             
+							 
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://jacquigoestonyc.tumblr.com/post/97797597025/bloombergphotos-gadget-graveyard">34 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				 
+				<!-- PHOTO POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					<div class="wide">
+                        <a href="http://www.theatlantic.com/education/archive/2013/11/more-than-half-of-us-public-schools-dont-have-adequate-wireless-access/281410/">
+                        
+						<img src="http://41.media.tumblr.com/44a6d4925b8e3b9b34d75ebe007d6c32/tumblr_mw7mchnBoD1qcokc4o1_1280.jpg" alt="theatlantic:
+
+More Than Half of U.S. Public Schools Don&rsquo;t Have Adequate Wireless Access
+
+A crime is happening in our schools every day. And it&rsquo;s not the type of crime that hall monitors or security cameras can solve. At issue: Only&nbsp;39 percent of public schools&nbsp;have wireless network access for the whole school. But perhaps the greater offense&mdash;up to this point, at least&mdash;has been apathy.
+
+
+At work and at home, most of us live our very wired, connected lives&mdash;moving between wi-fi zones as we give little thought to the millions of schoolchildren around the country who go to school every day without Internet or broadband connections, without access to 1:1 computing, and without the benefit of modern handheld learning devices.
+
+
+
+
+&nbsp;
+Angry mobs of parents should be storming schools with pitchforks over this critical issue of broadband access, US Department of Education official Richard Culatta told this year&rsquo;s&nbsp;SXSWedu festival. For their part, parents are not, but perhaps there is good reason to believe that the Storming of the Schoolhouse can be thwarted. For now.
+
+
+
+
+&nbsp;
+President Barack Obama&rsquo;s&nbsp;ConnectED initiative, announced this summer, aims within five years to connect 99 percent of America&rsquo;s students through next-generation broadband (at speeds no less than 100&nbsp;Mbps and with a target of 1&nbsp;Gbps) and high-speed wireless networks in schools. Now we&rsquo;re talking.
+
+
+&nbsp;
+Read more. [Image: AP Photo]
+
+" />
+				        
+                        </a>
+					</div>
+				
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p><a class="tumblr_blog" href="http://theatlantic.tumblr.com/post/66883380533/more-than-half-of-u-s-public-schools-dont-have" target="_blank">theatlantic</a>:</p>
+<blockquote>
+<p><a href="http://www.theatlantic.com/education/archive/2013/11/more-than-half-of-us-public-schools-dont-have-adequate-wireless-access/281410/" target="_blank"><strong>More Than Half of U.S. Public Schools Don’t Have Adequate Wireless Access</strong></a></p>
+<blockquote>
+<p class="annotatable" data-annotation-count="0" data-article-id="145260" data-thread-id="28381">A crime is happening in our schools every day. And it’s not the type of crime that hall monitors or security cameras can solve. At issue: Only 39 percent of public schools have wireless network access for the whole school. But perhaps the greater offense—up to this point, at least—has been apathy.</p>
+<div class="anno-right" data-count="0">
+<div class="regular">
+<div class="count">At work and at home, most of us live our very wired, connected lives—moving between wi-fi zones as we give little thought to the millions of schoolchildren around the country who go to school every day without Internet or broadband connections, without access to 1:1 computing, and without the benefit of modern handheld learning devices.</div>
+</div>
+</div>
+<div class="anno-right" data-count="0">
+<div class="regular">
+<div class="count"> </div>
+<div class="count">Angry mobs of parents should be storming schools with pitchforks over this critical issue of broadband access, US Department of Education official Richard Culatta told this year’s <a href="http://sxswedu.com/" target="_blank">SXSWedu festival</a>. For their part, parents are not, but perhaps there is good reason to believe that the Storming of the Schoolhouse can be thwarted. For now.</div>
+</div>
+</div>
+<div class="anno-right" data-count="0">
+<div class="regular">
+<div class="count"> </div>
+<div class="count">President Barack Obama’s ConnectED initiative, announced this summer, aims within five years to connect 99 percent of America’s students through next-generation broadband (at speeds no less than 100 Mbps and with a target of 1 Gbps) and high-speed wireless networks in schools. Now we’re talking.</div>
+</div>
+</div>
+<div class="count"> </div>
+<div class="count"><a href="http://www.theatlantic.com/education/archive/2013/11/more-than-half-of-us-public-schools-dont-have-adequate-wireless-access/281410/" target="_blank"><strong>Read more.</strong></a><em> [Image: AP Photo]</em></div>
+</blockquote>
+</blockquote>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://jacquigoestonyc.tumblr.com/post/96950670280/theatlantic-more-than-half-of-u-s-public">Sep. 8 2014</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://www.theatlantic.com/education/archive/2013/11/more-than-half-of-us-public-schools-dont-have-adequate-wireless-access/281410/">Via The Atlantic</a>
+							</div>
+                            
+                            
+                             
+							 
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://jacquigoestonyc.tumblr.com/post/96950670280/theatlantic-more-than-half-of-u-s-public">143 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				 
+				<!-- PHOTO POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					<div class="wide">
+                        <a href="http://bluesyemre.com/2014/04/29/literacy-in-the-mobile-era-infographic">
+                        
+						<img src="http://40.media.tumblr.com/8947c3a6f0b18d5bac5be546810bcfdf/tumblr_n4s5j6mwbx1rfoijro1_1280.jpg" alt="bluesyemre:
+
+Literacy in the mobile era&nbsp;(Infographic)
+" />
+				        
+                        </a>
+					</div>
+				
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p><a class="tumblr_blog" href="http://bluesyemre.tumblr.com/post/84205943780/literacy-in-the-mobile-era-infographic" target="_blank">bluesyemre</a>:</p>
+<blockquote>
+<p><a href="http://bluesyemre.com/2014/04/29/literacy-in-the-mobile-era-infographic" target="_blank">Literacy in the mobile era (Infographic)</a></p>
+</blockquote>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://jacquigoestonyc.tumblr.com/post/96950656560/bluesyemre-literacy-in-the-mobile">Sep. 8 2014</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://bluesyemre.tumblr.com/post/84205943780/literacy-in-the-mobile-era-infographic">Via bluesyemre</a>
+							</div>
+                            
+                            
+                             
+							 
+                            <div class="tags">
+                                
+								<a href="http://jacquigoestonyc.tumblr.com/tagged/literacy">#literacy</a>
+							     
+							</div>
+                             
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://jacquigoestonyc.tumblr.com/post/96950656560/bluesyemre-literacy-in-the-mobile">535 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				<!-- QUOTE POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post quote">
+					
+					<div class="narrow">
+					
+						<div class="quote-long">
+						
+							&#8220;That raises the question of her own obituary. “Oh,” she replies gamely, “they’ll probably say I reflected life. That I spoke for women. That I was the first to come out in a man’s world and say, ‘Hey, we can say those things, too.’ I tell my husband Edgar Rosenberg , ‘You watch! It’ll all be there the day I die.’ ”&#8221;
+						
+						</div>
+						
+                         
+						<div class="caption">
+						
+							&#8212; <a href="http://www.washingtonpost.com/news/style/wp/1986/06/11/joan-rivers-on-her-own-and-talking-it-up-irrepressible-and-ever-embattled-she-forges-into-the-next-chapter/" target="_blank">Joan Rivers, on her own obituary.</a> (via <a class="tumblr_blog" href="http://washingtonpost.tumblr.com/" target="_blank">washingtonpost</a>)<p>(via <a href='http://washingtonpost.tumblr.com/post/96705504237/that-raises-the-question-of-her-own-obituary'>washingtonpost</a>)</p>
+						
+						</div>
+                         
+						
+						<div class="metadata">
+						
+							
+            				<div class="date">
+								<a href="http://jacquigoestonyc.tumblr.com/post/96727910235/that-raises-the-question-of-her-own-obituary">Sep. 5 2014</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://www.washingtonpost.com/news/style/wp/1986/06/11/joan-rivers-on-her-own-and-talking-it-up-irrepressible-and-ever-embattled-she-forges-into-the-next-chapter/">Via Washington Post</a>
+							</div>
+                            
+                            
+                             
+							 
+                            <div class="tags">
+                                
+								<a href="http://jacquigoestonyc.tumblr.com/tagged/joan-rivers">#joan rivers</a>
+							     
+							</div>
+                             
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://jacquigoestonyc.tumblr.com/post/96727910235/that-raises-the-question-of-her-own-obituary">80 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+                
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				 
+				<!-- PHOTO POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post photo">
+				
+					<div class="wide">
+                        <a href="http://gizmodo.com/a-map-of-every-device-in-the-world-thats-connected-to-t-1628171291?utm_content=buffer7593b&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">
+                        
+						<img src="http://33.media.tumblr.com/714eed26812c8624fe099907f80ec005/tumblr_nbaakjpB4N1qiw6fso1_1280.png" alt="onaissues:
+
+A Map of Every Device in the World That&rsquo;s Connected to the Internet
+" />
+				        
+                        </a>
+					</div>
+				
+					<div class="narrow">
+				        
+                        
+						<div class="caption">
+						    <p><a class="tumblr_blog" href="http://onaissues.tumblr.com/post/96464012428/a-map-of-every-device-in-the-world-thats" target="_blank">onaissues</a>:</p>
+<blockquote>
+<p><a href="http://gizmodo.com/a-map-of-every-device-in-the-world-thats-connected-to-t-1628171291?utm_content=buffer7593b&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer" target="_blank">A Map of Every Device in the World That’s Connected to the Internet</a></p>
+</blockquote>
+						</div>
+                        
+						
+						<div class="metadata">
+						
+							
+    						<div class="date">
+								<a href="http://jacquigoestonyc.tumblr.com/post/96727662360/onaissues-a-map-of-every-device-in-the-world">Sep. 5 2014</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://gizmodo.com/a-map-of-every-device-in-the-world-thats-connected-to-t-1628171291?utm_content=buffer7593b&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">Via Gizmodo</a>
+							</div>
+                            
+                            
+                             
+							 
+                            <div class="tags">
+                                
+								<a href="http://jacquigoestonyc.tumblr.com/tagged/technology">#technology</a>
+							    
+								<a href="http://jacquigoestonyc.tumblr.com/tagged/global">#global</a>
+							     
+							</div>
+                             
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://jacquigoestonyc.tumblr.com/post/96727662360/onaissues-a-map-of-every-device-in-the-world">160 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+                
+                
+                
+                
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+			
+				
+                
+				
+				
+                
+                
+                
+                
+                
+				
+				<!-- LINK POST 
+				///////////////////////////////////////////////////////-->
+				
+				<div class="post link">
+					
+					<div class="narrow">
+						
+						<div class="link-title">
+						
+							<h1><a href="http://fatcats.dumbsheeple.com/post/96712018635/l-a-times-reporter-cleared-stories-with-cia-before">L.A. Times Reporter Cleared Stories With CIA Before Publication <span class="link-arrow">&#10132;</span></a></h1>
+				
+						</div>
+						
+                         
+						<div class="caption">
+							 <p><a class="tumblr_blog" href="http://fatcats.dumbsheeple.com/post/96712018635/l-a-times-reporter-cleared-stories-with-cia-before" target="_blank">wallstreetfatcats</a>:</p>
+<blockquote>
+<p>A prominent national security reporter for the Los Angeles Times routinely submitted drafts and detailed summaries of his stories to CIA press handlers prior to publication, according to documents obtained by The Intercept. Email exchanges between CIA public affairs officers and Ken Dilanian, now&#8230;</p>
+</blockquote>
+
+<p>It&#8217;s important to note when this sort of thing happens, and I&#8217;m sure it happens more than we know. What this reporter was doing wasn&#8217;t journalism, it was just disguised PR. </p>
+						</div>
+                         
+						
+						<div class="metadata">
+						
+							
+        					<div class="date">
+								<a href="http://jacquigoestonyc.tumblr.com/post/96727458430/l-a-times-reporter-cleared-stories-with-cia-before">Sep. 5 2014</a>
+							</div>
+                            
+							
+                            
+        					<div class="date">
+								<a href="http://fatcats.dumbsheeple.com/post/96712018635/l-a-times-reporter-cleared-stories-with-cia-before">Via wallstreetfatcats</a>
+							</div>
+                            
+                            
+                             
+							 
+						    
+                            
+                            
+                            
+                            <div class="notes-count">
+								<a href="http://jacquigoestonyc.tumblr.com/post/96727458430/l-a-times-reporter-cleared-stories-with-cia-before">3 notes</a>
+							</div>
+                            
+                            
+						
+						</div> <!-- metadata end -->
+				
+					</div> <!-- narrow end -->
+					
+				</div> <!-- post end -->
+				
+                
+                
+				
+				
+				
+                
+                
+                
+				
+				 
+                
+                
+		
+		         
+				
+                
+                
+				
+                
+            
+                
+            
+
+			</div> <!-- content end -->
+			
+			<div id="footer">
+			    
+                
+                
+				<div id="footer-links">
+					
+						<ul>
+							<li><a href="/">Home</a></li>
+                            
+                            
+                            
+                            <li><a href="/archive">Archive</a></li>
+					</ul>
+				</div>
+				
+				<div class="colophon">
+					
+                    
+
+					<p class="promo"><a href="http://zacksultan.com">Observer theme by Zack Sultan</a></p>
+					
+				</div>
+			
+			</div><!-- content end -->
+		
+		</div> <!-- page end -->
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://jacquigoestonyc.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037457&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvamFjcXVpZ29lc3RvbnljLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=PPFNAGKMED&K=bfcd5bb04258ea7eb3cd46da6ca79a0be06544ca65671d9879b4dc384b512445&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037457&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvamFjcXVpZ29lc3RvbnljLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=PPFNAGKMED&K=6367579b837437e640bf497e440909efaf2558872245df09fe54442c9130c912&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037457&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2phY3F1aWdvZXN0b255Yy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMjk0MTY1MyIsInJvb3RfcG9zdGlkIjoiOTc1NTk2NjkxNjUiLCJwb3N0aWQiOiI5ODAzMTc1ODAwNSIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjQ0ODM1NTMiLCJyb290X3Bvc3RpZCI6OTc2MDYxOTM3MzUsInBvc3RpZCI6Ijk3Nzk3OTYzNDg1IiwiYmxvZ2lkIjoiMTE0MTU2MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjUxMDYzNzM0Iiwicm9vdF9wb3N0aWQiOjU0MzU1OTQzMjcxLCJwb3N0aWQiOiI5Nzc5Nzc5NDcyNSIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNTYzNjExMCIsInJvb3RfcG9zdGlkIjoiMjM4NjI5Mjc0OTkiLCJwb3N0aWQiOiI5Nzc5Nzc1NDA1NSIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNDY5NDM2NSIsInJvb3RfcG9zdGlkIjoiOTc3ODk2MTA4NTEiLCJwb3N0aWQiOiI5Nzc5NzU5NzAyNSIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1Mzg5OTEyIiwicm9vdF9wb3N0aWQiOiI2Njg4MzM4MDUzMyIsInBvc3RpZCI6Ijk2OTUwNjcwMjgwIiwiYmxvZ2lkIjoiMTE0MTU2MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjcwODkyNjA2Iiwicm9vdF9wb3N0aWQiOiI4NDIwNTk0Mzc4MCIsInBvc3RpZCI6Ijk2OTUwNjU2NTYwIiwiYmxvZ2lkIjoiMTE0MTU2MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI4NjUyMiIsInJvb3RfcG9zdGlkIjoiOTY3MDU1MDQyMzciLCJwb3N0aWQiOiI5NjcyNzkxMDIzNSIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNTgwNTk4MyIsInJvb3RfcG9zdGlkIjoiOTY0NjQwMTI0MjgiLCJwb3N0aWQiOiI5NjcyNzY2MjM2MCIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDQxMjg5NTIiLCJyb290X3Bvc3RpZCI6Ijk2NzEyMDE4NjM1IiwicG9zdGlkIjoiOTY3Mjc0NTg0MzAiLCJibG9naWQiOiIxMTQxNTYwMDEiLCJzb3VyY2UiOjMzfV19&U=IGKLECBMNF&K=176b78030264caba345076e5c6fea15c8b78d3d7434d616b0a14123cfb574e69&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037457&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2phY3F1aWdvZXN0b255Yy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMjk0MTY1MyIsInJvb3RfcG9zdGlkIjoiOTc1NTk2NjkxNjUiLCJwb3N0aWQiOiI5ODAzMTc1ODAwNSIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjQ0ODM1NTMiLCJyb290X3Bvc3RpZCI6OTc2MDYxOTM3MzUsInBvc3RpZCI6Ijk3Nzk3OTYzNDg1IiwiYmxvZ2lkIjoiMTE0MTU2MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjUxMDYzNzM0Iiwicm9vdF9wb3N0aWQiOjU0MzU1OTQzMjcxLCJwb3N0aWQiOiI5Nzc5Nzc5NDcyNSIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNTYzNjExMCIsInJvb3RfcG9zdGlkIjoiMjM4NjI5Mjc0OTkiLCJwb3N0aWQiOiI5Nzc5Nzc1NDA1NSIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNDY5NDM2NSIsInJvb3RfcG9zdGlkIjoiOTc3ODk2MTA4NTEiLCJwb3N0aWQiOiI5Nzc5NzU5NzAyNSIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1Mzg5OTEyIiwicm9vdF9wb3N0aWQiOiI2Njg4MzM4MDUzMyIsInBvc3RpZCI6Ijk2OTUwNjcwMjgwIiwiYmxvZ2lkIjoiMTE0MTU2MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjcwODkyNjA2Iiwicm9vdF9wb3N0aWQiOiI4NDIwNTk0Mzc4MCIsInBvc3RpZCI6Ijk2OTUwNjU2NTYwIiwiYmxvZ2lkIjoiMTE0MTU2MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI4NjUyMiIsInJvb3RfcG9zdGlkIjoiOTY3MDU1MDQyMzciLCJwb3N0aWQiOiI5NjcyNzkxMDIzNSIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNTgwNTk4MyIsInJvb3RfcG9zdGlkIjoiOTY0NjQwMTI0MjgiLCJwb3N0aWQiOiI5NjcyNzY2MjM2MCIsImJsb2dpZCI6IjExNDE1NjAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDQxMjg5NTIiLCJyb290X3Bvc3RpZCI6Ijk2NzEyMDE4NjM1IiwicG9zdGlkIjoiOTY3Mjc0NTg0MzAiLCJibG9naWQiOiIxMTQxNTYwMDEiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=IGKLECBMNF&K=c0a4335a19abb80e70c19285e0dae5906fedb84ba723fdc3bd9a553956fb8240&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:114156001,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fjacquigoestonyc.tumblr.com%2F&amp;lang=en_US&amp;name=jacquigoestonyc&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_52d3e3ee5dad_64.png&amp;title=The+Jacqui+Devaney&amp;url=http%3A%2F%2Fjacquigoestonyc.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fjacquigoestonyc.tumblr.com%2F&amp;lang=en_US&amp;name=jacquigoestonyc&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_52d3e3ee5dad_64.png&amp;title=The+Jacqui+Devaney&amp;url=http%3A%2F%2Fjacquigoestonyc.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+
+</html>

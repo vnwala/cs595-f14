@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!--
+theme 46 by wank-r.tumblr.com
+please keep the credit. :*
+-->
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<meta name="color:background" content="#1fc994"/>
+<meta name="color:sidebar background" content="#ffffff"/>
+<meta name="color:posts background" content="#ffffff"/>
+<meta name="color:title" content="#137c5b"/>
+<meta name="color:text" content="#000000"/>
+<meta name="color:link" content="#137c5b"/>
+<meta name="color:hover" content="#1fc994"/>
+<meta name="color:scrollbar" content="#137c5b"/>
+<meta name="color:scrollbar background" content="#1fc994"/>
+<meta name="image:background" content=""/>
+<meta name="image:sidebar" content=""/>
+<meta name="image:sidebar background" content="http://25.media.tumblr.com/tumblr_mco1bhXDmw1qkei3jo1_500.jpg"/>
+<meta name="image:posts background" content="http://25.media.tumblr.com/tumblr_mco1bhXDmw1qkei3jo1_500.jpg"/>
+<meta name="if:tiny cursor" content="1"/>
+<meta name="if:custom scrollbar" content="1"/>
+<meta name="if:show blogtitle" content="1"/>
+<meta name="if:show sidebar image" content="0"/>
+<meta name="if:infinite scroll" content="1"/>
+<meta name="if:show marquee text" content="1"/>
+<meta name="if:show captions" content="0"/>
+<meta name="if:link 1" content="1"/>
+<meta name="if:link 2" content="1"/>
+<meta name="if:link 3" content="1"/>
+<meta name="if:link 4" content=""/>
+<meta name="if:link 5" content=""/>
+<meta name="if:link 6" content=""/>
+<meta name="text:link 1 title" content="home"/>
+<meta name="text:link 1 url" content="/"/>
+<meta name="text:link 2 title" content="message"/>
+<meta name="text:link 2 url" content="/ask"/>
+<meta name="text:link 3 title" content="history"/>
+<meta name="text:link 3 url" content="/archive"/>
+<meta name="text:link 4 title" content=""/>
+<meta name="text:link 4 url" content=""/>
+<meta name="text:link 5 title" content=""/>
+<meta name="text:link 5 url" content=""/>
+<meta name="text:link 6 title" content=""/>
+<meta name="text:link 6 url" content=""/>
+<meta name="text:marquee text" content="blah blah blah"/>
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_dcb0e0e27c0f_128.png" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://bemyrogerrabbit.tumblr.com/rss"/>
+
+<title>Sad But Rad</title>
+
+<style type="text/css">body, a, a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), progress;}</style>
+
+<script type="text/javascript" src="http://static.tumblr.com/gxu07rs/GT9meqrw1/c4dlskgjak.txt"></script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+ 
+
+
+<script src="http://static.tumblr.com/6hsqxdt/QBym35odk/jquery.masonry.js"></script>
+ 
+<script>
+$(function(){
+var $container = $('#content');
+$container.imagesLoaded(function(){
+$container.masonry({
+itemSelector: '#post',
+});
+});
+$container.infinitescroll({
+itemSelector : "#post",
+navSelector : "div.pagination",
+
+nextSelector : "none",
+loadingImg : "",
+loadingText : "",
+bufferPx : 10000,
+extraScrollPx: 12000,
+},
+function( newElements ) {
+  var $newElems = $( newElements ).css({ opacity: 0 });
+$newElems.imagesLoaded(function(){
+$newElems.animate({ opacity: 1 });
+$container.masonry( 'appended', $newElems, true );
+});
+}
+);
+});
+</script>
+
+
+<style type="text/css">
+
+
+::-webkit-scrollbar {
+width: 10px; 
+height: 10px; 
+background: #000000; 
+}
+::-webkit-scrollbar-thumb { 
+background-color: #000000; 
+}
+
+
+body{
+margin:0px; 
+background-color: #FFFFFF; 
+background-image:url(http://assets.tumblr.com/images/x.gif);
+background-attachment: fixed; 
+background-repeat: repeat; 
+font-family: arial; 
+font-size: 10px; 
+line-height:9px; 
+color:#000000;
+}
+p {
+margin:0px;
+margin-bottom:2px;
+}
+a:link, a:active, a:visited{
+text-decoration:none;
+color: #000000; 
+}
+a:hover{
+color:#529ECC; 
+}
+#scroll{
+position:absolute;
+width:1px;
+height:101%;
+}
+#cage{
+position:relative; 
+margin:auto; 
+overflow:auto; 
+overflow-y:hidden;
+
+width:950px; 
+
+
+}
+#content {
+height: auto;
+padding:10px 0px 10px 10px;
+background-image:url(http://assets.tumblr.com/images/x.gif);     
+
+width:798px;
+ 
+
+}
+#post{
+background-color: #9e9ec6;
+
+float:left; 
+width:250px;
+padding:3px 3px 2px 3px;
+margin:0px 10px 10px 0px;
+ 
+ 
+}
+#post img{
+max-width:100%;
+}
+#post .perma {
+position: absolute;
+z-index: 515616516;
+background-color:#fff;
+color:#000000;
+font-family:georgia;
+font-style:italic;
+text-transform:lowercase;
+text-align: center;
+letter-spacing:1px;
+width: 242px;
+opacity: 0;
+height: 11px;
+bottom:0px;
+line-height: 12px;
+padding:3px 5px 3px 3px;
+-webkit-transition: all 0.7s ease;
+-moz-transition: all 0.7s ease;
+}
+#post:hover .perma {
+opacity: .9;
+bottom:30px;
+-webkit-transition: all 0.7s ease;
+-moz-transition: all 0.7s ease;
+}
+#sidebar{
+position: fixed!important;
+height:auto;
+width:200px;
+padding:10px;
+text-align:center;
+
+margin:150px 835px;
+
+
+background-image:url(http://25.media.tumblr.com/tumblr_mco1bhXDmw1qkei3jo1_500.jpg);     
+}
+#navigation{
+width:200px;
+padding:3px 0px 3px 0px;
+margin-bottom:10px;
+background-color:#ffffff;
+}
+#sidebarimage{
+width:194px;
+padding:3px 3px 2px 3px;
+background-color:#ffffff;
+
+}
+#description{
+width:194px;
+padding:3px;
+background-color:#ffffff;
+}
+#marquee{
+width:194px;
+padding:3px 3px 1px 3px;
+font-family:georgia;
+font-style:italic;
+letter-spacing:1px;
+background-color:#ffffff;
+
+margin-top:10px;
+
+}
+#blogtitle{
+position:fixed !important;
+z-index:2475378345242356789;
+background-color:transparent;
+width:400px;
+-webkit-transform: rotate(90deg);
+-moz-transform: rotate(90deg);
+-ms-transform:rotate(90deg);
+
+margin:330px 870px;
+
+
+}
+.blogtitle a{
+font-family:discover beauty, georgia;
+font-size:40px;
+line-height:30px;
+-webkit-transition: all 0.8s ease;
+-moz-transition: all 0.8s ease;
+color:#000000;
+}
+.blogtitle a:hover{
+-webkit-transition: all 0.8s ease;
+-moz-transition: all 0.8s ease;
+color:#529ECC;
+}
+@font-face {
+font-family: discover beauty;
+src: url('http://static.tumblr.com/nf5qb3y/3ptm2vwot/discoverbeauty.ttf') format("truetype");
+}
+.permalink a{ 
+display: block; 
+text-align: right;
+text-decoration:none;
+border-top: 1px dotted #6f6f6f;
+color: #000000;
+}
+.permalink a:hover{
+color: #529ECC;
+}
+.title{
+font-family: georgia; 
+font-size: 13px; 
+line-height: 12px; 
+color: #000000; 
+}
+.answer {
+background: #eee;
+padding: 5px;
+min-height: 40px;
+border-radius: 5px;
+}
+.border {
+float: left; 
+border-right: 5px solid transparent;
+}
+blockquote {
+border-left: 1px dotted #000000;
+margin: 5px 0px 5px 5px;
+padding-left: 5px;
+}
+.albumart{
+width:42px;
+height:42px;
+float:left;
+padding-right:1px;
+padding-bottom:1px;
+}
+.chat {
+list-style: none;
+padding: 0px;
+margin: 0px;
+}
+.chat li {
+margin: 0px;
+padding: 0px;
+}
+li{
+margin-left:-20px;
+}
+.notes img{
+position:relative; 
+width:10px; 
+top:3px;
+}
+.notes {
+list-style: none;
+padding: 5px 0px 0px 0px;
+margin: 0px;
+}
+.notes li {
+margin: 0px;
+}
+.notes blockquote {
+margin: 4px 0px 3px 20px;
+padding-left: 5px;
+border-left: 1px dotted #000000;
+}
+.pagination {
+display:none;
+}
+iframe#tumblr_controls {
+position: fixed !important;
+}
+a.btn{position:absolute;z-index:999999;top:26px;right:3px;white-space:nowrap;outline:0;text-decoration:none;cursor:pointer;overflow:hidden;text-overflow:ellipsis;font:600 12px/18px "Helvetica Neue","HelveticaNeue",Helvetica,Arial,sans-serif;height:20px;padding:0 5px;-webkit-font-smoothing:antialiased;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;-webkit-transition-property:padding;-moz-transition-property:padding;-ms-transition-property:padding;-o-transition-property:padding;transition-property:padding;-webkit-transition-duration:.1s;-moz-transition-duration:.1s;-ms-transition-duration:.1s;-o-transition-duration:.1s;transition-duration:.1s;-webkit-transition-timing-function:ease;-moz-transition-timing-function:ease;-ms-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease}.btn{color:#fff;border:1px solid rgba(0,0,0,0.18);background:rgba(0,0,0,0.38);text-shadow:1px 1px 0 rgba(0,0,0,0.08)}a.btn,a.btn:hover{color:white!important}.btn{margin-bottom:5px;color:#fff;border:1px solid rgba(0,0,0,0.18);background:rgba(0,0,0,0.38);text-shadow:1px 1px 0 rgba(0,0,0,0.08);-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}.btn:hover::after,.btn:focus::after{background:rgba(255,255,255,0.09);color:white}.btn:active::after{background:rgba(255,255,255,0.18) color:white}.btn_label.show{display:block}.btn::after{position:absolute;top:0;right:0;bottom:0;left:0;content:'';-webkit-border-radius:inherit;-moz-border-radius:inherit;border-radius:inherit}.btn.icon::before{display:block;content:'';position:absolute;top:0;left:0;bottom:0;width:20px;border-radius:inherit;background:url('http://static.tumblr.com/tpqedpr/cQ1mbwb60/de.png') 0 0 no-repeat}.btn.theme::before{background-position:0 -0px}.btn img{width:15px}.btn.icon{padding-left:20px}.btn:active::after {background:rgba(255,255,255,0.18)}.clear {clear: both;} #pagination {display: none;}    .clearfix:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.clearfix{display:inline-block}html[xmlns] .clearfix{display:block}* html .clearfix{height:1%}
+</style>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=bemyrogerrabbit" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/typewriterfs/stylesheet.css?v=1">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Sad But Rad" /><meta property="og:url" content="http://bemyrogerrabbit.tumblr.com/?og=1" /><meta property="og:description" content="Socially awkward. 16. Always stressed. Sometimes I do drugs and I think it&#039;s fun. I live for the..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_dcb0e0e27c0f_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=bemyrogerrabbit" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=bemyrogerrabbit" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="bemyrogerrabbit" /><meta name="twitter:description" content="&lt;p&gt;Socially awkward. 16. Always stressed. Sometimes I do drugs and I think it&#039;s fun. I live for the nights I can&#039;t remember. Busy hating myself. I&#039;ll only love you when I&#039;m wasted. Grab my ass and tell me that I&#039;m cute. My dog is cuter than yours. I hate cucumbers. I&#039;m a big fan of rum. &lt;/p&gt;&lt;p&gt;Snapchat;; ashleybenninger;; send me your nudes.&lt;/p&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=bemyrogerrabbit&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=bemyrogerrabbit&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=bemyrogerrabbit&amp;referrer=twitter-cards" />
+
+</head>
+
+<body>
+<div id="scroll"></div>
+<div id="cage">
+<div id="blogtitle" class="blogtitle"><a href="/">Sad But Rad</a></div>
+<div id="sidebar">
+<div id="navigation">
+<a href="/">home</a>
+ · <a href="/ask">message</a>
+ · <a href="/archive">history</a>
+ · <a href="https://twitter.com/Drelllaa">twitter</a>
+ · <a href="http://instagram.com/ashobear">instagram</a>
+
+</div>
+
+<div id="description">
+<p>Socially awkward. 16. Always stressed. Sometimes I do drugs and I think it's fun. I live for the nights I can't remember. Busy hating myself. I'll only love you when I'm wasted. Grab my ass and tell me that I'm cute. My dog is cuter than yours. I hate cucumbers. I'm a big fan of rum. </p><p>Snapchat;; ashleybenninger;; send me your nudes.</p>
+</br>
+
+<a href="/page/2"><font size="3">&rarr;</font></a>
+
+</div>
+<div id="marquee"><marquee scrollamount="5">blah blah blah blah blah blah blah</marquee></div>
+</div>
+
+<div class="pagination">
+
+
+<a href="/page/2" id="next">next</a>
+
+</div>
+
+<script type="text/javascript">document.writeln(" <a class=\"btn icon follow \" href=\"http://pastebin.com/raw.php?i=CwCs9kfF\" target=\"blank\" style=\"position:fixed\">Install Theme</a> ");</script>
+
+<div id="content">
+
+<div id="post">
+
+
+
+
+
+
+<a href="http://bemyrogerrabbit.tumblr.com/post/98765908055/if-youre-a-teen-you-must-follow-this-blog"><img src="http://31.media.tumblr.com/eacefddef0341fd09745c8a05f146e17/tumblr_nbtcohpgfz1r8hg1ho1_500.jpg" alt="
+If you&rsquo;re a teen you must follow this blog.
+" width=100%/></a><div class="perma"><a href="https://www.tumblr.com/reblog/98765908055/Lx22gpYj">reblog</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98765908055/if-youre-a-teen-you-must-follow-this-blog">8:33pm</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98765908055/if-youre-a-teen-you-must-follow-this-blog">2,910 notes</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+
+
+
+
+<span class="title">Please be careful with me. Sometimes I just get sad and I don’t know why. I’m sorry.</span>
+(via <a href="http://fvckmeimlonely.tumblr.com/" class="tumblr_blog" target="_blank">fvckmeimlonely</a>)
+<span class="permalink"><a href="http://bemyrogerrabbit.tumblr.com/post/98765242170/please-be-careful-with-me-sometimes-i-just-get">50,133 notes</a></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+
+
+
+
+<span class="title">What kind of society needs to remind someone not to rape?</span>
+Ricky Gervais (via <a class="tumblr_blog" href="http://soulsscrawl.tumblr.com/" target="_blank">soulsscrawl</a>)
+<span class="permalink"><a href="http://bemyrogerrabbit.tumblr.com/post/98764831680/what-kind-of-society-needs-to-remind-someone-not">1,608 notes</a></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+<a href="http://bemyrogerrabbit.tumblr.com/post/98759371545/green-shoot-this-is-still-one-of-my-favourite"><img src="http://33.media.tumblr.com/ddc7d5c51fda013e71136d5d985d959c/tumblr_mgqu9tw8LU1qfkxmho1_400.jpg" alt="green-shoot:
+
+This is still one of my favourite pictures on this site" width=100%/></a><div class="perma"><a href="https://www.tumblr.com/reblog/98759371545/FWYxIohf">reblog</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98759371545/green-shoot-this-is-still-one-of-my-favourite">7:03pm</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98759371545/green-shoot-this-is-still-one-of-my-favourite">124,348 notes</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+<a href="http://bemyrogerrabbit.tumblr.com/post/98759203850/faeires-hi-hello-this-is-picture-of-me-sitting"><img src="http://33.media.tumblr.com/59e8cf910aeb18d7a080d0a57c0ba751/tumblr_ncoqjiz9yW1s4tc0ro1_1280.jpg" alt="faeires:
+
+hi hello this is picture of me sitting on rock ok cool" width=100%/></a><div class="perma"><a href="https://www.tumblr.com/reblog/98759203850/EsjNgsyl">reblog</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98759203850/faeires-hi-hello-this-is-picture-of-me-sitting">7:01pm</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98759203850/faeires-hi-hello-this-is-picture-of-me-sitting">77 notes</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+<a href="http://bemyrogerrabbit.tumblr.com/post/98737447177"><img src="http://38.media.tumblr.com/96687f319d49c20dbddc5fb96e1cfdf2/tumblr_mwbmwnOoYz1rya7wlo1_500.jpg" alt="" width=100%/></a><div class="perma"><a href="https://www.tumblr.com/reblog/98737447177/QNfEO1H9">reblog</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98737447177">2:00pm</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98737447177">1,516 notes</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+<a href="http://bemyrogerrabbit.tumblr.com/post/98675117360/irresisting-chanel-pale-fakinq-glory"><img src="http://33.media.tumblr.com/a64a879c9a28c056698f9d1f09e99ede/tumblr_n6nyc0oVyN1roqytgo1_1280.jpg" alt="irresisting:
+
+chanel-pale:
+
+fakinq-glory:
+
+whorchacha:
+
+fakinq-glory:
+
+today was my last day in my creative writing class and my teacher gave everybody a piece of paper to write down a contract and to put it in our wallets. she said she did the same thing when she was younger and every now and then she&rsquo;d brush by it and remember that she wanted to write. everybody took time to write out what they wanted and I just sat at the back of the class, sitting on the windowsill and I knew there was only one thing to write but I couldn&rsquo;t bring myself to do it. at the end of the class after everybody left, I went to thank her for the year, and she told me that people should be reading my words for a long time, but they won&rsquo;t be able to do that if I&rsquo;m not around to write them. I showed her the blank piece of paper, and she said it was okay not to write anything, and then I wrote this. I learned the power of words in that class, I learned it was okay to vomit up half a dozen notebooks stained with blood and exploded pens because it means you have something to say.
+
+steph you&rsquo;re all over my dash
+
+literally posted this 2.5 seconds ago wow
+
+this is so amazing
+
+(if ur reading this i hope u know ur wanted)
+" width=100%/></a><div class="perma"><a href="https://www.tumblr.com/reblog/98675117360/CwjlVKYl">reblog</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98675117360/irresisting-chanel-pale-fakinq-glory">6:47pm</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98675117360/irresisting-chanel-pale-fakinq-glory">243,615 notes</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+<a href="http://bemyrogerrabbit.tumblr.com/post/98654620260/silencial-my-old-cats-tom-and-little-always"><img src="http://33.media.tumblr.com/aca7e73b950007f8b10454258501dfb3/tumblr_mrwju7kBha1qk8daao1_1280.jpg" alt="silencial:
+
+My old cats, Tom and Little, always slept together in a guitar case. They both lived for seventeen years and my family is still convinced that they were in love. Little was perfectly healthy when Tom died, but a week after his death she stopped eating and would hide behind couches and in corners all day. Within a month, she passed away too. They are buried side by side in our garden.
+" width=100%/></a><div class="perma"><a href="https://www.tumblr.com/reblog/98654620260/wDUeN6D5">reblog</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98654620260/silencial-my-old-cats-tom-and-little-always">2:35pm</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98654620260/silencial-my-old-cats-tom-and-little-always">264,527 notes</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+<a href="http://bemyrogerrabbit.tumblr.com/post/98653801575/bahamvt-im-treasure-hunting-in-my-tie-dye"><img src="http://33.media.tumblr.com/5232661812fb39aad58f09d48e4ea1f9/tumblr_nb6kxofPvS1rnqoxbo1_1280.jpg" alt="bahamvt:
+
+I&rsquo;m treasure hunting in my tie dye undies ;) get your own here" width=100%/></a><div class="perma"><a href="https://www.tumblr.com/reblog/98653801575/zfzz6SUo">reblog</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98653801575/bahamvt-im-treasure-hunting-in-my-tie-dye">2:26pm</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98653801575/bahamvt-im-treasure-hunting-in-my-tie-dye">8,833 notes</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+<a href="http://bemyrogerrabbit.tumblr.com/post/98652850575"><img src="http://33.media.tumblr.com/58cb0db922672bc73640d83bdb695ffa/tumblr_mpbktyDUZC1qfji6no1_r1_1280.jpg" alt="" width=100%/></a><div class="perma"><a href="https://www.tumblr.com/reblog/98652850575/u1V8B7AW">reblog</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98652850575">2:14pm</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98652850575">202,146 notes</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+<a href="http://bemyrogerrabbit.tumblr.com/post/98651724107"><img src="http://33.media.tumblr.com/81cc28dca78b0b9cea08eff6ae07903a/tumblr_mwl99cWTTc1t0i1e4o1_400.gif" alt="" width=100%/></a><div class="perma"><a href="https://www.tumblr.com/reblog/98651724107/wEdi3qw6">reblog</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98651724107">2:00pm</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98651724107">12,850 notes</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+
+
+
+
+<span class="title">It would be too easy to say that I feel invisible. Instead, I feel painfully visible, and entirely ignored.</span>
+David Levithan (via <a class="tumblr_blog" href="http://tired-and-uninspireddddd.tumblr.com/" target="_blank">tired-and-uninspireddddd</a>)
+<span class="permalink"><a href="http://bemyrogerrabbit.tumblr.com/post/98647412865/it-would-be-too-easy-to-say-that-i-feel-invisible">1,536 notes</a></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+<a href="http://bemyrogerrabbit.tumblr.com/post/98647361410/dominicsupah-very-blue-grey-eye-this-time"><img src="http://31.media.tumblr.com/0e597a2439dfbc10097d98fef8d1d7eb/tumblr_n42useJKDl1s6cuqfo1_1280.jpg" alt="dominicsupah:
+
+Very blue-grey eye. This time without lenses. :D
+" width=100%/></a><div class="perma"><a href="https://www.tumblr.com/reblog/98647361410/vuSRBoI9">reblog</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98647361410/dominicsupah-very-blue-grey-eye-this-time">1:06pm</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98647361410/dominicsupah-very-blue-grey-eye-this-time">1,044 notes</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+<a href="http://bemyrogerrabbit.tumblr.com/post/98647356745/dominicsupah-very-blue-grey-eye-this-time"><img src="http://31.media.tumblr.com/0e597a2439dfbc10097d98fef8d1d7eb/tumblr_n42useJKDl1s6cuqfo1_1280.jpg" alt="dominicsupah:
+
+Very blue-grey eye. This time without lenses. :D
+" width=100%/></a><div class="perma"><a href="https://www.tumblr.com/reblog/98647356745/vuSRBoI9">reblog</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98647356745/dominicsupah-very-blue-grey-eye-this-time">1:06pm</a> | <a href="http://bemyrogerrabbit.tumblr.com/post/98647356745/dominicsupah-very-blue-grey-eye-this-time">1,044 notes</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div id="post">
+
+
+
+
+
+
+
+
+
+
+<span class="title">anyway, whatever i guess.</span>
+me, probably, about some complex personal emotional problem  (via <a class="tumblr_blog" href="http://geeses.tumblr.com/" target="_blank">geeses</a>)
+<span class="permalink"><a href="http://bemyrogerrabbit.tumblr.com/post/98647265560/anyway-whatever-i-guess">216,876 notes</a></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://bemyrogerrabbit.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037800&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmVteXJvZ2VycmFiYml0LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=PGLPFBHBMI&K=1033c511aaf0d2fcf3a6ab6641af4021cc051f0b9579ebd18a54b56cfda994c9&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037800&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmVteXJvZ2VycmFiYml0LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=PGLPFBHBMI&K=5faa8996a0b0c9613d06098321cacc62329ef9111ca0c8500121ec6a9f26a161&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037800&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2JlbXlyb2dlcnJhYmJpdC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMzgxODMwNTgiLCJyb290X3Bvc3RpZCI6Ijk3MzQwMDkwMzMwIiwicG9zdGlkIjo5ODc2NTkwODA1NSwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjAzNTY5NDc2Iiwicm9vdF9wb3N0aWQiOiI5ODE1MzMwNzg2NyIsInBvc3RpZCI6Ijk4NzY1MjQyMTcwIiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzM1MjU3NTUiLCJyb290X3Bvc3RpZCI6Ijk2NTMzMjA1NjUwIiwicG9zdGlkIjoiOTg3NjQ4MzE2ODAiLCJibG9naWQiOiI1NzkyMDQ1OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTQzODczMCIsInJvb3RfcG9zdGlkIjo0MDcxOTk3NTMyMywicG9zdGlkIjo5ODc1OTM3MTU0NSwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTEyNzIzNTAiLCJyb290X3Bvc3RpZCI6OTg3NTkxMTA3NDUsInBvc3RpZCI6Ijk4NzU5MjAzODUwIiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTk2NjM2MTQiLCJyb290X3Bvc3RpZCI6NjcwODAzMzM2NzAsInBvc3RpZCI6Ijk4NzM3NDQ3MTc3IiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDI0MTg5MjUiLCJyb290X3Bvc3RpZCI6ODc4Mjk5MTM2NzcsInBvc3RpZCI6Ijk4Njc1MTE3MzYwIiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfV19&U=NOBHKOGJCP&K=bf304d0898e540ac8aa7a9e5a3cd6e4d50230276984564116b55a0927c7f52cc&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037800&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2JlbXlyb2dlcnJhYmJpdC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMzgxODMwNTgiLCJyb290X3Bvc3RpZCI6Ijk3MzQwMDkwMzMwIiwicG9zdGlkIjo5ODc2NTkwODA1NSwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjAzNTY5NDc2Iiwicm9vdF9wb3N0aWQiOiI5ODE1MzMwNzg2NyIsInBvc3RpZCI6Ijk4NzY1MjQyMTcwIiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzM1MjU3NTUiLCJyb290X3Bvc3RpZCI6Ijk2NTMzMjA1NjUwIiwicG9zdGlkIjoiOTg3NjQ4MzE2ODAiLCJibG9naWQiOiI1NzkyMDQ1OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTQzODczMCIsInJvb3RfcG9zdGlkIjo0MDcxOTk3NTMyMywicG9zdGlkIjo5ODc1OTM3MTU0NSwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTEyNzIzNTAiLCJyb290X3Bvc3RpZCI6OTg3NTkxMTA3NDUsInBvc3RpZCI6Ijk4NzU5MjAzODUwIiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTk2NjM2MTQiLCJyb290X3Bvc3RpZCI6NjcwODAzMzM2NzAsInBvc3RpZCI6Ijk4NzM3NDQ3MTc3IiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDI0MTg5MjUiLCJyb290X3Bvc3RpZCI6ODc4Mjk5MTM2NzcsInBvc3RpZCI6Ijk4Njc1MTE3MzYwIiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=NOBHKOGJCP&K=2a96e59017912a8edb57cb65e9a77224d49ed66264d57c2cb171c17d63092362&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037800&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2JlbXlyb2dlcnJhYmJpdC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTg2Nzc3NDciLCJyb290X3Bvc3RpZCI6NTg5NTE5MzM2ODMsInBvc3RpZCI6Ijk4NjU0NjIwMjYwIiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDA3MjY0ODgiLCJyb290X3Bvc3RpZCI6Ijk2Mjk4NzU2MDUzIiwicG9zdGlkIjoiOTg2NTM4MDE1NzUiLCJibG9naWQiOiI1NzkyMDQ1OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTQwNTI2NiIsInJvb3RfcG9zdGlkIjo1NDQ1NTA0OTY1NCwicG9zdGlkIjoiOTg2NTI4NTA1NzUiLCJibG9naWQiOiI1NzkyMDQ1OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDU2ODk3NjAiLCJyb290X3Bvc3RpZCI6Njc2MTExODczMjIsInBvc3RpZCI6Ijk4NjUxNzI0MTA3IiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg0OTE5OTk2Iiwicm9vdF9wb3N0aWQiOiI5Nzc2NTc2MjA3NCIsInBvc3RpZCI6Ijk4NjQ3NDEyODY1IiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTUwNDE2MDAiLCJyb290X3Bvc3RpZCI6IjgyNzkzNTYwMTMyIiwicG9zdGlkIjoiOTg2NDczNjE0MTAiLCJibG9naWQiOiI1NzkyMDQ1OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5NTA0MTYwMCIsInJvb3RfcG9zdGlkIjoiODI3OTM1NjAxMzIiLCJwb3N0aWQiOiI5ODY0NzM1Njc0NSIsImJsb2dpZCI6IjU3OTIwNDU4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExNDA0NTg5Iiwicm9vdF9wb3N0aWQiOiI4NDk5MTYxMTQyOCIsInBvc3RpZCI6Ijk4NjQ3MjY1NTYwIiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfV19&U=ACBIGBKHEA&K=39c588fede72797f5d646dc49f73afb199fabd7342ab9a1141d0baafe9503ed7&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037800&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2JlbXlyb2dlcnJhYmJpdC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTg2Nzc3NDciLCJyb290X3Bvc3RpZCI6NTg5NTE5MzM2ODMsInBvc3RpZCI6Ijk4NjU0NjIwMjYwIiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDA3MjY0ODgiLCJyb290X3Bvc3RpZCI6Ijk2Mjk4NzU2MDUzIiwicG9zdGlkIjoiOTg2NTM4MDE1NzUiLCJibG9naWQiOiI1NzkyMDQ1OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTQwNTI2NiIsInJvb3RfcG9zdGlkIjo1NDQ1NTA0OTY1NCwicG9zdGlkIjoiOTg2NTI4NTA1NzUiLCJibG9naWQiOiI1NzkyMDQ1OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDU2ODk3NjAiLCJyb290X3Bvc3RpZCI6Njc2MTExODczMjIsInBvc3RpZCI6Ijk4NjUxNzI0MTA3IiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg0OTE5OTk2Iiwicm9vdF9wb3N0aWQiOiI5Nzc2NTc2MjA3NCIsInBvc3RpZCI6Ijk4NjQ3NDEyODY1IiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTUwNDE2MDAiLCJyb290X3Bvc3RpZCI6IjgyNzkzNTYwMTMyIiwicG9zdGlkIjoiOTg2NDczNjE0MTAiLCJibG9naWQiOiI1NzkyMDQ1OCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5NTA0MTYwMCIsInJvb3RfcG9zdGlkIjoiODI3OTM1NjAxMzIiLCJwb3N0aWQiOiI5ODY0NzM1Njc0NSIsImJsb2dpZCI6IjU3OTIwNDU4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExNDA0NTg5Iiwicm9vdF9wb3N0aWQiOiI4NDk5MTYxMTQyOCIsInBvc3RpZCI6Ijk4NjQ3MjY1NTYwIiwiYmxvZ2lkIjoiNTc5MjA0NTgiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=ACBIGBKHEA&K=4ce235ac2bef47e1c0b2bbd2cbe7820a229651cf2bd41f77bab4678a44fff4eb&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:57920458,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fbemyrogerrabbit.tumblr.com%2F&amp;lang=en_US&amp;name=bemyrogerrabbit&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_dcb0e0e27c0f_64.png&amp;title=Sad+But+Rad&amp;url=http%3A%2F%2Fbemyrogerrabbit.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fbemyrogerrabbit.tumblr.com%2F&amp;lang=en_US&amp;name=bemyrogerrabbit&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_dcb0e0e27c0f_64.png&amp;title=Sad+But+Rad&amp;url=http%3A%2F%2Fbemyrogerrabbit.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

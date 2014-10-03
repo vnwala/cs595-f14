@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr'>
+<head>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<script type="text/javascript">(function() { var b=window,f="chrome",g="tick",k="jstiming";(function(){function d(a){this.t={};this.tick=function(a,d,c){var e=void 0!=c?c:(new Date).getTime();this.t[a]=[e,d];if(void 0==c)try{b.console.timeStamp("CSI/"+a)}catch(h){}};this[g]("start",null,a)}var a;b.performance&&(a=b.performance.timing);var n=a?new d(a.responseStart):new d;b.jstiming={Timer:d,load:n};if(a){var c=a.navigationStart,h=a.responseStart;0<c&&h>=c&&(b[k].srt=h-c)}if(a){var e=b[k].load;0<c&&h>=c&&(e[g]("_wtsrt",void 0,c),e[g]("wtsrt_","_wtsrt",h),e[g]("tbsd_","wtsrt_"))}try{a=null,
+b[f]&&b[f].csi&&(a=Math.floor(b[f].csi().pageT),e&&0<c&&(e[g]("_tbnd",void 0,b[f].csi().startE),e[g]("tbnd_","_tbnd",c))),null==a&&b.gtbExternal&&(a=b.gtbExternal.pageT()),null==a&&b.external&&(a=b.external.pageT,e&&0<c&&(e[g]("_tbnd",void 0,b.external.startE),e[g]("tbnd_","_tbnd",c))),a&&(b[k].pt=a)}catch(p){}})();b.tickAboveFold=function(d){var a=0;if(d.offsetParent){do a+=d.offsetTop;while(d=d.offsetParent)}d=a;750>=d&&b[k].load[g]("aft")};var l=!1;function m(){l||(l=!0,b[k].load[g]("firstScrollTime"))}b.addEventListener?b.addEventListener("scroll",m,!1):b.attachEvent("onscroll",m);
+ })();</script>
+<meta content='blogger' name='generator'/>
+<link href='http://geordieoffshore.blogspot.de/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://geordieoffshore.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="geordieOFFSHORE - Atom" href="http://geordieoffshore.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="geordieOFFSHORE - RSS" href="http://geordieoffshore.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="geordieOFFSHORE - Atom" href="http://www.blogger.com/feeds/159462268337003922/posts/default" />
+<link rel="me" href="http://www.blogger.com/profile/10917956281021764290" />
+<link rel="openid.server" href="http://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="http://geordieoffshore.blogspot.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3204238090-ieretrofit.js"></script>
+<![endif]-->
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>geordieOFFSHORE</title>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/1535467126-widget_css_2_bundle.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=159462268337003922&zx=d6241280-d003-49b2-a865-9eb1783b3de4' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Simple
+Designer: Josh Peterson
+URL:      www.noaesthetic.com
+----------------------------------------------- */
+/* Variable definitions
+====================
+<Variable name="keycolor" description="Main Color" type="color" default="#66bbdd"/>
+<Group description="Page Text" selector="body">
+<Variable name="body.font" description="Font" type="font"
+default="normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.text.color" description="Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Backgrounds" selector=".body-fauxcolumns-outer">
+<Variable name="body.background.color" description="Outer Background" type="color" default="#66bbdd"/>
+<Variable name="content.background.color" description="Main Background" type="color" default="#ffffff"/>
+<Variable name="header.background.color" description="Header Background" type="color" default="transparent"/>
+</Group>
+<Group description="Links" selector=".main-outer">
+<Variable name="link.color" description="Link Color" type="color" default="#2288bb"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#888888"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#33aaff"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="header.text.color" description="Title Color" type="color" default="#3399bb" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.text.color" description="Description Color" type="color"
+default="#777777" />
+</Group>
+<Group description="Tabs Text" selector=".tabs-inner .widget li a">
+<Variable name="tabs.font" description="Font" type="font"
+default="normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.text.color" description="Text Color" type="color" default="#999999"/>
+<Variable name="tabs.selected.text.color" description="Selected Color" type="color" default="#000000"/>
+</Group>
+<Group description="Tabs Background" selector=".tabs-outer .PageList">
+<Variable name="tabs.background.color" description="Background Color" type="color" default="#f5f5f5"/>
+<Variable name="tabs.selected.background.color" description="Selected Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Post Title" selector="h3.post-title, .comments h4">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+</Group>
+<Group description="Date Header" selector=".date-header">
+<Variable name="date.header.color" description="Text Color" type="color"
+default="#222222"/>
+<Variable name="date.header.background.color" description="Background Color" type="color"
+default="transparent"/>
+</Group>
+<Group description="Post Footer" selector=".post-footer">
+<Variable name="post.footer.text.color" description="Text Color" type="color" default="#666666"/>
+<Variable name="post.footer.background.color" description="Background Color" type="color"
+default="#f9f9f9"/>
+<Variable name="post.footer.border.color" description="Shadow Color" type="color" default="#eeeeee"/>
+</Group>
+<Group description="Gadgets" selector="h2">
+<Variable name="widget.title.font" description="Title Font" type="font"
+default="normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#000000"/>
+<Variable name="widget.alternate.text.color" description="Alternate Color" type="color" default="#999999"/>
+</Group>
+<Group description="Images" selector=".main-inner">
+<Variable name="image.background.color" description="Background Color" type="color" default="#ffffff"/>
+<Variable name="image.border.color" description="Border Color" type="color" default="#eeeeee"/>
+<Variable name="image.text.color" description="Caption Text Color" type="color" default="#222222"/>
+</Group>
+<Group description="Accents" selector=".content-inner">
+<Variable name="body.rule.color" description="Separator Line Color" type="color" default="#eeeeee"/>
+<Variable name="tabs.border.color" description="Tabs Border Color" type="color" default="#eeeeee"/>
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#777777" default="$(color) none repeat scroll top left"/>
+<Variable name="body.background.override" description="Body Background Override" type="string" default=""/>
+<Variable name="body.background.gradient.cap" description="Body Gradient Cap" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="body.background.gradient.tile" description="Body Gradient Tile" type="url"
+default="url(//www.blogblog.com/1kt/simple/body_gradient_tile_light.png)"/>
+<Variable name="content.background.color.selector" description="Content Background Color Selector" type="string" default=".content-inner"/>
+<Variable name="content.padding" description="Content Padding" type="length" default="10px"/>
+<Variable name="content.padding.horizontal" description="Content Horizontal Padding" type="length" default="10px"/>
+<Variable name="content.shadow.spread" description="Content Shadow Spread" type="length" default="40px"/>
+<Variable name="content.shadow.spread.webkit" description="Content Shadow Spread (WebKit)" type="length" default="5px"/>
+<Variable name="content.shadow.spread.ie" description="Content Shadow Spread (IE)" type="length" default="10px"/>
+<Variable name="main.border.width" description="Main Border Width" type="length" default="0"/>
+<Variable name="header.background.gradient" description="Header Gradient" type="url" default="none"/>
+<Variable name="header.shadow.offset.left" description="Header Shadow Offset Left" type="length" default="-1px"/>
+<Variable name="header.shadow.offset.top" description="Header Shadow Offset Top" type="length" default="-1px"/>
+<Variable name="header.shadow.spread" description="Header Shadow Spread" type="length" default="1px"/>
+<Variable name="header.padding" description="Header Padding" type="length" default="30px"/>
+<Variable name="header.border.size" description="Header Border Size" type="length" default="1px"/>
+<Variable name="header.bottom.border.size" description="Header Bottom Border Size" type="length" default="1px"/>
+<Variable name="header.border.horizontalsize" description="Header Horizontal Border Size" type="length" default="0"/>
+<Variable name="description.text.size" description="Description Text Size" type="string" default="140%"/>
+<Variable name="tabs.margin.top" description="Tabs Margin Top" type="length" default="0" />
+<Variable name="tabs.margin.side" description="Tabs Side Margin" type="length" default="30px" />
+<Variable name="tabs.background.gradient" description="Tabs Background Gradient" type="url"
+default="url(//www.blogblog.com/1kt/simple/gradients_light.png)"/>
+<Variable name="tabs.border.width" description="Tabs Border Width" type="length" default="1px"/>
+<Variable name="tabs.bevel.border.width" description="Tabs Bevel Border Width" type="length" default="1px"/>
+<Variable name="date.header.padding" description="Date Header Padding" type="string" default="inherit"/>
+<Variable name="date.header.letterspacing" description="Date Header Letter Spacing" type="string" default="inherit"/>
+<Variable name="date.header.margin" description="Date Header Margin" type="string" default="inherit"/>
+<Variable name="post.margin.bottom" description="Post Bottom Margin" type="length" default="25px"/>
+<Variable name="image.border.small.size" description="Image Border Small Size" type="length" default="2px"/>
+<Variable name="image.border.large.size" description="Image Border Large Size" type="length" default="5px"/>
+<Variable name="page.width.selector" description="Page Width Selector" type="string" default=".region-inner"/>
+<Variable name="page.width" description="Page Width" type="string" default="auto"/>
+<Variable name="main.section.margin" description="Main Section Margin" type="length" default="15px"/>
+<Variable name="main.padding" description="Main Padding" type="length" default="15px"/>
+<Variable name="main.padding.top" description="Main Padding Top" type="length" default="30px"/>
+<Variable name="main.padding.bottom" description="Main Padding Bottom" type="length" default="30px"/>
+<Variable name="paging.background"
+color="#ffffff"
+description="Background of blog paging area" type="background"
+default="transparent none no-repeat scroll top center"/>
+<Variable name="footer.bevel" description="Bevel border length of footer" type="length" default="0"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none repeat scroll top left"/>
+<Variable name="mobile.background.size" description="Mobile Background Size" type="string" default="auto"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #222222;
+background: #777777 none repeat scroll top left;
+padding: 0 40px 40px 40px;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+a:link {
+text-decoration:none;
+color: #21bba0;
+}
+a:visited {
+text-decoration:none;
+color: #888888;
+}
+a:hover {
+text-decoration:underline;
+color: #32ffed;
+}
+.body-fauxcolumn-outer .fauxcolumn-inner {
+background: transparent none repeat scroll top left;
+_background-image: none;
+}
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 400px;
+width: 100%;
+background: #777777 none repeat scroll top left;
+}
+.body-fauxcolumn-outer .cap-top .cap-left {
+width: 100%;
+background: transparent none repeat-x scroll top left;
+_background-image: none;
+}
+.content-outer {
+-moz-box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 10px #333333;
+box-shadow: 0 0 40px rgba(0, 0, 0, .15);
+margin-bottom: 1px;
+}
+.content-inner {
+padding: 10px 10px;
+}
+.content-inner {
+background-color: #ffffff;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+background: transparent none repeat-x scroll 0 -400px;
+_background-image: none;
+}
+.Header h1 {
+font: normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #32bb98;
+text-shadow: -1px -1px 1px rgba(0, 0, 0, .2);
+}
+.Header h1 a {
+color: #32bb98;
+}
+.Header .description {
+font-size: 140%;
+color: #777777;
+}
+.header-inner .Header .titlewrapper {
+padding: 22px 30px;
+}
+.header-inner .Header .descriptionwrapper {
+padding: 0 30px;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner .section:first-child {
+border-top: 1px solid #eeeeee;
+}
+.tabs-inner .section:first-child ul {
+margin-top: -1px;
+border-top: 1px solid #eeeeee;
+border-left: 0 solid #eeeeee;
+border-right: 0 solid #eeeeee;
+}
+.tabs-inner .widget ul {
+background: #f5f5f5 url(//www.blogblog.com/1kt/simple/gradients_light.png) repeat-x scroll 0 -800px;
+_background-image: none;
+border-bottom: 1px solid #eeeeee;
+margin-top: 0;
+margin-left: -30px;
+margin-right: -30px;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .6em 1em;
+font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #999999;
+border-left: 1px solid #ffffff;
+border-right: 1px solid #eeeeee;
+}
+.tabs-inner .widget li:first-child a {
+border-left: none;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+color: #000000;
+background-color: #eeeeee;
+text-decoration: none;
+}
+/* Columns
+----------------------------------------------- */
+.main-outer {
+border-top: 0 solid #eeeeee;
+}
+.fauxcolumn-left-outer .fauxcolumn-inner {
+border-right: 1px solid #eeeeee;
+}
+.fauxcolumn-right-outer .fauxcolumn-inner {
+border-left: 1px solid #eeeeee;
+}
+/* Headings
+----------------------------------------------- */
+h2 {
+margin: 0 0 1em 0;
+font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #000000;
+}
+/* Widgets
+----------------------------------------------- */
+.widget .zippy {
+color: #999999;
+text-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+.widget .popular-posts ul {
+list-style: none;
+}
+/* Posts
+----------------------------------------------- */
+.date-header span {
+background-color: transparent;
+color: #222222;
+padding: inherit;
+letter-spacing: inherit;
+margin: inherit;
+}
+.main-inner {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.main-inner .column-center-inner {
+padding: 0 15px;
+}
+.main-inner .column-center-inner .section {
+margin: 0 15px;
+}
+.post {
+margin: 0 0 25px 0;
+}
+h3.post-title, .comments h4 {
+font: normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+margin: .75em 0 0;
+}
+.post-body {
+font-size: 110%;
+line-height: 1.4;
+position: relative;
+}
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
+.BlogList .item-thumbnail img {
+padding: 2px;
+background: #ffffff;
+border: 1px solid #eeeeee;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+}
+.post-body img, .post-body .tr-caption-container {
+padding: 5px;
+}
+.post-body .tr-caption-container {
+color: #222222;
+}
+.post-body .tr-caption-container img {
+padding: 0;
+background: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+.post-header {
+margin: 0 0 1.5em;
+line-height: 1.6;
+font-size: 90%;
+}
+.post-footer {
+margin: 20px -2px 0;
+padding: 5px 10px;
+color: #666666;
+background-color: #f9f9f9;
+border-bottom: 1px solid #eeeeee;
+line-height: 1.6;
+font-size: 90%;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: 1px solid #eeeeee;
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+#comments .avatar-image-container img {
+border: 1px solid #eeeeee;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+}
+.comments .comment-thread.inline-thread {
+background-color: #f9f9f9;
+}
+.comments .continue {
+border-top: 2px solid #999999;
+}
+/* Accents
+---------------------------------------------- */
+.section-columns td.columns-cell {
+border-left: 1px solid #eeeeee;
+}
+.blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.blog-pager-older-link, .home-link,
+.blog-pager-newer-link {
+background-color: #ffffff;
+padding: 5px;
+}
+.footer-outer {
+border-top: 0 dashed #bbbbbb;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .body-fauxcolumn-outer .cap-top {
+background-size: 100% auto;
+}
+.mobile .content-outer {
+-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+}
+body.mobile .AdSense {
+margin: 0 -40px;
+}
+.mobile .tabs-inner .widget ul {
+margin-left: 0;
+margin-right: 0;
+}
+.mobile .post {
+margin: 0;
+}
+.mobile .main-inner .column-center-inner .section {
+margin: 0;
+}
+.mobile .date-header span {
+padding: 0.1em 10px;
+margin: 0 -10px;
+}
+.mobile h3.post-title {
+margin: 0;
+}
+.mobile .blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.mobile .footer-outer {
+border-top: none;
+}
+.mobile .main-inner, .mobile .footer-inner {
+background-color: #ffffff;
+}
+.mobile-index-contents {
+color: #222222;
+}
+.mobile-link-button {
+background-color: #21bba0;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile .tabs-inner .section:first-child {
+border-top: none;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background-color: #eeeeee;
+color: #000000;
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #eeeeee;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 960px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 960px;
+max-width: 960px;
+_width: 960px;
+}
+.main-inner .columns {
+padding-left: 0;
+padding-right: 310px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0;
+right: 310px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0") -
+parseInt("310px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 310px;
+}
+.main-inner .column-left-outer {
+width: 0;
+right: 100%;
+margin-left: -0;
+}
+.main-inner .column-right-outer {
+width: 310px;
+margin-right: -310px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<script type="text/javascript">var a="indexOf",b="&m=1",e="(^|&)m=",f="?",g="?m=1";function h(){var c=window.location.href,d=c.split(f);switch(d.length){case 1:return c+g;case 2:return 0<=d[1].search(e)?null:c+b;default:return null}}var k=navigator.userAgent;if(-1!=k[a]("Mobile")&&-1!=k[a]("WebKit")&&-1==k[a]("iPad")||-1!=k[a]("Opera Mini")||-1!=k[a]("IEMobile")){var l=h();l&&window.location.replace(l)};
+</script><script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('headEnd');
+</script></head>
+<body class='loading variant-pale'>
+<div class='navbar section' id='navbar'><div class='widget Navbar' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+        gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+          if (gapi.iframes && gapi.iframes.getContext) {
+            gapi.iframes.getContext().openChild({
+                url: 'https://www.blogger.com/navbar.g?targetBlogID\075159462268337003922\46blogName\75geordieOFFSHORE\46publishMode\75PUBLISH_MODE_BLOGSPOT\46navbarType\75LIGHT\46layoutType\75LAYOUTS\46searchRoot\75http://geordieoffshore.blogspot.com/search\46blogLocale\75en_GB\46v\0752\46homepageUrl\75http://geordieoffshore.blogspot.com/\46vt\758270405281352730774',
+                where: document.getElementById("navbar-iframe-container"),
+                id: "navbar-iframe"
+            });
+          }
+        });
+      </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+<meta content='geordieOFFSHORE' itemprop='name'/>
+</div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header'><div class='widget Header' id='Header1'>
+<div id='header-inner'>
+<a href='http://geordieoffshore.blogspot.de/' style='display: block'>
+<img alt='geordieOFFSHORE' height='137px; ' id='Header1_headerimg' src='http://3.bp.blogspot.com/-Cs7B_g-5aRA/Ui_gaJxVflI/AAAAAAAAANk/7-MDXNKtIKE/s1600/geordieoffshore.png' style='display: block' width='846px; '/>
+</a>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs section' id='crosscol'><div class='widget PageList' id='PageList1'>
+<h2>Pages</h2>
+<div class='widget-content'>
+<ul>
+<li class='selected'><a href='http://geordieoffshore.blogspot.de/'>home.</a></li>
+<li><a href='http://geordieoffshore.blogspot.de/p/about.html'>who.</a></li>
+<li><a href='http://geordieoffshore.blogspot.de/p/photos.html'>photos.</a></li>
+<li><a href='http://geordieoffshore.blogspot.de/p/written.html'>written.</a></li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=159462268337003922&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=crosscol' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList1"));' target='configPageList1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget Text' id='Text1'>
+<h2 class='title'>Not All Those Who Wander Are Lost</h2>
+<div class='widget-content'>
+<span style="color: rgb(51, 51, 51);   line-height: 18px; background-color: rgb(255, 255, 255);font-family:monospace;font-size:13px;"><p align="center"><span style=" text-align: left;font-size:13px;"></span></p><p align="right"><span style=" text-align: left;font-size:13px;"></span></p><p align="center"><span style="font-size: 13px; text-align: left;"></span></p><p align="center"> Not all those who wander are lost - <i>J.R.R Tolkien</i></p></span>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=159462268337003922&widgetType=Text&widgetId=Text1&action=editWidget&sectionId=crosscol' onclick='return _WidgetManager._PopupConfig(document.getElementById("Text1"));' target='configText1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div class='tabs section' id='crosscol-overflow'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main'><div class='widget Blog' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!-- google_ad_section_start(name=default) -->
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Monday, 23 June 2014</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://1.bp.blogspot.com/-2CJ23iWQTRI/UM_1HiJ96fI/AAAAAAAAGMg/xY_2SF-fmdQ/s1600/mcgonagall+giddy.gif' itemprop='image_url'/>
+<meta content='159462268337003922' itemprop='blogId'/>
+<meta content='850683437098792142' itemprop='postId'/>
+<a name='850683437098792142'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://geordieoffshore.blogspot.de/2014/06/hello-again.html'>hello again.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-850683437098792142' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+So there is simply no other way to put it - I have neglected blogging recently, and feel the need to post something (on my mother's suggestion) just to ensure people know that my lack of writing does not mean that I've been hugging myself in a corner of some dark room, quite the opposite in fact.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-2CJ23iWQTRI/UM_1HiJ96fI/AAAAAAAAGMg/xY_2SF-fmdQ/s1600/mcgonagall+giddy.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-2CJ23iWQTRI/UM_1HiJ96fI/AAAAAAAAGMg/xY_2SF-fmdQ/s1600/mcgonagall+giddy.gif" height="260" width="640" /></a></div>
+<br />
+<br />
+In Canada, blogging became a sort of therapy - by recording the many adventures of Hannah and Alice, I could remind myself that the experience was actually worthwhile. In Germany, however, I very quickly discovered a very different therapy: beer.<br />
+<br />
+Okay, so before my mother starts absolutely panicking that I've turned to alcoholism to deal with things, it's not just beer. The people I have met here have been an absolute godsend, and they could not have come at a better time. I came to Germany a bit of a wreck, counting the days down until I could go back to England and just live normally. I'd planned to go home for my 21st, to give myself a break from being away and to see my friends and family at home.<br />
+<br />
+All that changed very quickly, and needless to say I didn't end up going home for my birthday. Germany has well and truly won me over. Having been force fed countless stories of just how good year abroad would be/will be/is, I feel like I'm genuinely living my own story right now.<br />
+<br />
+So now that I'm done with all that general crap, what the hell have I been doing for the past two months? Good question, really. The last two months have been littered with all the best aspects of a year abroad: new people, travelling and copious amounts of beer. I shan't bore you with tales of everything that we've done, but a few photos and highlights surely will suffice (God, that sentence sounds like I've just fallen out of some exclusive private school... fear not, I am as Geordie as ever, even if Chris will tell you that I speak like an American...):<br />
+<br />
+<span style="font-family: Times, Times New Roman, serif;"><i><b>Fr<span style="background-color: white; line-height: 18px; text-align: center;">ühlingsfest</span></b></i></span><br />
+<div style="text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;"><span style="background-color: white; line-height: 18px; text-align: center;">...what a damn good weekend. Having never been bothered about the whole beer fest experience, I made a very last gasp decision on the Friday to rent a dirndl (traditional Bavarian dress). Best decision I've ever made - dirndls are possibly the greatest invention EVER. Saturday was our first venture to&nbsp;</span></span><span style="font-family: Times, 'Times New Roman', serif;">Fr<span style="background-color: white; line-height: 18px; text-align: center;">ühlingsfest, and it was hellish funny. Too many Brits and Irish thinking we were the bosses of life and swigging down Ma</span></span><span style="font-family: Times, Times New Roman, serif;"><span style="line-height: 18px;">ße of beer like it was water. Naturally led to all of us being absolutely off our faces, me falling off tables and having strange encounters with Stuttgart fans in the vicinity. When I eventually got home on the Saturday night, I'd already made the decision to go back the next day, when I went with my flatmate Christian, and his friends, before Chris and Adam eventually dragged their arses out of bed to join us. I feel&nbsp;</span></span><span style="font-family: Times, 'Times New Roman', serif;">Fr</span><span style="background-color: white; font-family: Times, 'Times New Roman', serif; line-height: 18px; text-align: center;">ühlingsfest has kicked off what is bound to be a lifelong passion for German festivals (and dirndls).&nbsp;</span></div>
+<div style="text-align: left;">
+<span style="background-color: white; font-family: Times, 'Times New Roman', serif; line-height: 18px; text-align: center;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-krtzkUSbJZc/U6hDihu5pvI/AAAAAAAAAw4/R1o_yw_xMMM/s1600/CIMG7048.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-krtzkUSbJZc/U6hDihu5pvI/AAAAAAAAAw4/R1o_yw_xMMM/s1600/CIMG7048.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-TI7bhgvxP28/U6hDiqgrQJI/AAAAAAAAAw8/h1_mTMFRqeM/s1600/CIMG7058.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-TI7bhgvxP28/U6hDiqgrQJI/AAAAAAAAAw8/h1_mTMFRqeM/s1600/CIMG7058.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-qAt5wASP_u4/U6hDjc9DujI/AAAAAAAAAxA/O7mAKyXw0w8/s1600/CIMG7064.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-qAt5wASP_u4/U6hDjc9DujI/AAAAAAAAAxA/O7mAKyXw0w8/s1600/CIMG7064.JPG" height="240" width="320" /></a></div>
+<div style="text-align: left;">
+<span style="background-color: white; font-family: Times, 'Times New Roman', serif; line-height: 18px; text-align: center;"><br /></span></div>
+<span style="font-family: Times, Times New Roman, serif;"><span style="line-height: 18px;"><br /></span></span>
+<span style="font-family: Times, Times New Roman, serif;"><span style="line-height: 18px;"><b><i>Munich</i></b></span></span><br />
+<span style="font-family: Times, Times New Roman, serif;"><span style="line-height: 18px;">Travelled to Munich with my flatmates Christian and Annie, and stayed with Christian's friend Johannes in good ol' G-Town. Our time seems to just have involved beer and a severe lack of sleep, but it was such a good laugh. Personal highlights include being taught the Discofox by the most Bavarian looking guy I've ever seen #lederhosen, wandering around on the ONE sunny day in a dirndl and people just thinking it was totally fine (God bless Bavaria), buying my very own dirndl which I then travelled home to Tubs in, and of course the legend of the toilet brush. Oh Munich, I miss you already...&nbsp;</span></span><br />
+<span style="font-family: Times, Times New Roman, serif;"><span style="line-height: 18px;"><br /></span></span>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://2.bp.blogspot.com/-FUUTjIaGSuo/U6hE5bwtdcI/AAAAAAAAAxY/tFkUcIZuV9M/s1600/P1020593.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-FUUTjIaGSuo/U6hE5bwtdcI/AAAAAAAAAxY/tFkUcIZuV9M/s1600/P1020593.JPG" height="240" width="320" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>Car selfie</i></span></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://4.bp.blogspot.com/-XzYSXQX-llk/U6hE5QfgLSI/AAAAAAAAAxU/cDgyawnkcoU/s1600/P1020697.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-XzYSXQX-llk/U6hE5QfgLSI/AAAAAAAAAxU/cDgyawnkcoU/s1600/P1020697.JPG" height="240" width="320" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>Ohhhhhh hell, German food &lt;3</i></span></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://4.bp.blogspot.com/-hDsC7MHzGHA/U6hE5YHTc3I/AAAAAAAAAxc/jLYOEMYujho/s1600/P1020763.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-hDsC7MHzGHA/U6hE5YHTc3I/AAAAAAAAAxc/jLYOEMYujho/s1600/P1020763.JPG" height="320" width="240" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>The love of my life: my dirndl</i></span></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://4.bp.blogspot.com/-bzBHMjfigpU/U6hE6gBlUsI/AAAAAAAAAxk/wzmuKzxNrX0/s1600/P1020777.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-bzBHMjfigpU/U6hE6gBlUsI/AAAAAAAAAxk/wzmuKzxNrX0/s1600/P1020777.JPG" height="320" width="240" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>Dorffest</i></span></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://3.bp.blogspot.com/-ESHHSA7BjI8/U6hE7HNLyPI/AAAAAAAAAxo/xqIHPyLOVNA/s1600/P1020785.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-ESHHSA7BjI8/U6hE7HNLyPI/AAAAAAAAAxo/xqIHPyLOVNA/s1600/P1020785.JPG" height="320" width="240" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>Discofox lessons</i></span></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://2.bp.blogspot.com/-LZzl42OFeKE/U6hE7icAZiI/AAAAAAAAAxw/L_0Lkxb0jgI/s1600/P1020789.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-LZzl42OFeKE/U6hE7icAZiI/AAAAAAAAAxw/L_0Lkxb0jgI/s1600/P1020789.JPG" height="240" width="320" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>Loving my life</i><span style="text-align: left;">&nbsp;</span></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://4.bp.blogspot.com/-bESt-ypTri0/U6hE8OqllYI/AAAAAAAAAx8/mkP5EPO-M-k/s1600/P1020873.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-bESt-ypTri0/U6hE8OqllYI/AAAAAAAAAx8/mkP5EPO-M-k/s1600/P1020873.JPG" height="240" width="320" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>The final day, the one sunny day. Beautiful day in Andechs.</i></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i><br /></i></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;"><i><b>My 21st</b></i></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;">People always make such a big deal out of 21st birthdays, and God knows I really wasn't arsed about celebrating mine. This year has been such a bloody rollercoaster, I didn't really want to mark it with a big party. However, once I'd decided I was staying in the country, I decided celebrating it was a really good idea. Beer pong and Kuckuck (student bar, cheeeeeap as) with people from all over the world that I've been fortunate enough to meet this year, I don't think I could have topped it if I tried. I definitely won more than I lost at beer pong too... I think. A certain Eleanor made her way up from Freiburg too, which was spectacular. My presents included gin, white chocolate and a German party CD, which sums me up far too well and too easily.&nbsp;</span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="https://scontent-a-fra.xx.fbcdn.net/hphotos-xpf1/t1.0-9/10430902_10152086979922352_6128136752144931684_n.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="240" src="https://scontent-a-fra.xx.fbcdn.net/hphotos-xpf1/t1.0-9/10430902_10152086979922352_6128136752144931684_n.jpg" width="320" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>All the Emmanuel lot, still together years later.</i></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="https://scontent-a-fra.xx.fbcdn.net/hphotos-xpa1/t1.0-9/10441442_10152086979017352_8057952018718289964_n.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="240" src="https://scontent-a-fra.xx.fbcdn.net/hphotos-xpa1/t1.0-9/10441442_10152086979017352_8057952018718289964_n.jpg" width="320" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>The typical me stance: bossy as hell</i></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="https://scontent-b-fra.xx.fbcdn.net/hphotos-xap1/t1.0-9/10169254_10152086976857352_5166145868429804267_n.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="https://scontent-b-fra.xx.fbcdn.net/hphotos-xap1/t1.0-9/10169254_10152086976857352_5166145868429804267_n.jpg" width="240" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>Bliss...</i></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/10440892_10152086980712352_5887158451796683230_n.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="240" src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xpa1/t1.0-9/10440892_10152086980712352_5887158451796683230_n.jpg" width="320" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>Sums up a lot.</i></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/t1.0-9/10417625_10152086980117352_7640133446238549363_n.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="240" src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/t1.0-9/10417625_10152086980117352_7640133446238549363_n.jpg" width="320" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>#crunk</i></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i><br /></i></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;"><i><br /></i></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;"><b><i>Rebs' Visit</i></b></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;">Whilst I can say quite categorically that I am not a bit homesick (I know, I'm surprised too), it's still the best thing ever to talk to my best friends at home. It was so beautiful to have Rebs' visit, and it reminded me how big a part of my life my friends at home still continue to play. I may not miss home, but I miss you all and love you all. Well, most of you. Even Kevin sometimes :)</span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://2.bp.blogspot.com/-P0423syJ7zI/U6hJb0H24dI/AAAAAAAAAyY/Bi2v8TPGjEs/s1600/DSC_0111.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-P0423syJ7zI/U6hJb0H24dI/AAAAAAAAAyY/Bi2v8TPGjEs/s1600/DSC_0111.JPG" height="212" width="320" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>Walking in Bad Urach</i></span></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://4.bp.blogspot.com/-ShylY8VtFiY/U6hJb5mJSkI/AAAAAAAAAyU/9yPR1Q1j0So/s1600/DSC_0115.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-ShylY8VtFiY/U6hJb5mJSkI/AAAAAAAAAyU/9yPR1Q1j0So/s1600/DSC_0115.JPG" height="320" width="212" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>Literally, the height difference...</i></span></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://4.bp.blogspot.com/-DNrEfgwC95E/U6hJb0jU9nI/AAAAAAAAAyQ/xgIN_L57TgE/s1600/DSC_0118.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-DNrEfgwC95E/U6hJb0jU9nI/AAAAAAAAAyQ/xgIN_L57TgE/s1600/DSC_0118.JPG" height="212" width="320" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>Pretending we're not absolutely dying after that walk...</i></span></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://1.bp.blogspot.com/-bSK9cof083U/U6hJdR9kXQI/AAAAAAAAAyk/YYm_T89N06Q/s1600/DSC_0119.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-bSK9cof083U/U6hJdR9kXQI/AAAAAAAAAyk/YYm_T89N06Q/s1600/DSC_0119.JPG" height="212" width="320" /></a></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>Yes, Rebs really did try this!</i></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><a href="http://2.bp.blogspot.com/-TBVpGZtL19w/U6hJdqQbn2I/AAAAAAAAAy0/DYWFhYwKiQw/s1600/DSC_0120.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-TBVpGZtL19w/U6hJdqQbn2I/AAAAAAAAAy0/DYWFhYwKiQw/s1600/DSC_0120.JPG" height="212" width="320" /></a></span></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i>:) buddddds</i></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><i><br /></i></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;">I think that's a fairly decent catch up for you all for now. Hopefully I will remember to write something before too long... but it is World Cup season so I make no promises.</span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;">And just to clarify, I am most definitely cheering on Germany for the WM2014.&nbsp;</span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://images4.fanpop.com/image/photos/16100000/Basti-GIFS-bastian-schweinsteiger-16105667-320-180.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://images4.fanpop.com/image/photos/16100000/Basti-GIFS-bastian-schweinsteiger-16105667-320-180.gif" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;">Oh Schweini, you darling.&nbsp;</span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;">Los geht's Deutschland&lt;3&nbsp;</span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<div class="separator" style="clear: both; text-align: left;">
+<span style="font-family: Times, Times New Roman, serif;"><br /></span></div>
+<br />
+<span style="font-family: Times, Times New Roman, serif;"><span style="line-height: 18px;"><br /></span></span></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='http://www.blogger.com/profile/10917956281021764290' itemprop='url'/>
+<a class='g-profile' href='http://www.blogger.com/profile/10917956281021764290' rel='author' title='author profile'>
+<span itemprop='name'>Hannah K.</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://geordieoffshore.blogspot.com/2014/06/hello-again.html' itemprop='url'/>
+<a class='timestamp-link' href='http://geordieoffshore.blogspot.de/2014/06/hello-again.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2014-06-23T08:51:00-07:00'>08:51</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://geordieoffshore.blogspot.de/2014/06/hello-again.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1537161460'>
+<a href='http://www.blogger.com/post-edit.g?blogID=159462268337003922&postID=850683437098792142&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=850683437098792142&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=850683437098792142&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=850683437098792142&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=850683437098792142&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=850683437098792142&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://geordieoffshore.blogspot.com/2014/06/hello-again.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Monday, 28 April 2014</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://24.media.tumblr.com/tumblr_m5czbaGH7f1rwcc6bo1_500.gif' itemprop='image_url'/>
+<meta content='159462268337003922' itemprop='blogId'/>
+<meta content='3125409242591167053' itemprop='postId'/>
+<a name='3125409242591167053'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://geordieoffshore.blogspot.de/2014/04/change.html'>change</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-3125409242591167053' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+If I had written this blog post a week ago, things would have been so very different. Last Monday (Easter Monday), I was incredibly stressed out by the German uni experience, and truly considering packing it and giving up, sacking my degree off and just going home. Some rather wonderful people gave me all the advice in the world, and after lots and lots of tears, I finally left my room, finding two of my flatmates in the kitchen, who ignored my tear-stained face and instead took me in and drank gin with me.<br />
+<br />
+A week later, life is completely different. I am becoming more and more comfortable and at home here every day, and it's largely down to my flat. Whilst generally quiet, I have a couple of really lovely friends that I live with, and seem to spend an increasing amount of time with. It frequently involves alcohol, which was wonderful at first for breaking down the barriers, but now it just makes things even funnier. Especially when Hannes, who is at 19 the youngest of us, decides he is most definitely not drunk (after telling you how much he LOVES to speak English at least 7 times), and finishes 6 beers and then helps kill a few bottles of wine too. Needless to say, he was a bit grim the next day.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://24.media.tumblr.com/tumblr_m5czbaGH7f1rwcc6bo1_500.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="175" src="https://24.media.tumblr.com/tumblr_m5czbaGH7f1rwcc6bo1_500.gif" width="320" /></a></div>
+<br />
+<br />
+Weekends here are pretty quiet, as, as is the norm here, many people go home for the weekend. Last weekend it felt like Christian &amp; I were the only flatmates here, so we spent a hell of a lot of it watching TV (some good, mostly bad).<br />
+<br />
+Uni is still pretty crap, but I attend to tick the box. Every day I look forward to getting out, going home to my flat and enjoying the evening conversation.<br />
+<br />
+It was Chris' 21st last week, and he decided to go to this club near my flat called Top 10. As his flat is the opposite side of town, I opted to stay in with Christian &amp; Hannes and watch the Madrid vs Bayern game as my predrinks. When I eventually got to Top 10 (free entry finishes at 11, got in at 10.59 #booyah), Chris was absolutely mortal already. However, it was genuinely one of the best night's out I have EVER had. There's a rotating dance floor, podiums, and best of all the fiesta room, which plays party classics like Barbie Girl and the Macarena ALL THE TIME. IT'S SO MUCH FUN. Plus it's super close to home so when I stumble home drunk, it's really not that far. Plus they give you a card when you go in to pay on, and like you pay it off as you leave. I bought two Desperado's that night - only paid for one, as one of them mustn't have scanned properly. WINNING.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://31.media.tumblr.com/feea8228de42e248b655a35f9fcea09f/tumblr_n2qwe6LK7r1r0pizwo1_500.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="179" src="https://31.media.tumblr.com/feea8228de42e248b655a35f9fcea09f/tumblr_n2qwe6LK7r1r0pizwo1_500.gif" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Anyway, Chris was crunk but sensible enough to take himself home just after midnight (ahahah). Ah well, you're only 21 once right pal?</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-szLUEZx1FZg/U17SdJF_YZI/AAAAAAAAAwI/dpYDfZYUhx8/s1600/CIMG7017.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-szLUEZx1FZg/U17SdJF_YZI/AAAAAAAAAwI/dpYDfZYUhx8/s1600/CIMG7017.JPG" height="320" width="240" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-XqX37Ft_px4/U17SdU2VnoI/AAAAAAAAAwA/BIpjQAb5TEk/s1600/CIMG7040.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-XqX37Ft_px4/U17SdU2VnoI/AAAAAAAAAwA/BIpjQAb5TEk/s1600/CIMG7040.JPG" height="320" width="240" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-rwoRBe_5DRM/U17SdZYWRZI/AAAAAAAAAwE/Xe6KFvqWuis/s1600/CIMG7043.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-rwoRBe_5DRM/U17SdZYWRZI/AAAAAAAAAwE/Xe6KFvqWuis/s1600/CIMG7043.JPG" height="320" width="240" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Anyway, I've come to this weird realisation that I kinda love Germany, and the German language, even if I am terrified to speak it. I find it so much more fun and interesting than French, and though I still avoid speaking it at all costs, I'm growing ever more fond of it. I shan't bore you any longer though, as it's pretty late and I need to be rested for the Bayern Madrid second leg tomorrow. And I guess I have homework to do tomorrow too, but priorities...</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Bis bald x</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<br /></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='http://www.blogger.com/profile/10917956281021764290' itemprop='url'/>
+<a class='g-profile' href='http://www.blogger.com/profile/10917956281021764290' rel='author' title='author profile'>
+<span itemprop='name'>Hannah K.</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://geordieoffshore.blogspot.com/2014/04/change.html' itemprop='url'/>
+<a class='timestamp-link' href='http://geordieoffshore.blogspot.de/2014/04/change.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2014-04-28T15:15:00-07:00'>15:15</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://geordieoffshore.blogspot.de/2014/04/change.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1537161460'>
+<a href='http://www.blogger.com/post-edit.g?blogID=159462268337003922&postID=3125409242591167053&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=3125409242591167053&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=3125409242591167053&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=3125409242591167053&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=3125409242591167053&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=3125409242591167053&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://geordieoffshore.blogspot.com/2014/04/change.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Tuesday, 8 April 2014</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://24.media.tumblr.com/f571206dafd74b3de5eddbb7778ed49c/tumblr_mymvkpPZZe1t1ama2o2_500.gif' itemprop='image_url'/>
+<meta content='159462268337003922' itemprop='blogId'/>
+<meta content='5131966451641848348' itemprop='postId'/>
+<a name='5131966451641848348'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://geordieoffshore.blogspot.de/2014/04/an-onslaught-of-gifs-because-im.html'>An Onslaught Of GIFs Because I'm Stressed And Want To Rant</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-5131966451641848348' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+I'm having an absolute stress out over university modules and therefore have decided to content myself with a bit of fruitless ranting on here.<br />
+<div>
+<br /></div>
+<div>
+I would like to extend my sincere congratulations to the University of Tubingen, for being absolutely hopeless at providing any worthwhile information, and for being generally the most unhelpful institution known to mankind.&nbsp;</div>
+<div>
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://24.media.tumblr.com/f571206dafd74b3de5eddbb7778ed49c/tumblr_mymvkpPZZe1t1ama2o2_500.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="245" src="https://24.media.tumblr.com/f571206dafd74b3de5eddbb7778ed49c/tumblr_mymvkpPZZe1t1ama2o2_500.gif" width="320" /></a></div>
+<div>
+<br /></div>
+<div>
+<br /></div>
+<div>
+I am sure that lack of organisation is something that all my friends have suffered from on their year abroad, so I'm perfectly confident that I am not alone and everyone else is nodding away furiously, perhaps even banging their fists on their desks and saying "right on sistah" (I'm 100% taking the piss now, just to clarify).</div>
+<div>
+<br /></div>
+<div>
+I'm seriously annoyed at the fact that I can't find anything relevant to help me pick my modules, which, just so you know, has to be done all in time for courses to start on Monday. Grand. In an effort to make myself feel better, I have been watching this gif for about ten minutes. It's helping, it's definitely helping.</div>
+<div>
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://media4.onsugar.com/files/2013/03/12/5/192/1922507/7807d5e19cb96253_original_1_.xxxlarge/i/Wibbly-Wobbly-Dance.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://media4.onsugar.com/files/2013/03/12/5/192/1922507/7807d5e19cb96253_original_1_.xxxlarge/i/Wibbly-Wobbly-Dance.gif" height="180" width="320" /></a></div>
+<div>
+<br /></div>
+<div>
+In a somewhat desperate attempt to make that picture relevant to this post, and not just as an excuse to watch Matt Smith do the Drunk Giraffe over and over (and over and over and over and over again), I will ramble on.</div>
+<div>
+<br /></div>
+<div>
+I had hoped my semester abroad would be something like that: stupid, silly, hilarious, drunk (and preferably involving Matt Smith... I digress). Instead I have found it to be the most badly organised thing. Ever. And drunk has gone out of the window because I'm trying not to drink. In Germany, land of beer, beer and more beer. And really cheap Bombay Sapphire. GOOD ONE HANNAH.</div>
+<div>
+<br /></div>
+<div>
+Anyway. So now I'm like this:</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://media2.giphy.com/media/kKPWz3TC2LBGo/200.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://media2.giphy.com/media/kKPWz3TC2LBGo/200.gif" height="183" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+(Can you tell I've FINALLY worked out how to put gifs in my blog?! WINNNNNNING)</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Anyway, so this has sort of worked and I'm feeling a lot calmer now, even though I'm still super angry that there is NO help. Tubingen continues to be exceptionally beautiful, even though it rained today, but I have taken up eating out far too much and we've already found our regular bar haunt. Which is an issue, because they also sell cake...</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+Anyway, it is the most hipster bar of all time, where everyone sits around smoking whilst sipping some rhubarb flavoured thing, playing on their MacBooks, probably googling something really cool and indie. They're so indie, they probably don't use Google because it's too mainstream.<br />
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Meanwhile, we play Cluedo, thanks to the enormous collection of German board games.&nbsp;</div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+Sadly, I do not know the name of this bar, because it has too many letters and, like most of the German language, is wholly unpronounceable.&nbsp;</div>
+<div>
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<object class="BLOGGER-youtube-video" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" data-thumbnail-src="https://ytimg.googleusercontent.com/vi/gG62zay3kck/0.jpg" height="266" width="320"><param name="movie" value="https://youtube.googleapis.com/v/gG62zay3kck&source=uds" /><param name="bgcolor" value="#FFFFFF" /><param name="allowFullScreen" value="true" /><embed width="320" height="266"  src="https://youtube.googleapis.com/v/gG62zay3kck&source=uds" type="application/x-shockwave-flash" allowfullscreen="true"></embed></object></div>
+<div>
+<br /></div>
+<div>
+<br /></div>
+<div>
+Aside from that, we don't do much else, apart from eat organic ice cream (don't ask me why it's organic) and wander around. Oh, and I'm trying to get Chris through as much Doctor Who as is physically possible. Which leaves me like this:</div>
+<div>
+<br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://28.media.tumblr.com/tumblr_m08oobV4r01qcwhkeo1_400.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://28.media.tumblr.com/tumblr_m08oobV4r01qcwhkeo1_400.gif" height="180" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">
+And Chris probably like this:&nbsp;</div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://24.media.tumblr.com/tumblr_m3jg9lftxf1r6aoq4o1_500.gif" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://24.media.tumblr.com/tumblr_m3jg9lftxf1r6aoq4o1_500.gif" height="226" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: left;">
+<br /></div>
+<div>
+RANT OVER. BYEEEEEE</div>
+<div>
+<br /></div>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='http://www.blogger.com/profile/10917956281021764290' itemprop='url'/>
+<a class='g-profile' href='http://www.blogger.com/profile/10917956281021764290' rel='author' title='author profile'>
+<span itemprop='name'>Hannah K.</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://geordieoffshore.blogspot.com/2014/04/an-onslaught-of-gifs-because-im.html' itemprop='url'/>
+<a class='timestamp-link' href='http://geordieoffshore.blogspot.de/2014/04/an-onslaught-of-gifs-because-im.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2014-04-08T14:28:00-07:00'>14:28</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://geordieoffshore.blogspot.de/2014/04/an-onslaught-of-gifs-because-im.html#comment-form' onclick=''>
+1 comment:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1537161460'>
+<a href='http://www.blogger.com/post-edit.g?blogID=159462268337003922&postID=5131966451641848348&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=5131966451641848348&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=5131966451641848348&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=5131966451641848348&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=5131966451641848348&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=5131966451641848348&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://geordieoffshore.blogspot.com/2014/04/an-onslaught-of-gifs-because-im.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+            </div></div>
+          
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>Wednesday, 2 April 2014</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://2.bp.blogspot.com/-v_Tw8qLRxh4/UzxVbmZS3lI/AAAAAAAAAq0/uzmghSbMn0c/s1600/DSC_0125.JPG' itemprop='image_url'/>
+<meta content='159462268337003922' itemprop='blogId'/>
+<meta content='2739050966253405618' itemprop='postId'/>
+<a name='2739050966253405618'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='http://geordieoffshore.blogspot.de/2014/04/okay-update.html'>OKAY UPDATE.</a>
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-2739050966253405618' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+Okay so it's been an absolute AGE since I even considered writing this. So I'm going to try and cover as much as is physically possible in the shortest blog post possible, but, as it's me, I'll probs talk crap for three or four hours. Bear with me.<br />
+<br />
+Okay, so firstly, Alice and I planned a very spontaneous trip to Toronto. Completing a life long (okay, six month long) dream to take the Greyhound, I was very quickly over it - longest bus journey EVER. However, we'd opted for a hostel in the hope of saving money - turns out we'd picked out THE most hipster hostel know to man, complete with iMacs in the lobby, and it actually ended up being more expensive than a hotel. Damn.<br />
+<br />
+Anyway, Toronto was fairly good. We walked so much my feet were SCREAMING out in pain, but we managed to visit a fair bit, did the aquarium, I did the CN tower (selfie central) and we made it to Niagara Falls, albeit via the WORST organised tour in history. The driver left people behind at stops on the way not once, but twice, and then lied to us about the trip we wanted to do, and then almost fell asleep on the journey home. It was ridiculous, but we got to the falls and they were pretty frozen which was REALLY cool (literally). We also got to the Hard Rock Cafe, so I had ribs (naturally) and forced myself to eat it all. I am the queen of ribs. Anyway, a ridic trip back to Quebec, in which we missed our bus and then had to buy new tickets, and we were back in QC.<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-v_Tw8qLRxh4/UzxVbmZS3lI/AAAAAAAAAq0/uzmghSbMn0c/s1600/DSC_0125.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-v_Tw8qLRxh4/UzxVbmZS3lI/AAAAAAAAAq0/uzmghSbMn0c/s1600/DSC_0125.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Alice at the aquarium.</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-UiCyx2uaamk/UzxVbZYbrfI/AAAAAAAAAqw/Of2M2WpwSao/s1600/DSC_0162.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-UiCyx2uaamk/UzxVbZYbrfI/AAAAAAAAAqw/Of2M2WpwSao/s1600/DSC_0162.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Ribs tho.</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-zXV7XuM-tUE/UzxVbLk9rpI/AAAAAAAAAqs/ylVxoFu_oBw/s1600/DSC_0195.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-zXV7XuM-tUE/UzxVbLk9rpI/AAAAAAAAAqs/ylVxoFu_oBw/s1600/DSC_0195.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Looking overly ginge at Niagara.</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-5-KY2awnDM8/UzxVfIOD2VI/AAAAAAAAArY/PReYK-w_fCs/s1600/DSC_0244.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-5-KY2awnDM8/UzxVfIOD2VI/AAAAAAAAArY/PReYK-w_fCs/s1600/DSC_0244.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>CN Tower's glass floor, aaargh.</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-S-HcRvK9-ts/UzxVddErAAI/AAAAAAAAArE/dz-ESMd5Foc/s1600/DSC_0267.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-S-HcRvK9-ts/UzxVddErAAI/AAAAAAAAArE/dz-ESMd5Foc/s1600/DSC_0267.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>CN Tower Selfie Central</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-hrcw9FCle6E/UzxVdp8kvzI/AAAAAAAAArI/67FVSEXsQh4/s1600/DSC_0327.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-hrcw9FCle6E/UzxVdp8kvzI/AAAAAAAAArI/67FVSEXsQh4/s1600/DSC_0327.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Toronto Raptors Game</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-M5G8pbhBVyI/UzxVfPUEvEI/AAAAAAAAArQ/C0TmEYjC1nE/s1600/DSC_0341.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-M5G8pbhBVyI/UzxVfPUEvEI/AAAAAAAAArQ/C0TmEYjC1nE/s1600/DSC_0341.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Air Canada Centre</i></div>
+<br />
+<br />
+The end of my time in Quebec came fairly quickly. I was sadder than I thought I'd be, if I'm honest. I did shed a few tears as I left my house for the final time, but we were off to NYC for the cruise, so I cheered up fairly quickly, even if they did spring the extra cost of baggage on me at the airport.<br />
+<br />
+The cruise was really good; we played quizzes that we were fairly good at it, and we played quizzes that we were absolutely terrible at (The Beatles). We watched some fairly bizarre things (Dancing With The Breakaway Stars being the weirdest - members of the crew dancing, for want of a better word, with the passengers, but saw Rock Of Ages, which was really good, and a pretty funny comedy show.<br />
+<br />
+Our first stop was Orlando, where we went to Universal's Islands of Adventure. It was really cool in general, the Harry Potter bit was absolutely unreal, obviously. We then played a game of Russian Roulette with Bertie Bott's Every Flavoured Beans... trust me, they really do mean every flavour. URGH. Dirt made my breath smell SO unbelievably bad, and then I was unfortunate enough to get a rotten egg one. I can't even explain how disgusting that was. I also bought another Hard Rock T-shirt, yessaaa.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/--i0WxH_9tQs/UzxZbGYwdEI/AAAAAAAAAvo/P2p70II1Gi8/s1600/CIMG6995.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/--i0WxH_9tQs/UzxZbGYwdEI/AAAAAAAAAvo/P2p70II1Gi8/s1600/CIMG6995.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-SSGCinr3kAo/UzxZQBpRr7I/AAAAAAAAAts/BYK1LPxMMOM/s1600/CIMG6996.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-SSGCinr3kAo/UzxZQBpRr7I/AAAAAAAAAts/BYK1LPxMMOM/s1600/CIMG6996.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-7gfU4V5bpuA/UzxZQKzSMuI/AAAAAAAAAto/Zv0kninOZkk/s1600/CIMG6997.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-7gfU4V5bpuA/UzxZQKzSMuI/AAAAAAAAAto/Zv0kninOZkk/s1600/CIMG6997.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-J-O7iNVHs34/UzxZRZ-1dsI/AAAAAAAAAt0/hL5BlIquTtI/s1600/CIMG6999.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-J-O7iNVHs34/UzxZRZ-1dsI/AAAAAAAAAt0/hL5BlIquTtI/s1600/CIMG6999.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-GokjkCoxmaw/UzxZRwN6kaI/AAAAAAAAAuA/F29540y6B1Q/s1600/CIMG7000.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-GokjkCoxmaw/UzxZRwN6kaI/AAAAAAAAAuA/F29540y6B1Q/s1600/CIMG7000.JPG" height="320" width="240" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-w4DJAhA_hOU/UzxZSTL5bHI/AAAAAAAAAuE/0CfgrFMLxwc/s1600/CIMG7002.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-w4DJAhA_hOU/UzxZSTL5bHI/AAAAAAAAAuE/0CfgrFMLxwc/s1600/CIMG7002.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-_ks1d8_vzHk/UzxZTUBOs1I/AAAAAAAAAuM/dHGFLQhRp7E/s1600/CIMG7003.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-_ks1d8_vzHk/UzxZTUBOs1I/AAAAAAAAAuM/dHGFLQhRp7E/s1600/CIMG7003.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-iKbKkCmrwD4/UzxZT6_TNOI/AAAAAAAAAuU/4DWXQSWMt44/s1600/CIMG7005.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-iKbKkCmrwD4/UzxZT6_TNOI/AAAAAAAAAuU/4DWXQSWMt44/s1600/CIMG7005.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-dCbt7hmEZhk/UzxZU-U762I/AAAAAAAAAuc/otOWCLKpf_o/s1600/CIMG7007.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-dCbt7hmEZhk/UzxZU-U762I/AAAAAAAAAuc/otOWCLKpf_o/s1600/CIMG7007.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-PH1XXw7Z3kU/UzxZVznhEhI/AAAAAAAAAuk/Ew_FmHmLlSQ/s1600/CIMG7008.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-PH1XXw7Z3kU/UzxZVznhEhI/AAAAAAAAAuk/Ew_FmHmLlSQ/s1600/CIMG7008.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-VzTq4Oi3ZoM/UzxZWS9G8vI/AAAAAAAAAus/AD-Z8iylrsA/s1600/CIMG7009.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-VzTq4Oi3ZoM/UzxZWS9G8vI/AAAAAAAAAus/AD-Z8iylrsA/s1600/CIMG7009.JPG" height="320" width="240" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-vrHUJWaICL8/UzxZW8olzXI/AAAAAAAAAu0/zkTC8pTMKIs/s1600/CIMG7010.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-vrHUJWaICL8/UzxZW8olzXI/AAAAAAAAAu0/zkTC8pTMKIs/s1600/CIMG7010.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-ScxuX_vCUss/UzxZXq6KmGI/AAAAAAAAAu8/mhWoNfHl1f0/s1600/CIMG7011.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-ScxuX_vCUss/UzxZXq6KmGI/AAAAAAAAAu8/mhWoNfHl1f0/s1600/CIMG7011.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-qvKiA5e18Eg/UzxZYXg60JI/AAAAAAAAAvM/LedF2892oMM/s1600/CIMG7013.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-qvKiA5e18Eg/UzxZYXg60JI/AAAAAAAAAvM/LedF2892oMM/s1600/CIMG7013.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-c4ZKV7Mbv5E/UzxZZDgR-QI/AAAAAAAAAvI/s_ldLQu447A/s1600/CIMG7014.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-c4ZKV7Mbv5E/UzxZZDgR-QI/AAAAAAAAAvI/s_ldLQu447A/s1600/CIMG7014.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-dMCoxi8UOVE/UzxZaAx_wTI/AAAAAAAAAvQ/ze9qWmTnYX4/s1600/CIMG7015.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-dMCoxi8UOVE/UzxZaAx_wTI/AAAAAAAAAvQ/ze9qWmTnYX4/s1600/CIMG7015.JPG" height="240" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-IF8K6yCv610/UzxZaQ7A7-I/AAAAAAAAAvY/hUwz7Xy81e8/s1600/CIMG7016.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-IF8K6yCv610/UzxZaQ7A7-I/AAAAAAAAAvY/hUwz7Xy81e8/s1600/CIMG7016.JPG" height="240" width="320" /></a></div>
+<br />
+<br />
+Our next stop was a private island in the Bahamas. It was SO beautiful. Bottling out of beach yoga, we spent the day laying about next to this incredible lagoon. I wish I could just sit there forever, it was so beautiful.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-3amWQna0gHQ/UzxV_OEnZTI/AAAAAAAAArk/KAEiV4FVpR4/s1600/DSC_0137.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-3amWQna0gHQ/UzxV_OEnZTI/AAAAAAAAArk/KAEiV4FVpR4/s1600/DSC_0137.JPG" height="212" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-yHNib8MdA6A/UzxV-0aYCWI/AAAAAAAAArs/H13egtssWkU/s1600/DSC_0139.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-yHNib8MdA6A/UzxV-0aYCWI/AAAAAAAAArs/H13egtssWkU/s1600/DSC_0139.JPG" height="212" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/--Y6tHaHGwCU/UzxV_IBlNSI/AAAAAAAAAro/PgrSdbhIYPo/s1600/DSC_0148.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/--Y6tHaHGwCU/UzxV_IBlNSI/AAAAAAAAAro/PgrSdbhIYPo/s1600/DSC_0148.JPG" height="212" width="320" /></a></div>
+<br />
+<br />
+Our final day off ship was in Nassau, Bahamas, where I bought YET another Hard Rock T-shirt. We did a segway tour through the town which was really cool, even though my feet ached by the end of it. Having loads of time left, we tried our luck at the tourist info centre to get a tour of the place. We were taken up on our offer by this tour guide called Dave, but, as he told us, we could call him Bubba. Best guy ever. He kept saying "yah man" and gave us this really cool tour of the island, letting us take pictures and taking us to visit the Atlantis hotel. He was so sweet.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-5tMPEKLUm-8/UzxWLcwMw4I/AAAAAAAAAsE/kLNpdkzZZVE/s1600/DSC_0154.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-5tMPEKLUm-8/UzxWLcwMw4I/AAAAAAAAAsE/kLNpdkzZZVE/s1600/DSC_0154.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Segway tour</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-nbEiPSvIRDI/UzxWLZPh9uI/AAAAAAAAAsA/Xpmsp-jQIfk/s1600/DSC_0177.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-nbEiPSvIRDI/UzxWLZPh9uI/AAAAAAAAAsA/Xpmsp-jQIfk/s1600/DSC_0177.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Inside the Atlantis Casino</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-x9yu-d5EaaQ/UzxWLQZRTdI/AAAAAAAAAr8/TXWz6zLNoug/s1600/DSC_0188.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-x9yu-d5EaaQ/UzxWLQZRTdI/AAAAAAAAAr8/TXWz6zLNoug/s1600/DSC_0188.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Someone buy me a boat like this</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-RtGhwswjPBo/UzxWPPsphtI/AAAAAAAAAsk/15ncH9UME94/s1600/DSC_0192.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-RtGhwswjPBo/UzxWPPsphtI/AAAAAAAAAsk/15ncH9UME94/s1600/DSC_0192.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Atlantis</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-pcd5Ep-HYG0/UzxWNK-RrXI/AAAAAAAAAsU/zzMkwDZ0D6A/s1600/DSC_0196.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-pcd5Ep-HYG0/UzxWNK-RrXI/AAAAAAAAAsU/zzMkwDZ0D6A/s1600/DSC_0196.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Paradise Island &lt;3&nbsp;</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-CNYKZKv_wLw/UzxWNjxHtDI/AAAAAAAAAsY/sXUEsAypDBM/s1600/DSC_0206.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-CNYKZKv_wLw/UzxWNjxHtDI/AAAAAAAAAsY/sXUEsAypDBM/s1600/DSC_0206.JPG" height="212" width="320" /></a></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-2ixmfp4_sV4/UzxWPEJkbFI/AAAAAAAAAso/OQtluEVGXB4/s1600/DSC_0208.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-2ixmfp4_sV4/UzxWPEJkbFI/AAAAAAAAAso/OQtluEVGXB4/s1600/DSC_0208.JPG" height="212" width="320" /></a></div>
+<br />
+<br />
+So yeah, the cruise was pretty awesome. We even played bingo. HAHAHA. There was a particularly rough night though, and I'm talking a 40 foot wave kind of night. No sleep was had by ANYONE on that ship, I swear. Alice &amp; I found it hilarious - clearly we were delirious with exhaustion, because in reality it should have been absolutely terrifying. It was really like something off Paranormal Activity - everything in the room started flying around, falling off shelves, tables... you name it, it was on the floor by the end of the night. The bathroom light even broke, and the door wouldn't stop swinging open. Alice, in an attempt to determine just what was on the floor, stood on the little desk sign and broke it, which is apparently hilarious at 3am. The captain had to make an announcement at 5am to reassure us all that we were in fact not going to die. If it wasn't all so ridiculous and if we weren't so tired, we'd probably have been kitted out in our life jackets all night. We probably should have been to be fair. Despite the waves though, we both managed to avoid sea sickness... until I stood up to get up in the morning and spent the next few hours curled up in the bathroom. urgh. Alice definitely won on the seasick scale, she's a trooper!<br />
+<br />
+After the cruise, and a fairly calm goodbye to the bestest bud and travelling accomplice that I could have asked for, I headed home for three weeks, which was SO good.<br />
+<br />
+AND HERE WE ARE.<br />
+I'm now in Tuebingen, Germany, where I'm studying for a semester. I've got friends from uni (holla Chris, Adam &amp; Rosie) so it's been a (fairly) easy transition, though the language is kicking my backside at the moment. I am always accidentally rude because I'm so relieved to have understood what someone said, and so desperate for them not to continue talking, that I generally reply with "ja" or "nein". In all honesty, it's usually "nein," and hope and pray that they shut up. Hopefully that will get better with time.<br />
+<br />
+Anyway, I'm hoping uni will be better than working, but altogether I'm looking forward to July and being able to get settled at home again. However, Tuebingen, or Tubs as I affectionately (sort of) call it, is absolutely gorgeous. Small, yes, but it's so cute and really nice to just walk around, and all the people I have met so far have been really nice and accommodating. And it's really cheap (yay). However, I haven't found any sushi shops yet... boo. Everything is like weirdly organic though... like even ice cream... weird.<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://4.bp.blogspot.com/-ue7fPh1fAg0/UzxWlxI_vVI/AAAAAAAAAs8/TQwqtJsj1IU/s1600/DSC_0112.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-ue7fPh1fAg0/UzxWlxI_vVI/AAAAAAAAAs8/TQwqtJsj1IU/s1600/DSC_0112.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Chris looking reem</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-_JG1tODwvwo/UzxWlttt6rI/AAAAAAAAAs0/9Ss01vbrLBU/s1600/DSC_0136.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://2.bp.blogspot.com/-_JG1tODwvwo/UzxWlttt6rI/AAAAAAAAAs0/9Ss01vbrLBU/s1600/DSC_0136.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>I thought this was quite clever, for pigeons.</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-uxYs57sMI8A/UzxWl3jzT5I/AAAAAAAAAs4/F0f0I22rp6c/s1600/DSC_0164.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-uxYs57sMI8A/UzxWl3jzT5I/AAAAAAAAAs4/F0f0I22rp6c/s1600/DSC_0164.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>SO sweet.</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://3.bp.blogspot.com/-U3JlL6I3Bi0/UzxWnTrg0WI/AAAAAAAAAtI/aOdha0wtpgE/s1600/DSC_0169.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-U3JlL6I3Bi0/UzxWnTrg0WI/AAAAAAAAAtI/aOdha0wtpgE/s1600/DSC_0169.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>beaut</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-SuvwI15dveo/UzxWnjVekVI/AAAAAAAAAtQ/E_3blHohrK4/s1600/DSC_0173.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-SuvwI15dveo/UzxWnjVekVI/AAAAAAAAAtQ/E_3blHohrK4/s1600/DSC_0173.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>puntinnnnng</i></div>
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://1.bp.blogspot.com/-bcdQkADZAaY/UzxWn-B8l1I/AAAAAAAAAtM/C-l7lt7uveQ/s1600/DSC_0180.JPG" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://1.bp.blogspot.com/-bcdQkADZAaY/UzxWn-B8l1I/AAAAAAAAAtM/C-l7lt7uveQ/s1600/DSC_0180.JPG" height="212" width="320" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<i>Really cool house used as a youth club</i></div>
+<br />
+<br />
+Anyway, I would like to keep it as brief as is possible today. I wish to bore you no more than is necessary. Ciao belllllllaaaaas x<br />
+<br />
+<br /></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'><span class='post-author vcard'>
+Posted by
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='http://www.blogger.com/profile/10917956281021764290' itemprop='url'/>
+<a class='g-profile' href='http://www.blogger.com/profile/10917956281021764290' rel='author' title='author profile'>
+<span itemprop='name'>Hannah K.</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+at
+<meta content='http://geordieoffshore.blogspot.com/2014/04/okay-update.html' itemprop='url'/>
+<a class='timestamp-link' href='http://geordieoffshore.blogspot.de/2014/04/okay-update.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2014-04-02T11:40:00-07:00'>11:40</abbr></a>
+</span>
+<span class='post-comment-link'>
+<a class='comment-link' href='http://geordieoffshore.blogspot.de/2014/04/okay-update.html#comment-form' onclick=''>
+No comments:
+    </a>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-1537161460'>
+<a href='http://www.blogger.com/post-edit.g?blogID=159462268337003922&postID=2739050966253405618&from=pencil' title='Edit Post'>
+<img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=2739050966253405618&target=email' target='_blank' title='Email This'><span class='share-button-link-text'>Email This</span></a><a class='goog-inline-block share-button sb-blog' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=2739050966253405618&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='BlogThis!'><span class='share-button-link-text'>BlogThis!</span></a><a class='goog-inline-block share-button sb-twitter' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=2739050966253405618&target=twitter' target='_blank' title='Share to Twitter'><span class='share-button-link-text'>Share to Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=2739050966253405618&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Share to Facebook'><span class='share-button-link-text'>Share to Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='http://www.blogger.com/share-post.g?blogID=159462268337003922&postID=2739050966253405618&target=pinterest' target='_blank' title='Share to Pinterest'><span class='share-button-link-text'>Share to Pinterest</span></a><div class='goog-inline-block dummy-container'><g:plusone source='blogger:blog:plusone' href='http://geordieoffshore.blogspot.com/2014/04/okay-update.html' size='medium' width='300' annotation='inline'/></div>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'><span class='post-labels'>
+Labels:
+<a href='http://geordieoffshore.blogspot.de/search/label/bahamas' rel='tag'>bahamas</a>,
+<a href='http://geordieoffshore.blogspot.de/search/label/canada' rel='tag'>canada</a>,
+<a href='http://geordieoffshore.blogspot.de/search/label/florida' rel='tag'>florida</a>,
+<a href='http://geordieoffshore.blogspot.de/search/label/germany' rel='tag'>germany</a>,
+<a href='http://geordieoffshore.blogspot.de/search/label/languages' rel='tag'>languages</a>,
+<a href='http://geordieoffshore.blogspot.de/search/label/NYC' rel='tag'>NYC</a>,
+<a href='http://geordieoffshore.blogspot.de/search/label/quebec' rel='tag'>quebec</a>,
+<a href='http://geordieoffshore.blogspot.de/search/label/third%20year%20abroad' rel='tag'>third year abroad</a>,
+<a href='http://geordieoffshore.blogspot.de/search/label/Year%20abroad' rel='tag'>Year abroad</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'><span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+
+        </div></div>
+      
+<!-- google_ad_section_end -->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://geordieoffshore.blogspot.de/search?updated-max=2014-04-02T11:40:00-07:00&amp;max-results=7' id='Blog1_blog-pager-older-link' title='Older Posts'>Older Posts</a>
+</span>
+<a class='home-link' href='http://geordieoffshore.blogspot.de/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://geordieoffshore.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en_GB'};</script>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget Profile' id='Profile1'>
+<h2>an attempt at an explanation</h2>
+<div class='widget-content'>
+<a href='http://www.blogger.com/profile/10917956281021764290'><img alt='My Photo' class='profile-img' height='80' src='http://4.bp.blogspot.com/-qSkrZGXtsGw/Ut9LEUfVo2I/AAAAAAAAAjE/u9X6uGzgS8E/s1600/*' width='55'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='http://www.blogger.com/profile/10917956281021764290' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
+Hannah K.
+</a>
+</dt>
+<dd class='profile-textblock'>Geordie born and bred, currently wandering about the planet on my Year Abroad.</dd>
+</dl>
+<a class='profile-link' href='http://www.blogger.com/profile/10917956281021764290' rel='author'>View my complete profile</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=159462268337003922&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='sidebar section' id='sidebar-right-2-1'><div class='widget BlogArchive' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://geordieoffshore.blogspot.de/search?updated-min=2014-01-01T00:00:00-08:00&amp;updated-max=2015-01-01T00:00:00-08:00&amp;max-results=8'>2014</a>
+<span class='post-count' dir='ltr'>(8)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>&#9660;&#160;</span>
+</a>
+<a class='post-count-link' href='http://geordieoffshore.blogspot.de/2014_06_01_archive.html'>June</a>
+<span class='post-count' dir='ltr'>(1)</span>
+<ul class='posts'>
+<li><a href='http://geordieoffshore.blogspot.de/2014/06/hello-again.html'>hello again.</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://geordieoffshore.blogspot.de/2014_04_01_archive.html'>April</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://geordieoffshore.blogspot.de/2014_02_01_archive.html'>February</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://geordieoffshore.blogspot.de/2014_01_01_archive.html'>January</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://geordieoffshore.blogspot.de/search?updated-min=2013-01-01T00:00:00-08:00&amp;updated-max=2014-01-01T00:00:00-08:00&amp;max-results=24'>2013</a>
+<span class='post-count' dir='ltr'>(24)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://geordieoffshore.blogspot.de/2013_12_01_archive.html'>December</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://geordieoffshore.blogspot.de/2013_11_01_archive.html'>November</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://geordieoffshore.blogspot.de/2013_10_01_archive.html'>October</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+          &#9658;&#160;
+        
+</span>
+</a>
+<a class='post-count-link' href='http://geordieoffshore.blogspot.de/2013_09_01_archive.html'>September</a>
+<span class='post-count' dir='ltr'>(12)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=159462268337003922&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-2-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</td>
+<td class='columns-cell'>
+<div class='sidebar section' id='sidebar-right-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class='sidebar section' id='sidebar-right-3'></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3'><div class='widget Attribution' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Simple template. Powered by <a href='http://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=159462268337003922&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='http://img1.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script type="text/javascript">
+if (window.jstiming) window.jstiming.load.tick('widgetJsBefore');
+</script><script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2271878333-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+if (typeof(BLOG_attachCsiOnload) != 'undefined' && BLOG_attachCsiOnload != null) { window['blogger_templates_experiment_id'] = "templatesV2";window['blogger_blog_id'] = '159462268337003922';BLOG_attachCsiOnload(''); }_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d159462268337003922','//geordieoffshore.blogspot.de/','159462268337003922');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '159462268337003922', 'bloggerUrl': 'http://www.blogger.com', 'title': 'geordieOFFSHORE', 'pageType': 'index', 'url': 'http://geordieoffshore.blogspot.de/', 'canonicalUrl': 'http://geordieoffshore.blogspot.com/', 'canonicalHomepageUrl': 'http://geordieoffshore.blogspot.com/', 'homepageUrl': 'http://geordieoffshore.blogspot.de/', 'blogspotFaviconUrl': 'http://geordieoffshore.blogspot.de/favicon.ico', 'enabledCommentProfileImages': true, 'adultContent': false, 'disableAdSenseWidget': false, 'analyticsAccountNumber': '', 'searchLabel': '', 'searchQuery': '', 'pageName': '', 'pageTitle': 'geordieOFFSHORE', 'encoding': 'UTF-8', 'locale': 'en_GB', 'localeUnderscoreDelimited': 'en_gb', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\74link rel\75\42alternate\42 type\75\42application/atom+xml\42 title\75\42geordieOFFSHORE - Atom\42 href\75\42http://geordieoffshore.blogspot.com/feeds/posts/default\42 /\76\n\74link rel\75\42alternate\42 type\75\42application/rss+xml\42 title\75\42geordieOFFSHORE - RSS\42 href\75\42http://geordieoffshore.blogspot.com/feeds/posts/default?alt\75rss\42 /\76\n\74link rel\75\42service.post\42 type\75\42application/atom+xml\42 title\75\42geordieOFFSHORE - Atom\42 href\75\42http://www.blogger.com/feeds/159462268337003922/posts/default\42 /\76\n', 'meTag': '\74link rel\75\42me\42 href\75\42http://www.blogger.com/profile/10917956281021764290\42 /\76\n', 'openIdOpTag': '\74link rel\75\42openid.server\42 href\75\42http://www.blogger.com/openid-server.g\42 /\76\n\74link rel\75\42openid.delegate\42 href\75\42http://geordieoffshore.blogspot.com/\42 /\76\n', 'latencyHeadScript': '\74script type\75\42text/javascript\42\76(function() { var b\75window,f\75\42chrome\42,g\75\42tick\42,k\75\42jstiming\42;(function(){function d(a){this.t\75{};this.tick\75function(a,d,c){var e\75void 0!\75c?c:(new Date).getTime();this.t[a]\75[e,d];if(void 0\75\75c)try{b.console.timeStamp(\42CSI/\42+a)}catch(h){}};this[g](\42start\42,null,a)}var a;b.performance\46\46(a\75b.performance.timing);var n\75a?new d(a.responseStart):new d;b.jstiming\75{Timer:d,load:n};if(a){var c\75a.navigationStart,h\75a.responseStart;0\74c\46\46h\76\75c\46\46(b[k].srt\75h-c)}if(a){var e\75b[k].load;0\74c\46\46h\76\75c\46\46(e[g](\42_wtsrt\42,void 0,c),e[g](\42wtsrt_\42,\42_wtsrt\42,h),e[g](\42tbsd_\42,\42wtsrt_\42))}try{a\75null,\nb[f]\46\46b[f].csi\46\46(a\75Math.floor(b[f].csi().pageT),e\46\0460\74c\46\46(e[g](\42_tbnd\42,void 0,b[f].csi().startE),e[g](\42tbnd_\42,\42_tbnd\42,c))),null\75\75a\46\46b.gtbExternal\46\46(a\75b.gtbExternal.pageT()),null\75\75a\46\46b.external\46\46(a\75b.external.pageT,e\46\0460\74c\46\46(e[g](\42_tbnd\42,void 0,b.external.startE),e[g](\42tbnd_\42,\42_tbnd\42,c))),a\46\46(b[k].pt\75a)}catch(p){}})();b.tickAboveFold\75function(d){var a\0750;if(d.offsetParent){do a+\75d.offsetTop;while(d\75d.offsetParent)}d\75a;750\76\75d\46\46b[k].load[g](\42aft\42)};var l\75!1;function m(){l||(l\75!0,b[k].load[g](\42firstScrollTime\42))}b.addEventListener?b.addEventListener(\42scroll\42,m,!1):b.attachEvent(\42onscroll\42,m);\n })();\74/script\076', 'mobileHeadScript': '', 'ieCssRetrofitLinks': '\74!--[if IE]\76\74script type\75\42text/javascript\42 src\75\42https://www.blogger.com/static/v1/jsbin/3204238090-ieretrofit.js\42\76\74/script\76\n\74![endif]--\076', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/76f25a6f2e06af76', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sf': 'n'}}, {'name': 'skin', 'data': {'vars': {'content_padding': '10px', 'paging_background': 'transparent none no-repeat scroll top center', 'image_border_small_size': '2px', 'body_background_gradient_cap': 'none', 'tabs_selected_background_color': '#eeeeee', 'body_rule_color': '#eeeeee', 'header_shadow_spread': '1px', 'header_shadow_offset_left': '-1px', 'header_padding': '30px', 'link_visited_color': '#888888', 'mobile_background_size': 'auto', 'post_title_font': 'normal normal 22px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'tabs_text_color': '#999999', 'date_header_margin': 'inherit', 'header_background_gradient': 'none', 'header_bottom_border_size': '1px', 'content_shadow_spread_webkit': '5px', 'header_shadow_offset_top': '-1px', 'mobile_button_color': '#ffffff', 'widget_title_font': 'normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'main_section_margin': '15px', 'keycolor': '#66ddc3', 'content_shadow_spread': '40px', 'image_background_color': '#ffffff', 'header_font': 'normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'header_background_color': 'transparent', 'main_border_width': '0', 'main_padding': '15px', 'tabs_border_color': '#eeeeee', 'image_text_color': '#222222', 'description_text_size': '140%', 'post_footer_background_color': '#f9f9f9', 'body_background_gradient_tile': 'none', 'page_width': 'auto', 'tabs_background_gradient': 'url(//www.blogblog.com/1kt/simple/gradients_light.png)', 'mobile_background_overlay': 'transparent none repeat scroll top left', 'main_padding_bottom': '30px', 'tabs_background_color': '#f5f5f5', 'image_border_large_size': '5px', 'post_margin_bottom': '25px', 'body_background_override': '', 'tabs_margin_side': '30px', 'link_hover_color': '#32ffed', 'description_text_color': '#777777', 'body_text_color': '#222222', 'content_padding_horizontal': '10px', 'endSide': 'right', 'page_width_selector': '.region-inner', 'date_header_padding': 'inherit', 'post_footer_text_color': '#666666', 'startSide': 'left', 'date_header_color': '#222222', 'tabs_font': 'normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'post_footer_border_color': '#eeeeee', 'body_font': 'normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif', 'footer_bevel': '0', 'tabs_bevel_border_width': '1px', 'date_header_background_color': 'transparent', 'content_shadow_spread_ie': '10px', 'widget_title_text_color': '#000000', 'header_border_horizontalsize': '0', 'image_border_color': '#eeeeee', 'tabs_border_width': '1px', 'content_background_color': '#ffffff', 'link_color': '#21bba0', 'header_text_color': '#32bb98', 'date_header_letterspacing': 'inherit', 'tabs_margin_top': '0', 'main_padding_top': '30px', 'header_border_size': '1px', 'tabs_selected_text_color': '#000000', 'content_background_color_selector': '.content-inner', 'body_background_color': '#777777', 'widget_alternate_text_color': '#999999'}, 'override': ''}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\75classic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\75flipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\75magazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\75mosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\75sidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\75snapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\75timeslide'}}}]);
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'crosscol', null, document.getElementById('PageList1'), {'title': 'Pages', 'links': [{'href': 'http://geordieoffshore.blogspot.de/', 'title': 'home.', 'isCurrentPage': true}, {'href': 'http://geordieoffshore.blogspot.de/p/about.html', 'title': 'who.', 'isCurrentPage': false, 'id': '2856892758944013755'}, {'href': 'http://geordieoffshore.blogspot.de/p/photos.html', 'title': 'photos.', 'isCurrentPage': false, 'id': '4538812370058359873'}, {'href': 'http://geordieoffshore.blogspot.de/p/written.html', 'title': 'written.', 'isCurrentPage': false, 'id': '4391513070951047793'}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text1', 'crosscol', null, document.getElementById('Text1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', null, document.getElementById('Attribution1'), {'attribution': 'Simple template. Powered by \74a href\75\47http://www.blogger.com\47 target\75\47_blank\47\76Blogger\74/a\76.'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/571645274-lbx__en_gb.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/2392111094-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar-right-1', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-2-1', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', null, document.getElementById('Navbar1'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>

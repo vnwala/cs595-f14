@@ -1,0 +1,1061 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"
+ xml:lang="en">
+    <head>
+        <title>Free Music | Listen to Music Online | worryknot - Blip.fm</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="description" content="Listen to free music played by worryknot.  Search for free music to stream.  Create your own free internet radio station." /><meta name="keywords" content="worryknot, profile, blip, listener, music fan, dj, free music, playlist, tracks, microblog, blips, listen, mp3" /><link rel="alternate" type="application/rss+xml" title="worryknot's Feed" href="/feed/worryknot" />
+        <!-- Begin Facebook open graph tags -->
+        <meta property="og:title" content="Blip.fm - Listen to free music" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="http://cdn.blipstatic.com/images/blip/blipIcon.png" />
+        <meta property="og:url" content="http://blip.fm" />
+        <meta property="og:site_name" content="Blip.fm" />
+        <meta property="fb:app_id" content="70e7a387936f6b8f6f40d95735c24864" />
+        <!-- End Facebook open graph tags  -->
+
+        <link rel="stylesheet" type="text/css" href="http://cdn.blipstatic.com/css/base.19.css" />
+                    <link rel="stylesheet" type="text/css" href="http://cdn.blipstatic.com/css/profile.19.css" />
+                        
+        <!--[if lte IE 6]>
+            <style type="text/css" media="all">@import "http://cdn.blipstatic.com/css/ie6.19.css";</style>
+        <![endif]-->
+
+        <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1449388-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+            </head>
+    <body>
+        <div id="frame">
+            <div id="page">
+                <div id="notices">
+                    <div id="notice">
+                        <div class="hd"><div class="icon"></div></div>
+                        <div class="bd"></div>
+                        <div class="ft">&#160;</div>
+                    </div>
+                </div>
+
+                
+                <div id="header">
+                    <div id="ueber" class="clearfix">
+                        <div id="logo">
+                            <a href="/" title="Free Music - Listen to Music Online - Blip.fm"><img src="http://cdn.blipstatic.com/images/blip/blipfm_lg.png" alt="Blip.fm" width="190" height="75" /></a>
+                            <h1 id="freeMusicHeader">Free Music</h1>                        </div>
+                        <h2 id="musicOnlineHeader">Listen to Music Online - Free Streaming Radio</h2>                        <div id="slot728x90">
+                                                    </div>
+                    </div>
+                    <!--  <div id="slot970x66"></div>  -->
+                </div>
+
+                <div id="menu" class="clearfix">
+                    <div class="primary">
+                        <ul>
+                                                            <li class="all" title="Free Music from all Blip.fm DJs"><a href="/all">all djs</a></li>
+                                <li class="favorite" onclick="confirmSignup('/welcome/findFriends')"></li>
+                                <li class="me" onclick="confirmSignup('/welcome/findFriends')"></li>
+                                <li class="endcap"></li>
+                                                    </ul>
+                    </div>
+                    <div class="secondary clearfix">
+                        <div id="sitelinks">
+                            <a href="/search/byTaste">find djs</a>
+                            &bull;
+                            <a href="/invite/findFriends">invite friends</a>
+                            &nbsp;&nbsp;&nbsp;
+                                                        <a id="blogLink" href="http://blog.blip.fm">blog</a>
+                            &bull;
+                            <a href="http://sessions.blip.fm">sessions</a>
+                        </div>
+                        <!-- <div id="activity"><img id="spinner" src="http://cdn.blipstatic.com/images/blip/spinner.gif" alt="loading..." width="16" height="16" /></div> -->
+                        <div id="identity">
+                            <span><a href="/login"><img src="http://cdn.blipstatic.com/images/buttons/header/login.png" alt="log in" width="51" height="19" align="absmiddle" /></a> </span>                        </div> 
+                            
+                    </div>
+                    <div id="menuendcap">&nbsp;</div>
+                </div>
+
+                
+
+                <div id="content">
+                    <div class="col0">
+    <div id="upsell" class="clearfix">
+        <!--
+        <div id="join">
+           <form method="POST" id="signupForm" action="/signup/save">
+                <input type="hidden" name="genpass" value="1" />
+                <input type="hidden" name="tos" id="tos" value="1" />
+                <input type="hidden" name="statReferer" value="profile" />
+                <div class="clearfix">
+                    <label for="username">Your DJ name</label>
+                    <input type="text" id="username" maxlength="30" name="signup[urlName]" value="" size="37" />
+                    <div class="note">NOTE: your internet radio station URL will be blip.fm/yourDJname</div>
+                </div>
+                <div class="clearfix">
+                    <label for="email">Your email address</label>
+                    <input type="text" id="email" maxlength="255" name="signup[emailAddress]" value="" size="37" />
+                    <div class="note">NOTE: we will never share your email address with solicitors</div>
+                </div>
+                <div>
+                    <span>By clicking CREATE, you agree to the <a href="/corp/terms" target="_blank">terms of use</a> and <a href="/corp/privacy" target="_blank">privacy policy</a></span>
+                    <button class="create" type="submit"><span class="hideme">Create</span></button>
+                </div>
+            </form>
+        </div>
+        -->
+        <span id="musicNote">♫</span>
+        <h2>Listen to free music played by worryknot</h2>
+        <a href="/signup?follow=300001" style="float: right; margin: 8px 0px 0px 10px;"><img src="http://cdn.blipstatic.com/images/buttons/juicy-signup-small.png" alt="Sign Up for Blip.fm" /></a>
+        <h3>
+        Blip.fm is internet radio made social.  It's easy to <strong>search for, play, and discover free music</strong> recommended by real people.  <a href="/signup?follow=300001">Join today</a> to create your own free station and start listening to @worryknot.
+        </h3>
+    </div>
+</div>
+<div class="col1">
+    
+<div class="block author clearfix">
+    <div class="icon">
+                <img id="worryknotProfilePic" class="profilePic clickable" src="http://pics02.bliptastic.com/300-300001-1355545555-l.jpg" width="100" height="100" onclick="toggleClass(this, 'blowItUp')" />
+                            <div class="badge"><img class="clickable" onclick="toggleClass('worryknotProfilePic', 'blowItUp')" src="http://cdn.blipstatic.com/images/badges/1000-lg.png" width="75" height="78" title="2484 listeners" alt="over 1000 listeners" /></div>
+            </div>
+        <div class="userlinks clearfix">
+        <ul>
+                        <li>
+                <span class="label"><a href="/worryknot" rel="nofollow">Station</a></span> &bull;
+            </li>
+            <li>
+                <span class="label"><a href="/profile/worryknot/playlist">Playlist</a></span> &bull;
+            </li>
+            <li>
+                <span class="label"><a href="/profile/worryknot/favoritePeople">Favorite DJs</a></span> &bull;
+            </li>
+            <li>
+                <span class="label"><a href="/profile/worryknot/listeners">Listeners</a></span> &bull;
+            </li>
+            <li>
+                <span class="label"><a href="/profile/worryknot/replies">Replies</a></span> &bull;
+            </li>
+            <li class="end">
+                <span class="label"><a href="/profile/worryknot/props">Props</a></span>
+            </li>
+        </ul>
+    </div>
+            <div id="topstatsContainer">
+        <div class="props topstat">
+            <div class="count">
+                <span>15,304</span>
+            </div>
+            <div class="label">blips</div>
+        </div>
+        <div id="props" class="props topstat">
+            <div class="count">
+                <span id="propsCountworryknot" class="propsCount">12,633</span>
+            </div>
+            <div class="label">props</div>
+        </div>
+        <div class="topstat">
+            <div class="count">
+                2,484            </div>
+            <div class="label">listeners</div>
+        </div>
+    </div>
+     
+    <h2 id="usernameHeader" class="username"><a href="/worryknot" id="usernameLink" rel="nofollow">worryknot</a></h2>
+    <div class="userinfo">
+        <span class="flag">
+                    <img alt="United States" src="http://cdn.blipstatic.com/images/flags/us.png" />
+            United States.
+                    DJ since Apr 26, 2009        </span><br />
+            </div>
+       
+</div>    <div class="pagingcontainer clearfix">
+        
+    <div id="pageInfo">
+        <div id="pingStatus" style="display:none"><a id="pingPlayPause" class="pause clickable" title="Pause auto-update">&#160;</a></div>
+        <span id="pageCount">Page 1</span>
+        <a id="newBlipsLink" class="clickable" rel="nofollow">&#160;</a>
+    </div>
+    <div class="paging">
+        <a id="nextPageLinkTop" class="clickable" onclick="return false;">&#160;</a>
+        <a href="?page=2" id="prevPageLinkTop" class="clickable" onclick="return false;" rel="nofollow">&#160;</a>
+    </div>
+</div>
+
+<div class="blipsWrapper">
+        
+    <div id="blipsContainer">
+    <div class="bliplist noicons" id="blips">
+    <div class="blippage" id="page1">
+    <div id="tweem87997456" class="tweem  first">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem87997456owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem87997456message"></span>
+                            </div>
+            <div id="tweem87997456song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('The Shins - It\'s Only Life (Official Music Video)')" title="search for The Shins - It\'s Only Life (Official Music Video)" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem87997456headline"><h3 class="blipTitle"><a href="/listen/The+Shins" title="Listen to The Shins">The Shins</a> &ndash; <a href="/listen/The+Shins::It's+Only+Life+(Official+Music+Video)" title="Listen to The Shins - It&#039;s Only Life (Official Music Video)">It&#039;s Only Life (Official Music Video)</a></h3></span>
+                | <span id="playpause87997456" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1ge39s" rel="nofollow">Apr 22, 2014 at 11:18 am</a> via <a href="http://www.youtube.com/watch?v=fweNLKBCh5A&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon87997456" class="buy" href="/buy?affl=amazon&blipId=87997456" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes87997456" class="buy" href="/buy?affl=itunes&blipId=87997456" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem87997456actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1ge39s', 'The Shins - It\'s Only Life (Official Music Video)')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem87997456actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(87997456)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem87997445" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem87997445owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem87997445message"></span>
+                            </div>
+            <div id="tweem87997445song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('If You Want Me - Marketa Irglova + Glen Hansard (Once)')" title="search for If You Want Me - Marketa Irglova + Glen Hansard (Once)" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem87997445headline"><h3 class="blipTitle"><a href="/listen/If+You+Want+Me" title="Listen to If You Want Me">If You Want Me</a> &ndash; <a href="/listen/If+You+Want+Me::Marketa+Irglova+++Glen+Hansard+(Once)" title="Listen to If You Want Me - Marketa Irglova + Glen Hansard (Once)">Marketa Irglova + Glen Hansard (Once)</a></h3></span>
+                | <span id="playpause87997445" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1ge39h" rel="nofollow">Apr 22, 2014 at 11:16 am</a> via <a href="http://www.youtube.com/watch?v=elC-bXqLx-Y&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon87997445" class="buy" href="/buy?affl=amazon&blipId=87997445" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes87997445" class="buy" href="/buy?affl=itunes&blipId=87997445" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem87997445actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1ge39h', 'If You Want Me - Marketa Irglova + Glen Hansard (Once)')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem87997445actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(87997445)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem87997428" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem87997428owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem87997428message"></span>
+                            </div>
+            <div id="tweem87997428song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Dido - Life for rent with Lyrics')" title="search for Dido - Life for rent with Lyrics" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem87997428headline"><h3 class="blipTitle"><a href="/listen/Dido" title="Listen to Dido">Dido</a> &ndash; <a href="/listen/Dido::Life+for+rent+with+Lyrics" title="Listen to Dido - Life for rent with Lyrics">Life for rent with Lyrics</a></h3></span>
+                | <span id="playpause87997428" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1ge390" rel="nofollow">Apr 22, 2014 at 11:13 am</a> via <a href="http://www.youtube.com/watch?v=eil9Dw2flcE&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon87997428" class="buy" href="/buy?affl=amazon&blipId=87997428" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes87997428" class="buy" href="/buy?affl=itunes&blipId=87997428" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem87997428actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1ge390', 'Dido - Life for rent with Lyrics')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem87997428actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(87997428)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem87997420" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem87997420owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem87997420message"></span>
+                            </div>
+            <div id="tweem87997420song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Tom Odell - Another Love (Short Film)')" title="search for Tom Odell - Another Love (Short Film)" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem87997420headline"><h3 class="blipTitle"><a href="/listen/Tom+Odell" title="Listen to Tom Odell">Tom Odell</a> &ndash; <a href="/listen/Tom+Odell::Another+Love+(Short+Film)" title="Listen to Tom Odell - Another Love (Short Film)">Another Love (Short Film)</a></h3></span>
+                | <span id="playpause87997420" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1ge38s" rel="nofollow">Apr 22, 2014 at 11:12 am</a> via <a href="http://www.youtube.com/watch?v=e-aaencD-dY&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon87997420" class="buy" href="/buy?affl=amazon&blipId=87997420" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes87997420" class="buy" href="/buy?affl=itunes&blipId=87997420" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem87997420actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1ge38s', 'Tom Odell - Another Love (Short Film)')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem87997420actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(87997420)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem87717517" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem87717517owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem87717517message"><a class="replyLink"  href="/sergiovds" rel="nofollow">@sergiovds</a>: "Brazilian music 60's - album Quarteto Novo (Quarteto Novo)"</span>
+                                <a class="reblip" title="view the original blip" href="http://blip.fm/~1g81ia" rel="nofollow">(reblip)</a>
+                            </div>
+            <div id="tweem87717517song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Quarteto Novo (1967) - Album completo - Full Album')" title="search for Quarteto Novo (1967) - Album completo - Full Album" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem87717517headline"><h3 class="blipTitle"><a href="/listen/Quarteto+Novo+(1967)" title="Listen to Quarteto Novo (1967)">Quarteto Novo (1967)</a> &ndash; <a href="/listen/Quarteto+Novo+(1967)::Album+completo–Full+Album" title="Listen to Quarteto Novo (1967) - Album completo - Full Album">Album completo - Full Album</a></h3></span>
+                | <span id="playpause87717517" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1g839p" rel="nofollow">Mar 15, 2014 at 1:11 am</a> via <a href="http://www.youtube.com/watch?v=y374WwqZtOI&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon87717517" class="buy" href="/buy?affl=amazon&blipId=87717517" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes87717517" class="buy" href="/buy?affl=itunes&blipId=87717517" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem87717517actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1g839p', 'Quarteto Novo (1967) - Album completo - Full Album')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem87717517actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(87717517)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem87717505" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem87717505owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem87717505message">I'll be  Waiting ~ Adele ~ via @twistabout</span>
+                            </div>
+            <div id="tweem87717505song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Adele - I\'ll be waiting lyrics')" title="search for Adele - I\'ll be waiting lyrics" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem87717505headline"><h3 class="blipTitle"><a href="/listen/Adele" title="Listen to Adele">Adele</a> &ndash; <a href="/listen/Adele::I'll+be+waiting+lyrics" title="Listen to Adele - I&#039;ll be waiting lyrics">I&#039;ll be waiting lyrics</a></h3></span>
+                | <span id="playpause87717505" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1g839d" rel="nofollow">Mar 15, 2014 at 1:07 am</a> via <a href="http://www.youtube.com/watch?v=HVqkfV1WDDg&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon87717505" class="buy" href="/buy?affl=amazon&blipId=87717505" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes87717505" class="buy" href="/buy?affl=itunes&blipId=87717505" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem87717505actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1g839d', 'Adele - I\'ll be waiting lyrics')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem87717505actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(87717505)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem87073534" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem87073534owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem87073534message">Night Castle - Trans-Siberian Orchestra @ACatThatNaps ...are you getting this??</span>
+                            </div>
+            <div id="tweem87073534song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Night Castle - Trans-Siberian Orchestra')" title="search for Night Castle - Trans-Siberian Orchestra" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem87073534headline"><h3 class="blipTitle"><a href="/listen/Night+Castle" title="Listen to Night Castle">Night Castle</a> &ndash; <a href="/listen/Night+Castle::Trans-Siberian+Orchestra" title="Listen to Night Castle - Trans-Siberian Orchestra">Trans-Siberian Orchestra</a></h3></span>
+                | <span id="playpause87073534" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1fuada" rel="nofollow">Dec 20, 2013 at 11:04 pm</a> via <a href="http://www.youtube.com/watch?v=Ibvo-I_rZjc&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon87073534" class="buy" href="/buy?affl=amazon&blipId=87073534" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes87073534" class="buy" href="/buy?affl=itunes&blipId=87073534" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem87073534actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1fuada', 'Night Castle - Trans-Siberian Orchestra')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem87073534actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(87073534)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85900784" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85900784owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85900784message">Last of the Summer Wine ~ Palma Violets</span>
+                            </div>
+            <div id="tweem85900784song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Palma Violets - Last of the Summer Wine (Official Video)')" title="search for Palma Violets - Last of the Summer Wine (Official Video)" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85900784headline"><h3 class="blipTitle"><a href="/listen/Palma+Violets" title="Listen to Palma Violets">Palma Violets</a> &ndash; <a href="/listen/Palma+Violets::Last+of+the+Summer+Wine+(Official+Video)" title="Listen to Palma Violets - Last of the Summer Wine (Official Video)">Last of the Summer Wine (Official Video)</a></h3></span>
+                | <span id="playpause85900784" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1f55gw" rel="nofollow">Aug 2, 2013 at 12:38 am</a> via <a href="http://www.youtube.com/watch?v=gGSUl0RbK5Q&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon85900784" class="buy" href="/buy?affl=amazon&blipId=85900784" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85900784" class="buy" href="/buy?affl=itunes&blipId=85900784" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85900784actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1f55gw', 'Palma Violets - Last of the Summer Wine (Official Video)')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85900784actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85900784)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85871329" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85871329owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85871329message"></span>
+                            </div>
+            <div id="tweem85871329song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Jake Bugg - Lightning Bolt - Official Video')" title="search for Jake Bugg - Lightning Bolt - Official Video" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85871329headline"><h3 class="blipTitle"><a href="/listen/Jake+Bugg" title="Listen to Jake Bugg">Jake Bugg</a> &ndash; <a href="/listen/Jake+Bugg::Lightning+Bolt–Official+Video" title="Listen to Jake Bugg - Lightning Bolt - Official Video">Lightning Bolt - Official Video</a></h3></span>
+                | <span id="playpause85871329" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1f4iqp" rel="nofollow">Jul 30, 2013 at 12:13 am</a> via <a href="http://www.youtube.com/watch?v=fY0oPg1h8fQ&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon85871329" class="buy" href="/buy?affl=amazon&blipId=85871329" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85871329" class="buy" href="/buy?affl=itunes&blipId=85871329" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85871329actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1f4iqp', 'Jake Bugg - Lightning Bolt - Official Video')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85871329actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85871329)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85871317" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85871317owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85871317message">"Look After You ~ The Fray"</span>
+                                <a class="reblip" title="view the original blip" href="http://blip.fm/~1f1jmr" rel="nofollow">(reblip)</a>
+                            </div>
+            <div id="tweem85871317song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Look After You - The Fray (lyrics)')" title="search for Look After You - The Fray (lyrics)" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85871317headline"><h3 class="blipTitle"><a href="/listen/Look+After+You" title="Listen to Look After You">Look After You</a> &ndash; <a href="/listen/Look+After+You::The+Fray+(lyrics)" title="Listen to Look After You - The Fray (lyrics)">The Fray (lyrics)</a></h3></span>
+                | <span id="playpause85871317" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1f4iqd" rel="nofollow">Jul 30, 2013 at 12:12 am</a> via <a href="http://www.youtube.com/watch?v=Vl7spqkXgpY&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon85871317" class="buy" href="/buy?affl=amazon&blipId=85871317" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85871317" class="buy" href="/buy?affl=itunes&blipId=85871317" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85871317actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1f4iqd', 'Look After You - The Fray (lyrics)')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85871317actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85871317)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85732515" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85732515owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85732515message">Look After You ~ The Fray</span>
+                            </div>
+            <div id="tweem85732515song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Look After You - The Fray (lyrics)')" title="search for Look After You - The Fray (lyrics)" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85732515headline"><h3 class="blipTitle"><a href="/listen/Look+After+You" title="Listen to Look After You">Look After You</a> &ndash; <a href="/listen/Look+After+You::The+Fray+(lyrics)" title="Listen to Look After You - The Fray (lyrics)">The Fray (lyrics)</a></h3></span>
+                | <span id="playpause85732515" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1f1jmr" rel="nofollow">Jul 15, 2013 at 9:05 pm</a> via <a href="http://www.youtube.com/watch?v=Vl7spqkXgpY&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon85732515" class="buy" href="/buy?affl=amazon&blipId=85732515" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85732515" class="buy" href="/buy?affl=itunes&blipId=85732515" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85732515actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1f1jmr', 'Look After You - The Fray (lyrics)')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85732515actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85732515)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85575910" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85575910owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85575910message">Don't You (Forget About Me) ~ Simple Minds</span>
+                            </div>
+            <div id="tweem85575910song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Simple Minds - Don\'t You (Forget About Me)')" title="search for Simple Minds - Don\'t You (Forget About Me)" rel="nofollow"><span style="color: #ababab;">♫</span></a> 
+                <span id="tweem85575910headline"><h3 class="blipTitle"><a href="/listen/Simple+Minds" title="Listen to Simple Minds">Simple Minds</a> &ndash; <a href="/listen/Simple+Minds::Don't+You+(Forget+About+Me)" title="Listen to Simple Minds - Don&#039;t You (Forget About Me)">Don&#039;t You (Forget About Me)</a></h3></span>
+                | <span id="playpause85575910" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1ey6sm" rel="nofollow">Jun 30, 2013 at 10:28 am</a> via <a href="" target="_blank" class="via" rel="nofollow">grooveshark</a>                 | <a id="buyAmazon85575910" class="buy" href="/buy?affl=amazon&blipId=85575910" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85575910" class="buy" href="/buy?affl=itunes&blipId=85575910" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85575910actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1ey6sm', 'Simple Minds - Don\'t You (Forget About Me)')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85575910actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85575910)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85575884" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85575884owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85575884message">Broken ~ Jake Bugg</span>
+                            </div>
+            <div id="tweem85575884song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Jake Bugg - Broken')" title="search for Jake Bugg - Broken" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85575884headline"><h3 class="blipTitle"><a href="/listen/Jake+Bugg" title="Listen to Jake Bugg">Jake Bugg</a> &ndash; <a href="/listen/Jake+Bugg::Broken" title="Listen to Jake Bugg - Broken">Broken</a></h3></span>
+                | <span id="playpause85575884" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1ey6rw" rel="nofollow">Jun 30, 2013 at 10:25 am</a> via <a href="http://www.youtube.com/watch?v=bQMq5dO8Vb4&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon85575884" class="buy" href="/buy?affl=amazon&blipId=85575884" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85575884" class="buy" href="/buy?affl=itunes&blipId=85575884" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85575884actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1ey6rw', 'Jake Bugg - Broken')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85575884actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85575884)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85575867" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85575867owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85575867message">Part Of Me ~ Katy Perry</span>
+                            </div>
+            <div id="tweem85575867song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Katy Perry- Part Of Me +Lyrics')" title="search for Katy Perry- Part Of Me +Lyrics" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85575867headline"><h3 class="blipTitle">Katy Perry- Part Of Me +Lyrics</h3></span>
+                | <span id="playpause85575867" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1ey6rf" rel="nofollow">Jun 30, 2013 at 10:22 am</a> via <a href="http://www.youtube.com/watch?v=pQRXL-znbe4&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                                                             </div>
+            <div id="tweem85575867actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1ey6rf', 'Katy Perry- Part Of Me +Lyrics')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85575867actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85575867)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85559667" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85559667owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85559667message">The Path of Love ~ Beth Nielsen Chapman</span>
+                            </div>
+            <div id="tweem85559667song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Beth Nielsen Chapman - The Path of Love')" title="search for Beth Nielsen Chapman - The Path of Love" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85559667headline"><h3 class="blipTitle"><a href="/listen/Beth+Nielsen+Chapman" title="Listen to Beth Nielsen Chapman">Beth Nielsen Chapman</a> &ndash; <a href="/listen/Beth+Nielsen+Chapman::The+Path+of+Love" title="Listen to Beth Nielsen Chapman - The Path of Love">The Path of Love</a></h3></span>
+                | <span id="playpause85559667" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1exu9f" rel="nofollow">Jun 28, 2013 at 6:59 pm</a> via <a href="http://www.youtube.com/watch?v=wgq_LR7kiW0&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon85559667" class="buy" href="/buy?affl=amazon&blipId=85559667" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85559667" class="buy" href="/buy?affl=itunes&blipId=85559667" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85559667actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1exu9f', 'Beth Nielsen Chapman - The Path of Love')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85559667actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85559667)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85462917" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85462917owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85462917message">I Got A Name ~ Jim Croce</span>
+                            </div>
+            <div id="tweem85462917song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Jim Croce - Greatest Hits - I Got A Name')" title="search for Jim Croce - Greatest Hits - I Got A Name" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85462917headline"><h3 class="blipTitle"><a href="/listen/Jim+Croce" title="Listen to Jim Croce">Jim Croce</a> &ndash; <a href="/listen/Jim+Croce::Greatest+Hits–I+Got+A+Name" title="Listen to Jim Croce - Greatest Hits - I Got A Name">Greatest Hits - I Got A Name</a></h3></span>
+                | <span id="playpause85462917" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1evrlx" rel="nofollow">Jun 19, 2013 at 10:46 pm</a> via <a href="http://www.youtube.com/watch?v=hHVBzLGAIbU&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon85462917" class="buy" href="/buy?affl=amazon&blipId=85462917" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85462917" class="buy" href="/buy?affl=itunes&blipId=85462917" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85462917actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1evrlx', 'Jim Croce - Greatest Hits - I Got A Name')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85462917actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85462917)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85435741" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85435741owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85435741message"></span>
+                            </div>
+            <div id="tweem85435741song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974 - AT40')" title="search for I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974 - AT40" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85435741headline"><h3 class="blipTitle"><a href="/listen/I+Love+by+Tom+T+Hall+on+The+American+Top+40+Radio+Show+with+Casey+Kasem+in+1974" title="Listen to I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974">I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974</a> &ndash; <a href="/listen/I+Love+by+Tom+T+Hall+on+The+American+Top+40+Radio+Show+with+Casey+Kasem+in+1974::AT40" title="Listen to I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974 - AT40">AT40</a></h3></span>
+                | <span id="playpause85435741" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1ev6n1" rel="nofollow">Jun 17, 2013 at 2:11 pm</a> via <a href="http://www.youtube.com/watch?v=f7cMuMvl0Ck&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon85435741" class="buy" href="/buy?affl=amazon&blipId=85435741" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85435741" class="buy" href="/buy?affl=itunes&blipId=85435741" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85435741actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1ev6n1', 'I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974 - AT40')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85435741actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85435741)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85419990" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85419990owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85419990message"></span>
+                            </div>
+            <div id="tweem85419990song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Pink - Just Give Me a Reason LYRICS')" title="search for Pink - Just Give Me a Reason LYRICS" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85419990headline"><h3 class="blipTitle"><a href="/listen/Pink" title="Listen to Pink">Pink</a> &ndash; <a href="/listen/Pink::Just+Give+Me+a+Reason+LYRICS" title="Listen to Pink - Just Give Me a Reason LYRICS">Just Give Me a Reason LYRICS</a></h3></span>
+                | <span id="playpause85419990" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1euuhi" rel="nofollow">Jun 15, 2013 at 10:26 pm</a> via <a href="http://www.youtube.com/watch?v=pgEFfZOV9GQ&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon85419990" class="buy" href="/buy?affl=amazon&blipId=85419990" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85419990" class="buy" href="/buy?affl=itunes&blipId=85419990" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85419990actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1euuhi', 'Pink - Just Give Me a Reason LYRICS')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85419990actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85419990)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85419745" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85419745owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85419745message">Surrender ~ Elvis!</span>
+                            </div>
+            <div id="tweem85419745song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Elvis Presley - Surrender w/lyrics')" title="search for Elvis Presley - Surrender w/lyrics" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85419745headline"><h3 class="blipTitle"><a href="/listen/Elvis+Presley" title="Listen to Elvis Presley">Elvis Presley</a> &ndash; <a href="/listen/Elvis+Presley::Surrender+w|lyrics" title="Listen to Elvis Presley - Surrender w/lyrics">Surrender w/lyrics</a></h3></span>
+                | <span id="playpause85419745" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1euuap" rel="nofollow">Jun 15, 2013 at 9:43 pm</a> via <a href="http://www.youtube.com/watch?v=bGYjWfp3aQI&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon85419745" class="buy" href="/buy?affl=amazon&blipId=85419745" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85419745" class="buy" href="/buy?affl=itunes&blipId=85419745" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85419745actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1euuap', 'Elvis Presley - Surrender w/lyrics')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85419745actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85419745)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+<div id="tweem85407220" class="tweem ">
+        <div class="content">
+        <div style="position:relative;">
+            <div class="body">
+                <a id="tweem85407220owner" href="/worryknot" rel="nofollow">worryknot</a>
+                <span id="tweem85407220message"></span>
+                            </div>
+            <div id="tweem85407220song" class="song clearfix">
+                <a class="clickable blipTypeIcon" onclick="searchtastic('Richard Marx - Right Here Waiting For You')" title="search for Richard Marx - Right Here Waiting For You" rel="nofollow"><div class="videoicon-sm"></div></a> 
+                <span id="tweem85407220headline"><h3 class="blipTitle"><a href="/listen/Richard+Marx" title="Listen to Richard Marx">Richard Marx</a> &ndash; <a href="/listen/Richard+Marx::Right+Here+Waiting+For+You" title="Listen to Richard Marx - Right Here Waiting For You">Right Here Waiting For You</a></h3></span>
+                | <span id="playpause85407220" class="playpause">play</span>
+            </div>
+            <div class="date">
+                <a href="http://blip.fm/~1eukms" rel="nofollow">Jun 14, 2013 at 7:38 pm</a> via <a href="http://www.youtube.com/watch?v=iLi_osYNsOU&feature=youtube_gdata_player" target="_blank" class="via" rel="nofollow">YouTube</a>                 | <a id="buyAmazon85407220" class="buy" href="/buy?affl=amazon&blipId=85407220" target="_blank" rel="nofollow">AMAZON</a> | <a id="buyITunes85407220" class="buy" href="/buy?affl=itunes&blipId=85407220" target="_blank" rel="nofollow">ITUNES</a>                                            </div>
+            <div id="tweem85407220actions" class="actions" style="display: none">
+                <ul>
+                    <li class="share">
+    <a href="http://www.addthis.com/bookmark.php?v=250&amp;pub=Blip.fm"
+        class="addThisButton"
+        onclick="return addthis_open(this, '', 'http://blip.fm/~1eukms', 'Richard Marx - Right Here Waiting For You')"
+        onclick="return addthis_sendto()"><span class="hideme">share</span></a>
+</li>                                        <li id="tweem85407220actionsmenu" class="actionsmenu"><a class="clickable" onclick="BlipUI.toggleActionMenu(85407220)"></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+</div>
+    </div>
+</div>        <div id="bliplistSpinner" style="padding:100px;text-align:center;display:none"><img src="http://cdn.blipstatic.com/images/blip/spinner-bliplist.gif" alt="loading..." width="31" height="31" /></div>
+    </div>
+</div>
+
+<div class="pagingcontainer clearfix">
+        <div id="pages" class="pages">
+        <div style="position: relative">
+    <div class="paginationContainer">
+        <div class="pagination">
+            <div class="pages">
+                                <div class="label">Page: </div>
+                <div class="numbers">
+                    <b>1</b> | <a href="/worryknot?page=2&">2</a> | <a href="/worryknot?page=3&">3</a> | <a href="/worryknot?page=4&">4</a> | <a href="/worryknot?page=5&">5</a> .. <a href="/worryknot?page=766&">766</a>                </div>
+                                    <div class="next"><a href="/worryknot?page=2&"></a></div>
+                   
+            </div>
+        </div>
+    </div>
+</div>    </div>
+        <div class="pagingBottom">
+        <a id="nextPageLinkBot" class="clickable" onclick="return false;">&#160;</a>
+        <a href="?page=2" id="prevPageLinkBot" class="clickable" onclick="return false;" rel="nofollow">&#160;</a>
+    </div>
+</div></div>
+
+<div class="col2">
+    
+<div class="clearfix" style="display: block;">
+    <div id="mediaBox">
+                <div id="youtubePlayerBackdrop">
+            <div id="youtubePlayerContainer"></div>
+        </div>
+
+        <div id="slot300x250" class="clearfix">
+                    </div>
+            </div>
+</div>
+<br style="height: 10px; line-height: 10px" />
+
+
+<div class="container clearfix">
+    <div id="miniFavoriteDJs" class="block favorites collapsed">
+        <div id="miniFavoriteDJsTitle" class="title clickable">
+            <a class="clickable" id="miniFavoriteDJsToggle" rel="nofollow">+</a>
+            <a class="clickable" id="favoritesLink" rel="nofollow"><span id="favoriteCount">203</span> Favorite DJs</a>
+        </div>
+        <div id="miniFavDJsBody" class="body clearfix">
+                        <img src="http://cdn.blipstatic.com/images/blip/spinner.gif" alt="loading..." class="center postLoadSpinner" />
+                    </div>
+        <div id="miniFavoriteDJsMore" class="footer">
+                            <a href="/profile/worryknot/favoritePeople">See them all...</a>
+                    </div>
+    </div>
+</div>
+
+<div class="clearfix" style="margin-bottom: 10px;" id="slot300x600"></div>
+
+<div class="container clearfix">
+    <div id="badges" class="block">
+        <div id="badgesTitle" class="title clickable">
+            <a class="clickable" id="badgesToggle" rel="nofollow">-</a>
+            <a class="clickable" id="badgesLink" rel="nofollow">worryknot's Badges</a>
+        </div>
+        <div class="body">
+            <div class="clearfix">
+    <a href="/about/badges" class="clickable" title="Level 4 Dj" rel="nofollow">
+    <div class="badge" id="dj-4"></div>
+</a><a href="/about/badges" class="clickable" title="Level 1 Bigspender" rel="nofollow">
+    <div class="badge" id="bigspender-1"></div>
+</a><a href="/about/badges" class="clickable" title="Level 1 Tastemaker" rel="nofollow">
+    <div class="badge" id="tastemaker-1"></div>
+</a><a href="/about/badges" class="clickable" title="Level 1 Hotstreak" rel="nofollow">
+    <div class="badge" id="hotstreak-1"></div>
+</a><a href="/about/badges" class="clickable" title="Level 1 Headliner" rel="nofollow">
+    <div class="badge" id="headliner-1"></div>
+</a><a href="/about/badges" class="clickable" title="Level 1 Broadcaster" rel="nofollow">
+    <div class="badge" id="broadcaster-1"></div>
+</a><a href="/about/badges" class="clickable" title="Level 1 Guineapig" rel="nofollow">
+    <div class="badge" id="guineapig-1"></div>
+</a><a href="/about/badges" class="clickable" title="Level 1 Pioneer" rel="nofollow">
+    <div class="badge" id="pioneer-1"></div>
+</a><a href="/about/badges" class="clickable" title="Level 1 Mothersday" rel="nofollow">
+    <div class="badge" id="mothersday-1"></div>
+</a></div>
+        </div>
+        <div id="badgesMore" class="footer">
+            <a href="/about/badges">Learn more about badges...</a>
+        </div>
+    </div>
+</div>
+
+
+<div id="exchange" class="container" style="color:#333;font-size:80%;background-color:#99a9b7;">
+    <div class="body" style="padding:5px;text-align:center;">
+        Friends:
+        <a href="http://www.merchantcircle.com" target="_blank">MerchantCircle</a>
+        | <a href="http://www.charityblossom.org" target="_blank">Charity Blossom</a>
+        | <a href="http://browsermob.com/website-load-testing" target="_blank" title="Website Load Testing">Website Load Testing</a>
+    </div>
+</div>
+
+
+<div id="slot160x600"></div>
+<div id="slot1x1"></div>
+</div>                    <div id="footer" >
+                        <a href="mailto:advertise@blip.fm?subject=Blip.fm Advertising Inquiry" rel="nofollow">Advertise</a> &bull;
+                        <a href="mailto:support@blip.fm" rel="nofollow">Feedback</a> &bull;
+                        <a href="mailto:support@blip.fm" title="support@blip.fm" rel="nofollow">Support</a> &bull;
+                        <a href="http://blog.blip.fm/faq" rel="nofollow">FAQ</a> &bull;
+                        <a href="/sitemap" target="_blank" title="Site Map">Site Map</a> &bull;
+                        <a href="/widgets" target="_blank" title="Widgets" rel="nofollow">Widgets</a> &bull;
+                        <a href="/corp/terms" target="_blank" rel="nofollow">Terms of Use</a> &bull;
+                        <a href="/corp/privacy" target="_blank" rel="nofollow">Privacy Policy</a>
+                        &nbsp;&nbsp;&nbsp;&copy; 2010 Blip Inc.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="popup" class="clearfix">
+            <div id="trackPop" class="pop" style="visibility: hidden">
+                <div class="bd"></div>
+            </div>
+        </div>
+        <div id="display">
+            <div class="bd base clearfix">
+                <div class="controls">
+                    <a id="dPrev">prev</a>
+                    | <a id="dPlay">play</a>
+                    | <a id="dNext">next</a>
+                </div>
+                <div id="npactions" class="actions" style="display:none">
+                    <ul>
+                        <li class="reblip"><a id="npreblip" title="Reblip this"></a></li>
+                        <li id="npfavorite" class="fav"><a id="npfav" title="Add this blip to your playlist"></a></li>
+                        <li class="props"><a id="npprops" title="Give this DJ props"></a></li>
+                    </ul>
+                </div>
+                <div id="playstatus" class="clickable"></div>
+                <div class="nowplaying">
+                    <span id="nowplaying"></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="blipPlayerContainer"></div>
+        <div id="groovesharkPlayerContainer"></div>
+        <div id="slot728x90_tracker"></div>
+        <div id="slot300x250_tracker"></div>
+		<div id="slotSkin_tracker"></div>
+
+		<style>
+			.help .bd {
+				padding: 0 13px !important;
+			}
+			#hideHelp {
+				right: 19px !important;
+				top: 17px !important;
+				z-index: 10 !important;
+			}
+			DIV.help-rec DIV.bd, DIV.help-rec DIV.ft {
+				background: none !important;
+			}
+		</style>
+
+        <script type="text/javascript" src="http://cdn.blipstatic.com/js/base.19.js"></script>
+        <script type="text/javascript">
+            var DEBUG = 0;
+var HOST_NAME = 'blip.fm';
+var STATIC_URL = 'http://cdn.blipstatic.com';
+var BASE_URL = 'http://blip.fm';
+
+var jsData =[];
+YAHOO.com.fuzz.userAlerts = new Array();
+
+            var context = {
+options: {"ping":0,"pingResultsDelay":5000,"direction":-1,"autoscroll":0,"volume":0.85,"mediaFilter":0,"playlistMax":20,"selectedTunerId":false},
+timestamp: 1412037610,
+playlistType: 'personal',
+autoplay: false,
+autosearch: false,
+page: 1,
+isInitialPageLoad: false,
+build: 19,
+postLoadFunctions: [],
+publisherOptions: {},
+bliper: {"id":"300001","urlName":"worryknot","defaultTwitterAccount":{"user":"worryknot"}},
+tuners: [
+{"id":null,"displayName":"Default","urlName":"default","tags":null}
+],
+pageBlips: [
+{id: 85407220, ownerId: 300001, elm: $('tweem85407220'), url: "iLi_osYNsOU", type: "youtubeVideo", html: "<div id=\"tweem85407220\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85407220owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85407220message\"><\/span>\n                            <\/div>\n            <div id=\"tweem85407220song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Richard Marx - Right Here Waiting For You')\" title=\"search for Richard Marx - Right Here Waiting For You\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85407220headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Richard+Marx\" title=\"Listen to Richard Marx\">Richard Marx<\/a> &ndash; <a href=\"\/listen\/Richard+Marx::Right+Here+Waiting+For+You\" title=\"Listen to Richard Marx - Right Here Waiting For You\">Right Here Waiting For You<\/a><\/h3><\/span>\n                | <span id=\"playpause85407220\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1eukms\" rel=\"nofollow\">Jun 14, 2013 at 7:38 pm<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=iLi_osYNsOU&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon85407220\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85407220\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85407220\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85407220\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85407220actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1eukms', 'Richard Marx - Right Here Waiting For You')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85407220actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85407220)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1371263929", headline: "Richard Marx - Right Here Waiting For You", via: "YouTube"},
+{id: 85419745, ownerId: 300001, elm: $('tweem85419745'), url: "bGYjWfp3aQI", type: "youtubeVideo", html: "<div id=\"tweem85419745\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85419745owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85419745message\">Surrender ~ Elvis!<\/span>\n                            <\/div>\n            <div id=\"tweem85419745song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Elvis Presley - Surrender w\/lyrics')\" title=\"search for Elvis Presley - Surrender w\/lyrics\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85419745headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Elvis+Presley\" title=\"Listen to Elvis Presley\">Elvis Presley<\/a> &ndash; <a href=\"\/listen\/Elvis+Presley::Surrender+w|lyrics\" title=\"Listen to Elvis Presley - Surrender w\/lyrics\">Surrender w\/lyrics<\/a><\/h3><\/span>\n                | <span id=\"playpause85419745\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1euuap\" rel=\"nofollow\">Jun 15, 2013 at 9:43 pm<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=bGYjWfp3aQI&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon85419745\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85419745\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85419745\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85419745\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85419745actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1euuap', 'Elvis Presley - Surrender w\/lyrics')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85419745actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85419745)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1371357810", headline: "Elvis Presley - Surrender w/lyrics", via: "YouTube"},
+{id: 85419990, ownerId: 300001, elm: $('tweem85419990'), url: "pgEFfZOV9GQ", type: "youtubeVideo", html: "<div id=\"tweem85419990\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85419990owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85419990message\"><\/span>\n                            <\/div>\n            <div id=\"tweem85419990song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Pink - Just Give Me a Reason LYRICS')\" title=\"search for Pink - Just Give Me a Reason LYRICS\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85419990headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Pink\" title=\"Listen to Pink\">Pink<\/a> &ndash; <a href=\"\/listen\/Pink::Just+Give+Me+a+Reason+LYRICS\" title=\"Listen to Pink - Just Give Me a Reason LYRICS\">Just Give Me a Reason LYRICS<\/a><\/h3><\/span>\n                | <span id=\"playpause85419990\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1euuhi\" rel=\"nofollow\">Jun 15, 2013 at 10:26 pm<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=pgEFfZOV9GQ&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon85419990\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85419990\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85419990\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85419990\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85419990actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1euuhi', 'Pink - Just Give Me a Reason LYRICS')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85419990actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85419990)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1371360411", headline: "Pink - Just Give Me a Reason LYRICS", via: "YouTube"},
+{id: 85435741, ownerId: 300001, elm: $('tweem85435741'), url: "f7cMuMvl0Ck", type: "youtubeVideo", html: "<div id=\"tweem85435741\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85435741owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85435741message\"><\/span>\n                            <\/div>\n            <div id=\"tweem85435741song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974 - AT40')\" title=\"search for I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974 - AT40\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85435741headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/I+Love+by+Tom+T+Hall+on+The+American+Top+40+Radio+Show+with+Casey+Kasem+in+1974\" title=\"Listen to I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974\">I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974<\/a> &ndash; <a href=\"\/listen\/I+Love+by+Tom+T+Hall+on+The+American+Top+40+Radio+Show+with+Casey+Kasem+in+1974::AT40\" title=\"Listen to I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974 - AT40\">AT40<\/a><\/h3><\/span>\n                | <span id=\"playpause85435741\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1ev6n1\" rel=\"nofollow\">Jun 17, 2013 at 2:11 pm<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=f7cMuMvl0Ck&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon85435741\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85435741\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85435741\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85435741\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85435741actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1ev6n1', 'I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974 - AT40')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85435741actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85435741)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1371503483", headline: "I Love by Tom T Hall on The American Top 40 Radio Show with Casey Kasem in 1974 - AT40", via: "YouTube"},
+{id: 85462917, ownerId: 300001, elm: $('tweem85462917'), url: "hHVBzLGAIbU", type: "youtubeVideo", html: "<div id=\"tweem85462917\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85462917owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85462917message\">I Got A Name ~ Jim Croce<\/span>\n                            <\/div>\n            <div id=\"tweem85462917song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Jim Croce - Greatest Hits - I Got A Name')\" title=\"search for Jim Croce - Greatest Hits - I Got A Name\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85462917headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Jim+Croce\" title=\"Listen to Jim Croce\">Jim Croce<\/a> &ndash; <a href=\"\/listen\/Jim+Croce::Greatest+Hits\u2013I+Got+A+Name\" title=\"Listen to Jim Croce - Greatest Hits - I Got A Name\">Greatest Hits - I Got A Name<\/a><\/h3><\/span>\n                | <span id=\"playpause85462917\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1evrlx\" rel=\"nofollow\">Jun 19, 2013 at 10:46 pm<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=hHVBzLGAIbU&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon85462917\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85462917\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85462917\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85462917\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85462917actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1evrlx', 'Jim Croce - Greatest Hits - I Got A Name')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85462917actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85462917)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1371707201", headline: "Jim Croce - Greatest Hits - I Got A Name", via: "YouTube"},
+{id: 85559667, ownerId: 300001, elm: $('tweem85559667'), url: "wgq_LR7kiW0", type: "youtubeVideo", html: "<div id=\"tweem85559667\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85559667owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85559667message\">The Path of Love ~ Beth Nielsen Chapman<\/span>\n                            <\/div>\n            <div id=\"tweem85559667song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Beth Nielsen Chapman - The Path of Love')\" title=\"search for Beth Nielsen Chapman - The Path of Love\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85559667headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Beth+Nielsen+Chapman\" title=\"Listen to Beth Nielsen Chapman\">Beth Nielsen Chapman<\/a> &ndash; <a href=\"\/listen\/Beth+Nielsen+Chapman::The+Path+of+Love\" title=\"Listen to Beth Nielsen Chapman - The Path of Love\">The Path of Love<\/a><\/h3><\/span>\n                | <span id=\"playpause85559667\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1exu9f\" rel=\"nofollow\">Jun 28, 2013 at 6:59 pm<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=wgq_LR7kiW0&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon85559667\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85559667\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85559667\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85559667\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85559667actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1exu9f', 'Beth Nielsen Chapman - The Path of Love')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85559667actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85559667)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1372471155", headline: "Beth Nielsen Chapman - The Path of Love", via: "YouTube"},
+{id: 85575867, ownerId: 300001, elm: $('tweem85575867'), url: "pQRXL-znbe4", type: "youtubeVideo", html: "<div id=\"tweem85575867\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85575867owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85575867message\">Part Of Me ~ Katy Perry<\/span>\n                            <\/div>\n            <div id=\"tweem85575867song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Katy Perry- Part Of Me +Lyrics')\" title=\"search for Katy Perry- Part Of Me +Lyrics\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85575867headline\"><h3 class=\"blipTitle\">Katy Perry- Part Of Me +Lyrics<\/h3><\/span>\n                | <span id=\"playpause85575867\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1ey6rf\" rel=\"nofollow\">Jun 30, 2013 at 10:22 am<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=pQRXL-znbe4&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                                                             <\/div>\n            <div id=\"tweem85575867actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1ey6rf', 'Katy Perry- Part Of Me +Lyrics')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85575867actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85575867)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1372612949", headline: "Katy Perry- Part Of Me +Lyrics", via: "YouTube"},
+{id: 85575884, ownerId: 300001, elm: $('tweem85575884'), url: "bQMq5dO8Vb4", type: "youtubeVideo", html: "<div id=\"tweem85575884\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85575884owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85575884message\">Broken ~ Jake Bugg<\/span>\n                            <\/div>\n            <div id=\"tweem85575884song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Jake Bugg - Broken')\" title=\"search for Jake Bugg - Broken\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85575884headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Jake+Bugg\" title=\"Listen to Jake Bugg\">Jake Bugg<\/a> &ndash; <a href=\"\/listen\/Jake+Bugg::Broken\" title=\"Listen to Jake Bugg - Broken\">Broken<\/a><\/h3><\/span>\n                | <span id=\"playpause85575884\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1ey6rw\" rel=\"nofollow\">Jun 30, 2013 at 10:25 am<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=bQMq5dO8Vb4&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon85575884\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85575884\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85575884\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85575884\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85575884actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1ey6rw', 'Jake Bugg - Broken')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85575884actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85575884)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1372613107", headline: "Jake Bugg - Broken", via: "YouTube"},
+{id: 85575910, ownerId: 300001, elm: $('tweem85575910'), url: "28917445", type: "songUrl", html: "<div id=\"tweem85575910\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85575910owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85575910message\">Don't You (Forget About Me) ~ Simple Minds<\/span>\n                            <\/div>\n            <div id=\"tweem85575910song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Simple Minds - Don\\'t You (Forget About Me)')\" title=\"search for Simple Minds - Don\\'t You (Forget About Me)\" rel=\"nofollow\"><span style=\"color: #ababab;\">\u266b<\/span><\/a> \n                <span id=\"tweem85575910headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Simple+Minds\" title=\"Listen to Simple Minds\">Simple Minds<\/a> &ndash; <a href=\"\/listen\/Simple+Minds::Don't+You+(Forget+About+Me)\" title=\"Listen to Simple Minds - Don&#039;t You (Forget About Me)\">Don&#039;t You (Forget About Me)<\/a><\/h3><\/span>\n                | <span id=\"playpause85575910\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1ey6sm\" rel=\"nofollow\">Jun 30, 2013 at 10:28 am<\/a> via <a href=\"\" target=\"_blank\" class=\"via\" rel=\"nofollow\">grooveshark<\/a>                 | <a id=\"buyAmazon85575910\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85575910\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85575910\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85575910\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85575910actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1ey6sm', 'Simple Minds - Don\\'t You (Forget About Me)')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85575910actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85575910)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1372613296", headline: "Simple Minds - Don&#039;t You (Forget About Me)", via: "grooveshark"},
+{id: 85732515, ownerId: 300001, elm: $('tweem85732515'), url: "Vl7spqkXgpY", type: "youtubeVideo", html: "<div id=\"tweem85732515\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85732515owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85732515message\">Look After You ~ The Fray<\/span>\n                            <\/div>\n            <div id=\"tweem85732515song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Look After You - The Fray (lyrics)')\" title=\"search for Look After You - The Fray (lyrics)\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85732515headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Look+After+You\" title=\"Listen to Look After You\">Look After You<\/a> &ndash; <a href=\"\/listen\/Look+After+You::The+Fray+(lyrics)\" title=\"Listen to Look After You - The Fray (lyrics)\">The Fray (lyrics)<\/a><\/h3><\/span>\n                | <span id=\"playpause85732515\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1f1jmr\" rel=\"nofollow\">Jul 15, 2013 at 9:05 pm<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=Vl7spqkXgpY&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon85732515\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85732515\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85732515\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85732515\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85732515actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1f1jmr', 'Look After You - The Fray (lyrics)')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85732515actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85732515)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1373947538", headline: "Look After You - The Fray (lyrics)", via: "YouTube"},
+{id: 85871317, ownerId: 300001, elm: $('tweem85871317'), url: "Vl7spqkXgpY", type: "youtubeVideo", html: "<div id=\"tweem85871317\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85871317owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85871317message\">\"Look After You ~ The Fray\"<\/span>\n                                <a class=\"reblip\" title=\"view the original blip\" href=\"http:\/\/blip.fm\/~1f1jmr\" rel=\"nofollow\">(reblip)<\/a>\n                            <\/div>\n            <div id=\"tweem85871317song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Look After You - The Fray (lyrics)')\" title=\"search for Look After You - The Fray (lyrics)\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85871317headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Look+After+You\" title=\"Listen to Look After You\">Look After You<\/a> &ndash; <a href=\"\/listen\/Look+After+You::The+Fray+(lyrics)\" title=\"Listen to Look After You - The Fray (lyrics)\">The Fray (lyrics)<\/a><\/h3><\/span>\n                | <span id=\"playpause85871317\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1f4iqd\" rel=\"nofollow\">Jul 30, 2013 at 12:12 am<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=Vl7spqkXgpY&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon85871317\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85871317\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85871317\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85871317\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85871317actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1f4iqd', 'Look After You - The Fray (lyrics)')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85871317actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85871317)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1375168325", headline: "Look After You - The Fray (lyrics)", via: "YouTube"},
+{id: 85871329, ownerId: 300001, elm: $('tweem85871329'), url: "fY0oPg1h8fQ", type: "youtubeVideo", html: "<div id=\"tweem85871329\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85871329owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85871329message\"><\/span>\n                            <\/div>\n            <div id=\"tweem85871329song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Jake Bugg - Lightning Bolt - Official Video')\" title=\"search for Jake Bugg - Lightning Bolt - Official Video\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85871329headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Jake+Bugg\" title=\"Listen to Jake Bugg\">Jake Bugg<\/a> &ndash; <a href=\"\/listen\/Jake+Bugg::Lightning+Bolt\u2013Official+Video\" title=\"Listen to Jake Bugg - Lightning Bolt - Official Video\">Lightning Bolt - Official Video<\/a><\/h3><\/span>\n                | <span id=\"playpause85871329\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1f4iqp\" rel=\"nofollow\">Jul 30, 2013 at 12:13 am<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=fY0oPg1h8fQ&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon85871329\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85871329\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85871329\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85871329\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85871329actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1f4iqp', 'Jake Bugg - Lightning Bolt - Official Video')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85871329actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85871329)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1375168434", headline: "Jake Bugg - Lightning Bolt - Official Video", via: "YouTube"},
+{id: 85900784, ownerId: 300001, elm: $('tweem85900784'), url: "gGSUl0RbK5Q", type: "youtubeVideo", html: "<div id=\"tweem85900784\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem85900784owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem85900784message\">Last of the Summer Wine ~ Palma Violets<\/span>\n                            <\/div>\n            <div id=\"tweem85900784song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Palma Violets - Last of the Summer Wine (Official Video)')\" title=\"search for Palma Violets - Last of the Summer Wine (Official Video)\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem85900784headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Palma+Violets\" title=\"Listen to Palma Violets\">Palma Violets<\/a> &ndash; <a href=\"\/listen\/Palma+Violets::Last+of+the+Summer+Wine+(Official+Video)\" title=\"Listen to Palma Violets - Last of the Summer Wine (Official Video)\">Last of the Summer Wine (Official Video)<\/a><\/h3><\/span>\n                | <span id=\"playpause85900784\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1f55gw\" rel=\"nofollow\">Aug 2, 2013 at 12:38 am<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=gGSUl0RbK5Q&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon85900784\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=85900784\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes85900784\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=85900784\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem85900784actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1f55gw', 'Palma Violets - Last of the Summer Wine (Official Video)')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem85900784actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(85900784)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1375429122", headline: "Palma Violets - Last of the Summer Wine (Official Video)", via: "YouTube"},
+{id: 87073534, ownerId: 300001, elm: $('tweem87073534'), url: "Ibvo-I_rZjc", type: "youtubeVideo", html: "<div id=\"tweem87073534\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem87073534owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem87073534message\">Night Castle - Trans-Siberian Orchestra @ACatThatNaps ...are you getting this??<\/span>\n                            <\/div>\n            <div id=\"tweem87073534song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Night Castle - Trans-Siberian Orchestra')\" title=\"search for Night Castle - Trans-Siberian Orchestra\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem87073534headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Night+Castle\" title=\"Listen to Night Castle\">Night Castle<\/a> &ndash; <a href=\"\/listen\/Night+Castle::Trans-Siberian+Orchestra\" title=\"Listen to Night Castle - Trans-Siberian Orchestra\">Trans-Siberian Orchestra<\/a><\/h3><\/span>\n                | <span id=\"playpause87073534\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1fuada\" rel=\"nofollow\">Dec 20, 2013 at 11:04 pm<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=Ibvo-I_rZjc&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon87073534\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=87073534\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes87073534\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=87073534\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem87073534actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1fuada', 'Night Castle - Trans-Siberian Orchestra')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem87073534actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(87073534)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1387609466", headline: "Night Castle - Trans-Siberian Orchestra", via: "YouTube"},
+{id: 87717505, ownerId: 300001, elm: $('tweem87717505'), url: "HVqkfV1WDDg", type: "youtubeVideo", html: "<div id=\"tweem87717505\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem87717505owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem87717505message\">I'll be  Waiting ~ Adele ~ via @twistabout<\/span>\n                            <\/div>\n            <div id=\"tweem87717505song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Adele - I\\'ll be waiting lyrics')\" title=\"search for Adele - I\\'ll be waiting lyrics\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem87717505headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Adele\" title=\"Listen to Adele\">Adele<\/a> &ndash; <a href=\"\/listen\/Adele::I'll+be+waiting+lyrics\" title=\"Listen to Adele - I&#039;ll be waiting lyrics\">I&#039;ll be waiting lyrics<\/a><\/h3><\/span>\n                | <span id=\"playpause87717505\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1g839d\" rel=\"nofollow\">Mar 15, 2014 at 1:07 am<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=HVqkfV1WDDg&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon87717505\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=87717505\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes87717505\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=87717505\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem87717505actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1g839d', 'Adele - I\\'ll be waiting lyrics')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem87717505actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(87717505)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1394870875", headline: "Adele - I&#039;ll be waiting lyrics", via: "YouTube"},
+{id: 87717517, ownerId: 300001, elm: $('tweem87717517'), url: "y374WwqZtOI", type: "youtubeVideo", html: "<div id=\"tweem87717517\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem87717517owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem87717517message\"><a class=\"replyLink\"  href=\"\/sergiovds\" rel=\"nofollow\">@sergiovds<\/a>: \"Brazilian music 60's - album Quarteto Novo (Quarteto Novo)\"<\/span>\n                                <a class=\"reblip\" title=\"view the original blip\" href=\"http:\/\/blip.fm\/~1g81ia\" rel=\"nofollow\">(reblip)<\/a>\n                            <\/div>\n            <div id=\"tweem87717517song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Quarteto Novo (1967) - Album completo - Full Album')\" title=\"search for Quarteto Novo (1967) - Album completo - Full Album\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem87717517headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Quarteto+Novo+(1967)\" title=\"Listen to Quarteto Novo (1967)\">Quarteto Novo (1967)<\/a> &ndash; <a href=\"\/listen\/Quarteto+Novo+(1967)::Album+completo\u2013Full+Album\" title=\"Listen to Quarteto Novo (1967) - Album completo - Full Album\">Album completo - Full Album<\/a><\/h3><\/span>\n                | <span id=\"playpause87717517\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1g839p\" rel=\"nofollow\">Mar 15, 2014 at 1:11 am<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=y374WwqZtOI&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon87717517\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=87717517\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes87717517\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=87717517\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem87717517actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1g839p', 'Quarteto Novo (1967) - Album completo - Full Album')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem87717517actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(87717517)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1394871065", headline: "Quarteto Novo (1967) - Album completo - Full Album", via: "YouTube"},
+{id: 87997420, ownerId: 300001, elm: $('tweem87997420'), url: "e-aaencD-dY", type: "youtubeVideo", html: "<div id=\"tweem87997420\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem87997420owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem87997420message\"><\/span>\n                            <\/div>\n            <div id=\"tweem87997420song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Tom Odell - Another Love (Short Film)')\" title=\"search for Tom Odell - Another Love (Short Film)\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem87997420headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Tom+Odell\" title=\"Listen to Tom Odell\">Tom Odell<\/a> &ndash; <a href=\"\/listen\/Tom+Odell::Another+Love+(Short+Film)\" title=\"Listen to Tom Odell - Another Love (Short Film)\">Another Love (Short Film)<\/a><\/h3><\/span>\n                | <span id=\"playpause87997420\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1ge38s\" rel=\"nofollow\">Apr 22, 2014 at 11:12 am<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=e-aaencD-dY&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon87997420\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=87997420\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes87997420\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=87997420\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem87997420actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1ge38s', 'Tom Odell - Another Love (Short Film)')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem87997420actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(87997420)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1398190356", headline: "Tom Odell - Another Love (Short Film)", via: "YouTube"},
+{id: 87997428, ownerId: 300001, elm: $('tweem87997428'), url: "eil9Dw2flcE", type: "youtubeVideo", html: "<div id=\"tweem87997428\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem87997428owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem87997428message\"><\/span>\n                            <\/div>\n            <div id=\"tweem87997428song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('Dido - Life for rent with Lyrics')\" title=\"search for Dido - Life for rent with Lyrics\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem87997428headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/Dido\" title=\"Listen to Dido\">Dido<\/a> &ndash; <a href=\"\/listen\/Dido::Life+for+rent+with+Lyrics\" title=\"Listen to Dido - Life for rent with Lyrics\">Life for rent with Lyrics<\/a><\/h3><\/span>\n                | <span id=\"playpause87997428\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1ge390\" rel=\"nofollow\">Apr 22, 2014 at 11:13 am<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=eil9Dw2flcE&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon87997428\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=87997428\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes87997428\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=87997428\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem87997428actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1ge390', 'Dido - Life for rent with Lyrics')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem87997428actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(87997428)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1398190418", headline: "Dido - Life for rent with Lyrics", via: "YouTube"},
+{id: 87997445, ownerId: 300001, elm: $('tweem87997445'), url: "elC-bXqLx-Y", type: "youtubeVideo", html: "<div id=\"tweem87997445\" class=\"tweem \">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem87997445owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem87997445message\"><\/span>\n                            <\/div>\n            <div id=\"tweem87997445song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('If You Want Me - Marketa Irglova + Glen Hansard (Once)')\" title=\"search for If You Want Me - Marketa Irglova + Glen Hansard (Once)\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem87997445headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/If+You+Want+Me\" title=\"Listen to If You Want Me\">If You Want Me<\/a> &ndash; <a href=\"\/listen\/If+You+Want+Me::Marketa+Irglova+++Glen+Hansard+(Once)\" title=\"Listen to If You Want Me - Marketa Irglova + Glen Hansard (Once)\">Marketa Irglova + Glen Hansard (Once)<\/a><\/h3><\/span>\n                | <span id=\"playpause87997445\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1ge39h\" rel=\"nofollow\">Apr 22, 2014 at 11:16 am<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=elC-bXqLx-Y&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon87997445\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=87997445\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes87997445\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=87997445\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem87997445actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1ge39h', 'If You Want Me - Marketa Irglova + Glen Hansard (Once)')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem87997445actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(87997445)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1398190588", headline: "If You Want Me - Marketa Irglova + Glen Hansard (Once)", via: "YouTube"},
+{id: 87997456, ownerId: 300001, elm: $('tweem87997456'), url: "fweNLKBCh5A", type: "youtubeVideo", html: "<div id=\"tweem87997456\" class=\"tweem  first\">\n        <div class=\"content\">\n        <div style=\"position:relative;\">\n            <div class=\"body\">\n                <a id=\"tweem87997456owner\" href=\"\/worryknot\" rel=\"nofollow\">worryknot<\/a>\n                <span id=\"tweem87997456message\"><\/span>\n                            <\/div>\n            <div id=\"tweem87997456song\" class=\"song clearfix\">\n                <a class=\"clickable blipTypeIcon\" onclick=\"searchtastic('The Shins - It\\'s Only Life (Official Music Video)')\" title=\"search for The Shins - It\\'s Only Life (Official Music Video)\" rel=\"nofollow\"><div class=\"videoicon-sm\"><\/div><\/a> \n                <span id=\"tweem87997456headline\"><h3 class=\"blipTitle\"><a href=\"\/listen\/The+Shins\" title=\"Listen to The Shins\">The Shins<\/a> &ndash; <a href=\"\/listen\/The+Shins::It's+Only+Life+(Official+Music+Video)\" title=\"Listen to The Shins - It&#039;s Only Life (Official Music Video)\">It&#039;s Only Life (Official Music Video)<\/a><\/h3><\/span>\n                | <span id=\"playpause87997456\" class=\"playpause\">play<\/span>\n            <\/div>\n            <div class=\"date\">\n                <a href=\"http:\/\/blip.fm\/~1ge39s\" rel=\"nofollow\">Apr 22, 2014 at 11:18 am<\/a> via <a href=\"http:\/\/www.youtube.com\/watch?v=fweNLKBCh5A&feature=youtube_gdata_player\" target=\"_blank\" class=\"via\" rel=\"nofollow\">YouTube<\/a>                 | <a id=\"buyAmazon87997456\" class=\"buy\" href=\"\/buy?affl=amazon&blipId=87997456\" target=\"_blank\" rel=\"nofollow\">AMAZON<\/a> | <a id=\"buyITunes87997456\" class=\"buy\" href=\"\/buy?affl=itunes&blipId=87997456\" target=\"_blank\" rel=\"nofollow\">ITUNES<\/a>                                            <\/div>\n            <div id=\"tweem87997456actions\" class=\"actions\" style=\"display: none\">\n                <ul>\n                    <li class=\"share\">\n    <a href=\"http:\/\/www.addthis.com\/bookmark.php?v=250&amp;pub=Blip.fm\"\n        class=\"addThisButton\"\n        onclick=\"return addthis_open(this, '', 'http:\/\/blip.fm\/~1ge39s', 'The Shins - It\\'s Only Life (Official Music Video)')\"\n        onclick=\"return addthis_sendto()\"><span class=\"hideme\">share<\/span><\/a>\n<\/li>                                        <li id=\"tweem87997456actionsmenu\" class=\"actionsmenu\"><a class=\"clickable\" onclick=\"BlipUI.toggleActionMenu(87997456)\"><\/a><\/li>\n                <\/ul>\n            <\/div>\n        <\/div>\n            <\/div>\n<\/div>\n", unixTime: "1398190700", headline: "The Shins - It&#039;s Only Life (Official Music Video)", via: "YouTube"}]
+};
+            if(context) {
+                context.wrapper = 'chrome';
+                Blip.setContext(context);
+            };
+            $E.on (window, 'load', function () {
+				                                
+                // start loading ads once the page has loaded
+                Blip.ads = new ActiveRotation({
+                rotationUrl: BASE_URL + '/ad/activeRotation',
+                minDisplayTime: 40000,
+                slots: [
+					                    {name: '728x90', containerId: 'slot728x90', width: 728, height: 90},
+                    {name: '300x250', containerId: 'slot300x250', width: 300, height: 250},
+                    //{name: '160x600', containerId: 'slot160x600', width: 160, height: 600}
+                    {name: '300x600', containerId: 'slot300x600', width: 300, height: 600}
+                ]});
+                                
+                // dynamically load non-essential scripts (analytics, widgets, ads etc...)
+                  
+                loadDynamicScript ('http://s7.addthis.com/js/250/addthis_widget.js?pub=Blip.fm', 'addthisJs');
+                                                loadDynamicScript ('http://cdn.blipstatic.com/js/QuickSignup.19.js', 'blip_QuickSignup.19Js');
+                                loadDynamicScript ('http://cdn.blipstatic.com/js/profile.19.js', 'blip_profile.19Js');
+                                                            });
+        </script>
+        <!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-b0cBKofGeCYKg"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-b0cBKofGeCYKg.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-c4o3JsfzdTxY6"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<a href="http://www.quantcast.com/p-c4o3JsfzdTxY6" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-c4o3JsfzdTxY6.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+<!-- End Quantcast tag --><!-- Retargeter.com Tag -->
+<img src="http://ad.adtegrity.net/pixel?id=557210&t=2" width="1" height="1" />
+<img src="http://ad.doubleclick.net/activity;src=2053556;dcnet=4591;boom=22507;sz=1x1;ord=1?"width="1" height="1" border="0" alt="">
+<!-- End of Retargeter.com Tag -->
+                                   
+                
+        <div id="createUserAccountDialog" class="rounded hide">
+    <div class="content">
+        <div class="wrapper">
+        <div class="t"></div>
+            <div class="hd">Sign up to continue blipping</div>
+            <div class="bd" id="signupQuick">
+				<p>Already have an account? <a class="clickable" onclick="Blip.quickSignup.swapDialogs();">Log In</a></p>
+                                <form name="quickSignup" id="quickSignup" action="http://blip.fm/signup/saveAjax" method="POST">
+                    <input type="hidden" name="signup[follow]" value="66225" />
+					<div>
+                        <label for="signupUrlName">DJ name</label>
+                        <input type="text" maxlength="30" name="signup[urlName]" id="signupUrlName" />
+                    </div>
+                    <div>
+                        <label for="emailAddress">Email Address</label>
+                        <input type="text" maxlength="255" name="signup[emailAddress]" id="emailAddress"/>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="tos" checked="checked" />
+                        I agree to the Blip.fm <a target="terms" href="/corp/terms">terms of use</a>
+                    </div>
+                                    </form>
+            </div>
+            <div class="ft"><span></span></div>
+        </div>
+    </div>
+    <div class="b"><div></div></div>
+</div>
+<div id="loginUserAccountDialog" class="rounded hide">
+    <div class="content">
+        <div class="wrapper">
+        <div class="t"></div>
+            <div class="hd">Log in to continue</div>
+            <div class="bd" id="loginQuick">
+                <p>Need an account? <a class="clickable" onclick="Blip.quickSignup.swapDialogs();">Sign Up</a></p>
+                <form name="quickLogin" id="quickLogin" action="http://blip.fm/login/ajaxAuth" method="POST">
+                    <input type="hidden" name="ajax" id="ajax" value="true" />
+                    <div>
+                        <label for="username">Username</label>
+                        <input type="text" name="username" />
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" />
+                    </div>
+                    <div>
+                        <input type="checkbox" name="rememberMe" checked="checked" />
+                        Remember me
+                    </div>
+                </form>
+            </div>
+            <div class="ft"><span></span></div>
+        </div>
+    </div>
+    <div class="b"><div></div></div>
+</div>    </body>
+</html>

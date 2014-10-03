@@ -1,0 +1,427 @@
+   #[1]RSS [2]Suchen [3]Impressum
+
+   [4]vb-hellfire visual basic faq - antworten auf die häufigsten fragen
+
+
+
+   [5]RSS
+   __________________
+   [6]Startseite[7]Knowledge Library[8]Top 10[9]Impressum
+
+     * themen
+     * [10]Informationen zu dieser FAQ
+     * [11]Allgemein
+     * [12]IDE
+     * [13]Formulare
+     * [14]Steuerelemente
+     * [15]Datenbanken
+     * [16]Dateien
+     * [17]Internet/Netzwerk
+     * [18]Automatisierung (ActiveX/COM)
+     * [19]Windows System
+     * [20]Vertrieb und Installation
+
+Neuigkeiten
+
+   26.08.2011
+          [21]Facelift und das Ende von vb-hellfire.de
+          Nach über 10 Jahren beinahe ohne sichtbare Veränderung dachte
+          ich, wäre es doch mal an der Zeit etwas Neues zu machen. Um Raum
+          für Neues zu schaffen, muss das Alte aber erst Mal weg.
+
+   15.05.2011
+          [22]Die Frage nach der IP
+          Der IP Service myip.bdsw.de wird ab 29.05.2011 nicht mehr
+          erreichbar sein. Über diesen Stichtag hinaus ist dieser nunmehr
+          nur noch über [23]http://myip.tdsw.de/ abrufbar. Die Adresse im
+          Artikel und Beispielprojekt wurden bereits im Februar
+          entsprechend aktualisiert.
+
+   13.02.2011
+          [24]Mit Bordmitteln die öffentliche IP-Adresse hinter einem
+          Hardware-Router ermitteln
+          Immer mehr Nutzer gehen mit DSL online. Meist erfolgt dieser
+          Zugang über einen Router, mit W-LAN, Firewall und allem was dazu
+          gehört, damit man selbst, seine Familie, Freunde oder
+          WG-Kollegen halbwegs sicher im Internet unterwegs sein können.
+          Damit ist aber auch der Nachteil verbunden, dass man auf dem
+          eigenen Rechner nicht mehr ohne weiteres die öffentliche
+          IP-Adresse in Erfahrung bringen kann, wie bei der klassischen
+          RAS-Einwahl.
+
+   06.10.2010
+          [25]Wo finde ich weitere Hilfestellungen?
+          Weitergehende Hilfe zu Problemen mit Visual Basic in den
+          Versionen 1.0-6.0 gibt es unter anderem ...
+
+  [26]1. Informationen zu dieser FAQ
+
+     * [27]Wer trägt zu dieser FAQ bei?
+     * [28]Bezug der vb-hellfire Visual Basic FAQ
+     * [29]Über dieses Dokument
+     * [30]Wo finde ich weitere Hilfestellungen?
+     * [31]Was ist mit den Microsoft Newsgroups passiert?
+
+  [32]2. Allgemein
+
+     * [33]Kann man mit VB ausführbare Programme erstellen, die keine
+       Runtime benötigen?
+     * [34]Kann man VB Programme decompilieren?
+     * [35]Können VB Programme ohne Installation von CD gestartet werden
+       (Autorun)?
+     * [36]Wie greife ich auf die Zwischenablage zu?
+     * [37]Wie kann ich den aktuellen Prozedurnamen herausfinden?
+     * [38]Wie kann ich Bilder scrollen?
+     * [39]Wie kann ich AVI-Dateien anzeigen und abspielen?
+     * [40]Wie kann ich eine Programm-Pause erreichen?
+     * [41]Wie kann ich eine Zeichenfolge aufteilen?
+     * [42]Wie spiele ich einen Wave - Sound ab?
+     * [43]Wie kann ich Menüeinträge mit Icons versehen?
+     * [44]Wie verhindere ich das Beenden meines Programms?
+     * [45]Wie kann man Daten einfach verschlüsseln?
+     * [46]Wie kann sicherstellen, dass nur eine Programminstanz
+       ausgeführt wird?
+     * [47]Wie lässt sich feststellen, ob der Benutzer bei der InputBox
+       "Abbrechen" gewählt hat?
+     * [48]Wie nutze ich Drag & Drop in meiner Anwendung?
+     * [49]Woher bekomme ich Symbole für meine Anwendung?
+     * [50]Wie gebe ich animierte GIF Grafiken in meiner Anwendung wieder?
+     * [51]Was unterscheidet VB von VBA?
+     * [52]Welche Bezugsmöglichkeiten bestehen für Visual Basic 6.0?
+     * [53]Wie kann ich feststellen, ob ein dynamisches Array leer ist?
+     * [54]Wie stelle ich fest, ob ein Key in einer Collection vorhanden
+       ist?
+     * [55]Kann ich meine VB6 Anwendungen nach VB.NET übernehmen?
+     * [56]Wie verwende ich benutzerdefinierte Typen in öffentlichen
+       Methoden?
+     * [57]Müssen Objektvariablen auf Nothing gesetzt werden?
+     * [58]Warum wird mein Mauszeiger nicht geändert?
+     * [59]Wirkt sich die Verwendung von Konstanten negativ auf die
+       Performance aus?
+     * [60]Was ist der Unterschied zwischen + und & bei der
+       Zeichenfolgen-Verkettung?
+
+  [61]3. IDE
+
+     * [62]Wie behebe ich "Systemfehler &H80004002 (-2147467262).
+       Schnittstelle nicht unterstützt."?
+     * [63]Wie behebe ich "Lizenzierungsinformationen für diese Komponente
+       nicht gefunden."?
+     * [64]VB6 verlangt nach dem Start die Installation von VBA6.MSI /
+       VBA6DE.MSI?
+     * [65]Wie erreiche ich, dass Fenster in der IDE maximiert angezeigt
+       werden?
+     * [66]VB meldet "Projekt oder Bibliothek nicht gefunden" bei
+       VBA-Funktionen?
+     * [67]Warum kann ich keine Projekte mehr kompilieren?
+     * [68]Warum funktioniert mein Scroll-Rad nicht in der VB-IDE?
+     * [69]Welches Service Pack ist aktuell?
+     * [70]Beim Kompilieren erhalte ich den Fehler "Zugriff verweigert"
+       oder Link.exe Fehler?
+     * [71]Warum stürzt die VB-IDE ab, wenn ich die Ausführung beende
+       (Stop-Button)?
+     * [72]Warum erhalte ich beim Auswählen von Komponenten die Meldung
+       "Zugriff verweigert"?
+
+  [73]4. Formulare
+
+     * [74]Wie kann ich feststellen, ob ein Formular bereits geladen ist?
+     * [75]Wie erstelle ich ein Fenster ohne Titelleiste?
+     * [76]Wie halte ich ein Formular immer im Vordergrund?
+     * [77]Wie zeige ich ein neues Formular an ohne es zu aktivieren?
+     * [78]Wie kann ich Formulare ohne Titelleiste verschieben?
+     * [79]Wie schalte ich ein Formular transparent?
+     * [80]Wie ermittel ich den Handle eines externen Fensters?
+     * [81]Warum werden meine Menü-Shortcuts nicht angezeigt?
+     * [82]Wie stelle ich ein Formular wieder her (normal/maximiert)?
+     * [83]Warum wird mein Formular nicht in der Taskleiste angezeigt?
+     * [84]Wie lagere ich MDI Child-Formulare in DLLs aus?
+
+  [85]5. Steuerelemente
+
+     * [86]Wie füge ich Steuerelemente zur Laufzeit hinzu?
+     * [87]Wie speichert man ListBox-Einträge?
+     * [88]Gibt es ein MouseOut Ereignis für Controls?
+     * [89]Wie kann ich das Beep-Signal bei Return in einer TextBox
+       abschalten?
+     * [90]Wie markiere ich den Inhalt eines Textfeldes bei Fokuserhalt?
+     * [91]Wie stelle ich UserControl Toolbox Bitmaps richtig dar?
+     * [92]Wie kann ich die Common Dialogs ohne Form verwenden?
+     * [93]Wie stelle ich fest, ob der Benutzer beim Common Dialog
+       "Abbrechen" gewählt hat?
+     * [94]Wie kann ich den ListIndex einer Combo-/ ListBox setzen ohne
+       das Click - Ereignis auszulösen?
+     * [95]Wie kann ich eine ComboBox automatisch aufklappen lassen?
+     * [96]Wie kann ich ein FlexGrid mit einer Eingabemöglichkeit
+       versehen?
+     * [97]Wie erreicht man einen Feldwechsel mit der Eingabe- statt mit
+       der TAB-Taste?
+     * [98]Wie kann ich eine DataCombo automatisch aufklappen lassen?
+     * [99]Wie zeige ich ein Kontextmenü in einem ListView/TreeView an?
+     * [100]Wie speichere ich Dateien mit dem Common Dialog?
+     * [101]Wie stelle ich mehrere Spalten in einer ListBox dar?
+     * [102]Wie selektiere ich einen Eintrag im ListView?
+     * [103]Wie stelle ich fest, ob ein Eintrag im ListView wirklich
+       ausgewählt ist?
+     * [104]Wie erstelle ich einen Info-Dialog für eigene Steuerelemente?
+     * [105]Wie erhalte ich eine Eigenschaft zur Farbauswahl?
+     * [106]Wie erhalte ich eine Eigenschaft zur Grafikauswahl?
+     * [107]Wie erhalte ich eine Eigenschaft zur Schriftauswahl?
+     * [108]Wie entferne ich eine Auswahl beim ListView?
+     * [109]Wie kann ich den Index eines Optionsfeld-Array ermitteln?
+     * [110]Wie ändere ich die Schriftfarbe bei einen CommandButton?
+     * [111]Wie kann ich auf implementierte Schnittstellen eines
+       UserControl zugreifen?
+
+  [112]6. Datenbanken
+
+     * [113]Warum liefern die AbsolutePosition-/ RecordCount -
+       Eigenschaften immer -1? (ADO)
+     * [114]Warum wird der OLE DB Provider Jet 3.51/4.0 nicht gefunden?
+       (ADO)
+     * [115]Wie erfasse ich Dezimalzahlen in ADO-Recordsets?
+     * [116]Wie ermittel ich den Wert eines AutoIncrease- Feldes direkt
+       nach Hinzufügen des Datensatzes?
+     * [117]Wie öffnet man eine Passwortgeschützte Datenbank (DAO)?
+
+  [118]7. Dateien
+
+     * [119]Wie kann ich die Größe einer Datei ermitteln?
+     * [120]Wie kann ich feststellen, ob eine Datei bereits geöffnet ist?
+     * [121]Wie extrahiere ich Symbole aus einer Datei und zeige diese an?
+     * [122]Wie ermittel ich die Datenträger-Bezeichnung/ -Nummer ?
+     * [123]Wie ermittel ich den Pfad der temporären Dateien?
+     * [124]Wie ermittel ich den Pfad des Windows Ordner?
+     * [125]Wie ermittel ich den Pfad des Windows-System Ordner?
+     * [126]Wie ermittel ich den Pfad eines besonderen Ordners (z.B.
+       "Eigene Dateien")?
+     * [127]Wie öffne ich eine Datei mit der ihr zugeordneten Anwendung?
+     * [128]Wie stelle ich fest, ob eine Datei/ ein Verzeichnis schon
+       existiert?
+     * [129]Wie ermittel ich den Pfad des Anwendungsverzeichnisses?
+     * [130]Wie stelle ich fest, ob ein Laufwerk bereit ist?
+     * [131]Wie kann ich bei der Shell-Funktion ein Arbeitsverzeichnis
+       mitgeben?
+
+  [132]8. Internet/Netzwerk
+
+     * [133]Wie stelle ich fest, ob eine DFÜ Verbindung besteht?
+     * [134]Wie ermittel ich den Rechnernamen?
+     * [135]Wie ermittel ich den Anmeldenamen des aktuellen Benutzers?
+
+  [136]9. Automatisierung (ActiveX/COM)
+
+     * [137]Wie kann ich Word von VB aus fernsteuern?
+     * [138]Wie stelle ich fest, ob Word bereits geöffnet ist?
+     * [139]Komfortable Late-Bound Office Automation
+     * [140]Lösen nicht vorhandene Verweise einen Fehler aus?
+     * [141]Wie kann ich feststellen, ob ein Objekt registriert ist?
+
+  [142]10. Windows System
+
+     * [143]Wie erstelle ich ein Symbol im Taskleisten-Statusbereich
+       (Tray)?
+     * [144]Wie greife ich auf die Windows-Registrierung zu?
+     * [145]Wie ermittel ich die aktuelle Bildschirmauflösung?
+     * [146]Wie kann ich Umgebungsvariablen auslesen?
+     * [147]Wie ermittel ich die aktuelle Mausposition?
+     * [148]Wie kann ich den Mauszeiger versetzen?
+     * [149]Wie blende ich den Mauszeiger aus?
+     * [150]Wie erreiche ich, dass ein DOS Fenster automatisch nach der
+       Ausführung geschlossen wird?
+     * [151]Wie greife ich auf INI-Dateien zu?
+     * [152]Wie kann ich Windows von VB aus neu starten/beenden?
+     * [153]Wie rufe ich den Beenden-/ Ausführen- Dialog von Windows auf?
+     * [154]Wie kann ich die Arbeitsstation sperren/den Benutzer wechseln
+       Bildschirm anzeigen?
+     * [155]Wie kann ich Einstiegspunkte und Parameter unbekannter DLLs
+       ermitteln?
+     * [156]Wie stelle ich fest, ob eine Soundkarte installiert ist?
+     * [157]Wie kann ich die Größe des verfügbaren Arbeitsbereichs
+       ermitteln?
+     * [158]Wie liste ich die verfügbaren seriellen Schnittstellen auf?
+
+  [159]11. Vertrieb und Installation
+
+     * [160]Wie erstelle ich ein Setup mit Inno Setup?
+     * [161]Wie kann ich Dateien automatisch meinem Installationspaket
+       hinzufügen lassen?
+     * [162]Wie behebe ich den Fehler "Fehler beim Registrieren der
+       'msadoxx.tlb'"?
+     * [163]Warum wird eine aktuellere Version meines Programms nicht
+       durchs Setup ersetzt?
+     * [164]Wie erstelle ich ein Setup mit Inno Setup? II
+     * [165]Warum erfordert das Setup einen Neustart von Windows?
+     * [166]Wie erstelle ich internationale Setuppakete?
+
+   [167]Copyright ©1999-2011 Thorsten Dörfler. Alle Rechte vorbehalten.
+
+References
+
+   1. http://vb-faq.de/news.rss
+   2. http://classic.vb-faq.de/search.php
+   3. http://classic.vb-faq.de/imprint.php
+   4. http://classic.vb-faq.de/
+   5. http://classic.vb-faq.de/news.rss
+   6. http://classic.vb-faq.de/
+   7. http://classic.vb-faq.de/knowlib/
+   8. http://classic.vb-faq.de/top10.php
+   9. http://classic.vb-faq.de/imprint.php
+  10. http://classic.vb-faq.de/?Topic=12
+  11. http://classic.vb-faq.de/?Topic=1
+  12. http://classic.vb-faq.de/?Topic=2
+  13. http://classic.vb-faq.de/?Topic=15
+  14. http://classic.vb-faq.de/?Topic=3
+  15. http://classic.vb-faq.de/?Topic=4
+  16. http://classic.vb-faq.de/?Topic=14
+  17. http://classic.vb-faq.de/?Topic=5
+  18. http://classic.vb-faq.de/?Topic=10
+  19. http://classic.vb-faq.de/?Topic=6
+  20. http://classic.vb-faq.de/?Topic=11
+  21. http://classic.vb-faq.de/news/facelift/
+  22. http://classic.vb-faq.de/knowlib/assignedip/
+  23. http://myip.tdsw.de/
+  24. http://classic.vb-faq.de/knowlib/assignedip/
+  25. http://classic.vb-faq.de/wo-finde-ich-weitere-hilfestellungen/
+  26. http://classic.vb-faq.de/?Topic=12
+  27. http://classic.vb-faq.de/wer-traegt-zu-dieser-faq-bei/
+  28. http://classic.vb-faq.de/bezug-der-vb-hellfire-visual-basic-faq/
+  29. http://classic.vb-faq.de/ber-dieses-dokument/
+  30. http://classic.vb-faq.de/wo-finde-ich-weitere-hilfestellungen/
+  31. http://classic.vb-faq.de/was-ist-mit-den-microsoft-newsgroups-passiert/
+  32. http://classic.vb-faq.de/?Topic=1
+  33. http://classic.vb-faq.de/kann-man-mit-vb-ausfuehrbare-programme-erstellen-die-keine-runtime-benoetigen/
+  34. http://classic.vb-faq.de/kann-man-vb-programme-decompilieren/
+  35. http://classic.vb-faq.de/koennen-vb-programme-ohne-installation-von-cd-gestartet-werden-autorun/
+  36. http://classic.vb-faq.de/wie-greife-ich-auf-die-zwischenablage-zu/
+  37. http://classic.vb-faq.de/wie-kann-ich-den-aktuellen-prozedurnamen-herausfinden/
+  38. http://classic.vb-faq.de/wie-kann-ich-bilder-scrollen/
+  39. http://classic.vb-faq.de/wie-kann-ich-avi-dateien-anzeigen-und-abspielen/
+  40. http://classic.vb-faq.de/wie-kann-ich-eine-programm-pause-erreichen/
+  41. http://classic.vb-faq.de/wie-kann-ich-eine-zeichenfolge-aufteilen/
+  42. http://classic.vb-faq.de/wie-spiele-ich-einen-wave---sound-ab/
+  43. http://classic.vb-faq.de/wie-kann-ich-menueeintraege-mit-icons-versehen/
+  44. http://classic.vb-faq.de/wie-verhindere-ich-das-beenden-meines-programms/
+  45. http://classic.vb-faq.de/wie-kann-man-daten-einfach-verschluesseln/
+  46. http://classic.vb-faq.de/wie-kann-sicherstellen-dass-nur-eine-programminstanz-ausgefuehrt-wird/
+  47. http://classic.vb-faq.de/wie-laesst-sich-feststellen-ob-der-benutzer-bei-der-inputbox-abbrechen-gewaehlt-hat/
+  48. http://classic.vb-faq.de/wie-nutze-ich-drag--drop-in-meiner-anwendung/
+  49. http://classic.vb-faq.de/woher-bekomme-ich-symbole-fuer-meine-anwendung/
+  50. http://classic.vb-faq.de/wie-gebe-ich-animierte-gif-grafiken-in-meiner-anwendung-wieder/
+  51. http://classic.vb-faq.de/was-unterscheidet-vb-von-vba/
+  52. http://classic.vb-faq.de/welche-bezugsmoeglichkeiten-bestehen-fuer-visual-basic-60/
+  53. http://classic.vb-faq.de/wie-kann-ich-feststellen-ob-ein-dynamisches-array-leer-ist/
+  54. http://classic.vb-faq.de/wie-stelle-ich-fest-ob-ein-key-in-einer-collection-vorhanden-ist/
+  55. http://classic.vb-faq.de/kann-ich-meine-vb6-anwendungen-nach-vbnet-uebernehmen/
+  56. http://classic.vb-faq.de/wie-verwende-ich-benutzerdefinierte-typen-in-oeffentlichen-methoden/
+  57. http://classic.vb-faq.de/muessen-objektvariablen-auf-nothing-gesetzt-werden/
+  58. http://classic.vb-faq.de/warum-wird-mein-mauszeiger-nicht-geaendert/
+  59. http://classic.vb-faq.de/wirkt-sich-die-verwendung-von-konstanten-negativ-auf-die-performance-aus/
+  60. http://classic.vb-faq.de/was-ist-der-unterschied-zwischen--und--bei-der-zeichenfolgen-verkettung/
+  61. http://classic.vb-faq.de/?Topic=2
+  62. http://classic.vb-faq.de/wie-behebe-ich-systemfehler-h80004002--2147467262-schnittstelle-nicht-unterstuetzt/
+  63. http://classic.vb-faq.de/wie-behebe-ich-lizenzierungsinformationen-fuer-diese-komponente-nicht-gefunden/
+  64. http://classic.vb-faq.de/vb6-verlangt-nach-dem-start-die-installation-von-vba6msi--vba6demsi/
+  65. http://classic.vb-faq.de/wie-erreiche-ich-dass-fenster-in-der-ide-maximiert-angezeigt-werden/
+  66. http://classic.vb-faq.de/vb-meldet-projekt-oder-bibliothek-nicht-gefunden-bei-vba-funktionen/
+  67. http://classic.vb-faq.de/warum-kann-ich-keine-projekte-mehr-kompilieren/
+  68. http://classic.vb-faq.de/warum-funktioniert-mein-scroll-rad-nicht-in-der-vb-ide/
+  69. http://classic.vb-faq.de/welches-service-pack-ist-aktuell/
+  70. http://classic.vb-faq.de/beim-kompilieren-erhalte-ich-den-fehler-zugriff-verweigert-oder-linkexe-fehler/
+  71. http://classic.vb-faq.de/warum-stuerzt-die-vb-ide-ab-wenn-ich-die-ausfuehrung-beende-stop-button/
+  72. http://classic.vb-faq.de/warum-erhalte-ich-beim-auswaehlen-von-komponenten-die-meldung-zugriff-verweigert/
+  73. http://classic.vb-faq.de/?Topic=15
+  74. http://classic.vb-faq.de/wie-kann-ich-feststellen-ob-ein-formular-bereits-geladen-ist/
+  75. http://classic.vb-faq.de/wie-erstelle-ich-ein-fenster-ohne-titelleiste/
+  76. http://classic.vb-faq.de/wie-halte-ich-ein-formular-immer-im-vordergrund/
+  77. http://classic.vb-faq.de/wie-zeige-ich-ein-neues-formular-an-ohne-es-zu-aktivieren/
+  78. http://classic.vb-faq.de/wie-kann-ich-formulare-ohne-titelleiste-verschieben/
+  79. http://classic.vb-faq.de/wie-schalte-ich-ein-formular-transparent/
+  80. http://classic.vb-faq.de/wie-ermittel-ich-den-handle-eines-externen-fensters/
+  81. http://classic.vb-faq.de/warum-werden-meine-menue-shortcuts-nicht-angezeigt/
+  82. http://classic.vb-faq.de/wie-stelle-ich-ein-formular-wieder-her-normalmaximiert/
+  83. http://classic.vb-faq.de/warum-wird-mein-formular-nicht-in-der-taskleiste-angezeigt/
+  84. http://classic.vb-faq.de/wie-lagere-ich-mdi-child-formulare-in-dlls-aus/
+  85. http://classic.vb-faq.de/?Topic=3
+  86. http://classic.vb-faq.de/wie-fuege-ich-steuerelemente-zur-laufzeit-hinzu/
+  87. http://classic.vb-faq.de/wie-speichert-man-listbox-eintraege/
+  88. http://classic.vb-faq.de/gibt-es-ein-mouseout-ereignis-fuer-controls/
+  89. http://classic.vb-faq.de/wie-kann-ich-das-beep-signal-bei-return-in-einer-textbox-abschalten/
+  90. http://classic.vb-faq.de/wie-markiere-ich-den-inhalt-eines-textfeldes-bei-fokuserhalt/
+  91. http://classic.vb-faq.de/wie-stelle-ich-usercontrol-toolbox-bitmaps-richtig-dar/
+  92. http://classic.vb-faq.de/wie-kann-ich-die-common-dialogs-ohne-form-verwenden/
+  93. http://classic.vb-faq.de/wie-stelle-ich-fest-ob-der-benutzer-beim-common-dialog-abbrechen-gewaehlt-hat/
+  94. http://classic.vb-faq.de/wie-kann-ich-den-listindex-einer-combo--listbox-setzen-ohne-das-click---ereignis-auszuloesen/
+  95. http://classic.vb-faq.de/wie-kann-ich-eine-combobox-automatisch-aufklappen-lassen/
+  96. http://classic.vb-faq.de/wie-kann-ich-ein-flexgrid-mit-einer-eingabemoeglichkeit-versehen/
+  97. http://classic.vb-faq.de/wie-erreicht-man-einen-feldwechsel-mit-der-eingabe--statt-mit-der-tab-taste/
+  98. http://classic.vb-faq.de/wie-kann-ich-eine-datacombo-automatisch-aufklappen-lassen/
+  99. http://classic.vb-faq.de/wie-zeige-ich-ein-kontextmenue-in-einem-listviewtreeview-an/
+ 100. http://classic.vb-faq.de/wie-speichere-ich-dateien-mit-dem-common-dialog/
+ 101. http://classic.vb-faq.de/wie-stelle-ich-mehrere-spalten-in-einer-listbox-dar/
+ 102. http://classic.vb-faq.de/wie-selektiere-ich-einen-eintrag-im-listview/
+ 103. http://classic.vb-faq.de/wie-stelle-ich-fest-ob-ein-eintrag-im-listview-wirklich-ausgewaehlt-ist/
+ 104. http://classic.vb-faq.de/wie-erstelle-ich-einen-info-dialog-fuer-eigene-steuerelemente/
+ 105. http://classic.vb-faq.de/wie-erhalte-ich-eine-eigenschaft-zur-farbauswahl/
+ 106. http://classic.vb-faq.de/wie-erhalte-ich-eine-eigenschaft-zur-grafikauswahl/
+ 107. http://classic.vb-faq.de/wie-erhalte-ich-eine-eigenschaft-zur-schriftauswahl/
+ 108. http://classic.vb-faq.de/wie-entferne-ich-eine-auswahl-beim-listview/
+ 109. http://classic.vb-faq.de/wie-kann-ich-den-index-eines-optionsfeld-array-ermitteln/
+ 110. http://classic.vb-faq.de/wie-aendere-ich-die-schriftfarbe-bei-einen-commandbutton/
+ 111. http://classic.vb-faq.de/wie-kann-ich-auf-implementierte-schnittstellen-eines-usercontrol-zugreifen/
+ 112. http://classic.vb-faq.de/?Topic=4
+ 113. http://classic.vb-faq.de/warum-liefern-die-absoluteposition--recordcount---eigenschaften-immer--1-ado/
+ 114. http://classic.vb-faq.de/warum-wird-der-ole-db-provider-jet-35140-nicht-gefunden-ado/
+ 115. http://classic.vb-faq.de/wie-erfasse-ich-dezimalzahlen-in-ado-recordsets/
+ 116. http://classic.vb-faq.de/wie-ermittel-ich-den-wert-eines-autoincrease--feldes-direkt-nach-hinzufuegen-des-datensatzes/
+ 117. http://classic.vb-faq.de/wie-oeffnet-man-eine-passwortgeschuetzte-datenbank-dao/
+ 118. http://classic.vb-faq.de/?Topic=14
+ 119. http://classic.vb-faq.de/wie-kann-ich-die-groesse-einer-datei-ermitteln/
+ 120. http://classic.vb-faq.de/wie-kann-ich-feststellen-ob-eine-datei-bereits-geoeffnet-ist/
+ 121. http://classic.vb-faq.de/wie-extrahiere-ich-symbole-aus-einer-datei-und-zeige-diese-an/
+ 122. http://classic.vb-faq.de/wie-ermittel-ich-die-datentraeger-bezeichnung--nummer-/
+ 123. http://classic.vb-faq.de/wie-ermittel-ich-den-pfad-der-temporaeren-dateien/
+ 124. http://classic.vb-faq.de/wie-ermittel-ich-den-pfad-des-windows-ordner/
+ 125. http://classic.vb-faq.de/wie-ermittel-ich-den-pfad-des-windows-system-ordner/
+ 126. http://classic.vb-faq.de/wie-ermittel-ich-den-pfad-eines-besonderen-ordners-zb-eigene-dateien/
+ 127. http://classic.vb-faq.de/wie-oeffne-ich-eine-datei-mit-der-ihr-zugeordneten-anwendung/
+ 128. http://classic.vb-faq.de/wie-stelle-ich-fest-ob-eine-datei-ein-verzeichnis-schon-existiert/
+ 129. http://classic.vb-faq.de/wie-ermittel-ich-den-pfad-des-anwendungsverzeichnisses/
+ 130. http://classic.vb-faq.de/wie-stelle-ich-fest-ob-ein-laufwerk-bereit-ist/
+ 131. http://classic.vb-faq.de/wie-kann-ich-bei-der-shell-funktion-ein-arbeitsverzeichnis-mitgeben/
+ 132. http://classic.vb-faq.de/?Topic=5
+ 133. http://classic.vb-faq.de/wie-stelle-ich-fest-ob-eine-df-verbindung-besteht/
+ 134. http://classic.vb-faq.de/wie-ermittel-ich-den-rechnernamen/
+ 135. http://classic.vb-faq.de/wie-ermittel-ich-den-anmeldenamen-des-aktuellen-benutzers/
+ 136. http://classic.vb-faq.de/?Topic=10
+ 137. http://classic.vb-faq.de/wie-kann-ich-word-von-vb-aus-fernsteuern/
+ 138. http://classic.vb-faq.de/wie-stelle-ich-fest-ob-word-bereits-geoeffnet-ist/
+ 139. http://classic.vb-faq.de/komfortable-late-bound-office-automation/
+ 140. http://classic.vb-faq.de/loesen-nicht-vorhandene-verweise-einen-fehler-aus/
+ 141. http://classic.vb-faq.de/wie-kann-ich-feststellen-ob-ein-objekt-registriert-ist/
+ 142. http://classic.vb-faq.de/?Topic=6
+ 143. http://classic.vb-faq.de/wie-erstelle-ich-ein-symbol-im-taskleisten-statusbereich-tray/
+ 144. http://classic.vb-faq.de/wie-greife-ich-auf-die-windows-registrierung-zu/
+ 145. http://classic.vb-faq.de/wie-ermittel-ich-die-aktuelle-bildschirmaufloesung/
+ 146. http://classic.vb-faq.de/wie-kann-ich-umgebungsvariablen-auslesen/
+ 147. http://classic.vb-faq.de/wie-ermittel-ich-die-aktuelle-mausposition/
+ 148. http://classic.vb-faq.de/wie-kann-ich-den-mauszeiger-versetzen/
+ 149. http://classic.vb-faq.de/wie-blende-ich-den-mauszeiger-aus/
+ 150. http://classic.vb-faq.de/wie-erreiche-ich-dass-ein-dos-fenster-automatisch-nach-der-ausfuehrung-geschlossen-wird/
+ 151. http://classic.vb-faq.de/wie-greife-ich-auf-ini-dateien-zu/
+ 152. http://classic.vb-faq.de/wie-kann-ich-windows-von-vb-aus-neu-startenbeenden/
+ 153. http://classic.vb-faq.de/wie-rufe-ich-den-beenden--ausfuehren--dialog-von-windows-auf/
+ 154. http://classic.vb-faq.de/wie-kann-ich-die-arbeitsstation-sperrenden-benutzer-wechseln-bildschirm-anzeigen/
+ 155. http://classic.vb-faq.de/wie-kann-ich-einstiegspunkte-und-parameter-unbekannter-dlls-ermitteln/
+ 156. http://classic.vb-faq.de/wie-stelle-ich-fest-ob-eine-soundkarte-installiert-ist/
+ 157. http://classic.vb-faq.de/wie-kann-ich-die-groesse-des-verfuegbaren-arbeitsbereichs-ermitteln/
+ 158. http://classic.vb-faq.de/wie-liste-ich-die-verfuegbaren-seriellen-schnittstellen-auf/
+ 159. http://classic.vb-faq.de/?Topic=11
+ 160. http://classic.vb-faq.de/wie-erstelle-ich-ein-setup-mit-inno-setup/
+ 161. http://classic.vb-faq.de/wie-kann-ich-dateien-automatisch-meinem-installationspaket-hinzufuegen-lassen/
+ 162. http://classic.vb-faq.de/wie-behebe-ich-den-fehler-fehler-beim-registrieren-der-msadoxxtlb/
+ 163. http://classic.vb-faq.de/warum-wird-eine-aktuellere-version-meines-programms-nicht-durchs-setup-ersetzt/
+ 164. http://classic.vb-faq.de/wie-erstelle-ich-ein-setup-mit-inno-setup-ii/
+ 165. http://classic.vb-faq.de/warum-erfordert-das-setup-einen-neustart-von-windows/
+ 166. http://classic.vb-faq.de/wie-erstelle-ich-internationale-setuppakete/
+ 167. http://classic.vb-faq.de/imprint.php

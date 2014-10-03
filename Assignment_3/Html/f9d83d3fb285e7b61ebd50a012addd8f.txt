@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<!-- Locale: en_US-->		<meta charset="utf-8">
+		<title>5 Seconds of Summer - We&rsquo;re sooo excited to finally be releasing our debut album!</title>
+		<meta name="description" content="YOU CAN DOWNLOAD ALL OF THESE VERSIONS FROM ITUNES NOW!">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge;chrome=1">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+		<link rel="shortcut icon" type="image/x-icon" href="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/images/favicon.ico">
+		<link type="text/css" rel="stylesheet" media="all" href="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/css/layout-euro.css?v=862378842">
+		<link type="text/css" rel="stylesheet" media="all" href="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/css/tour-album.css?v=862378842">
+		<script type="text/javascript" src="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/scripts/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/scripts/jquery.fitvids.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#album_splash_video_wrapper").fitVids();
+			});
+		</script>
+		<!---->
+		<meta property="og:site_name" content="5 Seconds of Summer">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="en_GB">
+        <meta property="og:title" content="Our new single ‘She Looks So Perfect’ is OUT NOW!">
+        <meta property="og:description" content="YOU CAN DOWNLOAD ALL OF THESE VERSIONS FROM ITUNES NOW!">
+        <meta property="og:url" content="http://www.5sos.com/rotw-landing-page/">
+        <meta property="og:image" content="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/images/5sos-logo.png">
+		<!--[if (lt IE 9) & !(IEMobile)]>
+			<link type="text/css" rel="stylesheet" media="all" href="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/css/ie.css">
+			<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!--[if IE 7]>
+			<link type="text/css" rel="stylesheet" media="all" href="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/css/ie7.css">
+		<![endif]-->
+		<!--[if (gte IE 6)&(lte IE 8)]>
+			<script src="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/scripts/selectivizr.js"></script>
+		<![endif]-->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-41996166-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		<script>
+			function setCookie(cname,cvalue,exdays) {
+				var d = new Date();
+				d.setTime(d.getTime()+(exdays*24*60*60*1000));
+				var expires = "expires="+d.toGMTString();
+				document.cookie = cname + "=" + cvalue + "; " + expires;
+			}
+			function getCookie(cname) {
+				var name = cname + "=";
+				var ca = document.cookie.split(';');
+				for(var i=0; i<ca.length; i++)
+				  {
+				  var c = ca[i].trim();
+				  if (c.indexOf(name)==0) return c.substring(name.length,c.length);
+				}
+				return "";
+			}
+			function checkCookie() 	{
+				var user=getCookie("thanks");
+				if (user!="") {
+					$('#reg_form').css("display", "none");
+					$('.successContainer').css("display", "block");
+					setCookie("thanks","true",-1)
+				}
+			}
+			jQuery(function ($) {
+
+				// checkCookie();
+
+		        function validateEmail(email) {
+				    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+				    return re.test(email);
+				}
+
+				$('#reg_form').submit(function() {
+					var error = 0;
+					var email = $("#email").val();
+					var country = $("#countrycode").val();
+					if (!validateEmail(email)) {
+						error++;
+					}
+					if (country=='') {
+						error++;
+					}
+					if (error==0){
+						// $.ajax({
+				  //           url: 'http://www.5sos.com/splash-newsletter-submit/?v='+((Math.random() * 99999999999)) + 1,
+				  //           type: 'get',
+				  //           data: { email: $('#email').val(), countrycode: $('#countrycode').val(), dm_otherinternal: $('#dm_otherinternal').val(), chkPrivPol: $('#chkPrivPol').val() },
+				  //           success: function(data) {
+				  //           	console.log(data);
+				  //           	$('#reg_form').fadeOut('normal', function() {
+						// 			$('.successContainer').fadeIn();
+						// 		});
+				  //           }
+				  //       });
+						setCookie("thanks","true",1);
+						return true;
+					} else {
+						alert("Please make sure you have completed all the fields and checked the tick box");
+					}
+					return false;
+				});
+			});
+		</script>
+	</head>
+	<body id="album_splash">
+
+		<div id="top_bar">
+			<ul class="clearfix">
+				<li class="facebook"><a class="overflowHidden" href="https://www.facebook.com/5secondsofsummer" target="_blank">Facebook</a></li>
+				<li class="twitter"><a class="overflowHidden" href="http://www.twitter.com/5sos" target="_blank">Twitter</a></li>
+				<li class="youtube"><a class="overflowHidden" href="http://www.youtube.com/user/hemmo1996" target="_blank">Youtube</a></li>
+				<li class="instagram"><a class="overflowHidden" href="http://www.instagram.com/5sos" target="_blank">Instagram</a></li>
+				<li class="newsletter"><a class="overflowHidden" href="#" onclick="window.open('http://zaphod.uk.vvhp.net/vvreg/8220-295133', 'Signup', 'width=500,height=780'); return false">Sign up</a></li>
+				<li class="soundcloud"><a class="overflowHidden" href="https://soundcloud.com/5-seconds-of-summer" target="_blank">Instagram</a></li>
+			</ul>
+		</div>
+
+		<a href="/home" class="overflowHidden enter_site">Enter site</a>
+
+		<div class="inner_wrapper">
+
+			<div class="five_sos">
+				<img src="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/images/5sos-album-logo.png" alt="5 Seconds of Summer">
+			</div>
+
+			<div class="musicCont clearfix">
+				<div class="album_splash_col left">
+					<h2><span><a href="http://po.st/5SOSFORMATS">Album</a></span></h2>
+					<a href="http://po.st/5SOSFORMATS">
+						<img src="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/images/5sos-album-cover.jpg" alt="Album artwork">
+					</a>
+					<p>You can buy our brand new album “5 Seconds of Summer Now :-)</p>
+					<a href="http://po.st/5SOSFORMATS" class="album_splash_btn">OUT NOW</a>
+				</div>
+
+				<div class="album_splash_col right">
+					<h2><span><a href="/amnesia">Latest Single</a></span></h2>
+					<a href="/amnesia">
+						<img src="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/images/5sos-amnesia-packshot.jpg" alt="Album artwork">
+					</a>
+					<p>OUR NEW SINGLE ‘AMNESIA’ IS OUT NOW !!</p>
+					<a href="/amnesia" class="album_splash_btn">Out now</a>
+				</div>
+
+				<div class="album_splash_col " style="margin-left:auto;margin-right:auto;clear:both;">
+					<h2><span><a href="/dont-stop">Latest Single</a></span></h2>
+					<a href="/dont-stop">
+						<img src="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/images/5sos-latest-single-cover.jpg" alt="Album artwork">
+					</a>
+					<p>Our 'Don’t Stop' Single is Out Now!!</p>
+					<a href="/dont-stop" class="album_splash_btn">OUT NOW</a>
+				</div>
+				
+				
+			</div>
+
+			<h2 class="debut_heading"><span>Rock Out With Your Socks Out Tour !!</span></h2>
+
+			<div class="gigCont">
+
+				<a href="http://5sos.com/live"><img src="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/images/new-tour-art-update.jpg" alt="5SOS Rock Out With Your Socks Out 2015"></a>
+
+			</div>
+
+			<div class="hungry_sos">
+				<h2><span><a href="http://hungry5sos.com/" target="_blank">Hungry 5SOS</a></span></h2>
+				<div class="gif_wrapper"><a href="http://hungry5sos.com/" target="_blank"><img src="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/images/hungry-sos-animated.gif" alt="Hungry SOS"></a></div>
+				<!-- <a href="#" target="_blank"><img src="http://d1vz8984sfzebp.cloudfront.net/wp-content/themes/5secondsofsummer2/splash-assets/images/hungry-sos.png" alt="Hungry SOS"></a> -->
+				<p>Play the all-new Hungry 5sos game. See if you can top the leaderboard !! ;-)</p>
+				<a href="http://hungry5sos.com/" target="_blank" class="album_splash_btn">Play now</a>
+			</div>
+
+			<div class="album_splash_video">
+				<h2><span>Watch the video</span></h2>
+				<div id="album_splash_video_wrapper">
+					<iframe width="950" height="534" src="//www.youtube.com/embed/DCCJCILiX3o?rel=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+
+
+		</div>
+
+		<footer>
+
+			<div class="footerWrapper">
+
+				<div class="left">
+
+					<p>&copy; 2014 5SOS.</p>
+
+					<ul>
+						<li><a href="http://www.umusic.co.uk/cookie-info.html" target="_blank">COOKIE INFO</a> <span>|</span></li>
+						<li><a href="http://www.umusic.co.uk/terms.html" target="_blank">WEBSITE TERMS OF USE</a> <span>|</span></li>
+						<li><a href="http://www.umusic.co.uk/home/safe.php" target="_blank">SAFE SURF GUIDE</a> <span>|</span></li>
+						<li><a href="http://www.umusic.co.uk/privacy.html" target="_blank">PRIVACY POLICY</a> <span>|</span></li>
+						<li><a href="http://www.prettygooddigital.com" target="_blank">A PRETTY GOOD WEBSITE DESIGN</a></li>
+					</ul>
+
+				</div>
+
+				<div class="right">
+
+					<h1><a href="http://5sos-official.tumblr.com/hiorheyrecords" target="_blank" class="overflowHidden">Hi or Hey Records</a></h1>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+	<!-- Google Code for 5 Seconds of Summer - Official Site - 540 Day Conversion Page -->
+	<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 982033727;
+	var google_conversion_label = "1TBTCPHv0gcQv8qi1AM";
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/982033727/?value=0&label=1TBTCPHv0gcQv8qi1AM&guid=ON&script=0"/>
+	</div>
+	</noscript>
+	<!-- Code for Action: Universal - 5 Seconds of Summer - official -->
+	<script type="text/javascript">
+	var ra = window.ord || Math.floor(Math.random()*10e12); document.write('<img src="https://20553163p.rfihub.com/ca.gif?rb=7121&ca=20553163&ra=' + ra + '" />'); </script>
+	<script>
+	var versaTag = {};
+	versaTag.id = "278"
+	versaTag.sync = 0
+	versaTag.dispType = "js"
+	versaTag.ptcl = "HTTP"
+	versaTag.bsUrl = "bs.serving-sys.com/BurstingPipe"
+	//versaTag.mobile = 1
+	//VersaTag activity parameters include all conversion parameters including custom parameters. Syntax: "ParamName1":"ParamValue1", "ParamName2":"ParamValue2". ParamValue can be empty.
+	versaTag.activityParams = {};
+	versaTag.retargetParams = {
+	// Static retargeting tags parameters. Syntax: "TagID":"ParamValue1", "TagID":"ParamValue1". ParamValue can be empty.
+	};
+	versaTag.dynamicRetargetParams = {
+	// Dynamic retargeting tags parameters. Syntax: "TagID":"ParamValue1", "TagID":"ParamValue1". ParamValue can be empty.
+	};
+	versaTag.conditionalParams = {
+	// Third party tags conditional parameters. Syntax: "ParamName1":"ParamValue1", "ParamName2":"ParamValue2". ParamValue can be empty.
+	};
+	</script>
+	<script id="ebOneTagUrlId" src="http://ds.serving-sys.com/SemiCachedScripts/ebOneTag.js"></script>
+	<noscript>
+	<iframe src="http://bs.serving-sys.com/BurstingPipe?
+	cn=ot&amp;
+	onetagid=278&amp;
+	ns=1&amp;
+	activityValues=$$
+	Value=[Value]0&amp;
+	OrderID=[OrderID]0&amp;
+	ProductID=[ProductID]&amp;
+	ProductInfo=[ProductInfo]&amp;
+	Quantity=[Quantity]&amp;$$&amp;
+	retargetingValues=$$&amp;
+	dynamicRetargetingValues=$$&amp;
+	acp=$$$$&amp;"
+	style="display:none;width:0px;height:0px"></iframe>
+	</noscript>
+	<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=1';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Content Delivery Network via d1vz8984sfzebp.cloudfront.net
+
+ Served from: www.5sos.com @ 2014-09-30 00:40:58 by W3 Total Cache -->

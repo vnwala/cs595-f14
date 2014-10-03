@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="twitlonger, twit longer, twitter longer, twitterlonger, tweet longer, tweetlonger, 140, over 140, twitter, more than 140">
+		<meta name="description" content="TwitLonger is the easy way to post more than 140 characters to Twitter">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <title>TwitLonger &mdash; When you talk too much for Twitter</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/tl_responsive.css">
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&v2' rel='stylesheet' type='text/css'>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+      </head>
+
+  <body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-6415384-2', 'twitlonger.com');
+      ga('send', 'pageview');
+
+      
+    </script>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <span class="navbar-default">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </span>
+          <a class="navbar-brand" href="/">TwitLonger</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/ad-free" >Ad-free</a></li>
+            <li><a href="/account" >Account</a></li>
+            <li class="hidden-xs"><div class="navbar-form"><a href="/post" class="btn btn-primary"><i class="fa fa-pencil-square-o"></i> Write a Post</a></div></li>
+            <li class="visible-xs"><a href="/post" >Write a Post</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container" id="main-container">
+  <div class="row" id="post">
+    <div class="col-xs-12 col-md-4 col-md-push-8 col-lg-3 col-lg-push-8">
+      <div id="postinfo">
+        <div class="row">
+
+          <div class="col-xs-8 col-sm-4 col-md-12">
+            <div class="media" id="user-info">
+              <a href="https://twitter.com/intent/user?screen_name=BelleLawrence_">
+              <img src="http://pbs.twimg.com/profile_images/432915415337947136/5Kd0QVnn_normal.jpeg" alt="BelleLawrence_" class="img-responsive img-rounded media-object pull-left"></a>
+              <div class="media-body">
+                <h4 class="media-heading"><a href="https://twitter.com/intent/user?screen_name=BelleLawrence_">Isabelle Lawrence</a></h4>
+                <p><a href="https://twitter.com/intent/user?screen_name=BelleLawrence_">@BelleLawrence_</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-4 col-sm-3 col-sm-push-5 col-md-push-0 col-md-12">
+            <div class="row">
+              <div class="col-xs-12 col-md-6" id="twitter-count">
+          			<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+            			<a href="http://twitter.com/share" class="twitter-share-button"
+                    data-url="http://tl.gd/n_1rprr5b"
+                    data-via="BelleLawrence_"
+                    data-count="horizontal"
+                    data-counturl="http://www.twitlonger.com/show/n_1rprr5b"
+                    data-text="Name: Isabelle Lawrence 
+Sex: Female
+ Date of Birth: June 10, 1986
+ Age: 27
+Height: 5&rsquo;6&">Tweet</a>
+              </div>
+
+              <div class="col-xs-12 col-md-6" id="facebook-like">
+                <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.twitlonger.com%2Fshow%2Fn_1rprr5b&amp;width=150&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;appId=422371721221723" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:115px; height:21px;" allowTransparency="true"></iframe>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-5 col-sm-pull-3 col-md-12 col-md-pull-0">
+            <hr class="visible-md visible-lg">
+            <div class="row small" id="timeclient">
+              <div class="col-xs-12">
+                <i class="fa fa-calendar"></i> 16th Oct 2013                from <a href="http://twitlonger.com">TwitLonger</a>              </div>
+              <div class="col-xs-12">
+                <i class="fa fa-link"></i> <a href="http://tl.gd/n_1rprr5b">http://tl.gd/n_1rprr5b</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-8 col-md-pull-4 col-lg-7 col-lg-pull-3 col-lg-offset-1">
+
+      <div id="postcontent">
+        
+        <p id="posttext">Name: Isabelle Lawrence <br />
+Sex: Female<br />
+ Date of Birth: June 10, 1986<br />
+ Age: 27<br />
+Height: 5&rsquo;6&rdquo; <br />
+Weight: 125 lbs.<br />
+ Place of Birth: Indianapolis, Indiana <br />
+Parents: Jared (deceased) and Victoria Lawrence (deceased)  <br />
+Relatives: Kristen (sister, deceased), Michael (brother, deceased), Jenny (cousin, alive)<br />
+<br />
+  ----------------------  <br />
+<br />
+Hobbies: Isabelle predominantly loves to practice her shooting and knifing abilities to keep up her defense. Before Earth turned into a vast wasteland, she loved to play video games, watch films, and read comics. <br />
+  Bad habits: She has been known to have a sarcastic attitude while having the mouth of a sailor. <br />
+Things she doesn&rsquo;t like to mention/talk about: Her family&rsquo;s death and her mother&rsquo;s hatred for Belle&rsquo;s choices in life. <br />
+Fears: Isabelle has Coulrophobia (fear of clowns). She also fears the death of anyone close to her. <br />
+<br />
+----------------------  <br />
+<br />
+Life Story and BIO:   Isabelle was born in Indianapolis, Indiana to Jared and Victoria. Her father, Jared Lawrence was the head sheriff at the local metro police station while her mother was a simple housewife. She was the second oldest of the Lawrence clan; <br />
+Michael was older by two years while Kristen was younger by six years. <br />
+<br />
+Ever since Isabelle received the news of her mother being pregnant with Kristen, she knew she would be protective over her baby sister. With a headstrong and courageous attitude, she wouldn&rsquo;t let anything come in her way of hurting her little sister. After Isabelle was nearly kidnapped by a random stranger on her way to her friend&rsquo;s house, Jared hastily rushed to teach her self-defense. Along with her self-defense lessons, he reluctantly thought it was a wise decision to teach her how to use a gun properly and a knife. It was always in his mind to teach his daughters how to defend themselves from an attacker. Little did he know that his beliefs would save Isabelle in upcoming end of the world. <br />
+<br />
+Being the brightest in her classes, Isabelle achieved a 4.5 GPA, giving her the opportunity to go to college and major in film. She had always been somewhat of an anti-social gal all of her life. It didn&rsquo;t thrill her to go out and party or go dancing at the clubs. She would rather stay indoors and watch films with both her father and brother. Sometimes her father would take her to the shooting ranges to advance her abilities with a gun. Even though it made Isabelle filled with the utmost joy, her mother disapproved of her actions. Victoria thoroughly despised her father&rsquo;s actions of taking their daughter to the ranges. It was in her mindset for her to go to college and receive a well paying job. Isabelle was more of a tomboy than a &ldquo;girlie girl&rdquo; which was what her mother wanted her to be. <br />
+<br />
+Isabelle&rsquo;s choices in life clashed with her parents&rsquo; marriage. Jared and Victoria would consistently fight about Isabelle&rsquo;s future. She was thrilled when she went off to college to get away from her mother. <br />
+<br />
+After obtaining her Master&rsquo;s degree in writing and film, she moved in with her close friend to an apartment. Steadily, she found work and made a life for herself. But soon, everything she worked hard to obtain came crashing down. <br />
+<br />
+She was in her apartment complex, watching Star Wars when she heard the excruciatingly loud shrieks of one of her neighbors. Removing her Batman blanket off of her conditioned body, she approached the door and opened it, peering her head out. Down the corridor, she saw two people both on the floor. Hesitantly, she spoke out in worry as she took some steps forward. <br />
+<br />
+As she reached them, she looked over the person&rsquo;s shoulder and saw that it was her neighbor from across the hall, digging into one of the other tenants of their floor. Placing her hand over her mouth to stop herself from gagging, she quickly ran back towards her room to call for the police. As she was running, she tripped over her own two feet, causing a loud thud to resonate throughout the halls; her neighbor slowly turned his head then limpidly stood up and made its way towards her. Isabelle couldn&rsquo;t help but scream at the sight of blood and flesh gushing down the person from 401&rsquo;s face. He reached towards her leg but thanks to Isabelle&rsquo;s fast reflexes, she kicked his hand away and crawled into her apartment, shutting the door injudiciously. Pants and the sound of Isabelle rushing to find her gun filled the room as she moved with haste. She wielded it in both hands shakily and opened the door only to see her neighbor from 401 right outside. Quickly, she pulled the trigger which ending up between his blue eyes. <br />
+<br />
+&ldquo;What&hellip; what is going on?!&rdquo; Now panting heavily, she moved into her apartment and fixed up a bag of some necessary items before she made her way outside. She felt horrible for killing her neighbor but&hellip; there was something wrong with him. She knew she had to go talk to her dad about the unfortunate event. <br />
+<br />
+While running, she heard a TV speaking the words, &ldquo;the end is nigh! It&rsquo;s the zombie apocalypse!&rdquo; Laughter and a smile came forth; Belle couldn&rsquo;t really take it seriously. A zombie apocalypse? That couldn&rsquo;t be possible&hellip; could it? Hours later the answer would come to her. <br />
+<br />
+<br />
+Using her cardio, she ran down the stairs of her apartment building and towards her car, quickly getting inside. Belle drove as fast as she could to her parents&rsquo; house, entering it to see her parents holding the worst facial expressions she had ever seen from them; fear was painted all over. Belle went to her father and told him about her neighbor. He took Belle in a hug and pulled her close to his warm body. <br />
+<br />
+&ldquo;It&rsquo;s okay, pumpkin. The TV said there have been reports of strange behavior coming from people. You were only protecting yourself.&rdquo; <br />
+Suddenly, their father-daughter moment was interrupted when the front door busted open. A rotten body of their neighbor started to attack their mother. Her shrieks rang throughout the house as he clawed at her body and bit her neck. Jared took Belle&rsquo;s pistol from her bag and shot at the attacker. Michael, Kristen, and Belle all had tears in their eyes; they just witnessed their mother being viciously murdered by someone they knew.   <br />
+<br />
+Jared told Belle to go and call an ambulance and get some supplies like his pistols and hunting knifes. She quickly looked around the house and grabbed the best objects she could and placed them in a bag. She rushed and picked up the phone, only to find the lines were dead. Rushing back, she heard a deep voice scream; her brother&rsquo;s. She sprinted back into the room and saw her mother literally eating Michael. Nothing but a high-pitched scream came out of her mouth, causing her mother to be attracted to it. Her mother got up, groaned, and went after Belle. Out of pure reflex, Belle raised her pistol and shot her mother in the head, right between the eyes. <br />
+<br />
+Jared backed away towards a nearby wall, taking in what just even happened. As he reached towards the wall, another invader pushed through the window and bit Jared&rsquo;s biceps, causing him to roar in pain and collapse to the ground. The walker took a bite then size of an apple out of her father&rsquo;s arm. Belle raised the pistol and shot the intruding zombie. <br />
+<br />
+She was losing her family quickly. Kristen and Belle all were left in the Lawrence family. Her father whispered for them to come over towards him. Belle took his hand while tears obstructed her line of vision. He told her to take Kristen and protect her at all costs, to not let her fall victim to the outbreak. She promised him. Whispering with his last breaths, he said he didn&rsquo;t want to turn like his wife.   Belle and Kristen both gave their last kisses goodbye to their father before she stood up and aimed the pistol at her father&rsquo;s temple. <br />
+<br />
+  &ldquo;I love you dad&hellip;I&rsquo;ll see you soon.&rdquo; She cried softly as she pulled the trigger; the impact of the bullet hitting her father&rsquo;s body caused it to jolt. She moved towards her brother&rsquo;s body and aimed the pistol, knowing he&rsquo;d come back just like their mother had. The signs were all there. She shot her Michael while covering her sister&rsquo;s eyes; she had seen enough already. <br />
+<br />
+Belle closed her father&rsquo;s eyes, grabbed her bag, took Kristen&rsquo;s hand and left their once loving, childhood home. <br />
+<br />
+  ----------------------  <br />
+<br />
+Three weeks had gone by since the incident. Eventually the two sisters made their way to Georgia, hoping some family down there would still be okay. Belle tried her hardest to keep her promise to her father but failed. One day, she accidentally set off a fire alarm while they were getting supplies. Walkers swarmed around her sister and herself. Swiftly, they were outmatched as what seemed like over twenty walkers appeared.<br />
+<br />
+Isabelle tightly grabbed her sweet sister&rsquo;s hand and made a run for it towards the nearby fire escape. Both climbed onto the roof of the building to try and escape. Kristen and Belle ran fast... but not fast enough. <br />
+<br />
+A walker caught their hands on Kristen and started to attack her. Numerous walkers limped up and surrounded Kristen, eventually leading to her demise. Belle screamed, shooting as many walkers as she could but ran out of bullets and ammo. She ran for it, leaving Kristen to be tortured and eaten up by the walkers. Belle jumped and made it on another roof, making it so the walkers couldn&rsquo;t reach her due to their decayed legs. Belle screeched out as she watched the walkers eat away at her sister. <br />
+<br />
+She failed her father&#039;s last wish.  <br />
+<br />
+----------------------  <br />
+<br />
+A couple of days passed since the incident. Isabelle eventually ended up with a survivor group led by Rick Grimes, despite her wishes. She felt as if she was a death magnet.   In the survivor group, she always did things alone; it wasn&rsquo;t because she didn&#039;t trust anyone, rather she didn&#039;t want to see anyone getting hurt. <br />
+</p>
+        <div class="actions text-right">
+          <a href="http://www.twitlonger.com/post/BelleLawrence_/390278268966174720"><i class="fa fa-reply"></i> Reply</a> &middot;
+          <a href="#" data-toggle="modal" data-target="#reportModal"><i class="fa fa-exclamation-triangle"></i> Report Post</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      $.ajaxSetup({ cache: true });
+      $.getScript('/js/twitter-text.js', function(data, textStatus, jqxhr){
+        $("#posttext").html( twttr.txt.autoLink( $("#posttext").html() ) );
+      });
+    });
+  </script>
+
+  <div class="modal fade" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">Report Content</h4>
+        </div>
+        <div class="modal-body">
+          <p>If you believe this post is inappropriate, please report it. Inappropriate content includes:</p>
+          <ul>
+            <li>Crude or indecent language, including adult stories or "imagines"</li>
+  <li>Sexual tips or advice</li>
+  <li>Sexual fetish content (e.g. foot fetish content)</li>
+  <li>Information on adult toys or products</li>
+  <li>Links to external sites containing adult content</li>
+  <li>Content which advocates against an individual, group, or organization</li>
+  <li>Content that may be construed as biased against individuals, groups, or organisations based on criteria such as race, religion, disability, sex, age, veteran status, sexual orientation, gender identity, or political affiliation.</li>
+          </ul>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+          <a href="mailto:hello@twitlonger.com?subject=TwitLonger Content Violation&body=I believe the page http://tl.gd/n_1rprr5b includes inappropriate content for the follwing reason: " class="btn btn-danger">Report Post</a>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-lg-7 col-lg-offset-1">
+          <div id="footer">
+            <div class="row">
+              <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6">
+                <ul class="list-inline text-center" id="site-links">
+                  <li><a href="/">home</a></li>
+            		  <li><a href="/about">about</a></li>
+            		  <li><a href="/privacy">privacy</a></li>
+            		  <li><a href="http://api.twitlonger.com">api</a></li>
+            		  <li><a href="/ad-free">ad-free</a></li>
+                </ul>
+                <p id="twitter-follow" class="text-center">
+                  <a href="https://twitter.com/TwitLonger" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @TwitLonger</a>
+                </p>
+              </div>
+              <div class="col-xs-12 col-sm-7 col-md-6 col-lg-6 small" id="disclaimer">
+                <p>
+            			TwitLonger is developed entirely by <a href="http://imetstuart.com">Stuart Gibson</a>
+                  (<a href="http://www.twitter.com/stuartgibson">@stuartgibson</a>).
+                  TwitLonger is in no way associated with Twitter, but they sure do a swell job over there <i class="fa fa-heart-o"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","licenseKey":"406fb7a40f","applicationID":"4591669","transactionName":"ZAAHZhYEXBEFVkZRXV1KJFEQDF0MS2VdS0YcFg1dEw==","queueTime":0,"applicationTime":36,"ttGuid":"","agentToken":"","atts":"SEcEEF4eTx8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-412.min.js"}</script></body>
+</html>

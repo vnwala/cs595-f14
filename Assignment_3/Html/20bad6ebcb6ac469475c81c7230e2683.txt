@@ -1,0 +1,1955 @@
+<!DOCTYPE html>
+<html
+id="Template2a"
+class=""
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:fb="http://www.facebook.com/2008/fbml"
+xmlns:og="http://opengraphprotocol.org/schema"
+>
+<head>
+		
+	<meta charset="UTF-8" />
+
+			<meta name="exp_name" scheme="DMINSTR2" content="desktop:default" />
+	
+<meta name="google-site-verification" content="2Sjuk6i2I0L5DymnlDCPrXO9Gl4PkbmX_VlrJQGy0Qg" />
+<meta name="msvalidate.01" content="5F1B06EBE88583F1C05B9114514366ED" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="siteid" scheme="DMINSTR2" content="CRCC" />
+
+<meta name="google-site-verification" content="2FEo_oecD1NcbbjpMpC_wwUAZGPKR_cYUibkJ4nXjSk"/>
+<meta name="pagetype" scheme="DMINSTR2" content="Homepage" />
+<meta name="description" content="A funny website filled with funny videos, pics, articles, and a whole bunch of other funny stuff. Cracked.com, celebrating 50 years of humor." />
+
+<meta name="wa_lgdin" scheme="DMINSTR2" content="0" />
+<meta name="wa_lgsrc" scheme="DMINSTR2" content="" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgQCVVVVGwADVVFWAwg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&&r.length||0,s=n[i]||(n[i]={}),u=0;a>u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,n,i,s){return u?u-=1:r("err",[s||new UncaughtException(t,e,n)]),"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t(5),a=window.onerror,s=!1,u=0;t("loader").features.push("err"),window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(d){"stack"in d&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),s=!0)}i.on("fn-start",function(){s&&(u+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&u>0&&(u-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);try{i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1)}catch(r){try{i.emit("internal-error",r)}catch(s){}}return n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,d="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(d);if(f&&(r.rxSize=f),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,d=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var d=e(o);d&&(r.txSize=d)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var f=0;u>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&u&&u.body){p.proto="https"===c.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=p.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,d="addEventListener",f="attachEvent",c=(""+location).split("?")[0],p=e.exports={offset:i(),origin:c,features:[]};u[d]?(u[d]("DOMContentLoaded",o,!1),s[d]("load",n,!1)):(u[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,r,s){function nrWrapper(){try{var n,a=u(arguments),d=this,f=r&&r(a,d)||{}}catch(c){i([c,"",[a,d,s],f])}o(e+"start",[a,d,s],f);try{return n=t.apply(d,a)}catch(p){throw o(e+"err",[a,d,p],f),p}finally{o(e+"end",[a,d,n],f)}}return a(t)?t:(e||(e=""),nrWrapper[n.flag]=!0,nrWrapper)}function r(t,e,r,o){r||(r="");var i,s,u,d="-"===r.charAt(0);for(u=0;u<e.length;u++)s=e[u],i=t[s],a(i)||(t[s]=n(i,d?s+r:r,o,s,t))}function o(t,e,n){try{s.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{s.emit("internal-error",t)}catch(e){}}function a(t){return!(t&&"function"==typeof t&&t.apply&&!t[n.flag])}var s=t(1),u=t(2);e.exports=n,n.inPlace=r,n.flag="nr@wrapper"},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
+<meta name="application-name" content="CRACKED.com"/>
+<meta name="msapplication-tooltip" content="Start at CRACKED.com"/>
+<meta name="msapplication-starturl" content="/"/>
+<meta name="msapplication-navbutton-color" content="#145E9D" />
+<meta name="msapplication-task" content="name=Articles; action-uri=/funny-articles.html; icon-uri=/favicon.ico" />
+<meta name="msapplication-task" content="name=Columnists; action-uri=/blog; icon-uri=/favicon.ico" />
+<meta name="msapplication-task" content="name=Photoplasty; action-uri=/photoplasty/; icon-uri=/favicon.ico" />
+<meta name="msapplication-task" content="name=Videos; action-uri=/funny-videos.html; icon-uri=/favicon.ico" />
+<meta name="msapplication-task" content="name=Roll The Die – Random Content; action-uri=http://ajax.cracked.com/random/; icon-uri=/favicon.ico" />
+
+<title>Cracked.com - America's Only Humor Site | Cracked.com</title>
+
+<link href="http://i.crackedcdn.com/favicon.ico" rel="shortcut icon apple-touch-icon"/>
+
+<link rel="canonical" href="http://www.cracked.com/" />
+
+		<!--[if lt IE 9]>
+				<script src="http://i.crackedcdn.com/ui/mashed/ie_lt9_only-M2Y1YmQ5ZDQ.js"></script>
+				<![endif]-->
+		
+		<link href="https://plus.google.com/100838666651050641064" rel="publisher" />
+		<script type="text/javascript">
+		var aamObject = aamObject || {};
+		aamObject.dm = aamObject.dm || {};
+						aamObject.dm[ 'envr' ] = '';
+								aamObject.dm[ 'ugc' ] = '0';
+								aamObject.dm[ 'twig' ] = '0';
+								aamObject.dm[ 'rating' ] = 'pg';
+								aamObject.dm[ 'ctype' ] = 'homepage';
+								</script>
+
+				<link type="text/css" href="http://i.crackedcdn.com/ui/mashed/common_header-Y2VlNTk3NGQ.css" rel="stylesheet" />
+<link type="text/css" href="http://i.crackedcdn.com/ui/mashed/site-home-NTBkMmIzNTA.css" rel="stylesheet" />
+<script type="text/javascript" src="http://i.crackedcdn.com/ui/mashed/common_header-NzJjNzFhYjg.js"></script>
+
+<script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'></script>
+<script type='text/javascript'>
+googletag.pubads().definePassback('/6117/dmd.cracked/homepage', [[1000,1000]]).setTargeting("envr", "").setTargeting("ugc", "0").setTargeting("twig", "0").setTargeting("rating", "pg").setTargeting("ctype", "homepage").display();
+</script>
+
+<script type="text/javascript">
+	var googleAdSlots = googleAdSlots || {};
+	var CrackedJS = CrackedJS || {};
+	googletag.cmd.push(function() {
+
+		/**
+		if (typeof lazyGoogleAdSlots !== "undefined" && lazyGoogleAdSlots.length > 0) {
+			for (var i = 0; i < lazyGoogleAdSlots.length; i++) {
+				var tmpSlot = lazyGoogleAdSlots[i];
+				if (typeof tmpSlot["width"] == "number" && typeof tmpSlot["height"] == "number") {
+					googleAdSlots[tmpSlot["width"] + "x" + tmpSlot["height"]] = googletag.defineSlot("/"+CKDFP.getNetworkId()+"/dmd.cracked/homepage",[tmpSlot["width"],tmpSlot["height"]],tmpSlot["width"] + "x" + tmpSlot["height"]).addService(googletag.pubads());
+				}
+			}
+		}
+		*/
+
+		if (CKDFP.getNetworkId() == 8422) {
+			googleAdSlots["1x1"] = googletag.defineSlot("/"+CKDFP.getNetworkId()+"/dmd.cracked/homepage",[1,1],"1x1").addService(googletag.pubads());
+		}
+
+		googleAdSlots["4x4"] = googletag.defineSlot("/"+CKDFP.getNetworkId()+"/dmd.cracked/homepage", [4,4], "4x4").addService(googletag.pubads()).setTargeting("loc", "atf");
+
+					
+						if (typeof blockGoogleAdSlots["728x90_990x90_970x250"] === "undefined") {
+				var sizes = [[728,90],[990,90],[970,250],[970,66]]; var id = "728x90_990x90_970x250";
+				if (CKDFP.getNetworkId() != 6117 && id == "300x250_btf") sizes = [300, 251];
+				googleAdSlots["728x90_990x90_970x250"] = googletag.defineSlot("/"+CKDFP.getNetworkId()+"/dmd.cracked/homepage",sizes,"728x90_990x90_970x250").addService(googletag.pubads()).setCollapseEmptyDiv(true);
+			}
+					
+						if (typeof blockGoogleAdSlots["300x250_btf"] === "undefined") {
+				var sizes = [300,250]; var id = "300x250_btf";
+				if (CKDFP.getNetworkId() != 6117 && id == "300x250_btf") sizes = [300, 251];
+				googleAdSlots["300x250_btf"] = googletag.defineSlot("/"+CKDFP.getNetworkId()+"/dmd.cracked/homepage",sizes,"300x250_btf").addService(googletag.pubads()).setTargeting("loc", "btf").setCollapseEmptyDiv(true);
+			}
+					
+						if (typeof blockGoogleAdSlots["648x116"] === "undefined") {
+				var sizes = [648,116]; var id = "648x116";
+				if (CKDFP.getNetworkId() != 6117 && id == "300x250_btf") sizes = [300, 251];
+				googleAdSlots["648x116"] = googletag.defineSlot("/6117/dmd.cracked/homepage",sizes,"648x116").addService(googletag.pubads()).setCollapseEmptyDiv(true);
+			}
+					
+						if (typeof blockGoogleAdSlots["300x250_300x600_atf"] === "undefined") {
+				var sizes = [[300,250],[300,600]]; var id = "300x250_300x600_atf";
+				if (CKDFP.getNetworkId() != 6117 && id == "300x250_btf") sizes = [300, 251];
+				googleAdSlots["300x250_300x600_atf"] = googletag.defineSlot("/"+CKDFP.getNetworkId()+"/dmd.cracked/homepage",sizes,"300x250_300x600_atf").addService(googletag.pubads()).setTargeting("loc", "atf").setCollapseEmptyDiv(true);
+			}
+		
+		googleAdSlots["OutOfPage"] = googletag.defineOutOfPageSlot("/"+CKDFP.getNetworkId()+"/dmd.cracked/homepage", 'outofpage').addService(googletag.pubads());
+
+				
+			googletag.pubads().setTargeting("envr", "");
+				
+			googletag.pubads().setTargeting("ugc", "0");
+				
+			googletag.pubads().setTargeting("twig", "0");
+				
+			googletag.pubads().setTargeting("rating", "pg");
+				
+			googletag.pubads().setTargeting("ctype", "homepage");
+		
+		googletag.pubads().setTargeting("dc_ref", encodeURIComponent( top.window.location ));
+
+		<!-- Start Adobe JS-->
+		if (typeof AamGpt.getCookie("gpt_aam") != "undefined" && typeof AamGpt.getCookie("aam_did") != "undefined") {
+			googletag.pubads().setTargeting(AamGpt.getKey("gpt_aam"), AamGpt.getValues("gpt_aam"));
+			googletag.pubads().setTargeting("uuid", AamGpt.getCookie("aam_did"));
+		}
+
+
+		var googleAdCounter = 0;
+		var googleEventIDTag = null;
+		googletag.pubads().addEventListener("slotRenderEnded", function(e) {
+
+			// let's figure out which index google put the id in
+			if (googleEventIDTag == null) {
+				for (testTag in e.slot["b"]) {
+					if (testTag.length == "1" && typeof e.slot["b"][testTag] == "string" && e.slot["b"][testTag].match(/\dx\d/)) {
+						googleEventIDTag = testTag;
+						break;
+					}
+				}
+			}
+
+			var body = document.getElementsByTagName("body")[0];
+
+			if (e.slot["b"][googleEventIDTag] == "728x90_990x90" || e.slot["b"][googleEventIDTag] == "728x90_990x90_970x250") {
+				if (e.isEmpty === true) {
+					document.getElementsByClassName("mainAd")[0].style.display = "none";
+					document.getElementsByClassName("headerWrapper")[0].style.marginBottom = "120px";
+				} else {
+					body.className = body.className.replace(" noOPA", "");
+				}
+			}
+
+			if (e.slot["b"][googleEventIDTag] == "1x1") {
+				if (e.isEmpty === false) {
+					document.getElementsByTagName('html')[0].setAttribute("branded", true);
+					body.className = body.className.replace(" noSkin", "");
+				}
+			}
+
+			googleAdCounter++;
+			if (googleAdCounter == Object.keys(googleAdSlots).length) {
+				if (typeof CrackedJS.initRan !== "undefined" && CrackedJS.initRan === false) {
+					CrackedJS.init();
+				} else {
+					CrackedJS.autoRunInit = true;
+				}
+			}
+		});
+		googletag.pubads().collapseEmptyDivs();
+		googletag.pubads().enableSingleRequest();
+		googletag.enableServices();
+	});
+</script>
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-143148-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+								<script src="//pagead2.googlesyndication.com/pagead/js/google_top_exp.js"></script>
+				
+				<!--Arvo starts-->
+				<link href='//fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+				<!--Arvo ends-->
+			</head>
+
+			<body id="" class=" noSkin noOPA">
+
+			  			  <div style="height: 0;" id="skin-banner"><div class="ad-pushdown"><div id="1x1"><script>googletag.cmd.push(function() { googletag.display('1x1'); });</script></div></div></div>
+			  
+				<!-- Happiness Header Start -->
+						<!-- Happiness Header End -->
+
+											<!-- Cracked Store Header Start -->
+				<div class="crackedStoreHeaderWrapper houseHeaderWrapper" style="background-color: #050f18;background-image: url('http://i.crackedcdn.com/phpimages/marketing/9/0/7/223907_v31.jpg');">
+					<a class="closeButton"></a>
+					<a class="headerContainer" target="_blank" href="http://store.cracked.com/products/starry-night"></a>
+				</div>
+				<!-- Cracked Store Header End -->
+			
+			<!-- Header starts -->
+			<header class="headerWrapper">
+				<div class="mainHeader">
+					<div class="headerContainer">
+						<div class="HorrorEyeGlow"></div>
+						<a href="http://www.cracked.com/" class="logo" title="Cracked"></a>
+						<!-- TOP NAV START-->
+						<div class="topHeader">
+
+							<div class="topHeaderLoginWrapper right">
+								<ul class="inlineList">
+
+									
+									<li><a href="http://www.cracked.com/users/register/" id="registerButton" rel="#Register" class="url">Register </a></li>
+									<li> | </li>
+									<li><a href="http://www.cracked.com/login/login-popup/" class="LoginButton url" id="LoginButton" onClick="return false;"> Login</a></li>
+
+									
+								</ul>
+							</div>
+
+																													<a class="crackedStoreButton houseTopNavButton"></a>
+							
+							<!-- Branded Button Starts -->
+							<div id='4x4' class="ad4x4">
+<script type='text/javascript'>
+if (typeof googleAdSlots["4x4"] !== "undefined") googletag.cmd.push(function() { googletag.display('4x4'); });
+</script>
+</div>
+
+						</div>
+						<!-- TOP NAV END -->
+						<!-- PRIMARY NAV -->
+						<nav class="primaryNav">
+							<ul>
+							<li class="first hasSubMenu noRelativePosition" data-header="article">
+								<a href="http://www.cracked.com/funny-articles.html">Articles <i class="icon-caret-down"></i></a>
+								<ul data-header-target="article">
+									<li>
+										<div class="rightColumnHeader active" id="header-nav-articles">
+										</div>
+										<div class="leftColumnHeader">
+											<h3>BROWSE BY</h3>
+
+											<div class="headerDemoOne default-skin">
+												<ul class="headerListMenu scrollPanel">
+													<li><a href="http://www.cracked.com/humor-movies-tv.html" title=""><i class="icon-caret-right"></i> <span>Movies & TV</span></a></li>
+													<li><a href="http://www.cracked.com/humor-music.html" title=""><i class="icon-caret-right"></i> <span>Music</span></a></li>
+													<li><a href="http://www.cracked.com/humor-celebrities.html" title=""><i class="icon-caret-right"></i> <span>Celebrities</span></a></li>
+													<li><a href="http://www.cracked.com/humor-tech.html" title=""><i class="icon-caret-right"></i> <span>Tech</span></a></li>
+													<li><a href="http://www.cracked.com/humor-sex.html" title=""><i class="icon-caret-right"></i> <span>Sex</span></a></li>
+													<li><a href="http://www.cracked.com/humor-sports.html" title=""><i class="icon-caret-right"></i> <span>Sports</span></a></li>
+													<li><a href="http://www.cracked.com/humor-news.html" title=""><i class="icon-caret-right"></i> <span>News</span></a></li>
+													<li><a href="http://www.cracked.com/humor-science.html" title=""><i class="icon-caret-right"></i> <span>Science</span></a></li>
+													<li><a href="http://www.cracked.com/humor-history.html" title=""><i class="icon-caret-right"></i> <span>History</span></a></li>
+													<li><a href="http://www.cracked.com/humor-weird-world.html" title=""><i class="icon-caret-right"></i> <span>Weird World</span></a></li>
+													<li><a href="http://www.cracked.com/humor-video-games.html" title=""><i class="icon-caret-right"></i> <span>Video Games</span></a></li>
+												</ul>
+											</div>
+
+											<hr/>
+
+											<a href="http://www.cracked.com/funny-articles.html" title="See More" class="seeMoreBtn">All Articles</a>
+
+										</div>
+									</li>
+								</ul>
+							</li>
+								<li class="hasSubMenu noRelativePosition" data-header="videos">
+									<a href="http://www.cracked.com/funny-videos.html">Videos <i class="icon-caret-down"></i></a>
+
+									<ul data-header-target="videos">
+										<li>
+											<div class="rightColumnHeader active" id="header-nav-videos">
+											</div>
+											<div class="leftColumnHeader">
+												<h3>BROWSE BY</h3>
+												<div class="headerDemoOne default-skin">
+													<ul class="headerListMenu scrollPanel" id="header-nav-videos-menu">
+														<li><a href="http://www.cracked.com/series/antiheroes/"><i class="icon-caret-right"></i> <span>Antiheroes</span></a></li>
+														<li><a href="http://www.cracked.com/series/after-hours/"><i class="icon-caret-right"></i> <span>After Hours</span></a></li>
+														<li><a href="http://www.cracked.com/series/adventures-in-jedi-school/"><i class="icon-caret-right"></i> <span>Adventures in Jedi School</span></a></li>
+														<li><a href="http://www.cracked.com/series/rom-com/"><i class="icon-caret-right"></i> <span>Rom.com</span></a></li>
+														<li><a href="http://www.cracked.com/series/welcome-back-potter/"><i class="icon-caret-right"></i> <span>Welcome Back, Potter</span></a></li>
+														<li><a href="http://www.cracked.com/series/artist-in-residency/"><i class="icon-caret-right"></i> <span>Artist in Residency</span></a></li>
+														<li><a href="http://www.cracked.com/series/todays-topic/"><i class="icon-caret-right"></i> <span>Today's Topic</span></a></li>
+														<li><a href="http://www.cracked.com/series/the-spit-take/"><i class="icon-caret-right"></i> <span>The Spit Take</span></a></li>
+														<li><a href="http://www.cracked.com/series/obsessive-pop-culture-disorder/"><i class="icon-caret-right"></i> <span>Obsessive Pop Culture Disorder</span></a></li>
+														<li><a href="http://www.cracked.com/series/8-bits/"><i class="icon-caret-right"></i> <span>8-Bits</span></a></li>
+														<li><a href="http://www.cracked.com/series/marvels-science/"><i class="icon-caret-right"></i> <span>Marvels of the Science</span></a></li>
+														<li><a href="http://www.cracked.com/series/dispatches-from-space/"><i class="icon-caret-right"></i> <span>Dispatches From Goddamn Space</span></a></li>
+														<li><a href="http://www.cracked.com/series/does-not-compute/"><i class="icon-caret-right"></i> <span>Does Not Compute</span></a></li>
+														<li><a href="http://www.cracked.com/series/the-katie-willert-experience/"><i class="icon-caret-right"></i> <span>The Katie Willert Experience</span></a></li>
+														<li><a href="http://www.cracked.com/series/cracked-advice-board/"><i class="icon-caret-right"></i> <span>Cracked Advice Board</span></a></li>
+														<li><a href="http://www.cracked.com/series/agents-cracked/"><i class="icon-caret-right"></i> <span>Agents of Cracked</span></a></li>
+														<li><a href="http://www.cracked.com/series/cracked-tv/"><i class="icon-caret-right"></i> <span>Cracked TV</span></a></li>
+														<li><a href="http://www.cracked.com/series/lonny/"><i class="icon-caret-right"></i> <span>Lonny</span></a></li>
+														<li><a href="http://www.cracked.com/series/cracked-cut-ups/"><i class="icon-caret-right"></i> <span>Cracked Cut-Ups</span></a></li>
+														<li><a href="http://www.cracked.com/series/stuff-that-must-have-happened/"><i class="icon-caret-right"></i> <span>Stuff That Must Have Happened</span></a></li>
+														<li><a href="http://www.cracked.com/series/the-start-up/"><i class="icon-caret-right"></i> <span>The Start Up</span></a></li>
+														<li><a href="http://www.cracked.com/series/sketch-competition/"><i class="icon-caret-right"></i> <span>Sketch Competition</span></a></li>
+													</ul>
+												</div>
+												<hr/>
+												<a href="http://www.cracked.com/funny-videos.html" title="See More" class="seeMoreBtn">All Videos</a>
+											</div>
+										</li>
+									</ul>
+								</li>
+								<li class="hasSubMenu noRelativePosition" data-header="columnists">
+									<a href="http://www.cracked.com/blog/">Columnists <i class="icon-caret-down"></i></a>
+									<ul data-header-target="columnists">
+										<li>
+											<div class="rightColumnHeader active" id="header-nav-blogs">
+											</div>
+											<div class="leftColumnHeader">
+												<h3>BROWSE BY</h3>
+
+														<div class="headerDemoOne default-skin">
+															<ul class="headerListMenu scrollPanel">
+																<li><a href="http://www.cracked.com/blog/author/auroratudor/" title=""><i class="icon-caret-right"></i><span>Kathy Benjamin</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/Sorenb/" title=""><i class="icon-caret-right"></i><span>Soren Bowie</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/Robert+Brockway/" title=""><i class="icon-caret-right"></i><span>Robert Brockway</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/Adam+Tod+Brown/" title=""><i class="icon-caret-right"></i><span>Adam Tod Brown</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/Robotman/" title=""><i class="icon-caret-right"></i><span>Chris Bucholz</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/John+Cheese/" title=""><i class="icon-caret-right"></i><span>John Cheese</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/MisterClay/" title=""><i class="icon-caret-right"></i><span>Felix Clay</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/sephira/" title=""><i class="icon-caret-right"></i><span>C. Coville</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/Fortey/" title=""><i class="icon-caret-right"></i><span>Ian Fortey</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/G-Stone/" title=""><i class="icon-caret-right"></i><span>Gladstone</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/Mortal+Wombat/" title=""><i class="icon-caret-right"></i><span>Christina H.</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/hereinidaho/" title=""><i class="icon-caret-right"></i><span>Kristi Harrison</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/Cody+Johnston/" title=""><i class="icon-caret-right"></i><span>Cody Johnston</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/MojitoJackson/" title=""><i class="icon-caret-right"></i><span>Cyriaque Lamar</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/BrendanMcGinley/" title=""><i class="icon-caret-right"></i><span>Brendan McGinley</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/LukeMcKinney/" title=""><i class="icon-caret-right"></i><span>Luke McKinney</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/daniel." title=""><i class="icon-caret-right"></i><span>Daniel O'Brien</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/Jack+Obrien/" title=""><i class="icon-caret-right"></i><span>Jack O'Brien</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/Collision/" title=""><i class="icon-caret-right"></i><span>Pauli Poisuo</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/limpl0uie/" title=""><i class="icon-caret-right"></i><span>Luis Prada</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/chickenface/" title=""><i class="icon-caret-right"></i><span>Tom Reimann</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/winstonrowntree/" title=""><i class="icon-caret-right"></i><span>Winston Rowntree</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/Antagonasty/" title=""><i class="icon-caret-right"></i><span>J. F. Sargent</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/seanbaby/" title=""><i class="icon-caret-right"></i><span>Seanbaby</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/Arkard/" title=""><i class="icon-caret-right"></i><span>C. J. Strusiewicz</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/MichaelSwaim/" title=""><i class="icon-caret-right"></i><span>Michael Swaim</span></a></li>
+																<li><a href="http://www.cracked.com/blog/author/David+Wong/" title=""><i class="icon-caret-right"></i><span>David Wong</span></a></li>
+															</ul>
+														</div>
+
+												<hr/>
+												<a href="http://www.cracked.com/blog/" title="See More" class="seeMoreBtn">All Columnists</a>
+											</div>
+										</li>
+									</ul>
+								</li>
+								<li><a href="http://www.cracked.com/forums/">Forums</a></li>
+								<li><a href="http://www.cracked.com/quick-fixes/">Quick Fixes</a></li>
+								<li><a href="http://www.cracked.com/photoplasty/">Photoplasty</a></li>
+								<li class="navIcon hasSubMenu noRelativePosition" id="moreIcon" data-header="more-icon">
+									<a href="javascript:void(0)" >
+										<span></span>
+									</a>
+									<ul data-header-target="more-icon">
+										<li>
+											<div class="rightColumnHeader active" data-list-target="link-storm">
+												<div id="header-nav-linkstorm" class="imageHeaderContainer"></div>
+												<hr/>
+											</div>
+											<div class="rightColumnHeader" data-list-target="podcast">
+												<div id="header-nav-podcast" class="imageHeaderContainer">
+
+														</div>
+														<hr/>
+													</div>
+
+													<div class="rightColumnHeader" data-list-target="craptions">
+														<div id="header-nav-craptions" class="imageHeaderContainer">
+
+														</div>
+														<hr/>
+													</div>
+
+											<div class="rightColumnHeader" data-list-target="greatest-hits">
+	<div id="header-nav-greatest" class="imageHeaderContainer">
+		<h3>Greatest Hits</h3>
+		<div class="imageHeaderContainer">
+							<div class="generalHeaderModule">
+					<a href="/article_21209_the-40-most-insane-easter-eggs-ever-found.html" class="imgHeaderCont" title="">
+						<img src="http://i.crackedcdn.com/phpimages/article/4/5/5/267455.jpg?v=1" alt=""
+							 class="thumb">
+					</a>
+					<h4><a href="/article_21209_the-40-most-insane-easter-eggs-ever-found.html" class="imgHeaderCont"
+						   title="">The 40 Most Insane Easter Eggs Ever Found</a></h4>
+
+					<div class="clearfix"></div>
+
+					<div class="meta metaGreatestHits">
+						<div class="numberHits">
+							01						</div>
+						<div class="dateView">
+							<div class="view">4,762,776 Views</div>
+								<span class="authors">By
+																			<a href="http://www.cracked.com/members/crackedwriters/">Cracked Write...</a>																	</span>
+							|
+							<span class="date">14-25-2014</span>
+						</div>
+					</div>
+				</div>
+							<div class="generalHeaderModule">
+					<a href="/blog/4-things-i-learned-from-worst-online-dating-profile-ever/" class="imgHeaderCont" title="">
+						<img src="http://i.crackedcdn.com/phpimages/article/6/2/9/231629_v1.jpg" alt=""
+							 class="thumb">
+					</a>
+					<h4><a href="/blog/4-things-i-learned-from-worst-online-dating-profile-ever/" class="imgHeaderCont"
+						   title="">4 Things I Learned from the Worst Online Dating Profile Ever</a></h4>
+
+					<div class="clearfix"></div>
+
+					<div class="meta metaGreatestHits">
+						<div class="numberHits">
+							02						</div>
+						<div class="dateView">
+							<div class="view">4,396,830 Views</div>
+								<span class="authors">By
+																			<a href="http://www.cracked.com/members/reyzleh/">Alli Reed</a>																	</span>
+							|
+							<span class="date">14-04-2014</span>
+						</div>
+					</div>
+				</div>
+							<div class="generalHeaderModule">
+					<a href="/blog/the-5-parts-sex-porn-doesnt-prepare-you-for/" class="imgHeaderCont" title="">
+						<img src="http://i.crackedcdn.com/phpimages/article/9/8/7/219987_v1.jpg" alt=""
+							 class="thumb">
+					</a>
+					<h4><a href="/blog/the-5-parts-sex-porn-doesnt-prepare-you-for/" class="imgHeaderCont"
+						   title="">The 5 Parts of Sex Porn Doesn't Prepare You For</a></h4>
+
+					<div class="clearfix"></div>
+
+					<div class="meta metaGreatestHits">
+						<div class="numberHits">
+							03						</div>
+						<div class="dateView">
+							<div class="view">3,717,192 Views</div>
+								<span class="authors">By
+																			<a href="http://www.cracked.com/members/MisterClay/">Felix Clay</a>																	</span>
+							|
+							<span class="date">13-23-2013</span>
+						</div>
+					</div>
+				</div>
+						<div class="clearfix"></div>
+		</div>
+		<hr/>
+		<a class="seeMoreBtn" href="http://www.cracked.com/top-50.html">See More</a>
+	</div>
+</div>
+
+													<div class="rightColumnHeader" data-list-target="cracked-bunker">
+														<div id="header-nav-cracked-bunker" class="imageHeaderContainer">
+
+														</div>
+														
+													</div>
+
+
+
+													<div class="leftColumnHeader">
+														<h3>MORE</h3>
+														<ul class="headerListMenu">
+															<li><a href="http://www.cracked.com/linkstorm/" title="" data-list="link-storm" class="active" ><i class="icon-caret-right"></i> <span>LinkSTORM</span></a></li>
+															<li><a href="http://www.cracked.com/podcast/" title="" data-list="podcast"><i class="icon-caret-right"></i> <span>The Cracked Podcast</span></a></li>
+															<li><a href="http://www.cracked.com/craptions/" title="" data-list="craptions"><i class="icon-caret-right"></i> <span>Craptions Classics</span></a></li>
+															<li><a href="http://www.cracked.com/top-50.html" title="" data-list="greatest-hits"><i class="icon-caret-right"></i> <span>Greatest Hits</span></a></li>
+															<li><a href="http://www.cracked.com/the-cracked-bunker/" title="" data-list="cracked-bunker"><i class="icon-caret-right"></i> <span>The Cracked Bunker</span></a></li>
+														</ul>
+														<hr/>
+													</div>
+												</li>
+											</ul>
+										</li>
+										<li class="navIcon" id="diceIcon">
+											<a href="http://www.cracked.com/random/">
+												<span></span>
+											</a>
+										</li>
+										<li class="navIcon" id="rssIcon">
+											<a id="rss" class="rss" href="http://feeds.feedburner.com/CrackedRSS">
+												<span></span>
+											</a>
+										</li>
+										<li class="last navIcon hasSubMenu" id="searchIcon" data-header="search">
+											<a href="#" >
+												<span></span>
+											</a>
+											<ul data-header-target="search">
+												<li>
+													<h3>Search Cracked</h3>
+																																							<form method="get" action="http://www.cracked.com/search/search.php?sa=search" id="HeaderSearch">
+														<span id="iconoSearchHeader"></span>
+														<input type="hidden" name="sa" value="search">
+														<input name="q" type="text" id="searchHeader" data-type="searchinput" />
+														<div class="btnSearchContainerHeader"><input type="submit" value="Search" class="btnSearchHeader" /></div>
+													</form>
+																																			</li>
+										</ul>
+									</li>
+					<!--<li class="social-icon">
+						<a class="random" data-url="http://ajax.cracked.com/random/">Random Article</a>
+					</li>
+					<li class="header-search-box">
+																				<form method="get" action="http://www.cracked.com/search/search.php?sa=search" id="HeaderSearch">
+								<input type="hidden" name="sa" value="search">
+								<input name="q" type="text" id="searchHeader" data-type="searchinput" />
+								<input type="submit" value="Search" class="button" />
+							</form>
+																		</li>
+				-->
+			</ul>
+		</nav>
+		<!-- /PRIMARY NAV -->
+	</div>
+</div>
+
+
+
+<!-- SECONDARY NAV -->
+<nav class="secondaryNav">
+	<div  class="secondaryContainer">
+		<ul>
+			<li><a href="http://www.cracked.com/humor-movies-tv.html">Movies &amp; TV</a></li>
+			<li><a href="http://www.cracked.com/humor-video-games.html">Video Games</a></li>
+			<li><a href="http://www.cracked.com/humor-weird-world.html">Weird World</a></li>
+			<li><a href="http://www.cracked.com/humor-history.html">History</a></li>
+			<li><a href="http://www.cracked.com/humor-science.html">Science</a></li>
+			<li><a href="http://www.cracked.com/humor-tech.html">Tech</a></li>
+			<li><a href="http://www.cracked.com/humor-music.html">Music</a></li>
+
+			<li class="writeForUs"><a href="http://www.cracked.com/write-for-cracked/">Write For Us</a></li>
+			<li class="store"><a href="http://store.cracked.com" target="_blank">Store</a></li>
+			<li class="last virals"><a href="http://www.cracked.com/virals/"><i class="icnViral"></i>Viral Now</a></li>
+		</ul>
+	</div>
+</nav>
+<!-- /SECONDARY NAV -->
+</header>
+<!-- Header ends -->
+
+
+
+<div class="mainAd" id="opa-pushdown">
+	<div id='728x90_990x90_970x250' class="ad728x90">
+<script type='text/javascript'>
+if (typeof googleAdSlots["728x90_990x90_970x250"] !== "undefined") googletag.cmd.push(function() { googletag.display('728x90_990x90_970x250'); });
+</script>
+</div>
+
+<script type="text/javascript">
+	if (CKDFP.getNetworkId() != 6117 && document.getElementsByClassName("mainAd").length == 0) {
+		var mainFrame = document.getElementsByClassName("mainFrame")[0];
+		var adUnit = mainFrame.removeChild(document.getElementById("728x90_990x90_970x250").parentNode);
+		adUnit.className = "mainAd";
+		adUnit.id = "opa-pushdown";
+
+		document.getElementsByTagName("body")[0].insertBefore(adUnit, mainFrame);
+	}
+</script>
+</div>
+
+<div class="mainFrame noMarginTopWithContent">
+	<div class="mainFrameModule contentTopModule"></div>
+	<div class="mainFrameModule last">
+		<div class="leftColumn">
+			<!-- Start Feature Module-->
+					<section class="featuredModule" id="layout_14">
+		<div class="halfCentralFeatured dropShadowBottomCurved">
+		<a class="gradientCover" href="http://www.cracked.com/article_21648_6-video-games-that-put-insane-detail-into-stuff-you-missed.html"></a>
+<a href="http://www.cracked.com/article_21648_6-video-games-that-put-insane-detail-into-stuff-you-missed.html">
+	
+	
+	
+	
+	<img width="321" height="315" src="http://i.crackedcdn.com/phpimages/article/6/9/2/322692_v1.jpg" alt="" />
+</a>
+<div class="metaInfo">
+	<h3>
+		<a href="http://www.cracked.com/article_21648_6-video-games-that-put-insane-detail-into-stuff-you-missed.html" title="">6 Video Games That Put Insane Detail Into Stuff You Missed <span class="imgFlame">Viral</span></a>
+	</h3>
+
+		<span>By 
+
+													<a href="http://www.cracked.com/members/karlos/">Karl Smallwood</a>
+
+				,																<a href="http://www.cracked.com/members/UncleEllsworth/">Ridley Davis</a>
+
+				,																<a href="http://www.cracked.com/members/originalDrobe/">J. Wisniewski</a>
+
+									
+        
+		, ...
+	</span>
+	</div>
+		
+	</div>
+		<div class="halfCentralFeatured dropShadowBottomCurved last">
+		<a class="gradientCover" href="http://www.cracked.com/video_19120_the-popular-new-dance-craze-socially-anxious.html"></a>
+<a href="http://www.cracked.com/video_19120_the-popular-new-dance-craze-socially-anxious.html">
+			<div class="playButton"></div>
+	
+	
+	
+	
+	<img width="321" height="315" src="http://i.crackedcdn.com/phpimages/image/7/6/8/322768_v1.jpg" alt="" />
+</a>
+<div class="metaInfo">
+	<h3>
+		<a href="http://www.cracked.com/video_19120_the-popular-new-dance-craze-socially-anxious.html" title="">The Popular New Dance Craze For the Socially Anxious </a>
+	</h3>
+
+		<span>By 
+
+													<a href="http://www.cracked.com/members/rachelbloom/">Rachel Bloom</a>
+
+																			
+        
+		
+	</span>
+	</div>
+		
+	</div>
+	
+		<div class="smallFeatured dropShadowBottomCurved">
+		<a class="gradientCover" href="http://www.cracked.com/article_21750_5-awful-things-i-learned-as-child-laborer-in-usa.html"></a>
+<a href="http://www.cracked.com/article_21750_5-awful-things-i-learned-as-child-laborer-in-usa.html">
+	
+	
+	
+	
+	<img width="157" height="185" src="http://i.crackedcdn.com/phpimages/article/6/7/0/322670_v1.jpg" alt="" />
+</a>
+<div class="metaInfo">
+	<h3>
+		<a href="http://www.cracked.com/article_21750_5-awful-things-i-learned-as-child-laborer-in-usa.html" title="">5 Awful Things I Learned as a Child Laborer (in the USA) </a>
+	</h3>
+
+		<span>By 
+
+													<a href="http://www.cracked.com/members/PurpleTowel/">Robert Evans</a>
+
+									
+        
+		
+	</span>
+	</div>
+		
+	</div>
+		<div class="smallFeatured dropShadowBottomCurved">
+		<a class="gradientCover" href="http://www.cracked.com/photoplasty_1092_19-laws-youve-probably-broken-without-realizing-it/"></a>
+<a href="http://www.cracked.com/photoplasty_1092_19-laws-youve-probably-broken-without-realizing-it/">
+	
+	
+			<div class="photoplastyIcon"></div>
+	
+	
+	<img width="157" height="185" src="http://i.crackedcdn.com/phpimages/photoshop/7/1/0/322710.jpg?v=1" alt="" />
+</a>
+<div class="metaInfo">
+	<h3>
+		<a href="http://www.cracked.com/photoplasty_1092_19-laws-youve-probably-broken-without-realizing-it/" title="">19 Laws You've Probably Broken Without Realizing It </a>
+	</h3>
+
+		<span>By 
+
+													<a href="http://www.cracked.com/members/Cracked+Readers/">CRACKED Readers</a>
+
+									
+        
+		
+	</span>
+	</div>
+		
+	</div>
+		<div class="smallFeatured dropShadowBottomCurved">
+		<a class="gradientCover" href="http://www.cracked.com/blog/7-things-that-will-never-happen-again-thanks-to-technology/"></a>
+<a href="http://www.cracked.com/blog/7-things-that-will-never-happen-again-thanks-to-technology/">
+	
+	
+	
+	
+	<img width="157" height="185" src="http://i.crackedcdn.com/phpimages/article/5/5/4/322554_v1.jpg" alt="" />
+</a>
+<div class="metaInfo">
+	<h3>
+		<a href="http://www.cracked.com/blog/7-things-that-will-never-happen-again-thanks-to-technology/" title="">7 Things That Will Never Happen Again Thanks to Technology </a>
+	</h3>
+
+		<span>By 
+
+													<a href="http://www.cracked.com/members/MisterClay/">Felix Clay</a>
+
+									
+        
+		
+	</span>
+	</div>
+		
+	</div>
+		<div class="smallFeatured dropShadowBottomCurved">
+		<a class="gradientCover" href="http://www.cracked.com/podcast/14-insane-plot-holes-you-never-noticed-live-in-nashville/"></a>
+<a href="http://www.cracked.com/podcast/14-insane-plot-holes-you-never-noticed-live-in-nashville/">
+	
+			<div class="podcastIcon"></div>
+	
+	
+	
+	<img width="157" height="185" src="http://i.crackedcdn.com/phpimages/podcast/7/3/4/322734_v1.jpg" alt="" />
+</a>
+<div class="metaInfo">
+	<h3>
+		<a href="http://www.cracked.com/podcast/14-insane-plot-holes-you-never-noticed-live-in-nashville/" title="">14 Insane Plot Holes You Never Noticed (Live in Nashville) </a>
+	</h3>
+
+	</div>
+		
+	</div>
+	</section>
+			<!-- End Feature Module-->
+
+			
+<section class="module genericLeftModule videoModule dropShadowBottomCurved">
+	<header>
+		<h2>Watch More Does Not Compute!</h2>
+
+		
+	</header>
+	<div class="body">
+		<div class="videoContainer">
+			<div class="rightContainer">
+				<!--<ul class="tabs">
+					<li class="tab">More After Hours</li>
+					<li class="tab inactive">Recommended</li>
+				</ul>-->
+				<ul class="bulletsWithAwesome">
+
+					
+					<li><a title="" href="/video_18201_deconstructing-most-wtf-clip-in-internet-history-dnc.html"><i class="icon-circle"></i><span>Deconstructing The Most WTF Clip In Internet History (DNC)</span></a><span class="views">805,212 Views</span></li>
+
+					
+					<li><a title="" href="/video_18971_the-5-most-hilariously-insane-local-tv-ads.html"><i class="icon-circle"></i><span>The 5 Most Hilariously Insane Ads in the History of Local TV</span></a><span class="views">131,789 Views</span></li>
+
+					
+					<li><a title="" href="/video_18420_the-3-worst-pieces-advice-internet.html"><i class="icon-circle"></i><span>The 3 Worst Pieces of Advice on the Internet</span></a><span class="views">807,075 Views</span></li>
+
+					
+					<li><a title="" href="/video_18313_5-people-who-are-way-too-good-at-crappy-jobs.html"><i class="icon-circle"></i><span>5 People Who Are Way Too Good At Crappy Jobs</span></a><span class="views">636,153 Views</span></li>
+
+					
+					<li><a title="" href="/video_18895_4-exciting-new-technologies-having-sex-all-by-yourself.html"><i class="icon-circle"></i><span>4 Exciting New Technologies for Having Sex (All By Yourself)</span></a><span class="views">474,133 Views</span></li>
+
+					
+				</ul>
+			</div>
+
+			<div class="leftContainer">
+				<div class="videoWrapper">
+					<div class="gradientCover"></div>
+					<a href="/video_18318_11-sex-toys-seemingly-designed-to-ruin-sex.html" title="">
+						<img src="http://i.crackedcdn.com/phpimages/image/7/4/8/111748.jpg?v=1" width="300" height="169" alt="" />
+					</a>
+					<a href="/video_18318_11-sex-toys-seemingly-designed-to-ruin-sex.html" title="" class="btnPlay"></a>
+<!--					<div class="meta">-->
+<!--						<h5><a href="#" title="">After Hours</a></h5>-->
+<!--					</div>-->
+				</div>
+				<h3>
+					<a href="/video_18318_11-sex-toys-seemingly-designed-to-ruin-sex.html" title="">11 Sex Toys Seemingly Designed to Ruin Sex</a>
+				</h3>
+
+				<div class="views">By
+
+					
+					<a href="/members/MichaelSwaim" title="">Michael Swaim</a>
+
+					
+					| 01-16-2012
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+			<!-- Start Recent Popular Recommended Module -->
+			<section class="module dropShadowBottomCurved" id="homePagePopularList"
+			data-pages="775"
+			data-pagination-url="http://www.cracked.com/past_featured_ajax/?page={p}&ajax=true"
+			>
+
+			<div class="listEntry" id="homeSponsorModule">
+				<a target="_blank" class="homeSponsorModuleUrl" href="">
+					<img alt="" class="homeSponsorModuleThumb thumb"/>
+				</a>
+
+				<div class="meta">
+					<h3 class="title"><a target="_blank" class="homeSponsorModuleUrl homeSponsorModuelTitle"></a></h3>
+
+					<div class="sponsorWrap">
+						<a target="_blank" href="" class="homeSponsorModuleSponsorUrl">
+							<img style="height: 39px; width: 39px;" class="homeSponsorModuleSponsorThumb"/>
+						</a>
+
+						<div class="sponsoredContentWrap">
+							<span class="sponsoredBy">SPONSORED BY</span>
+
+							<div class="sponsor"><a target="_blank" href=""
+								class="homeSponsorModuleSponsorUrl homeSponsorModuleSponsorName"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id='648x116' class="Ad648x116">
+<script type='text/javascript'>
+if (typeof googleAdSlots["648x116"] !== "undefined") googletag.cmd.push(function() { googletag.display('648x116'); });
+</script>
+</div>
+
+
+		    				<div class="listEntry">
+
+
+	
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/blog/2-new-shirts-people-who-aint-afraid-no-ghost/">        <img data-img="http://i.crackedcdn.com/phpimages/article/8/0/8/322808_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/blog/2-new-shirts-people-who-aint-afraid-no-ghost/">				2 New Shirts for People Who Ain't Afraid of No Ghost							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/cracked-staff_contributor/">CRACKED Staff</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 29, 2014</time>
+			 |
+            <span class="views">6,243 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/linkstorm/">        <img data-img="http://i.crackedcdn.com/phpimages/linkstorm/9/4/0/322940.jpg?v=1" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/linkstorm/">				LinkSTORM: Halloween Costumes That Scream 2014							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/Fitzgerald/">Fitzgerald Smith</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 29, 2014</time>
+					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/article_21500_the-6-most-amazing-things-ever-traded-pointless-crap.html">        <img data-img="http://i.crackedcdn.com/phpimages/article/1/8/0/322180_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/article_21500_the-6-most-amazing-things-ever-traded-pointless-crap.html">				The 6 Most Amazing Things Ever Traded For Pointless Crap									<span class="imgFlame">Viral</span>
+							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/AlexanderPan/">Alexander Pan</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 28, 2014</time>
+			 |
+            <span class="views">545,094 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/article_21748_7-horrifying-lessons-learned-directing-porno.html">        <img data-img="http://i.crackedcdn.com/phpimages/article/1/6/0/322160_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/article_21748_7-horrifying-lessons-learned-directing-porno.html">				7 Horrifying Lessons Learned Directing a Porno									<span class="imgFlame">Viral</span>
+							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/PurpleTowel/">Robert Evans</a>,                                    <a href="http://www.cracked.com/members/anonymous_contributor/">Anonymous</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 28, 2014</time>
+			 |
+            <span class="views">1,361,627 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+			<div class="photoplastyIcon"></div>
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/photoplasty_1090_19-impossibly-badass-do-it-yourself-projects/">        <img data-img="http://i.crackedcdn.com/phpimages/photoshop/4/3/6/322436_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/photoplasty_1090_19-impossibly-badass-do-it-yourself-projects/">				19 Impossibly Badass Do-It-Yourself Projects							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/Cracked+Readers/">CRACKED Readers</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 28, 2014</time>
+			 |
+            <span class="views">617,494 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+	
+	
+			<div class="videoIcon"></div>
+	
+			<a class="linkImage" href="http://www.cracked.com/video_19068_5-secret-thoughts-we-all-have-at-art-galleries.html">        <img data-img="http://i.crackedcdn.com/phpimages/image/4/0/8/322408_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/video_19068_5-secret-thoughts-we-all-have-at-art-galleries.html">				5 Secret Thoughts We All Have At Art Galleries							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/mattdennie/">Dennie and Sharp</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 28, 2014</time>
+			 |
+            <span class="views">30,759 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/blog/5-life-hacks-to-class-up-your-single-guy-apartment/">        <img data-img="http://i.crackedcdn.com/phpimages/article/3/3/4/322334_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/blog/5-life-hacks-to-class-up-your-single-guy-apartment/">				5 Life Hacks to Class Up Your Single Guy Apartment							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/G-Stone/">Gladstone</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 28, 2014</time>
+			 |
+            <span class="views">376,614 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+								<aside class="editors-picks">
+
+					<div id='300x250_btf' class="ad300x250">
+<script type='text/javascript'>
+if (typeof googleAdSlots["300x250_btf"] !== "undefined") googletag.cmd.push(function() { googletag.display('300x250_btf'); });
+</script>
+</div>
+
+
+					<section class="contents">
+						<h1>Editor's Picks</h1>
+						<ul>
+													<li class="content">
+								<h2>
+									<a href="/blog/the-5-ugly-lessons-hiding-in-every-superhero-movie" title="The 5 Ugly Lessons Hiding in Every Superhero Movie">The 5 Ugly Lessons Hiding in Every Superhero Movie</a>
+									<div>1,792,922 Views</div>
+								</h2>
+							</li>
+													<li class="content">
+								<h2>
+									<a href="/photoplasty_591_27-insane-but-true-early-versions-famous-characters" title="27 Insane (But True) Early Versions of Famous Characters">27 Insane (But True) Early Versions of Famous Characters</a>
+									<div>1,681,196 Views</div>
+								</h2>
+							</li>
+													<li class="content">
+								<h2>
+									<a href="/video_18579_if-disney-songs-were-historically-accurate.html" title="If Disney Cartoons Were Historically Accurate">If Disney Cartoons Were Historically Accurate</a>
+									<div>1,013,101 Views</div>
+								</h2>
+							</li>
+												</ul>
+					</section>
+				</aside>
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+	
+			<div class="quickfixIcon"></div>
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/quick-fixes/5-companies-whose-ad-campaigns-just-backfired-horrifically/">        <img data-img="http://i.crackedcdn.com/phpimages/quickfix/3/7/6/322376_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/quick-fixes/5-companies-whose-ad-campaigns-just-backfired-horrifically/">				5 Companies Whose Ad Campaigns Just Backfired Horrifically							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/Archaeology+Dalek/">Adam Wears</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 27, 2014</time>
+			 |
+            <span class="views">346,023 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/article_21494_5-absurdly-badass-action-figures-unlikely-characters.html">        <img data-img="http://i.crackedcdn.com/phpimages/article/0/2/4/322024_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/article_21494_5-absurdly-badass-action-figures-unlikely-characters.html">				5 Absurdly Badass Action Figures of Unlikely Characters									<span class="imgFlame">Viral</span>
+							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/keatonbrows/">JM McNab</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 27, 2014</time>
+			 |
+            <span class="views">577,388 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/blog/6-myths-about-body-builders-that-are-total-bs/">        <img data-img="http://i.crackedcdn.com/phpimages/article/0/9/0/322090_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/blog/6-myths-about-body-builders-that-are-total-bs/">				6 Myths About Body Builders That Are Total BS							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/dockery/">Daniel Dockery</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 27, 2014</time>
+			 |
+            <span class="views">470,156 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    					<section class="podCastHomeModule">
+	<header>
+		<h2>The Cracked Podcast</h2>
+	</header>
+	<div class="body">
+		<a class="imageContainer" href="http://www.cracked.com/podcast/14-insane-plot-holes-you-never-noticed-live-in-nashville/">
+			<img src="http://i.crackedcdn.com/phpimages/podcast/7/1/8/322718_v1.jpg" width="188" height="188" />
+		</a>
+		<div class="meta">
+			<h3>
+				<a href="http://www.cracked.com/podcast/14-insane-plot-holes-you-never-noticed-live-in-nashville/">14 Insane Plot Holes You Never Noticed (Live in Nashville)</a>
+			</h3>
+			<div class="authorDate">
+				With
+				<span class="authors">
+					Cracked Staff
+				</span>
+				|
+				<span class="date">
+					September 29, 2014				</span>
+			</div>
+			<div class="infoWrapper">
+				Hollywood's villains are the luckiest people on the damn planet. Let's talk about climactic midpoint of The Dark Knight: The Jok...
+			</div>
+			<a href="http://www.cracked.com/podcast/14-insane-plot-holes-you-never-noticed-live-in-nashville/" class="goListenBtn">Go Listen</a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+</section>				
+		    				<div class="listEntry">
+
+
+	
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/article_21702_how-cracked-about-to-ruin-science-fiction-forever.html">        <img data-img="http://i.crackedcdn.com/phpimages/article/3/0/2/322302_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/article_21702_how-cracked-about-to-ruin-science-fiction-forever.html">				How Cracked Is About to Ruin Science Fiction Forever							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/David+Wong/">David Wong</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 27, 2014</time>
+			 |
+            <span class="views">95,211 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/blog/10-sex-toys-that-make-your-weirdest-fetish-seem-sane/">        <img data-img="http://i.crackedcdn.com/phpimages/article/1/1/4/322114_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/blog/10-sex-toys-that-make-your-weirdest-fetish-seem-sane/">				10 Sex Toys That Make Your Weirdest Fetish Seem Sane									<span class="imgFlame">Viral</span>
+							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/Collision/">Pauli Poisuo</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 27, 2014</time>
+			 |
+            <span class="views">599,843 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/blog/4-reasons-timecop-modern-masterpiece/">        <img data-img="http://i.crackedcdn.com/phpimages/article/0/5/2/322052_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/blog/4-reasons-timecop-modern-masterpiece/">				4 Reasons Timecop is a Modern Masterpiece							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/chickenface/">Tom Reimann</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 27, 2014</time>
+			 |
+            <span class="views">170,316 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+			<div class="photoplastyIcon"></div>
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/photoplasty_1084_18-undeniable-facts-that-prove-world-getting-better/">        <img data-img="http://i.crackedcdn.com/phpimages/photoshop/1/3/8/322138_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/photoplasty_1084_18-undeniable-facts-that-prove-world-getting-better/">				18 Undeniable Facts That Prove the World Is Getting Better							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/Cracked+Readers/">CRACKED Readers</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 26, 2014</time>
+			 |
+            <span class="views">622,153 views</span>					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    				<div class="listEntry">
+
+
+	
+	
+	
+	
+			<a class="linkImage" href="http://www.cracked.com/blog/5-sci-fi-weapons-that-already-exist/">        <img data-img="http://i.crackedcdn.com/phpimages/article/0/8/6/310086_v1.jpg" class="thumb" />
+		</a>	
+	
+	<div class="meta">
+
+					<h3 class="title">
+			<a href="http://www.cracked.com/blog/5-sci-fi-weapons-that-already-exist/">				5 Sci-Fi Weapons (That Already Exist)							</a>			</h3>
+		
+		            <div class="author">
+                By
+                                                    <a href="http://www.cracked.com/members/auroratudor/">Kathy Benjamin</a>                                            </div>
+		
+				<div class="timeViews">
+            <time class="date">September 26, 2014</time>
+			 |
+            					</div>
+		
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+
+
+				
+			    
+		    		</section>
+
+	  </div>
+	  <div class="rightColumn">
+		  	  		<!-- Start Cracked Timeline -->
+	  		<section class="module GenericRRModule timelineModule dropShadowBottomCurvedModule">
+	  			<header><h4>Cracked Timeline</h4></header>
+
+					  			<div class="leftTimeline" id="timeline_27" style="display:inline-block;">
+	  				<div class="bigTimeline">
+	  					<a href="http://www.cracked.com/article_21702_how-cracked-about-to-ruin-science-fiction-forever.html" title="How Cracked Is About to Ruin Science Fiction Forever" class="bigImageTimeline"><img width="245" height="153" src="http://i.crackedcdn.com/phpimages/article/3/1/0/322310_v1.jpg" alt="How Cracked Is About to Ruin Science Fiction Forever" /></a>
+  						<h5>
+  							<a href="http://www.cracked.com/article_21702_how-cracked-about-to-ruin-science-fiction-forever.html" title="">How Cracked Is About to Ruin Science Fiction Forever</a>
+  						</h5>
+  						  						<div class="author">
+  							<span class="byAuthor">By</span> <a href="/members/David Wong" title="">David Wong</a> | 09-27-2014  						</div>
+  							  				</div>
+
+	  				<ul class="bulletsWithAwesome">
+					    						<li>
+							<a title="" href="http://www.cracked.com/article_21494_5-absurdly-badass-action-figures-unlikely-characters.html">
+								<i class="icon-circle"></i>
+
+								<span>5 Absurdly Badass Action Figures of Unlikely Characters																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">577,388 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/blog/4-reasons-timecop-modern-masterpiece/">
+								<i class="icon-circle"></i>
+
+								<span>4 Reasons Timecop is a Modern Masterpiece																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">170,316 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/blog/6-myths-about-body-builders-that-are-total-bs/">
+								<i class="icon-circle"></i>
+
+								<span>6 Myths About Body Builders That Are Total BS																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">470,156 views</span></li>
+											</ul>
+	  			</div>
+					  			<div class="leftTimeline" id="timeline_26" style="display:none;">
+	  				<div class="bigTimeline">
+	  					<a href="http://www.cracked.com/article_21578_5-everyday-things-that-are-secretly-making-you-fat.html" title="5 Surprising Things That Are Secretly Making You Fat" class="bigImageTimeline"><img width="245" height="153" src="http://i.crackedcdn.com/phpimages/article/7/3/4/321734_v2.jpg" alt="5 Surprising Things That Are Secretly Making You Fat" /></a>
+  						<h5>
+  							<a href="http://www.cracked.com/article_21578_5-everyday-things-that-are-secretly-making-you-fat.html" title="">5 Surprising Things That Are Secretly Making You Fat</a>
+  						</h5>
+  						  						<div class="author">
+  							<span class="byAuthor">By</span> <a href="/members/cracked-staff_contributor" title="">CRACKED Staff</a> | 09-25-2014  						</div>
+  							  				</div>
+
+	  				<ul class="bulletsWithAwesome">
+					    						<li>
+							<a title="" href="http://www.cracked.com/video_19094_why-weed-legalization-terrible-weed-smokers.html">
+								<i class="icon-circle"></i>
+
+								<span>Why Weed Legalization Is Terrible for Weed Smokers																		    <i class="icon-facetime-video"></i>
+								    								</span>								
+
+							</a>
+
+							<span class="views">80,390 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/blog/5-laws-everyone-would-hate-that-world-needs-anyway/">
+								<i class="icon-circle"></i>
+
+								<span>5 Laws Everyone Would Hate (That the World Needs Anyway)																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">541,954 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/photoplasty_1086_32-things-awful-people-secretly-suspect-about-world/">
+								<i class="icon-circle"></i>
+
+								<span>32 Things Awful People Secretly Suspect About the World																		    <i class="icon-camera"></i>
+								    								</span>								
+
+							</a>
+
+							<span class="views">1,090,028 views</span></li>
+											</ul>
+	  			</div>
+					  			<div class="leftTimeline" id="timeline_25" style="display:none;">
+	  				<div class="bigTimeline">
+	  					<a href="http://www.cracked.com/article_21564_6-glorious-police-screw-ups-straight-out-bad-sitcom.html" title="6 Real Police Screw-Ups That Put Chief Wiggum to Shame" class="bigImageTimeline"><img width="245" height="153" src="http://i.crackedcdn.com/phpimages/article/0/8/0/321080_v1.jpg" alt="6 Real Police Screw-Ups That Put Chief Wiggum to Shame" /></a>
+  						<h5>
+  							<a href="http://www.cracked.com/article_21564_6-glorious-police-screw-ups-straight-out-bad-sitcom.html" title="">6 Real Police Screw-Ups That Put Chief Wiggum to Shame</a>
+  						</h5>
+  						  						<div class="author">
+  							<span class="byAuthor">By</span> <a href="/members/Dr.Thunderfudge" title="">A.C. Grimes</a> | 09-25-2014  						</div>
+  							  				</div>
+
+	  				<ul class="bulletsWithAwesome">
+					    						<li>
+							<a title="" href="http://www.cracked.com/blog/7-ways-gamergate-debate-has-made-world-worse/">
+								<i class="icon-circle"></i>
+
+								<span>7 Reasons "Gamergate" Proves Humanity is Doomed																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">427,942 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/blog/6-reasons-video-games-still-have-terrible-stories/">
+								<i class="icon-circle"></i>
+
+								<span>6 Storytelling Problems Video Games Still Can't Fix																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">464,453 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/blog/the-4-saddest-parts-playing-fantasy-football/">
+								<i class="icon-circle"></i>
+
+								<span>4 Ways Fantasy Football Makes You Miserable																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">150,552 views</span></li>
+											</ul>
+	  			</div>
+					  			<div class="leftTimeline" id="timeline_24" style="display:none;">
+	  				<div class="bigTimeline">
+	  					<a href="http://www.cracked.com/blog/4-ways-to-spot-internet-bullshit-artist/" title="4 Ways to Spot an Internet Bullshit Artist" class="bigImageTimeline"><img width="245" height="153" src="http://i.crackedcdn.com/phpimages/article/9/9/8/320998_v1.jpg" alt="4 Ways to Spot an Internet Bullshit Artist" /></a>
+  						<h5>
+  							<a href="http://www.cracked.com/blog/4-ways-to-spot-internet-bullshit-artist/" title="">4 Ways to Spot an Internet Bullshit Artist</a>
+  						</h5>
+  						  						<div class="author">
+  							<span class="byAuthor">By</span> <a href="/members/sephira" title="">C. Coville</a> | 09-24-2014  						</div>
+  							  				</div>
+
+	  				<ul class="bulletsWithAwesome">
+					    						<li>
+							<a title="" href="http://www.cracked.com/photoplasty_1074_24-inevitable-advertisements-when-all-drugs-are-legal/">
+								<i class="icon-circle"></i>
+
+								<span>24 Inevitable Advertisements For When All Drugs Are Legal																		    <i class="icon-camera"></i>
+								    								</span>								
+
+							</a>
+
+							<span class="views">776,728 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/article_21544_6-tv-shows-that-put-insane-work-into-details-nobody-noticed.html">
+								<i class="icon-circle"></i>
+
+								<span>6 TV Shows That Put Insane Work Into Details Nobody Noticed																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">1,274,177 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/blog/5-things-everyone-gets-wrong-about-free-speech/">
+								<i class="icon-circle"></i>
+
+								<span>5 Things Everyone Gets Wrong About Free Speech																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">529,805 views</span></li>
+											</ul>
+	  			</div>
+					  			<div class="leftTimeline" id="timeline_23" style="display:none;">
+	  				<div class="bigTimeline">
+	  					<a href="http://www.cracked.com/blog/5-things-everyone-gets-wrong-about-free-speech/" title="5 Things Everyone Gets Wrong About Free Speech" class="bigImageTimeline"><img width="245" height="153" src="http://i.crackedcdn.com/phpimages/article/7/6/0/320760_v1.jpg" alt="5 Things Everyone Gets Wrong About Free Speech" /></a>
+  						<h5>
+  							<a href="http://www.cracked.com/blog/5-things-everyone-gets-wrong-about-free-speech/" title="">5 Things Everyone Gets Wrong About Free Speech</a>
+  						</h5>
+  						  						<div class="author">
+  							<span class="byAuthor">By</span> <a href="/members/Robotman" title="">Chris Bucholz</a> | 09-23-2014  						</div>
+  							  				</div>
+
+	  				<ul class="bulletsWithAwesome">
+					    						<li>
+							<a title="" href="http://www.cracked.com/article_21544_6-tv-shows-that-put-insane-work-into-details-nobody-noticed.html">
+								<i class="icon-circle"></i>
+
+								<span>6 TV Shows That Put Insane Work Into Details Nobody Noticed																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">1,274,177 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/article_21552_5-famous-movies-with-political-agendas-you-didnt-notice.html">
+								<i class="icon-circle"></i>
+
+								<span>5 Famous Movies With Political Agendas You Didn't Notice																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">800,728 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/video_19076_4-u.s.-presidents-whose-lives-put-action-movies-to-shame.html">
+								<i class="icon-circle"></i>
+
+								<span>4 U.S. Presidents Whose Lives Put Action Movies to Shame																		    <i class="icon-facetime-video"></i>
+								    								</span>								
+
+							</a>
+
+							<span class="views">95,925 views</span></li>
+											</ul>
+	  			</div>
+					  			<div class="leftTimeline" id="timeline_22" style="display:none;">
+	  				<div class="bigTimeline">
+	  					<a href="http://www.cracked.com/photoplasty_1080_19-products-you-use-every-day-that-are-basically-placebos/" title="19 Products You Use Every Day (That Are Basically Placebos)" class="bigImageTimeline"><img width="245" height="153" src="http://i.crackedcdn.com/phpimages/photoshop/6/8/2/319682_v1.jpg" alt="19 Products You Use Every Day (That Are Basically Placebos)" /></a>
+  						<h5>
+  							<a href="http://www.cracked.com/photoplasty_1080_19-products-you-use-every-day-that-are-basically-placebos/" title="">19 Products You Use Every Day (That Are Basically Placebos)</a>
+  						</h5>
+  						  						<div class="author">
+  							<span class="byAuthor">By</span> <a href="/members/Cracked Readers" title="">CRACKED Readers</a> | 09-22-2014  						</div>
+  							  				</div>
+
+	  				<ul class="bulletsWithAwesome">
+					    						<li>
+							<a title="" href="http://www.cracked.com/blog/3-most-perverted-looking-japanese-movies-netflix-tested/">
+								<i class="icon-circle"></i>
+
+								<span>3 Most Perverted Looking Japanese Movies on Netflix: Tested																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">576,236 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/quick-fixes/4-reasons-news-stories-about-martian-missions-are-just-hype/">
+								<i class="icon-circle"></i>
+
+								<span>4 Reasons News Stories About Martian Missions Are Just Hype																			
+								    								</span>								
+
+							</a>
+
+							<span class="views">287,171 views</span></li>
+												<li>
+							<a title="" href="http://www.cracked.com/video_19098_the-only-way-to-make-celeb-nude-leak-scandal-fair.html">
+								<i class="icon-circle"></i>
+
+								<span>The Only Way to Make the Celeb Nude Leak Scandal Fair																		    <i class="icon-facetime-video"></i>
+								    								</span>								
+
+							</a>
+
+							<span class="views">73,512 views</span></li>
+											</ul>
+	  			</div>
+					  			<div class="rightTimeline">
+	  				<ul>
+							  					<li id="timetab_27" class="active">
+	  						<a href="javascript:;" onclick="loadTimeLine('27')" title="">
+	  							<span class="month">SEP</span>
+	  							<span class="day">27</span>
+	  						</a>
+	  					</li>
+							  					<li id="timetab_26" class="">
+	  						<a href="javascript:;" onclick="loadTimeLine('26')" title="">
+	  							<span class="month">SEP</span>
+	  							<span class="day">26</span>
+	  						</a>
+	  					</li>
+							  					<li id="timetab_25" class="">
+	  						<a href="javascript:;" onclick="loadTimeLine('25')" title="">
+	  							<span class="month">SEP</span>
+	  							<span class="day">25</span>
+	  						</a>
+	  					</li>
+							  					<li id="timetab_24" class="">
+	  						<a href="javascript:;" onclick="loadTimeLine('24')" title="">
+	  							<span class="month">SEP</span>
+	  							<span class="day">24</span>
+	  						</a>
+	  					</li>
+							  					<li id="timetab_23" class="">
+	  						<a href="javascript:;" onclick="loadTimeLine('23')" title="">
+	  							<span class="month">SEP</span>
+	  							<span class="day">23</span>
+	  						</a>
+	  					</li>
+							  					<li id="timetab_22" class="last">
+	  						<a href="javascript:;" onclick="loadTimeLine('22')" title="">
+	  							<span class="month">SEP</span>
+	  							<span class="day">22</span>
+	  						</a>
+	  					</li>
+							  				</ul>
+	  			</div>
+	  		</section>
+	  		<!-- End Cracked Timeline -->
+
+		  <div id="homePersistent">
+			  <div id='300x250_300x600_atf' class="ad300x250Right">
+<script type='text/javascript'>
+if (typeof googleAdSlots["300x250_300x600_atf"] !== "undefined") googletag.cmd.push(function() { googletag.display('300x250_300x600_atf'); });
+</script>
+</div>
+
+		  </div>
+	  </div>
+
+	</div>
+</div>
+<div class="up-and-down-controler" id="upAndDownControler">
+	<a class="go-top" href="#" id="goTopFooter"></a>
+	<a class="go-down" href="#" id="goDownFooter"></a>
+</div>
+
+	<div class="facebookWrapperModule">
+		<div class="facebookContainerModule">
+			<div class="columnBig">
+				Choosing to "Like" Cracked has no side effects, so what's the worst that could happen?
+			</div>
+			<div class="columnSmall">
+				<a href="http://www.cracked.com/" class="logoCrackedFacebook"></a>
+				<div class="facebookColumns">
+					<a href="http://www.facebook.com/cracked" target="_blank" class="crackedFacebook">Cracked.com <span>on Facebook</span></a>
+					<div class="fb-like" data-href="http://www.facebook.com/cracked" data-send="false" data-layout="button_count" data-width="300" data-show-faces="false"></div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<a href="#" class="closeBtnFacebook"></a>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="footerWrapperTop">
+			<div class="footerShadowTop">
+				<a href="#" class="btnClose" title="Close" id="btnFooterClose"></a>
+				<div class="linkAndSocialContainer">
+					<div class="fourColumns first">
+						<h5>About</h5>
+						<ul>
+							<li><a href="/about-us/" title="About Us">About Us</a></li>
+							<li><a href="/write-for-cracked/" title="Write for Cracked">Write for Cracked</a></li>
+							<li><a href="http://www.cracked.com/contact-us.html" title="Contact Us" class="ContactButton url" onClick="return false;">Contact Us</a></li>							
+							<li><a href="http://www.demandmedia.com/media/#cracked" title="Advertise">Advertise</a></li>
+							<li><a href="/sitemap.html" title="Sitemap">Sitemap</a></li>
+							<li><a href="/terms-and-conditions.html" title="Terms & Conditions">Terms & Conditions</a></li>
+							<li><a href="/privacy-policy.html" title="Privacy Policy">Privacy Policy</a></li>
+							<li class="last"><a id="_bapw-link" href="#" class="btnChoices"><img id="_bapw-icon" /><span>AdChoices</span></a></li>
+						</ul>
+					</div>
+					<div class="fourColumns">
+						<h5>Cracked Mobile Apps</h5>
+						<ul>
+							<li><h6>iOS</h6></li>
+							<li><a href="https://itunes.apple.com/us/app/the-cracked-reader-lite/id375994906?mt=8" title="Cracked Reader for iPhone">Cracked Reader for iPhone</a></li>
+							<li><a href="https://itunes.apple.com/us/app/cracked-com-for-ipad/id381073477?mt=8" title="Reader for iPad">Reader for iPad</a></li>
+							<li><a href="https://itunes.apple.com/us/app/best-of-cracked-vol.-1/id505727976?mt=8" title="Best of 2011 for iOS">Best of 2011 for iOS</a></li>
+							<li><h6>Android</h6></li>
+							<li><a href="https://play.google.com/store/apps/details?id=com.cracked.asstrology" title="Cracked Asstrology">Cracked Asstrology</a></li>
+							<li><a href="https://play.google.com/store/apps/details?id=com.cracked.android.lite&hl=en" title="Cracked Reader for Android">Cracked Reader for Android</a></li>
+							<li class="last"><a href="https://play.google.com/store/apps/details?id=com.cracked.android.lite.bestof2011 " title="Best of 2011 for Android">Best of 2011 for Android</a></li>
+						</ul>
+					</div>
+					<div class="fourColumns">
+						<h5>Popular Topics</h5>
+						<ul>
+							<li><a href="/funny-212-boobs/" title="Boobs">Boobs</a></li>
+							<li><a href="/article_15643_5-scientific-reasons-zombie-apocalypse-could-actually-happen.html" title="Zombies">Zombies</a></li>
+							<li><a href="/funny-4573-hipster/" title="Hipsters">Hipsters</a></li>
+							<li><a href="/article_15628_the-5-creepiest-urban-legends-that-happen-to-be-true.html" title="Urban Legends">Urban Legends</a></li>
+							<li class="last"><a href="/blog/5-personality-flaws-skyrim-forces-you-to-deal-with/" title="Skyrim">Skyrim</a></li>
+						</ul>
+					</div>
+					<div class="fourColumns last">
+						<h5>Stay Connected</h5>
+						<ul>
+							<li class="paddingLeftFooter facebookLogo">Like us on Facebook
+								<div class="fb-like" data-href="http://www.facebook.com/cracked" data-send="false" data-layout="button_count" data-width="300" data-show-faces="false"></div>
+							</li>
+							<li class="paddingLeftFooter twitterLogo">Follow us on Twitter
+								<a href="https://twitter.com/cracked" class="twitter-follow-button" data-show-count="false">Follow @cracked</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+							</li>
+							<li class="bottomLineDivider"></li>
+							<li class="last">
+																<form method="post" action="http://www.cracked.com/users/newsletter/" onsubmit="return newsletter(this);">
+									<label for="email">Sign up for our weekly Newsletter</label>
+									<input id="emailSignUp" name="email" type="text" id="Newsletter" value="Enter Email Address Here:" />
+									<div class="dropShadowBottomLeft"><input type="submit" value="Sign up" class="signUpButton ckButtonBlue" /></div>
+								</form>
+															</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerWrapperBottom">
+			<div class="copyrightContainer">
+				<div class="logoDemanMedia left">
+					<a href="http://www.demandmedia.com/" title="Driven by Demand Media" target="_blank"></a>
+				</div>
+				<div class="copyright right textRight">
+					<ul class="switchWeb">
+						<li><a href="#" onClick="dmjs.dmp.switchPlatform('mobile');" title="Mobile">Mobile</a></li>
+						<li>|</li>
+						<li class="active"><a href="#" title="Desktop">Desktop</a></li>
+					</ul>
+					<p>Cracked, Cracked.com, the "Cracked" logo, and Demand Media are each a trademark or a registered trademark of Demand Media, Inc. in the United States and/or other countries.</p>
+					<p class="last">Copyright &#169; 2007-2013. Demand Media, Inc.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="ad-footer" id="ad-footer">an advertisement</div>
+
+	<script type="text/javascript" src="http://indieclick.3janecdn.com/media/ad-block-detect/advertisement.js"></script>
+
+	<script type="text/javascript" src="http://i.crackedcdn.com/ui/mashed/common_footer-NDZjM2ZkMjM.js"></script>
+<script type="text/javascript" src="http://i.crackedcdn.com/ui/mashed/site-home-N2I5MmM2NWU.js"></script>
+<div id="footTrack"><script>
+	document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+<script>
+	COMSCORE.beacon({
+		c1: 2,
+		c2: 6036385,
+		c3: "",
+		c4: "",
+		c5: "",
+		c6: "",
+		c15: ""
+	});
+</script>
+<noscript><img src="http://b.scorecardresearch.com/b?c1=2&c2=6036385&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" /></noscript>
+<noscript><img src="http://vs.dmtracker.com/images/zig.gif?Log=1" /></noscript>
+<script src="http://vs.dmtracker.com/tags/vs.js"></script>
+ <!-- Quantcast Tag --> 
+<script type="text/javascript">
+  var _qevents = _qevents || [];
+
+  (function() {
+   var elem = document.createElement('script');
+
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);  
+  })();
+</script>
+<script type="text/javascript">
+_qevents.push( { qacct:"p-4dIM5nVs2rFio"} );
+</script>
+<noscript>
+<div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-4dIM5nVs2rFio" height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+<!-- End Quantcast tag --></div>
+		<script src="http://cdn.optimizely.com/js/8057353.js"></script>	<script>var env = "production"; if (typeof CKIncite !== "undefined") { CKIncite.init(true); CKIncite.inject(1, 4); }</script>
+
+	
+	<script>
+		if(typeof request_google_ads === "function") request_google_ads();
+	</script>
+
+	<div id="fb-root"></div>
+	<script>
+		Facebook.api_key = "112808382072672";
+		Facebook.initalize(function(){
+			Facebook.getLoginStatus(FBOpenGraph.CK_FacebookConnectStatus);
+
+			if($('#fb_object').val()) {
+				Facebook.getLoginStatus(FBOpenGraph.CK_FacebookAutoShareStatus);
+			}
+		});
+	</script>
+
+	<div id="FB_HiddenContainer"></div>
+	<div id="fbSliver"></div>
+
+	
+	
+			
+	
+
+	<div class="newsletterPopUp">
+		<div class="imgNewsletter">
+		</div>
+		<header>
+			<h2>The <span class="logoCracked"></span> Weekly Hit List</h2>
+		</header>
+		<div class="body">
+			<div class="infoNewTitle">Sit back... Relax... <span class="yellowText">We'll do all the work.</span></div>
+			<div class="infoNewsLetter">Get a weekly update on the best at Cracked. Subscribe now!</div>
+		</div>
+		<div class="signUpNewslleter">
+			<form onSubmit="return newsletter(this);">
+			<input type="text" name="email" placeholder="Enter Your Email Address" class="textBox" />
+			<div class="shadowBox"><input type="submit" value="Sign Up" class="btnBox" /></div>
+			</form>
+		</div>
+	</div>
+
+		<!-- Cracked Content - Video out-of-page -->
+	<div id='outofpage'>
+	<script type='text/javascript'>
+		googletag.cmd.push(function() {
+			googletag.display('outofpage');
+		});
+	</script>
+	</div>
+	
+    <script>
+    (function () {
+        var ninja = new Image();
+        if (!dmjs.dmp.nativeWindowVariable(false)) {
+            ninja.src = "/tracking/ninja/";
+
+            if (!dmjs.dmp.getNative()) {
+                dmjs.dmp.appendNative();    
+                
+                $(".nativePagination").on("click", function () {
+                    dmjs.dmp.removeNative();
+                });                            
+            }
+            
+
+            
+
+        } else {
+            ninja.src = "/tracking/samurai/";
+
+            dmjs.dmp.removeNative();
+        }
+
+        var shogun = new Image();
+        shogun.src = "/tracking/shogun/";
+    })();
+</script>
+
+<!--
+    Timestamp: 1412035791 (Mon, 29 Sep 2014 17:09:51 -0700)
+          DMP: desktop:test4
+-->
+
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","licenseKey":"bf1842d93a","applicationID":"3310449","transactionName":"YVABZkACXxFQAUVZW1gaIlFGCl4MHgpeXVEZXA1WVxs=","queueTime":0,"applicationTime":468,"ttGuid":"","agentToken":"","atts":"TRcCEAgYTB8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-411.min.js"}</script></body>
+</html>

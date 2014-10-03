@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>朱里-Syuri- Official Web Site</title>
+<meta name="copyright" content="Template Party" />
+<meta name="description" content="朱里-Syuri- Official web Site" />
+<meta name="keywords" content="syuri,朱里,しゅり,朱　里,-Syuri-,朱里-Syuri-" />
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 18.0.1.0 for Windows" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  (C) 2013 株式会社ジャストシステム
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=false,isN6=false,isIE=false;
+  if (document.all && appVer >= 4) isIE=true; else
+    if (document.getElementById && appVer > 4) isN6=true; else
+      if (document.layers && appVer >= 4) isNC=true;
+  if (isNC||isN6||isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</script>
+<script type="text/javascript" language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('HPB_ROLLOVER6', 'menu_01.gif', 'music.png');
+HpbImgPreload('HPB_ROLLOVER3', 'menu_021.gif', 'burogu.png');
+HpbImgPreload('HPB_ROLLOVER2', 'menu_03.gif', 'facebook.png');
+HpbImgPreload('HPB_ROLLOVER1', 'menu_04.gif', 'otayori.png');
+HpbImgPreload('HPB_ROLLOVER4', 'gallerys.png', 'gall.png');
+//-->
+</script>
+</head>
+
+<body id="top">
+
+<div id="container">
+
+<div id="mainimg">
+<h1><a href="index.html">朱里-Syuri- Official Web Site</a></h1>
+<img class="slide_file" src="1.jpg" title="index.html" />
+<img class="slide_file" src="2.jpg" title="index.html" />
+<img class="slide_file" src="3.jpg" title="index.html" />
+<input type="hidden" id="slide_loop" value="1" />
+<img id="slide_image2" src="111.jpg" alt="" width="1000" height="400" />
+  </div>
+
+<div id="header">
+    <ul id="menu">
+<li><a href="gallery-anniversary20140607.html" id="HPB_ROLLOVER4" name="HPB_ROLLOVER4" onmouseout="HpbImgSwap('HPB_ROLLOVER4', 'gallerys.png');" onmouseover="HpbImgSwap('HPB_ROLLOVER4', 'gall.png');"><img src="gallerys.png" width="170" height="40" id="Image1" onmouseover="MM_swapImage('Image1','','images/menu_on_01.gif',0)" onmouseout="MM_swapImgRestore()" name="HPB_ROLLOVER4" /></a>　<a href="discography-egoisticgravity.html" id="HPB_ROLLOVER6" name="HPB_ROLLOVER6" onmouseout="HpbImgSwap('HPB_ROLLOVER6', 'menu_01.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER6', 'music.png');"><img src="menu_01.gif" width="170" height="40" id="Image1" onmouseover="MM_swapImage('Image1','','images/menu_on_01.gif',0)" onmouseout="MM_swapImgRestore()" name="HPB_ROLLOVER6" /></a></li>
+<li><a href="http://ameblo.jp/no-name-69/" id="HPB_ROLLOVER3" name="HPB_ROLLOVER3" onmouseout="HpbImgSwap('HPB_ROLLOVER3', 'menu_021.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER3', 'burogu.png');"><img src="menu_021.gif" width="170" height="40" id="Image2" onmouseover="MM_swapImage('Image2','','images/menu_on_02.gif',0)" onmouseout="MM_swapImgRestore()" name="HPB_ROLLOVER3" /></a></li>
+<li><a href="https://www.facebook.com/Syuri69" id="HPB_ROLLOVER2" name="HPB_ROLLOVER2" onmouseout="HpbImgSwap('HPB_ROLLOVER2', 'menu_03.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER2', 'facebook.png');"><img src="menu_03.gif" width="170" height="40" id="Image3" onmouseover="MM_swapImage('Image3','','images/menu_on_03.gif',0)" onmouseout="MM_swapImgRestore()" name="HPB_ROLLOVER2" /></a></li>
+<li><a href="mailto:info@syuri69.jp" id="HPB_ROLLOVER1" name="HPB_ROLLOVER1" onmouseout="HpbImgSwap('HPB_ROLLOVER1', 'menu_04.gif');" onmouseover="HpbImgSwap('HPB_ROLLOVER1', 'otayori.png');"><img src="menu_04.gif" width="170" height="40" id="Image4" onmouseover="MM_swapImage('Image4','','images/menu_on_04.gif',0)" onmouseout="MM_swapImgRestore()" name="HPB_ROLLOVER1" /></a></li>
+</ul>
+<!--/menu-->
+</div>
+<!--/header-->
+
+<div id="contents">
+
+<div id="main">
+
+<h2><img src="midashi_new1.gif" width="700" height="40" alt="更新情報・お知らせ" /></h2>
+<div class="new mb1em">
+        <dl>
+          <dt>2014/09/19</dt>
+          <dd>ホームページを更新しました。</dd>
+        </dl>
+        
+        
+        <dl>
+          <dt>2014/07/26</dt>
+          <dd><a href="gallery-2014072021.html">ギャラリー</a>をアップしました。</dd>
+        </dl>
+        <dl>
+          <dt>2014/07/01</dt>
+          <dd>新番組<a href="http://offonradio.com/">「おふ　音　ラジオ」</a>がスタートしました</dd>
+        </dl>
+        <dl>
+          <dt>2014/06/29</dt>
+          <dd><a href="http://nichiyoteki.com/majiraji.html">新番組「本気ラジオ　まじらじ！」がスタートしました</a></dd>
+        </dl>
+        <dl>
+          <dt>2014/06/04</dt>
+          <dd>ホームページをリニューアルしました</dd>
+        </dl>
+        <dl>
+          <dt>2014/06/04</dt>
+          <dd><a href="discography-egoisticgravity.html">メジャーデビューシングル「egoistic☆gravity」発売</a></dd>
+        </dl>
+        <dl>
+<dt>2014/05/28</dt>
+<dd><a href="https://www.youtube.com/watch?v=phHL-OX2fkE&amp;list=UUsbjHfeTALtFamtPDhHVL2Q">「egoistic☆gravity」PV公開中</a></dd>
+</dl>
+<dl>
+<dt>2014/05/10</dt>
+<dd><a href="https://ssl.form-mailer.jp/fms/0b4759de302893">『朱里-Syuri-Anniversary LIVE』予約受付開始</a></dd>
+</dl>
+<dl>
+<dt>2014/05/07</dt>
+<dd><a href="http://dawnradio.jp/">DAWNRADIO放送開始</a></dd>
+</dl>
+      </div>
+      <iframe width="560" height="315" src="http://www.youtube.com/embed/phHL-OX2fkE?list=UUsbjHfeTALtFamtPDhHVL2Q" frameborder="0" allowfullscreen></iframe>
+      <!--/new-->
+
+</div>
+<!--/main-->
+
+<div id="sub">
+
+<p><img src="top_img1.jpg" width="288" height="253" alt="" /><br />
+      &#160;<b>2014年06月04日発売</b></p>
+      キングレコード KICB-2577<br />
+      価格：1234円(税込)<br />
+      購入は<a href="http://www.oricon.co.jp/prof/artist/622574/products/music/1081558/1/">こちら</a>から<br />
+      <a href="http://ameblo.jp/no-name-69/"><img src="bana.png" width="230" height="60" border="0" /></a><br />
+      <a href="http://dawnradio.jp/"><img src="bana1.png" width="230" height="60" border="0" /></a><br />
+      <a href="http://offonradio.com/index.html"><img src="banasyuriyou.png" width="230" height="60" border="0" /></a><br />
+      <a href="http://tower.jp/item/3620208/egoistic%E2%98%86gravity-%E6%B5%81%E8%BB%A2%E3%81%AE%E6%97%8B%E5%BE%8B-%E9%9B%A8%E3%81%AA%E3%81%AE%E3%81%AB%E2%80%A6"><img src="tawareko.png" width="230" height="60" border="0" /></a><br />
+      <a href="http://www.hmv.co.jp/artist_%E6%9C%B1%E9%87%8C-Syuri_000000000574507/item_egoistic%E2%98%86gravity-%E6%B5%81%E8%BB%A2%E3%81%AE%E6%97%8B%E5%BE%8B-%E9%9B%A8%E3%81%AA%E3%81%AE%E3%81%AB_5783394?site=oricon"><img src="hmv.png" width="230" height="60" border="0" /></a><br />
+      <img src="sinseido.png" width="230" height="60" border="0" /><br />
+      <a href="http://www.oricon.co.jp/prof/artist/622574/products/music/1081558/1/"><img src="orikon.png" width="230" height="60" border="0" /></a><br />
+      <iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FSyuri69&amp;width=220&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:220px; height:400px;" allowtransparency="true"></iframe>
+    </div>
+<!--/sub-->
+
+<div id="footer">
+Copyright&copy; 2013 <a href="index.html">feniZon Records</a> All Rights Reserved.<br />
+<span class="pr"><a href="http://template-party.com/" target="_blank">Web Design:Template-Party</a></span>
+</div>
+<!--/footer-->
+
+</div>
+<!--/contents-->
+
+</div>
+<!--/container-->
+
+
+<script type="text/javascript" src="slide_simple_pack.js"></script>
+</body>
+</html>

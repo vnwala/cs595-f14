@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>	<html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>		<html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>		<html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>		<html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en-US" class="no-js"> <!--<![endif]-->
+<head>
+
+<meta charset="UTF-8" />
+
+
+
+<link rel="profile" href="http://gmpg.org/xfn/11">
+
+
+<title>ALARIWO.NET | Latest Breaking News In Nigeria : Hot News, Entertainment, Sports and University News</title>
+
+
+<!-- STYLESHEET INIT -->
+<link href="http://www.alariwo.net/wp-content/themes/mesocolumn/style.css" rel="stylesheet" type="text/css" />
+
+<!-- favicon.ico location -->
+
+<link rel="pingback" href="http://www.alariwo.net/xmlrpc.php" />
+
+
+
+
+<link rel="alternate" type="application/rss+xml" title="ALARIWO.NET &raquo; Feed" href="http://www.alariwo.net/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="ALARIWO.NET &raquo; Comments Feed" href="http://www.alariwo.net/?feed=comments-rss2" />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://www.alariwo.net/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://www.alariwo.net/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='default_gwf-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C300%2C300italic&#038;ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='superfish-css'  href='http://www.alariwo.net/wp-content/themes/mesocolumn/lib/scripts/superfish-menu/css/superfish.css?ver=1.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tabber-css'  href='http://www.alariwo.net/wp-content/themes/mesocolumn/lib/scripts/tabber/tabber.css?ver=1.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css?ver=1.6.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.alariwo.net/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://www.alariwo.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.alariwo.net/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.alariwo.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.9.2" />
+<link rel='shortlink' href='http://wp.me/3L497' />
+<style type='text/css' media='all'>body {font-family: 'Open Sans', sans-serif;font-weight: 400;}
+#siteinfo div,h1,h2,h3,h4,h5,h6,.header-title,#main-navigation, #featured #featured-title, #cf .tinput, #wp-calendar caption,.flex-caption h1,#portfolio-filter li,.nivo-caption a.read-more,.form-submit #submit,.fbottom,ol.commentlist li div.comment-post-meta, .home-post span.post-category a,ul.tabbernav li a {font-family: 'Open Sans', sans-serif;font-weight: 600;}
+#main-navigation, .sf-menu li a {font-family: 'Open Sans', sans-serif;font-weight: 600;}
+#Gallerybox,#myGallery,#myGallerySet,#flickrGallery {height: 400px !important;}
+
+
+
+
+.content, #right-sidebar { padding-top: 3em !important; }
+</style><style type='text/css' media='screen'>.gravatar_recent_comment li, .twitterbox li { padding:0px; font-size: 1.025em; line-height:1.5em;  }
+.gravatar_recent_comment span.author { font-weight:bold; }
+.gravatar_recent_comment img { width:32px; height:32px; float:left; margin: 0 10px 0 0; }
+ul.recent-postcat li {position:relative;border-bottom: 1px solid #EAEAEA;padding: 0 0 0.5em !important;margin: 0 0 1em !important;}
+ul.recent-postcat li:last-child,ul.item-list li:last-child,.avatar-block li:last-child  { border-bottom: none;  }
+ul.recent-postcat li .feat-post-meta { margin: 0px 0 0 75px; }
+ul.recent-postcat li.has_no_thumb .feat-post-meta { margin: 0px; }
+ul.recent-postcat img {background: white;padding: 5px;margin:0px;border: 1px solid #DDD;}
+#custom #right-sidebar ul.recent-postcat li .feat-post-meta .feat-title {margin: 0;}
+#custom #right-sidebar ul.recent-postcat li .feat-post-meta .feat-title {width: 100%;font-size: 1.05em; line-height:1.35em !important;font-weight: bold;}
+ul.recent-postcat li .feat-post-meta small { font-size: 0.85em; padding:0; }
+.bp-searchform {margin: 0px;padding: 5%;float: left;width: 90%;background: white;border: 1px solid #DDD;}
+.bp-searchform label {display:none;}
+#custom div.medium-thumb {margin:0 0 0.2em;width:99%;overflow:hidden;padding:0 !important;border:0 none !important;}
+#custom div.medium-thumb p {text-align:center;margin:0;width:100%;padding:0;border:0 none;height:100%;overflow:hidden;}
+#custom div.medium-thumb img {float:none;border:0 none;max-width:100%;margin:0 !important;padding:0 !important;}
+ul.recent-postcat li.the-sidefeat-thumbnail img {padding:3px;}
+ul.recent-postcat li.the-sidefeat-thumbnail img:hover {background:none;}
+ul.recent-postcat li.the-sidefeat-medium .feat-post-meta {margin: 0;}
+</style>	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="ALARIWO.NET" />
+<meta property="og:description" content="Latest Breaking News In Nigeria : Hot News, Entertainment, Sports and University News" />
+<meta property="og:url" content="http://www.alariwo.net/" />
+<meta property="og:site_name" content="ALARIWO.NET" />
+<meta property="og:image" content="http://wordpress.com/i/blank.jpg" />
+<meta name="twitter:site" content="@jetpack" />
+
+</head>
+
+<body class="home blog unknown" id="custom">
+
+<div class="product-with-desc secbody">
+
+<div id="wrapper">
+
+<div id="wrapper-main">
+
+<div id="bodywrap" class="innerwrap">
+
+<div id="bodycontent">
+
+<!-- CONTAINER START -->
+<section id="container">
+
+<nav class="top-nav iegradient effect-1" id="top-navigation" role="navigation">
+<div class="innerwrap">
+
+<ul id="menu-menu" class="sf-menu"><li id='menu-item-6810'  class="menu-item menu-item-type-post_type menu-item-object-page no_desc   "><a  href="http://www.alariwo.net/?page_id=5258">HOME</a></li>
+<li id='menu-item-6789'  class="menu-item menu-item-type-taxonomy menu-item-object-category no_desc   "><a  href="http://www.alariwo.net/?cat=5">NEWS</a></li>
+<li id='menu-item-6791'  class="menu-item menu-item-type-taxonomy menu-item-object-category no_desc   "><a  href="http://www.alariwo.net/?cat=3">ENTERTAINMENT</a></li>
+<li id='menu-item-6792'  class="menu-item menu-item-type-taxonomy menu-item-object-category no_desc   "><a  href="http://www.alariwo.net/?cat=4">FEATURES</a></li>
+<li id='menu-item-6790'  class="menu-item menu-item-type-taxonomy menu-item-object-category no_desc   "><a  href="http://www.alariwo.net/?cat=7">SPORTS</a></li>
+</ul>
+
+<div id="mobile-nav">
+<p class="select-pri">
+Select Page: <script type="text/javascript">
+ jQuery(document).ready(function(jQuery){
+  jQuery("select#top-dropdown").change(function(){
+    window.location.href = jQuery(this).val();
+  });
+ });
+</script><select name="top-dropdown" id="top-dropdown"><option>Where to?</option><option value='http://www.alariwo.net/?page_id=5258'>HOME</option>
+<option value='http://www.alariwo.net/?cat=5'>NEWS</option>
+<option value='http://www.alariwo.net/?cat=3'>ENTERTAINMENT</option>
+<option value='http://www.alariwo.net/?cat=4'>FEATURES</option>
+<option value='http://www.alariwo.net/?cat=7'>SPORTS</option>
+</select></p>
+
+<p class="select-pri sec">
+Select Category: <script type="text/javascript">
+ jQuery(document).ready(function(jQuery){
+  jQuery("select#main-dropdown").change(function(){
+    window.location.href = jQuery(this).val();
+  });
+ });
+</script><select name="main-dropdown" id="main-dropdown"><option>Where to?</option><option value='http://www.alariwo.net/?page_id=5258'>HOME</option>
+<option value='http://www.alariwo.net/?cat=5'>NEWS</option>
+<option value='http://www.alariwo.net/?cat=3'>ENTERTAINMENT</option>
+<option value='http://www.alariwo.net/?cat=4'>FEATURES</option>
+<option value='http://www.alariwo.net/?cat=7'>SPORTS</option>
+</select></p>
+</div>
+
+</div>
+</nav>
+
+<!-- HEADER START -->
+<header class="iegradient" id="header" role="banner">
+
+<div id="header-overlay" class="header-inner">
+<div class="innerwrap">
+
+<div id="siteinfo">
+
+<h1 ><a href="http://www.alariwo.net/" title="ALARIWO.NET" rel="home">ALARIWO.NET</a></h1 ><p id="site-description">Latest Breaking News In Nigeria : Hot News, Entertainment, Sports and University News</p>
+
+</div>
+<!-- SITEINFO END -->
+
+
+
+</div>
+</div>
+<!-- end header-inner -->
+</header>
+<!-- HEADER END -->
+
+
+<div class="container-wrap">
+
+<!-- NAVIGATION START -->
+<nav class="main-nav iegradient" id="main-navigation" role="navigation">
+<div class="innerwrap">
+<ul id="menu-menu-3" class="sf-menu"><li id='menu-item-6810'  class="menu-item menu-item-type-post_type menu-item-object-page no_desc   "><a  href="http://www.alariwo.net/?page_id=5258">HOME</a></li>
+<li id='menu-item-6789'  class="menu-item menu-item-type-taxonomy menu-item-object-category no_desc   "><a  href="http://www.alariwo.net/?cat=5">NEWS</a></li>
+<li id='menu-item-6791'  class="menu-item menu-item-type-taxonomy menu-item-object-category no_desc   "><a  href="http://www.alariwo.net/?cat=3">ENTERTAINMENT</a></li>
+<li id='menu-item-6792'  class="menu-item menu-item-type-taxonomy menu-item-object-category no_desc   "><a  href="http://www.alariwo.net/?cat=4">FEATURES</a></li>
+<li id='menu-item-6790'  class="menu-item menu-item-type-taxonomy menu-item-object-category no_desc   "><a  href="http://www.alariwo.net/?cat=7">SPORTS</a></li>
+</ul></div>
+</nav>
+<!-- NAVIGATION END -->
+
+
+
+
+
+
+
+<!-- CONTENT START -->
+<div class="content">
+<div class="content-inner">
+
+
+<!-- POST ENTRY START -->
+<div id="post-entry">
+
+
+<section class="post-entry-inner">
+
+
+
+<aside class="home-feat-cat post_tn_cat_color_5">
+<h4 class="homefeattitle feat_tn_cat_color_5"><a href="http://www.alariwo.net/?cat=5">News</a>&nbsp;&nbsp;<a title="Get Feed for News" href="http://www.alariwo.net/?cat=5/feed/"><img class="home-feat-rss" src="http://www.alariwo.net/wp-content/themes/mesocolumn/images/rss2.png" alt="Get Feed for News" /></a></h4>
+<div class="homefeat">
+
+<article class="hentry hnews feat-post fpost feat-6980 fp0">
+<a href="http://www.alariwo.net/?p=6980" title="UNILAG HOLDS DRUG ABUSE AND MENTAL HEALTH SENSITISATION PROGRAMME">
+</a>
+
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6980" title="UNILAG HOLDS DRUG ABUSE AND MENTAL HEALTH SENSITISATION PROGRAMME">UNILAG HOLDS DRUG ABUSE AND MENTAL HEALTH SENSITISATION PROGRAMME</a></h2>
+
+<div class="feat-meta"><span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=10" title="Posts by Prodigy" rel="author">Prodigy</a></span><span class="feat_time entry-date"><abbr class="published" title="2014-09-23T14:31:55+00:00">September 23, 2014</abbr></span><span class="feat_comment"><a href="http://www.alariwo.net/?p=6980#respond" title="Comment on UNILAG HOLDS DRUG ABUSE AND MENTAL HEALTH SENSITISATION PROGRAMME">No Comment</a></span></div>
+
+<span class="date updated meta-no-display">2014-09-23T14:49:35+00:00</span>
+<div class="entry-content feat-content">The Counseling Unit of the Students’ Affairs Division, UNILAG will hold a 2-day sensitization programme on drug abuse and mental health for students of the University.This programme is aimed...</div></article>
+<article class="post-6958 post type-post status-publish format-standard hentry category-news tag-alariwo tag-campus tag-latest tag-ondo tag-scholarship tag-september feat-post apost fp1 has_thumb">
+<a href="http://www.alariwo.net/?p=6958" title="OSOPAEDEC Scholarship For Tertiary Institutions Now Out">
+<img width='120' height='120' class='alignleft' src='http://www.alariwo.net/wp-content/uploads/2014/09/Scholarship.jpg' alt='News' title='OSOPAEDEC Scholarship For Tertiary Institutions Now Out' /></a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6958" title="OSOPAEDEC Scholarship For Tertiary Institutions Now Out">OSOPAEDEC Scholarship For Tertiary Institutions Now Out</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-09-14T05:02:38+00:00">September 14, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6958#respond" title="Comment on OSOPAEDEC Scholarship For Tertiary Institutions Now Out">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-09-14T05:02:42+00:00</span>
+<div class="entry-content feat-content">This is to notify all indigenes of Ondo State Oil producing Areas in tertiary...</div>
+</div></article>
+<article class="post-6950 post type-post status-publish format-standard hentry category-news feat-post apost fp2 has_no_thumb">
+<a href="http://www.alariwo.net/?p=6950" title="FG Reacts on Sept 22nd School Resumption Date, Says &#8220;No Going Back&#8221;">
+</a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6950" title="FG Reacts on Sept 22nd School Resumption Date, Says &#8220;No Going Back&#8221;">FG Reacts on Sept 22nd School Resumption Date, Says &#8220;No Going Back&#8221;</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-09-11T08:13:48+00:00">September 11, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6950#respond" title="Comment on FG Reacts on Sept 22nd School Resumption Date, Says &#8220;No Going Back&#8221;">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-09-11T08:13:54+00:00</span>
+<div class="entry-content feat-content">Following debates and opposition to the Sept 22nd schools resumption date, The Federal  Government...</div>
+</div></article>
+<article class="post-6946 post type-post status-publish format-standard hentry category-news category-university tag-2014 tag-2015 tag-acceptance tag-admission tag-ibadan tag-latest tag-ui feat-post apost fp3 has_no_thumb">
+<a href="http://www.alariwo.net/?p=6946" title="UI Releases 2014/2015 Acceptance Fee Payment
+Procedure &amp; Deadline">
+</a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6946" title="UI Releases 2014/2015 Acceptance Fee Payment
+Procedure &amp; Deadline">UI Releases 2014/2015 Acceptance Fee Payment
+Procedure &#038; Deadline</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-09-10T08:43:21+00:00">September 10, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6946#respond" title="Comment on UI Releases 2014/2015 Acceptance Fee Payment
+Procedure &amp; Deadline">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-09-10T08:43:25+00:00</span>
+<div class="entry-content feat-content">Following the release of the 2014/2015 1st batch merit admission list of candidates, the...</div>
+</div></article>
+</div>
+</aside>
+
+
+<aside class="home-feat-cat post_tn_cat_color_3">
+<h4 class="homefeattitle feat_tn_cat_color_3"><a href="http://www.alariwo.net/?cat=3">Entertainment</a>&nbsp;&nbsp;<a title="Get Feed for Entertainment" href="http://www.alariwo.net/?cat=3/feed/"><img class="home-feat-rss" src="http://www.alariwo.net/wp-content/themes/mesocolumn/images/rss2.png" alt="Get Feed for Entertainment" /></a></h4>
+<div class="homefeat">
+
+
+
+<article class="hentry hnews feat-post fpost feat-6932 fp0">
+
+<a href="http://www.alariwo.net/?p=6932" title="{DOWNLOAD} DJ TipsyX- Hitbanger Vol4">
+<div class="feat-thumb"><img width='480' height='200' class='alignleft' src='http://www.alariwo.net/wp-content/uploads/2014/09/IMG-20140903-WA000.jpg' alt='Entertainment' title='{DOWNLOAD} DJ TipsyX- Hitbanger Vol4' /></div></a>
+
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6932" title="{DOWNLOAD} DJ TipsyX- Hitbanger Vol4">{DOWNLOAD} DJ TipsyX- Hitbanger Vol4</a></h2>
+
+<div class="feat-meta"><span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span><span class="feat_time entry-date"><abbr class="published" title="2014-09-04T23:08:18+00:00">September 4, 2014</abbr></span><span class="feat_comment"><a href="http://www.alariwo.net/?p=6932#respond" title="Comment on {DOWNLOAD} DJ TipsyX- Hitbanger Vol4">No Comment</a></span></div>
+
+<span class="date updated meta-no-display">2014-09-04T23:08:25+00:00</span>
+<div class="entry-content feat-content">After much demand and anticipation for the volume 4 of the TipsyX hitbanger Vol 4, Ajose Oluwatosin (DJ TipsyX) of the NoStranger team finally releases the Hitbanger. The Mixtape...</div>
+</article>
+
+
+
+
+
+<article class="post-6879 post type-post status-publish format-standard hentry category-entertainment tag-alariwo tag-hit tag-ochuko tag-singles feat-post apost fp1 has_no_thumb">
+
+<a href="http://www.alariwo.net/?p=6879" title="Ochuko Obukohwo – God Alone">
+</a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6879" title="Ochuko Obukohwo – God Alone">Ochuko Obukohwo – God Alone</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-08-14T04:43:23+00:00">August 14, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6879#respond" title="Comment on Ochuko Obukohwo – God Alone">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-08-14T04:44:01+00:00</span>
+<div class="entry-content feat-content">Ochuko Obukohwo is a graduate from Delta State University Abraka, who studied Economics. He’s...</div>
+</div>
+</article>
+
+
+
+
+<article class="post-6775 post type-post status-publish format-standard hentry category-entertainment category-university feat-post apost fp2 has_thumb">
+
+<a href="http://www.alariwo.net/?p=6775" title="#HappyWeAreUnilag ft. Pharrell Williams">
+<img width='120' height='120' class='alignleft' src='http://iloudit.com/wp-content/uploads/2014/06/Screenshot_2014-06-21-10-34-31-11-300x273.png' alt='Entertainment' title='#HappyWeAreUnilag ft. Pharrell Williams' /></a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6775" title="#HappyWeAreUnilag ft. Pharrell Williams">#HappyWeAreUnilag ft. Pharrell Williams</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-06-21T14:40:12+00:00">June 21, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6775#respond" title="Comment on #HappyWeAreUnilag ft. Pharrell Williams">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-06-21T14:40:12+00:00</span>
+<div class="entry-content feat-content">Wow wow wow. Akokaites at it again. Really awesome video. Pharrell got to see...</div>
+</div>
+</article>
+
+
+
+
+<article class="post-6735 post type-post status-publish format-standard hentry category-entertainment feat-post apost fp3 has_thumb">
+
+<a href="http://www.alariwo.net/?p=6735" title="Natural or Not????">
+<img width='120' height='120' class='alignleft' src='http://iloudit.com/wp-content/uploads/2014/06/article-2647710-1E71E51000000578-582_634x900.jpg' alt='Entertainment' title='Natural or Not????' /></a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6735" title="Natural or Not????">Natural or Not????</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=5" title="Posts by temitope" rel="author">temitope</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-06-05T12:07:28+00:00">June 5, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6735#respond" title="Comment on Natural or Not????">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-06-05T12:07:28+00:00</span>
+<div class="entry-content feat-content">Be the judge!!!!!...</div>
+</div>
+</article>
+
+
+
+</div>
+</aside>
+
+
+<aside class="home-feat-cat post_tn_cat_color_7">
+<h4 class="homefeattitle feat_tn_cat_color_7"><a href="http://www.alariwo.net/?cat=7">SPORTS</a>&nbsp;&nbsp;<a title="Get Feed for SPORTS" href="http://www.alariwo.net/?cat=7/feed/"><img class="home-feat-rss" src="http://www.alariwo.net/wp-content/themes/mesocolumn/images/rss2.png" alt="Get Feed for SPORTS" /></a></h4>
+<div class="homefeat">
+
+
+
+<article class="hentry hnews feat-post fpost feat-6717 fp0">
+
+<a href="http://www.alariwo.net/?p=6717" title="{SPORT} Frank Lampard Signs For New York City On A Free Transfer">
+<div class="feat-thumb"><img width='480' height='200' class='alignleft' src='http://iloudit.com/wp-content/uploads/2014/06/Chelsea-v-Norwich-City-Premier-League.jpg' alt='SPORTS' title='{SPORT} Frank Lampard Signs For New York City On A Free Transfer' /></div></a>
+
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6717" title="{SPORT} Frank Lampard Signs For New York City On A Free Transfer">{SPORT} Frank Lampard Signs For New York City On A Free Transfer</a></h2>
+
+<div class="feat-meta"><span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span><span class="feat_time entry-date"><abbr class="published" title="2014-06-01T08:58:22+00:00">June 1, 2014</abbr></span><span class="feat_comment"><a href="http://www.alariwo.net/?p=6717#respond" title="Comment on {SPORT} Frank Lampard Signs For New York City On A Free Transfer">No Comment</a></span></div>
+
+<span class="date updated meta-no-display">2014-06-01T08:58:22+00:00</span>
+<div class="entry-content feat-content">The former Chelsea midfielder was with David Villa today at Man City&#8217;s Carrington training complex to agree the formalities of their deals Frank Lampard has agreed a free transfer...</div>
+</article>
+
+
+
+
+
+<article class="post-6617 post type-post status-publish format-standard hentry category-sports tag-games tag-goals tag-has tag-how tag-messi tag-simeone tag-six tag-stopped tag-zero feat-post apost fp1 has_thumb">
+
+<a href="http://www.alariwo.net/?p=6617" title="Six games, zero goals &#8211; how has Simeone stopped Messi?">
+<img width='120' height='120' class='alignleft' src='http://iloudit.com/wp-content/uploads/2014/05/wpid-385808_gallery.jpg' alt='SPORTS' title='Six games, zero goals &#8211; how has Simeone stopped Messi?' /></a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6617" title="Six games, zero goals &#8211; how has Simeone stopped Messi?">Six games, zero goals &#8211; how has Simeone stopped Messi?</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=4" title="Posts by abimbola" rel="author">abimbola</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-05-17T12:16:06+00:00">May 17, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6617#respond" title="Comment on Six games, zero goals &#8211; how has Simeone stopped Messi?">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-05-17T12:16:06+00:00</span>
+<div class="entry-content feat-content">How do you stop Lionel Messi? Coaches all over the world have thought long...</div>
+</div>
+</article>
+
+
+
+
+<article class="post-6613 post type-post status-publish format-standard hentry category-sports tag-a tag-ball tag-cant tag-compared tag-even tag-pirlo tag-throw tag-to tag-verratti tag-i feat-post apost fp2 has_thumb">
+
+<a href="http://www.alariwo.net/?p=6613" title="&#8216;I can&#8217;t even throw a ball compared to Pirlo&#8217; &#8211; Verratti">
+<img width='120' height='120' class='alignleft' src='http://iloudit.com/wp-content/uploads/2014/05/wpid-374436_gallery.jpg' alt='SPORTS' title='&#8216;I can&#8217;t even throw a ball compared to Pirlo&#8217; &#8211; Verratti' /></a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6613" title="&#8216;I can&#8217;t even throw a ball compared to Pirlo&#8217; &#8211; Verratti">&#8216;I can&#8217;t even throw a ball compared to Pirlo&#8217; &#8211; Verratti</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=4" title="Posts by abimbola" rel="author">abimbola</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-05-17T12:09:14+00:00">May 17, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6613#respond" title="Comment on &#8216;I can&#8217;t even throw a ball compared to Pirlo&#8217; &#8211; Verratti">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-05-17T12:09:14+00:00</span>
+<div class="entry-content feat-content">Paris Saint-Germain midfielder Marco Verratti has insisted that he has not done enough to...</div>
+</div>
+</article>
+
+
+
+
+<article class="post-6594 post type-post status-publish format-standard hentry category-sports feat-post apost fp3 has_thumb">
+
+<a href="http://www.alariwo.net/?p=6594" title="{SPORTS} UEFA Proposes New Injury Rule">
+<img width='120' height='120' class='alignleft' src='http://iloudit.com/wp-content/uploads/2014/05/Pierluigi-Collina_3004983.jpg' alt='SPORTS' title='{SPORTS} UEFA Proposes New Injury Rule' /></a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6594" title="{SPORTS} UEFA Proposes New Injury Rule">{SPORTS} UEFA Proposes New Injury Rule</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-05-16T00:44:51+00:00">May 16, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6594#respond" title="Comment on {SPORTS} UEFA Proposes New Injury Rule">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-05-16T00:44:51+00:00</span>
+<div class="entry-content feat-content">UEFA has proposed a new rule where a player could be temporarily removed from...</div>
+</div>
+</article>
+
+
+
+</div>
+</aside>
+
+
+<aside class="home-feat-cat post_tn_cat_color_8">
+<h4 class="homefeattitle feat_tn_cat_color_8"><a href="http://www.alariwo.net/?cat=8">University</a>&nbsp;&nbsp;<a title="Get Feed for University" href="http://www.alariwo.net/?cat=8/feed/"><img class="home-feat-rss" src="http://www.alariwo.net/wp-content/themes/mesocolumn/images/rss2.png" alt="Get Feed for University" /></a></h4>
+<div class="homefeat">
+
+
+
+<article class="hentry hnews feat-post fpost feat-6986 fp0">
+
+<a href="http://www.alariwo.net/?p=6986" title="Olabisi Onabanjo University ReOpens">
+</a>
+
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6986" title="Olabisi Onabanjo University ReOpens">Olabisi Onabanjo University ReOpens</a></h2>
+
+<div class="feat-meta"><span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span><span class="feat_time entry-date"><abbr class="published" title="2014-09-28T18:58:59+00:00">September 28, 2014</abbr></span><span class="feat_comment"><a href="http://www.alariwo.net/?p=6986#respond" title="Comment on Olabisi Onabanjo University ReOpens">No Comment</a></span></div>
+
+<span class="date updated meta-no-display">2014-09-28T19:00:05+00:00</span>
+<div class="entry-content feat-content">The Governing Council of Olabisi Onabanjo University, Ago-Iwoye in Ogun State, has ordered the immediate reopening of the university. Lectures are to start on Monday, September, 29, 2014 to...</div>
+</article>
+
+
+
+
+
+<article class="post-6968 post type-post status-publish format-standard hentry category-university feat-post apost fp1 has_thumb">
+<a href="http://www.alariwo.net/?p=6968" title="UNILAG DATA CAPTURE OF STUDENTS (2nd PHASE) BEGINS">
+<img width='120' height='120' class='alignleft' src='http://www.alariwo.net/wp-content/uploads/2014/09/unilag+logo.jpg' alt='University' title='UNILAG DATA CAPTURE OF STUDENTS (2nd PHASE) BEGINS' /></a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6968" title="UNILAG DATA CAPTURE OF STUDENTS (2nd PHASE) BEGINS">UNILAG DATA CAPTURE OF STUDENTS (2nd PHASE) BEGINS</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=10" title="Posts by Prodigy" rel="author">Prodigy</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-09-20T09:59:46+00:00">September 20, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6968#respond" title="Comment on UNILAG DATA CAPTURE OF STUDENTS (2nd PHASE) BEGINS">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-09-20T09:59:46+00:00</span>
+<div class="entry-content feat-content">The 2nd Phase of the process of capturing photographs and signatures of undergraduate students...</div>
+</div></article>
+
+
+
+
+<article class="post-6966 post type-post status-publish format-standard sticky hentry category-university feat-post apost fp2 has_no_thumb">
+<a href="http://www.alariwo.net/?p=6966" title="UNILAG Releases 2014 Foundation Programme Admission List">
+</a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6966" title="UNILAG Releases 2014 Foundation Programme Admission List">UNILAG Releases 2014 Foundation Programme Admission List</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-09-20T07:26:22+00:00">September 20, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6966#respond" title="Comment on UNILAG Releases 2014 Foundation Programme Admission List">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-09-20T07:26:45+00:00</span>
+<div class="entry-content feat-content">The management of University of Lagos (UNILAG) have published the list of candidates admitted...</div>
+</div></article>
+
+
+
+
+<article class="post-6946 post type-post status-publish format-standard hentry category-news category-university tag-2014 tag-2015 tag-acceptance tag-admission tag-ibadan tag-latest tag-ui feat-post apost fp3 has_no_thumb">
+<a href="http://www.alariwo.net/?p=6946" title="UI Releases 2014/2015 Acceptance Fee Payment
+Procedure &amp; Deadline">
+</a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6946" title="UI Releases 2014/2015 Acceptance Fee Payment
+Procedure &amp; Deadline">UI Releases 2014/2015 Acceptance Fee Payment
+Procedure &#038; Deadline</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-09-10T08:43:21+00:00">September 10, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6946#respond" title="Comment on UI Releases 2014/2015 Acceptance Fee Payment
+Procedure &amp; Deadline">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-09-10T08:43:25+00:00</span>
+<div class="entry-content feat-content">Following the release of the 2014/2015 1st batch merit admission list of candidates, the...</div>
+</div></article>
+
+
+
+</div>
+</aside>
+
+
+<aside class="home-feat-cat post_tn_cat_color_4">
+<h4 class="homefeattitle feat_tn_cat_color_4"><a href="http://www.alariwo.net/?cat=4">Features</a>&nbsp;&nbsp;<a title="Get Feed for Features" href="http://www.alariwo.net/?cat=4/feed/"><img class="home-feat-rss" src="http://www.alariwo.net/wp-content/themes/mesocolumn/images/rss2.png" alt="Get Feed for Features" /></a></h4>
+<div class="homefeat">
+
+
+
+<article class="hentry hnews feat-post fpost feat-6974 fp0">
+
+<a href="http://www.alariwo.net/?p=6974" title="Tofunmi&#8217;s Late Request">
+<div class="feat-thumb"><img width='480' height='200' class='alignleft' src='http://www.alariwo.net/wp-content/uploads/2014/09/A-true-story.jpg' alt='Features' title='Tofunmi&#8217;s Late Request' /></div></a>
+
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6974" title="Tofunmi&#8217;s Late Request">Tofunmi&#8217;s Late Request</a></h2>
+
+<div class="feat-meta"><span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=10" title="Posts by Prodigy" rel="author">Prodigy</a></span><span class="feat_time entry-date"><abbr class="published" title="2014-09-20T19:55:48+00:00">September 20, 2014</abbr></span><span class="feat_comment"><a href="http://www.alariwo.net/?p=6974#respond" title="Comment on Tofunmi&#8217;s Late Request">No Comment</a></span></div>
+
+<span class="date updated meta-no-display">2014-09-20T19:55:53+00:00</span>
+<div class="entry-content feat-content">Tofunmi was so happy being a fresher in Unilag, How wonderful it was to finally leave her over protective parents. School would be starting; she’d have friends over soon....</div>
+</article>
+
+
+
+
+
+<article class="post-6955 post type-post status-publish format-standard hentry category-features category-quotes tag-911 tag-alariwo tag-daily tag-good tag-quotes-2 tag-september tag-times feat-post apost fp1 has_thumb">
+
+<a href="http://www.alariwo.net/?p=6955" title="{DAILY QUOTES} Good Times">
+<img width='120' height='120' class='alignleft' src='http://www.alariwo.net/wp-content/uploads/2014/09/shaw-sand.jpg' alt='Features' title='{DAILY QUOTES} Good Times' /></a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6955" title="{DAILY QUOTES} Good Times">{DAILY QUOTES} Good Times</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-09-11T08:19:29+00:00">September 11, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6955#respond" title="Comment on {DAILY QUOTES} Good Times">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-09-11T08:19:35+00:00</span>
+<div class="entry-content feat-content">Write your Sad times in Sand, Write your Good times in Stone. - George...</div>
+</div>
+</article>
+
+
+
+
+<article class="post-6905 post type-post status-publish format-standard hentry category-features tag-alariwo tag-daily tag-day tag-mary-anne-radmacher tag-play tag-quotes-2 feat-post apost fp2 has_no_thumb">
+
+<a href="http://www.alariwo.net/?p=6905" title="{DAILY QUOTES} Play Day">
+</a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6905" title="{DAILY QUOTES} Play Day">{DAILY QUOTES} Play Day</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-08-16T10:45:32+00:00">August 16, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6905#respond" title="Comment on {DAILY QUOTES} Play Day">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-08-16T10:46:27+00:00</span>
+<div class="entry-content feat-content">Some days are simply meant for playing. - Mary Anne Radmacher All work and...</div>
+</div>
+</article>
+
+
+
+
+<article class="post-6872 post type-post status-publish format-standard hentry category-features feat-post apost fp3 has_thumb">
+
+<a href="http://www.alariwo.net/?p=6872" title="BASH GOES TO SCHOOLS">
+<img width='120' height='120' class='alignleft' src='http://www.alariwo.net/wp-content/uploads/2014/08/IMG-20140803-WA007.jpg' alt='Features' title='BASH GOES TO SCHOOLS' /></a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6872" title="BASH GOES TO SCHOOLS">BASH GOES TO SCHOOLS</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=10" title="Posts by Prodigy" rel="author">Prodigy</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-08-09T01:02:39+00:00">August 9, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6872#respond" title="Comment on BASH GOES TO SCHOOLS">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-08-09T01:02:44+00:00</span>
+<div class="entry-content feat-content">Unique Humour Presents The Biggest Comedy Show in AFRICA NIGERIA. #BashGoesToSchools TOUR. The aim...</div>
+</div>
+</article>
+
+
+
+</div>
+</aside>
+
+
+<aside class="home-feat-cat post_tn_cat_color_6">
+<h4 class="homefeattitle feat_tn_cat_color_6"><a href="http://www.alariwo.net/?cat=6">Quotes</a>&nbsp;&nbsp;<a title="Get Feed for Quotes" href="http://www.alariwo.net/?cat=6/feed/"><img class="home-feat-rss" src="http://www.alariwo.net/wp-content/themes/mesocolumn/images/rss2.png" alt="Get Feed for Quotes" /></a></h4>
+<div class="homefeat">
+
+
+
+<article class="hentry hnews feat-post fpost feat-6963 fp0">
+
+<a href="http://www.alariwo.net/?p=6963" title="{DAILY QUOTES} Love All, Judge None">
+</a>
+
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6963" title="{DAILY QUOTES} Love All, Judge None">{DAILY QUOTES} Love All, Judge None</a></h2>
+
+<div class="feat-meta"><span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span><span class="feat_time entry-date"><abbr class="published" title="2014-09-14T06:18:35+00:00">September 14, 2014</abbr></span><span class="feat_comment"><a href="http://www.alariwo.net/?p=6963#respond" title="Comment on {DAILY QUOTES} Love All, Judge None">No Comment</a></span></div>
+
+<span class="date updated meta-no-display">2014-09-14T06:18:41+00:00</span>
+<div class="entry-content feat-content">If you judge people, you have no time to love them. - Mother Teresa Let there be peace on earth. And let it begin with me. - Jill Jackson...</div>
+</article>
+
+
+
+
+
+<article class="post-6955 post type-post status-publish format-standard hentry category-features category-quotes tag-911 tag-alariwo tag-daily tag-good tag-quotes-2 tag-september tag-times feat-post apost fp1 has_thumb">
+<a href="http://www.alariwo.net/?p=6955" title="{DAILY QUOTES} Good Times">
+<img width='120' height='120' class='alignleft' src='http://www.alariwo.net/wp-content/uploads/2014/09/shaw-sand.jpg' alt='Features' title='{DAILY QUOTES} Good Times' /></a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6955" title="{DAILY QUOTES} Good Times">{DAILY QUOTES} Good Times</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-09-11T08:19:29+00:00">September 11, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6955#respond" title="Comment on {DAILY QUOTES} Good Times">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-09-11T08:19:35+00:00</span>
+<div class="entry-content feat-content">Write your Sad times in Sand, Write your Good times in Stone. - George...</div>
+</div></article>
+
+
+
+
+<article class="post-6948 post type-post status-publish format-standard hentry category-quotes tag-alariwo tag-daily tag-inner-peace tag-jonathan tag-lockwood tag-quotes-2 feat-post apost fp2 has_no_thumb">
+<a href="http://www.alariwo.net/?p=6948" title="{DAILY QUOTES} Inner Peace in a World at War">
+</a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6948" title="{DAILY QUOTES} Inner Peace in a World at War">{DAILY QUOTES} Inner Peace in a World at War</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-09-10T08:47:48+00:00">September 10, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6948#respond" title="Comment on {DAILY QUOTES} Inner Peace in a World at War">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-09-10T08:47:54+00:00</span>
+<div class="entry-content feat-content">You&#8217;re only here for a short visit. Don&#8217;t hurry. Don&#8217;t worry. And be sure...</div>
+</div></article>
+
+
+
+
+<article class="post-6935 post type-post status-publish format-standard hentry category-quotes tag-alariwo tag-daily-quotes tag-jonathan tag-lockwood feat-post apost fp3 has_thumb">
+<a href="http://www.alariwo.net/?p=6935" title="{DAILY QUOTES} Living In The Present">
+<img width='120' height='120' class='alignleft' src='http://www.alariwo.net/wp-content/uploads/2014/09/carrey-moment.jpg' alt='Quotes' title='{DAILY QUOTES} Living In The Present' /></a>
+
+<div class="feat-right">
+<h2 class="entry-title feat-title"><a rel="bookmark" href="http://www.alariwo.net/?p=6935" title="{DAILY QUOTES} Living In The Present">{DAILY QUOTES} Living In The Present</a></h2>
+
+<div class="feat-meta">
+<span class="feat_author vcard"><a class="url fn n" href="http://www.alariwo.net/?author=3" title="Posts by yinkdj" rel="author">yinkdj</a></span>
+<span class="feat_time entry-date"><abbr class="published" title="2014-09-08T07:12:53+00:00">September 8, 2014</abbr></span>
+<span class="feat_comment"><a href="http://www.alariwo.net/?p=6935#respond" title="Comment on {DAILY QUOTES} Living In The Present">No Comment</a></span>
+</div>
+<span class="date updated meta-no-display">2014-09-08T07:13:04+00:00</span>
+<div class="entry-content feat-content">If you are depressed you are living in the past. If you are anxious...</div>
+</div></article>
+
+
+
+</div>
+</aside>
+
+
+
+</section>
+</div>
+<!-- POST ENTRY END -->
+
+
+</div><!-- CONTENT INNER END -->
+</div><!-- CONTENT END -->
+
+
+
+<div id="right-sidebar" class="sidebar right-sidebar">
+<div class="sidebar-inner">
+<div class="widget-area the-icons">
+
+
+<div id="tabber-widget"><div class="tabber">
+		<div class="tabbertab"><aside id="recent-posts-2" class="widget widget_recent_entries">		<h3>Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://www.alariwo.net/?p=6986">Olabisi Onabanjo University ReOpens</a>
+						</li>
+					<li>
+				<a href="http://www.alariwo.net/?p=6980">UNILAG HOLDS DRUG ABUSE AND MENTAL HEALTH SENSITISATION PROGRAMME</a>
+						</li>
+					<li>
+				<a href="http://www.alariwo.net/?p=6974">Tofunmi&#8217;s Late Request</a>
+						</li>
+					<li>
+				<a href="http://www.alariwo.net/?p=6968">UNILAG DATA CAPTURE OF STUDENTS (2nd PHASE) BEGINS</a>
+						</li>
+					<li>
+				<a href="http://www.alariwo.net/?p=6966">UNILAG Releases 2014 Foundation Programme Admission List</a>
+						</li>
+				</ul>
+		</aside></div><div class="tabbertab"><aside id="recent-comments-2" class="widget widget_recent_comments"><h3>Recent Comments</h3><ul id="recentcomments"></ul></aside></div><div class="tabbertab"><aside id="archives-2" class="widget widget_archive"><h3>Archives</h3>		<ul>
+	<li><a href='http://www.alariwo.net/?m=201409'>September 2014</a></li>
+	<li><a href='http://www.alariwo.net/?m=201408'>August 2014</a></li>
+	<li><a href='http://www.alariwo.net/?m=201407'>July 2014</a></li>
+	<li><a href='http://www.alariwo.net/?m=201406'>June 2014</a></li>
+	<li><a href='http://www.alariwo.net/?m=201405'>May 2014</a></li>
+		</ul>
+</aside></div><div class="tabbertab"><aside id="categories-2" class="widget widget_categories"><h3>Categories</h3>		<ul>
+	<li class="cat-item cat-item-2"><a href="http://www.alariwo.net/?cat=2" title="View all posts filed under Articles">Articles</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.alariwo.net/?cat=3" title="View all posts filed under Entertainment">Entertainment</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.alariwo.net/?cat=4" title="View all posts filed under Features">Features</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.alariwo.net/?cat=5" title="View all posts filed under News">News</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.alariwo.net/?cat=6" title="View all posts filed under Quotes">Quotes</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.alariwo.net/?cat=7" title="View all posts filed under SPORTS">SPORTS</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.alariwo.net/?cat=1" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.alariwo.net/?cat=8" title="View all posts filed under University">University</a>
+</li>
+		</ul>
+</aside></div></div></div>
+<aside class="widget">
+<h3 class="widget-title">Search</h3>
+<form role="search" method="get" id="searchform" class="searchform" action="http://www.alariwo.net/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Search" />
+				</div>
+			</form></aside>
+<aside class="widget widget_recent_entries">
+<h3 class="widget-title">Recent Posts</h3>
+<ul>	<li><a href='http://www.alariwo.net/?p=6986'>Olabisi Onabanjo University ReOpens</a></li>
+	<li><a href='http://www.alariwo.net/?p=6980'>UNILAG HOLDS DRUG ABUSE AND MENTAL HEALTH SENSITISATION PROGRAMME</a></li>
+	<li><a href='http://www.alariwo.net/?p=6974'>Tofunmi&#8217;s Late Request</a></li>
+	<li><a href='http://www.alariwo.net/?p=6968'>UNILAG DATA CAPTURE OF STUDENTS (2nd PHASE) BEGINS</a></li>
+	<li><a href='http://www.alariwo.net/?p=6966'>UNILAG Releases 2014 Foundation Programme Admission List</a></li>
+</ul>
+</aside>
+<aside class="widget widget">
+<h3 class="widget-title">Pages</h3>
+<ul><li class="page_item page-item-5258"><a href="http://www.alariwo.net/?page_id=5258">HOME PAGE</a></li>
+<li class="page_item page-item-2"><a href="http://www.alariwo.net/?page_id=2">Sample Page</a></li>
+<li class="page_item page-item-5"><a href="http://www.alariwo.net/?page_id=5">Sample Page</a></li>
+<li class="page_item page-item-6788"><a href="http://www.alariwo.net/?page_id=6788">Sample Page</a></li>
+</ul>
+</aside>
+<aside class="widget">
+<h3 class="widget-title">Tags</h3>
+<div class="tagcloud"><ul><a href='http://www.alariwo.net/?tag=2014' class='tag-link-14' title='17 topics' style='font-size: 19.428571428571px;'>2014</a>
+<a href='http://www.alariwo.net/?tag=a' class='tag-link-19' title='4 topics' style='font-size: 11.428571428571px;'>a</a>
+<a href='http://www.alariwo.net/?tag=alariwo' class='tag-link-24' title='19 topics' style='font-size: 20px;'>alariwo</a>
+<a href='http://www.alariwo.net/?tag=alariwo-net' class='tag-link-25' title='10 topics' style='font-size: 16.285714285714px;'>alariwo.net</a>
+<a href='http://www.alariwo.net/?tag=asup' class='tag-link-31' title='3 topics' style='font-size: 10px;'>asup</a>
+<a href='http://www.alariwo.net/?tag=asuu' class='tag-link-33' title='4 topics' style='font-size: 11.428571428571px;'>ASUU</a>
+<a href='http://www.alariwo.net/?tag=batch-b' class='tag-link-40' title='3 topics' style='font-size: 10px;'>batch B</a>
+<a href='http://www.alariwo.net/?tag=daily' class='tag-link-73' title='13 topics' style='font-size: 17.857142857143px;'>Daily</a>
+<a href='http://www.alariwo.net/?tag=daily-quotes' class='tag-link-75' title='8 topics' style='font-size: 15px;'>daily quotes</a>
+<a href='http://www.alariwo.net/?tag=day' class='tag-link-320' title='6 topics' style='font-size: 13.571428571429px;'>day</a>
+<a href='http://www.alariwo.net/?tag=iloudit' class='tag-link-114' title='5 topics' style='font-size: 12.571428571429px;'>iloudit</a>
+<a href='http://www.alariwo.net/?tag=jonathan' class='tag-link-314' title='5 topics' style='font-size: 12.571428571429px;'>jonathan</a>
+<a href='http://www.alariwo.net/?tag=jonathan-lockwood' class='tag-link-120' title='6 topics' style='font-size: 13.571428571429px;'>Jonathan Lockwood</a>
+<a href='http://www.alariwo.net/?tag=jonathan-lockwood-huie' class='tag-link-121' title='3 topics' style='font-size: 10px;'>Jonathan Lockwood Huie</a>
+<a href='http://www.alariwo.net/?tag=jr' class='tag-link-122' title='5 topics' style='font-size: 12.571428571429px;'>Jr.</a>
+<a href='http://www.alariwo.net/?tag=june' class='tag-link-123' title='3 topics' style='font-size: 10px;'>june</a>
+<a href='http://www.alariwo.net/?tag=lasu' class='tag-link-132' title='5 topics' style='font-size: 12.571428571429px;'>lasu</a>
+<a href='http://www.alariwo.net/?tag=latest' class='tag-link-135' title='16 topics' style='font-size: 19px;'>latest</a>
+<a href='http://www.alariwo.net/?tag=lockwood' class='tag-link-315' title='5 topics' style='font-size: 12.571428571429px;'>lockwood</a>
+<a href='http://www.alariwo.net/?tag=martin-luther-king' class='tag-link-148' title='5 topics' style='font-size: 12.571428571429px;'>Martin Luther King</a>
+<a href='http://www.alariwo.net/?tag=mary-anne-radmacher' class='tag-link-321' title='6 topics' style='font-size: 13.571428571429px;'>Mary Anne Radmacher</a>
+<a href='http://www.alariwo.net/?tag=nigeria' class='tag-link-172' title='3 topics' style='font-size: 10px;'>nigeria</a>
+<a href='http://www.alariwo.net/?tag=nysc' class='tag-link-180' title='4 topics' style='font-size: 11.428571428571px;'>Nysc</a>
+<a href='http://www.alariwo.net/?tag=oau' class='tag-link-181' title='7 topics' style='font-size: 14.285714285714px;'>oau</a>
+<a href='http://www.alariwo.net/?tag=play' class='tag-link-319' title='6 topics' style='font-size: 13.571428571429px;'>play</a>
+<a href='http://www.alariwo.net/?tag=quotes-2' class='tag-link-202' title='15 topics' style='font-size: 18.571428571429px;'>quotes</a>
+<a href='http://www.alariwo.net/?tag=strike' class='tag-link-229' title='5 topics' style='font-size: 12.571428571429px;'>strike</a>
+<a href='http://www.alariwo.net/?tag=to' class='tag-link-239' title='5 topics' style='font-size: 12.571428571429px;'>to</a>
+<a href='http://www.alariwo.net/?tag=unilag' class='tag-link-250' title='6 topics' style='font-size: 13.571428571429px;'>unilag</a>
+<a href='http://www.alariwo.net/?tag=university-2' class='tag-link-255' title='4 topics' style='font-size: 11.428571428571px;'>university</a></ul></div>
+</aside>
+
+
+</div>
+</div><!-- SIDEBAR-INNER END -->
+</div><!-- RIGHT SIDEBAR END -->
+</div><!-- CONTAINER WRAP END -->
+
+</section><!-- CONTAINER END -->
+
+</div><!-- BODYCONTENT END -->
+
+</div><!-- INNERWRAP BODYWRAP END -->
+
+</div><!-- WRAPPER MAIN END -->
+
+</div><!-- WRAPPER END -->
+
+
+
+
+<footer class="footer-top">
+<div class="innerwrap">
+<div class="ftop">
+
+<div class="footer-container-wrap">
+<div class="fbox">
+<div class="widget-area the-icons">
+</div>
+</div>
+
+<div class="fbox wider-cat">
+<div class="widget-area the-icons">
+</div>
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+</footer><!-- FOOTER TOP END -->
+
+
+
+<footer class="footer-bottom">
+<div class="innerwrap">
+<div class="fbottom">
+<div class="footer-left">
+Copyright &copy; 2014. ALARIWO.NET</div><!-- FOOTER LEFT END -->
+
+<div class="footer-right">
+	<ul id="menu-menu-4" class="menu"><li id="menu-item-6810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6810"><a href="http://www.alariwo.net/?page_id=5258">HOME</a></li>
+<li id="menu-item-6789" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6789"><a href="http://www.alariwo.net/?cat=5">NEWS</a></li>
+<li id="menu-item-6791" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6791"><a href="http://www.alariwo.net/?cat=3">ENTERTAINMENT</a></li>
+<li id="menu-item-6792" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6792"><a href="http://www.alariwo.net/?cat=4">FEATURES</a></li>
+<li id="menu-item-6790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6790"><a href="http://www.alariwo.net/?cat=7">SPORTS</a></li>
+</ul>
+<br />
+</div>
+</div>
+<!-- FOOTER RIGHT END -->
+
+</div>
+</footer><!-- FOOTER BOTTOM END -->
+
+
+</div><!-- SECBODY END -->
+
+
+	<div style="display:none">
+	</div>
+<script type='text/javascript' src='http://www.alariwo.net/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201440'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Sepaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.alariwo.net/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.9.2'></script>
+<script type='text/javascript' src='http://www.alariwo.net/wp-includes/js/hoverIntent.min.js?ver=r7'></script>
+<script type='text/javascript' src='http://www.alariwo.net/wp-content/themes/mesocolumn/lib/scripts/modernizr/modernizr.js?ver=1.6.3'></script>
+<script type='text/javascript' src='http://www.alariwo.net/wp-content/themes/mesocolumn/lib/scripts/tabber/tabber.js?ver=1.6.3'></script>
+<script type='text/javascript' src='http://www.alariwo.net/wp-content/themes/mesocolumn/lib/scripts/superfish-menu/js/superfish.js?ver=1.6.3'></script>
+<script type='text/javascript' src='http://www.alariwo.net/wp-content/themes/mesocolumn/lib/scripts/superfish-menu/js/supersubs.js?ver=1.6.3'></script>
+<script type='text/javascript' src='http://www.alariwo.net/wp-content/themes/mesocolumn/lib/scripts/custom.js?ver=1.6.3'></script>
+
+	<script src="http://stats.wordpress.com/e-201440.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.9.3',blog:'55546365',post:'0',tz:'0'});
+	var load_cmc = function(){linktracker_init(55546365,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>
+</body>
+
+</html>

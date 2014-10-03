@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-US" class='html_container '>
+<head>
+<meta charset="UTF-8" />
+<meta name="robots" content="index, follow" />
+
+
+
+<!-- page title, displayed in your browser bar -->
+<title>Tanya Davis | musician, poet, performer</title>
+
+<!-- add feeds, pingback and stuff-->
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="alternate" type="application/rss+xml" title="Tanya Davis RSS2 Feed" href="http://tanyadavis.ca/feed/" />
+<link rel="pingback" href="http://tanyadavis.ca/xmlrpc.php" />
+
+
+<!-- add css stylesheets -->
+<link rel="stylesheet" type="text/css" media="all" href="http://tanyadavis.ca/wp-content/themes/flashlight/style.css" />
+<link rel="stylesheet" href="http://tanyadavis.ca/wp-content/themes/flashlight/js/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="http://tanyadavis.ca/wp-content/themes/flashlight/js/projekktor/theme/style.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="http://tanyadavis.ca/wp-content/themes/flashlight/css/minimal-skin.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="http://tanyadavis.ca/wp-content/themes/flashlight/css/shortcodes.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="http://tanyadavis.ca/wp-content/themes/flashlight/css/slideshow.css" type="text/css" media="screen"/>
+
+
+
+<!-- plugin and theme output with wp_head() -->
+<link rel='stylesheet' id='avia-woocommerce-css-css'  href='http://tanyadavis.ca/wp-content/themes/flashlight/woocommerce-config/woocommerce-mod.css?ver=3.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://tanyadavis.ca/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-css'  href='http://tanyadavis.ca/wp-content/plugins/custom-facebook-feed/css/cff-style.css?5&#038;ver=3.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-font-awesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css?ver=4.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='googlefonts-css'  href='http://fonts.googleapis.com/css?family=Ribeye+Marrow:400&subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' id='event-list-css'  href='http://tanyadavis.ca/wp-content/plugins/event-list/includes/css/event-list.css?ver=3.8.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://tanyadavis.ca/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://tanyadavis.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://tanyadavis.ca/wp-content/themes/flashlight/js/projekktor/projekktor.min.js?ver=1'></script>
+<script type='text/javascript' src='http://tanyadavis.ca/wp-content/themes/flashlight/js/avia.js?ver=1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tanyadavis.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://tanyadavis.ca/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.4" />
+<style type='text/css' media='screen'>
+	h1{ font-family:"Ribeye Marrow", arial, sans-serif;}
+	li{ font-family:"Ribeye Marrow", arial, sans-serif;}
+</style>
+<!-- fonts delivered by Wordpress Google Fonts, a plugin by Adrian3.com -->
+
+<!--
+Debugging Info for Theme support: 
+
+Theme: Flashlight
+Version: 2.5
+Installed: flashlight
+AviaFramework Version: 1.8.6
+ML:128-PU:19-PLA:5
+-->
+
+
+<!-- custom styles set at your backend-->
+<style type='text/css' id='dynamic-styles'>
+.button, #submit,  .dropcap2, input[name="Submit"]{
+color:#ffffff;
+}
+
+a, h4.teaser_text, #top .pagination a:hover, #top .tweets a, #top .main_menu .menu .current-menu-item a strong{
+color:#204053;
+}
+
+#top .button, #top #submit, .dropcap2, input[name="Submit"], a.remove:hover{
+background-color:#204053;
+}
+
+#top .button:hover, #top #submit:hover, input[name="Submit"]:hover, .quantity input.minus:hover, .quantity input.plus:hover{
+background-color:#ff0011;
+}
+
+::-moz-selection{
+background-color:#204053;
+}
+
+::-webkit-selection{
+background-color:#204053;
+}
+
+::selection{
+background-color:#204053;
+}
+
+::-moz-selection{
+color:#ffffff;
+}
+
+::-webkit-selection{
+color:#ffffff;
+}
+
+::selection{
+color:#ffffff;
+}
+
+a:hover, .widget .news-link:hover, #top .main_menu .menu  a:hover strong{
+color:#ff0011;
+}
+
+#top .logo {
+margin-bottom: 20px;
+}
+
+a {
+text-decoration: underline;
+}
+
+#top .main_menu .menu li ul a {
+width: auto;
+height: auto;
+float: none;
+text-align: left;
+line-height: 24px;
+padding: 7px 0;
+text-transform: lowercase;
+font-size: 18px;
+min-height: 24px;
+max-width: none;
+}
+
+li.rss {
+display: none;
+}
+
+#top .entry-mini h1.post-title {
+font-size: 26px;
+}
+
+
+
+
+.entry-mini {
+width: 350px;
+position: fixed;
+right: 66px;
+bottom: 10px;
+}
+
+.entry-mini .box{
+padding: 15px;
+}
+
+
+
+.news-thumb {
+display: none;
+}
+
+
+#cff .cff-item {
+padding: 0;
+}
+
+.event-details p {
+font: 12px/1.7em "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.news-excerpt p {
+font: 12px/1.7em "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.news-headline {
+font-size: 16px;
+}
+
+
+.news-time {
+display: none;
+}
+
+body {
+color: #333;
+font-size: 12px;
+}
+
+
+.content .box {
+margin-left: 221px;
+min-width: 60%!important;
+float: left;
+width: 60%;
+}
+
+.main_menu .menu li a strong {
+display: block;
+font-size: 18px;
+font-weight: normal;
+cursor: pointer;
+text-transform: lowercase;
+}
+
+#top .main_menu .menu a {
+display: block;
+line-height: 21px;
+}
+html, body{
+background-color:#204053;
+}
+
+</style>
+
+<!-- end custom styles-->
+
+
+<!-- custom.css file: use this file to add your own styles and overwrite the theme defaults -->
+<link rel="stylesheet" href="http://tanyadavis.ca/wp-content/themes/flashlight/css/custom.css" type="text/css" media="screen"/>
+<!--[if lt IE 8]>
+<style type='text/css'> .one_fourth	{ width:21.5%;} </style>
+<![endif]-->
+
+</head>
+
+
+
+<body id="top" class="home blog  Unknown Unknown?">
+
+	<ul class='avia_fullscreen_slider '  data-autorotation ='false'  data-hide='hide sidebar &amp; content' data-imagecounter='Image -X- from -Y-' data-transition ='fade'  ><li data-image='http://tanyadavis.ca/wp-content/uploads/2014/02/homeBlue.jpg'></li></ul><noscript><div id='fallbackImage' style='background-image:url(http://tanyadavis.ca/wp-content/uploads/2014/02/homeBlue.jpg)'></div></noscript>
+	<a class='return_content' href='#return_content'>show sidebar &amp; content</a>
+	<div id='wrap_all'>
+
+	<!-- ####### HEAD CONTAINER ####### -->
+			<div class='container_wrap' id='header'>
+
+			</div>
+			<!-- end container_wrap_header -->
+
+	<!-- ####### END HEAD CONTAINER ####### -->
+
+
+
+		
+		<!-- ####### MAIN CONTAINER ####### -->
+		<div class='container_wrap' id='main'>
+		
+			<div class='container mini_content_display bg_gallery bg_gallery '>
+				
+				<div class='template-page content'>
+				
+
+												
+				
+				<!--end content-->
+				</div>
+				
+				
+		<div class='post-entry entry-mini'>
+
+			<div class="entry-content">	
+				
+				<div class='box'><div class='inner_box'><h1 class='post-title'>Heartbeat the movie: TFF on Sept 6th and AFF on Sept 12th</h1><p style="text-align: center;"><a href="http://www.heartbeat-movie.com/"><img class="aligncenter size-full wp-image-244" alt="Heartbeat the film by Andrea Dorfman with Tanya Davis" src="http://tanyadavis.ca/wp-content/uploads/2014/02/HeartbeatHomeImg.jpg" width="325" height="309" /></a>Click here to <a href="http://tanyadavis.bandcamp.com/" target="_blank">download the soundtrack from Heartbeat</a>!</p>
+<div class='clearboth'></div><!--end inner_box--></div><!--end inner_box--></div><!--end box-->	
+			</div>							
+		
+		
+		</div><!--end post-entry-->
+		
+		
+<div class='sidebar sidebar1 box sidebar_absolute'><div class='inner_sidebar'><div class='box'><h1 class='logo'><a href='http://tanyadavis.ca/'><img src='http://tanyadavis.ca/wp-content/uploads/2014/02/logo.png' alt='Tanya Davis' /></a></h1><div class='main_menu main_menu_menu_manager'><div class="menu-tanya-container"><ul id="menu-tanya" class="menu"><li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://tanyadavis.ca/about/"><strong>About Tanya</strong></a></li>
+<li id="menu-item-142" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://tanyadavis.ca/poetry/"><strong>Poetry</strong></a></li>
+<li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://tanyadavis.ca/books/"><strong>Books</strong></a></li>
+<li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://tanyadavis.ca/video/"><strong>Videos</strong></a></li>
+<li id="menu-item-143" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://tanyadavis.ca/music/"><strong>Music</strong></a></li>
+<li id="menu-item-153" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://tanyadavis.ca/photos/"><strong>Photos</strong></a></li>
+<li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://tanyadavis.ca/musings/"><strong>Musings</strong></a></li>
+<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://tanyadavis.ca/happenings/"><strong>Happenings</strong></a></li>
+<li id="menu-item-32" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://tanyadavis.ca/contact/"><strong>Contact</strong></a></li>
+</ul></div></div></div><div id='socket' class='box'>	<ul class='social_bookmarks'>		<li class='rss'><a href='http://tanyadavis.ca/feed/'>RSS</a></li><li class='facebook'><a href='https://www.facebook.com/pages/Tanya-Davis/8063194647' target='_blank'>Facebook</a></li><li class='twitter'><a href='http://twitter.com/tanyadavismusic' target='_blank'>Twitter</a></li>	</ul><!-- end social_bookmarks--><div class='hide_content_wrap hide_content_wrap_copyright '><span class='copyright'>&copy; Copyright <a href='http://tanyadavis.ca/'>Tanya Davis</a></span> <span class='design'><br />website design by <a href='http://www.hhdesign.ca' target='_blank'>hhdesign.ca</a></div></div><span class='border-transparent border-transparent-left'></span><span class='border-transparent border-transparent-right'></span></div></div>	          				
+			</div><!--end container-->
+
+	</div>
+	<!-- ####### END MAIN CONTAINER ####### -->
+
+
+						
+
+		
+		</div><!-- end wrap_all -->
+
+
+ <script type='text/javascript'>
+ /* <![CDATA[ */  
+var avia_framework_globals = avia_framework_globals || {};
+    avia_framework_globals.frameworkUrl = 'http://tanyadavis.ca/wp-content/themes/flashlight/framework/';
+    avia_framework_globals.installedAt = 'http://tanyadavis.ca/wp-content/themes/flashlight/';
+    avia_framework_globals.ajaxurl = 'http://tanyadavis.ca/wp-admin/admin-ajax.php';
+/* ]]> */ 
+</script>
+ 
+ <script type='text/javascript' src='http://tanyadavis.ca/wp-content/themes/flashlight/woocommerce-config/woocommerce-mod.js?ver=1'></script>
+<script type='text/javascript' src='http://tanyadavis.ca/wp-content/themes/flashlight/js/prettyPhoto/js/jquery.prettyPhoto.js?ver=3.0.1'></script>
+<script type='text/javascript' src='http://tanyadavis.ca/wp-content/themes/flashlight/js/avia_fade_slider.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://tanyadavis.ca/wp-content/themes/flashlight/js/avia_fullscreen_slider.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://tanyadavis.ca/wp-content/themes/flashlight/js/jquery.masonry.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://tanyadavis.ca/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.49.0-2014.02.05'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/tanyadavis.ca\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://tanyadavis.ca/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://tanyadavis.ca/wp-content/plugins/custom-facebook-feed/js/cff-scripts.js?5&#038;ver=1.8'></script>
+
+</body>
+</html>

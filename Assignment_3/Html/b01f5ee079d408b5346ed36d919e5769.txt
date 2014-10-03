@@ -1,0 +1,1674 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #4 by provacotive/pale-themes.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+ 
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+ 
+ 
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_ecb522410cf4_24.png">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://glowhyxv.tumblr.com/rss" />
+<meta name="viewport" content="width=820" />
+ 
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ 
+
+ 
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+ 
+<script type="text/javascript" src="http://static.tumblr.com/dbek3sy/iBElrgjim/jquerymasonry.js"></script>
+ 
+<script type="text/javascript" src="http://static.tumblr.com/dbek3sy/Qyblrgjfn/jqueryinfintescroll.js"></script>
+<script type="text/javascript">
+$(window).load(function () {
+var $content = $('#content');
+$content.masonry({itemSelector: '.entry'}),
+$content.infinitescroll({
+navSelector : 'div#pagination',
+nextSelector : 'div#pagination a#nextPage',
+itemSelector : '.entry',
+loading: {
+finishedMsg: '',
+img: 'http://static.tumblr.com/dbek3sy/pX1lrx8xv/ajax-loader.gif'
+},
+bufferPx : 600,
+debug : false,
+},
+// call masonry as a callback.
+function( newElements ) {
+var $newElems = $( newElements );
+$newElems.hide();
+// ensure that images load before adding to masonry layout
+$newElems.imagesLoaded(function(){
+$content.masonry( 'appended', $newElems, true, function(){$newElems.fadeIn(300);} );});});});</script>
+
+ 
+<meta name="color:background" content="#ebebeb" />
+<meta name="color:text" content="#6c6c6c" />
+<meta name="color:title link" content="#86a89e" />
+<meta name="color:link" content="#86a89e" />
+<meta name="color:nav link" content="#ffffff" />
+<meta name="color:nav background" content="#a4d0c3" />
+<meta name="color:link hover" content="#afcec8" />
+<meta name="color:post border" content="#dbdbdb" />
+<meta name="color:post bg" content="#fff"/>
+<meta name="color:shadow" content="#c7c7c7"/>
+<meta name="color:blogtitle" content="#86a89e"/>
+ 
+<meta name="image:background" content="" />
+<meta name="if:faded posts" content="1"/>
+<meta name="if:shadow" content=""/>
+<meta name="if:lace border" content="1"/>
+<meta name="if:1 column" content="0">
+<meta name="if:2 columns" content="1">
+<meta name="if:3 columns" content="0">
+<meta name="if:rounded corners" content="0"/>
+<meta name="if:transparent post bg" content="0"/>
+<meta name="if:border" content="0"/>
+<meta name="if:thick border" content="1"/>
+<meta name="if:perma 1" content=""/>
+<meta name="if:perma 2" content="1"/>
+<meta name="if:nav 1" content=""/>
+<meta name="if:nav 2" content="1"/>
+<meta name="if:title font 1" content=""/>
+<meta name="if:title font 2" content="1"/>
+<meta name="if:uppercase text" content="1"/>
+<meta name="if:updates tab" content="1"/>
+ 
+<meta name="text:updates" content="write your updates here!"/>
+<meta name="text:ask" content="inbox"/>
+<meta name="text:ask link" content="/ask">
+<meta name="text:link1" content="link1" />
+<meta name="text:link1url" content="http://" />
+<meta name="text:link1title" content="hover"/>
+<meta name="text:link2" content="link2" />
+<meta name="text:link2url" content="http://" />
+<meta name="text:link2title" content="hover"/>
+<meta name="text:link3" content="link3" />
+<meta name="text:link3url" content="http://" />
+<meta name="text:link3title" content="hover"/>
+ 
+ 
+<style type="text/css">
+ 
+
+#lace {
+    background-image:url('http://static.tumblr.com/3yblkz0/S8omdno3x/jaja.png');
+    repeat:repeat-x;
+    left:0;
+    width:100%;
+    margin-top:-18px;
+    height:18px;
+    position: fixed;
+    z-index: 1;
+    opacity:1;
+    z-index:999999;
+    }
+
+ 
+#s-m-t-tooltip {
+max-width:400px;
+background-color:white;
+border:1px solid #ddd;
+font-family:consolas;
+font-size:8px;
+color:#bbb;
+letter-spacing:1px;
+text-transform:uppercase;
+padding:2px 2px 2px 2px;
+margin:15px 0px 0px 10px;
+z-index:999999999999999999999999999999999999;
+
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+-moz-box-shadow:1px 1px 0 rgba(0,0,0,0.15),-1px -1px 0 rgba(255,255,255,0.09);
+-webkit-box-shadow:1px 1px 0 rgba(0,0,0,0.15),-1px -1px 0 rgba(255,255,255,0.09);
+box-shadow:1px 1px 0 rgba(0,0,0,0.15),-1px -1px 0 rgba(255,255,255,0.09);
+}
+ 
+
+ 
+iframe#tumblr_controls {right:2px !important; position: fixed !important;-webkit-transition: opacity 0.7s linear;opacity: 0.05;-webkit-transition: all 0.8s ease-out;-moz-
+ 
+transition: all 0.8s ease-out;transition: all 0.8s ease-out;}
+ 
+iframe#tumblr_controls:hover{-webkit-transition: opacity 0.7s linear;opacity: 0.8;-webkit-transition: all 0.4s ease-out;-moz-transition: all 0.4s ease-out;transition: all 0.4s ease-out;}
+ 
+body {
+background-color: #ebebeb;
+background-image:url(http://assets.tumblr.com/images/x.gif);
+background-attachment: fixed;
+background-repeat: repeat;
+font-size:10px;
+font-family:consolas;
+line-height:100%;
+text-transform:uppercase;
+color: #6c6c6c;
+}
+ 
+@font-face {
+font-family:titulo;
+src: url('http://static.tumblr.com/ejm8w78/E7bmdzk1u/kgthefighter.ttf');
+}
+ 
+ 
+body, a, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress;}
+ 
+::-webkit-scrollbar-thumb{
+background-color: #86a89e;
+border: 3px solid #ebebeb;
+height:auto;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+ 
+::-webkit-scrollbar {
+height:auto;
+width:9px;
+background-image:url(http://assets.tumblr.com/images/x.gif);
+background-color: #999999;
+border: 4px solid #ebebeb;
+}
+ 
+#sidebar{
+background:#fff;
+text-align:left;
+left:85px;    
+position:fixed;
+top:375px;    
+width:200px;
+line-height:120%;
+font-size:10px;
+text-transform:uppercase;
+word-spacing:1px;
+padding:6px;
+padding-top:5px;
+padding-left:8px;
+padding-right:8px;
+padding-bottom:5px;
+
+
+
+}
+ 
+
+#ocehans {
+position:fixed;
+text-align:center;
+font-size: 10px;
+opacity:0.5;
+opacity: 1;
+background-color:#fff;
+width:65px;
+height:auto;
+margin-top: 40px;
+opacity: 1;
+padding:5px;
+border: 1px solid #dbdbdb;
+color:#6c6c6c;
+right:30px;
+font-size:8px;
+font-family:consolas;
+text-transform:uppercase;
+line-height:9px;
+letter-spacing:1px;
+overflow:hidden;
+z-index:999;
+
+}
+}
+ 
+#ocehans2 {
+height:10px;
+width:55px;
+background-color: auto;
+z-index: 99;
+}
+
+ 
+ 
+
+ 
+
+#navlink{
+font-size:9;
+position:fixed;
+width:200px;
+padding-top:10px;
+left:118px;
+text-transform:uppercase;
+
+}
+ 
+#navlink a{
+color:#d97cd2;    
+}
+
+ 
+.asker{
+text-transform:uppercase;  
+padding-top:5px;
+font-family:"caviardreams";
+margin-bottom:-8px;
+margin-left:-1px;
+font-weight:bold;
+}
+ @font-face { font-family: "caviardreams"; src: url('http://static.tumblr.com/4yxykdm/xXTlrecqr/caviardreams.ttf'); }
+ @font-face { font-family: "haha"; src: url('http://static.tumblr.com/nsunyax/RJSlz7y7g/kgluckoftheirish.ttf'); }
+.answer{
+margin-top:-5px;
+font-family:"haha";
+font-size:15px;
+letter-spacing:1px;
+line-height:100%;
+}
+ 
+.answer img {
+    
+width:250px;
+height:auto;
+
+    
+-webkit-transition: opacity 0.7s linear;
+opacity: 0.6;
+
+}
+ 
+ 
+a:link, a:active, a:visited{
+text-decoration:none;
+color: #86a89e;
+-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+transition: all 0.3s linear;
+}
+ 
+a:hover{
+color: #020202;
+font-size:"no";
+-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+transition: all 0.3s linear;
+}
+ 
+div#center{
+margin-left: 0px;
+width: 100%;
+height: auto;
+overflow-x:hidden;
+}
+ 
+div#content {
+
+
+    
+width: 930px;
+
+left:400px;
+margin-top:-5px;
+position: absolute;
+}
+ 
+.entry{
+margin:8px;
+padding:5px;
+padding-bottom:2px;
+float:left;
+height:auto;
+
+
+background-color:#fff;
+
+
+
+width:250px;
+overflow:hidden;
+
+
+
+
+}
+ 
+img {
+    
+-webkit-transition: opacity 0.7s linear;
+opacity: 0.6;
+  
+
+max-width:250px;
+
+
+}
+ 
+img:hover{
+    
+font-size:"no";
+-webkit-transition: opacity 0.7s linear;
+opacity: 1;
+    
+}
+ 
+ 
+#blogtitle{
+text-transform:none;
+position:fixed;
+
+
+font-family:'lovenote';
+font-size:50px;
+left:173px;
+top:357px;
+
+}
+ 
+#blogtitle a{
+color:#86a89e;    
+}
+ 
+@font-face { font-family: "lovenote"; src: url('http://static.tumblr.com/4yxykdm/k6plrfhwf/ck_love_note.ttf'); }
+@font-face { font-family: "meem46"; src: url('http://static.tumblr.com/uuzw7gl/x1umfczqz/lubgrxl.ttf'); }
+ 
+ 
+.title{
+font-family:consolas;    
+font-size:10px;
+line-height:100%;
+text-transform:uppercase;
+color: #86a89e;
+text-align:left;
+margin:2px;
+margin-bottom:-7px;
+}
+ 
+blockquote{
+padding:0px 0px 0px 3px;
+margin:0px 0px 0px 2px;
+border-left: 1px solid #dbdbdb;
+}
+ 
+
+ 
+
+.entry .perma{
+position:absolute;
+background:white;
+padding:6px;
+padding-bottom:8px;
+width:250px;
+left:-1px;
+height:auto;
+top:-10px;
+font-size:"haha";
+overflow:hidden;
+text-align:center;
+text-transform:uppercase;
+font-size:9px;
+line-height:130%;
+letter-spacing:1px;
+opacity: 0;
+-webkit-transition: all 0.6s linear;
+-webkit-transition: all 0.6s linear;
+-moz-transition: all 0.6s linear;
+transition: all 0.6s linear;
+
+padding:9px;
+padding-bottom:11px;
+top:-9px;
+left:6px;
+
+}
+ 
+.entry:hover .perma{
+top:5px;
+opacity:0.8;
+font-size:"no";
+-webkit-transition: all 0.6s linear;
+-webkit-transition: all 0.6s linear;
+-moz-transition: all 0.6s linear;
+transition: all 0.6s linear;
+
+top:12px;
+
+}
+ 
+.entry:hover .perma:hover{
+opacity:0.9;
+font-size:"haha";
+-webkit-transition: all 0.4s linear;
+-webkit-transition: all 0.4s linear;
+-moz-transition: all 0.4s linear;
+transition: all 0.4s linear;
+}
+
+ 
+.k{
+word-spacing:1px;
+}
+ 
+#titlelink a{
+background-color:#86a89e;
+}
+ 
+.permalink{
+margin-top:0px;
+padding:5px;
+padding-bottom:3px;
+text-align:right;
+opacity:1;
+font-family:"haha";
+font-size:9px;
+-webkit-transition: all 0.4s linear;
+-webkit-transition: all 0.4s linear;
+-moz-transition: all 0.4s linear;
+transition: all 0.4s linear;
+text-transform:uppercase;
+    
+-webkit-transition: opacity 0.7s linear;
+opacity: 0.6;
+
+}
+ 
+.permalink:hover{
+    
+font-size:"haha";
+-webkit-transition: opacity 0.7s linear;
+opacity: 1;
+    
+}
+ 
+#uhh{
+position:fixed;
+right:10px;
+top:18px;
+text-transform:uppercase;
+font-family:"haha";
+font-size:9px;
+}
+ 
+#uhh a{
+color:#6c6c6c;
+}
+ 
+
+</style>
+ 
+<title>Bad Days</title>
+ 
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://glowhyxv.tumblr.com/rss" />
+ 
+ 
+</script>
+<script type="text/javascript" src="http://static.tumblr.com/fxpo5zq/OTlme21c1/like_script.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/fxpo5zq/hPeme202n/like.js"></script>
+<iframe id="likeiframe" style="width: 1px; height: 1px; opacity:0;"></iframe>
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://www.glowhyxv.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037786&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3Lmdsb3doeXh2LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=BPFPAMNJGG&K=a27819135864978b037c8c467bf8a3f3973687b8306427d835046fd1b6d5b505&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037786&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3Lmdsb3doeXh2LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=BPFPAMNJGG&K=1ba66025fb07a915d910381407b49a0ef1699b06c5dbd332dd55a8e72f56ac4e&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037786&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5nbG93aHl4di50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTMyMzk5NzkxIiwicm9vdF9wb3N0aWQiOiI5ODY0NDQ5NTYxNCIsInBvc3RpZCI6Ijk4NjQ4MTU0OTM4IiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODE0MzgwNjgiLCJyb290X3Bvc3RpZCI6Ijk4NTkxOTg2MTkxIiwicG9zdGlkIjoiOTg2NDgxMDc0ODMiLCJibG9naWQiOiI3Nzk2NzIzNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4OTg1NDE0MCIsInJvb3RfcG9zdGlkIjo2MzM2MDYzMjc5MCwicG9zdGlkIjoiOTg2NDgxMDAxODMiLCJibG9naWQiOiI3Nzk2NzIzNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjU4MjQ2NiIsInJvb3RfcG9zdGlkIjoiNzI3NDcwNDA5MzUiLCJwb3N0aWQiOiI5ODY0ODA5MjE4OCIsImJsb2dpZCI6Ijc3OTY3MjM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2NjExMjM1MCIsInJvb3RfcG9zdGlkIjoiOTM5OTA3OTMwNDkiLCJwb3N0aWQiOiI5ODY0ODA3MTk3MyIsImJsb2dpZCI6Ijc3OTY3MjM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2OTM2Njc5NSIsInJvb3RfcG9zdGlkIjoiOTc1MTAyODE3MTQiLCJwb3N0aWQiOiI5ODY0ODA2NjI2OCIsImJsb2dpZCI6Ijc3OTY3MjM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgzMDA5NTU1Iiwicm9vdF9wb3N0aWQiOiI5MTY3NDY0NTAxNSIsInBvc3RpZCI6Ijk4NjQ4MDYxMjIzIiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfV19&U=FJHGGEGONO&K=d725597c4b1c5db212af479d08101b73ad2e35caf4b432f420a5ff56d12264b3&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037786&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5nbG93aHl4di50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTMyMzk5NzkxIiwicm9vdF9wb3N0aWQiOiI5ODY0NDQ5NTYxNCIsInBvc3RpZCI6Ijk4NjQ4MTU0OTM4IiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODE0MzgwNjgiLCJyb290X3Bvc3RpZCI6Ijk4NTkxOTg2MTkxIiwicG9zdGlkIjoiOTg2NDgxMDc0ODMiLCJibG9naWQiOiI3Nzk2NzIzNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4OTg1NDE0MCIsInJvb3RfcG9zdGlkIjo2MzM2MDYzMjc5MCwicG9zdGlkIjoiOTg2NDgxMDAxODMiLCJibG9naWQiOiI3Nzk2NzIzNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjU4MjQ2NiIsInJvb3RfcG9zdGlkIjoiNzI3NDcwNDA5MzUiLCJwb3N0aWQiOiI5ODY0ODA5MjE4OCIsImJsb2dpZCI6Ijc3OTY3MjM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2NjExMjM1MCIsInJvb3RfcG9zdGlkIjoiOTM5OTA3OTMwNDkiLCJwb3N0aWQiOiI5ODY0ODA3MTk3MyIsImJsb2dpZCI6Ijc3OTY3MjM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2OTM2Njc5NSIsInJvb3RfcG9zdGlkIjoiOTc1MTAyODE3MTQiLCJwb3N0aWQiOiI5ODY0ODA2NjI2OCIsImJsb2dpZCI6Ijc3OTY3MjM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgzMDA5NTU1Iiwicm9vdF9wb3N0aWQiOiI5MTY3NDY0NTAxNSIsInBvc3RpZCI6Ijk4NjQ4MDYxMjIzIiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=FJHGGEGONO&K=4810e9543d146a7c24c3b5286cfeda8f501dd1aa9c1f6e0c05162131e35d812b&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037786&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5nbG93aHl4di50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTAwMDQ4MjcwIiwicm9vdF9wb3N0aWQiOiI1NzQxMDQzMTM3NyIsInBvc3RpZCI6Ijk4NjQ4MDQxNDEzIiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzkyODc3NDQiLCJyb290X3Bvc3RpZCI6MzU1MDczODU2MjEsInBvc3RpZCI6Ijk4NjQ4MDI3ODEzIiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzI5MzI5OTIiLCJyb290X3Bvc3RpZCI6IjI5NDU1MTEzMTUzIiwicG9zdGlkIjoiOTg2NDc5OTc0MDMiLCJibG9naWQiOiI3Nzk2NzIzNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjg1MzQ4NzkiLCJyb290X3Bvc3RpZCI6OTM5Nzc2Njg5ODcsInBvc3RpZCI6Ijk4NjQ3OTgyNjA4IiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTkyODMzMzUiLCJyb290X3Bvc3RpZCI6NjUxNzgxMjIxNDQsInBvc3RpZCI6Ijk4NjQ3OTI3ODIzIiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTk1ODEwNjc0Iiwicm9vdF9wb3N0aWQiOiI5ODQxNjEzNjIxMiIsInBvc3RpZCI6Ijk4NjQ3OTEyOTM4IiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODM4Nzk4MzgiLCJyb290X3Bvc3RpZCI6Ijg1NTc0NjA2Nzk4IiwicG9zdGlkIjoiOTg2MDI0NDIwODgiLCJibG9naWQiOiI3Nzk2NzIzNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjU1NzgiLCJyb290X3Bvc3RpZCI6NTExOTAyMDAyNTYsInBvc3RpZCI6Ijk4NjAyNDM3MTUzIiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfV19&U=JJEOPOMCKB&K=0fd2416ad7bc6d15f663a41e825308c5627a0bed6e581738a4b3de8a4f39f24e&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037786&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5nbG93aHl4di50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTAwMDQ4MjcwIiwicm9vdF9wb3N0aWQiOiI1NzQxMDQzMTM3NyIsInBvc3RpZCI6Ijk4NjQ4MDQxNDEzIiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzkyODc3NDQiLCJyb290X3Bvc3RpZCI6MzU1MDczODU2MjEsInBvc3RpZCI6Ijk4NjQ4MDI3ODEzIiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzI5MzI5OTIiLCJyb290X3Bvc3RpZCI6IjI5NDU1MTEzMTUzIiwicG9zdGlkIjoiOTg2NDc5OTc0MDMiLCJibG9naWQiOiI3Nzk2NzIzNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjg1MzQ4NzkiLCJyb290X3Bvc3RpZCI6OTM5Nzc2Njg5ODcsInBvc3RpZCI6Ijk4NjQ3OTgyNjA4IiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTkyODMzMzUiLCJyb290X3Bvc3RpZCI6NjUxNzgxMjIxNDQsInBvc3RpZCI6Ijk4NjQ3OTI3ODIzIiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTk1ODEwNjc0Iiwicm9vdF9wb3N0aWQiOiI5ODQxNjEzNjIxMiIsInBvc3RpZCI6Ijk4NjQ3OTEyOTM4IiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODM4Nzk4MzgiLCJyb290X3Bvc3RpZCI6Ijg1NTc0NjA2Nzk4IiwicG9zdGlkIjoiOTg2MDI0NDIwODgiLCJibG9naWQiOiI3Nzk2NzIzNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjU1NzgiLCJyb290X3Bvc3RpZCI6NTExOTAyMDAyNTYsInBvc3RpZCI6Ijk4NjAyNDM3MTUzIiwiYmxvZ2lkIjoiNzc5NjcyMzQiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=JJEOPOMCKB&K=eec49e84cf531f760b950eeca3359ec4a939e6b77ea8581d04f5385c693ed478&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:77967234,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fwww.glowhyxv.tumblr.com%2F&amp;lang=en_US&amp;name=glowhyxv&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_ecb522410cf4_64.png&amp;title=Bad+Days&amp;url=http%3A%2F%2Fglowhyxv.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fwww.glowhyxv.tumblr.com%2F&amp;lang=en_US&amp;name=glowhyxv&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_ecb522410cf4_64.png&amp;title=Bad+Days&amp;url=http%3A%2F%2Fglowhyxv.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+ 
+<script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+<script>
+(function($){
+$(document).ready(function(){
+$("[title],a[title],img[title]").style_my_tooltips({
+    tip_follows_cursor:true,
+    tip_delay_time:100,
+    tip_fade_speed:300,
+    attribute:"title"
+});
+});
+})(jQuery);
+</script>
+ 
+ 
+ 
+<meta name="robots" content="noindex"/>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=glowhyxv" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/streetscript/stylesheet.css?v=1">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Bad Days" /><meta property="og:url" content="http://glowhyxv.tumblr.com/?og=1" /><meta property="og:description" content="You might as well try to be happy while you&#039;re living because you&#039;re dead for a long time. Im 17 and..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_ecb522410cf4_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=glowhyxv" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=glowhyxv" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="glowhyxv" /><meta name="twitter:description" content="&lt;p&gt;You might as well try to be happy while you&#039;re living because you&#039;re dead for a long time. Im 17 and i&#039;ve already dreamed about my death a million times, the hardest thing in this world is to live in it, but in the end all you can do is your best. Being happy doesn&rsquo;t mean that everything is perfect, it means that you&rsquo;ve decided to look beyond the imperfections. It is okay not to be okay.&lt;/p&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=glowhyxv&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=glowhyxv&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=glowhyxv&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+<!-- snow -->
+<script type='text/javascript'>
+ 
+sitePath = 'http://vanessaluiza.com/_utilidades/script/let-it-snow/';
+ 
+sflakesMax = 0.15;
+ 
+sflakesMaxActive = 110;
+ 
+svMaxX = 1;
+ 
+svMaxY = 1;
+ 
+ssnowStick = 0;
+ 
+sfollowMouse = 1;
+ 
+snowStorm.snowStick = true;
+ 
+snowStorm.flakesMax = 150;
+ 
+</script>
+ 
+<script src='http://blogonthenet.xpg.com.br/ttricks/snowstorm.js' type='text/javascript'></script>
+<!-- snow -->
+
+<div id="ocehans">
+<div id="ocehans2">
+write your updates here!
+</div> </div>
+
+ 
+
+<div id="lace"></div>
+
+ 
+<div id="sidebar">
+<p>You might as well try to be happy while you're living because you're dead for a long time. Im 17 and i've already dreamed about my death a million times, the hardest thing in this world is to live in it, but in the end all you can do is your best. Being happy doesn’t mean that everything is perfect, it means that you’ve decided to look beyond the imperfections. It is okay not to be okay.</p>
+ 
+
+ 
+
+<div id="navlink">
+<a href="/" title="home">home</a> ·
+<a href="" title="ask">inbox</a> ·
+<a href="http://arizona-ss.tumblr.com/"title="calzona">side blog</a> · 
+<a href="https://twitter.com/weltonclare"title="tweet me">twitter</a> · 
+<a href="http://"title="hover">link3</a>
+</div>
+    
+</div>
+<div id="blogtitle"><a href="/"title="Bad Days">Bad Days</a></div>
+<br>
+</div>
+ 
+
+</span>
+<br><br>
+ 
+ 
+<div id="center">
+<div id="content">
+ 
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://weheartit.com/entry/135301618?utm_campaign=share&amp;utm_medium=image_share&amp;utm_source=tumblr"><div class="photo"><a href="http://glowhyxv.tumblr.com/post/98648154938"><img src="http://33.media.tumblr.com/d4f2d7b47a6ac54dc0fd27310f5aaba6/tumblr_ncmdtifDEU1sfl75oo1_500.jpg" alt="" width=250px/></a></div></a>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98648154938">1,109 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://weheartit.com/entry/138230386/via/valentinalo?utm_campaign=share&amp;utm_medium=image_share&amp;utm_source=tumblr"><div class="photo"><a href="http://glowhyxv.tumblr.com/post/98648107483"><img src="http://31.media.tumblr.com/2cb042f6d3bbfbc3352ff1caa95c576d/tumblr_ncl60eKj5Z1rlyjgjo1_500.png" alt="" width=250px/></a></div></a>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98648107483">425 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://instagram.com/p/fKMORTkHRz/"><div class="photo"><a href="http://glowhyxv.tumblr.com/post/98648100183"><img src="http://31.media.tumblr.com/46d60a1a3b1b0aee14ef46c5fa67b3e3/tumblr_muajb4pZJ91s3zncbo1_500.jpg" alt="" width=250px/></a></div></a>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98648100183">143,927 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<div class="photo"><a href="http://glowhyxv.tumblr.com/post/98648092188/flower-fingers-a-lady-at-the-body-shop"><img src="http://38.media.tumblr.com/8b13658c3fba8d674256b3ec42fce242/tumblr_mz4g9zXGqc1qimgkro1_500.png" alt="flower-fingers:
+
+a lady at the body shop complimented me on my shoes it was very sweet
+" width=250px/></a></div>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98648092188/flower-fingers-a-lady-at-the-body-shop">2,491 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+ 
+
+<div id="photoset_98648071973" class="html_photoset">    <iframe id="photoset_iframe_98648071973" class="photoset" scrolling="no" frameborder="0" height="180" width="250"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://glowhyxv.tumblr.com/post/98648071973/photoset_iframe/glowhyxv/tumblr_n9pk4vGKvG1tq0ekn/250/false"></iframe></div>
+
+<div class="perma">
+posted on Sunday, September 28, 2014<br>
+at 1:15pm / <a href="https://www.tumblr.com/reblog/98648071973/XmrHm5as" target="_blank">reblog</a> with
+<a href="http://glowhyxv.tumblr.com/post/98648071973/prayxr-how-to-spot-a-cheater-this-is-actually">21,385 notes</a>
+</div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://glowhyxv.tumblr.com/image/98648066268"><div class="photo"><a href="http://glowhyxv.tumblr.com/post/98648066268"><img src="http://31.media.tumblr.com/a8e18d48d27d9173ed754a8615c935b5/tumblr_nbwvluHTAX1trlw2wo1_500.gif" alt="" width=250px/></a></div></a>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98648066268">3,749 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://glowhyxv.tumblr.com/image/98648061223"><div class="photo"><a href="http://glowhyxv.tumblr.com/post/98648061223"><img src="http://38.media.tumblr.com/55f8a9e13b067a25478f4177f7087942/tumblr_n8o50blGUg1rmwyroo1_500.jpg" alt="" width=250px/></a></div></a>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98648061223">55,165 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://glowhyxv.tumblr.com/image/98648041413"><div class="photo"><a href="http://glowhyxv.tumblr.com/post/98648041413"><img src="http://38.media.tumblr.com/06161a42a5fd625c5271c79c3f5a4201/tumblr_mr1rx8DHTa1s9bfwlo1_500.jpg" alt="" width=250px/></a></div></a>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98648041413">61,073 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://sickblossom.tumblr.com"><div class="photo"><a href="http://glowhyxv.tumblr.com/post/98648027813"><img src="http://33.media.tumblr.com/tumblr_mdcbabAknJ1rkogzbo1_500.jpg" alt="" width=250px/></a></div></a>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98648027813">205,026 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://l0ng-live.tumblr.com"><div class="photo"><a href="http://glowhyxv.tumblr.com/post/98647997403/the-sky-when-it-snows-is-absolutely-perfect-it"><img src="http://33.media.tumblr.com/tumblr_m8rwbvszLO1r5dn2bo1_500.jpg" alt="
+The sky when it snows is absolutely perfect. It can be 1&nbsp;o&rsquo;clock in the morning and bright outside. The silence of everything when it snows is beautiful. You can barely hear a sound when the snow covers everything. Just watching the snow fall and stick to the ground is beautiful. Yeah I guess it sucks that it&rsquo;s cold and you have to shovel it out, but coming in from the cold and putting on warm clothes, sitting in the heat, and drinking hot chocolate is so relaxing. I miss the snow so much.
+" width=250px/></a></div></a>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98647997403/the-sky-when-it-snows-is-absolutely-perfect-it">535,337 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<div class="photo"><a href="http://glowhyxv.tumblr.com/post/98647982608"><img src="http://33.media.tumblr.com/96d7d851f26cdf73f702fd30f2615984/tumblr_n9w7601bRv1trtc5eo1_500.jpg" alt="" width=250px/></a></div>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98647982608">13,911 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://glowhyxv.tumblr.com/image/98647927823"><div class="photo"><a href="http://glowhyxv.tumblr.com/post/98647927823/pale-babes-of-ghetto"><img src="http://33.media.tumblr.com/bb16a4568dcc65e364ac6455a06392d1/tumblr_mvatp1M0O11qkyckwo1_500.jpg" alt="pale-babes-of-ghetto:
+
+cyberrghetto:
+
+ॐ&nbsp;cyberspace princess&nbsp;ॐ
+
+&mdash;" width=250px/></a></div></a>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98647927823/pale-babes-of-ghetto">4,415 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<div class="photo"><a href="http://glowhyxv.tumblr.com/post/98647912938"><img src="http://38.media.tumblr.com/54fbf67953476d1d3960d5aee2d936ef/tumblr_nch7ifxkKj1thcondo1_500.jpg" alt="" width=250px/></a></div>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98647912938">567 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<a href="http://glowhyxv.tumblr.com/image/98602442088"><div class="photo"><a href="http://glowhyxv.tumblr.com/post/98602442088/glowhry-uncorpse-dark-pale-glow-here-pure"><img src="http://38.media.tumblr.com/37168acaa7098b89af26c5d8a7383237/tumblr_n5hla5uY5u1s028jho1_500.jpg" alt="glowhry:
+
+uncorpse:
+
+dark/pale/glow&nbsp;here
+
+Pure Glow" width=250px/></a></div></a>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98602442088/glowhry-uncorpse-dark-pale-glow-here-pure">72,164 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->
+
+ 
+<div class="entry">
+ 
+
+ 
+
+ 
+
+<div class="photo"><a href="http://glowhyxv.tumblr.com/post/98602437153"><img src="http://31.media.tumblr.com/c78acd8315f6f548789294371211f2bc/tumblr_mna38qArXP1qz7lxdo1_400.gif" alt="" width=250px/></a></div>
+<div class="perma">
+<img src="http://i991.photobucket.com/albums/af37/mstrawberry24/tumblr_lqlg8cr6SL1ql1l0v.gif"><br/>
+<a href="http://glowhyxv.tumblr.com/post/98602437153">26,204 notes</a>
+</div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+ 
+ 
+<div style="position:fixed;width:100px;top:28px; right:19px;padding-left:13px;font-family:consolas;font-size:8px;background-color:#f7f7f7;color:#fcfcfc;text-transform:uppercase;letter-spacing:1px;
+text-align:center;padding:4px;border:4px DOUBLE white;border-radius:0px;">
+<font color="#fff">
+<marquee> <a href="http://www.pale-themes.tumblr.com" title="click here for more themes!">this is theme #4 by pale-themes.</a></marquee>
+</html></body>
+<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/arrow23.gif'), auto }</style>
+</div></div>
+<!---
+♡ DON'T DELETE THIS ♡DON'T DELETE THIS ♡ DON'T DELETE THIS ♡ DON'T DELETE
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ ·
+this is theme #2 by provacotive.
+  ↪  please don't redistribute without proper credit,
+  ↪  please don't take out the credit, i work super super hard on these and it would break my heart to see someone claim my work as theres.
+  ↪  please don't use as a basecode without asking.
+if you have any questions, ask me.
+  ↪ if you notice a bug in the theme, please please please contact me. it would really help alot.
+~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~ · ~
+-->

@@ -1,0 +1,770 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50542539-1', 'sbrealtyinc.com');
+      ga('send', 'pageview');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="hacker" >
+    <link rel="shortcut icon" href="">
+    <title>
+    Ashley Sanders - Schooner Bay Realty Inc. | Southwest Florida Realtors    </title>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://sbrealtyinc.com/wp-content/themes/solidleadsclean/js/html5shiv.js"></script>
+      <script src="http://sbrealtyinc.com/wp-content/themes/solidleadsclean/js/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+/* File:       uki_facebook_wall_feed.css
+   Author:     Fedil Grogan
+   Date:       01/03/2011
+   Copyright:  Fedil Grogan 2011
+   Purpose:
+   This is the styling sheet for the facebook feed. I tried to make it as
+   close to facebook as possible. Feel free to change as you wish.
+*/
+#facebook_status_box {
+  background: #ffffff;
+  color: #383838;
+  margin: 0px;
+  padding: 0px;
+  width: 296px;
+  height: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+#facebook_status_box h2, #facebook_status_box h5 {
+  margin: 0px;
+  padding: 0px;
+}
+#facebook_status_box p {
+  margin: 0px;
+  padding: 5px 0px 0px 0px;
+  color: #383838;
+  line-height: 150%;
+}
+#facebook_status_box h2 {
+  padding: 10px 0px 10px 30px;
+  background: #F6F6F6;
+  letter-spacing: -.5px;
+  font-size: 1.4em;
+  color: #383838;
+}
+#facebook_status_box #facebook_canvas {
+  overflow: auto;
+  height: 409px;  
+}
+#facebook_status_box .fb_post {
+  margin: 10px 4px;
+  border: 1px solid #C4CDE0;
+  padding: 3px;
+  border-radius: 3px;
+}
+#facebook_status_box .fb_post h5 {
+  padding: 0px;
+  font-size: 11px;
+  margin-bottom: 2px;
+  line-height: 1;
+}
+#facebook_status_box .fb_post h5 a {
+  color: #0A7A98;
+  text-decoration: none;
+}
+#facebook_status_box .fb_post .fb_photoblock {
+  border-bottom: 1px solid #e6e6fa;
+  overflow: hidden;
+  padding: 7px;
+  margin: 0;
+}
+#facebook_status_box .fb_post .fb_photo {
+  float: left;
+  width: 32px;
+  margin-right: 2px;
+}
+#facebook_status_box .fb_post .fb_time {
+  color: #999999;
+}
+#facebook_status_box .fb_post .fb_time img {
+  padding-right: 5px;
+}
+#facebook_status_box .fb_post .fb_photo img {
+  border: none;
+  width: 32px;
+  height: 32px;
+}
+#facebook_status_box .fb_post .fb_photo_content {
+  font-size: 11px;
+  float: left;
+  width: 85%;
+}
+#facebook_status_box .fb_post .fb_msg {
+  clear: both;
+  padding: 7px;
+  overflow: hidden;
+}
+#facebook_status_box .fb_post .fb_msg p {
+  font-size: 12px;
+}
+#facebook_status_box .fb_link_post img {
+  margin: 0px 3px 0px 0px;
+  float: left;
+}
+#facebook_status_box .fb_link_post h6 {
+  font-size: .9em;
+  margin: 3px 0px 0px 0px;
+}
+#facebook_status_box .fb_link_post a {
+  color: #0A7A98;
+  text-decoration: none;
+}
+#facebook_status_box .fb_link_post a:hover {
+  text-decoration: underline;
+}
+#facebook_status_box .fb_link_post p {
+  font-size: .9em;
+  color: #999999;
+}
+#facebook_status_box .fb_link_post p.fb_link_caption {
+  margin: 0px;
+  margin-top: -5px;
+  color: #383838;
+}
+#facebook_status_box .fb_link_post p.fb_vid_length {
+  font-size: 10px;
+}
+#facebook_status_box .fb_link_post p.fb_desc {
+  font-size: 11px;
+}
+#facebook_status_box .fb_link_post p.fb_cap {
+  font-size: 11px;
+  color: #000000;
+}
+#facebook_status_box .fb_post img.fb_post_icon {
+  float: left;
+  margin: 2px;
+}
+#facebook_status_box .fb_post .fb_commLink {
+  font-size: 11px;
+  background: #EDEFF4;
+  padding: 3px 7px;
+  clear: both;
+}
+#facebook_status_box .fb_post .fb_commLink a {
+  color: #0A7A98;
+  text-decoration: none;
+}
+#facebook_status_box .fb_post .fb_msg .fb_commLink a:hover {
+  text-decoration: underline;
+}
+#facebook_status_box .fb_post .fb_likes {
+  float: right;
+  margin-left: 5px;
+}
+#facebook_status_box .fb_post .fb_likes a {
+  background-image: url("https://fbstatic-a.akamaihd.net/rsrc.php/v2/y-/r/tbhIfdAHjXE.png");
+  background-repeat: no-repeat;
+  background-position: 0 -60px;
+  height: 14px;
+  padding-left: 18px;
+}
+#facebook_status_box .fb_msg p.fb_story {
+  font-size: 10px;
+  color: #999999;
+}
+#facebook_status_box .fb_post .fb_comments {
+  background-color: #EDEFF4;
+  font-size: 11px;
+  border-bottom: 1px solid #e6e6fa;
+  overflow: hidden;
+  padding: 7px;
+  margin: 0;
+}
+#facebook_status_box .fb_post .fb_comments p {
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+#facebook_status_box .fb_post .fb_comments a {
+  color: #0A7A98;
+  text-decoration: none;
+}
+
+#facebook_status_box #facebook_canvas .fb_post .fb_commLink .fb_likes .tooltip
+{
+  position: static !important;
+  padding: 0 0 0 18px !important;
+  opacity: 1 !important;
+  filter: alpha(opacity=1) !important;
+}
+
+#facebook_status_box .fb_post .fb_comments .fb_comment_likes {
+  background-image: url("https://fbstatic-a.akamaihd.net/rsrc.php/v2/y-/r/tbhIfdAHjXE.png");
+  background-repeat: no-repeat;
+  background-position: 0 -60px;
+  height: 14px;
+  padding-left: 18px;
+  margin-left: 5px;
+}
+
+</style>
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.5.2.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="http://sbrealtyinc.com/agent_type/ashley-sanders/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Ashley Sanders - Schooner Bay Realty Inc. | Southwest Florida Realtors" />
+<meta property="og:description" content="I have been a South West Florida resident since 1983. I enjoyed my early childhood living on beautiful Sanibel Island then later moving inland to Ft. Myers. Growing up in S.W. Florida, I have seen many exciting changes to our community. I am happy to assist my clients in all aspects of home buying, from &hellip;" />
+<meta property="og:url" content="http://sbrealtyinc.com/agent_type/ashley-sanders/" />
+<meta property="og:site_name" content="Schooner Bay Realty Inc. | Southwest Florida Realtors" />
+<meta property="article:published_time" content="2014-09-02T14:34:44+00:00" />
+<meta property="article:modified_time" content="2014-09-22T17:23:29+00:00" />
+<meta property="og:updated_time" content="2014-09-22T17:23:29+00:00" />
+<meta property="og:image" content="http://sbrealtyinc.com/wp-content/uploads/2014/09/Ashely.jpg" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='stylesheet' id='contact-form-7-css'  href='http://sbrealtyinc.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fpf-css'  href='http://sbrealtyinc.com/wp-content/plugins/facebook-photo-fetcher/style.css?ver=2.1.14' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://sbrealtyinc.com/wp-content/plugins/facebook-photo-fetcher/fancybox/jquery.fancybox-1.3.4.css?ver=1.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='recent-facebook-posts-css-css'  href='http://sbrealtyinc.com/wp-content/plugins/recent-facebook-posts/assets/css/default.css?ver=1.8.5' type='text/css' media='all' />
+<link rel='stylesheet' id='googlefont-css'  href='http://fonts.googleapis.com/css?family=Raleway&#038;ver=3.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css'  href='http://sbrealtyinc.com/wp-content/themes/solidleadsclean/style.css?ver=3.8.4' type='text/css' media='all' />
+<link rel='stylesheet' id='leaflet-css-css'  href='//d1qfrurkpai25r.cloudfront.net/graphical/css/leaflet.css?ver=3.8.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://sbrealtyinc.com/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://sbrealtyinc.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://sbrealtyinc.com/wp-content/plugins/facebook-photo-fetcher/fancybox/jquery.fancybox-1.3.4.pack.js?ver=1.3.4'></script>
+<script type='text/javascript' src='//d1qfrurkpai25r.cloudfront.net/graphical/javascript/leaflet.js?ver=3.8.4'></script>
+<script type='text/javascript' src='//www.mapquestapi.com/sdk/leaflet/v1.0/mq-map.js?key=Gmjtd%7Cluub2h0rn0%2Crx%3Do5-lz1nh&#038;ver=3.8.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sbrealtyinc.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://sbrealtyinc.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.4" />
+<link rel='shortlink' href='http://sbrealtyinc.com/?p=451' />
+        
+  </head>
+
+  <body>
+    <div id="tab-flyout">
+    Contact Us
+</div>
+
+<div id="tab-content">
+    <div class="tab-inner">
+	<h3>Our Office Location</h3>
+		<ul>
+			<li>Schooner Bay Realty Inc</li>			<li>1210 Del Prado Blvd. South</li>			<li>Cape Coral, FL 33990</li>		</ul>
+	<h3 class="mar-top-10">Contact Information</h3>
+		<ul>
+			<li>Office: (239) 997-4000</li>						<li>Email: info@sbrealtyinc.com</li>		</ul>
+</div></div>
+    
+    <div class="container">
+    <div class="site-wrap">
+    <div class="leadError">  
+            <span>It looks like you already have an account or didn't fully complete the form.  Please click <a href="http://listings.sbrealtyinc.com/idx/userlogin">Here</a> to login to your account or <a href="http://listings.sbrealtyinc.com/idx/usersignup" title="User Signup">Signup</a> for an account with Schooner Bay Realty Inc</span>
+    </div>
+    
+        <div class="sticky-div">
+            
+    <div class="row visible-xs visible-sm" style="padding: 0 15px;">
+        <div class="wrapper">
+        <div class="col-md-6 text-center">
+        <div id="logo"><a href="http://sbrealtyinc.com"><img src="http://sbrealtyinc.com/wp-content/uploads/2014/03/schooner-logo.jpg"/></a></div>
+        <div class="clearfix"></div>
+        </div>
+        </div>
+    </div>
+    
+    
+    <div class="visible-md visible-lg">
+        <div class="preheader-top pad-lr">
+            <div class="row">
+            
+                <div class="col-md-4">
+                        <p>Cape Coral Real Estate</p>
+                </div>
+                <div class="col-md-8">
+                    <ul>
+                        <li><a class="subdued" href="http://listings.sbrealtyinc.com/i/cape-coral-commercial-properties-for-sale">Commercial Property</a></li>
+                        <li><a class="subdued" href="http://sbrealtypm.com/">Property Management</a></li>
+                        <li><a class="subdued" href="http://sbrealtyinc.com/new-construction/">New Construction</a></li>
+                        <li><a href="http://listings.sbrealtyinc.com/idx/myaccount">My Account</a></li>
+                        <li><a href="http://listings.sbrealtyinc.com/idx/userlogin?logout">Logout</a></li>
+                    </ul>    		
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            </div>
+        </div>
+    
+    <div class="wrapper" style="padding: 0 15px;">
+    <div class="row">
+    		
+        <div class="col-md-3 hidden-xs hidden-sm">
+        		            	<h1 id="logo"><a href="http://sbrealtyinc.com"><img src="http://sbrealtyinc.com/wp-content/uploads/2014/03/schooner-logo.jpg"/></a></h1>
+                    </div>
+         <div class="col-md-9">
+                <div class="navbar navbar-right">
+            
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            <div class="row">
+                <div class="navbar-collapse collapse">
+                    <ul id="menu-primary" class="nav navbar-nav"><li id="menu-item-54" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-54"><a href="http://sbrealtyinc.com">Home</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-31"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Buyers <b class="caret"></b></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="http://listings.sbrealtyinc.com/idx/search/advanced">Search</a></li>
+	<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="http://sbrealtyinc.com/what-are-my-buyers-costs/">What Are My Buyers Costs</a></li>
+	<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="http://sbrealtyinc.com/tips-for-buying/">Tips for Buying</a></li>
+	<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="http://sbrealtyinc.com/buyers-resources/">Buyers Resources</a></li>
+</ul>
+</li>
+<li id="menu-item-40" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-40"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Sellers <b class="caret"></b></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://sbrealtyinc.com/what-are-my-sellers-costs/">What Are My Sellers Costs</a></li>
+	<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://sbrealtyinc.com/sbr-marketing-strategies/">SBR Marketing Strategies</a></li>
+	<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="http://sbrealtyinc.com/tips-for-selling/">Tips for Selling</a></li>
+</ul>
+</li>
+<li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="http://sbrealtyinc.com/swfl-living/">SWFL Living</a></li>
+<li id="menu-item-50" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children dropdown active menu-item-50"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Associates <b class="caret"></b></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-85"><a href="http://sbrealtyinc.com/agent_type/tad-yeatter/">Tad Yeatter</a></li>
+	<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-238"><a href="http://sbrealtyinc.com/agent_type/ed-crimmons/">Ed Crimmins</a></li>
+	<li id="menu-item-239" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-239"><a href="http://sbrealtyinc.com/agent_type/tyler-yeatter/">Tyler Yeatter</a></li>
+	<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-240"><a href="http://sbrealtyinc.com/agent_type/roger-watkins/">Roger Watkins</a></li>
+	<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-241"><a href="http://sbrealtyinc.com/agent_type/shelby-thomkins/">Shelby Tompkins</a></li>
+	<li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-242"><a href="http://sbrealtyinc.com/agent_type/hal-tate/">Hal Tate</a></li>
+	<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-243"><a href="http://sbrealtyinc.com/agent_type/michelle-stevenson/">Michelle Stevenson</a></li>
+	<li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-244"><a href="http://sbrealtyinc.com/agent_type/zeke-robbins/">Zeke Robbins</a></li>
+	<li id="menu-item-245" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-245"><a href="http://sbrealtyinc.com/agent_type/chris-painter/">Chris Painter</a></li>
+	<li id="menu-item-247" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-247"><a href="http://sbrealtyinc.com/agent_type/ty-mitchell/">Ty Mitchell</a></li>
+	<li id="menu-item-248" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-248"><a href="http://sbrealtyinc.com/agent_type/skip-mitchell/">Skip Mitchell</a></li>
+	<li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-249"><a href="http://sbrealtyinc.com/agent_type/tom-miller/">Tom Miller</a></li>
+	<li id="menu-item-250" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-250"><a href="http://sbrealtyinc.com/agent_type/laurie-hockinson/">Laurie Hockinson</a></li>
+	<li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-251"><a href="http://sbrealtyinc.com/agent_type/dustin-guthrie/">Dustin Guthrie</a></li>
+	<li id="menu-item-252" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-252"><a href="http://sbrealtyinc.com/agent_type/terry-grable/">Terry Grable</a></li>
+	<li id="menu-item-246" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-246"><a href="http://sbrealtyinc.com/agent_type/natalie-more/">Natalie More</a></li>
+	<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-260"><a href="http://sbrealtyinc.com/agent_type/alan-dowell/">Alan Dowell</a></li>
+	<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-261"><a href="http://sbrealtyinc.com/agent_type/dusty-gardner/">Dusty Gardner</a></li>
+	<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-262"><a href="http://sbrealtyinc.com/agent_type/justin-greer/">Justin Greer</a></li>
+	<li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-263"><a href="http://sbrealtyinc.com/agent_type/keith-bradshaw/">Keith Bradshaw</a></li>
+	<li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-264"><a href="http://sbrealtyinc.com/agent_type/kevin-donnelly/">Kevin Donnelly</a></li>
+	<li id="menu-item-265" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-265"><a href="http://sbrealtyinc.com/agent_type/michelle-farmar/">Michelle Farmar</a></li>
+	<li id="menu-item-266" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-266"><a href="http://sbrealtyinc.com/agent_type/tim-edmiston/">Tim Edmiston</a></li>
+	<li id="menu-item-292" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-292"><a href="http://sbrealtyinc.com/agent_type/max-meadows/">Max Meadows</a></li>
+	<li id="menu-item-317" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-317"><a href="http://sbrealtyinc.com/agent_type/tina-belisle/">Tina Belisle</a></li>
+	<li id="menu-item-320" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-320"><a href="http://sbrealtyinc.com/agent_type/john-crowe/">John Crowe</a></li>
+	<li id="menu-item-388" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-388"><a href="http://sbrealtyinc.com/agent_type/jennifer-pentico/">Jennifer Pentico</a></li>
+	<li id="menu-item-409" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-409"><a href="http://sbrealtyinc.com/agent_type/kurt-chapman/">Kurt Chapman</a></li>
+	<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-430"><a href="http://sbrealtyinc.com/agent_type/shauni-helmlinger/">Shauni Helmlinger</a></li>
+	<li id="menu-item-437" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-437"><a href="http://sbrealtyinc.com/agent_type/yvonne-torsok/">Yvonne Torsok</a></li>
+	<li id="menu-item-446" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-446"><a href="http://sbrealtyinc.com/agent_type/monique-hailer/">Monique Hailer</a></li>
+	<li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-agent_type current-menu-item active menu-item-453"><a href="http://sbrealtyinc.com/agent_type/ashley-sanders/">Ashley Sanders</a></li>
+	<li id="menu-item-447" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-447"><a href="http://sbrealtyinc.com/agent_type/todd-combs/">Todd Combs</a></li>
+	<li id="menu-item-295" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-295"><a href="http://sbrealtyinc.com/agent_type/mls-team/">MLS Team</a></li>
+	<li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-agent_type menu-item-383"><a href="http://sbrealtyinc.com/agent_type/mitchell-meadows-team/">Mitchell-Meadows Team</a></li>
+</ul>
+</li>
+<li id="menu-item-394" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-394"><a href="http://sbrealtyinc.com/join-our-crew/">Join Our Crew</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-20"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us <b class="caret"></b></a>
+<ul class="dropdown-menu">
+	<li id="menu-item-87" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-87"><a href="http://listings.sbrealtyinc.com/idx/contact">Send Us a Message!</a></li>
+	<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="http://sbrealtyinc.com/about-us/">About Us</a></li>
+	<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="http://sbrealtyinc.com/testimonials/">Testimonials</a></li>
+</ul>
+</li>
+</ul>                </div><!--/.navbar-collapse -->
+            </div>
+        </div>
+         </div>
+         <div class="clearfix"></div>
+      </div>  
+    </div>
+    </div>
+        <div class="wrapper">
+    
+    
+<div class="divider"></div>
+	<div class="row">
+            
+		<div class="col-md-8 col-sm-8">
+			<div class="box-content" id="community">
+
+                                                                                                                                             <article id="post-451" class="post-451 agent_type type-agent_type status-publish hentry">
+
+                                                <h1 class="entry-title">Ashley Sanders / Realtor</h1>
+                                                    <div class="row">
+                                                        <div class="col-xs-6">
+                                                        <img width="257" height="432" src="http://sbrealtyinc.com/wp-content/uploads/2014/09/Ashely.jpg" class="thumbnail wp-post-image" alt="Ashely" /><br>
+                                                         
+
+                                                        </div>
+                                                        <div class="col-xs-6 text-right" id="agentInfo">
+                                                                                                                        <h3>Follow</h3>
+                                                            <a target="_blank" href="https://www.facebook.com/ashleyrenesells"><img class="agent-social-img" src="http://sbrealtyinc.com/wp-content/themes/solidleadsclean/images/socials/facebook.png" alt="facebook"/></a>                                                            <a target="_blank" href="http://www.twitter.com/ashleyrenesells"><img class="agent-social-img" src="http://sbrealtyinc.com/wp-content/themes/solidleadsclean/images/socials/twitter.png" alt="twitter"/></a>                                                                                                                                                                                    <a target="_blank" href="http://www.linkedin.com/pub/ashley-sanders/77/a17/3b7"><img class="agent-social-img" src="http://sbrealtyinc.com/wp-content/themes/solidleadsclean/images/socials/linkedin.png" alt="linked in"/></a>                                                            <div class="clearfix"></div><br>
+
+                                                                                                                     
+                                                                                                                        <h3>Contact Direct</h3>
+                                                            <span>Phone: 239-895-8070                                                            <div class="divider"></div>
+                                                                                                                        
+                                                                                                                         <a href="http://listings.sbrealtyinc.com/idx/contact.php?agentID=34252" class="btn btn-primary">Message Directly</a><br>
+                                                                                                                        
+                                                            
+                                                        </div>
+                                                        <div class="clearfix"></div>
+                                                        
+                                                            <div class="col-sm-12">
+                                                                <div class="quick-search">
+                                                                        <div class="pad-lr">
+    <h3>Find Your Next Property</h3>
+    </div>
+    <form role="form" class="home-search mar-top-10" action="http://listings.sbrealtyinc.com/idx/results/listings">
+                        <input type="hidden" name="agentID" value="34252">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+
+                <div class="form-group">
+                <label for="propertyType">Property Type</label>
+                <select class="form-control" id="propertyType" name="pt" >
+                    <option selected="selected" value="1">Residential</option>
+<option value="3">Residential Rental</option>
+<option value="5">Commercial</option>
+<option value="4">Lot and Land</option>
+<option value="2">Residential Income</option>
+<option value="6">Boat Dock</option>                </select>
+                <label for="selectCity">Select Area</label>
+                <select class="form-control" id="selectCity" name="city[]">
+                    <option value="984">Alva</option>
+<option value="4791">Boca Grande</option>
+<option value="4839">Bokeelia</option>
+<option value="4931">Bonita Springs</option>
+<option value="7179" selected="selected">Cape Coral</option>
+<option value="7230">Captiva</option>
+<option value="9198">Clewiston</option>
+<option value="14979">Estero</option>
+<option value="15146">Everglades City</option>
+<option value="15819">Felda</option>
+<option value="16608">Fort Myers</option>
+<option value="16609">Fort Myers Beach</option>
+<option value="22451">Immokalee</option>
+<option value="24851">Labelle</option>
+<option value="26033">Lehigh Acres</option>
+<option value="28444">Marco Island</option>
+<option value="28886">Matlacha</option>
+<option value="31069">Moore Haven</option>
+<option value="31978">Naples</option>
+<option value="33331">North Fort Myers</option>
+<option value="33487">North Port</option>
+<option value="37395">Port Charlotte</option>
+<option value="38058">Punta Gorda</option>
+<option value="40315">Rotonda West</option>
+<option value="40898">Saint James City</option>
+<option value="41446">Sanibel</option>                </select>
+                </div>
+            </div>
+        
+            <div class="col-md-3 col-sm-6 col-xs-6">
+                    <div class="form-group">
+                            <label for="minPrice">Min Price</label>
+                            <select class="form-control" id="minPrice" name="lp">
+                                <option value="1">No Min</option>
+                                <option value="1000">$1,000</option>
+                                <option value="1500">$1,500</option>
+                                <option value="2000">$2,000</option>
+                                <option value="3000">$3,000</option>
+                                <option value="4000">$4,000</option>
+                                <option value="5000">$5,000</option>
+                                <option value="7500">$7,500</option>
+                                <option value="10000">$10,000</option>
+                                <option value="15000">$15,000</option>
+                                <option value="50000">$50,000</option>
+                                <option value="75000">$75,000</option>
+                                <option value="100000" selected="selected">$100,000</option> 
+                                <option value="150000">$150,000</option>
+                                <option value="200000">$200,000</option> 
+                                <option value="250000">$250,000</option> 
+                                <option value="300000">$300,000</option> 
+                                <option value="350000">$350,000</option> 
+                                <option value="400000">$400,000</option> 
+                                <option value="450000">$450,000</option> 
+                                <option value="500000">$500,000</option>
+                                <option value="600000">$600,000</option> 
+                                <option value="700000">$700,000</option> 
+                                <option value="800000">$800,000</option> 
+                                <option value="900000">$900,000</option> 
+                                <option value="1000000">$1.00 Mil</option>
+                                <option value="1250000">$1.25 Mil</option> 
+                                <option value="1500000">$1.50 Mil</option>
+                                <option value="2000000">$2.00 Mil+</option>
+                            </select>
+                           
+                            <label for="maxPrice">Max Price</label>
+                            <select class="form-control" id="maxPrice" name="hp">
+                                <option value="1000">$1,000</option>
+                                <option value="1500">$1,500</option>
+                                <option value="2000">$2,000</option>
+                                <option value="3000">$3,000</option>
+                                <option value="4000">$4,000</option>
+                                <option value="5000">$5,000</option>
+                                <option value="7500">$7,500</option>
+                                <option value="10000">$10,000</option>
+                                <option value="15000">$15,000</option>
+                                <option value="50000">$50,000</option>
+                                <option value="75000">$75,000</option>
+                                <option value="100000">$100,000</option> 
+                                <option value="150000">$150,000</option>
+                                <option value="200000" selected="selected">$200,000</option> 
+                                <option value="250000">$250,000</option> 
+                                <option value="300000">$300,000</option> 
+                                <option value="350000">$350,000</option> 
+                                <option value="400000">$400,000</option> 
+                                <option value="450000">$450,000</option> 
+                                <option value="500000">$500,000</option>
+                                <option value="600000">$600,000</option> 
+                                <option value="700000">$700,000</option> 
+                                <option value="800000">$800,000</option> 
+                                <option value="900000">$900,000</option> 
+                                <option value="1000000">$1.00 Mil</option>
+                                <option value="1250000">$1.25 Mil</option> 
+                                <option value="1500000">$1.50 Mil</option>
+                                <option value="2000000">$2.00 Mil</option>
+                                <option value="99999999">No Max</option>
+                            </select>
+                    
+                    </div>
+            </div>
+
+            <div class="col-md-2 col-sm-6 col-xs-6">
+                    <div class="form-group">
+                            <label for="minBeds">Beds</label>
+                            <select class="form-control" id="minBeds" name="bd">
+                                <option value="">Any Number</option>
+                                <option value="1">1+</option>
+                                <option value="2">2+</option>
+                                <option value="3" selected="selected">3+</option>
+                                <option value="4">4+</option>
+                                <option value="5">5+</option>
+                                <option value="6">6+</option>
+                                <option value="7">7+</option>
+                                <option value="8">8+</option>
+                                <option value="9">9+</option>
+                                <option value="10">10+</option>
+                            </select>
+                            <label for="minBeds">Baths</label>
+                            <select class="form-control" id="minBaths" name="tb">
+                                <option value="">Any Number</option>
+                                <option value="1">1+</option>
+                                <option value="2" selected="selected">2+</option>
+                                <option value="3">3+</option>
+                                <option value="4">4+</option>
+                                <option value="5">5+</option>
+                                <option value="6">6+</option>
+                                <option value="7">7+</option>
+                                <option value="8">8+</option>
+                                <option value="9">9+</option>
+                                <option value="10">10+</option>
+                            </select>
+                    </div>
+            </div>
+           
+
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <p class="mar-top-20">Or try our <a href="http://listings.sbrealtyinc.com/idx/search/advanced">Advanced Search</a></p>
+                <div class="clearfix"></div>                  
+                <div class="mar-bot-10 mar-top-20">
+                    <button type="submit" class="btn btn-default btn-block mar-top-15">Submit Search</button>
+                </div>
+            </div> <!-- End col-md-3 -->
+
+            </form>
+    <div class="clearfix"></div>
+                                                                </div>
+                                                            </div>
+                                                        
+                                                    </div>
+                                                <div class="entry-content mar-top-15 mar-bot-15">
+                                                        <h3>Agent Bio and Information</h3>
+                                                        <p>I have been a South West Florida resident since 1983. I enjoyed my early childhood living on beautiful Sanibel Island then later moving inland to Ft. Myers.</p>
+<p>Growing up in S.W. Florida, I have seen many exciting changes to our community. I am happy to assist my clients in all aspects of home buying, from finding the right neighborhood to raise a family to choosing the right Country Club to spend their retirement. With a background in golf membership sales and currently raising a family of my own, I am excited to show my clients, all of the wonderful aspects of living in paradise.</p>
+							
+                                                </div><!-- .entry-content -->
+
+                                                                                                        <h3>Featured Properties</h3>
+
+                                                        <div id="featAgentProps" class="mar-bot-15"><script charset="UTF-8" type="text/javascript" id="idxwidgetsrc-48638" src="http://listings.sbrealtyinc.com/idx/customshowcasejs.php?widgetid=48638"></script></div>
+                                                                                        </article>
+                                    				
+				<div class="clearfix"></div>
+			</div> <!-- end .box-content -->
+		</div><!-- .col-lg-9 -->
+
+		<div class="col-md-4 col-sm-4">
+                		
+                    <div class="prevent-hover">
+                                        <a href="http://listings.sbrealtyinc.com/idx/contact.php?agentID=34252" title="Get Local Market Conditions" target="_blank">
+                    <div class="action-items">
+                        <img src="http://sbrealtyinc.com/wp-content/themes/solidleadsclean/images/icons/home-value.png">
+                        <h2>What's my Home Worth?</h2>
+                    </div>
+                    </a>
+                </div>
+                    <div class="text-center">
+                                    </div>
+                <div class="clearfix"></div>
+	</div>
+        </div>
+        </div> <!-- END .wrapper from header.php -->
+    </div> <!-- END .container .wrapper from header.php -->
+</div> <!-- END .site-wrap -->
+	 
+<div class="col-md-12">
+    <div class="row">
+    <footer>
+        <div class="container pad-lr">
+            <div class="row">
+                    
+                    <div class="col-md-8 col-sm-9">
+                        <h3>Recent Real Estate News</h3>
+                            <div class="row">
+                                                                                    
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                <div class="footer-blog">
+                                    <div class="col-xs-3">
+                                                                                    <a href="
+                                                http://sbrealtyinc.com/a-beach-lovers-paradise/" ><img width="276" height="183" src="http://sbrealtyinc.com/wp-content/uploads/2014/04/beach-florida-chair.jpg" class="img-responsive thumbnail wp-post-image" alt="" />                                           </a>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h4><a href="http://sbrealtyinc.com/a-beach-lovers-paradise/">A Beach Lover&#8217;s Paradise</a></h4>
+                                        <div class="light-small-text">
+                                                                                One of the greatest benefits of investing in real estate in Southwest Florida is the proximity to some of the best beaches in the ...                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                                </div>
+                            
+                                                        
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                <div class="footer-blog">
+                                    <div class="col-xs-3">
+                                                                                    <a href="
+                                                http://sbrealtyinc.com/best-cities-in-florida-to-live/" ><img width="300" height="225" src="http://sbrealtyinc.com/wp-content/uploads/2014/03/cape-coral.png" class="img-responsive thumbnail wp-post-image" alt="" />                                           </a>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h4><a href="http://sbrealtyinc.com/best-cities-in-florida-to-live/">Best Cities in Florida to Live</a></h4>
+                                        <div class="light-small-text">
+                                                                                Whether you’re looking for Florida investment property (to retire at a later date) or are in the market to purchase a Florida ho...                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                                </div>
+                            
+                                                        
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                <div class="footer-blog">
+                                    <div class="col-xs-3">
+                                                                                    <a href="
+                                                http://sbrealtyinc.com/getting-to-southwest-florida-couldnt-be-easier/" ><img width="600" height="450" src="http://sbrealtyinc.com/wp-content/uploads/2014/04/cape-coral-marina.jpg" class="img-responsive thumbnail wp-post-image" alt="" />                                           </a>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h4><a href="http://sbrealtyinc.com/getting-to-southwest-florida-couldnt-be-easier/">Getting to Southwest Florida Couldn&#8217;t Be Easier!</a></h4>
+                                        <div class="light-small-text">
+                                                                                Traveling to and around Southwest Florida is an easy feat for even the most inexperienced traveler. The region offers a central lo...                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                                </div>
+                            
+                                                        
+                                <div class="col-sm-6">
+                                    <div class="row">
+                                <div class="footer-blog">
+                                    <div class="col-xs-3">
+                                                                                    <a href="
+                                                http://sbrealtyinc.com/no-place-does-boating-better/" ><img width="456" height="271" src="http://sbrealtyinc.com/wp-content/uploads/2014/04/cape-coral-boating.jpg" class="img-responsive thumbnail wp-post-image" alt="" />                                           </a>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h4><a href="http://sbrealtyinc.com/no-place-does-boating-better/">No Place Does Boating Better!</a></h4>
+                                        <div class="light-small-text">
+                                                                                Miles of magnificent blue waters and 355 days of sunshine a year make Southwest Florida an ideal region for boaters interested in ...                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                                </div>
+                            
+                                                        </div>
+                    </div>
+                
+                    <div class="col-md-4 col-sm-12">
+                        <h3>Helpful Real Estate Quick Links</h3>
+                        <div class="footer-links">
+                                <ul>
+                                        <li><a href="http://listings.sbrealtyinc.com/idx/search/advanced">Property Search</a></li>
+                                        <li><a href="http://listings.sbrealtyinc.com/idx/map/mapsearch">Map Search</a></li>	
+                                        <li><a href="http://listings.sbrealtyinc.com/idx/search/listingid">Search MLS Number</a></li>
+                                        <li><a href="http://listings.sbrealtyinc.com/idx/mortgage">Loan Calculator</a></li>		
+                                        <li><a href="http://listings.sbrealtyinc.com/idx/contact">Contact</a></li>								
+                                </ul>
+                        </div>
+                        <h3>Equal Housing Opportunity Disclaimer</h3>
+                        <p>It is illegal to discriminate against any person because of race, color, religion, sex, handicap, familial status, or national origin.</p>
+
+                    </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+    <div class="copyright">	
+        <div class="container">
+                <p class="pull-left">Copyright 2014 - Schooner Bay Realty Inc | <a target="_blank" href="http://idxsetup.com">IDX Setup</a></p>
+                <p class="pull-right"><a href="http://listings.sbrealtyinc.com/idx/sitemap/xml/3645e5b5dd">IDX Sitemap</a></p>
+                <div class="clearfix"></div>
+        </div>		  
+    </div>
+
+    </div> <!-- end .row -->
+</div> <!-- end .col -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$('#featAgentProps').click(function(e){
+        e.preventDefault();
+        //console.log(e.target);
+        var link = $(e.target).parent().attr('href');
+        console.log(link);
+        var php_var = "34252";
+        window.location.href = link + '&agentID=' + php_var;
+    });
+ </script>
+<script type='text/javascript' src='http://sbrealtyinc.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.50.0-2014.02.05'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/sbrealtyinc.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://sbrealtyinc.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://sbrealtyinc.com/wp-content/themes/solidleadsclean/js/bootstrap.min.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://sbrealtyinc.com/wp-content/themes/solidleadsclean/js/jquery.bxslider.min.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://sbrealtyinc.com/wp-content/themes/solidleadsclean/js/theme.js?ver=3.8.4'></script>
+<script type='text/javascript' src='http://sbrealtyinc.com/wp-content/themes/solidleadsclean/js/customize-idx.js?ver=3.8.4'></script>
+</body>
+</html>

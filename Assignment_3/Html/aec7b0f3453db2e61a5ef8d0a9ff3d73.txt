@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+	<title>Mensajes a tu nombre - Posts to your name</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="keywords" content="rezar, orar, pray for, nombre, te dejaron un mensaje, Posts to your name,Mensajes a tu nombre - Posts to your name" />
+	<meta name="description" content="Touchname.com Posts to your name - Mensajes a tu nombre - Posts to your name" />
+	<link media="screen" rel="stylesheet" type="text/css" href="http://www.touchname.com/css/touchname.php" />
+<link href="stylo.css" rel="stylesheet" type="text/css" />
+   <link rel="stylesheet" href="css/sinister.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--[if lt IE 7.]>
+      <script defer type="text/javascript" src="http://www.touchname.com/js/pngfix.js"></script>
+      <link type="text/css" rel="stylesheet" href="http://www.touchname.com/css/touchname_ie6.php" />
+    <![endif]-->
+    <link rel="icon" href="http://www.touchname.com/favicon.ico" />
+    <link rel="shortcut icon" href="http://www.touchname.com/favicon.ico" />
+    
+    
+	<script language="javascript" type="text/javascript">
+    function toggle(obj) {
+        if ( document.getElementById(obj).style.display != 'none' ) {
+            document.getElementById(obj).style.display="none";
+        }
+        else {
+            document.getElementById(obj).style.display="block";
+        }
+    }
+    </script>
+    
+
+    <script type='text/javascript' src='http://www.touchname.com/js/jquery.js'></script>
+    
+    
+	<script language="javascript" type="text/javascript">
+	function toggle2(obj) {
+		var el = document.getElementById(obj);
+		if ( el.style.display != 'none' ) {
+			$('#' + obj).slideUp();
+		}
+		else {
+			$('#' + obj).slideDown();
+		}
+	}
+    </script>
+    
+</head>
+
+<body id="body" style="">
+    <div id="mainCenter">
+        <div id="mainContainer">
+
+            <div id="nav">
+            	<a href="http://www.touchname.com" title="touchname" class="navLogo"></a>
+                                <div class="loggedIn">
+                    <span><a href="http://www.touchname.com/login.php">login</a></span>|</span><a href="http://www.touchname.com?language=spanish">Espanol </a></span>|</span><a href="http://www.touchname.com?language=english">  Ingles</a></span>
+                </div>
+                
+            	<div class="mainArea">                    
+                	<div class="buttons">
+                    		                    <div id="navTopics" class="dropdownArea" onmouseover="toggle('topicsDropdown');" onmouseout="toggle('topicsDropdown');">                        
+                        	<a id="topicsBtn" href="http://www.touchname.com/recentupdates.php" class="btn "><span>Touch</span></a>
+                        	<div id="topicsDropdown" class="dropdown" style="display: none;">
+                            	<div class="top">
+                                	<a href="http://www.touchname.com/recentupdates.php" class="mainLink">Touch</a>
+                                    <div class="emptySpace"></div>
+                                    <div class="links">
+                                        <a href="http://www.touchname.com/recentupdates.php">recent updates</a>
+                                        <a href="http://www.touchname.com/newmembers.php">new members</a>
+	                                </div>
+    	                        </div>
+        	                    <div class="btm"></div>
+            	            </div>
+                	    </div>
+                    		                </div>	
+                    <div id="navSearch">
+                        <div class="searchBox">
+                        	<form method="POST" name="srchfrm" id="srchfrm" action="http://www.touchname.com/search2.php">
+                            <input type="text" maxlength="60" id="query" name="query" value="" />
+                            <input type="hidden" name="ssrchfrm" value="1" />
+                            </form>
+                        </div>
+                        <a href="#" class="searchBtn" title="search" onclick="document.srchfrm.submit()"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="shadowContainer">
+                <div id="mainContent" class="homepage">                
+				<script language="javascript" type="text/javascript">
+                function clearval(obj) {
+                    document.getElementById(obj).value="";
+                }
+                </script>
+				<script type="text/javascript">
+                  var delay = 3000;
+                  var count = 20;
+                  var showing = 7;
+                  var i = 0;
+                  function move(i) {
+                    return function() {
+                      $('#recent'+i).css('display', 'none');
+                    }
+                  }
+                  function shift() {
+                    var toShow = i + showing;
+                    $('#recent'+toShow).slideDown(1000, move(i));
+                    if(i<count)
+                    {
+                        i = i + 1;
+                    }
+                    setTimeout('shift()', delay);
+                  }    
+                  $(document).ready(function() {
+                    setTimeout('shift()', delay);
+                  });
+                </script>
+                    <div id="home">   
+
+    <div align="center">
+    <p><img src="img/entrada.png" width="750" height="241" /></p>
+<div align="center" id="slogan">Thanks for your visit. </div> <p> <div align="center" class="palabrasformu">Total users = 80084 </div>
+    <table width="500" border="0">
+      <tr>
+        <td> <div align="right"><img src="img/mensajess.png" width="80" height="80" /></div><div id="bordeingreso"><form id="registerCommand" name="registerCommand" action="http://www.touchname.com/register2.php" method="post">
+    
+     <div align="center">
+    <p>
+       <div align="center" class="palabrasformu">Choose your Touchname </div>
+   
+  <input  type="text" class="botonsiguiente" id="username" name="username" size="40" value="" />
+ <input type="hidden" name="register" value="1" />
+       </p>
+     </div>
+   
+       <p>
+      <div align="center">   <input name="Continuar" type="submit" class="botonsiguiente" id="Continuar" value="Create my Touch " /></div>
+       </p>
+       </p>
+     
+     </div>
+   </form></div></td>
+      </tr>
+    </table>   
+     <div align="center"><img src="http://touchname.com/mitouch.jpg" width="560" height="374" /></div>
+
+
+<div align="center" id="bordeingreso">
+  <table width="500" border="0">
+    <tr>
+      <td>                        <div class="brick_preview2">
+                            <table width="100%" height="100%" cellpadding="0" cellspacing="20">
+                                <tr><td align="center" style="vertical-align:middle"><a target="_blank" href="http://www.touchname.com/viewupdate.php?id=416"><img src="http://www.touchname.com/pics/thumbs/416.jpg" /></a></td></tr>
+                            </table> 
+                        </div>
+                                                <div class="brick_preview2">
+                            <table width="100%" height="100%" cellpadding="0" cellspacing="20">
+                                <tr><td align="center" style="vertical-align:middle"><a target="_blank" href="http://www.touchname.com/viewupdate.php?id=412"><img src="http://www.touchname.com/pics/thumbs/412.png" /></a></td></tr>
+                            </table> 
+                        </div>
+                                                <div class="brick_preview2">
+                            <table width="100%" height="100%" cellpadding="0" cellspacing="20">
+                                <tr><td align="center" style="vertical-align:middle"><a target="_blank" href="http://www.touchname.com/viewupdate.php?id=411"><img src="http://www.touchname.com/pics/thumbs/411.png" /></a></td></tr>
+                            </table> 
+                        </div>
+                                                <div class="brick_preview2">
+                            <table width="100%" height="100%" cellpadding="0" cellspacing="20">
+                                <tr><td align="center" style="vertical-align:middle"><a target="_blank" href="http://www.touchname.com/viewupdate.php?id=410"><img src="http://www.touchname.com/pics/thumbs/410.jpg" /></a></td></tr>
+                            </table> 
+                        </div>
+                                                <div class="brick_preview2">
+                            <table width="100%" height="100%" cellpadding="0" cellspacing="20">
+                                <tr><td align="center" style="vertical-align:middle"><a target="_blank" href="http://www.touchname.com/viewupdate.php?id=409"><img src="http://www.touchname.com/pics/thumbs/409.jpg" /></a></td></tr>
+                            </table> 
+                        </div>
+                                                <div class="brick_preview2">
+                            <table width="100%" height="100%" cellpadding="0" cellspacing="20">
+                                <tr><td align="center" style="vertical-align:middle"><a target="_blank" href="http://www.touchname.com/viewupdate.php?id=408"><img src="http://www.touchname.com/pics/thumbs/408.jpg" /></a></td></tr>
+                            </table> 
+                        </div>
+                        </td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+
+
+<table border="0">
+  <tr>
+    <td>&nbsp;<div align="center" id="slogan">If you are registered, enter your data.</div>
+   <table width="400" border="0">
+     <tr>
+       <td><div id="bordelogin">
+     <form id="loginCommand" name="loginCommand" action="http://www.touchname.com/login.php" method="post">
+                    
+            <div id="regForm">                            
+                                <div class="clear">
+                                  <div align="center" class="palabrasformu"></div>
+                                </div>
+        						
+              <div class="label">
+                                    <div>
+                                        <div class="palabrasformu">
+                                          <div align="center">username</div>
+                                        </div>
+                                        <div id="usernameStatus" style="display: none;"></div>
+                </div>
+                                <div align="center">
+                                      <input id="username" name="username" class="botonsiguiente" type="text" value="" maxlength="20"/>
+                </div>
+              </div>
+                                
+                                <div class="clear"></div>
+                                <div class="label">
+                                    <div class="palabrasformu">
+                                      <div align="center">password</div>
+                                    </div>
+                                    <div align="center">
+                                      <input id="password1" name="password1" class="botonsiguiente" type="password" value="" maxlength="20"/>
+                                    </div>
+                              </div>
+                                            
+              <div class="clear"></div>
+                                
+                <a href="http://www.touchname.com/forgot.php" class="palabrasformu">forgot your login info?</a>
+                                        
+              </div>
+                            
+                            <div class="clear"></div>
+            <div class="divider"></div>
+                                
+                            <p><a id="submitButton" class="botonsiguiente" onclick="document.loginCommand.submit();"><span>submit</span></a>
+                              <input type="hidden" name="redirect" value="" />
+                              <input type="hidden" name="login" value="1" />
+            </p> 
+                            </form>
+
+
+       </div></td>
+     </tr>
+   </table></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+ <script id="sid0020000066767507656">(function() {function async_load(){s.id="cid0020000066767507656";s.src=(window.location.href.indexOf('file:///') > -1 ? 'http:' : '') + '//st.chatango.com/js/gz/emb.js';s.style.cssText="width:300px;height:500px;";s.async=true;s.text='{"handle":"touchnamechats","arch":"js","styles":{"a":"ff6600","b":100,"c":"000000","d":"000000","k":"ff6600","l":"ff6600","m":"ff6600","q":"ff6600","r":100,"pos":"br","cv":1,"cvbg":"ff6600","cvfg":"000000","cvw":75,"cvh":30}}';var ss = document.getElementsByTagName('script');for (var i=0, l=ss.length; i < l; i++){if (ss[i].id=='sid0020000066767507656'){ss[i].id +='_';ss[i].parentNode.insertBefore(s, ss[i]);break;}}}var s=document.createElement('script');if (s.async==undefined){if (window.addEventListener) {addEventListener('load',async_load,false);}else if (window.attachEvent) {attachEvent('onload',async_load);}}else {async_load();}})();</script>   	
+ 
+<div id="sidebar">
+                        
+          
+</div>
+</div>
+</div>			<div id="footer">
+                <div id="links" class="longer">
+                	<div style="color:#FFFFFF">
+                        <a style="color:#FFFFFF; font-weight: bold" href="http://www.touchname.com" target="_blank">Touchname.com</a>
+                    </div>
+                	
+                    <div>
+                        <a href="http://www.touchname.com/contact_us.php">contact us</a> |    
+                        <a href="http://www.touchname.com/about_us.php">about us</a>
+                    </div>
+                    <div>
+                        <a href="http://www.touchname.com/privacy_policy.php">privacy policy</a> |
+                        <a href="http://www.touchname.com/terms_of_use.php">terms of use</a>
+                    </div>
+                    <div>
+                    	<form name="langselect" id="langselect" class="botonsiguiente" method="post">                        
+                            <select name="language" onChange="document.langselect.submit()" style="font-family: Tahoma, Verdana; font-size: 12px"> 
+                                <option value="english" selected >English</option> 
+                                <option value="spanish" >Español</option> 
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                
+                <div id="copyright">Copyright &copy; 2014  <a style="color:#FFFFFF; font-weight: bold" href="http://www.touchname.com/names.php" target="_blank">Names</a> </div>
+    		</div>       
+    	</div>
+    </div>
+</body>
+</html>

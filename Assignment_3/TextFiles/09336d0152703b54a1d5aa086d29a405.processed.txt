@@ -1,0 +1,1001 @@
+   #[1]The Spirit of Discordance - Atom [2]The Spirit of Discordance - RSS
+
+The Spirit of Discordance
+
+   Fernando Cassia is a computer geek, the nerd cowboy of the South
+   American pampas. Living down in Buenos Aires, Argentina, his articles
+   on software, hardware and the Net can be read on the pages of the UK
+   based IT news site [3]The Inquirer. Welcome to his [4]progressive and
+   [5]humanist view of the world.
+
+Thursday, July 25, 2013
+
+[6]Integrating Apache OpenOffice 4.0 with GMail using MAPI
+
+   Legend Netscape and Mozilla programmer Jamie Zawinski (aka JWZ) has
+   humorously stated in [7]his Law on Software Development that "Every
+   program attempts to expand until it can read [8]mail. Those programs
+   which cannot so expand are replaced by ones which can."
+   While the [9]popular OpenOffice open source office suite did not yet
+   "expand to do e-mail", it allows sending documents from the program
+   interface using whatever e-mail client program is configured on your
+   system, be it [10]Mozilla's Thunderbird, or Microsoft's bundled Windows
+   Mail, or the former Outlook Express, on[11] Lotus Notes, or[12] Eudora,
+   you name it.
+   The problem comes, as one AOO user recently pointed, when you expect
+   apps that can fire your e-mail client to "work with GMail". The problem
+   is that GMail is not an application. GMail is a web site. You can have
+   an application like Open Office call your default web browser, and even
+   tell it to load GMail with a compose window opened, but you still can't
+   tell the browser to attach a given file to your new composed e-mail. At
+   least not without some "glue code".
+   Rob Weir explained: "there is an industry standard for accessing email:
+    MAPI(Messaging Application Programming Interface).  OpenOffice works
+   with any application that supports MAPI.   Most email clients support
+   MAPI.  GMail does not.  That is their choice.  We can't force them to
+   support MAPI.  But we're not writing custom support for every email
+   client in existence.  We support the standard. "
+   Thats where "TVHGoogleMAPI" comes in. It is an Apache-license open
+   source project that makes GMail a registered "Simple MAPI" protocol
+   handler on Windows. I have tested it with Windows 7 (64-bit edition)
+   and I confirm that it works.
+   You can download this app from its Google Code project page at:
+   [13]http://code.google.com/p/tvhgooglemapi/downloads/detail?name=
+   tvhgooglemapisetup-0.4.exe
+   The install was painless to me. Just follow the dialogs and it
+   configures itself automatically. It just places an icon available from
+   the Start button to uninstall it. Other than that it seems to work
+   automagically. ;)
+   Screenshots are included below:
+   [14][mapi-gmail-0.jpg]
+   1. You load a document on AOO 4.0 and click on File-Send-Send document
+   as E-Mail
+   [15][mapi-gmail-1.jpg]
+   2. The TVHGoogleMAPI program will ask for your GMail account
+   credentials. See the disclaimer at the end of this post about security
+   concerns.
+   [16][mapi-gmail-3.jpg]
+   3. GMail opens up with your system default web browser with a GMail
+   email compose window, and the AOO document attached to it.
+   [17][mapi-gmail-2.jpg]
+   4. If you have GMail configured to use[18] the new UGLY GMail COMPOSE
+   WINDOW this is what you will see.
+   [19][mapi-gmail-4.jpg]
+   5. The other user receives your attached AOO 4.0 document in his
+   e-mail.
+   A SPECIAL NOTE ABOUT SECURITY:
+   This APP, AS ANY INTEMEDIARY APP, REQUESTS YOUR GOOGLE ACOUNT
+   CREDENTIALS, AND OFERS TO SAVE THE DATA SO YOU ARE NOT PROMPTED EVERY
+   TIME. THIS COULD BE A SECURITY CONCERN FOR SOME.
+    I did test this app with a new GMail account, not using my main one. I
+   am not the author of this linked application and I have not audited its
+   source code. If you are concerned about this, you might want to create
+   a secondary GMail account just for this use, or enable two-step
+   authentication. Use the app at your own risk.
+   I hope this helps people wishing to integrate [20]Apache Open Office
+   with GMail.
+   FC
+   Posted by [21]Nerd Progre at [22]12:24 PM [23]2 comments:
+   [24]Email This[25]BlogThis![26]Share to Twitter[27]Share to
+   Facebook[28]Share to Pinterest
+   Labels: [29]APACHE, [30]GMAIL, [31]MAPI, [32]OPEN OFFICE,
+   [33]OPENOFFICE
+
+Thursday, July 11, 2013
+
+[34]Less is more
+
+   It should be an easy concept to grasp:
+   LESS LINES OF CODE EXECUTE FASTER THAN MORE LINES OF CODE
+   Yet, some people still need to see proof:
+   0. Win7 5x slower than XP
+   [35]http://channel9.msdn.com/Forums/Coffeehouse/Test-shows-
+   Windows-7-is-5x-slower-than-XP-in-UI-and-apps-load-slower-than-in-Vista
+   1. Vista: 25% slower than Windows XP
+   [36]http://www.guardian.co.uk/technology/2007/dec/06/microsoft
+   " We did informal tests, booting both Vista and XP on the same
+   hardware, and Vista was between 15% and 25% slower than XP in
+   benchmarks"
+   2. Inforworld: WInXP slower than Windows 2000
+   "Waiting for Windows XP"
+   [37]http://web.archive.org/web/20071012211343rn_1/www.
+   infoworld.com/articles/tc/xml/01/10/29/011029tcwinxp.html
+   " as indicated by results of independent testing performed by CSA
+   Research and confirmed by our work in the InfoWorld Test Center. Our
+   tests of the multitasking capabilities of Windows XP and Windows 2000
+   demonstrated that under the same heavy load on identical hardware,
+   Windows 2000 significantly outperformed Windows XP. In the most extreme
+   scenario, our Windows XP system took nearly twice as long to complete a
+   workload as did the Windows 2000 client"
+   3. Win2k slower than NT4...
+   Microsoft looks to bury test results that show NT is faster than
+   Win2000
+   [38]http://web.archive.org/web/20061022093046/www.infoworld.
+   com/articles/op/xml/01/03/05/010305opcringely.html
+   "Microsoft recently threw around its weight -- and its fat wallet --
+   to squash an independent testing lab from publishing benchmark results
+   that the lab ran for InfoWorld's sister publication NetworkWorld. The
+   test
+   demonstrated that SQL Server 7 runs nearly twice as fast on Windows NT
+   4.0 than it does on Windows 2000 ."
+   FC
+   Posted by [39]Nerd Progre at [40]2:24 PM [41]No comments:
+   [42]Email This[43]BlogThis![44]Share to Twitter[45]Share to
+   Facebook[46]Share to Pinterest
+   Labels: [47]bloat, [48]MICROSOFT, [49]performance, [50]SOFTWARE,
+   [51]WINDOWS
+
+Thursday, October 04, 2012
+
+[52]ZDNet trolling for anti-Javascript language, another ´anti-something´
+Microsoft tech
+
+   [53][msft-vs-javascript.jpg]
+   Microsoft, like many firms -Google too-, suffers from the [54]"NIH
+   syndrome" (Not Invented Here). And it isn´t hard to imagine they aren´t
+   too happy to see one of the key pieces of the modern AJAX paradigm and
+   web apps is Javascript/ECMAscript, not invented by them, but at
+   Netscape and now[55] developed at Mozilla.
+   So I have recently stumbled upon this piece by a [56]ZiffGatesNet
+   writer
+   [57]http://www.zdnet.com/microsoft-typescript-can-the-father-of-c-save-
+   us-from-the-tyranny-of-javascript-7000005054/?s_cid=e539 outrageously
+   titled "can the father of C# save us from the tyranny of Javascript?"
+   that aims to boost interest in a Microsoft language that wants to
+   dethrone [58]Javascript.
+   I started laughing when he decided to quote Miguel de Icaza as an
+   authorized ¨open source¨ figure. It seems that not being happy with his
+   [59]Mono Failure (Microsoft .Net clone for Linux) and his [60]Moonlight
+   failure (a failed clone of another failure, Microsoft´s Silverlight) he
+   now wants to give a helping hand in destroying Javascript, as the he
+   and others in [61]the .Net camp have tried to destroy Java
+   -unsuccesfully- for years now.
+   Back to the story, the headline is eye-catching no doubt about it, as
+   it speaks of this new Microsoft language freeing us from the "Tyranny
+   of Javascript". But when you read the story, there´s no substance about
+   what tyranny we need to be saved from.
+   So, here´s my two simple answers to this long tirade:
+   1.there´s no "Javascript tyranny" interesting that the word "tyranny"
+   is present only in the headline, with no substance in the article to
+   back up that claim.
+   2. The headline asks a question, and the answer lies in
+   "[62]Betteridge´s Law of Headlines" which states: "Any headline which
+   ends in a question mark can be answered by the word 'no'*
+
+   So there :-P
+   FC
+   PS: Nobody outside of Microsoft and Microsoft-only shops will get to
+   use this language, for the same reasons that hampered .Net and
+   Silverlight adoption: microsoft´s languages only work well and fully on
+   Microsoft´s own OSs. They´re just means to justify Microsoft´s uber-end
+   for the last couple of decades : [63]"Windows Everywhere".
+   Posted by [64]Nerd Progre at [65]12:44 AM [66]No comments:
+   [67]Email This[68]BlogThis![69]Share to Twitter[70]Share to
+   Facebook[71]Share to Pinterest
+   Labels: [72].NET, [73]DOTNET, [74]DOTNOT, [75]JAVASCRIPT,
+   [76]MICROSOFT, [77]MIGUEL DE ICAZA, [78]NIH, [79]RE-INVENT THE WHEEL,
+   [80]SOFTWARE, [81]TROLLS
+
+Thursday, September 27, 2012
+
+[82]Foxconn riots - and some exclusive footage from India
+
+   After this
+   Foxconn China plant closed after 2,000 riot
+   [83]http://www.reuters.com/article/2012/09/24/us-hon-hai-idUSBRE88N00L2
+   0120924
+   ...comes this secretly videotaped footage of a huge riot at one
+   undisclosed Fx.conn factory in India.
+
+   IFRAME: [84]http://www.dailymotion.com/embed/video/xtwxc0
+
+   [85]Alleged riot at one FC India factory :)
+   Sorry, I can´t reveal my sources...
+   FC
+   Posted by [86]Nerd Progre at [87]7:27 AM [88]No comments:
+   [89]Email This[90]BlogThis![91]Share to Twitter[92]Share to
+   Facebook[93]Share to Pinterest
+   Labels: [94]FOXCONN RIOTS, [95]HUMOR
+
+[96]The anti-Btrfs FUD must stop...
+
+   If you read the Whackypedia entry on "Butter FS" (Btrfs), you see:
+   "Btrfs (B-tree file system, variously pronounced "Butter F S",
+   "Butterfuss", "Better F S",^[97][1] or "B-tree F S"^[98][2]) is a
+   [99]GPL-licensed [100]copy-on-write [101]file system for [102]Linux.
+   Development began at [103]Oracle Corporation in 2007. It is still in
+   heavy development and marked as unstable"
+   ewww... SCARY!
+   But then there´s another view:
+   [104]https://events.linuxfoundation.org/events/linuxcon-japan/bo
+   ---
+   LinuxCon Japan 2012 | Presentations
+   "On The Way to a Healthy Btrfs Towards Enterprise"
+   by  Liu Bo, Fujitsu
+   ---
+   Let me quote:
+   "Btrfs has been on full development for about 5 years and it does make
+   lots of progress on both features and performance, but why does
+   everybody keep tagging it with ""experimental""? And why do people
+   still think of it as a vulnerable one for production use? As a goal of
+   production use, we have been strengthening several features, making
+   improvements on performance and keeping fixing bugs to make btrfs
+   stable, for instance, ""snapshot aware defrag"", ""extent buffer
+   cache"", ""rbtree lock contention"", etc. This talk will cover the
+   above"
+   ---
+   From its web "Liu Bo has been working on Linux kernel development since
+   late 2010 as a Fujitsu engineer. He has been working on filesystem
+   field and he's now focusing on btrfs development".
+   RHEL 7 to get Btrfs support
+   [105]http://www.h-online.com/open/imgs/45/8/8/4/6/5/1/43-
+   6b4e69889ee000ca.png
+   "RHEL 7 will support ext4, XFS, and Btrfs (boot and data)"
+   Then you have SuSE:
+   [106]https://www.suse.com/releasenotes/x86_64/SUSE-SLES/11-SP2/
+   "With SUSE Linux Enterprise 11 SP2, the btrfs file system joins ext3,
+   reiserfs, xfs and ocfs2 as *commercially supported file systems*. Each
+   file system offers disctinct advantages. While the installation
+   default is ext3, we recommend xfs when maximizing data performance is
+   desired, and *btrfs as a root file system when snapshotting and
+   rollback capabilities are required. Btrfs is supported as a root file
+   system (i.e. the file system for the operating system) across all
+   architectures of SUSE Linux Enterprise 11 SP2*. "
+   [107]https://blogs.oracle.com/wim/entry/oracle_linux_6_update_3
+   "OL6.3 that boots up uek (2.6.39-200.24.1) as install kernel and uses
+   btrfs as the default filesystem for installation. So latest and
+   greatest direct access to btrfs, a modern well-tested, current kernel,
+   freely available. "
+   So, again, why does people insist in calling Btrfs "experimental" and
+   "unstable"?. Do you think SUSE and Oracle both ship an unstable FS as a
+   comercially supported feature??.
+   Sheesh, I´ve [108]lost data with IBM´s "supposedly ´GA´" version of JFS
+   for OS/2 once...
+   Back to Btrfs... it´s in the mainline Linux Kernel since February so
+   with the adoption by RHEL 7, it´ll become mainstream sooner rather than
+   later...
+   Here is a good video to get you interested on Btrfs and why it
+   matters...
+   [EMBED]
+   Just my $0.02...
+   FC
+   Posted by [109]Nerd Progre at [110]2:51 AM [111]5 comments:
+   [112]Email This[113]BlogThis![114]Share to Twitter[115]Share to
+   Facebook[116]Share to Pinterest
+   Labels: [117]BTRFS, [118]FILE SYSTEMS, [119]FUD: FEAR UNCERTAINTY AND
+   DOUBT, [120]IBM, [121]JOURNALING, [122]ORACLE, [123]REDHAT,
+   [124]SOFTWARE
+
+Tuesday, September 04, 2012
+
+[125]Java is based on reason, like Humanism. :)
+
+   I read this funny post "if programming languages were religions..."
+   [126]over here , and couldn' t help writing the rebuttal below with
+   regards to its characterization of Java:
+   Totally wrong on Java. See, some people -often whom have never used it-
+   continue saying Java "is dead", "is so 1990s" yet, Java continues being
+   relevant ever more each day, and[127] is now free (GPL open source,
+   [128]OpenJDK). Then some said Java was going to die after the Oracle
+   acquisition of Sun Microsystems, they were [129]proved wrong once
+   again, with Oracle investing in Java, opening OpenJDK even more, making
+   [130]JavaFX open source ([131]OpenJFX), making OpenJDK the[132]
+   reference implementation of JDK7, and even [133]getting IBM, Apple and
+   [134]Twitter aboard the OpenJDK project. Plus,[135] Apple donated its
+   OSX JRE code to OpenJDK as well.
+   So does it make it like "fundamentalist christianity"? don' t think so,
+   more like humanism...
+   See, Java is NOT ONLY a[136] programming language, Java is actually 3
+   things: a programming language,[137] a virtual machine, and a level
+   playing field [138]software ecosystem[139]. So you can write cross
+   platform [140]Java apps without even writing a single line of Java
+   source code, thanks to [141]dynamic languages that run atop the Java
+   VM. That' s why there' s [142]JRuby, [143]Jython,[144] xRuby (ruby to
+   java bytecode compiler), Scala, [145]JGo, [146]NetRexx (open source
+   REXX for the JVM - [147]www.netrexx.org), and you can even write Java
+   apps with Basic, thanks to Jabaco ([148]www.jabaco.org).
+   So, in the end, Java understands that all the people has its own
+   beliefs, and people of all beliefs are welcome to come to the Java VM,
+   which is based on the rational belief that "porting code"  from one OS
+   to another is silly, and that all apps should run on all OSs. It' s
+   based on reason, like humanism.
+   ;-)
+   FC
+   Posted by [149]Nerd Progre at [150]4:42 AM [151]No comments:
+   [152]Email This[153]BlogThis![154]Share to Twitter[155]Share to
+   Facebook[156]Share to Pinterest
+   Labels: [157]JAVA, [158]SOFTWARE
+
+Saturday, August 25, 2012
+
+[159]Thanks Armstrong for inspiring a generation...
+
+   Thanks, [160]Armstrong, for inspiring a generation with regards to
+   [161]#Moon & [162]#space travel.
+   [163][man-moon.jpg]
+   ...fake or true tv footage, it really doesn´t matter...
+   [164][armstrong.jpg]
+   What a better way to pay homage to him than with [165]#OMD ´s "Apollo
+   11" song.... immortalizing in the lyrics the "ONE GIANT LEAP FOR
+   MANKIND..."
+
+   IFRAME: [166]http://www.youtube.com/embed/PV1hPgLm6cQ
+
+   FC
+   Posted by [167]Nerd Progre at [168]8:13 PM [169]No comments:
+   [170]Email This[171]BlogThis![172]Share to Twitter[173]Share to
+   Facebook[174]Share to Pinterest
+   Labels: [175]ARMSTRONG, [176]GOODBYE, [177]IMAGINATION, [178]MOON,
+   [179]RIP, [180]SPACE TRAVEL
+
+Wednesday, August 15, 2012
+
+[181]Reader´s feedback says sometimes I´m not full of sh..
+
+   It´s really nice when you write a news story and someone writes back,
+   months later, "from inside" -a big corp- saying "hey you hit the nail
+   on the head".
+   [182][hithenail.jpg]
+    Photo courtesy ([183]CC) of Marco Repola @ IStoleThe.TV
+   I wish that came back more often, but I guess that also means I hit the
+   nail on the head only once a while. ;)
+   This was my story on Oracle´s decomission of "Sun Download Manager"
+   [184]http://news.techeye.net/software/oracle-quietly-buries-sun-downloa
+   d-manager
+   And this the feedback the story got, posted by the SDM product manager
+   Gary Zellerbach:
+   -----------------------------------------------------------------------
+   ---------
+   12 Aug 00:42
+   Hi Fernando, I was the co-inventor and Product Manager of Sun Download
+   Manager (SDM) from its inception (~2001) until its recent "retirement."
+   I was surprised to see this article -- frankly, I wasn't sure if anyone
+   had noticed, but obviously you did!
+   You seem very perceptive and make some salient points. For the record,
+   I believe the main reason SDM was discontinued was due to lack of
+   engineering resources to update it. As you pointed out, first there was
+   the the desire to rebrand it as "Oracle Download Manager." More
+   importantly, as you also noticed, was the lack of HTTPS support, which
+   was not a problem on the Sun Download Center, but meant that SDM simply
+   did *not* work with Oracle's primary product download site. That was a
+   serious issue.
+   To be fair, there was interest expressed in updating SDM and a desire
+   for Oracle to have a good download manager for its customers, but when
+   push came to shove, it was deemed there were higher priority needs for
+   the download engineers. Soon after SDM was retired, my brief stint at
+   Oracle came to end as well. I understand the need to prioritize
+   resources but did not agree with the lack of communication. I wanted to
+   post a blog with a heads-up and explanation about why it was being
+   discontinued. But I was advised not to by my management, as it is
+   company policy not to pre-announce product changes. The most I could do
+   was to insist that customers not get a 404 when hitting the former SDM
+   web pages, and so I got a redirect put in to the FAQ you saw.
+   Now I see the redirect appears to have been removed too. (BTW, while
+   the redirect is gone, the FAQ is still available here:
+   http://www.oracle.com/technetwork/indexes/downloads/sdlc-faq-091624.htm
+   l ) I can't disagree with much of your editorial perspective, though
+   hopefully my comments help fill out the background.
+   I don't know Oracle's future plans as to whether they'll ever offer
+   another download manager. I do know, though, that SDM had a great run,
+   was downloaded and used literally millions of times, saved Sun a ton of
+   money on bandwidth and support costs over the years, and was a great
+   example of Java programming. Thank you for noticing it disappeared.
+   -----------------------------------------------------------------------
+   ---------
+   What can I say, thanks to you, Gary, for the kind words and taking the
+   time to write back, confirming some of my perceptions from afar.
+   FC
+   Posted by [185]Nerd Progre at [186]3:53 AM [187]No comments:
+   [188]Email This[189]BlogThis![190]Share to Twitter[191]Share to
+   Facebook[192]Share to Pinterest
+   Labels: [193]ACQUISITIONS, [194]JAVA, [195]MAA, [196]MERGERS,
+   [197]ORACLE, [198]SUN, [199]SUN MICROSYSTEMS
+
+   [200]Older Posts [201]Home
+
+   Subscribe to: [202]Posts (Atom)
+
+Followers
+
+About Me
+
+   [203]My Photo
+
+   [204]Nerd Progre
+          I started playing with computers at around age 10. But I really
+          got hooked later, at the time of 1200 bps modems, Fidonet-style
+          BBS networks, and x.25 packet switched connections. I live down
+          in Buenos Aires, Argentina, and work writing assorted babbling
+          for the UK based IT news site The Inquirer (theinquirer.net) I'm
+          a fan of cross-plaform Java applications, PalmOS, and enjoy
+          using and exploring linux distros. While I can dabble in php3,
+          rexx, and "hello, world" kind of java development, I lack the
+          focus and attention span for elaborate coding, that's why my
+          hobby programming projects never got past a version 0.2. Writing
+          and, perhaps, taking pictures, is what I really enjoy in life,
+          next to good music and cinema. Microsoft, telco monopolies and
+          perhaps laizes-faire capitalism advocates are my pet peeves. I
+          joined the EFF back in 1995 and I'm currently a member of the
+          Free Software Foundation. Mozilla and StarOffice / OpenOffice
+          are my main software darlings.
+
+   [205]View my complete profile
+
+Blog Archive
+
+     * [206]▼  [207]2013 (2)
+          + [208]▼  [209]07/21 - 07/28 (1)
+               o [210]Integrating Apache OpenOffice 4.0 with GMail
+                 using...
+          + [211]►  [212]07/07 - 07/14 (1)
+
+     * [213]►  [214]2012 (9)
+          + [215]►  [216]09/30 - 10/07 (1)
+          + [217]►  [218]09/23 - 09/30 (2)
+          + [219]►  [220]09/02 - 09/09 (1)
+          + [221]►  [222]08/19 - 08/26 (1)
+          + [223]►  [224]08/12 - 08/19 (1)
+          + [225]►  [226]05/13 - 05/20 (1)
+          + [227]►  [228]04/08 - 04/15 (1)
+          + [229]►  [230]03/18 - 03/25 (1)
+
+     * [231]►  [232]2011 (5)
+          + [233]►  [234]12/18 - 12/25 (1)
+          + [235]►  [236]10/23 - 10/30 (1)
+          + [237]►  [238]07/31 - 08/07 (1)
+          + [239]►  [240]05/01 - 05/08 (1)
+          + [241]►  [242]02/13 - 02/20 (1)
+
+     * [243]►  [244]2010 (13)
+          + [245]►  [246]10/31 - 11/07 (1)
+          + [247]►  [248]10/24 - 10/31 (1)
+          + [249]►  [250]09/26 - 10/03 (1)
+          + [251]►  [252]07/18 - 07/25 (1)
+          + [253]►  [254]06/13 - 06/20 (1)
+          + [255]►  [256]05/09 - 05/16 (1)
+          + [257]►  [258]04/25 - 05/02 (1)
+          + [259]►  [260]04/11 - 04/18 (1)
+          + [261]►  [262]04/04 - 04/11 (1)
+          + [263]►  [264]03/07 - 03/14 (1)
+          + [265]►  [266]02/28 - 03/07 (2)
+          + [267]►  [268]01/10 - 01/17 (1)
+
+     * [269]►  [270]2009 (18)
+          + [271]►  [272]12/20 - 12/27 (1)
+          + [273]►  [274]11/29 - 12/06 (1)
+          + [275]►  [276]11/08 - 11/15 (1)
+          + [277]►  [278]11/01 - 11/08 (1)
+          + [279]►  [280]10/25 - 11/01 (1)
+          + [281]►  [282]09/13 - 09/20 (1)
+          + [283]►  [284]08/30 - 09/06 (2)
+          + [285]►  [286]07/05 - 07/12 (1)
+          + [287]►  [288]06/28 - 07/05 (1)
+          + [289]►  [290]06/14 - 06/21 (1)
+          + [291]►  [292]06/07 - 06/14 (1)
+          + [293]►  [294]05/17 - 05/24 (1)
+          + [295]►  [296]04/26 - 05/03 (1)
+          + [297]►  [298]02/15 - 02/22 (1)
+          + [299]►  [300]02/01 - 02/08 (2)
+          + [301]►  [302]01/25 - 02/01 (1)
+
+     * [303]►  [304]2008 (26)
+          + [305]►  [306]12/14 - 12/21 (1)
+          + [307]►  [308]11/02 - 11/09 (1)
+          + [309]►  [310]10/19 - 10/26 (1)
+          + [311]►  [312]09/07 - 09/14 (1)
+          + [313]►  [314]08/17 - 08/24 (1)
+          + [315]►  [316]08/10 - 08/17 (1)
+          + [317]►  [318]07/27 - 08/03 (1)
+          + [319]►  [320]07/20 - 07/27 (1)
+          + [321]►  [322]07/06 - 07/13 (3)
+          + [323]►  [324]06/29 - 07/06 (1)
+          + [325]►  [326]06/15 - 06/22 (1)
+          + [327]►  [328]06/08 - 06/15 (2)
+          + [329]►  [330]06/01 - 06/08 (1)
+          + [331]►  [332]05/04 - 05/11 (2)
+          + [333]►  [334]04/13 - 04/20 (1)
+          + [335]►  [336]04/06 - 04/13 (2)
+          + [337]►  [338]03/23 - 03/30 (1)
+          + [339]►  [340]03/09 - 03/16 (1)
+          + [341]►  [342]03/02 - 03/09 (1)
+          + [343]►  [344]02/24 - 03/02 (1)
+          + [345]►  [346]02/17 - 02/24 (1)
+
+     * [347]►  [348]2007 (35)
+          + [349]►  [350]12/30 - 01/06 (1)
+          + [351]►  [352]12/23 - 12/30 (3)
+          + [353]►  [354]12/16 - 12/23 (1)
+          + [355]►  [356]12/02 - 12/09 (1)
+          + [357]►  [358]11/25 - 12/02 (2)
+          + [359]►  [360]10/21 - 10/28 (2)
+          + [361]►  [362]09/23 - 09/30 (2)
+          + [363]►  [364]09/09 - 09/16 (2)
+          + [365]►  [366]08/26 - 09/02 (1)
+          + [367]►  [368]08/12 - 08/19 (2)
+          + [369]►  [370]08/05 - 08/12 (1)
+          + [371]►  [372]07/29 - 08/05 (1)
+          + [373]►  [374]07/15 - 07/22 (2)
+          + [375]►  [376]07/08 - 07/15 (2)
+          + [377]►  [378]06/24 - 07/01 (1)
+          + [379]►  [380]05/27 - 06/03 (4)
+          + [381]►  [382]04/22 - 04/29 (1)
+          + [383]►  [384]04/15 - 04/22 (1)
+          + [385]►  [386]04/01 - 04/08 (1)
+          + [387]►  [388]03/11 - 03/18 (1)
+          + [389]►  [390]02/04 - 02/11 (3)
+
+     * [391]►  [392]2006 (19)
+          + [393]►  [394]12/24 - 12/31 (1)
+          + [395]►  [396]11/12 - 11/19 (1)
+          + [397]►  [398]10/22 - 10/29 (1)
+          + [399]►  [400]07/09 - 07/16 (1)
+          + [401]►  [402]06/11 - 06/18 (1)
+          + [403]►  [404]05/28 - 06/04 (1)
+          + [405]►  [406]05/14 - 05/21 (2)
+          + [407]►  [408]04/23 - 04/30 (1)
+          + [409]►  [410]04/02 - 04/09 (2)
+          + [411]►  [412]03/19 - 03/26 (2)
+          + [413]►  [414]03/12 - 03/19 (2)
+          + [415]►  [416]02/26 - 03/05 (1)
+          + [417]►  [418]02/19 - 02/26 (3)
+
+     * [419]►  [420]2005 (10)
+          + [421]►  [422]11/27 - 12/04 (1)
+          + [423]►  [424]10/30 - 11/06 (1)
+          + [425]►  [426]10/02 - 10/09 (1)
+          + [427]►  [428]08/14 - 08/21 (1)
+          + [429]►  [430]04/24 - 05/01 (1)
+          + [431]►  [432]04/17 - 04/24 (5)
+
+   Ethereal template. Powered by [433]Blogger.
+
+References
+
+   Visible links
+   1. http://geekgaucho.blogspot.com/feeds/posts/default
+   2. http://geekgaucho.blogspot.com/feeds/posts/default?alt=rss
+   3. http://fmcinq.notlong.com/
+   4. http://fcgp.notlong.com/
+   5. http://fch.notlong.com/
+   6. http://geekgaucho.blogspot.com/2013/07/integrating-apache-openoffice-40-with.html
+   7. http://en.wikipedia.org/wiki/Jamie_Zawinski#Zawinski.27s_law_of_software_envelopment
+   8. http://en.wikipedia.org/wiki/E-mail
+   9. http://www.openoffice.org/
+  10. http://www.mozilla.org/en-US/thunderbird/
+  11. http://www-03.ibm.com/software/products/us/en/ibmnotes/
+  12. http://www.eudora.com/
+  13. http://code.google.com/p/tvhgooglemapi/downloads/detail?name=tvhgooglemapisetup-0.4.exe
+  14. http://3.bp.blogspot.com/--ESlvi37wKo/UfF3P5BEK8I/AAAAAAAAHOg/ERp1rmIKE04/s1600/mapi-gmail-0.jpg
+  15. http://1.bp.blogspot.com/-zqOt12bwcj0/UfF3a3R7WFI/AAAAAAAAHOo/MldXO-QTDrs/s1600/mapi-gmail-1.jpg
+  16. http://2.bp.blogspot.com/-TdzhRBKWyoE/UfF3klUsd9I/AAAAAAAAHOw/dWf_J9pKNV0/s1600/mapi-gmail-3.jpg
+  17. http://1.bp.blogspot.com/-eGQlbMFJqLM/UfF3rhI7IsI/AAAAAAAAHO4/zZJ_9nP_4kU/s1600/mapi-gmail-2.jpg
+  18. https://www.google.com.ar/search?q=i+hate+the+new+gmail+compose&ie=utf-8&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&gws_rd=cr
+  19. http://2.bp.blogspot.com/-skh2VEQTxbE/UfF4FeELi_I/AAAAAAAAHPI/mOZ8xgZLdiU/s1600/mapi-gmail-4.jpg
+  20. http://www.openoffice.org/
+  21. http://www.blogger.com/profile/16328258490086439970
+  22. http://geekgaucho.blogspot.com/2013/07/integrating-apache-openoffice-40-with.html
+  23. http://www.blogger.com/comment.g?blogID=12266914&postID=7487245608212631974
+  24. http://www.blogger.com/share-post.g?blogID=12266914&postID=7487245608212631974&target=email
+  25. http://www.blogger.com/share-post.g?blogID=12266914&postID=7487245608212631974&target=blog
+  26. http://www.blogger.com/share-post.g?blogID=12266914&postID=7487245608212631974&target=twitter
+  27. http://www.blogger.com/share-post.g?blogID=12266914&postID=7487245608212631974&target=facebook
+  28. http://www.blogger.com/share-post.g?blogID=12266914&postID=7487245608212631974&target=pinterest
+  29. http://geekgaucho.blogspot.com/search/label/APACHE
+  30. http://geekgaucho.blogspot.com/search/label/GMAIL
+  31. http://geekgaucho.blogspot.com/search/label/MAPI
+  32. http://geekgaucho.blogspot.com/search/label/OPEN OFFICE
+  33. http://geekgaucho.blogspot.com/search/label/OPENOFFICE
+  34. http://geekgaucho.blogspot.com/2013/07/less-is-more.html
+  35. http://channel9.msdn.com/Forums/Coffeehouse/Test-shows-Windows-7-is-5x-slower-than-XP-in-UI-and-apps-load-slower-than-in-Vista
+  36. http://www.guardian.co.uk/technology/2007/dec/06/microsoft
+  37. http://web.archive.org/web/20071012211343rn_1/www.infoworld.com/articles/tc/xml/01/10/29/011029tcwinxp.html
+  38. http://web.archive.org/web/20061022093046/www.infoworld.com/articles/op/xml/01/03/05/010305opcringely.html
+  39. http://www.blogger.com/profile/16328258490086439970
+  40. http://geekgaucho.blogspot.com/2013/07/less-is-more.html
+  41. http://www.blogger.com/comment.g?blogID=12266914&postID=5632138372893199101
+  42. http://www.blogger.com/share-post.g?blogID=12266914&postID=5632138372893199101&target=email
+  43. http://www.blogger.com/share-post.g?blogID=12266914&postID=5632138372893199101&target=blog
+  44. http://www.blogger.com/share-post.g?blogID=12266914&postID=5632138372893199101&target=twitter
+  45. http://www.blogger.com/share-post.g?blogID=12266914&postID=5632138372893199101&target=facebook
+  46. http://www.blogger.com/share-post.g?blogID=12266914&postID=5632138372893199101&target=pinterest
+  47. http://geekgaucho.blogspot.com/search/label/bloat
+  48. http://geekgaucho.blogspot.com/search/label/MICROSOFT
+  49. http://geekgaucho.blogspot.com/search/label/performance
+  50. http://geekgaucho.blogspot.com/search/label/SOFTWARE
+  51. http://geekgaucho.blogspot.com/search/label/WINDOWS
+  52. http://geekgaucho.blogspot.com/2012/10/zdnet-trolling-for-anti-javascript.html
+  53. http://3.bp.blogspot.com/-7n1C45FaoZY/UG02x44dAAI/AAAAAAAAGgM/UgJOaf8Io64/s1600/msft-vs-javascript.jpg
+  54. http://shareasimage.com/quote/microsoft-is-king-of-not-invented-here-nih-syndrome-the/
+  55. https://developer.mozilla.org/en-US/docs/JavaScript/About_JavaScript
+  56. http://shareasimage.com/quote/zdnet-desperately-needs-ad-revenue-and-the-best-way-to/
+  57. http://www.zdnet.com/microsoft-typescript-can-the-father-of-c-save-us-from-the-tyranny-of-javascript-7000005054/?s_cid=e539
+  58. https://developer.mozilla.org/en-US/docs/JavaScript
+  59. http://techrights.org/2011/05/03/mono-developers-laid-off/
+  60. http://liliputing.com/2012/05/what-a-little-moonlight-cant-do-open-source-silverlight-clone-is-dead.html
+  61. http://www.osnews.com/comments/620?view=flat&threshold=0sort=comment_id&order=o&&perpage=5&offset=25
+  62. http://en.wikipedia.org/wiki/Betteridge's_Law_of_Headlines
+  63. http://www.windowsitpro.com/article/news2/windows-everywhere
+  64. http://www.blogger.com/profile/16328258490086439970
+  65. http://geekgaucho.blogspot.com/2012/10/zdnet-trolling-for-anti-javascript.html
+  66. http://www.blogger.com/comment.g?blogID=12266914&postID=4378205205678122640
+  67. http://www.blogger.com/share-post.g?blogID=12266914&postID=4378205205678122640&target=email
+  68. http://www.blogger.com/share-post.g?blogID=12266914&postID=4378205205678122640&target=blog
+  69. http://www.blogger.com/share-post.g?blogID=12266914&postID=4378205205678122640&target=twitter
+  70. http://www.blogger.com/share-post.g?blogID=12266914&postID=4378205205678122640&target=facebook
+  71. http://www.blogger.com/share-post.g?blogID=12266914&postID=4378205205678122640&target=pinterest
+  72. http://geekgaucho.blogspot.com/search/label/.NET
+  73. http://geekgaucho.blogspot.com/search/label/DOTNET
+  74. http://geekgaucho.blogspot.com/search/label/DOTNOT
+  75. http://geekgaucho.blogspot.com/search/label/JAVASCRIPT
+  76. http://geekgaucho.blogspot.com/search/label/MICROSOFT
+  77. http://geekgaucho.blogspot.com/search/label/MIGUEL DE ICAZA
+  78. http://geekgaucho.blogspot.com/search/label/NIH
+  79. http://geekgaucho.blogspot.com/search/label/RE-INVENT THE WHEEL
+  80. http://geekgaucho.blogspot.com/search/label/SOFTWARE
+  81. http://geekgaucho.blogspot.com/search/label/TROLLS
+  82. http://geekgaucho.blogspot.com/2012/09/foxconn-riots-and-some-exclusive.html
+  83. http://www.reuters.com/article/2012/09/24/us-hon-hai-idUSBRE88N00L20120924
+  84. http://www.dailymotion.com/embed/video/xtwxc0
+  85. http://www.dailymotion.com/video/xtwxc0_alleged-riot-at-india-factory_fun
+  86. http://www.blogger.com/profile/16328258490086439970
+  87. http://geekgaucho.blogspot.com/2012/09/foxconn-riots-and-some-exclusive.html
+  88. http://www.blogger.com/comment.g?blogID=12266914&postID=5187977126792626793
+  89. http://www.blogger.com/share-post.g?blogID=12266914&postID=5187977126792626793&target=email
+  90. http://www.blogger.com/share-post.g?blogID=12266914&postID=5187977126792626793&target=blog
+  91. http://www.blogger.com/share-post.g?blogID=12266914&postID=5187977126792626793&target=twitter
+  92. http://www.blogger.com/share-post.g?blogID=12266914&postID=5187977126792626793&target=facebook
+  93. http://www.blogger.com/share-post.g?blogID=12266914&postID=5187977126792626793&target=pinterest
+  94. http://geekgaucho.blogspot.com/search/label/FOXCONN RIOTS
+  95. http://geekgaucho.blogspot.com/search/label/HUMOR
+  96. http://geekgaucho.blogspot.com/2012/09/the-anti-btrfs-fud-must-stop.html
+  97. http://en.wikipedia.org/wiki/Btrfs#cite_note-CM090622-0
+  98. http://en.wikipedia.org/wiki/Btrfs#cite_note-1
+  99. http://en.wikipedia.org/wiki/GNU_General_Public_License
+ 100. http://en.wikipedia.org/wiki/Copy-on-write
+ 101. http://en.wikipedia.org/wiki/File_system
+ 102. http://en.wikipedia.org/wiki/Linux
+ 103. http://en.wikipedia.org/wiki/Oracle_Corporation
+ 104. https://events.linuxfoundation.org/events/linuxcon-japan/bo
+ 105. http://www.h-online.com/open/imgs/45/8/8/4/6/5/1/43-6b4e69889ee000ca.png
+ 106. https://www.suse.com/releasenotes/x86_64/SUSE-SLES/11-SP2/
+ 107. https://blogs.oracle.com/wim/entry/oracle_linux_6_update_3
+ 108. http://www-01.ibm.com/support/docview.wss?uid=isg1IY76829
+ 109. http://www.blogger.com/profile/16328258490086439970
+ 110. http://geekgaucho.blogspot.com/2012/09/the-anti-btrfs-fud-must-stop.html
+ 111. http://www.blogger.com/comment.g?blogID=12266914&postID=1889423061196351172
+ 112. http://www.blogger.com/share-post.g?blogID=12266914&postID=1889423061196351172&target=email
+ 113. http://www.blogger.com/share-post.g?blogID=12266914&postID=1889423061196351172&target=blog
+ 114. http://www.blogger.com/share-post.g?blogID=12266914&postID=1889423061196351172&target=twitter
+ 115. http://www.blogger.com/share-post.g?blogID=12266914&postID=1889423061196351172&target=facebook
+ 116. http://www.blogger.com/share-post.g?blogID=12266914&postID=1889423061196351172&target=pinterest
+ 117. http://geekgaucho.blogspot.com/search/label/BTRFS
+ 118. http://geekgaucho.blogspot.com/search/label/FILE SYSTEMS
+ 119. http://geekgaucho.blogspot.com/search/label/FUD: FEAR UNCERTAINTY AND DOUBT
+ 120. http://geekgaucho.blogspot.com/search/label/IBM
+ 121. http://geekgaucho.blogspot.com/search/label/JOURNALING
+ 122. http://geekgaucho.blogspot.com/search/label/ORACLE
+ 123. http://geekgaucho.blogspot.com/search/label/REDHAT
+ 124. http://geekgaucho.blogspot.com/search/label/SOFTWARE
+ 125. http://geekgaucho.blogspot.com/2012/09/java-is-based-on-reason-like-humanism.html
+ 126. http://higherorderfun.com/blog/2011/02/16/if-programming-languages-were-religions/
+ 127. http://www.theinquirer.net/inquirer/news/1007957/sun-releases-java-under-gpl-licence
+ 128. http://openjdk.java.net/
+ 129. http://news.techeye.net/software/despite-anti-oracle-hysteria-firm-is-an-open-source-powerhouse
+ 130. http://fxexperience.com/2011/12/its-alive-openjfx-is-kicking-off/
+ 131. http://openjdk.java.net/projects/openjfx/
+ 132. http://www.java7developer.com/blog/?p=361
+ 133. http://www.infoq.com/news/2010/10/ibm-joins-openjdk
+ 134. https://dev.twitter.com/blog/twitter-open-source-and-jvm
+ 135. http://regator.com/p/245842648/apple_contributing_to_open_source_mac_java_project/
+ 136. http://docs.oracle.com/javase/7/docs/technotes/guides/language/enhancements.html
+ 137. http://www.artima.com/insidejvm/ed2/jvmP.html
+ 138. http://www.blogger.com/goog_1368941091
+ 139. http:///
+ 140. http://sourceforge.net/directory/developmentstatus:5-production/stable/language:java/freshness:recently-updated/
+ 141. http://java.sun.com/developer/technicalArticles/DynTypeLang/
+ 142. http://jruby.org/
+ 143. http://www.jython.org/
+ 144. https://code.google.com/p/xruby/
+ 145. http://code.google.com/p/jgo/
+ 146. http://www.netrexx.org/
+ 147. http://www.netrexx.org/
+ 148. http://www.jabaco.org/
+ 149. http://www.blogger.com/profile/16328258490086439970
+ 150. http://geekgaucho.blogspot.com/2012/09/java-is-based-on-reason-like-humanism.html
+ 151. http://www.blogger.com/comment.g?blogID=12266914&postID=6931793256433039563
+ 152. http://www.blogger.com/share-post.g?blogID=12266914&postID=6931793256433039563&target=email
+ 153. http://www.blogger.com/share-post.g?blogID=12266914&postID=6931793256433039563&target=blog
+ 154. http://www.blogger.com/share-post.g?blogID=12266914&postID=6931793256433039563&target=twitter
+ 155. http://www.blogger.com/share-post.g?blogID=12266914&postID=6931793256433039563&target=facebook
+ 156. http://www.blogger.com/share-post.g?blogID=12266914&postID=6931793256433039563&target=pinterest
+ 157. http://geekgaucho.blogspot.com/search/label/JAVA
+ 158. http://geekgaucho.blogspot.com/search/label/SOFTWARE
+ 159. http://geekgaucho.blogspot.com/2012/08/thanks-armstrong-for-inspiring.html
+ 160. https://plus.google.com/s/#Armstrong
+ 161. https://plus.google.com/s/#Moon
+ 162. https://plus.google.com/s/#space
+ 163. http://4.bp.blogspot.com/-bQh9rgbnvqU/UDmOCOQOuMI/AAAAAAAAGYk/d7s1HVrXKMg/s1600/man-moon.jpg
+ 164. http://1.bp.blogspot.com/-0MdNXzdkIYs/UDmOGfumzlI/AAAAAAAAGYs/5HN9qew1br8/s1600/armstrong.jpg
+ 165. https://plus.google.com/s/#OMD
+ 166. http://www.youtube.com/embed/PV1hPgLm6cQ
+ 167. http://www.blogger.com/profile/16328258490086439970
+ 168. http://geekgaucho.blogspot.com/2012/08/thanks-armstrong-for-inspiring.html
+ 169. http://www.blogger.com/comment.g?blogID=12266914&postID=1319545605495034143
+ 170. http://www.blogger.com/share-post.g?blogID=12266914&postID=1319545605495034143&target=email
+ 171. http://www.blogger.com/share-post.g?blogID=12266914&postID=1319545605495034143&target=blog
+ 172. http://www.blogger.com/share-post.g?blogID=12266914&postID=1319545605495034143&target=twitter
+ 173. http://www.blogger.com/share-post.g?blogID=12266914&postID=1319545605495034143&target=facebook
+ 174. http://www.blogger.com/share-post.g?blogID=12266914&postID=1319545605495034143&target=pinterest
+ 175. http://geekgaucho.blogspot.com/search/label/ARMSTRONG
+ 176. http://geekgaucho.blogspot.com/search/label/GOODBYE
+ 177. http://geekgaucho.blogspot.com/search/label/IMAGINATION
+ 178. http://geekgaucho.blogspot.com/search/label/MOON
+ 179. http://geekgaucho.blogspot.com/search/label/RIP
+ 180. http://geekgaucho.blogspot.com/search/label/SPACE TRAVEL
+ 181. http://geekgaucho.blogspot.com/2012/08/readers-feedback-says-sometimes-im-not.html
+ 182. http://4.bp.blogspot.com/-ShlcULfnsu0/UCt_FymnQ3I/AAAAAAAAGXA/AQhJx6pGQZw/s1600/hithenail.jpg
+ 183. http://www.flickr.com/photos/istolethetv/2750384782/sizes/m/in/photostream/
+ 184. http://news.techeye.net/software/oracle-quietly-buries-sun-download-manager
+ 185. http://www.blogger.com/profile/16328258490086439970
+ 186. http://geekgaucho.blogspot.com/2012/08/readers-feedback-says-sometimes-im-not.html
+ 187. http://www.blogger.com/comment.g?blogID=12266914&postID=5086486692978749528
+ 188. http://www.blogger.com/share-post.g?blogID=12266914&postID=5086486692978749528&target=email
+ 189. http://www.blogger.com/share-post.g?blogID=12266914&postID=5086486692978749528&target=blog
+ 190. http://www.blogger.com/share-post.g?blogID=12266914&postID=5086486692978749528&target=twitter
+ 191. http://www.blogger.com/share-post.g?blogID=12266914&postID=5086486692978749528&target=facebook
+ 192. http://www.blogger.com/share-post.g?blogID=12266914&postID=5086486692978749528&target=pinterest
+ 193. http://geekgaucho.blogspot.com/search/label/ACQUISITIONS
+ 194. http://geekgaucho.blogspot.com/search/label/JAVA
+ 195. http://geekgaucho.blogspot.com/search/label/MAA
+ 196. http://geekgaucho.blogspot.com/search/label/MERGERS
+ 197. http://geekgaucho.blogspot.com/search/label/ORACLE
+ 198. http://geekgaucho.blogspot.com/search/label/SUN
+ 199. http://geekgaucho.blogspot.com/search/label/SUN MICROSYSTEMS
+ 200. http://geekgaucho.blogspot.com/search?updated-max=2012-08-15T03:53:00-07:00
+ 201. http://geekgaucho.blogspot.com/
+ 202. http://geekgaucho.blogspot.com/feeds/posts/default
+ 203. http://www.blogger.com/profile/16328258490086439970
+ 204. http://www.blogger.com/profile/16328258490086439970
+ 205. http://www.blogger.com/profile/16328258490086439970
+ 206. javascript:void(0)
+ 207. http://geekgaucho.blogspot.com/search?updated-min=2013-01-01T00:00:00-08:00&updated-max=2014-01-01T00:00:00-08:00&max-results=2
+ 208. javascript:void(0)
+ 209. http://geekgaucho.blogspot.com/2013_07_21_archive.html
+ 210. http://geekgaucho.blogspot.com/2013/07/integrating-apache-openoffice-40-with.html
+ 211. javascript:void(0)
+ 212. http://geekgaucho.blogspot.com/2013_07_07_archive.html
+ 213. javascript:void(0)
+ 214. http://geekgaucho.blogspot.com/search?updated-min=2012-01-01T00:00:00-08:00&updated-max=2013-01-01T00:00:00-08:00&max-results=9
+ 215. javascript:void(0)
+ 216. http://geekgaucho.blogspot.com/2012_09_30_archive.html
+ 217. javascript:void(0)
+ 218. http://geekgaucho.blogspot.com/2012_09_23_archive.html
+ 219. javascript:void(0)
+ 220. http://geekgaucho.blogspot.com/2012_09_02_archive.html
+ 221. javascript:void(0)
+ 222. http://geekgaucho.blogspot.com/2012_08_19_archive.html
+ 223. javascript:void(0)
+ 224. http://geekgaucho.blogspot.com/2012_08_12_archive.html
+ 225. javascript:void(0)
+ 226. http://geekgaucho.blogspot.com/2012_05_13_archive.html
+ 227. javascript:void(0)
+ 228. http://geekgaucho.blogspot.com/2012_04_08_archive.html
+ 229. javascript:void(0)
+ 230. http://geekgaucho.blogspot.com/2012_03_18_archive.html
+ 231. javascript:void(0)
+ 232. http://geekgaucho.blogspot.com/search?updated-min=2011-01-01T00:00:00-08:00&updated-max=2012-01-01T00:00:00-08:00&max-results=5
+ 233. javascript:void(0)
+ 234. http://geekgaucho.blogspot.com/2011_12_18_archive.html
+ 235. javascript:void(0)
+ 236. http://geekgaucho.blogspot.com/2011_10_23_archive.html
+ 237. javascript:void(0)
+ 238. http://geekgaucho.blogspot.com/2011_07_31_archive.html
+ 239. javascript:void(0)
+ 240. http://geekgaucho.blogspot.com/2011_05_01_archive.html
+ 241. javascript:void(0)
+ 242. http://geekgaucho.blogspot.com/2011_02_13_archive.html
+ 243. javascript:void(0)
+ 244. http://geekgaucho.blogspot.com/search?updated-min=2010-01-01T00:00:00-08:00&updated-max=2011-01-01T00:00:00-08:00&max-results=13
+ 245. javascript:void(0)
+ 246. http://geekgaucho.blogspot.com/2010_10_31_archive.html
+ 247. javascript:void(0)
+ 248. http://geekgaucho.blogspot.com/2010_10_24_archive.html
+ 249. javascript:void(0)
+ 250. http://geekgaucho.blogspot.com/2010_09_26_archive.html
+ 251. javascript:void(0)
+ 252. http://geekgaucho.blogspot.com/2010_07_18_archive.html
+ 253. javascript:void(0)
+ 254. http://geekgaucho.blogspot.com/2010_06_13_archive.html
+ 255. javascript:void(0)
+ 256. http://geekgaucho.blogspot.com/2010_05_09_archive.html
+ 257. javascript:void(0)
+ 258. http://geekgaucho.blogspot.com/2010_04_25_archive.html
+ 259. javascript:void(0)
+ 260. http://geekgaucho.blogspot.com/2010_04_11_archive.html
+ 261. javascript:void(0)
+ 262. http://geekgaucho.blogspot.com/2010_04_04_archive.html
+ 263. javascript:void(0)
+ 264. http://geekgaucho.blogspot.com/2010_03_07_archive.html
+ 265. javascript:void(0)
+ 266. http://geekgaucho.blogspot.com/2010_02_28_archive.html
+ 267. javascript:void(0)
+ 268. http://geekgaucho.blogspot.com/2010_01_10_archive.html
+ 269. javascript:void(0)
+ 270. http://geekgaucho.blogspot.com/search?updated-min=2009-01-01T00:00:00-08:00&updated-max=2010-01-01T00:00:00-08:00&max-results=18
+ 271. javascript:void(0)
+ 272. http://geekgaucho.blogspot.com/2009_12_20_archive.html
+ 273. javascript:void(0)
+ 274. http://geekgaucho.blogspot.com/2009_11_29_archive.html
+ 275. javascript:void(0)
+ 276. http://geekgaucho.blogspot.com/2009_11_08_archive.html
+ 277. javascript:void(0)
+ 278. http://geekgaucho.blogspot.com/2009_11_01_archive.html
+ 279. javascript:void(0)
+ 280. http://geekgaucho.blogspot.com/2009_10_25_archive.html
+ 281. javascript:void(0)
+ 282. http://geekgaucho.blogspot.com/2009_09_13_archive.html
+ 283. javascript:void(0)
+ 284. http://geekgaucho.blogspot.com/2009_08_30_archive.html
+ 285. javascript:void(0)
+ 286. http://geekgaucho.blogspot.com/2009_07_05_archive.html
+ 287. javascript:void(0)
+ 288. http://geekgaucho.blogspot.com/2009_06_28_archive.html
+ 289. javascript:void(0)
+ 290. http://geekgaucho.blogspot.com/2009_06_14_archive.html
+ 291. javascript:void(0)
+ 292. http://geekgaucho.blogspot.com/2009_06_07_archive.html
+ 293. javascript:void(0)
+ 294. http://geekgaucho.blogspot.com/2009_05_17_archive.html
+ 295. javascript:void(0)
+ 296. http://geekgaucho.blogspot.com/2009_04_26_archive.html
+ 297. javascript:void(0)
+ 298. http://geekgaucho.blogspot.com/2009_02_15_archive.html
+ 299. javascript:void(0)
+ 300. http://geekgaucho.blogspot.com/2009_02_01_archive.html
+ 301. javascript:void(0)
+ 302. http://geekgaucho.blogspot.com/2009_01_25_archive.html
+ 303. javascript:void(0)
+ 304. http://geekgaucho.blogspot.com/search?updated-min=2008-01-01T00:00:00-08:00&updated-max=2009-01-01T00:00:00-08:00&max-results=26
+ 305. javascript:void(0)
+ 306. http://geekgaucho.blogspot.com/2008_12_14_archive.html
+ 307. javascript:void(0)
+ 308. http://geekgaucho.blogspot.com/2008_11_02_archive.html
+ 309. javascript:void(0)
+ 310. http://geekgaucho.blogspot.com/2008_10_19_archive.html
+ 311. javascript:void(0)
+ 312. http://geekgaucho.blogspot.com/2008_09_07_archive.html
+ 313. javascript:void(0)
+ 314. http://geekgaucho.blogspot.com/2008_08_17_archive.html
+ 315. javascript:void(0)
+ 316. http://geekgaucho.blogspot.com/2008_08_10_archive.html
+ 317. javascript:void(0)
+ 318. http://geekgaucho.blogspot.com/2008_07_27_archive.html
+ 319. javascript:void(0)
+ 320. http://geekgaucho.blogspot.com/2008_07_20_archive.html
+ 321. javascript:void(0)
+ 322. http://geekgaucho.blogspot.com/2008_07_06_archive.html
+ 323. javascript:void(0)
+ 324. http://geekgaucho.blogspot.com/2008_06_29_archive.html
+ 325. javascript:void(0)
+ 326. http://geekgaucho.blogspot.com/2008_06_15_archive.html
+ 327. javascript:void(0)
+ 328. http://geekgaucho.blogspot.com/2008_06_08_archive.html
+ 329. javascript:void(0)
+ 330. http://geekgaucho.blogspot.com/2008_06_01_archive.html
+ 331. javascript:void(0)
+ 332. http://geekgaucho.blogspot.com/2008_05_04_archive.html
+ 333. javascript:void(0)
+ 334. http://geekgaucho.blogspot.com/2008_04_13_archive.html
+ 335. javascript:void(0)
+ 336. http://geekgaucho.blogspot.com/2008_04_06_archive.html
+ 337. javascript:void(0)
+ 338. http://geekgaucho.blogspot.com/2008_03_23_archive.html
+ 339. javascript:void(0)
+ 340. http://geekgaucho.blogspot.com/2008_03_09_archive.html
+ 341. javascript:void(0)
+ 342. http://geekgaucho.blogspot.com/2008_03_02_archive.html
+ 343. javascript:void(0)
+ 344. http://geekgaucho.blogspot.com/2008_02_24_archive.html
+ 345. javascript:void(0)
+ 346. http://geekgaucho.blogspot.com/2008_02_17_archive.html
+ 347. javascript:void(0)
+ 348. http://geekgaucho.blogspot.com/search?updated-min=2007-01-01T00:00:00-08:00&updated-max=2008-01-01T00:00:00-08:00&max-results=35
+ 349. javascript:void(0)
+ 350. http://geekgaucho.blogspot.com/2007_12_30_archive.html
+ 351. javascript:void(0)
+ 352. http://geekgaucho.blogspot.com/2007_12_23_archive.html
+ 353. javascript:void(0)
+ 354. http://geekgaucho.blogspot.com/2007_12_16_archive.html
+ 355. javascript:void(0)
+ 356. http://geekgaucho.blogspot.com/2007_12_02_archive.html
+ 357. javascript:void(0)
+ 358. http://geekgaucho.blogspot.com/2007_11_25_archive.html
+ 359. javascript:void(0)
+ 360. http://geekgaucho.blogspot.com/2007_10_21_archive.html
+ 361. javascript:void(0)
+ 362. http://geekgaucho.blogspot.com/2007_09_23_archive.html
+ 363. javascript:void(0)
+ 364. http://geekgaucho.blogspot.com/2007_09_09_archive.html
+ 365. javascript:void(0)
+ 366. http://geekgaucho.blogspot.com/2007_08_26_archive.html
+ 367. javascript:void(0)
+ 368. http://geekgaucho.blogspot.com/2007_08_12_archive.html
+ 369. javascript:void(0)
+ 370. http://geekgaucho.blogspot.com/2007_08_05_archive.html
+ 371. javascript:void(0)
+ 372. http://geekgaucho.blogspot.com/2007_07_29_archive.html
+ 373. javascript:void(0)
+ 374. http://geekgaucho.blogspot.com/2007_07_15_archive.html
+ 375. javascript:void(0)
+ 376. http://geekgaucho.blogspot.com/2007_07_08_archive.html
+ 377. javascript:void(0)
+ 378. http://geekgaucho.blogspot.com/2007_06_24_archive.html
+ 379. javascript:void(0)
+ 380. http://geekgaucho.blogspot.com/2007_05_27_archive.html
+ 381. javascript:void(0)
+ 382. http://geekgaucho.blogspot.com/2007_04_22_archive.html
+ 383. javascript:void(0)
+ 384. http://geekgaucho.blogspot.com/2007_04_15_archive.html
+ 385. javascript:void(0)
+ 386. http://geekgaucho.blogspot.com/2007_04_01_archive.html
+ 387. javascript:void(0)
+ 388. http://geekgaucho.blogspot.com/2007_03_11_archive.html
+ 389. javascript:void(0)
+ 390. http://geekgaucho.blogspot.com/2007_02_04_archive.html
+ 391. javascript:void(0)
+ 392. http://geekgaucho.blogspot.com/search?updated-min=2006-01-01T00:00:00-08:00&updated-max=2007-01-01T00:00:00-08:00&max-results=19
+ 393. javascript:void(0)
+ 394. http://geekgaucho.blogspot.com/2006_12_24_archive.html
+ 395. javascript:void(0)
+ 396. http://geekgaucho.blogspot.com/2006_11_12_archive.html
+ 397. javascript:void(0)
+ 398. http://geekgaucho.blogspot.com/2006_10_22_archive.html
+ 399. javascript:void(0)
+ 400. http://geekgaucho.blogspot.com/2006_07_09_archive.html
+ 401. javascript:void(0)
+ 402. http://geekgaucho.blogspot.com/2006_06_11_archive.html
+ 403. javascript:void(0)
+ 404. http://geekgaucho.blogspot.com/2006_05_28_archive.html
+ 405. javascript:void(0)
+ 406. http://geekgaucho.blogspot.com/2006_05_14_archive.html
+ 407. javascript:void(0)
+ 408. http://geekgaucho.blogspot.com/2006_04_23_archive.html
+ 409. javascript:void(0)
+ 410. http://geekgaucho.blogspot.com/2006_04_02_archive.html
+ 411. javascript:void(0)
+ 412. http://geekgaucho.blogspot.com/2006_03_19_archive.html
+ 413. javascript:void(0)
+ 414. http://geekgaucho.blogspot.com/2006_03_12_archive.html
+ 415. javascript:void(0)
+ 416. http://geekgaucho.blogspot.com/2006_02_26_archive.html
+ 417. javascript:void(0)
+ 418. http://geekgaucho.blogspot.com/2006_02_19_archive.html
+ 419. javascript:void(0)
+ 420. http://geekgaucho.blogspot.com/search?updated-min=2005-01-01T00:00:00-08:00&updated-max=2006-01-01T00:00:00-08:00&max-results=10
+ 421. javascript:void(0)
+ 422. http://geekgaucho.blogspot.com/2005_11_27_archive.html
+ 423. javascript:void(0)
+ 424. http://geekgaucho.blogspot.com/2005_10_30_archive.html
+ 425. javascript:void(0)
+ 426. http://geekgaucho.blogspot.com/2005_10_02_archive.html
+ 427. javascript:void(0)
+ 428. http://geekgaucho.blogspot.com/2005_08_14_archive.html
+ 429. javascript:void(0)
+ 430. http://geekgaucho.blogspot.com/2005_04_24_archive.html
+ 431. javascript:void(0)
+ 432. http://geekgaucho.blogspot.com/2005_04_17_archive.html
+ 433. http://www.blogger.com/
+
+   Hidden links:
+ 435. http://www.blogger.com/post-edit.g?blogID=12266914&postID=7487245608212631974&from=pencil
+ 436. http://www.blogger.com/post-edit.g?blogID=12266914&postID=5632138372893199101&from=pencil
+ 437. http://www.blogger.com/post-edit.g?blogID=12266914&postID=4378205205678122640&from=pencil
+ 438. http://www.blogger.com/post-edit.g?blogID=12266914&postID=5187977126792626793&from=pencil
+ 439. http://www.blogger.com/post-edit.g?blogID=12266914&postID=1889423061196351172&from=pencil
+ 440. http://www.blogger.com/post-edit.g?blogID=12266914&postID=6931793256433039563&from=pencil
+ 441. http://www.blogger.com/post-edit.g?blogID=12266914&postID=1319545605495034143&from=pencil
+ 442. http://www.blogger.com/post-edit.g?blogID=12266914&postID=5086486692978749528&from=pencil
+ 443. http://www.blogger.com/rearrange?blogID=12266914&widgetType=Followers&widgetId=Followers1&action=editWidget&sectionId=sidebar-right-1
+ 444. http://www.blogger.com/rearrange?blogID=12266914&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-right-2-1
+ 445. http://www.blogger.com/rearrange?blogID=12266914&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-right-2-2
+ 446. http://www.blogger.com/rearrange?blogID=12266914&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3

@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>lewisroberts.com | me, on scripting, trance and other subjects i enjoy</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.lewisroberts.com/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://www.lewisroberts.com/wp-content/themes/twentyfourteen/js/html5.js"></script>
+	<![endif]-->
+	<link rel="alternate" type="application/rss+xml" title="lewisroberts.com &raquo; Feed" href="http://www.lewisroberts.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="lewisroberts.com &raquo; Comments Feed" href="http://www.lewisroberts.com/comments/feed/" />
+<link rel='stylesheet' id='twentyfourteen-lato-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://www.lewisroberts.com/wp-content/themes/twentyfourteen/genericons/genericons.css?ver=3.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-style-css'  href='http://www.lewisroberts.com/wp-content/themes/twentyfourteen/style.css?ver=4.0' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfourteen-ie-css'  href='http://www.lewisroberts.com/wp-content/themes/twentyfourteen/css/ie.css?ver=20131205' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js?ver=1.9.0'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/effects.js?ver=1.9.0'></script>
+<script type='text/javascript' src='http://www.lewisroberts.com/wp-content/plugins/lightbox-2/lightbox.js?ver=1.8'></script>
+<script type='text/javascript' src='http://www.lewisroberts.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.lewisroberts.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.lewisroberts.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.lewisroberts.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0" />
+
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://www.lewisroberts.com/wp-content/plugins/lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<link rel="stylesheet" type="text/css" href="http://www.lewisroberts.com/wp-content/plugins/wp-recaptcha/recaptcha.css" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="home blog masthead-fixed list-view grid">
+<div id="page" class="hfeed site">
+	
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="http://www.lewisroberts.com/" rel="home">lewisroberts.com</a></h1>
+
+			<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text">Search</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Primary Menu</button>
+				<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+				<div class="nav-menu"></div>
+			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+				<form role="search" method="get" class="search-form" action="http://www.lewisroberts.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+
+
+<div id="featured-content" class="featured-content">
+	<div class="featured-content-inner">
+	
+<article id="post-763" class="post-763 post type-post status-publish format-standard has-post-thumbnail hentry category-general">
+	<a class="post-thumbnail" href="http://www.lewisroberts.com/2013/10/13/windows-server-2012-r2-upgrades/">
+	<img width="500" height="500" src="http://www.lewisroberts.com/wp-content/uploads/2014/01/2012R2.png" class="attachment-twentyfourteen-full-width wp-post-image" alt="Windows Server 2012 R2" />	</a>
+
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="http://www.lewisroberts.com/category/general/" rel="category tag">General</a></span>
+		</div><!-- .entry-meta -->
+		
+		<h1 class="entry-title"><a href="http://www.lewisroberts.com/2013/10/13/windows-server-2012-r2-upgrades/" rel="bookmark">Windows Server 2012 R2 Upgrades</a></h1>	</header><!-- .entry-header -->
+</article><!-- #post-## -->
+
+<article id="post-363" class="post-363 post type-post status-publish format-image hentry category-photography tag-bird tag-goldfinch tag-perch tag-photo tag-tv-aerial">
+	<a class="post-thumbnail" href="http://www.lewisroberts.com/2009/06/14/goldfinch-perch/">
+		</a>
+
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="http://www.lewisroberts.com/category/photography/" rel="category tag">Photography</a></span>
+		</div><!-- .entry-meta -->
+		
+		<h1 class="entry-title"><a href="http://www.lewisroberts.com/2009/06/14/goldfinch-perch/" rel="bookmark">Goldfinch Perch</a></h1>	</header><!-- .entry-header -->
+</article><!-- #post-## -->
+	</div><!-- .featured-content-inner -->
+</div><!-- #featured-content .featured-content -->
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		
+<article id="post-805" class="post-805 post type-post status-publish format-standard hentry category-general">
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="http://www.lewisroberts.com/category/general/" rel="category tag">General</a></span>
+		</div>
+		<h1 class="entry-title"><a href="http://www.lewisroberts.com/2014/04/05/powershell-net-and-gui-interfaces/" rel="bookmark">PowerShell .NET and GUI Interfaces</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.lewisroberts.com/2014/04/05/powershell-net-and-gui-interfaces/" rel="bookmark"><time class="entry-date" datetime="2014-04-05T20:48:17+00:00">Sat 5th April, 2014</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.lewisroberts.com/author/ljr/" rel="author">Lewis</a></span></span>			<span class="comments-link"><a href="http://www.lewisroberts.com/2014/04/05/powershell-net-and-gui-interfaces/#respond" title="Comment on PowerShell .NET and GUI Interfaces">Leave a comment</a></span>
+					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>I&#8217;ve been grabbing a bit of software from Technet (you know, that thing that Microsoft are shutting down! <_<) and with their download links, they provide SHA1 hashes of the ISOs. I had a quick look around the web for something that allowed you to get SHA1 hashes of files and while I found a few, I didn't find any that would allow you to provide a hash and compare the resultant hash with the one you're given by the provider so I decided to write one myself and as with any opportunity, I decided to use PowerShell and .NET with Windows Forms to create a GUI interface as opposed to it all being text based. Sacrilege to those PowerShell purists but it's a limited feature tool and I wanted to learn something new so here's the code.</p>
+<pre class="brush: powershell; title: ; notranslate" title="">
+Function Get-FileName($initialDirectory)
+{   
+ [System.Reflection.Assembly]::LoadWithPartialName(&quot;System.windows.forms&quot;) |  Out-Null
+
+ $OpenFileDialog = New-Object System.Windows.Forms.OpenFileDialog
+ $OpenFileDialog.initialDirectory = $initialDirectory
+ $OpenFileDialog.filter = &quot;All files (*.*)| *.*&quot;
+
+ $OpenFileDialog.ShowDialog() | Out-Null
+ $OpenFileDialog.filename
+} #end function Get-FileName
+
+#We&#8217;re going to draw a form.
+[System.Reflection.Assembly]::LoadWithPartialName(“System.Windows.Forms”) | Out-Null
+
+#Open a GUI for the user to select the file.
+$Filename = Get-FileName -initialDirectory &quot;C:\&quot;
+
+# Check that the path is correct
+If (!(Test-Path $Filename)) { Exit }
+
+# Create Input Data (Read the file)
+$File = [System.IO.File]::Open($Filename, &quot;open&quot;, &quot;read&quot;)
+
+# Create a New SHA1 Crypto Provider
+$Sha1 = New-Object System.Security.Cryptography.SHA1CryptoServiceProvider
+
+# Output the hash (converted to Hex)
+$Hash = [String]::Concat(($Sha1.ComputeHash($File) | % { $_.ToString(&quot;x2&quot;) }))
+
+#[System.Windows.Forms.MessageBox]::Show(&quot;$Hash&quot;, &quot;SHA1 Hash&quot;, 0)
+
+
+# Create a GUI Form
+$objForm = New-Object System.Windows.Forms.Form
+$objForm.Text = “SHA1 Hash Calculator/Comparison Tool”
+$objForm.MaximumSize = $objForm.MinimumSize = $objForm.Size = New-Object System.Drawing.Size(400,250)
+$objForm.MaximizeBox = $objForm.MinimizeBox = $false
+$objForm.StartPosition = “CenterScreen”
+
+# Add a label
+$oTitle = New-Object System.Windows.Forms.Label
+$oTitle.Location = New-Object System.Drawing.Size(5,5)
+$oTitle.Size = New-Object System.Drawing.Size(385,40)
+$oTitle.Text = &quot;The calculated hash for your selected file is shown below. You can paste a known hash and compare the two by clicking the compare button.&quot;
+$objForm.Controls.Add($oTitle)
+
+#File Label
+$oFileLabel = New-Object System.Windows.Forms.Label
+$oFileLabel.Location = New-Object System.Drawing.Size(5,(53))
+$oFileLabel.Size = New-Object System.Drawing.Size(105,20)
+$oFileLabel.Text = “File:”
+$objForm.Controls.Add($oFileLabel)
+
+# Add a Textbox
+$oFileTB = New-Object System.Windows.Forms.TextBox
+$oFileTB.Location = New-Object System.Drawing.Size(($oFileLabel.Left + $oFileLabel.Width + 5),($oFileLabel.Top -3))
+$oFileTB.Size = New-Object System.Drawing.Size(265,20)
+$oFileTB.Text = $Filename.ToString()
+$oFileTB.ReadOnly = $true
+$objForm.Controls.Add($oFileTB)
+
+# Add a Richtextbox
+#$oTitle = New-Object System.Windows.Forms.RichTextBox
+#$oTitle.Location = New-Object System.Drawing.Size(0,0)
+#$oTitle.Size = New-Object System.Drawing.Size(385,45)
+
+#$oTitle.Rtf = &quot;{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fnil\fcharset0 Calibri;}}
+#{\*\generator Riched20 6.3.9600}\viewkind4\uc1 
+#\pard\sa200\sl276\slmult1\f0\fs16\lang9 The calculated hash for your selected file \b (&quot;+$Filename.Replace(&quot;\&quot;, &quot;\\&quot;)+&quot;)\b0  is shown below. You can paste a known hash and compare the two by clicking the compare button.\f1\fs22\par
+#}&quot;
+#$oTitle.ScrollBars = &quot;None&quot;
+#$oTitle.ReadOnly = $True
+
+#$objForm.Controls.Add($oTitle)
+
+
+# Add a label
+$objLabel = New-Object System.Windows.Forms.Label
+$objLabel.Location = New-Object System.Drawing.Size(5,(53+50)) # Everything elses location is calculated in reference to this.
+$objLabel.Size = New-Object System.Drawing.Size(105,20)
+$objLabel.Text = “Calculated SHA1:”
+#$objLabel.TextAlign = &quot;MiddleRight&quot;
+$objForm.Controls.Add($objLabel)
+
+# Add another label
+$objLabel2 = New-Object System.Windows.Forms.Label
+$objLabel2.Text = &quot;Comparison SHA1:&quot;
+#$objLabel2.TextAlign = &quot;MiddleRight&quot;
+$objLabel2.Location = New-Object System.Drawing.Point ($objLabel.Left, ($objLabel.Height + $objLabel.Top + 10))
+$objLabel2.Size = New-Object System.Drawing.Size(105,20)
+$objForm.Controls.Add($objLabel2)
+
+# Add a Textbox
+$objTextBox = New-Object System.Windows.Forms.TextBox
+$objTextBox.Location = New-Object System.Drawing.Size(($objLabel.Left + $objLabel.Width + 5),($objLabel.Top -3))
+$objTextBox.Size = New-Object System.Drawing.Size(265,20)
+$objTextBox.Text = $Hash
+$objTextBox.ReadOnly = $true
+$objForm.Controls.Add($objTextBox)
+
+# Add comparison box
+$objSuppliedVal = New-Object System.Windows.Forms.TextBox
+$objSuppliedVal.Location = New-Object System.Drawing.Point ($ObjTextBox.Left, ($objTextBox.Height + $objTextBox.Top + 10))
+$objSuppliedVal.Size = New-Object System.Drawing.Size(265,20)
+$objForm.Controls.Add($objSuppliedVal)
+
+# Add an Exit button
+$ExitButton = New-Object System.Windows.Forms.Button
+#$ExitButton.Location = New-Object System.Drawing.Size(300,100)
+$ExitButton.Location = New-Object System.Drawing.Point (($ObjTextBox.Right &#8211; 75), ($objSuppliedVal.Height + $objSuppliedVal.Top + 10))
+$ExitButton.Size = New-Object System.Drawing.Size(75,23)
+$ExitButton.Text = “Exit”
+#$ExitButton.Add_Click({$objForm.Close()})
+$objForm.CancelButton = $ExitButton
+$objForm.Controls.Add($ExitButton)
+
+# Add compare button
+$CompareButton = New-Object System.Windows.Forms.Button
+$CompareButton.Location = New-Object System.Drawing.Point (($ExitButton.Left &#8211; $ExitButton.Width &#8211; 10), ($objSuppliedVal.Height + $objSuppliedVal.Top + 10))
+#$CompareButton.Location = New-Object System.Drawing.Size($ExitButton.Left &#8211; $ExitButton.Width &#8211; 10,100)
+$CompareButton.Size = New-Object System.Drawing.Size(75,23)
+$CompareButton.Text = “Compare”
+$CompareButton.Add_Click({
+    
+    $SuppliedValue = $objSuppliedVal.Text.ToLower()
+    $CalculatedValue = $objTextBox.Text.ToLower()
+
+    $MsgBoxButtons = New-Object System.Windows.Forms.MessageBoxButtons
+    $MsgBoxIcon = New-Object System.Windows.Forms.MessageBoxIcon
+
+    If ($SuppliedValue -eq $CalculatedValue) {
+
+        $MsgBoxButtons = &quot;OK&quot;
+        $MsgBoxIcon = &quot;Information&quot;
+
+        [System.Windows.Forms.MessageBox]::Show(&quot;Matched successfully.&quot;, &quot;Success&quot;, $MsgBoxButtons, $MsgBoxIcon)
+
+    }
+    Else {
+
+        $MsgBoxButtons = &quot;OK&quot;
+        $MsgBoxIcon = &quot;Warning&quot;
+
+        [System.Windows.Forms.MessageBox]::Show(&quot;Not matched.&quot;, &quot;Not matched&quot;, $MsgBoxButtons, $MsgBoxIcon)
+    
+    }
+
+
+
+})
+$objForm.Controls.Add($CompareButton)
+
+
+$objForm.Topmost = $true
+$objForm.ShowDialog()
+
+
+
+# Clear up
+$File.Dispose()
+</pre>
+<p>All that lot should give you:<br />
+A prompt to select the file you want to calculate the hash of<br />
+<img src="http://www.lewisroberts.com/wp-content/uploads/2014/04/PrtScr-capture.jpg" alt="Open Dialog" width="953" height="374" class="alignnone size-full wp-image-807" /><br />
+The hash result<br />
+<img src="http://www.lewisroberts.com/wp-content/uploads/2014/04/PrtScr-capture_2.jpg" alt="Hash Result" width="400" height="250" class="alignnone size-full wp-image-808" /><br />
+And then, if you supply a hash and click the Compare button, it&#8217;ll say either<br />
+<img src="http://www.lewisroberts.com/wp-content/uploads/2014/04/PrtScr-capture_3.jpg" alt="Match Success" width="235" height="172" class="alignnone size-full wp-image-809" /><img src="http://www.lewisroberts.com/wp-content/uploads/2014/04/PrtScr-capture_4.jpg" alt="Match Failure" width="193" height="172" class="alignnone size-full wp-image-810" /></p>
+<p>Now I&#8217;m sure there are PowerShell gurus out there that could have all this done in 4 lines of code but it was a learning experience so the code is always likely to be a little more verbose than is absolutely necessary.</p>
+<p>Feel free to use the code but plug me as a source if you&#8217;re going to use the code on your own blog if you wouldn&#8217;t mind.</p>
+<p>-Lewis</p>
+	</div><!-- .entry-content -->
+	
+	</article><!-- #post-## -->
+
+<article id="post-783" class="post-783 post type-post status-publish format-standard hentry category-general">
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="http://www.lewisroberts.com/category/general/" rel="category tag">General</a></span>
+		</div>
+		<h1 class="entry-title"><a href="http://www.lewisroberts.com/2014/04/02/html5-canvas-scaling/" rel="bookmark">HTML5 Canvas Scaling</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.lewisroberts.com/2014/04/02/html5-canvas-scaling/" rel="bookmark"><time class="entry-date" datetime="2014-04-02T23:56:01+00:00">Wed 2nd April, 2014</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.lewisroberts.com/author/ljr/" rel="author">Lewis</a></span></span>			<span class="comments-link"><a href="http://www.lewisroberts.com/2014/04/02/html5-canvas-scaling/#respond" title="Comment on HTML5 Canvas Scaling">Leave a comment</a></span>
+					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Recently I&#8217;ve had some time to fettle with things other than Infrastructure and Windows servers so I&#8217;ve decided to do <a href="http://www.eastgateit.co.uk/" target="_blank">my company website</a> with HTML 5. It&#8217;s nothing special but as part of my tinkering, I created a new logo and I thought it&#8217;d be cool to re-create it in HTML5 Canvas so it was unique and somewhat versatile.</p>
+<p>The process starts out as quite a difficult task. How on earth do you re-create a logo by drawing some lines? Well, to cut a long story short, I opened it up in my favourite vector drawing app (the one I used to create it) and just copied the x,y coordinates of the anchor points on to an HTML5 canvas that was the same size as the artboard the illustration was on.</p>
+<p>First you&#8217;ll need a canvas element on your HTML5 page. Something like:</p>
+<p>Pay attention to the width and height declarations since this is the canvas size (in pixels) you&#8217;re drawing on.</p>
+<pre class="brush: xml; title: ; notranslate" title="">
+&lt;canvas id=&quot;logo&quot; height=&quot;102&quot; width=&quot;102&quot;&gt;Browser says no...&amp;lt;canvas&amp;gt;&lt;/canvas&gt;
+</pre>
+<p>The end result is pretty cool. All of this:</p>
+<pre class="brush: jscript; title: ; notranslate" title="">
+
+function drawLogo(target) {
+var element = document.getElementById(target);
+var canvas = element.getContext(&quot;2d&quot;);
+
+/*
+Originally drawn on 102px x 102px canvas (it wouldn't go smaller without distorting!)
+Use this scale (the original canvas size)
+to calculate the appropriate scaling values for
+the intended target canvas.
+*/
+
+var oScaleY = 102;
+var oScaleX = 102;
+
+canvas.scale ((element.width / oScaleX), (element.height / oScaleY)); //Scale the canvas to fit the canvas object's width height.
+
+canvas.beginPath();
+
+canvas.moveTo(5, 4); // Starting Point
+canvas.lineTo(5, 30);
+canvas.lineTo(23, 30);
+canvas.lineTo(23, 40);
+canvas.lineTo(5, 40);
+canvas.lineTo(5, 66);
+canvas.lineTo(23, 66);
+canvas.lineTo(23, 77);
+canvas.lineTo(5, 77);
+canvas.lineTo(5, 103);
+canvas.lineTo(90, 103);
+canvas.lineTo(98, 90);
+canvas.lineTo(90, 77);
+canvas.lineTo(79, 77);
+canvas.lineTo(79, 66);
+canvas.lineTo(84, 66);
+canvas.lineTo(92, 53);
+canvas.lineTo(84, 40);
+canvas.lineTo(79, 40);
+canvas.lineTo(79, 30);
+canvas.lineTo(92, 30);
+canvas.lineTo(100, 17);
+canvas.lineTo(92, 4);
+
+canvas.closePath();
+
+// Seemingly the gradient size must be based on the original drawn canvas.
+var grad = canvas.createLinearGradient(0,oScaleX,0,0);
+
+grad.addColorStop(0, &quot;rgb(46,92,139)&quot;);
+grad.addColorStop(0.25, &quot;rgb(0,113,188)&quot;);
+
+canvas.fillStyle = grad; // Set the gradient as the fill colour.
+
+canvas.fill(); // Fill the closed path (with the gradient)
+
+canvas.fillStyle = &quot;rgb(255,255,255)&quot;; // Set a new fill colour (white)
+canvas.fillRect(29, 30, 44, 10); // Create a filled (white) rectangle.
+
+canvas.beginPath();
+
+canvas.moveTo(29, 66);
+canvas.lineTo(29, 77);
+canvas.lineTo(64, 77);
+canvas.lineTo(64, 81);
+canvas.lineTo(73, 81);
+canvas.lineTo(73, 62);
+canvas.lineTo(64, 62);
+canvas.lineTo(64, 66);
+
+canvas.closePath();
+
+canvas.fill();
+}
+
+drawLogo(&quot;logo&quot;); // Actually draw the logo
+
+</pre>
+<p>Gives you something looking like this:</p>
+<p><img alt="" src="http://www.lewisroberts.com/wp-content/uploads/2014/04/040214_2354_HTML5Canvas1.png" /></p>
+<p>Anyway, I&#8217;m not here to teach you how to re-create my company logo in HTML5, needless to say, that&#8217;s what it looks like. The JavaScript function above does some clever scaling so if your intended target HTML5 canvas element defines its height and width as something other than what you drew the original anchor points on, it&#8217;ll scale to that appropriately. To explain, I originally drew this on a 102px x 102px canvas so all the canvas.lineTo declarations relate to that size canvas. Say I want to scale it up to say 300px x 300px, I can use the canvas.scale method to achieve that so this bit of code calculates the scaling factor and applies that to the canvas which helps to retain quality when it&#8217;s scaled unlike bitmaps which, as we know, don&#8217;t scale well.</p>
+<pre class="brush: jscript; title: ; notranslate" title="">
+/*
+Originally drawn on 102px x 102px canvas (it wouldn't go smaller without distorting!)
+Use this scale (the original canvas size)
+to calculate the appropriate scaling values for
+the intended target canvas.
+*/
+
+var oScaleY = 102;
+var oScaleX = 102;
+
+canvas.scale ((element.width / oScaleX), (element.height / oScaleY)); //Scale the canvas to fit the canvas object's width height.
+</pre>
+<p>Now, as we look at the site on a desktop PC, the logo looks great and is razor sharp. It&#8217;ll scale up nicely in multiples of 2 by adjusting the canvas element&#8217;s width and height properties and retain its sharpness but values other than that will give you blurred edges. Still, SVG does the same thing as far as I can tell from my own eyesight.</p>
+<p>So what&#8217;s the problem? Well, given that the new site is supposed to be responsive design and degrade (I think I&#8217;ll call it re-grading since there&#8217;s no loss of functionality for my site) for mobile and tablet, when you look at that image on a mobile or tablet, it looks blurred because the devicePixelRatio is greater than 1 and the image is scaled up by the device but retains the original dimensions as defined on the canvas element itself.</p>
+<p>On a Nexus 5 with a devicePixelRatio of 3 (at least that&#8217;s what its browser tells me it is) this blurriness is quite profound and looks something like this which, for a sharp site, looks shocking compared to the HTML5 SVG above.</p>
+<p><img src="http://www.lewisroberts.com/wp-content/uploads/2014/04/nexus5_screenshot.jpg" alt="nexus5_screenshot" width="382" height="396" class="alignnone size-full wp-image-798" /></p>
+<p><img src="http://www.lewisroberts.com/wp-content/uploads/2014/04/nexus7_screenshot.jpg" alt="nexus7_screenshot" width="254" height="282" class="alignnone size-full wp-image-799" /></p>
+<p>So, the fix to me seems logical: you should scale the canvas element up by the declared devicePixelRatio amount, let the scaling calculation in the drawing function handle the actual size that comes out and scale back using CSS.</p>
+<p>So, here&#8217;s the extra code before we call our drawLogo function:</p>
+<pre class="brush: jscript; title: ; notranslate" title="">
+// Upscale the canvas element for mobile HiDPI screens.
+// It gets scaled down again to the original size by CSS.
+// Keeps the HTML5 canvas sharp on all screen types.
+
+var canvas = document.getElementById(&quot;logo&quot;);
+canvas.width = canvas.width * window.devicePixelRatio;
+canvas.height = canvas.height * window.devicePixelRatio;
+</pre>
+<p>To retain the 102px x 102px image size that we originally intended for our canvas (remember this works for other sizes too!) and for it to look good (not just a bigger image) we need to use CSS to keep the canvas element&#8217;s dimensions at what we originally intended for our canvas.</p>
+<pre class="brush: css; title: ; notranslate" title="">
+canvas {
+height: 102px;
+width: 102px;
+}
+</pre>
+<p>In essence what I&#8217;ve done is to increase the dimensions of the canvas element proportionally to the devicePixelRatio so, if the devicePixelRatio is 3, the in-flight JavaScript resizes the entire element to: width = (102 x 3), height = (102 x 3). The increased size of the canvas element is passed to the drawLogo function which creates an image 3 times the size. This is then drawn on to the canvas which is then styled using CSS back down to 102px. The best way to think of this is like using an oversized PNG scaled down within the img dimensions so it looks OK on mobile devices.<br />
+The end result is images that are sharp and consistent across desktop, tablet and mobile screens:</p>
+<p><img src="http://www.lewisroberts.com/wp-content/uploads/2014/04/nexus7_improved.jpg" alt="nexus7_improved" width="347" height="333" class="alignnone size-full wp-image-800" /></p>
+<p><img src="http://www.lewisroberts.com/wp-content/uploads/2014/04/nexus5_improved.jpg" alt="nexus5_improved" width="400" height="431" class="alignnone size-full wp-image-801" /></p>
+<p><img src="http://www.lewisroberts.com/wp-content/uploads/2014/04/desktop_original.jpg" alt="desktop_original" width="163" height="163" class="alignnone size-full wp-image-802" /></p>
+<p>NB: Please remember that I&#8217;ve only been able to test this with the limited hardware available to me, all of which are Android devices. Nexus 5, Nexus 7 (2012 and 2013), Samsung Galaxy Nexus and of course my Windows 8.1 desktop. If you get different or inconsistent results with your devices, please let me know!</p>
+	</div><!-- .entry-content -->
+	
+	</article><!-- #post-## -->
+
+<article id="post-749" class="post-749 post type-post status-publish format-standard hentry category-general">
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="http://www.lewisroberts.com/category/general/" rel="category tag">General</a></span>
+		</div>
+		<h1 class="entry-title"><a href="http://www.lewisroberts.com/2013/05/08/managed-service-accounts-in-windows-2012/" rel="bookmark">Managed Service Accounts in Windows 2012</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.lewisroberts.com/2013/05/08/managed-service-accounts-in-windows-2012/" rel="bookmark"><time class="entry-date" datetime="2013-05-08T16:13:11+00:00">Wed 8th May, 2013</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.lewisroberts.com/author/ljr/" rel="author">Lewis</a></span></span>			<span class="comments-link"><a href="http://www.lewisroberts.com/2013/05/08/managed-service-accounts-in-windows-2012/#respond" title="Comment on Managed Service Accounts in Windows 2012">Leave a comment</a></span>
+					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>One for the notebook if you tend to use Managed Service Accounts extensively and eventually end up implementing them in a Windows Server 2012 environment.</p>
+<blockquote><p><strong>For Windows Server 2012, the Windows PowerShell cmdlets default to managing the group Managed Service Accounts instead of the original standalone Managed Service Accounts.</strong></p></blockquote>
+<p>A useful alteration but surely retaining the default use and extending the cmdlet would make it less prone to us admins using MSAs regularly to smashing up keyboards.</p>
+<p>-Lewis</p>
+	</div><!-- .entry-content -->
+	
+	</article><!-- #post-## -->
+
+<article id="post-695" class="post-695 post type-post status-publish format-standard hentry category-general">
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="http://www.lewisroberts.com/category/general/" rel="category tag">General</a></span>
+		</div>
+		<h1 class="entry-title"><a href="http://www.lewisroberts.com/2013/04/18/active-directory-recycle-bin/" rel="bookmark">Active Directory Recycle Bin</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.lewisroberts.com/2013/04/18/active-directory-recycle-bin/" rel="bookmark"><time class="entry-date" datetime="2013-04-18T14:45:54+00:00">Thu 18th April, 2013</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.lewisroberts.com/author/ljr/" rel="author">Lewis</a></span></span>			<span class="comments-link"><a href="http://www.lewisroberts.com/2013/04/18/active-directory-recycle-bin/#respond" title="Comment on Active Directory Recycle Bin">Leave a comment</a></span>
+					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Windows Server 2008 R2 delivered a new feature called the Active Directory Recycle Bin which offers the ability to restore items deleted from the Active Directory database by restoring them from the Recycle Bin with the simplicity of&#8230;.well, it&#8217;s not really that simple.</p>
+<p>The premise is simple enough. You&#8217;ve deleted an item that you want to restore so instead of breaking out the backups, taking down a Domain Controller, booting in to DSRM and re-acquanting yourself with NTDSUTIL, you enable the Recycle Bin to save you all that hassle.</p>
+<p>But wait a minute! Before enabling the Active Directory Recycle Bin (ADRB) there are a couple of caveats which you should be aware of. Now, Microsoft will tell you what you <em><strong>need</strong></em> to enable your use of ADRB such as:</p>
+<ul>
+<li>Forest Functional Level: Windows Server 2008 R2.</li>
+<li>All Domain Controllers running Windows Server 2008R2</li>
+</ul>
+<p>&#8230;but the limits that enabling Active Directory Recycle Bin can have on restore operations is significant enough to ensure that your Backup Operators and Data Security personnel need to be consulted before you make a unilateral decision to enable it.</p>
+<ol>
+<li>Enabling ADRB transitions all currently <em>Tombstoned</em> (deleted) objects to the new <em>Recycled</em> object state. This effectively means that current Tombstoned objects (objects deleted in the last 180 days) should never be restored, either through object reanimation or via an authoritative restore.</li>
+<li>Similar to the above, once an object reaches the <em>Recycled</em> object state (after 180 days of being a <em>Logically Deleted</em> object) it cannot be restored or recovered from backup. Microsoft recommends that you do not use authoritative restores at all after enabling ADRB and that you only use ADRB to restore objects during their deleted object lifetime (DOL). This article: http://technet.microsoft.com/en-us/library/dd379542(WS.10).aspx details the recommendation which effectively means that restores must be done within the deleted object lifetime or you should consider the object completely unrecoverable. The deleted object lifetime can be adjusted at the expense of an increased AD database size and replication traffic but the default is 180 days.</li>
+<li>ADRB cannot restore changed objects &#8211; this must be done using an authoritative restore while the object is still live. Hopefully the proper use of change processes in your organisation should  minimise the eventuality of this occurring and permit the ability to simply undo a change but we all know what happens in the real world.</li>
+<li>Enabling ADRB results in the size of your Active Directory database increasing (and consequently the replication bandwidth requirements) to accommodate the new object states before objects deleted are completely removed from the database. The increase is dependent on the amount and type of objects created and deleted but since there is a new object state, the time the objects remain in the database is effectively doubled.</li>
+</ol>
+<p>Once each of these discussion points has been thoroughly considered should you look at enabling the Active Directory Recycle Bin.</p>
+<p>I know this subject is fairly old hat given that Windows Server 2012 is now available but I&#8217;m still astonished by the numbers of Active Directories that I come across that aren&#8217;t making use of the Active Directory Recycle Bin. Reading the pro-tip (can I call myself a pro?) enabling it in Windows Server 2012 is pretty much a no-brainer with the easy-peasy GUI on offer, just be mindful of the implications.</p>
+<p><strong>Pro tip</strong>: Although the procedure for using the Recycle Bin is currently based on PowerShell, Windows Server 2012 provides a Graphical User Interface to permit much simpler use of the Recycle Bin feature.</p>
+<p><strong>Admission</strong>: I actually wrote this article nearly 12 months ago but never finished it or published it &#8211; since then Windows Server 2012 has been released so I&#8217;ve made mention of that in the article.</p>
+	</div><!-- .entry-content -->
+	
+	</article><!-- #post-## -->
+
+<article id="post-743" class="post-743 post type-post status-publish format-standard hentry category-general">
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="http://www.lewisroberts.com/category/general/" rel="category tag">General</a></span>
+		</div>
+		<h1 class="entry-title"><a href="http://www.lewisroberts.com/2012/12/20/and-just-like-that/" rel="bookmark">And just like that&#8230;</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.lewisroberts.com/2012/12/20/and-just-like-that/" rel="bookmark"><time class="entry-date" datetime="2012-12-20T23:31:40+00:00">Thu 20th December, 2012</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.lewisroberts.com/author/ljr/" rel="author">Lewis</a></span></span>			<span class="comments-link"><a href="http://www.lewisroberts.com/2012/12/20/and-just-like-that/#respond" title="Comment on And just like that&#8230;">Leave a comment</a></span>
+					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>I&#8217;m no longer looking for new challenges in 2013! I have one ready to go and it sounds fantastic. I&#8217;m looking forward to helping my next employer bring their network infrastructure and supporting services bang up to date so they can provide a cutting edge service to wow their existing customers, expand their client base in to new markets and grow their business the way they want it to grow.</p>
+<p>If I don&#8217;t say so beforehand, I hope you all have a Happy Christmas 2012 and a prosperous New Year in 2013 and beyond. Here&#8217;s to new challenges in 2013!</p>
+<p>-Lewis</p>
+	</div><!-- .entry-content -->
+	
+	</article><!-- #post-## -->
+
+<article id="post-741" class="post-741 post type-post status-publish format-standard hentry category-general">
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="http://www.lewisroberts.com/category/general/" rel="category tag">General</a></span>
+		</div>
+		<h1 class="entry-title"><a href="http://www.lewisroberts.com/2012/12/17/looking-for-new-challenges-in-2013/" rel="bookmark">Looking for new challenges in 2013</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.lewisroberts.com/2012/12/17/looking-for-new-challenges-in-2013/" rel="bookmark"><time class="entry-date" datetime="2012-12-17T13:09:28+00:00">Mon 17th December, 2012</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.lewisroberts.com/author/ljr/" rel="author">Lewis</a></span></span>			<span class="comments-link"><a href="http://www.lewisroberts.com/2012/12/17/looking-for-new-challenges-in-2013/#respond" title="Comment on Looking for new challenges in 2013">Leave a comment</a></span>
+					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>I&#8217;m now on the lookout for new contract opportunities beginning in early 2013 and would welcome new contacts in the industry to get in touch if you&#8217;re looking for a highly skilled Windows Server Enterprise Administrator, Service Design Engineer or Project Technical Lead.</p>
+<p>If you&#8217;re interested in making contact, please use my LinkedIn profile at: http://uk.linkedin.com/in/lewisroberts/</p>
+<p>Thanks!<br />
+Lewis</p>
+	</div><!-- .entry-content -->
+	
+	</article><!-- #post-## -->
+
+<article id="post-731" class="post-731 post type-post status-publish format-standard hentry category-general">
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="http://www.lewisroberts.com/category/general/" rel="category tag">General</a></span>
+		</div>
+		<h1 class="entry-title"><a href="http://www.lewisroberts.com/2012/10/03/orange-infuriate-my-soul/" rel="bookmark">Orange infuriate my soul</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.lewisroberts.com/2012/10/03/orange-infuriate-my-soul/" rel="bookmark"><time class="entry-date" datetime="2012-10-03T14:37:53+00:00">Wed 3rd October, 2012</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.lewisroberts.com/author/ljr/" rel="author">Lewis</a></span></span>			<span class="comments-link"><a href="http://www.lewisroberts.com/2012/10/03/orange-infuriate-my-soul/#respond" title="Comment on Orange infuriate my soul">Leave a comment</a></span>
+					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p><a href="http://www.lewisroberts.com/wp-content/uploads/2012/10/orange.gif" rel="lightbox[731]"><img src="http://www.lewisroberts.com/wp-content/uploads/2012/10/orange.gif" alt="" title="cringe" width="341" height="341" class="aligncenter size-full wp-image-733" /></a></p>
+<p>I recently applied to join Orange as I was spending more than I needed to on my monthly bills with T-Mobile. I gave T-Mobile a chance to match the deal I could get with Orange but they could only give me it on a 12 month contract. I don&#8217;t do twelve month contracts any more, one month rolling is all I&#8217;m willing to sign up to since I buy my own mobiles unlocked and outright.</p>
+<p>Since I&#8217;ve only lived at my new address for 18 months, Orange wanted proof of my address using some kind of utility bill so, being the environmentally friendly person I am using paperless billing and online accounts as much as possible, I downloaded my latest bill from my energy provider and emailed it to Orange&#8217;s referral team as requested&#8230;this is what I got back.</p>
+<p><a href="http://www.lewisroberts.com/wp-content/uploads/2012/10/PrtScr-capture.png" rel="lightbox[731]"><img class="aligncenter size-medium wp-image-732" title="Orange response" src="http://www.lewisroberts.com/wp-content/uploads/2012/10/PrtScr-capture-300x144.png" alt="" width="300" height="144" /></a></p>
+<p>So the referrals department received my proof but weren&#8217;t able to accept it&#8230;.</p>
+<p>No explanation as to why or what the cause of their non-acceptance was they just didn&#8217;t accept something they asked for and were sent. So am I to guess what they want?!</p>
+<p>Last chance Orange or I take my business to O2, again.</p>
+	</div><!-- .entry-content -->
+	
+	</article><!-- #post-## -->
+
+<article id="post-727" class="post-727 post type-post status-publish format-standard hentry category-general">
+	
+	<header class="entry-header">
+				<div class="entry-meta">
+			<span class="cat-links"><a href="http://www.lewisroberts.com/category/general/" rel="category tag">General</a></span>
+		</div>
+		<h1 class="entry-title"><a href="http://www.lewisroberts.com/2012/09/21/fedora-16-to-17-upgrade-shenanigans/" rel="bookmark">Fedora 16 to 17 upgrade shenanigans</a></h1>
+		<div class="entry-meta">
+			<span class="entry-date"><a href="http://www.lewisroberts.com/2012/09/21/fedora-16-to-17-upgrade-shenanigans/" rel="bookmark"><time class="entry-date" datetime="2012-09-21T23:03:57+00:00">Fri 21st September, 2012</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.lewisroberts.com/author/ljr/" rel="author">Lewis</a></span></span>			<span class="comments-link"><a href="http://www.lewisroberts.com/2012/09/21/fedora-16-to-17-upgrade-shenanigans/#comments" title="Comment on Fedora 16 to 17 upgrade shenanigans">1 Comment</a></span>
+					</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+
+		<div class="entry-content">
+		<p>Fedora 16 to 17 Upgrade&#8230;nightmare.</p>
+<p>I&#8217;m convinced that persons developing and using Linux on a daily basis insist that upgrading your Linux distro to the latest and greatest is supposed to be the easiest thing since wiping your own arse. In all frank and honesty, upgrading to Fedora 17 from 16 has been a royal pain in said arse.</p>
+<p>I first attempted to perform the upgrade shortly after Fedora 17 went live. I received some random error message about gtk_init moaning about displays or some such bollocks and didn&#8217;t bother trying any further thinking they&#8217;d sort something out with F16 to help you through the upgrade. Well, they didn&#8217;t.</p>
+<p>Running preupgrade on a runlevel 3 (non-GUI, you know, a server) will give you said error. What you&#8217;re supposed to do is execute preupgrade-cli. Why of course! I should have known! Did the dev forget to check the runlevel and offer a bit of advice instead of puking all over the screen? Guess not.</p>
+<p>Then when you run preupgrade-cli, you do so by specifying the distro to upgrade to:</p>
+<pre class="brush: plain; title: ; notranslate" title="">preupgrade-cli &quot;Fedora 17 (Beefy Miracle)&quot;</pre>
+<p>Then you&#8217;re moaned at for not having a large enough partition for some random file but told it will be all OK if you&#8217;re on a wired connection. Full speed ahead your system downloads all the packages and then, after saying its made a change to your grub config, you are safe to reboot. Now the system reboots&#8230;and promptly goes straight back in to F16. If your computer could look back at you in a nonplussed fashion, it would be doing.</p>
+<p>So you have another go and spot the error that says sh grub file or folder not found. Eh? How is my PC even booting if grub isn&#8217;t there? It turns out that F16 apparently forced an upgrade to GRUB2 and it&#8217;s your GRUB2 config file that receives the updated &#8220;Upgrade to Beefy Miracle&#8221; boot entry. Useful! Except my computer was booting from GRUB. Don&#8217;t ask me why, I have no idea.</p>
+<p>So I ensure GRUB2 is installed and on my boot partition:
+<pre class="brush: plain; title: ; notranslate" title="">grub2-install /dev/sda</pre>
+<p>I then decide it&#8217;s wise to ensure that my GRUB2 install has the latest info about my system (all the kernels I had in GRUB):
+<pre class="brush: plain; title: ; notranslate" title="">grub2-mkconfig -o /boot/grub2/grub.cfg</pre>
+<p>A reboot yields an actual option to perform the upgrade to Beefy Miracle so I select it and again my computer screen is puked on with various 404 errors. Yes, that&#8217;s right, the &#8220;second stage&#8221; URL that grubby spewed in to my grub.cfg at the end of preupgrade-cli was WRONG so I had to edit it and remove the /LiveOS\squashfs.img location MANUALLY by pressing &#8220;e&#8221; on the highlighted boot table entry when GRUB2 loaded.</p>
+<p>Only after all this (which I admit involved a lot of reading/learning) did I manage to get to a point where it looked like Fedora 17 would install the packages it had spent an hour downloading. As I type this it&#8217;s still installing the F17 packages but I have no idea if it will actually work given how many upgrade cock-ups I&#8217;ve had to battle my way through so far. Someone at Fedora needs shooting.</p>
+<p>&#8211; Lewis</p>
+	</div><!-- .entry-content -->
+	
+	</article><!-- #post-## -->
+	<nav class="navigation paging-navigation" role="navigation">
+		<h1 class="screen-reader-text">Posts navigation</h1>
+		<div class="pagination loop-pagination">
+			<span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://www.lewisroberts.com/page/2/'>2</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://www.lewisroberts.com/page/22/'>22</a>
+<a class="next page-numbers" href="http://www.lewisroberts.com/page/2/">Next &rarr;</a>		</div><!-- .pagination -->
+	</nav><!-- .navigation -->
+	
+		</div><!-- #content -->
+	</div><!-- #primary -->
+	<div id="content-sidebar" class="content-sidebar widget-area" role="complementary">
+	<aside id="linkcat-5" class="widget widget_links"><h1 class="widget-title">Links</h1>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.theblindfactoryleeds.co.uk/" rel="parent" title="Manufacturers of window blinds including vertical, venetian, roman, roller and loft blinds for commercial (office) and domestic use.">Blind Factory</a></li>
+<li><a href="http://www.globaldjbroadcast.com/" title="Website of the best online radio show in the world bar none! Markus is a god!">Global DJ Broadcast</a></li>
+<li><a href="http://www.transishun.co.uk/" rel="me" title="Download all of my MP3 mixes from here." target="_blank">transishun mixes</a></li>
+
+	</ul>
+</aside>
+<aside id="meta-3" class="widget widget_meta"><h1 class="widget-title">Meta</h1>			<ul>
+						<li><a href="https://www.lewisroberts.com/wp-login.php">Log in</a></li>
+			<li><a href="http://www.lewisroberts.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://www.lewisroberts.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+</aside><aside id="tag_cloud-3" class="widget widget_tag_cloud"><h1 class="widget-title">Tags</h1><div class="tagcloud"><a href='http://www.lewisroberts.com/tag/architect/' class='tag-link-32' title='1 topic' style='font-size: 8pt;'>architect</a>
+<a href='http://www.lewisroberts.com/tag/big-dipper/' class='tag-link-41' title='1 topic' style='font-size: 8pt;'>big dipper</a>
+<a href='http://www.lewisroberts.com/tag/blackpool/' class='tag-link-42' title='1 topic' style='font-size: 8pt;'>blackpool</a>
+<a href='http://www.lewisroberts.com/tag/blackpool-pleasure-beach/' class='tag-link-39' title='1 topic' style='font-size: 8pt;'>blackpool pleasure beach</a>
+<a href='http://www.lewisroberts.com/tag/castle/' class='tag-link-8' title='1 topic' style='font-size: 8pt;'>castle</a>
+<a href='http://www.lewisroberts.com/tag/cd/' class='tag-link-14' title='1 topic' style='font-size: 8pt;'>cd</a>
+<a href='http://www.lewisroberts.com/tag/cherry-blossom/' class='tag-link-18' title='1 topic' style='font-size: 8pt;'>cherry blossom</a>
+<a href='http://www.lewisroberts.com/tag/church/' class='tag-link-30' title='1 topic' style='font-size: 8pt;'>church</a>
+<a href='http://www.lewisroberts.com/tag/city-museum/' class='tag-link-34' title='1 topic' style='font-size: 8pt;'>city museum</a>
+<a href='http://www.lewisroberts.com/tag/closeup/' class='tag-link-37' title='1 topic' style='font-size: 8pt;'>closeup</a>
+<a href='http://www.lewisroberts.com/tag/crow/' class='tag-link-24' title='1 topic' style='font-size: 8pt;'>crow</a>
+<a href='http://www.lewisroberts.com/tag/feather/' class='tag-link-50' title='1 topic' style='font-size: 8pt;'>feather</a>
+<a href='http://www.lewisroberts.com/tag/hdr/' class='tag-link-31' title='1 topic' style='font-size: 8pt;'>hdr</a>
+<a href='http://www.lewisroberts.com/tag/ie8-google-maps-street-view/' class='tag-link-11' title='1 topic' style='font-size: 8pt;'>ie8 google maps street view</a>
+<a href='http://www.lewisroberts.com/tag/leeds/' class='tag-link-25' title='4 topics' style='font-size: 14.363636363636pt;'>leeds</a>
+<a href='http://www.lewisroberts.com/tag/leeds-institute/' class='tag-link-35' title='1 topic' style='font-size: 8pt;'>leeds institute</a>
+<a href='http://www.lewisroberts.com/tag/lightning/' class='tag-link-45' title='1 topic' style='font-size: 8pt;'>lightning</a>
+<a href='http://www.lewisroberts.com/tag/markus-shulz/' class='tag-link-13' title='1 topic' style='font-size: 8pt;'>markus shulz</a>
+<a href='http://www.lewisroberts.com/tag/mill-hill/' class='tag-link-28' title='1 topic' style='font-size: 8pt;'>mill hill</a>
+<a href='http://www.lewisroberts.com/tag/music/' class='tag-link-3' title='1 topic' style='font-size: 8pt;'>Music</a>
+<a href='http://www.lewisroberts.com/tag/niece/' class='tag-link-38' title='1 topic' style='font-size: 8pt;'>niece</a>
+<a href='http://www.lewisroberts.com/tag/night/' class='tag-link-27' title='1 topic' style='font-size: 8pt;'>night</a>
+<a href='http://www.lewisroberts.com/tag/november/' class='tag-link-9' title='1 topic' style='font-size: 8pt;'>november</a>
+<a href='http://www.lewisroberts.com/tag/opposite-the-met/' class='tag-link-33' title='1 topic' style='font-size: 8pt;'>opposite the met</a>
+<a href='http://www.lewisroberts.com/tag/optical-illusion/' class='tag-link-44' title='1 topic' style='font-size: 8pt;'>optical illusion</a>
+<a href='http://www.lewisroberts.com/tag/park-row/' class='tag-link-29' title='1 topic' style='font-size: 8pt;'>park row</a>
+<a href='http://www.lewisroberts.com/tag/petal/' class='tag-link-21' title='1 topic' style='font-size: 8pt;'>petal</a>
+<a href='http://www.lewisroberts.com/tag/photo/' class='tag-link-22' title='14 topics' style='font-size: 22pt;'>photo</a>
+<a href='http://www.lewisroberts.com/tag/photography-sunset/' class='tag-link-10' title='1 topic' style='font-size: 8pt;'>photography sunset</a>
+<a href='http://www.lewisroberts.com/tag/pink/' class='tag-link-19' title='1 topic' style='font-size: 8pt;'>pink</a>
+<a href='http://www.lewisroberts.com/tag/pleasure-beach/' class='tag-link-43' title='1 topic' style='font-size: 8pt;'>pleasure beach</a>
+<a href='http://www.lewisroberts.com/tag/progressive/' class='tag-link-16' title='1 topic' style='font-size: 8pt;'>progressive</a>
+<a href='http://www.lewisroberts.com/tag/release/' class='tag-link-15' title='1 topic' style='font-size: 8pt;'>release</a>
+<a href='http://www.lewisroberts.com/tag/rollercoaster/' class='tag-link-40' title='1 topic' style='font-size: 8pt;'>rollercoaster</a>
+<a href='http://www.lewisroberts.com/tag/scarborough/' class='tag-link-7' title='1 topic' style='font-size: 8pt;'>scarborough</a>
+<a href='http://www.lewisroberts.com/tag/smiling-baby/' class='tag-link-36' title='1 topic' style='font-size: 8pt;'>smiling baby</a>
+<a href='http://www.lewisroberts.com/tag/sunset/' class='tag-link-53' title='2 topics' style='font-size: 10.863636363636pt;'>sunset</a>
+<a href='http://www.lewisroberts.com/tag/territorial/' class='tag-link-23' title='1 topic' style='font-size: 8pt;'>territorial</a>
+<a href='http://www.lewisroberts.com/tag/town-hall/' class='tag-link-26' title='1 topic' style='font-size: 8pt;'>town hall</a>
+<a href='http://www.lewisroberts.com/tag/trance/' class='tag-link-12' title='1 topic' style='font-size: 8pt;'>trance</a>
+<a href='http://www.lewisroberts.com/tag/trees/' class='tag-link-20' title='1 topic' style='font-size: 8pt;'>trees</a>
+<a href='http://www.lewisroberts.com/tag/tulips/' class='tag-link-48' title='1 topic' style='font-size: 8pt;'>tulips</a>
+<a href='http://www.lewisroberts.com/tag/wheat/' class='tag-link-51' title='1 topic' style='font-size: 8pt;'>wheat</a>
+<a href='http://www.lewisroberts.com/tag/yellow/' class='tag-link-49' title='1 topic' style='font-size: 8pt;'>yellow</a></div>
+</aside></div><!-- #content-sidebar -->
+</div><!-- #main-content -->
+
+<div id="secondary">
+		<h2 class="site-description">me, on scripting, trance and other subjects i enjoy</h2>
+	
+	
+		<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+		<aside id="calendar-3" class="widget widget_calendar"><div id="calendar_wrap"><table id="wp-calendar">
+	<caption>September 2014</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Sunday">S</th>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="http://www.lewisroberts.com/2014/04/">&laquo; Apr</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="1" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+	</tr>
+	<tr>
+		<td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
+	</tr>
+	<tr>
+		<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+	</tr>
+	<tr>
+		<td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+	</tr>
+	<tr>
+		<td>28</td><td>29</td><td id="today">30</td>
+		<td class="pad" colspan="4">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></aside><aside id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://www.lewisroberts.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></aside><aside id="categories-2" class="widget widget_categories"><h1 class="widget-title">Categories</h1>		<ul>
+	<li class="cat-item cat-item-2"><a href="http://www.lewisroberts.com/category/general/" title="General stuff, usually just stuff related to networking and admin.">General</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.lewisroberts.com/category/music/" title="More than likely going to be trance and a little bit of funky/electro house.">Music</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.lewisroberts.com/category/photography/" >Photography</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.lewisroberts.com/category/scripting/" title="PHP, Batch, VBScript, JavaScript etc.">Scripting</a>
+</li>
+	<li class="cat-item cat-item-83"><a href="http://www.lewisroberts.com/category/web-development/" >Web Development</a>
+</li>
+		</ul>
+</aside><aside id="meta-4" class="widget widget_meta"><h1 class="widget-title">Meta</h1>			<ul>
+						<li><a href="https://www.lewisroberts.com/wp-login.php">Log in</a></li>
+			<li><a href="http://www.lewisroberts.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://www.lewisroberts.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+</aside><aside id="linkcat-5" class="widget widget_links"><h1 class="widget-title">Links</h1>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.theblindfactoryleeds.co.uk/" rel="parent" title="Manufacturers of window blinds including vertical, venetian, roman, roller and loft blinds for commercial (office) and domestic use.">Blind Factory</a></li>
+<li><a href="http://www.globaldjbroadcast.com/" title="Website of the best online radio show in the world bar none! Markus is a god!">Global DJ Broadcast</a></li>
+<li><a href="http://www.transishun.co.uk/" rel="me" title="Download all of my MP3 mixes from here." target="_blank">transishun mixes</a></li>
+
+	</ul>
+</aside>
+<aside id="widget_twentyfourteen_ephemera-2" class="widget widget_twentyfourteen_ephemera">			<h1 class="widget-title image">
+				<a class="entry-format" href="http://www.lewisroberts.com/type/image/">Stuff</a>
+			</h1>
+			<ol>
+
+								<li>
+				<article class="post-363 post type-post status-publish format-image hentry category-photography tag-bird tag-goldfinch tag-perch tag-photo tag-tv-aerial">
+					<div class="entry-content">
+						<p style="text-align: center;"><a title="Goldfinch Perch by lewisroberts.com, on Flickr" href="http://www.flickr.com/photos/36138078@N00/3625343832/"><img class="aligncenter" alt="Goldfinch Perch" src="http://farm4.static.flickr.com/3598/3625343832_14f99e07e1.jpg" width="333" height="500" /></a></p>
+					</div><!-- .entry-content -->
+
+					<header class="entry-header">
+						<div class="entry-meta">
+							<h1 class="entry-title"><a href="http://www.lewisroberts.com/2009/06/14/goldfinch-perch/" rel="bookmark">Goldfinch Perch</a></h1><span class="entry-date"><a href="http://www.lewisroberts.com/2009/06/14/goldfinch-perch/" rel="bookmark"><time class="entry-date" datetime="2009-06-14T15:12:35+00:00">Sun 14th June, 2009</time></a></span> <span class="byline"><span class="author vcard"><a class="url fn n" href="http://www.lewisroberts.com/author/ljr/" rel="author">Lewis</a></span></span>							<span class="comments-link"><a href="http://www.lewisroberts.com/2009/06/14/goldfinch-perch/#respond" title="Comment on Goldfinch Perch">Leave a comment</a></span>
+													</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+				</article><!-- #post-## -->
+				</li>
+				
+			</ol>
+			<a class="post-format-archive-link" href="http://www.lewisroberts.com/type/image/">
+				More images <span class="meta-nav">&rarr;</span>			</a>
+			</aside>	</div><!-- #primary-sidebar -->
+	</div><!-- #secondary -->
+
+		</div><!-- #main -->
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			
+			<div class="site-info">
+								<a href="http://wordpress.org/">Proudly powered by WordPress</a>
+			</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	<script type='text/javascript' src='http://www.lewisroberts.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9'></script>
+<script type='text/javascript' src='http://www.lewisroberts.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPowerShell.js?ver=3.0.9'></script>
+<script type='text/javascript' src='http://www.lewisroberts.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushXml.js?ver=3.0.9'></script>
+<script type='text/javascript' src='http://www.lewisroberts.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushJScript.js?ver=3.0.9'></script>
+<script type='text/javascript' src='http://www.lewisroberts.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushCss.js?ver=3.0.9'></script>
+<script type='text/javascript' src='http://www.lewisroberts.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPlain.js?ver=3.0.9'></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "http://www.lewisroberts.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "http://www.lewisroberts.com/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeDefault.css?ver=3.0.9";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['class-name'] = 'syntaxcodeblock';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+<script type='text/javascript' src='http://www.lewisroberts.com/wp-content/themes/twentyfourteen/js/functions.js?ver=20140616'></script>
+</body>
+</html>

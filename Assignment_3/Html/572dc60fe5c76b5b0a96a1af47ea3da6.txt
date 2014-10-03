@@ -1,0 +1,1089 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://developers.facebook.com/schema/">
+<head>
+
+	<title>Ryan (chaptr) - Wattpad</title>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+	<meta name="keywords" content="Ryan (chaptr) - Wattpad"/>
+	<meta name="description" content="Ryan (chaptr) - Wattpad"/>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600' rel='stylesheet' type='text/css'>
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/image/icon_152.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/image/icon_144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/image/icon_120.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/image/icon_114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/image/icon_72.png">
+	<link rel="shortcut icon" href="http://a.wattpad.com/favicon.ico"/>
+
+    
+	<link rel='stylesheet' href='http://a.wattpad.com/style/web.css?v=263b03d' type='text/css' />
+<link rel='stylesheet' href='http://a.wattpad.com/style/facebox.css?v=f96958a' type='text/css' />
+<link rel='stylesheet' href='http://a.wattpad.com/style/jquery-ui-1.8.16.custom.css?v=c3d03b3' type='text/css' />
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/xhrLoad.js?v=bec3ce4' type='text/javascript'></script>
+	<script>
+		if( typeof window.jQuery === 'undefined' && typeof window.injectScript !== 'undefined' ){
+			window.injectScript('//www.wattpad.com/js/jquery-1.6.0.min.js');
+		}
+	</script>
+	<script src='http://a.wattpad.com/js/jquery.cookie.min.js?v=8e34b52' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/facebox.1.3.min.js?v=b510dc8' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/wattpad.js?v=85c9e0b' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/jquery.placeholder.min.js?v=27e343c' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/jquery.tipsy.js?v=6b90579' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/jquery-ui-1.8.16.custom.min.js?v=7245a1c' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/util.js?v=7ed1f7f' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/jquery.query-2.1.7.js?v=def2a6c' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/jquery.tipsy.js?v=6b90579' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/comments.js?v=3b714f9' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/jquery.endless-scroll.js?v=eb7b228' type='text/javascript'></script>
+<script src='http://a.wattpad.com/js/jquery.elastic.js?v=ec8a7c5' type='text/javascript'></script>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.wattpad.com/rss?username=chaptr" />
+    <meta name="apple-itunes-app" content="app-id=306310789" />
+    <link rel="canonical" href="http://www.wattpad.com/chaptr">
+    
+	<!--[if IE 6]>
+	<script src='http://a.wattpad.com/js/DD_belatedPNG_0.0.8a-min.js?v=849d700' type='text/javascript'></script>
+	<script type="text/javascript">
+		header_png();
+	</script>
+	<link rel='stylesheet' href='http://a.wattpad.com/style/ie6.css?v=4797c28' type='text/css' />
+	<![endif]-->
+
+	<!--[if IE 7]>
+	<link rel='stylesheet' href='http://a.wattpad.com/style/ie7.css?v=9ce8d82' type='text/css' />
+	<![endif]-->
+
+	
+		<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-886196-1'],
+			  ['_setDomainName', 'wattpad.com'],
+			  ['_setCustomVar', 1, 'logged', '0', 1],
+			  ['_setCustomVar', 2, 'created', '', 1],
+			  ['_setCustomVar', 3, 'group', '0', 1],
+			  ['_trackPageview'],
+			  ['_trackPageLoadTime']);
+		var user_name = null;
+	</script>
+
+    	<!--1073a1.10.7.131.251-->
+
+    <script>
+      function handlePopstate() {
+        if (window.doReload) {
+          $(window).unbind('popstate');
+          window.location.reload();
+        } else {
+          window.doReload = true;
+        }
+      }
+
+      $(window).bind("hashchange", function(event) {
+        window.hashChangeFired = true;
+      });
+
+      $(window).bind("popstate", function(event) {
+        //If there was a hash change fired, we want to ignore the subsequent
+        //popstate
+        if (window.hashChangeFired) {
+          window.hashChangeFired = false;
+          return false;
+        }
+
+        var browser = window.navigator.userAgent;
+        if (browser.indexOf('Chrome') > -1) {
+          var ver = parseInt(window.navigator.appVersion.match(/Chrome\/(\d+)\./)[1], 10);
+          if (ver >= 34 ){
+            window.doReload = true;
+          }
+        } else if (browser.indexOf('Safari') < 0) {
+          window.doReload = true;
+        }
+
+        handlePopstate();
+      });
+  </script>
+</head>
+
+<body class="lang-1" topmargin="0" leftmargin="0" rightmargin="0" >
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WD9JLB"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WD9JLB');</script>
+
+
+
+
+    
+    <div id="header_wrapper">
+			<div id="header" class="png_bg updated">
+				<div id="header_login">
+										<form name="toplogin" id="toplogin" action="https://www.wattpad.com/user_login?nexturl=http%3A%2F%2Fwww.wattpad.com%2Fuser%2Fchaptr" method="post" style="display:inline">
+						<input type="text" class="inputbox" id="username" name="username" placeholder="Username" size="8" maxlength="128">
+						<input type="password" id="password_nav" class="inputbox" name="password" placeholder="Password" size="8" maxlength="20">
+						<input type="text" style="display: none;" disabled="disabled" size="1" />
+						<div id="login_button">
+							<img src='http://a.wattpad.com/image/login_bar.png?v=cddc20e'  alt='login_bar.png' id='login_button_unpressed'  />							<img src='http://a.wattpad.com/image/login_bar_down.png?v=5d23386'  alt='login_bar_down.png' id='login_button_pressed'  />						</div>
+						<!--[if IE]><input type="text" style="display: none;" disabled="disabled" size="1" /><![endif]-->
+						<a class="" id="" href="#" rel="nofollow" title="Login with Facebook" onclick="facebook_prompt_permission('email,user_birthday,user_location,publish_actions', function() { window.location.href='/user_fblogin?nexturl=http%3A%2F%2Fwww.wattpad.com%2Fuser%2Fchaptr&access_token='+FBStatus.accessToken; }); return false;"><img class="" style="" alt="Facebook" border="0" width="22" height="22" src="http://a.wattpad.com/image/icon22_fb.png?v=3c0d483"/></a>						<a class="" id="" rel="nofollow" title="Sign in with Twitter" href="http://www.wattpad.com/user_twlogin.php?nexturl=http%3A%2F%2Fwww.wattpad.com%2Fuser%2Fchaptr" onclick = ""><img class="" style="" alt="Sign in with Twitter" border="0" width="22" height="22" src="http://a.wattpad.com/image/icon22_twitter.png?v=87613df"/></a>						<input type="checkbox" id="noexpire" name="noexpire" value="1" checked> <label for="noexpire">Remember Me</label> |
+						<a class="forgot_password" href='/user_password' rel="nofollow">Forgot Password?</a>
+						<img src='http://a.wattpad.com/image/login_bar_close.png?v=d5d0f8b'  alt='login_bar_close.png' id='login_close'  />					</form>
+									</div>
+
+				<div id="top_nav_float" >
+					<div id="top_nav" class="png_bg">
+						<ul class="main_tabs ">
+							<li class="header_tabs discover_container">
+								<div id="discover_tab" class="tab_container has_subtabs">
+									<span>Discover</span>
+									<div class="search_wrapper png_bg">
+										<form action="" method="get" onsubmit="searchOnSubmit(); return false;">
+										<input type="text" id="searchinput" class="search_box" name="search" size="16" autocomplete="false"/>
+										<input type="image" src="http://a.wattpad.com/image/v2/searchicon.png?v=8b64c2a" class="search_box_submit"/>
+									</form>
+									</div>
+									<div class="sub_tabs discover tags">
+										<div class="discover_options hover_effect">
+											<ul>
+												<li><a href="/stories">Browse</a></li>
+                                                												    <li><a href="/featured">Featured</a></li>
+                                                												<li><a href="/awards">Awards</a></li>
+												<li><a href="/stories/all?view=undiscovered">Undiscovered Gems</a></li>
+												<li><a href="/hot">What's Hot</a></li>
+												<li><a href="/stories/new">What's New</a></li>
+											</ul>
+										</div>
+                                                                                <div class="discover_categories tags hover_effect_cat">
+                                            <h3>Trending tags</h3>
+                                            <ul>
+                                                                                                    <li><a href="/tags/dystopia"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Tag', 'dystopia', 0); ga_track('Global Nav', 'Tag', 'dystopia');">
+                                                        #dystopia</a>
+                                                    </li>
+                                                                                                    <li><a href="/tags/creepypasta"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Tag', 'creepypasta', 0); ga_track('Global Nav', 'Tag', 'creepypasta');">
+                                                        #creepypasta</a>
+                                                    </li>
+                                                                                                    <li><a href="/tags/manga"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Tag', 'manga', 0); ga_track('Global Nav', 'Tag', 'manga');">
+                                                        #manga</a>
+                                                    </li>
+                                                                                                    <li><a href="/tags/lgbt"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Tag', 'LGBT', 0); ga_track('Global Nav', 'Tag', 'LGBT');">
+                                                        #LGBT</a>
+                                                    </li>
+                                                                                            </ul>
+                                        </div>
+                                                                                <div class="discover_categories hover_effect_cat">
+                                            <ul>
+                                                                                                    <li><a href="/stories/romance"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Romance', 0); ga_track('Global Nav', 'Category', 'Romance');">
+                                                        Romance</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/science-fiction"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Science Fiction', 0); ga_track('Global Nav', 'Category', 'Science Fiction');">
+                                                        Science Fiction</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/fantasy"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Fantasy', 0); ga_track('Global Nav', 'Category', 'Fantasy');">
+                                                        Fantasy</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/humor"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Humor', 0); ga_track('Global Nav', 'Category', 'Humor');">
+                                                        Humor</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/paranormal"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Paranormal', 0); ga_track('Global Nav', 'Category', 'Paranormal');">
+                                                        Paranormal</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/mystery-thriller"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Mystery / Thriller', 0); ga_track('Global Nav', 'Category', 'Mystery / Thriller');">
+                                                        Mystery / Thriller</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/horror"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Horror', 0); ga_track('Global Nav', 'Category', 'Horror');">
+                                                        Horror</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/adventure"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Adventure', 0); ga_track('Global Nav', 'Category', 'Adventure');">
+                                                        Adventure</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/historical-fiction"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Historical Fiction', 0); ga_track('Global Nav', 'Category', 'Historical Fiction');">
+                                                        Historical Fiction</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/teen-fiction"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Teen Fiction', 0); ga_track('Global Nav', 'Category', 'Teen Fiction');">
+                                                        Teen Fiction</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/fanfiction"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Fanfiction', 0); ga_track('Global Nav', 'Category', 'Fanfiction');">
+                                                        Fanfiction</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/poetry"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Poetry', 0); ga_track('Global Nav', 'Category', 'Poetry');">
+                                                        Poetry</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/short-story"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Short Story', 0); ga_track('Global Nav', 'Category', 'Short Story');">
+                                                        Short Story</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/general-fiction"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'General Fiction', 0); ga_track('Global Nav', 'Category', 'General Fiction');">
+                                                        General Fiction</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/chicklit"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'ChickLit', 0); ga_track('Global Nav', 'Category', 'ChickLit');">
+                                                        ChickLit</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/action"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Action', 0); ga_track('Global Nav', 'Category', 'Action');">
+                                                        Action</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/vampire"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Vampire', 0); ga_track('Global Nav', 'Category', 'Vampire');">
+                                                        Vampire</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/werewolf"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Werewolf', 0); ga_track('Global Nav', 'Category', 'Werewolf');">
+                                                        Werewolf</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/spiritual"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Spiritual', 0); ga_track('Global Nav', 'Category', 'Spiritual');">
+                                                        Spiritual</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/non-fiction"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Non-Fiction', 0); ga_track('Global Nav', 'Category', 'Non-Fiction');">
+                                                        Non-Fiction</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/classics"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Classics', 0); ga_track('Global Nav', 'Category', 'Classics');">
+                                                        Classics</a>
+                                                    </li>
+                                                                                                    <li><a href="/stories/random"
+                                                        onclick="ga('send', 'event', 'Global Nav', 'Category', 'Random', 0); ga_track('Global Nav', 'Category', 'Random');">
+                                                        Random</a>
+                                                    </li>
+                                                                                            </ul>
+                                        </div>
+									</div>
+								</div>
+								<a id="logo_click" name="top" href="/" rel="nofollow"></a>
+							</li>
+							<li id="create_tab" class="header_tabs">
+								<a href="/mystories"><span>Create</span></a>
+							</li>
+							<li id="community_tab" class="header_tabs has_subtabs">
+								<a href="javascript:void(0)">Community</a>
+								<div class="sub_tabs community hover_effect">
+									<ul>
+										<li><a href="http://blog.wattpad.com">Blog</a></li>
+										<li><a href="/clubs">Clubs</a></li>
+										<li><a href="/awards">Awards</a></li>
+										<li><a href="/writers">Writers</a></li>
+                                        <li><a href="http://stories.wattpad.com">Wattpad Life</a></li>
+									</ul>
+								</div>
+							</li>
+							                                <li id="login_links" class="header_tabs">
+                                    <a class="join_now" href="/user_signup?nexturl=http%3A%2F%2Fwww.wattpad.com%2Fuser%2Fchaptr" onclick="ga_track('Global Nav', 'click_join');" rel="nofollow">Join Now</a>
+                                    <a class="login_now" id="loginlink" href="#" onclick="return false;" rel="nofollow">Login</a>
+                                </li>
+                                                        <li class="header_tabs nav_links">
+                            <a href="javascript:window.selectLanguage();">
+                                Language: <span id="selectedLanguage">English</span>                            </a>
+                                <script>
+                                    window.selectLanguage = function(){
+                                        var language, locale, win = window;
+                                        if ( !isMobile() ) {
+                                            $( document ).bind( 'close.facebox', function() {
+                                                if (language && locale){
+                                                    var search = window.location.search || '?' ;
+                                                    search = search.indexOf('language') > -1 ?
+                                                        search.replace(/language=[^\&]*/, 'language=' + language) :
+                                                        search += '&language=' + language;
+                                                    search = search.indexOf('locale') > -1 ?
+                                                        search.replace(/locale=[^\&]*/, 'locale=' + locale) :
+                                                        search += '&locale=' + locale;
+
+                                                    window.location = '//' +
+                                                        window.location.hostname +
+                                                        window.location.pathname +
+                                                        search.replace(/\?\&/, '?') +
+                                                        window.location.hash;
+                                                }
+                                            } );
+
+                                            $( document ).bind( 'reveal.facebox', function() {
+                                                $( '#facebox .content.settings-language-popup-style iframe' ).load( function() {
+                                                    this.contentWindow.callbackFn = function(_language, _locale) {
+                                                        language = _language;
+                                                        locale = _locale;
+                                                        $.facebox.close();
+                                                    };
+                                                    this.contentWindow.$ = win.jQuery;
+                                                } );
+                                            } );
+
+                                            $.facebox( '<iframe src="/settings/language"></iframe>', 'settings-language-popup-style' );
+                                        }else {
+                                            location.href = "/settings/language";
+                                        }
+
+                                    };
+                                </script>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			
+
+			<script type="text/javascript">
+				window.cleanHeaderBar();
+			</script>
+
+			<!--[if IE 6]>
+			<script type="text/javascript">
+				cleanHeaderBarIE6();
+			</script>
+			<![endif]-->
+
+		</div>
+    		
+<div id="content_wrapper" >
+	<div id="content_bg" class="png_bg">
+<script type="text/javascript">
+    var msgArray = ['', ''];
+    var storyID = null;
+</script>
+
+<div id="content_block">
+<div class="column_left">
+
+    
+    
+        
+        <div class="container left">
+            <div class="user_status_container" style="word-wrap: break-word;"><b>Status:</b>  <span id="user_status">i have no phone which means i cant make stories....satan is a bitch >:(</span> <span id="user_status_date" style="color:#666">(3 hours ago)</span></div>        <script>
+            $('#new_status').keyup(function (event) {
+                if (event.which==13) {
+                    $('#save_status').focus();
+                    $('#save_status').click();
+                    return false;
+                }
+                return true;
+            });
+
+            $('#save_status').click(function () {
+                //share only on the selected platforms
+                var fbupdate = 0, twitterupdate = 0, tumblrupdate = 0;
+                if (window['update_to_fb']) {
+                    fbupdate = 1;
+                }
+                if (window['update_to_twitter']) {
+                    twitterupdate = 1;
+                }
+                if (window['update_to_tumblr']) {
+                    tumblrupdate = 1;
+                }
+                if ($('#new_status').hasClass("searchbox_default")) {
+                    $('#new_status').val("").removeClass("searchbox_default");
+                }
+                var newStatus = $('#new_status').val().replace(/^\s+/, '').replace(/\s+$/, '');
+                if (newStatus.length>140) {
+                    alert("Your status message exceeds 140 characters");
+                }
+                else if (newStatus!="" || confirm("Do you want to remove your status?")) {
+                    ga_track('Users', 'Update Status', 'chaptr');
+                    $('#user_status_edit').find('input, button').each(function () {
+                        this.disabled = true;
+                    });
+                    $('#save_status').hide();
+                    $('.status_spinner').show();
+                    $.post(API2_PATH+"userstatus", { 'status': newStatus, 'fbupdate': fbupdate, 'twitterupdate': twitterupdate, 'tumblrupdate': tumblrupdate }, function (data) {
+                        $('.status_spinner').hide();
+                        $('#save_status').show();
+                        $('#status_facebook').show();
+                        $('#status_twitter').show();
+                        $('#status_tumblr').show();
+                        $('#user_status_edit').find('input, button').each(function () {
+                            this.disabled = false;
+                        });
+                        $('#new_status').addClass("searchbox_default").val("Share your status");
+                        if (data.status!="") {
+                            var status = data.status;
+                            status = htmlspecialchars(status);
+                            status = linkifyMentions(status);
+                            status = linkifyUrls(status);
+                            $('#user_status').html(status);
+                            $('#user_status_date').html('('+data.statuslastupdated+')');
+                        }
+                        else {
+                            $('#user_status').html('');
+                            $('#user_status_date').html('');
+                        }
+                        $.cookie("msgUpdate", null);
+                        // was not able to post to twitter
+                        if (!data.twitterPosted) {
+                            $('#statusUpdateError').show("slow");
+                            $('#statusUpdateError').html("We were unable to post to Twitter. "
+                                + "<a href=\"" + "ASSET_HOST" + "/user_twlogin.php?nexturl=" + window.location + "\">"
+                                + "Reconnect to Twitter"
+                                + "</a>."
+                            );
+                        }
+                        else {
+                            $('#statusUpdateError').hide("slow");
+                            $('#statusUpdateError').html('');
+                        }
+                    });
+                }
+            }).ajaxError(function (event, xhr, settings) {
+                var response = $.parseJSON(xhr.responseText);
+
+                if (response != null && response.code == 465) {
+                    $('#statusUpdateError').show("slow");
+                    $('#statusUpdateError').html(response.message);
+                }
+
+                             $('.status_spinner').hide();
+                             $('#save_status').show();
+                             $('#user_status_edit').find('input, button').each(function () {
+                                 this.disabled = false;
+                             });
+                         });
+        </script>
+    	            <div style="padding:10px;" class="public-profile">
+                		<div class="panel_avatar ">
+			<h2 style=" white-space: nowrap;"><img src='http://a.wattpad.com/image/general_presence_online.png?v=4029978' width='10' height='10' alt='general_presence_online.png' id='user-online-status' title='online' border='1px' style='background-color:white;border-width:1px;border-style:solid;visibility:hidden;position:relative;margin-top:-3px;' class='tip'  />chaptr							</h2>
+							<img src="http://a.wattpad.com/useravatar/chaptr.128.16235.jpg" class="picframe" width="128" height="128">
+									<div style="float:left; width:150px; margin: 5px 0;text-align:center;">
+				<div class="fanLinkContainer"> <a onclick="" href="/user_login?nexturl=http%3A%2F%2Fwww.wattpad.com%2Fuser%2Fchaptr%3Ffan" class="fanlink"><button class="b2 orange under-avatar">Follow</button></a> <img src='http://a.wattpad.com/image/ajax-loader-white.gif?v=6ad1cc2' width='16' height='16' alt='ajax-loader-white.gif' class='fan_spinner' border='0' style='visibility: hidden; vertical-align: text-bottom;'  /></div>			</div>
+		</div>
+
+		<div class="panel_text ">
+						<table width="320" cellpadding="1" border="0">
+																			<tr>
+							<td class="profilelabel ">Name</td>
+							<td><span>Ryan</span></td>
+						</tr>
+																				<tr>
+							<td class="profilelabel ">Location</td>
+							<td><span>Lost in my own imagination</span></td>
+						</tr>
+																													<tr>
+							<td class="profilelabel ">Member Since</td>
+							<td><span>Oct 10, 2013</span></td>
+						</tr>
+																				<tr>
+							<td class="profilelabel ">Votes Received</td>
+							<td><span>15</span></td>
+						</tr>
+																		<tr>
+						<td class="profilelabel"><nobr>Profile Page</nobr></td>
+						<td><input type="text" class="inputsmall" style="width:80%" id="urlcopy" onclick="document.getElementById('urlcopy').focus();document.getElementById('urlcopy').select()" value="http://www.wattpad.com/chaptr"></td>
+					</tr>
+					<tr>
+						<td class="profilelabel"></td>
+						<td> <a href="http://www.facebook.com/profile.php?id=100001437025246" target="_blank" rel="nofollow"><img src='http://a.wattpad.com/image/icon22_fb.png?v=3c0d483'  alt='icon22_fb.png' border='0' title='Facebook' class='tip'  /></a></td>
+					</tr>
+                			</table>
+		</div>
+
+<ul class="social-share for-user-profile size-1 top-right only-first">  <li class="share-toggle first-child">    <a class="tooltip" title="Share with friends"      href="javascript:void 0;"><img src='http://a.wattpad.com/image/social-share-gray-light.png?v=95c8773'  alt='social share' height='24'  />    </a>  </li>  <li class="facebook">    <a class="tooltip" title="Share on Facebook" data-method="facebook" data-username="chaptr" target="_blank" href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.wattpad.com%2Fchaptr%3Futm_source%3Dweb%26utm_medium%3Dfacebook%26utm_content%3Dshare_profile"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Facebook' height='24'  />    </a>  </li>  <li class="twitter">    <a class="tooltip" title="Share on Twitter" data-method="twitter" data-username="chaptr" target="_blank" href="https://twitter.com/intent/tweet?text=chaptr+on+Wattpad+%23wattpad&url=http%3A%2F%2Fwww.wattpad.com%2Fchaptr%3Futm_source%3Dweb%26utm_medium%3Dtwitter%26utm_content%3Dshare_profile"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Twitter' height='24'  />    </a>  </li>  <li class="google_plus">    <a class="tooltip" title="Share on Google Plus" data-method="google_plus" data-username="chaptr" target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.wattpad.com%2Fchaptr%3Futm_source%3Dweb%26utm_medium%3Dgoogle_plus%26utm_content%3Dshare_profile"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Google Plus' height='24'  />    </a>  </li>  <li class="pinterest">    <a class="tooltip" title="Share on Pinterest" data-method="pinterest" data-username="chaptr" target="_blank" href="http://www.pinterest.com/pin/create/button/?media=http%3A%2F%2Fa.wattpad.com%2Fuseravatar%2Fchaptr.256.16235.jpg&description=chaptr+on+Wattpad&url=http%3A%2F%2Fwww.wattpad.com%2Fchaptr%3Futm_source%3Dweb%26utm_medium%3Dpinterest%26utm_content%3Dshare_profile"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Pinterest' height='24'  />    </a>  </li>  <li class="tumblr">    <a class="tooltip" title="Share on Tumblr" data-method="tumblr" data-username="chaptr" target="_blank" href="https://tumblr.com/share?v=3&t=chaptr+on+Wattpad&u=http%3A%2F%2Fwww.wattpad.com%2Fchaptr%3Futm_source%3Dweb%26utm_medium%3Dtumblr%26utm_content%3Dshare_profile"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Tumblr' height='24'  />    </a>  </li></ul><script src='http://a.wattpad.com/js/social-share.js?v=2465b78' type='text/javascript'></script>
+<hr><pre>I'm oblivious and Indecisive
+           <a href="/tags/SorryNotSorry">#SorryNotSorry</a>
+
+Ryanxx</pre>            </div>
+
+                            <div style="text-align:right">
+                                    </div>
+                    </div>
+    
+    <div id="works" class="container left"><h2 class="container_head">Works</h2><table class="text_item_table" cellspacing="0" cellpadding="0" border="0" width="100%"><tr id="48728330" class="storyitem evenrow"><td class="left"><a href="/story/15908088-rebellion%E2%9E%B3-l-p"><img src="http://a.wattpad.com/cover/15908088-64-k256269.jpg" alt="Rebellion➳ l.p" class="picframe" width="64" height="100"></a></td><td valign="top" style="position:relative;"><h1 style="margin-bottom:2px; width: 70%;"><a href="/story/15908088-rebellion%E2%9E%B3-l-p" class="title">Rebellion➳ l.p</a></h1><div class="meta_element">15 parts /  20 pages, updated Jul 24, 2014</div>Nicotine ...<div class="meta_stats"> <span class="low">92 reads</span> <img src='http://a.wattpad.com/image/v2/votes.png?v=d9d8c7d' width='14' height='14' alt='votes' title='votes' style='vertical-align:middle'  /> <span class="low">1</span> <img src='http://a.wattpad.com/image/v2/comments.png?v=a94856a' width='14' height='14' alt='comments' title='comments' style='vertical-align:middle'  /> <span class="low">2</span> </div><ul class="social-share for-storylist size-1 top-right only-first">  <li class="share-toggle first-child">    <a class="tooltip" title="Share with friends"      href="javascript:void 0;"><img src='http://a.wattpad.com/image/social-share-gray-light.png?v=95c8773'  alt='social share' height='24'  />    </a>  </li>  <li class="facebook">    <a class="tooltip" title="Share on Facebook" data-method="facebook" data-groupid="15908088" target="_blank" href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.wattpad.com%2F48728330-rebellion%25E2%259E%25B3-l-p-rebellion%3Futm_source%3Dweb%26utm_medium%3Dfacebook%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Facebook' height='24'  />    </a>  </li>  <li class="twitter">    <a class="tooltip" title="Share on Twitter" data-method="twitter" data-groupid="15908088" target="_blank" href="https://twitter.com/intent/tweet?text=Read+%22Rebellion%E2%9E%B3+l.p+-+Rebellion%22+%23wattpad+%23fanfiction&url=http%3A%2F%2Fwww.wattpad.com%2F48728330-rebellion%25E2%259E%25B3-l-p-rebellion%3Futm_source%3Dweb%26utm_medium%3Dtwitter%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Twitter' height='24'  />    </a>  </li>  <li class="google_plus">    <a class="tooltip" title="Share on Google Plus" data-method="google_plus" data-groupid="15908088" target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.wattpad.com%2F48728330-rebellion%25E2%259E%25B3-l-p-rebellion%3Futm_source%3Dweb%26utm_medium%3Dgoogle_plus%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Google Plus' height='24'  />    </a>  </li>  <li class="pinterest">    <a class="tooltip" title="Share on Pinterest" data-method="pinterest" data-groupid="15908088" target="_blank" href="http://www.pinterest.com/pin/create/button/?media=http%3A%2F%2Fa.wattpad.com%2Fcover%2F15908088-256-k256269.jpg&description=Read+%22Rebellion%E2%9E%B3+l.p+-+Rebellion%22&url=http%3A%2F%2Fwww.wattpad.com%2F48728330-rebellion%25E2%259E%25B3-l-p-rebellion%3Futm_source%3Dweb%26utm_medium%3Dpinterest%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Pinterest' height='24'  />    </a>  </li>  <li class="tumblr">    <a class="tooltip" title="Share on Tumblr" data-method="tumblr" data-groupid="15908088" target="_blank" href="https://tumblr.com/share?v=3&t=Read+%22Rebellion%E2%9E%B3+l.p+-+Rebellion%22&u=http%3A%2F%2Fwww.wattpad.com%2F48728330-rebellion%25E2%259E%25B3-l-p-rebellion%3Futm_source%3Dweb%26utm_medium%3Dtumblr%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Tumblr' height='24'  />    </a>  </li></ul></td></tr></table><table class="text_item_table" cellspacing="0" cellpadding="0" border="0" width="100%"><tr id="33469154" class="storyitem evenrow"><td class="left"><a href="/story/10965674-p-t-b-a-n-abandoned"><img src="http://a.wattpad.com/cover/10965674-64-k256061.jpg" alt="P.T.B.A.N abandoned" class="picframe" width="64" height="100"></a></td><td valign="top" style="position:relative;"><h1 style="margin-bottom:2px; width: 70%;"><a href="/story/10965674-p-t-b-a-n-abandoned" class="title">P.T.B.A.N abandoned</a></h1><div class="meta_element">19 parts /  20 pages, updated Jul 21, 2014</div>Having a broken heart is like having broken ribs
+On the outside you look fine, but
+Every breath HURTS<div class="meta_stats"> <span class="low">268 reads</span> <img src='http://a.wattpad.com/image/v2/votes.png?v=d9d8c7d' width='14' height='14' alt='votes' title='votes' style='vertical-align:middle'  /> <span class="low">9</span> <img src='http://a.wattpad.com/image/v2/comments.png?v=a94856a' width='14' height='14' alt='comments' title='comments' style='vertical-align:middle'  /> <span class="low">2</span> </div><ul class="social-share for-storylist size-1 top-right only-first">  <li class="share-toggle first-child">    <a class="tooltip" title="Share with friends"      href="javascript:void 0;"><img src='http://a.wattpad.com/image/social-share-gray-light.png?v=95c8773'  alt='social share' height='24'  />    </a>  </li>  <li class="facebook">    <a class="tooltip" title="Share on Facebook" data-method="facebook" data-groupid="10965674" target="_blank" href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.wattpad.com%2F33469154-p-t-b-a-n-abandoned%3Futm_source%3Dweb%26utm_medium%3Dfacebook%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Facebook' height='24'  />    </a>  </li>  <li class="twitter">    <a class="tooltip" title="Share on Twitter" data-method="twitter" data-groupid="10965674" target="_blank" href="https://twitter.com/intent/tweet?text=Read+%22P.T.B.A.N.+abandoned%22+%23wattpad+%23fanfiction&url=http%3A%2F%2Fwww.wattpad.com%2F33469154-p-t-b-a-n-abandoned%3Futm_source%3Dweb%26utm_medium%3Dtwitter%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Twitter' height='24'  />    </a>  </li>  <li class="google_plus">    <a class="tooltip" title="Share on Google Plus" data-method="google_plus" data-groupid="10965674" target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.wattpad.com%2F33469154-p-t-b-a-n-abandoned%3Futm_source%3Dweb%26utm_medium%3Dgoogle_plus%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Google Plus' height='24'  />    </a>  </li>  <li class="pinterest">    <a class="tooltip" title="Share on Pinterest" data-method="pinterest" data-groupid="10965674" target="_blank" href="http://www.pinterest.com/pin/create/button/?media=http%3A%2F%2Fa.wattpad.com%2Fcover%2F10965674-256-k256061.jpg&description=Read+%22P.T.B.A.N.+abandoned%22&url=http%3A%2F%2Fwww.wattpad.com%2F33469154-p-t-b-a-n-abandoned%3Futm_source%3Dweb%26utm_medium%3Dpinterest%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Pinterest' height='24'  />    </a>  </li>  <li class="tumblr">    <a class="tooltip" title="Share on Tumblr" data-method="tumblr" data-groupid="10965674" target="_blank" href="https://tumblr.com/share?v=3&t=Read+%22P.T.B.A.N.+abandoned%22&u=http%3A%2F%2Fwww.wattpad.com%2F33469154-p-t-b-a-n-abandoned%3Futm_source%3Dweb%26utm_medium%3Dtumblr%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Tumblr' height='24'  />    </a>  </li></ul></td></tr></table><table class="text_item_table" cellspacing="0" cellpadding="0" border="0" width="100%"><tr id="60541464" class="storyitem evenrow"><td class="left"><a href="/story/19661825-%C2%AB-7-4-7-%C2%BB"><img src="http://a.wattpad.com/cover/19661825-64-k751649.jpg" alt="« 7 : 4 7 »" class="picframe" width="64" height="100"></a></td><td valign="top" style="position:relative;"><h1 style="margin-bottom:2px; width: 70%;"><a href="/story/19661825-%C2%AB-7-4-7-%C2%BB" class="title">« 7 : 4 7 »</a></h1><div class="meta_element">2 parts /  1 page, updated Jul 18, 2014</div>&quot;You gave me a forever in a matter of days,
+and Im grateful&quot;
+
+
+
+
+
+
+
+
+
+                                             «Cuimhni» ⊙ω⊙<div class="meta_stats"> <span class="low">15 reads</span> <img src='http://a.wattpad.com/image/v2/votes.png?v=d9d8c7d' width='14' height='14' alt='votes' title='votes' style='vertical-align:middle'  /> <span class="low">1</span> <img src='http://a.wattpad.com/image/v2/comments.png?v=a94856a' width='14' height='14' alt='comments' title='comments' style='vertical-align:middle'  /> <span class="low">1</span> </div><ul class="social-share for-storylist size-1 top-right only-first">  <li class="share-toggle first-child">    <a class="tooltip" title="Share with friends"      href="javascript:void 0;"><img src='http://a.wattpad.com/image/social-share-gray-light.png?v=95c8773'  alt='social share' height='24'  />    </a>  </li>  <li class="facebook">    <a class="tooltip" title="Share on Facebook" data-method="facebook" data-groupid="19661825" target="_blank" href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.wattpad.com%2F60541464-%25C2%25AB-7-4-7-%25C2%25BB%3Futm_source%3Dweb%26utm_medium%3Dfacebook%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Facebook' height='24'  />    </a>  </li>  <li class="twitter">    <a class="tooltip" title="Share on Twitter" data-method="twitter" data-groupid="19661825" target="_blank" href="https://twitter.com/intent/tweet?text=Read+%22%C2%AB+7+%3A+4+7+%C2%BB%22+%23wattpad+%23teen-fiction&url=http%3A%2F%2Fwww.wattpad.com%2F60541464-%25C2%25AB-7-4-7-%25C2%25BB%3Futm_source%3Dweb%26utm_medium%3Dtwitter%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Twitter' height='24'  />    </a>  </li>  <li class="google_plus">    <a class="tooltip" title="Share on Google Plus" data-method="google_plus" data-groupid="19661825" target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.wattpad.com%2F60541464-%25C2%25AB-7-4-7-%25C2%25BB%3Futm_source%3Dweb%26utm_medium%3Dgoogle_plus%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Google Plus' height='24'  />    </a>  </li>  <li class="pinterest">    <a class="tooltip" title="Share on Pinterest" data-method="pinterest" data-groupid="19661825" target="_blank" href="http://www.pinterest.com/pin/create/button/?media=http%3A%2F%2Fa.wattpad.com%2Fcover%2F19661825-256-k751649.jpg&description=Read+%22%C2%AB+7+%3A+4+7+%C2%BB%22&url=http%3A%2F%2Fwww.wattpad.com%2F60541464-%25C2%25AB-7-4-7-%25C2%25BB%3Futm_source%3Dweb%26utm_medium%3Dpinterest%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Pinterest' height='24'  />    </a>  </li>  <li class="tumblr">    <a class="tooltip" title="Share on Tumblr" data-method="tumblr" data-groupid="19661825" target="_blank" href="https://tumblr.com/share?v=3&t=Read+%22%C2%AB+7+%3A+4+7+%C2%BB%22&u=http%3A%2F%2Fwww.wattpad.com%2F60541464-%25C2%25AB-7-4-7-%25C2%25BB%3Futm_source%3Dweb%26utm_medium%3Dtumblr%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Tumblr' height='24'  />    </a>  </li></ul></td></tr></table><table class="text_item_table" cellspacing="0" cellpadding="0" border="0" width="100%"><tr id="42226301" class="storyitem evenrow"><td class="left"><a href="/story/13759758-horans%E2%96%BD-constant-mistakes%26upgrades"><img src="http://a.wattpad.com/cover/13759758-64-k256251.jpg" alt="Horans▽ {Constant Mistakes&amp;Upgrades}" class="picframe" width="64" height="100"></a></td><td valign="top" style="position:relative;"><h1 style="margin-bottom:2px; width: 70%;"><a href="/story/13759758-horans%E2%96%BD-constant-mistakes%26upgrades" class="title">Horans▽ {Constant Mistakes&amp;Upgrades}</a></h1><div class="meta_element">12 parts /  22 pages, updated Jul 18, 2014<img src='http://a.wattpad.com/image/RATED_R.png?v=a5a5557'  alt='R' title='R' style='vertical-align:top;margin-left:5px'  /></div>Rated R for Language,Drug Use, And Sexual Content<div class="meta_stats"> <span class="low">221 reads</span> <img src='http://a.wattpad.com/image/v2/votes.png?v=d9d8c7d' width='14' height='14' alt='votes' title='votes' style='vertical-align:middle'  /> <span class="low">4</span> <img src='http://a.wattpad.com/image/v2/comments.png?v=a94856a' width='14' height='14' alt='comments' title='comments' style='vertical-align:middle'  /> <span class="low">0</span> </div><ul class="social-share for-storylist size-1 top-right only-first">  <li class="share-toggle first-child">    <a class="tooltip" title="Share with friends"      href="javascript:void 0;"><img src='http://a.wattpad.com/image/social-share-gray-light.png?v=95c8773'  alt='social share' height='24'  />    </a>  </li>  <li class="facebook">    <a class="tooltip" title="Share on Facebook" data-method="facebook" data-groupid="13759758" target="_blank" href="https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.wattpad.com%2F42226301-horans%25E2%2596%25BD-constant-mistakes%2526upgrades-horans%25E2%2596%25BD%3Futm_source%3Dweb%26utm_medium%3Dfacebook%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Facebook' height='24'  />    </a>  </li>  <li class="twitter">    <a class="tooltip" title="Share on Twitter" data-method="twitter" data-groupid="13759758" target="_blank" href="https://twitter.com/intent/tweet?text=Read+%22Horans%E2%96%BD+%7BConstant+Mistakes%26Upgrades%7D+-+Horans%E2%96%BD%22+%23wattpad+%23fanfiction&url=http%3A%2F%2Fwww.wattpad.com%2F42226301-horans%25E2%2596%25BD-constant-mistakes%2526upgrades-horans%25E2%2596%25BD%3Futm_source%3Dweb%26utm_medium%3Dtwitter%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Twitter' height='24'  />    </a>  </li>  <li class="google_plus">    <a class="tooltip" title="Share on Google Plus" data-method="google_plus" data-groupid="13759758" target="_blank" href="https://plus.google.com/share?url=http%3A%2F%2Fwww.wattpad.com%2F42226301-horans%25E2%2596%25BD-constant-mistakes%2526upgrades-horans%25E2%2596%25BD%3Futm_source%3Dweb%26utm_medium%3Dgoogle_plus%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Google Plus' height='24'  />    </a>  </li>  <li class="pinterest">    <a class="tooltip" title="Share on Pinterest" data-method="pinterest" data-groupid="13759758" target="_blank" href="http://www.pinterest.com/pin/create/button/?media=http%3A%2F%2Fa.wattpad.com%2Fcover%2F13759758-256-k256251.jpg&description=Read+%22Horans%E2%96%BD+%7BConstant+Mistakes%26Upgrades%7D+-+Horans%E2%96%BD%22&url=http%3A%2F%2Fwww.wattpad.com%2F42226301-horans%25E2%2596%25BD-constant-mistakes%2526upgrades-horans%25E2%2596%25BD%3Futm_source%3Dweb%26utm_medium%3Dpinterest%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Pinterest' height='24'  />    </a>  </li>  <li class="tumblr">    <a class="tooltip" title="Share on Tumblr" data-method="tumblr" data-groupid="13759758" target="_blank" href="https://tumblr.com/share?v=3&t=Read+%22Horans%E2%96%BD+%7BConstant+Mistakes%26Upgrades%7D+-+Horans%E2%96%BD%22&u=http%3A%2F%2Fwww.wattpad.com%2F42226301-horans%25E2%2596%25BD-constant-mistakes%2526upgrades-horans%25E2%2596%25BD%3Futm_source%3Dweb%26utm_medium%3Dtumblr%26utm_content%3Dshare_storylist"><img src='http://a.wattpad.com/image/social-share-gray.png?v=7ccca63'  alt='Share on Tumblr' height='24'  />    </a>  </li></ul></td></tr></table><script src='http://a.wattpad.com/js/social-share.js?v=2465b78' type='text/javascript'></script>
+</div><div class="container left"><div style="text-align: left; margin: 10px 0 5px 10px;"><span id="88718764" class="bubble bubble_selected">Favs</span><span id="93444437" class="bubble">The Feelz▽</span></div><div id="showcase" style="min-height:200px"><table width="100%" cellpadding="6"><tr><td width="23%" valign="top" class="storyitem"><a href="/story/11927575-the-boogeyman-%E2%9E%B3-z-m-au" class="titlesmall"><img src="http://a.wattpad.com/cover/11927575-100-k677788.jpg" class="picframe tip" width="100" height="156" style="margin-bottom:5px" title="&lt;div class=&quot;storytip&quot;&gt;&lt;span class=&quot;title&quot;&gt;The Boogeyman ➳ z.m. au&lt;/span&gt;&lt;br&gt;by irishiwasabrit&lt;br&gt;&lt;br&gt;Do you remember when we used to play hide and seek? 
+
+I had so much fun knowing that I had a friend to play with every night. I remember the nights when you would lay there under the blankets in your room, shaking with anticipation because you kne...&lt;br&gt;&lt;br&gt;17 pages &lt;img src=&quot;http://a.wattpad.com/image/v2/votes.png?v=d9d8c7d&quot; width=&quot;14&quot; height=&quot;14&quot;/&gt; 6,027 &lt;img class=&quot;rating&quot; src=&quot;http://a.wattpad.com/image/RATED_PG-13.png?v=ba94ba3&quot; /&gt; &lt;/div&gt;"><br>The Boogeyman ➳ z.m. au</a><div class="meta_element"><span class="low">85,197 reads</span></div></td><td width="23%" valign="top" class="storyitem"><a href="/story/11147414-broken-rosary-%E2%99%94%E2%99%9A-z-m-au" class="titlesmall"><img src="http://a.wattpad.com/cover/11147414-100-k923344.jpg" class="picframe tip" width="100" height="156" style="margin-bottom:5px" title="&lt;div class=&quot;storytip&quot;&gt;&lt;span class=&quot;title&quot;&gt;broken rosary ♔♚ z.m au&lt;/span&gt;&lt;br&gt;by InZaynity&lt;br&gt;&lt;br&gt;They think she's too weak to survive.   They underestimate her.   cover credit: pretty pretty sampriti (@fflappybird)
+
+© InZaynity 2014&lt;br&gt;&lt;br&gt;61 pages &lt;img src=&quot;http://a.wattpad.com/image/v2/votes.png?v=d9d8c7d&quot; width=&quot;14&quot; height=&quot;14&quot;/&gt; 628 &lt;img class=&quot;rating&quot; src=&quot;http://a.wattpad.com/image/RATED_PG-13.png?v=ba94ba3&quot; /&gt; &lt;/div&gt;"><br>broken rosary ♔♚ z.m au</a><div class="meta_element"><span class="low">11,615 reads</span></div></td><td width="23%" valign="top" class="storyitem"><a href="/story/14009962-red-butterflies-horan-au" class="titlesmall"><img src="http://a.wattpad.com/cover/14009962-100-k478452.jpg" class="picframe tip" width="100" height="156" style="margin-bottom:5px" title="&lt;div class=&quot;storytip&quot;&gt;&lt;span class=&quot;title&quot;&gt;red butterflies | horan au&lt;/span&gt;&lt;br&gt;by alcaponiall&lt;br&gt;&lt;br&gt;in which a good girl falls for a bad boy. lowercase intended. 2014. @alcaponiall&lt;br&gt;&lt;br&gt;6 pages &lt;img src=&quot;http://a.wattpad.com/image/v2/votes.png?v=d9d8c7d&quot; width=&quot;14&quot; height=&quot;14&quot;/&gt; 49 &lt;img class=&quot;rating&quot; src=&quot;http://a.wattpad.com/image/RATED_PG-13.png?v=ba94ba3&quot; /&gt; &lt;/div&gt;"><br>red butterflies | horan au</a><div class="meta_element"><span class="low">834 reads</span></div></td><td width="23%" valign="top" class="storyitem"><a href="/story/7004204-change-%C2%BB-harry-styles-marcel" class="titlesmall"><img src="http://a.wattpad.com/cover/7004204-100-k735495.jpg" class="picframe tip" width="100" height="156" style="margin-bottom:5px" title="&lt;div class=&quot;storytip&quot;&gt;&lt;span class=&quot;title&quot;&gt;Change » Harry Styles/Marcel&lt;/span&gt;&lt;br&gt;by xXBeeMystiqueXx&lt;br&gt;&lt;br&gt;Georgia Rose – your average, popular high school girl. Her boyfriend is the hottest jock: the captain of the football team. Georgia lives on her own (clearly making her own rules and doing what she wants). She has a bunch of “friends” (note the ai...&lt;br&gt;&lt;br&gt;79 pages &lt;img src=&quot;http://a.wattpad.com/image/v2/votes.png?v=d9d8c7d&quot; width=&quot;14&quot; height=&quot;14&quot;/&gt; 17,543 &lt;img class=&quot;rating&quot; src=&quot;http://a.wattpad.com/image/RATED_PG-13.png?v=ba94ba3&quot; /&gt; &lt;/div&gt;"><br>Change » Harry Styles/Marcel</a><div class="meta_element"><span class="low">679,042 reads</span></div></td><td><a href="/list/88718764-favs"><img src='http://a.wattpad.com/image/v2/more.png?v=5b87e54' width='23' height='51' alt='more' class='imgHover' style='margin-bottom:25px'  /></a></td></tr></table></div></div>    
+  
+        <div class="container left" style="min-height:300px">
+
+                <h2 id="message-board" class="container_head">Message Board</h2>
+
+        
+<div style="clear:both;"><div style="float:left;"><div class="commentby commentbyauthor"><img src="http://a.wattpad.com/useravatar/0.64.jpg" alt="" align="top"
+ class="picframe" border="0" width="64" height="64" /></div></div><form name="commentform" action="/message?userid=15738467&nexturl=user%2Fchaptr%3Fmessages"method="post" enctype="multipart/form-data" onsubmit="return validate('commentform');" style="overflow: hidden;"><div class="commentbubble commentauthor commentform"><textarea style="width:97%;color:#999" name="comment" rows="4" onkeyup="updateCharCount()" disabled="true">Login to leave a message</textarea></div><div class="commentmeta"><a href="/user_login?nexturl=user%2Fchaptr%3Fmessages" rel="nofollow">Login</a> or <a class="" id="" href="#" rel="nofollow" title="" onclick="facebook_prompt_permission('email,user_birthday,user_location,publish_actions', function() { window.location.href='/user_fblogin?nexturl=user%2Fchaptr%3Fmessages&access_token='+FBStatus.accessToken; }); return false;"><img class="" style="" alt="Facebook" border="0" width="89" height="21" src="http://static.ak.fbcdn.net/images/fbconnect/login-buttons/connect_light_medium_short.gif"/></a> <a class="" id="" rel="nofollow" title="" href="http://www.wattpad.com/user_twlogin.php?nexturl=user%2Fchaptr%3Fmessages" onclick = ""><img class="" style="" alt="Sign in with Twitter" border="0" width="89" height="21" src="http://a.wattpad.com/image/twitter_signin_small.png?v=3d5ad81"/></a></div></form></div>
+    <script type="text/javascript">
+	var canInteract = true;
+
+	function commentButtonClicked() {
+		if ($("textarea[name^=comment]").val()!="" && $("textarea[name^=comment]").val().length<=2000) {
+			$('#commentbutton').hide();
+			$('#comment_spinner').show();
+		}
+	}
+
+	function validate(id) {
+		if(!checkCanInteract()){
+			return false;
+		}
+		if ($("textarea[name^=comment]").val()=="") {
+			alert("Enter your message");
+			return false;
+		}
+		if ($("textarea[name^=comment]").val().length>2000) {
+			alert("Your message exceeds 2000 characters");
+			return false;
+		}
+		return true;
+	}
+
+    
+	function checkCanInteract() {
+		if(canInteract==false){
+			$("#commentText").prop('disabled', true);
+			$('#commentText').blur();
+			$("#commentmeta").hide('slow');
+			$.facebox({ajax: "/dialog/cannot_interact"});
+			return false;
+		}
+		return true;
+	}
+    </script>
+  <div id="show_comments" style="height: 100%; width: 100%;"></div><script type="text/javascript">
+        var apiType = "usermessages";
+    var username = "chaptr"
+        var commentsTotal = "41";
+                </script><div style="margin:80px 0px 20px 0px;text-align:center"><div style="text-align:center"><img id="show_more_comments_spinner" style="border:0; margin:0px; height:16px; width:16px; visibility: hidden;" src="http://a.wattpad.com/image/ajax-loader-white.gif?v=6ad1cc2"/><br/><button id="show_more_comments" class="b2 small white" style="visibility: visible;"><img src="http://a.wattpad.com/image/down_arrow.png?v=a63736b"><span id="load_btn_text">Show More</span></button><p id="no_more_comments" style="font-style: italic; text-align: center; visibility: hidden;">No more messages.</p><br/></div></div>    </div>
+</div>
+
+<div class="column_right_bubble">
+                    
+
+    <div class="signup_container begin" id="float_signup_bar">
+      <h2 style="margin: 10px 5px 10px 5px;" id="signup_text">Signup and follow chaptr!</h2>
+      <div id="signup_table" align="center">
+        <table align="center" style="width: 100%">
+          <form id="signup_form" action="https://www.wattpad.com/user_signup" method="post" name="signup" enctype="multipart/form-data">
+            <tr>
+              <td>
+                <input type="hidden" name="signup_from_view" value="">
+                <input id="username_field" type="text" title="Must be unique, 6-20 characters, case sensitive" class="input_signup" name="username" tabindex="10" maxlength="20" value="" placeholder="Choose a username">
+                <br>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input id="email_field" type="text" title="This is not publicly shown. Use a valid email address, we'll send you an activation email." class="input_signup" name="email" tabindex="20" maxlength="128" value="" placeholder="Email Address">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="password" id="password_field" class="input_signup" name="password" tabindex="30" maxlength="20" value="" placeholder="Type a password">
+              </td>
+            </tr>
+            <tr>
+            <td colspan=2>
+            <div style="text-align: center; font-size:11px; margin:5px 10px 5px 5px;font-family:Arial,Helvetica,Trebuchet,sans-serif;">
+              <input id="terms_field" type="checkbox" checked name="terms" tabindex="60" >
+              <label for="terms_field">I agree to the <a id='terms' href='/terms' target="_new" style= "font-size:11px">terms of use</a> for Wattpad. You must be at least 13 years old to join. </label>
+            </div>
+            </td>
+          </tr>
+            <tr style="height: 50px">
+              <td align="center">
+                <input type="submit" value="Join Now" id="submit" name="signup_submitted">
+              </td>
+            </tr>
+          </form>
+        </table>
+      </div>
+    </div>
+
+      <script type="text/javascript">
+
+        $(document).ready(function () {
+
+      
+          // initialize placeholders for browsers that don't support HTML5
+          $('input, textarea').placeholder();
+
+          // add placeholder values for opera mini
+          if(isOperaMini()) {
+                      $('#username_field').val('Choose a username');
+                                  $('#email_field').val('Email Address');
+                                  $('#password_field').val('Type a password');
+                      }
+
+          $(window).one("scroll", function() {
+            if ($("#float_signup_bar").hasClass("begin")) {
+              $("#float_signup_bar").removeClass("begin").addClass("end");
+            }
+          });
+        });
+
+        $(function (){
+          $('#signup_form').one('submit',function(e){
+            ga_track("Stories", "Sign Up", "click");
+            $("#float_action_bar").removeClass("end").addClass("finish");
+            $.ajax({
+              type: 'GET',
+              url: '/api/v3/users/validate',
+              data: $('#signup_form').serialize(),
+              success: function(){
+                $.ajax({
+                          type: 'POST',
+                          url: '/user_signup.php',
+                          data: $('#signup_form').serialize(),
+                          success: function () {
+                            // Create a custom callback to be triggered once the GA event has been tracked
+                            _gaq.push(['_set', 'hitCallback', function() {
+                                                                location.reload();
+                                                          }]);
+                            _gaq.push( [ '_trackEvent', 'Signup', 'Success', 'sidebar_modal_signup' ] );
+                          }
+                })
+              },
+              statusCode: {
+                400:function(){
+                  $("#submit").click();
+                }
+              }
+            });
+            e.preventDefault();
+          })
+          $('#prompt-signup-button').live('click', function(e){
+            $('#facebox .error').text('');
+            e.preventDefault();
+            $.ajax({
+              type: 'GET',
+              url: '/api/v3/users/validate',
+              data: $('#facebox #prompt_signup_form').serialize(),
+              success: function(){
+                $.ajax({
+                          type: 'POST',
+                          url: '/user_signup.php',
+                          data: $('#facebox #prompt_signup_form').serialize(),
+                          success: function () {
+                            // Create a custom callback to be triggered once the GA event has been tracked
+                            _gaq.push(['_set', 'hitCallback', function() {
+                              window.location.href = $('#prompt_signup_form input[name=nexturl]').val();
+                            }]);
+                            _gaq.push( [ '_trackEvent', 'Signup', 'Success', 'reading_signup_prompt' ] );
+                          },
+                          error: function() {
+                            $('#facebox .error').text("An error has occured, please try again.");
+                          }
+                })
+              },
+              statusCode: {
+                400:function(response){
+                  var responseObject = JSON.parse(response.responseText);
+                  $('#facebox .error').text(responseObject.message);
+                  $('#facebox #prompt_' + responseObject.fields[0] + '_field').select();
+                }
+              }
+            });
+            e.preventDefault();
+          })
+
+        })
+
+      function showSignupPrompt() {
+        if(!$.cookie('skip_signup_prompt')) {
+          _gaq.push( [ '_trackEvent', 'Signup', 'show_prompt', 'reading_signup_prompt' ] );
+          $.facebox({ div: '#signup_prompt' });
+          return false;
+        }
+        return true;
+      }
+      </script>
+
+      <style type="text/css">
+        .input_signup, .password {
+          padding: 0 0 0 10px;
+          color: #999999;
+          border-radius: 5px;
+          font-size: 16px;
+          height: 30px;
+          font-style:italic;
+          background: #FFFFFF;
+          border-color: #E4E2D0;
+        }
+        .placeholder {
+          color: #C6C6C6;
+        }
+        .pressed {
+          display: none;
+        }
+        #signup_result{
+          padding:0px 10px 15px 5px;
+          font-family:Arial,Helvetica,Trebuchet,sans-serif;
+        }
+        #float_action_bar{
+          padding: 0px 15px;
+          z-index: 1;
+        }
+        .signup_container{
+          border: 1px solid #E4E2D0;
+          padding: 12px 14px;
+          color: #333;
+          border-radius: 5px;
+          -moz-border-radius: 5px;
+          -webkit-border-radius: 5px;
+          box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+          -moz-border-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+          -webkit-border-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+          margin: -2px 0 10px 0;
+          width: 100%;
+          z-index: 1;
+        }
+        .signup_container h2 {
+          font-family: 'Lato', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 21px;
+          font-weight: 400;
+          color: #333333;
+        }
+        .signup_container.begin{
+          background-color: #FFFFFF;
+        }
+        .signup_container.end{
+          -webkit-transition: background-color 0.5s linear;
+          -moz-transition: background-color 0.5s linear;
+          -o-transition: background-color 0.5s linear;
+          -ms-transition: background-color 0.5s linear;
+          transition: background-color 0.5s linear;
+          background-color: #FDFCF2;
+        }
+        .signup_container.finish{
+          -webkit-transition: background-color 1s linear;
+          -moz-transition: background-color 1s linear;
+          -o-transition: background-color 1s linear;
+          -ms-transition: background-color 1s linear;
+          transition: background-color 1s linear;
+          background-color: #bfbfbf;
+        }
+        .signup_container #submit {
+          border: 0;
+          background: #74B0DA;
+          border-radius: 5px;
+          color: #FFFFFF;
+          font-size: 16px;
+          height: 30px;
+          width: 100%;
+          cursor: pointer;
+         }
+      </style>
+        
+    
+        
+        <div class="container">
+
+            <div style="text-align:center;">
+                <a href="/user/chaptr/followers" class="user">Followers (13)</a>
+            </div>
+
+            <div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/perfect_lilo" class="tip" title="perfect_lilo"><img src="http://a.wattpad.com/useravatar/perfect_lilo.32.570994.jpg" alt="perfect_lilo" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/lilonarrypop" class="tip" title="lilonarrypop"><img src="http://a.wattpad.com/useravatar/lilonarrypop.32.417875.jpg" alt="lilonarrypop" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/Aubrreeey" class="tip" title="Aubrreeey"><img src="http://a.wattpad.com/useravatar/Aubrreeey.32.794538.jpg" alt="Aubrreeey" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/arwen12347" class="tip" title="arwen12347"><img src="http://a.wattpad.com/useravatar/arwen12347.32.898576.jpg" alt="arwen12347" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/jaydeane" class="tip" title="jaydeane"><img src="http://a.wattpad.com/useravatar/3.32.jpg" alt="jaydeane" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/Queenbeexox" class="tip" title="Queenbeexox"><img src="http://a.wattpad.com/useravatar/Queenbeexox.32.415335.jpg" alt="Queenbeexox" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/Dezire_Carter" class="tip" title="Dezire_Carter"><img src="http://a.wattpad.com/useravatar/2.32.jpg" alt="Dezire_Carter" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/Chemyx" class="tip" title="Chemyx"><img src="http://a.wattpad.com/useravatar/Chemyx.32.605197.jpg" alt="Chemyx" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/Narwhal_Queen24" class="tip" title="Narwhal_Queen24"><img src="http://a.wattpad.com/useravatar/Narwhal_Queen24.32.403515.jpg" alt="Narwhal_Queen24" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/xarseholex" class="tip" title="xarseholex"><img src="http://a.wattpad.com/useravatar/xarseholex.32.634184.jpg" alt="xarseholex" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/luv_Kt_mofo" class="tip" title="luv_Kt_mofo"><img src="http://a.wattpad.com/useravatar/luv_Kt_mofo.32.783812.jpg" alt="luv_Kt_mofo" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/RashadClark" class="tip" title="RashadClark"><img src="http://a.wattpad.com/useravatar/RashadClark.32.214215.jpg" alt="RashadClark" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/swaqqkilla" class="tip" title="swaqqkilla"><img src="http://a.wattpad.com/useravatar/swaqqkilla.32.2963.jpg" alt="swaqqkilla" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div>
+            <br><br>
+
+            <div style="text-align:center;">
+                <a href="/user/chaptr/following" class="user">Following (15)</a>
+            </div>
+
+            <div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/Aubrreeey" class="tip" title="Aubrreeey"><img src="http://a.wattpad.com/useravatar/Aubrreeey.32.794538.jpg" alt="Aubrreeey" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/Queenbeexox" class="tip" title="Queenbeexox"><img src="http://a.wattpad.com/useravatar/Queenbeexox.32.415335.jpg" alt="Queenbeexox" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/jaydeane" class="tip" title="jaydeane"><img src="http://a.wattpad.com/useravatar/3.32.jpg" alt="jaydeane" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/Dezire_Carter" class="tip" title="Dezire_Carter"><img src="http://a.wattpad.com/useravatar/2.32.jpg" alt="Dezire_Carter" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/Harry_hurts_me" class="tip" title="Harry_hurts_me"><img src="http://a.wattpad.com/useravatar/Harry_hurts_me.32.977122.jpg" alt="Harry_hurts_me" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/Chemyx" class="tip" title="Chemyx"><img src="http://a.wattpad.com/useravatar/Chemyx.32.605197.jpg" alt="Chemyx" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/cutiehorun" class="tip" title="cutiehorun"><img src="http://a.wattpad.com/useravatar/cutiehorun.32.796354.jpg" alt="cutiehorun" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/eyegasm" class="tip" title="eyegasm"><img src="http://a.wattpad.com/useravatar/eyegasm.32.3274.jpg" alt="eyegasm" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/longliveverything" class="tip" title="longliveverything"><img src="http://a.wattpad.com/useravatar/longliveverything.32.434913.jpg" alt="longliveverything" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/jiall-horan" class="tip" title="jiall-horan"><img src="http://a.wattpad.com/useravatar/jiall-horan.32.987191.jpg" alt="jiall-horan" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/BritishBums" class="tip" title="BritishBums"><img src="http://a.wattpad.com/useravatar/BritishBums.32.628649.jpg" alt="BritishBums" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/arietem" class="tip" title="arietem"><img src="http://a.wattpad.com/useravatar/arietem.32.835148.jpg" alt="arietem" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/lilonarrypop" class="tip" title="lilonarrypop"><img src="http://a.wattpad.com/useravatar/lilonarrypop.32.417875.jpg" alt="lilonarrypop" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/placidus" class="tip" title="placidus"><img src="http://a.wattpad.com/useravatar/placidus.32.27707.jpg" alt="placidus" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div><div class="user-presence-wrapper" style="display:inline-block;position:relative;"><a href="/user/tattoome1D" class="tip" title="tattoome1D"><img src="http://a.wattpad.com/useravatar/tattoome1D.32.930023.jpg" alt="tattoome1D" align="top"
+ class="smallpic" border="0" width="32" height="32" /></a><div class="online_tip user-presence" title="online - click to know more"></div></div>        </div>
+
+        
+        <div class="container"><h2 class="container_head">Recent Votes</h2><a href="/62938187-anarchy-xxxvi-insatiable" class="tip" style="margin-right: 5px;" title="Anarchy - XXXVI. Insatiable"><img src="http://a.wattpad.com/cover/13103142-64-k778203.jpg" alt="Anarchy" class="picframe" width="64" height="100"></a><a href="/45990818-vlut-%E2%98%AF-ashton-irwin-twelve" class="tip" style="margin-right: 5px;" title="vlut ☯ ashton irwin - twelve"><img src="http://a.wattpad.com/cover/13947795-64-k398027.jpg" alt="vlut ☯ ashton irwin" class="picframe" width="64" height="100"></a><a href="/62308422-outsider-h-s-14" class="tip" style="margin-right: 5px;" title="outsider [h.s] - 14"><img src="http://a.wattpad.com/cover/17590250-64-k491497.jpg" alt="outsider [h.s]" class="picframe" width="64" height="100"></a><a href="/62347302-24-hours-%E3%80%8Bhemmings-epilogue" class="tip" style="margin-right: 5px;" title="24 Hours 》hemmings - Epilogue"><img src="http://a.wattpad.com/cover/15549082-64-k183048.jpg" alt="24 Hours 》hemmings" class="picframe" width="64" height="100"></a></div><div class="container"><h2 class="container_head">Recent Comments</h2>			<span style="font-style: italic; word-wrap:break-word;">aw the ending was cute :))</span>
+			<br>
+			<a href="/61976408-the-black-swan-r-chapter-56-together-mature/comment/159113453" class="small tip" rel="nofollow" title="The Black Swan - (R)" style="margin:3px 0; float:right;">The Black Swan - (R)</a>
+			<br>
+		<hr style="border-color: #999">			<span style="font-style: italic; word-wrap:break-word;">WHAT!!! WHAT!!! W-WHAT!!!! what happened ..... >:(</span>
+			<br>
+			<a href="/54717019-alive-sequel-to-breathing-prologue/comment/158319079" class="small tip" rel="nofollow" title="Alive (Sequel to Breathing)" style="margin:3px 0; float:right;">Alive (Sequel to Breathing)</a>
+			<br>
+		<hr style="border-color: #999">			<span style="font-style: italic; word-wrap:break-word;"> <a href="/user/Queenbeexox">@Queenbeexox</a> slow like usual :/ yours??</span>
+			<br>
+			<a href="/60839956-boys-with-blue-eyes-chapter-thirteen/comment/158311026" class="small tip" rel="nofollow" title="Boys with Blue eyes" style="margin:3px 0; float:right;">Boys with Blue eyes</a>
+			<br>
+		<hr style="border-color: #999">			<span style="font-style: italic; word-wrap:break-word;"> <a href="/user/serenawalsh3">@serenawalsh3</a> omg what song!! I feel stupid!!!</span>
+			<br>
+			<a href="/60819039-24-hours-%E3%80%8Bhemmings-5-9-lyrics/comment/157869790" class="small tip" rel="nofollow" title="24 Hours 》hemmings" style="margin:3px 0; float:right;">24 Hours 》hemmings</a>
+			<br>
+		<hr style="border-color: #999">			<span style="font-style: italic; word-wrap:break-word;"> <a href="/user/Queenbeexox">@Queenbeexox</a> my life mission is making Luke marry you xP</span>
+			<br>
+			<a href="/60839956-boys-with-blue-eyes-chapter-thirteen/comment/157867103" class="small tip" rel="nofollow" title="Boys with Blue eyes" style="margin:3px 0; float:right;">Boys with Blue eyes</a>
+			<br>
+		
+				<br>
+	</div>
+    
+</div>
+</div>
+
+<script type="text/javascript">
+		function update_msg()
+		{
+			if (typeof msgArray != 'undefined')
+			{
+				if (msgArray)
+				{
+					var date = new Date();
+					date.setTime(date.getTime() + (5 * 60 * 1000));
+					$.cookie("msgUpdate", JSON.stringify(msgArray), {expires: date});
+				}
+			}
+		}
+
+</script>
+	<script type="text/javascript">
+		var fb_connected = false,twitter_connected = false,tumblr_connected = false;
+		var iconSize='';
+		var site_root='http://www.wattpad.com'
+		var permissionObj = null;
+
+		if ($.cookie("share") == null) {
+			permissionObj = {"facebook":false,"twitter":false,"tumblr":false};
+			$.cookie("share",JSON.stringify(permissionObj),{expires: 365, path: '/',  domain: COOKIE_DOMAIN});
+		}
+
+		var permissionObj = JSON.parse($.cookie("share"));
+		var facebook_connected = false;var twitter_connected = false;var tumblr_connected = false;			
+
+//$($('#status_tumblr').add($('#status_fb').add($('#status_twitter')))).click(function() {
+		//toggle icon every time its clicked
+		$('document').ready(function(){$('.status_facebook').add('.status_twitter').add('.status_tumblr').click(function(){
+			var share = JSON.parse($.cookie("share"));
+			var name = this.name;
+            if (share[name]  && window[name+'_connected']) {
+                $(".status_"+name).attr("src", site_root+"/image/"+name+"-icon-disabled"+iconSize+".png");
+			} else if ((!share[name]) && window[name+'_connected']) {
+				$(".status_"+name).attr("src", site_root+"/image/"+name+"-icon"+iconSize+".png");
+			}
+			share[name] = !share[name];
+			$.cookie("share",(JSON.stringify(share)),{expire: 365, path: '/',  domain: COOKIE_DOMAIN});
+			$('#fbupdate').val(share[name] ? '1' : '0');
+		})});
+
+	</script>
+	
+<script type="text/javascript">
+    var deleteConfirm = 'Are you sure you want to delete this message?';
+
+    $('#ignore_button').click(function () {
+        if ($(this).html() == "Mute") {
+            $.facebox({ajax: '/dialog/ignoreuser'});
+        }
+        else {
+            $("#ignore_spinner").show();
+            $('#ignore_button').attr("disabled", true);
+            var sendData = {id: "15738467", action: "unignore_user"};
+            $.ajax({
+                type: 'POST',
+                url: API2_PATH + 'ignoreuser',
+                data: sendData,
+                success: function (data) {
+                    $("#ignore_button").html("Mute");
+                    $("#ignore_spinner").hide();
+                    $('#ignore_button').attr("disabled", false);
+                    messageCanInteract = true;
+                    $('.fanLinkContainer').fadeIn();
+                },
+                error: function (data) {
+                    $("#ignore_spinner").hide();
+                    $('#ignore_button').attr("disabled", false);
+                    alert($.parseJSON(data.responseText).message);
+                }
+            });
+        }
+    });
+
+    $('#report_button').click(function () {
+        location.href = '/help/report?author=' + this.getAttribute('data-user');
+    });
+
+    $('#timeout_button').click(function() {
+        $.facebox({ ajax: '/dialog/timeout.php?username=' + this.getAttribute('data-user')});
+    });
+
+    
+    function ignoreClicked() {
+        $("#ignore_spinner").show();
+        $('#ignore_button').attr("disabled", true);
+        var sendData = {id: "15738467", action: "ignore_user"};
+        $.ajax({
+            type: 'POST',
+            url: API2_PATH + 'ignoreuser',
+            data: sendData,
+            success: function (data) {
+                $("#ignore_button").html("Undo Mute");
+                $("#ignore_spinner").hide();
+                $('#ignore_button').attr("disabled", false);
+                messageCanInteract = false;
+                $('.fanLinkContainer').fadeOut();
+            },
+            error: function (data) {
+                $("#ignore_spinner").hide();
+                $('#ignore_button').attr("disabled", false);
+                alert($.parseJSON(data.responseText).message);
+            }
+        });
+    }
+
+    $('.tip').tipsy({gravity: 'w', html: true, delayIn: 200});
+    $('.online_tip').tipsy({gravity: 'w', html: true, delayIn: 200});
+
+    if ($.query.get('messages')) {
+        $('#commentform textarea').focus();
+    }
+
+    $('.bubble').click(function () {
+        $('.bubble_selected').removeClass('bubble_selected');
+        $(this).addClass('bubble_selected');
+
+        $.ajax({
+            error: function (data, status) {
+            },
+            success: function (data, status) {
+                $('#showcase').html(data.showcase);
+                $('.tip').tipsy({gravity: 'w', html: true, delayIn: 200});
+            },
+            type: 'GET',
+            url: '/apiv2/readinglist?id=' + $(this).attr('id')
+        });
+    });
+
+    
+</script>
+
+<script src='http://a.wattpad.com/js/search_autocomplete.js?v=a3bb018' type='text/javascript'></script>
+<div id="foot">
+    <div class="col1">
+		MADE IN CANADA <img src='http://a.wattpad.com/image/v2/footer/canada.png?v=deb42f1' width='12' height='14' alt='canada.png'  /><br>
+		&copy; 2014 WP Technology Inc.
+		<br>
+		User-submitted content subject to its own terms.<br>
+	</div>
+	<div style="float: right;">
+		<div class="col2">
+			WATTPAD<br>
+			<a href="/about">ABOUT US</a><br>
+			<a href="http://blog.wattpad.com" rel="nofollow">BLOG</a><br>
+			<a href="/jobs" rel="nofollow">JOBS</a><br>
+		</div>
+		<div class="col2">
+			HELP<br>
+			<a href="http://support.wattpad.com">QUESTIONS</a><br>
+			<a href="/feedback" rel="nofollow">CONTACT US</a><br>
+			<a href="http://shop.wattpad.com" rel="nofollow">GIFT SHOP</a><br>
+		</div>
+		<div class="col2">
+			MORE INFO<br>
+			<a href="/terms" rel="nofollow">TERMS OF SERVICE</a><br>
+			<a href="/privacy" rel="nofollow">PRIVACY POLICY</a><br>
+			<a href="/codeofconduct" rel="nofollow">CODE OF CONDUCT</a><br>
+		</div>
+	</div>
+</div>
+
+</div>
+</div>
+
+<script type="text/javascript">
+	if ($("#system_message").length>0) {
+		$('#content').css("padding-top", "30px");
+		$('#content_block').css("padding-top", "30px");
+	}
+
+			$('#header').css("position", "relative");
+		$('#system_message').css("position", "absolute");
+		$('#system_message').css("left", "245px");
+	
+    $('body, #top_nav_float, #header').css('background', 'url(\'http://a.wattpad.com/userbg/chaptr.16226.jpg\') fixed');</script>
+
+<!-- FB -->
+<div id="fb-root"></div>
+<script type="text/javascript">
+	header_fb('2582347323');
+</script>
+
+<!-- GA -->
+<script type="text/javascript">
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!-- QC -->
+<script type="text/javascript">
+  var _qevents = _qevents || [];
+  (function() {
+   var elem = document.createElement('script');
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);
+  })();
+</script>
+<script type="text/javascript">
+_qevents.push( { qacct:"p-45MMy5TH1XE82"} );
+</script>
+<noscript>
+<div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-45MMy5TH1XE82.gif" height="1" width="1" alt="Quantcast"/></div>
+</noscript>
+
+
+
+</body>
+</html>
+

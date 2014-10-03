@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<html>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        <title>Feed The Soul, Not The Ego</title>
+        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_d5a7d37ef121_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://carllazuniga.tumblr.com/rss">
+        
+        
+            <meta name="description" content="Aspirational Buddhist" />
+        
+
+        <meta name="image:Background" content=""/>
+        
+        <meta name="color:Background" content="#f2f2f2"/>
+        <meta name="color:Text" content="#000000"/>
+        <meta name="color:Link" content="#515151"/>
+        
+        <meta name="font:Text" content="Calluna"/>
+        <meta name="font:Title" content="Futura"/>
+        <meta name="font:Description" content="Calluna"/>
+        
+        <meta name="select:Text Size" content="12" title="Normal"/>
+        <meta name="select:Text Size" content="10" title="Small"/>
+        <meta name="select:Text Size" content="16" title="Big"/>
+        
+        <meta name="if:Right Sidebar" content="0"/>
+        <meta name="if:Show Avatar" content="1"/>
+        <meta name="if:Show RSS" content="0"/>
+        <meta name="if:Show Archive" content="0"/>
+        
+        <meta name="text:Twitter Username" content="" />
+        <meta name="text:Instagarm Username" content="" />
+        <meta name="text:Facebook URL" content="" />
+        
+        <meta name="text:Custom Link One URL" content="" />
+        <meta name="text:Custom Link One Title" content="" />
+        <meta name="text:Custom Link Two URL" content="" />
+        <meta name="text:Custom Link Two Title" content="" />
+        <meta name="text:Custom Link Three URL" content="" />
+        <meta name="text:Custom Link Three Title" content="" />
+        
+        <!-- HEDER VARIABLES //  -->
+        
+        
+        <style>
+        
+            body {
+                margin: 0;
+                padding: 0;
+                background: #000000;
+                background-image: url('http://assets.tumblr.com/images/x.gif');
+                background-attachment: fixed; 
+                font-size: 12px /* select:Font Size */;
+                font-family: 'Calluna', serif; 
+            }
+
+            a {
+                color: #515151; /* color:Link */
+                text-decoration: none;
+            }
+            
+            /* SIDEBAR */ 
+            
+            .sidebar {
+                width: 300px; 
+                padding: 15px; 
+                background-color: #FFF; 
+                position: fixed;
+                left: 50%; 
+                margin-left: -450px; 
+                top: 150px; 
+                
+                
+                padding-top: 79px; 
+                
+            }
+            
+            .sidebar #avatar {
+                border-radius: 50%;
+                border: 10px solid #FFF; 
+                position: absolute; 
+                left: 50%; 
+                margin-left: -69px; 
+                top: -69px; 
+                
+            }
+            
+            .sidebar #title {
+                font-size: 20px; 
+                color: #000 !important; 
+                text-align: center;
+                font-weight: 400;
+                font-family: Futura, 'Century Gothic', AppleGothic, sans-serif;
+                word-wrap: break-word;
+                text-transform: uppercase;
+            }
+            
+            .sidebar #title a{
+                color: #000 !important; 
+            }
+            
+            .sidebar #line {
+                width: 70px; 
+                height: 4px; 
+                border: 0;
+                background-color: #000; 
+            }
+            
+            .sidebar #description {
+                font-size: 12px;
+                margin-top: 18px; 
+                font-family: 'Calluna', serif;
+                text-align: center;
+                margin-bottom: 16px; 
+            }
+            
+            .sidebar #links {
+                margin-top: 20px; 
+                text-align: center;
+                font-family: 'Calluna', serif;
+            }
+            
+            .sidebar #links a{
+                color: #000; 
+                margin-left: 5px; 
+                margin-right: 5px; 
+                font-weight: 100;
+            }
+            
+            /* GENERAL  */ 
+            
+            #infscr-loading {
+                display: none;
+                opacity: 0; 
+            } 
+        
+            #content {
+                width: 500px; 
+                height: 100%; 
+                position: relative;
+                left: 50%; 
+                margin-left: -80px; 
+                font-family: 'Calluna', serif; 
+                
+                
+            }
+            
+            #content a{
+                color: #000; /* color:Link */
+                text-decoration: none;
+                border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+            }
+
+            #description a {
+                color: ; /* color:Link */
+                text-decoration: underline;
+            }
+            
+            #overlayer {
+                position: fixed;
+                z-index: -1;
+                top: 0px;
+                height: 100%; 
+                background-color: #FFF; 
+                padding-left: 20px; 
+                padding-right: 20px; 
+                left: calc(50% - /2 - 20px); 
+                width: ;
+            }
+            
+            /* GENERAL POST */ 
+            
+            #content .post {
+                background: #FFF; /* color:Post Background */
+                color: #000000; /* color:Text */ 
+                width: 100%; 
+                word-wrap: break-word;
+                overflow: hidden; 
+                position: relative;
+                font-size: 12 /* select:Font Size */;
+                padding: 14px; 
+                padding-bottom: 40px; 
+                margin-top: 60px;
+                margin-bottom: 60px; 
+                
+            }
+            
+            #content .post blockquote {
+                display: block; 
+                -webkit-margin-before: 5px !important;
+                -webkit-margin-after: 5px !important;
+                -webkit-margin-start: 8px !important;
+                -webkit-margin-end: 8px !important;
+                border-left: 3px solid rgb(230, 230, 230);
+                padding-left: 10px; 
+                top: 3px; 
+                position: relative;
+            }
+            
+            #content .post a{
+                color: #515151; /* color:Link */
+                text-decoration: none;
+                border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+            }
+            
+            #content .post img {
+                height: auto;
+                width: auto;
+                position: relative;
+                display: block;
+            }
+            
+            #content .post iframe, img, embed, object, video {
+                max-width: 100%;
+            }
+
+            #content .post .answer_form_container {
+                min-height: 140px; 
+                position: relative;
+            }
+            
+            #content .post #headline {
+                font-weight: 300;
+                text-align: center;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                padding-bottom: 10px; 
+                font-size: 150%;
+                font-weight: 400;
+            }
+            
+            #content .post #headline a{
+                color: #000000; /* color:Text */ 
+                border: none;
+                text-decoration: none;
+            }
+            
+            /* POST CONTROLS */ 
+            
+            #content .post .control {
+                width: 94%; 
+                padding-left: calc(6% + 1px);
+                height: 36px; 
+                right: 0px;
+                bottom: 0px;
+                border-top: 1px solid rgba(200, 200, 200, 0.2);
+                background-color: #FFF; 
+                position: absolute;
+                font-size: 10px; 
+                color: rgba(100, 100, 100, 0.6); 
+            }
+            
+            #content .post .control .notes{
+                text-decoration: none;
+                color: rgba(100, 100, 100, 0.6); 
+                border: none;
+                float: left;
+                line-height: 36px;
+                position: absolute;
+            }
+            
+            #content .post .control #buttons {
+                position: absolute; 
+                width: 46px; 
+                height: 20px; 
+                top: 10px; 
+                right: 5%;
+                opacity: 0.4; 
+            }
+            
+            #content .post .control #buttons #like{
+                position: absolute; 
+                width: 20px; 
+                float: left;
+                opacity: 0.5; 
+            }
+            
+            #content .post .control #buttons #like:hover{
+                opacity: 1; 
+            }
+            
+            #content .post .control #buttons #reblog{
+                position: absolute; 
+                width: 20px; 
+                float: left;
+                right: 0;
+                opacity: 0.5; 
+                margin-left: 5px; 
+            }
+            
+            #content .post .control #buttons #reblog:hover{
+                opacity: 1; 
+            }
+            
+            #content .post .control #buttons #reblog a{
+                border: none;
+            }
+            
+            /* POST TEXT */ 
+        
+            #content .text #body {
+                line-height: 16px;
+                text-align: justify;
+            }
+        
+            /* POST PHOTO */ 
+        
+            #content .photo {
+                background: #FFF;
+                
+                padding: 14px; 
+                padding-bottom: 54px; 
+                
+            }
+            
+            #content .photo img{
+                margin: 0 auto; 
+            }
+            
+            /* POST PANORAMA */ 
+            /* POST PHOTOSET */
+            
+            #content .photoset .image {
+                margin-top: 10px; 
+            }
+            
+            #content .photoset .image:first-child {
+                margin-top: 0px; 
+            }
+        
+            /* POST QUOTE */ 
+            
+            #content .quote #quote {
+                font-size: 150%;
+                position: relative;
+            }
+            
+            #content .quote #source {
+                text-align: right;
+                position: relative;
+                margin-top: 10px; 
+                width: 80%;
+                left: 20%;
+                font-size: 80%;
+            }
+            
+            /* POST LINK */ 
+        
+             #content .link #box {
+                position: absolute;
+                top: -0px;
+                left: 0;
+                width: calc(90% + 3px); 
+                padding-left: 5%; 
+                padding-right: 5%; 
+                padding-top: 20px; 
+                padding-bottom: 20px; 
+                background-color: #515151; /* Color:Link Post  */ 
+                color: #FFF; 
+                text-align: center;
+                font-size: 110%;
+            }
+            
+            #content .link #visiblebox {
+                position: relative;
+                top: 0px;
+                left: 0;
+                width: 100%; 
+                padding-top: 25px; 
+                padding-bottom: 20px; 
+                opacity: 0; 
+            }
+            
+            #content .link #box #link{
+                position: relative;
+                color: #FFF; 
+                z-index: 2;
+                font-weight: 100;
+            }
+            
+            /* POST CHAT */ 
+            
+            #content .chat {
+                font-size: 110%;
+            }
+            
+            #content .chat li{
+                list-style: none; 
+                margin-top: 10px; 
+                border-top: 1px solid rgba(150, 150, 150, 0.1); 
+                padding-top: 10px; 
+            }
+            
+            #content .chat li:first-child{
+                border: none;
+                margin-top: 0px;
+            }
+            
+            #content .chat .label {
+                font-weight: bold !important;
+            }
+            
+            /* POST VIDEO */ 
+            
+            .video .tumblr_video_container {
+                width: 100% !important;
+            }
+            
+            /* POST AUDIO */
+            
+            .audio #cover {
+                position: absolute;
+                top: 0px; 
+                right: 0px; 
+                width: 100%; 
+                left: 15px; 
+                top: 15px; 
+            }
+            
+            .audio #infos {
+                padding-top: 15px; 
+                padding-bottom: 15px; 
+                background-color: rgba(0, 0, 0, 1); 
+                color: #FFF; 
+                width: 480px; 
+                padding-left: 2%;
+                padding-right: 2%; 
+                height: 28px; 
+                word-wrap: break-word;
+                line-height: 16px; 
+                text-align: center; 
+                position: relative;
+            }
+            
+            .audio #cover:hover #infos{
+                background-color: rgba(0, 0, 0, 1); 
+            }
+            
+            .audio #caption {
+                margin-top: 46px; 
+            }
+        
+            .audio #player iframe{
+                height: 40px;
+                width: 500px;  
+            }
+            
+            .spotify_audio_player {
+                height: 90px; 
+                max-height: 90px; 
+            }
+            
+            /* POST ANSWER */ 
+            
+            #content .answer {}
+            
+            #content .answer #avatar {
+                position: relative;
+                float: left;
+                margin-right: 8px; 
+                margin-bottom: 10px; 
+            }
+            
+            #content .answer #asker {
+                font-size: 100%;
+                font-weight: bold;
+                word-wrap: break-word;
+                border-bottom: 1px solid rgba(150, 150, 150, 0.1); 
+            }
+            
+            #content .answer #text {
+                margin-top: 10px; 
+            }
+            
+            #content .answer #answer {
+                margin-top: 14px; 
+                border-top: 1px solid rgba(150, 150, 150, 0.1); 
+            }
+            
+            /* PERMALINK  PAGE */ 
+            
+            .permalinkpage {
+                width: 500px; 
+                position: relative;
+                left: 50%;
+                margin-left: -250px; 
+            }
+            
+            .permalinkpage .reblogs {
+                width: 100%;
+                margin-top: 30px; 
+                position: relative;
+                height: 40px; 
+                color: #000000; /* Text color */ 
+            }
+            
+            .permalinkpage .reblogs a{
+                color: #000000 !important; /* Text color */ 
+                text-decoration: none;
+                border-bottom: 1px solid rgb(240, 240, 240);
+            }
+            
+            .permalinkpage .reblogs #reblog{
+                width: 100%;
+                height: 40px; 
+                position: relative;
+                background-color: #FFF;
+                float: left;
+                text-align: center;
+                line-height: 40px; 
+            }
+            
+            .permalinkpage .reblogs #source{
+                width: 49%;
+                margin-left: 2%;
+                height: 40px; 
+                position: relative;
+                background-color: #FFF;
+                float: left;
+                text-align: center;
+                line-height: 40px; 
+            }
+            
+            .permalinkpage .notescontainer{
+                width: 470px; 
+                margin-top: 12px; 
+                background-color: #FFF;
+                padding: 15px; 
+                color: #000000; /* Text color */ 
+            }
+            
+            .permalinkpage .notescontainer #info {
+                position: relative;
+                height: 22px; 
+                width: 100%;
+            }
+            
+            .permalinkpage .notescontainer #info #left{
+                text-align: left;
+                width: 470px; 
+                left: 0px; 
+                top: 0px; 
+                font-size: 18px;
+                position: absolute;
+            }
+            
+            .permalinkpage .notescontainer #info #center{
+                text-align: center;
+                width: 470px; 
+                left: 0px; 
+                top: 5px; 
+                font-size: 12px; 
+                position: absolute;
+            }
+            
+            .permalinkpage .notescontainer #info #right{
+                text-align: right;
+                width: 470px; 
+                right: 0px; 
+                top: 0px; 
+                font-size: 18px; 
+                position: absolute;
+            }
+            
+            .permalinkpage .notescontainer #caption{
+                width: 100%;
+                position: relative;
+                border-top: 2px solid #000000; /* Text color */ 
+                border-bottom: 2px solid #000000; /* Text color */ 
+                font-size: 12px; 
+                text-align: justify;
+                margin-top: 20px; 
+                padding-top: 8px; 
+                padding-bottom: 8px; 
+            }
+            
+            .permalinkpage .notescontainer #caption a{
+                color: #000000; /* Text/Link color */ 
+                text-decoration: none;
+                border-bottom: 1px solid rgb(240, 240, 240);
+            }
+            
+            .permalinkpage .notescontainer #source {
+                width: 100%;
+                height: 40px;
+                background-color: #000000; /* Text/Link color */ 
+                line-height: 40px; 
+                font-size: 18px; 
+                color: #FFF; 
+                text-align: center;
+                margin-top: 12px; 
+            }
+            
+            .permalinkpage .notescontainer #tags {
+                width: 430px; 
+                position: relative;
+                display: block;
+                padding-top: 8px; 
+                padding-bottom: 8px; 
+                margin-left: -0px; 
+                list-style: none; 
+                border-top: 1px solid rgba(100, 100, 100, 0.2);
+                border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+            }
+            
+            .permalinkpage .notescontainer #tags li{
+                clear: none !important;
+                display: inline-block;
+                height: 15px;
+                margin: 0 4px 0 0;
+                overflow: hidden;
+                width: auto;
+            }
+            
+            .permalinkpage .notescontainer #tags li #lable{
+                font-weight: 400;
+            }
+            
+            .permalinkpage .notescontainer #tags li:first-child{
+                margin-left: -3em;
+            }
+            
+            .permalinkpage .notescontainer #tags li a{
+                color: #000000; /* Text/Link color */ 
+                text-decoration: none;
+                border: none;
+            }
+        
+            .permalinkpage .notescontainer ol.notes {
+                width: 100%;
+                margin-bottom: 60px;  /* PERMALINK PAGE BOTTOM */ 
+                position: relative;
+                display: block;
+                margin-left: -36px; 
+                list-style: none;
+            }
+
+            .permalinkpage .notescontainer ol.notes li.note {
+                clear: none !important;
+                display: inline-block;
+                height: 15px;
+                margin: 0 4px 0 0;
+                overflow: hidden;
+                width: 15px;
+            }
+            
+            .permalinkpage .notescontainer ol.notes a{
+                border: none !important;
+            }
+
+            .permalinkpage .notescontainer ol.notes li.note img.avatar {
+                width:  15px;
+                height: 15px;
+                border: none !important;
+            }
+
+            .permalinkpage .notescontainer ol.notes li.note span.action {
+                display: none;
+            }
+            
+            .permalinkpage .notescontainer .more_notes_link_container {
+                clear: both !important;
+                display: block !important;
+                font-size: 10px;
+                height: auto;
+                overflow: visible;
+                position: relative !important;;
+                text-align: left !important;
+                width: 100% !important;
+                text-align: center !important;
+                margin-top: 20px !important;
+            }
+            
+            ol.notes li.note .answer_content {
+                display: none;
+            }
+
+            ol.notes li.note blockquote {
+                display: none;
+            }
+
+            ol.notes li.note blockquote a {
+                display: none;
+            }
+            
+            /* FOOTER - navigation */ 
+            
+            #nextpage {
+                width: 100%;
+                margin-top: 50px;
+                height: 60px; 
+                background-color: rgba(255, 255, 255, 0.9);
+                bottom: 0;
+                font-size: 18px; 
+                line-height: 60px; 
+                text-align: center;
+                position: relative;
+                padding-left: 15px; 
+                padding-right: 15px;
+            }
+            
+            #nextpage a{
+                color: rgba(40, 40, 40, 1); 
+                border: none;
+            }
+            
+            #prepage {
+                width: 100%;
+                margin-top: 20px;
+                padding-left: 15px; 
+                padding-right: 15px; 
+                height: 60px; 
+                background-color: rgba(255, 255, 255, 0.9);
+                bottom: 0;
+                font-size: 18px; 
+                line-height: 60px; 
+                text-align: center;
+                position: relative;
+            }
+            
+            #prepage a{
+                color: rgba(40, 40, 40, 1); 
+                border: none;
+            }
+            
+            /* CSS //  */ 
+            
+            footer {
+                height: 100px; 
+                width: 500px; 
+            }
+        
+            
+            
+
+        </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=carllazuniga" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/calluna/stylesheet.css?v=3"><link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/garamondclassicfs/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="tumblr milestone,500 likes" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Feed The Soul, Not The Ego" /><meta property="og:url" content="http://carllazuniga.tumblr.com/?og=1" /><meta property="og:description" content="Aspirational Buddhist" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_d5a7d37ef121_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=carllazuniga" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=carllazuniga" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="carllazuniga" /><meta name="twitter:description" content="&lt;p&gt;Aspirational Buddhist&lt;/p&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=carllazuniga&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=carllazuniga&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=carllazuniga&amp;referrer=twitter-cards" />
+
+</head>
+    <body>
+        <div class="sidebar">
+            <img id="avatar" src="http://33.media.tumblr.com/avatar_d5a7d37ef121_128.png" /> 
+          
+            <h1 id="title"><a href="/">Feed The Soul, Not The Ego</a></h1>
+            
+            <hr id="line" /> 
+            
+            
+              <div id="description"><p>Aspirational Buddhist</p></div>
+              
+              <hr id="line" /> 
+              
+            
+            
+            
+            
+            <div id="links">
+              
+              
+              
+              
+              
+              
+              
+              <a class="link" href="http://twitter.com/@CarllaZuniga">Twitter</a>
+              <a class="link" href="http://instagram.com/carllaz">Instagram</a>
+              
+              <a class="link" href="http://themesthatyoulike.com/premium/">Theme</a>
+            </div>
+            
+            
+            
+        </div>
+
+        
+        <div id="content">
+          
+            
+                    <article class="post photo">
+                        
+                        <a href="http://carllazuniga.tumblr.com/post/98206745748/death-by-elocution-did-i-borrow-this-look-from">
+                         <img src="http://31.media.tumblr.com/6220c21210e94392700ec908899de64f/tumblr_ncc5lwAGnv1rsyaepo1_500.jpg" alt="death-by-elocution:
+
+Did I borrow this look from the boys or did they borrow it from me?"/> 
+                        </a> 
+                      
+                      
+                        
+                          
+                         <div class="caption"><p><a href="http://death-by-elocution.tumblr.com/post/98202639600/did-i-borrow-this-look-from-the-boys-or-did-they" class="tumblr_blog">death-by-elocution</a>:</p>
+
+<blockquote><p>Did I borrow this look from the boys or did they borrow it from me?</p></blockquote></div>
+                         
+                        
+                         
+                      
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style="display: none; display: block;"  class="control">
+                    <a href="http://carllazuniga.tumblr.com/post/98206745748/death-by-elocution-did-i-borrow-this-look-from" title="Permalink Page" class="notes">855 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="98206745748" id="like_button_98206745748"><iframe id="like_iframe_98206745748" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=carllazuniga&amp;post_id=98206745748&amp;color=black&amp;rk=7j7C7ZWe" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/98206745748/7j7C7ZWe" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        
+                        <a href="http://carllazuniga.tumblr.com/post/98206706103/blvck-zoid-follow-blvck-zoid-for-fashion">
+                         <img src="http://31.media.tumblr.com/a394121440c489699f2b086c818a1ef7/tumblr_nb0g0haZ0P1s58bxuo1_500.png" alt="blvck-zoid:
+
+Follow&nbsp;BLVCK-ZOID&nbsp;for fashion
+repcode&nbsp;&#039;blvckzoid&#039;&nbsp;at&nbsp;KARMALOOP&nbsp;for a discount"/> 
+                        </a> 
+                      
+                      
+                        
+                          
+                         <div class="caption"><p><a href="http://blvck-zoid.tumblr.com/post/96686995515/follow-blvck-zoid-for-fashion" class="tumblr_blog">blvck-zoid</a>:</p>
+
+<blockquote><p><strong>Follow <a href="http://blvck-zoid.tumblr.com/">BLVCK-ZOID</a> for fashion</strong></p>
+<p><em>repcode <strong>'blvckzoid'</strong> at <strong><a href="http://www.karmaloop.com/">KARMALOOP</a> </strong>for a discount</em></p></blockquote></div>
+                         
+                        
+                         
+                      
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style="display: none; display: block;"  class="control">
+                    <a href="http://carllazuniga.tumblr.com/post/98206706103/blvck-zoid-follow-blvck-zoid-for-fashion" title="Permalink Page" class="notes">2,874 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="98206706103" id="like_button_98206706103"><iframe id="like_iframe_98206706103" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=carllazuniga&amp;post_id=98206706103&amp;color=black&amp;rk=wJXBLTxj" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/98206706103/wJXBLTxj" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        
+                        <a href="http://carllazuniga.tumblr.com/post/98206614513">
+                         <img src="http://33.media.tumblr.com/2a8008ed4204e19ef91128c700e58422/tumblr_mwcxbxVzpF1qms91oo1_500.jpg" alt=""/> 
+                        </a> 
+                      
+                      
+                        
+                         
+                        
+                         
+                      
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style="display: none; display: block;"  class="control">
+                    <a href="http://carllazuniga.tumblr.com/post/98206614513" title="Permalink Page" class="notes">124,814 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="98206614513" id="like_button_98206614513"><iframe id="like_iframe_98206614513" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=carllazuniga&amp;post_id=98206614513&amp;color=black&amp;rk=CYS1n6f3" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/98206614513/CYS1n6f3" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        
+                        <a href="http://carllazuniga.tumblr.com/post/98206568063/triliv">
+                         <img src="http://33.media.tumblr.com/29c4ad2a6e326f9bfd996f81f9c27d40/tumblr_n8ps8vMFJ41rpowflo1_500.jpg" alt="triliv:
+
+~&nbsp;"/> 
+                        </a> 
+                      
+                      
+                        
+                          
+                         <div class="caption"><p><a href="http://triliv.tk/post/97924921405" class="tumblr_blog">triliv</a>:</p>
+
+<blockquote><p>~ </p></blockquote></div>
+                         
+                        
+                         
+                      
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style="display: none; display: block;"  class="control">
+                    <a href="http://carllazuniga.tumblr.com/post/98206568063/triliv" title="Permalink Page" class="notes">14,952 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="98206568063" id="like_button_98206568063"><iframe id="like_iframe_98206568063" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=carllazuniga&amp;post_id=98206568063&amp;color=black&amp;rk=80IIFgDs" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/98206568063/80IIFgDs" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        
+                        <a href="http://carllazuniga.tumblr.com/post/98206530753/silks">
+                         <img src="http://33.media.tumblr.com/83cb6346ad0935add99837aecc55d116/tumblr_n09nkudqrC1s4k6kho1_500.gif" alt="silks:
+
+"/> 
+                        </a> 
+                      
+                      
+                        
+                          
+                         <div class="caption"><p><a href="http://silks.tumblr.com/post/98205416404" class="tumblr_blog">silks</a>:</p>
+
+<blockquote><p><a href="http://silks.tumblr.com/"></a></p></blockquote></div>
+                         
+                        
+                         
+                      
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style="display: none; display: block;"  class="control">
+                    <a href="http://carllazuniga.tumblr.com/post/98206530753/silks" title="Permalink Page" class="notes">395,702 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="98206530753" id="like_button_98206530753"><iframe id="like_iframe_98206530753" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=carllazuniga&amp;post_id=98206530753&amp;color=black&amp;rk=51jr4uea" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/98206530753/51jr4uea" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        
+                        <a href="http://carllazuniga.tumblr.com/post/98206503188">
+                         <img src="http://33.media.tumblr.com/509c7418dc2e669294f9080282cc3668/tumblr_mo1bc4rsrJ1rznw5xo1_500.jpg" alt=""/> 
+                        </a> 
+                      
+                      
+                        
+                         
+                        
+                         
+                      
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style="display: none; display: block;"  class="control">
+                    <a href="http://carllazuniga.tumblr.com/post/98206503188" title="Permalink Page" class="notes">105,576 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="98206503188" id="like_button_98206503188"><iframe id="like_iframe_98206503188" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=carllazuniga&amp;post_id=98206503188&amp;color=black&amp;rk=1vze5f2W" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/98206503188/1vze5f2W" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        
+                        <a href="http://carllazuniga.tumblr.com/post/98119471213/dapperpugs-lazy-sunday-via">
+                         <img src="http://38.media.tumblr.com/aa6793c64088be9e630101d8253af49a/tumblr_nc6r28qtOY1s555o8o1_500.jpg" alt="dapperpugs:
+
+Lazy Sunday.
+via"/> 
+                        </a> 
+                      
+                      
+                        
+                          
+                         <div class="caption"><p><a href="http://dapperpugs.tumblr.com/post/98069737629/lazy-sunday-via" class="tumblr_blog">dapperpugs</a>:</p>
+
+<blockquote><p>Lazy Sunday.</p>
+<p><a href="http://www.dailypuppy.com/member/cdd45eb667/album/61986/photo/692827">via</a></p></blockquote></div>
+                         
+                        
+                         
+                      
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style="display: none; display: block;"  class="control">
+                    <a href="http://carllazuniga.tumblr.com/post/98119471213/dapperpugs-lazy-sunday-via" title="Permalink Page" class="notes">191 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="98119471213" id="like_button_98119471213"><iframe id="like_iframe_98119471213" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=carllazuniga&amp;post_id=98119471213&amp;color=black&amp;rk=gmcDenaI" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/98119471213/gmcDenaI" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        
+                        <a href="http://carllazuniga.tumblr.com/post/98119412123/heart-true-friendship">
+                         <img src="http://33.media.tumblr.com/bf273bad6ee60ea71d7e9e33db7a9126/tumblr_n9ydayT3Td1r8u1jro1_500.jpg" alt="heart:
+
+true friendship
+"/> 
+                        </a> 
+                      
+                      
+                        
+                          
+                         <div class="caption"><p><a class="tumblr_blog" href="http://heart.tumblr.com/post/94090759174/true-friendship">heart</a>:</p>
+<blockquote>
+<p>true friendship</p>
+</blockquote></div>
+                         
+                        
+                         
+                      
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style="display: none; display: block;"  class="control">
+                    <a href="http://carllazuniga.tumblr.com/post/98119412123/heart-true-friendship" title="Permalink Page" class="notes">66,020 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="98119412123" id="like_button_98119412123"><iframe id="like_iframe_98119412123" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=carllazuniga&amp;post_id=98119412123&amp;color=black&amp;rk=oeOpl302" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/98119412123/oeOpl302" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        
+                        <a href="http://carllazuniga.tumblr.com/post/97916417543/500-likes">
+                         <img src="http://31.media.tumblr.com/9d22a2b12c59880cd05560497f2c9f21/tumblr_nc64sqO1Hd1siqtzno1_500.png" alt="500 likes!"/> 
+                        </a> 
+                      
+                      
+                        
+                          
+                         <div class="caption"><p>500 likes!</p></div>
+                         
+                        
+                         
+                      
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style="display: none; display: block;"  class="control">
+                    <a href="http://carllazuniga.tumblr.com/post/97916417543/500-likes" title="Permalink Page" class="notes">0 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97916417543" id="like_button_97916417543"><iframe id="like_iframe_97916417543" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=carllazuniga&amp;post_id=97916417543&amp;color=black&amp;rk=YEsrPh6h" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97916417543/YEsrPh6h" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+                    <article class="post photo">
+                        
+                        <a href="http://carllazuniga.tumblr.com/post/97912184508">
+                         <img src="http://38.media.tumblr.com/5cd150db0f8476eb1486a3f02e8d6d37/tumblr_n12j400tIn1rsyaepo1_500.png" alt=""/> 
+                        </a> 
+                      
+                      
+                        
+                         
+                        
+                         
+                      
+                        
+                    
+                    <!--</article>-->
+                
+                
+                
+                
+                <div  style="display: none; display: block;"  class="control">
+                    <a href="http://carllazuniga.tumblr.com/post/97912184508" title="Permalink Page" class="notes">568 notes</a>
+                    
+                    <div id="buttons">
+                      <div id="like"><div class="like_button" data-post-id="97912184508" id="like_button_97912184508"><iframe id="like_iframe_97912184508" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=carllazuniga&amp;post_id=97912184508&amp;color=black&amp;rk=PkNK9RUM" scrolling="no" width="16" height="16" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                      <div id="reblog"><a href="https://www.tumblr.com/reblog/97912184508/PkNK9RUM" class="reblog_button"style="display: block;width:16px;height:16px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                    </div>
+                    
+                </div>
+                
+                </article>
+            
+                  
+            
+            
+            
+              
+            <div id="navigation">
+
+            
+                <div id="nextpage">
+                  <a id="nextpagelink" href="/page/2">Next Page &#187;</a>
+                </div>
+            
+            
+            
+          </div>
+         
+         <footer>
+            
+         </footer> 
+         
+        </div>
+
+     
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://carllazuniga.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037664&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvY2FybGxhenVuaWdhLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=NDMPKDNAMG&K=ee81fd9540bb9f18b25384d8d3a56ab650d7fac40cd420f6947768dafb787083&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037664&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvY2FybGxhenVuaWdhLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=NDMPKDNAMG&K=b4fef6b85067e0aab36202661c5beb3fd9c1a149465ace88b209ecdf5b7c431b&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037664&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2NhcmxsYXp1bmlnYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiNDk1MTM2MDgiLCJyb290X3Bvc3RpZCI6Ijk4MjAyNjM5NjAwIiwicG9zdGlkIjoiOTgyMDY3NDU3NDgiLCJibG9naWQiOiIxMzY0NzExMzgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTI1NzgxNDUiLCJyb290X3Bvc3RpZCI6Ijk1OTg4NDY1Nzc5IiwicG9zdGlkIjoiOTgyMDY3MDYxMDMiLCJibG9naWQiOiIxMzY0NzExMzgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjIzNDA3MzUiLCJyb290X3Bvc3RpZCI6NjcxNDY2MDgyMzcsInBvc3RpZCI6Ijk4MjA2NjE0NTEzIiwiYmxvZ2lkIjoiMTM2NDcxMTM4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ0MDAzMDc0Iiwicm9vdF9wb3N0aWQiOiI5MTc2NDM1NDQzMCIsInBvc3RpZCI6Ijk4MjA2NTY4MDYzIiwiYmxvZ2lkIjoiMTM2NDcxMTM4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkyMDQyMDgyIiwicm9vdF9wb3N0aWQiOiI3NTE0NTY0Mzk3MSIsInBvc3RpZCI6Ijk4MjA2NTMwNzUzIiwiYmxvZ2lkIjoiMTM2NDcxMTM4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjYwNzUxNzM2Iiwicm9vdF9wb3N0aWQiOjUyMzkyNDk3NDI2LCJwb3N0aWQiOiI5ODIwNjUwMzE4OCIsImJsb2dpZCI6IjEzNjQ3MTEzOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5MjQxMzIyMCIsInJvb3RfcG9zdGlkIjoiOTgwNjk3Mzc2MjkiLCJwb3N0aWQiOiI5ODExOTQ3MTIxMyIsImJsb2dpZCI6IjEzNjQ3MTEzOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNzU0MTM0MiIsInJvb3RfcG9zdGlkIjoiOTQwOTA3NTkxNzQiLCJwb3N0aWQiOiI5ODExOTQxMjEyMyIsImJsb2dpZCI6IjEzNjQ3MTEzOCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTc5MTY0MTc1NDMiLCJibG9naWQiOiIxMzY0NzExMzgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDk1MTM2MDgiLCJyb290X3Bvc3RpZCI6Ijc2Nzk4Njg3NjEwIiwicG9zdGlkIjoiOTc5MTIxODQ1MDgiLCJibG9naWQiOiIxMzY0NzExMzgiLCJzb3VyY2UiOjMzfV19&U=NNPHPCDEAP&K=891555374fcbf06604bd1545806d77249ed17142859d7f570d6bde0678fbc702&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037664&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2NhcmxsYXp1bmlnYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiNDk1MTM2MDgiLCJyb290X3Bvc3RpZCI6Ijk4MjAyNjM5NjAwIiwicG9zdGlkIjoiOTgyMDY3NDU3NDgiLCJibG9naWQiOiIxMzY0NzExMzgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTI1NzgxNDUiLCJyb290X3Bvc3RpZCI6Ijk1OTg4NDY1Nzc5IiwicG9zdGlkIjoiOTgyMDY3MDYxMDMiLCJibG9naWQiOiIxMzY0NzExMzgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjIzNDA3MzUiLCJyb290X3Bvc3RpZCI6NjcxNDY2MDgyMzcsInBvc3RpZCI6Ijk4MjA2NjE0NTEzIiwiYmxvZ2lkIjoiMTM2NDcxMTM4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ0MDAzMDc0Iiwicm9vdF9wb3N0aWQiOiI5MTc2NDM1NDQzMCIsInBvc3RpZCI6Ijk4MjA2NTY4MDYzIiwiYmxvZ2lkIjoiMTM2NDcxMTM4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkyMDQyMDgyIiwicm9vdF9wb3N0aWQiOiI3NTE0NTY0Mzk3MSIsInBvc3RpZCI6Ijk4MjA2NTMwNzUzIiwiYmxvZ2lkIjoiMTM2NDcxMTM4Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjYwNzUxNzM2Iiwicm9vdF9wb3N0aWQiOjUyMzkyNDk3NDI2LCJwb3N0aWQiOiI5ODIwNjUwMzE4OCIsImJsb2dpZCI6IjEzNjQ3MTEzOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5MjQxMzIyMCIsInJvb3RfcG9zdGlkIjoiOTgwNjk3Mzc2MjkiLCJwb3N0aWQiOiI5ODExOTQ3MTIxMyIsImJsb2dpZCI6IjEzNjQ3MTEzOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNzU0MTM0MiIsInJvb3RfcG9zdGlkIjoiOTQwOTA3NTkxNzQiLCJwb3N0aWQiOiI5ODExOTQxMjEyMyIsImJsb2dpZCI6IjEzNjQ3MTEzOCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTc5MTY0MTc1NDMiLCJibG9naWQiOiIxMzY0NzExMzgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDk1MTM2MDgiLCJyb290X3Bvc3RpZCI6Ijc2Nzk4Njg3NjEwIiwicG9zdGlkIjoiOTc5MTIxODQ1MDgiLCJibG9naWQiOiIxMzY0NzExMzgiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=NNPHPCDEAP&K=49bc64e26a352d9bca6a484b7305c3122c8b446e53787370620a158c6667a6fb&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:136471138,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fcarllazuniga.tumblr.com%2F&amp;lang=en_US&amp;name=carllazuniga&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_d5a7d37ef121_64.png&amp;title=Feed+The+Soul%2C+Not+The+Ego&amp;url=http%3A%2F%2Fcarllazuniga.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fcarllazuniga.tumblr.com%2F&amp;lang=en_US&amp;name=carllazuniga&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_d5a7d37ef121_64.png&amp;title=Feed+The+Soul%2C+Not+The+Ego&amp;url=http%3A%2F%2Fcarllazuniga.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

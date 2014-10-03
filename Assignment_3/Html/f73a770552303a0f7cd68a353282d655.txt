@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+
+
+<!-- -------------------------------------------------------------
+     
+
+     Theme Ultimate By Max Davis.
+     
+     
+     Free theme code: http://themes.themaxdavis.com/theme/ultimate
+     More Themes: http://themes.themaxdavis.com
+
+     
+     PROMOTE YOUR TUMBLR: http://themes.themaxdavis.com/spotlight
+     
+     
+     ------------------------------------------------------------- -->
+     
+
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<meta charset="utf-8" />
+  
+<meta name="color:Body Background" content="#eee"/>
+<meta name="color:Posts Background" content="#FFFFFF"/>
+<meta name="color:Posts Title" content="#333"/>
+<meta name="color:Posts Text" content="#777"/>
+<meta name="color:Posts Links" content="#555"/>
+<meta name="color:Header Title" content="#333"/>
+<meta name="color:Header Description" content="#777"/>
+<meta name="color:Header Links" content="#555"/>
+
+<meta name="image:Background" content="http://static.tumblr.com/b2ajd3k/76Alyb6m8/boxed-texture.png" />
+<meta name="image:Header" content="" />
+
+<meta name="if:Post width 150px" content="0" />
+<meta name="if:Post width 250px" content="1" />
+<meta name="if:Post width 300px" content="0" />
+<meta name="if:Post width 400px" content="0" />
+<meta name="if:Post width 500px" content="0" />
+
+<meta name="if:Infinite Scroll" content="1" />
+<meta name="if:Post Shadow" content="0" />
+<meta name="if:Post Round Borders" content="0" />
+<meta name="if:Post Hide Permalinks" content="0" />
+<meta name="if:Post Hide Caption" content="1" />
+<meta name="if:Header Text Center" content="0" />
+<meta name="if:Header Hide Description" content="0" />
+<meta name="if:Header BlogRoll" content="0" />
+<meta name="if:Full Page Background Image" content="0" />
+
+<meta name="text:Post Reblog Title" content="Reblog This" />
+<meta name="text:Previous Page Title" content="Previous" />
+<meta name="text:Next Page Title" content="Next" />
+<meta name="text:Ask Title" content="Ask" />
+<meta name="text:Link 1" content="" />
+<meta name="text:Link 1 Title" content="" />
+<meta name="text:Link 2" content="" />
+<meta name="text:Link 2 Title" content="" />
+<meta name="text:Link 3" content="" />
+<meta name="text:Link 3 Title" content="" />
+<meta name="text:Link 4" content="" />
+<meta name="text:Link 4 Title" content="" />
+<meta name="text:Link 5" content="" />
+<meta name="text:Link 5 Title" content="" />
+
+<title></title>
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_46e011672cdb_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://theamxtyafflxctxon.tumblr.com/rss">
+<meta name="description" content="I found myself in late night drives without a destination All I had were thoughts about the past and a list of my favorite songs to keep me company but I still struggle and lose myself everyday I..." />
+  
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://themaxdavisthemes.com/code/jQuery.js"></script>
+
+
+
+<script src="http://static.tumblr.com/twte3d7/0pellzh2t/infinitescroll.js"></script>
+<script src="http://static.tumblr.com/me5sfsd/12Qlmj66n/script.js"></script>
+<script>
+$(window).load(function(){
+    var $wall = $('#container');
+    $wall.masonry({
+      itemSelector: '.entry, .entry_load',
+      
+      columnWidth: 280, 
+      
+          
+      
+      isAnimated: !Modernizr.csstransitions,
+      isFitWidth: true
+    });
+    
+    $wall.infinitescroll({
+    navSelector    : '#page-nav',  
+    nextSelector   : '#page-nav a', 
+    itemSelector   : '.entry', 
+    donetext       : 'The End.',
+    loadingText    : 'Loading...',
+    extraScrollPx  : 0,
+    bufferPx       : 20000,
+    behavior       : 'twitter',
+    debug          : false,
+    errorCallback: function() { 
+      $('#infscr-loading').animate({opacity: .8},2000).fadeOut('normal');   
+    }},
+    function( newElements ) {
+      var $newElems = $( newElements );
+    $newElems.hide();
+      $newElems.imagesLoaded(function(){
+        $wall.masonry( 'appended', $newElems, {isAnimated: true, animationOptions: {duration: 750, easing: 'linear', queue: false}}, function(){$newElems.fadeIn();} );
+      });
+    }); $wall.show(500);
+    
+        $('#load').click(function(e){
+        
+        e.preventDefault();
+        $wall.infinitescroll('retrieve');
+        $(this).css('display','block');
+        
+    });
+  });
+
+</script> 
+
+<style type="text/css"> html { } a { color:#000000; text-decoration:none; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;} a:hover{ color:; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;} a:active{outline: none;} a:focus{-moz-outline-style: none;} :-moz-any-link:focus{outline: none;} img{border:none;} .clear{clear:both} body { font: 11px 'Open Sans', Arial, sans-serif;  background:#FFFFFF url(http://assets.tumblr.com/images/x.gif) repeat center top;  color:#040404;} /**** Content ****/ #content { padding: 10px;} /**** Blog ****/ #container { background-color:transparent; margin-bottom: 20px; clear: both; } .centered { margin: 0 auto; } #header{ max-width:900px; margin:0 auto 20px; padding:10px 0; color:#000000; border-bottom:solid 1px rgba(0,0,0,0.1);} #header .header_image{ max-width:1000px; max-height:300px;} #header h1{ font-size:60px; line-height:70px; font-family:oswald; font-weight:normal; color:#000000; margin:0 auto 20px; padding:0; word-spacing:10px;  text-align:center; } #header .description{ max-width:900px; color:;  text-align:center;    } #header .description_button{ cursor:help;} #header .links{ max-width:1000px; padding: 15px 0 0; clear: both;  text-align:center; } #header .links a{ padding:0 20px; text-transform:uppercase; color:;} #header .links a:hover{ color:;} /**** Blogroll ****/ #header .blogroll{ max-width:500px; margin:0 auto; display:none;  text-align:center;    } #header .blogroll_button{ cursor:help;} #header ul.blogroll_img{ margin:0; padding:0; list-style:none;} #header ul.blogroll_img li{ float:left; height: 22px;} #header ul.blogroll_img li img{ width:20px; height:20px; margin:1px;} /**** Posts ****/ .entry { background:#FFFFFF; overflow:hidden;   margin: 5px;    width:250px; padding: 10px; float: left;  width:250px;       border-radius: 4px;  } .photo {  padding:0px;background:transparent;  width:270px;     } .video { padding:0; background-color:black;   width:270px;     } .audio { padding:0; background-color:black;   width:270px;     } .post img{ height:auto;  max-width:240px;   } .container_load { margin:10px auto; padding: 10px; background:#FFFFFF; font-weight:700;  width:250px;    text-align:center;  border-radius: 4px;  } .entry h1{ font-size:18px;  line-height:30px; color:#000000; margin:0 auto 10px; padding:0;} #permalink{ padding:0; margin:15px 0 0; text-align:center; } #permalink .notes{float:left;} #permalink .date{text-align:center;  display:none; } #permalink .permalink{float:right;} /**** Posts: Photos ****/ #photo { overflow:hidden;  max-width:500px;  max-width:270px;       border-radius: 4px;    } #photo a{ color:white;} #photo a:hover{ color:white;} #photo img {   width:270px;     display:block;} div#photo div#picture { position:relative;} div#photo div#picture div#info_2 { position:absolute; top:0; left:0; opacity:0; width:250px;  width:250px;    margin-top:-50px; height:auto; padding:15px 10px;  background-color:rgba(0,0,0,0.7); visibility:hidden; z-index:998; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; transition: all 0.5s ease;} div#photo:hover div#picture div#info_2 { opacity:1; margin-top:0px; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; transition: all 0.5s ease;} div#photo div#picture div#info_2 div#holder {  width:250px;    height:auto; z-index:999; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;} div#photo div#picture div#info_2 div#holder #month { font-size:8px;  float:right; text-align:right;  color:white; text-transform:uppercase; -webkit-transition: all 0.4s linear; -moz-transition: all 0.4s linear; transition: all 0.4s linear;} div#photo div#picture div#info_2 div#holder #note_count { font-family:arial; text-transform:uppercase; color:white; letter-spacing:-1px;  float:left; font-size:25px; line-height:25px;   font-weight:bold; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;} div#photo div#picture:hover div#info_2 {visibility:visible;} #reblog { background-color:rgba(0,0,0,0.7); position:absolute; color:#FFFFFF; font-family:dancing script; text-align:center; text-transform:capitalize;  width:270px;     font-size:25px; padding:15px 0px;   line-height:10px; opacity:0; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; transition: all 0.5s ease;} .entry:hover #reblog {  margin-top:-40px;   opacity:1; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; transition: all 0.5s ease;} .caption{ padding:5px 10px; background:#FFFFFF;} .caption img{ height:auto;   max-width:230px;     } #permalink_image{ margin:10px auto; -webkit-box-shadow: inset 0 0 50px rgba(0,0,0,1); -moz-box-shadow: inset 0 0 50px rgba(0,0,0,1); -o-box-shadow: inset 0 0 50px rgba(0,0,0,1); box-shadow: inset 0 0 50px rgba(0,0,0,1);} /**** Posts: Text ****/ #text blockquote { margin:5px 10px; padding:0;} #text li { list-style:none; margin:0; padding:0;} #text img{ height:auto;   max-width:230px;     } /**** Posts: Videos ****/ #video{ margin:5px;} /**** Posts: Audio ****/ #audio{ margin:5px; } .playcount{ float:right; margin-top:-26px; font-family:oswald; color:white; font-size:15px; margin-right:10px;  display:none; } /**** Posts: Chat ****/ .entry ul.chat{ margin:0; padding:0; list-style:none;} .entry ul.chat li{ padding:7px 10px; border-top:1px solid rgba(0,0,0,0.1); margin:5px 0;} .entry ul.chat li:nth-child(1){ border:0} /**** Posts: Questions ****/ .entry .asker_portrait{ float:left; width:30px; height:30px; margin-right:5px; margin-bottom:5px;} .entry .question{ float:left; line-height:11px; margin-bottom:10px;   max-width:190px;     } .entry .answer{ margin-top:5px; line-height:11px; clear:both; display:block; font-style:italic;   width:230px;     } .navi { background:#FFFFFF; overflow:hidden;  margin: 5px;    width:250px; padding: 10px; float: left;  width:250px;     border-radius: 4px;  } .space{ height:10px;} /**** Posts: Notes ****/ #notes { float: left; margin: 15px 0; padding: 10px; width: 880px; background-color:#FFFFFF;  border-radius: 4px;  } .notes_button{ color:#000000 cursor:help;} ol.notes { padding: 0; margin: 0; list-style-type: none; display:none;} ol.notes li.note { padding: 1px; float:left;} ol.notes li.note img.avatar { vertical-align: -4px; width: 20px; height: 20px;} ol.notes li.note span.action { font-weight:normal; display:none;} ol.notes li.note .answer_content { font-weight: normal; display:none;} ol.notes li.note blockquote { padding: 4px 10px; margin: 10px 0px 0px 25px; display:none;} ol.notes li.note blockquote a { text-decoration: none; display:none;} ol.notes more_notes_link_container{ text-align:center; height:14px; padding:3px; width:104px; margin:1px; background-color:rgba(0,0,0,0.1);} ol.notes more_notes_link_container:hover{ background-color:rgba(0,0,0,0);} /**** Posts: Permalink Post Info ****/ #post_info{ float: left; margin: 15px 0 0; padding: 10px; width: 880px; background-color:#FFFFFF;  border-radius: 4px;  } /**** Transitions ****/ .transitions-enabled.masonry, .transitions-enabled.masonry .masonry-brick { -webkit-transition-duration: 0.7s; -moz-transition-duration: 0.7s; -o-transition-duration: 0.7s; transition-duration: 0.7s;} .transitions-enabled.masonry { -webkit-transition-property: height, width; -moz-transition-property: height, width; -o-transition-property: height, width; transition-property: height, width;} .transitions-enabled.masonry .masonry-brick { -webkit-transition-property: left, right, top; -moz-transition-property: left, right, top; -o-transition-property: left, right, top; transition-property: left, right, top;} </style>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=theamxtyafflxctxon" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/typewriterfs/stylesheet.css?v=1">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="" /><meta property="og:url" content="http://theamxtyafflxctxon.tumblr.com/?og=1" /><meta property="og:description" content="I found myself in late night drives without a destination All I had were thoughts about the past and..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_46e011672cdb_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=theamxtyafflxctxon" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=theamxtyafflxctxon" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="theamxtyafflxctxon" /><meta name="twitter:description" content="&lt;p&gt;I found myself in late night drives without a destination&lt;/p&gt;&lt;p&gt;All I had were thoughts about the past&lt;/p&gt;&lt;p&gt;and a list of my favorite songs to keep me company but I still struggle and lose myself everyday&lt;/p&gt;&lt;p&gt;I always find myself lost in every line of all these songs&lt;/p&gt;&lt;p&gt;but I felt better when I saw that this is life&lt;/p&gt;&lt;p&gt;And in life we&rsquo;re gonna cry, in life we&rsquo;re gonna lose sleep&lt;/p&gt;&lt;p&gt;We&rsquo;re gonna feel helpless, but that&rsquo;s how it&rsquo;s gotta be&lt;/p&gt;&lt;p&gt;When you lose yourself you&rsquo;ll find what you&rsquo;re looking for&lt;/p&gt;&lt;p&gt;I&rsquo;m growing past who I used to be&lt;/p&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=theamxtyafflxctxon&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=theamxtyafflxctxon&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=theamxtyafflxctxon&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+
+<div id="page-nav"><a href="/page/2"></a></div>
+<div id="content">
+<div id="header">
+  
+  <a href="/" title="Home"><h1></h1></a>
+  
+     <div class="description"><p>I found myself in late night drives without a destination</p><p>All I had were thoughts about the past</p><p>and a list of my favorite songs to keep me company but I still struggle and lose myself everyday</p><p>I always find myself lost in every line of all these songs</p><p>but I felt better when I saw that this is life</p><p>And in life we’re gonna cry, in life we’re gonna lose sleep</p><p>We’re gonna feel helpless, but that’s how it’s gotta be</p><p>When you lose yourself you’ll find what you’re looking for</p><p>I’m growing past who I used to be</p></div>
+  
+  
+      <div class="blogroll">
+      <ul class="blogroll_img">
+        <li>
+        <a href="http://unkemptly.com/" title="unkemptly" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_a97f1964c408_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://lullabies.co.vu/" title="carapherxelia" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_6c4d8b88d15c_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://citzn.tumblr.com/" title="citzn" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_e9ad7d283a42_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://officialjoelbirch.tumblr.com/" title="officialjoelbirch" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_55d03fbb5a31_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://thestrysfar.tumblr.com/" title="thestrysfar" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_8238a951b75b_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://foggylungs.tumblr.com/" title="foggylungs" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_59806477fece_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://y0urmomschesthair.tumblr.com/" title="y0urmomschesthair" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_da0451ba2323_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://annoyings.tumblr.com/" title="annoyings" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_5274b7766213_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://whtvrsonia.tumblr.com/" title="whtvrsonia" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_6370d08bc3f1_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://ultrachewy.tumblr.com/" title="ultrachewy" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_1120ba30d18a_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://let-the-hoecean-take-me.tumblr.com/" title="let-the-hoecean-take-me" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_e58b91c5f1bb_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://northslame.tumblr.com/" title="northslame" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_1bac5613fb6c_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://impressing-myself.tumblr.com/" title="impressing-myself" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_f2161aa033aa_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://ocean-taken.tumblr.com/" title="ocean-taken" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_0103d9776f2d_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://littl3sunflower.tumblr.com/" title="littl3sunflower" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_492c869c5cff_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://windbreaker.tk/" title="clairvorant" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_e34c46df7f00_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://bridgetteallover.tumblr.com/" title="bridgetteallover" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_ca36ebb89fc1_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://severed-tires.tumblr.com/" title="severed-tires" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_32aec64bbe53_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://covered-with-mist.tumblr.com/" title="covered-with-mist" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_566f4a05c259_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://elmakias.tumblr.com/" title="elmakias" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_c2e32957bcf6_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://helliums.tumblr.com/" title="helliums" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_37e9800ad9c8_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://angienotsofancy.tumblr.com/" title="angienotsofancy" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_8043a9fa5148_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://youwant-thepipe.tumblr.com/" title="youwant-thepipe" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_29eedb5e76b5_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://wedontgiveafuckallthetime.tumblr.com/" title="wedontgiveafuckallthetime" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_77cc8f7f036c_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://thefrontbuttons.tumblr.com/" title="thefrontbuttons" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_9b3ad6e9d742_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://cellesticca.tumblr.com/" title="cellesticca" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_44d59f1ac58e_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://wearetheproductofabrokenclass.tumblr.com/" title="wearetheproductofabrokenclass" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_566601cb13ba_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://weeping-b-u-d-d-h-a.tumblr.com/" title="weeping-b-u-d-d-h-a" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_3b8139faf779_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://marissadraws.co.vu/" title="missealikestodraw" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_be28eaa5e3e6_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://indieminduk.tumblr.com/" title="indieminduk" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_8dd6fbd89e9e_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://invincibleflower.tumblr.com/" title="invincibleflower" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_9ebf8bc1eb59_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://halfwaytogrant.tumblr.com/" title="halfwaytogrant" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_e7f7dd109851_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://xvxzi.tumblr.com/" title="xvxzi" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_c9a2301a8841_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://svate.tumblr.com/" title="svate" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_5b7788e8f91d_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://defend-punk-rock.tumblr.com/" title="defend-punk-rock" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_1b329384e495_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://predicktor.tumblr.com/" title="predicktor" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_855a67ba75cb_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://walrus-slut.tumblr.com/" title="walrus-slut" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_e747c0564524_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://aestthetic.tumblr.com/" title="aestthetic" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_2227c7b844a1_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://punkruinedthissoul.tumblr.com/" title="punkruinedthissoul" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_9b3b43bf133b_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://tooweirdto-live-toorareto-die.tumblr.com/" title="tooweirdto-live-toorareto-die" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_0d9bf0ed86b0_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://necastivi-parazit.tumblr.com/" title="necastivi-parazit" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_b39ed6ac6628_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://thoughts-about-feelings.tumblr.com/" title="thoughts-about-feelings" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_43f7a22f5fae_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://troapical.tumblr.com/" title="troapical" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_afdcc8156437_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://mosquit0.tumblr.com/" title="mosquit0" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_29f22ab0b155_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://naykead.tumblr.com/" title="naykead" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_14bfcbe0e0aa_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://houaxvang.tumblr.com/" title="houaxvang" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_12d29c6383fe_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://wihnded.tumblr.com/" title="wihnded" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_062917b78878_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://nathanmotherfuckingjohnson.tumblr.com/" title="nathanmotherfuckingjohnson" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_3243c7416129_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://you-me-biting-my-tongue.tumblr.com/" title="you-me-biting-my-tongue" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_cb43b6aadab0_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://littlem-e-r-maid.tumblr.com/" title="littlem-e-r-maid" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_213234f43660_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://fortheloveeofmusic.tumblr.com/" title="fortheloveeofmusic" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_04f11438b9af_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://sweet-drexms.tumblr.com/" title="sweet-drexms" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_06481486b333_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://pastel-velvet.tumblr.com/" title="pastel-velvet" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_3f5b19d0f59d_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://the-lostwillbefound.tumblr.com/" title="the-lostwillbefound" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_5e1a04ed4e7a_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://seconds-from-thee-end.tumblr.com/" title="seconds-from-thee-end" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_4aef66cf0060_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://ipurplev0dka.tumblr.com/" title="ipurplev0dka" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_1fd827349479_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://ivegotwarinmind.tumblr.com/" title="ivegotwarinmind" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_783290a8f47e_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://clayrevoyant.tumblr.com/" title="clayrevoyant" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_5835f31731ea_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://georgemijail.tumblr.com/" title="georgemijail" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_1853c02123dd_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://eatshit-x-drxxpdead.tumblr.com/" title="eatshit-x-drxxpdead" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_9afc9ad2f234_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://thevintageloser.tumblr.com/" title="thevintageloser" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_edb0f9bfeb50_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://harmony-of-purpose-and-form.tumblr.com/" title="harmony-of-purpose-and-form" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_c37165acc12d_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://imagineelife.tumblr.com/" title="imagineelife" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_9870af0e401d_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://semppiternal.tumblr.com/" title="semppiternal" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_c47baff7e5b0_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://youaresomethingextraordinary.tumblr.com/" title="youaresomethingextraordinary" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_4f6d7a6803ad_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://justagermanblogger.tumblr.com/" title="justagermanblogger" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_1042d294b50d_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://sukhcess.tumblr.com/" title="sukhcess" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_6bed88b3613f_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://i-finally-gave-up.tumblr.com/" title="i-finally-gave-up" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_241da70bce27_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://a-hipsterlipster.tumblr.com/" title="a-hipsterlipster" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_29b1b172f97f_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://happybonez.tumblr.com/" title="happybonez" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_b014b055f2fc_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://pointlessblogtv.tumblr.com/" title="pointlessblogtv" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_27890b180dcc_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://neon--arcade.tumblr.com/" title="neon--arcade" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_893dfdac70c4_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://lickmypussy-now.tumblr.com/" title="lickmypussy-now" target="_blank">
+        <img src="http://31.media.tumblr.com/avatar_05cb3f17d4c1_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://nikiwhispers.tumblr.com/" title="nikiwhispers" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_3155b43dd02a_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://bandsftboys.tumblr.com/" title="bandsftboys" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_bb9b3124952b_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://juusstkeeepswimminng.tumblr.com/" title="juusstkeeepswimminng" target="_blank">
+        <img src="http://38.media.tumblr.com/avatar_12e5d0acedc7_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://www.tumblr.com/404" title="" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_61fe7af5f5a5_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://brendenwhite.tumblr.com/" title="brendenwhite" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_7aef980ffd75_24.png"/></a>
+        </li>
+      
+        <li>
+        <a href="http://imjustchasingrainbows.tumblr.com/" title="imjustchasingrainbows" target="_blank">
+        <img src="http://33.media.tumblr.com/avatar_f8cdab5eba28_24.png"/></a>
+        </li>
+      </ul>
+      </div>
+  
+  <div class="links">
+     
+        <a href="/ask">
+           ask 
+           
+        </a>
+     
+      
+      
+      
+        <a href="https://twitter.com/issuesxtissue" title="twitter">
+        twitter</a>
+     
+     
+     
+     
+     
+     
+  </div>
+   
+  <script>
+    $('.blogroll_button').click(function() {
+    $('#header .blogroll').slideToggle('medium', function() {
+    });
+  });
+  </script>
+</div>
+
+<div id="container" class="transitions-enabled centered clearfix">
+  
+  <div class="entry">
+      
+  
+     
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+              
+                  <a href="http://theamxtyafflxctxon.tumblr.com/post/98706292732/reblog-and-see-if-you-get-a-color"><h1>Reblog and see if you get a color. </h1></a>
+              
+              <ul class="chat">
+                  
+                      <li class="odd user_1">
+                          
+                              <span class="label">PURPLE:</span>
+                          
+  
+                          We near never speak, but I do enjoy your presence on my dashboard.
+                      </li>
+                  
+                      <li class="even user_2">
+                          
+                              <span class="label">FUCHSIA:</span>
+                          
+  
+                          I wish I could become your best friend through the internet.
+                      </li>
+                  
+                      <li class="odd user_3">
+                          
+                              <span class="label">GREY:</span>
+                          
+  
+                          You leave me with jumbled words.
+                      </li>
+                  
+                      <li class="even user_4">
+                          
+                              <span class="label">RED:</span>
+                          
+  
+                          I&#039;m in love with you.
+                      </li>
+                  
+                      <li class="odd user_5">
+                          
+                              <span class="label">PINK:</span>
+                          
+  
+                          I have a crush on you.
+                      </li>
+                  
+                      <li class="even user_6">
+                          
+                              <span class="label">TURQUOISE:</span>
+                          
+  
+                          You&#039;re hot.
+                      </li>
+                  
+                      <li class="odd user_7">
+                          
+                              <span class="label">CHARTREUSE:</span>
+                          
+  
+                          I sincerely wish you would notice me.
+                      </li>
+                  
+                      <li class="even user_8">
+                          
+                              <span class="label">TEAL:</span>
+                          
+  
+                          We have quite a lot in common.
+                      </li>
+                  
+                      <li class="odd user_9">
+                          
+                              <span class="label">BLUE:</span>
+                          
+  
+                          You are my Tumblr crush.
+                      </li>
+                  
+                      <li class="even user_10">
+                          
+                              <span class="label">WHITE:</span>
+                          
+  
+                          PLEASE MARRY ME.
+                      </li>
+                  
+                      <li class="odd user_11">
+                          
+                              <span class="label">GREEN:</span>
+                          
+  
+                          I find you cute.
+                      </li>
+                  
+                      <li class="even user_12">
+                          
+                              <span class="label">BLACK:</span>
+                          
+  
+                          I would date you.
+                      </li>
+                  
+              </ul>
+       
+       
+         <div id="permalink">
+             
+            <a href="http://theamxtyafflxctxon.tumblr.com/post/98706292732/reblog-and-see-if-you-get-a-color" class="notes">841,841 notes</a>
+             
+            <a href="http://theamxtyafflxctxon.tumblr.com/post/98706292732/reblog-and-see-if-you-get-a-color" class="permalink">
+              ❖ Permalink</a>
+            <a href="http://theamxtyafflxctxon.tumblr.com/post/98706292732/reblog-and-see-if-you-get-a-color" class="date">
+               19 hours ago on 28 Sep 2014</a>
+        </div>
+      
+       
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98706250202/chest-deep-i-risked-my-phones-life-to-take-this"> 200,423 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98706250202/chest-deep-i-risked-my-phones-life-to-take-this">
+                   Posted on Sunday,
+                   <br> 28 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://38.media.tumblr.com/bc406a451b45158ace1792eb7ed6843e/tumblr_nbcmo1Ixly1rqts7oo1_500h.jpg" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98706250202/KNaKsequ" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98706249007/takemetoalice-brand-new-not-my-photo-just"> 14,724 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98706249007/takemetoalice-brand-new-not-my-photo-just">
+                   Posted on Sunday,
+                   <br> 28 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://33.media.tumblr.com/3225640997b24995fac0c89d91fb0313/tumblr_n8qpwjUJlx1r7pw3qo1_1280.jpg" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98706249007/oGe4595w" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98706248002/strippernamedsteve-counterparts-ghost-x"> 2,703 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98706248002/strippernamedsteve-counterparts-ghost-x">
+                   Posted on Sunday,
+                   <br> 28 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://38.media.tumblr.com/fb27452719d235a2c62737d3b2dff63f/tumblr_n8vnielZ8H1sndzfgo1_500.gif" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98706248002/4M5qgsyA" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98706248497/restwerkinqforce-melrose-diner-the-wonder"> 13,768 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98706248497/restwerkinqforce-melrose-diner-the-wonder">
+                   Posted on Sunday,
+                   <br> 28 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://33.media.tumblr.com/f9da6c74515147362e24dd9b22027cca/tumblr_na4c2394XP1r11jbmo1_500.gif" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98706248497/TEWUCNc7" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98613873002/feuntes-the-story-so-far-clairvoyant"> 99,151 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98613873002/feuntes-the-story-so-far-clairvoyant">
+                   Posted on Saturday,
+                   <br> 27 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://31.media.tumblr.com/ff966efcc47aedf3795ae0c81b28a0fd/tumblr_mo9utjjakK1sq9qm2o1_500.gif" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98613873002/gWEKJu7X" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98613861317/joellouis-everyone-that-dragged-you-here-plus"> 6,069 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98613861317/joellouis-everyone-that-dragged-you-here-plus">
+                   Posted on Saturday,
+                   <br> 27 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://38.media.tumblr.com/7ff3f95f15f50219865fe260eefe5f1c/tumblr_mm3wa1NHxI1qfg7l2o1_1280.jpg" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98613861317/krZ7e1ih" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98613679037"> 45,624 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98613679037">
+                   Posted on Saturday,
+                   <br> 27 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://33.media.tumblr.com/e711498582d8d5360299d4e86eb92dd1/tumblr_n2i78nL7eD1r4d676o1_1280.jpg" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98613679037/q8Uj36Gs" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98613651767/lettheoceantakemee-the-amity-affliction-x"> 13,901 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98613651767/lettheoceantakemee-the-amity-affliction-x">
+                   Posted on Saturday,
+                   <br> 27 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://33.media.tumblr.com/f564e9752bac18bff2286881cb64ac2f/tumblr_n71fpyfyk61qd9u85o1_1280.gif" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98613651767/j9AtB9bT" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98612900502/veryemo-being-as-an-ocean-dear-g-d-mothers"> 727 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98612900502/veryemo-being-as-an-ocean-dear-g-d-mothers">
+                   Posted on Saturday,
+                   <br> 27 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://38.media.tumblr.com/e965ae9fc927d5e5bdcf7b0c36a4be95/tumblr_ncd937jKxp1rq3l21o1_500.png" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98612900502/Lin8HrB8" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98612886127/hopelesshoping-neck-deep-crushing-grief-no"> 10,828 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98612886127/hopelesshoping-neck-deep-crushing-grief-no">
+                   Posted on Saturday,
+                   <br> 27 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://33.media.tumblr.com/81f187a43287c01f46cf786af6914305/tumblr_nayr2sPuPB1r2g49zo1_500.gif" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98612886127/xB3O9LD9" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98612877617"> 4,566 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98612877617">
+                   Posted on Saturday,
+                   <br> 27 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://33.media.tumblr.com/e7a318b12bde9a588482d149557533a4/tumblr_n8z387otoV1rgdiguo1_500.png" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98612877617/20h9wsoi" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98612874412/omg-relatable-more-relatable-posts-here"> 2,717 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98612874412/omg-relatable-more-relatable-posts-here">
+                   Posted on Saturday,
+                   <br> 27 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://38.media.tumblr.com/a95deca23d02fabda3b32d8e99e7458e/tumblr_n6x8vhtLih1re6ar6o1_500.png" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98612874412/p8IvKF4T" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98612822737/citizen-basement-breathe-my-edit"> 3,277 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98612822737/citizen-basement-breathe-my-edit">
+                   Posted on Saturday,
+                   <br> 27 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://31.media.tumblr.com/20b90155f3629220bcb3e60937210d99/tumblr_nap5j2EfGD1tfw4sdo1_500.jpg" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98612822737/Iup8g4JJ" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  <div class="entry photo">
+      
+  
+     
+          <div id="photo">
+             <div id="picture">
+              
+             
+               <div id="info_2">
+               <div id="holder">
+                 <div id="note_count">
+                   <a href="http://theamxtyafflxctxon.tumblr.com/post/98612790927/datodaaat-datodaaat"> 3,742 notes </a>
+                 </div>
+                 <div id="month"><a href="http://theamxtyafflxctxon.tumblr.com/post/98612790927/datodaaat-datodaaat">
+                   Posted on Saturday,
+                   <br> 27 September 2014.
+                   
+                   </a>
+                 </div>
+              </div>
+              </div>
+            
+            <img src="http://38.media.tumblr.com/46bf4aa822dd3d00d6092586ea96a50d/tumblr_nb0n5kDNYc1spwsubo1_1280.jpg" 
+
+width="270" 
+
+
+
+ />
+             
+
+<a href="https://www.tumblr.com/reblog/98612790927/CQyP96a3" target="_blank"><div id="reblog">Reblog This</div></a>
+            </div>
+            </div>
+            
+            
+            
+            
+      
+            
+      
+  
+      
+  
+      
+  
+      
+  
+  
+      
+                
+      
+  
+      
+      
+  </div>
+  
+  
+   
+  
+  
+  
+</div> <!-- #container -->
+
+
+<div class="container_load">
+   <a href="#" id="load">+ Load More Posts</a><br>
+</div>
+</div>
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://theamxtyafflxctxon.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037835&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdGhlYW14dHlhZmZseGN0eG9uLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=GFPJPIAKOK&K=267bd091248ac7aeea8a6e36106bc321b4fe51052d9f442606718e194ec8c21a&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037835&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdGhlYW14dHlhZmZseGN0eG9uLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=GFPJPIAKOK&K=9805f27fb692fd56ef4bf160e6e3d4ee6d6e251ed1defd918ae4d4e2267dabdc&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037835&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RoZWFteHR5YWZmbHhjdHhvbi50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMjgxODY4NDUiLCJyb290X3Bvc3RpZCI6MzI1NTkyODAzMjYsInBvc3RpZCI6Ijk4NzA2MjkyNzMyIiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDU5MTAwMDciLCJyb290X3Bvc3RpZCI6OTY1NzMwMTI5MDAsInBvc3RpZCI6Ijk4NzA2MjUwMjAyIiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzU2NTA3MjkiLCJyb290X3Bvc3RpZCI6IjkxODI2NTA0NzU3IiwicG9zdGlkIjoiOTg3MDYyNDkwMDciLCJibG9naWQiOiI1OTY3NzA3NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDE4MTM3NDEiLCJyb290X3Bvc3RpZCI6IjkyMDg2MjI3ODg0IiwicG9zdGlkIjoiOTg3MDYyNDgwMDIiLCJibG9naWQiOiI1OTY3NzA3NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNTA3NzQ0MyIsInJvb3RfcG9zdGlkIjoiOTQzODk1MzkwODQiLCJwb3N0aWQiOiI5ODcwNjI0ODQ5NyIsImJsb2dpZCI6IjU5Njc3MDc2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEwNjA0Nzk5OCIsInJvb3RfcG9zdGlkIjoiNTI3NzgzMjU0ODciLCJwb3N0aWQiOiI5ODYxMzg3MzAwMiIsImJsb2dpZCI6IjU5Njc3MDc2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExMjM1MTk0Iiwicm9vdF9wb3N0aWQiOjQ5MzQyOTU4ODE0LCJwb3N0aWQiOiI5ODYxMzg2MTMxNyIsImJsb2dpZCI6IjU5Njc3MDc2Iiwic291cmNlIjozM31dfQ==&U=BKHMPGHOPE&K=53500721ba80561fa8805f219ce5809a8697f9daa21c2b4ec089e81cc7afdba4&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037835&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RoZWFteHR5YWZmbHhjdHhvbi50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMjgxODY4NDUiLCJyb290X3Bvc3RpZCI6MzI1NTkyODAzMjYsInBvc3RpZCI6Ijk4NzA2MjkyNzMyIiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDU5MTAwMDciLCJyb290X3Bvc3RpZCI6OTY1NzMwMTI5MDAsInBvc3RpZCI6Ijk4NzA2MjUwMjAyIiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzU2NTA3MjkiLCJyb290X3Bvc3RpZCI6IjkxODI2NTA0NzU3IiwicG9zdGlkIjoiOTg3MDYyNDkwMDciLCJibG9naWQiOiI1OTY3NzA3NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDE4MTM3NDEiLCJyb290X3Bvc3RpZCI6IjkyMDg2MjI3ODg0IiwicG9zdGlkIjoiOTg3MDYyNDgwMDIiLCJibG9naWQiOiI1OTY3NzA3NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNTA3NzQ0MyIsInJvb3RfcG9zdGlkIjoiOTQzODk1MzkwODQiLCJwb3N0aWQiOiI5ODcwNjI0ODQ5NyIsImJsb2dpZCI6IjU5Njc3MDc2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEwNjA0Nzk5OCIsInJvb3RfcG9zdGlkIjoiNTI3NzgzMjU0ODciLCJwb3N0aWQiOiI5ODYxMzg3MzAwMiIsImJsb2dpZCI6IjU5Njc3MDc2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExMjM1MTk0Iiwicm9vdF9wb3N0aWQiOjQ5MzQyOTU4ODE0LCJwb3N0aWQiOiI5ODYxMzg2MTMxNyIsImJsb2dpZCI6IjU5Njc3MDc2Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=BKHMPGHOPE&K=b3be595b50481788898a37f21d25cf2bb763573e6af2c9d29d9bc0266c6272f5&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037835&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RoZWFteHR5YWZmbHhjdHhvbi50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMzEyNDgzNTQiLCJyb290X3Bvc3RpZCI6Ijc5NzA3MjcxNzY1IiwicG9zdGlkIjoiOTg2MTM2NzkwMzciLCJibG9naWQiOiI1OTY3NzA3NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2OTU0ODY5Iiwicm9vdF9wb3N0aWQiOiI4ODU0MTMwNzUyNiIsInBvc3RpZCI6Ijk4NjEzNjUxNzY3IiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDUzMjc5MTMiLCJyb290X3Bvc3RpZCI6OTg0NjkwNzgwMDMsInBvc3RpZCI6Ijk4NjEyOTAwNTAyIiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjgwMjY1ODYiLCJyb290X3Bvc3RpZCI6Ijk1OTA1ODM0NTc4IiwicG9zdGlkIjoiOTg2MTI4ODYxMjciLCJibG9naWQiOiI1OTY3NzA3NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3MzI3MTk1NyIsInJvb3RfcG9zdGlkIjoiOTIyNTgxMDM1NDAiLCJwb3N0aWQiOiI5ODYxMjg3NzYxNyIsImJsb2dpZCI6IjU5Njc3MDc2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY4OTY4Njg2Iiwicm9vdF9wb3N0aWQiOiI4ODM0ODkxOTY5OSIsInBvc3RpZCI6Ijk4NjEyODc0NDEyIiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTkyMTYyNjE0Iiwicm9vdF9wb3N0aWQiOiI5NTQ0MzMxNTcyMSIsInBvc3RpZCI6Ijk4NjEyODIyNzM3IiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTA0ODM2OTA4Iiwicm9vdF9wb3N0aWQiOiI5NTk5NDU0Mjg5NSIsInBvc3RpZCI6Ijk4NjEyNzkwOTI3IiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfV19&U=OJFHJOAODN&K=b70facd0750b1c5a25317090c137acffa4b1fb326946a089e048d8f107d80de4&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037835&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RoZWFteHR5YWZmbHhjdHhvbi50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMzEyNDgzNTQiLCJyb290X3Bvc3RpZCI6Ijc5NzA3MjcxNzY1IiwicG9zdGlkIjoiOTg2MTM2NzkwMzciLCJibG9naWQiOiI1OTY3NzA3NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2OTU0ODY5Iiwicm9vdF9wb3N0aWQiOiI4ODU0MTMwNzUyNiIsInBvc3RpZCI6Ijk4NjEzNjUxNzY3IiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDUzMjc5MTMiLCJyb290X3Bvc3RpZCI6OTg0NjkwNzgwMDMsInBvc3RpZCI6Ijk4NjEyOTAwNTAyIiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjgwMjY1ODYiLCJyb290X3Bvc3RpZCI6Ijk1OTA1ODM0NTc4IiwicG9zdGlkIjoiOTg2MTI4ODYxMjciLCJibG9naWQiOiI1OTY3NzA3NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3MzI3MTk1NyIsInJvb3RfcG9zdGlkIjoiOTIyNTgxMDM1NDAiLCJwb3N0aWQiOiI5ODYxMjg3NzYxNyIsImJsb2dpZCI6IjU5Njc3MDc2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY4OTY4Njg2Iiwicm9vdF9wb3N0aWQiOiI4ODM0ODkxOTY5OSIsInBvc3RpZCI6Ijk4NjEyODc0NDEyIiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTkyMTYyNjE0Iiwicm9vdF9wb3N0aWQiOiI5NTQ0MzMxNTcyMSIsInBvc3RpZCI6Ijk4NjEyODIyNzM3IiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTA0ODM2OTA4Iiwicm9vdF9wb3N0aWQiOiI5NTk5NDU0Mjg5NSIsInBvc3RpZCI6Ijk4NjEyNzkwOTI3IiwiYmxvZ2lkIjoiNTk2NzcwNzYiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=OJFHJOAODN&K=8ecfa0ef04290a5fbc1f5d61bfc83ead586b719cda8e7c9f8d4e51534cb40138&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:59677076,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Ftheamxtyafflxctxon.tumblr.com%2F&amp;lang=en_US&amp;name=theamxtyafflxctxon&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_46e011672cdb_64.png&amp;url=http%3A%2F%2Ftheamxtyafflxctxon.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Ftheamxtyafflxctxon.tumblr.com%2F&amp;lang=en_US&amp;name=theamxtyafflxctxon&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_46e011672cdb_64.png&amp;url=http%3A%2F%2Ftheamxtyafflxctxon.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

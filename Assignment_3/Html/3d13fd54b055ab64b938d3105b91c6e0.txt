@@ -1,0 +1,2282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<title>Grav - Music - HulkShare</title>
+	<meta name="description" content="HulkShare free internet radio provides free music to discover new artists and connect with artists and friends." />
+	<meta name="keywords"    content="free internet radio, social network, free online music, discover artists, music discovery, music sharing, music uploads, where can I share my music, where can I upload my songs, submit your music" />
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=0">
+
+	
+	<meta property="fb:app_id" content="469626423064884">
+	<meta property="og:title" content="Grav" />
+	<meta property="og:type" content="profile" />
+	<meta property="og:url" content="http://www.hulkshare.com/Grav" />
+	<meta property="og:image" content="http://www.hulkshare.com/images/hulkshare_avatar_200x200.jpg" />
+	<meta property="profile:gender" content="" />
+	<meta property="og:description" content="HulkShare - Free Internet Radio"/>
+<meta property="og:site_name" content="HulkShare - Free Internet Radio and Music Sharing"/>
+<meta property="fb:admins" content="609913101"/>
+
+<!--[if gt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UAcEV1VSGwIIUlJRDwU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,o){t&&t(e,n,o),o||(o={});for(var a=i(e),s=a.length,c=o[r]||(o[r]={}),f=0;s>f;f++)a[f].apply(c,n);return c}function o(t,e){s[t]=i(t).concat(e)}function i(t){return s[t]||[]}function a(){return n(e)}var s={};return{on:o,emit:e,create:a,listeners:i,_events:s}}var r="nr@context";e.exports=n()},{}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(5),i=t(3),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(f){"stack"in f&&(t(6),t(4),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:"QJf3ax",4:5,5:15,6:6,handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(2),t(1).create()),i=t(3)(o);if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var a=document;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&n(a);for(var s=XMLHttpRequest.prototype;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=i(e,"fn-",null,e.name||"anonymous"):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:"QJf3ax",2:15,3:16}],5:[function(t,e){var n=(t(3),t(1).create()),r=t(2)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:"QJf3ax",2:16,3:15}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(3),t(1).create()),o=t(2)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:"QJf3ax",2:16,3:15}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t(2).create(),a=t(1),s=t(3),c=s(i),f=s(a),u=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new u(t);try{i.emit("new-xhr",[],e),f.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",r)}catch(o){}}return e},window.XMLHttpRequest.prototype=u.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:"QJf3ax",3:16}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=e(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(1),a=t(3),s=["load","error","abort","timeout"],c=s.length,f=t(2);t(5),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=e(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var u=0;c>u;u++)n.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:9,2:12,3:"QJf3ax",4:7,5:4,handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t(1).create(),o={};e.exports=n,n.ee=r,r.q=o},{1:"QJf3ax"}],12:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,f="addEventListener",u="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),s[f]("load",n,!1)):(c[u]("onreadystatechange",r),s[u]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],15:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],16:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t(1),o=t(2),i="nr@wrapper";e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,f,u;try{i=this,n=o(arguments),f=r&&r(n,i)||{}}catch(d){c([d,"",[n,i,a],f])}s(e+"start",[n,i,a],f);try{return u=t.apply(i,n)}catch(p){throw s(e+"err",[n,i,p],f),p}finally{s(e+"end",[n,i,u],f)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,nrWrapper)}function a(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s,t))}function s(e,n,r){try{t.emit(e,n,r)}catch(o){c([o,e,n,r])}}function c(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=a,e.flag=i,e}},{1:"QJf3ax",2:15}]},{},["G9z0Bl",3,8]);</script><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.hulkshare.com/favicon.ico" />
+<link rel="apple-touch-icon" href="http://www.hulkshare.com/images/64x64.png" />
+<link rel="apple-touch-icon" sizes="74x74" href="http://www.hulkshare.com/images/74x74.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="http://www.hulkshare.com/images/114x114.png" />
+<link rel="stylesheet" type="text/css" href="http://www.hulkshare.com/combine/360player.css,styles2.css,newplayer.css,360hs_index.css,jquery.fancybox.2.1.4.css,jquery.mCustomScrollbar.css?dd=140811" />
+<link rel="stylesheet" media="all and (orientation:portrait)" href="http://www.hulkshare.com/combine/portrait.css?dd=140811" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+
+
+
+
+<!--[if lte IE 8]><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.js"></script><![endif]-->
+
+<script type="text/javascript">var useAJAX = true,isAJAX = false;</script><script type="text/javascript" id="combine" src="http://www.hulkshare.com/combine/jquery.mousewheel.3.0.4.pack.js,jquery.fancybox.2.1.5.js,jquery.simplemodal.1.4.2.js,cusel.min.2.4.1.js,jScrollPane.js,sm2_20130512.js,stickyplayer2.js,360hs_index.js,jquery.ajaxQueue.js,FlashDetect.js,jquery.address.js,hsAjaxController.js,hsSearch.js,timezone.js,hsMessage.js,hulkshare.js,main.js,hsActivity.js,people.js,messages.js,hulkplayer2.js,my_profile_tracks.js?dd=140815"></script>
+
+
+<script type="text/javascript" src="/combine/swfobject.js,jquery.Jcrop.min.js,jquery.mCustomScrollbar.min.js,nhsAddTo.js,new_hulkshare.js,jquery.masonry.js,plupload.v2.full.min.js?dd=140815"></script>
+
+
+
+
+
+
+<!--[if lte IE 6]><script src="http://www.hulkshare.com/static/DD_belatedPNG.js"></script><![endif]-->
+<script type="text/javascript">var configSiteURL="http://www.hulkshare.com",configBlogsURL="http://blogs.hulkshare.com",uplURL="http://upl.hulkshare.com",usrId=0,isMobile=false,maqino=false,fbAppId=469626423064884,fb_renew=0,continuousPlayback = 1 ,usrAutoplay=0,is_playlist = false,track_settings,next_page=-1,next_page_link="/userPublic.php?uid=361501&fld_id=0&per_page=25&files_order=3&page=2",autoplay=0,useAWS=0,videoKey = 140930,isBeta=0,isUV=false;cPage = 'profile';</script>
+</head>
+<body class="nhsBody">
+	
+	<div class="nhsHeader">
+	<a href="http://www.hulkshare.com" class="logo"></a>
+	<form id="searchForm" action="http://www.hulkshare.com/search/" method="get" >
+		<input type="text" value="Search" name="q" class="searchText" />
+		<input type="submit" value="" class="nhsSubmitLupaIcon"/>
+	</form>
+	<div class="nhsHeaderLinks">
+		<div class="nhsExploreLink">
+			<a class="nhsExploreLinkL" href="http://www.hulkshare.com/explore">Explore</a>
+			<div class="nhsExploreDropDown">
+				<a class="nhsEddL1" href="http://www.hulkshare.com/explore/all/music">Music</a>
+				<a class="nhsEddL2" href="http://www.hulkshare.com/explore/all/people">People</a>
+				<a class="nhsEddL3" href="http://www.hulkshare.com/explore/all/groups">Groups</a>
+				<a class="nhsEddL4" href="http://www.hulkshare.com/explore/all/blogs">Blogs</a>
+			</div>
+		</div>
+		<button class="nhsUploadLink loginPopLink" href="http://www.hulkshare.com/static.php?op=login">Upload</button>
+	</div>
+
+	<div class="nhsHeaderRight">
+							<div class="nhsLogSignupHeadBlock nhsClear">
+				<a href="/static.php?op=login" class="loginPopLink">Login</a>
+				<a href="/static.php?op=signup" class="signupPopLink">Sign Up</a>
+				<a href="/static.php?op=careers">Jobs</a>
+			</div>
+			</div>
+</div>
+	<div id="ajaxcontents">
+	
+	
+<div class="nhsWrapper">
+			<div class="userPixTopBlock"></div>
+		<div class="nhsLayout">
+		<div class="nhsThreeColumn">
+			<div class="nhsLeftSidebar groupSidebar">
+				<div class="nhsLeftScroll">
+					<div class="nhsGroupAvatar nhsAvatarWithBigPix">
+						<a class="openImage" title="Grav" rel="no_ajax" href="http://s0.hulkshare.com/avatar_images/original/default.png"><img id="profile_image" src="http://s0.hulkshare.com/avatar_images/180/default.png" alt="Grav - Free Online Music" /></a>
+											</div>
+					<div class="nhsGroupInfoBlock">
+						<h2 class="nhsH2">Grav </h2>
+						
+						<p>South Africa, Pretoria</p>
+						<div class="nhsClear">
+							<span class="icSp icSp1">14</span>
+							<span class="icSp icSp13">0</span>
+							
+						</div>
+						<div class="nhsClear">
+															<button href="http://www.hulkshare.com/static.php?op=login" class="nhsGrayButton loginPopLink">Follow</button>
+								<button class="nhsGrayButton nhsGrayButtonRight shareTrack" href="http://www.hulkshare.com/static.php?op=share_track_popup&fn=Grav&fc=Grav">Share</button>
+								<button class="nhsGrayButton loginPopLink" href="http://www.hulkshare.com/static.php?op=login">Message</button>
+								
+													</div>
+													<div class="nhsMargin10">Artist<br></div>
+																			<div class="nhsMargin10">
+								<span class="nhsSp3">Main Genres:</span>
+								<div class="nhsMargin10">
+									<a href="/explore/Hip Hop/music" class="nhsTagItem">Hip Hop<span></span></a>
+									 <a href="/explore/Hardcore Hip-Hop/music" class="nhsTagItem">Hardcore Hip-Hop<span></span></a>								</div>
+							</div>
+																			<div class="nhsMargin10">
+								<span class="nhsSp3">About me: </span><br />
+								<span class="shortText">ask me</span>
+															</div>
+												<div class="nhsBlogLeftLinks">
+							<a class="nhsBL1"  rel="nofollow" target="_blank" href="http://www.datafilehost.com/d/2d691f87">My website</a>							<a class="nhsBL2"  rel="nofollow" target="_blank" href="http://twitter.com/__Grav">Twitter</a>							<a class="nhsBL3"  rel="nofollow" target="_blank" href="http://www.facebook.com/blake.metelerkamp">Facebook</a>																																			
+						</div>
+					</div>
+					<div class="mhsLeftBan" id="ad_user_banner_2" style="height: 600px; width: 160px;">
+	
+</div>
+<script type="text/javascript">
+	$(window).load(function(){
+		// ad ads
+		var user0  = '<iframe width="160" scrolling="no" height="600" frameborder="0" framespacing="0" src="/static/ads/ad_sidebar_2.php"></iframe>';
+
+		if ($('#ad_user_banner_2').length > 0)
+			$('#ad_user_banner_2').html(user0);
+
+	});
+</script>
+
+				</div>
+			</div>
+			<div class="nhsMain">
+					<div class="nhsTabs">
+		<a class="nhsAct" href="http://www.hulkshare.com/Grav">Music</a>
+		<a  href="http://www.hulkshare.com/Grav/activity">Activity</a>
+							</div>
+<div class="nhsTabs nhsTabsSubmenu">
+	<a class="nhsAct" href="/Grav">All Music <i>14</i></a>
+	<a  href="/Grav/uploads">Uploads <i>14</i></a>				<a  href="/Grav/dropbox">Dropbox <i>0</i></a>
+</div>
+			<ul class="nhsBrowseItems">
+							<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480671-467797">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/the-professor" class="nhsMainAvatar">
+				<img alt="The Professor" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/the-professor">The Professor</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT0M43S" />
+				<meta itemprop="name" content="The Professor" />
+				<meta itemprop="interactionCount" content="UserPlays:89"/>
+				<meta itemprop="interactionCount" content="UserDownloads:63"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/the-professor" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">89</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">63</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480671_last467797" fid="12480671" fcode="32ok6pgmwh1c" dur="43">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480671" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-32ok6pgmwh1c"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=32ok6pgmwh1c&fl=http://www.hulkshare.com/grav/the-professor" id="shareTrack-12480671" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/32ok6pgmwh1c/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480670-959628">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/the-awekening" class="nhsMainAvatar">
+				<img alt="The Awekening" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/the-awekening">The Awekening</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT1M4S" />
+				<meta itemprop="name" content="The Awekening" />
+				<meta itemprop="interactionCount" content="UserPlays:119"/>
+				<meta itemprop="interactionCount" content="UserDownloads:50"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/the-awekening" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">119</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">50</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480670_last959628" fid="12480670" fcode="dbulrq2ahxc0" dur="64">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480670" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-dbulrq2ahxc0"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=dbulrq2ahxc0&fl=http://www.hulkshare.com/grav/the-awekening" id="shareTrack-12480670" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/dbulrq2ahxc0/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480667-801354">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/summertime-is-near" class="nhsMainAvatar">
+				<img alt="Summertime Is Near!" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/summertime-is-near">Summertime Is Near!</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT1M57S" />
+				<meta itemprop="name" content="Summertime Is Near!" />
+				<meta itemprop="interactionCount" content="UserPlays:81"/>
+				<meta itemprop="interactionCount" content="UserDownloads:35"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/summertime-is-near" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">81</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">35</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480667_last801354" fid="12480667" fcode="rbtj9pp65y4g" dur="117">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480667" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-rbtj9pp65y4g"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=rbtj9pp65y4g&fl=http://www.hulkshare.com/grav/summertime-is-near" id="shareTrack-12480667" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/rbtj9pp65y4g/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480656-808955">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/representin-95-till-14" class="nhsMainAvatar">
+				<img alt="Representin 95&#39; Till 14&#39;" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/representin-95-till-14">Representin 95&#39; Till 14&#39;</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT1M38S" />
+				<meta itemprop="name" content="Representin 95&#39; Till 14&#39;" />
+				<meta itemprop="interactionCount" content="UserPlays:61"/>
+				<meta itemprop="interactionCount" content="UserDownloads:28"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/representin-95-till-14" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">61</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">28</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480656_last808955" fid="12480656" fcode="m3k94fhm2vi8" dur="98">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480656" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-m3k94fhm2vi8"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=m3k94fhm2vi8&fl=http://www.hulkshare.com/grav/representin-95-till-14" id="shareTrack-12480656" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/m3k94fhm2vi8/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480652-969401">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/intoxicated" class="nhsMainAvatar">
+				<img alt="Intoxicated" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/intoxicated">Intoxicated</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT1M15S" />
+				<meta itemprop="name" content="Intoxicated" />
+				<meta itemprop="interactionCount" content="UserPlays:72"/>
+				<meta itemprop="interactionCount" content="UserDownloads:6"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/intoxicated" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">72</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">6</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480652_last969401" fid="12480652" fcode="2998xxpvdcm8" dur="75">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480652" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-2998xxpvdcm8"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=2998xxpvdcm8&fl=http://www.hulkshare.com/grav/intoxicated" id="shareTrack-12480652" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/2998xxpvdcm8/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480648-801398">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/infamous-tags" class="nhsMainAvatar">
+				<img alt="Infamous Tags" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/infamous-tags">Infamous Tags</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT0M51S" />
+				<meta itemprop="name" content="Infamous Tags" />
+				<meta itemprop="interactionCount" content="UserPlays:53"/>
+				<meta itemprop="interactionCount" content="UserDownloads:3"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/infamous-tags" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">53</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">3</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480648_last801398" fid="12480648" fcode="km32ek1onwu8" dur="51">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480648" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-km32ek1onwu8"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=km32ek1onwu8&fl=http://www.hulkshare.com/grav/infamous-tags" id="shareTrack-12480648" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/km32ek1onwu8/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480644-887799">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/in-your-casset-deck-soon" class="nhsMainAvatar">
+				<img alt="In Your Casset Deck Soon" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/in-your-casset-deck-soon">In Your Casset Deck Soon</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT1M47S" />
+				<meta itemprop="name" content="In Your Casset Deck Soon" />
+				<meta itemprop="interactionCount" content="UserPlays:65"/>
+				<meta itemprop="interactionCount" content="UserDownloads:18"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/in-your-casset-deck-soon" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">65</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">18</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480644_last887799" fid="12480644" fcode="xz7qahszqygw" dur="107">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480644" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-xz7qahszqygw"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=xz7qahszqygw&fl=http://www.hulkshare.com/grav/in-your-casset-deck-soon" id="shareTrack-12480644" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/xz7qahszqygw/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480636-537676">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/i-consider-my-stories-movies" class="nhsMainAvatar">
+				<img alt="I Consider My Stories Movies" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/i-consider-my-stories-movies">I Consider My Stories Movies</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT2M2S" />
+				<meta itemprop="name" content="I Consider My Stories Movies" />
+				<meta itemprop="interactionCount" content="UserPlays:67"/>
+				<meta itemprop="interactionCount" content="UserDownloads:13"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/i-consider-my-stories-movies" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">67</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">13</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480636_last537676" fid="12480636" fcode="je1voe0ts4cg" dur="122">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480636" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-je1voe0ts4cg"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=je1voe0ts4cg&fl=http://www.hulkshare.com/grav/i-consider-my-stories-movies" id="shareTrack-12480636" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/je1voe0ts4cg/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480631-98059">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/eyecontact" class="nhsMainAvatar">
+				<img alt="Eyecontact" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/eyecontact">Eyecontact</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT0M36S" />
+				<meta itemprop="name" content="Eyecontact" />
+				<meta itemprop="interactionCount" content="UserPlays:57"/>
+				<meta itemprop="interactionCount" content="UserDownloads:6"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/eyecontact" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">57</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">6</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480631_last98059" fid="12480631" fcode="owhgv1un70n4" dur="36">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480631" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-owhgv1un70n4"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=owhgv1un70n4&fl=http://www.hulkshare.com/grav/eyecontact" id="shareTrack-12480631" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/owhgv1un70n4/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480629-863138">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/deadly-dust" class="nhsMainAvatar">
+				<img alt="Deadly Dust" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/deadly-dust">Deadly Dust</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT0M53S" />
+				<meta itemprop="name" content="Deadly Dust" />
+				<meta itemprop="interactionCount" content="UserPlays:64"/>
+				<meta itemprop="interactionCount" content="UserDownloads:6"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/deadly-dust" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">64</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">6</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480629_last863138" fid="12480629" fcode="qofmqx8w6by8" dur="53">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480629" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-qofmqx8w6by8"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=qofmqx8w6by8&fl=http://www.hulkshare.com/grav/deadly-dust" id="shareTrack-12480629" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/qofmqx8w6by8/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480625-743927">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/corrupt-cop" class="nhsMainAvatar">
+				<img alt="Corrupt Cop!" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/corrupt-cop">Corrupt Cop!</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT0M45S" />
+				<meta itemprop="name" content="Corrupt Cop!" />
+				<meta itemprop="interactionCount" content="UserPlays:160"/>
+				<meta itemprop="interactionCount" content="UserDownloads:684"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/corrupt-cop" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">160</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">684</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480625_last743927" fid="12480625" fcode="1nezieacdtxc" dur="45">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480625" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-1nezieacdtxc"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=1nezieacdtxc&fl=http://www.hulkshare.com/grav/corrupt-cop" id="shareTrack-12480625" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/1nezieacdtxc/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480623-946411">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/changed-for-the-worse" class="nhsMainAvatar">
+				<img alt="Changed For The Worse" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/changed-for-the-worse">Changed For The Worse</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT2M43S" />
+				<meta itemprop="name" content="Changed For The Worse" />
+				<meta itemprop="interactionCount" content="UserPlays:90"/>
+				<meta itemprop="interactionCount" content="UserDownloads:5"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/changed-for-the-worse" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">90</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">5</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480623_last946411" fid="12480623" fcode="yhi0goou8uf4" dur="163">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480623" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-yhi0goou8uf4"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=yhi0goou8uf4&fl=http://www.hulkshare.com/grav/changed-for-the-worse" id="shareTrack-12480623" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/yhi0goou8uf4/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480591-625899">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/been-noted" class="nhsMainAvatar">
+				<img alt="Been Noted" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/been-noted">Been Noted</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT1M28S" />
+				<meta itemprop="name" content="Been Noted" />
+				<meta itemprop="interactionCount" content="UserPlays:65"/>
+				<meta itemprop="interactionCount" content="UserDownloads:5"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/been-noted" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">65</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">5</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480591_last625899" fid="12480591" fcode="m6m7v6xv318g" dur="88">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480591" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-m6m7v6xv318g"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=m6m7v6xv318g&fl=http://www.hulkshare.com/grav/been-noted" id="shareTrack-12480591" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/m6m7v6xv318g/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+					<li class="nhsClear">
+	
+		
+		
+		
+		
+					
+
+<div class="nhsBrowseBlock" id="browseBlock-12480587-22815">
+			<div class="nhsBrowseBlockLeft">
+			<a href="http://www.hulkshare.com/grav/after-the-events-of-flashpoint" class="nhsMainAvatar">
+				<img alt="After the events of Flashpoint" src="http://s0.hulkshare.com/song_images/120/default.png">
+			</a>
+		</div>
+	
+	<div class="nhsTrunTrackedTitle"><a class="nhsTrackTitle nhsClear" href="http://www.hulkshare.com/grav/after-the-events-of-flashpoint">After the events of Flashpoint</a> </div>
+
+	<div itemscope itemtype="http://schema.org/MusicGroup" class="nhsTrackTitleUnder nhsClear">
+			<div class="nhsFloatLeft">
+			By
+												<div class="nhsUserInfoTooltip nhsUserStckBlock" style="float: none; display: inline;"><a itemprop="name" href="http://www.hulkshare.com/Grav">Grav</a>
+<div class="nhsUserInfoTooltipPop nhsDispNone">
+	<div class="nhsUserInfoTooltipPopIn">
+		<div class="nhs360Small" rel="people-361501">
+			<a href="http://www.hulkshare.com/Grav" class="nhsUserThumbInTooltip"><img src='/images/z.gif' rel="http://s0.hulkshare.com/avatar_images/78/default.png" alt="Grav" /></a>
+		</div>
+		<a class="nhsEllipsisItem" href="http://www.hulkshare.com/Grav">Grav</a>
+		South Africa<br />
+		<div class="nhsPeopleList" style="display: inline-block;">
+			<span class="icSp3">14</span>
+			<span class="icSp4">0</span>
+		</div>
+		<div class="nhsClear">
+			<button class="nhsGrayButton nhsGrayButtonSmall" rel="http://www.hulkshare.com/Grav">Profile</button>
+												<button class="nhsGrayButton nhsGrayButtonSmall  follow-btn-361501" onclick="javascript:follow(361501);">
+						Follow					</button>
+									</div>
+		<div class="nhsArrowCont">
+			<div class="nhsArrow"></div>
+		</div>
+	</div>
+</div>
+</div>
+ uploaded 7 months ago 										</div>
+						<div itemscope itemtype="http://schema.org/MusicRecording" class="nhsTrackStat">
+				<meta itemprop="duration" content="PT2M24S" />
+				<meta itemprop="name" content="After the events of Flashpoint" />
+				<meta itemprop="interactionCount" content="UserPlays:94"/>
+				<meta itemprop="interactionCount" content="UserDownloads:21"/>
+				<meta itemprop="interactionCount" content="UserComments:0"/>
+				<meta itemprop="interactionCount" content="UserLikes:0"/>
+				<meta itemprop="url" content="http://www.hulkshare.com/grav/after-the-events-of-flashpoint" />
+				<span class="vidBitrate" >320 kbps</span>
+				<span class="vidPlays ">94</span>
+				<span class="vidComms ">0</span>
+				<span class="vidLikes nhsDisplayNone">0</span>
+				<span class="vidDowns nhsDisplayNone">21</span>
+			</div>
+				</div>
+	
+		<div class="newPlayer" id="hsPlayer_12480587_last22815" fid="12480587" fcode="4c8dci56vzls" dur="144">
+			<div class="playerHeader" role="browse">
+				<div class="playerLeftBlock">
+					<a href="#" class="playLink"></a>
+					<a href="#" class="pauseLink"></a>
+				</div>
+				<div class="waveBlock" style="display: none">
+					<div class="halfTop">
+						<div class="timeInsidePlayer leftTime">00:00</div>
+						<div class="timeInsidePlayer rightTime" style="float: right;">00:00</div>
+					</div>
+					<div class="halfBottom"></div>
+					<div class="waveLoaded" style="width: 0%;"></div>
+					<div class="playedWaves" style="width: 0%;"></div>
+					<div class="waveBlockIn">
+						<img class="waveImage" alt="" />
+						<div class="polzunok addCommentBtn">
+							<a href="javascript://" class="plusButton trigger"></a>
+							<span class="popup popupCom">
+								<div class="borBack plusTime">Click + to add comment at 0:00</div>
+							</span>
+						</div>
+						<div class="shadowPlayer"></div>
+						<div id="cueBar"></div>
+					</div>
+									</div>
+			</div>
+			<div class="nhsWriteCommentToTrack" style="display: none">
+				<img alt="" src="http://s4.hulkshare.com/avatar_images/25/d/4/1/d41d8cd98f00b204e9800998ecf8427e.jpg?dd=1412037612">
+				<input class="nhsSimpleInp" type="text" value="Write a comment at 00:00"></input>
+			</div>
+			<div class="nhsBrowseBlockControls">
+				<button id="fav-12480587" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmLike addToFavorites"><span></span>Like</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmRepost  nhsDispNone copyTrack" id="filecode-4c8dci56vzls"><span></span>Repost</button>
+								<button class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmAddTo nhsDispNone"><span></span>Add to...</button>
+								<button href="http://www.hulkshare.com/static.php?op=share_track_popup&fc=4c8dci56vzls&fl=http://www.hulkshare.com/grav/after-the-events-of-flashpoint" id="shareTrack-12480587" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmShare nhsDispNone  shareTrack"><span></span>Share</button>
+												<button href="http://www.hulkshare.com/dl/4c8dci56vzls/hulkshare.mp3?d=1" class="nhsGrayButton nhsGrayButtonSmall nhsGrayBtnSmDownload nhsDispNone"><span></span>Download</button>
+																																	
+											</div>
+			<div class="clear"></div>
+									<div class="newCommentsList">
+				<div class="commentsListHeader">
+					<div id="clTitle" style="float: left;">0 comments at 0:00</div>
+					<a class="clClose" id="fancybox-close" style="display: inline;">close</a>
+					<div class="clear"></div>
+				</div>
+				<div class="mScroll" id="commentsScroll"></div>
+				<div class="commentsListFooter">
+					<div class="notLoggedUser">
+						<div style="float: left; margin: 4px 0 0 3px;">You must be logged in to comment</div>
+						<div style="float: right; margin: 4px 3px 0 0;"><a href="#">Login</a> or <a href="#">Sign Up</a></div>
+					</div>
+					<form action="" class="loggedUser">
+						<input type="text" id="clText" value="Your comment" class="writeComInp" />
+						<input type="button" id="clAdd" class="comSub" value="Add" />
+					</form>
+					<div class="clear"></div>
+				</div>
+				<div class="newCornerComments"></div>
+			</div>
+					</div>
+	
+		
+</div>
+
+
+			
+				
+		
+		</li>
+	
+		</ul>
+	<div class="nhsFetching" style="display:none;"><img src="/images2/loader.gif" alt=""></div>
+<input type="hidden" id="locked" value="0" />
+<input type="hidden" id="page" value="1" />
+<input type="hidden" id="uid" value="361501" />
+<input type="hidden" id="type" value="music" />
+<input type="hidden" id="is_fav" value="0" />
+<input type="hidden" id="isvid" value="0" />
+<input type="hidden" id="up" value="0" />
+<input type="hidden" id="last_create_from_previous_list" value="2014-02-20 21:34:20" />	
+<br/><br/>
+			</div>
+				
+	<div class="nhsRightSidebar"></div>
+	<script>
+	
+		setTimeout(function(){
+			var lsbar = function(){
+			
+				$.get("/ajax/sidebar.php",
+					{ "sidebar_type" : "right",
+						"uid" : 361501,
+												"gid" : 0,
+						"type" : "profile",
+						"is_owner" : 0,
+						"blog_id" : ""
+						
+					},
+					function(data){
+						$(".nhsRightSidebar").html(data);
+						if(typeof(twttr) != 'undefined')
+							twttr.widgets.load();
+						if (typeof (FB) != 'undefined')	
+							FB.init({ status: true, cookie: true, xfbml: true });
+
+						$('.rrank').click(function(e){
+							e.preventDefault();
+							rRank = $(this).attr("rel");
+							$.post('/ajax/relevance_ABswitcher.php',{'rRank':rRank},function(){
+								location.reload();
+							});
+						});
+				});
+			};
+			
+			if (typeof window._loaded == 'undefined')
+				$(window).load(function(){ lsbar(); });
+			else
+				$(document).ready(function(){ lsbar(); });
+			
+		}, 100);
+	
+	</script>
+	
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		// ad ads
+		//var user0  = '<iframe width="300" scrolling="no" height="250" frameborder="0" framespacing="0" src="/static/ads/user_sidebar.php"></iframe>';
+		//var user1  = '<iframe width="300" scrolling="no" height="250" frameborder="0" framespacing="0" src="/static/ads/user_sidebar_1.php"></iframe>';
+		var user0  = '<iframe width="300" scrolling="no" height="250" frameborder="0" framespacing="0" src="http://ads.ventivmedia.com/www/delivery/afr.php?zoneid=66&amp;cb=INSERT_RANDOM_NUMBER_HERE"></iframe>';
+		var user1  = '<iframe width="300" scrolling="no" height="250" frameborder="0" framespacing="0" src="http://ads.ventivmedia.com/www/delivery/afr.php?zoneid=66&amp;cb=INSERT_RANDOM_NUMBER_HERE"></iframe>';
+		if ($('#ad_user_sidebar_0').length > 0)
+			$('#ad_user_sidebar_0').html(user0);
+
+		if ($('#ad_user_sidebar_1').length > 0)
+			$('#ad_user_sidebar_1').html(user1);
+
+	});
+	
+</script>
+
+		</div>
+	</div>
+</div>
+	<script type="text/javascript">// add styles for now
+$('body').removeClass().addClass('nhsBody');
+$('.footer').remove();
+
+$("ul.addToPopupItems li:last-child").css("border-radius","0 0 3px 3px").css("-webkit-border-radius","0 0 3px 3px");
+$("ul.nhsUploadManagerSettings li:last-child").css("border-bottom","none");
+
+$('.nhsAddToScroll1').mCustomScrollbar();
+$('.nhsAddToScroll2').mCustomScrollbar();
+
+$(".openImage").fancybox({
+	openEffect	: 'elastic',
+	closeEffect	: 'elastic',
+	helpers : {
+		title : {
+			type : 'inside'
+		}
+	}
+});
+
+hsActivity.currentPageHighlights=0;
+hsActivity.currentPagePublicActivity=0;
+// activity tabs, switch between Highlights and Public Activity
+$('div.nhsTabsSubmenu').delegate('a', 'click', function(e){
+	e.preventDefault();
+
+	if($('div.nhsTabsSubmenu #myOwnActivity').length==0)
+		return;
+
+	$('div.nhsTabsSubmenu a').removeClass('nhsAct');
+	$(this).addClass('nhsAct');
+
+	$('.nhsBrowseItems').addClass('nhsDispNone');
+
+	var isOwnActivity = ($(this).attr('id')=='myOwnActivity'),
+		page = 0;
+	if(isOwnActivity) {
+		$('#activityPublic').removeClass('nhsDispNone');
+		$('#type').val('own_activity');
+		hsActivity.currentPageHighlights = $('#page').val();
+		page = hsActivity.currentPagePublicActivity;
+	}else{
+		$('#activityHighlights').removeClass('nhsDispNone');
+		$('#type').val('activity');
+		hsActivity.currentPagePublicActivity = $('#page').val();
+		page = hsActivity.currentPageHighlights;
+
+	}
+	$('#locked').val(0);
+	$('#page').val(page);
+	// load some data
+	if(page==0)
+		ajaxPagination(undefined, true);
+
+});
+
+// user profile edition	
+//if ($('#edit_profile_image').length>0) {
+//	edit_profile_image();
+//	edit_big_profile_image();
+//}
+
+$('.nhsBrowseItems').delegate('.triggerWriteSomethingTo', 'keypress', function(e){
+
+	var code = (e.keyCode ? e.keyCode : e.which);
+	if(code==13) {
+
+		if(hsLogin.needLogin())
+			return false;
+		
+		writeMessageController.Send(this);
+
+	}
+
+});
+
+$('.nhsBrowseItems').delegate('.triggerRemoveMessage', 'click', function(e){
+	e.preventDefault();
+	writeMessageController.Delete(this);
+});
+
+var writeMessageController = {
+	currentMessage : null,
+	page_owner_id : '361501',
+	obj : null,
+	src : '',
+	Send : function(objInput) {
+
+		var message = $(objInput).val();
+
+		if(message==this.currentMessage)
+			return false;
+
+		message = $.trim(message);
+		if(message.length==0)
+			return false;
+
+		this.Start(objInput);
+		$.get('/userActivity.php',{"uid": this.page_owner_id, "action": "message", "message": message}, function(data){
+				if(data.toLowerCase().substr(0,5)=='error'){
+					writeMessageController.Finished();
+					hsAlert.Alert(data, hsAlert.typeError);
+				}else{
+					hsAJAX._doc_ready = 0;
+					hsAJAX.refreshPage();
+				}
+		});
+
+	},
+	Start : function(objInput) {
+
+		this.obj = objInput;
+		this.currentMessage = $(this.obj).val();
+		$(this.obj).attr('readonly', true);
+		this.src = $(this.obj).prev().attr('src');
+		$(this.obj).prev().attr('src', '/images/ld.gif');
+
+	},
+	Finished : function() {
+
+		this.currentMessage = null;
+		$(this.obj).attr('readonly', false);
+		$(this.obj).prev().attr('src', this.src);
+
+	},
+	Delete : function(obj) {
+
+		var id = $(obj).attr('rel');
+
+		$(obj).after('<img src="/images/ld.gif" />');
+		$(obj).hide();
+
+		$.get('/userActivity.php',{"action": "remove_message", "uid": this.page_owner_id, "alert_id": id}, function(data){
+
+			if(data.toLowerCase().substr(0,5)=='error'){
+				$(obj).show().next().remove();
+				hsAlert.Show(data);
+			}else{
+				hsAJAX._doc_ready = 0;
+				hsAJAX.refreshPage();
+			}
+		});
+
+	}
+};
+</script>
+<div style="margin-top:50px;"></div>
+	</div>
+	<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-17416992-1']); 
+
+
+
+
+_gaq.push(['_trackPageview']);
+
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+
+	<div class="nhsAddToPopup" style="display: none;">
+	<ul class="addToPopupItems">
+		<li class="nhsLlAct">
+			<a class="nhsLevelLink addToItem1 llAddTo" href="javascript://">Add to Playlist</a>
+			<div class="nhsHiddenBlock nhsClear">
+				<div class="nhsAddToScroll1">
+				</div>
+				<div class="nhsAddedInfo" style="display: none;">You have no playlists. Create a new playlist by clicking above.</div>
+				<div class="nhsDispNone">
+					<input type="text" class="nhsSimpleInp" value="" />
+				</div>
+				<a class="nhsCreateSomeLink" href="#">Create new playlist</a>
+			</div>
+		</li>
+		<li>
+			<a class="nhsLevelLink addToItem2 llAddTo" href="javascript://">Add to Group</a>
+			<div class="nhsHiddenBlock nhsClear" style="display: none;">
+				<div class="nhsAddToScroll2">
+				</div>
+				<div class="nhsAddedInfo" style="display: none;">You have no groups. <a href="#">Create your own group</a> or <a href="http://www.hulkshare.com/group.php?op=browse">Browse groups</a></div>
+			</div>
+		</li>
+		<li>
+			<a class="nhsLevelLink addToItem4 llAddTo" href="javascript://">Add to Queue</a>
+			<div class="nhsHiddenBlock nhsClear" style="display: none;">
+				<div class="nhsAddedInfo">Track Added to Queue</div>
+			</div>
+		</li>
+	</ul>
+	<div class="nhsArrow" style="display: none;"></div>
+</div>
+	<div class="nhsStckPlayer nhsWrapper">
+	<div class="nhsStckPlayerIn nhsClear">
+		<div class="sptLeft">
+			<a class="stckIcon nhsStckLeftIcPlay"></a>
+			<a class="stckIcon nhsStckLeftIcPause"></a>
+			<a class="stckIcon nhsStckLeftIcAdd"></a>
+			<a class="stckIcon nhsStckLeftIcVolume"></a>
+			<a class="stckIcon nhsStckLeftIcVolume nhsStckLeftIcVolumeOff"></a>
+		</div>
+		<div class="stickyVolume">
+			<div class="stickyVolumeIn">
+				<div class="stickyVolumeVal"></div>
+				<div class="stckLever"></div>
+			</div>
+		</div>
+		<div class="sptListWrapper">
+			<div class="sptList"></div>
+		</div>
+		<div class="stckIcon nhsStckSlide nhsStckSlideLeft"><a></a></div>
+		<div class="stckIcon nhsStckSlide nhsStckSlideRight"><a></a></div>
+
+		<div class="nhsBotBan">
+							<a class="nhsFeaturedStickyTxt" href="/promotion.php?type=sticky_player" ></a><div id="sticky_big"></div>
+					</div>
+
+			</div>
+</div>
+	<script type="text/javascript">
+	
+	
+		(function() {
+			(function(s,o,l,v,e,d){if(s[o]==null&&s[l+e]){s[o]="loading";s[l+e](d,l=function(){s[o]="complete";s[v+e](d,l,!1)},!1)}})(document,"readyState","add","remove","EventListener","DOMContentLoaded");
+			var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+			s.src = "http://cdn.engine.4dsply.com/Scripts/infinity.js.aspx?guid=0e990756-a598-49e8-a810-bf6187d5cb5b";
+			s.id = "infinity"; s.setAttribute("data-guid", "0e990756-a598-49e8-a810-bf6187d5cb5b"); s.setAttribute("data-version", "async");
+			var e = document.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e);
+		})();
+	
+</script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","licenseKey":"cb21ff2afc","applicationID":"1863384","transactionName":"MwEDMUsFDBZZUBZZWwpLNBdQSxcWXUEyRVYIDQJLSQwS","queueTime":0,"applicationTime":416,"ttGuid":"","agentToken":"","userAttributes":"","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-454.min.js"}</script></body>
+</html>

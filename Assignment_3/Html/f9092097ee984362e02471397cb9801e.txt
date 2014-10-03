@@ -1,0 +1,2221 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+    <title>FliXanity - Watch TV Shows Online, Watch Movies Online</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="The largest database of TV shows and movies available to stream online. Streaming from PC, iPhone, iPad, smartphone, tablet, or Android device. Sign up for a free account today!" />
+    <meta name="keywords" content="flixanity clone, flixanity replacement, cartoon HD, cartoon HD app, cartoon HD alternative, cartoon HD replacement, megashare, megashare alternative, megashare replacment, stream movies, stream tv shows, stream series, full tv episodes, full series, full movies">
+    <meta name="robots" content="index, follow" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@newflixanity">
+    <meta name="twitter:url" content="http://www.flixanity.is" />
+    <meta name="twitter:domain" content="flixanity.is" />
+    <meta name="twitter:creator" content="@newflixanity" />
+    <meta name="twitter:title" content="FliXanity - Watch TV Shows Online, Watch Movies Online" />
+    <meta name="twitter:description" content="The largest database of TV shows and movies available to stream online. Streaming from PC, iPhone, iPad, smartphone, tablet, or Android device. Sign up for a free account today!" />
+    <meta name="twitter:image" content="" />
+    <meta property="og:title" content="FliXanity - Watch TV Shows Online, Watch Movies Online" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+
+        <link href="http://www.flixanity.is/templates/trakt/css/font-awesome.min.css" rel="stylesheet">
+    
+    <link href="http://www.flixanity.is/favicon.ico" rel="shortcut icon" type="image/ico">
+    <link href="http://www.flixanity.is/templates/trakt/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.flixanity.is/templates/trakt/css/colorpicker.css" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+        <link href="http://www.flixanity.is/templates/trakt/css/ie.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link rel="stylesheet" href="http://www.flixanity.is/templates/trakt/css/prettyPhoto.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="http://www.flixanity.is/js/tooltip.css" type="text/css" media="screen" />    
+    <link rel="stylesheet" href="http://www.flixanity.is/templates/trakt/js/jquery.rating.css?r=2" type="text/css" media="screen,projection" />
+    <link rel="stylesheet" href="http://www.flixanity.is/templates/trakt/css/foxycomplete.css" type="text/css" media="screen" />
+        
+    <script> 
+        var baseurl = 'http://www.flixanity.is';
+                    var iframe_ad = true;
+            </script>
+	
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+		
+		<script type="text/javascript">
+			
+				$(document).ready(function(){
+					$("#shadow").css("height", $(document).height()).hide();
+					$(".lightSwitcher").click(function(){
+						$("#shadow").toggle();
+						if ($("#shadow").is(":hidden"))
+							$(this).html("lights off").removeClass("turnedOff");
+						else
+							$(this).html("lights on").addClass("turnedOff");
+					});
+				});
+			
+		</script>
+	
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/modernizr.custom.17475.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+		
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/custom.js?0.0.5.6.9.9.2"></script>
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/prettyPhoto/jquery.prettyPhoto.js"></script>
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/jquery.featureList-1.0.0.js"></script>
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/easing/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/jquery.tipsy.js"></script>
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/jquery.quicksand.js"></script>
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/jquery.autocomplete.js?v=7"></script>
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/foxycomplete.js?v=7"></script>
+		<script type='text/javascript' src='http://www.flixanity.is/templates/trakt/js/jquery.rating.js'></script>
+		<script type='text/javascript' src='http://www.flixanity.is/templates/trakt/js/jquery.MetaData.js'></script>
+		<script type='text/javascript' src='http://www.flixanity.is/templates/trakt/js/jquery.touchSwipe.min.js?0.2'></script>
+		<script type='text/javascript' src='http://www.flixanity.is/templates/trakt/js/jquery.imagesloaded.min.js'></script>
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/jquery.carouFredSel-6.2.1.js"></script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.selectboxit/3.8.0/jquery.selectBoxIt.min.js"></script>
+		
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/waypoints.js"></script>
+		<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/waypoints-infinite.js"></script>
+		    
+		<!--GOOGLE FONTS-->
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
+		<!--/GOOGLE FONTS-->
+		
+		<script type="text/javascript" src="http://www.flixanity.is/js/scripts.js?r=18"></script>
+
+    <link rel="stylesheet" href="http://www.flixanity.is/templates/trakt/css/bootstrap.css?r=6" type="text/css" media="screen" />
+    <script>
+        js_lang.like = 'Add to WatchList';
+        js_lang.dislike = 'Remove from WatchList';
+        js_lang.facebook_error = 'There is a slight glitch in the system. Please try again.';
+        js_lang.please_wait = 'Please wait...';
+        js_lang.ticker = '<div class=\'padded\'>Your video will start in <span id=\'counter\'></span> seconds<br /><br />If you don\'t want to wait <a href=\'/register\'>register yourself</a></div>';
+        js_lang.report_thanks = 'Thank you for contacting us. We will fix this issue as soon as possible';
+    </script>
+    
+    <link href="http://www.flixanity.is/templates/trakt/css/style.css?8.1.9.9.9.9.0.0.9.9.9.9.6" rel="stylesheet" type="text/css" />
+    <link href="http://www.flixanity.is/templates/trakt/css/Flixanity.css?8.1.9.9.9.9.9.9.9.9.6" rel="stylesheet" type="text/css" />
+    <link href="http://www.flixanity.is/templates/trakt/style/color/cc3366.css" rel="stylesheet" type="text/css" />
+		
+							
+			<!-- PopAds.net Popunder Code for www.flixanity.is -->
+				<script type="text/javascript">
+					ua = navigator.userAgent;
+					if(ua.indexOf("Xbox") > -1 == false && ua.indexOf("Playstation") > -1 == false ){	
+						var _pop = _pop || [];
+						_pop.push(['siteId', 408143]);
+						_pop.push(['minBid', 0]);
+						_pop.push(['popundersPerIP', 0]);
+						_pop.push(['delayBetween', 0]);
+						_pop.push(['default', false]);
+						_pop.push(['defaultPerDay', 0]);
+						_pop.push(['topmostLayer', false]);
+						(function() {
+						var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+						var s = document.getElementsByTagName('script')[0]; 
+						pa.src = '//c1.popads.net/pop.js';
+						pa.onerror = function() {
+						  var sa = document.createElement('script'); sa.type = 'text/javascript'; sa.async = true;
+						  sa.src = '//c2.popads.net/pop.js';
+						  s.parentNode.insertBefore(sa, s);
+						};
+						s.parentNode.insertBefore(pa, s);
+						})();
+					}
+				</script>
+				<!-- PopAds.net Popunder Code End -->
+			
+				        
+		<link rel="apple-touch-icon" href="/custom_icon.png"/>
+    
+</head>
+
+<body id="top" >
+            
+            <div id="fb-root"></div>
+            <script>
+            window.fbAsyncInit = function() {
+                    FB.init({
+                    appId      : '204476919734978',
+                    status     : true, 
+                    cookie     : true,
+                    xfbml      : true,
+                    oauth      : true
+                });
+            };
+            
+            (function(d){
+               var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+               js = d.createElement('script'); js.id = id; js.async = true;
+               js.src = "//connect.facebook.net/en_US/all.js";
+               d.getElementsByTagName('head')[0].appendChild(js);
+             }(document));
+            </script>    
+        
+        
+    <header>
+			<nav class="mobile-controls">
+				<a href="#top" class="toggle-nav"><i class="fa fa-bars"></i><span>Toggle Navigation</span></a>
+				<a href="javascript:void(0);" onclick="popUp('#popup_login');" class="login"><i class="fa fa-sign-in"></i><span>Login</span></a>
+				<!-- SPLIT SHOWS LOGO -->
+				<a href="#top" class="search-toggle"><i class="fa fa-search"></i><span>Toggle Search</span></a>
+				<a href="/register" id="header-join" class="toggle-join"><i class="fa fa-users"></i><span>Join</span></a>
+			</nav>
+		
+			<a class="brand-text" href="http://www.flixanity.is"></a>
+			
+			<ul class="mainNav">
+    		
+    		    			
+    			    				<li class="dropdown">
+    					    						    							<a href="http://www.flixanity.is/new-shows" class="dropdown-toggle"><i class="fa fa-star"></i>New</a>
+    						    						<ul class="dropdown-menu">
+    							    								<li><a href="http://www.flixanity.is/new-shows">TV Episodes</a></li>
+    							    							    								<li><a href="http://www.flixanity.is/featuredmovies">Box Office Movies</a></li>
+    							    							    								<li><a href="http://www.flixanity.is/new-movies">Movies Added</a></li>
+    							    		                                                    								<li><a href="http://www.flixanity.is/upcomingmovies">Coming Soon</a></li>
+    							    						</ul>
+    					    				</li>
+    			    		             
+					    				    					<li class="dropdown"><a href="http://www.flixanity.is/movies" class="dropdown-toggle"><i class="fa fa-film"></i>Movies</a>
+    				    					    						<ul class="dropdown-menu">
+    							<li><a href="http://www.flixanity.is/hdmovies">HD Movies</a></li>
+    						    							    								<li><a href="http://www.flixanity.is/movie-tags/action">Action</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/adventure">Adventure</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/animation">Animation</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/biography">Biography</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/comedy">Comedy</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/crime">Crime</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/documentary">Documentary</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/drama">Drama</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/family">Family</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/fantasy">Fantasy</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/horror">Horror</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/music">Music</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/musical">Musical</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/mystery">Mystery</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/romance">Romance</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/sci-fi">Sci-Fi</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/sport">Sport</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/thriller">Thriller</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/war">War</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/western">Western</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/movie-tags/wwf-wwe">WWF/WWE</a></li>
+    							    						    						    						</ul>
+    					    
+    				</li>
+    			    		                
+    			    				    					<li class="dropdown"><a href="http://www.flixanity.is/tv-shows" class="dropdown-toggle" ><i class="fa fa-desktop"></i>TV Shows</a>
+    				    					    						<ul class="dropdown-menu">
+    						    							    								<li><a href="http://www.flixanity.is/tv-tags/action">Action</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/adventure">Adventure</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/animation">Animation</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/comedy">Comedy</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/crime">Crime</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/documentary">Documentary</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/drama">Drama</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/family">Family</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/fantasy">Fantasy</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/foodtv">FoodTV</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/horror">Horror</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/kids">Kids</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/music">Music</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/mystery">Mystery</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/our-top-picks">Our Top Picks</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/reality-tv">Reality-TV</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/romance">Romance</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/sci-fi">Sci-Fi</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/sport">Sport</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/talk-show">Talk Show</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/thriller">Thriller</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/war">War</a></li>
+    							    						    							    								<li><a href="http://www.flixanity.is/tv-tags/wwf-wwe">WWF/WWE</a></li>
+    							    						    						    						</ul>
+    					    				</li>
+    			    			
+					<li><a href='http://www.flixanity.is/tvschedule'><i class="fa fa-calendar"></i> TV Schedule</a></li>
+    		                
+    									    					    						<li class="dropdown">
+    							<a href='http://www.flixanity.is/pages/live-tv' class="dropdown-toggle">
+							   									   									   		<i class="fa fa-play-circle-o"></i>							   										   	Live TV
+								  </a>
+								  							  		<ul class="dropdown-menu">
+										  											  <li><a href="http://www.flixanity.is/pages/live-sports">Live Sports</a></li>
+										  											  <li><a href="http://www.flixanity.is/pages/live-tv-shows">Live TV Shows</a></li>
+										  											  <li><a href="http://www.flixanity.is/pages/live-tv-networks">Live TV Networks</a></li>
+										  									  </ul>
+																	</li>
+																		  											    					    						<li class="">
+    							<a href='http://www.flixanity.is/pages/how-to-use' >
+							   									   									   									   		<i class="fa fa-info-circle"></i>								   	How-to-Use
+								  </a>
+								  								</li>
+																		  					    		
+    			    		</ul>
+    	
+    	<!-- USER ACCOUNT, LOGIN & REGISTRATION -->
+			<ul class="user">
+			  	<li><a href="#" class="search-toggle"><i class="fa fa-search"></i>Search</a></li>
+			  							<li><a href="http://www.flixanity.is/register" id="header-join"><i class="fa fa-users"></i>Join</a></li>
+						<li><a id="header-signin" href="javascript:void(0);" onclick="popUp('#popup_login');"><i class="fa fa-sign-in"></i>Sign in</a></li>
+			  				</ul>
+			
+			<div class="search">
+				<form class="navbar-search pull-right" action="http://www.flixanity.is/index.php" onsubmit="return false">
+					<input type="hidden" name="menu" value="search" />
+					<input type="text" class="search-query" autocomplete="off" placeholder="Search..." id="search-query" name="query" x-webkit-speech/>
+					<a href="#" class="close-search">&#xf00d;</a>
+					<input id="search-button" value="&#xf002;" type="button" />
+				</form>
+			</div>
+			
+		</header>  
+	
+		<div id="search-results">
+			<div class="search-container">
+				<h2>Search Results</h2>
+				
+			</div>
+		</div>
+    		
+		
+		<script>
+		(function($) {
+			$(document).ready(function() {
+				$('a.search-toggle, a.close-search').bind('click',function(e){
+					e.preventDefault();
+					window.scrollTo(0,0);
+					$('html').stop().toggleClass('search-open');
+				});
+				$('a.toggle-nav').bind('click',function(e){
+					e.preventDefault();
+					window.scrollTo(0,0);
+					$('html').stop().toggleClass('mobile-open');
+				});
+			});
+		})(jQuery);
+		</script>
+		
+		
+		<div id="tips"></div>
+			
+			<div id="pageContent">
+					
+					<div id="non-mashable">
+	
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.53/responsiveslides.min.js"></script>
+<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/home.js?3.9.9.4"></script>
+
+<section class="container feature ">
+		<div class="left">
+		<a href="http://www.flixanity.is/movies"><i class="fa fa-film"></i><p><span>13583</span>Movies</p></a>
+		<a href="http://www.flixanity.is/tv-shows"><i class="fa fa-desktop"></i><p><span>894</span>TV Shows</p></a>
+		<a href="http://www.flixanity.is/new-shows"><i class="fa fa-video-camera"></i><p><span>67742</span> Episodes</p></a>
+	</div>
+		<div class="showSlider">
+					<ul id="sliderFrame">  
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/gotham/season/1/episode/2" target="_blank">
+							<p>Gotham - Season 1 Episode 2</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt3749900.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="Gotham - Season 1 Episode 2" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/castle/season/7/episode/1" target="_blank">
+							<p>Castle - Season 7 Episode 1</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt1219024.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="Castle - Season 7 Episode 1" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/brickleberry/season/3/episode/3" target="_blank">
+							<p>Brickleberry - Season 3 Episode 3</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt2022713.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="Brickleberry - Season 3 Episode 3" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/wicked-tuna/season/3/episode/14" target="_blank">
+							<p>Wicked Tuna - Season 3 Episode 14</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt2191567.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="Wicked Tuna - Season 3 Episode 14" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/the-4400/season/4/episode/13" target="_blank">
+							<p>The 4400 - Season 4 Episode 13</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt0389564.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="The 4400 - Season 4 Episode 13" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/nick-cannon-presents-wild-n-out/season/6/episode/10" target="_blank">
+							<p>Nick Cannon Presents Wild 'N Out - Season 6 Episode 10</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt0472989.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="Nick Cannon Presents Wild 'N Out - Season 6 Episode 10" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/hostages/season/1/episode/15" target="_blank">
+							<p>Hostages - Season 1 Episode 15</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt2647258.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="Hostages - Season 1 Episode 15" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/rich-kids-of-beverly-hills/season/2/episode/9" target="_blank">
+							<p>Rich Kids of Beverly Hills - Season 2 Episode 9</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt3485248.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="Rich Kids of Beverly Hills - Season 2 Episode 9" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/the-tom-and-jerry-show/season/1/episode/26" target="_blank">
+							<p>The Tom and Jerry Show - Season 1 Episode 26</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt3559124.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="The Tom and Jerry Show - Season 1 Episode 26" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/beware-the-batman/season/1/episode/21" target="_blank">
+							<p>Beware the Batman - Season 1 Episode 21</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt2329077.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="Beware the Batman - Season 1 Episode 21" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/being-human-uk/season/5/episode/6" target="_blank">
+							<p>Being Human UK - Season 5 Episode 6</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt1349938.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="Being Human UK - Season 5 Episode 6" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/downton-abbey/season/5/episode/2" target="_blank">
+							<p>Downton Abbey - Season 5 Episode 2</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt1606375.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="Downton Abbey - Season 5 Episode 2" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/american-pickers/season/6/episode/33" target="_blank">
+							<p>American Pickers - Season 6 Episode 33</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt1596786.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="American Pickers - Season 6 Episode 33" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/avengers-assemble/season/2/episode/1" target="_blank">
+							<p>Avengers Assemble - Season 2 Episode 1</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt2455546.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="Avengers Assemble - Season 2 Episode 1" />
+													</a>
+					</li>      
+									<li>
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>
+						<a href="http://www.flixanity.is/show/the-tonight-show-starring-jimmy-fallon/season/1/episode/132" target="_blank">
+							<p>The Tonight Show Starring Jimmy Fallon - Season 1 Episode 132</p>
+															<img src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/mods/slider/images/tt3444938.jpg&amp;w=1280&amp;h=720&amp;zc=1" alt="The Tonight Show Starring Jimmy Fallon - Season 1 Episode 132" />
+													</a>
+					</li>      
+							</ul>
+							<a class="tour-join join" color="fff" href="/register">Create Your Free Account</a>
+			</div>
+		<div class="right">
+		<div><i class="fa fa-mobile"></i><p>Smartphone</p></div>
+		<div><i class="fa fa-tablet"></i><p>Tablet</p></div>
+		<div><i class="fa fa-laptop"></i><p>PC</p></div>
+	</div>
+	</section>
+
+
+
+<!-- Popular Movies -->
+<section class="container slider sliderPopularMovies">
+	<h2><a href="/movies/favorites">Popular Movies</a> <a href="/movies/date" title="View More Popular Movies" class="more">More</a></h2>
+	
+	<div id="sliderPopularMovies" class="list_carousel">
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/x-men-days-of-future-past" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/qKkFk9HELmABpcPoc1HHZGIxQ5a.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/frozen" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/eKbhEGZVtNwktD5TqRASuT09dks.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-expendables-3" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/xczFwJhcCb2rUMylXam0Ni7Yn5o.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/neighbors" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/bpj8myebvnTw5HDmzTSI8N6WFYr.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-amazing-spider-man-2" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/ha1FI2U5QF1L7Avb0mqxSgnXlbZ.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/captain-america-the-winter-soldier" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/pH4oeiZAh9a40tly4D0l6aAB3ms.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/a-million-ways-to-die-in-the-west" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/12fqfvUmBOPg2pA0RsEhc31P28O.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/divergent" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/yTtx2ciqk4XdN1oKhMMDy3f5ue3.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/teenage-mutant-ninja-turtles" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/cok0SSxmD7fYeZj6l9XOr2mb0YL.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-wolf-of-wall-street" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/wAgdJRx4uZ0u4uzu34NOMvtjLAR.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/need-for-speed" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/lN0mP3BNaKirkKl6FJ0yL0wmjSJ.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/transformers-age-of-extinction" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/6rtXH8cIZbgwLy8EvaXGucwdep5.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-lego-movie" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/lMHbadNmznKs5vgBAkHxKGHulOa.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/blended" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/shXBDFnGTmG3DOUib7vBt21tMFk.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/godzilla" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/szVwkB4H5yyOJBVuQ432b9boO0N.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/noah" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/5wioUjzwr91fvq7ydunxK2CPSxi.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-other-woman" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/fu7K3rPwJcScizlXbxWAR7ZoUxt.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/rio-2" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/3U5aKvnnZcAmDm9VMK4eWuERSRV.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-inbetweeners-2" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/ac9ztoAXsBXIml6sApZHDcXRy0N.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/hercules" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/xkd8mGGsVmJWuA7i8VMMYwqEwvu.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-purge-anarchy" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/95lmTJiU2DWrxQRSfRXBb9JZCuY.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/tammy" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/8Ya0o6Ow19WpBiZYm1PoWBdv5Ec.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/maleficent" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/1cFVCUYKSBuEUDoVftKvqcfuIgc.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/300-rise-of-an-empire" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/bRE7nmNuZzciep7MDkNfuTrM9zW.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/edge-of-tomorrow" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/fDf25sy8M6ZKdnb8OQkNbak4x02.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/transcendence" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/4eESVBvr7KEvPGUZVL5LDWsANda.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/rise-of-the-planet-of-the-apes" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/ddWSWgAjAhksNhMeeBTSqY6otIA.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-hunger-games-catching-fire" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tAhSyLxpaZJCr1oc2a3flvC2B7x.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-fault-in-our-stars" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/f7MD6V6iexKKI1lMzPa9lCDoOFC.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/despicable-me-2" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/kQrYyZQHkwkUg2KlUDyvymj9FAp.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/non-stop" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/ifgEHE1ortukpBF6wh03HCuctdr.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/godzilla-1998" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/zqzV3M3GXHeXeiOiCx0jdyZBZa0.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/mr-peabody-sherman" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/q4FQXK4a4HSb4pajZL4ZFKHVsjC.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/lone-survivor" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/c7Sqof18FgkoNcA0r5BFUcPLER1.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/avatar" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tcqb9NHdw9SWs2a88KCDD4V8sVR.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/oculus" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/ic8C94ylSfcoLkXqPOKzL6DqPcH.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/brick-mansions" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/v6M79FGu0G9KSR7bvXL76NbwyqC.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/ride-along" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tO7o3zuvStYSjsCnZNUyX4cdh2o.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-purge" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/xbGs1sd6LmANVsNABNzSDqKmG4V.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/lucy-coming-soon" class="item" title="DVD">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/rwn876MeqienhOVSSjtUPnwxn0Z.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/robocop" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/hFQcC5eSSHqJfk70RdgrMMxGuYt.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/sabotage" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/iVpNb776SBRslpXBd20G38i9oBy.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/heaven-is-for-real" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/70CMoPOVPRzBmZiW0DXSU8Yvukt.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/were-the-millers" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/4Ujmqx7BTaRLBHVmeTe7aj6qSsA.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/jackass-presents-bad-grandpa" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/9XJ1RICUVM8nxSHFphl5c6ZyQtH.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-raid-2" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/3jTmVja1hRe6rT0akeJ0bJX6x2L.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-avengers" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/cezWGskPY5x7GaglTTRN4Fugfb8.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-dark-knight" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/1hRoyzDtpgMU7Dz4JF22RANzQO7.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/a-haunted-house-2" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/2c9utC3RGiw5NrqB72YIbp00uiF.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-grand-budapest-hotel" class="item" title="HD">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/nX5XotM9yprCKarRH4fzOq1VM1J.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+			</div>
+	
+	<div class="controls sliderPopularMovies">
+		<a href="javascript:void(0)" class="prev-slide"><span class="arrow"></span><span>Previous</span></a>
+		<a href="javascript:void(0)" class="next-slide"><span class="arrow"></span><span>Next</span></a>
+	</div>
+</section>
+
+<!-- Featured TV Shows -->
+<section class="container slider sliderFeaturedTVShows">
+	<h2><a href="/tv-shows/date">Featured TV Shows</a> <a href="/tv-shows/date" title="View More Popular Movies" class="more">More</a></h2>
+
+		<div id="sliderFeaturedTVShows" class="list_carousel">
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/under-the-dome" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_dcbbc633e23885eb8c76fb06c8181cf4.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/once-upon-a-time" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_bf102a3344178245e5f33c4fbd645fd3.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/trailer-park-boys" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_70170f8ccdd55faa598a328103e0cffc.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/pretty-little-liars" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_8c078d3fd999a74effaf52c61d3bc18c.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/hell-on-wheels" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_289827c5c57085749d9c171549029e51.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/family-guy" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_3ce6f3f283d61370de81092027f40c31.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/doctor-who" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_fa2889bd9dc7b5b6ff50856a23fe162c.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/american-horror-story" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_fd160260acc5e9b38a857420762a0f65.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/sons-of-anarchy" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_1624d7afd6ea8ecd182f551bd3664eb6.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/the-simpsons" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_16afdd0118068f2fcd66f44dc7bd27eb.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/game-of-thrones" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_52ff95a9ba8654edec1dcc33b032bc40.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/boardwalk-empire" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_cc6d6e3d5458de71f659edbe8f6dd0e0.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/the-strain" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_944a822509711581b1f7106dc685d7e8.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/the-big-bang-theory" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_cbb5c34ec2ee90f4e746949b1b0b74e8.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/revenge" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_2bbf162a28a80b237f8a509893bb7604.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/gotham" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_291271c0676ce33f115eb4686d7a5807.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/orange-is-the-new-black" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_b30d29408329e5e98631683710280a03.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/ray-donovan" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_839cf7ebf77cf3444183fa3b5d8b9495.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/breaking-bad" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_59310424d499f83ab65458d1c67a848b.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+							<section class="article cardBox">
+											<a href="http://www.flixanity.is/show/true-blood" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_15958645889be462cf1f01d5e6baea10.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>  
+					</div>
+		
+		<div class="controls sliderFeaturedTVShows">
+			<a href="javascript:void(0)" class="prev-slide"><span class="arrow"></span><span>Previous</span></a>
+			<a href="javascript:void(0)" class="next-slide"><span class="arrow"></span><span>Next</span></a>
+		</div>
+</section>
+
+<!-- Box Office Movies -->
+<section class="container slider sliderBoxOfficeMovies">
+	<h2><a href="/featuredmovies">Box Office Movies</a> <a href="/movies" title="View More Popular Movies" class="more">More</a></h2>
+	
+	<div id="sliderBoxOfficeMovies" class="list_carousel">
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/sin-city-a-dame-to-kill-for" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/k80qKrJ0qQ6ocVo5N932stNSg6j.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/dolphin-tale-2" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/7Abh0oS9T8JrTH4QQ6NZqgAXHeK.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-november-man" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/WrKFn5MGmXcHYciUu1mCZwLBLG.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-homesman" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/y8fURaP4XjvrWTBCILQd7KeUtC5.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/jersey-boys" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/hrqF9fzHA4NTGpcDX4cuPSANrh3.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-giver" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/xkuDs4VoTz9N2Iq6soCpjcU3YG.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/boyhood" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/eKi4e5zXhQKs0De4xu5AAMvu376.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-inbetweeners-2" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/ac9ztoAXsBXIml6sApZHDcXRy0N.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/maleficent" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/1cFVCUYKSBuEUDoVftKvqcfuIgc.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-expendables-3" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/xczFwJhcCb2rUMylXam0Ni7Yn5o.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-purge-anarchy" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/95lmTJiU2DWrxQRSfRXBb9JZCuY.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+					 
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/tammy" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/8Ya0o6Ow19WpBiZYm1PoWBdv5Ec.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+			</div>
+	
+	<div class="controls sliderBoxOfficeMovies">
+		<a href="javascript:void(0)" class="prev-slide"><span class="arrow"></span><span>Previous</span></a>
+		<a href="javascript:void(0)" class="next-slide"><span class="arrow"></span><span>Next</span></a>
+	</div>
+</section>
+
+
+
+<!-- HD Movies -->
+<section class="container slider sliderHDMovies">
+	<h2><a href="/hdmovies">HD Movies</a> <a href="/movies" title="View More Top Movies" class="more">More</a></h2>
+	
+	<div id="sliderTopMovies" class="list_carousel">
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/sin-city-a-dame-to-kill-for" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/k80qKrJ0qQ6ocVo5N932stNSg6j.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/transformers-age-of-extinction" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/6rtXH8cIZbgwLy8EvaXGucwdep5.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/x-men-days-of-future-past" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/qKkFk9HELmABpcPoc1HHZGIxQ5a.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/22-jump-street" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tPnw9oqIvIMoYjVozkDkxm3xR8r.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/are-you-here" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/3PuGdkNzOE074pKNJmuSn70zIYJ.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-two-faces-of-january" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tbpIle72s2cPMlkRaZBOzNkAtG8.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-prince" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tE098YTWDMUIMny6H9TMplZuX6W.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/serena-and-the-ratts" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/pk5F7nuuNG5kMvby2epFyUEOxGV.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-scribbler" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/yf9QqFcZSL5UFq4Vv1X7LNugjh4.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/inreallife" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/xqSy7uUoa8e96XlCMOD4wwrSaoN.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/lost-time" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/ftlr3EVTsV0daWfHWy3obCEB1zE.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/monster-high-freaky-fusion" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/oYR3HLfqt73hdR4DnUUjIOe4iwb.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/bond-of-silence" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/nTtDnlCyVu9ba5zZbM8bapyuseM.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/million-dollar-arm" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/r2xSa8fo6GmDOxZ8xFGkpOuVAHM.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-possession-of-michael-king" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/4MvwjBLK1nRPWLm2EPiRoVqpbfm.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/how-to-train-your-dragon-2" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/3KYFxcRKx4oi30xbInrzcyLa31U.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/breakheart-pass" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/23AbUEM3ZCuDYf7EPGp56nj42WT.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-dead-2-india" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/uKV3rD7rkbb9sZp117KJ3APZmq6.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/elmer-gantry" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/t35cv5Ss7Qe1gjqj0jazGTeR4jy.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/fatal-honeymoon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/jVGOEJhMtmYY5c9wXaTWhjGoGXP.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-party" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/1TOvODTkkX43HGkeisX18mrneSz.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/macbeth" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/juTNqKJ8UyZkNsv9VFmoANo3Nq6.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/red-balls" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/iXWgUkU8e5AxJZ4f4ulRH5Nmn9j.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/hibernatus" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/mp1ua0k9jpXQh8VfLuWvwYrkh3L.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/oscar" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/AawFykgZgotTIq94QmEOps2tBT6.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/warrior-princess" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/vuES6ZFv520U4gk0Uv13lwyFEke.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/devils-tower" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/yHR69vSxVdHQRtdsejyZaJpx6l1.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/back-in-business" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/oqJPj9SYwfbeZZiXu3C8gjw5cCY.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-dragon-pearl" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/916bqiAeP0nWbWnWxSgCRWmYK2c.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/storage-24" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/qvDwqWPVoTdsS9zebABQWXALqv9.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+			</div>
+	
+	<div class="controls sliderHDMovies">
+		<a href="javascript:void(0)" class="prev-slide"><span class="arrow"></span><span>Previous</span></a>
+		<a href="javascript:void(0)" class="next-slide"><span class="arrow"></span><span>Next</span></a>
+	</div>
+</section>
+
+<!-- Recently Added/Updated Movies -->
+<section class="container slider sliderRecentMovies">
+	<h2><a href="/new-movies">New Movies on FliXanity</a> <a href="/movies" title="View More Popular Movies" class="more">More</a></h2>
+	
+	<div id="sliderRecentMovies" class="list_carousel">
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/dinosaur-13" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/gQJIrYliI0E0Lpd1oSlc9vLgLCJ.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/dinosaur-island" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/yA2s9iLzxc0cIN3wpLJogw9UVUd.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/sin-city-a-dame-to-kill-for" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/k80qKrJ0qQ6ocVo5N932stNSg6j.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/transformers-age-of-extinction" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/6rtXH8cIZbgwLy8EvaXGucwdep5.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/x-men-days-of-future-past" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/qKkFk9HELmABpcPoc1HHZGIxQ5a.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/dolphin-tale-2" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/7Abh0oS9T8JrTH4QQ6NZqgAXHeK.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/what-if" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/g5vPBCJbBX36oikg68brcl7PU5a.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/earth-to-echo-coming-soon" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tWPWo3JgwM7uGX096mWXmWPl8k8.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/dracula" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/gS9Q2hmiIIWB7rW5HOSpHkGbQi7.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/terror-at-the-mall" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/yIfsC6VGw5ToX6fQvnnw1vNyFDS.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-battle-of-the-sexes" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/22Rf7BEpQ0GN6nQHcF5Pl9kzF2i.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/uneasy-lies-the-mind" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/1YGIcl7srVAEDYqfbaAB8Jjb9rG.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/22-jump-street" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tPnw9oqIvIMoYjVozkDkxm3xR8r.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/days-and-nights" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/2HFpzxWXNzs0bxL3Y6QxO4G78Xo.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-captive" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/nZ3Fxuo2vE9IPtfkgu9jyYpat0J.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/begin-again" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/og7KVMqGTFaCNPmGVetxtR30Q0z.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/are-you-here" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/3PuGdkNzOE074pKNJmuSn70zIYJ.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-two-faces-of-january" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tbpIle72s2cPMlkRaZBOzNkAtG8.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-prince" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tE098YTWDMUIMny6H9TMplZuX6W.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/white-bird-in-a-blizzard" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/8ZnFiFQepbmTpRjPs8Z1e7wTV8t.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/serena-and-the-ratts" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/pk5F7nuuNG5kMvby2epFyUEOxGV.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-scribbler" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/yf9QqFcZSL5UFq4Vv1X7LNugjh4.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/inreallife" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/xqSy7uUoa8e96XlCMOD4wwrSaoN.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/lost-time" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/ftlr3EVTsV0daWfHWy3obCEB1zE.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/monster-high-freaky-fusion" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/oYR3HLfqt73hdR4DnUUjIOe4iwb.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/bond-of-silence" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/nTtDnlCyVu9ba5zZbM8bapyuseM.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/horrid-henry-the-movie" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/sIyzX8YjPweJ63jQ0OUmgNpYGv1.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/life-of-crime" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/mBBfBfkLJHqPpI9BYQ80p4HY4vI.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/million-dollar-arm" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/r2xSa8fo6GmDOxZ8xFGkpOuVAHM.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-possession-of-michael-king" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/4MvwjBLK1nRPWLm2EPiRoVqpbfm.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/how-to-train-your-dragon-2" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/3KYFxcRKx4oi30xbInrzcyLa31U.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/cheyenne" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/hnSxB1CUpHqX8r4pMUr1bEtvJtr.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/holidaze" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/t9eF5d1ujsCzS6Xrd38fvqppjDy.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/dreams" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/yJeq7kHFbNfIW9xzQh7oVXNn2Aa.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/whitewash" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/uUtg9CpFFCPbT8Qz6FBvHtv2DfN.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/fireball" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/wUXPF00lG1KFLLJgdkIqU8ZAZWh.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/rage" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/89Dk3xTEBVhayJzIJgfCsXpavIr.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/dead-weight" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/5g7akOf4TgTWVYISrUaZeRIe8ID.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-gauntlet" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/movie_16058.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/operation-rogue" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/9GFc6uNP0YsjzL98lMDR4HaaPWx.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+			</div>
+	
+	<div class="controls sliderRecentMovies">
+		<a href="javascript:void(0)" class="prev-slide"><span class="arrow"></span><span>Previous</span></a>
+		<a href="javascript:void(0)" class="next-slide"><span class="arrow"></span><span>Next</span></a>
+	</div>
+</section>
+
+<!-- Top Rated Movies -->
+<section class="container slider sliderTopMovies">
+	<h2><a href="/new-movies">Top Rated Movies</a> <a href="/movies/imdb_rating" title="View More Top Movies" class="more">More</a></h2>
+	
+	<div id="sliderTopMovies" class="list_carousel">
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-shawshank-redemption" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/9O7gLzmreU0nGkIB6K3BsJbzvNv.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-godfather" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/d4KNaTrltq6bpkFS01pYtyXa09m.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-godfather-part-ii" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tHbMIIF51rguMNSastqoQwR0sBs.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/monty-pythons-flying-circus" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/1ivbpS3CsFh92NBFyuYSVEppv9L.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/brothers-in-war" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/movie_13774.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/death-note" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/movie_13579.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-good-the-bad-and-the-ugly" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/8PD1dgf0kQHtRawoSxp1jFemI1q.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/pulp-fiction" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/dM2w364MScsjFf8pfMbaWUcWrR.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-dark-knight" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/1hRoyzDtpgMU7Dz4JF22RANzQO7.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/waar" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/aIO0sUuOL2LKsY9hV2VAG2uMJbp.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/12-angry-men" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/wvlFtIwh0GIqHRAz9F5cCch2IJD.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/one-piece" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/movie_1c85f8739695bb3383879cb1d6743cc7.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-lord-of-the-rings-the-return-of-the-king" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/50LoR9gJhbWZ5PpoHgi8MNTYgzd.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/schindlers-list" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/yPisjyLweCl1tbgwgtzBCNCBle.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/fight-club" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/2lECpi35Hnbpa4y46JX0aY3AWTy.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/one-flew-over-the-cuckoos-nest" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/srr59GKJdDXPwnWlew9NoYfOvYV.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/star-wars-episode-v-the-empire-strikes-back" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/forrest-gump" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/y3EsNpMFwvpcucLmx4HiiRRhCXV.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-lord-of-the-rings-the-two-towers" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/9mBjBuUmBBgnGjV1JZ2uCIYbaph.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-lord-of-the-rings-the-fellowship-of-the-ring" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/9HG6pINW1KoFTAKY3LdybkoOKAm.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/inception" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tAXARVreJnWfoANIHASmgYk4SB0.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/tupac-live-at-the-house-of-blues" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/5JuOnYfVVnOxKSMHnUyOIePCgbo.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/boyhood" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/eKi4e5zXhQKs0De4xu5AAMvu376.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/once-upon-a-time-in-the-west" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/rVAHRtAMhV8QVXQMQ8NxNbZXCDp.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/star-wars-episode-iv-a-new-hope" class="item" title="">
+														<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tvSlBzAdRE29bZe5yYWrJ2ds137.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/its-a-wonderful-life" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/t0T609AGzxtr05zKrBOCE1al0Ii.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-usual-suspects" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/jgJoRWltoS17nD5MAQ1yK2Ztefw.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-matrix" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/gynBNzwyaHKtXqlEKKLioNkjKgN.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/se7en" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/mhFXxB76LVgJBIfJM1sAuVBtVKv.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/city-of-god" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon black">HD</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/gCqnQaq8T4CfioP9uETLx9iMJF4.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+			</div>
+	
+	<div class="controls sliderTopMovies">
+		<a href="javascript:void(0)" class="prev-slide"><span class="arrow"></span><span>Previous</span></a>
+		<a href="javascript:void(0)" class="next-slide"><span class="arrow"></span><span>Next</span></a>
+	</div>
+</section>
+
+<!-- Top Rated TV Shows -->
+<section class="container slider sliderTopShows">
+	<h2><a href="/tv-shows/imdb_rating">Top Rated TV Shows</a> <a href="/tv-shows/imdb_rating" title="View More Top TV Shows" class="more">More</a></h2>
+	
+	<div id="sliderTopShows" class="list_carousel">
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/band-of-brothers" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_6ba13407eda19156629d37d35906edb7.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/breaking-bad" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_59310424d499f83ab65458d1c67a848b.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/planet-earth" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_c32835fe50ee5974ef77d230a74fee9e.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/game-of-thrones" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_52ff95a9ba8654edec1dcc33b032bc40.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/the-wire" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_a012e3009fcf4c2a85cc0dc64ab74f34.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/sherlock" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_b0715b357a9964a82e505422779129c1.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/africa" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_2e9354f3154fe84ec290a865ae3ab9fe.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/true-detective" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_fa083be230312357183bca8744c93f2e.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/the-sopranos" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_bd088dfad7825e09f7e864f68117755c.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/last-week-tonight-with-john-oliver" class="item" title="">
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>						<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_e0add9d6fe025ea119c0ca556bd104c3.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/avatar-the-last-airbender" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_65efaf249e6500c79f1e360b83aafb49.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/rick-and-morty" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_0cc83e81fe466ff7faeddb4ba279e563.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/fargo" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_a034aedcc16642dd42fcec891aa71fcd.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/house-of-cards" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_eead85be2af64d21ee6f10a77dbbb4a4.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/arrested-development" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_346246b77629822c4a68296d8a78f034.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/twin-peaks" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_b3ba48371fa254c5eed726c959e9c92a.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/how-the-universe-works" class="item" title="">
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>						<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_28d10d102b04fef5adf96166115132b8.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/death-note" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_1af0c0a5a3253c0ecf84977cb88b3cc4.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/batman-the-animated-series" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_05ae4b16babc3226703267faea7f2a73.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/monty-pythons-flying-circus" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_7d3f0d679df02c5602cb2e146f6473c4.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/top-gear" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_30e33943bf9a12c7af55cc018d761a0f.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/freaks-and-geeks" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_d35aa68c903d1770cb8cc9ad9dfff149.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/friends" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_b935743b9785d83e0ace0517089bfeac.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/rome" class="item" title="">
+												<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_62daa61f6f460310c6aea5ec4f1ae3d4.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+					<section class="article cardBox">
+									<a href="http://www.flixanity.is/show/the-simpsons" class="item" title="">
+						<div class="ribbon-wrapper"><div class="ribbon red">NEW</div></div>						<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/show_16afdd0118068f2fcd66f44dc7bd27eb.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+					</a>
+							</section>               
+			</div>
+	
+	<div class="controls sliderTopShows">
+		<a href="javascript:void(0)" class="prev-slide"><span class="arrow"></span><span>Previous</span></a>
+		<a href="javascript:void(0)" class="next-slide"><span class="arrow"></span><span>Next</span></a>
+	</div>
+</section>
+
+<!-- Upcoming Movies -->
+<section class="container slider sliderUpcomingMovies">
+	<h2><a href="/upcomingmovies">Coming Soon</a> <!--<a href="/movies" title="View More Top Movies" class="more">More</a>--></h2>
+	
+	<div id="sliderUpcomingMovies" class="list_carousel">
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/earth-to-echo-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tWPWo3JgwM7uGX096mWXmWPl8k8.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-identical-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/cNA697dVh3j4ChQXFvDntnCUJ2d.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/as-above-so-below-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/e4GGbcdTMO8VRQYyLkNyAt1Oz89.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-guest-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/7hCJHPVIKqhmyGIyE4INFaq5M8X.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/tusk-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/xMUBCNExkYDxsR4bYsssjQtxpos.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/sex-tape-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/bYY46f0PSLJTXzitxGOCd00rj3Y.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/dawn-of-the-planet-of-the-apes-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/aJemoN7F9GrAYjIL94KXww3QWP9.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/planes-fire-rescue-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/y6dPVzIGsNvvskcMoQJAmCtBoGG.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/step-up-all-in-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/zjzD9DLYNThg3JnPJJOxZc0sxhO.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/deliver-us-from-evil-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/g61yVimMvIGx4XAkooZ525LFDJt.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/seventh-son-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/saJi9Vs37zLmUENyIEdhgURk3a1.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-drop" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/rlrC9dBReExJYDkAH6lC9jdz2X6.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-equalizer-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/5kIOKb7U6AlJ2Ew9ffRWTZra8T1.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/a-walk-among-the-tombstones-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/tevMu2jkluwP8eQT0pBqrudEzq1.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/this-is-where-i-leave-you-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/yeVUGPGXEUwoIC0Uu8TXGdQCMc2.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/no-good-deed-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/8cMNmIrTGLGvJVrCyF0AFn3tW3Y.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/lucy-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/rwn876MeqienhOVSSjtUPnwxn0Z.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-maze-runner-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/n4DxOyC8Wh2rZOjAG2eyNoR2eth.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/mrs-browns-boys-dmovie-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/obYFoGbJQ27th9dkPxUC6ueUwtZ.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/the-hundred-foot-journey-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/syPw9QGue95dfgNdZBeq9cob7Z7.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/when-the-game-stands-tall-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/5h2LVrLT1Carw0xyxUDEQz4ojUq.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/if-i-stay-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/9txsADBQdAmDqKlCau1sTdG7GDA.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/lets-be-cops-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/22eYVlEN4fXPX542xdW6ZbQiczG.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/guardians-of-the-galaxy-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/9gm3lL8JMTTmc3W4BmNMCuRLdL8.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/get-on-up-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/ucBxQmvENX5y5SmkGcyYX9ri1X4.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/teenage-mutant-ninja-turtles-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/njH0vF9FyTGluny7FklPlkAZ6ex.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/into-the-storm-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/dtuyhlOtqj8zPPFgTgWJ0bF3s2h.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+						
+				<section class="article cardBox">
+											<a href="http://www.flixanity.is/movie/hercules-coming-soon" class="item" title="">
+							<div class="ribbon-wrapper"><div class="ribbon green">Upcoming</div></div>							<img class="img-preview spec-border" src="http://www.flixanity.is/templates/trakt/timthumb.php?src=http://www.flixanity.is/thumbs/d3gL1VX7FwhJ5iNAax2tEcchfN0.jpg&amp;w=170&amp;h=249&amp;zc=1" alt=" "/>
+						</a>
+									</section>
+			                
+			</div>
+	
+	<div class="controls sliderUpcomingMovies">
+		<a href="javascript:void(0)" class="prev-slide"><span class="arrow"></span><span>Previous</span></a>
+		<a href="javascript:void(0)" class="next-slide"><span class="arrow"></span><span>Next</span></a>
+	</div>
+</section>
+
+<section class="container slider tvGuideHolder">
+	<div id="tv_guide"></div>
+
+	<script>
+			</script>
+</section>
+
+			
+	<div id="popup_login" class="small_modal" style="display:none">
+		<h4><span>Login</span></h4>
+		<a href='javascript:void(0)' onclick="jQuery('#backgroundPopup').hide(); jQuery('#popup_login').hide(); jQuery('object').show(); jQuery('iframe').show();" class="right modal-close"><i class="fa fa-times-circle"></i><span>Close</span></a>
+	 	<form method="post" id="popup_login_form">
+			Username:
+			<input type="text" name="username" value="" style="margin: 5px 0px 5px 0px;width:100%;" />
+			
+			Password: 
+			<input type="password" name="password" style="margin: 5px 0px 0px 0px;width:100%;" />
+			
+			<input type="hidden" name="action" value="login" />
+			
+			<br />
+			
+	 		<center>
+		 		<a class="button" onclick="jQuery('#popup_login_form').submit();" href="javascript:void(0);">Login</a> 
+		 		<a class="button" href="http://www.flixanity.is/register">Register</a> 
+				<a class="button" href="forgot-password">Forgot Password?</a>
+	 		</center>
+	 	</form>
+	 				<center>
+				<span style="font-size: 14px; font-style:italic">OR</span>
+				<br />
+				<img src="http://www.flixanity.is/templates/trakt/images/fb_login.jpg" style="cursor:pointer; margin-top:5px;" onclick="facebookDoLogin('#fb_popup_login_button');" id="fb_popup_login_button" />
+			</center>
+			</div>
+
+
+<div id="backgroundPopup"></div>			<div class="clear"></div>
+			<br />
+		</div>
+	</div>
+	
+	<div id="footer-wrapper" class="container">
+			        <p></p>
+	    		
+		<div id="footer">
+			<div class="footer-links">
+				<a href="http://www.flixanity.is/pages/dmca">DMCA</a>
+				<a href="http://www.flixanity.is/pages/terms">Terms</a>
+				<a href="http://www.flixanity.is/pages/privacy">Privacy Policy</a>
+				<a href="http://www.flixanity.is/submit">Submit Links</a>
+				<a href="http://www.flixanity.is/requests">Requests</a>
+				<a href="http://www.flixanity.is/pages/how-to-use">How-to-Use</a>
+				
+			</div>
+			<div class="footer-copyright split-column">
+				<div class="column-one">
+					&copy 2012-2013 FliXanity. All rights reserved.<br>
+											<a class="link" href="http://www.flixanity.is">Home</a> / 
+						<a class="link" href="http://www.flixanity.is/tv-shows">TV shows</a> / 
+						<a class="link" href="http://www.flixanity.is/movies">Movies</a>
+									</div>
+				<div class="column-two">
+					<a href="https://twitter.com/newflixanity" rel="external" target="_blank"><img src="http://www.flixanity.is/templates/trakt/images/twitter.png"></a>
+					<a href="https://facebook.com/newflixanity" rel="external" target="_blank"><img src="http://www.flixanity.is/templates/trakt/images/facebook.png"></a>
+									</div>
+			</div>
+		</div>
+		<!-- END FOOTER -->
+	
+	</div>
+	<!-- END non mashable -->
+	
+	<div class="clear"></div>
+	
+	<div class="bottom-bar" style="display:none">
+		<div class="bottom-bar-close" onclick="hidePromoBar();"></div>
+		<div class="bottom-container">
+			<div class="bottom-left">
+							</div>
+			
+		</div>
+		
+	</div>
+	
+	
+		<script>
+			if (!getCookie("nobar")){
+				jQuery('.bottom-bar').show();
+			}
+		</script>
+	
+	
+		
+		<script type="text/javascript">
+	
+		  	var _gaq = _gaq || [];
+			var pluginUrl =  '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+			_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+		  	_gaq.push(['_setAccount', 'UA-54331839-1']);
+		  	_gaq.push(['_trackPageview']);
+	
+		  	(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  	})();
+	
+		</script>
+	
+		
+	<script type="text/javascript" src="http://www.flixanity.is/templates/trakt/js/bootstrap.js?r=1"></script>
+	
+	<div id="shadow"></div>
+	
+	
+	<!-- AddThis Smart Layers BEGIN -->
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5403e8af664ec640"></script>
+
+	<!-- AddThis Smart Layers END -->
+	
+	</body>
+</html>

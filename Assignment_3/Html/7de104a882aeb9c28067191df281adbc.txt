@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<!-- <meta http-equiv="content-type" content="text/html;charset=utf-8" /> -->
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta id="viewport" name='viewport'>
+	<script>
+	    (function(doc) {
+	        var viewport = document.getElementById('viewport');
+	        if ( navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
+	            doc.getElementById("viewport").setAttribute("content", "initial-scale=0.33");
+	        } else if ( navigator.userAgent.match(/iPad/i) ) {
+	            doc.getElementById("viewport").setAttribute("content", "initial-scale=0.7");
+	        }
+	    }(document));
+	</script>
+	<title>Mad Decent</title>	
+	
+	<!-- Global JS Vars -->
+	<script type="text/javascript">
+		var template_directory = 'THEME_URI';
+		var ajaxurl = 'http://maddecent.com/wp-admin/admin-ajax.php';
+
+	</script>
+	<link rel="shortcut icon" href="http://mad-decent-wp.s3.amazonaws.com/wp-content/uploads/2013/06/pizza-favicon.ico" />
+<link rel="stylesheet" href="http://maddecent.com/wp-content/themes/Maddecentnew/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://maddecent.com/wp-content/themes/Maddecentnew/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://maddecent.com/wp-content/themes/Maddecentnew/js/coin-slider.min.js"></script>
+<script type="text/javascript" src="http://maddecent.com/wp-content/themes/Maddecentnew/js/unslider.min.js"></script>
+<script type="text/javascript">
+	    $(document).ready(function() {
+	        $('#coin-slider').coinslider({effect:'straight'});
+			var foundedinputs = [];
+			jQuery("select[name=country] option").each(function() {
+			if(jQuery.inArray(this.value, foundedinputs) != -1) jQuery(this).remove();
+			foundedinputs.push(this.value);
+			});
+			var stateinputs = [];
+			jQuery("select[name=state] option").each(function() {
+			if(jQuery.inArray(this.value, stateinputs) != -1) jQuery(this).remove();
+			stateinputs.push(this.value);
+			});
+			jQuery('.artists-list').each(function() {
+			var seen = {};
+			jQuery(this).children('li').each(function() {
+			var txt = jQuery(this).text();
+			if (seen[txt])
+			jQuery(this).remove();
+			else
+			seen[txt] = true;
+			});
+			});
+			
+				$('.banner').unslider();
+			
+				});
+	</script>
+	<link rel='stylesheet' id='scap.flashblock-css'  href='http://maddecent.com/wp-content/plugins/compact-wp-audio-player/css/flashblock.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='scap.player-css'  href='http://maddecent.com/wp-content/plugins/compact-wp-audio-player/css/player.css?ver=3.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='awqsf-custom-style-css'  href='http://maddecent.com/wp-content/plugins/advance-wp-query-search-filter/css/awqsf-style.css?ver=all' type='text/css' media='all' />
+<link rel='stylesheet' id='easy-social-share-buttons-css'  href='http://maddecent.com/wp-content/plugins/easy-social-share-buttons/assets/css/metro-retina/easy-social-share-buttons.css?ver=1.3.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://maddecent.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fwvvw_styles-css'  href='http://maddecent.com/wp-content/plugins/fw-vimeo-videowall//fw-vimeo-videowall.css?ver=3.3.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://maddecent.com/wp-content/plugins/tabber-tabs-widget/js/tabber-minimized.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://maddecent.com/wp-content/plugins/compact-wp-audio-player/js/soundmanager2-nodebug-jsmin.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://maddecent.com/wp-includes/js/jquery/jquery.js?ver=1.7.1'></script>
+<script type='text/javascript' src='http://maddecent.com/wp-content/plugins/fw-vimeo-videowall//fw-vimeo-videowall.js?ver=3.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var md_ajax = {"ajaxurl":"http:\/\/maddecent.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://maddecent.com/wp-content/themes/Maddecentnew/style.css/../js/home-ajax.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://maddecent.com/wp-content/plugins/advance-wp-query-search-filter/js/awqsf-front.js?ver=1.0'></script>
+<script type='text/javascript' src='http://maddecent.com/wp-content/plugins/easy-social-share-buttons/assets/js/easy-social-share-buttons.js?ver=1.3.9.7'></script>
+<script type='text/javascript' src='https://w.soundcloud.com/player/api.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://connect.soundcloud.com/sdk.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://maddecent.com/wp-content/themes/Maddecentnew/style.css/../js/top-sc-player.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://maddecent.com/wp-content/themes/Maddecentnew/style.css/../js/jquery.cycle.all.js?ver=3.3.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://maddecent.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://maddecent.com/wp-includes/wlwmanifest.xml" /> 
+
+
+<!-- All in One SEO Pack 1.6.14.5 by Michael Torbert of Semper Fi Web Design[714,731] -->
+<meta name="keywords" content="andres digital,bass,champeta,chinese bass,cumbia,evdi sounds,happy colors,howie lee,kinky electric noise,latino resiste,grandtheft,iggy azalea,no mediocre,t.i.,champagne drip,free download,mad decent premium,mad decent premium exclusive,bap u,blog,diplo,dylan ragland,great dane,jack u,kiesza,lessthan3,los angeles,md premium,party,party favor,skrillex,spooky black,trap,trap tuesday,twerk,1-5,bird peterson,drank,drankenstein,drankenstein infinity: the complete masterworks,drip,frankenstein,lace and lean 1 &amp; 2,mad decent,the sxsw special,1xtra,bbc radio 1,diplo and friends,hip-hop,casablanca records,imanos,mix,the new republic,dawn golden,ryan hemsworth,snow in newark" />
+<link rel="canonical" href="http://maddecent.com/" />
+<!-- /all in one seo pack -->
+<!-- ESSB v. 1.3.9.7 CSS Builder --><style type="text/css">.essb_links_list li.essb_totalcount_item .essb_t_l_big .essb_t_nb:after, .essb_links_list li.essb_totalcount_item .essb_t_r_big .essb_t_nb:after { color: #999999;content: "shares";display: block;font-size: 11px;font-weight: normal;text-align: center;text-transform: uppercase;margin-top: -5px; } .essb_fixed { margin: 0; }.essb_more_popup {	/*background-color: #ffffff;*/	z-index: 999;	/*-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);	-ms-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);	-o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);*/}.essb_more_popup_content {	padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px;	margin: 0;	text-align: center;}.essb_more_popup_shadow {	position:fixed;	_position:absolute; /* hack for IE 6*/	height:100%;	width:100%;	top:0;	left:0;	background: rgba(99, 99, 99, 0.3);	z-index:998;	display: none;}.essb_more_popup_button_close { position: absolute; top:5px; right: 0;}.essb_more_popup_button_close a, .essb_more_popup_button_close a:hover { background: none; background-color: none; border: none; font-weight: bold; text-decoration: none; color: #333; padding-right: 5px; margin-top: 5px;}</style><!-- /CSS Builder -->    <script type="text/javascript">var fwvvw_ajax_handler = "http://maddecent.com/wp-content/plugins/fw-vimeo-videowall//fw-vimeo-videowall-ajax-handler.php";</script>
+<script type="text/javascript">document.write('<style type="text/css">.tabber{display:none;}<\/style>');</script><link rel="stylesheet" type="text/css" media="screen" href="http://maddecent.com/wp-content/plugins/tabber-tabs-widget/tabber.css" />
+<!-- Wordpress Popular Posts v2.2.1 -->
+<link rel="stylesheet" href="http://maddecent.com/wp-content/plugins/wordpress-popular-posts/style/wpp.css" type="text/css" media="screen" />
+<!-- End Wordpress Popular Posts v2.2.1 -->
+<script type="text/javascript">var src="http://maddecent.com/wp-admin/admin-ajax.php?action=wordfence_logHuman&hid=AED68A94B4F20D12DB73A91373C142FA"; if(window.location.protocol == "https:"){ src = src.replace("http:", "https:"); } var wfHTImg = new Image();  wfHTImg.src=src;</script><link type="text/css" media="screen" rel="stylesheet" href="http://maddecent.com/wp-content/plugins/fbf-facebook-page-feed-widget/fbf_facebook_page_feed.css" />
+	
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53dad4bb2e493162"></script>	
+	
+</head>
+<body class="home blog">
+	<div class="wrapper header">
+		<div class="supheader wrapper">
+			<div class="container">
+				<div class="top-header">
+					<div class="logo">MD</div>
+					<!-- div class="header-player hidden current-player">
+						<iframe id="top_player" frameborder="no" scrolling="no" width="0" height="0" src="http://w.soundcloud.com/player/?url=https://soundcloud.com/maddecent" ></iframe>
+						<div class="controls" style="margin-top:3px;">
+							<a href="javascript:;" class="sc-prev"></a>
+							<a href="javascript:;" class="sc-play"></a>
+							<a href="javascript:;" class="sc-next"></a>
+						</div>
+						<div class="info">
+							<span class="artist"></span>
+							<span class="title"></span>
+							<span class="time"></span>
+						</div>
+					</div -->
+					<!--<div class="social-share alignright">
+						<span>Share:</span>
+						<a href="#" class="facebook indent-remove">facebook</a>
+						<a href="#" class="twitter indent-remove">twitter</a>
+					</div> -->
+				
+						<div style="float:right;width:180px;"><div id="aqsfformid"><span class="form_title">Search</span><form method="get"  id="awqsf_search_form_148390" action="http://maddecent.com/"><input type="hidden" name="s" value="1d5815c2d7" /><input type="hidden" name="formid" value="148390"><div class="awqsf_box"><center><label class="awqsf-label-keyword">Search by Keyword</center></label><input id="awqsf_keyword" type="text" name="skeyword" value="" /><br></div><div class="awqsf_box"><p class="awqsf-button"><input type="submit" id="awqsf_submit" value="GO" alt="[Submit]" name="wqsfsubmit" title="Search" /></p></div></form></div></div> 
+					<style type="text/css">
+					.form_title
+					{
+						float:left;
+						color:#fff;
+						margin-right:5px;
+						margin-top:5px;
+						display:none;
+					}
+					
+					
+					div#aqsfformid
+					{
+						border:none;
+					}
+					.awqsf_box
+					{
+						
+		
+						float:left;
+						margin-bottom:0px;
+					}
+					
+					input#awqsf_keyword
+					{
+						width:120px;
+					}
+					
+					input#awqsf_submit
+					{
+					padding:4px;
+					margin-left:2px;
+					height:28px;	
+					}
+					
+					label.awqsf-label-keyword
+					{
+						display:none;
+					}
+					</style>
+				<script language="javascript">
+				$(document).ready(function() {
+// Handler for .ready() called.
+				$('#awqsf_keyword').val("SEARCH");
+});
+
+$("#awqsf_keyword" ).click(function() {
+if($("#awqsf_keyword").val()=='SEARCH')
+{
+$("#awqsf_keyword").val("");
+	
+}
+});
+				</script>
+				</div>
+				<div class="logo alignleft">
+					<a href="http://maddecent.com"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/images/md-logo-header.png" alt=""></a>
+				</div><!--/ logo-->
+				<div class="header-adv">
+									
+
+<!-- start maddecent_ros_728x90 -->
+<script src="http://www.googletagservices.com/tag/js/gpt.js">
+googletag.pubads().enableSyncRendering();
+googletag.defineSlot('/6688621/maddecent_ros_728x90', [728, 90], 'maddecent_ros_728x90')
+.addService(googletag.pubads())
+googletag.enableServices();googletag.display('maddecent_ros_728x90');
+</script>
+<!-- end maddecent_ros_728x90 -->
+
+
+				</div>			
+				<div class="clear"></div>
+			</div>			
+		</div><!--/ supheader-->
+		<div class="subheader wrapper">
+			<div class="container">
+				<div class="menu"><ul id="menu-top-nav" class="menu"><li id="menu-item-101" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-101"><a href="http://maddecent.com">Home</a></li>
+<li id="menu-item-148880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148880"><a href="http://maddecent.com/blog/">Blog</a></li>
+<li id="menu-item-142613" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142613"><a href="http://maddecent.com/blog/artists/">Artists</a></li>
+<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="http://maddecent.com/releases/">Releases</a></li>
+<li id="menu-item-186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"><a href="http://maddecent.com/tracks/">Tracks</a></li>
+<li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="http://maddecent.com/events/">Events</a></li>
+<li id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-109"><a target="_blank" href="http://maddecent.merchtable.com">Shop</a></li>
+<li id="menu-item-142684" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142684"><a href="/premium">Premium</a></li>
+<li id="menu-item-142617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142617"><a href="http://maddecent.com/contact/">CONTACT</a></li>
+</ul></div>				<div class="social-links alignright">
+										<a target="_blank" href="http://facebook.com/maddecent" class="facebook" title="Follow us on Facebook"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/images/header-fb.png" alt=""></a>
+															<a target="_blank" href="http://twitter.com/maddecent" class="twitter" title="Follow us on Twitter"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/images/header-tw.png" alt=""></a>
+															<a target="_blank" href="http://instagram.com/maddecent" class="vimeo" title="Instagram"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/images/instagram_ico.png" alt=""></a>
+															<a target="_blank" href="http://youtube.com/maddecent" class="twitter" title="Youtube"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/images/header-yt.png" alt=""></a>
+						<a target="_blank" href="http://open.spotify.com/user/maddecent" class="youtube" title="spotify"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/images/Spotify_Icon_by_Jezziie.png" alt=""></a>
+
+				</div><!--/ social links-->	
+				<div class="clear"></div>
+			</div>			
+		</div><!--/ subheader-->
+	</div><!--/ header-->
+	
+	<div class="page-title wrapper">
+		<div class="container">
+			<!--
+						<h1></h1>
+						-->
+			
+			<div class="clear"></div>
+		</div>
+	</div><!--/ page title-->
+	<div class="content wrapper">
+		<div class="container">	<div class="two-third column">
+<div id='coin-slider'>
+		<a href="http://maddecent.com/diplos-hip-hop-mix-on-diplo-friends/">
+		<img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F09%2Fdiplo-and-friends-wes-slider.jpg&w=595&h=335&a=t" />
+		<span>
+			Diplo's Hip-Hop Mix on Diplo & Friends!		</span>
+	</a>
+		<a href="http://maddecent.com/diplo-skrillex-new-years-eve-at-madison-square-garden/">
+		<img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F09%2FScreen-Shot-2014-09-19-at-10.16.25-AM.png&w=595&h=335&a=t" />
+		<span>
+			DIPLO & SKRILLEX - NEW YEAR'S EVE AT MADISON SQÜARE GARDEN		</span>
+	</a>
+		<a href="http://maddecent.com/party-favor-bap-u-jeff085-out-now-on-jeffrees/">
+		<img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F09%2FBapU_HomepageBanner1.jpg&w=595&h=335&a=t" />
+		<span>
+			Party Favor - Bap U (JEFF085) Out Now On Jeffree's! 		</span>
+	</a>
+		<a href="http://maddecent.com/boaz-van-de-beatz-warrior-feat-kalibwoy-official-music-video/">
+		<img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F09%2FScreen-Shot-2014-09-12-at-10.30.39-AM.png&w=595&h=335&a=t" />
+		<span>
+			Boaz van de Beatz - Warrior (feat. Kalibwoy) [Official Music Video]		</span>
+	</a>
+		<a href="http://maddecent.com/zeds-dead-somewhere-else-fall-tour/">
+		<img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F09%2Fzedsdead.jpg&w=595&h=335&a=t" />
+		<span>
+			Zeds Dead Somewhere Else Fall Tour		</span>
+	</a>
+	</div>	
+
+				<div class="content-block">
+							
+						 
+			<div class="block-content">
+				<div class="featured-blog home-featured">
+															<div class="post-154600 post type-post status-publish format-standard hentry category-blog tag-diplo tag-mad-decent tag-mad-decent-release post">
+												<div class=" column featured-image">
+							<a href="http://maddecent.com/pre-order-diplo-random-white-dude-be-everywhere-official-merch-bundle/"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F06%2FRWDBEPreSale_HomePageBanner.jpg&w=300&h=169&a=t" class="fullwidth" alt="Diplo &#8211; Random White Dude Be Everywhere Out Now + Official Merch Bundle!" /></a>
+						</div>
+						<div class="column last post-content">
+													<h3 class="post-title"><a href="http://maddecent.com/pre-order-diplo-random-white-dude-be-everywhere-official-merch-bundle/">Diplo &#8211; Random White Dude Be Everywhere Out Now + Official Merch Bundle!</a></h3>
+							Out now, order Random White Dude Be Everywhere today, the ultimate deluxe Diplo collection. Order on iTunes Order on Bea							<div class="post-meta" style="margin-top:15px;">										
+								<a href="http://maddecent.com/pre-order-diplo-random-white-dude-be-everywhere-official-merch-bundle/" class="button small"><span>Read More</span></a>
+								<div class="post-info">
+																</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div><!--/ post-->
+									</div>						
+			</div>
+						
+			
+			
+						
+			
+			<div class="block-content">
+				<div  class="home-artists pos-rel ">
+				<div style="width: 595px; border-bottom: 1px solid #000;font-family: 'OpenSansCondensedBold';font-size: 20px;margin-top: 20px;color: #000;padding-bottom: 5px;">POSTS</div>
+										
+									
+					
+			<div id="mainresult">
+					
+				<!--<a href="javascript:void(0)" id="`home-ajax-prev" class="home-ajax_prev"  data-click_type="prev" data-post_count="" data-per_page="4" data-post_type="artists" data-page="0" data-prev_page="0" id="featured_ajax">&nbsp; </a>  -->
+				
+					
+										<div class="post-158258 post type-post status-publish format-standard hentry category-blog tag-andres-digital tag-bass tag-champeta tag-chinese-bass tag-cumbia tag-evdi-sounds tag-happy-colors tag-howie-lee tag-kinky-electric-noise tag-latino-resiste post">
+											 	<div class=" featured-image">
+							<a href="http://maddecent.com/the-rebasslution/">
+							<img src="http://mad-decent-wp.s3.amazonaws.com/wp-content/uploads/2014/09/EVDI-SOUND-Muchos.jpg" width="220" height="125" />							</a>
+						</div> 
+						<div class="column last post-content">
+													<h3 class="post-title"><a href="http://maddecent.com/the-rebasslution/">The Rebasslution</a></h3>
+							<div class="post_desc">The act of redefining a concept can be done with a specific interest, usually following an increasing level of demand in the market. For artistic movements the processes have a bit more of freedom, an ... <a href="http://maddecent.com/the-rebasslution/" class="button small"><span>Read More</span></a></div>
+							
+							
+							<div class="release-track">
+																							</div>
+						</div>
+					</div><!--/ post-->
+												
+										<div class="post-158270 post type-post status-publish format-standard hentry category-blog tag-grandtheft tag-iggy-azalea tag-no-mediocre tag-t-i post">
+											 	<div class=" featured-image">
+							<a href="http://maddecent.com/grandtheft-no-mediocre-feat-iggy-azalea-official-remix/">
+							<img src="http://mad-decent-wp.s3.amazonaws.com/wp-content/uploads/2014/09/COVER-No-Mediocre-Grandtheft-Remix1.jpg" width="220" height="125" />							</a>
+						</div> 
+						<div class="column last post-content">
+													<h3 class="post-title"><a href="http://maddecent.com/grandtheft-no-mediocre-feat-iggy-azalea-official-remix/">T.I. &#8211; No Mediocre (Grandtheft Remix) [feat. Iggy Azalea]</a></h3>
+							<div class="post_desc">Sound the alarm! Grandtheft has released an official remix of the chart-topping hit &#8220;No Mediocre&#8221; by T.I. featuring Iggy Azalea. There&#8217;s certainly nothing mediocre here. Premiering o ... <a href="http://maddecent.com/grandtheft-no-mediocre-feat-iggy-azalea-official-remix/" class="button small"><span>Read More</span></a></div>
+							
+							
+							<div class="release-track">
+																							</div>
+						</div>
+					</div><!--/ post-->
+						<div class="clear"></div>						
+										<div class="post-158254 post type-post status-publish format-standard hentry category-uncategorized tag-champagne-drip tag-free-download tag-mad-decent-premium tag-mad-decent-premium-exclusive post">
+											 	<div class=" featured-image">
+							<a href="http://maddecent.com/champagne-drip-radio-bikini-ep-free-download/">
+							<img src="http://mad-decent-wp.s3.amazonaws.com/wp-content/uploads/2014/09/ChamDrip_HomepageBanner1.jpg" width="220" height="125" />							</a>
+						</div> 
+						<div class="column last post-content">
+													<h3 class="post-title"><a href="http://maddecent.com/champagne-drip-radio-bikini-ep-free-download/">Champagne Drip &#8211; Radio Bikini EP Free Download!</a></h3>
+							<div class="post_desc">Last week we released &#8220;Radio Bikini&#8221;, the debut EP from drip-hop king Champagne Drip, exclusively to our Mad Decent Premium subscribers. Now we’re releasing the EP to everyone as a fre ... <a href="http://maddecent.com/champagne-drip-radio-bikini-ep-free-download/" class="button small"><span>Read More</span></a></div>
+							
+							
+							<div class="release-track">
+																							</div>
+						</div>
+					</div><!--/ post-->
+												
+										<div class="post-158225 post type-post status-publish format-standard hentry category-blog tag-bap-u tag-blog tag-diplo tag-dylan-ragland tag-great-dane tag-jack-u tag-kiesza tag-lessthan3 tag-los-angeles tag-mad-decent-premium tag-md-premium tag-party tag-party-favor tag-skrillex tag-spooky-black tag-trap tag-trap-tuesday tag-twerk post">
+											 	<div class=" featured-image">
+							<a href="http://maddecent.com/trap-tuesdays-69-party-favor-takeover-on-lessthan3/">
+							<img src="http://mad-decent-wp.s3.amazonaws.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-24-at-2.40.54-PM.png" width="220" height="125" />							</a>
+						</div> 
+						<div class="column last post-content">
+													<h3 class="post-title"><a href="http://maddecent.com/trap-tuesdays-69-party-favor-takeover-on-lessthan3/">Trap Tuesdays 69: Party Favor Takeover on LessThan3</a></h3>
+							<div class="post_desc">Fresh off the overwhelmingly successful “Bap U” release, LA-based producer Party Favor powwowed with Electronic music blog LessThan3 to bless listeners with the tunes that get his creative juic ... <a href="http://maddecent.com/trap-tuesdays-69-party-favor-takeover-on-lessthan3/" class="button small"><span>Read More</span></a></div>
+							
+							
+							<div class="release-track">
+																<iframe width="100%" height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/168302619&amp;color=000000&amp;inverse=false&amp;auto_play=false&amp;show_user=true"></iframe>							</div>
+						</div>
+					</div><!--/ post-->
+						<div class="clear"></div>											</div>
+										<a href="javascript:void(0)" id="home-ajax"  class="home-ajax" data-click_type="next" data-post_count="" data-per_page="4" data-post_type="post" data-page="1" id="featured_ajax">&nbsp;</a>
+				
+						
+					
+				</div>
+			</div>
+			
+			<!-- HOME Decent image -->
+			
+			<!-- HOME RElEASES -->	
+						<div class="block-content">
+				<div class="home-releases pos-rel">
+					<div style="width: 595px; border-bottom: 1px solid #000;font-family: 'OpenSansCondensedBold';font-size: 20px;margin-top: 20px;color: #000;padding-bottom: 5px;">RELEASES</div>
+				  <div id="releases_result">
+																									<div class="post-157721 releases type-releases status-publish hentry post ">
+						
+												<div class=" featured-image">
+							<a href="http://maddecent.com/releases/bap-u/"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F09%2FBapU1.jpg&w=160" class="fullwidth" alt="Bap U" /></a>
+						</div>
+						<div class="column last post-content">
+												    <h4 class="release-title">Party Favor							
+							
+							</h4>
+							<h3 class="post-title" style="margin-top:5px;"><a href="http://maddecent.com/releases/bap-u/">Bap U</a></h3>
+							<div class="post-meta">										
+								<div class="post-info">
+									LA-based producer Party Favor brings us his much hyped single, “Bap U” out now on Mad Decent’s ... <a href="http://maddecent.com/releases/bap-u/" class="button small"><span>Read More</span></a>									
+									
+								</div>
+								
+								<div class="clear"></div>
+							</div>
+														<div class="buy-links">
+								<span>Buy</span>
+								<ul>
+																		<li><a target="_blank" href=" https://soundcloud.com/maddecent/party-favor-bap-u-jeff085-01" title="Download from Soundcloud">Download from Soundcloud</a></li>
+																	</ul>
+							</div>
+													</div>
+					</div><!--/ post-->
+																									<div class="post-157543 releases type-releases status-publish hentry post ">
+						
+												<div class=" featured-image">
+							<a href="http://maddecent.com/releases/still-life-remixes/"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F09%2Fdg_stilllife_remixes_WEB1.jpeg&w=160" class="fullwidth" alt="Still Life (Remixes)" /></a>
+						</div>
+						<div class="column last post-content">
+												    <h4 class="release-title">Dawn Golden							
+							
+							</h4>
+							<h3 class="post-title" style="margin-top:5px;"><a href="http://maddecent.com/releases/still-life-remixes/">Still Life (Remixes)</a></h3>
+							<div class="post-meta">										
+								<div class="post-info">
+									Following the springtime release of Dawn Golden's debut LP Still Life, we now bring you a collection ... <a href="http://maddecent.com/releases/still-life-remixes/" class="button small"><span>Read More</span></a>									
+									
+								</div>
+								
+								<div class="clear"></div>
+							</div>
+														<div class="buy-links">
+								<span>Buy</span>
+								<ul>
+																		<li><a target="_blank" href=" http://smarturl.it/DawnGoldenRemixes" title="Buy on iTunes">Buy on iTunes</a></li>
+																		<li><a target="_blank" href=" http://amzn.to/1qD21AN" title="Buy on Amazon">Buy on Amazon</a></li>
+																		<li><a target="_blank" href=" http://btprt.dj/1uvbXwn" title="Buy Beatport">Buy Beatport</a></li>
+																		<li><a target="_blank" href=" http://bit.ly/stilliferemixes" title="Buy Google Play">Buy Google Play</a></li>
+																	</ul>
+							</div>
+													</div>
+					</div><!--/ post-->
+																									<div class="post-157308 releases type-releases status-publish hentry post last-col">
+						
+												<div class=" featured-image">
+							<a href="http://maddecent.com/releases/back-up-on-it-jasmine/"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F08%2FMAD224_Final1.jpg&w=160" class="fullwidth" alt="Back Up On It (Jasmine)" /></a>
+						</div>
+						<div class="column last post-content">
+												    <h4 class="release-title">Dougie F & DJ Fire							
+							
+							</h4>
+							<h3 class="post-title" style="margin-top:5px;"><a href="http://maddecent.com/releases/back-up-on-it-jasmine/">Back Up On It (Jasmine)</a></h3>
+							<div class="post-meta">										
+								<div class="post-info">
+									Dougie F & DJ Fire, both Orange, New Jersey natives, have individually been at the center of emergin ... <a href="http://maddecent.com/releases/back-up-on-it-jasmine/" class="button small"><span>Read More</span></a>									
+									
+								</div>
+								
+								<div class="clear"></div>
+							</div>
+														<div class="buy-links">
+								<span>Buy</span>
+								<ul>
+																		<li><a target="_blank" href=" http://smarturl.it/BackUpOnIt" title="Buy on iTunes">Buy on iTunes</a></li>
+																		<li><a target="_blank" href=" http://amzn.to/Y8ZL9A" title="Buy on Amazon">Buy on Amazon</a></li>
+																		<li><a target="_blank" href=" http://bit.ly/1CmWCT5" title="Buy on Google Play">Buy on Google Play</a></li>
+																		<li><a target="_blank" href=" http://btprt.dj/1B9ZpgF" title="Buy on Beatport">Buy on Beatport</a></li>
+																	</ul>
+							</div>
+													</div>
+					</div><!--/ post-->
+					<div class="clear"></div>																				<div class="post-157190 releases type-releases status-publish hentry post ">
+						
+												<div class=" featured-image">
+							<a href="http://maddecent.com/releases/breeze/"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F08%2FMM_BreezeRetail_1800px1.jpg&w=160" class="fullwidth" alt="Breeze" /></a>
+						</div>
+						<div class="column last post-content">
+												    <h4 class="release-title">Mitch Murder							
+							
+							</h4>
+							<h3 class="post-title" style="margin-top:5px;"><a href="http://maddecent.com/releases/breeze/">Breeze</a></h3>
+							<div class="post-meta">										
+								<div class="post-info">
+									Perhaps one of our favorite Mitch Murder gems ever, "Breeze," is available for purchase at last. You ... <a href="http://maddecent.com/releases/breeze/" class="button small"><span>Read More</span></a>									
+									
+								</div>
+								
+								<div class="clear"></div>
+							</div>
+														<div class="buy-links">
+								<span>Buy</span>
+								<ul>
+																		<li><a target="_blank" href=" http://smarturl.it/breeze" title="Buy on iTunes">Buy on iTunes</a></li>
+																		<li><a target="_blank" href=" http://btprt.dj/1AQZ7vg" title="Buy on Beatport">Buy on Beatport</a></li>
+																		<li><a target="_blank" href=" http://bit.ly/1qeHfFL" title="Buy on Google Play">Buy on Google Play</a></li>
+																	</ul>
+							</div>
+													</div>
+					</div><!--/ post-->
+																									<div class="post-157121 releases type-releases status-publish hentry post ">
+						
+												<div class=" featured-image">
+							<a href="http://maddecent.com/releases/rundat/"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F08%2FJEFF081_Aazar-Rundat_800px2.jpg&w=160" class="fullwidth" alt="Rundat" /></a>
+						</div>
+						<div class="column last post-content">
+												    <h4 class="release-title">Aazar							
+							
+							</h4>
+							<h3 class="post-title" style="margin-top:5px;"><a href="http://maddecent.com/releases/rundat/">Rundat</a></h3>
+							<div class="post-meta">										
+								<div class="post-info">
+									Parisian up-comer Aazar is rivaled by few when it comes to churning out aggressive in your face elec ... <a href="http://maddecent.com/releases/rundat/" class="button small"><span>Read More</span></a>									
+									
+								</div>
+								
+								<div class="clear"></div>
+							</div>
+														<div class="buy-links">
+								<span>Buy</span>
+								<ul>
+																		<li><a target="_blank" href=" http://smarturl.it/Rundat" title="Buy iTunes">Buy iTunes</a></li>
+																		<li><a target="_blank" href=" http://btprt.dj/1tHRF4S" title="Buy on Beatport">Buy on Beatport</a></li>
+																		<li><a target="_blank" href=" http://amzn.to/1tHRpmp" title="Buy on Amazon">Buy on Amazon</a></li>
+																		<li><a target="_blank" href=" http://bit.ly/aazarrundat" title="Buy on Google Play">Buy on Google Play</a></li>
+																	</ul>
+							</div>
+													</div>
+					</div><!--/ post-->
+																									<div class="post-156775 releases type-releases status-publish hentry post last-col">
+						
+												<div class=" featured-image">
+							<a href="http://maddecent.com/releases/wake-m-up/"><img src="http://maddecent.com/wp-content/themes/Maddecentnew/ext/timthumb/timthumb.php?src=http%3A%2F%2Fmad-decent-wp.s3.amazonaws.com%2Fwp-content%2Fuploads%2F2014%2F08%2FMAD219_Partysquad-WakeMUpEP_800px3.jpg&w=160" class="fullwidth" alt="Wake &#8216;M Up" /></a>
+						</div>
+						<div class="column last post-content">
+												    <h4 class="release-title">The Partysquad							
+							
+							</h4>
+							<h3 class="post-title" style="margin-top:5px;"><a href="http://maddecent.com/releases/wake-m-up/">Wake &#8216;M Up</a></h3>
+							<div class="post-meta">										
+								<div class="post-info">
+									You remember them for hits like Major Lazer’s “Original Don”, M.I.A.'s latest "Double Bubble T ... <a href="http://maddecent.com/releases/wake-m-up/" class="button small"><span>Read More</span></a>									
+									
+								</div>
+								
+								<div class="clear"></div>
+							</div>
+														<div class="buy-links">
+								<span>Buy</span>
+								<ul>
+																		<li><a target="_blank" href=" http://smarturl.it/WakeMUp" title="Buy on iTunes">Buy on iTunes</a></li>
+																		<li><a target="_blank" href=" http://btprt.dj/1BbOX9z" title="Buy on Beatport">Buy on Beatport</a></li>
+																		<li><a target="_blank" href=" http://amzn.to/ViRzB6" title="Buy on Amazon">Buy on Amazon</a></li>
+																		<li><a target="_blank" href=" http://bit.ly/wakemup" title="Buy on Google Play">Buy on Google Play</a></li>
+																	</ul>
+							</div>
+													</div>
+					</div><!--/ post-->
+					<div class="clear"></div>																				
+					<!--<a href="javascript:void(0)" id="bottom-ajax"  class="home-ajax" data-click_type="next" data-post_count="218" data-per_page="3" data-post_type="releases" data-page="1" id="featured_ajax">&nbsp;</a> -->
+					<a href="javascript:void(0);" id="bottom-ajax"  class="home-ajax" data-click_type="next" data-post_count="218" data-per_page="6" data-post_type="releases" data-page="1" id="featured_ajax">&nbsp;</a>					
+									</div>
+			</div>
+			</div>	
+			<!-- END OF HOME RElEASES -->
+		</div>
+	</div>
+<div class="one-third column last sidebar">
+	<div id="text-4" class="widget widget_text">			<div class="textwidget"><!-- start maddecent_ros_300x250 -->
+
+<script SAC="http://www.googletagservices.com/tag/js/gpt.js">
+
+googletag.pubads().enableSyncRendering();
+
+googletag.defineSlot('/6688621/maddecent_ros_300x250', [300, 250], 'maddecent_ros_300x250')
+
+.addService(googletag.pubads())
+
+googletag.enableServices();googletag.display('maddecent_ros_300x250');
+
+</script>
+
+<!-- end maddecent_ros_300x250 --></div>
+		</div><div id="reallysimpletwitterwidget-4" class="widget widget_reallysimpletwitterwidget"><h3 class="widget-title"><a href="http://twitter.com/maddecent" class="twitter_title_link" ><img src="http://maddecent.com/wp-content/plugins/really-simple-twitter-feed-widget/twitter_small.png" alt="@MADDECENT" title="@MADDECENT" /> @MADDECENT</a></h3>
+			<ul class="really_simple_twitter_widget"><li>M.usic
+A.ll
+D.ay
+
+<a href="http://twitter.com/#!/search/%23DECENT" class="twitter-link" >#DECENT</a><span class="rstw_comma">,</span> <span class="twitter-timestamp" title="2014/09/29 23:29">1 hour ago</span></li><li>RT <a href="http://twitter.com/djembadjembaa" class="twitter-user" >@djembadjembaa</a>: Only reason I still fux with vine <a href="https://t.co/kNMT7VW3OG" class="twitter-link" >https://t.co/kNMT7VW3OG</a><span class="rstw_comma">,</span> <span class="twitter-timestamp" title="2014/09/29 21:43">3 hours ago</span></li><li>RT <a href="http://twitter.com/TomorrowWorld" class="twitter-user" >@TomorrowWorld</a>: Yesterday, <a href="http://twitter.com/diplo" class="twitter-user" >@diplo</a> took it to another dimension at the <a href="http://twitter.com/maddecent" class="twitter-user" >@maddecent</a> Stage. Where you there? <a href="http://t.co/MLiRDPNrqD" class="twitter-link" >http://t.co/MLiRDPNrqD</a><span class="rstw_comma">,</span> <span class="twitter-timestamp" title="2014/09/29 17:22">7 hours ago</span></li><li>RT <a href="http://twitter.com/diplo" class="twitter-user" >@diplo</a>: All week long you can listen to my hip hop mix🙌🙌🙌 <a href="http://t.co/PA2ax6lwTv" class="twitter-link" >http://t.co/PA2ax6lwTv</a> <a href="http://twitter.com/R1Dance" class="twitter-user" >@R1Dance</a> @BBCR1<span class="rstw_comma">,</span> <span class="twitter-timestamp" title="2014/09/29 16:57">8 hours ago</span></li><li>Tune in tonight for a 2hr hip-hop mix by <a href="http://twitter.com/Diplo" class="twitter-user" >@Diplo</a>! 8PM PST / 4AM BST: <a href="http://t.co/BZiAF8lFNa" class="twitter-link" >http://t.co/BZiAF8lFNa</a><span class="rstw_comma">,</span> <span class="twitter-timestamp" title="2014/09/27 22:00">Sep 27</span></li></ul></div><div id="widget_sp_image-4" class="widget widget_sp_image"><a href="http://maddecent.merchtable.com/" target="_blank" class="widget_sp_image-image-link" title=""><img width="302" height="302" src="http://mad-decent-wp.s3.amazonaws.com/wp-content/uploads/2014/08/mad-mag-admat-mobile-wip-22-302x302.jpg" class="attachment-302x302 aligncenter" alt="" title="mad-mag-admat-mobile-wip-2" style="max-width: 302px;max-height: 302px;" /></a></div><div id="widget_sp_image-6" class="widget widget_sp_image"><a href="http://maddecent.merchtable.com/bundles/diplo-random-white-dude-be-everywhere-cd-bundle#.U-ll2GSwI74" target="_blank" class="widget_sp_image-image-link" title=""><img width="302" height="302" src="http://mad-decent-wp.s3.amazonaws.com/wp-content/uploads/2014/08/RWBE_CD_Bundle-302x302.png" class="attachment-302x302 aligncenter" alt="" title="Diplo Random White Dude CD Bundle" style="max-width: 302px;max-height: 302px;" /></a></div><div id="widget_sp_image-2" class="widget widget_sp_image"><a href="http://maddecent.merchtable.com/bundles/pre-order-zeds-dead-somewhere-else-t-shirt-plus-lp-bundle-ships-week-of-august-19th-2014#.U-lonWSwI74" target="_blank" class="widget_sp_image-image-link" title=""><img width="300" height="302" src="http://mad-decent-wp.s3.amazonaws.com/wp-content/uploads/2014/08/ZDSomewhereElseVinylPresaleBundle_AdMat1-300x302.jpg" class="attachment-300x302 aligncenter" alt="" title="ZDSomewhereElseVinylPresaleBundle_AdMat" style="max-width: 300px;max-height: 302px;" /></a></div><div id="widget_sp_image-3" class="widget widget_sp_image"><a href="http://maddecent.merchtable.com/music/vinyl/pre-order-mitch-murder-interceptor-2xlp-plus-flexi-disc-plus-sticker-plus-t-shirt-ships-the-week-of-august-19th-2014#.U-lmlGSwI74" target="_blank" class="widget_sp_image-image-link" title=""><img width="302" height="302" src="http://mad-decent-wp.s3.amazonaws.com/wp-content/uploads/2014/08/InterceptorPresaleBundle_iG_REV4-302x302.jpg" class="attachment-302x302 aligncenter" alt="" title="InterceptorPresaleBundle_iG_REV4" style="max-width: 302px;max-height: 302px;" /></a></div></div>
+			<div class="clear"></div>
+			<div class="footer-widgets">
+				
+			</div>			
+			<div class="clear"></div>
+		</div>
+	</div><!--/ content-->
+	<div class="footer wrapper">
+		<div class="background">
+			<div class="container">				
+				<div class="menu one-third column"><ul id="menu-top-nav-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-101"><a href="http://maddecent.com">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148880"><a href="http://maddecent.com/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142613"><a href="http://maddecent.com/blog/artists/">Artists</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="http://maddecent.com/releases/">Releases</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-186"><a href="http://maddecent.com/tracks/">Tracks</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-214"><a href="http://maddecent.com/events/">Events</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-109"><a target="_blank" href="http://maddecent.merchtable.com">Shop</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142684"><a href="/premium">Premium</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-142617"><a href="http://maddecent.com/contact/">CONTACT</a></li>
+</ul></div>				<div class="footer-widget-area">
+									</div>
+				<div class="footer-widget-area">
+					<div id="text-2" class="widget widget_text">			<div class="textwidget"></div>
+		</div>				</div>	
+				<div class="footer-widget-area">
+					<div id="text-3" class="widget widget_text">			<div class="textwidget"></div>
+		</div>				</div>					
+				<div class="copyright alignright">
+					<a href="/" title="Mad Decent" class="footer-logo" >&nbsp</a>
+					<p>&copy; MadDecent. All Rights Reserved.</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div><!--/ footer-->
+
+<!-- WP Audio player plugin v1.5 - http://www.tipsandtricks-hq.com/wordpress-audio-music-player-plugin-4556/ -->
+	<script type="text/javascript">
+    soundManager.useFlashBlock = true; // optional - if used, required flashblock.css
+    soundManager.url = 'http://maddecent.com/wp-content/plugins/compact-wp-audio-player/swf/soundmanager2.swf';
+    function play_mp3(flg,ids,mp3url,volume,loops){
+      soundManager.createSound({
+        id:'btnplay_'+ids,
+        volume: volume,
+        url: mp3url
+      });
+
+      if(flg == 'play'){
+		//soundManager.stopAll();        
+		soundManager.play('btnplay_'+ids,{
+			onfinish: function() {
+				if(loops == 'true'){
+					loopSound('btnplay_'+ids);
+				}
+				else{
+					document.getElementById('btnplay_'+ids).style.display = 'inline';
+					document.getElementById('btnstop_'+ids).style.display = 'none';
+				}
+			}
+		});
+      }
+      else if(flg == 'stop'){
+        //soundManager.stop('btnplay_'+ids);
+    	soundManager.pause('btnplay_'+ids);
+      }
+    }
+    function show_hide(flag,ids){
+      if(flag=='play'){
+        document.getElementById('btnplay_'+ids).style.display = 'none';
+        document.getElementById('btnstop_'+ids).style.display = 'inline';
+      }
+      else if (flag == 'stop'){
+        document.getElementById('btnplay_'+ids).style.display = 'inline';
+        document.getElementById('btnstop_'+ids).style.display = 'none';
+      }
+    }
+    function loopSound(soundID) {
+    	window.setTimeout(function() {
+    		soundManager.play(soundID,{onfinish:function(){loopSound(soundID);}});
+    	},1);
+    }
+	</script>
+	
+		<script type="text/javascript" language="javascript">
+		var essb_postcount_data = {
+		'ajax_url': 'http://maddecent.com/wp-admin/admin-ajax.php',
+		'post_id': '0'
+	};
+	jQuery(document).bind('essb_selfpostcount_action', function (e, service, post_id) {
+		//alert('trigger:  '+ service + '|'+post_id);
+		post_id = String(post_id);
+	jQuery.post(essb_postcount_data.ajax_url, {
+	'action': 'essb_self_postcount',
+	'post_id': post_id,
+	'service': service,
+	'nonce': 'e639e51ecc'
+	}, function (data) { if (data) {
+		//alert(data);
+	}},'json');});
+	function essb_self_postcount(service, post_id) {
+
+	jQuery(document).trigger('essb_selfpostcount_action',[service, post_id]);
+	}
+	</script>
+	<script type='text/javascript' src='http://maddecent.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.32.0-2013.04.03'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/maddecent.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://maddecent.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.4.1'></script>
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-5147275-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+    <!-- Begin comScore Tag -->
+    <script>
+      var _comscore = _comscore || [];
+      _comscore.push({ c1: "2", c2: "8568956" });
+      (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+      })();
+    </script>
+    <noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&c2=8568956&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+
+	<!-- Google Code for Mad Decent website Conversion Page -->
+	<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide:google.com/ads/remarketingsetup -->
+	<script type="text/javascript">
+	/* <![CDATA[ */
+	var google_conversion_id = 973669569;
+	var google_conversion_label = "lXJ5CKe5pQkQwYmk0AM";
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+	</script>
+	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+	</script>
+	<noscript>
+	<div style="display:inline;">
+	<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/973669569/?value=0&label=lXJ5CKe5pQkQwYmk0AM&guid=ON&script=0"/>
+	</div>
+	</noscript>
+</body>
+</html>

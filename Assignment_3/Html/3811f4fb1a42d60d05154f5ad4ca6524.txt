@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+
+<!-- 
+Disappears Theme
+Kelsey (http://www.atonals.tumblr.com)
+This text should never be deleted, nor should the credit link placed in the theme code.
+
+credits to:
+http://masonry.desandro.com/docs/methods.html
+-->
+
+<title>TATUM</title>
+
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_2a38dd17c920_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://blackedouthope.tumblr.com/rss">
+
+<meta name="description" content="be young, be dope, be proud @tatum_hickman" />
+
+
+<meta name="color:text" content="#3c3c3c"/>
+<meta name="color:links" content="#000000"/>
+<meta name="color:link hover" content="#dddddd"/>
+<meta name="color:background" content="#ffffff"/>
+<meta name="if:endless scroll" content="0" />
+<meta name="if:show captions" content="0"/>
+<meta name="if:italic title" content="0"/>
+<meta name="text:blogtitle size" content="25" />
+<meta name="text:text size" content="12" />
+
+<meta name="font:body" content="baskerville" />
+<meta name="font:title" content="Baskerville" />
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/twte3d7/uLzlw6l2f/masonry.js"></script>
+
+
+
+<script src="http://static.tumblr.com/twte3d7/0pellzh2t/infinitescroll.js"></script>
+</script>
+
+
+<style type="text/css">
+
+iframe#tumblr_controls {
+top: 0% !important;
+right:0% !important; 
+position: absolute !important;}
+
+body {background: #ffffff;font-family: Helvetica, Arial, sans-serif;font-size: 12px;color: #3c3c3c;line-height:15px;text-align:justify;}
+
+a:hover {color: #dddddd;-webkit-transition-duration: .5s;}
+a {color: #000000;text-decoration: none;-webkit-transition-duration: .5s;}
+
+.caption {margin-top:5px;margin-bottom:5px;text-align:left;}
+.title {font-size:13px; text-transform:uppercase;text-align:center;}
+.content{width:1040px;margin-top:20px;margin:auto;padding-bottom:200px;}
+
+
+.post{margin:5px;width:250px; font-size:12px;position:absolute;}
+
+.audio {background-color:#000000;width:250px;}
+
+::-webkit-scrollbar-thumb:vertical { background-color:#3c3c3c; height:100px; }
+::-webkit-scrollbar-thumb:horizontal { background-color:#ffffff; height:10px !important; }
+::-webkit-scrollbar { height:10px; width:10px; background-color:#ffffff; }
+
+
+.permalink {text-align:right;} 
+.notetitle {padding-left:14px;text-transform:none;padding-bottom:10px; text-align:left;}
+.notes {margin-top:-4px; margin-bottom:25px; text-align:left;margin-left:-10px;}
+ol.notes li.note {padding:5px;}
+ol.notes {max-height: 250px;width:480px; overflow: auto;}
+img.avatar {display: none;}
+
+
+.blogtitle {font-size:13px; font-family:Helvetica, Arial, sans-serif;display:inline-block;}
+.header {position:fixed;bottom:0px;padding:10px;background-color:#ffffff;z-index:1000;margin:auto;width:100%;line-height:20px;text-align:center;}
+.description {opacity:.5;-webkit-transition-duration: .5s;width:200px;margin:auto;line-height:14px;}
+.description:hover {opacity:1;-webkit-transition-duration: .5s;}
+.tumblrAutoPager_page_info, .tumblrAutoPager_page_separator {display:none;}
+#infscr-loading {opacity:0;}
+
+.navigation{display:none;}
+
+</style>
+
+<script>
+$(function(){
+var $container = $('.content');
+$container.imagesLoaded(function(){
+$container.masonry({
+itemSelector: '.post'
+});
+});
+$container.infinitescroll({
+navSelector : '.navigation', 
+nextSelector : '.navigation a#next', 
+itemSelector : '.post', 
+bufferPx: 100,
+debug: false,
+donetext: "No more posts to load" ,},
+function( newElements ) {
+var $newElems = $( newElements ).css({ opacity: 0 });
+$newElems.imagesLoaded(function(){
+$newElems.animate({ opacity: 1 });
+$container.masonry( 'appended', $newElems ); 
+});
+});
+});
+</script>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=blackedouthope" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="TATUM" /><meta property="og:url" content="http://blackedouthope.tumblr.com/?og=1" /><meta property="og:description" content="be young, be dope, be proud @tatum_hickman" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_2a38dd17c920_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=blackedouthope" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=blackedouthope" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="blackedouthope" /><meta name="twitter:description" content="                                                                be young, be dope, be proud &lt;br&gt;
+@tatum_hickman" /><meta name="twitter:creator" content="tatumhickman" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=blackedouthope&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=blackedouthope&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=blackedouthope&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+<div class="header"><div class="blogtitle">
+<a href="/">TATUM</a></div>
+/ <a href="/ask">ask / </a>&nbsp;<a href="/archive">archive / </a>&nbsp;<a href="http://atonals.tumblr.com">theme</a> /
+<div class="description">
+be young, be dope, be proud <br>
+@tatum_hickman
+<div class="navigation"><p id="page_nav"><a href="/page/2" id="next">older</a></div></div>
+
+</div>
+
+
+<div class="content">
+
+
+
+
+
+
+
+
+
+<div class="post"align="center">
+
+<a href="http://blackedouthope.tumblr.com/post/98604282354">
+<img src="http://33.media.tumblr.com/93f7e771af90432e66f39d986072f627/tumblr_n46s20W7Gv1rkbqbko1_250.jpg" alt="" />
+</a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post"align="center">
+
+<a href="http://blackedouthope.tumblr.com/post/98529382909">
+<img src="http://38.media.tumblr.com/a72b4be8d9901f2e00db0a31ee04ce32/tumblr_mqv30nNTOI1r70eqeo1_250.jpg" alt="" />
+</a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post"align="center">
+
+<a href="http://blackedouthope.tumblr.com/post/98529377854">
+<img src="http://33.media.tumblr.com/a1fbe458a5e064bc0f14ed5734b42353/tumblr_n0ptkvpqbX1rw1nfbo1_250.jpg" alt="" />
+</a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post"align="center">
+
+<a href="http://blackedouthope.tumblr.com/post/98529366769">
+<img src="http://38.media.tumblr.com/387a2fed1798692178fa427d48a71413/tumblr_ms83wk7I5i1s72oayo1_250.jpg" alt="" />
+</a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post"align="center">
+
+<a href="http://blackedouthope.tumblr.com/post/98529338164">
+<img src="http://38.media.tumblr.com/bfded84fccd8ca5cea0da8728e539bb8/tumblr_n37ji8InNY1qckey9o1_250.jpg" alt="" />
+</a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post"align="center">
+
+<a href="http://blackedouthope.tumblr.com/post/98529312034">
+<img src="http://38.media.tumblr.com/tumblr_lonca4il631qg9lbgo1_250.jpg" alt="" />
+</a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post"align="center">
+
+<a href="http://blackedouthope.tumblr.com/post/98529286499">
+<img src="http://33.media.tumblr.com/tumblr_m8kyb1OFqB1r4w6ufo1_250.png" alt="" />
+</a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post"align="center">
+
+<a href="http://blackedouthope.tumblr.com/post/98528814434">
+<img src="http://33.media.tumblr.com/tumblr_md6hjv7jvm1qa3tvso1_250.jpg" alt="" />
+</a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post"align="center">
+
+<a href="http://blackedouthope.tumblr.com/post/98528804989">
+<img src="http://33.media.tumblr.com/1d69b17c1bc907fdca7ef624ede78d8b/tumblr_mo48hyYHlM1rytlv4o1_250.jpg" alt="" />
+</a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post"align="center">
+
+<a href="http://blackedouthope.tumblr.com/post/98528555509">
+<img src="http://38.media.tumblr.com/0907b76b92644bbf6b5578b565f042cf/tumblr_mtfvr72asC1r8x42wo1_250.gif" alt="" />
+</a>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://blackedouthope.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412038059&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxhY2tlZG91dGhvcGUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=EEEJCAJNJI&K=4b19d30c9eeed32422aa143e42fbbbd91d30451d97e04fd3e6679534a6e6a857&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412038059&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYmxhY2tlZG91dGhvcGUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=EEEJCAJNJI&K=d402ccd11bf2a8d89edc6111c9b1d1fb7010610db19b9d030d81acd2c48c54c3&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412038059&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2JsYWNrZWRvdXRob3BlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI3OTg3MzYxNyIsInJvb3RfcG9zdGlkIjoiODMwMTg5MTA2MjUiLCJwb3N0aWQiOiI5ODYwNDI4MjM1NCIsImJsb2dpZCI6IjYwNDQyNDQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjM1MTAxNTk5Iiwicm9vdF9wb3N0aWQiOiI1NzA3NDM4MjU4NCIsInBvc3RpZCI6Ijk4NTI5MzgyOTA5IiwiYmxvZ2lkIjoiNjA0NDI0NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTUyODIxNTIiLCJyb290X3Bvc3RpZCI6Ijc2MTE4Mjc1Nzc3IiwicG9zdGlkIjoiOTg1MjkzNzc4NTQiLCJibG9naWQiOiI2MDQ0MjQ0OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5NTY0MDcwNSIsInJvb3RfcG9zdGlkIjo1OTU1ODk3MTE2MCwicG9zdGlkIjoiOTg1MjkzNjY3NjkiLCJibG9naWQiOiI2MDQ0MjQ0OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2NDA4NDI5Iiwicm9vdF9wb3N0aWQiOiI4MTA4NzgzMTE0NyIsInBvc3RpZCI6Ijk4NTI5MzM4MTY0IiwiYmxvZ2lkIjoiNjA0NDI0NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTIwMTYzNDkiLCJyb290X3Bvc3RpZCI6Ijc4NTI5OTEyNzEiLCJwb3N0aWQiOiI5ODUyOTMxMjAzNCIsImJsb2dpZCI6IjYwNDQyNDQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMwOTIyMTQ0Iiwicm9vdF9wb3N0aWQiOjI5MTgzNjkxOTczLCJwb3N0aWQiOiI5ODUyOTI4NjQ5OSIsImJsb2dpZCI6IjYwNDQyNDQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2MzUxNTkiLCJyb290X3Bvc3RpZCI6MzUyNzYyMzIxNzMsInBvc3RpZCI6Ijk4NTI4ODE0NDM0IiwiYmxvZ2lkIjoiNjA0NDI0NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTkzNzE5NDgiLCJyb290X3Bvc3RpZCI6NTI1MjgyNDU0MTIsInBvc3RpZCI6Ijk4NTI4ODA0OTg5IiwiYmxvZ2lkIjoiNjA0NDI0NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzc2ODQxMjMiLCJyb290X3Bvc3RpZCI6IjYxNzc4Njk3NzA3IiwicG9zdGlkIjoiOTg1Mjg1NTU1MDkiLCJibG9naWQiOiI2MDQ0MjQ0OSIsInNvdXJjZSI6MzN9XX0=&U=HJPJMGPOCI&K=af39d431884295e3812dc9ea1220092a63f157d79c74227e4b897f79e62f1ffe&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412038059&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2JsYWNrZWRvdXRob3BlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI3OTg3MzYxNyIsInJvb3RfcG9zdGlkIjoiODMwMTg5MTA2MjUiLCJwb3N0aWQiOiI5ODYwNDI4MjM1NCIsImJsb2dpZCI6IjYwNDQyNDQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjM1MTAxNTk5Iiwicm9vdF9wb3N0aWQiOiI1NzA3NDM4MjU4NCIsInBvc3RpZCI6Ijk4NTI5MzgyOTA5IiwiYmxvZ2lkIjoiNjA0NDI0NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTUyODIxNTIiLCJyb290X3Bvc3RpZCI6Ijc2MTE4Mjc1Nzc3IiwicG9zdGlkIjoiOTg1MjkzNzc4NTQiLCJibG9naWQiOiI2MDQ0MjQ0OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI5NTY0MDcwNSIsInJvb3RfcG9zdGlkIjo1OTU1ODk3MTE2MCwicG9zdGlkIjoiOTg1MjkzNjY3NjkiLCJibG9naWQiOiI2MDQ0MjQ0OSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2NDA4NDI5Iiwicm9vdF9wb3N0aWQiOiI4MTA4NzgzMTE0NyIsInBvc3RpZCI6Ijk4NTI5MzM4MTY0IiwiYmxvZ2lkIjoiNjA0NDI0NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTIwMTYzNDkiLCJyb290X3Bvc3RpZCI6Ijc4NTI5OTEyNzEiLCJwb3N0aWQiOiI5ODUyOTMxMjAzNCIsImJsb2dpZCI6IjYwNDQyNDQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMwOTIyMTQ0Iiwicm9vdF9wb3N0aWQiOjI5MTgzNjkxOTczLCJwb3N0aWQiOiI5ODUyOTI4NjQ5OSIsImJsb2dpZCI6IjYwNDQyNDQ5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2MzUxNTkiLCJyb290X3Bvc3RpZCI6MzUyNzYyMzIxNzMsInBvc3RpZCI6Ijk4NTI4ODE0NDM0IiwiYmxvZ2lkIjoiNjA0NDI0NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTkzNzE5NDgiLCJyb290X3Bvc3RpZCI6NTI1MjgyNDU0MTIsInBvc3RpZCI6Ijk4NTI4ODA0OTg5IiwiYmxvZ2lkIjoiNjA0NDI0NDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzc2ODQxMjMiLCJyb290X3Bvc3RpZCI6IjYxNzc4Njk3NzA3IiwicG9zdGlkIjoiOTg1Mjg1NTU1MDkiLCJibG9naWQiOiI2MDQ0MjQ0OSIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=HJPJMGPOCI&K=f52180bd33a4455d2c8c2ae9df9bd8c3949cda677991d4959217f73964b52e5d&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:60442449,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fblackedouthope.tumblr.com%2F&amp;lang=en_US&amp;name=blackedouthope&amp;brag=false&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_2a38dd17c920_64.png&amp;title=TATUM&amp;url=http%3A%2F%2Fblackedouthope.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fblackedouthope.tumblr.com%2F&amp;lang=en_US&amp;name=blackedouthope&amp;brag=false&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_2a38dd17c920_64.png&amp;title=TATUM&amp;url=http%3A%2F%2Fblackedouthope.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>
+

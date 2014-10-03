@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+                                         
+        .                                 .o8       oooo              
+      .o8                                "888       `888              
+    .o888oo oooo  oooo  ooo. .oo.  .oo.   888oooo.   888  oooo d8b    
+      888   `888  `888  `888P"Y88bP"Y88b  d88' `88b  888  `888""8P    
+      888    888   888   888   888   888  888   888  888   888        
+      888 .  888   888   888   888   888  888   888  888   888    .o.
+      "888"  `V88V"V8P' o888o o888o o888o `Y8bod8P' o888o d888b   Y8P
+     
+      edited by koduck.tumblr // check for updates regularly!!
+ 
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+ 
+<!-- DEFAULT VARIABLES -->
+ 
+<!-- TEXT -->
+ 
+<meta name="text:Post Border Size" content="1px" />
+<meta name="text:Sidebar Border Size" content="2px" />
+ 
+<meta name="text:Posts Distance from Left" content="320px" />
+<meta name="text:Sidebar Distance from Left" content="800px" />
+<meta name="text:Sidebar Distance from Top" content="100px" />
+ 
+<meta name="text:Sideimg Distance from Left" content="100px"/>
+<meta name="text:Sideimg Distance from Top" content="100px"/>
+ 
+<meta name="text:Font Size Small" content="10px" />
+<meta name="text:Font Size Medium" content="12px" />
+<meta name="text:Font Size Big" content="15px" />
+ 
+<meta name="text:Font Family" content="consolas" />
+<meta name="text:Font Family Secondary" content="cousine" />
+ 
+<meta name="text:Distance Between Posts" content="30px" />
+ 
+ 
+<meta name="text:Link 1" content=""/>
+<meta name="text:Link 1 URL" content=""/>
+<meta name="text:Link 2" content=""/>
+<meta name="text:Link 2 URL" content=""/>
+<meta name="text:Link 3" content=""/>
+<meta name="text:Link 3 URL" content=""/>
+<meta name="text:Link 4" content=""/>
+<meta name="text:Link 4 URL" content=""/>
+ 
+ 
+<!-- COLORS -->
+ 
+<meta name="color:Background" content="#f8f8f8" />
+<meta name="color:Frame" content="#d2fffd" />
+ 
+<meta name="color:Border" content="#e8b9fb" />
+<meta name="color:Border Hover" content="#111111" />
+<meta name="color:Post Title" content="#cbeff8" />
+<meta name="color:Text" content="#555555" />
+<meta name="color:Blockquote" content="#ace9c2" />
+ 
+<meta name="color:Permalink" content="#9de0b5" />
+<meta name="color:Permalink Text" content="#000" />
+<meta name="color:Permalink Hover" content="#95d4ab" />
+ 
+<meta name="color:Description" content="#111" />
+<meta name="color:Menu Link" content="#fff" />
+<meta name="color:Menu Link Background 1" content="#77d0d5" />
+<meta name="color:Menu Link Background 2" content="#f8d705" />
+<meta name="color:Menu Link Background 3" content="#f2a3ed" />
+<meta name="color:Menu Link Background 4" content="#95e396" />
+<meta name="color:Menu Link Background 5" content="#e8b9fb" />
+<meta name="color:Menu Link Background 6" content="#948cdb" />
+<meta name="color:Dropdown Menu" content="#fff" />
+<meta name="color:Dropdown Menu Background" content="#e8b9fb" />
+ 
+<meta name="color:Link" content="#daa2d5" />
+<meta name="color:Link Hover" content="#111" />
+<meta name="color:Link Background" content="#fff28a" />
+<meta name="color:Bold" content="#ce4962" />
+<meta name="color:Italic" content="#aaa" />
+ 
+<meta name="color:Chat 1" content="#fff" />
+<meta name="color:Chat 2" content="#e9fdfc" />
+<meta name="color:Chat Text" content="#000" />
+ 
+<meta name="color:Question Text" content="#111" />
+<meta name="color:Question Background" content="#e2f1f5" />
+<meta name="color:Quote Quotation" content="#c092c6" />
+<meta name="color:Quote Text" content="#3e749a" />
+<meta name="color:Audio Background" content="#fabbf3" />
+<meta name="color:Album Art Border" content="#e1f891" />
+ 
+<meta name="color:Tags" content="#ffdaf4" />
+ 
+<meta name="color:Highlight" content="#ddd" />
+<meta name="color:Scrollbar" content="#ff0000" />
+<meta name="color:Tooltip" content="#f7d9fb" />
+ 
+<meta name="color:Snow" content="#f5fefe" />
+ 
+<!-- TICKBOXES -->
+ 
+ 
+<meta name="if:Small Posts" content="0" />
+<meta name="if:Medium Posts" content="1" />
+<meta name="if:Big Posts" content="0" />
+ 
+<meta name="if:Menu Links Dropdown" content="0" />
+<meta name="if:Menu Links Simple" content="1" />
+<meta name="if:Menu Links Dots" content="0" />
+ 
+<meta name="if:Frame" content="0" />
+<meta name="if:Index Tags" content="0" />
+<meta name="if:Background Cover" content="0" />
+<meta name="if:LazyLoad Content" content="0" />
+<meta name="if:LazyLoad Photos" content="0" />
+ 
+<meta name="if:Infinite Scroll" content="0"/>
+ 
+<meta name="if:Post Shadow" content="1" />
+<meta name="if:Sidebar Shadow" content="0" />
+<meta name="if:Rounded Post" content="0" />
+<meta name="if:Rounded Sidebar" content="1" />
+ 
+<meta name="if:Right Big Post Border" content="1" />
+<meta name="if:Top Big Post Border" content="0" />
+ 
+<meta name="if:Show Album Art" content="1" />
+<meta name="if:Show Reblog Link" content="1" />
+<meta name="if:Show Captions" content="1" />
+ 
+<meta name="if:Bubble Sidebar" content="1" />
+<meta name="if:Show Sidebar Avatar" content="1" />
+ 
+<meta name="if:Link Background" content="1" />
+<meta name="if:Link Underline" content="0" />
+<meta name="if:Link Hover Letter Spacing" content="0" />
+<meta name="if:Menu Link Hover Letter Spacing" content="1" />
+ 
+<meta name="if:Enable Jump Pagination" content="0" />
+<meta name="if:Transparent Permalink" content="0" />
+ 
+<meta name="if:Snow Effect" content="0" />
+ 
+<!-- IMAGES -->
+ 
+<meta name="image:Background" content="" />
+<meta name="image:PostBackground" content="" />
+<meta name="image:SidebarBackground" content="" />
+<meta name="image:SideImg" content=""/>
+ 
+<!-- SELECTION -->
+ 
+<meta name="select:PostBorder" content="solid" title="Solid">
+<meta name="select:PostBorder" content="dashed" title="Dashed">
+<meta name="select:PostBorder" content="dotted" title="Dotted">
+<meta name="select:PostBorder" content="double" title="Double">
+<meta name="select:PostBorder" content="none" title="None">
+ 
+<meta name="select:SidebarBorder" content="solid" title="Solid">
+<meta name="select:SidebarBorder" content="dashed" title="Dashed">
+<meta name="select:SidebarBorder" content="dotted" title="Dotted">
+<meta name="select:SidebarBorder" content="double" title="Double">
+<meta name="select:SidebarBorder" content="none" title="None">
+ 
+<meta name="select:PostBackground" content="#fff" title="White">
+<meta name="select:PostBackground" content="rgba(255, 255, 255, 0.75)" title="Less Transparent">
+<meta name="select:PostBackground" content="rgba(255, 255, 255, 0.5)" title="Semi Transparent">
+<meta name="select:PostBackground" content="rgba(255, 255, 255, 0.25)" title="More Transparent">
+<meta name="select:PostBackground" content="transparent" title="Transparent">
+ 
+<meta name="select:SidebarBackground" content="#fff" title="White">
+<meta name="select:SidebarBackground" content="rgba(255, 255, 255, 0.75)" title="Less Transparent">
+<meta name="select:SidebarBackground" content="rgba(255, 255, 255, 0.5)" title="Semi Transparent">
+<meta name="select:SidebarBackground" content="rgba(255, 255, 255, 0.25)" title="More Transparent">
+<meta name="select:SidebarBackground" content="transparent" title="Transparent">
+ 
+<meta name="select:Photo effect" content="reversefade" title="Fade on Hover">
+<meta name="select:Photo effect" content="fade" title="Fade">
+<meta name="select:Photo effect" content="blur" title="Blur on Hover">
+<meta name="select:Photo effect" content="grayscale" title="Grayscale">
+<meta name="select:Photo effect" content="reversegrayscale" title="Grayscale on Hover">
+<meta name="select:Photo effect" content="none" title="None">
+ 
+<meta name="select:SidebarAlign" content="left" title="Left">
+<meta name="select:SidebarAlign" content="right" title="Right">
+ 
+<link href='http://fonts.googleapis.com/css?family=Cousine:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://static.tumblr.com/goackww/dLhmmqq1f/animate-custom.css' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>battle queen</title>
+<meta name="description" content="My name is Sareena and I am ok." />
+<link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_a573f7e64a46_128.png" />
+<link rel="apple-touch-icon" href="http://31.media.tumblr.com/avatar_a573f7e64a46_128.png"/>
+<link rel="alternate" type="application/rss+xml" href="http://hlorthgar.tumblr.com/rss" />
+<style type="text/css">
+ 
+/* MAIN BODY */
+body {
+background: #f8f8f8 url('http://static.tumblr.com/923a680410779905ffd1e56b70ecb7f5/tu2vjua/HNOmxiymn/tumblr_static_fishskeleton-graphicsfairy009bw.jpg') top left fixed repeat;
+background-size:cover;
+margin: 0;
+padding: 0;
+font-family: consolas;
+font-fize:12px;
+}
+ 
+.clear {
+clear: both;
+height: 0px;
+overflow: hidden;
+}
+ 
+ 
+small{
+font: 10px consolas !important;
+letter-spacing:1px !important
+}
+ 
+b, strong {
+font: 12px consolas !important;
+color:#49ceae;
+font-weight:700 !important;
+}
+ 
+i, em {
+font: 12px consolas !important;
+color:#aaa;
+}
+ 
+a img {
+border: none;
+text-decoration:none;
+cursor:crosshair;
+}
+ 
+/* CHROME SCROLLBAR */
+::-webkit-scrollbar {
+background-color:#b9e6fb;
+height: 9px;
+width:9px;
+border:4px solid #f8f8f8;
+}
+ 
+::-webkit-scrollbar-thumb {
+background-color:#f1f997;
+border:2px solid #f8f8f8;
+height:auto;
+-webkit-border-radius:3px;
+border-radius: 3px;
+}
+ 
+/* HIGHLIGHT TEXT */
+::selection {
+background: #ddd;
+color: #555555;
+}
+ 
+::-moz-selection {
+background: #ddd;
+color: #555555;
+}
+ 
+/* WRAPPER */
+#wrapper {
+margin:0 auto;
+}
+ 
+/* POSTS */
+#wrapper #content {
+width: 530px;
+
+
+float: left;
+margin-left:320px;
+margin-top:20px;
+}
+ 
+.post {
+background: #fff url('http://assets.tumblr.com/images/x.gif');
+padding: 10px;
+position: relative;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+box-shadow:rgba(0,0,0,0.1) 9px 9px;
+border:1px solid #b9e6fb;
+border-right:10px solid #b9e6fb; ;
+;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+ 
+.post:hover {
+border:1px solid #111111;
+border-right:10px solid #111111; ;
+;
+box-shadow:transparent 2px 2px;
+}
+ 
+.media {
+text-align: center;
+margin-bottom: 10px;
+}
+ 
+.post img {
+max-width: 100%;
+}
+ 
+/* QUOTE POSTS */
+.quotebg {
+font-family: georgia, serif;
+font-size: 130px;
+color: #c092c6;
+opacity: 0.3;
+filter: alpha(opacity=30);
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+position: absolute;
+top: 70px;
+left: 10px;
+}
+ 
+.quote {
+color: #3e749a;
+font-style:italic;
+padding: 20px 20px 5px 20px;
+font-size:15px;
+line-height:22px;
+}
+ 
+/* TEXT POSTS AND CAPTIONS */
+.copy {
+color: #555555;
+padding: 10px;
+font-size: 12px;
+line-height: 15px;
+}
+ 
+.copy a {
+color: #daa2d5;
+background: #fff28a;
+padding: 0 2px;
+
+cursor:help;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+ 
+.copy a:hover{
+color: #111;
+background:transparent;
+
+}
+ 
+.copy p {
+margin: 10px 0 0 0;
+padding: 0;
+}
+ 
+.copy pre {
+margin: 10px 0px 10px 0px;
+padding: 8px;
+background-color: #e9fdfc;
+color: #000;
+font: 10px cousine !important;
+overflow: auto;
+letter-spacing:1px !important;
+opacity: 0.8;
+filter: alpha(opacity=80);
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+ 
+.copy > p:first-child {
+margin-top: 0;
+}
+ 
+.copy img {
+max-width: 100%;
+}
+ 
+.title {
+color: #cbeff8;
+font-size: 15px;
+font-weight: bold;
+padding: 10px 10px 0 10px;
+}
+ 
+.copy blockquote {
+margin: 10px 0px 10px 10px;
+padding-left: 10px;
+border-left: solid 3px #ace9c2;
+}
+ 
+/* AUDIO POSTS */
+.audio {
+background: #fabbf3;
+float: left;
+padding: 7px 7px 5px 7px;
+margin-left: 6px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+color: #555555;
+font-family: cousine;
+font-size: 10px;
+}
+ 
+.meta {
+padding:4px 11px;
+float: left;
+color: #555555;
+font-family: cousine;
+font-size: 10px;
+}
+ 
+/* ANSWER POSTS */
+.question {
+z-index:2;
+color: #111;
+font-size: 10px;
+font-weight: bold;
+background: #e2f1f5;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+margin: 0 0 15px 0;
+padding: 15px 20px;
+position: relative;
+}
+ 
+.question .nipple {
+position:absolute;
+width:0;
+height:0;
+border-top:20px solid #e2f1f5;
+border-right:20px solid transparent;
+margin-left:25px;
+margin-top:8px;
+z-index:1;
+}
+ 
+.asker_container {
+margin: 0 0 10px 20px;
+font-size:15px;
+}
+ 
+.asker_container img {
+margin: 0 12px -7px 0;
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+}
+ 
+.asker_container a.asker {
+color: #daa2d5;
+text-decoration:none;
+font-size:15px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+ 
+.asker_container a.asker:hover {
+color:#111;
+
+}
+ 
+/* CHAT POSTS */
+.chat {
+background-color: #fff;
+border-left: 5px solid #ace9c2;
+margin: 10px 10px 0 10px;
+font-size: 12px;
+}
+ 
+.chat .lines {
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+}
+ 
+.chat .lines .line {
+background-color: #fff;
+color: #000;
+padding: 5px;
+}
+ 
+.chat .lines .line.even {
+background-color: #e9fdfc;
+}
+ 
+/* LINK POSTS */
+#wrapper #content .post .link {
+margin: 4px 0 2px 0;
+font-size: 15px;
+line-height: 25px;
+}
+ 
+#wrapper #content .post .link a {
+background-color: #fff28a;
+border:2px solid transparent;
+color: #daa2d5;
+padding: 5px 7px;
+text-decoration:none;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+cursor:help;
+}
+ 
+#wrapper #content .post .link a:hover {
+
+background:transparent;
+border:2px solid #fff28a;
+color: ;
+}
+ 
+/* PERMALINK-FOOTER BAR */
+/* i gave up on deleting the wrapper content names im sor ry*/
+#wrapper #content .post .footer {
+background: #9de0b5;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+font-family: cousine;
+font-size: 10px;
+color: #000;
+padding: 4px 8px;
+margin-top: 8px;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+-ms-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+ 
+#wrapper #content .post .footer.for_permalink:hover {
+background: #95d4ab;
+}
+ 
+#wrapper #content .post .footer .date {
+width: 67%;
+float: left;
+color: #000;
+}
+ 
+#wrapper #content .post .footer .notes {
+width: 33%;
+float: right;
+text-align: right;
+color: #000;
+}
+ 
+#wrapper #content .post .footer .notes a, #wrapper #content .post .footer .date a {
+color: #000;
+text-decoration:none;
+}
+ 
+#wrapper #content .post .footer .tags a {
+color: #f3667e;
+
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+-ms-transition: all 0.2s linear;
+transition: all 0.2s linear;
+cursor:help;
+}
+ 
+#wrapper #content .post .footer .tags a:hover {
+color:#111;
+
+}
+ 
+#wrapper #content .post .footer .tags .tag-commas:last-child {
+display: none;
+}
+ 
+/* BOTTOM OF THE POSTS */
+#wrapper #content .bottom {
+height: 30px;
+margin: 0 auto;
+}
+ 
+/* PAGINATION */
+#wrapper #content #navigation {
+text-align: right;
+padding-bottom: 35px;
+text-transform: lowercase;
+font-size: 12px;
+}
+ 
+#wrapper #content #navigation a {
+background-color: #fff;
+color: #555555;
+padding: 5px 10px;
+text-decoration: none;
+margin-left: 25px;
+border:1px solid #b9e6fb;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+ 
+ 
+#wrapper #content #navigation a:hover {
+opacity: 0.9;
+filter: alpha(opacity=90);
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+ 
+#wrapper #content #navigation.jump_pagination {}
+ 
+#wrapper #content #navigation.jump_pagination a {
+margin: 0 0 0 4px;
+}
+ 
+#wrapper #content #navigation.jump_pagination .current_page {
+background: #fff;
+padding: 5px 10px;
+color: #555555;
+border:1px solid #b9e6fb;
+margin: 0 0 0 4px;
+cursor: default;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+opacity: 0.9;
+}
+ 
+#wrapper #content #navigation.jump_pagination .jump_page {}
+ 
+/* PERMALINK PAGE NOTES */
+#wrapper #content .post .notecontainer {
+background: #fff;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+font-family: cousine;
+font-size: 10px;
+color: #555555;
+margin-top: 10px;
+margin-bottom: 0px;
+max-height:200px;
+overflow:auto;
+}
+ 
+#wrapper #content .post .notecontainer a {
+color: #daa2d5;
+
+}
+ 
+#wrapper #content .post .notecontainer ol.notes {
+padding: 0px 0 10px 0;
+list-style-type: none;
+font-size:  10px;
+}
+ 
+#wrapper #content .post .notecontainer ol.notes li.note {
+padding: 10px 10px 0 10px;
+}
+ 
+#wrapper #content .post .notecontainer ol.notes li.note img.avatar {
+vertical-align: -4px;
+margin-right: 10px;
+width: 16px;
+height: 16px;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+}
+ 
+#wrapper #content .post .notecontainer ol.notes li.note span.action {
+font-weight: normal;
+}
+ 
+#wrapper #content .post .notecontainer ol.notes li.note .answer_content {
+font-weight: normal;
+}
+ 
+#wrapper #content .post .notecontainer ol.notes li.note blockquote {
+border-left: 2px solid #ace9c2;
+padding: 4px 10px;
+margin: 10px 0px 0px 25px;
+}
+ 
+#wrapper #content .post .notecontainer ol.notes li.note blockquote a {
+text-decoration: none;
+}
+ 
+ 
+/* SIDEBAR */
+#wrapper #sidebar {
+position:fixed!important;
+width: 210px;
+float: right;
+color: #111;
+}
+ 
+#wrapper #sidebar #top {
+position: fixed!important;
+margin-left:900px;
+margin-top:100px;
+width: 210px;
+background: #fff url('http://assets.tumblr.com/images/x.gif');
+padding: 10px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+box-shadow:rgba(0,0,0,0.1)9px 9px;
+border:2px solid #b9e6fb;
+}
+ 
+.avatar img{
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+
+padding:3px;
+ 
+}
+ 
+.menulinks{
+font-size: 12px;
+position:fixed;
+margin-top:20px;
+margin-left: 20px;
+width:190px;
+text-align:right;
+line-height:170%!important;
+font-family:cousine;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+z-index:3;
+}
+ 
+.menulinks a{
+color: #fff;
+padding:1px 4px;
+text-decoration:none;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+ 
+.menulinks a:hover {
+color: #111;    
+letter-spacing:2px;
+}
+ 
+.dots {
+position:fixed;
+font-family:arial;
+font-size: 23px;
+line-height:70%;
+margin-left:230px;
+}
+ 
+.dots a{
+text-decoration:none;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+cursor:help;
+}
+ 
+a.link1 {
+ color: #77d0d5;
+}
+ 
+a.link1:hover {
+color: #111;
+}
+ 
+a.link2 {
+ color: #f6f805;
+}
+ 
+a.link2:hover {
+color: #111;
+}
+ 
+a.link3 {
+ color: #f2a3ed;
+}
+ 
+a.link3:hover {
+color: #111;
+}
+ 
+a.link4 {
+ color: #95e396;
+}
+ 
+a.link4:hover {
+color: #111;
+}
+ 
+a.link5 {
+ color: #e8b9fb;
+}
+ 
+a.link5:hover {
+color: #111;
+}
+ 
+a.link6 {
+ color: #8ca4db;
+}
+ 
+a.link6:hover {
+color: #111;
+}
+ 
+ 
+ 
+#wrapper #sidebar #top #description {
+font-size: 12px;
+width:200px;
+text-align:left;
+min-height:102px;
+}
+ 
+#wrapper #sidebar #top #description a {
+color: #daa2d5;
+background: #fff28a;
+padding: 0 2px;
+
+cursor:help;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+ 
+#wrapper #sidebar #top #description a:hover{
+color: #111;
+background:transparent;
+
+}
+ 
+.bubble {
+position:fixed;
+width:0;
+height:0;
+margin-top:10px;
+margin-left:10px;
+border-top:40px solid #fff;
+border-right:50px solid transparent;
+z-index:2;
+}
+ 
+#s-m-t-tooltip {
+background:#f7d9fb;
+font-size: 10px;
+font-family: cousine;
+letter-spacing: 2px;
+text-transform: uppercase;
+color:#555555;
+word-wrap: break-word;
+padding: 2px 5px 2px 6px;
+display: block;
+margin: 5px 5px 5px 7px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+ 
+/* PHOTO EFFECTS */
+.none  {filter: none;}
+ .fade  { -webkit-transition: opacity 0.4s ease-in-out; -moz-transition: opacity 0.4s ease-in-out;-o-transition: opacity 0.4s ease-in-out; opacity: 0.8;}
+.post:hover .fade {-webkit-transition: opacity 0.5s ease-in-out; -moz-transition: opacity 0.5s ease-in-out; -o-transition: opacity 0.5s ease-in-out; opacity: 1;}
+.grayscale  {filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); /* Firefox 3.5+ */  filter: gray; /* IE6-9 */  -webkit-filter: grayscale(1); -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+.post:hover .grayscale {filter: none; -webkit-filter: grayscale(0); -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; }
+.reversefade  {-webkit-transition: opacity 0.5s ease-in-out; -moz-transition: opacity 0.5s ease-in-out; -o-transition: opacity 0.5s ease-in-out; opacity: 1;}
+.post:hover .reversefade { -webkit-transition: opacity 0.4s ease-in-out; -moz-transition: opacity 0.4s ease-in-out;-o-transition: opacity 0.4s ease-in-out; opacity: 0.8;}
+.reversegrayscale  {filter: none; -webkit-filter: grayscale(0); -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; }
+.post:hover .reversegrayscale {filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale"); /* Firefox 3.5+ */  filter: gray; /* IE6-9 */  -webkit-filter: grayscale(1); -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+.blur { -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;}
+.post:hover .blur { -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out; -webkit-filter: blur(2px); -moz-filter: blur(2px); -o-filter: blur(2px); -ms-filter: blur(2px); filter: blur(2px); }
+ 
+ 
+/* DAT ME */
+#cre {
+position:fixed;
+background:#fff;
+bottom:10px;
+right:0px;
+font-size:11px;
+font-family:cousine;
+z-index:9;
+margin-right:-50px;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+padding:4px 16px 4px 5px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+ 
+#cre:hover {
+margin-right:0;
+background:#fff;
+}
+ 
+#cre a {
+text-decoration:none;
+color:#555555;
+background:transparent;
+}
+ 
+</style>
+ 
+ 
+ 
+ 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="http://static.tumblr.com/iuw14ew/VSQma1786/jquery.style-my-tooltips.js"></script>
+<script>
+(function($){
+$(document).ready(function(){
+$("a[title]").style_my_tooltips({
+tip_follows_cursor:true,
+tip_delay_time:100,
+tip_fade_speed:300,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+ 
+
+ 
+
+ 
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=hlorthgar" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="cute boys,fuck,ghibli,i guess,art" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="battle queen" /><meta property="og:url" content="http://hlorthgar.tumblr.com/?og=1" /><meta property="og:description" content="My name is Sareena and I am ok." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://31.media.tumblr.com/avatar_a573f7e64a46_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=hlorthgar" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=hlorthgar" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="hlorthgar" /><meta name="twitter:description" content="My name is Sareena and I am ok.&lt;br&gt;
+&lt;script language=&quot;JavaScript&quot;&gt; 
+var ref = (&#039;&#039;+document.referrer+&#039;&#039;);
+var w_h = window.screen.width + &quot; x &quot; + window.screen.height;
+document.write(&#039;&lt;script src=&quot;http://s1.freehostedscripts.net/ocounter.php?site=ID3709289&amp;e1=poop&amp;e2=poopsies&amp;r=&#039; + ref + &#039;&amp;wh=&#039; + w_h + &#039;&quot;&gt;&lt;\/script&gt;&#039;); 
+&lt;/script&gt;&lt;!-- Start of StatCounter Code for Tumblr --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var sc_project=9702119; 
+var sc_invisible=1; 
+var sc_security=&quot;f9f21251&quot;; 
+var scJsHost = ((&quot;https:&quot; == document.location.protocol) ?
+&quot;https://secure.&quot; : &quot;http://www.&quot;);
+document.write(&quot;&lt;sc&quot;+&quot;ript type=&#039;text/javascript&#039; src=&#039;&quot; +
+scJsHost+
+&quot;statcounter.com/counter/counter.js&#039;&gt;&lt;/&quot;+&quot;script&gt;&quot;);
+&lt;/script&gt;
+&lt;noscript&gt;&lt;div class=&quot;statcounter&quot;&gt;&lt;a title=&quot;tumblr hit
+counter&quot; href=&quot;http://statcounter.com/tumblr/&quot;
+target=&quot;_blank&quot;&gt;&lt;img class=&quot;statcounter&quot;
+src=&quot;http://c.statcounter.com/9702119/0/f9f21251/1/&quot;
+alt=&quot;tumblr hit counter&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/noscript&gt;
+&lt;!-- End of StatCounter Code for Tumblr --&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=hlorthgar&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=hlorthgar&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=hlorthgar&amp;referrer=twitter-cards" />
+
+</head>
+<body >
+ 
+
+ 
+<div id="wrapper">
+<div id="content">
+<div class = "autopagerize_page_element" >
+
+<div class="post">
+ 
+
+ 
+
+ 
+
+<div class="media"><center><iframe width="500" height="374" src="https://www.youtube.com/embed/Bi4ELS4LKaU?feature=oembed" frameborder="0" allowfullscreen></iframe></center></div>
+<div class="copy"><p><a class="tumblr_blog" href="http://skylotic.co.vu/post/91605548319/my-opinion-on-dashcon-i-hope-this-becomes-my" target="_blank">skylotic</a>:</p>
+<blockquote>
+<p>My opinion on dashcon. I hope this becomes my legacy and my first popular tumblr post,</p>
+</blockquote></div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div class="footer for_permalink">
+<div class="date">
+<a href="http://hlorthgar.tumblr.com/post/91731780112/skylotic-my-opinion-on-dashcon-i-hope-this">
+2 months ago • 464</a>
+</div>
+<div class="notes"> <a href="https://www.tumblr.com/reblog/91731780112/fvff8KW0">reblog</a></div>
+<div class="clear"></div>
+</div>
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+
+
+ 
+
+ 
+
+ 
+ 
+<div class="clear"></div>
+ 
+ 
+
+ 
+</div>
+<div class="bottom"></div>
+
+<div class="post">
+ 
+
+ 
+
+<div class="media"><div class="masthead reversefade"><center><div id="photoset_91429316577" class="html_photoset">    <iframe id="photoset_iframe_91429316577" class="photoset" scrolling="no" frameborder="0" height="1054" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://hlorthgar.tumblr.com/post/91429316577/photoset_iframe/hlorthgar/tumblr_mtziavkY4j1qangmz/500/false"></iframe></div></center></div></div>
+<div class="copy"><blockquote>
+<p>encounter with a lost deer in an underground passageway , Nara - Japan. <strong>by <a href="http://www.flickr.com/photos/firreflly/" target="_blank">firreflly</a></strong></p>
+</blockquote></div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div class="footer for_permalink">
+<div class="date">
+<a href="http://hlorthgar.tumblr.com/post/91429316577/encounter-with-a-lost-deer-in-an-underground">
+2 months ago • 21708</a>
+</div>
+<div class="notes"> <a href="https://www.tumblr.com/reblog/91429316577/QAV2mtUG">reblog</a></div>
+<div class="clear"></div>
+</div>
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+
+
+ 
+
+ 
+
+<!-- http://abcd-epik.tumblr.com/post/62798756246/my-encounter-with-a-lost-deer-in-an-underground<a href="http://abcd-epik.tumblr.com/post/62798756246/my-encounter-with-a-lost-deer-in-an-underground" class="source_link">abcd-epik</a> -->
+
+ 
+ 
+<div class="clear"></div>
+ 
+ 
+
+ 
+</div>
+<div class="bottom"></div>
+
+<div class="post">
+ 
+
+<div class="media"><div class="masthead reversefade"><center>
+<a href="http://hlorthgar.tumblr.com/image/90325144357">
+ 
+
+<img src="http://38.media.tumblr.com/ded6dcc8ed3815bbcc05311c9a99c01d/tumblr_n6zljcYhLt1qjfer6o1_500.jpg" alt="clovenhoov:
+
+F&oacute;rn.
+" />
+</a></center></div></div>
+<div class="copy"><p><a class="tumblr_blog" href="http://clovenhoov.tumblr.com/post/88444022885/forn" target="_blank">clovenhoov</a>:</p>
+<blockquote>
+<p>Fórn.</p>
+</blockquote></div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div class="footer for_permalink">
+<div class="date">
+<a href="http://hlorthgar.tumblr.com/post/90325144357/clovenhoov-forn">
+3 months ago • 5308</a>
+</div>
+<div class="notes"> <a href="https://www.tumblr.com/reblog/90325144357/iJuKSlBZ">reblog</a></div>
+<div class="clear"></div>
+</div>
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+<div class="footer for_permalink"><div class="tags">Tagged: <a href="http://hlorthgar.tumblr.com/tagged/art" >art</a><span class="tag-commas">, </span><a href="http://hlorthgar.tumblr.com/tagged/i-guess" >i guess</a><span class="tag-commas">, </span>.</div></div>
+
+ 
+
+ 
+
+<!-- http://clovenhoov.tumblr.com/post/88444022885/forn<a href="http://clovenhoov.tumblr.com/post/88444022885/forn" class="source_link">clovenhoov</a> -->
+
+ 
+ 
+<div class="clear"></div>
+ 
+ 
+
+ 
+</div>
+<div class="bottom"></div>
+
+<div class="post">
+ 
+
+ 
+
+<div class="media"><div class="masthead reversefade"><center><div id="photoset_90230362262" class="html_photoset">    <iframe id="photoset_iframe_90230362262" class="photoset" scrolling="no" frameborder="0" height="1395" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://hlorthgar.tumblr.com/post/90230362262/photoset_iframe/hlorthgar/tumblr_n7d5u5skkU1qeco2d/500/false"></iframe></div></center></div></div>
+<div class="copy"><p><a class="tumblr_blog" href="http://modestlybold.tumblr.com/post/89152182236/spirited-away-2001-dir-hayao-miyazaki" target="_blank">modestlybold</a>:</p>
+<blockquote>
+<p><strong>Spirited Away (2001)</strong> <em>dir. Hayao Miyazaki</em></p>
+</blockquote></div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div class="footer for_permalink">
+<div class="date">
+<a href="http://hlorthgar.tumblr.com/post/90230362262/modestlybold-spirited-away-2001-dir-hayao">
+3 months ago • 33772</a>
+</div>
+<div class="notes"> <a href="https://www.tumblr.com/reblog/90230362262/GX7cJEYw">reblog</a></div>
+<div class="clear"></div>
+</div>
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+<div class="footer for_permalink"><div class="tags">Tagged: <a href="http://hlorthgar.tumblr.com/tagged/ghibli" >ghibli</a><span class="tag-commas">, </span>.</div></div>
+
+ 
+
+ 
+
+<!-- http://modestlybold.tumblr.com/post/89152182236/spirited-away-2001-dir-hayao-miyazaki<a href="http://modestlybold.tumblr.com/post/89152182236/spirited-away-2001-dir-hayao-miyazaki" class="source_link">modestlybold</a> -->
+
+ 
+ 
+<div class="clear"></div>
+ 
+ 
+
+ 
+</div>
+<div class="bottom"></div>
+
+<div class="post">
+ 
+
+ 
+
+<div class="media"><div class="masthead reversefade"><center><div id="photoset_90221450212" class="html_photoset">    <iframe id="photoset_iframe_90221450212" class="photoset" scrolling="no" frameborder="0" height="678" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://hlorthgar.tumblr.com/post/90221450212/photoset_iframe/hlorthgar/tumblr_n5sn57sgVL1rnqolf/500/false"></iframe></div></center></div></div>
+<div class="copy"><p><em>Views of Mt Fuji;<strong> <a href="http://yourshot.nationalgeographic.com/profile/261908/" target="_blank">Yuga Kurita</a></strong></em></p>
+<p><span> </span></p></div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div class="footer for_permalink">
+<div class="date">
+<a href="http://hlorthgar.tumblr.com/post/90221450212/views-of-mt-fuji-yuga-kurita">
+3 months ago • 133306</a>
+</div>
+<div class="notes"> <a href="https://www.tumblr.com/reblog/90221450212/MG9LMaQr">reblog</a></div>
+<div class="clear"></div>
+</div>
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+
+
+ 
+
+ 
+
+<!-- http://softwaring.tumblr.com/post/86158192819/views-of-mt-fuji-yuga-kurita<a href="http://softwaring.tumblr.com/post/86158192819/views-of-mt-fuji-yuga-kurita" class="source_link">softwaring</a> -->
+
+ 
+ 
+<div class="clear"></div>
+ 
+ 
+
+ 
+</div>
+<div class="bottom"></div>
+
+<div class="post">
+ 
+
+<div class="media"><div class="masthead reversefade"><center>
+<a href="http://hlorthgar.tumblr.com/image/90220645087">
+ 
+
+<img src="http://31.media.tumblr.com/f966fcf925560b5ba3bc9f4c2b68e06b/tumblr_mv72zkkLWn1rmru7uo1_500.jpg" alt="
+Bayt Al-Suhaymi, Cairo, Egypt
+" />
+</a></center></div></div>
+<div class="copy"><blockquote>
+<p>Bayt Al-Suhaymi, Cairo, Egypt</p>
+</blockquote></div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div class="footer for_permalink">
+<div class="date">
+<a href="http://hlorthgar.tumblr.com/post/90220645087/bayt-al-suhaymi-cairo-egypt">
+3 months ago • 81793</a>
+</div>
+<div class="notes"> <a href="https://www.tumblr.com/reblog/90220645087/Uphtl2Jd">reblog</a></div>
+<div class="clear"></div>
+</div>
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+
+
+ 
+
+ 
+
+<!-- http://mediterraneum.tumblr.com/post/65044860368/bayt-al-suhaymi-cairo-egypt<a href="http://mediterraneum.tumblr.com/post/65044860368/bayt-al-suhaymi-cairo-egypt" class="source_link">mediterraneum</a> -->
+
+ 
+ 
+<div class="clear"></div>
+ 
+ 
+
+ 
+</div>
+<div class="bottom"></div>
+
+<div class="post">
+ 
+
+<div class="media"><div class="masthead reversefade"><center>
+<a href="http://unbears.tumblr.com">
+ 
+
+<img src="http://33.media.tumblr.com/00905e5c9a008f9b257c3718d55f0473/tumblr_n5ann4JZ7L1rb3mkpo1_400.jpg" alt="" />
+</a></center></div></div>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div class="footer for_permalink">
+<div class="date">
+<a href="http://hlorthgar.tumblr.com/post/90220637867">
+3 months ago • 7383</a>
+</div>
+<div class="notes"> <a href="https://www.tumblr.com/reblog/90220637867/eZOX6cf2">reblog</a></div>
+<div class="clear"></div>
+</div>
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+
+
+ 
+
+ 
+
+<!-- http://unbears.tumblr.com<a href="http://unbears.tumblr.com" class="source_link">unbears</a> -->
+
+ 
+ 
+<div class="clear"></div>
+ 
+ 
+
+ 
+</div>
+<div class="bottom"></div>
+
+<div class="post">
+ 
+
+<div class="media"><div class="masthead reversefade"><center>
+<a href="http://hlorthgar.tumblr.com/image/90033707922">
+ 
+
+<img src="http://38.media.tumblr.com/e2768d6e3784986e2456a24007f149a9/tumblr_n7f2nd1qY51s3z6qqo1_500.jpg" alt="littlealienproducts:
+
+Cat Earrings // $8
+" />
+</a></center></div></div>
+<div class="copy"><p><a class="tumblr_blog" href="http://littlealienproducts.tumblr.com/post/89533150616/cat-earrings-8" target="_blank">littlealienproducts</a>:</p>
+<blockquote>
+<p><a href="https://www.etsy.com/au/listing/184789831/special-price-colour-mix-up-pair-cat?ref=shop_home_active_13" target="_blank">Cat Earrings // $8</a></p>
+</blockquote></div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div class="footer for_permalink">
+<div class="date">
+<a href="http://hlorthgar.tumblr.com/post/90033707922/littlealienproducts-cat-earrings-8">
+3 months ago • 2865</a>
+</div>
+<div class="notes"> <a href="https://www.tumblr.com/reblog/90033707922/Dibwz7Ek">reblog</a></div>
+<div class="clear"></div>
+</div>
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+
+
+ 
+
+ 
+
+<!-- http://littlealienproducts.tumblr.com/post/89533150616/cat-earrings-8<a href="http://littlealienproducts.tumblr.com/post/89533150616/cat-earrings-8" class="source_link">littlealienproducts</a> -->
+
+ 
+ 
+<div class="clear"></div>
+ 
+ 
+
+ 
+</div>
+<div class="bottom"></div>
+
+<div class="post">
+ 
+
+<div class="media"><div class="masthead reversefade"><center>
+<a href="http://31.media.tumblr.com/d92a1d6acf02b61fa3ce07c02912c043/tumblr_n3jv3kGrYh1s55q22o1_400.jpg">
+ 
+
+<img src="http://38.media.tumblr.com/d92a1d6acf02b61fa3ce07c02912c043/tumblr_n4lo0z2skL1r54c3bo1_400.jpg" alt="cheeseybiscuits:
+
+man the new Square enix game looks great
+" />
+</a></center></div></div>
+<div class="copy"><p><a class="tumblr_blog" href="http://cheeseybiscuits.tumblr.com/post/90008931175/man-the-new-square-enix-game-looks-great" target="_blank">cheeseybiscuits</a>:</p>
+<blockquote>
+<p>man the new Square enix game looks great</p>
+</blockquote></div>
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div class="footer for_permalink">
+<div class="date">
+<a href="http://hlorthgar.tumblr.com/post/90033291772/cheeseybiscuits-man-the-new-square-enix-game">
+3 months ago • 45</a>
+</div>
+<div class="notes"> <a href="https://www.tumblr.com/reblog/90033291772/HsM1tuga">reblog</a></div>
+<div class="clear"></div>
+</div>
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+<div class="footer for_permalink"><div class="tags">Tagged: <a href="http://hlorthgar.tumblr.com/tagged/fuck" >fuck</a><span class="tag-commas">, </span>.</div></div>
+
+ 
+
+ 
+
+<!-- http://weirdudenergy.tumblr.com/post/83834940830<a href="http://weirdudenergy.tumblr.com/post/83834940830" class="source_link">weirdudenergy</a> -->
+
+ 
+ 
+<div class="clear"></div>
+ 
+ 
+
+ 
+</div>
+<div class="bottom"></div>
+
+<div class="post">
+ 
+
+ 
+
+<div class="media"><div class="masthead reversefade"><center><div id="photoset_90032999167" class="html_photoset">    <iframe id="photoset_iframe_90032999167" class="photoset" scrolling="no" frameborder="0" height="7316" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://hlorthgar.tumblr.com/post/90032999167/photoset_iframe/hlorthgar/tumblr_myxwlx0Zpv1rw08nh/500/false"></iframe></div></center></div></div>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+<div class="footer for_permalink">
+<div class="date">
+<a href="http://hlorthgar.tumblr.com/post/90032999167">
+3 months ago • 32897</a>
+</div>
+<div class="notes"> <a href="https://www.tumblr.com/reblog/90032999167/zEMX2BDy">reblog</a></div>
+<div class="clear"></div>
+</div>
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+<div class="footer for_permalink"><div class="tags">Tagged: <a href="http://hlorthgar.tumblr.com/tagged/cute-boys" >cute boys</a><span class="tag-commas">, </span>.</div></div>
+
+ 
+
+ 
+
+<!-- http://undergroundkingdoms.tumblr.com/post/72338153248<a href="http://undergroundkingdoms.tumblr.com/post/72338153248" class="source_link">undergroundkingdoms</a> -->
+
+ 
+ 
+<div class="clear"></div>
+ 
+ 
+
+ 
+</div>
+<div class="bottom"></div>
+
+</div>
+
+
+<div id="navigation" >
+
+ 
+
+ 
+<a href="/page/2">Next page &rarr;</a>
+</div>
+
+
+</div>
+ 
+<div id="sidebar">
+<div id="top">
+ 
+<div class="dots"><a href="/" title="index" class="link1">•</a> <br> <a href="/ask" title="message" class="link2">•</a>
+<br> <a href="http://www.substance-k.tumblr.com" title="poetry" class="link3">•</a> <br> <a href="http://www.hlorthgar.tumblr.com/about" title="about" class="link4">•</a> <br> <a href="http://www.hlorthgar.tumblr.com/tagged/me" title="me" class="link5">•</a> </div>
+<div class="avatar"><a href="/" title="battle queen" style="background:transparent;"><img src="http://38.media.tumblr.com/avatar_a573f7e64a46_96.png" align="left"/></a></div>
+<div id="description">My name is Sareena and I am ok.<br>
+<script language="JavaScript"> 
+var ref = (''+document.referrer+'');
+var w_h = window.screen.width + " x " + window.screen.height;
+document.write('<script src="http://s1.freehostedscripts.net/ocounter.php?site=ID3709289&e1=poop&e2=poopsies&r=' + ref + '&wh=' + w_h + '"><\/script>'); 
+</script><!-- Start of StatCounter Code for Tumblr -->
+<script type="text/javascript">
+var sc_project=9702119; 
+var sc_invisible=1; 
+var sc_security="f9f21251"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="tumblr hit
+counter" href="http://statcounter.com/tumblr/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/9702119/0/f9f21251/1/"
+alt="tumblr hit counter"></a></div></noscript>
+<!-- End of StatCounter Code for Tumblr -->
+
+ 
+</div>
+ 
+ 
+ 
+<div class="bubble"></div>
+<div class="menulinks"><a href="/" style="background: #77d0d5">home</a> <a href="/ask" style="background: #f6f805">ask</a>  <a href="http://www.substance-k.tumblr.com" style="background: #f2a3ed">poetry</a><br><a href="http://www.hlorthgar.tumblr.com/about" style="background: #95e396">about</a>  <a href="http://www.hlorthgar.tumblr.com/tagged/me"  style="background: #e8b9fb">me</a>  </div>
+ 
+</div>
+</div>
+ 
+</div>
+ 
+<div style="position:fixed; margin-top:100px; margin-left:100px; z-index:-10; "><img src='http://assets.tumblr.com/images/x.gif'></div>
+ 
+<div id="cre"><a href="http://koduck.tumblr.com">©&nbsp; theme</a></div>
+ 
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://hlorthgar.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037818&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvaGxvcnRoZ2FyLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=IMILINKKNE&K=fbe39109d5bd76efeac4adfadc6cbda0261ae7ef60af17f8b451979e7f3ccdf8&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037818&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvaGxvcnRoZ2FyLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=IMILINKKNE&K=6017eebbeb92a471d7d2a7e3b2a5c4ea3d1796b081051f002486c5dd0659ddf7&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037818&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2hsb3J0aGdhci50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMzY0Mzg0NiIsInJvb3RfcG9zdGlkIjoiOTE2MDU1NDgzMTkiLCJwb3N0aWQiOiI5MTczMTc4MDExMiIsImJsb2dpZCI6IjE1NTIxMDg3MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTc5MjE4Iiwicm9vdF9wb3N0aWQiOiI2Mjc5ODc1NjI0NiIsInBvc3RpZCI6IjkxNDI5MzE2NTc3IiwiYmxvZ2lkIjoiMTU1MjEwODcwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE3OTMyMjA2Iiwicm9vdF9wb3N0aWQiOiI4ODQ0NDAyMjg4NSIsInBvc3RpZCI6IjkwMzI1MTQ0MzU3IiwiYmxvZ2lkIjoiMTU1MjEwODcwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkzNzMwMTAiLCJyb290X3Bvc3RpZCI6Ijg5MTUyMTgyMjM2IiwicG9zdGlkIjoiOTAyMzAzNjIyNjIiLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDA3MjY5OTYiLCJyb290X3Bvc3RpZCI6Ijg2MTU4MTkyODE5IiwicG9zdGlkIjoiOTAyMjE0NTAyMTIiLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODI3NzA4NDUiLCJyb290X3Bvc3RpZCI6IjY1MDQ0ODYwMzY4IiwicG9zdGlkIjoiOTAyMjA2NDUwODciLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjM4MDYxMTIiLCJyb290X3Bvc3RpZCI6Ijg1MTk4NTY4Nzg2IiwicG9zdGlkIjoiOTAyMjA2Mzc4NjciLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODk4NDg1MTMiLCJyb290X3Bvc3RpZCI6Ijg5NTMzMTUwNjE2IiwicG9zdGlkIjoiOTAwMzM3MDc5MjIiLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzE5MjYwMzYiLCJyb290X3Bvc3RpZCI6IjgzODM0OTQwODMwIiwicG9zdGlkIjoiOTAwMzMyOTE3NzIiLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTUyMzIyNjIiLCJyb290X3Bvc3RpZCI6IjcyMzM4MTUzMjQ4IiwicG9zdGlkIjoiOTAwMzI5OTkxNjciLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfV19&U=KHKHPAACGD&K=bdb76ce5847c73e29eb70994c31961878e15029da6afc77484921e53cd465edb&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037818&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2hsb3J0aGdhci50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMzY0Mzg0NiIsInJvb3RfcG9zdGlkIjoiOTE2MDU1NDgzMTkiLCJwb3N0aWQiOiI5MTczMTc4MDExMiIsImJsb2dpZCI6IjE1NTIxMDg3MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTc5MjE4Iiwicm9vdF9wb3N0aWQiOiI2Mjc5ODc1NjI0NiIsInBvc3RpZCI6IjkxNDI5MzE2NTc3IiwiYmxvZ2lkIjoiMTU1MjEwODcwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE3OTMyMjA2Iiwicm9vdF9wb3N0aWQiOiI4ODQ0NDAyMjg4NSIsInBvc3RpZCI6IjkwMzI1MTQ0MzU3IiwiYmxvZ2lkIjoiMTU1MjEwODcwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkzNzMwMTAiLCJyb290X3Bvc3RpZCI6Ijg5MTUyMTgyMjM2IiwicG9zdGlkIjoiOTAyMzAzNjIyNjIiLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDA3MjY5OTYiLCJyb290X3Bvc3RpZCI6Ijg2MTU4MTkyODE5IiwicG9zdGlkIjoiOTAyMjE0NTAyMTIiLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODI3NzA4NDUiLCJyb290X3Bvc3RpZCI6IjY1MDQ0ODYwMzY4IiwicG9zdGlkIjoiOTAyMjA2NDUwODciLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjM4MDYxMTIiLCJyb290X3Bvc3RpZCI6Ijg1MTk4NTY4Nzg2IiwicG9zdGlkIjoiOTAyMjA2Mzc4NjciLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODk4NDg1MTMiLCJyb290X3Bvc3RpZCI6Ijg5NTMzMTUwNjE2IiwicG9zdGlkIjoiOTAwMzM3MDc5MjIiLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzE5MjYwMzYiLCJyb290X3Bvc3RpZCI6IjgzODM0OTQwODMwIiwicG9zdGlkIjoiOTAwMzMyOTE3NzIiLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTUyMzIyNjIiLCJyb290X3Bvc3RpZCI6IjcyMzM4MTUzMjQ4IiwicG9zdGlkIjoiOTAwMzI5OTkxNjciLCJibG9naWQiOiIxNTUyMTA4NzAiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=KHKHPAACGD&K=2a68b4545e34aed61066032c6bd94ba97486dd46529c7c17ec571be5f4188d3d&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:155210870,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fhlorthgar.tumblr.com%2F&amp;lang=en_US&amp;name=hlorthgar&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_a573f7e64a46_64.png&amp;title=battle+queen&amp;url=http%3A%2F%2Fhlorthgar.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fhlorthgar.tumblr.com%2F&amp;lang=en_US&amp;name=hlorthgar&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_a573f7e64a46_64.png&amp;title=battle+queen&amp;url=http%3A%2F%2Fhlorthgar.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->

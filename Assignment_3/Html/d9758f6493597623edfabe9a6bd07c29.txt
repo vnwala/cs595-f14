@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to Celebrity Headliners</title>
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="cufon/cufon-yui.js"></script>
+	<script type="text/javascript" src="cufon/titillium-text.cufonfonts.js"></script>
+<script type="text/javascript">
+		Cufon.replace('.left , .numb , a',{ fontFamily: 'TitilliumText22L-Regular', hover: true }); 
+		Cufon.replace('.title',{ fontFamily: 'TitilliumText22L-Bold', hover: true });
+	</script>
+</head>
+
+<body>
+	<div id="main">
+    	<div class="boxmain">
+        	<div class="logo"><img src="images/main_logo.png" width="591" height="227" /></div>
+            <div class="sticker"><img src="images/comingsoon_sticker.png" width="159" height="161" /></div>
+          <div class="content">
+            	<div class="left">
+                	<p>2019 N. Lamar St </p>
+					<p>Suite 220-3</p>
+					<p>Dallas, TX 75202</p>
+                </div>
+            <div class="right">
+                	<div class="phone">
+                   	  <div class="phone1">
+                        	<div class="title">Phone :</div>
+                            <div class="numb"> 214-329-1765</div>
+                        </div>
+                        <div class="fax">
+                        	<div class="title">Fax :</div>
+                            <div class="numb"> 214-594-5812</div>
+                        </div>
+               	</div>
+              <div class="email">
+                    	<div class="title">Email:</div>
+                        <div class="text"><a href="mailto:info@celebrityheadliners.com">info@celebrityheadliners.com</a></div>
+                    </div>
+                    
+            </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

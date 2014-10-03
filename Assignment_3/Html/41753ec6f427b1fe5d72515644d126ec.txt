@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>B2B Gospel Radio France</title>
+<meta name="title" content="B2B Gospel Radio France"/>
+<meta name="description" content="null"/>
+<meta name="keywords" content="null"/>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Quattrocento+Sans:regular,italic,700,700italic|Dancing+Script:regular,700"/><link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Comfortaa:300,regular,700|Cabin:regular,italic,500,500italic,600,600italic,700,700italic|Cabin:regular,italic,500,500italic,600,600italic,700,700italic"/><style type="text/css">
+.w-font-quattrocento_sans { font-family: 'Quattrocento Sans', sans-serif !important; }
+.w-font-dancing_script { font-family: 'Dancing Script', cursive !important; }
+.w-font-helvetica { font-family: 'Helvetica Neue', sans-serif !important; }
+.w-font-comfortaa { font-family: 'Comfortaa', sans-serif !important; }
+.w-font-cabin { font-family: 'Cabin', sans-serif !important; }
+.w-font-cabin { font-family: 'Cabin', sans-serif !important; }
+</style>
+<script>
+webs = window.webs || {};
+webs.locale = "en-US";
+webs.props = {
+	globalAssetBaseURL: "http://static.websimages.com/vbf0b805",
+	staticServer: "http://static.websimages.com",
+	membersServer: "http://members.webs.com",
+	dynamicAssetServer: "http://dynamic.websimages.com",
+	modulesVersion: "vbf0b805",
+	environment: "production",
+	imageProcessorServer: "http://imageprocessor.websimages.com"
+};
+webs.theme = {"slug":"paper","name":"Paper","premium":false,"mobile":false,"translate":false,"customizable":true,"moduleStyles":{"email_list":{"paper_default":{"global":{"css":"css\/email_list.less"},"inherit":"default","default":true}},"carousel":{"paper_default":{"global":{"css":"css\/carousel.less"},"inherit":"default","default":true}},"button":{"paper_default":{"global":{"css":"css\/button.less"},"inherit":"default","default":true}},"audio":{"paper_default":{"global":{"css":"css\/audio.less"},"inherit":"default","default":true}},"table":{"paper_default":{"global":{"css":"css\/table.less"},"inherit":"default","default":true}},"contact_form":{"paper_default":{"global":{"css":"css\/contact_form.less"},"inherit":"default","default":true}}}};
+webs.theme.style = {"name":"Olive Paper","slug":"olive","swatchColor":"#92a04f","thumb":"thumbs\/olive.png","css":"css\/base.less"};
+webs.theme.url = 'http://dynamic.websimages.com/s/themes/paper/v1.23';
+webs.theme.variables = {"footer_title":{"lineHeight":18,"linkColor":"#83964a","area":"Footer","color":"#666666","font":"quattrocento_sans","hidden":false,"align":null,"name":"Titles","slug":"footer_title","type":"text","hoverColor":"#7a8c45","size":16},"title":{"lineHeight":20,"linkColor":"#83964a","area":"Body","color":"#454545","font":"quattrocento_sans","hidden":false,"align":null,"name":"Titles","slug":"title","type":"text","hoverColor":"#7a8c45","size":18},"text":{"lineHeight":21,"linkColor":"#83964a","area":"Body","color":"#333333","font":"helvetica","hidden":false,"align":null,"name":"Text","slug":"text","type":"text","hoverColor":"#7a8c45","size":14},"footer_text":{"lineHeight":16,"linkColor":"#83964a","area":"Footer","color":"#666666","font":"helvetica","hidden":false,"align":null,"name":"Text","slug":"footer_text","type":"text","hoverColor":"#7a8c45","size":12},"header_subtitle":{"area":"Global","color":"#83964a","font":"dancing_script","hidden":true,"align":null,"name":null,"slug":"header_subtitle","type":"font"},"theme":{"area":"Global","color":"#eb1616","hidden":false,"align":null,"name":"Buttons","slug":"theme","type":"color"},"header_title":{"area":"Global","color":"#454545","font":"quattrocento_sans","hidden":true,"align":null,"name":null,"slug":"header_title","type":"font"},"nav":{"lineHeight":22,"linkColor":"#ffffff","area":"Header","color":"#333333","font":"helvetica","hidden":false,"align":null,"name":"Navigation","slug":"nav","type":"text","hoverColor":"#ffffff","size":16},"bg":{"area":"Global","pattern":"paper-webtreats-paper-pattern-5-grey","color":"#9f9090","texture":null,"hidden":false,"align":null,"name":"Background","slug":"bg","type":"background"}};
+webs.site = {
+	url: "http://www.b2bgospelradio.com/",
+	id: 83670537,
+	premium: true,
+	consolidatedModuleAssets: true
+};
+webs.locale = 'en-US';
+webs.renderedModulesPromises = [];
+</script>
+<script src="http://static.websimages.com/active-static/lib/modernizr-old.js"></script>
+<script src="http://static.websimages.com/static/global/js/require.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script src="http://static.websimages.com/active-static/target/apps/bootstrap.js"></script>
+<script>define('moduleVersions', function(){return {"mobile_link":"1.8","mobile_email":"1.7","zumba_membership":"1.14","zumba-membership":"1.1","photo_gallery_slideshow":"1.8","zumba-licenses":"1.1","zumba_footer":"1.10","slideshow":"1.28","button":"1.15","text_image":"1.12","horizontal_rule":"1.14","video":"1.23","follow":"1.13","spacer":"1.7","text":"1.19","webstore_products":"1.2","mobile_text":"1.8","image":"1.17","table":"1.18","mobile_location":"1.8","photo_gallery":"1.49","fb-comments":"1.9","mobile_social":"1.9","zumba_qualifications":"1.10","zumba_shop":"1.8","zumba-contact":"1.1","google_map":"1.22","contact_form":"1.32","seo_footer":"1.14","sb2_paragraph":"1.14","zumba_contact":"1.13","social-links":"1.18","fb-like":"1.16","share_button":"1.9","zumba-qualifications":"1.1","title":"1.16","mobile_phone":"1.6","carousel":"1.35","donate":"1.10","twitter-feed":"1.17","ads":"1.4","email_list":"1.8","buckets":"1.13","audio":"1.14","header_editor":"1.47","paypal":"1.10","google_checkout":"1.7","zumba-footer":"1.1","zumba_calendar":"1.19","html":"1.16","zumba_licenses":"1.10","widget_bank":"1.7","mobile_hours":"1.9"};});</script>
+
+
+<link id="webs-theme-css" rel="stylesheet" type="text/css" href="http://www.b2bgospelradio.com/.theme.css?pubDate=140906114713"/><link rel="stylesheet" type="text/css" href="http://static.websimages.com/vbf0b805/static/projects/finch/css/sitebase.css" /><script src="http://static.websimages.com/vbf0b805/active-static/target/internal/sitebuilder/view/view.app.js"></script>
+<meta name="fw:category" content="-1">
+<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setDomainName','none']);_gaq.push(['_setAllowHash',false]);_gaq.push(['_setAllowLinker',true]);_gaq.push(['_setAccount','UA-230305-2']);_gaq.push(['_trackPageview']);</script>
+</head>
+
+<body>
+
+
+	<div class="wrapper">
+
+<header id="webs-header" class="header">
+	<nav id="nav">
+		<span id='translatedMore' style='display:none; top: -9999px !important; left: -9999px !important;'>More</span>
+<ul id="webs-nav" class="webs-nav">
+	<li class="webs-home active fw-class-839d7228b5ccc60e54455093a966b8c2"><a href="http://www.b2bgospelradio.com/" title="LISTEN"><span class="title">LISTEN</span><span class="after"></span></a></li>
+	<li class="webs-app fw-class-18eda4d1e66eecf6950472d92933c2fa"><a href="http://www.b2bgospelradio.com/apps/calendar/" title="SCHEDULE"><span class="title">SCHEDULE</span><span class="after"></span></a></li>
+	<li class="fw-class-ef0c9d839d1b89c7a5042cf2bfba92e0"><a href="http://www.b2bgospelradio.com/presenters" title="PRESENTERS"><span class="title">PRESENTERS</span><span class="after"></span></a></li>
+	<li class="fw-class-7c147ef8bae1e790f956c4d92e486be6"><a href="http://www.b2bgospelradio.com/submit-your-music" title="SUBMIT YOUR MUSIC"><span class="title">SUBMIT YOUR MUSIC</span><span class="after"></span></a></li>
+	<li class="fw-class-03f2197d47a602c679c5f667e3482855"><a href="http://www.b2bgospelradio.com/contact-us" title="CONTACT US"><span class="title">CONTACT US</span><span class="after"></span></a></li>
+	<li class="webs-app fw-class-9324e45e55d6485b99c791f7c0423f0f"><a href="http://www.b2bgospelradio.com/apps/videos/" title="VIDEOS"><span class="title">VIDEOS</span><span class="after"></span></a></li>
+</ul>
+
+	</nav>
+
+	<div id="logo" class="webs-header-bg">
+		<section data-role="webs-header" data-webs-module="header_editor" data-webs-locked="true" class="webs-content-header webs-content" id="51e9140f0cf2a4147795cbd8"><!-- Begin Tree --><div class="webs-parent webs-parent-0"><div class="webs-parent webs-parent-1 webs-col"><style type="text/css">#webs-bin-51e9140f0cf2a4147795cbd9 .w-header-area-custom {
+  width: 100%;
+}
+#webs-bin-51e9140f0cf2a4147795cbd9 .title {
+  top: 26px;
+  z-index: 20;
+  display: block;
+}
+#webs-bin-51e9140f0cf2a4147795cbd9 .subtitle {
+  top: 84px;
+  z-index: 21;
+  display: none;
+}
+#webs-bin-51e9140f0cf2a4147795cbd9 .w-header-layer-align-left.title,
+#webs-bin-51e9140f0cf2a4147795cbd9 .w-header-layer-align-center.title {
+  left: 158px;
+}
+#webs-bin-51e9140f0cf2a4147795cbd9 .w-header-layer-align-left.subtitle,
+#webs-bin-51e9140f0cf2a4147795cbd9 .w-header-layer-align-center.subtitle {
+  left: 228.5px;
+}
+#webs-bin-51e9140f0cf2a4147795cbd9 .w-header-layer-align-left.w-header-layer-centered,
+#webs-bin-51e9140f0cf2a4147795cbd9 .w-header-layer-align-center.w-header-layer-centered {
+  right: auto;
+  left: 50%;
+}
+#webs-bin-51e9140f0cf2a4147795cbd9 .w-header-layer-align-right.title {
+  right: 0px;
+}
+#webs-bin-51e9140f0cf2a4147795cbd9 .w-header-layer-align-right.subtitle {
+  right: 0px;
+}
+#webs-bin-51e9140f0cf2a4147795cbd9 .logo {
+  top: 2px;
+  width: 175px;
+  left: 0px;
+  height: 100px;
+  display: block;
+}
+#webs-bin-51e9140f0cf2a4147795cbd9 .background {
+  background-image: url('http://farm6.static.flickr.com/5184/5603423171_a9cfb2aeba_b.jpg');
+  background-position: -52px -276px;
+}
+</style>
+	<div class="webs-bin" id="webs-bin-51e9140f0cf2a4147795cbd9">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-header_editor  w-header_editor-default">
+<div class="w-header-area  background ">
+	
+
+	
+
+	
+		<div id="" class="w-header-layer w-header-layer-image w-header-layer-logo logo">
+			<div class="w-header-layer-container">
+				<img class="w-header-image w-header-logo" src="http://imageprocessor.websimages.com/width/175/www.b2bgospelradio.com/B2B%20Gospel%20Radio_6.1_00000.png"/>
+			</div>
+		</div>
+	
+
+	
+		<div id="" class="title w-header-layer w-header-layer-text w-header-layer-align-center ">
+			<div class="w-header-layer-container">
+				<h1 class="w-header-text-container">
+					<div class="w-header-text w-header-title w-font-comfortaa">
+						
+							<span style="color: rgb(231, 52, 55); font-size: 1.7em; " class="wz-bold"><span style="font-size: 1em; " class="wz-bold">B2B Gospel Radio France</span></span>
+						
+					</div>
+				</h1>
+			</div>
+		</div>
+	
+
+	
+		<div id="" class="subtitle w-header-layer w-header-layer-text w-header-layer-align-center ">
+			<div class="w-header-layer-container">
+				<h2 class="w-header-text-container">
+					<div class="w-header-text w-header-subtitle w-font-cabin" data-placeholder="Subtitle">
+						
+							<span class="wz-bold"> <br> <br>	DM_redirect("http://webs.dudamobile.com/site/b2bgospelradio");
+<br><span id=""></span><br></span>
+						
+					</div>
+				</h2>
+			</div>
+		</div>
+	
+
+</div><!-- END w-header-area -->
+
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('header_editor', {data: {"width":"100%","linksData":{},"text_layers":[],"image_layers":[],"showBackground":true,"background":{"url":"http://farm6.static.flickr.com/5184/5603423171_a9cfb2aeba_b.jpg","position":{"left":-52,"top":-276},"mobile":{"custom":false,"color":null}},"title":{"text":"<span style=\"color: rgb(231, 52, 55); font-size: 1.7em; \" class=\"wz-bold\"><span style=\"font-size: 1em; \" class=\"wz-bold\">B2B Gospel Radio France<\/span><\/span>","top":26,"left":158,"right":"auto","align":"center","z-index":20,"display":"block","mobile":{"display":"block","top":18,"left":null,"color":null},"mobileDisplay":"block","font":"comfortaa"},"subtitle":{"text":"<span class=\"wz-bold\"> <br> <br>\tDM_redirect(\"http://webs.dudamobile.com/site/b2bgospelradio\");\n<br><span id=\"\"><\/span><br><\/span>","top":84,"left":228.5,"right":"auto","align":"center","z-index":21,"display":"none","mobile":{"display":"none","top":40,"left":null,"color":null},"mobileDisplay":"none","font":"cabin"},"logo":{"top":2,"left":0,"display":"block","width":175,"height":100,"mobile":{"display":"none","top":10,"left":null,"color":null},"mobileDisplay":"none","position":"absolute","right":"auto","url":"http://www.b2bgospelradio.com/B2B%20Gospel%20Radio_6.1_00000.png","imageType":"webs","webs":{"fileId":357081029,"path":"B2B%20Gospel%20Radio_6.1_00000.png"},"fullWidth":920,"fullHeight":540},"_id":"51e9140f0cf2a4147795cbd9"}, container: $('#webs-bin-51e9140f0cf2a4147795cbd9 > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+</div></div></section>
+	</div>
+</header>
+
+<div class="container webs-main webs-main-sidebar-none clearfix">
+	<div id="body-wrapper-full">
+		<section class="webs-content webs-body" data-role="webs-body" id="521d0e050cf29c6352e9535a"><!-- Begin Tree --><div class="webs-parent webs-parent-0"><div class="webs-parent webs-parent-1 webs-col">
+	<div class="webs-bin" id="webs-bin-52ee86f4b2725e0c27052981">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-html  w-html-base">
+<div class="w-custom-html"><script src="http://static.dudamobile.com/DM_redirect.js" type="text/javascript"></script>
+<script type="text/javascript">
+	DM_redirect("http://webs.dudamobile.com/site/b2bgospelradio");
+</script></div>
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('html', {data: {"html":"<script src=\"http://static.dudamobile.com/DM_redirect.js\" type=\"text/javascript\"><\/script>\n<script type=\"text/javascript\">\n\tDM_redirect(\"http://webs.dudamobile.com/site/b2bgospelradio\");\n<\/script>","_id":"52ee86f4b2725e0c27052981"}, container: $('#webs-bin-52ee86f4b2725e0c27052981 > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+
+	<div class="webs-bin" id="webs-bin-52a4e32cd49bc2b904077d80">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-html  w-html-base">
+<div class="w-custom-html"><script src="http://static.dudamobile.com/DM_redirect.js" type="text/javascript"></script>
+<script type="text/javascript">DM_redirect("http://mobile.dudamobile.com/site/b2bgospelradio");</script></div>
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('html', {data: {"html":"<script src=\"http://static.dudamobile.com/DM_redirect.js\" type=\"text/javascript\"><\/script>\n<script type=\"text/javascript\">DM_redirect(\"http://mobile.dudamobile.com/site/b2bgospelradio\");<\/script>","_id":"52a4e32cd49bc2b904077d80"}, container: $('#webs-bin-52a4e32cd49bc2b904077d80 > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+
+	<div class="webs-bin" id="webs-bin-52a47281c6066d3a28078c38">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-text ">
+<div class="webs-text w-font-cabin"><p style="text-align: center;"><b><span style="font-size: 1.2em; " class="wz-bold">The Phoenix of Gospel Music, News, and&nbsp;Reviews</span></b></p></div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="webs-bin" id="webs-bin-529fc2c047d09bc77e05ce9f">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-slideshow  w-slideshow-white w-slideshow-base">
+<div class="w-slideshow w-slideshow-bottom webs-align-center " 
+	style="width: 578px; height: 273px; ">
+	<div class="w-slideshow-thumbnail-area">
+		<div class="w-slideshow-thumbnails">
+			<ul class="w-slideshow-thumbnails-ul">
+				
+					<li class="w-slideshow-thumbnails-li selected">
+						<figure class="w-slideshow-figure">
+							<div class="w-slideshow-image_container clearfix">
+								<img data-src-large="http://imageprocessor.websimages.com/width/578/www.b2bgospelradio.com/B2B%20Gospel%20Radio01_00000.jpg" src="http://imageprocessor.websimages.com/square/250/www.b2bgospelradio.com/B2B%20Gospel%20Radio01_00000.jpg" alt="" class="w-slideshow-image">
+								
+							</div>
+						</figure>
+					</li>
+				
+					<li class="w-slideshow-thumbnails-li ">
+						<figure class="w-slideshow-figure">
+							<div class="w-slideshow-image_container clearfix">
+								<img data-src-large="http://imageprocessor.websimages.com/width/578/www.b2bgospelradio.com/Bro%20D%20and%20Sis%20A.jpg" src="http://imageprocessor.websimages.com/square/250/www.b2bgospelradio.com/Bro%20D%20and%20Sis%20A.jpg" alt="Bro D &amp; Sis A - Praiselujah" class="w-slideshow-image">
+								<figcaption class="w-slideshow-caption"><div>Bro D &amp; Sis A - Praiselujah</div></figcaption>
+							</div>
+						</figure>
+					</li>
+				
+					<li class="w-slideshow-thumbnails-li ">
+						<figure class="w-slideshow-figure">
+							<div class="w-slideshow-image_container clearfix">
+								<img data-src-large="http://imageprocessor.websimages.com/width/578/www.b2bgospelradio.com/Tina%20Dixon_4040.jpg" src="http://imageprocessor.websimages.com/square/250/www.b2bgospelradio.com/Tina%20Dixon_4040.jpg" alt="Tina Dixon - The Urban Soul Experience" class="w-slideshow-image">
+								<figcaption class="w-slideshow-caption"><div>Tina Dixon - The Urban Soul Experience</div></figcaption>
+							</div>
+						</figure>
+					</li>
+				
+					<li class="w-slideshow-thumbnails-li ">
+						<figure class="w-slideshow-figure">
+							<div class="w-slideshow-image_container clearfix">
+								<img data-src-large="http://imageprocessor.websimages.com/width/578/www.b2bgospelradio.com/DJ%20Of%20The%20Way3.jpg" src="http://imageprocessor.websimages.com/square/250/www.b2bgospelradio.com/DJ%20Of%20The%20Way3.jpg" alt="" class="w-slideshow-image">
+								
+							</div>
+						</figure>
+					</li>
+				
+					<li class="w-slideshow-thumbnails-li ">
+						<figure class="w-slideshow-figure">
+							<div class="w-slideshow-image_container clearfix">
+								<img data-src-large="http://imageprocessor.websimages.com/width/578/www.b2bgospelradio.com/Kaleba.jpg" src="http://imageprocessor.websimages.com/square/250/www.b2bgospelradio.com/Kaleba.jpg" alt="DJ Kaleba - Gospel Praise Party" class="w-slideshow-image">
+								<figcaption class="w-slideshow-caption"><div>DJ Kaleba - Gospel Praise Party</div></figcaption>
+							</div>
+						</figure>
+					</li>
+				
+					<li class="w-slideshow-thumbnails-li ">
+						<figure class="w-slideshow-figure">
+							<div class="w-slideshow-image_container clearfix">
+								<img data-src-large="http://imageprocessor.websimages.com/width/578/www.b2bgospelradio.com/VictorVictorious.jpg" src="http://imageprocessor.websimages.com/square/250/www.b2bgospelradio.com/VictorVictorious.jpg" alt="DJ Victor Victorious - Fireproof Radio" class="w-slideshow-image">
+								<figcaption class="w-slideshow-caption"><div>DJ Victor Victorious - Fireproof Radio</div></figcaption>
+							</div>
+						</figure>
+					</li>
+				
+					<li class="w-slideshow-thumbnails-li ">
+						<figure class="w-slideshow-figure">
+							<div class="w-slideshow-image_container clearfix">
+								<img data-src-large="http://imageprocessor.websimages.com/width/578/www.b2bgospelradio.com/Dwight%20(26).JPG" src="http://imageprocessor.websimages.com/square/250/www.b2bgospelradio.com/Dwight%20(26).JPG" alt="DJ Gus - CEO  B2B Gospel Radio" class="w-slideshow-image">
+								<figcaption class="w-slideshow-caption"><div>DJ Gus - CEO  B2B Gospel Radio</div></figcaption>
+							</div>
+						</figure>
+					</li>
+				
+					<li class="w-slideshow-thumbnails-li ">
+						<figure class="w-slideshow-figure">
+							<div class="w-slideshow-image_container clearfix">
+								<img data-src-large="http://imageprocessor.websimages.com/width/578/www.b2bgospelradio.com/DJ%20Shyhiem1.jpg" src="http://imageprocessor.websimages.com/square/250/www.b2bgospelradio.com/DJ%20Shyhiem1.jpg" alt="" class="w-slideshow-image">
+								
+							</div>
+						</figure>
+					</li>
+				
+					<li class="w-slideshow-thumbnails-li ">
+						<figure class="w-slideshow-figure">
+							<div class="w-slideshow-image_container clearfix">
+								<img data-src-large="http://imageprocessor.websimages.com/width/578/www.b2bgospelradio.com/B2B%20Gospel%20Radio1.png" src="http://imageprocessor.websimages.com/square/250/www.b2bgospelradio.com/B2B%20Gospel%20Radio1.png" alt="" class="w-slideshow-image">
+								
+							</div>
+						</figure>
+					</li>
+				
+				
+			</ul>
+			<nav class="w-slideshow-thumbnails-nav">
+				<a href="#previous_page" title="Previous Page" class="w-slideshow-page-prev"><span>Previous Page</span></a>
+				<a href="#next_page" title="Next Page" class="w-slideshow-page-next"><span>Next Page</span></a>
+			</nav>
+		</div>
+	</div>
+
+	<div class="w-slideshow-resize">
+		<div class="w-slideshow-current">
+			<figure class="w-slideshow-figure">
+				
+					<div class="w-slideshow-image_container clearfix">
+						<img src="http://imageprocessor.websimages.com/width/578/www.b2bgospelradio.com/B2B%20Gospel%20Radio01_00000.jpg" alt="" class="w-slideshow-image">
+						
+					</div>
+				
+			</figure>
+		</div>
+		<nav class="w-slideshow-nav">
+			<a href="#previous" title="Previous Slide" class="w-slideshow-prev"><span>Previous</span></a>
+			<a href="#play" title="Play" class="w-slideshow-play"><span>Play Slideshow</span></a>
+			<a href="#next" title="Next Slide" class="w-slideshow-next"><span>Next</span></a>
+		</nav>
+	</div>
+</div>
+
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('slideshow', {data: {"_style":"white","images":[{"url":"http://www.b2bgospelradio.com/B2B%20Gospel%20Radio01_00000.jpg","caption":"","_i_":0,"_ip1_":1},{"url":"http://www.b2bgospelradio.com/Bro%20D%20and%20Sis%20A.jpg","caption":"Bro D & Sis A - Praiselujah","_i_":1,"_ip1_":2},{"url":"http://www.b2bgospelradio.com/Tina%20Dixon_4040.jpg","caption":"Tina Dixon - The Urban Soul Experience","_i_":2,"_ip1_":3},{"url":"http://www.b2bgospelradio.com/DJ%20Of%20The%20Way3.jpg","caption":"","_i_":3,"_ip1_":4},{"url":"http://www.b2bgospelradio.com/Kaleba.jpg","caption":"DJ Kaleba - Gospel Praise Party","_i_":4,"_ip1_":5},{"url":"http://www.b2bgospelradio.com/VictorVictorious.jpg","caption":"DJ Victor Victorious - Fireproof Radio","_i_":5,"_ip1_":6},{"url":"http://www.b2bgospelradio.com/Dwight%20(26).JPG","caption":"DJ Gus - CEO  B2B Gospel Radio","_i_":6,"_ip1_":7},{"url":"http://www.b2bgospelradio.com/DJ%20Shyhiem1.jpg","caption":"","_i_":7,"_ip1_":8},{"url":"http://www.b2bgospelradio.com/B2B%20Gospel%20Radio1.png","caption":"","_i_":8,"_ip1_":9}],"align":"center","width":578,"height":273,"thumb_width":46,"thumb_height":46,"autoplay":false,"duration":3000,"transition":"fade","side":"bottom","background":false,"background_color":"#e1e1e1","_id":"529fc2c047d09bc77e05ce9f"}, container: $('#webs-bin-529fc2c047d09bc77e05ce9f > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+
+	<div class="webs-bin" id="webs-bin-521d0e0c0cf29c6352e95370">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-sb2_paragraph  w-sb2_paragraph-base">
+<div style="text-align: center;"><span class="Apple-style-span" style="color: rgb(232, 20, 27); font-size: xx-large; "><span class="Apple-style-span" style="font-size: x-large; "><font class="Apple-style-span" face="'Comic Sans MS'">24/7 B2B Gospel Radio Keeping you Praising</font></span></span></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="webs-bin" id="webs-bin-5402dec0d3c6bd194c1b5e06">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-html  w-html-base">
+<div class="w-custom-html"><span id="cc_strinfo_summary_wrxdlfsw" class="cc_streaminfo">Loading ...</span></div>
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('html', {data: {"html":"<span id=\"cc_strinfo_summary_wrxdlfsw\" class=\"cc_streaminfo\">Loading ...<\/span>","_id":"5402dec0d3c6bd194c1b5e06"}, container: $('#webs-bin-5402dec0d3c6bd194c1b5e06 > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+
+	<div class="webs-bin" id="webs-bin-5402f021d3c6bd194c1b60d6">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-button  w-button-paper_default w-button-default">
+
+<div class="w-button-container webs-align-center">
+	<div class="w-button-align webs-align-center">
+		
+		<a class="w-button w-link-new-window"
+			 style="background-color: #2a7d33"
+			  href="http://panel9.serverhostingcenter.com:2199/start/wrxdlfsw " class="w-link-new-window"
+			>
+			<div class="w-button-inner">
+				<div class="w-button-text-wrapper">
+					<div class="w-button-text"><span style="color: rgb(250, 237, 147); font-size: 48px; " class="wz-bold"><span style="font-size: 48px; " class="wz-bold wz-italic">Press to Listen Live</span></span><span style="font-size: 72px; " class="wz-bold">&nbsp;</span></div>
+				</div>
+				
+			</div>
+		</a>
+		
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('button', {data: {"html":"<span style=\"color: rgb(250, 237, 147); font-size: 48px; \" class=\"wz-bold\"><span style=\"font-size: 48px; \" class=\"wz-bold wz-italic\">Press to Listen Live<\/span><\/span><span style=\"font-size: 72px; \" class=\"wz-bold\">&nbsp;<\/span>","link":null,"bgcolor":"#2a7d33","align":"center","linkInfo":{"linkType":"website","linkUrl":null,"newWindow":true,"tab":"webpage","url":"http://panel9.serverhostingcenter.com:2199/start/wrxdlfsw "},"icon":{"enable":false,"set":null,"slug":null,"position":"left","style":null},"_id":"5402f021d3c6bd194c1b60d6"}, container: $('#webs-bin-5402f021d3c6bd194c1b60d6 > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+
+	<div class="webs-bin" id="webs-bin-521d0e0d0cf29c6352e9537c">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-sb2_paragraph  w-sb2_paragraph-base">
+<div style="text-align: center;"><span class="Apple-style-span" style="font-family: 'Comic Sans MS'; font-size: large; "><b>Alternatively</b></span></div><div style="text-align: center;"><span class="Apple-style-span" style="font-family: 'Comic Sans MS'; font-size: large; "><b>Listen to us on&nbsp;<a href="http://tunein.com/radio/B2B-Gospel-Radio-s142160/" target="_blank"><img src="http://www.b2bgospelradio.com/TuneInRadio Logo.jpg" border="0"></a>&nbsp;or any of the preferred links below&nbsp;</b></span></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="webs-bin" id="webs-bin-521d0e0d0cf29c6352e9537d">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-sb2_paragraph  w-sb2_paragraph-base">
+<div style="text-align: center;"><div id="cc_tunein">
+	<font class="Apple-style-span" size="7"><a href="http://panel9.serverhostingcenter.com:2199/tunein/wrxdlfsw.pls"><img align="absmiddle" src="http://panel9.serverhostingcenter.com:2199/system/images/tunein-pls.png" border="0" alt="Winamp, iTunes" title="Winamp, iTunes"></a>
+	<a href="http://panel9.serverhostingcenter.com:2199/tunein/wrxdlfsw.asx"><img align="absmiddle" src="http://panel9.serverhostingcenter.com:2199/system/images/tunein-asx.png" border="0" alt="Windows Media Player" title="Windows Media Player"></a>
+	<a href="http://panel9.serverhostingcenter.com:2199/tunein/wrxdlfsw.ram"><img align="absmiddle" src="http://panel9.serverhostingcenter.com:2199/system/images/tunein-ram.png" border="0" alt="Real Player" title="Real Player"></a>
+	<a href="http://panel9.serverhostingcenter.com:2199/tunein/wrxdlfsw.qtl"><img align="absmiddle" src="http://panel9.serverhostingcenter.com:2199/system/images/tunein-qtl.png" border="0" alt="QuickTime" title="QuickTime"></a></font>
+</div></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="webs-bin" id="webs-bin-52ee890fb2725e0c27052a10">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-null ">
+
+  <link href="http://75.98.17.34:3012/stylesheets/don_sidebar.css" media="screen" rel="stylesheet" type="text/css">
+  
+  
+  <ul class="fw-list-list clearfix"></ul>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="webs-bin" id="webs-bin-5404d5a2d4a4108503161885">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-html  w-html-base">
+<div class="w-custom-html"><!-- Start of Streema Online Radio code --><a href="http://streema.com"><img src="http://www.streema.com/static/img/flatpages/468x60ad.jpg" width="468" height="60" border="0" alt="Streema - Online Radio Stations"/> </a><!-- End of Streema code --></div>
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('html', {data: {"html":"<!-- Start of Streema Online Radio code --><a href=\"http://streema.com\"><img src=\"http://www.streema.com/static/img/flatpages/468x60ad.jpg\" width=\"468\" height=\"60\" border=\"0\" alt=\"Streema - Online Radio Stations\"/> <\/a><!-- End of Streema code -->","_id":"5404d5a2d4a4108503161885"}, container: $('#webs-bin-5404d5a2d4a4108503161885 > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+
+	<div class="webs-bin" id="webs-bin-540b2c21d4a4108503179db3">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-html  w-html-base">
+<div class="w-custom-html"><script type="text/javascript" src="http://www.webradiocentral.com/badge.php?h=3350341a0e13d3b5ddb47109798c1fb7"></script></div>
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('html', {data: {"html":"<script type=\"text/javascript\" src=\"http://www.webradiocentral.com/badge.php?h=3350341a0e13d3b5ddb47109798c1fb7\"><\/script>","_id":"540b2c21d4a4108503179db3"}, container: $('#webs-bin-540b2c21d4a4108503179db3 > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+<div class="webs-parent webs-parent-2 webs-row"><div class="webs-parent webs-parent-3 webs-col" style="width: 293px;">
+	<div class="webs-bin" id="webs-bin-529e46cfc6066d3a28053531">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-fb-like  w-fb-like-default">
+<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FB2BGospelRadio&amp;width=273&amp;colorscheme=light&amp;show_faces=true&amp;stream=&amp;header=&amp;height=258" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:273px; height:258px;" allowTransparency="true"></iframe>
+
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('fb-like', {data: {"url":"https://www.facebook.com/B2BGospelRadio","showFaces":true,"showHeader":false,"showStream":false,"colorScheme":"light","borderColor":"#000000","_style":"light","_width":273,"_id":"529e46cfc6066d3a28053531"}, container: $('#webs-bin-529e46cfc6066d3a28053531 > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+</div><div class="webs-parent webs-parent-3 webs-col" style="width: 293px;">
+	<div class="webs-bin" id="webs-bin-529e5f32d49bc2b90404f7bf">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-html  w-html-base">
+<div class="w-custom-html"><!-- BEGIN: Twitter website widget (http://twitterforweb.com) -->
+<div style="width:300px;font-size:8px;text-align:right;"><script type="text/javascript">
+document.write(unescape("%3Cscript src='http://twitterforweb.com/twitterbox.js?username=b2bgospelradio&settings=1,1,7,300,795,72e0a5,0,c4c4c4,101010,1,1,336699' type='text/javascript'%3E%3C/script%3E"));</script>Created by: <a href="http://twitterforweb.com" target="_blank">twitter website widget</a></div>
+<!-- END: Twitter website widget (http://twitterforweb.com) --></div>
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('html', {data: {"html":"<!-- BEGIN: Twitter website widget (http://twitterforweb.com) -->\n<div style=\"width:300px;font-size:8px;text-align:right;\"><script type=\"text/javascript\">\ndocument.write(unescape(\"%3Cscript src='http://twitterforweb.com/twitterbox.js?username=b2bgospelradio&settings=1,1,7,300,795,72e0a5,0,c4c4c4,101010,1,1,336699' type='text/javascript'%3E%3C/script%3E\"));<\/script>Created by: <a href=\"http://twitterforweb.com\" target=\"_blank\">twitter website widget<\/a><\/div>\n<!-- END: Twitter website widget (http://twitterforweb.com) -->","_id":"529e5f32d49bc2b90404f7bf"}, container: $('#webs-bin-529e5f32d49bc2b90404f7bf > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+</div><div class="webs-parent webs-parent-3 webs-col" style="width: 304px;">
+	<div class="webs-bin" id="webs-bin-529e47b1c6066d3a28053583">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-follow  w-follow-base">
+<div class="webs-align-center">
+	<a href="https://twitter.com/https://twitter.com/B2BGospelRadio" class="twitter-follow-button" data-show-count="true" data-size="medium"  data-align="center" data-lang="en">Follow @https://twitter.com/B2BGospelRadio</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(1){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('follow', {data: {"showFollow":true,"buttonSize":"medium","username":"https://twitter.com/B2BGospelRadio","align":"center","lang":"en","_width":282,"_id":"529e47b1c6066d3a28053583"}, container: $('#webs-bin-529e47b1c6066d3a28053583 > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+</div></div></div></div></section>
+	</div>
+</div>
+
+<footer class="footer clearfix">
+	<div class="webs-content" data-role="webs-footer" id="51e9140f0cf2a4147795cbda"><!-- Begin Tree --><div class="webs-parent webs-parent-0"><div class="webs-parent webs-parent-1 webs-col">
+	<div class="webs-bin" id="webs-bin-521d0e130cf29c6352e953c9">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-text ">
+<div class="webs-text "><span style="color: rgb(27, 25, 25); "><span style="">B2B Gospel Radio Copyright ©2013</span></span></div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="webs-bin" id="webs-bin-5402db73d3c6bd194c1b5dc4">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-html  w-html-base">
+<div class="w-custom-html"><script language="javascript" type="text/javascript" src="http://panel9.serverhostingcenter.com:2199/system/recenttracks.js"></script></div>
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('html', {data: {"html":"<script language=\"javascript\" type=\"text/javascript\" src=\"http://panel9.serverhostingcenter.com:2199/system/recenttracks.js\"><\/script>","_id":"5402db73d3c6bd194c1b5dc4"}, container: $('#webs-bin-5402db73d3c6bd194c1b5dc4 > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+
+	<div class="webs-bin" id="webs-bin-5402dd03d3c6bd194c1b5de4">
+		<div class="webs-bin-wrap">
+			<div class="webs-container webs-module-html  w-html-base">
+<div class="w-custom-html"><script language="javascript" type="text/javascript" src="http://panel9.serverhostingcenter.com:2199/system/streaminfo.js"></script></div>
+			</div>
+		</div>
+	</div>
+
+		<script>
+			require(['jquery'], function($){
+				var deferredLoad = $.Deferred();
+				webs.renderedModulesPromises.push(deferredLoad.promise());
+				require(['internal/sitebuilder/common/ModuleClassLoader'], function(mcl){
+					mcl.create('html', {data: {"html":"<script language=\"javascript\" type=\"text/javascript\" src=\"http://panel9.serverhostingcenter.com:2199/system/streaminfo.js\"><\/script>","_id":"5402dd03d3c6bd194c1b5de4"}, container: $('#webs-bin-5402dd03d3c6bd194c1b5de4 > .webs-bin-wrap > .webs-container')}).done(function(m){
+						m.oneLoaded();
+						deferredLoad.resolve();
+					});
+				});
+			});
+		</script>
+</div></div></div>
+</footer>
+<div class="footerAfter"></div>
+
+	</div>
+<!-- ON APP PAGES : 
+	<script src="http://static.websimages.com/static/global/js/jquery/customSelect.js"></script>
+	<script>jQuery('select').each(function(){ jQuery(this).customSelect(); });</script>
+-->
+
+<script data-keep-for-mobile='1'>webs = window.webs || {}; webs.stats = {"siteId":"83670537","pageId":"251492897","pageTitle":"LISTEN","parentPageId":"","collectorUrl":"http://collector.stats.webs.com/record","premium":true};</script><script data-keep-for-mobile='2' async src='http://static.websimages.com/active-static/target/stats/collector.js'></script><script type="text/javascript">(function() {var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);})();</script>
+</body>
+</html>

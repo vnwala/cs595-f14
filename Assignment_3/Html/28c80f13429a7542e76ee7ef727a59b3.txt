@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<!--[if lt IE 8]>      <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# theneeds: http://ogp.me/ns/fb/theneeds#">
+        <script>(function() { if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) { var msViewportStyle = document.createElement("style"); msViewportStyle.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}")); document.getElementsByTagName("head")[0].appendChild(msViewportStyle);} })();</script>
+                
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta property="fb:app_id" content="103391843117006" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Theneeds | Web discovery. Made simple." />
+<meta property="og:description" content="Theneeds is your smart personalized web, a place to discover and share the best news, videos, social posts, and more, tailored to your specific interests." />
+<meta property="og:image" content="https://s3-us-west-2.amazonaws.com/theneeds-images/logo/logo_theneeds_200.png" />
+<meta property="og:url" content="http://www.theneeds.com" />
+<meta name="twitter:site" content="@theneeds" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="http://www.theneeds.com" />
+<meta name="twitter:title" content="Theneeds | Web discovery. Made simple." />
+<meta name="twitter:description" content="Theneeds is your smart personalized web, a place to discover and share the best news, videos, social posts, and more, tailored to your specific interests." />
+<meta name="twitter:image" content="https://s3-us-west-2.amazonaws.com/theneeds-images/logo/logo_theneeds_200.png" />
+<meta name="twitter:app:name:iphone" content="Theneeds" />
+<meta name="twitter:app:id:iphone" content="796264600" />
+<meta name="twitter:app:url:iphone" content="theneeds://authorize#target_url=http%3A%2F%2Fwww.theneeds.com%2F" />
+<title>Theneeds | Web discovery. Made simple.</title>
+        <meta name="description" content="Theneeds is your smart personalized web, a place to discover and share the best news, videos, social posts, and more, tailored to your specific interests.">
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+                <meta name="application-name" content="Theneeds Web"/>
+        <meta name="msapplication-square70x70logo" content="https://s3-us-west-2.amazonaws.com/theneeds-images/logo/logo_tn_70.png"/>
+        <meta name="msapplication-square150x150logo" content="https://s3-us-west-2.amazonaws.com/theneeds-images/logo/logo_tn_150.png"/>
+        <meta name="msapplication-wide310x150logo" content="https://s3-us-west-2.amazonaws.com/theneeds-images/logo/logo_tn_310x150.png"/>
+        <meta name="msapplication-square310x310logo" content="https://s3-us-west-2.amazonaws.com/theneeds-images/logo/logo_tn_310.png"/>
+        <meta name="msApplication-TileColor" content="#000000"/>
+        <meta name="msApplication-ID" content="theneeds.theneeds"/>
+        <meta name="msApplication-PackageFamilyName" content="theneeds.theneeds_fmytqqvsb6bsr"/>
+
+                <link href="http://www.theneeds.com/" rel="canonical" />
+        <link rel="stylesheet" href="/css/home.css?v=178">
+        <!--[if lt IE 9]>
+            <script src="/js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
+        <![endif]-->
+
+                <link rel="shortcut icon" href="/img/favicon.ico" />
+		<link rel="apple-touch-icon" href="/img/icon_57x57.png" />
+		<link rel="apple-touch-icon" href="/img/icon_72x72.png" sizes="72x72" />
+		<link rel="apple-touch-icon" href="/img/icon_114x114.png" sizes="114x114" />
+		<link rel="apple-touch-icon" href="/img/icon_144x144.png" sizes="144x144" />
+
+		        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+                results = regex.exec(location.search);
+            return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+          }
+
+          ga('create', 'UA-34494985-1', 'auto');
+          var userId = getParameterByName('utm_user');
+          if (userId) { ga('set', 'userId', userId); ga('set', 'dimension1', userId); }
+                    ga('require', 'displayfeatures');
+          ga('require', 'linkid', 'linkid.js');
+          ga('send', 'pageview');
+
+            (function() {
+                var undefined,
+                    link = function (href) {
+                        var a = window.document.createElement('a');
+                        a.href = href;
+                        return a;
+                    };
+                window.onerror = function (message, file, row) {
+                    var host = link(file).hostname;
+                    ga('send', 'event',
+                        (host == window.location.hostname || host == undefined || host == '' ? '' : 'external ') + 'error',
+                        message, file + ' LINE: ' + row
+                    );
+                };
+            })();
+        </script>
+                <script type="text/javascript">
+        setTimeout(function(){var a=document.createElement("script");
+        var b=document.getElementsByTagName("script")[0];
+        a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/1363.js?"+Math.floor(new Date().getTime()/3600000);
+        a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+        </script> 
+		                <script type="text/javascript">
+            if((navigator.userAgent.match(/Windows\ NT\ 6\.3/i)) && (typeof pokki === "undefined")) {
+                if (document.cookie.indexOf('win8_redirect=0') == -1) window.location = 'http://www.theneeds.com/p/lwin8';
+            }
+        </script>
+                                        <script type="text/javascript">
+            if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+                if (document.cookie.indexOf('iphone_redirect=0') == -1) window.location = 'http://www.theneeds.com/p/liphone?back=%2F';
+                else {window.location = 'theneeds://authorize#target_url=http%3A%2F%2Fwww.theneeds.com%2F'; setTimeout(function() {window.location = 'http://m.theneeds.com/';}, 100)}
+            }
+        </script>
+                    </head>
+    <body  style="padding-top: 0;">
+                <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=103391843117006";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+                        <!--[if lt IE 9]>
+            <p class="container big center"><br/><br/>You are using an outdated version of Internet Explorer that may cause problems when viewing Theneeds.<br/><br/><a href="http://browsehappy.com/">Please upgrade to a newer version</a> for a better, safer, and more fullfilling experience.</p><p style="height: 300px;">&nbsp;</p>
+            <style>#universe { display: none!important }</style>
+        <![endif]-->
+        <div id="universe">
+        
+	<div id='debug-line'></div>
+
+	<div id="headershadow" style="min-height: 0px;" class="navbar navbar-inverse navbar-fixed-top">
+                        
+				</div>
+
+	
+<style>
+.cb-slideshow,
+.cb-slideshow:after { 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+    list-style-type: none;
+    margin: 0;
+}
+.cb-slideshow:after { 
+    content: '';
+    background: transparent url(../img/retino.png?v=4) repeat top left; 
+}
+.cb-slideshow li span { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+	-webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 36s linear infinite 0s;
+    -moz-animation: imageAnimation 36s linear infinite 0s;
+    -o-animation: imageAnimation 36s linear infinite 0s;
+    -ms-animation: imageAnimation 36s linear infinite 0s;
+    animation: imageAnimation 36s linear infinite 0s; 
+}
+.cb-slideshow li div h3 { 
+	display: none;
+    font-size: 240px;
+    padding: 0;
+    line-height: 200px; 
+}
+.cb-slideshow li:nth-child(1) span { 
+    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/bg_need1.jpg) 
+}
+.cb-slideshow li:nth-child(2) span { 
+    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/bg_need13.jpg);
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s; 
+}
+.cb-slideshow li:nth-child(3) span { 
+    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/bg_need3.jpg);
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s; 
+}
+.cb-slideshow li:nth-child(4) span { 
+    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/bg_need10.jpg);
+    -webkit-animation-delay: 18s;
+    -moz-animation-delay: 18s;
+    -o-animation-delay: 18s;
+    -ms-animation-delay: 18s;
+    animation-delay: 18s; 
+}
+.cb-slideshow li:nth-child(5) span { 
+    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/bg_need12.jpg);
+    -webkit-animation-delay: 24s;
+    -moz-animation-delay: 24s;
+    -o-animation-delay: 24s;
+    -ms-animation-delay: 24s;
+    animation-delay: 24s; 
+}
+.cb-slideshow li:nth-child(6) span { 
+    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/bg_need5.jpg);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s; 
+}
+/* Animation for the slideshow images */
+@-webkit-keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    -webkit-animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    -webkit-transform: scale(1.05);
+	    -webkit-animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    -webkit-transform: scale(1.1);
+	}
+	25% {
+	    opacity: 0;
+	    -webkit-transform: scale(1.1);
+	}
+	100% { opacity: 0 }
+}
+@-moz-keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    -moz-animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    -moz-transform: scale(1.05);
+	    -moz-animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    -moz-transform: scale(1.1);
+	}
+	25% {
+	    opacity: 0;
+	    -moz-transform: scale(1.1);
+	}
+	100% { opacity: 0 }
+}
+@-o-keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    -o-animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    -o-transform: scale(1.05);
+	    -o-animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    -o-transform: scale(1.1);
+	}
+	25% {
+	    opacity: 0;
+	    -o-transform: scale(1.1);
+	}
+	100% { opacity: 0 }
+}
+@-ms-keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    -ms-animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    -ms-transform: scale(1.05);
+	    -ms-animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    -ms-transform: scale(1.1);
+	}
+	25% {
+	    opacity: 0;
+	    -ms-transform: scale(1.1);
+	}
+	100% { opacity: 0 }
+}
+@keyframes imageAnimation { 
+	0% {
+	    opacity: 0;
+	    animation-timing-function: ease-in;
+	}
+	8% {
+	    opacity: 1;
+	    transform: scale(1.05);
+	    animation-timing-function: ease-out;
+	}
+	17% {
+	    opacity: 1;
+	    transform: scale(1.1);
+	}
+	25% {
+	    opacity: 0;
+	    transform: scale(1.1);
+	}
+	100% { opacity: 0 }
+}
+/* Show at least something when animations not supported */
+.no-cssanimations .cb-slideshow li span{
+	opacity: 1;
+}
+@media screen and (max-width: 600px) { 
+	.cb-slideshow li:nth-child(1) span { 
+	    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/phone_bg_need1.jpg) 
+	}
+	.cb-slideshow li:nth-child(2) span { 
+	    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/phone_bg_need13.jpg);
+	}
+	.cb-slideshow li:nth-child(3) span { 
+	    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/phone_bg_need3.jpg);
+	}
+	.cb-slideshow li:nth-child(4) span { 
+	    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/phone_bg_need10.jpg);
+	}
+	.cb-slideshow li:nth-child(5) span { 
+	    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/phone_bg_need12.jpg);
+	}
+	.cb-slideshow li:nth-child(6) span { 
+	    background-image: url(//s3-us-west-2.amazonaws.com/theneeds-images/need/bg/phone_bg_need5.jpg);
+	}
+}
+</style>
+
+<div id="home-carousel-container" style="position: relative; width: 100%; height: 500px; overflow: hidden; margin-bottom: 40px; background-color: #000;">
+<div id="xheader" class="container container-home" style="position: relative; padding-top: 10px; z-index: 10;">
+	<a style="margin: 8px 0; margin-left: 10px; padding: 0 9px;" class="visible-phone right btn btn-navbar btn-large btn-primary" href="https://www.theneeds.com/login"> Login </a>	<div id="logo" class="left" style="position: relative; margin-top: 7px;"><a id="logo_theneeds" class="" href="/"><img class="theneeds" width="134" height="29" style="position: relative; top: -2px; left: -2px; width: 134px; height: 29px;" src="//s3-us-west-2.amazonaws.com/theneeds-images/logo/logo_theneeds_2x_white.png" alt="Theneeds"><span style="position: absolute; top: 0px; left: 132px;" class="white">α</span></a></div>
+	<div id="usermenu" style="margin-top: 8px" class="hidden-phone">
+		<p class="big white right"><a class="white no-hover" href="https://www.theneeds.com/login">Login</a></p>	</div>
+	</div>
+
+<ul class="cb-slideshow">
+    <li><span></span><div><h3>news</h3></div></li>
+    <li><span></span><div><h3>sport</h3></div></li>
+    <li><span></span><div><h3>social</h3></div></li>
+    <li><span></span><div><h3>music</h3></div></li>
+    <li><span></span><div><h3>learn</h3></div></li>
+    <li><span></span><div><h3>work</h3></div></li>
+</ul>
+
+<div class="container container-home" style="position: relative; margin-top: 40px; padding-top: 12px;">
+	<h1 style="font-size: 32px; line-height: 40px; height: auto; color: white;">Discover Theneeds.</h1>
+	<p class="big" style="font-size: 23px; line-height: 32px; color: white; max-width: 400px; margin-top: 20px; margin-bottom: 30px;">
+		News, articles, videos, social posts, and more, tailored to your interests. 
+	</p>
+
+	<div id="home-signup">
+	    <h2 style="font-size: 23px; line-height: 32px; height: auto;" class="signin-title">Join now. It's free.</h2>
+	    <br/>
+	    <div class="signin-images">
+	    <a href="https://www.theneeds.com/account/facebook"><img class="i48" src="/themes/tnb/images/apps/48x48/facebook.com.2x.png" alt="" /></a><a href="https://www.theneeds.com/account/twitter"><img class="i48" src="/themes/tnb/images/apps/48x48/twitter.com.2x.png" alt="" /></a><a href="https://www.theneeds.com/account/google"><img class="i48" src="/themes/tnb/images/apps/48x48/google.com.2x.png" alt="" /></a>	    </div>
+
+	</div>
+</div>
+
+
+</div>
+
+
+<div id="main" class="container">
+        			<div id="slogan" class="slogan">
+    <a name="home"></a>
+    	<h1>What's your Need now?    <span class="needs-carousel"><a class="item color need1 active" href="/news">Be Informed</a><a class="item color need2" href="/shop">Shop</a><a class="item color need3" href="/social">Interact</a><a class="item color need11" href="/read">Read</a><a class="item color need10" href="/music">Listen</a><a class="item color need4" href="/travel">Travel</a><a class="item color need8" href="/video">Watch</a><a class="item color need13" href="/sport">Follow Sports</a><a class="item color need14" href="/food">Eat</a><a class="item color need6" href="/money">Manage Money</a><a class="item color need9" href="/game">Play</a><a class="item color need12" href="/learn">Learn</a><a class="item color need5" href="/work">Work</a><span style="visibility: hidden">Manage&nbsp;Money</span></span></h1>
+</div>
+<div class="needList">
+	<div id="yw0" class="list-view">
+<nav class="items">
+<a href="/news">
+	<div class="view">
+		<div class="front bg need1"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/1.png" alt="Be Informed" /><p class="view-need-front-name">Be Informed</p></div>
+                <div class="back bg need1"><h2 class="description"><p class="line1 bottom">US News</p><p class="line1 bottom">World</p><p class="line1 bottom">Politics</p><p class="line1 bottom">Economy</p><p class="line1 bottom">Entertainment</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need1"><h2 class="description"><p class="line1 bottom">US News</p><p class="line1 bottom">World</p><p class="line1 bottom">Politics</p><p class="line1 bottom">Economy</p><p class="line1 bottom">Entertainment</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/shop">
+	<div class="view">
+		<div class="front bg need2"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/2.png" alt="Shop" /><p class="view-need-front-name">Shop</p></div>
+                <div class="back bg need2"><h2 class="description"><p class="line1 bottom">Clothing</p><p class="line1 bottom">Gadgets & Tech</p><p class="line1 bottom">Art & Design</p><p class="line1 bottom">Bags & Shoes</p><p class="line1 bottom">Home</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need2"><h2 class="description"><p class="line1 bottom">Clothing</p><p class="line1 bottom">Gadgets & Tech</p><p class="line1 bottom">Art & Design</p><p class="line1 bottom">Bags & Shoes</p><p class="line1 bottom">Home</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/social">
+	<div class="view">
+		<div class="front bg need3"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/3.png" alt="Interact" /><p class="view-need-front-name">Interact</p></div>
+                <div class="back bg need3"><h2 class="description"><p class="line1 bottom">Social Networks</p><p class="line1 bottom">Relationships</p><p class="line1 bottom">Love</p><p class="line1 bottom">Dating</p><p class="line1 bottom">Intimacy</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need3"><h2 class="description"><p class="line1 bottom">Social Networks</p><p class="line1 bottom">Relationships</p><p class="line1 bottom">Love</p><p class="line1 bottom">Dating</p><p class="line1 bottom">Intimacy</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/read">
+	<div class="view">
+		<div class="front bg need11"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/11.png" alt="Read" /><p class="view-need-front-name">Read</p></div>
+                <div class="back bg need11"><h2 class="description"><p class="line1 bottom">Culture</p><p class="line1 bottom">Fashion</p><p class="line1 bottom">Books</p><p class="line1 bottom">Business</p><p class="line1 bottom">Art & Design</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need11"><h2 class="description"><p class="line1 bottom">Culture</p><p class="line1 bottom">Fashion</p><p class="line1 bottom">Books</p><p class="line1 bottom">Business</p><p class="line1 bottom">Art & Design</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/music">
+	<div class="view">
+		<div class="front bg need10"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/10.png" alt="Listen" /><p class="view-need-front-name">Listen</p></div>
+                <div class="back bg need10"><h2 class="description"><p class="line1 bottom">Pop & Rock</p><p class="line1 bottom">Music Discovery</p><p class="line1 bottom">Hip-Hop</p><p class="line1 bottom">Music Artists</p><p class="line1 bottom">Internet Radio</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need10"><h2 class="description"><p class="line1 bottom">Pop & Rock</p><p class="line1 bottom">Music Discovery</p><p class="line1 bottom">Hip-Hop</p><p class="line1 bottom">Music Artists</p><p class="line1 bottom">Internet Radio</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/travel">
+	<div class="view">
+		<div class="front bg need4"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/4.png" alt="Travel" /><p class="view-need-front-name">Travel</p></div>
+                <div class="back bg need4"><h2 class="description"><p class="line1 bottom">Hotels & Flights</p><p class="line1 bottom">Attractions</p><p class="line1 bottom">Adventure</p><p class="line1 bottom">Beaches</p><p class="line1 bottom">Mountain</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need4"><h2 class="description"><p class="line1 bottom">Hotels & Flights</p><p class="line1 bottom">Attractions</p><p class="line1 bottom">Adventure</p><p class="line1 bottom">Beaches</p><p class="line1 bottom">Mountain</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/video">
+	<div class="view">
+		<div class="front bg need8"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/8.png" alt="Watch" /><p class="view-need-front-name">Watch</p></div>
+                <div class="back bg need8"><h2 class="description"><p class="line1 bottom">Movies</p><p class="line1 bottom">TV Series</p><p class="line1 bottom">Photography</p><p class="line1 bottom">Videos</p><p class="line1 bottom">Streaming & DVD</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need8"><h2 class="description"><p class="line1 bottom">Movies</p><p class="line1 bottom">TV Series</p><p class="line1 bottom">Photography</p><p class="line1 bottom">Videos</p><p class="line1 bottom">Streaming & DVD</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/sport">
+	<div class="view">
+		<div class="front bg need13"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/13.png" alt="Follow Sports" /><p class="view-need-front-name">Follow Sports</p></div>
+                <div class="back bg need13"><h2 class="description"><p class="line1 bottom">Football</p><p class="line1 bottom">Basketball</p><p class="line1 bottom">Fitness</p><p class="line1 bottom">Baseball</p><p class="line1 bottom">Rumors & Humor</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need13"><h2 class="description"><p class="line1 bottom">Football</p><p class="line1 bottom">Basketball</p><p class="line1 bottom">Fitness</p><p class="line1 bottom">Baseball</p><p class="line1 bottom">Rumors & Humor</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/food">
+	<div class="view">
+		<div class="front bg need14"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/14.png" alt="Eat" /><p class="view-need-front-name">Eat</p></div>
+                <div class="back bg need14"><h2 class="description"><p class="line1 bottom">Recipes</p><p class="line1 bottom">Restaurants</p><p class="line1 bottom">Wine & Drinks</p><p class="line1 bottom">Healthy Eating</p><p class="line1 bottom">Tips & Ideas</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need14"><h2 class="description"><p class="line1 bottom">Recipes</p><p class="line1 bottom">Restaurants</p><p class="line1 bottom">Wine & Drinks</p><p class="line1 bottom">Healthy Eating</p><p class="line1 bottom">Tips & Ideas</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/money">
+	<div class="view">
+		<div class="front bg need6"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/6.png" alt="Manage Money" /><p class="view-need-front-name">Manage Money</p></div>
+                <div class="back bg need6"><h2 class="description"><p class="line1 bottom">Markets</p><p class="line1 bottom">Investing</p><p class="line1 bottom">Trading</p><p class="line1 bottom">Personal Finance</p><p class="line1 bottom">Stocks & Bonds</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need6"><h2 class="description"><p class="line1 bottom">Markets</p><p class="line1 bottom">Investing</p><p class="line1 bottom">Trading</p><p class="line1 bottom">Personal Finance</p><p class="line1 bottom">Stocks & Bonds</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/game">
+	<div class="view">
+		<div class="front bg need9"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/9.png" alt="Play" /><p class="view-need-front-name">Play</p></div>
+                <div class="back bg need9"><h2 class="description"><p class="line1 bottom">Game Reviews</p><p class="line1 bottom">Cheats & Hints</p><p class="line1 bottom">Consoles</p><p class="line1 bottom">Online Games</p><p class="line1 bottom">Toys & Kids</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need9"><h2 class="description"><p class="line1 bottom">Game Reviews</p><p class="line1 bottom">Cheats & Hints</p><p class="line1 bottom">Consoles</p><p class="line1 bottom">Online Games</p><p class="line1 bottom">Toys & Kids</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/learn">
+	<div class="view">
+		<div class="front bg need12"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/12.png" alt="Learn" /><p class="view-need-front-name">Learn</p></div>
+                <div class="back bg need12"><h2 class="description"><p class="line1 bottom">Education</p><p class="line1 bottom">How-tos & DIY</p><p class="line1 bottom">Science</p><p class="line1 bottom">History</p><p class="line1 bottom">Open Courses</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need12"><h2 class="description"><p class="line1 bottom">Education</p><p class="line1 bottom">How-tos & DIY</p><p class="line1 bottom">Science</p><p class="line1 bottom">History</p><p class="line1 bottom">Open Courses</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+<a href="/work">
+	<div class="view">
+		<div class="front bg need5"><img src="//s3-us-west-2.amazonaws.com/theneeds-images/need/5.png" alt="Work" /><p class="view-need-front-name">Work</p></div>
+                <div class="back bg need5"><h2 class="description"><p class="line1 bottom">Business</p><p class="line1 bottom">Management</p><p class="line1 bottom">Leadership</p><p class="line1 bottom">Careers</p><p class="line1 bottom">Automotive</p><p class="line1 bottom">...</p></h2></div>
+        <div class="back2 bg need5"><h2 class="description"><p class="line1 bottom">Business</p><p class="line1 bottom">Management</p><p class="line1 bottom">Leadership</p><p class="line1 bottom">Careers</p><p class="line1 bottom">Automotive</p><p class="line1 bottom">...</p></h2></div>
+        	</div>
+</a>
+</nav></div><div class="clear list-view"><br/><div class="right" style="width: 300px; padding-top: 25px; margin-bottom: 30px;"><div class="right invite-addthis" style="padding: 0; height: 32px;">
+			<div class="addthis_toolbox addthis_default_style addthis_32x32_style" id="invite-5429fbab2a47d">
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_email"></a>
+<a class="addthis_button_compact"></a>
+<div class="options" style="display:none">
+	<span title="title">Join me on Theneeds, your web re-imagined</span>
+	<span title="url">http://www.theneeds.com</span>
+	<span title="lurl">http://www.theneeds.com</span>
+	<span title="twitter">Hey, join me on @theneeds, your web re-imagined. You're going to love it!</span>
+	<span title="related">theneeds</span>
+</div>
+</div>
+			</div>
+			<p class="bottom big strong" style="height: 32px; line-height: 32px; padding: 0;">Invite Friends</p></div><div class="left"><div class="fb-like" style="width: auto!important;" data-layout="standard" data-href="https://www.facebook.com/pages/Theneeds/205467926188696" data-show-faces="yes" data-width="300" data-share="false" data-action="like"></div></div></div><div class="clear list-view list-view-press">
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
+	<h2 class="center gray" style="margin-bottom: 10px;">Featured on</h2>
+	<ul class="home-press-container">
+	<li class="home-press left">
+		<img src="https://s3-us-west-2.amazonaws.com/theneeds-images/press/press_gray_4.png" alt="" />	</li>
+	<li class="home-press left">
+		<img src="https://s3-us-west-2.amazonaws.com/theneeds-images/press/press_gray_0.png" alt="" />	</li>
+	<li class="home-press left">
+		<img src="https://s3-us-west-2.amazonaws.com/theneeds-images/press/press_gray_1.png" alt="" />	</li>
+	<li class="home-press left">
+		<img src="https://s3-us-west-2.amazonaws.com/theneeds-images/press/press_gray_2.png" alt="" />	</li>
+	<li class="home-press left">
+		<img src="https://s3-us-west-2.amazonaws.com/theneeds-images/press/press_gray_3.png" alt="" />	</li>
+	</ul>
+	<p>&nbsp;</p>
+</div>
+</div>
+<div>
+	<p class="clear">&nbsp;</p>
+	<h2 class="center gray" style="margin-bottom: 10px;">About Theneeds</h2>
+	<p class="gray">
+		Theneeds is the best place to discover news, articles, videos, social posts, and more, tailored to your interests.
+		In a nutshell, Theneeds scours the web so you don't have to, constantly learning about your interests, and bringing you only the web you love.<br/>
+		<span class="hidden-phone">Theneeds pulls from thousands of sources, from top sites to cool blogs, social networks, and people just like you, and its advanced AI technology constantly learns from your activity to get smarter and more relevant the more you use it.
+		Enjoy the best content from The New York Times, CNN, Huffington Post, YouTube, Vogue, Rolling Stone, and thousands more, in one single place.</span>
+	</p>
+</div>
+
+        <div class="hide modal fade" id="loading"><div class="containter center"><br/><p class="big">Sorry, loading seems to be taking a while...</p><img src="/img/loading.gif" alt="" /><br/><br/><br/><p>please wait or refresh the page and try again</p><br/></div></div>	</div>
+            <footer>
+            <div class="container">
+            <div class="row-fluid">
+                <div class="block left" style="margin-bottom: 9px;">
+                    <p class="left">&copy; 2013 Theneeds, Inc.</p>
+                    <ul id="menuFooter">
+<li><a href="/page/what_is_tn.html">About</a></li>
+<li><a href="/page/dev_overview.html">Partners</a></li>
+<li><a href="/page/terms_of_service.html">Legal</a></li>
+</ul>                    <p class="visible-desktop">Theneeds is a registered trademark of Theneeds, Inc. Patent-pending technology. All rights reserved.</p>
+                </div>                
+                <div class="block footer-follow right">
+                    <p class="left visible-phone">Follow us</p>
+                    <ul class="right" id="menuFollow">
+<li><a target="_blank" href="https://medium.com/@theneeds">Blog</a></li>
+<li><a target="_blank" href="https://twitter.com/theneeds">Twitter</a></li>
+<li><a target="_blank" href="https://www.facebook.com/pages/Theneeds/205467926188696">Facebook</a></li>
+<li><a target="_blank" href="https://www.linkedin.com/company/2393731">Linkedin</a></li>
+</ul>                    <p class="right hidden-phone">Follow us</p>
+                    <p class="right" style="margin: 0">made with <span class="red">&hearts;</span> in <a href="http://rocket-space.com" target="_blank">San Francisco</a></p>
+                </div>
+            </div>
+        </div>    
+        </footer>
+        
+
+        <div class="portlet" id="signin-portlet">
+<div class="portlet-content">
+<div class="hide modal fade" id="signin">    <div class="modal-header" style="border: 0;">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        &nbsp;
+    </div>
+    <div class="modal-body">
+
+    <div class="span8">
+            <div class="row">
+            <div class="span4">
+                <div class="content signin-content signin-content-left" style="padding-top: 0">
+
+                    <h2 style="font-size: 23px; line-height: 32px; height: auto;" class="signin-title">Discover Theneeds.</h2>
+                    <p class="signin-hero">
+                        News, articles, videos, social posts, and more, tailored to your interests.
+                    </p>
+                    <br/><br/>
+                    <h2 class="signin-title">Why join Theneeds?</h2>
+                    <br/>
+                    <p class="signin-hero">
+                        <i class="icon-ok"></i>&nbsp;&nbsp;to see your personalized stream<br/>
+                        <i class="icon-ok"></i>&nbsp;&nbsp;to help curate what matters most<br/>
+                        <i class="icon-ok"></i>&nbsp;&nbsp;to save what you like for later<br/>
+                        <i class="icon-ok"></i>&nbsp;&nbsp;to share on your social networks<br/>
+                    </p>                    
+                </div>
+            </div>
+            <div class="span4">
+                <div class="content signin-content" style="padding-top: 0">
+
+
+    <h2 style="font-size: 23px; line-height: 32px; height: auto;" class="signin-title">Sign up or login with</h2>
+    <br/>
+    <div class="signin-images">
+    <a href="https://www.theneeds.com/account/facebook"><img class="i48" src="/themes/tnb/images/apps/48x48/facebook.com.2x.png" alt="" /></a><a href="https://www.theneeds.com/account/twitter"><img class="i48" src="/themes/tnb/images/apps/48x48/twitter.com.2x.png" alt="" /></a><a href="https://www.theneeds.com/account/google"><img class="i48" src="/themes/tnb/images/apps/48x48/google.com.2x.png" alt="" /></a>    </div>
+
+    <div class="hidden-phone"><br/></div>
+    <p class="bottom gray"><br/>or login with <a onclick="$(&#039;#login-form&#039;).toggle(); return false;" class="gray" style="text-decoration: underline;" href="#">Email or Username</a><br/><br/></p>
+
+    <form class="hide form-vertical" id="login-form" action="https://www.theneeds.com/login" method="post">
+<div style="display:none"><input type="hidden" value="a355b930a54dd12f0ba240280a6793c7b428505f" name="YII_CSRF_TOKEN" /></div>        <fieldset class="hide-label">
+        <label for="UserGroupsUser_username">Username</label><input placeholder="Email or Username" name="UserGroupsUser[username]" id="UserGroupsUser_username" type="text" maxlength="120" /><br/><br/><label for="UserGroupsUser_password">Password</label><input placeholder="Password" name="UserGroupsUser[password]" id="UserGroupsUser_password" type="password" maxlength="120" /><p class="help-block"><a class="right small" href="https://www.theneeds.com/passReset">Forgot your password?</a></p><span class="clear">&nbsp;</span><label class="checkbox" for="UserGroupsUser_rememberMe"><input id="ytUserGroupsUser_rememberMe" type="hidden" value="0" name="UserGroupsUser[rememberMe]" /><input checked="checked" name="UserGroupsUser[rememberMe]" id="UserGroupsUser_rememberMe" value="1" type="checkbox" />
+Keep me signed in<p class="help-block"></p></label>        </fieldset>
+        <div class="xform-actions">
+            <input style="width: 82px" class="right btn btn-primary" type="submit" name="yt0" value=" Login " />            &nbsp;
+        </div>
+    </form>    <br/>
+    
+        <br/><div class="fb-like" style="" data-layout="standard" data-href="https://www.facebook.com/pages/Theneeds/205467926188696" data-show-faces="yes" data-width="266" data-share="false" data-action="like"></div>                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+
+</div><div class="hide modal fade" id="signin2">
+
+    <div class="modal-body">
+
+
+    <div class="span8" style="position: relative; overflow: hidden;">
+
+                <div id="scroll" style="height: 420px; overflow: hidden; margin-left: 200px">
+        <div>
+        <img src="https://s3-us-west-2.amazonaws.com/theneeds-images/logo/theneeds_preview_signup.jpg" alt="" />        <img src="https://s3-us-west-2.amazonaws.com/theneeds-images/logo/theneeds_preview_signup.jpg" alt="" />        </div>
+        </div>
+
+        <div class="signin2-shadow">
+            &nbsp;
+        </div>
+        
+        <div class="row" style="position: absolute; top: 0; left: 0;">
+            <div class="span4" style="height: 420px; margin-left: 0px; padding-left: 12px; padding-right: 12px;">
+                <div class="content signin-content signin-content-left">
+                <div class="modal-signup-content">
+                    <h2 style="font-size: 23px; line-height: 32px; height: auto;" class="signin-title">Discover Theneeds.</h2>
+                    <p class="signin-hero">News, articles, videos, social posts, and more, tailored to your interests.</p>
+
+                                        <br/>
+
+                    <div class="signin-images">
+                    <a href="https://www.theneeds.com/account/facebook"><img class="i48" src="/themes/tnb/images/apps/48x48/facebook.com.2x.png" alt="" /></a><a href="https://www.theneeds.com/account/twitter"><img class="i48" src="/themes/tnb/images/apps/48x48/twitter.com.2x.png" alt="" /></a><a href="https://www.theneeds.com/account/google"><img class="i48" src="/themes/tnb/images/apps/48x48/google.com.2x.png" alt="" /></a>                    </div>
+                </div>
+                                        <p class="bottom">Sign up later?&nbsp;
+                    <a class="light" data-dismiss="modal" href="#">Explore as guest &rarr;</a>                    </p>
+                                        <br/><div class="fb-like" style="" data-layout="standard" data-href="https://www.facebook.com/pages/Theneeds/205467926188696" data-show-faces="yes" data-width="266" data-share="false" data-action="like"></div>                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    </div>
+</div>
+</div>
+</div>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
+                <script src="/js/plugins.min.js?v=178"></script>
+        <!--[if IE]>
+        <script src="/js/vendor/jquery.html5form-1.5.js"></script>
+        <![endif]-->
+		    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+var addthis_config={'pubid':'ra-4f353f786c4dd774'};
+jQuery(function($) {
+
+	    var is_touch_device = ('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch;
+	    if (!is_touch_device) {
+			$(document).on('mouseenter', '.needList .view', function(e) {
+				if ((e.pageX - this.offsetLeft) <= 60)
+					$(this).addClass('enterR');
+				else
+					$(this).addClass('enterL');
+				$(this).addClass('mouse').addClass('timer').delay(250).queue(function() {
+					$(this).removeClass('timer');
+					if( !$(this).hasClass('mouse') )
+						$(this).removeClass('enterL').removeClass('enterR');
+					$(this).dequeue();
+				});
+			});
+			$(document).on('mouseleave', '.needList .view', function(e) {
+				$(this).removeClass('mouse');
+				if( !$(this).hasClass('timer') )
+				$(this).removeClass('enterL').removeClass('enterR');
+			});
+		}
+	
+ 
+        setInterval( function() { 
+            var cur = $('.needs-carousel .active');
+            var next = cur.next('.item'); if (!next.length) next = $('.needs-carousel .item').first(); 
+            cur.fadeOut('slow', function() { $(this).removeClass('active'); next.fadeIn('slow').addClass('active'); /*$('img.tn, img.theneeds').animate({ 'background-color': next.css('color') });*/ });
+        }, 6000 );
+    
+        $('#homeCarousel').carousel({interval: 8000, pause: 'hover'});
+    
+
+	            jQuery.fn.addThisWrapper = function() {
+		            $(this).each(function() {
+		            	var id      = $(this).attr('id');
+	   	        		var share   = $(this).find('> div.options');
+						var options = {};
+						$(share).children().each(function() {
+							title = $(this).attr('title');
+							options[title] = $(this).text();
+						});
+	   	    			addthis.toolbox('#'+id, addthis_config, {
+	   	    				'title':options.title,
+	   	    				'description':options.description,
+	  	    				'url':options.url,
+	   	    				'lurl':options.lurl,
+	   	    				'passthrough':{'twitter':{'text':options.twitter,'related':options.related}}
+	   					});
+					});
+					return this;
+				};
+	            $('.addthis_toolbox').addThisWrapper();
+	        
+jQuery('#loading').modal({'backdrop':false,'show':false});
+
+		jQuery.tn.refreshList(['tooltip', 'popover']);
+		$('form').html5form({async: false});
+		var topbarMessage = 0;
+	
+		if (!topbarMessage && document.cookie.indexOf('iphone_redirect=0') == -1) {
+			if (window.innerWidth > 767) {
+				topbarMessage = true;
+				$('#home-message-iphone').show();
+				$('body').css('padding-top', $('#headershadow').height());
+				$(window).trigger('resize');
+			}
+		}
+		$(document).on('click', '#home-message-iphone-close', function() {
+			$('#home-message-iphone').hide();
+			if ($('body').css('padding-top')) $('body').css('padding-top', $('#headershadow').height());
+			$(window).trigger('resize');
+			jQuery.get('http://www.theneeds.com/?utm_landing=iphone', {
+				'cache': false,
+			});
+			return false;
+		})
+		
+
+        $(document).on('click', '.require-signin, a[href="https://www.theneeds.com/login"]', function (e) {
+            $(this).tooltip('hide');
+            $('#signin').modal('show');
+            return false;
+        });
+    
+        function move() {
+            var h = $('#scroll > div > img:first').height();
+            if (!scrolling) {
+            scrolling = true;
+            $('#scroll > div').css('margin-top', 0)
+                .animate({'margin-top': -h}, 200000, 'linear', function() {
+                    scrolling = false;
+                    if (scrollTimer) move();
+                });
+            }
+        }
+
+        var modalTimer;
+        var scrollTimer = false;
+        var scrolling = false;
+        var modalReturn = false;
+        $('#signin').on('shown', function() {
+            clearTimeout(modalTimer);
+        });
+        $('#signin2').on('show', function() {
+            return $('.modal:visible').length == 0;
+        });
+        $('#signin2').on('hide', function() {
+            scrollTimer = false;
+            if (modalReturn) { 
+                if (modalReturn.attr('target')=='_blank')
+                    window.open(modalReturn.attr('href'));
+                modalReturn.click();
+                modalReturn = false;
+            }
+        });
+        $('#signin').on('click', '.signin-images a', function() {
+            jQuery.tn.analytics('signup-login-social', '');
+            return true;
+        });
+        $('#signin2').on('click', '.signin-images a', function() {
+            jQuery.tn.analytics('signup-signup-social', '');
+            return true;
+        });
+    
+        $('#signin2').on('shown', function() {
+            clearTimeout(modalTimer);
+            scrollTimer = true;
+            move();
+        });
+    
+        $('#universe').on('click', '.require-signin2', function (e) {
+            $(this).tooltip('hide');
+            modalReturn = $(this);
+            $('#signin2').modal('show');
+            $('#universe').off('click', '.require-signin2');
+            return false;
+        });
+    
+jQuery('#signin').modal({'show':false});
+jQuery('#signin2').modal({'show':false,'backdrop':true});
+});
+/*]]>*/
+</script>
+</body>
+</html>

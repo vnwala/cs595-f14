@@ -1,0 +1,2415 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warnung: Gib dein Tumblr-Passwort nur dann ein, wenn du \u201chttps://www.tumblr.com/login\u201d\x0ain der Adresszeile deines Browsers siehst.\x0a\x0aAu\u00dferdem sollte dort ein gr\u00fcnes \u201cTumblr, Inc.\u201d-Logo zu sehen sein.\x0a\x0aSpammer und andere Strolche benutzen gef\u00e4lschte Formulare, um an Passw\u00f6rter zu kommen.\x0a\x0aTumblr wird dich niemals bitten, dich vom Blog eines Users aus einzuloggen.\x0a\x0aWillst du ganz sicher fortfahren?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+ <!--    
+        + wave theme by tukut +
+         
+please direct any questions or inquiries
+to http://www.tukut.tumblr.com/
+         
+        + do not remove credit +
+-->
+ 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+ 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+ 
+ 
+ 
+ 
+
+ 
+ 
+<script>
+ 
+// Mouseover/ Click sound effect- by JavaScript Kit (www.javascriptkit.com)
+// Visit JavaScript Kit at http://www.javascriptkit.com/ for full source code
+ 
+//** Usage: Instantiate script by cwrappering: var uniquevar=createsoundbite("soundfile1", "fwrapperbackfile2", "fwrapperebacksound3", etc)
+//** Cwrapper: uniquevar.playclip() to play sound
+ 
+var html5_audiotypes={ //define list of audio file extensions and their associated audio types. Add to it if your specified audio file isn't on this list:
+        "mp3": "audio/mpeg",
+        "mp4": "audio/mp4",
+        "ogg": "audio/ogg",
+        "wav": "audio/wav"
+}
+ 
+function createsoundbite(sound){
+        var html5audio=document.createElement('audio')
+        if (html5audio.canPlayType){ //check support for HTML5 audio
+                for (var i=0; i<arguments.length; i++){
+                        var sourceel=document.createElement('source')
+                        sourceel.setAttribute('src', arguments[i])
+                        if (arguments[i].match(/\.(\w+)$/i))
+                                sourceel.setAttribute('type', html5_audiotypes[RegExp.$1])
+                        html5audio.appendChild(sourceel)
+                }
+                html5audio.load()
+                html5audio.playclip=function(){
+                        html5audio.pause()
+                        html5audio.currentTime=0
+                        html5audio.play()
+                }
+                return html5audio
+        }
+        else{
+                return {playclip:function(){throw new Error("Your browser doesn't support HTML5 audio unfortunately")}}
+        }
+}
+ 
+//Initialize two sound clips with 1 fwrapperback file each:
+ 
+var mouseoversound=createsoundbite("")
+var clicksound=createsoundbite("")
+ 
+</script>
+
+ 
+ <link href="#s-m-t-tooltip" rel="stylesheet" type="text/css" /> <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script> <script type="text/javascript" src="http://static.tumblr.com/7qjmkr5/IUmmdsy41/jquery.style-my-tooltips.js"></script> <script> (function($){ $(document).ready(function(){ $("[title]").style_my_tooltips(); }); })(jQuery); </script>
+ 
+ 
+ 
+ 
+<title>because you need us</title>
+<link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_a13f019f31fd_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://tonystarklcrd.tumblr.com/rss">
+<meta name="description" content="hi i&#039;m simon &amp; i&#039;m a very good reblogger so stop judging me mom! multifandom/personal/anime /youtubers you can find me on twitter: @starIordvevo i&acute;m always home and don&acute;t really have human contact..." />
+ 
+ 
+ 
+<meta name="color:Background" content="#9ed1d6"/>
+<meta name="color:Text" content="#51535e"/>    
+<meta name="color:Chat1" content="#eafdbc"/>
+<meta name="color:Chat2" content="#bce8fe"/>
+<meta name="color:ChatBorder" content="#b3cbe2"/>
+<meta name="color:Footer" content="#e2ffba"/>
+<meta name="color:FooterBorder" content="#b3ce91"/>
+<meta name="color:FooterText" content="#54565d"/>
+<meta name="color:Link" content="#8d7fd7"/>    
+<meta name="color:Hover" content="#6c8cce"/>
+<meta name="color:HoverBG" content="#abf9ff"/>
+<meta name="color:Border" content="#ffffff"/>
+<meta name="color:WrapperBorder" content="#ffffff"/>
+<meta name="color:Accent" content="#dadcf5"/>
+<meta name="color:AccentText" content="#707070"/>
+<meta name="color:AccentBorder" content="#b8bbde"/>
+<meta name="color:ImgBorder1" content="#d2fff9"/>
+<meta name="color:ImgBorder2" content="#969fe4"/>
+<meta name="color:Line" content="#93a8d1"/>
+<meta name="color:Blockquote" content="#ffffff"/>
+<meta name="color:Search" content="#e2ffbd"/>
+<meta name="color:SearchBorder" content="#c0d6a0"/>
+<meta name="color:SearchText" content="#505058"/>
+<meta name="color:Nav" content="#e4ffb5"/>
+<meta name="color:NavBorder" content="#bbd4a2"/>
+<meta name="color:NavText" content="#464856"/>
+<meta name="color:ScrollbarThumb" content="#e2ffab"/>
+<meta name="color:scrollbarBG" content="#b4a8f4"/>  
+<meta name="color:Selection" content="#8996c9"/>  
+<meta name="color:SelectionBG" content="#ffffff"/>  
+<meta name="color:Tooltip" content="#dadcf5"/>  
+<meta name="color:TooltipBorder" content="#b8bbde"/>  
+<meta name="color:TooltipText" content="#707070"/>  
+ 
+ 
+<meta name="image:Sidebar" content=""/>
+<meta name="image:Background" content=""/>
+<meta name="image:Pixelie" content=""/>
+<meta name="image:Bottom" content=""/>
+ 
+ 
+<meta name="text:ClickSoundMP3" content="http://a.tumblr.com/tumblr_mzbd1tcAgS1svhlqqo1.mp3#_=_" />
+<meta name="text:HoverSoundMP3" content="http://a.tumblr.com/tumblr_mzbcwoFx741svhlqqo1.mp3#_=_" />
+ 
+ 
+    <meta name="text:MenuTitle" content="Navigation" />
+    <meta name="text:link 1 url" content="" />
+    <meta name="text:link 1" content="" />
+    <meta name="text:link 2 url" content="" />
+    <meta name="text:link 2" content="" />
+    <meta name="text:link 3 url" content="" />  
+    <meta name="text:link 3" content="" />
+    <meta name="text:link 4 url" content="" />  
+    <meta name="text:link 4" content="" />
+    <meta name="text:link 5 url" content="" />
+    <meta name="text:link 5" content="" />
+    <meta name="text:link 6 url" content="" />  
+    <meta name="text:link 6" content="" />  
+    <meta name="text:link 7 url" content="" />
+    <meta name="text:link 7" content="" />
+    <meta name="text:link 8 url" content="" />  
+    <meta name="text:link 8" content="" />
+    <meta name="text:BottomImageLeft" content="50" />  
+    <meta name="text:BottomImageTop" content="50" />
+     
+     
+    <meta name="select:BodyTransparency" content="1" title="opaque">
+    <meta name="select:BodyTransparency" content=".9" title=".9">
+    <meta name="select:BodyTransparency" content=".8" title=".8">
+    <meta name="select:BodyTransparency" content=".7" title=".7">
+    <meta name="select:BodyTransparency" content=".6" title=".6">
+    <meta name="select:BodyTransparency" content=".5" title="semi-transparent">
+    <meta name="select:BodyTransparency" content=".4" title=".4">
+    <meta name="select:BodyTransparency" content=".3" title=".3">
+    <meta name="select:BodyTransparency" content=".2" title=".2">
+    <meta name="select:BodyTransparency" content=".1" title=".1">
+    <meta name="select:BodyTransparency" content=".0" title="transparent">
+    <meta name="select:WrapperTransparency" content="1" title="opaque">
+    <meta name="select:WrapperTransparency" content=".9" title=".9">
+    <meta name="select:WrapperTransparency"  content=".8" title=".8">
+    <meta name="select:WrapperTransparency"  content=".7" title=".7">
+    <meta name="select:WrapperTransparency"  content=".6" title=".6">
+    <meta name="select:WrapperTransparency"  content=".5" title="semi-transparent">
+    <meta name="select:WrapperTransparency"  content=".4" title=".4">
+    <meta name="select:WrapperTransparency"  content=".3" title=".3">
+    <meta name="select:WrapperTransparency"  content=".2" title=".2">
+    <meta name="select:WrapperTransparency"  content=".1" title=".1">
+    <meta name="select:WrapperTransparency"  content=".0" title="transparent">
+   
+   
+    <meta name="select:bodyColor" content="255,255,255" title="white">
+    <meta name="select:bodyColor" content="255,212,245" title="pink">  
+    <meta name="select:bodyColor" content="217,212,255" title="indigo">
+    <meta name="select:bodyColor" content="212,227,255" title="blue">
+    <meta name="select:bodyColor" content="255,253,184" title="yellow">
+    <meta name="select:bodyColor" content="103,173,90" title="green">    
+    <meta name="select:bodyColor" content="222,222,222" title="gray">  
+    <meta name="select:bodyColor" content="252,93,93" title="red">
+    <meta name="select:bodyColor" content="181,251,255" title="cyan">
+    <meta name="select:bodyColor" content="0,0,0" title="black">
+   
+   
+    <meta name="select:WrapperColor" content="217,212,255" title="indigo">  
+    <meta name="select:WrapperColor" content="255,255,255" title="white">
+    <meta name="select:WrapperColor" content="255,212,245" title="pink">  
+    <meta name="select:WrapperColor" content="212,227,255" title="blue">
+    <meta name="select:WrapperColor" content="255,253,184" title="yellow">
+    <meta name="select:WrapperColor" content="103,173,90" title="green">    
+    <meta name="select:WrapperColor" content="222,222,222" title="gray">  
+    <meta name="select:WrapperColor" content="252,93,93" title="red">
+    <meta name="select:WrapperColor" content="181,251,255" title="cyan">
+    <meta name="select:WrapperColor" content="0,0,0" title="black">
+   
+   
+   
+<meta name="select:Font" content="Arial" title="Arial">
+<meta name="select:Font" content="Consolas" title="Consolas">
+<meta name="select:Font" content="Lucida Sans" title="Lucida Sans">
+<meta name="select:Font" content="Calibri" title="Calibri">
+<meta name="select:Font" content="Verdana" title="Verdana">  
+<meta name="select:Font" content="Corbel" title="Corbel">
+<meta name="select:Font" content="Franklin Gothic Book" title="Franklin">  
+   
+   
+    <meta name="select:LikeReblogPerm" content="
+    filter:invert(20%);
+    -webkit-filter:invert(20%);
+    -moz-filter:invert(20%);
+    -o-filter:invert(20%);" title="gray">
+    <meta name="select:LikeReblogPerm" content="
+    filter:invert(0%);
+    -webkit-filter:invert(0%);
+    -moz-filter:invert(0%);
+    -o-filter:invert(0%);" title="white">
+    <meta name="select:LikeReblogPerm" content="
+    filter:invert(100%);
+    -webkit-filter:invert(100%);
+    -moz-filter:invert(100%);
+    -o-filter:invert(100%);" title="Black">  
+   
+    <meta name="select:SidebarImgShape" content="
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;" title="Circle">
+    <meta name="select:SidebarImgShape" content="
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;" title="Rounded">
+    <meta name="select:SidebarImgShape" content="" title="Square">
+   
+ 
+ 
+<meta name="select:SidebarStyle" content="
+            margin-top:70px;  
+            -webkit-border-radius: 245px 245px 15px 15px;
+            -moz-border-radius: 245px 245px 15px 15px;
+            border-radius:  245px 245px 15px 15px;
+            height:100%;  
+            padding-top: 10px;" title="Bottom Circle">
+           
+ <meta name="select:SidebarStyle" content="
+            padding-top: 113px;  
+            margin-top:-33px;
+            width: 200px
+            height:100%;
+            -webkit-border-radius: 0 0 5px 5px;
+            -moz-border-radius:  0 0 5px 5px;
+            border-radius:  0 0 5px 5px;" title="Full Tall">
+   
+ <meta name="select:SidebarStyle" content="  
+            margin-top:70px;  
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            height:100%;  
+            padding-top: 10px;" title="Bottom Rectangle">
+ 
+ <meta name="select:SidebarStyle" content="
+            padding-top: 30px;
+            margin-top:-33px;
+            -webkit-border-bottom-left-radius:245px;
+            -moz-border-bottom-left-radius: 245px;
+            border-bottom-left-radius:  245px;
+            -webkit-border-bottom-right-radius:245px;
+            -moz-border-bottom-right-radius: 245px;
+            border-bottom-right-radius:  245px;" title="Top Circle">
+           
+ <meta name="select:SidebarStyle" content="
+            padding-top: 30px;
+            margin-top:-33px;
+            -webkit-border-bottom-left-radius: 5px;
+            -moz-border-bottom-left-radius:  5px;
+            border-bottom-left-radius:  5px;
+            -webkit-border-bottom-right-radius: 5px;
+            -moz-border-bottom-right-radius:  5px;
+            border-bottom-right-radius:  5px;" title="Top Rectangle">
+           
+ <meta name="select:SidebarStyle" content="
+            margin-top:70px;  
+            -webkit-border-radius: 245px 245px 15px 15px;
+            -moz-border-radius: 245px 245px 15px 15px;
+            border-radius:  245px 245px 15px 15px;  
+            padding-top: 10px;" title="Middle Both">
+           
+ <meta name="select:SidebarStyle" content="
+            margin-top:70px;  
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius:  5px;  
+            padding-top: 10px;" title="Middle Rectangle">
+           
+ <meta name="select:SidebarStyle" content="
+            margin-top:70px;  
+            -webkit-border-radius: 245px;
+            -moz-border-radius: 245px;
+            border-radius:  245px;
+            padding-top: 10px;" title="Middle Circle">
+           
+           
+             <meta name="if:SidebarWrapper" content="1" />
+    <meta name="if:Footers" content="1" />
+    <meta name="if:FooterReblogLink" content="0" />  
+    <meta name="if:SidebarImgBorder" content="1" />
+   
+    <meta name="if:SearchBox" content="1" />
+     
+   
+     
+    <meta name="if:SideHover" content="1" />
+    <meta name="if:HoverTags" content="1" />
+    <meta name="if:TransparentSideHover" content="0" />
+    <meta name="if:Sounds" content="1" />
+    <meta name="if:Border" content="1" />
+    <meta name="if:NavButtons" content="1" />
+    <meta name="if:NavMenu" content="0" />  
+    <meta name="if:ShowCaptions" content="1" />
+    <meta name="if:ShowTags" content="1" />
+    <meta name="if:ShowSidebarImage" content="1" />  
+    <meta name="if:HighSidebar" content="1" />
+    <meta name="if:UpsideDown" content="0" />  
+    <meta name="if:MaximizedBackground" content="1" />  
+
+ <style> body, a, a:hover {  }</style>
+ 
+<style type="text/css">
+ 
+  #tumblr_controls{ position:fixed !important; -webkit-filter: invert(100%) } #s-m-t-tooltip { text-align:center; text-transform:lowercase; max-width:320px; z-index:9999999999999; background: #dadcf5; font-size: 11px; word-wrap:break-word; padding: 1px 5px; font-family: Corbel; display: block; letter-spacing:0px; margin-left:28px; margin-top:20px; border: 1px solid #b8bbde; color: #347153; transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; } ::selection { background: #ffffff; color:#915c1c; } ::-moz-selection { background: #ffffff; color:#915c1c; } ::-webkit-selection { background: #ffffff; color:#915c1c; } ::-webkit-scrollbar{ width: 9px; background:#823826; } ::-webkit-scrollbar-track{ background:#823826; } ::-webkit-scrollbar-thumb{ -webkit-box-shadow:inset 1px 1px 2px 0 rgba(255,255,255,.6); box-shadow:inset 1px 1px 2px 0 rgba(255,255,255,.6); background: #529ECC; border: 2px solid #823826; } ::-webkit-scrollbar-corner{ } .clear { clear: both; height: 0px; overflow: hidden; }
+  body {  background:#f5ad58 url('http://assets.tumblr.com/images/x.gif') no-repeat center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;   margin:0px; color:#00072e; font-family: Corbel; } a { text-decoration:none; -moz-outline-style:none; color:#ae4b33; cursor:help; } img { border:none; } a:hover { opacity:1; color:#315f7a; background:#315f7a;   }
+  #seokjin {   border: 1px solid #ae4b33;  background:rgba(212,227,255,1 );  transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; padding-left:15px; padding-right:15px; padding-bottom:5px; position:fixed; width:150px; margin-left:-230px; 
+            padding-top: 113px;  
+            margin-top:-33px;
+            height:100%;
+            -webkit-border-radius: 0 0 5px 5px;
+            -moz-border-radius:  0 0 5px 5px;
+            border-radius:  0 0 5px 5px; } #seokjin .profile {  text-align:center; margin-bottom:15px; margin-top:15px; }
+ 
+ #seokjin .profile a{}
+ #seokjin .profile a:hover{background:none;}
+ 
+ 
+ 
+  #seokjin .profile img{ padding:3px; 
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px; position:relative;  border:1px solid #ae4b33; background: #ae4b33;  max-width:120px; /*height:120px;*/ transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; } #seokjin .profile:hover img{ transform: scale(1.15); -ms-transform: scale(1.15); -webkit-transform: scale(1.15); -moz-transform: scale(1.15); } .zelo{ font-family: Corbel; font-size:11px; text-align:center; margin-bottom:11px; text-transform:lowercase; } .zelo a{ margin-left:3px; margin-right:3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background: rgba(222,222,222,.5);  border: 1px solid #e17e66;  padding: 1px 5px; transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; } .zelo a:hover{ color:#315f7a; } #seokjin .desc { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; outline:0px auto #e17e66; background: rgba(222,222,222,.5);  border:1px solid #e17e66;  padding:10px 10px; color:#00072e; text-align:center; }
+  #seokjin .desc a{
+ transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out;
+  }
+ 
+  #seokjin .desc a:hover{ color:#315f7a; } #pagi{ transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; font-size:11px; text-align:center; letter-spacing:0px; margin-top:12px; margin-bottom:10px;line-height: 22px; } #pagi a{ color:#ae4b33; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; background: rgba(222,222,222,.5); border:1px solid #e17e66;  padding:1px 5px; margin-left:3px; margin-right:3px; transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; } #pagi a:hover{ color:#315f7a; } .nav { text-align: center; width: 100%; margin-top:7px; margin-bottom:0px; font-size:11px; line-height: 22px; } .nav a{ color:#ffffff; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; border: 1px solid #bbd4a2; margin-right: 2px; background-color:#ae4b33; padding: 1px 5px!important; transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; } .nav a:hover{ -webkit-box-shadow: 2px 2px 0 0 #bbd4a2; -moz-box-shadow: 2px 2px 0 0 #bbd4a2; box-shadow: 2px 2px 0 0 #bbd4a2; color:#ffffff!important; } .search { font-family:Corbel; background: #fbdebc; border: 1px solid #c0d6a0; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; } .search form { margin: 0; } .search form .query { padding: 2px; font-family:Corbel; border: none; background: transparent; outline: none; width: 50%; float: left; color: #c27a25; } .search form .submit { background: rgba(255,255,255,.0); color:#c27a25; font-family:Corbel; border:none; padding: 2px 4px; font-size:11px; margin: 3px 3px 2px 0; float: right; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; cursor: pointer; }
+  #wrapper { width:445px; padding-top:30px; padding-right:30px; padding-left:52px; padding-bottom:30px; margin: 0 auto; font-size:11px; }
+ 
+  #youngjae { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; min-height:55px; font-size:11px; outline: 0px auto #e17e66;  border:1px solid #e17e66;   width:400px;  overflow:auto;  word-wrap:break-word; padding-bottom:8px; padding-top:10px; padding-right:10px; padding-left:10px; margin-bottom:30px; background: rgba(222,222,222,.5); transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; }
+  #youngjae:hover{     } #youngjae .link{ -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; color: #707070; letter-spacing:2px; font-size:13px; background:#f7dfd9; padding:6px 8px; overflow:hidden; margin-bottom:3px; border:1px solid #b8bbde; border-bottom:4px solid #b8bbde; text-align:center; transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; }
+  #youngjae .link a{ color:#707070; transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; } #youngjae .link a:hover{ color:#315f7a; } #youngjae .link:hover{ } #youngjae .quote{ -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; color: #707070; letter-spacing:1px; font-size:12px; background:#f7dfd9; padding:6px 2px; margin-top:0px; margin-bottom:4px; border:1px solid #b8bbde; text-align:center; line-height:15px; } .chat ul { list-style: none; margin:0; padding: 0; } .chat li { border:1px solid #b3cbe2; margin-left:3px; margin-top:-1px; color:#00072e; font-size:11px; padding: 3px 5px; width: 382px ; } .chat .odd { float: left; background: #eafdbc; } .chat .even { float: left ; background: #bce8fe; } #youngjae .title{ -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; color: #707070; letter-spacing:2px; font-size:17px; background:#f7dfd9; padding:6px 2px; margin-top:0px; margin-bottom: 3px; border:1px solid #b8bbde; text-align:center; transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; } #youngjae .texto{ margin-bottom:0px; margin-top:0px; padding:1px 5px; } #youngjae .texto a{ transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; } #youngjae .texto a:hover{ } #youngjae blockquote{ margin-left:12px; width:90%; padding-top:1px; word-wrap:break-word; background:rgba(0,0,0,.02); border-left:1px solid #ffffff; padding-left:12px; padding-bottom:1px; padding-right:0px; } #youngjae img{ max-width:100%; } pre{ letter-spacing:1px; font-size:10px; padding-right:5px; font-family:arial; } #youngjae #bap { 
+    filter:invert(20%);
+    -webkit-filter:invert(20%);
+    -moz-filter:invert(20%);
+    -o-filter:invert(20%); text-align:center; padding:3px; font-size:13px; background: transparent; margin-top:-11px; margin-left:410px; height:90px; width:0px; overflow:hidden; position:absolute; opacity:0; transition: .1s ease-in; -moz-transition: .1s ease-in; -webkit-transition: .1s ease-in; } #youngjae:hover #bap { height:90px; opacity:1; width:19px; transition: .2s ease-in; -moz-transition: .2s ease-in; -webkit-transition: .2s ease-in; }
+ 
+  #youngjae #bap a:hover{background:transparent;}
+ 
+  #youngjae #jonguppie{  padding-top:4px; padding-bottom:2px; margin-top: 0px; text-align:center; border-top: 1px dashed #93a8d1; overflow:hidden; } #youngjae #jonguppie .tags{ text-transform:lowercase; line-height:20px; display:block; margin-top:-2px; margin-left:2px; } #youngjae #jonguppie a{ color:#ae4b33; } #youngjae #jonguppie .tags a{ -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; color: #54565d; margin-right:4px; padding:1px 5px; background: #e2ffba; border:1px solid #b3ce91; transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; } #youngjae #jonguppie .tags a:hover{ color: #54565d; -webkit-box-shadow: 2px 2px 0 0 #b3ce91; -moz-box-shadow: 2px 2px 0 0 #b3ce91; box-shadow: 2px 2px 0 0 #b3ce91; } #youngjae #jonguppie #bebop {   max-height:0px;   margin-bottom:-3px;  transition: .4s ease-in-out; -moz-transition: .4s ease-in-out; -webkit-transition: .4s ease-in-out; } 
+  #youngjae #jonguppie:hover #bebop {  max-height:245px; transition: .6s ease-in-out; -moz-transition: .6s ease-in-out; -webkit-transition: .6s ease-in-out; }  #youngjae #jonguppie #bebop .tago {  max-height:231px; overflow:auto; color:#00072e; margin-top:4px; line-height:15px; font-size:11px; } #youngjae #jonguppie
+  #bebop .tago a{ transition: .8s ease-in-out; -moz-transition: .8s ease-in-out; -webkit-transition: .8s ease-in-out; color:#00072e; } #youngjae #jonguppie #bebop .tago a:hover{ transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; color:#315f7a; } #youngjae #jonguppie #bebop .tago { } #youngjae #jonguppie a:hover{ color:#00072e; } .qwrapper{ min-height:15px; padding:20px; position:relative; } .question { -webkit-border-radius: 5px; -webkit-border-top-left-radius: 0; -moz-border-radius: 5px; -moz-border-radius-topleft: 0; border-radius: 5px; border-top-left-radius: 0; margin-top:-20px; margin-left:41px; margin-bottom:10px; position:relative; width:310px; float:left; text-align:justify; border:1px solid #b8bbde; background: #f7dfd9; color: #707070; font-size:11px; padding: 12px 12px; overflow:hidden; transition: .4s ease-in-out; -moz-transition: .4s ease-in-out; -webkit-transition: .4s ease-in-out; } .question a{ letter-spacing:0px; color:#707070; transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; } .question:hover a{ color:#707070; } #youngjae:hover .question { } .jihoon { overflow:hidden; width:48px; height:48px; background: #ae4b33; border:1px solid #ae4b33; padding:3px; float:left; position:absolute; overflow:hidden; margin-top:-24px; margin-left:-24px; -moz-border-radius: 38px; -webkit-border-radius: 38px; border-radius: 38px; transition: .4s ease-in-out; -moz-transition: .4s ease-in-out; -webkit-transition: .4s ease-in-out; } .qarrowleft { z-index:9999999; margin-top:-7px; margin-left:52px; position:absolute; width: 0; height: 0; -moz-transform: rotate(135deg); -webkit-transform: rotate(135deg); -o-transform: rotate(135deg); -ms-transform: rotate(135deg); transform: rotate(135deg); border-top: 11px solid transparent; border-bottom: 11px solid transparent; border-right:11px solid #b8bbde; transition: .4s ease-in-out; -moz-transition: .4s ease-in-out; -webkit-transition: .4s ease-in-out; } #youngjae:hover .jihoon{ -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); } .jihoon img { width:48px; -moz-border-radius: 28px; -webkit-border-radius: 28px; border-radius: 28px; }
+  #asswipe{ margin:8px; float:left; width:80px; background: #ae4b33; border:3px solid #ae4b33; height:80px; overflow:hidden; transition: .4s ease-in-out; -moz-transition: .4s ease-in-out; -webkit-transition: .4s ease-in-out; -moz-border-radius: 80px; -webkit-border-radius: 80px; border-radius: 80px; } #youngjae:hover #asswipe{ -moz-transform: rotate(360deg); -webkit-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); } #rapmon{ position:relative; float:left; width: 280px ; background-color:#fff; overflow-x:hidden; overflow-y:hidden; -moz-transition: all .9s ease; -o-transition: all .9s ease; transition: all .9s ease; -webkit-transition: all .9s ease; color:#00072e; margin-top:-10px; margin-left:-5px; } .arrow-left { margin-top:30px; margin-left:80px; position:absolute; width: 0; height: 0; border-top: 21px solid transparent; border-bottom: 20px solid transparent; border-right:25px solid #b8bbde; transition: .4s ease-in-out; -moz-transition: .4s ease-in-out; -webkit-transition: .4s ease-in-out; } #youngjae #yonggu { -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; position:absolute; margin-left:105px; border:8px solid #b8bbde; font-size:11px; font-family:calibri; text-transform: none; float:right; margin-top:30px; padding:5px; padding-top:8px; overflow:hidden; color: #707070; background: #f7dfd9; width:260px; height:12px; transition: .4s ease-in-out; -moz-transition: .4s ease-in-out; -webkit-transition: .4s ease-in-out; } #youngjae:hover #yonggu{ position:absolute; margin-top:8px; height:60px; } #youngjae:hover .arrow-left { border-right:25px solid #b8bbde; margin-top:8px; } ol.notes { max-height:300px; overflow-y:auto; padding: 0px; margin: 5px 0px; list-style-type: none; } ol.notes a{ transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; } ol.notes li.note { padding: 5px; } ol.notes li.note img.avatar { -moz-border-radius: 18px; -webkit-border-radius: 18px; border-radius: 18px; vertical-align: -4px; margin-right: 10px; width: 16px; height: 16px; } ol.notes li.note span.action { font-weight: normal; } ol.notes li.note .answer_content { font-weight: normal; } ol.notes li.note blockquote { border-color: #ffffff; padding: 4px 10px; margin: 10px 0px 0px 25px; } ol.notes li.note blockquote a { text-decoration: none; transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; } #credit { transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; -moz-border-radius: 0 5px 0 0; -webkit-border-radius: 0 5px 0 0; border-radius: 0 5px 0 0; font-size:11px; position:fixed; bottom:-1px; left:-91px; color:#51535e; }  #credit .creditl{ transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; border-top:1px solid #e17e66; border-right:1px solid #e17e66; background: rgba(255,255,255,.8); font-family:consolas; width:75px; float:left; margin-left:2px; padding:3px 4px; margin-right:0px; } #credit .creditr{ transition: .2s ease-in-out; -moz-transition: .2s ease-in-out; -webkit-transition: .2s ease-in-out; background: rgba(255,255,255,.8); border-left:5px solid #e17e66; border-top:1px solid #e17e66; border-right:1px solid #e17e66; -moz-border-radius: 0 5px 0 0; -webkit-border-radius: 0 5px 0 0; border-radius: 0 5px 0 0; font-size:16px; float:right; font-family:arial; padding-top:0px; padding-bottom:1px; padding-left:5px; padding-right:5px; } #credit:hover { left:-1px; } #credit:hover .creditr{ padding-right:4px;} #credit:hover .creditl{ } #credit a{ color:#51535e; }
+ 
+   
+ 
+</style>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=tonystarklcrd" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/squareserif/stylesheet.css?v=4">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="marvel,supernatural,mcu,destiel,peter parker" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="because you need us" /><meta property="og:url" content="http://tonystarklcrd.tumblr.com/?og=1" /><meta property="og:description" content="hi i&#039;m simon &amp; i&#039;m a very good reblogger so stop judging me mom! multifandom/personal/anime..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://31.media.tumblr.com/avatar_a13f019f31fd_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=tonystarklcrd" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=tonystarklcrd" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="tonystarklcrd" /><meta name="twitter:description" content="hi i&#039;m simon &amp; i&#039;m a very good reblogger so stop judging me mom! multifandom/personal/anime
+/youtubers
+
+
+you can find me on twitter: @starIordvevo 
+
+
+i&acute;m always home and don&acute;t really have human contact outside of the internet but that&acute;s fine so please talk to me" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=tonystarklcrd&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=tonystarklcrd&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=tonystarklcrd&amp;referrer=twitter-cards" />
+
+</head><body>
+
+<!-- SCM Music Player http://scmplayer.net -->
+<script type="text/javascript" src="http://scmplayer.net/script.js" 
+data-config="{'skin':'skins/simpleOrange/skin.css','volume':50,'autoplay':false,'shuffle':true,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Ain%27t No Mountain High Enough','url':'https://www.youtube.com/watch?v=-C_3eYj-pOM&list=UU9UWKc_wquDaInyUJuNw7gw'},{'title':'Cherry Bomb','url':'https://www.youtube.com/watch?v=NGGQRJkNutA'},{'title':'Come And Get Your Love','url':'https://www.youtube.com/watch?v=tlU5xmKDLFI'},{'title':'Escape (The Pina Colada Song )','url':'https://www.youtube.com/watch?v=Eyaf1yMHx54'},{'title':'Fooled Around And Fell In Love','url':'https://www.youtube.com/watch?v=PlgW7kGI_8w'},{'title':'Go All The Way','url':'https://www.youtube.com/watch?v=ULL7apmAJTE&list=UU9UWKc_wquDaInyUJuNw7gw&index=8'},{'title':'Hooked On A Feeling','url':'https://www.youtube.com/watch?v=NrI-UBIB8Jk&list=UU9UWKc_wquDaInyUJuNw7gw&index=5'},{'title':'I Want You Back','url':'https://www.youtube.com/watch?v=iK43G0HGGmw'},{'title':'I%27m Not In Love','url':'https://www.youtube.com/watch?v=BmrX4nhEdZY'},{'title':'Moonage Daydream','url':'https://www.youtube.com/watch?v=ZEde35UbwUI&list=UU9UWKc_wquDaInyUJuNw7gw&index=7'},{'title':'O-o-h Child','url':'https://www.youtube.com/watch?v=kmpU_73CXxU&list=UU9UWKc_wquDaInyUJuNw7gw'},{'title':'Spirit in the Sky','url':'https://www.youtube.com/watch?v=n95A6G9IxlM&list=UU9UWKc_wquDaInyUJuNw7gw&index=2'},{'title':'Where Does The Good Go','url':'https://www.youtube.com/watch?v=DDkL4EaUqK8'}]}" ></script>
+<!-- SCM Music Player script end -->
+
+
+ 
+<script type="text/javascript">//** jQuery Scroll to Top Control script- (c) I made this script myself (Kyle Monk) and it is hosted on my personal site so would appreciate if you followed my blog at kylemonk.tumblr.com if you use it or for details on how to change the location.
+//** Graphic originally from tumbler dashboard, for details on how to change graphic colour, contact me at kylemonk.tumblr.com
+//** v1.1 (April 7th, 10'):
+//** 1) Adds ability to scroll to an absolute position (from top of page) or specific element on the page instead.
+//** 2) Fixes scroll animation not working in Opera.
+ 
+var scrolltotop={
+        setting: {startline:0, scrollto: 0, scrollduration:900, fadeduration:[500, 100]},
+        controlHTML: '<img src="http://static.tumblr.com/a33943ccb9a8bb0f911b3b07bd44274d/y5srne8/Ycmnbedrt/tumblr_static_48kiz1vvnmkgkw00w0ggck0kw.gif" style="max-width:240px;" width="" onclick="clicksound.playclip()"/>', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
+        controlattrs: {offsetx:50, offsety:50}, //offset of control relative to right/ bottom of window corner
+        anchorkeyword: '#top', //Enter href value of HTML anchors on the page that should also act as "Scroll Up" links
+ 
+        state: {isvisible:false, shouldvisible:false},
+ 
+        scrollup:function(){
+                if (!this.cssfixedsupport) //if control is positioned using JavaScript
+                        this.$control.css({opacity:0}) //hide control immediately after clicking it
+                var dest=isNaN(this.setting.scrollto)? this.setting.scrollto : parseInt(this.setting.scrollto)
+                if (typeof dest=="string" && jQuery('#'+dest).length==1) //check element set by string exists
+                        dest=jQuery('#'+dest).offset().top
+                else
+                        dest=0
+                this.$body.animate({scrollTop: dest}, this.setting.scrollduration);
+        },
+ 
+        keepfixed:function(){
+                var $window=jQuery(window)
+                var controlx=$window.scrollLeft() + $window.width() - this.$control.width() - this.controlattrs.offsetx
+                var controly=$window.scrollTop() + $window.height() - this.$control.height() - this.controlattrs.offsety
+                this.$control.css({left:controlx+'px', top:controly+'px'})
+        },
+ 
+        togglecontrol:function(){
+                var scrolltop=jQuery(window).scrollTop()
+                if (!this.cssfixedsupport)
+                        this.keepfixed()
+                this.state.shouldvisible=(scrolltop>=this.setting.startline)? true : false
+                if (this.state.shouldvisible && !this.state.isvisible){
+                        this.$control.stop().animate({opacity:1}, this.setting.fadeduration[0])
+                        this.state.isvisible=true
+                }
+                else if (this.state.shouldvisible==false && this.state.isvisible){
+                        this.$control.stop().animate({opacity:0}, this.setting.fadeduration[1])
+                        this.state.isvisible=false
+                }
+        },
+       
+        init:function(){
+                jQuery(document).ready(function($){
+                        var mainobj=scrolltotop
+                        var iebrws=document.all
+                        mainobj.cssfixedsupport=!iebrws || iebrws && document.compatMode=="CSS1Compat" && window.XMLHttpRequest //not IE or IE7+ browsers in standards mode
+                        mainobj.$body=(window.opera)? (document.compatMode=="CSS1Compat"? $('html') : $('body')) : $('html,body')
+                        mainobj.$control=$('<div id="topcontrol">'+mainobj.controlHTML+'</div>')
+                                .css({position:mainobj.cssfixedsupport? 'fixed' : 'absolute', bottom:mainobj.controlattrs.offsety, right:mainobj.controlattrs.offsetx, opacity:0, cursor:'pointer'})
+                                .attr({title:'scroll to top'})
+                                .click(function(){mainobj.scrollup(); return false})
+                                .appendTo('body')
+                        if (document.all && !window.XMLHttpRequest && mainobj.$control.text()!='') //loose check for IE6 and below, plus whether control contains any text
+                                mainobj.$control.css({width:mainobj.$control.width()}) //IE6- seems to require an explicit width on a DIV containing text
+                        mainobj.togglecontrol()
+                        $('a[href="' + mainobj.anchorkeyword +'"]').click(function(){
+                                mainobj.scrollup()
+                                return false
+                        })
+                        $(window).bind('scroll resize', function(e){
+                                mainobj.togglecontrol()
+                        })
+                })
+        }
+}
+ 
+scrolltotop.init()</script>  
+ 
+ 
+ 
+<div id="wrapper">
+ 
+ 
+ 
+ 
+ 
+ 
+<div id="seokjin">
+ 
+ 
+ 
+ 
+<div class="profile">
+ 
+ 
+<a href="/" title="because you need us" onmouseover="mouseoversound.playclip()">
+<img src="http://static.tumblr.com/6f36cce67c55f281c83a95d9c043f9b6/y5srne8/fVenckua5/tumblr_static_2t7n3z0dh20w8k484gsogcwos.png"></a></div>
+ 
+ 
+ 
+ 
+
+ 
+ 
+<div class="zelo">
+<a href="/" title="Home">Home</a><a href="/ask" title="Ask">ask</a><a href="/archive" title="Archiv">Vergangenheit</a></div>
+ 
+ <div class="desc">hi i'm simon & i'm a very good reblogger so stop judging me mom! multifandom/personal/anime<br />
+/youtubers<br />
+<br />
+<br />
+you can find me on twitter: @starIordvevo <br />
+<br />
+<br />
+i´m always home and don´t really have human contact outside of the internet but that´s fine so please talk to me
+     
+                 
+                 
+                
+<select onChange="location=this.options[this.selectedIndex].value;" style="
+                 font-family:Corbel;
+                 cursor:pointer;
+                 font-size: 11px;
+                 color:#ffffff;
+                 
+                  max-width:100%;
+                 padding:0px 2px;
+                 
+                   -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+                 
+                 border: 1px solid #bbd4a2;
+                 background-color: #ae4b33;
+                 margin-bottom:0px;
+                 -webkit-appearance: none;
+                 text-align:center;
+                 margin-top:5px;   "><option value="">navigation</option><!-- <option value="/ask">ask</option><option value="/submit">submit</option>--><option value="/navigation">tags
+</option><option value="/me">about me</option></select></form>
+                   
+                 
+                 
+                 
+                 
+     
+ </div>
+ 
+ <div id="pagi">
+<span class="current_page"> 1 </span><a class="jump_page" href="/page/2">2</a><a class="jump_page" href="/page/3">3</a><a class="jump_page" href="/page/4">4</a><a href="/page/2" title="Nächste Seite">&rarr;</a>
+</div>  <div style="line-height:2px;"><br></div>
+<div id="credit"> <div class="creditl"><a href="http://www.tukut.tumblr.com/">Theme Credit</a></div><div class="creditr">✖</div></div>
+
+<div style="background:   rgba(222,222,222,.5); text-align:center; padding: 8px; -moz-border-radius: 3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;  border:1px solid #e17e66; ">
+<div class="search"><form action="/search" method="get" class="search-form"><input type="hidden" name="t" value="tonystarklcrd" /><input type="text" name="q" class="query" value="" /><input type="submit" value="Suchen" class="submit" /><div class="clear"></div></form></div> </div>
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ <center><br>
+  <img src="http://static.tumblr.com/f2264c7ff5ce1757327d7d537d6918ca/y5srne8/hfhnbedrt/tumblr_static_choi0szqtpw8kgsws8gkosck4.gif" style="float:center; max-width:100%; margin-bottom:8px;">  
+     
+ </center>
+ 
+ 
+ 
+ 
+</div>
+   
+ 
+ 
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98703440023" id="like_button_98703440023"><iframe id="like_iframe_98703440023" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98703440023&amp;color=white&amp;rk=206H1wxr" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98703440023/206H1wxr" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98703440023/merylstreeptease-its-amazing-the-impact-this" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+<center><iframe src="http://www.tumblr.com/video/tonystarklcrd/98703440023/400" id="tumblr_video_iframe_98703440023" class="tumblr_video_iframe" width="400" height="300" style="display:block;background-color:transparent;overflow:hidden;" allowTransparency="true" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></center>
+ 
+ 
+
+<div class="texto"><p><a class="tumblr_blog" href="http://merylstreeptease.tumblr.com/post/74645774945/its-amazing-the-impact-this-second-long-video" target="_blank">merylstreeptease</a>:</p>
+<blockquote>
+<p>It’s amazing the impact this second-long video made in my life</p>
+</blockquote></div>
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98703440023/merylstreeptease-its-amazing-the-impact-this" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 19 Stunden</a>
+               
+             <a href="http://presshartotocontinue.tumblr.com/post/98701026615/merylstreeptease-its-amazing-the-impact-this" title="Video gerebloggt von presshartotocontinue">Via</a>
+               
+               <a href="http://buttsext.tumblr.com/post/39799000922/same" title="Ursprünglich von buttsext">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98703440023/merylstreeptease-its-amazing-the-impact-this" title="Dieser Eintrag hat 143.060 Anmerkungen">   
+           143060   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/video">#video</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98703232828" id="like_button_98703232828"><iframe id="like_iframe_98703232828" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98703232828&amp;color=white&amp;rk=ymzXO9Ft" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98703232828/ymzXO9Ft" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98703232828/make-me-choose-peyyton-sawyer-asked-doctor-and" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+
+ 
+ 
+
+ 
+<center><div id="photoset_98703232828" class="html_photoset">    <iframe id="photoset_iframe_98703232828" class="photoset" scrolling="no" frameborder="0" height="470" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://tonystarklcrd.tumblr.com/post/98703232828/photoset_iframe/tonystarklcrd/tumblr_ncn7w8UPxH1smcqr3/400/false"></iframe></div></center>
+ 
+
+<div class="texto"><blockquote>
+<p><strong><small><a href="http://vanessayves.tumblr.com/tagged/mmc" target="_blank">make me choose</a>: </small></strong><small><strong><a href="http://peyyton-sawyer.tumblr.com/" target="_blank">peyyton-sawyer</a> asked</strong><br/></small><small><small>↳ </small><em>Doctor and Clara or <strike>Doctor and Amy</strike></em></small></p>
+</blockquote></div>
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98703232828/make-me-choose-peyyton-sawyer-asked-doctor-and" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 19 Stunden</a>
+               
+             <a href="http://richardjenna.tumblr.com/post/98701305610/make-me-choose-peyyton-sawyer-asked-doctor-and" title="Bilderserie gerebloggt von richardjenna">Via</a>
+               
+               <a href="http://vanessayves.tumblr.com/post/98696508019/make-me-choose-peyyton-sawyer-asked-doctor-and" title="Ursprünglich von vanessayves">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98703232828/make-me-choose-peyyton-sawyer-asked-doctor-and" title="Dieser Eintrag hat 533 Anmerkungen">   
+           533   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/doctor-who">#doctor who</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/eleventh">#eleventh</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/twelfth">#twelfth</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/clara-oswald">#clara oswald</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98703024558" id="like_button_98703024558"><iframe id="like_iframe_98703024558" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98703024558&amp;color=white&amp;rk=Jl5PHTLr" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98703024558/Jl5PHTLr" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98703024558" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+
+ 
+ 
+
+ 
+<center><div id="photoset_98703024558" class="html_photoset">    <iframe id="photoset_iframe_98703024558" class="photoset" scrolling="no" frameborder="0" height="115" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://tonystarklcrd.tumblr.com/post/98703024558/photoset_iframe/tonystarklcrd/tumblr_n580bwYezM1r1da95/400/false"></iframe></div></center>
+ 
+
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98703024558" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 19 Stunden</a>
+               
+             <a href="http://senpai-chan-kun-san.tumblr.com/post/98701429252" title="Bilderserie gerebloggt von senpai-chan-kun-san">Via</a>
+               
+               <a href="http://amandapanda10.tumblr.com" title="Ursprünglich von amandapanda10">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98703024558" title="Dieser Eintrag hat 246.053 Anmerkungen">   
+           246053   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/marvel">#marvel</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98702860478" id="like_button_98702860478"><iframe id="like_iframe_98702860478" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98702860478&amp;color=white&amp;rk=6Z37tZza" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98702860478/6Z37tZza" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98702860478/x" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+
+ 
+ 
+
+ 
+<center><div id="photoset_98702860478" class="html_photoset">    <iframe id="photoset_iframe_98702860478" class="photoset" scrolling="no" frameborder="0" height="239" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://tonystarklcrd.tumblr.com/post/98702860478/photoset_iframe/tonystarklcrd/tumblr_nawfeanvDo1rjtijm/400/false"></iframe></div></center>
+ 
+
+<div class="texto"><blockquote>
+<div><small>[<a href="http://www.youtube.com/watch?v=lqgUtY-XVx8" target="_blank">x</a>]</small></div>
+</blockquote></div>
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98702860478/x" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 19 Stunden</a>
+               
+             <a href="http://houseofharvelle.tumblr.com/post/98701495086/x" title="Bilderserie gerebloggt von houseofharvelle">Via</a>
+               
+               <a href="http://plaiding.tumblr.com/post/95802257827/x" title="Ursprünglich von plaiding">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98702860478/x" title="Dieser Eintrag hat 7.636 Anmerkungen">   
+           7636   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/jared-padalecki">#jared padalecki</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/jensen-ackles">#jensen ackles</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98702658043" id="like_button_98702658043"><iframe id="like_iframe_98702658043" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98702658043&amp;color=white&amp;rk=hrZUwbqu" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98702658043/hrZUwbqu" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98702658043/astrocas-andrea-gibson-sing-the-body" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+<center><img src="http://33.media.tumblr.com/ab4c129f0223bf83a13a941b2a14ccae/tumblr_nb59n1bO161rouz5lo1_r5_400.jpg"></center>
+ 
+
+<div class="texto"><p><a class="tumblr_blog" href="http://astrocas.tumblr.com/post/96292018775/andrea-gibson-sing-the-body-electric" target="_blank">astrocas</a>:</p>
+<blockquote>
+<p><small>- <strong>A</strong><span><strong>ndrea Gibson</strong>, </span><em>sing the body electric, especially when my power’s out</em></small></p>
+</blockquote></div>
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98702658043/astrocas-andrea-gibson-sing-the-body" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 20 Stunden</a>
+               
+             <a href="http://wiinchester.co.vu/post/98701746213/astrocas-andrea-gibson-sing-the-body" title="Foto gerebloggt von hopefulsam">Via</a>
+               
+               <a href="http://astrocas.tumblr.com/post/96292018775/andrea-gibson-sing-the-body-electric" title="Ursprünglich von astrocas">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98702658043/astrocas-andrea-gibson-sing-the-body" title="Dieser Eintrag hat 959 Anmerkungen">   
+           959   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/supernatural">#supernatural</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/castiel">#castiel</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98702638103" id="like_button_98702638103"><iframe id="like_iframe_98702638103" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98702638103&amp;color=white&amp;rk=QYxCROsS" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98702638103/QYxCROsS" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98702638103/urcr-yeah-sorry-i-didnt-do-my-homework-i" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+  <div class="texto">  <p><a class="tumblr_blog" href="http://memphismayfire.tk/post/98070625168/yeah-sorry-i-didnt-do-my-homework-i-couldnt-see" target="_blank">urcr</a>:</p>
+<blockquote>
+<p><span>"yeah sorry i didn’t do my homework i couldn’t see the page cuz of my tears"</span></p>
+</blockquote></div> 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98702638103/urcr-yeah-sorry-i-didnt-do-my-homework-i" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 20 Stunden</a>
+               
+             <a href="http://joshpeckofficial.com/post/98701753543/urcr-yeah-sorry-i-didnt-do-my-homework-i" title="Eintrag gerebloggt von joshpeck">Via</a>
+               
+               <a href="http://memphismayfire.tk/post/98070625168/yeah-sorry-i-didnt-do-my-homework-i-couldnt-see" title="Ursprünglich von idkblogger">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98702638103/urcr-yeah-sorry-i-didnt-do-my-homework-i" title="Dieser Eintrag hat 14.407 Anmerkungen">   
+           14407   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98702185063" id="like_button_98702185063"><iframe id="like_iframe_98702185063" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98702185063&amp;color=white&amp;rk=sNx1SI0T" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98702185063/sNx1SI0T" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98702185063/andysambergg-i-have-so-much-homework-what" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+  <div class="texto">  <p><a class="tumblr_blog" href="http://andysambergg.tumblr.com/post/33165256430/i-have-so-much-homework-what-movie-should-i-watch" target="_blank">andysambergg</a>:</p>
+<blockquote>
+<p>i have so much homework</p>
+<p>what movie should i watch</p>
+</blockquote></div> 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98702185063/andysambergg-i-have-so-much-homework-what" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 20 Stunden</a>
+               
+             <a href="http://perks-of-being-chinese.com/post/98701978237/andysambergg-i-have-so-much-homework-what" title="Eintrag gerebloggt von perks-of-being-chinese">Via</a>
+               
+               <a href="http://samberglar.tumblr.com/post/33165256430/i-have-so-much-homework-what-movie-should-i-watch" title="Ursprünglich von samberglar">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98702185063/andysambergg-i-have-so-much-homework-what" title="Dieser Eintrag hat 625.524 Anmerkungen">   
+           625524   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98622645108" id="like_button_98622645108"><iframe id="like_iframe_98622645108" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98622645108&amp;color=white&amp;rk=FmJEiBML" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98622645108/FmJEiBML" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98622645108/misha-jensen-supernatural-gag-reel-season-8" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+
+ 
+ 
+
+ 
+<center><div id="photoset_98622645108" class="html_photoset">    <iframe id="photoset_iframe_98622645108" class="photoset" scrolling="no" frameborder="0" height="539" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://tonystarklcrd.tumblr.com/post/98622645108/photoset_iframe/tonystarklcrd/tumblr_n764lqOhmc1txx78m/400/false"></iframe></div></center>
+ 
+
+<div class="texto"><blockquote>
+<p><small><strong>Misha </strong>&amp;<strong> Jensen</strong> | Supernatural gag reel season 8</small></p>
+</blockquote></div>
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98622645108/misha-jensen-supernatural-gag-reel-season-8" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 1 Tag</a>
+               
+             <a href="http://clueing-for-bowties.tumblr.com/post/98621833784/misha-jensen-supernatural-gag-reel-season-8" title="Bilderserie gerebloggt von clueing-for-bowties">Via</a>
+               
+               <a href="http://winckhester.tumblr.com/" title="Ursprünglich von winckhester">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98622645108/misha-jensen-supernatural-gag-reel-season-8" title="Dieser Eintrag hat 6.389 Anmerkungen">   
+           6389   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/destiel">#destiel</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98622518543" id="like_button_98622518543"><iframe id="like_iframe_98622518543" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98622518543&amp;color=white&amp;rk=YXOS5NHU" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98622518543/YXOS5NHU" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98622518543/the-many-sides-of-supernatural-2-5-what-the" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+
+ 
+ 
+
+ 
+<center><div id="photoset_98622518543" class="html_photoset">    <iframe id="photoset_iframe_98622518543" class="photoset" scrolling="no" frameborder="0" height="550" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://tonystarklcrd.tumblr.com/post/98622518543/photoset_iframe/tonystarklcrd/tumblr_n74m6wxTFy1qi35d5/400/false"></iframe></div></center>
+ 
+
+<div class="texto"><blockquote>
+<p><small><em>The Many Sides of Supernatural - [<a href="http://jensenmish.tumblr.com/tagged/showcharacteristics" target="_blank">2<span>/</span></a><a href="http://jensenmish.tumblr.com/tagged/showcharacteristics" target="_blank">5</a>] - <strong>What the F#@%</strong></em></small></p>
+</blockquote></div>
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98622518543/the-many-sides-of-supernatural-2-5-what-the" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 1 Tag</a>
+               
+             <a href="http://clueing-for-bowties.tumblr.com/post/98621968469/the-many-sides-of-supernatural-2-5-what-the" title="Bilderserie gerebloggt von clueing-for-bowties">Via</a>
+               
+               <a href="http://jensenmish.tumblr.com/post/88699775230/the-many-sides-of-supernatural-2-5-what-the" title="Ursprünglich von jensenmish">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98622518543/the-many-sides-of-supernatural-2-5-what-the" title="Dieser Eintrag hat 21.071 Anmerkungen">   
+           21071   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/supernatural">#supernatural</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98622350163" id="like_button_98622350163"><iframe id="like_iframe_98622350163" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98622350163&amp;color=white&amp;rk=VS5WpRL2" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98622350163/VS5WpRL2" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98622350163/alonsyponds-the-one-time-cas-had-the-normal" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+
+ 
+ 
+
+ 
+<center><div id="photoset_98622350163" class="html_photoset">    <iframe id="photoset_iframe_98622350163" class="photoset" scrolling="no" frameborder="0" height="360" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://tonystarklcrd.tumblr.com/post/98622350163/photoset_iframe/tonystarklcrd/tumblr_mmiei5Lys61ql9ebn/400/false"></iframe></div></center>
+ 
+
+<div class="texto"><p><a class="tumblr_blog" href="http://alonsyponds.tumblr.com/post/58386868948" target="_blank">alonsyponds</a>:</p>
+
+<blockquote>
+<p>the one time cas had the normal reaction to something</p>
+</blockquote></div>
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98622350163/alonsyponds-the-one-time-cas-had-the-normal" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 1 Tag</a>
+               
+             <a href="http://clueing-for-bowties.tumblr.com/post/98622045414/alonsyponds-the-one-time-cas-had-the-normal" title="Bilderserie gerebloggt von clueing-for-bowties">Via</a>
+               
+               <a href="http://gisbourne.tumblr.com/post/49982591274" title="Ursprünglich von gisbourne">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98622350163/alonsyponds-the-one-time-cas-had-the-normal" title="Dieser Eintrag hat 175.761 Anmerkungen">   
+           175761   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/supernatural">#supernatural</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98616139098" id="like_button_98616139098"><iframe id="like_iframe_98616139098" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98616139098&amp;color=white&amp;rk=u2BQraup" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98616139098/u2BQraup" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98616139098" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+
+ 
+ 
+
+ 
+<center><div id="photoset_98616139098" class="html_photoset">    <iframe id="photoset_iframe_98616139098" class="photoset" scrolling="no" frameborder="0" height="449" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://tonystarklcrd.tumblr.com/post/98616139098/photoset_iframe/tonystarklcrd/tumblr_nbw33wXekJ1tklmfv/400/false"></iframe></div></center>
+ 
+
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98616139098" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 1 Tag</a>
+               
+             <a href="http://stony.co.vu/post/98615889603" title="Bilderserie gerebloggt von buckybarrnes">Via</a>
+               
+               <a href="http://www.tumblr.com/blog/private_201301170?97496033462" title="Ursprünglich von ">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98616139098" title="Dieser Eintrag hat 2.911 Anmerkungen">   
+           2911   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/marvel">#marvel</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/mcu">#mcu</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/iron-man">#iron man</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/tony-stark">#tony stark</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98573981068" id="like_button_98573981068"><iframe id="like_iframe_98573981068" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98573981068&amp;color=white&amp;rk=ucnyoDU2" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98573981068/ucnyoDU2" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98573981068/i-gotta-tell-you-this-one-thing" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+
+ 
+ 
+
+ 
+<center><div id="photoset_98573981068" class="html_photoset">    <iframe id="photoset_iframe_98573981068" class="photoset" scrolling="no" frameborder="0" height="595" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://tonystarklcrd.tumblr.com/post/98573981068/photoset_iframe/tonystarklcrd/tumblr_n7m3tbpH2P1qk63b8/400/false"></iframe></div></center>
+ 
+
+<div class="texto"><blockquote>
+<p><sub>I gotta tell you this one thing…</sub></p>
+</blockquote></div>
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98573981068/i-gotta-tell-you-this-one-thing" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 2 Tagen</a>
+               
+             <a href="http://captnrogers-jpg.tumblr.com/post/98573853869/i-gotta-tell-you-this-one-thing" title="Bilderserie gerebloggt von captnrogers-jpg">Via</a>
+               
+               <a href="http://asgardies.tumblr.com/post/89688823952" title="Ursprünglich von asgardies">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98573981068/i-gotta-tell-you-this-one-thing" title="Dieser Eintrag hat 448 Anmerkungen">   
+           448   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/marvel">#marvel</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/mcu">#mcu</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/amazing-spiderman">#amazing spiderman</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/gwen-stacy">#gwen stacy</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/peter-parker">#peter parker</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98570832503" id="like_button_98570832503"><iframe id="like_iframe_98570832503" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98570832503&amp;color=white&amp;rk=5GB0FJBh" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98570832503/5GB0FJBh" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98570832503/a-spoon-is-born-i-love-that-this-is-a-headline" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+
+ 
+ 
+
+ 
+<center><div id="photoset_98570832503" class="html_photoset">    <iframe id="photoset_iframe_98570832503" class="photoset" scrolling="no" frameborder="0" height="539" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://tonystarklcrd.tumblr.com/post/98570832503/photoset_iframe/tonystarklcrd/tumblr_nck9aj5jeb1rvmzsl/400/false"></iframe></div></center>
+ 
+
+<div class="texto"><p><a class="tumblr_blog" href="http://a-spoon-is-born.tumblr.com/post/98543800123/i-love-that-this-is-a-headline-i-lived-to-see" target="_blank">a-spoon-is-born</a>:</p>
+<blockquote>
+<p><a href="http://www.eonline.com/news/582921/why-there-will-be-lots-of-gay-sex-on-how-to-get-away-with-murder" target="_blank">I love that this is a headline I lived to see.</a></p>
+</blockquote></div>
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98570832503/a-spoon-is-born-i-love-that-this-is-a-headline" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 2 Tagen</a>
+               
+             <a href="http://onehaleofanightstand.tumblr.com/post/98569354959/a-spoon-is-born-i-love-that-this-is-a-headline" title="Bilderserie gerebloggt von onehaleofanightstand">Via</a>
+               
+               <a href="http://a-spoon-is-born.tumblr.com/post/98543800123/i-love-that-this-is-a-headline-i-lived-to-see" title="Ursprünglich von a-spoon-is-born">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98570832503/a-spoon-is-born-i-love-that-this-is-a-headline" title="Dieser Eintrag hat 18.929 Anmerkungen">   
+           18929   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/htgawm">#htgawm</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/bless-the-writers">#bless the writers</a>
+               
+               
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/welcome-to-shondaland">#welcome to shondaland</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98570755898" id="like_button_98570755898"><iframe id="like_iframe_98570755898" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98570755898&amp;color=white&amp;rk=qYjrKoFy" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98570755898/qYjrKoFy" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98570755898" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+
+ 
+ 
+
+ 
+<center><div id="photoset_98570755898" class="html_photoset">    <iframe id="photoset_iframe_98570755898" class="photoset" scrolling="no" frameborder="0" height="287" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://tonystarklcrd.tumblr.com/post/98570755898/photoset_iframe/tonystarklcrd/tumblr_mxnw6sxfuO1r8j1j3/400/false"></iframe></div></center>
+ 
+
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98570755898" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 2 Tagen</a>
+               
+             <a href="http://onehaleofanightstand.tumblr.com/post/98569369669/lawhore-no-offense-but-raw-me-from-the-back" title="Bilderserie gerebloggt von onehaleofanightstand">Via</a>
+               
+               <a href="http://alphalewolf.tumblr.com/post/69722499137" title="Ursprünglich von alphalewolf">Quelle</a>
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98570755898" title="Dieser Eintrag hat 34.818 Anmerkungen">   
+           34818   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/chris-evans">#chris evans</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+<div id="youngjae">
+ 
+ 
+
+<div id="bap">
+ 
+ 
+ 
+<div style="padding-bottom:5px;"><div class="like_button" data-post-id="98570604043" id="like_button_98570604043"><iframe id="like_iframe_98570604043" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=tonystarklcrd&amp;post_id=98570604043&amp;color=white&amp;rk=oTFUr0lq" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div><div style="line-height:0px"><br></div> <a href="https://www.tumblr.com/reblog/98570604043/oTFUr0lq" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+ 
+<div style="line-height:0px"><br></div>
+   
+   
+     <a href="http://tonystarklcrd.tumblr.com/post/98570604043" target="_blank" onclick="clicksound.playclip()"    title="Permalink">   <img src="https://31.media.tumblr.com/cf50f8f56da95164585dca423527ccd4/tumblr_mzn0pdlJPv1sue43xo1_75sq.png" style="margin-left:-1px;width:24px;">
+                </a>  
+               
+               
+                 
+                 
+   
+   
+</div>
+ 
+
+ 
+<a href="http://tonystarklcrd.tumblr.com/image/98570604043"><center><img src="http://31.media.tumblr.com/0a5951def3d4d75cd5d3091dea57855a/tumblr_ncitc5t3Z91skk2dso1_400.jpg"></center></a>
+ 
+
+<div class="texto"><p><a class="tumblr_blog" href="http://clueing-for-bowties.tumblr.com/post/98481998784/guys" target="_blank"> </a></p></div>
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+               
+               
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+<div id="jonguppie">
+ 
+              <div class="tags">  
+               <div style="line-height:5px;"><br></div>
+               
+           
+           <a href="http://tonystarklcrd.tumblr.com/post/98570604043" target="_blank" onclick="clicksound.playclip()"     title="
+           Permalink">Vor 2 Tagen</a>
+               
+             <a href="http://clueing-for-bowties.tumblr.com/post/98569647169/clueing-for-bowties-guys" title="Foto gerebloggt von clueing-for-bowties">Via</a>
+               
+               
+               
+                 
+               
+               <a href="http://tonystarklcrd.tumblr.com/post/98570604043" title="Dieser Eintrag hat 217 Anmerkungen">   
+           217   ♡</a>    
+         
+           
+           
+         
+           
+           
+               
+               
+                   
+                         </div>
+                     
+               
+                     <div id="bebop">  <div class="tago">
+             
+               Getaggt: 
+               
+           <a href="http://tonystarklcrd.tumblr.com/tagged/destiel">#destiel</a>
+               
+                
+               
+               
+                 
+ 
+ </div> </div>
+                   
+               </div>    
+               
+                 
+                 
+                  
+                 
+                </div>
+               
+     
+               
+
+  </div></div></div>
+ 
+   
+ 
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://tonystarklcrd.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037749&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdG9ueXN0YXJrbGNyZC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=JFOLAAOBCN&K=c96c269aa162c904844a7a98d175f79bf52db8c3a19ae39ee8b5bd445f4c6428&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037749&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdG9ueXN0YXJrbGNyZC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=JFOLAAOBCN&K=3c72339562a03c52cd4279e77020b9d473ae3105d5924b830e7bb37fb63ff77c&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037749&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RvbnlzdGFya2xjcmQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjYyODM0MDYiLCJyb290X3Bvc3RpZCI6Mzk3OTkwMDA5MjIsInBvc3RpZCI6Ijk4NzAzNDQwMDIzIiwiYmxvZ2lkIjoiMTI2MTA4MzgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0Mzc0NTI5MSIsInJvb3RfcG9zdGlkIjoiOTg2OTY1MDgwMTkiLCJwb3N0aWQiOiI5ODcwMzIzMjgyOCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNjIzMTYwOSIsInJvb3RfcG9zdGlkIjoiODUwNDkxNDMzNTAiLCJwb3N0aWQiOiI5ODcwMzAyNDU1OCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3Nzg0NDM3MSIsInJvb3RfcG9zdGlkIjoiOTU4MDIyNTc4MjciLCJwb3N0aWQiOiI5ODcwMjg2MDQ3OCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0MjYwNjQ1NCIsInJvb3RfcG9zdGlkIjo5NjI5MjAxODc3NSwicG9zdGlkIjoiOTg3MDI2NTgwNDMiLCJibG9naWQiOiIxMjYxMDgzODAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTEyMDU2ODM3Iiwicm9vdF9wb3N0aWQiOiI5ODA3MDYyNTE2OCIsInBvc3RpZCI6Ijk4NzAyNjM4MTAzIiwiYmxvZ2lkIjoiMTI2MTA4MzgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjUzNTUyNTQzIiwicm9vdF9wb3N0aWQiOjMzMTY1MjU2NDMwLCJwb3N0aWQiOiI5ODcwMjE4NTA2MyIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9XX0=&U=FMKIGEFFLH&K=3aaf19e45093a40e8108c3c0fff5f4bb175a7614a5afb7a9762de7037aba77cb&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037749&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RvbnlzdGFya2xjcmQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjYyODM0MDYiLCJyb290X3Bvc3RpZCI6Mzk3OTkwMDA5MjIsInBvc3RpZCI6Ijk4NzAzNDQwMDIzIiwiYmxvZ2lkIjoiMTI2MTA4MzgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0Mzc0NTI5MSIsInJvb3RfcG9zdGlkIjoiOTg2OTY1MDgwMTkiLCJwb3N0aWQiOiI5ODcwMzIzMjgyOCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNjIzMTYwOSIsInJvb3RfcG9zdGlkIjoiODUwNDkxNDMzNTAiLCJwb3N0aWQiOiI5ODcwMzAyNDU1OCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3Nzg0NDM3MSIsInJvb3RfcG9zdGlkIjoiOTU4MDIyNTc4MjciLCJwb3N0aWQiOiI5ODcwMjg2MDQ3OCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0MjYwNjQ1NCIsInJvb3RfcG9zdGlkIjo5NjI5MjAxODc3NSwicG9zdGlkIjoiOTg3MDI2NTgwNDMiLCJibG9naWQiOiIxMjYxMDgzODAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTEyMDU2ODM3Iiwicm9vdF9wb3N0aWQiOiI5ODA3MDYyNTE2OCIsInBvc3RpZCI6Ijk4NzAyNjM4MTAzIiwiYmxvZ2lkIjoiMTI2MTA4MzgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjUzNTUyNTQzIiwicm9vdF9wb3N0aWQiOjMzMTY1MjU2NDMwLCJwb3N0aWQiOiI5ODcwMjE4NTA2MyIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=FMKIGEFFLH&K=491c4960cb329e712c997f9406bac5a6204885c3cc1298bc53900c63e1923fa9&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037749&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RvbnlzdGFya2xjcmQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE3ODc3NTk4NyIsInJvb3RfcG9zdGlkIjoiODg3NzM1NTEwNTMiLCJwb3N0aWQiOiI5ODYyMjY0NTEwOCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNTA1ODEwOSIsInJvb3RfcG9zdGlkIjo4ODY5OTc3NTIzMCwicG9zdGlkIjoiOTg2MjI1MTg1NDMiLCJibG9naWQiOiIxMjYxMDgzODAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjA0MDUzMzgiLCJyb290X3Bvc3RpZCI6NDk5ODI1OTEyNzQsInBvc3RpZCI6Ijk4NjIyMzUwMTYzIiwiYmxvZ2lkIjoiMTI2MTA4MzgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIwMTMwMTE3MCIsInJvb3RfcG9zdGlkIjoiOTc0OTYwMzM0NjIiLCJwb3N0aWQiOiI5ODYxNjEzOTA5OCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODU1NDY0OCIsInJvb3RfcG9zdGlkIjoiODk2ODg4MjM5NTIiLCJwb3N0aWQiOiI5ODU3Mzk4MTA2OCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1NTIwMzkzNCIsInJvb3RfcG9zdGlkIjoiOTg1NDM4MDAxMjMiLCJwb3N0aWQiOiI5ODU3MDgzMjUwMyIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzODI0MTE3MSIsInJvb3RfcG9zdGlkIjoiNjk3MjI0OTkxMzciLCJwb3N0aWQiOiI5ODU3MDc1NTg5OCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDA3NDU0OTUiLCJyb290X3Bvc3RpZCI6Ijk4NDgxOTk4Nzg0IiwicG9zdGlkIjoiOTg1NzA2MDQwNDMiLCJibG9naWQiOiIxMjYxMDgzODAiLCJzb3VyY2UiOjMzfV19&U=AOEJFFOIIP&K=1ce340c50cec3d617daccea0304f8b391ccba55431706427ddb029320ff8efb1&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037749&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3RvbnlzdGFya2xjcmQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE3ODc3NTk4NyIsInJvb3RfcG9zdGlkIjoiODg3NzM1NTEwNTMiLCJwb3N0aWQiOiI5ODYyMjY0NTEwOCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNTA1ODEwOSIsInJvb3RfcG9zdGlkIjo4ODY5OTc3NTIzMCwicG9zdGlkIjoiOTg2MjI1MTg1NDMiLCJibG9naWQiOiIxMjYxMDgzODAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjA0MDUzMzgiLCJyb290X3Bvc3RpZCI6NDk5ODI1OTEyNzQsInBvc3RpZCI6Ijk4NjIyMzUwMTYzIiwiYmxvZ2lkIjoiMTI2MTA4MzgwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjIwMTMwMTE3MCIsInJvb3RfcG9zdGlkIjoiOTc0OTYwMzM0NjIiLCJwb3N0aWQiOiI5ODYxNjEzOTA5OCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODU1NDY0OCIsInJvb3RfcG9zdGlkIjoiODk2ODg4MjM5NTIiLCJwb3N0aWQiOiI5ODU3Mzk4MTA2OCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1NTIwMzkzNCIsInJvb3RfcG9zdGlkIjoiOTg1NDM4MDAxMjMiLCJwb3N0aWQiOiI5ODU3MDgzMjUwMyIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzODI0MTE3MSIsInJvb3RfcG9zdGlkIjoiNjk3MjI0OTkxMzciLCJwb3N0aWQiOiI5ODU3MDc1NTg5OCIsImJsb2dpZCI6IjEyNjEwODM4MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDA3NDU0OTUiLCJyb290X3Bvc3RpZCI6Ijk4NDgxOTk4Nzg0IiwicG9zdGlkIjoiOTg1NzA2MDQwNDMiLCJibG9naWQiOiIxMjYxMDgzODAiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=AOEJFFOIIP&K=74d9e416eea3c15cddc4d453a26dec783f0a3e0136a96215d0e2d22a334c2c1e&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:126108380,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Ftonystarklcrd.tumblr.com%2F&amp;lang=de_DE&amp;name=tonystarklcrd&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_a13f019f31fd_64.png&amp;title=because+you+need+us&amp;url=http%3A%2F%2Ftonystarklcrd.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Ftonystarklcrd.tumblr.com%2F&amp;lang=de_DE&amp;name=tonystarklcrd&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_a13f019f31fd_64.png&amp;title=because+you+need+us&amp;url=http%3A%2F%2Ftonystarklcrd.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body></html>

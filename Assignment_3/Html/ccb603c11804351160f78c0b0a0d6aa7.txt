@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Minimal Theme designed by Artur Kim (http://arturkim.com) for Tumblr | version 1.5 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Madi not Maddie</title>
+    <meta name="description" content="madison. dance. lana del rey. marinaandthediamonds. fleetwood mac. lily rabe. sarah paulson is my religion. honey, you&#039;ve got a big storm coming." />
+    <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_bce1fa5f5e99_128.png" />
+    <link rel="apple-touch-icon" href="http://38.media.tumblr.com/avatar_bce1fa5f5e99_128.png"/>
+    <link rel="alternate" type="application/rss+xml" href="http://what-is-a-sarah-paulson.tumblr.com/rss" />
+
+    <!-- DEFAULT VARIABLES -->
+    <meta name="color:Post Type Text" content="#555555"/>
+    <meta name="color:Post Type Photo" content="#555555"/>
+    <meta name="color:Post Type Photoset" content="#555555"/>
+    <meta name="color:Post Type Quote" content="#555555"/>
+    <meta name="color:Post Type Link" content="#555555"/>
+    <meta name="color:Post Type Chat" content="#555555"/>
+    <meta name="color:Post Type Video" content="#555555"/>
+    <meta name="color:Post Type Audio" content="#555555"/>
+    <meta name="image:Header" content=""/>
+    <meta name="if:Show About Widget" content="1"/>
+    <meta name="if:Show Stuff I Like Widget" content="1"/>
+    <meta name="if:Show Latest Tweets Widget" content="0"/>
+    <meta name="if:Show People I Follow Widget" content="1"/>
+    <meta name="text:Number of Tweets" content="3"/>
+    <meta name="text:Google Analytics ID" content="" />
+    <meta name="text:Disqus Shortname" content="" />
+
+    <style type="text/css" media="screen">
+    /* Minimal Theme designed by Artur Kim (http://arturkim.com) for Tumblr | version 1.5 */
+
+    /* RESET */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;
+    }
+    body { line-height: 1; }
+    ol, ul { list-style: none; }
+    blockquote, q { quotes: none; }
+    blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+    :focus { outline: 0; }
+    del { text-decoration: line-through; }
+    table { border-collapse: collapse; border-spacing: 0; }
+
+    /* GLOBAL ELEMENTS */
+    body { background: #fff; }
+    body, input, textarea { color: #000; font: 14px/20px "helvetica neue",helvetica,arial,sans-serif; }
+    p, ul, ol, dd, pre { margin-bottom: 20px; }
+    pre, code { font: 12px Monaco,monospace; line-height: 20px; }
+    blockquote { border-left: 5px solid #ddd; color: #555; font-style: italic; margin-bottom: 20px; padding-left: 10px; }
+    table { border: 1px solid #ccc; border-width: 1px 1px 0 1px; font-size: 14px; line-height: 20px; margin: 0 0 22px 0; text-align: left; }
+    caption { text-align: left; }
+    tr { border-bottom: 1px solid #ccc; }
+    th, td { padding: .7em 1.25em; }
+    hr { background-color: #ccc; border: 0; color: #555; height: 1px; margin-bottom: 20px; }
+    a:link, a:visited { color: #555; }
+    a:focus, a:hover, a:active { color: #dd3333; }
+    h1, h2, h3, h4, h5, h6 {  font-weight:normal; clear:both; }
+    img { background: #eee; }
+    a img:focus, a img:hover, a img:active { background: #dd3333; }
+
+    /* DEFAULT CSS */
+    #header .menu {
+        border-bottom: 1px solid #ccc;
+        margin: 0 auto 3px;
+        overflow: hidden;
+        padding: 20px 0 10px;
+        width: 900px;
+    }
+        #header #pages {
+            float: left;
+            width: 580px;
+        }
+            #header #pages ul {
+                float: left;
+                margin-bottom: 0;
+            }
+                #header #pages li {
+                    float: left;
+                    margin-right: 10px;
+                    padding: 4px 10px 3px 0;
+                }
+                    #header #pages a, #header #pages a:visited {
+                        color: #555;
+                        font-size: 16px;
+                        text-decoration: none;
+                    }
+                    #header #pages a:focus, #header #pages a:hover, #header #pages a:active {
+                        color: #dd3333;
+                    }
+        #header #search {
+            float: right;
+        }
+            #header #search input {
+                border: 1px solid #ccc;
+                line-height: 20px;
+                padding: 4px;
+            }
+            #header #search input.search-button {
+                background: #eee;
+                color: #555;
+                padding: 3px;
+                width: 60px;
+            }
+    #header #branding {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin: 0 auto 3px;
+        padding: 40px 0;
+        width: 900px;
+    }
+        #header h1 a {
+            color: #111;
+            font: 80px Georgia,serif;
+            font-weight: normal;
+            line-height: 100px;
+            text-decoration: none;
+        }
+        #header h1 a:focus, #header h1 a:hover, #header h1 a:active {
+            color: #dd3333;
+        }
+        #header img {
+            max-width: 900px;
+        }
+    #main {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        clear: both;
+        margin: 0 auto 3px;
+        overflow: hidden;
+        width: 900px;
+    }
+        #container {
+            border-right: 1px solid #ccc;
+            float: left;
+            min-height: 400px;
+            width: 580px;
+        }
+            .post-meta {
+                border-bottom: 1px solid #ccc;
+                color: #555;
+                overflow: hidden;
+                padding: 9px 0;
+            }
+                .post-meta .type {
+                    float: left;
+                }
+                    .post-meta .type a {
+                        border-bottom: 1px solid #ccc;
+                        font-weight: bold;
+                        padding: 0 10px 10px;
+                        text-decoration: none;
+                    }
+                    .post-type-text .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-photo .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-photoset .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-quote .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-link .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-chat .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-video .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-audio .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-meta .type a:focus, .post-meta .type a:hover, .post-meta .type a:active {
+                        margin-left: 5px;
+                    }
+                .post-meta .date, .post-meta .comments, .post-meta .note-count {
+                    float: left;
+                    padding: 0 10px;
+                }
+            .post-content {
+                padding: 30px 30px 60px;
+            }
+            .post-content div:last-child, .post-content div:last-child p,
+            .post-content div:last-child ul, .post-content div:last-child ol,
+            .post-content div:last-child blockquote {
+                margin-bottom: 0;
+            }
+                .post-content h3 {
+                    font: 20px Georgia,serif;
+                    margin-bottom: 20px;
+                }
+                    .post-content h3 a, .post-content h3 a:visited {
+                        color: #111;
+                        text-decoration: none;
+                    }
+                    .post-content h3 a:focus, .post-content h3 a:hover, .post-content h3:active {
+                        color: #dd3333;
+                    }
+                .post-content img {
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                .post-type-text .post-content ul {
+                    padding-left: 30px;
+                }
+                    .post-type-text .post-content ul ul {
+                        margin-bottom: 0;
+                    }
+                    .post-type-text .post-content ul li {
+                        list-style-type: disc;
+                    }
+                        .post-type-text .post-content ul ul li {
+                            list-style-type: circle;
+                        }
+                .post-type-text .post-content ol {
+                    padding-left: 30px;
+                }
+                    .post-type-text .post-content ol ol {
+                        margin-bottom: 0;
+                    }
+                    .post-type-text .post-content ol li {
+                        list-style-type: upper-latin;
+                    }
+                        .post-type-text .post-content ol ol li {
+                            list-style-type: lower-latin;
+                        }
+                .post-type-photoset .post-content .html_photoset {
+                    background: #eee;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                .post-type-link .post-content .link-wrap {
+                    margin-bottom: 20px;
+                }
+                .post-type-chat .post-content .label {
+                    color: #333;
+                    font-weight: bold;
+                }
+                .post-type-video .post-content .video-wrap {
+                    background: #f0f0f0;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                .post-type-audio .post-content .caption {
+                    margin-top: 10px;
+                }
+                .tags {
+                    font-size: 13px;
+                }
+                .tags a {
+                    text-decoration: none;
+                }
+                .tags a:after {
+                    content: ",";
+                }
+                .tags a:last-child:after {
+                    content: "";
+                }
+            #disqus_thread {
+                border-top: 1px solid #ccc;
+                padding: 10px 30px 0;
+            }
+                #disqus_thread h3 {
+                    color: #111;
+                    font: 18px Georgia,serif;
+                    margin: 20px 0 10px;
+                }
+                #dsq-content .dsq-subscribe-menu {
+                    font-size: 12px;
+                }
+            #post-notes {
+                border-top: 1px solid #ccc;
+                padding: 30px;
+            }
+                #post-notes ol li {
+                    border-bottom: 1px dotted #ccc;
+                    padding: 10px 0;
+                }
+                    #post-notes ol li img {
+                        background: none;
+                        padding-right: 3px;
+                        vertical-align: middle;
+                    }
+            .pagination {
+                border-top: 1px solid #ccc;
+                overflow: hidden;
+                padding: 20px 0;
+            }
+                .pagination .previous-page {
+                    float: left;
+                }
+                .pagination .next-page {
+                    float: right;
+                    margin-right: 30px;
+                }
+                    .pagination a {
+                        font: 20px Georgia,serif;
+                        text-decoration: none;
+                    }
+        #sidebar {
+            float: left;
+            padding-bottom: 30px;
+            width: 319px;
+        }
+            #sidebar h3 {
+                border-bottom: 1px dotted #ccc;
+                color: #999;
+                font-size: 14px;
+                font-weight: bold;
+                margin: 0 0 20px;
+                padding: 9px 20px;
+                text-transform: uppercase;
+            }
+                #sidebar h3 a, #sidebar h3 a:visited {
+                    color: #999;
+                    text-decoration: none;
+                }
+                #sidebar h3 a:focus, #sidebar h3 a:hover, #sidebar h3 a:active {
+                    color: #dd3333;
+                }
+
+            #sidebar ul {
+                margin-bottom: 0;
+            }
+            .widget {
+                border-bottom: 1px solid #ccc;
+                color: #333;
+                font-size: 13px;
+                padding: 0 20px 20px 20px;
+            }
+                .widget h3 {
+                    font: 20px Georgia,serif;
+                    margin-bottom: 20px;
+                }
+                    .widget h3 a, .widget h3 a:visited {
+                        color: #000;
+                        text-decoration: none;
+                    }
+                    .widget h3 a:focus, .widget h3 a:hover, .widget h3 a:active {
+                        color: #dd3333;
+                    }
+                .widget img {
+                    padding: 5px;
+                    max-width: 250px;
+                }
+                .widget p:last-child, .widget ul:last-child, .widget ol:last-child, .widget blockquote:last-child {
+                    margin-bottom: 0;
+                }
+            #about {
+                overflow: hidden;
+            }
+                #about img {
+                    background: #fff;
+                    border: 1px solid #ccc;
+                    float: left;
+                    margin: 0 10px 0 0;
+                    padding: 3px;
+                }
+            .like_post {
+                border-bottom: 1px dotted #ccc;
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+            }
+            .like_post:last-child {
+                border: none;
+                margin: 0;
+                padding: 0;
+            }
+                .like_post ul {
+                    padding-left: 20px;
+                }
+                    .like_post ul ul {
+                        margin-bottom: 0;
+                    }
+                    .like_post ul li {
+                        list-style-type: disc;
+                    }
+                        .like_post ul ul li {
+                            list-style-type: circle;
+                        }
+                .like_post ol {
+                    padding-left: 20px;
+                }
+                    .like_post ol ol {
+                        margin-bottom: 0;
+                    }
+                    .like_post ol li {
+                        list-style-type: upper-latin;
+                    }
+                        .like_post ol ol li {
+                            list-style-type: lower-latin;
+                        }
+                .like_post p:last-child, .like_post ul:last-child, .like_post ol:last-child, .like_post blockquote:last-child {
+                    margin-bottom: 0;
+                }
+            #tweets {
+                margin-bottom: 10px;
+            }
+                #tweets .content {
+                    margin-bottom: 10px;
+                }
+                    #tweets a {
+                        text-decoration: none;
+                    }
+            #following_container {
+                overflow: hidden;
+                padding-bottom: 20px;
+            }
+                #following_container li {
+                    display: inline;
+                    padding: 0;
+                    margin: 0;
+                }
+    #footer {
+        border-top: 1px solid #ccc;
+        clear: both;
+        margin: 0 auto;
+        overflow: hidden;
+        width: 900px;
+    }
+        #colophon {
+            color: #555;
+            float: right;
+            font-size: 12px;
+            padding: 10px 0 20px;
+        }
+            #footer a {
+                border-bottom: 1px dotted #555;
+                text-decoration: none;
+            }
+    
+    </style>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=what-is-a-sarah-paulson" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Madi not Maddie" /><meta property="og:url" content="http://what-is-a-sarah-paulson.tumblr.com/?og=1" /><meta property="og:description" content="madison. dance. lana del rey. marinaandthediamonds. fleetwood mac. lily rabe. sarah paulson is my..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_bce1fa5f5e99_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=what-is-a-sarah-paulson" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=what-is-a-sarah-paulson" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="what-is-a-sarah-paulson" /><meta name="twitter:description" content="madison. dance. 
+lana del rey. marinaandthediamonds. fleetwood mac. lily rabe. sarah paulson is my religion. honey, you&#039;ve got a big storm coming." /><meta name="twitter:creator" content="princesspaulson" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=what-is-a-sarah-paulson&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=what-is-a-sarah-paulson&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=what-is-a-sarah-paulson&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="access">
+                <div class="menu">
+                    <div id="pages">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            
+                            
+                            
+                            <li class="archive"><a href="/archive">Archive</a></li>
+                            <li class="mobile"><a href="/mobile">Mobile</a></li>
+                            <li class="rss"><a href="http://what-is-a-sarah-paulson.tumblr.com/rss">RSS</a></li>
+                        </ul>
+                    </div><!-- #pages -->
+                    <div id="search">
+                        <form action="/search" method="get">
+                            <input type="text" name="q" value=""/>
+                            <input type="submit" value="Search" class="search-button"/>
+                        </form>
+                    </div><!-- #search -->
+                </div><!-- .menu -->
+            </div><!-- #access -->
+            <div id="branding">
+                <h1>
+                    
+                    <a href="/">Madi not Maddie</a>
+                </h1>
+            </div><!-- #branding -->
+        </div><!-- #header -->
+        <div id="main">
+            <div id="container">
+                <div id="content">
+                
+                    <div id="post-98526665291" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/98526665291">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/98526665291#notes">111,369 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <img src="http://33.media.tumblr.com/tumblr_m3zr0tX35R1r3xuvro1_500.gif" class="photo" alt="" />
+                            
+                            <div class="caption"><p>(Source: <a href="http://fragmentallygirl.tumblr.com/post/23116799673" title="fragmentallygirl">fragmentallygirl</a>, via <a href='http://glorious-gloria-mott.tumblr.com/post/98444483264'>glorious-gloria-mott</a>)</p></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-98526125226" class="post post-type-photoset">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/98526125226/proclone-myrtle-tyrell-me-when-someone-asks-if">Photoset</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 27, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/98526125226/proclone-myrtle-tyrell-me-when-someone-asks-if#notes">621 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                            <div id="photoset_98526125226" class="html_photoset">    <iframe id="photoset_iframe_98526125226" class="photoset" scrolling="no" frameborder="0" height="361" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://what-is-a-sarah-paulson.tumblr.com/post/98526125226/photoset_iframe/what-is-a-sarah-paulson/tumblr_n39yvtC92C1qhjmv4/500/false"></iframe></div>
+                            <div class="caption"><p><a class="tumblr_blog" href="http://proclone-myrtle-tyrell.tumblr.com/post/98505202924/me-when-someone-asks-if-i-want-their-food">proclone-myrtle-tyrell</a>:</p>
+<blockquote>
+<p>me when someone asks if I want their food</p>
+</blockquote><p>(Source: <a href="http://lanalikesnobanana.tumblr.com/post/81239863100/let-us-not-forget-that-sarah-had-red-hair-once-and" title="lanalikesnobanana">lanalikesnobanana</a>, via <a href='http://glorious-gloria-mott.tumblr.com/post/98505202924/me-when-someone-asks-if-i-want-their-food'>glorious-gloria-mott</a>)</p></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-97836504471" class="post post-type-text">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97836504471/a-short-poem">Text</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 18, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97836504471/a-short-poem#notes">54 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                            <h3><a href="http://what-is-a-sarah-paulson.tumblr.com/post/97836504471/a-short-poem">A short poem</a></h3>
+                            <p><a class="tumblr_blog" href="http://urbaesbae.tumblr.com/post/96564669001/a-short-poem">urbaesbae</a>:</p>
+<blockquote>
+<p>Lily rabe<br/> Is a babe</p>
+</blockquote><p>(via <a href='http://lilyhoncho.tumblr.com/post/97724272348/a-short-poem'>lilyhoncho</a>)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-97836328001" class="post post-type-text">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97836328001/theamazing-jimmydarling-do-she-emma-and-evan">Text</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 18, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97836328001/theamazing-jimmydarling-do-she-emma-and-evan#notes">755 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                            
+                            <p><a class="tumblr_blog" href="http://theamazing-jimmydarling.tumblr.com/post/97594882445/do-she-emma-and-evan-have-a-romantic">theamazing-jimmydarling</a>:</p>
+<blockquote>
+<p><strong>Do she (Emma) and Evan have a romantic relationship on this show?</strong><br/><em>Ryan Murphy: Yes they do.</em><br/><img alt="image" src="http://media.tumblr.com/036b371ba5e0adc3c8f8ae62d0920bc8/tumblr_inline_nbyl95w57A1r6evw2.gif"/></p>
+<p><img alt="image" src="http://media.tumblr.com/5aa9c5e0c672fbdf4343216cce3d944b/tumblr_inline_nbyl9yfkiE1r6evw2.gif"/></p>
+</blockquote><p>(via <a href='http://sarahpaulsonsfuckinglisp.tumblr.com/post/97740656891/theamazing-jimmydarling-do-she-emma-and-evan'>sarahpaulsonsfuckinglisp</a>)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-97836293936" class="post post-type-text">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97836293936/candiestewart">Text</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 18, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97836293936/candiestewart#notes">581 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                            
+                            <p><a class="tumblr_blog" href="http://candiestewart.tumblr.com/post/97689846800">candiestewart</a>:</p>
+<blockquote>
+<p><img alt="image" src="http://media.tumblr.com/68aa0b6827ab10b9762c01c87531edfe/tumblr_inline_nc0rhiamIa1rldwd0.png"/></p>
+<p><img alt="image" src="http://media.tumblr.com/6115d58a5c81e880501ac2ea1fc930dc/tumblr_inline_nc0rglerTS1rldwd0.png"/></p>
+<p><img alt="image" src="http://media.tumblr.com/311d6627f005651daa90066ed98f5f5b/tumblr_inline_nc0rkwIWhJ1rldwd0.gif"/></p>
+
+</blockquote>
+<p></p><p>(via <a href='http://glorious-gloria-mott.tumblr.com/post/97751197324/candiestewart'>glorious-gloria-mott</a>)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-97836094681" class="post post-type-text">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97836094681/internetdouchebag-can-i-have-another-sauce">Text</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 18, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97836094681/internetdouchebag-can-i-have-another-sauce#notes">232,034 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                            
+                            <p><a class="tumblr_blog" href="http://internetdouchebag.tumblr.com/post/73053547240/can-i-have-another-sauce-theyre-25-extra">internetdouchebag</a>:</p>
+<blockquote>
+<p>"can I have another sauce?"<br/>"they’re 25<span>¢ extra”<br/><img alt="image" src="http://media.tumblr.com/6a8e256dc4de9b151aaccc593b7572ec/tumblr_inline_mz9um4SoYY1qksxf8.gif"/></span></p>
+</blockquote><p>(via <a href='http://youlookedlikeart.tumblr.com/post/97760350343'>youlookedlikeart</a>)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-97836087561" class="post post-type-text">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97836087561/kursou-when-your-headphones-break-and-there-is">Text</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 18, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97836087561/kursou-when-your-headphones-break-and-there-is#notes">227,426 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                            
+                            <p><a class="tumblr_blog" href="http://kursou.tumblr.com/post/54408290947/when-your-headphones-break-and-there-is-only-sound">kursou</a>:</p>
+<blockquote>
+<p>when your headphones break and there is only sound from one side</p>
+<p><img alt="image" src="http://media.tumblr.com/0291e6d98a82cc19514a7629c80357cc/tumblr_inline_mpanr7BNLI1qz4rgp.gif"/></p>
+</blockquote><p>(via <a href='http://youlookedlikeart.tumblr.com/post/97760375453'>youlookedlikeart</a>)</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-97835681886" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97835681886">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 18, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97835681886#notes">337,082 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <a href="http://the-carefree-days.tumblr.com/"><img src="http://33.media.tumblr.com/tumblr_m12782kkyV1r4jn64o1_500.jpg" class="photo" alt="" /></a>
+                            <a href="http://38.media.tumblr.com/tumblr_m12782kkyV1r4jn64o1_1280.jpg" class="high-res" target="_blank"></a>
+                            <div class="caption"><p>(Source: <a href="http://thewaltvault.tumblr.com/post/19489303563/i-know-how-you-feel-phil" title="thewaltvault">thewaltvault</a>, via <a href='http://youlookedlikeart.tumblr.com/post/97763140458'>youlookedlikeart</a>)</p></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-97835412461" class="post post-type-photoset">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97835412461">Photoset</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 18, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97835412461#notes">106 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                            <div id="photoset_97835412461" class="html_photoset">    <iframe id="photoset_iframe_97835412461" class="photoset" scrolling="no" frameborder="0" height="788" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://what-is-a-sarah-paulson.tumblr.com/post/97835412461/photoset_iframe/what-is-a-sarah-paulson/tumblr_nc01h47mHF1saikal/500/false"></iframe></div>
+                            <div class="caption"><p>(Source: <a href="http://fassylover.tumblr.com/post/97651403716/sarah-paulson-200-x-320-for-a-kata-3" title="fassylover">fassylover</a>, via <a href='http://lanaw-inters.tumblr.com/post/97776816951'>lanaw-inters</a>)</p></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-97835401666" class="post post-type-photoset">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97835401666/there-is-no-way-out-what-if-i-said-i-know-a">Photoset</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                September 18, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://what-is-a-sarah-paulson.tumblr.com/post/97835401666/there-is-no-way-out-what-if-i-said-i-know-a#notes">642 notes</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                            <div id="photoset_97835401666" class="html_photoset">    <iframe id="photoset_iframe_97835401666" class="photoset" scrolling="no" frameborder="0" height="470" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://what-is-a-sarah-paulson.tumblr.com/post/97835401666/photoset_iframe/what-is-a-sarah-paulson/tumblr_mcghudSe6I1qd90kl/500/false"></iframe></div>
+                            <div class="caption"><blockquote>
+<div>
+<blockquote>
+<div><small>- There is no way out.<br/>- <em>What if I said I know a way?</em></small></div>
+</blockquote>
+<p><small><strong>LANA WINTERS;</strong> <em>American Horror Story: Asylum, 2x02 ‘Tricks And Treats’</em></small></p>
+</div>
+</blockquote><p>(Source: <a href="http://goddamitboyd.tumblr.com/post/34301873982/there-is-no-way-out-what-if-i-said-i-know-a" title="goddamitboyd">goddamitboyd</a>, via <a href='http://lanaw-inters.tumblr.com/post/97776849261'>lanaw-inters</a>)</p></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                
+                    <div class="pagination">
+                        
+                        <span class="next-page"><a href="/page/2">Next &#187;</a></span>
+                    </div><!-- .pagination -->
+                
+                </div><!-- #content -->
+            </div><!-- #container -->
+            <div id="sidebar">
+            
+                <h3>About</h3>
+                <div id="about" class="widget">
+                    <img src="http://33.media.tumblr.com/avatar_bce1fa5f5e99_64.png" alt="portrait" />
+                    <div class="description"><p>madison. dance. <br />
+lana del rey. marinaandthediamonds. fleetwood mac. lily rabe. sarah paulson is my religion. honey, you've got a big storm coming.</p></div>
+                </div>
+            
+			
+                <h3><a href="http://www.tumblr.com/liked/by/what-is-a-sarah-paulson">Stuff I like</a></h3>
+                <div id="likes_container" class="widget">
+                    <ul id="likes"><li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://glorious-gloria-mott.tumblr.com/post/98444483264">Photo</a> <span class="via">via</span> <a href="http://glorious-gloria-mott.tumblr.com/">glorious-gloria-mott</a></div><a href="http://glorious-gloria-mott.tumblr.com/post/98444483264" class="photo_link"><img class="like_photo" alt=""
+                                src="http://38.media.tumblr.com/tumblr_m3zr0tX35R1r3xuvro1_250.gif"/></a><div class="like_below_photo"></div><div class="post_info_bottom" style="display:none;"><a href="http://glorious-gloria-mott.tumblr.com/post/98444483264">Photo</a> <span class="via">via</span> <a href="http://glorious-gloria-mott.tumblr.com/">glorious-gloria-mott</a></div></li>
+<li class="like_post like_text_post"><div class="post_info_top" style="display:none;"><a href="http://lilyhoncho.tumblr.com/post/98470935407/risarei-finishing-a-series-but-still-being">Post</a> <span class="via">via</span> <a href="http://lilyhoncho.tumblr.com/">lilyhoncho</a></div>        
+        
+<p><a href="http://risarei.tumblr.com/post/89882608141/finishing-a-series-but-still-being-attached-to-the">risarei</a>:</p>
+<blockquote>
+<p>finishing a series but still being attached to the story and its characters</p>
+<p></p>
+<p><img class="toggle_inline_image inline_image constrained_image" alt="image" src="http://media.tumblr.com/c4a379ea584d499dc6e97da458aacd3e/tumblr_inline_n7qn03x5lp1s0gl7h.gif"></p>
+</blockquote>
+<div class="post_info_bottom" style="display:none;"><a href="http://lilyhoncho.tumblr.com/post/98470935407/risarei-finishing-a-series-but-still-being">Post</a> <span class="via">via</span> <a href="http://lilyhoncho.tumblr.com/">lilyhoncho</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://lanaw-inters.tumblr.com/post/98487852796">Photoset</a> <span class="via">via</span> <a href="http://lanaw-inters.tumblr.com/">lanaw-inters</a></div><a href="http://lanaw-inters.tumblr.com/post/98487852796" class="photo_link"><img class="like_photo" alt=""
+                                src="http://33.media.tumblr.com/60d1b269a3a273a6005bfde1c029752e/tumblr_nbb0kzzf9T1tsgmf4o1_250.gif"/></a><div class="like_below_photo"></div><div class="like_caption">
+<p><a href="http://fuckyeah-sarahpaulson.tumblr.com/post/96550594848/sarah-paulson-at-annual-directors-guild-awards">fuckyeah-sarahpaulson</a>:</p>
+<blockquote>
+<p><em><sub><strong>Sarah Paulson</strong> at Annual Directors Guild Awards 2014 </sub></em></p>
+</blockquote>
+</div><div class="post_info_bottom" style="display:none;"><a href="http://lanaw-inters.tumblr.com/post/98487852796">Photoset</a> <span class="via">via</span> <a href="http://lanaw-inters.tumblr.com/">lanaw-inters</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://bootyliciousbutler.tumblr.com/post/98499093561/zenonzequel-alriiiiiight">Photo</a> <span class="via">via</span> <a href="http://bootyliciousbutler.tumblr.com/">bootyliciousbutler</a></div><a href="http://bootyliciousbutler.tumblr.com/post/98499093561/zenonzequel-alriiiiiight" class="photo_link"><img class="like_photo" alt=""
+                                src="http://38.media.tumblr.com/0d1f5f909b4702bc3a07d8f4f662f3bc/tumblr_ncbahxUTxd1qmatxio1_250.jpg"/></a><div class="like_below_photo"></div><div class="like_caption">
+<p><a href="http://zenonzequel.tumblr.com/post/98153204470/alriiiiiight">zenonzequel</a>:</p>
+<blockquote>
+<p>ALRIIIIIIGHT</p>
+</blockquote>
+</div><div class="post_info_bottom" style="display:none;"><a href="http://bootyliciousbutler.tumblr.com/post/98499093561/zenonzequel-alriiiiiight">Photo</a> <span class="via">via</span> <a href="http://bootyliciousbutler.tumblr.com/">bootyliciousbutler</a></div></li>
+<li class="like_post like_chat_post"><div class="post_info_top" style="display:none;"><a href="http://bootyliciousbutler.tumblr.com/post/98516827896/accidentally-thinks-about-something-awkward-i-did">Chat</a> <span class="via">via</span> <a href="http://bootyliciousbutler.tumblr.com/">bootyliciousbutler</a></div><div class="like_chat"><div class="like_line"><strong></strong>accidentally thinks about something awkward i did three years ago</div><div class="like_line"><strong>me:</strong>nononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononononono</div></div><div class="post_info_bottom" style="display:none;"><a href="http://bootyliciousbutler.tumblr.com/post/98516827896/accidentally-thinks-about-something-awkward-i-did">Chat</a> <span class="via">via</span> <a href="http://bootyliciousbutler.tumblr.com/">bootyliciousbutler</a></div></li>
+</ul>
+                </div>
+            
+            
+            
+                <h3>People I follow</h3>
+                <div id="following_container" class="widget">
+                    <ul>
+                        
+                            <li><a href="http://iamsistermaryeunice.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_0d5e9a0cf1ca_30.png" alt="iamsistermaryeunice"/></a></li>
+                        
+                            <li><a href="http://lanaw-inters.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_a36391bc6337_30.png" alt="lanaw-inters"/></a></li>
+                        
+                            <li><a href="http://ahs-on-fx.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_9d41b32b8c59_30.png" alt="ahs-on-fx"/></a></li>
+                        
+                            <li><a href="http://americanhorrorstorycaps.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_0fbce41d07a9_30.png" alt="americanhorrorstorycaps"/></a></li>
+                        
+                            <li><a href="http://glorious-gloria-mott.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_632719342274_30.png" alt="glorious-gloria-mott"/></a></li>
+                        
+                            <li><a href="http://ahsgifs.com/"><img src="http://38.media.tumblr.com/avatar_df1c10c315de_30.png" alt="ahsgifs"/></a></li>
+                        
+                            <li><a href="http://staff.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_fee7ff3e9d6a_30.png" alt="staff"/></a></li>
+                        
+                            <li><a href="http://bootyliciousbutler.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_e0679d58f91b_30.png" alt="bootyliciousbutler"/></a></li>
+                        
+                            <li><a href="http://ssarahpaulsonn.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_ff35c66856de_30.png" alt="ssarahpaulsonn"/></a></li>
+                        
+                            <li><a href="http://mscordelia.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_534f8c4af82f_30.png" alt="mscordelia"/></a></li>
+                        
+                            <li><a href="http://ahorrorstorycircle.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_c52f9a5013ed_30.png" alt="ahorrorstorycircle"/></a></li>
+                        
+                            <li><a href="http://sugarberrysims.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_ee12339fdcce_30.png" alt="sugarberrysims"/></a></li>
+                        
+                            <li><a href="http://fuckyeah-sarahpaulson.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_be2f8d01c5b0_30.png" alt="fuckyeah-sarahpaulson"/></a></li>
+                        
+                            <li><a href="http://lilyhoncho.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_7e4fc165e80e_30.png" alt="lilyhoncho"/></a></li>
+                        
+                            <li><a href="http://sarahamazingpaulson.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_40d2a1a623d9_30.png" alt="sarahamazingpaulson"/></a></li>
+                        
+                            <li><a href="http://youlookedlikeart.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_1304a6ed64f8_30.png" alt="youlookedlikeart"/></a></li>
+                        
+                            <li><a href="http://frickxyeah.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_f31ea8ed9034_30.png" alt="frickxyeah"/></a></li>
+                        
+                            <li><a href="http://horrorstorygifs.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_f021611001ce_30.png" alt="horrorstorygifs"/></a></li>
+                        
+                            <li><a href="http://carlz-carlmelz.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_8f2a04cb354b_30.png" alt="carlz-carlmelz"/></a></li>
+                        
+                            <li><a href="http://americanwhorerstory.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_68c2bc9e411d_30.png" alt="americanwhorerstory"/></a></li>
+                        
+                            <li><a href="http://sarahpaulsonslovepants.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_72d737ba5000_30.png" alt="sarahpaulsonslovepants"/></a></li>
+                        
+                            <li><a href="http://dayfoxx-fic.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_0d8efab30c3c_30.png" alt="dayfoxx-fic"/></a></li>
+                        
+                            <li><a href="http://sarahpaulsonxo.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_f788e3c9f3ae_30.png" alt="sarahpaulsonxo"/></a></li>
+                        
+                            <li><a href="http://americanhorrorstoryahs.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_20853625cfab_30.png" alt="americanhorrorstoryahs"/></a></li>
+                        
+                            <li><a href="http://ahs-freaks.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_c614649c9419_30.png" alt="ahs-freaks"/></a></li>
+                        
+                            <li><a href="http://kiacast.tumblr.com/"><img src="http://assets.tumblr.com/images/default_avatar_30.png" alt="kiacast"/></a></li>
+                        
+                            <li><a href="http://carlazuz.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_5b4cb4d03667_30.png" alt="carlazuz"/></a></li>
+                        
+                    </ul>
+                </div>
+            
+            </div><!-- #sidebar -->
+        </div><!-- #main -->
+        <div id="footer">
+            <div id="colophon"><p>Powered by <a href="http://tumblr.com">Tumblr</a>. <a href="http://www.tumblr.com/theme/10375">Minimal Theme</a> designed by <a href="http://arturkim.com">Artur Kim</a>.</p></div>
+        </div><!-- #footer -->
+    </div><!-- #wrapper -->
+
+<script type="text/javascript" src="/tweets.js"></script>
+
+
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://what-is-a-sarah-paulson.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037516&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd2hhdC1pcy1hLXNhcmFoLXBhdWxzb24udHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=DIOBOJJDGC&K=8674a01199ab28ddc82331bf05dd4f44fa33b7488ae123125cfd952c77880323&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037516&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd2hhdC1pcy1hLXNhcmFoLXBhdWxzb24udHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=DIOBOJJDGC&K=462204631958d6c2e78484babfe352d502446bf2378a54015ff578e170093457&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037516&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3doYXQtaXMtYS1zYXJhaC1wYXVsc29uLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIyOTMwMzQ2MiIsInJvb3RfcG9zdGlkIjoiMjMxMTY3OTk2NzMiLCJwb3N0aWQiOiI5ODUyNjY2NTI5MSIsImJsb2dpZCI6IjE4MTYwNDE2NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDc3MDEwOCIsInJvb3RfcG9zdGlkIjoiODEyMzk4NjMxMDAiLCJwb3N0aWQiOiI5ODUyNjEyNTIyNiIsImJsb2dpZCI6IjE4MTYwNDE2NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODUwMjgxMTAiLCJyb290X3Bvc3RpZCI6Ijk2NTY0NjY5MDAxIiwicG9zdGlkIjoiOTc4MzY1MDQ0NzEiLCJibG9naWQiOiIxODE2MDQxNjYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDI3OTkxMDciLCJyb290X3Bvc3RpZCI6OTc1OTQ4ODI0NDUsInBvc3RpZCI6Ijk3ODM2MzI4MDAxIiwiYmxvZ2lkIjoiMTgxNjA0MTY2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEwNTk1NzIwMCIsInJvb3RfcG9zdGlkIjoiOTc2ODk4NDY4MDAiLCJwb3N0aWQiOiI5NzgzNjI5MzkzNiIsImJsb2dpZCI6IjE4MTYwNDE2NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMjEwMTM4NiIsInJvb3RfcG9zdGlkIjoiNzMwNTM1NDcyNDAiLCJwb3N0aWQiOiI5NzgzNjA5NDY4MSIsImJsb2dpZCI6IjE4MTYwNDE2NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTc4ODM4NDEiLCJyb290X3Bvc3RpZCI6NTQ0MDgyOTA5NDcsInBvc3RpZCI6Ijk3ODM2MDg3NTYxIiwiYmxvZ2lkIjoiMTgxNjA0MTY2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMxNTMzNDM2Iiwicm9vdF9wb3N0aWQiOiIxOTQ4OTMwMzU2MyIsInBvc3RpZCI6Ijk3ODM1NjgxODg2IiwiYmxvZ2lkIjoiMTgxNjA0MTY2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEyMzg5NjExMCIsInJvb3RfcG9zdGlkIjoiOTc2NTE0MDM3MTYiLCJwb3N0aWQiOiI5NzgzNTQxMjQ2MSIsImJsb2dpZCI6IjE4MTYwNDE2NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2OTMzNzY2Iiwicm9vdF9wb3N0aWQiOiIzNDMwMTg3Mzk4MiIsInBvc3RpZCI6Ijk3ODM1NDAxNjY2IiwiYmxvZ2lkIjoiMTgxNjA0MTY2Iiwic291cmNlIjozM31dfQ==&U=NMPBCIIIGO&K=c720e88e8ca3ffb734383501a0986013a66e8cd5ff03982f902c4eaa64ea542e&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037516&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3doYXQtaXMtYS1zYXJhaC1wYXVsc29uLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIyOTMwMzQ2MiIsInJvb3RfcG9zdGlkIjoiMjMxMTY3OTk2NzMiLCJwb3N0aWQiOiI5ODUyNjY2NTI5MSIsImJsb2dpZCI6IjE4MTYwNDE2NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDc3MDEwOCIsInJvb3RfcG9zdGlkIjoiODEyMzk4NjMxMDAiLCJwb3N0aWQiOiI5ODUyNjEyNTIyNiIsImJsb2dpZCI6IjE4MTYwNDE2NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODUwMjgxMTAiLCJyb290X3Bvc3RpZCI6Ijk2NTY0NjY5MDAxIiwicG9zdGlkIjoiOTc4MzY1MDQ0NzEiLCJibG9naWQiOiIxODE2MDQxNjYiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDI3OTkxMDciLCJyb290X3Bvc3RpZCI6OTc1OTQ4ODI0NDUsInBvc3RpZCI6Ijk3ODM2MzI4MDAxIiwiYmxvZ2lkIjoiMTgxNjA0MTY2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEwNTk1NzIwMCIsInJvb3RfcG9zdGlkIjoiOTc2ODk4NDY4MDAiLCJwb3N0aWQiOiI5NzgzNjI5MzkzNiIsImJsb2dpZCI6IjE4MTYwNDE2NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMjEwMTM4NiIsInJvb3RfcG9zdGlkIjoiNzMwNTM1NDcyNDAiLCJwb3N0aWQiOiI5NzgzNjA5NDY4MSIsImJsb2dpZCI6IjE4MTYwNDE2NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMTc4ODM4NDEiLCJyb290X3Bvc3RpZCI6NTQ0MDgyOTA5NDcsInBvc3RpZCI6Ijk3ODM2MDg3NTYxIiwiYmxvZ2lkIjoiMTgxNjA0MTY2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMxNTMzNDM2Iiwicm9vdF9wb3N0aWQiOiIxOTQ4OTMwMzU2MyIsInBvc3RpZCI6Ijk3ODM1NjgxODg2IiwiYmxvZ2lkIjoiMTgxNjA0MTY2Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEyMzg5NjExMCIsInJvb3RfcG9zdGlkIjoiOTc2NTE0MDM3MTYiLCJwb3N0aWQiOiI5NzgzNTQxMjQ2MSIsImJsb2dpZCI6IjE4MTYwNDE2NiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2OTMzNzY2Iiwicm9vdF9wb3N0aWQiOiIzNDMwMTg3Mzk4MiIsInBvc3RpZCI6Ijk3ODM1NDAxNjY2IiwiYmxvZ2lkIjoiMTgxNjA0MTY2Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=NMPBCIIIGO&K=f75453ce4ff618ab910a425a7e3b4172cfa467986417e843c9479cc329ee7483&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:181604166,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fwhat-is-a-sarah-paulson.tumblr.com%2F&amp;lang=en_US&amp;name=what-is-a-sarah-paulson&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_bce1fa5f5e99_64.png&amp;title=Madi+not+Maddie&amp;url=http%3A%2F%2Fwhat-is-a-sarah-paulson.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fwhat-is-a-sarah-paulson.tumblr.com%2F&amp;lang=en_US&amp;name=what-is-a-sarah-paulson&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_bce1fa5f5e99_64.png&amp;title=Madi+not+Maddie&amp;url=http%3A%2F%2Fwhat-is-a-sarah-paulson.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

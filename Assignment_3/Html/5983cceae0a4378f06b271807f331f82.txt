@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Aviso: Nunca introduzcas tu contrase\u00f1a de Tumblr a menos que la direcci\u00f3n \u201chttps://www.tumblr.com/login\u201d\x0aaparezca en la barra del navegador.\x0a\x0aTambi\u00e9n deber\u00edas ver el emblema verde de \u201cTumblr, Inc.\u201d en la barra de direcciones.\x0a\x0aLos spammers y otras personas malintencionadas utilizan formularios falsos para obtener contrase\u00f1as de forma il\u00edcita.\x0a\x0aTumblr jam\u00e1s te pedir\u00e1 que inicies sesi\u00f3n desde el blog de un usuario.\x0a\x0a\u00bfSeguro que quieres continuar?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- Minimal Theme designed by Artur Kim (http://arturkim.com) for Tumblr | version 1.5 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Let it be.</title>
+    <meta name="description" content="Buscaba una raz&oacute;n para sonre&iacute;r y encontr&eacute; cinco." />
+    <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_8568be462724_128.png" />
+    <link rel="apple-touch-icon" href="http://33.media.tumblr.com/avatar_8568be462724_128.png"/>
+    <link rel="alternate" type="application/rss+xml" href="http://errordefabrica.tumblr.com/rss" />
+
+    <!-- DEFAULT VARIABLES -->
+    <meta name="color:Post Type Text" content="#555555"/>
+    <meta name="color:Post Type Photo" content="#555555"/>
+    <meta name="color:Post Type Photoset" content="#555555"/>
+    <meta name="color:Post Type Quote" content="#555555"/>
+    <meta name="color:Post Type Link" content="#555555"/>
+    <meta name="color:Post Type Chat" content="#555555"/>
+    <meta name="color:Post Type Video" content="#555555"/>
+    <meta name="color:Post Type Audio" content="#555555"/>
+    <meta name="image:Header" content=""/>
+    <meta name="if:Show About Widget" content="1"/>
+    <meta name="if:Show Stuff I Like Widget" content="1"/>
+    <meta name="if:Show Latest Tweets Widget" content="0"/>
+    <meta name="if:Show People I Follow Widget" content="1"/>
+    <meta name="text:Number of Tweets" content="3"/>
+    <meta name="text:Google Analytics ID" content="" />
+    <meta name="text:Disqus Shortname" content="" />
+
+    <style type="text/css" media="screen">
+    /* Minimal Theme designed by Artur Kim (http://arturkim.com) for Tumblr | version 1.5 */
+
+    /* RESET */
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, font, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td {
+        margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;
+    }
+    body { line-height: 1; }
+    ol, ul { list-style: none; }
+    blockquote, q { quotes: none; }
+    blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+    :focus { outline: 0; }
+    del { text-decoration: line-through; }
+    table { border-collapse: collapse; border-spacing: 0; }
+
+    /* GLOBAL ELEMENTS */
+    body { background: #fff; }
+    body, input, textarea { color: #000; font: 14px/20px "helvetica neue",helvetica,arial,sans-serif; }
+    p, ul, ol, dd, pre { margin-bottom: 20px; }
+    pre, code { font: 12px Monaco,monospace; line-height: 20px; }
+    blockquote { border-left: 5px solid #ddd; color: #555; font-style: italic; margin-bottom: 20px; padding-left: 10px; }
+    table { border: 1px solid #ccc; border-width: 1px 1px 0 1px; font-size: 14px; line-height: 20px; margin: 0 0 22px 0; text-align: left; }
+    caption { text-align: left; }
+    tr { border-bottom: 1px solid #ccc; }
+    th, td { padding: .7em 1.25em; }
+    hr { background-color: #ccc; border: 0; color: #555; height: 1px; margin-bottom: 20px; }
+    a:link, a:visited { color: #555; }
+    a:focus, a:hover, a:active { color: #dd3333; }
+    h1, h2, h3, h4, h5, h6 {  font-weight:normal; clear:both; }
+    img { background: #eee; }
+    a img:focus, a img:hover, a img:active { background: #dd3333; }
+
+    /* DEFAULT CSS */
+    #header .menu {
+        border-bottom: 1px solid #ccc;
+        margin: 0 auto 3px;
+        overflow: hidden;
+        padding: 20px 0 10px;
+        width: 900px;
+    }
+        #header #pages {
+            float: left;
+            width: 580px;
+        }
+            #header #pages ul {
+                float: left;
+                margin-bottom: 0;
+            }
+                #header #pages li {
+                    float: left;
+                    margin-right: 10px;
+                    padding: 4px 10px 3px 0;
+                }
+                    #header #pages a, #header #pages a:visited {
+                        color: #555;
+                        font-size: 16px;
+                        text-decoration: none;
+                    }
+                    #header #pages a:focus, #header #pages a:hover, #header #pages a:active {
+                        color: #dd3333;
+                    }
+        #header #search {
+            float: right;
+        }
+            #header #search input {
+                border: 1px solid #ccc;
+                line-height: 20px;
+                padding: 4px;
+            }
+            #header #search input.search-button {
+                background: #eee;
+                color: #555;
+                padding: 3px;
+                width: 60px;
+            }
+    #header #branding {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin: 0 auto 3px;
+        
+        width: 900px;
+    }
+        #header h1 a {
+            color: #111;
+            font: 80px Georgia,serif;
+            font-weight: normal;
+            line-height: 100px;
+            text-decoration: none;
+        }
+        #header h1 a:focus, #header h1 a:hover, #header h1 a:active {
+            color: #dd3333;
+        }
+        #header img {
+            max-width: 900px;
+        }
+    #main {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        clear: both;
+        margin: 0 auto 3px;
+        overflow: hidden;
+        width: 900px;
+    }
+        #container {
+            border-right: 1px solid #ccc;
+            float: left;
+            min-height: 400px;
+            width: 580px;
+        }
+            .post-meta {
+                border-bottom: 1px solid #ccc;
+                color: #555;
+                overflow: hidden;
+                padding: 9px 0;
+            }
+                .post-meta .type {
+                    float: left;
+                }
+                    .post-meta .type a {
+                        border-bottom: 1px solid #ccc;
+                        font-weight: bold;
+                        padding: 0 10px 10px;
+                        text-decoration: none;
+                    }
+                    .post-type-text .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-photo .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-photoset .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-quote .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-link .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-chat .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-video .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-type-audio .post-meta .type a {
+                        border-bottom: 1px solid #555555;
+                        color: #555555;
+                    }
+                    .post-meta .type a:focus, .post-meta .type a:hover, .post-meta .type a:active {
+                        margin-left: 5px;
+                    }
+                .post-meta .date, .post-meta .comments, .post-meta .note-count {
+                    float: left;
+                    padding: 0 10px;
+                }
+            .post-content {
+                padding: 30px 30px 60px;
+            }
+            .post-content div:last-child, .post-content div:last-child p,
+            .post-content div:last-child ul, .post-content div:last-child ol,
+            .post-content div:last-child blockquote {
+                margin-bottom: 0;
+            }
+                .post-content h3 {
+                    font: 20px Georgia,serif;
+                    margin-bottom: 20px;
+                }
+                    .post-content h3 a, .post-content h3 a:visited {
+                        color: #111;
+                        text-decoration: none;
+                    }
+                    .post-content h3 a:focus, .post-content h3 a:hover, .post-content h3:active {
+                        color: #dd3333;
+                    }
+                .post-content img {
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                .post-type-text .post-content ul {
+                    padding-left: 30px;
+                }
+                    .post-type-text .post-content ul ul {
+                        margin-bottom: 0;
+                    }
+                    .post-type-text .post-content ul li {
+                        list-style-type: disc;
+                    }
+                        .post-type-text .post-content ul ul li {
+                            list-style-type: circle;
+                        }
+                .post-type-text .post-content ol {
+                    padding-left: 30px;
+                }
+                    .post-type-text .post-content ol ol {
+                        margin-bottom: 0;
+                    }
+                    .post-type-text .post-content ol li {
+                        list-style-type: upper-latin;
+                    }
+                        .post-type-text .post-content ol ol li {
+                            list-style-type: lower-latin;
+                        }
+                .post-type-photoset .post-content .html_photoset {
+                    background: #eee;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                .post-type-link .post-content .link-wrap {
+                    margin-bottom: 20px;
+                }
+                .post-type-chat .post-content .label {
+                    color: #333;
+                    font-weight: bold;
+                }
+                .post-type-video .post-content .video-wrap {
+                    background: #f0f0f0;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                .post-type-audio .post-content .caption {
+                    margin-top: 10px;
+                }
+                .tags {
+                    font-size: 13px;
+                }
+                .tags a {
+                    text-decoration: none;
+                }
+                .tags a:after {
+                    content: ",";
+                }
+                .tags a:last-child:after {
+                    content: "";
+                }
+            #disqus_thread {
+                border-top: 1px solid #ccc;
+                padding: 10px 30px 0;
+            }
+                #disqus_thread h3 {
+                    color: #111;
+                    font: 18px Georgia,serif;
+                    margin: 20px 0 10px;
+                }
+                #dsq-content .dsq-subscribe-menu {
+                    font-size: 12px;
+                }
+            #post-notes {
+                border-top: 1px solid #ccc;
+                padding: 30px;
+            }
+                #post-notes ol li {
+                    border-bottom: 1px dotted #ccc;
+                    padding: 10px 0;
+                }
+                    #post-notes ol li img {
+                        background: none;
+                        padding-right: 3px;
+                        vertical-align: middle;
+                    }
+            .pagination {
+                border-top: 1px solid #ccc;
+                overflow: hidden;
+                padding: 20px 0;
+            }
+                .pagination .previous-page {
+                    float: left;
+                }
+                .pagination .next-page {
+                    float: right;
+                    margin-right: 30px;
+                }
+                    .pagination a {
+                        font: 20px Georgia,serif;
+                        text-decoration: none;
+                    }
+        #sidebar {
+            float: left;
+            padding-bottom: 30px;
+            width: 319px;
+        }
+            #sidebar h3 {
+                border-bottom: 1px dotted #ccc;
+                color: #999;
+                font-size: 14px;
+                font-weight: bold;
+                margin: 0 0 20px;
+                padding: 9px 20px;
+                text-transform: uppercase;
+            }
+                #sidebar h3 a, #sidebar h3 a:visited {
+                    color: #999;
+                    text-decoration: none;
+                }
+                #sidebar h3 a:focus, #sidebar h3 a:hover, #sidebar h3 a:active {
+                    color: #dd3333;
+                }
+
+            #sidebar ul {
+                margin-bottom: 0;
+            }
+            .widget {
+                border-bottom: 1px solid #ccc;
+                color: #333;
+                font-size: 13px;
+                padding: 0 20px 20px 20px;
+            }
+                .widget h3 {
+                    font: 20px Georgia,serif;
+                    margin-bottom: 20px;
+                }
+                    .widget h3 a, .widget h3 a:visited {
+                        color: #000;
+                        text-decoration: none;
+                    }
+                    .widget h3 a:focus, .widget h3 a:hover, .widget h3 a:active {
+                        color: #dd3333;
+                    }
+                .widget img {
+                    padding: 5px;
+                    max-width: 250px;
+                }
+                .widget p:last-child, .widget ul:last-child, .widget ol:last-child, .widget blockquote:last-child {
+                    margin-bottom: 0;
+                }
+            #about {
+                overflow: hidden;
+            }
+                #about img {
+                    background: #fff;
+                    border: 1px solid #ccc;
+                    float: left;
+                    margin: 0 10px 0 0;
+                    padding: 3px;
+                }
+            .like_post {
+                border-bottom: 1px dotted #ccc;
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+            }
+            .like_post:last-child {
+                border: none;
+                margin: 0;
+                padding: 0;
+            }
+                .like_post ul {
+                    padding-left: 20px;
+                }
+                    .like_post ul ul {
+                        margin-bottom: 0;
+                    }
+                    .like_post ul li {
+                        list-style-type: disc;
+                    }
+                        .like_post ul ul li {
+                            list-style-type: circle;
+                        }
+                .like_post ol {
+                    padding-left: 20px;
+                }
+                    .like_post ol ol {
+                        margin-bottom: 0;
+                    }
+                    .like_post ol li {
+                        list-style-type: upper-latin;
+                    }
+                        .like_post ol ol li {
+                            list-style-type: lower-latin;
+                        }
+                .like_post p:last-child, .like_post ul:last-child, .like_post ol:last-child, .like_post blockquote:last-child {
+                    margin-bottom: 0;
+                }
+            #tweets {
+                margin-bottom: 10px;
+            }
+                #tweets .content {
+                    margin-bottom: 10px;
+                }
+                    #tweets a {
+                        text-decoration: none;
+                    }
+            #following_container {
+                overflow: hidden;
+                padding-bottom: 20px;
+            }
+                #following_container li {
+                    display: inline;
+                    padding: 0;
+                    margin: 0;
+                }
+    #footer {
+        border-top: 1px solid #ccc;
+        clear: both;
+        margin: 0 auto;
+        overflow: hidden;
+        width: 900px;
+    }
+        #colophon {
+            color: #555;
+            float: right;
+            font-size: 12px;
+            padding: 10px 0 20px;
+        }
+            #footer a {
+                border-bottom: 1px dotted #555;
+                text-decoration: none;
+            }
+    
+    </style>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=errordefabrica" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Let it be." /><meta property="og:url" content="http://errordefabrica.tumblr.com/?og=1" /><meta property="og:description" content="Buscaba una raz&oacute;n para sonre&iacute;r y encontr&eacute; cinco." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_8568be462724_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=errordefabrica" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=errordefabrica" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="errordefabrica" /><meta name="twitter:description" content="Buscaba una raz&oacute;n para sonre&iacute;r y encontr&eacute; cinco.    &lt;But you fit me better than my favourite sweater.&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=errordefabrica&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=errordefabrica&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=errordefabrica&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="access">
+                <div class="menu">
+                    <div id="pages">
+                        <ul>
+                            <li><a href="/">Home</a></li>
+                            
+                            <li class="ask"><a href="/ask" class="page">Ask.</a></li>
+                            
+                            <li class="archive"><a href="/archive">Archive</a></li>
+                            <li class="mobile"><a href="/mobile">Mobile</a></li>
+                            <li class="rss"><a href="http://errordefabrica.tumblr.com/rss">RSS</a></li>
+                        </ul>
+                    </div><!-- #pages -->
+                    <div id="search">
+                        <form action="/search" method="get">
+                            <input type="text" name="q" value=""/>
+                            <input type="submit" value="Search" class="search-button"/>
+                        </form>
+                    </div><!-- #search -->
+                </div><!-- .menu -->
+            </div><!-- #access -->
+            <div id="branding">
+                <h1>
+                    <a href="/"><img src="http://static.tumblr.com/8c576662fd0af96c6a8d97dd7d36aabe/tz2fz7w/Efemyko66/tumblr_static_290.we_heart_it.jpg" alt="Let it be." /></a>
+                    
+                </h1>
+            </div><!-- #branding -->
+        </div><!-- #header -->
+        <div id="main">
+            <div id="container">
+                <div id="content">
+                
+                    <div id="post-88065136439" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://errordefabrica.tumblr.com/post/88065136439">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                Junio 07, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://errordefabrica.tumblr.com/post/88065136439#notes">1 nota</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <a href="http://errordefabrica.tumblr.com/image/88065136439"><img src="http://31.media.tumblr.com/6440929dcec6052df11ae1adf5c8bec3/tumblr_n6skfcOQuC1s4bcy1o1_500.jpg" class="photo" alt="" /></a>
+                            <a href="http://33.media.tumblr.com/6440929dcec6052df11ae1adf5c8bec3/tumblr_n6skfcOQuC1s4bcy1o1_1280.jpg" class="high-res" target="_blank"></a>
+                            
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-85734430359" class="post post-type-quote">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://errordefabrica.tumblr.com/post/85734430359/no-fuimos-felices-fuimos-la-felicidad-de-la">Quote</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                Mayo 14, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                        
+                            <div class="quote-content">"<p>No fuimos felices, <br/>
+fuimos la felicidad de la mano, <br/>
+y eso pocos van a entenderlo. </p>
+
+<p>Como yo tampoco entiendo<br/>
+como alguien puede ser <br/>
+un planeta entero para otro,<br/>
+o cómo del carmín de tu boca<br/>
+podían salir los demás colores.</p>"</div>
+                            
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-84508064764" class="post post-type-audio">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://errordefabrica.tumblr.com/post/84508064764/mightyaud-blue-jeans-lana-del-rey">Audio</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                Mayo 02, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://errordefabrica.tumblr.com/post/84508064764/mightyaud-blue-jeans-lana-del-rey#notes">3 063 notas</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <div class="audio-wrap"><span id="audio_player_84508064764"><div class="audio_player"><iframe class="tumblr_audio_player tumblr_audio_player_84508064764" src="http://errordefabrica.tumblr.com/post/84508064764/audio_player_iframe/errordefabrica/tumblr_mb35yg6oMM1r88rmc?audio_file=https%3A%2F%2Fwww.tumblr.com%2Faudio_file%2Ferrordefabrica%2F84508064764%2Ftumblr_mb35yg6oMM1r88rmc&color=grey&simple=1" frameborder="0" allowtransparency="true" scrolling="no" width="207" height="27"></iframe></div></span></div>
+                            <div class="caption"><p><a class="tumblr_blog" href="http://mightyaud.tumblr.com/post/32488455548/blue-jeans-lana-del-rey" target="_blank">mightyaud</a>:</p>
+<blockquote>
+<p><strong>Blue Jeans - Lana Del Rey</strong></p>
+</blockquote></div>
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-84507681619" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://errordefabrica.tumblr.com/post/84507681619/that-you-have-a-death-wish">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                Mayo 02, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <img src="http://38.media.tumblr.com/677b73399bfaf5ee91bace92e94189c5/tumblr_n4xy8j9zcr1s4bcy1o1_500.jpg" class="photo" alt="&#039;That you have a death wish.&#039;" />
+                            
+                            <div class="caption"><p>'That you have a death wish.'</p></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-84507547144" class="post post-type-quote">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://errordefabrica.tumblr.com/post/84507547144/el-mundo-no-es-una-fabrica-de-conceder-deseos">Quote</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                Mayo 02, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                        
+                        
+                            <div class="quote-content">"El mundo no es una fábrica de conceder deseos."</div>
+                            
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-84507487904" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://errordefabrica.tumblr.com/post/84507487904">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                Mayo 02, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <a href="http://errordefabrica.tumblr.com/image/84507487904"><img src="http://38.media.tumblr.com/37f8f7d6f9dd1e91e821573a9a5daba9/tumblr_n4xxzlesJV1s4bcy1o1_500.jpg" class="photo" alt="" /></a>
+                            <a href="http://33.media.tumblr.com/37f8f7d6f9dd1e91e821573a9a5daba9/tumblr_n4xxzlesJV1s4bcy1o1_1280.jpg" class="high-res" target="_blank"></a>
+                            
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-83401624521" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://errordefabrica.tumblr.com/post/83401624521">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                Abril 21, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <a href="http://errordefabrica.tumblr.com/image/83401624521"><img src="http://33.media.tumblr.com/ebb9e063818579c8d38f8df34bfad435/tumblr_n4dozf2u8T1s4bcy1o1_500.jpg" class="photo" alt="" /></a>
+                            <a href="http://33.media.tumblr.com/ebb9e063818579c8d38f8df34bfad435/tumblr_n4dozf2u8T1s4bcy1o1_1280.jpg" class="high-res" target="_blank"></a>
+                            
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-83401564945" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://errordefabrica.tumblr.com/post/83401564945">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                Abril 21, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <a href="http://errordefabrica.tumblr.com/image/83401564945"><img src="http://38.media.tumblr.com/03f655ef21f4f5ffe4f5df0ad25cb471/tumblr_n4doxbPnRU1s4bcy1o1_500.jpg" class="photo" alt="" /></a>
+                            <a href="http://38.media.tumblr.com/03f655ef21f4f5ffe4f5df0ad25cb471/tumblr_n4doxbPnRU1s4bcy1o1_1280.jpg" class="high-res" target="_blank"></a>
+                            
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-83401491601" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://errordefabrica.tumblr.com/post/83401491601">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                Abril 21, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <a href="http://errordefabrica.tumblr.com/image/83401491601"><img src="http://31.media.tumblr.com/1a8209a1a22d055decd8584d4afb3f9b/tumblr_n4douwM0so1s4bcy1o1_500.jpg" class="photo" alt="" /></a>
+                            <a href="http://33.media.tumblr.com/1a8209a1a22d055decd8584d4afb3f9b/tumblr_n4douwM0so1s4bcy1o1_1280.jpg" class="high-res" target="_blank"></a>
+                            
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                    <div id="post-83401436142" class="post post-type-photo">
+                        <div class="post-meta">
+                            <div class="type">
+                                <a href="http://errordefabrica.tumblr.com/post/83401436142">Photo</a>
+                            </div><!-- .type -->
+                        
+                            <div class="date">
+                                Abril 21, 2014
+                            </div><!-- .date -->
+                        
+                        
+                        
+                            <div class="note-count">
+                                <a href="http://errordefabrica.tumblr.com/post/83401436142#notes">1 nota</a>
+                            </div><!-- .note-count -->
+                        
+                        </div><!-- .post-meta -->
+                        <div class="post-content">
+                        
+                        
+                            <a href="http://errordefabrica.tumblr.com/image/83401436142"><img src="http://33.media.tumblr.com/5ef79275fdff7a1e995fe9750926561a/tumblr_n4dot2hQt01s4bcy1o1_500.jpg" class="photo" alt="" /></a>
+                            <a href="http://38.media.tumblr.com/5ef79275fdff7a1e995fe9750926561a/tumblr_n4dot2hQt01s4bcy1o1_1280.jpg" class="high-res" target="_blank"></a>
+                            
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div><!-- post-content -->
+                    </div><!-- .post -->
+                    
+                    
+                
+                
+                    <div class="pagination">
+                        
+                        <span class="next-page"><a href="/page/2">Next &#187;</a></span>
+                    </div><!-- .pagination -->
+                
+                </div><!-- #content -->
+            </div><!-- #container -->
+            <div id="sidebar">
+            
+                <h3>About</h3>
+                <div id="about" class="widget">
+                    <img src="http://38.media.tumblr.com/avatar_8568be462724_64.png" alt="portrait" />
+                    <div class="description"><p>Buscaba una razón para sonreír y encontré cinco.    <But you fit me better than my favourite sweater.></p></div>
+                </div>
+            
+			
+                <h3><a href="http://www.tumblr.com/liked/by/errordefabrica">Stuff I like</a></h3>
+                <div id="likes_container" class="widget">
+                    <ul id="likes"><li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://diametrically.tumblr.com/post/81818268866/wildstag-hands-by-madeline-joy-on-flickr">Foto</a> <span class="via">vía</span> <a href="http://diametrically.tumblr.com/">diametrically</a></div><a href="http://diametrically.tumblr.com/post/81818268866/wildstag-hands-by-madeline-joy-on-flickr" class="photo_link"><img class="like_photo" alt=""
+                                src="http://40.media.tumblr.com/8c0a0456a6652dd8b16dccb1df808faf/tumblr_n1qqcmFTCz1qibhgro1_250.jpg"/></a><div class="like_below_photo"></div><div class="like_caption">
+<p><a href="http://wildstag.tumblr.com/post/78200896118/hands-by-madeline-joy-on-flickr">wildstag</a>:</p>
+<blockquote>
+<p><a href="http://www.flickr.com/photos/madelinetakespictures/3520651501/" title="Hands">Hands</a> by <a href="http://www.flickr.com/photos/madelinetakespictures/">Madeline Joy</a> on Flickr.</p>
+</blockquote>
+</div><div class="post_info_bottom" style="display:none;"><a href="http://diametrically.tumblr.com/post/81818268866/wildstag-hands-by-madeline-joy-on-flickr">Foto</a> <span class="via">vía</span> <a href="http://diametrically.tumblr.com/">diametrically</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://diametrically.tumblr.com/post/81819134645">Foto</a> <span class="via">vía</span> <a href="http://diametrically.tumblr.com/">diametrically</a></div><a href="http://diametrically.tumblr.com/post/81819134645" class="photo_link"><img class="like_photo" alt=""
+                                src="http://38.media.tumblr.com/tumblr_m78awz2M6H1qdcznoo1_250.gif"/></a><div class="like_below_photo"></div><div class="post_info_bottom" style="display:none;"><a href="http://diametrically.tumblr.com/post/81819134645">Foto</a> <span class="via">vía</span> <a href="http://diametrically.tumblr.com/">diametrically</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://diametrically.tumblr.com/post/81869581549">Foto</a> <span class="via">vía</span> <a href="http://diametrically.tumblr.com/">diametrically</a></div><a href="http://diametrically.tumblr.com/post/81869581549" class="photo_link"><img class="like_photo" alt=""
+                                src="http://36.media.tumblr.com/cbc262f8ad4b20112d8b04eca0af20bb/tumblr_mhhsw05fAQ1rojiz2o1_250.jpg"/></a><div class="like_below_photo"></div><div class="post_info_bottom" style="display:none;"><a href="http://diametrically.tumblr.com/post/81869581549">Foto</a> <span class="via">vía</span> <a href="http://diametrically.tumblr.com/">diametrically</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://painttheskky-makeityours.tumblr.com/post/77081125517">Foto</a> <span class="via">vía</span> <a href="http://painttheskky-makeityours.tumblr.com/">painttheskky-makeityours</a></div><a href="http://painttheskky-makeityours.tumblr.com/post/77081125517" class="photo_link"><img class="like_photo" alt=""
+                                src="http://33.media.tumblr.com/tumblr_m742lbsE8O1r8pmljo1_250.jpg"/></a><div class="like_below_photo"></div><div class="post_info_bottom" style="display:none;"><a href="http://painttheskky-makeityours.tumblr.com/post/77081125517">Foto</a> <span class="via">vía</span> <a href="http://painttheskky-makeityours.tumblr.com/">painttheskky-makeityours</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://diametrically.tumblr.com/post/78442587996">Foto</a> <span class="via">vía</span> <a href="http://diametrically.tumblr.com/">diametrically</a></div><a href="http://diametrically.tumblr.com/post/78442587996" class="photo_link"><img class="like_photo" alt=""
+                                src="http://40.media.tumblr.com/31e1839485be7f15248f2298ce0a616f/tumblr_mx38u3NT9j1ryv40eo1_250.jpg"/></a><div class="like_below_photo"></div><div class="post_info_bottom" style="display:none;"><a href="http://diametrically.tumblr.com/post/78442587996">Foto</a> <span class="via">vía</span> <a href="http://diametrically.tumblr.com/">diametrically</a></div></li>
+</ul>
+                </div>
+            
+            
+            
+                <h3>People I follow</h3>
+                <div id="following_container" class="widget">
+                    <ul>
+                        
+                            <li><a href="http://lopensaste.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_76289f688496_30.png" alt="lopensaste"/></a></li>
+                        
+                            <li><a href="http://21roman.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_a29d4a0ecb72_30.png" alt="21roman"/></a></li>
+                        
+                            <li><a href="http://painttheskky-makeityours.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_f4f63ef6ab42_30.png" alt="painttheskky-makeityours"/></a></li>
+                        
+                            <li><a href="http://random-bubble.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_611fb975caae_30.png" alt="random-bubble"/></a></li>
+                        
+                            <li><a href="http://equipo.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_752b0c7e4619_30.png" alt="equipo"/></a></li>
+                        
+                            <li><a href="http://corazondeporcelana.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_f94d0422947a_30.png" alt="corazondeporcelana"/></a></li>
+                        
+                            <li><a href="http://diametrically.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_bbb29b48b6a9_30.png" alt="diametrically"/></a></li>
+                        
+                            <li><a href="http://sinembargoteamo.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_21e86f7265bc_30.png" alt="sinembargoteamo"/></a></li>
+                        
+                            <li><a href="http://sourirecache.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_7278c6d213a1_30.png" alt="sourirecache"/></a></li>
+                        
+                            <li><a href="http://99stay-strong.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_f03466968caf_30.png" alt="99stay-strong"/></a></li>
+                        
+                            <li><a href="http://rocketuranus.tumblr.com/"><img src="http://31.media.tumblr.com/avatar_ded2db590824_30.png" alt="rocketuranus"/></a></li>
+                        
+                            <li><a href="http://99-game-over.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_727f2ff2c452_30.png" alt="99-game-over"/></a></li>
+                        
+                            <li><a href="http://mrs-styles-ochotumbado.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_82a9d5bcaef5_30.png" alt="mrs-styles-ochotumbado"/></a></li>
+                        
+                            <li><a href="http://synfonias.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_8efe31e5110a_30.png" alt="synfonias"/></a></li>
+                        
+                            <li><a href="http://whennightscomes.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_c380a1010bad_30.png" alt="whennightscomes"/></a></li>
+                        
+                            <li><a href="http://laugheverynightandday.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_20a03e9470db_30.png" alt="laugheverynightandday"/></a></li>
+                        
+                            <li><a href="http://carmenbooh.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_0d1ffceacf57_30.png" alt="carmenbooh"/></a></li>
+                        
+                            <li><a href="http://sandiefell144ct0a.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_6779adf89a50_30.png" alt="sandiefell144ct0a"/></a></li>
+                        
+                            <li><a href="http://myzombiezom.tumblr.com/"><img src="http://38.media.tumblr.com/avatar_020ddadb4916_30.png" alt="myzombiezom"/></a></li>
+                        
+                            <li><a href="http://sorryificallyou-love.tumblr.com/"><img src="http://33.media.tumblr.com/avatar_1d9f582b481c_30.png" alt="sorryificallyou-love"/></a></li>
+                        
+                    </ul>
+                </div>
+            
+            </div><!-- #sidebar -->
+        </div><!-- #main -->
+        <div id="footer">
+            <div id="colophon"><p>Powered by <a href="http://tumblr.com">Tumblr</a>. <a href="http://www.tumblr.com/theme/10375">Minimal Theme</a> designed by <a href="http://arturkim.com">Artur Kim</a>.</p></div>
+        </div><!-- #footer -->
+    </div><!-- #wrapper -->
+
+
+
+
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://errordefabrica.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037479&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZXJyb3JkZWZhYnJpY2EudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=MCHBANAAJK&K=816f739ae2e6215157a2a366f28113dc9e511efbf8c4768c422ca816087e4a9a&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037479&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZXJyb3JkZWZhYnJpY2EudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=MCHBANAAJK&K=7d618047b3dc505ff8ef24070f8bc24654cbe9ed3871b5b007613d3dc7b24684&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037479&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Vycm9yZGVmYWJyaWNhLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiODgwNjUxMzY0MzkiLCJibG9naWQiOiI5MTY0NjM0MSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODU3MzQ0MzAzNTkiLCJibG9naWQiOiI5MTY0NjM0MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNzEzODQwNSIsInJvb3RfcG9zdGlkIjoiMzI0ODg0NTU1NDgiLCJwb3N0aWQiOiI4NDUwODA2NDc2NCIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4NDUwNzY4MTYxOSIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4NDUwNzU0NzE0NCIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4NDUwNzQ4NzkwNCIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MzQwMTYyNDUyMSIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MzQwMTU2NDk0NSIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MzQwMTQ5MTYwMSIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MzQwMTQzNjE0MiIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM31dfQ==&U=NAJBCKGEMJ&K=434cf76c3fe99995ef8daa9460ac56ddd9721df7dff022e9db858130c25807cd&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037479&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Vycm9yZGVmYWJyaWNhLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiODgwNjUxMzY0MzkiLCJibG9naWQiOiI5MTY0NjM0MSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODU3MzQ0MzAzNTkiLCJibG9naWQiOiI5MTY0NjM0MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNzEzODQwNSIsInJvb3RfcG9zdGlkIjoiMzI0ODg0NTU1NDgiLCJwb3N0aWQiOiI4NDUwODA2NDc2NCIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4NDUwNzY4MTYxOSIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4NDUwNzU0NzE0NCIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4NDUwNzQ4NzkwNCIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MzQwMTYyNDUyMSIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MzQwMTU2NDk0NSIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MzQwMTQ5MTYwMSIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM30seyJwb3N0aWQiOiI4MzQwMTQzNjE0MiIsImJsb2dpZCI6IjkxNjQ2MzQxIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=NAJBCKGEMJ&K=5a162f0ded753e3263170d898bc549aa9e63f6bee701e9cde83d0dc6209ee01e&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:91646341,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Ferrordefabrica.tumblr.com%2F&amp;lang=es_ES&amp;name=errordefabrica&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_8568be462724_64.png&amp;title=Let+it+be.&amp;url=http%3A%2F%2Ferrordefabrica.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Ferrordefabrica.tumblr.com%2F&amp;lang=es_ES&amp;name=errordefabrica&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_8568be462724_64.png&amp;title=Let+it+be.&amp;url=http%3A%2F%2Ferrordefabrica.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

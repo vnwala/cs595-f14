@@ -1,0 +1,2049 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+                                         
+        .                                 .o8       oooo               
+      .o8                                "888       `888               
+    .o888oo oooo  oooo  ooo. .oo.  .oo.   888oooo.   888  oooo d8b     
+      888   `888  `888  `888P"Y88bP"Y88b  d88' `88b  888  `888""8P     
+      888    888   888   888   888   888  888   888  888   888        
+      888 .  888   888   888   888   888  888   888  888   888    .o. 
+      "888"  `V88V"V8P' o888o o888o o888o `Y8bod8P' o888o d888b   Y8P
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+
+<SCRIPT TYPE="text/javascript">
+/**
+  ** Cursor Bats - Halloween -  JavaScript 
+  ** This script and many more are free at
+  ** http://rainbow.arch.scriptmania.com/scripts/
+  */
+
+var num=3;    // 
+
+// 
+/*
+Script disabled for Netscape 6 
+*/
+
+var Netscape6=false;
+if (navigator.appName == "Netscape" && parseFloat(navigator.appVersion) >= 5) 
+Netscape6=true;
+
+if (!Netscape6){
+var pics=new Array("bat2.gif","bat3.gif","bat2.gif","bat1.gif");
+var load=new Array();
+
+function pre_load(){
+for(i=0; i < pics.length; i++){
+ load[i]=new Image();
+ load[i].src=pics[i];
+ }
+}
+pre_load();
+
+var n4=(document.layers);
+var o6=(navigator.appName.indexOf("Opera") != -1)?true:false;
+var ie=(document.all);
+var y=0;
+var x=0;
+var yb=0;
+var xb=0;
+var s0=0;
+var s1=0.5;
+var s2=1;
+var cnt=new Array(0,1,2)
+var mix=new Array();
+for (i=0; i < num; i++)
+mix[i]=cnt[Math.floor(Math.random()*cnt.length)];
+var del=0.1;
+var y1=new Array();
+var x1=new Array();
+var y2=new Array();
+var x2=new Array();
+for (i=0; i < num; i++){
+y1[i]=0;
+x1[i]=0;
+y2[i]=0;
+x2[i]=0;
+}
+if (n4){
+window.captureEvents(Event.MOUSEMOVE);
+function mouse1(e){
+ y = e.pageY-window.pageYOffset;
+ x = e.pageX; 
+ }
+window.onMouseMove=mouse1;                               
+}
+if (ie||o6){
+ function mouse2(){
+ y = (ie)?event.clientY:event.clientY-window.pageYOffset;
+ x = event.clientX;
+ } 
+document.onmousemove=mouse2;
+}
+if (n4){
+ for (i=0; i < num; i++)
+ document.write("<LAYER NAME='bats"+i+"' LEFT=0 TOP=-50><img name='temp"+i+"' src="+pics[0]+"></LAYER>");
+}
+if (ie){
+document.write('<div id="con" style="position:absolute;top:-50px;left:0px"><div style="position:relative">');
+ for (i=0; i < num; i++){
+ document.write('<img id="bats'+i+'" src="'+pics[0]+'" style="position:absolute;top:0px;left:0px">');
+ }
+ document.write('</div></div>');
+}
+if (o6){
+ for (i=0; i < num; i++)
+ document.write("<div id='bats"+i+"' style='position:absolute;top:-50px;left:0px'><img name='temp"+i+"' src="+pics[0]+"></div>");
+}
+
+function swirl(){
+if (ie) con.style.top=document.body.scrollTop;
+sy=(!ie)?window.pageYOffset:0;
+yb=(ie)?window.document.body.offsetHeight/3:window.innerHeight/3;
+xb=(ie)?window.document.body.offsetWidth/7:window.innerWidth/7;
+for (i=0; i < num; i++){
+ var t=(n4)?document.layers["bats"+i]:document.getElementById("bats"+i).style;
+ t.top = y1[i]+yb*Math.sin(((s0)+i*3.7)/4)*Math.cos((s0+i*35)/20)+sy;
+ t.left =x1[i]+xb*Math.cos(((s0)+i*3.7)/4)*Math.cos((s0+i*35)/62);
+ }
+s0+=s1;
+}
+
+function animate(){
+var i_or_o=(ie)?"bats":"temp";
+for (i=0; i < num; i++){
+ if (mix[i] == pics.length) mix[i]=0;
+ if (n4) document.layers['bats'+i].document.images['temp'+i].src=pics[mix[i]];
+ else document.images[i_or_o+i].src=pics[mix[i]];
+ mix[i]+=s2;
+}
+swirl();
+}
+
+function follow(){
+y1[0]=Math.round(y2[0]+=((y)-y2[0])*del);
+x1[0]=Math.round(x2[0]+=((x)-x2[0])*del);
+for (i=1; i < num; i++){
+y1[i]=Math.round(y2[i]+=(y1[i-1]-y2[i])*del);
+x1[i]=Math.round(x2[i]+=(x1[i-1]-x2[i])*del);
+}
+animate();
+setTimeout('follow()',50);
+}
+
+function startit(){
+setTimeout('follow()',1000);
+}
+window.onload=startit;
+}
+//-->
+</SCRIPT>
+
+
+    <!-- DEFAULT VARIABLES -->
+    <meta name="image:top thingy" content="" />
+    <meta name="color:Background" content="#3b627e" />
+    
+    <meta name="font:Title" content="Arial" />
+    <meta name="font:Body" content="Arial" />
+    <meta name="font:Accent" content="Lucida Sans" />
+    
+    <meta name="if:Show People I Follow" content="1" />
+    <meta name="if:Show Tags" content="1" />
+    <meta name="if:Show Album Art on Audio Posts" content="1" />
+    <meta name="if:Enable Jump Pagination" content="0" />
+    
+    <meta name="text:Disqus Shortname" content="" />
+    
+    <meta name="image:Header" content="" />
+    <meta name="image:Background" content="" />
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>a ufo party</title>
+    <meta name="description" content="Random amusements of a rambling mind. Main interests are wonders of the world and general bewitchery. Jenni. 23. Finland. Currently studying restoration. (Previously known as ivegotabike.) Art...." />
+    <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_424b3f945493_128.png" />
+    <link rel="apple-touch-icon" href="http://33.media.tumblr.com/avatar_424b3f945493_128.png"/>
+    <link rel="alternate" type="application/rss+xml" href="http://doctorpretorius.tumblr.com/rss" />
+    <style type="text/css">
+        body {
+            background: #baf1da url('http://assets.tumblr.com/images/x.gif') top left fixed repeat;
+            margin: 0;
+            padding: 0;
+            font-family: Baskerville, 'Times New Roman', Times, serif;
+        }
+        
+        .clear {
+            clear: both;
+            height: 0px;
+            overflow: hidden;
+        }
+        
+        a img {
+            border: none;
+        }
+        
+        #wrapper {
+            width: 845px;
+            margin: 0 auto;
+        }
+        
+            #wrapper #title {
+                margin: 30px 0;
+                color: #fff;
+                font-size: 50px;
+                font-weight: bold;
+                font-family: Baskerville, 'Times New Roman', Times, serif;
+                text-shadow: 1px 3px 5px rgba(0,0,0, 0.5);
+                letter-spacing: -1px;
+            }
+            
+                #wrapper #title a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            
+            #wrapper #content {
+                width: 520px;
+                float: left;
+            }
+            
+                #wrapper #content .post {
+                    font-family: Baskerville, 'Times New Roman', Times, serif;
+                    background: #fff;
+                    padding: 10px;
+                    position: relative;
+                }
+                    
+                    #wrapper #content .post .media {
+                        text-align: center;
+                        margin-bottom: 10px;
+                    }
+                    
+                    #wrapper #content .post .quotebg {
+                        font-family: georgia, serif;
+                        font-size: 150px;
+                        color: #baf1da;
+                        opacity: 0.2;
+                        filter: alpha(opacity=20);
+                        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+                        position: absolute;
+                        top: 70px;
+                        left: 10px;
+                    }
+                    
+                    #wrapper #content .post .quote {
+                        color: #baf1da;
+                        font-weight: bold;
+                        padding: 20px 20px 5px 20px;
+                    }
+                    
+                    #wrapper #content .post .quote.short {
+                        font-size: 33px;
+                        line-height: 35px;
+                    }
+                    
+                    #wrapper #content .post .quote.medium {
+                        font-size: 25px;
+                        line-height: 28px;
+                    }
+                    
+                    #wrapper #content .post .quote.long {
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+                                        
+                        #wrapper #content .post .quote_source *:first-child {
+                            margin-top: 0px;
+                        }
+                        
+                        #wrapper #content .post .quote_source *:last-child {
+                            margin-bottom: 0px;
+                        }
+                        
+                        #wrapper #content .post .quote *:first-child {
+                            margin-top: 0px;
+                        }
+                        
+                        #wrapper #content .post .quote *:last-child {
+                            margin-bottom: 0px;
+                        }
+                        
+                    #wrapper #content .post .copy {
+                        color: #6e7173;
+                        padding: 10px;
+                        font-size: 13px;
+                        line-height: 15px;
+                    }
+                        
+                        #wrapper #content .post .copy a {
+                            color: #6e7173;
+                            text-decoration: underline;
+                        }
+                        
+                        #wrapper #content .post .copy p {
+                            margin: 10px 0 0 0;
+                            padding: 0;
+                        }
+                        
+                        #wrapper #content .post .copy pre {
+                            margin: 10px 0px 10px 0px;
+                            padding: 10px;
+                            background-color: #e6e6e6;
+                            font: normal 11px Courier, monospace;
+                            overflow: auto;
+                        }
+                        
+                        #wrapper #content .post .copy > p:first-child {
+                            margin-top: 0;
+                        }
+                        
+                        #wrapper #content .post .copy img {
+                            max-width: 100%;
+                        }
+                    
+                    #wrapper #content .post .audio {
+                        background: #eaeaea;
+                        float: left;
+                        padding: 7px;
+                        margin-bottom: 10px;
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                    }
+                                                        
+                        #wrapper #content .post .audio .player {
+                            float: left;
+                        }
+                        
+                            #wrapper #content .post .audio .player .audio_player embed {
+                                border: 1px solid #c8c8c8;
+                            }
+                        
+                        #wrapper #content .post .audio .meta {
+                            padding: 8px 13px;
+                            height: 13px;
+                            float: left;
+                            color: #666;
+                            font-family: Baskerville, 'Times New Roman', Times, serif;
+                            font-size: 11px;
+                            text-transform: lowercase;
+                        }
+                        
+                            #wrapper #content .post .audio .meta a {
+                                color: #666;
+                                text-decoration: none;
+                            }
+                    
+                    #wrapper #content .post .album_art {
+                        text-align: center;
+                    }
+                    
+                    #wrapper #content .post .question {
+                        color: #494949;
+                        font-size: 16px;
+                        font-weight: bold;
+                        background: #f1f1f1;
+                        -moz-border-radius: 8px;
+                        -webkit-border-radius: 8px;
+                        border-radius: 8px;
+                        margin: 0 0 15px 0;
+                        padding: 15px 20px;
+                        position: relative;
+                    }
+                    
+                        #wrapper #content .post .question .nipple {
+                            width: 13px;
+                            height: 7px;
+                            background: #f1f1f1 url('http://assets.tumblr.com/themes/redux/ask-mask.png');
+                            position: absolute;
+                            bottom: -7px;
+                            left: 30px;
+                        }
+                        
+                    #wrapper #content .post .asker_container {
+                        margin: 0 0 20px 24px;
+                    }
+                    
+                        #wrapper #content .post .asker_container img {
+                            margin: 0 12px -7px 0;
+                        }
+                        
+                        #wrapper #content .post .asker_container a.asker {
+                            color: ;
+                        }
+                    
+                    #wrapper #content .post .title {
+                        color: #494949;
+                        font-size: 16px;
+                        font-weight: bold;
+                        padding: 10px 10px 0 10px;
+                    }
+                    
+                    #wrapper #content .post img {
+                      max-width: 500px;
+                    }
+                                        
+                    #wrapper #content .post .chat {
+                        background-color: #fff;
+                        border-left: 5px solid #dedddd;
+                        margin: 10px 10px 0 10px;
+                        font-size: 14px;
+                    }
+                                        
+                        #wrapper #content .post .chat .lines {
+                            margin-left: 1px;
+                        }
+                        
+                            #wrapper #content .post .chat .lines .line {
+                                background-color: #eaeaea;
+                                color: #494949;
+                                margin-bottom: 1px;
+                                padding: 3px 5px;
+                            }
+                            
+                            #wrapper #content .post .chat .lines .line.even {
+                                background-color: #dedddd;
+                            }
+                        
+                        #wrapper #content .post .link {
+                            margin: 4px 0 2px 0;
+                            font-size: 16px;
+                            line-height: 25px;
+                        }
+                            
+                            #wrapper #content .post .link a {
+                                background-color: #baf1da;
+                                color: #fff;
+                                padding: 5px 7px;
+                                -moz-border-radius: 4px;
+                                -webkit-border-radius: 4px;
+                                border-radius: 4px;
+                            }
+                            
+                            #wrapper #content .post .link a:hover {
+                                opacity: 0.9;
+                                filter: alpha(opacity=90);
+                                -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                            }
+                    
+                    #wrapper #content .post .footer {
+                        background: #eaeaea;
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                        font-family: Baskerville, 'Times New Roman', Times, serif;
+                        font-size: 11px;
+                        color: #666;
+                        padding: 5px 10px;
+                        margin-top: 10px;
+                    }
+                        
+                        #wrapper #content .post .footer.for_permalink:hover {
+                            opacity: 0.9;
+                            filter: alpha(opacity=90);
+                            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                        }
+                        
+                        #wrapper #content .post .footer .date {
+                            width: 67%;
+                            float: left;
+                            color: #666;
+                        }
+                        
+                        #wrapper #content .post .footer .notes {
+                            width: 33%;
+                            float: right;
+                            text-align: right;
+                            color: #666;
+                        }
+                            
+                            #wrapper #content .post .footer .notes a {
+                                color: #666;
+                            }
+                            
+                            #wrapper #content .post .footer .tags a {
+                                color: #4a4a51;
+                                text-decoration: underline;
+                            }
+                            
+                                #wrapper #content .post .footer .tags .tag-commas:last-child {
+                                    display: none;
+                                }
+                            
+                            #wrapper #content .post .footer.with_source_url .tags {
+                                max-width: 330px;
+                                float: left;
+                            }
+                            
+                            #wrapper #content .post .footer.with_source_url .source_url {
+                                float: right;
+                                max-width: 160px;
+                                overflow: hidden;
+                                white-space: nowrap;
+                                
+                            }
+                            
+                                #wrapper #content .post .footer.with_source_url .source_url img {
+                                    vertical-align: top;
+                                    -moz-opacity: 0.5;
+                                    opacity: 0.5;
+                                }
+                                
+                                #wrapper #content .post .footer.with_source_url .source_url:hover img {
+                                    -moz-opacity: 0.7;
+                                    opacity: 0.7;
+                                }
+                        
+                        #wrapper #content .post a {
+                            color: #6e7173;
+                            text-decoration: none;
+                        }
+                        
+                            #wrapper #content .post .copy blockquote {
+                                margin: 10px 0px 10px 10px;
+                                padding-left: 15px;
+                                border-left: solid 4px #dcdcdc;
+                            }
+                            
+                                #wrapper #content .post .copy blockquote blockquote {
+                                    border-left: solid 4px #cccccc;
+                                }
+                                
+                                    #wrapper #content .post .copy blockquote blockquote blockquote {
+                                        border-left: solid 4px #bcbcbc;
+                                    }
+                                    
+                                        #wrapper #content .post .copy blockquote blockquote blockquote blockquote {
+                                            border-left: solid 4px #acacac;
+                                        }
+                                        
+                                            #wrapper #content .post .copy blockquote blockquote blockquote blockquote blockquote {
+                                                border-left: solid 4px #9c9c9c;
+                                            }
+                                            
+                                                #wrapper #content .post .copy blockquote blockquote blockquote blockquote blockquote blockquote {
+                                                    border-left: solid 4px #8c8c8c;
+                                                }
+                        
+                        #wrapper #content .bottom {
+                            background: url('http://assets.tumblr.com/themes/redux/shadow-post.png') top center no-repeat transparent;
+                            width: 513px;
+                            height: 40px;
+                            margin: 0 auto;
+                        }
+                        
+                        #wrapper #content #navigation {
+                            text-align: right;
+                            padding-bottom: 35px;
+                            text-transform: lowercase;
+                        }
+                        
+                            #wrapper #content #navigation a {
+                                background-color: #fff;
+                                color: #baf1da;
+                                padding: 5px 10px;
+                                text-decoration: none;
+                                margin-left: 25px;
+                            }
+                            
+                            #wrapper #content #navigation a:hover {
+                                opacity: 0.9;
+                                filter: alpha(opacity=90);
+                                -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                            }
+                            
+                        #wrapper #content #navigation.jump_pagination {}
+                            
+                            #wrapper #content #navigation.jump_pagination a {
+                                margin: 0 0 0 4px;
+                            }
+                            
+                            #wrapper #content #navigation.jump_pagination .current_page {
+                                color: #fff;
+                                background-color: rgba(255,255,255, 0.1);
+                                border: 2px solid #fff;
+                                padding: 3px 8px;
+                                margin: 0 0 0 4px;
+                                cursor: default;
+                            }
+                            
+                            #wrapper #content #navigation.jump_pagination .jump_page {}
+                            
+                            #wrapper #content .post .notecontainer {
+                                background: #eaeaea;
+                                -moz-border-radius: 4px;
+                                -webkit-border-radius: 4px;
+                                border-radius: 4px;
+                                font-family: Baskerville, 'Times New Roman', Times, serif;
+                                font-size: 11px;
+                                color: #666;
+                                margin-top: 10px;
+                                margin-bottom: -10px;
+                            }
+                            
+                                    #wrapper #content .post .notecontainer a {
+                                        color: #666;
+                                        text-decoration: underline;
+                                    }
+                                    
+                                    #wrapper #content .post .notecontainer ol.notes {
+                                        padding: 0px 0 10px 0;
+                                        list-style-type: none;
+                                        font-size: 11px;
+                                    }
+                                    
+                                        #wrapper #content .post .notecontainer ol.notes li.note {
+                                            padding: 10px 10px 0 10px;
+                                        }
+                                        
+                                            #wrapper #content .post .notecontainer ol.notes li.note img.avatar {
+                                                vertical-align: -4px;
+                                                margin-right: 10px;
+                                                width: 16px;
+                                                height: 16px;
+                                            }
+                                            
+                                            #wrapper #content .post .notecontainer ol.notes li.note span.action {
+                                                font-weight: normal;
+                                            }
+                                            
+                                            #wrapper #content .post .notecontainer ol.notes li.note .answer_content {
+                                                font-weight: normal;
+                                            }
+                                            
+                                            #wrapper #content .post .notecontainer ol.notes li.note blockquote {
+                                                border-left: 2px solid #666;
+                                                padding: 4px 10px;
+                                                margin: 10px 0px 0px 25px;
+                                            }
+                                            
+                                                #wrapper #content .post .notecontainer ol.notes li.note blockquote a {
+                                                    text-decoration: none;
+                                                }
+                
+                #wrapper #content #searchresults {
+                    color: #fff;
+                    margin: 0 0 15px 0;
+                    text-shadow: 1px 3px 5px rgba(0,0,0, 0.5);
+                    font-family: Baskerville, 'Times New Roman', Times, serif;
+                    font-size: 20px;
+                }
+                
+                    #wrapper #content #searchresults .search_query {
+                        font-weight: bold;
+                    }
+                    
+                    #wrapper #content #searchresults .search_query:before {
+                        content:'“';
+                    }
+                    
+                    #wrapper #content #searchresults .search_query:after {
+                        content:'”';
+                    }
+            
+            #wrapper #sidebar {
+                width: 250px;
+                float: right;
+                color: #baf1da;
+                font-family: Baskerville, 'Times New Roman', Times, serif
+            }
+            
+                #wrapper #sidebar a {
+                    color: #baf1da;
+                }
+                
+                #wrapper #sidebar #top {
+                    background: #fff;
+                    padding: 0 20px;
+                    
+                    -webkit-border-top-left-radius: 10px;
+                    -webkit-border-top-right-radius: 10px;
+                    -moz-border-radius-topleft: 10px;
+                    -moz-border-radius-topright: 10px;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                }
+                
+                    #wrapper #sidebar #top #avatar {
+                        width: 146px;
+                        height: 146px;
+                        padding: 8px 0 0 9px;
+                        background: url('http://assets.tumblr.com/themes/redux/avatar-bg.png') top left no-repeat transparent;
+                        position: relative;
+                        top: -24px;
+                        left: -5px;
+                    }
+                    
+                    #wrapper #sidebar #top #pages {
+                        margin-bottom: 15px;
+                        font-size: 12px;
+                    }
+                    
+                        #wrapper #sidebar #top #pages.ask_and_submit {
+                            display: none;
+                            display: block;
+                            
+                        }
+                    
+                        #wrapper #sidebar #top #pages a.page {
+                            display: block;
+                            float: left;
+                            background-color: #baf1da;
+                            color: #fff;
+                            padding: 4px 5px;
+                            margin: 0 5px 5px 0;
+                            -webkit-border-radius: 3px;
+                            -moz-border-radius: 3px;
+                            border-radius: 3px;
+                        }
+                        
+                        #wrapper #sidebar #top #pages a.page:last-child {
+                            margin-right: 0;
+                        }
+                        
+                        #wrapper #sidebar #top #pages a.page:hover {
+                            opacity: 0.9;
+                            filter: alpha(opacity=90);
+                            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                        }
+                        
+                    #wrapper #sidebar #top #description {
+                        font-size: 11px;
+                        position: relative;
+                        top: -18px;
+                    }
+                    
+                        #wrapper #sidebar #top #description a {
+                            color: #baf1da;
+                            text-decoration: underline;
+                        }
+                    
+                    #wrapper #sidebar #top #search {
+                        background: #fff;
+                        border: 1px solid #baf1da;
+                        
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                    }
+                    
+                    #wrapper #sidebar #top #search-scope {
+                        padding-top: 5px;
+                        font-size: 11px;
+                        text-align: center;
+                    }
+                    
+                        #wrapper #sidebar #top #search-scope input,
+                        #wrapper #sidebar #top #search-scope label {
+                            cursor: pointer;
+                        }
+                        
+                        #wrapper #sidebar #top #search form {
+                            margin: 0;
+                        }
+                            
+                            #wrapper #sidebar #top #search form .query {
+                                padding: 5px;
+                                border: none;
+                                background: transparent;
+                                outline: none;
+                                width: 125px;
+                                float: left;
+                                color: #baf1da;
+                            }
+                            
+                            #wrapper #sidebar #top #search form .submit {
+                                background: #baf1da;
+                                color: #fff;
+                                border: none;
+                                padding: 5px 7px;
+                                margin: 3px 3px 2px 0;
+                                float: right;
+                                -moz-border-radius: 3px;
+                                -webkit-border-radius: 3px;
+                                border-radius: 3px;
+                                cursor: pointer;
+                            }
+                            
+                            #wrapper #sidebar #top #search form .submit:hover {
+                                opacity: 0.9;
+                                filter: alpha(opacity=90);
+                                -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                            }
+                    
+                    #wrapper #sidebar #top .heading {
+                        color: #fff;
+                        font-family: helvetica, arial, sans-serif;
+                        font-size: 17px;
+                        margin-top: 20px;
+                        padding: 10px;
+                        background-color: #baf1da;
+                        -webkit-border-top-left-radius: 4px;
+                        -webkit-border-top-right-radius: 4px;
+                        -moz-border-radius-topleft: 4px;
+                        -moz-border-radius-topright: 4px;
+                        border-top-left-radius: 4px;
+                        border-top-right-radius: 4px;
+                    }
+                    
+                    #wrapper #sidebar #top a .heading {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                    
+                    #wrapper #sidebar #top .heading#followontumblr {
+                        background: url('http://assets.tumblr.com/themes/redux/sidebar-follow-on-en_US.png') center left no-repeat #baf1da;
+                        text-indent: -9999px;
+                        -moz-border-radius: 4px;
+                        -webkit-border-radius: 4px;
+                        border-radius: 4px;
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    }
+                    
+                    #wrapper #sidebar #top .heading#followontumblr:hover,
+                    #wrapper #sidebar #top .heading#twitter:hover {
+                        opacity: 0.9;
+                        filter: alpha(opacity=90);
+                        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+                    }
+                    
+                    #wrapper #sidebar #top .heading#twitter {
+                        background: url('http://assets.tumblr.com/themes/redux/sidebar-twitter.png') right center no-repeat #baf1da;
+                    }
+                    
+                    #wrapper #sidebar #top .heading#following {
+                        background: url('http://assets.tumblr.com/themes/redux/sidebar-following.png') right center no-repeat #baf1da;
+                    }
+                    
+                    #wrapper #sidebar #top .content {
+                        margin-top: 2px;
+                        padding: 7px 10px;
+                        background: #eaeaea;
+                        color: #666;
+                        font-size: 11px;
+                        overflow: hidden;
+                    }
+                    
+                        #wrapper #sidebar #top a {
+                            text-decoration: none;
+                        }
+                    
+                        #wrapper #sidebar #top #following-avatars.content {
+                            padding: 4px;
+                        }
+                    
+                                #wrapper #sidebar #top #following-avatars.content a img {
+                                    margin: 5px;
+                                }
+                                
+                        #wrapper #sidebar #top #buttons {
+                            padding: 20px 0 0 0;
+                        }
+                        
+                            #wrapper #sidebar #top #buttons .button {
+                                width: 35%;
+                                height: 21px;
+                                float: left;
+                                background: left center no-repeat transparent;
+                                padding: 2px 0 0 30px;
+                                font-size: 14px;
+                            }
+                            
+                                #wrapper #sidebar #top #buttons a {
+                                    color: #baf1da;
+                                    text-decoration: none;
+                                }
+                            
+                                #wrapper #sidebar #top #buttons div {
+                                    padding-bottom: 10px;
+                                }
+                            
+                            #wrapper #sidebar #top #buttons .button#button-rss {
+                                background-image: url('http://assets.tumblr.com/themes/redux/button-rss.png?2');
+                                text-transform: capitalize;
+                            }
+                            
+                            #wrapper #sidebar #top #buttons .button#button-random {
+                                background-image: url('http://assets.tumblr.com/themes/redux/button-random.png?2');
+                            }
+                            
+                            #wrapper #sidebar #top #buttons .button#button-archive {
+                                background-image: url('http://assets.tumblr.com/themes/redux/button-archive.png?2');
+                            }
+                            
+                            #wrapper #sidebar #top #buttons .button#button-mobile {
+                                background-image: url('http://assets.tumblr.com/themes/redux/button-mobile.png?2');
+                            }
+                
+                    #wrapper #sidebar #bottom {
+                        background: url('http://assets.tumblr.com/themes/redux/sidebar-bottom.png') top center no-repeat transparent;
+                        width: 250px;
+                        height: 25px;
+                    }
+                    
+                    #wrapper #sidebar #copyright {
+                        text-align: center;
+                        color: #fff;
+                        font-size: 12px;
+                        margin-bottom: 10px;
+                    }
+                    
+                        #wrapper #sidebar #copyright a {
+                            color: #fff;
+                            margin-left: 15px;
+                        }
+    
+    </style>
+    <!--[if lt IE 7.]>
+        <style type="text/css">
+        
+
+    #topthingy {
+
+                width:100%;
+
+                height:110px;
+
+                background: url('http://static.tumblr.com/f07465b5e7d87459763320cc6c774684/vh90k3w/8Qrmu0crv/tumblr_static_tumblr_lt1f9s7pxm1qapbyt.gif') top fixed repeat-x;
+
+                position:fixed;
+
+                margin-top:-50px;
+
+                opacity: 0.8;
+
+            }
+
+        
+            #wrapper #sidebar #bottom {
+                background: transparent;
+            }
+            
+            #wrapper #sidebar #top #avatar {
+                background: none;
+            }
+            
+            #wrapper #sidebar #top #avatar img {
+                border: 5px solid #f1f1f1;
+            }
+            
+            #wrapper #sidebar #top .heading#followontumblr {
+                background-image: none;
+                text-indent: 0;
+            }
+        
+            #wrapper #sidebar #top .heading#twitter {
+                background-image: none;
+            }
+        
+            #wrapper #sidebar #top .heading#following {
+                background-image: none;
+            }
+
+            #wrapper #content .post .audio .player {
+                float: none;
+            }
+            
+            #wrapper #content .post .audio .meta {
+                display: none;
+                float: none;
+            }
+        </style>
+    <![endif]-->
+    
+    <!--[if lt IE 8.]>
+        <style type="text/css">
+            #wrapper #content .bottom {
+                background: transparent;
+            }
+            
+            #wrapper #content .post .footer {
+                background: transparent;
+                color: #000;
+            }
+            
+            #wrapper #content .post .audio {
+                float: none;
+                background: transparent;
+            }
+            
+            #wrapper #content .post .notecontainer .notes {
+                padding: 0;
+                margin: 0;
+            }
+        </style>
+    <![endif]-->
+    <style type="text/css">
+
+
+</style>
+<meta name="robots" content="noindex"/>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=doctorpretorius" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/clearface/stylesheet.css?v=4">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="illustration,gif,music,Greenskeepers,Lotion" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="a ufo party" /><meta property="og:url" content="http://doctorpretorius.tumblr.com/?og=1" /><meta property="og:description" content="Random amusements of a rambling mind. Main interests are wonders of the world and general..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_424b3f945493_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=doctorpretorius" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=doctorpretorius" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="doctorpretorius" /><meta name="twitter:description" content="                                                                                                                                                                                                                                                                                                                            Random amusements of a rambling mind.  Main interests are wonders of the world and general bewitchery. Jenni. 23. Finland. Currently studying restoration. (Previously known as ivegotabike.)
+
+&lt;a href=&quot;http://doctorpretorius.tumblr.com/tagged/my-art&quot;&gt;Art.
+&lt;a href=&quot;http://doctorpretorius.tumblr.com/tagged/sketch&quot;&gt;Sketches.
+
+&lt;a href=&quot;https://twitter.com/teaandbisghosts&quot;&gt;Twitter&lt;/a&gt; 
+&lt;a href=&quot;http://hiljaisuus.deviantart.com/&quot;&gt;Deviantart&lt;/a&gt; 
+
+&lt;style&gt; body, a, a:hover { cursor:url(https://31.media.tumblr.com/d43e2a906a4bb7cf902b26009cc78543/tumblr_inline_n8r9wzHmjM1qdvgdx.gif), auto }&lt;/style&gt;
+
+" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=doctorpretorius&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=doctorpretorius&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=doctorpretorius&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+<div id="topthingy"></div>
+
+
+
+
+    <div id="wrapper">
+        <div id="title">
+            <a href="/">
+                <img src="http://static.tumblr.com/75dc65997fcd1df4998da073b086b736/vh90k3w/264nckrtl/tumblr_static_cs2abvlotvwowgkoggggkgkks.gif" />
+                
+            </a>
+        </div>
+        
+        <div id="content">
+            
+            
+            
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><a href="http://doctorpretorius.tumblr.com/image/98758708203"><img src="http://38.media.tumblr.com/5173b782875001f0adb1e522de0fa1a0/tumblr_n6adpsTK6i1s49vzzo1_500.jpg" alt="goodnight-sleepwell:
+
+another page for mine and Mathilde&#039;s book
+" /></a></div>
+                        <div class="copy"><p><a class="tumblr_blog" href="http://goodnight-sleepwell.tumblr.com/post/87099566223/another-page-for-mine-and-mathildes-book">goodnight-sleepwell</a>:</p>
+<blockquote>
+<p>another page for mine and <a href="http://mathilde-vg.tumblr.com/">Mathilde</a>'s book</p>
+</blockquote></div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98758708203/goodnight-sleepwell-another-page-for-mine-and">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 1 hour ago from goodnight-sleepwell 
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">407 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer " style="
+                        display:none;
+                        display:block;
+                        
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/illustration">illustration</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/goodnight-sleepwell">goodnight-sleepwell</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><img src="http://38.media.tumblr.com/8c70128c8faaf8e0a63d8327bbf774e8/tumblr_n9e9s19CHM1twg6tpo1_500.jpg" alt="" /></div>
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98756510713">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 2 hours ago from violentcosmos (<span style="text-transform:lowercase;">Originally from who-will-love-youqq</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">137,004 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        display:block;
+                        display:block;
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/sweet-babbies">sweet babbies</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/cats">cats</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                            <a href="http://who-will-love-youqq.tumblr.com/post/93056582624" class="source_url">
+                                Source:
+                                
+                                who-will-love-youqq
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                    
+                    
+                        <div class="media"><div id="photoset_98756361113" class="html_photoset">    <iframe id="photoset_iframe_98756361113" class="photoset" scrolling="no" frameborder="0" height="326" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://doctorpretorius.tumblr.com/post/98756361113/photoset_iframe/doctorpretorius/tumblr_nbbyx8GvV11qheefc/500/false"></iframe></div></div>
+                        <div class="copy"><p><a class="tumblr_blog" href="http://st-pam.tumblr.com/post/96541936374/8-40am-on-my-way-to-school-one-of-the-best">st-pam</a>:</p>
+<blockquote>
+<p>8:40am // On my way to school, one of the best bike rides I’ve ever had!</p>
+</blockquote></div>
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98756361113/st-pam-8-40am-on-my-way-to-school-one-of">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 2 hours ago from sloppykiss (<span style="text-transform:lowercase;">Originally from st-pam</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">7,519 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        display:block;
+                        display:block;
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/ohhh">ohhh</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/nature">nature</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                            <a href="http://st-pam.tumblr.com/post/96541936374/8-40am-on-my-way-to-school-one-of-the-best" class="source_url">
+                                Source:
+                                
+                                st-pam
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><img src="http://33.media.tumblr.com/tumblr_m93t94WOXf1qbxh0uo1_500.gif" alt="" /></div>
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98753741143/gif-by-sonjackcarl">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 2 hours ago from sonjackcarl 
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">21 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer " style="
+                        display:none;
+                        display:block;
+                        
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/Livide">Livide</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/movie">movie</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/body-horror">body horror</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/gore">gore</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/i-dunno">i dunno</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/gif">gif</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><a href="http://doctorpretorius.tumblr.com/image/98753488048"><img src="http://33.media.tumblr.com/5831739daaa7a9e1b56303757b6eab0c/tumblr_n2od1lQEV51rdfx5qo1_500.jpg" alt="stinckers:
+
+Mats Stromberg
+" /></a></div>
+                        <div class="copy"><p><a class="tumblr_blog" href="http://stinckers.tumblr.com/post/80172603929/mats-stromberg">stinckers</a>:</p>
+<blockquote>
+<p><em>Mats Stromberg</em></p>
+</blockquote></div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98753488048/stinckers-mats-stromberg">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 2 hours ago from stinckers (<span style="text-transform:lowercase;">Originally from cargokult</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">108 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        display:block;
+                        display:block;
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/illustration">illustration</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/Mats-Stromberg">Mats Stromberg</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/spooky">spooky</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                            <a href="http://cargokult.tumblr.com/post/80053207285" class="source_url">
+                                Source:
+                                
+                                cargokult
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                    
+                    
+                        <div class="media"><div id="photoset_98752236868" class="html_photoset">    <iframe id="photoset_iframe_98752236868" class="photoset" scrolling="no" frameborder="0" height="682" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://doctorpretorius.tumblr.com/post/98752236868/photoset_iframe/doctorpretorius/tumblr_nclhuoFyCY1tjvkmu/500/false"></iframe></div></div>
+                        <div class="copy"><p><a class="tumblr_blog" href="http://charliedaymemes.tumblr.com/post/98609372611/steal-his-look-charlie-kelly-urban-outfitters">charliedaymemes</a>:</p>
+<blockquote>
+<p><strong>steal his look: charlie kelly</strong></p>
+<p>urban outfitters “horsin’ around” destructed tee ($78)<br/>1989 gucci long johns ($690)<br/>loius vuitton casual tube socks ($120)</p>
+</blockquote></div>
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98752236868/charliedaymemes-steal-his-look-charlie-kelly">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 3 hours ago from somebodygetmeafuckingfanta (<span style="text-transform:lowercase;">Originally from charliedaymemes</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">14,271 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        display:block;
+                        display:block;
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/finally">finally</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/Charlie-Kelly">Charlie Kelly</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/It%27s-Always-Sunny">It&#039;s Always Sunny</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/clothes">clothes</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                            <a href="http://charliedaymemes.tumblr.com/post/98609372611/steal-his-look-charlie-kelly-urban-outfitters" class="source_url">
+                                Source:
+                                
+                                charliedaymemes
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><a href="http://instagram.com/p/q_XY0FAE6B/"><img src="http://33.media.tumblr.com/0b57d7994fb97262fc90c42ea176c4b8/tumblr_n9f1m7mvLr1qc0fq2o2_r1_500.jpg" alt="ingentinget:
+
+We had a wonderful time in Norberg but there is no place like home and we really missed this sweet long-nosed creature &amp;lt;3
+ #koira #borzoi #sighthound #summertime #hammock #dog #scratchme #balcony #balkongliv #dogsofinstagram
+" /></a></div>
+                        <div class="copy"><p><a class="tumblr_blog" href="http://ingentinget.tumblr.com/post/93099739583/we-had-a-wonderful-time-in-norberg-but-there-is-no">ingentinget</a>:</p>
+<blockquote>
+<p>We had a wonderful time in Norberg but there is no place like home and we really missed this sweet long-nosed creature &lt;3</p>
+<p><br/> #koira #borzoi #sighthound #summertime #hammock #dog #scratchme #balcony #balkongliv #dogsofinstagram</p>
+</blockquote></div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98751954203/ingentinget-we-had-a-wonderful-time-in-norberg">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 3 hours ago from borzoikavka (<span style="text-transform:lowercase;">Originally from ingentinget</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">348 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        display:block;
+                        display:block;
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/this-sweet-doggie%27s-name-is-Koira-%3A%3E">this sweet doggie&#039;s name is Koira :&gt;</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/borzoi">borzoi</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/dogs">dogs</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                            <a href="http://ingentinget.tumblr.com/post/93099739583/we-had-a-wonderful-time-in-norberg-but-there-is-no" class="source_url">
+                                Source:
+                                
+                                ingentinget
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                            
+                                
+                                    <div class="album_art">
+                                        <img src="http://38.media.tumblr.com/tumblr_mnswt2szk41rbp5jro1_1370235927_cover.jpg" alt="Greenskeepers - Lotion" style="margin-bottom:10px;" />
+                                    </div>
+                                
+                            
+                        
+                            <div class="audio">
+                                <div class="player"><span id="audio_player_98751382248"><div class="audio_player"><iframe class="tumblr_audio_player tumblr_audio_player_98751382248" src="http://doctorpretorius.tumblr.com/post/98751382248/audio_player_iframe/doctorpretorius/tumblr_mnswt2szk41rbp5jr?audio_file=https%3A%2F%2Fwww.tumblr.com%2Faudio_file%2Fdoctorpretorius%2F98751382248%2Ftumblr_mnswt2szk41rbp5jr&color=white&simple=1" frameborder="0" allowtransparency="true" scrolling="no" width="207" height="27"></iframe></div></span></div>
+                                <div class="meta">57 plays</div>
+                                <div class="clear"></div>
+                            </div>
+                        
+                        
+                        <div class="clear"></div>
+                        
+                        <div class="copy"><p><a class="tumblr_blog" href="http://leobenconoy.tumblr.com/post/52035921052/im-not-sure-if-the-hannibal-fandom-has-found-this">leobenconoy</a>:</p>
+<blockquote>
+<p>I’m not sure if the Hannibal fandom has found this song yet or not, but here it is: a song all about Silence of the lambs.</p>
+</blockquote></div>
+                        
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98751382248/leobenconoy-im-not-sure-if-the-hannibal-fandom">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 3 hours ago from leobenconoy 
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">26 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer " style="
+                        display:none;
+                        display:block;
+                        
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/It-rubs-the-lotion-on-its-skin-or-else-it-gets-the-hose-again">It rubs the lotion on its skin or else it gets the hose again</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/The-Silence-of-the-Lambs">The Silence of the Lambs</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/audio">audio</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/Greenskeepers">Greenskeepers</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/music">music</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/Lotion">Lotion</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><a href="http://doctorpretorius.tumblr.com/image/98747460253"><img src="http://31.media.tumblr.com/b0f813b6857979ed37fa6c25ea098f19/tumblr_n0pbb81Zzi1rirzb1o1_500.jpg" alt="arthermit:
+
+School&rsquo;s been keeping me busy as of late, but here&rsquo;re some creature designs I&rsquo;ve been working on. I&rsquo;ve had this image in my head for a while of a witch&rsquo;s familiar that appears as a sort of eldritch biped that&rsquo;s attached to an animal&rsquo;s skull depending on the witch&rsquo;s personal choice.
+" /></a></div>
+                        <div class="copy"><p><a class="tumblr_blog" href="http://arthermit.tumblr.com/post/76049130913/schools-been-keeping-me-busy-as-of-late-but">arthermit</a>:</p>
+<blockquote>
+<p>School’s been keeping me busy as of late, but here’re some creature designs I’ve been working on. I’ve had this image in my head for a while of a witch’s familiar that appears as a sort of eldritch biped that’s attached to an animal’s skull depending on the witch’s personal choice.</p>
+</blockquote></div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98747460253/arthermit-schools-been-keeping-me-busy-as-of">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 4 hours ago from renfields (<span style="text-transform:lowercase;">Originally from arthermit</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">35 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        display:block;
+                        display:block;
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/illustration">illustration</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/arthermit">arthermit</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/monsters">monsters</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                            <a href="http://arthermit.tumblr.com/post/76049130913/schools-been-keeping-me-busy-as-of-late-but" class="source_url">
+                                Source:
+                                
+                                arthermit
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                        <div class="media"><img src="http://38.media.tumblr.com/34ce2a857508beaced56a0af59b7a87c/tumblr_mr37z25dlY1qm9xogo1_500.jpg" alt="" /></div>
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98743983278">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 5 hours ago from renfields (<span style="text-transform:lowercase;">Originally from h-a-l-l-o-w-e-e-n</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">3,230 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        display:block;
+                        display:block;
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/wants-and-needs">wants and needs</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/bats">bats</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/stuff-and-things">stuff and things</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                            <a href="http://h-a-l-l-o-w-e-e-n.tumblr.com" class="source_url">
+                                Source:
+                                
+                                h-a-l-l-o-w-e-e-n
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                    
+                    
+                        <div class="media"><div id="photoset_98741333783" class="html_photoset">    <iframe id="photoset_iframe_98741333783" class="photoset" scrolling="no" frameborder="0" height="590" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://doctorpretorius.tumblr.com/post/98741333783/photoset_iframe/doctorpretorius/tumblr_ncocddxEyv1td0lgx/500/false"></iframe></div></div>
+                        
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98741333783">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 5 hours ago from dana-katherine 
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">155 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer " style="
+                        display:none;
+                        display:block;
+                        
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/Brooklyn-Nine-Nine">Brooklyn Nine Nine</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/tv">tv</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/gif">gif</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+                <div class="post">
+                    
+                    
+                    
+                    
+                        <div class="media"><div id="photoset_98738408288" class="html_photoset">    <iframe id="photoset_iframe_98738408288" class="photoset" scrolling="no" frameborder="0" height="993" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://doctorpretorius.tumblr.com/post/98738408288/photoset_iframe/doctorpretorius/tumblr_n2wemc4qqi1qh1jzn/500/false"></iframe></div></div>
+                        <div class="copy"><p><a class="tumblr_blog" href="http://voidsea.tumblr.com/post/80622677524">voidsea</a>:</p>
+<blockquote>
+<p>James Sant, <em><a href="http://www.christies.com/lotfinder/paintings/james-sant-ra-cvo-courage-anxiety-and-5563227-details.aspx">Courage, Anxiety and Despair: Watching the Battle</a> (detail)</em></p>
+</blockquote></div>
+                    
+                    
+                    
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <a href="http://doctorpretorius.tumblr.com/post/98738408288/voidsea-james-sant-courage-anxiety-and">
+                            <div class="footer for_permalink">
+                                <div class="date">
+                                    
+                                        Reblogged 6 hours ago from lydia-adams (<span style="text-transform:lowercase;">Originally from voidsea</span>)
+                                    
+                                    
+                                    
+                                </div>
+                                <div class="notes">1,974 notes </div>
+                                <div class="clear"></div>
+                            </div>
+                        </a>
+                    
+                    
+                    <div class="footer with_source_url" style="
+                        display:none;
+                        display:block;
+                        display:block;
+                    ">
+                        
+                            <div class="tags">Tagged: <a href="http://doctorpretorius.tumblr.com/tagged/art">art</a><span class="tag-commas">, </span><a href="http://doctorpretorius.tumblr.com/tagged/James-Sant">James Sant</a><span class="tag-commas">, </span>.</div>
+                        
+                        
+                        
+                            <a href="http://voidsea.tumblr.com/post/80622677524" class="source_url">
+                                Source:
+                                
+                                voidsea
+                            </a>
+                        
+                        
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+                <div class="bottom"></div>
+            
+            
+            
+                <div id="navigation" >
+                    
+                    
+                    
+                    
+                    <a href="/page/2">Next page &rarr;</a>
+                </div>
+            
+            
+        </div>
+        
+        <div id="sidebar">
+            <div id="top">
+                <div id="avatar"><a href="/"><img src="http://33.media.tumblr.com/avatar_424b3f945493_128.png" /></a></div>
+                <div id="description">Random amusements of a rambling mind.  Main interests are wonders of the world and general bewitchery. Jenni. 23. Finland. Currently studying restoration. (Previously known as ivegotabike.)<br />
+<br />
+<a href="http://doctorpretorius.tumblr.com/tagged/my-art">Art.<br />
+<a href="http://doctorpretorius.tumblr.com/tagged/sketch">Sketches.<br />
+<br />
+<a href="https://twitter.com/teaandbisghosts">Twitter</a> <br />
+<a href="http://hiljaisuus.deviantart.com/">Deviantart</a> <br />
+<br />
+<style> body, a, a:hover { cursor:url(https://31.media.tumblr.com/d43e2a906a4bb7cf902b26009cc78543/tumblr_inline_n8r9wzHmjM1qdvgdx.gif), auto }</style></div>
+                
+                <div id="pages" class="ask_and_submit">
+                    <a href="/ask" class="page">speak to me</a>
+                    
+                    <div class="clear"></div>
+                </div>
+                
+                
+                    <div id="pages">
+                        <a href="/a" class="page">about</a><a href="/tagged/victor-frankenstein" class="page">my boo</a>
+                        <div class="clear"></div>
+                    </div>
+                
+                
+                <div id="search">
+                    <form action="/search" method="get" id="search-form">
+                        <input type="hidden" name="t" value="doctorpretorius" />
+                        <input type="hidden" name="scope" value="all_of_tumblr" />
+                        <input type="text" name="q" class="query" value="" />
+                        <input type="submit" value="Search" class="submit" />
+                        <div class="clear"></div>
+                    </form>
+                </div>
+                <div id="search-scope">
+                    <input type="radio" id="search-scope-me" name="scope" checked onclick="document.getElementById('search-form').action='/search'" /> <label for="search-scope-me" onclick="document.getElementById('search-form').action='/search'">My blog</label>
+                    <input type="radio" id="search-scope-all" name="scope" onclick="document.getElementById('search-form').action='http://www.tumblr.com/search'" /> <label for="search-scope-all" onclick="document.getElementById('search-form').action='http://www.tumblr.com/search'">All of Tumblr</label>
+                </div>
+                
+                <a href="http://www.tumblr.com/follow/doctorpretorius"><div class="heading" id="followontumblr">Follow on Tumblr</div></a>
+                
+                
+                
+                
+                
+                <div id="buttons">
+                    <div class="row">
+                        <div class="button" id="button-rss"><a href="http://doctorpretorius.tumblr.com/rss">RSS feed</a></div>
+                        <div class="button" id="button-random"><a href="/random">Random</a></div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="row">
+                        <div class="button" id="button-archive"><a href="/archive">Archive</a></div>
+                        <div class="button" id="button-mobile"><a href="/mobile">Mobile</a></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                
+            </div>
+            
+            <div id="bottom"></div>
+            <div id="copyright">&copy; 2010–2014 <a href="http://www.tumblr.com">Powered by Tumblr</a></div>
+        </div>
+        
+        <div class="clear"></div>
+    </div>
+    
+    
+    
+    
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://doctorpretorius.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037711&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZG9jdG9ycHJldG9yaXVzLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=DJLBHJLIJA&K=5ae7efc62e93bdd8d54fe564cc521844d543e59138d653f9f229fc82a16aea53&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037711&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZG9jdG9ycHJldG9yaXVzLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=DJLBHJLIJA&K=ecbe4598e2b96371ca7eec35ef0651dfe6ce6b70fb4f4bbff841d76c09a619a2&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037711&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2RvY3RvcnByZXRvcml1cy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiOTA5Mzc0ODYiLCJyb290X3Bvc3RpZCI6Ijg3MDk5NTY2MjIzIiwicG9zdGlkIjoiOTg3NTg3MDgyMDMiLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE3NzUxNTI0NCIsInJvb3RfcG9zdGlkIjoiOTMwNTY1ODI2MjQiLCJwb3N0aWQiOjk4NzU2NTEwNzEzLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0NTI2ODQxIiwicm9vdF9wb3N0aWQiOiI5NjU0MTkzNjM3NCIsInBvc3RpZCI6OTg3NTYzNjExMTMsImJsb2dpZCI6IjgzNzQzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDEyNTQyNSIsInJvb3RfcG9zdGlkIjoiMjk4OTUxODI0NDYiLCJwb3N0aWQiOiI5ODc1Mzc0MTE0MyIsImJsb2dpZCI6IjgzNzQzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjgzMTEyOTciLCJyb290X3Bvc3RpZCI6IjgwMDUzMjA3Mjg1IiwicG9zdGlkIjoiOTg3NTM0ODgwNDgiLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5ODg3MjcxNyIsInJvb3RfcG9zdGlkIjoiOTg2MDkzNzI2MTEiLCJwb3N0aWQiOjk4NzUyMjM2ODY4LCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ4Njk3ODIiLCJyb290X3Bvc3RpZCI6IjkzMDk5NzM5NTgzIiwicG9zdGlkIjoiOTg3NTE5NTQyMDMiLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY0MTg3MTAyIiwicm9vdF9wb3N0aWQiOiI1MjAzNTkyMTA1MiIsInBvc3RpZCI6Ijk4NzUxMzgyMjQ4IiwiYmxvZ2lkIjoiODM3NDM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3NjA1OTQ1NyIsInJvb3RfcG9zdGlkIjoiNzYwNDkxMzA5MTMiLCJwb3N0aWQiOiI5ODc0NzQ2MDI1MyIsImJsb2dpZCI6IjgzNzQzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjIwNzU0MzMiLCJyb290X3Bvc3RpZCI6IjU3OTA5MjgyNjAwIiwicG9zdGlkIjoiOTg3NDM5ODMyNzgiLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4Nzk1NjI5NiIsInJvb3RfcG9zdGlkIjoiOTg3MzgxMTk5OTkiLCJwb3N0aWQiOjk4NzQxMzMzNzgzLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEzMzIwMDM0Iiwicm9vdF9wb3N0aWQiOiI4MDYyMjY3NzUyNCIsInBvc3RpZCI6OTg3Mzg0MDgyODgsImJsb2dpZCI6IjgzNzQzODEiLCJzb3VyY2UiOjMzfV19&U=LNHIPLIFPN&K=dd7c8d853520ec9ffc6d7786a986eefa0f601aecc0735e70a0df3649007a08cd&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037711&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2RvY3RvcnByZXRvcml1cy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiOTA5Mzc0ODYiLCJyb290X3Bvc3RpZCI6Ijg3MDk5NTY2MjIzIiwicG9zdGlkIjoiOTg3NTg3MDgyMDMiLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE3NzUxNTI0NCIsInJvb3RfcG9zdGlkIjoiOTMwNTY1ODI2MjQiLCJwb3N0aWQiOjk4NzU2NTEwNzEzLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0NTI2ODQxIiwicm9vdF9wb3N0aWQiOiI5NjU0MTkzNjM3NCIsInBvc3RpZCI6OTg3NTYzNjExMTMsImJsb2dpZCI6IjgzNzQzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDEyNTQyNSIsInJvb3RfcG9zdGlkIjoiMjk4OTUxODI0NDYiLCJwb3N0aWQiOiI5ODc1Mzc0MTE0MyIsImJsb2dpZCI6IjgzNzQzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjgzMTEyOTciLCJyb290X3Bvc3RpZCI6IjgwMDUzMjA3Mjg1IiwicG9zdGlkIjoiOTg3NTM0ODgwNDgiLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5ODg3MjcxNyIsInJvb3RfcG9zdGlkIjoiOTg2MDkzNzI2MTEiLCJwb3N0aWQiOjk4NzUyMjM2ODY4LCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ4Njk3ODIiLCJyb290X3Bvc3RpZCI6IjkzMDk5NzM5NTgzIiwicG9zdGlkIjoiOTg3NTE5NTQyMDMiLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY0MTg3MTAyIiwicm9vdF9wb3N0aWQiOiI1MjAzNTkyMTA1MiIsInBvc3RpZCI6Ijk4NzUxMzgyMjQ4IiwiYmxvZ2lkIjoiODM3NDM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3NjA1OTQ1NyIsInJvb3RfcG9zdGlkIjoiNzYwNDkxMzA5MTMiLCJwb3N0aWQiOiI5ODc0NzQ2MDI1MyIsImJsb2dpZCI6IjgzNzQzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjIwNzU0MzMiLCJyb290X3Bvc3RpZCI6IjU3OTA5MjgyNjAwIiwicG9zdGlkIjoiOTg3NDM5ODMyNzgiLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4Nzk1NjI5NiIsInJvb3RfcG9zdGlkIjoiOTg3MzgxMTk5OTkiLCJwb3N0aWQiOjk4NzQxMzMzNzgzLCJibG9naWQiOiI4Mzc0MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEzMzIwMDM0Iiwicm9vdF9wb3N0aWQiOiI4MDYyMjY3NzUyNCIsInBvc3RpZCI6OTg3Mzg0MDgyODgsImJsb2dpZCI6IjgzNzQzODEiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=LNHIPLIFPN&K=e0f2925f9761d7d8d0e10b55b9d00aae4613ebb7af806eca1374155b2a842ff0&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:8374381,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fdoctorpretorius.tumblr.com%2F&amp;lang=en_US&amp;name=doctorpretorius&amp;brag=false&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_424b3f945493_64.png&amp;title=a+ufo+party&amp;url=http%3A%2F%2Fdoctorpretorius.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fdoctorpretorius.tumblr.com%2F&amp;lang=en_US&amp;name=doctorpretorius&amp;brag=false&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_424b3f945493_64.png&amp;title=a+ufo+party&amp;url=http%3A%2F%2Fdoctorpretorius.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+
+</html>

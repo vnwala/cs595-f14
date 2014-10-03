@@ -1,0 +1,485 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">    
+
+
+
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>  <!-- needed for IE -->
+
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<title>Barrie Junior Sharks - (Barrie, ON)  - powered by LeagueLineup.com</title><meta name="keywords" content="women's hockey, junior hockey, minor hockey, barrie, ontario"><meta name=description content="The Barrie Junior Sharks hockey team will compete in the Ontario Provincial Women's Hockey League (PWHL).">
+
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/themes/base/jquery-ui.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+
+
+
+
+<script src="_incl/llv/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet" href="_incl/llv/mediaelementplayer.min.css" />
+
+
+
+
+<!-- mainstyle -->
+
+<style>
+
+body {
+    // background: #333333;
+     background-repeat: repeat;background-attachment: scroll;
+}
+
+.title, h2.title {margin: 0px; font: bold large "Arial"; color: #FF0000;}
+.date {font: bold small "Arial"; color: #000000;}
+.item {font: small "Arial"; color: #000000;}
+.item a {color: #000000;}
+#leftside {background: #000000 url(images/bg_blue_h1.gif);}
+#content {background: #ffffff; width: 100%;}
+
+#wrapper {
+     width: 100%;
+     border: 0px solid #ffffff;
+     margin: 0px auto 0 auto; 
+}
+#headercontainer {
+     width: 100%;
+     background: #ffffff; 
+     //margin: 0px auto 0 auto; 
+     //border: 0px solid #ffffff;
+     //border-bottom: 0;
+}
+
+#maintable {
+     
+     background: #ffffff; 
+     margin: 0 auto 0 auto; 
+     //border: 0px solid #ffffff;
+     //border-top: 0;
+}
+
+
+#adspace {width: 100%; height: 100%; margin: 0; padding: 40px 0 10px 0; background: #000080;}
+#leaderboard {width: 728px; height: 90px; margin: 0 auto 0 auto; background: #333;}
+#x25 {width: 970px; height: 66px; margin: 0 auto 10px auto; background: #333;}
+
+
+
+     #header {
+          height: 120px;
+          width: 100%;
+          color: #FFFFFF;
+          padding: 0;
+          margin: 0 auto 0 auto;
+          border-spacing: 0;
+          border-collapse: collapse;
+          background: -webkit-linear-gradient(top, #000080 0%, #000080 100%);
+          background:    -moz-linear-gradient(top, #000080 0%, #000080 100%);
+          background:     -ms-linear-gradient(top, #000080 0%, #000080 100%);
+          background:      -o-linear-gradient(top, #000080 0%, #000080 100%);
+          background:         linear-gradient(to bottom, #000080 0%, #000080 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000080', endColorstr='#000080',GradientType=0 );
+          background: #000080 url(barriejrsharks/barriejrsharks_bg.gif);
+     }
+     #headermiddletext { }
+     #headerimageleft_cell {width: 0; padding: 0; margin: 0;}
+     #headermiddle_cell {width: 100%; padding: 0; margin: 0; }
+     #headerimageright_cell {width: 0; padding: 0; margin: 0;}
+     #line1 {margin-top: 10px; font: normal 18px "Arial"; color: #FFFFFF; display: block; }
+     #line2, #headermiddletext h1 {margin: 0 0 10px 0; font: normal 36px "Arial"; color: #FFFFFF; display: block; font-weight: bold;}
+     #line3 {font: normal 16px "Arial"; color: #FFFFFF; display: block; }
+     #header td, #header th {padding: 0;}
+
+
+.infotable {border: solid 1px #000; width: 98%; border-spacing:0; border-collapse: collapse;  text-align:left; background: #fff;}
+.infotable.borders {border: 1px solid #333;}
+.infotable tr.alt {background: #eee;}
+.infotable tr.tall {height: 50px;}
+.infotable th {height: 30px; background: #000080; font: bold 14px "arial"; color: #FFFFFF; padding: 5px; text-align: left;}
+.infotable th a {color: #FFFFFF; text-decoration: none;}
+.infotable th.center {text-align: center;}
+.infotable th.right {text-align: right;}
+.infotable td {padding: 5px; font: 12px Arial,Verdana,Tahoma; }
+.infotable td.center {text-align: center;}
+.infotable select {padding: 2px 3px; font: 12px verdana; color: #111; border: 1px solid #999;}
+.infotable.full {width: 100%; border-top: 0; border-left: 0; border-right: 0;}
+.infotable input {padding: 5px;}
+.infotable input:focus {border: 1px solid #3366cc; outline: none;}
+.borders th {border: 1px solid #ccc;}
+.borders td {border: 1px solid #ccc;}
+.noitems {color: #cc0000; font-size: 16px; font-weight: bold; padding: 10px;} 
+
+table#headerinfo {background-color: #000080; height: 25px; padding:0; margin: 0; border-spacing: 0; border-collapse: collapse;}	
+table#headerinfo td {color: #FFFFFF; font: 14px arial; width: 33%; padding: 3px 7px; }
+table#headerinfo a {text-decoration: none; color: #FFFFFF;}
+table#headerinfo a:hover {text-decoration: underline;}
+
+.adminlinks * {font-family:verdana; font-size: 10px; color: #fff;}
+.adminlinks a {text-decoration:none; font-weight: bold;}
+.adminlinks a:hover {color: #ffff00;}
+
+table.tableview  {font-family: Verdana, Tahoma, Arial, sans-serif; font-size: 11px; color:#000000; border-spacing: 0px; border-collapse: collapse; border: 1px solid #ccc; background-color: #ffffff; width: 100%;}	
+table.tableview tr {height: 20px;}
+table.tableview th {height: 25px; font-size: 11px; font-weight : bold; padding: 5px; color: #FFFFFF; background-color: #000080; border-width: 0px 1px 1px 0px; border-style: solid; border-color: lightgrey;}
+table.tableview th a {color: #FFFFFF; text-decoration: none;}
+table.tableview td {padding : 4px; border-width: 0px 1px 1px 0px; border-style: solid; border-color: #ccc; color: #000;}
+table.tableview td a {color: #0000ff; text-decoration: none;}
+
+table.menu {font: 12px Arial; color: #000000; width: 160px;}
+table.menu.full {width: 100%;}
+table.menu th {height: 25px; background: #000080; text-align: center; font: 12px Arial; color: #FFFFFF; font-weight: bold;}
+table.menu td {height: 25px; background: #FFFF00; color: #000000;}
+table.menu td.adminlink {background: #8B0000; color: #fff;}
+table.menu a {color: #000000;  text-decoration: none;}
+table.menu a:link {color: #000000;}
+table.menu a:visited {color: #000000;}
+table.menu a:active {text-decoration: none;}
+table.menu a:hover {text-decoration: underline;}
+table.menu tr.menuhighlights {height: 10px;}
+table.menux td:hover {background: #000000; color: #FFFF00;}
+table.menux td:hover a {color: #FFFF00;}
+
+.boxheader {font: 12px Arial; background: #000080; color: #FFFFFF; font-weight: bold;  line-height: 30px; width: 160px; margin-top: 15px; border: 1px solid #000;}
+.boxcontent, .psw_sidebar {background: #FFFF00; color: #000000; height: 30px; line-height: 30px; width: 160px; padding: 5px 0; border: 1px solid #000; border-top: 0;}
+.boxcontent a, .psw_sidebar a {tex-decoration: none; color: #000000;}
+.boxcontent a:hover, .psw_sidebar a:hover {text-decoration: underline;}
+
+.psw_sidebar {height: 100%; line-height: 20px; padding: 0;}
+.psw_sidebar img { width: 158px;}
+.psw_sidebar a {text-decoration: underline;}
+
+.setbutton {margin-top: 0px; padding: 5px; display: inline; background: #777; color: #eee; cursor: pointer; font-weight: bold; border: none; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; outline: none;}
+.setbutton.top {margin-left: 10px;}
+.setbutton:hover {color: #fff; background-color: #999;}
+.setbutton.xsmall {font-size: 75%; padding: 3px 2px; }
+.setbutton.small {font-size: 75%; padding: 5px 3px; }
+.setbutton.large { font-size: 125%; padding: 7px 12px;}
+.setbutton.xlarge { font-size: 150%; padding: 15px 25px;}
+.setbutton.smallimg {padding: 5px 7px; }
+.setbutton.leftspace {margin-left: 10px;}
+
+.setbutton.gray { background: #444;}
+.setbutton.gray:hover { background: #666;}
+.setbutton.lightgray { background: #999;}
+.setbutton.lightgray:hover { background: #aaa;}
+.setbutton.red { background: #cc0000; }
+.setbutton.red:hover { background: #dd0000;}
+.setbutton.green { background: #008000; }
+.setbutton.green:hover { background: #228B22; }
+.setbutton.yellow { background: #FFDF00; color: #111;}
+.setbutton.yellow:hover {background: #FDEE00; color: #111;}
+.setbutton.blue { background: #3366cc;}
+.setbutton.blue:hover { background: #3366ee;}
+.setbutton.darkblue { background: #003366;}
+.setbutton.darkblue:hover { background: #0033cc;}
+.setbutton.white { background: #fff; color: #111;}
+.setbutton.white:hover { background: #eee; color: #111;}
+
+</style>
+
+<!-- -->
+
+
+<link rel="stylesheet" href="css/sites.css" type="text/css" media="screen" />
+
+<!--[if IE]>
+<style>
+     .title {font: bold medium "Arial"; color: #FF0000;}
+	.date {font: bold x-small "Arial"; color: #000000;}
+	.item {font: x-small "Arial"; color: #000000;}
+</style>
+<![endif]-->
+
+
+
+<!-- PNG FIX for IE6 - http://24ways.org/2007/supersleight-transparent-png-in-ie6 -->
+<!--[if lte IE 6]>
+     <script type="text/javascript" src="js/pngfix/supersleight-min.js"></script>
+<![endif]-->
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/1003874/Leaderboard_ROS', [728, 90], 'div-gpt-ad-1387467292849-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+</head>
+
+
+
+
+<body topmargin=0 leftmargin=0 marginheight=0 marginwidth=0>
+
+<style>
+#logintab {
+	font-family: arial;
+	position: absolute; 
+	top: 0px;
+	right: 10px; 
+	z-index: 99999; 
+	float: right; 
+	background-color: #333; 
+	padding: 5px 10px; 
+	border: 1px solid #ccc; 
+	border-radius: 0 0 5px 5px;
+	clear: both;
+}
+#logintab a {text-decoration: none; color: #eee;}
+#logintab a:hover {text-decoration: none; color: #fff;}
+</style>
+
+
+<table cellspacing=0 cellpadding=0 id="wrapper"><tr><td>
+
+     
+     <div id="headercontainer">
+          
+
+          <table id="header">
+          <tr valign=middle>
+          
+               <td id="headerimageleft_cell"><div id="headerimageleft" style="padding-left: 10px;"><img src="barriejrsharks/barriejrsharks_logo.gif?i=3" border=0></div></td>
+          
+          <td align=center id="headermiddle_cell">
+          <div id="headermiddletext" style="display: none;">
+               <div id=line1>Welcome to the Home of the</div><h1>Barrie Junior Sharks</h1><div id=line3></div>
+          </div>
+          <div id="headermiddleimage" >
+               <img src="/barriejrsharks/barriejrsharks_title.gif?i=3">
+          </div>
+          </td>
+          
+               <td id="headerimageright_cell"><div id="headerimageright" style="display: none;"></div></td>
+          
+          </tr>
+          </table>
+
+     </div>
+
+
+     <div id="maintable">
+
+
+     <table id="headerinfo" width=100% ><tr>
+     <td align=left colspan=2><div id="headerleft">
+     </div></td><td align=right><div id="headerright">Last Updated: September 28, 2014&nbsp;</div></td></tr></table>
+
+<table id="leftside" border=0 cellspacing=0 cellpadding=0>
+<tr valign=top>
+
+<td width=170 align=center><img src="/images/clear.gif" border=0 height=5 width=170><br>
+
+<table cellSpacing=0 cellPadding=1 width=160 bgColor="#000000" border=0><tr><td width="100%">
+<table cellSpacing=1 cellPadding=3 class="menu" id="menu">
+
+<tr height=25><th colspan=2 id='menutitle'>Main Menu</th></tr>
+
+<tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/welcome.asp?url=barriejrsharks&sid=241627519"><b>Home</b></a></td></tr><tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/miscinfo.asp?menuid=32&url=barriejrsharks&sid=241627519">Alumni</a></td></tr><tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/calendar.asp?url=barriejrsharks&sid=241627519">Calendar</a></td></tr><tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/teams_hockey.asp?url=barriejrsharks&sid=241627519">Roster</a></td></tr><tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://pwhl3.stats.pointstreak.com/teamplayerstats.html?teamid=318248&seasonid=11512" target="_new">Statistics</a></td></tr><tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/directors.asp?url=barriejrsharks&sid=241627519">Team Staff</a></td></tr><tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/schedules.asp?url=barriejrsharks&sid=241627519">Schedules</a></td></tr><tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/tournaments.asp?url=barriejrsharks&sid=241627519">Tournaments</a></td></tr><tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/location.asp?url=barriejrsharks&sid=241627519">Arenas</a></td></tr><tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/links.asp?url=barriejrsharks&sid=241627519">Links</a></td></tr><tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/sponsors.asp?url=barriejrsharks&sid=241627519">Sponsors</a></td></tr><tr><td align=center><img src="images/updated_icon2.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/photoalbum.asp?url=barriejrsharks&sid=241627519">Photo Albums</a></td></tr><tr><td align=center><img src="images/hockey_icon.gif" border=0></td><td width=100% align=left><a href="http://www.leaguelineup.com/forms.asp?url=barriejrsharks&sid=241627519">Player Information</a></td></tr><tr><td class=adminlink align=center><img src="images/hockey_icon.gif"></td><td class=adminlink align=left width="100%"><a class=navlink href="login.asp?url=barriejrsharks&sid=241627519"><font color="#ffffff">Administration</font></a></td></tr><tr><td align=center bgcolor=FFFF00><img src="images/updated_arrow.gif" border=0></td><td align=left bgcolor=FFFF00><font face=arial size=-2 color=000000>&nbsp;Updated</font></td></tr></table></td></tr></table><div class="boxheader">Follow US!</div><div class="boxcontent"><a href="http://twitter.com/BarrieJrSharks" target="_blank"><img src="images/icons/32/twitter.png" border=0></a></div>
+		<div class="boxheader">My Account</div>
+		<table cellSpacing=0 cellPadding=0 width=160 bgColor=#000000 border=0>
+		<tr><td width=100% align=center>
+		<table cellSpacing=1 cellPadding=3 width="100%" border=0>
+		<tr height=35 bgcolor=#FFFF00><td colspan=2 align=center><font face=verdana size=-2 color=#000000><a href="myll_login.asp?url=barriejrsharks&nw=1&cf=login" style="text-decoration:none"><font face=verdana size=-2 color=#000000>Login</font></a> &nbsp;&#183;&nbsp;  <a href="myll_login.asp?url=barriejrsharks&nw=1" style="text-decoration:none"><font face=verdana size=-2 color=#000000>Signup</font></a></font></td></tr>
+		<tr bgcolor=#FFFF00><td><img src="images/icons/16/favorites_16x16.png" border=0></td><td><a href="myll_home_favoritesites.asp?addurl=barriejrsharks&eaddid=235135&leagueid=235135" style="text-decoration:none"><font face=verdana size=-2 color=#000000> Add Site to Favorites</font></a></td></tr>
+          
+		<tr bgcolor=#FFFF00><td colspan=2 align=center><a href="myll_home.asp" style="text-decoration:none"><font face=verdana size=-2 color=#000000>Go to MyLeagueLineup</font></a><br>
+		</td></tr>
+		</table>
+		</td></tr></table> 
+		<div class="boxheader">Fan Shop</div><div class="psw_sidebar"><a target="_blank" href=http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+G200&ProductId=524&designid=7701&sport=Hockey&schoolid=2517821&category=8&up_ss=hc&up_pp=%7c1%7c2014><img src=//timage1.prepsportswear.com/getimage.iaspx?type=1&p=524&pc=navy&dc1=white&scale=50.0&SchoolID=2517821&d=7701&useid=1&up_ss=hc&up_pp=%7c1%7c2014&ovr=10_off_overlay_red.png></a><p><a style="text-decoration: none" target="_blank" href=http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+G200&ProductId=524&designid=7701&sport=Hockey&schoolid=2517821&category=8&up_ss=hc&up_pp=%7c1%7c2014><font face=verdana size=2>Barrie Jr. Sharks  Barrie Jr. Sharks Ice Hockey Men&#39;s Ultra Cotton T-Shirt</font></a></p><p style="margin: 0 5px; background-color: #cc0000; padding: 3px; border-radius: 3px;"><a style="text-decoration: none; color: #fff; font-weight: bold;" target="_blank" href=http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+G200&ProductId=524&designid=7701&sport=Hockey&schoolid=2517821&category=8&up_ss=hc&up_pp=%7c1%7c2014>Makes a Great Gift!</a></p><p><font face=verdana size=2><b>Save 10%</font></p><p><a target="_blank" href=http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+G200&ProductId=524&designid=7701&sport=Hockey&schoolid=2517821&category=8&up_ss=hc&up_pp=%7c1%7c2014><font face=verdana size=2>Shop Barrie Junior Sharks Sportswear</font></a></p></div><div class="boxheader">Visitor Counter</div><div class="boxcontent">86,812</div>
+          <p><script type="text/javascript">addthis_pub  = 'leaguelineup';</script><a href="http://www.addthis.com/bookmark.php" onmouseover="return addthis_open(this, '', 'http://www.leaguelineup.com/barriejrsharks', 'Barrie Junior Sharks on LeagueLineup.com')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><img src="http://s7.addthis.com/button1-bm.gif" width="125" height="16" border="0" alt="" /></a><script type="text/javascript" src="http://s7.addthis.com/js/152/addthis_widget.js"></script>        </p>
+          
+	</td>
+	<td bgcolor=black width=1><img src="/images/clear.gif" border=0 width=1></td>             <!--Vertical column between menu and main content -->
+	
+<td id="content" align=left  height=500>
+<font face="Arial" size=2 color=000000>
+
+
+
+
+<script>
+function openpopup()
+{
+	var pURL="popup.asp?url=barriejrsharks";
+	var pLeft = (screen.width -300) / 2;
+	var pTop = (screen.height - 300) / 2;
+	pSet = 'width=300,height=300,left='+pLeft+',top='+pTop+',scrollbars=yes,resizable';
+	wPopup=window.open(pURL,"test",pSet);
+	wPopup.focus();
+}
+</script>
+
+
+
+<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor="#000000"><tr height=1><td></td></tr></table>
+
+<table width=100% border=0 style="border-bottom: 1px solid #000;" cellspacing=0 cellpadding=1 class="menu full" id="menutop"><tr height=25 valign=middle>
+
+<td align=left>&nbsp;
+<b>Home</b></td><td align=right><a href="search.asp?url=barriejrsharks&sid=241627519">Search</a> | <a href="http://www.theweathernetwork.com/weather/caon0040" target="weather">Weather</a></td><td width=28 align=right>&nbsp;</td></tr></table><style>
+#ticker {
+	height: 25px;
+	overflow: hidden;
+	list-style: none;
+     background: #000080;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 5px 0 0 0;
+	text-align: center;
+     font-weight: bold;
+     padding-right: 160px;
+	font-family: Arial;
+	font-size: 14px;
+
+}
+#ticker li {
+	height: 25px;
+}
+</style>
+<ul id='ticker'><li>Be a Part of a Winning Tradition - Become a Corporate Sponsor - Sponsorship Packages Available</li></ul>
+<script>
+
+	function tick(){
+		$('#ticker li:first').slideUp( function () { $(this).appendTo($('#ticker')).slideDown(); });
+	}
+	setInterval(function(){ tick () }, 4000);
+	
+</script>
+
+
+<!--startprint-->
+
+<!--include_welcome start-->
+
+<table width=100% border=0 cellspacing=5 cellpadding=0><tr><td>
+<font color=000000>
+
+
+	<table width=160 align=right><tr valign=top><td align=left>
+	
+
+	<table class="infotable">
+	<tr><th class="center">LET US KNOW</td></tr>
+	
+			<tr valign="top" ><td><a href="https://www.leaguelineup.com/formpreview.asp?url=barriejrsharks&sid=241627519&FormID=88123">Want to be a Shark? Want us to watch your game?</a></td></tr>
+		</table></td></tr></table><center></center><br>
+<!--start news items-->
+
+<!--item# 1183222-->
+<div class="newsitem-wp">
+<div class="item">
+<p>&#160;</p>
+<hr />
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;<img style="margin-right: auto; margin-left: auto; display: block;" src="http://my.llfiles.com/00235135/IMG_20140825_092901.jpg" alt="" width="640" height="360" /></p>
+<p><img style="margin-right: auto; margin-left: auto; display: block;" src="http://my.llfiles.com/00235135/IMG_20140825_090014.jpg" alt="" width="640" height="360" /></p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+</div>
+</div>
+<script>$('video').mediaelementplayer();</script>
+<!--stop news items-->
+<br><div align=center><div style='text-align: left;'>			<center>	<font face="Arial" color=#FF0000 size=3><b>Current Team Schedule</b></font><br>	<br>	<table class="infotable">				<tr>			<th colspan=3 class="center">Thursday,&nbsp;               Oct&nbsp;2               </th>			</tr>					<tr height=25 valign=middle >					<td align=left width=33%>PRACTICE&nbsp;Barrie Junior Sharks</td>						<td align=center width=33%>8:30pm</td>                              <td align=left width=33%><a href="location.asp?url=barriejrsharks&Locationid=1274650">East Bayfield Community Centre</a></td>          </tr>			<tr>			<th colspan=3 class="center">Saturday,&nbsp;               Oct&nbsp;4               </th>			</tr>					<tr height=25 valign=middle class=alt>					<td align=left width=33%>Burlington Jr. Barracudas&nbsp;@&nbsp;Barrie Junior Sharks</td>						<td align=center width=33%>11:00am</td>                              <td align=left width=33%><a href="location.asp?url=barriejrsharks&Locationid=1274650">East Bayfield Community Centre</a></td>          </tr>			<tr>			<th colspan=3 class="center">Sunday,&nbsp;               Oct&nbsp;5               </th>			</tr>					<tr height=25 valign=middle >					<td align=left width=33%>Stoney Creek Sabres&nbsp;@&nbsp;Barrie Junior Sharks</td>						<td align=center width=33%>1:00pm</td>                              <td align=left width=33%><a href="location.asp?url=barriejrsharks&Locationid=1274650">East Bayfield Community Centre</a></td>          </tr>			<tr>			<th colspan=3 class="center">Tuesday,&nbsp;               Oct&nbsp;7               </th>			</tr>					<tr height=25 valign=middle class=alt>					<td align=left width=33%>PRACTICE&nbsp;Barrie Junior Sharks</td>						<td align=center width=33%>8:30pm</td>                              <td align=left width=33%><a href="location.asp?url=barriejrsharks&Locationid=1274650">East Bayfield Community Centre</a></td>          </tr>			<tr>			<th colspan=3 class="center">Thursday,&nbsp;               Oct&nbsp;9               </th>			</tr>					<tr height=25 valign=middle >					<td align=left width=33%>Barrie Junior Sharks&nbsp;@&nbsp;Brampton Jr. Thunder</td>						<td align=center width=33%>8:30pm</td>                              <td align=left width=33%><a href="location.asp?url=barriejrsharks&Locationid=1375384">Century Gardens</a></td>          </tr>			<tr>			<th colspan=3 class="center">Tuesday,&nbsp;               Oct&nbsp;14               </th>			</tr>					<tr height=25 valign=middle class=alt>					<td align=left width=33%>Barrie Junior Sharks&nbsp;@&nbsp;Oakville Jr. Hornets</td>						<td align=center width=33%>8:00pm</td>                              <td align=left width=33%><a href="location.asp?url=barriejrsharks&Locationid=1394189">Joshuas Creek Arena</a></td>          </tr>			<tr>			<th colspan=3 class="center">Thursday,&nbsp;               Oct&nbsp;16               </th>			</tr>					<tr height=25 valign=middle >					<td align=left width=33%>PRACTICE&nbsp;Barrie Junior Sharks</td>						<td align=center width=33%>8:30pm</td>                              <td align=left width=33%><a href="location.asp?url=barriejrsharks&Locationid=1274650">East Bayfield Community Centre</a></td>          </tr>	</table>	<br><!--	<font face="Arial" size=2 color=#000000>For a complete schedule listing, <a href="schedules.asp?url=barriejrsharks"><font color=#000000>click here</font></a>!<br>	</font>-->	<span class="item">For a complete schedule listing, <a href="schedules.asp?url=barriejrsharks"><font color=#000000>click here</font></a>!<br></span>	</center>	<br>	<br>		<center>	<font FACE="Arial" color=#FF0000 size=3><b>Upcoming Events</b></font><br>	<br>	<table class="infotable">				<th colspan=3 class="center">Friday,&nbsp;               Oct&nbsp;24</th>		<tr height=25 valign=middle >		<td width=33% align=left>					<a href="tournaments.asp?url=barriejrsharks&displaycalendar=1&tournamentID=412449">Two Nations College Prep Series - Detroit, MI</a><br>				</td>		<td width=33% align=center></td>		<td width=33% align=left>					<a href="tournaments.asp?url=barriejrsharks&DisplayCalendar=1&TournamentID=412449"></a>		</td></tr>	</table>		<br>	<font face="Arial" size=2 color=#000000>		For a complete calendar listing, <a href="calendar.asp?url=barriejrsharks"><font color=#000000>click here</font></a>!<br>	</center>	<br>	<br><br>	</div></div>
+</td></tr></table>
+
+<!--include_welcome end-->
+
+<!--stopprint-->
+
+<tr><td width=160 align=center></td><td bgcolor=black width=1><img src="images/clear.gif" border=0 width=1></td><td align=center bgcolor=#ffffff><table class=infotable><tr><th colspan=5 class=center>Barrie Junior Sharks FAN SHOP</th></tr><tr height=180><td width=20% align=center><a href="http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+G125&ProductId=4337&designid=49825&sport=Hockey&schoolid=2517821&category=32&up_ss=hc&up_pp=%7c1%7c2014" target="_blank"><img src="//timage4.prepsportswear.com/getimage.iaspx?type=1&p=4337&pc=navy&dc1=white&scale=50.0&SchoolID=2517821&d=49825&useid=1&up_ss=hc&up_pp=%7c1%7c2014&ovr=10_off_overlay_red.png" border=0 height=150></a></td><td width=20% align=center><a href="http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+G200&ProductId=524&designid=7701&sport=Hockey&schoolid=2517821&category=8&up_ss=hc&up_pp=%7c1%7c2014" target="_blank"><img src="//timage1.prepsportswear.com/getimage.iaspx?type=1&p=524&pc=navy&dc1=white&scale=50.0&SchoolID=2517821&d=7701&useid=1&up_ss=hc&up_pp=%7c1%7c2014&ovr=10_off_overlay_red.png" border=0 height=150></a></td><td width=20% align=center><a href="http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+ST350&ProductId=4387&designid=9634&sport=Hockey&schoolid=2517821&category=8&up_ss=hc&up_pp=%7c1%7c2014" target="_blank"><img src="//timage2.prepsportswear.com/getimage.iaspx?type=1&p=4387&pc=true_navy&dc1=white&scale=50.0&SchoolID=2517821&d=9634&useid=1&up_ss=hc&up_pp=%7c1%7c2014&ovr=10_off_overlay_red.png" border=0 height=150></a></td><td width=20% align=center><a href="http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+T1396&ProductId=348&designid=49808&sport=Hockey&schoolid=2517821&category=8&up_ss=hc&up_pp=%7c1%7c2014" target="_blank"><img src="//timage1.prepsportswear.com/getimage.iaspx?type=1&p=348&pc=light_blue_navy&dc1=white&scale=50.0&SchoolID=2517821&d=49808&useid=1&up_ss=hc&up_pp=%7c1%7c2014&ovr=10_off_overlay_red.png" border=0 height=150></a></td><td width=20% align=center><a href="http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+BG99&ProductId=252&designid=14824&sport=Hockey&schoolid=2517821&category=697&up_ss=hc&up_pp=%7c1%7c2014" target="_blank"><img src="//timage1.prepsportswear.com/getimage.iaspx?type=1&p=252&pc=gold&dc1=white&scale=50.0&SchoolID=2517821&d=14824&useid=1&up_ss=hc&up_pp=%7c1%7c2014&ovr=10_off_overlay_red.png" border=0 height=150></a></td></tr><tr height=50 bgcolor=#eeeeee><td align=center><a href="http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+G125&ProductId=4337&designid=49825&sport=Hockey&schoolid=2517821&category=32&up_ss=hc&up_pp=%7c1%7c2014" target="_blank">Barrie Jr. Sharks  Barrie Jr. Sharks Ice Hockey Men&#39;s Ultra Blend 50/50 Hooded Sweatshirt</a></td><td align=center><a href="http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+G200&ProductId=524&designid=7701&sport=Hockey&schoolid=2517821&category=8&up_ss=hc&up_pp=%7c1%7c2014" target="_blank">Barrie Jr. Sharks  Barrie Jr. Sharks Ice Hockey Men&#39;s Ultra Cotton T-Shirt</a></td><td align=center><a href="http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+ST350&ProductId=4387&designid=9634&sport=Hockey&schoolid=2517821&category=8&up_ss=hc&up_pp=%7c1%7c2014" target="_blank">Barrie Jr. Sharks  Barrie Jr. Sharks Ice Hockey Men&#39;s Competitor Performance T-Shirt</a></td><td align=center><a href="http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+T1396&ProductId=348&designid=49808&sport=Hockey&schoolid=2517821&category=8&up_ss=hc&up_pp=%7c1%7c2014" target="_blank">Barrie Jr. Sharks  Barrie Jr. Sharks Ice Hockey Champion Men&#39;s Ringer T-Shirt</a></td><td align=center><a href="http://www.prepsportswear.com/Redirector.aspx?brand=leaguelineup&utm_source=leaguelineup&utm_campaign=partner&utm_medium=api&utm_content=api&utm_term=product+list+BG99&ProductId=252&designid=14824&sport=Hockey&schoolid=2517821&category=697&up_ss=hc&up_pp=%7c1%7c2014" target="_blank">Barrie Jr. Sharks  Barrie Jr. Sharks Ice Hockey Embroidered Colorblock Duffel Bag</a></td></tr><tr bgcolor=#eeeeee><td colspan=5 align=center><font size=3 color=#cc0000><b>Great Gift Ideas for Mom, Dad and the entire family!</b></font></td></tr></table></div><br></td></tr>
+	<tr>
+	<td width=160 align=center></td>
+	<td bgcolor=black width=1><img src="images/clear.gif" border=0 width=1></td>
+	<td bgcolor=black align=center><img src="images/clear.gif" border=0 height=1></td>
+	</tr>
+
+
+	<tr height=60>
+	<td width=160 align=center>
+	
+	</td>
+	<td bgcolor=black width=1><img src="images/clear.gif" border=0 width=1></td>
+	<td bgcolor=#FFFF00 align=center><p><font face="Arial" size=5 color=#000000><b>Barrie Junior Sharks</b>
+	
+	</font></p>
+	
+<style>
+.ll_link:hover {text-decoration: underline;}
+</style>
+
+	<p style="font-family: tahoma,arial; font-size: 14px;">
+	<a class=ll_link style="text-decoration: none; color: #000000" href="http://www.leaguelineup.com" title="Professional Services for Amateur Sports">
+	<i>powered by</i> <span style="margin-left: 3px; font-weight: bold;">LeagueLineup</span>
+	</a>
+	</p>
+	
+	</td>
+     </tr>
+     
+
+	<tr><td width=160 align=center></td><td bgcolor=black width=1><img src="images/clear.gif" border=0 width=1></td><td bgcolor="000080" align=center><img src="images/clear.gif" border=0 height=1></td></tr>
+	<tr><td width=160 align=center></td><td bgcolor=black width=1><img src="images/clear.gif" border=0 width=1></td><td bgcolor=black align=center><img src="images/clear.gif" border=0 height=1></td></tr>
+
+</table></td></tr></table></div></td></tr></table>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-383483-1']);
+		_gaq.push(['_setCustomVar',1,'section','sites']);
+		_gaq.push(['_setCustomVar',2,'site','235135']);
+		_gaq.push(['_setCustomVar',3,'level','1']);
+		_gaq.push(['_setCustomVar',4,'type','3']);	
+		_gaq.push(['_setCustomVar',5,'page','33']);
+		_gaq.push(['_trackPageview']);
+          
+	
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+     
+	<script>
+	   $(document).ready(function(){
+		 $(document).bind("contextmenu",function(e){
+		   alert('Sorry, that function is disabled.\n\nThis Page Copyrighted and\nImages and Text protected!\n\nALL RIGHTS RESERVED');
+
+		   return false;
+		 });
+	    });
+	</script>
+	
+
+</body>
+</html>
+

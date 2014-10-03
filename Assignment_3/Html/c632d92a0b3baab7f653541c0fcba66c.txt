@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html> 
+<html>
+<!-- 
+     THE BASIC THEME 1.2
+     2014 by THEMES THAT YOU LIKE  
+     http://themesthatyoulike.com/
+-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        <title>memories</title>
+        <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_9e396201d5c7_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://avvaa.tumblr.com/rss">
+        <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="http://static.tumblr.com/iwtk77u/Yhym2yygt/jquery.imagesloaded.min.js"></script>
+        <script src="http://static.tumblr.com/wgijwsy/Ebfm2v4gy/jquery.masonry.min.js"></script>
+        <script src="http://static.tumblr.com/wgijwsy/u2vm2hxv6/jquery.infinitescroll.min.js"></script>
+          
+            <meta name="description" content="" />
+          
+            <meta name="color:Background" content="#ffffff"/>
+            <meta name="color:Link" content="#a7a4a4"/>
+            <meta name="color:Text" content="#383838"/>
+            <meta name="color:Description" content="#a5a5a3"/>
+            <meta name="color:Title" content="#000000"/>
+
+            <meta name="font:Text" content="Futura"/>
+            <meta name="font:Description" content="Futura"/>
+            
+            <meta name="if:Show RSS" content="0"/>
+            <meta name="if:Show Archive" content="0"/>
+            
+            <meta name="image:Background" content=""/>
+            <meta name="image:Banner" content=""/>
+            
+            <meta name="select:Content Size" content="100%" title="Responsive Content"/>
+            <meta name="select:Content Size" content="1200px" title="1200px Content"/>
+            <meta name="select:Content Size" content="1000px" title="1000px Content"/>
+            <meta name="select:Content Size" content="800px" title="800px Content"/>
+            
+            <meta name="select:Rows" content="18" title="5 Rows"/>
+            <meta name="select:Rows" content="23" title="4 Rows"/>
+            <meta name="select:Rows" content="31" title="3 Rows"/>
+            
+            <meta name="text:Twitter Username" content="" />
+            <meta name="text:Instagarm Username" content="" />
+            <meta name="text:Facebook URL" content="" />
+            <meta name="text:TumblrsBEST URL" content="" />
+            
+            <meta name="text:Custom Link One" content="" />
+            <meta name="text:Custom Link One Title" content="" />
+            <meta name="text:Custom Link Two" content="" />
+            <meta name="text:Custom Link Two Title" content="" />
+            <meta name="text:Custom Link Three" content="" />
+            <meta name="text:Custom Link Three Title" content="" />
+            
+            
+
+      
+      <style type="text/css">
+        
+        body {
+            margin: 0; 
+            padding: 0; 
+            background-image: url('http://assets.tumblr.com/images/x.gif');
+            background-attachment: fixed;
+            background-color: #ffffff;
+            color: #383838; 
+            }
+            
+        #content {
+             margin: 0 auto;  
+             width: 100%; 
+             Ã‚Â 
+            }
+            
+        #tumblr_controls {
+            right: 0px !important; 
+            position: fixed!important; 
+            top: 0px !important; 
+            }
+
+        #install_theme {
+            width: 100px; 
+            height: 20px; 
+            z-index: 23; 
+            background: url(http://25.media.tumblr.com/94c2ee4906b30683009e123de5477378/tumblr_mfe2lirjrb1s0wyp8o1_100.png);  
+            top: 25px !important; 
+            position: fixed; 
+            right: 0px !important; 
+            display: none; 
+            opacity: 0.8;    
+        }
+            
+       .item iframe, img, embed, object, video {
+           max-width: 100%;
+       }
+
+      a, a:link, a:hover, a:visited{
+         color: rgb(30, 30, 30); 
+         text-decoration: none; 
+   
+        }
+      
+      .head h1{
+         text-align: center; 
+         font-weight: 100;
+         font-size: 60px; 
+         margin-top: 50px; 
+         color: #000000; 
+         text-transform: uppercase;
+         font-family: 'Fjalla One', sans-serif;
+         
+       }
+       
+       .head #banner{
+           max-width: 800px; 
+           margin: 0 auto; 
+           margin-top: -140px; 
+           padding-bottom: 100px; 
+       }
+       
+      
+       .head #description {
+            font-size: 10px;
+            width: 500px;
+            font-weight: 100;
+            text-align: center; 
+            top: -40px; 
+            left: 50%; 
+            padding-top: 5px; 
+            position: relative;
+            margin-left: -250px; 
+            font-family: Futura, 'Century Gothic', AppleGothic, sans-serif; 
+            color: #a5a5a3; 
+
+        }
+        
+      .head #links {
+            font-size: 10px;
+            width: 500px;
+            font-weight: 100;
+            text-align: center; 
+            top: -20px; 
+            left: 50%; 
+            padding-top: 5px; 
+            position: relative;
+            margin-left: -250px;
+            font-family: Futura, 'Century Gothic', AppleGothic, sans-serif;         
+           
+        }
+        
+      .head #link  {
+           margin-left: 5px; 
+           margin-right: 5px; 
+           color: #a5a5a3 !important; 
+           
+        }
+    
+     
+      .item {
+        width: 480px;
+        padding: 10px; 
+        background-color: #FFF; 
+        font-family: Futura, 'Century Gothic', AppleGothic, sans-serif; 
+        color: #383838 !important;
+       } 
+
+      blockquote {
+           display: block;
+           -webkit-margin-before: 5px !important;
+           -webkit-margin-after: 5px !important;
+           -webkit-margin-start: 8px !important;
+           -webkit-margin-end: 8px !important;
+           border-left: 3px solid rgb(230, 230, 230);
+           padding-left: 2px; 
+          }
+       
+       .item a{
+        color: #383838 !important;
+       } 
+       
+        
+         
+      .item {
+        width: 18%; 
+        padding: 0.5%;
+        margin-top: 10px;
+        margin-left: 0.4%; 
+        margin-right: 0.4%; 
+        text-align: justify; 
+        background-color: #FFF; 
+        word-wrap: break-word; 
+        font-family: Futura, 'Century Gothic', AppleGothic, sans-serif; 
+        min-width: 1px; 
+       
+       } 
+       
+       
+       .PremlinkPageContainer {
+          width: 480px;
+          padding: 10px; 
+          margin-left: 20px; 
+          margin-top: 15px; 
+          float: left; 
+          margin-left: -250px; 
+          left: 50%;  
+          font-weight: 100;
+          font-size: 11px;
+          background-color: #FFF;
+          position: relative;
+          color: #000 !important; 
+          font-family: Futura, 'Century Gothic', AppleGothic, sans-serif; 
+       }
+       
+       .PremlinkPageContainer a{
+          color: #383838 !important;
+       }
+      
+       .PremlinkPageContainer #date {
+          width: 480px; 
+          color: #383838 !important; 
+          text-align: center; 
+          font-size: 14px; 
+       }
+       
+       .PremlinkPageContainer #line {
+          height: 1px; 
+          background-color: #383838 !important; 
+          border: none;
+       }
+       
+       .PremlinkPageContainer #tags {
+          border-top: 1px solid #383838; 
+          color: #383838 !important;
+          padding-top: 6px; 
+          font-size: 14px;
+          margin-top: 4px; 
+          word-wrap: break-word;
+          width: 100%;
+       }
+       
+       .PremlinkPageContainer #tags br{
+          line-height: 8px;
+       }
+       
+       
+       .PremlinkPageContainer #tags #tag {
+          color: #383838 !important;
+          text-decoration: none;
+          margin-left: 8px;
+          border: none !important;
+       }
+       
+       .PremlinkPageContainer #tags #tag:first-child {
+          margin-left: 0px;
+       }
+       
+       .PremlinkPageContainer #tags #tag:hover {
+          text-decoration: underline;
+       }
+       
+        .PremlinkPageContainer ol {
+          margin-bottom: 80px; 
+       }
+       
+       .PremlinkPageContainer li {
+          margin-top: 8px; 
+          margin-left: -20px; 
+          list-style-type: none;
+       }
+       
+       .PremlinkPageContainer li a{
+          color: #383838 !important;
+       }
+       
+       
+        /* Reblog and Link Buttons and Like */ 
+       
+       #controls{
+          height: 30px; 
+          width: 100%;
+          margin-top: 10px; 
+          position: relative; 
+        }
+        
+        #controls #link{
+            height: 25px; 
+            top: 0px; 
+            right: 10px; 
+            width: 25px; 
+            position: absolute; 
+            background-image: url(http://31.media.tumblr.com/181802de4d22c71ce77d91669668bfa4/tumblr_msdalj1trt1s3zdk4o1_500.png);
+            background-size: 25px; 
+            opacity: 0.2; 
+            -webkit-transition: all 0.3s ease-out; 
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+        
+         #controls #link:hover{
+            opacity: 0.6; 
+        }
+        
+         #controls #reblog{
+            height: 26px; 
+            top: 3px; 
+            right: 37px; 
+            width: 26px; 
+            position: absolute; 
+            opacity: 0.8; 
+            -webkit-transition: all 0.3s ease-out; 
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out; 
+        }
+        
+        #controls #reblog:hover{
+            opacity: 0.6; 
+        }
+        
+        #controls #like{
+            height: 26px; 
+            top: 4px; 
+            right: 70px; 
+            width: 26px; 
+            position: absolute; 
+            opacity: 0.8; 
+            -webkit-transition: all 0.3s ease-out; 
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out; 
+        }
+        
+        #controls #like:hover{
+            opacity: 0.6; 
+        }
+
+       /* Text */ 
+       
+      .text {
+          font-size: 15px; 
+          text-align: left; 
+          padding-left: 5px;  
+        }
+        
+      .text #head{
+          font-size: 20px;  
+          text-align: center; 
+          color: #383838 !important;
+          font-weight: 100 !important; 
+        }
+      
+       .text #date{
+          font-size: 10px;  
+          text-align: center; 
+          font-weight: 100;
+          margin-top: -16px; 
+          margin-bottom: 20px; 
+        }
+        
+       .text #line{
+          height: 1px; 
+          width: 80%; 
+          background-color: rgba(30, 30, 30, 0.3); 
+          border: none; 
+        }
+        
+       /* Photo */
+       
+       .photo {
+          font-size: 10px; 
+          text-align: left; 
+          padding-bottom: 0%; 
+          overflow: hidden; 
+        }
+
+        .photo .slidein{    
+          width: 100%;
+          height: 100%;
+          top: 0px; 
+          position: absolute;
+          opacity: 0;
+          -webkit-transition: all 0.2s ease-out; 
+          -webkit-transition: all 0.2s ease-out;
+          -moz-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out; 
+        }
+
+       .photo:hover .slidein{
+          opacity: 1;
+          background-color: rgba(256, 256, 256, 0.1);
+        }
+             
+        .photo .slidein #buttons {
+           width: 120px; 
+           top: 50%;
+           margin-top: -15px;
+           left: 50%;
+
+           margin-left: -60px; 
+           position: absolute;
+           height: 30px; 
+         }
+         
+        .photo .slidein #reblog{    
+           width: 20px; 
+           height: 20px; 
+           padding: 5px; 
+           border-radius: 3px; 
+           position: relative;
+           float: left;
+           margin-left: 5px; 
+           background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .photo .slidein #reblog a{    
+          width: 20px !important; 
+        }
+        
+        .photo .slidein #like {  
+           width: 20px; 
+           height: 20px; 
+           padding: 5px; 
+           position: relative;
+           float: left;
+            border-radius: 3px; 
+           background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .photo .slidein #like iframe{    
+           width: 20px !important; 
+        }
+        
+        .photo .slidein #link{    
+           position: relative;
+           float: left;
+           border-radius: 3px; 
+           width: 40px; 
+           height: 20px; 
+           padding: 5px; 
+           left: 5px; 
+           text-align: center;
+           line-height: 20px; 
+           background: rgba(0, 0, 0, 0.5);
+           font-family: Futura, 'Century Gothic', AppleGothic, sans-serif;
+        }
+        
+        .photo .slidein #link a {    
+           text-decoration: none;
+           color: rgb(210, 210, 210) !important;
+        } 
+        
+         /* Single Post Photo */
+        
+        .single {
+          width: 480px; 
+          background-color: #FFF; 
+          padding: 10px 10px 10px 10px; 
+          position: relative; 
+          margin-left: -250px; 
+          left: 50%; 
+      
+        }
+        
+       
+       /* Quote */ 
+       
+        .quote {
+          font-size: 10px; 
+          text-align: left; 
+          padding-top: 3px; 
+          color:#383838; 
+          padding-bottom: 0px; 
+          
+        }
+        
+        .quote #quote{
+          font-size: 24px; 
+        }
+      
+        .quote #source {
+          font-size: 11px; 
+          position: relative; 
+          text-align: right;
+          margin-top: 10px; 
+          width: 95%; 
+          margin-bottom: 10px; 
+    
+        }
+        
+        .quote #description {
+          font-size: 11px; 
+          position: absolute; 
+          right: 10px; 
+          bottom: 10px; 
+          text-align: left !important; 
+        }
+          /* Photoset */ 
+        
+        .photosettheme {
+          width: 100%; 
+          position: relative; 
+          padding-top: 30px; 
+          padding-bottom: 30px; 
+          border: 1px solid rgba(100, 100, 100, 0.1); 
+          background-color: rgba(180, 180, 180, 0.2); 
+        }
+        
+        .photosettheme .photoset{
+          margin: 0 auto; 
+        }
+        
+        .photosettheme #reblog{
+          color: rgb(150, 150, 150); 
+          text-decoration: none; 
+          text-align: center; 
+          position: relative; 
+          top: 20px; 
+        }
+        
+           
+        /* Link */ 
+       
+       .link {
+          font-size: 10px; 
+          text-align: left; 
+          padding-top: 3px; 
+          
+        }
+        
+      .link #link{
+          font-size: 24px; 
+          text-align: center; 
+        }
+      
+        /* Chat */ 
+        
+        .chat {
+          font-size: 13px; 
+          text-align: left; 
+          padding-top: 0px;  
+          line-height: 24px; 
+        }
+        
+        .chat #head{
+          font-size: 20px;  
+          text-align: center; 
+          font-weight: 100; 
+          margin-top: -0px; 
+        }
+
+        
+        .chat li{
+          font-size: 15px; 
+          margin-left: -14px; 
+        }
+
+
+        
+       .chat #line{
+          height: 1px; 
+          width: 80%; 
+          margin-top: -10px; 
+          background-color: rgba(30, 30, 30, 0.3); 
+          border: none; 
+        }
+
+        /* Audio */ 
+        
+        .audio_player {
+            height: 70px; 
+        }
+        
+        .audio_player iframe{
+            height: 60px; 
+        }
+
+
+        /* Ask */
+       
+        .ask {
+            position: relative;
+            padding: 5px;
+            padding-bottom: 15px;
+        }
+        
+        .ask #avatar {
+            width: 50px;
+            height: 50px; 
+            position: relative;
+            float: left;
+            top: 5px;
+        }
+        
+        .ask #question {
+            position: relative;
+            left: 10px; 
+            text-align: left;
+            min-height: 50px; 
+        }
+        
+        .ask #answer {
+            position: relative;
+            float: none;
+            padding-bottom: 15px; 
+            top: 20px;
+            border-top: 1px solid rgba(100, 100, 100, 0.2);
+        }
+        
+       .item a {
+         color: #a7a4a4 !important; 
+         text-decoration: none; 
+       } 
+       
+       #infscr-loading {
+          display: none; 
+          font-size: 0px; 
+          position: absolute; 
+          top: -300px; 
+        } 
+
+        
+
+       </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=avvaa" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/garamondclassicfs/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="memories" /><meta property="og:url" content="http://avvaa.tumblr.com/?og=1" /><meta property="og:description" content="" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_9e396201d5c7_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=avvaa" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=avvaa" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="avvaa" /><meta name="twitter:description" content="&lt;script id=&quot;HypPlayerScript&quot; type=&quot;text/javascript&quot; src=&quot;http://hypster.com/a/player6.js&quot;  hypHostName=&quot;hypster.com&quot; hypUserID=&quot;5237308&quot; hypPlaylistID=&quot;6982451&quot; hypPlayerControls=&quot;1&quot; hypAutostart=&quot;1&quot; hypPlayerSort=&quot;rand&quot; hypMainBackColor=&quot;#000000&quot; hypPrevButtonColor=&quot;#000000&quot; hypPlayPauseButtonColor=&quot;#000000&quot; hypNextButtonColor=&quot;#000000&quot; hypShuffleButtonColor=&quot;#000000&quot; hypHypsterButtonColor=&quot;#000000&quot; hypVisibility=&quot;hidden&quot;  hypSaveState=&quot;1&quot;  hypVolumeVal=&quot;80&quot;   &gt;&lt;!-- Hypster Player --&gt;&lt;/script&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=avvaa&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=avvaa&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=avvaa&amp;referrer=twitter-cards" />
+
+</head>
+    <body>
+    
+     <a title="free tumblr themes" href="http://themesthatyoulike.tumblr.com"><iframe id="button" scrolling="no" style="position: fixed; bottom: 10px; right: 10px; border: none; width: 184px; height: 50px; z-index: 1337;" src="http://themesthatyoulike.com/button"></iframe></a> 
+
+     <script type="text/javascript">
+     
+     if ( self !== top ) {
+         
+     document.getElementById('button').style.bottom='34px'; 
+     
+     }
+ 
+     </script>
+    
+    <div class="head">
+
+        <a href="/"><h1>memories</h1></a>
+        
+        <center><img src="http://assets.tumblr.com/images/x.gif" id="banner" /></center>
+
+        
+            <p id="description"><script id="HypPlayerScript" type="text/javascript" src="http://hypster.com/a/player6.js"  hypHostName="hypster.com" hypUserID="5237308" hypPlaylistID="6982451" hypPlayerControls="1" hypAutostart="1" hypPlayerSort="rand" hypMainBackColor="#000000" hypPrevButtonColor="#000000" hypPlayPauseButtonColor="#000000" hypNextButtonColor="#000000" hypShuffleButtonColor="#000000" hypHypsterButtonColor="#000000" hypVisibility="hidden"  hypSaveState="1"  hypVolumeVal="80"   ><!-- Hypster Player --></script></p>
+        
+        
+          <div id="links">  
+            
+            
+            <a id="link" href="/archive">Archive</a>
+            <a id="link" href="/rss">RSS</a>
+             
+            
+            
+            
+            
+            
+            
+       </div>
+        
+    </div>
+    
+   
+        <div id="content">
+            
+            
+                
+
+                
+                
+             
+                   
+                  <article class="item">
+                  
+                  
+                   <div class="photo">
+                  
+                        <a id="index" href="http://avvaa.tumblr.com/post/98069032531"><img src="http://40.media.tumblr.com/14dfad60e8a262b94f5133c43fe29be2/tumblr_mlf0qsK2kA1rkbqbko1_500.jpg" alt=""/></a>
+                        
+                <div class="slidein"> 
+                 <div id="center"> 
+                 <div id="buttons">
+                     <div id="like"><div class="like_button" data-post-id="98069032531" id="like_button_98069032531"><iframe id="like_iframe_98069032531" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=avvaa&amp;post_id=98069032531&amp;rk=iKSbG8rP" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                     <div id="reblog"><a href="https://www.tumblr.com/reblog/98069032531/iKSbG8rP" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                     <div id="link"><a href="http://avvaa.tumblr.com/post/98069032531">55116</a></div>
+                    </div> 
+                </div> 
+                 </div>
+                      
+                        
+                        
+                        
+
+                      <!--   
+                            <div class="caption"><p>(Source: <a href="http://these-times-will-pass.tumblr.com/" title="these-times-will-pass">these-times-will-pass</a>, via <a href='http://so-personal.net/post/98066422326/everything-personal'>so-personal</a>)</p></div>
+                         --> 
+                   </div>
+                  </article>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+                 
+                
+                
+                
+            
+            
+                
+
+                
+                
+             
+                   
+                  <article class="item">
+                  
+                  
+                   <div class="photo">
+                  
+                        <a id="index" href="http://avvaa.tumblr.com/post/98068196516"><img src="http://40.media.tumblr.com/7c0daee692c618a948cbb33cea46c30e/tumblr_mq6arxyaHs1qdkufgo1_500.jpg" alt=""/></a>
+                        
+                <div class="slidein"> 
+                 <div id="center"> 
+                 <div id="buttons">
+                     <div id="like"><div class="like_button" data-post-id="98068196516" id="like_button_98068196516"><iframe id="like_iframe_98068196516" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=avvaa&amp;post_id=98068196516&amp;rk=2jqzUKWw" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                     <div id="reblog"><a href="https://www.tumblr.com/reblog/98068196516/2jqzUKWw" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                     <div id="link"><a href="http://avvaa.tumblr.com/post/98068196516">351196</a></div>
+                    </div> 
+                </div> 
+                 </div>
+                      
+                        
+                        
+                        
+
+                      <!--   
+                            <div class="caption"><p>(via <a href='http://wallfl0waaa.tumblr.com/post/98066286037/surfursparadise'>wallfl0waaa</a>)</p></div>
+                         --> 
+                   </div>
+                  </article>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+                 
+                
+                
+                
+            
+            
+                
+
+                
+                
+             
+                   
+                  <article class="item">
+                  
+                  
+                   <div class="photo">
+                  
+                        <a id="index" href="http://avvaa.tumblr.com/post/98068137046"><img src="http://41.media.tumblr.com/730175dfc43405b6feb8adeb675fc048/tumblr_n02fgrqNLW1s7udpjo1_500.png" alt=""/></a>
+                        
+                <div class="slidein"> 
+                 <div id="center"> 
+                 <div id="buttons">
+                     <div id="like"><div class="like_button" data-post-id="98068137046" id="like_button_98068137046"><iframe id="like_iframe_98068137046" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=avvaa&amp;post_id=98068137046&amp;rk=02GMnIAh" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                     <div id="reblog"><a href="https://www.tumblr.com/reblog/98068137046/02GMnIAh" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                     <div id="link"><a href="http://avvaa.tumblr.com/post/98068137046">14638</a></div>
+                    </div> 
+                </div> 
+                 </div>
+                      
+                        
+                        
+                        
+
+                      <!--   
+                            <div class="caption"><p>(Source: <a href="http://untaking.tumblr.com/post/74726311495" title="untaking">untaking</a>, via <a href='http://gerrodraul.com/post/98067212126'>givingblowjobs</a>)</p></div>
+                         --> 
+                   </div>
+                  </article>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+                 
+                
+                
+                
+            
+            
+                
+
+                
+                
+             
+                   
+                  <article class="item">
+                  
+                  
+                   <div class="photo">
+                  
+                        <a id="index" href="http://avvaa.tumblr.com/post/98068125526"><img src="http://41.media.tumblr.com/a211b5e85893284ab8189ecd660f1112/tumblr_n0gz1mBoGd1sx639so1_500.jpg" alt=""/></a>
+                        
+                <div class="slidein"> 
+                 <div id="center"> 
+                 <div id="buttons">
+                     <div id="like"><div class="like_button" data-post-id="98068125526" id="like_button_98068125526"><iframe id="like_iframe_98068125526" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=avvaa&amp;post_id=98068125526&amp;rk=RND2Ws5n" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                     <div id="reblog"><a href="https://www.tumblr.com/reblog/98068125526/RND2Ws5n" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                     <div id="link"><a href="http://avvaa.tumblr.com/post/98068125526">84298</a></div>
+                    </div> 
+                </div> 
+                 </div>
+                      
+                        
+                        
+                        
+
+                      <!--   
+                            <div class="caption"><p>(Source: <a href="http://galaxaei.tumblr.com/post/75580189215/a-lovely-day-with-my-main-babes-annie-and" title="galaxaei">galaxaei</a>, via <a href='http://wallfl0waaa.tumblr.com/post/98067271102'>wallfl0waaa</a>)</p></div>
+                         --> 
+                   </div>
+                  </article>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+                 
+                
+                
+                
+            
+            
+                
+
+                
+                
+             
+                   
+                  <article class="item">
+                  
+                  
+                   <div class="photo">
+                  
+                        <a id="index" href="http://avvaa.tumblr.com/post/98068111721"><img src="http://41.media.tumblr.com/3bcca90d12e71ec264a59d87705b7f61/tumblr_n7569hoqaK1rn8x7xo1_500.jpg" alt=""/></a>
+                        
+                <div class="slidein"> 
+                 <div id="center"> 
+                 <div id="buttons">
+                     <div id="like"><div class="like_button" data-post-id="98068111721" id="like_button_98068111721"><iframe id="like_iframe_98068111721" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=avvaa&amp;post_id=98068111721&amp;rk=JrEfQ6CA" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                     <div id="reblog"><a href="https://www.tumblr.com/reblog/98068111721/JrEfQ6CA" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                     <div id="link"><a href="http://avvaa.tumblr.com/post/98068111721">35133</a></div>
+                    </div> 
+                </div> 
+                 </div>
+                      
+                        
+                        
+                        
+
+                      <!--   
+                            <div class="caption"><p>(Source: <a href="http://septtttt.tumblr.com/post/88732703010/formz" title="septtttt">septtttt</a>, via <a href='http://wallfl0waaa.tumblr.com/post/98067294097/wutgangclan-blckvenchy-instagram'>wallfl0waaa</a>)</p></div>
+                         --> 
+                   </div>
+                  </article>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+                 
+                
+                
+                
+            
+            
+                
+
+                
+                
+             
+                   
+                  <article class="item">
+                  
+                  
+                   <div class="photo">
+                  
+                        <a id="index" href="http://avvaa.tumblr.com/post/98068101796"><img src="http://41.media.tumblr.com/tumblr_m44qcnPJnz1r3n80po1_500.jpg" alt=""/></a>
+                        
+                <div class="slidein"> 
+                 <div id="center"> 
+                 <div id="buttons">
+                     <div id="like"><div class="like_button" data-post-id="98068101796" id="like_button_98068101796"><iframe id="like_iframe_98068101796" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=avvaa&amp;post_id=98068101796&amp;rk=oIMzjLaQ" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                     <div id="reblog"><a href="https://www.tumblr.com/reblog/98068101796/oIMzjLaQ" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                     <div id="link"><a href="http://avvaa.tumblr.com/post/98068101796">414631</a></div>
+                    </div> 
+                </div> 
+                 </div>
+                      
+                        
+                        
+                        
+
+                      <!--   
+                            <div class="caption"><p>(Source: <a href="http://itsgeorgia.com/" title="itsgeorgia.com">itsgeorgia.com</a>, via <a href='http://gerrodraul.com/post/98067334686'>givingblowjobs</a>)</p></div>
+                         --> 
+                   </div>
+                  </article>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+                 
+                
+                
+                
+            
+            
+                
+
+                
+                
+             
+                   
+                  <article class="item">
+                  
+                  
+                   <div class="photo">
+                  
+                        <a id="index" href="http://avvaa.tumblr.com/post/98068081646"><img src="http://40.media.tumblr.com/571c70e2360e8720a7b97b093cb87c25/tumblr_mxccww6CHP1qkujiyo1_500.jpg" alt=""/></a>
+                        
+                <div class="slidein"> 
+                 <div id="center"> 
+                 <div id="buttons">
+                     <div id="like"><div class="like_button" data-post-id="98068081646" id="like_button_98068081646"><iframe id="like_iframe_98068081646" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=avvaa&amp;post_id=98068081646&amp;rk=ZqQLuI5R" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                     <div id="reblog"><a href="https://www.tumblr.com/reblog/98068081646/ZqQLuI5R" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                     <div id="link"><a href="http://avvaa.tumblr.com/post/98068081646">219846</a></div>
+                    </div> 
+                </div> 
+                 </div>
+                      
+                        
+                        
+                        
+
+                      <!--   
+                            <div class="caption"><p>(via <a href='http://wallfl0waaa.tumblr.com/post/98067467582'>wallfl0waaa</a>)</p></div>
+                         --> 
+                   </div>
+                  </article>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+                 
+                
+                
+                
+            
+            
+                
+
+                
+                
+             
+                   
+                  <article class="item">
+                  
+                  
+                   <div class="photo">
+                  
+                        <a id="index" href="http://avvaa.tumblr.com/post/96420638496"><img src="http://41.media.tumblr.com/tumblr_mc31uzXFkE1riyxzwo1_500.png" alt=""/></a>
+                        
+                <div class="slidein"> 
+                 <div id="center"> 
+                 <div id="buttons">
+                     <div id="like"><div class="like_button" data-post-id="96420638496" id="like_button_96420638496"><iframe id="like_iframe_96420638496" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=avvaa&amp;post_id=96420638496&amp;rk=t7GpDvGj" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                     <div id="reblog"><a href="https://www.tumblr.com/reblog/96420638496/t7GpDvGj" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                     <div id="link"><a href="http://avvaa.tumblr.com/post/96420638496">292025</a></div>
+                    </div> 
+                </div> 
+                 </div>
+                      
+                        
+                        
+                        
+
+                      <!--   
+                            <div class="caption"><p>(Source: <a href="http://siianbear.tumblr.com/post/33829317128" title="siianbear">siianbear</a>, via <a href='http://dripping-lotus.tumblr.com/post/67485100641'>dripping-lotus</a>)</p></div>
+                         --> 
+                   </div>
+                  </article>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+                 
+                
+                
+                
+            
+            
+                
+
+                
+                
+             
+                   
+                  <article class="item">
+                  
+                  
+                   <div class="photo">
+                  
+                        <a id="index" href="http://avvaa.tumblr.com/post/96420597051"><img src="http://40.media.tumblr.com/2e8af9961c1b634b228406393a4a086c/tumblr_mk6iz4sRjl1qjr3c3o1_500.jpg" alt=""/></a>
+                        
+                <div class="slidein"> 
+                 <div id="center"> 
+                 <div id="buttons">
+                     <div id="like"><div class="like_button" data-post-id="96420597051" id="like_button_96420597051"><iframe id="like_iframe_96420597051" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=avvaa&amp;post_id=96420597051&amp;rk=DMmtqmHy" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                     <div id="reblog"><a href="https://www.tumblr.com/reblog/96420597051/DMmtqmHy" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                     <div id="link"><a href="http://avvaa.tumblr.com/post/96420597051">145810</a></div>
+                    </div> 
+                </div> 
+                 </div>
+                      
+                        
+                        
+                        
+
+                      <!--   
+                            <div class="caption"><p>(Source: <a href="http://highparker.tumblr.com/post/46182734434" title="highparker">highparker</a>, via <a href='http://dripping-lotus.tumblr.com/post/67485294164'>dripping-lotus</a>)</p></div>
+                         --> 
+                   </div>
+                  </article>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+                 
+                
+                
+                
+            
+            
+                
+
+                
+                
+             
+                   
+                  <article class="item">
+                  
+                  
+                   <div class="photo">
+                  
+                        <a id="index" href="http://avvaa.tumblr.com/post/96420556096"><img src="http://36.media.tumblr.com/tumblr_m08iunlr1W1qd5w28o1_500.jpg" alt=""/></a>
+                        
+                <div class="slidein"> 
+                 <div id="center"> 
+                 <div id="buttons">
+                     <div id="like"><div class="like_button" data-post-id="96420556096" id="like_button_96420556096"><iframe id="like_iframe_96420556096" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=avvaa&amp;post_id=96420556096&amp;rk=ChvcORNi" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></div>
+                     <div id="reblog"><a href="https://www.tumblr.com/reblog/96420556096/ChvcORNi" class="reblog_button"style="display: block;width:20px;height:20px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></div>
+                     <div id="link"><a href="http://avvaa.tumblr.com/post/96420556096">516206</a></div>
+                    </div> 
+                </div> 
+                 </div>
+                      
+                        
+                        
+                        
+
+                      <!--   
+                            <div class="caption"><p>(Source: <a href="http://ohmothernature.tumblr.com/post/18583755085/i-spent-all-yesterday-re-arranging-my-room" title="ohmothernature">ohmothernature</a>, via <a href='http://dripping-lotus.tumblr.com/post/67495177934'>dripping-lotus</a>)</p></div>
+                         --> 
+                   </div>
+                  </article>
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+                
+                
+                 
+                
+                
+                
+            
+
+
+    
+    
+    </div>
+        
+    <div id="hide"><div id="hide"><nav class="pagination">
+
+        
+            
+              <next style="display: none;"><a class="nextSelector" href="/page/2">Next ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»</a></next>
+            
+        </nav> 
+        
+        
+        
+        <script>
+
+(function () {
+    var $tumblelog = $('#content');
+    $tumblelog.infinitescroll({
+        navSelector: ".pagination",
+        nextSelector: ".pagination a:last-child",
+        itemSelector: "article",
+    },
+
+    function (newElements) {
+        var $newElems = $(newElements).css({
+            opacity: 0
+        });
+        $newElems.imagesLoaded(function () {
+            $newElems.animate({
+                opacity: 1
+            });
+            $tumblelog.masonry('appended', $newElems);
+        });
+    });
+    $tumblelog.imagesLoaded(function () {
+        $tumblelog.masonry({
+            columnWidth: function (containerWidth) {
+                return containerWidth / 100;
+            }
+        });
+    });
+})();
+(function () {var $tumblelog = $('#content');
+})();
+var $tumblelog = $('#content');
+$tumblelog.infinitescroll({
+    navSelector: ".pagination",
+    nextSelector: ".pagination a:last-child",
+    itemSelector: "article",
+},function (newElements) {
+    var $newElems = $(newElements).css({
+        opacity: 0
+    });
+    $newElems.imagesLoaded(function () {
+        $newElems.animate({
+            opacity: 1
+        });
+        $tumblelog.masonry('appended', $newElems);
+    });
+});
+$tumblelog.imagesLoaded(function () {
+    $tumblelog.masonry({
+        columnWidth: function (containerWidth) {
+            return containerWidth / 100;
+        }
+    });
+});
+
+    
+</script>
+        </div>
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://avvaa.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037885&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYXZ2YWEudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=HMGBKCHOHL&K=ecc927f16f586b2ef79e7717cf58cbe44b7fbc69ca7257387bfc77aefe229fae&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037885&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYXZ2YWEudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=HMGBKCHOHL&K=43e3a071248ce8a237ddf7d14411e50c7b1ad20f307ff5c29cf060d7047fdc14&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037885&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2F2dmFhLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI3OTg3MzYxNyIsInJvb3RfcG9zdGlkIjo0ODIyMjUxODUxNywicG9zdGlkIjoiOTgwNjkwMzI1MzEiLCJibG9naWQiOiIxMzQzODg0MTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODA3NTM1NyIsInJvb3RfcG9zdGlkIjo1NTg2MzYyNzkyMCwicG9zdGlkIjoiOTgwNjgxOTY1MTYiLCJibG9naWQiOiIxMzQzODg0MTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTYzNTk2MDAiLCJyb290X3Bvc3RpZCI6Ijc0NzI2MzExNDk1IiwicG9zdGlkIjoiOTgwNjgxMzcwNDYiLCJibG9naWQiOiIxMzQzODg0MTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTE3NjUxNDU5Iiwicm9vdF9wb3N0aWQiOiI3NTU4MDE4OTIxNSIsInBvc3RpZCI6Ijk4MDY4MTI1NTI2IiwiYmxvZ2lkIjoiMTM0Mzg4NDEzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQwNTA0NDAwIiwicm9vdF9wb3N0aWQiOiI4ODczMjcwMzAxMCIsInBvc3RpZCI6Ijk4MDY4MTExNzIxIiwiYmxvZ2lkIjoiMTM0Mzg4NDEzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI4ODI0NTg4Iiwicm9vdF9wb3N0aWQiOjIzMjM5OTY1NTAxLCJwb3N0aWQiOiI5ODA2ODEwMTc5NiIsImJsb2dpZCI6IjEzNDM4ODQxMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTEwNTcxMyIsInJvb3RfcG9zdGlkIjoiNjkyMDA3Mzk3MDkiLCJwb3N0aWQiOiI5ODA2ODA4MTY0NiIsImJsb2dpZCI6IjEzNDM4ODQxMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3NjM4MzQwMyIsInJvb3RfcG9zdGlkIjoiMzM4MjkzMTcxMjgiLCJwb3N0aWQiOiI5NjQyMDYzODQ5NiIsImJsb2dpZCI6IjEzNDM4ODQxMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzI0ODMxMSIsInJvb3RfcG9zdGlkIjoiNDYxODI3MzQ0MzQiLCJwb3N0aWQiOiI5NjQyMDU5NzA1MSIsImJsb2dpZCI6IjEzNDM4ODQxMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2NzcwNjI0Iiwicm9vdF9wb3N0aWQiOiIxODU4Mzc1NTA4NSIsInBvc3RpZCI6Ijk2NDIwNTU2MDk2IiwiYmxvZ2lkIjoiMTM0Mzg4NDEzIiwic291cmNlIjozM31dfQ==&U=LLJBJOGIJG&K=246bbc0421e7082148aed581882897ea64afae5f16cfdb7c28ab254593a80cdb&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037885&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2F2dmFhLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI3OTg3MzYxNyIsInJvb3RfcG9zdGlkIjo0ODIyMjUxODUxNywicG9zdGlkIjoiOTgwNjkwMzI1MzEiLCJibG9naWQiOiIxMzQzODg0MTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODA3NTM1NyIsInJvb3RfcG9zdGlkIjo1NTg2MzYyNzkyMCwicG9zdGlkIjoiOTgwNjgxOTY1MTYiLCJibG9naWQiOiIxMzQzODg0MTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTYzNTk2MDAiLCJyb290X3Bvc3RpZCI6Ijc0NzI2MzExNDk1IiwicG9zdGlkIjoiOTgwNjgxMzcwNDYiLCJibG9naWQiOiIxMzQzODg0MTMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTE3NjUxNDU5Iiwicm9vdF9wb3N0aWQiOiI3NTU4MDE4OTIxNSIsInBvc3RpZCI6Ijk4MDY4MTI1NTI2IiwiYmxvZ2lkIjoiMTM0Mzg4NDEzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQwNTA0NDAwIiwicm9vdF9wb3N0aWQiOiI4ODczMjcwMzAxMCIsInBvc3RpZCI6Ijk4MDY4MTExNzIxIiwiYmxvZ2lkIjoiMTM0Mzg4NDEzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI4ODI0NTg4Iiwicm9vdF9wb3N0aWQiOjIzMjM5OTY1NTAxLCJwb3N0aWQiOiI5ODA2ODEwMTc5NiIsImJsb2dpZCI6IjEzNDM4ODQxMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTEwNTcxMyIsInJvb3RfcG9zdGlkIjoiNjkyMDA3Mzk3MDkiLCJwb3N0aWQiOiI5ODA2ODA4MTY0NiIsImJsb2dpZCI6IjEzNDM4ODQxMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3NjM4MzQwMyIsInJvb3RfcG9zdGlkIjoiMzM4MjkzMTcxMjgiLCJwb3N0aWQiOiI5NjQyMDYzODQ5NiIsImJsb2dpZCI6IjEzNDM4ODQxMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzI0ODMxMSIsInJvb3RfcG9zdGlkIjoiNDYxODI3MzQ0MzQiLCJwb3N0aWQiOiI5NjQyMDU5NzA1MSIsImJsb2dpZCI6IjEzNDM4ODQxMyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2NzcwNjI0Iiwicm9vdF9wb3N0aWQiOiIxODU4Mzc1NTA4NSIsInBvc3RpZCI6Ijk2NDIwNTU2MDk2IiwiYmxvZ2lkIjoiMTM0Mzg4NDEzIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=LLJBJOGIJG&K=282eb9f83d3b9ec0788653dc24498143b26a437ebd58720db08e82e291d8b7eb&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:134388413,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Favvaa.tumblr.com%2F&amp;lang=en_US&amp;name=avvaa&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_9e396201d5c7_64.png&amp;title=memories&amp;url=http%3A%2F%2Favvaa.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Favvaa.tumblr.com%2F&amp;lang=en_US&amp;name=avvaa&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_9e396201d5c7_64.png&amp;title=memories&amp;url=http%3A%2F%2Favvaa.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

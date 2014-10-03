@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        
+        <meta charset="utf-8">
+        <title>Social Casualty</title>
+        
+        <meta name="description" content="16 | &bull;I&#039;ll admit I&#039;m a bit of a victim in the worldwide system too, but I&#039;ve found my sweet escape when I&#039;m alone with you&bull; |">
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_850087b6e401_128.png">
+        <link rel="apple-touch-icon-precomposed" href="http://33.media.tumblr.com/avatar_850087b6e401_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://bands--are--life.tumblr.com/rss">
+        
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/qE8n2yg06/optica-icons.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/lu6nbykui/main.css">
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+            <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /* Colors */
+            body {
+                background: #F6F6F6;
+            }
+
+            h1 {
+                font-family: 'Streetscript', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+                font-weight: bold;
+            }
+
+            h1 a,
+            .description,
+            .search-header {
+                color: #000000;
+            }
+
+            .h-line {
+                background: #000000;
+            }
+
+            a {
+                color: #60CAE0;
+            }
+            
+            #pagination a,
+            .exposed-nav-wrapper li a {
+                color: #60CAE0;
+            }
+
+            #pagination a.next:after {
+                border-left-color: #60CAE0;
+            }
+
+            #pagination a.previous:after {
+                border-right-color: #60CAE0;
+            }
+
+            .loader .loader-bar {
+                background-color: #000000;
+            }
+
+            .link-wrapper h2 a {
+                background-color: #60CAE0;
+            }
+            
+            .header-image.cover {
+                background-image: url(http://static.tumblr.com/4b73307d24525093a168b07977b1cef5/ulkecoj/qyCn8be5u/tumblr_static_tumblr_static__focused_v3.jpg);
+            }
+
+            .user-avatar {
+                background-color: #F6F6F6;
+                border-color: #F6F6F6;
+            }
+
+            .avatar-style-square .user-avatar {
+                -wekbit-box-shadow: 0 0 0 4px #F6F6F6;
+                -moz-box-shadow: 0 0 0 4px #F6F6F6;
+                box-shadow: 0 0 0 4px #F6F6F6;
+            }
+            
+            .no-header-image .selector .bar-icon,
+            .contain-header-image .selector .bar-icon {
+                background: #60CAE0;
+            }
+
+            .no-header-image .search-only .selector .icon,
+            .contain-header-image .search-only .selector .icon {
+                color: #60CAE0;
+            }
+
+            /* Adjust menus for light accents on light backgrounds */
+            .light-on-light.no-header-image .selector .bar-icon,
+            .light-on-light.contain-header-image .selector .bar-icon {
+                background: #444;
+            }
+
+            .light-on-light.no-header-image .search-only .selector .icon,
+            .light-on-light.contain-header-image .search-only .selector .icon {
+                color: #444;
+            }
+
+            /* Adjust menus for dark accents on dark backgrounds */
+            .dark-on-dark.no-header-image .selector .bar-icon,
+            .dark-on-dark.contain-header-image .selector .bar-icon {
+                background: #fff;
+            }
+
+            .dark-on-dark.no-header-image .search-only .selector .icon,
+            .dark-on-dark.contain-header-image .search-only .selector .icon {
+                color: #fff;
+            }
+
+            @media screen and (max-device-width: 568px) {
+                .header-image.cover {
+                    background-image: url(http://static.tumblr.com/4b73307d24525093a168b07977b1cef5/ulkecoj/qyCn8be5u/tumblr_static_tumblr_static__640.jpg);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                .nav-menu-bg,
+                .nav-menu-wrapper .nav-menu.active:before,
+                .nav-menu .pop-menu ul {
+                    background: #F6F6F6;
+                }
+
+                .nav-menu.active .selector .bar-icon,
+                .below-header .selector .bar-icon {
+                    background: #60CAE0;
+                }
+
+                .nav-menu .pop-menu ul li a,
+                .below-header .search-only .selector .icon {
+                    color: #60CAE0;
+                }
+                
+                /* Adjust menus for light accents on light backgrounds */
+                .light-on-light.below-header .nav-menu .selector .bar-icon,
+                .light-on-light.below-header .selector .bar-icon {
+                    background: #444;
+                }
+
+                .light-on-light .nav-menu .pop-menu ul li a,
+                .light-on-light.below-header .search-only .selector .icon {
+                    color: #444;
+                }
+                
+                /* Adjust menus for dark accents on dark backgrounds */
+                .dark-on-dark .nav-menu .selector .bar-icon,
+                .dark-on-dark .below-header .selector .bar-icon {
+                    background: #fff;
+                }
+
+                .dark-on-dark .nav-menu .pop-menu ul li a,
+                .dark-on-dark.below-header .search-only .selector .icon {
+                    color: #fff;
+                }
+
+                .avatar-style-square .user-avatar {
+                    -wekbit-box-shadow: 0 0 0 3px #F6F6F6;
+                    -moz-box-shadow: 0 0 0 3px #F6F6F6;
+                    box-shadow: 0 0 0 3px #F6F6F6;
+                }
+
+            }
+
+            /* Custom CSS */
+            
+        </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=bands--are--life" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/streetscript/stylesheet.css?v=1">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Social Casualty" /><meta property="og:url" content="http://bands--are--life.tumblr.com/?og=1" /><meta property="og:description" content="16 | &bull;I&#039;ll admit I&#039;m a bit of a victim in the worldwide system too, but I&#039;ve found my sweet escape..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_850087b6e401_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=bands--are--life" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=bands--are--life" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="bands--are--life" /><meta name="twitter:description" content="&lt;p&gt;16 | &bull;I&#039;ll admit I&#039;m a bit of a victim in the worldwide system too, but I&#039;ve found my sweet escape when I&#039;m alone with you&bull; |&lt;/p&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=bands--are--life&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=bands--are--life&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=bands--are--life&amp;referrer=twitter-cards" />
+
+</head>
+    <body data-urlencoded-name="bands--are--life" class="regular index-page">
+        <section id="page">
+            <div class="nav-menu-wrapper ">
+                <nav class="nav-menu pop">
+                    <a class="selector">
+                        
+                            <div class="bar-icon-wrapper">
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                            </div>
+                        
+                        
+                    </a>
+                    <div class="pop-menu west">
+                        <ul>
+                            <li class="no-hover search">
+                                <form action="/search" method="get" id="search">
+                                    <input type="text" name="q" id="q" placeholder="Search" value="">
+                                    <button type="submit" class="icon-search_16"></button>
+                                </form>
+                            </li>
+                            
+                                <li>
+                                    <a href="/archive" class="archive">Archive <i class="icon-arrow_carrot_right"></i></a>
+                                </li>
+                                
+                                
+                                
+                            
+                        </ul>
+                    </div> 
+                </nav>
+                <div class="glass"></div>
+            </div>
+            
+            <div class="nav-menu-bg"></div>
+            
+            <div class="header-wrapper
+                
+                
+                
+                avatar-style-square">
+
+                <header id="header">
+                    
+                    <div class="header-image-wrapper ">
+                        <a href="/" class="header-image parallax cover " data-bg-image="http://static.tumblr.com/4b73307d24525093a168b07977b1cef5/ulkecoj/qyCn8be5u/tumblr_static_tumblr_static__focused_v3.jpg">
+                            
+                        </a>
+                        <div class="loader-bg"></div>
+                    </div>
+                    
+
+                    <div class="blog-title content">
+                        <figure class="avatar-wrapper animate">
+                            <a href="/" style="background-image: url(http://33.media.tumblr.com/avatar_850087b6e401_128.png)" class="user-avatar"><img src="http://33.media.tumblr.com/avatar_850087b6e401_128.png" alt="" class="print-only invisible"></a>
+                        </figure>
+
+                        <div class="title-group animate">
+                            
+                            <h1><a href="/">Social Casualty</a></h1>
+                            
+                            
+                            <span class="description">
+                                <p>16 | •I'll admit I'm a bit of a victim in the worldwide system too, but I've found my sweet escape when I'm alone with you• |</p>
+                            </span>
+                            
+                        </div>
+                    </div>
+
+                    
+                </header>
+            </div>
+            
+            <section id="posts" class="content clearfix  avatar-style-square  ">
+    
+                <div data-page-id="1">
+                    
+                            <article class="reblogged video not-page post-98749844259 " data-post-id="post_98749844259">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/98680283724/stopitcalum-cozza-vs-c-dizzle-posted-october"><i class="icon-reblog"></i>them5sosboyss</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                                                    
+                                        <figure class="with-caption">
+                                            <div class="video-wrapper">
+                                                <div id="tumblr_video_container_98749844259" class="tumblr_video_container" style="width:700px;height:420px;"></div><script class="inline_embed" type="text/javascript">
+    (function(params){
+        var container = document.getElementById(params.container);
+        if (!container) return;
+        var iframe = document.createElement('iframe');
+        iframe.width = parseInt(params.width, 10) || 500;
+        iframe.height = parseInt(params.height, 10) || Math.floor(iframe.width*0.75); // 4x3
+        iframe.src = 'about:blank';
+        for (var attr in params.attr) {
+            if (params.attr.hasOwnProperty(attr)) {
+               iframe.setAttribute(attr, params.attr[attr]);
+            }
+        }
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('scrolling', 'no');
+        iframe.setAttribute('webkitAllowFullScreen', '');
+        iframe.setAttribute('mozallowfullscreen', '');
+        iframe.setAttribute('allowFullScreen', '');
+        iframe.setAttribute('seamless', '');
+        iframe.setAttribute('style', 'display:block;background-color:transparent;overflow:hidden;');
+        container.appendChild(iframe);
+        iframe.onload = function() {
+            var newHeight = iframe.contentWindow.document.body.offsetHeight;
+            if (newHeight) iframe.height = newHeight;
+            if (typeof(params.onload) === 'function') params.onload();
+        };
+        var doc = iframe.contentWindow.document;
+        doc.open('text/html', 'replace');
+        doc.write([
+            '<!DOCTYPE html><html><head><title>Tumblr Video</title></head>',
+            '<body class="' + params.body_class + '">',
+            params.content,
+            '</body></html>'
+        ].join(''));
+        doc.close();
+    })({
+        attr  : {
+            'id'          : 'tumblr_video_iframe_98749844259',
+            'class'       : 'tumblr_video_iframe has_lightbox',
+            'data-origin' : 'bands--are--life.tumblr.com',
+            'data-width'  : '700',
+            'data-height' : '420'
+        },
+        container   : 'tumblr_video_container_98749844259',
+        content     : '\x3clink rel=\x22stylesheet\x22 media=\x22screen\x22 href=\x22http://assets.tumblr.com/assets/styles/video.css?_v=ff005cc828522dbbd50120e1184bdfcd\x22\x3e\x3cscript src=\x22http://assets.tumblr.com/assets/scripts/spin.js?_v=5da39d93f7f0ee499e20291a39d10bee\x22\x3e\x3c/script\x3e\x3cscript src=\x22http://assets.tumblr.com/assets/scripts/video.js?_v=bd3c6c870b620a87285735d17d2dcf9f\x22\x3e\x3c/script\x3e\x3cscript src=\x22http://assets.tumblr.com/assets/scripts/vendor/video-js/video.js?_v=b7aca555c284f13d3d30732837a4b476\x22\x3e\x3c/script\x3e\x3cmeta name=\x22tumblr-form-key\x22 content=\x22\x22 id=\x22tumblr_form_key\x22 /\x3e\x3cvideo preload=\x22none\x22 id=\x22tumblr_video_player_98749844259\x22 class=\x22video-js tvp_video\x22 width=\x22700\x22 height=\x22420\x22 poster=\x22\x22\x3e\x3csource src=\x22http://www.bands--are--life.tumblr.com/video_file/98749844259/tumblr_ncltcgjdK51sx9mgf\x22 type=\x22video/mp4\x22\x3e\x3c/video\x3e\x3cdiv class=\x22tumblr_lightbox_controls\x22\x3e\x3cspan class=\x22post_control close_button\x22\x3eClose\x3c/span\x3e\x3c/div\x3e\x3cscript type=\x22text/javascript\x22 \x3e    var __ = (function() {\x0a        var translation = {\x0a            \x22Cancel\x22            : \'Cancel\',\x0a            \x22Email\x22             : \'Email\',\x0a            \x22Send\x22              : \'Send\',\x0a            \x22Play\x22              : \'Play\',\x0a            \x22Pause\x22             : \'Pause\',\x0a            \x22Fullscreen\x22        : \'Fullscreen\',\x0a            \x22Share\x22             : \'Share\',\x0a            \x22Twitter\x22           : \'Twitter\',\x0a            \x22Facebook\x22          : \'Facebook\',\x0a            \x22Copy embed code\x22   : \'Copy embed code\',\x0a            \x22There was an error with this video.\x22 : \'There was an error with this video.\'        };\x0a        return function(string) {\x0a            return translation[string] || string;\x0a        };\x0a    })();\x0a\x0a    var tumblr_video = new TumblrVideo;\x0a\x0a    var load_video = function() {\x0a        tumblr_video.initialize({\x0a            id          : \'98749844259\',\x0a            posters     : [\x22http:\\/\\/media.tumblr.com\\/tumblr_ncltcgjdK51sx9mgf_frame1.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_ncltcgjdK51sx9mgf_frame2.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_ncltcgjdK51sx9mgf_frame3.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_ncltcgjdK51sx9mgf_frame4.jpg\x22,\x22http:\\/\\/media.tumblr.com\\/tumblr_ncltcgjdK51sx9mgf_frame5.jpg\x22],\x0a            retro_static: true,\x0a            duration    : \'229\',\x0a            post_title  : \'\',\x0a            post_url    : \'http://bands--are--life.tumblr.com/post/98749844259/stopitcalum-cozza-vs-c-dizzle-posted-october\',\x0a            video_url   : \'http://bands--are--life.tumblr.com/video/98749844259\',\x0a            dimensions  : {\x22width\x22:800,\x22height\x22:480},\x0a            embed_code  : \'\x3ciframe src=\x22http://www.tumblr.com/video/bands--are--life/98749844259/500\x22 id=\x22tumblr_video_iframe_98749844259\x22 class=\x22tumblr_video_iframe\x22 width=\x22500\x22 height=\x22300\x22 style=\x22display:block;background-color:transparent;overflow:hidden;\x22 allowTransparency=\x22true\x22 frameborder=\x220\x22 scrolling=\x22no\x22 webkitAllowFullScreen mozallowfullscreen allowFullScreen\x3e\x3c/iframe\x3e\',\x0a\x0a            \x0a            origin_url  : \'http://bands--are--life.tumblr.com/\',\x0a\x0a            \x0a            thumbnails  : {\x0a                url     : \'http://38.media.tumblr.com/previews/tumblr_ncltcgjdK51sx9mgf_filmstrip.jpg\',\x0a                width   : \'200\',\x0a                height  : \'119\',\x0a                total   : \'10\'            },\x0a            _autocycle  : true,  // Auto-cycles through posters, set to false for :hover only\x0a            _sharing    : false, // Enables sharing popover menu on hold 8/27/12\x0a            _lightbox   : false, // Disabled lightbox because it was horrible, also did not work in search 12/16/13\x0a            _dashboard  : false,\x0a            _dev        : false\x0a        });\x0a    };\x0a\x0a    load_video();\x0a\x3c/script\x3e\x0a',
+        width       : '700',
+        height      : '420',
+        body_class  : 'tumblr_video_iframe_body'
+    });
+    </script>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a href="http://stopitcalum.tumblr.com/post/98621157988/cozza-vs-c-dizzle-posted-october-28-2011" class="tumblr_blog">stopitcalum</a>:</p>
+
+<blockquote><p><strong>Cozza vs c-dizzle</strong><span> - </span><span> posted </span><span id="fbPhotoPageTimestamp">October 28, 2011</span></p></blockquote>
+
+<p>Laughing so hard rn😂👌</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/98680283724/stopitcalum-cozza-vs-c-dizzle-posted-october"><i class="icon-reblog"></i>them5sosboyss</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://stopitcalum.tumblr.com/post/98621157988/cozza-vs-c-dizzle-posted-october-28-2011">Source: stopitcalum</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://bands--are--life.tumblr.com/post/98749844259/stopitcalum-cozza-vs-c-dizzle-posted-october#notes">2,529 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://bands--are--life.tumblr.com/post/98749844259/stopitcalum-cozza-vs-c-dizzle-posted-october" title="3 hours ago">Sep 29th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98749844259">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98749844259">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F98749844259%2Fstopitcalum-cozza-vs-c-dizzle-posted-october&amp;t=Social%20Casualty" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Video%3A%20stopitcalum%3A%20Cozza%20vs%20c-dizzle%C2%A0-%C2%A0%C2%A0posted%C2%A0October%2028%2C%202011%20Laughing%20so%20hard%20rn%F0%9F%98%82%F0%9F%91%8C%20http%3A%2F%2Ftmblr.co%2FZXTkEo1RzymiZ" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20video%20from%20Social%20Casualty&amp;body=Video%3A%20stopitcalum%3A%20Cozza%20vs%20c-dizzle%C2%A0-%C2%A0%C2%A0posted%C2%A0October%2028%2C%202011%20Laughing%20so%20hard%20rn%F0%9F%98%82%F0%9F%91%8C%20http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F98749844259%2Fstopitcalum-cozza-vs-c-dizzle-posted-october" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://bands--are--life.tumblr.com/post/98749844259/stopitcalum-cozza-vs-c-dizzle-posted-october" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98749844259/f18lducb" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98749844259" id="like_button_98749844259"><iframe id="like_iframe_98749844259" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=bands--are--life&amp;post_id=98749844259&amp;color=black&amp;rk=f18lducb" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="reblogged audio not-page post-98625324124 " data-post-id="post_98625324124">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://lordzayn.tumblr.com/post/98620268962"><i class="icon-reblog"></i>lordzayn</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+                                        <div class="audio_container">
+                                            
+                                                <iframe class="tumblr_audio_player tumblr_audio_player_98625324124" src="http://bands--are--life.tumblr.com/post/98625324124/audio_player_iframe/bands--are--life/tumblr_nclr1zNRHG1s7nenq?audio_file=https%3A%2F%2Fwww.tumblr.com%2Faudio_file%2Fbands--are--life%2F98625324124%2Ftumblr_nclr1zNRHG1s7nenq&color=white" frameborder="0" allowtransparency="true" scrolling="no" width="500" height="169"></iframe>
+                                            
+                                        </div>
+                                        
+                                        <div class="caption">
+                                            <p>YES OMG FINALLY ITS AMAZING😍😍😍😍😍😍😭😭😭😭</p>
+                                        </div>
+                                        
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://lordzayn.tumblr.com/post/98620268962"><i class="icon-reblog"></i>lordzayn</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://bands--are--life.tumblr.com/post/98625324124/yes-omg-finally-its-amazing#notes">94,080 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://bands--are--life.tumblr.com/post/98625324124/yes-omg-finally-its-amazing" title="1 day ago">Sep 28th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98625324124">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98625324124">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F98625324124%2Fyes-omg-finally-its-amazing&amp;t=Social%20Casualty" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Audio%3A%20YES%20OMG%20FINALLY%20ITS%20AMAZING%F0%9F%98%8D%F0%9F%98%8D%F0%9F%98%8D%F0%9F%98%8D%F0%9F%98%8D%F0%9F%98%8D%F0%9F%98%AD%F0%9F%98%AD%F0%9F%98%AD%F0%9F%98%AD%20http%3A%2F%2Ftmblr.co%2FZXTkEo1RsXmHS" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=An%20audio%20post%20from%20Social%20Casualty&amp;body=Audio%3A%20YES%20OMG%20FINALLY%20ITS%20AMAZING%F0%9F%98%8D%F0%9F%98%8D%F0%9F%98%8D%F0%9F%98%8D%F0%9F%98%8D%F0%9F%98%8D%F0%9F%98%AD%F0%9F%98%AD%F0%9F%98%AD%F0%9F%98%AD%20http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F98625324124%2Fyes-omg-finally-its-amazing" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://bands--are--life.tumblr.com/post/98625324124/yes-omg-finally-its-amazing" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98625324124/oTNNm7Fr" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98625324124" id="like_button_98625324124"><iframe id="like_iframe_98625324124" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=bands--are--life&amp;post_id=98625324124&amp;color=black&amp;rk=oTNNm7Fr" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-98356793414 " data-post-id="post_98356793414">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://contagious--chemistry44.tumblr.com/post/98175165560"><i class="icon-reblog"></i>contagious--chemistry44</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://thegoodvybe.tumblr.com"><img src="http://33.media.tumblr.com/e841f91860127d41f09ff47e632d6533/tumblr_nc7m3stQrv1rpuw07o1_500.jpg" alt="" width="500" height="334"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://contagious--chemistry44.tumblr.com/post/98175165560"><i class="icon-reblog"></i>contagious--chemistry44</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://weheartit.com/?page=9&amp;before=138007220">Source: weheartit.com</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://bands--are--life.tumblr.com/post/98356793414#notes">1,487 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://bands--are--life.tumblr.com/post/98356793414" title="4 days ago">Sep 24th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98356793414">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98356793414">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F98356793414&amp;t=Social%20Casualty" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZXTkEo1RcXP16" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Social%20Casualty&amp;body=Photo%3A%20%20http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F98356793414" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://bands--are--life.tumblr.com/post/98356793414" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98356793414/5OsS8Wb7" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98356793414" id="like_button_98356793414"><iframe id="like_iframe_98356793414" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=bands--are--life&amp;post_id=98356793414&amp;color=black&amp;rk=5OsS8Wb7" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text reblogged not-page post-98356747674 " data-post-id="post_98356747674">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/98305876599/calsualty-aw-omg-michaels-so-cu-wait-what"><i class="icon-reblog"></i>them5sosboyss</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p><a class="tumblr_blog" href="http://calsualty.tumblr.com/post/98300875378/aw-omg-michaels-so-cu-wait-what-michael">calsualty</a>:</p>
+<blockquote>
+<p>aw omg michael’s so cu-</p>
+<p><img alt="image" src="http://media.tumblr.com/a94f67f540cde82cc9290aa26f3c83d0/tumblr_inline_ncelgrpJhY1rvfksc.jpg"/></p>
+<p>wait whAt</p>
+<p><img alt="image" src="http://media.tumblr.com/8c3c368e975d7739e445c958b4be8727/tumblr_inline_ncelh7mbqR1rvfksc.jpg"/></p>
+<p>miChael clifford aRE thSOe</p>
+<p><img alt="image" src="http://media.tumblr.com/2dcde0e58885822821010e8a027af22b/tumblr_inline_ncelhvRcyd1rvfksc.jpg"/></p>
+<p><em><strong>a</strong></em>R<strong>M</strong> M<em><strong>US</strong>C<strong>L</strong>ES</em>?<strong>!?<em>?!/</em>?!</strong>?/?<strong>!</strong></p>
+</blockquote>
+
+<p>OH MY LORD ITS FINALLY HAPPENED</p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/98305876599/calsualty-aw-omg-michaels-so-cu-wait-what"><i class="icon-reblog"></i>them5sosboyss</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://brillmuke.tumblr.com/post/98300875378/aw-omg-michaels-so-cu-wait-what-michael">Source: brillmuke</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://bands--are--life.tumblr.com/post/98356747674/calsualty-aw-omg-michaels-so-cu-wait-what#notes">2,557 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://bands--are--life.tumblr.com/post/98356747674/calsualty-aw-omg-michaels-so-cu-wait-what" title="4 days ago">Sep 24th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98356747674">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98356747674">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F98356747674%2Fcalsualty-aw-omg-michaels-so-cu-wait-what&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=calsualty%3A%20aw%20omg%20michael%E2%80%99s%20so%20cu-%20wait%20whAt%20miChael%20clifford%20aRE%20thSOe%20aRM%20MUSCLES%3F%21%3F%3F%21%2F%3F%21%3F%2F%3F%21%20OH%20MY%20LORD...%20http%3A%2F%2Ftmblr.co%2FZXTkEo1RcXDsQ" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20Social%20Casualty&amp;body=calsualty%3A%20aw%20omg%20michael%E2%80%99s%20so%20cu-%20wait%20whAt%20miChael%20clifford%20aRE%20thSOe%20aRM%20MUSCLES%3F%21%3F%3F%21%2F%3F%21%3F%2F%3F%21%20OH%20MY%20LORD%20ITS%20FINALLY%20HAPPENED%20http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F98356747674%2Fcalsualty-aw-omg-michaels-so-cu-wait-what" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://bands--are--life.tumblr.com/post/98356747674/calsualty-aw-omg-michaels-so-cu-wait-what" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98356747674/M5mEq0AM" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98356747674" id="like_button_98356747674"><iframe id="like_iframe_98356747674" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=bands--are--life&amp;post_id=98356747674&amp;color=black&amp;rk=M5mEq0AM" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text reblogged not-page post-97644697274 " data-post-id="post_97644697274">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/97577733269/lucas-is-my-prince-ashton-can-do-so-many"><i class="icon-reblog"></i>them5sosboyss</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p><a class="tumblr_blog" href="http://lucas-is-my-prince.tumblr.com/post/97457800358/ashton-can-do-so-many-things-need-a-guitarist">lucas-is-my-prince</a>:</p>
+<blockquote>
+<p>ASHTON CAN DO SO MANY THINGS.</p>
+<p>NEED A GUITARIST&#160;? <strong>ASHTON</strong></p>
+<p>NEED A BASSIST&#160;? <strong>ASHTON</strong></p>
+<p>NEED A LEAD SINGER&#160;? <strong>ASHTON</strong></p>
+<p>NEED SOMEONE TO MAKE YOU SMILE&#160;? <strong>ASHTON</strong></p>
+<p>NEED SOMEONE TO RUIN YOUR LIFE FOREVER&#160;? <strong>ASHTON</strong></p>
+<p>NEED AN ORGASM&#160;? <strong>ASHTON</strong></p>
+<p>YES WHERE DO I APPLY</p>
+</blockquote>
+
+<p>WHERE DO I SIGN</p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/97577733269/lucas-is-my-prince-ashton-can-do-so-many"><i class="icon-reblog"></i>them5sosboyss</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://lucas-is-my-prince.tumblr.com/post/97457800358/ashton-can-do-so-many-things-need-a-guitarist">Source: lucas-is-my-prince</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://bands--are--life.tumblr.com/post/97644697274/lucas-is-my-prince-ashton-can-do-so-many#notes">6,120 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://bands--are--life.tumblr.com/post/97644697274/lucas-is-my-prince-ashton-can-do-so-many" title="1 week ago">Sep 16th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97644697274">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97644697274">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F97644697274%2Flucas-is-my-prince-ashton-can-do-so-many&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=lucas-is-my-prince%3A%20ASHTON%20CAN%20DO%20SO%20MANY%20THINGS.%20NEED%20A%20GUITARIST%C2%A0%3F%20ASHTON%20NEED%20A%20BASSIST%C2%A0%3F%20ASHTON%20NEED%20A...%20http%3A%2F%2Ftmblr.co%2FZXTkEo1Qy4zQw" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20Social%20Casualty&amp;body=lucas-is-my-prince%3A%20ASHTON%20CAN%20DO%20SO%20MANY%20THINGS.%20NEED%20A%20GUITARIST%C2%A0%3F%20ASHTON%20NEED%20A%20BASSIST%C2%A0%3F%20ASHTON%20NEED%20A%20LEAD%20SINGER%C2%A0%3F%20ASHTON%20NEED%20SOMEONE%20TO%20MAKE%20YOU%20SMILE%C2%A0%3F...%20http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F97644697274%2Flucas-is-my-prince-ashton-can-do-so-many" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://bands--are--life.tumblr.com/post/97644697274/lucas-is-my-prince-ashton-can-do-so-many" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97644697274/Bp2GG4xA" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97644697274" id="like_button_97644697274"><iframe id="like_iframe_97644697274" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=bands--are--life&amp;post_id=97644697274&amp;color=black&amp;rk=Bp2GG4xA" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-97422444944 " data-post-id="post_97422444944">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/97392347099/welcome-to-muke-city-bitch-classy-clifford"><i class="icon-reblog"></i>them5sosboyss</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class=" with-caption" data-photo-width="213">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://33.media.tumblr.com/d4bb254b2e1c99f27093b472b27bfc7c/tumblr_nawbljPVJO1tuwnexo1_250.gif" alt="welcome-to-muke-city-bitch:
+
+classy-clifford:
+
+reblog because everyone needs a waving sweater paw mikey on their blog
+
+WOW HE MAKES ME REALLY ANGRY
+
+OH WOW" width="213" height="298">
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a href="http://welcome-to-muke-city-bitch.tumblr.com/post/96923910627/classy-clifford-reblog-because-everyone-needs-a" class="tumblr_blog">welcome-to-muke-city-bitch</a>:</p>
+
+<blockquote><p><a class="tumblr_blog" href="http://classy-clifford.tumblr.com/post/95796554144/reblog-because-everyone-needs-a-waving-sweater-paw">classy-clifford</a>:</p>
+<blockquote>
+<p>reblog because everyone needs a waving sweater paw mikey on their blog</p>
+</blockquote>
+<p><strong>WOW HE MAKES ME REALLY ANGRY</strong></p></blockquote>
+
+<p>OH WOW</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/97392347099/welcome-to-muke-city-bitch-classy-clifford"><i class="icon-reblog"></i>them5sosboyss</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://cliffordsfalsettos.tumblr.com/post/95796554144/reblog-because-everyone-needs-a-waving-sweater-paw">Source: cliffordsfalsettos</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://bands--are--life.tumblr.com/post/97422444944/welcome-to-muke-city-bitch-classy-clifford#notes">9,265 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://bands--are--life.tumblr.com/post/97422444944/welcome-to-muke-city-bitch-classy-clifford" title="2 weeks ago">Sep 13th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97422444944">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97422444944">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F97422444944%2Fwelcome-to-muke-city-bitch-classy-clifford&amp;t=Social%20Casualty" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20welcome-to-muke-city-bitch%3A%20classy-clifford%3A%20reblog%20because%20everyone%20needs%20a%20waving%20sweater%20paw...%20http%3A%2F%2Ftmblr.co%2FZXTkEo1Qkr8cG" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Social%20Casualty&amp;body=Photo%3A%20welcome-to-muke-city-bitch%3A%20classy-clifford%3A%20reblog%20because%20everyone%20needs%20a%20waving%20sweater%20paw%20mikey%20on%20their%20blog%20WOW%20HE%20MAKES%20ME%20REALLY%20ANGRY%20OH%20WOW%20http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F97422444944%2Fwelcome-to-muke-city-bitch-classy-clifford" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://bands--are--life.tumblr.com/post/97422444944/welcome-to-muke-city-bitch-classy-clifford" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97422444944/hEHr5hsi" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97422444944" id="like_button_97422444944"><iframe id="like_iframe_97422444944" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=bands--are--life&amp;post_id=97422444944&amp;color=black&amp;rk=hEHr5hsi" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text reblogged not-page post-96924573249 " data-post-id="post_96924573249">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/96915236224/5sos-writing-fannyann-yall-yall"><i class="icon-reblog"></i>them5sosboyss</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p><a href="http://5sos-writing.tumblr.com/post/96914210895/fannyann-yall-yall" class="tumblr_blog">5sos-writing</a>:</p>
+
+<blockquote><p><a href="http://fannyann.tumblr.com/post/96902285152" class="tumblr_blog">fannyann</a>:</p>
+
+<blockquote><p>y’all</p>
+<p><img src="http://media.tumblr.com/d3e7d2853170c788f2c4aa81c5ab2b4b/tumblr_inline_nbjpmrhLo81qzumdr.jpg" alt="image"/></p>
+<p><img src="http://media.tumblr.com/62619e2a685f9fbcd3c0a57f921d5ad9/tumblr_inline_nbjpn3AMvg1qzumdr.jpg" alt="image"/></p>
+
+<p><img src="http://media.tumblr.com/98404743d0ddeefb61ef3d69f14028e3/tumblr_inline_nbjpnh2hZW1qzumdr.png" alt="image"/></p>
+
+<p>Y’ALL</p>
+<p><img src="http://media.tumblr.com/dbc9e50fef5d8d4f26b4c2aebd8d7952/tumblr_inline_nbjpnz3eCr1qzumdr.gif" alt="image"/></p>
+
+<p><img src="http://media.tumblr.com/9266b1d20e687f192feeca7b281983b1/tumblr_inline_nbjpopKHwY1qzumdr.jpg" alt="image"/></p>
+<p><img src="http://media.tumblr.com/15896789c2eb1269e9274b83b16ec2ca/tumblr_inline_nbjppkTvdk1qzumdr.png" alt="image"/></p>
+
+<p><img src="http://media.tumblr.com/da65a1703c51b5ebaa882feab5333eea/tumblr_inline_nbjpq0VI0n1qzumdr.gif" alt="image"/></p>
+
+<p><img src="http://media.tumblr.com/42fb98eec1c9f53a530b6c415f45f60a/tumblr_inline_nbjpqbwKYl1qzumdr.gif" alt="image"/></p>
+<p>//Y’ALL//</p>
+
+<p><img src="http://media.tumblr.com/e709b43316c4573e037c4bfd69cddc8c/tumblr_inline_nbjprdqEv41qzumdr.gif" alt="image"/></p>
+<p><img src="http://media.tumblr.com/572ce74ea01e8513b94300713fdde2f4/tumblr_inline_nbjps0RwjF1qzumdr.gif" alt="image"/></p>
+
+<p><img src="http://media.tumblr.com/7c9cd36db34b3099602bd77bd5b1a671/tumblr_inline_nbjpt5zEtw1qzumdr.gif" alt="image"/></p>
+
+<p>Y’AAAAALLLLL :(</p>
+
+</blockquote>
+
+<p>NONNONONON NONONO NO OnO nO NO NO</p></blockquote>
+
+<p>MY HEART</p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/96915236224/5sos-writing-fannyann-yall-yall"><i class="icon-reblog"></i>them5sosboyss</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://fannyann.tumblr.com/post/96902285152">Source: fannyann</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://bands--are--life.tumblr.com/post/96924573249/5sos-writing-fannyann-yall-yall#notes">16,328 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://bands--are--life.tumblr.com/post/96924573249/5sos-writing-fannyann-yall-yall" title="3 weeks ago">Sep 7th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_96924573249">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="96924573249">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F96924573249%2F5sos-writing-fannyann-yall-yall&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=5sos-writing%3A%20fannyann%3A%20y%E2%80%99all%20Y%E2%80%99ALL%20%2F%2FY%E2%80%99ALL%2F%2F%20Y%E2%80%99AAAAALLLLL%20%3A%28%20NONNONONON%20NONONO%20NO%20OnO%20nO%20NO%20NO%20MY%20HEART%20http%3A%2F%2Ftmblr.co%2FZXTkEo1QH9vv1" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20Social%20Casualty&amp;body=5sos-writing%3A%20fannyann%3A%20y%E2%80%99all%20Y%E2%80%99ALL%20%2F%2FY%E2%80%99ALL%2F%2F%20Y%E2%80%99AAAAALLLLL%20%3A%28%20NONNONONON%20NONONO%20NO%20OnO%20nO%20NO%20NO%20MY%20HEART%20http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F96924573249%2F5sos-writing-fannyann-yall-yall" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://bands--are--life.tumblr.com/post/96924573249/5sos-writing-fannyann-yall-yall" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/96924573249/DwYIIqDp" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="96924573249" id="like_button_96924573249"><iframe id="like_iframe_96924573249" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=bands--are--life&amp;post_id=96924573249&amp;color=black&amp;rk=DwYIIqDp" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text reblogged not-page post-96732428629 " data-post-id="post_96732428629">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/96673118229/divacalum-give-me-the-photo"><i class="icon-reblog"></i>them5sosboyss</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p><a href="http://hoodcal.co.vu/post/96670803641/give-me-the-photo" class="tumblr_blog">divacalum</a>:</p>
+
+<blockquote><p>GIVE</p>
+<p><img src="http://media.tumblr.com/18a21d3fb9f37c585504580dc7791564/tumblr_inline_nbepwrOFln1samhaw.jpg" alt="image"/></p>
+
+<p>ME</p>
+<p><img src="http://media.tumblr.com/5b5b6cc48d78d50747f498f64a937313/tumblr_inline_nbepxpk8sT1samhaw.png" alt="image"/></p>
+<p>THE</p>
+<p><img src="http://media.tumblr.com/816dfed5fdcb252ca88f9410921a0a42/tumblr_inline_nbepyqf5k51samhaw.png" alt="image"/></p>
+
+<p>PHOTO</p>
+<p><img src="http://media.tumblr.com/db054239121d6225fff0bdee3d387f98/tumblr_inline_nbepz9OTCE1samhaw.png" alt="image"/></p>
+
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>I NEED THIS</p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/96673118229/divacalum-give-me-the-photo"><i class="icon-reblog"></i>them5sosboyss</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://hoodcal.co.vu/post/96670803641/give-me-the-photo">Source: divacalum</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://bands--are--life.tumblr.com/post/96732428629/divacalum-give-me-the-photo#notes">6,864 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://bands--are--life.tumblr.com/post/96732428629/divacalum-give-me-the-photo" title="3 weeks ago">Sep 5th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_96732428629">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="96732428629">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F96732428629%2Fdivacalum-give-me-the-photo&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=divacalum%3A%20GIVE%20ME%20THE%20PHOTO%20I%20NEED%20THIS%20http%3A%2F%2Ftmblr.co%2FZXTkEo1Q5ixbL" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20Social%20Casualty&amp;body=divacalum%3A%20GIVE%20ME%20THE%20PHOTO%20I%20NEED%20THIS%20http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F96732428629%2Fdivacalum-give-me-the-photo" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://bands--are--life.tumblr.com/post/96732428629/divacalum-give-me-the-photo" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/96732428629/sTt5rKe2" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="96732428629" id="like_button_96732428629"><iframe id="like_iframe_96732428629" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=bands--are--life&amp;post_id=96732428629&amp;color=black&amp;rk=sTt5rKe2" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-96214917524 " data-post-id="post_96214917524">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/96093124499/5secondsofflannel-regularluke"><i class="icon-reblog"></i>them5sosboyss</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset with-caption">
+                                            <div id="photoset_96214917524" class="html_photoset">    <iframe id="photoset_iframe_96214917524" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://bands--are--life.tumblr.com/post/96214917524/photoset_iframe/bands--are--life/tumblr_naujr0JtWP1rrws2k/0/false"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://5secondsofflannel.tumblr.com/post/95749214992/regularluke-lucas-is-my-prince-from-youtube">5secondsofflannel</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://regularluke.tumblr.com/post/95726841274/lucas-is-my-prince-from-youtube-covers-to-the">regularluke</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://lucas-is-my-prince.tumblr.com/post/95709927188/from-youtube-covers-to-the-vmas-stage-im">lucas-is-my-prince</a>:</p>
+<blockquote>
+<p><strong>"FROM YOUTUBE COVERS TO THE VMA’S STAGE"</strong></p>
+<p><br/> *I’m so proud of you Luke*</p>
+</blockquote>
+<p>first of all how dare you</p>
+</blockquote>
+<p>second of all why</p>
+</blockquote>
+
+<p>HOW DARE PEOPLE DO THIS😰</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/96093124499/5secondsofflannel-regularluke"><i class="icon-reblog"></i>them5sosboyss</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://lucas-is-my-prince.tumblr.com/post/95709927188/from-youtube-covers-to-the-vmas-stage-im">Source: lucas-is-my-prince</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://bands--are--life.tumblr.com/post/96214917524/5secondsofflannel-regularluke#notes">9,986 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://bands--are--life.tumblr.com/post/96214917524/5secondsofflannel-regularluke" title="1 month ago">Aug 30th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_96214917524">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="96214917524">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F96214917524%2F5secondsofflannel-regularluke&amp;t=Social%20Casualty" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%205secondsofflannel%3A%20regularluke%3A%20lucas-is-my-prince%3A%20%22FROM%20YOUTUBE%20COVERS%20TO%20THE%20VMA%E2%80%99S%20STAGE%22%20%2AI%E2%80%99m...%20http%3A%2F%2Ftmblr.co%2FZXTkEo1Pcso6K" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Social%20Casualty&amp;body=Photoset%3A%205secondsofflannel%3A%20regularluke%3A%20lucas-is-my-prince%3A%20%22FROM%20YOUTUBE%20COVERS%20TO%20THE%20VMA%E2%80%99S%20STAGE%22%20%2AI%E2%80%99m%20so%20proud%20of%20you%20Luke%2A%20first%20of%20all%20how%20dare%20you%20second%20of%20all...%20http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F96214917524%2F5secondsofflannel-regularluke" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://bands--are--life.tumblr.com/post/96214917524/5secondsofflannel-regularluke" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/96214917524/mJ7vCMld" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="96214917524" id="like_button_96214917524"><iframe id="like_iframe_96214917524" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=bands--are--life&amp;post_id=96214917524&amp;color=black&amp;rk=mJ7vCMld" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-95927971729 " data-post-id="post_95927971729">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/95855490284/conspiracy-theory-lucas-is-my-prince-i"><i class="icon-reblog"></i>them5sosboyss</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset with-caption">
+                                            <div id="photoset_95927971729" class="html_photoset">    <iframe id="photoset_iframe_95927971729" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://bands--are--life.tumblr.com/post/95927971729/photoset_iframe/bands--are--life/tumblr_nauqzfCCR01rrws2k/0/false"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a href="http://conspiracy-theory.tumblr.com/post/95829347199/lucas-is-my-prince-i-wonder-which-ones-luke" class="tumblr_blog">conspiracy-theory</a>:</p>
+
+<blockquote><p><a class="tumblr_blog" href="http://lucas-is-my-prince.tumblr.com/post/95718179083/i-wonder-which-ones-luke">lucas-is-my-prince</a>:</p>
+<blockquote>
+<p><strong>I WONDER WHICH ONE’S LUKE </strong></p>
+</blockquote>
+
+<a class="tumblelog" href="http://tmblr.co/mLTVjP0t7ksGGI5Wjf2GKSQ">ripped-skinny-jeans</a></blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://them5sosboyss.tumblr.com/post/95855490284/conspiracy-theory-lucas-is-my-prince-i"><i class="icon-reblog"></i>them5sosboyss</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://lucas-is-my-prince.tumblr.com/post/95718179083/i-wonder-which-ones-luke">Source: lucas-is-my-prince</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://bands--are--life.tumblr.com/post/95927971729/conspiracy-theory-lucas-is-my-prince-i#notes">12,377 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://bands--are--life.tumblr.com/post/95927971729/conspiracy-theory-lucas-is-my-prince-i" title="1 month ago">Aug 27th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_95927971729">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="95927971729">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F95927971729%2Fconspiracy-theory-lucas-is-my-prince-i&amp;t=Social%20Casualty" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20conspiracy-theory%3A%20lucas-is-my-prince%3A%20I%20WONDER%20WHICH%20ONE%E2%80%99S%20LUKE%20ripped-skinny-jeans%20http%3A%2F%2Ftmblr.co%2FZXTkEo1PLmA_H" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Social%20Casualty&amp;body=Photoset%3A%20conspiracy-theory%3A%20lucas-is-my-prince%3A%20I%20WONDER%20WHICH%20ONE%E2%80%99S%20LUKE%20ripped-skinny-jeans%20http%3A%2F%2Fbands--are--life.tumblr.com%2Fpost%2F95927971729%2Fconspiracy-theory-lucas-is-my-prince-i" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://bands--are--life.tumblr.com/post/95927971729/conspiracy-theory-lucas-is-my-prince-i" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/95927971729/L9I6Efqb" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="95927971729" id="like_button_95927971729"><iframe id="like_iframe_95927971729" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=bands--are--life&amp;post_id=95927971729&amp;color=black&amp;rk=L9I6Efqb" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                </div>
+            </section>
+            <footer id="footer" class="content clearfix">
+                
+                    
+                    <div id="pagination">
+                        
+                        
+                        <a href="/page/2" class="next" data-current-page="1" data-total-pages="13">Next<span class="bg"></span></a>
+                        
+                        <div class="loader"><div class="loader-bar"></div><div class="loader-bar"></div><div class="loader-bar"></div></div>
+                    </div>
+                    
+                
+            </footer>
+        </section>
+        <script>
+            var Optica = {};
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.LAYOUT = "regular";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.TITLE_COLOR = "#000000";
+            Optica.ACCENT_COLOR = "#60CAE0";
+            Optica.BACKGROUND_COLOR = "#F6F6F6";
+            Optica.ENDLESS_NOTES_SCROLLING = true;
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vr9xgox/sBgmmjhyw/jquery-1.9.1.min.js"%3E%3C/script%3E'));</script>
+        <script src="http://static.tumblr.com/vr9xgox/Azhmnml1q/jquery.masonry.min.js"></script>
+        <script src="http://static.tumblr.com/wogenvz/kcyn7f6re/main-min.js"></script>
+
+        
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://www.bands--are--life.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037964&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3LmJhbmRzLS1hcmUtLWxpZmUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=MGBEGCGAAD&K=de08df9241cf7a978cfdac0eb829107838e5548c52f84dd4d81c7eb88ff3b708&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037964&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvd3d3LmJhbmRzLS1hcmUtLWxpZmUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=MGBEGCGAAD&K=b4e156ed0d2f4b91318a49bea52974a36996f0af1c45d8f631029106eb7a8424&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037964&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5iYW5kcy0tYXJlLS1saWZlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxMTc4MzM2MzIiLCJyb290X3Bvc3RpZCI6OTg2MjExNTc5ODgsInBvc3RpZCI6Ijk4NzQ5ODQ0MjU5IiwiYmxvZ2lkIjoiMTczODU3MjQzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk2MDM0MjEzIiwicm9vdF9wb3N0aWQiOjk4NjE5MTcyNzYxLCJwb3N0aWQiOiI5ODYyNTMyNDEyNCIsImJsb2dpZCI6IjE3Mzg1NzI0MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NDI4MTk3NSIsInJvb3RfcG9zdGlkIjo5ODAwMDU0NzU3MSwicG9zdGlkIjoiOTgzNTY3OTM0MTQiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjk5NzI4MzciLCJyb290X3Bvc3RpZCI6Ijk4MzAwODc1Mzc4IiwicG9zdGlkIjoiOTgzNTY3NDc2NzQiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDc3Mjk0MzMiLCJyb290X3Bvc3RpZCI6Ijk3NDU3ODAwMzU4IiwicG9zdGlkIjoiOTc2NDQ2OTcyNzQiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTczNjk1MDQwIiwicm9vdF9wb3N0aWQiOiI5NTc5NjU1NDE0NCIsInBvc3RpZCI6Ijk3NDIyNDQ0OTQ0IiwiYmxvZ2lkIjoiMTczODU3MjQzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY1NjAyNSIsInJvb3RfcG9zdGlkIjoiOTY5MDIyODUxNTIiLCJwb3N0aWQiOiI5NjkyNDU3MzI0OSIsImJsb2dpZCI6IjE3Mzg1NzI0MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzM4ODIzNjIiLCJyb290X3Bvc3RpZCI6Ijk2NjcwODAzNjQxIiwicG9zdGlkIjoiOTY3MzI0Mjg2MjkiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDc3Mjk0MzMiLCJyb290X3Bvc3RpZCI6Ijk1NzA5OTI3MTg4IiwicG9zdGlkIjoiOTYyMTQ5MTc1MjQiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDc3Mjk0MzMiLCJyb290X3Bvc3RpZCI6Ijk1NzE4MTc5MDgzIiwicG9zdGlkIjoiOTU5Mjc5NzE3MjkiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfV19&U=DDGKGMEFKB&K=216f133af8515778c028af6c395c19c96a0c7990e3fc7796761509266d1d6457&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037964&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3d3dy5iYW5kcy0tYXJlLS1saWZlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxMTc4MzM2MzIiLCJyb290X3Bvc3RpZCI6OTg2MjExNTc5ODgsInBvc3RpZCI6Ijk4NzQ5ODQ0MjU5IiwiYmxvZ2lkIjoiMTczODU3MjQzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk2MDM0MjEzIiwicm9vdF9wb3N0aWQiOjk4NjE5MTcyNzYxLCJwb3N0aWQiOiI5ODYyNTMyNDEyNCIsImJsb2dpZCI6IjE3Mzg1NzI0MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NDI4MTk3NSIsInJvb3RfcG9zdGlkIjo5ODAwMDU0NzU3MSwicG9zdGlkIjoiOTgzNTY3OTM0MTQiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjk5NzI4MzciLCJyb290X3Bvc3RpZCI6Ijk4MzAwODc1Mzc4IiwicG9zdGlkIjoiOTgzNTY3NDc2NzQiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDc3Mjk0MzMiLCJyb290X3Bvc3RpZCI6Ijk3NDU3ODAwMzU4IiwicG9zdGlkIjoiOTc2NDQ2OTcyNzQiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTczNjk1MDQwIiwicm9vdF9wb3N0aWQiOiI5NTc5NjU1NDE0NCIsInBvc3RpZCI6Ijk3NDIyNDQ0OTQ0IiwiYmxvZ2lkIjoiMTczODU3MjQzIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjY1NjAyNSIsInJvb3RfcG9zdGlkIjoiOTY5MDIyODUxNTIiLCJwb3N0aWQiOiI5NjkyNDU3MzI0OSIsImJsb2dpZCI6IjE3Mzg1NzI0MyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzM4ODIzNjIiLCJyb290X3Bvc3RpZCI6Ijk2NjcwODAzNjQxIiwicG9zdGlkIjoiOTY3MzI0Mjg2MjkiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDc3Mjk0MzMiLCJyb290X3Bvc3RpZCI6Ijk1NzA5OTI3MTg4IiwicG9zdGlkIjoiOTYyMTQ5MTc1MjQiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDc3Mjk0MzMiLCJyb290X3Bvc3RpZCI6Ijk1NzE4MTc5MDgzIiwicG9zdGlkIjoiOTU5Mjc5NzE3MjkiLCJibG9naWQiOiIxNzM4NTcyNDMiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=DDGKGMEFKB&K=0fc18fa8e64a4c1dd56a55b5395bfe391941d73e02d179f15150bdd26bdcb4be&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:173857243,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fwww.bands--are--life.tumblr.com%2F&amp;lang=en_US&amp;name=bands--are--life&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_850087b6e401_64.png&amp;title=Social+Casualty&amp;url=http%3A%2F%2Fbands--are--life.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fwww.bands--are--life.tumblr.com%2F&amp;lang=en_US&amp;name=bands--are--life&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_850087b6e401_64.png&amp;title=Social+Casualty&amp;url=http%3A%2F%2Fbands--are--life.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

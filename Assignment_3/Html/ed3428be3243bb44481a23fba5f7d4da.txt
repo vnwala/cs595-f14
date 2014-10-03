@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+ 
+<title>Live Gorgeous</title>
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_727025165377_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://gorgeousstacy.tumblr.com/rss">
+
+<meta name="description" content="Be FABULOUS" />
+
+ 
+<link href='http://fonts.googleapis.com/css?family=Quicksand:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster+Two|Handlee|Satisfy' rel='stylesheet' type='text/css'></script>
+ 
+
+ 
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+ 
+<script type="text/javascript" src="http://static.tumblr.com/dbek3sy/iBElrgjim/jquerymasonry.js"></script>
+ 
+<script type="text/javascript" src="http://static.tumblr.com/dbek3sy/Qyblrgjfn/jqueryinfintescroll.js"></script>
+<script type="text/javascript">
+$(window).load(function () {
+var $content = $('#content');
+$content.masonry({itemSelector: '.entry'}),
+$content.infinitescroll({
+navSelector : 'div#pagination',
+nextSelector : 'div#pagination a#nextPage',
+itemSelector : '.entry',
+loading: {
+finishedMsg: '',
+img: 'http://static.tumblr.com/dbek3sy/pX1lrx8xv/ajax-loader.gif'
+},
+bufferPx : 600,
+debug : false,
+},
+// call masonry as a callback.
+function( newElements ) {
+var $newElems = $( newElements );
+$newElems.hide();
+// ensure that images load before adding to masonry layout
+$newElems.imagesLoaded(function(){
+$content.masonry( 'appended', $newElems, true, function(){$newElems.fadeIn(300);} );});});});</script>
+
+ 
+<meta name="color:background" content="#ffffff" />
+<meta name="color:text" content="#000000" />
+<meta name="color:title" content="#ffffff" />
+<meta name="color:link" content="#828282" />
+<meta name="color:link hover" content="#ebebeb" />
+<meta name="color:scrollbar" content="#828282" />
+<meta name="color:header" content="#ebebeb">
+<meta name="color:header border" content="#cacaca">
+<meta name="color:header border" content="#f0f0f0">
+<meta name="color:post background" content="#f0f0f0">
+ 
+<meta name="if:show banner" content="0">
+<meta name="if:full width header" content="1">
+<meta name="if:header border" content="0">
+<meta name="if:header shadow" content="1">
+<meta name="if:low opacity header" content="1">
+<meta name="if:fixed header" content="1">
+<meta name="if:three columns" content="0">
+<meta name="if:four columns" content="0">
+<meta name="if:post background" content="0">
+ 
+<meta name="if:title font one" content="0">
+<meta name="if:title font two" content="0">
+<meta name="if:title font three" content="0">
+ 
+<meta name="text:reblog" content="reblog">
+<meta name="text:home" content="refresh">
+<meta name="text:message" content="message">
+<meta name="text:archive" content="archive">
+<meta name="text:post top margin" content="120px">
+ 
+<meta name="image:background" content="" />
+<meta name="image:header" content="">
+<meta name="image:banner" content="">
+ 
+<style type="text/css">
+ 
+ 
+::-webkit-scrollbar {width: 7px; height: 0px; background:#ffffff;}
+::-webkit-scrollbar-thumb {background: #828282; border-radius:10px;}
+ 
+iframe#tumblr_controls {position:fixed; z-index:9999999999; top: 3px; margin: 0 0 0 0; right:4px; -webkit-filter: invert(100%);}
+ 
+body {
+background-color: #ffffff;
+background-image:url(http://assets.tumblr.com/images/x.gif);
+background-attachment: fixed;
+background-repeat: repeat;
+font-size:12px;
+font-family:lato;
+line-height:14px;
+text-transform:none;
+color: #000000;
+}
+ 
+#header{
+    
+position:fixed;
+
+
+top:0px;
+padding-top:7px;
+padding-bottom:12px;
+width:700px;
+left:50%;
+margin-left:-350px;
+
+width:100%;
+left:0px;
+margin-left:0px;
+
+text-align:center;
+background-image:url('http://assets.tumblr.com/images/x.gif');
+background-color:#ebebeb;
+
+
+box-shadow:0 0 5px gray;
+
+
+opacity:.9;
+
+z-index:999;
+}
+ 
+.blogtitle{
+font-family:raleway;
+font-weight:100;
+font-size:42px;
+line-height:44px;
+text-transform:none;
+color:#ffffff;
+ 
+
+
+
+}
+ 
+.description{
+font-family:lato;
+}
+ 
+#nav{
+word-spacing:10px;
+}
+ 
+#nav a{
+font-size:10px;
+line-height:24px;
+text-transform:uppercase;
+display:inline;
+font-weight:700;
+-moz-transition: all 0.4s ease-in-out;
+-webkit-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+ 
+.speclink{
+word-spacing:1px;
+}
+ 
+.answer{
+width:90%;
+padding:5%;
+
+}
+.answer img {
+max-width:100%;
+height:auto;
+
+}
+ 
+a {
+text-decoration:none;
+color:#828282;
+-webkit-transition: all 0.4s linear;
+-moz-transition: all 0.4s linear;
+transition: all 0.4s linear;
+}
+ 
+a:link, a:active, a:visited{
+color: #828282;
+}
+ 
+a:hover{
+color: #ebebeb;
+}
+ 
+#content {
+position: absolute;
+width:100%;
+margin-left:2%;
+
+
+margin-top:120px;
+float:center;
+}
+ 
+.entry{
+padding:1%;
+float:left;
+height:auto;
+
+width:17%;
+
+
+overflow:hidden;
+
+
+}
+ 
+.title{
+font-family:lato;
+font-weight:600;
+
+
+
+font-size:16px;
+line-height:16px;
+text-transform:none;
+color: #000000;
+}
+ 
+blockquote{
+padding:0px 0px 0px 3px;
+margin:0px 0px 0px 2px;
+border-left: 2px solid #ddd;
+}
+ 
+.like_and_reblog_buttons {
+position:absolute;
+top:1%;
+left:1%;
+margin-top:25px;
+margin-left:-15px;
+list-style: none;
+opacity:0;
+-webkit-transition: all 0.2s linear;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+.entry:hover .like_and_reblog_buttons{
+top:0px;    
+opacity:1;
+-webkit-transition: all 0.2s linear;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+ 
+.like_and_reblog_buttons li {
+float: left;
+background-color:rgba(0,0,0,.1);
+border-radius:100%;
+padding:10px;
+height:18px;
+width:18px;
+}
+ 
+.like_and_reblog_buttons li:first-child {
+margin-right:8px;
+}
+ 
+.play{
+position:absolute;
+left:50%;
+margin-left:-24px;
+top:50%;
+margin-top:-42px;
+border:10px solid white;  
+height:27px;
+width:27px;
+border-radius:100%;
+overflow:hidden;
+}
+ 
+.notess{
+position:absolute;    
+left:520px;
+top:14px;    
+height:500px;
+width:450px;
+overflow:scroll;
+padding:10px;
+background-color:#f0f0f0;
+}
+ol.notes {
+list-style-type: none;
+margin-top:20px;
+padding:0px;
+line-height:40px;
+font-size:13px;
+}
+.notess img{
+border-radius:100%;
+}
+ 
+.textbuttons ul{
+list-style:none;
+position:relative;
+}
+.textbuttons li {
+list-style:None;    
+float: right;
+}
+.textbuttons li:first-child {
+margin-left:12px;
+}
+ 
+.textnote{
+position:absolute;
+margin-left:0px;
+bottom:17px;
+font-weight:700;
+}
+.textnote a{
+font-size:11px;    
+color:#a3a3a3;
+}
+ 
+.caption{
+width:90%;
+padding:5%;
+background:;
+margin-top:-3px;
+}
+ 
+.chat li {
+list-style-type:none;
+margin-left:-40px;
+padding:5px;
+border-bottom:2px solid #dddddd;
+}
+.label{
+font-weight:700;
+font-size:11px;
+}
+ 
+
+</style>
+ 
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=gorgeousstacy" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="friday night" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Live Gorgeous" /><meta property="og:url" content="http://gorgeousstacy.tumblr.com/?og=1" /><meta property="og:description" content="Be FABULOUS" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_727025165377_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=gorgeousstacy" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=gorgeousstacy" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="gorgeousstacy" /><meta name="twitter:description" content="
+
+
+&lt;!-- begin hit counter code --&gt;&lt;img style=&quot;border: 0px solid ; display: inline;&quot; alt=&quot;hostgator coupons&quot; 
+	src=&quot;http://hit-counter.info/hit.php?id=529433&amp;counter=8&quot;&gt;&lt;/a&gt;&lt;br /&gt;&lt;!-- end hit counter code --&gt;
+
+ Be &lt;b&gt;FABULOUS" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=gorgeousstacy&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=gorgeousstacy&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=gorgeousstacy&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+ 
+<header id="header">
+<a href="/"><span class="blogtitle">Live Gorgeous</span></a>
+
+<span id="nav">
+<br><a href="/">refresh</a>
+<a href="/ask">message</a>
+<a href="/archive">archive</a>
+
+<a href="http://atlasdesigns.tumblr.com/">theme</a>
+</span>
+<span class="description"><br><!-- begin hit counter code --><img style="border: 0px solid ; display: inline;" alt="hostgator coupons" 
+	src="http://hit-counter.info/hit.php?id=529433&counter=8"></a><br /><!-- end hit counter code -->
+
+ Be <b>FABULOUS</span class="description">
+</header>
+ 
+<div id="content">
+
+<div class="entry">
+ 
+
+ 
+
+ 
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/98704075019/zdFUBhDq" class="reblog_button"style="display: block;width:17px;height:17px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98704075019" id="like_button_98704075019"><iframe id="like_iframe_98704075019" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98704075019&amp;color=white&amp;rk=zdFUBhDq" scrolling="no" width="17" height="17" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+<a href="http://gorgeousstacy.tumblr.com/image/98704075019"><div class="photo"><a href="http://gorgeousstacy.tumblr.com/post/98704075019"><img src="http://33.media.tumblr.com/9bea994c7bf37bea1d879f71d00ab115/tumblr_ncncqj1rtB1r84fr3o1_500.jpg" alt="😂😂" width=100%/></a></div></a>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+<div class="entry">
+ 
+
+ 
+
+ 
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/98620609229/RH5yqQQf" class="reblog_button"style="display: block;width:17px;height:17px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98620609229" id="like_button_98620609229"><iframe id="like_iframe_98620609229" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98620609229&amp;color=white&amp;rk=RH5yqQQf" scrolling="no" width="17" height="17" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+<a href="http://gorgeousstacy.tumblr.com/image/98620609229"><div class="photo"><a href="http://gorgeousstacy.tumblr.com/post/98620609229"><img src="http://38.media.tumblr.com/25fa510cc9cd21fd6e407609165324e5/tumblr_nclsr48OvJ1r84fr3o1_500.jpg" alt="" width=100%/></a></div></a>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+<div class="entry">
+ 
+
+ 
+
+ 
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/98619727439/topR6zrS" class="reblog_button"style="display: block;width:17px;height:17px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98619727439" id="like_button_98619727439"><iframe id="like_iframe_98619727439" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98619727439&amp;color=white&amp;rk=topR6zrS" scrolling="no" width="17" height="17" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+<div class="photo"><a href="http://gorgeousstacy.tumblr.com/post/98619727439"><img src="http://38.media.tumblr.com/d353e579752637bba750df51dca17a89/tumblr_nclrp3F6LP1r84fr3o1_500.jpg" alt="❤️" width=100%/></a></div>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+<div class="entry">
+ 
+
+ 
+
+ 
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/98619685894/uN3zZFvE" class="reblog_button"style="display: block;width:17px;height:17px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98619685894" id="like_button_98619685894"><iframe id="like_iframe_98619685894" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98619685894&amp;color=white&amp;rk=uN3zZFvE" scrolling="no" width="17" height="17" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+<a href="http://gorgeousstacy.tumblr.com/image/98619685894"><div class="photo"><a href="http://gorgeousstacy.tumblr.com/post/98619685894/missglamourpusss-fauna-rose"><img src="http://31.media.tumblr.com/70ee7e065dd42b46dd053b1a925c14b2/tumblr_miw6rkSO8b1s45c0no1_500.jpg" alt="missglamourpusss:
+
+fauna-rose:
+
+chanel-and-louboutins:
+
+✝
+
+💋
+
+Missglamourpusss" width=100%/></a></div></a>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+<div class="entry">
+ 
+
+ 
+
+ 
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/98614021874/IKNXMZCx" class="reblog_button"style="display: block;width:17px;height:17px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98614021874" id="like_button_98614021874"><iframe id="like_iframe_98614021874" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98614021874&amp;color=white&amp;rk=IKNXMZCx" scrolling="no" width="17" height="17" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+<a href="http://lustt-and-luxury.tumblr.com"><div class="photo"><a href="http://gorgeousstacy.tumblr.com/post/98614021874/blackbrasil-prettyfuckingepic"><img src="http://38.media.tumblr.com/50fbd337ab6d77de488028c89ce6509b/tumblr_nch6a1doCr1rq1sano1_500.jpg" alt="blackbrasil:
+
+prettyfuckingepic:
+
+lustt-and-luxury:
+
+http://lustt-and-luxury.tumblr.com
+
+.
+
+www.blackbrasil.tumblr.com" width=100%/></a></div></a>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+<div class="entry">
+ 
+
+ 
+
+ 
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/98613971834/yhQLEYQb" class="reblog_button"style="display: block;width:17px;height:17px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98613971834" id="like_button_98613971834"><iframe id="like_iframe_98613971834" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98613971834&amp;color=white&amp;rk=yhQLEYQb" scrolling="no" width="17" height="17" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+<a href="http://fashionmagable.tumblr.com/"><div class="photo"><a href="http://gorgeousstacy.tumblr.com/post/98613971834/frenchinhalechanelxoxo-ch-l"><img src="http://33.media.tumblr.com/609bb01d69a699c0ea8485c3b5eba82b/tumblr_n8vif03JuC1trfxc5o1_500.jpg" alt="frenchinhalechanelxoxo:
+
+&nbsp;Ch&alpha;&eta;&epsilon;ℓ" width=100%/></a></div></a>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+<div class="entry">
+ 
+
+ 
+
+ 
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/98584526019/vtfd9zdn" class="reblog_button"style="display: block;width:17px;height:17px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98584526019" id="like_button_98584526019"><iframe id="like_iframe_98584526019" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98584526019&amp;color=white&amp;rk=vtfd9zdn" scrolling="no" width="17" height="17" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+<div class="photo"><a href="http://gorgeousstacy.tumblr.com/post/98584526019/lemme-holla-at-you-crystalsiasella-xo"><img src="http://38.media.tumblr.com/1b6199527bed422f54de0fbdc856324a/tumblr_nb8s6roFBD1tbe89lo1_500.jpg" alt="lemme-holla-at-you:
+
+crystalsiasella:
+
+&nbsp;
+
+Xo" width=100%/></a></div>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+<div class="entry">
+ 
+
+ 
+
+ 
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/98573546694/Z6WWarD0" class="reblog_button"style="display: block;width:17px;height:17px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98573546694" id="like_button_98573546694"><iframe id="like_iframe_98573546694" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98573546694&amp;color=white&amp;rk=Z6WWarD0" scrolling="no" width="17" height="17" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+<a href="http://gorgeousstacy.tumblr.com/image/98573546694"><div class="photo"><a href="http://gorgeousstacy.tumblr.com/post/98573546694/my-favorite-way-to-cuddle"><img src="http://31.media.tumblr.com/f596bc4b313e0323d83ca685b2bf92e7/tumblr_ncktmcGLTZ1r84fr3o1_500.jpg" alt="My favorite way to cuddle ❤️" width=100%/></a></div></a>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+<div class="entry">
+ 
+
+<div class="answer"><span class="title">I don&#8217;t think suicidal people get enough credit for not acting on their suicidal thoughts.</span><p><a href="http://aha-itsme.tumblr.com/post/27307185173/i-dont-think-suicidal-people-get-enough-credit-for-not" class="tumblr_blog">aha-itsme</a>:</p>
+
+<blockquote><p>This post is for all of you who have survived the urge to end your life, either coming out the other side or still fighting to stay alive. </p>
+<p>I noticed how when someone has a physical illness such as cancer, and they come out the other side or even remission, they are able to celebrate surviving. I think all of the survivors of being suicidal should too.</p>
+<p>Congratulations, and keep on fighting.</p></blockquote><p>(via <a href='http://frenchinhalechanelxoxo.tumblr.com/post/98536222986/i-dont-think-suicidal-people-get-enough-credit-for-not'>frenchinhalechanelxoxo</a>)</p>
+<div class="textnote"><a href="http://gorgeousstacy.tumblr.com/post/98536386299/i-dont-think-suicidal-people-get-enough-credit-for-not">160,973 notes</a></div>
+<ul class="textbuttons">
+<li><a href="https://www.tumblr.com/reblog/98536386299/HcfkzPHl" class="reblog_button"style="display: block;width:15px;height:15px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ccc"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98536386299" id="like_button_98536386299"><iframe id="like_iframe_98536386299" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98536386299&amp;color=gray&amp;rk=HcfkzPHl" scrolling="no" width="15" height="15" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul><br>
+
+</div>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+<div class="entry">
+ 
+
+ 
+
+ 
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/98536112114/BvAYnY3r" class="reblog_button"style="display: block;width:17px;height:17px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98536112114" id="like_button_98536112114"><iframe id="like_iframe_98536112114" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98536112114&amp;color=white&amp;rk=BvAYnY3r" scrolling="no" width="17" height="17" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+<a href="http://gorgeousstacy.tumblr.com/image/98536112114"><div class="photo"><a href="http://gorgeousstacy.tumblr.com/post/98536112114/real-men-move-in-silence"><img src="http://38.media.tumblr.com/1a7affaed943baf761ae0b4f9712d107/tumblr_ncjzpqmBN01r84fr3o1_500.jpg" alt="Real men move in silence." width=100%/></a></div></a>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+<div class="entry">
+ 
+
+ 
+
+ 
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/98533045194/cMipj1H8" class="reblog_button"style="display: block;width:17px;height:17px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98533045194" id="like_button_98533045194"><iframe id="like_iframe_98533045194" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98533045194&amp;color=white&amp;rk=cMipj1H8" scrolling="no" width="17" height="17" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+<div class="photo"><a href="http://gorgeousstacy.tumblr.com/post/98533045194"><img src="http://33.media.tumblr.com/9eaaed49a327345473d47079da8b643a/tumblr_ncjvk08Vpl1r84fr3o1_500.gif" alt="🚀💨✨" width=100%/></a></div>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+<div class="entry">
+ 
+
+ 
+
+ 
+
+
+<ul class="like_and_reblog_buttons">
+<li><a href="https://www.tumblr.com/reblog/98501939289/6hwRPG3T" class="reblog_button"style="display: block;width:17px;height:17px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+<li><div class="like_button" data-post-id="98501939289" id="like_button_98501939289"><iframe id="like_iframe_98501939289" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=gorgeousstacy&amp;post_id=98501939289&amp;color=white&amp;rk=6hwRPG3T" scrolling="no" width="17" height="17" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+</ul>
+
+<a href="http://johnny-escobar.tumblr.com/"><div class="photo"><a href="http://gorgeousstacy.tumblr.com/post/98501939289/johnny-escobar-dubai"><img src="http://38.media.tumblr.com/0f57e54be47064af7c020ca947840dca/tumblr_n7not4muZf1r5vp1oo1_500.jpg" alt="johnny-escobar:
+
+&nbsp;Dubai
+" width=100%/></a></div></a>
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+</div>
+ 
+
+ 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+</div>
+ 
+<div style="position:absolute;z-index:99999999999999999999999999999999999; !important;top:24px;right:3px;-webkit-filter:invert(100%);"><a href="http://atlasdesigns`.tumblr.com/"><img src="http://static.tumblr.com/2w7y46r/wuvmba8c2/installtheme.png"></a></div>
+ 
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://gorgeousstacy.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037625&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZ29yZ2VvdXNzdGFjeS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=NKEADEGPNF&K=0666bf5f8f6e850d6a139016cbf726fc3d44a23d54155949283d1ddd10cc5e53&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037625&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZ29yZ2VvdXNzdGFjeS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=NKEADEGPNF&K=449416904b32501b3621d88164ba808b001cfa73506e948943f62195de05e032&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037625&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2dvcmdlb3Vzc3RhY3kudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5ODcwNDA3NTAxOSIsImJsb2dpZCI6IjM2OTY5MTQ3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODYyMDYwOTIyOSIsImJsb2dpZCI6IjM2OTY5MTQ3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODYxOTcyNzQzOSIsImJsb2dpZCI6IjM2OTY5MTQ3Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkwNzU5MTMwIiwicm9vdF9wb3N0aWQiOiI0NDE1Mjc4MjQ4NiIsInBvc3RpZCI6Ijk4NjE5Njg1ODk0IiwiYmxvZ2lkIjoiMzY5NjkxNDciLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDUyMTA3NDIiLCJyb290X3Bvc3RpZCI6Ijk4NDE0MjEwMTA5IiwicG9zdGlkIjoiOTg2MTQwMjE4NzQiLCJibG9naWQiOiIzNjk2OTE0NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjkwODg5NjkiLCJyb290X3Bvc3RpZCI6IjkyMTUxMTcyNjU1IiwicG9zdGlkIjoiOTg2MTM5NzE4MzQiLCJibG9naWQiOiIzNjk2OTE0NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODU4MjIzNzQiLCJyb290X3Bvc3RpZCI6Ijk2MzkzNDE3NTcyIiwicG9zdGlkIjoiOTg1ODQ1MjYwMTkiLCJibG9naWQiOiIzNjk2OTE0NyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NzM1NDY2OTQiLCJibG9naWQiOiIzNjk2OTE0NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMzUyNzgyIiwicm9vdF9wb3N0aWQiOiIyNzMwNzE4NTE3MyIsInBvc3RpZCI6Ijk4NTM2Mzg2Mjk5IiwiYmxvZ2lkIjoiMzY5NjkxNDciLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk4NTM2MTEyMTE0IiwiYmxvZ2lkIjoiMzY5NjkxNDciLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk4NTMzMDQ1MTk0IiwiYmxvZ2lkIjoiMzY5NjkxNDciLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzI1NjIyODciLCJyb290X3Bvc3RpZCI6ODk3MjgwMjI3NDMsInBvc3RpZCI6Ijk4NTAxOTM5Mjg5IiwiYmxvZ2lkIjoiMzY5NjkxNDciLCJzb3VyY2UiOjMzfV19&U=MKKJCBFNGF&K=126ecd6261b73d835ebdc34e6014089662161828e26bbcaba8467cd2f0826707&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037625&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2dvcmdlb3Vzc3RhY3kudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5ODcwNDA3NTAxOSIsImJsb2dpZCI6IjM2OTY5MTQ3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODYyMDYwOTIyOSIsImJsb2dpZCI6IjM2OTY5MTQ3Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODYxOTcyNzQzOSIsImJsb2dpZCI6IjM2OTY5MTQ3Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkwNzU5MTMwIiwicm9vdF9wb3N0aWQiOiI0NDE1Mjc4MjQ4NiIsInBvc3RpZCI6Ijk4NjE5Njg1ODk0IiwiYmxvZ2lkIjoiMzY5NjkxNDciLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDUyMTA3NDIiLCJyb290X3Bvc3RpZCI6Ijk4NDE0MjEwMTA5IiwicG9zdGlkIjoiOTg2MTQwMjE4NzQiLCJibG9naWQiOiIzNjk2OTE0NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjkwODg5NjkiLCJyb290X3Bvc3RpZCI6IjkyMTUxMTcyNjU1IiwicG9zdGlkIjoiOTg2MTM5NzE4MzQiLCJibG9naWQiOiIzNjk2OTE0NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODU4MjIzNzQiLCJyb290X3Bvc3RpZCI6Ijk2MzkzNDE3NTcyIiwicG9zdGlkIjoiOTg1ODQ1MjYwMTkiLCJibG9naWQiOiIzNjk2OTE0NyIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg1NzM1NDY2OTQiLCJibG9naWQiOiIzNjk2OTE0NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMzUyNzgyIiwicm9vdF9wb3N0aWQiOiIyNzMwNzE4NTE3MyIsInBvc3RpZCI6Ijk4NTM2Mzg2Mjk5IiwiYmxvZ2lkIjoiMzY5NjkxNDciLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk4NTM2MTEyMTE0IiwiYmxvZ2lkIjoiMzY5NjkxNDciLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk4NTMzMDQ1MTk0IiwiYmxvZ2lkIjoiMzY5NjkxNDciLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzI1NjIyODciLCJyb290X3Bvc3RpZCI6ODk3MjgwMjI3NDMsInBvc3RpZCI6Ijk4NTAxOTM5Mjg5IiwiYmxvZ2lkIjoiMzY5NjkxNDciLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=MKKJCBFNGF&K=a62a10567711070d6bc97c67447dc43b97dd30c6c9deac813c8fc2d03f72dc7b&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:36969147,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fgorgeousstacy.tumblr.com%2F&amp;lang=en_US&amp;name=gorgeousstacy&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_727025165377_64.png&amp;title=Live+Gorgeous&amp;url=http%3A%2F%2Fgorgeousstacy.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fgorgeousstacy.tumblr.com%2F&amp;lang=en_US&amp;name=gorgeousstacy&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_727025165377_64.png&amp;title=Live+Gorgeous&amp;url=http%3A%2F%2Fgorgeousstacy.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

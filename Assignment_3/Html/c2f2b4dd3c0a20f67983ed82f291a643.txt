@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html id="ie8" lang="en">
+<![endif]-->
+<!--[if !(IE 8)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<title>Movie display | A blog about movies</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="http://moviedisplay.wordpress.com/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Movie display &raquo; Feed" href="http://moviedisplay.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Movie display &raquo; Comments Feed" href="http://moviedisplay.wordpress.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+function addLoadEvent(func){var oldonload=window.onload;if(typeof window.onload!='function'){window.onload=func;}else{window.onload=function(){oldonload();func();}}}
+/* ]]> */
+</script>
+<link rel='stylesheet' id='all-css-0' href='http://s0.wp.com/_static/??-eJx9kFuOwjAMRTdE8Ix4DPOBWEubmtTFiaPaUdXdE5AAIVD/rpNzbMswZeclGSaDWFzmEigpaCTGOY8yoLf3au1VV/BdY7qgwoCWG39x9+oDb1nCS5AQsJNi7izMMsFEXcDFGZTOlMjmZ1iCtZfRvHR1q0qBMtXYy+SeH0u2lxHre8yN3YiIHTXIGCu2pMW8f1i32NdbfJ7B+tpHIZcWasvQJHNhLCkgqM18X+sUj7/bn8Pf5vC/2Q1XXOugvg==' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='elegant-grunge-ie-css'  href='http://s0.wp.com/wp-content/themes/pub/elegant-grunge/ie.css?m=1288065825g&#038;ver=4.0-RC3' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-2' href='http://s0.wp.com/_static/??-eJx9i9EKgzAMAH9oXRQL+iJ+Sy0xZqSN2Ii/v+5FHIO93cEdMGQ1jprLBc9YygPOzVUxzAbpcJscxLUhVCcag7HmL3GLBN7/rTvOolSRoFY3/ZlsxYQFVg8kOgf5BFMaW9/0ne+HZni9Ac2dQxk=' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-2' href='http://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1387483371g' type='text/css' media='print' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LoggedOutFollow = {"invalid_email":"Your subscription did not succeed, please try again with a valid email address."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s0.wp.com/_static/??-eJyFkNsOwiAMQH9IxrZo4ovxW3bpSBEoUhjRrxeTGTXO7KlNe9LTVmYvBnIRXJSapaUeDYjEEDpVagLdRJXmnSwcusGkEfgJ6muCcFvCJiAsqtBFqCy6F/xh9cTRAnNRrnS/VehmhLyJaYi+Gy4iAOP9Z2pvSAlvkkLHsuQKRkpRTGQMZZlxVBDXjmL/3v//NxbqbE/Nvq4Px6atW/0AiPqGzQ=='></script>
+<link rel='stylesheet' id='all-css-0' href='http://s2.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621g' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='http://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563g&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://moviedisplay.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/4YqNv' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Movie display" />
+<meta property="og:description" content="A blog about movies" />
+<meta property="og:url" content="http://moviedisplay.wordpress.com/" />
+<meta property="og:site_name" content="Movie display" />
+<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta property="fb:app_id" content="249643311490" />
+<link rel="shortcut icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1405977958g" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="http://s2.wp.com/i/favicon.ico?m=1405977958g" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="http://s0.wp.com/i/webclip.png?m=1391188133g" />
+<link rel='openid.server' href='http://moviedisplay.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='http://moviedisplay.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="http://moviedisplay.wordpress.com/osd.xml" title="Movie display" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://wordpress.com/opensearch.xml" title="WordPress.com" />
+		<style type="text/css">
+			.recentcomments a {
+				display: inline !important;
+				padding: 0 !important;
+				margin: 0 !important;
+			}
+
+			table.recentcommentsavatartop img.avatar, table.recentcommentsavatarend img.avatar {
+				border: 0px;
+				margin: 0;
+			}
+
+			table.recentcommentsavatartop a, table.recentcommentsavatarend a {
+				border: 0px !important;
+				background-color: transparent !important;
+			}
+
+			td.recentcommentsavatarend, td.recentcommentsavatartop {
+				padding: 0px 0px 1px 0px;
+				margin: 0px;
+			}
+
+			td.recentcommentstextend {
+				border: none !important;
+				padding: 0px 0px 2px 10px;
+			}
+
+			.rtl td.recentcommentstextend {
+				padding: 0px 10px 2px 0px;
+			}
+
+			td.recentcommentstexttop {
+				border: none;
+				padding: 0px 0px 0px 10px;
+			}
+
+			.rtl td.recentcommentstexttop {
+				padding: 0px 10px 0px 0px;
+			}
+		</style>
+		<meta name="application-name" content="Movie display" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-tooltip" content="A blog about movies" /><meta name="msapplication-task" content="name=Subscribe;action-uri=http://moviedisplay.wordpress.com/feed/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=http://s2.wp.com/i/favicon.ico" /><meta name="title" content="Movie display on WordPress.com" />
+<meta name="description" content="A blog about movies" />
+
+	<style type="text/css">
+			#header div a,
+		#header h1,
+		#header h2,
+		#blog-description {
+			color: #d3d3d3;
+		}
+		</style>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+<body class="home blog mp6 two-column content-sidebar highlander-enabled highlander-light infinite-scroll neverending">
+	<div id="page">
+			<div id="menu">
+			<div class="menu-header"><ul><li class="current_page_item"><a href="http://moviedisplay.wordpress.com/">Home</a></li><li class="page_item page-item-1"><a href="http://moviedisplay.wordpress.com/om/">About me</a></li></ul></div>
+			<div class="clear"></div>
+		</div><!-- #menu -->
+		<div id="header-wrap">
+						<div id="header">
+				<div>
+					<a href="http://moviedisplay.wordpress.com/" title="Movie display" rel="home">
+											<h1>Movie display</h1>
+											<p id="blog-description">A blog about movies</p>
+					</a>
+				</div>
+			</div>
+		</div><!-- #header-wrap --><div id="content-container">
+	<div id="content">
+		<div id="content-body">
+										
+<div class="post-3 post type-post status-publish format-standard hentry category-movies tag-blockbuster tag-cinema tag-hollywood tag-movies tag-piracy tag-the-expendables-3 tag-wolverine-origins" id="post-3">
+	<div class="post-date">
+		<a href="http://moviedisplay.wordpress.com/2014/09/02/that-time-of-year-hollywood-and-piracy/" title="Permalink to That time of the year: Hollywood and&nbsp;piracy" rel="bookmark">
+			2 September, 2014		</a>
+	</div>
+	<h2 class="entry-title"><a href="http://moviedisplay.wordpress.com/2014/09/02/that-time-of-year-hollywood-and-piracy/" rel="bookmark">That time of the year: Hollywood and&nbsp;piracy</a></h2>
+	<div class="post-author">
+		<span class="author vcard">By <a class="url fn n" href="http://moviedisplay.wordpress.com/author/moviedisplay/" title="View all posts by moviedisplay">moviedisplay</a></span>	</div>
+	<div class="entry">
+		<p>Just like the weather here in Sweden started out slow, so did the blockbuster season this summer. Compared to 2013 (with movies like Iron Man 3, Man of Steel and Despicable Me 2) it was a 20% difference, even though there was new superhero movies, the return of Godzilla and then came Transformers: Age of <span class="itemprop">Extinction which has made more than a billion dollars. And, if that wasn&#8217;t enough, along came Guardians of the Galaxy and made, not only a lot of money, but more money on it&#8217;s opening weekend (around 20 million dollars) then expected. So, everything is good again right? We still have a blockbuster season and movies that makes millions and millions of money?<br /> </span></p>
+<p> </p>
+<p>Well, along came a little movie called The Expendables 3 that had it&#8217;s theatrical premiere this august. Building on a franchise and having several big action names in the cast a movie like this should have a solid fan base and a good run. But, there was just one thing. Two weeks before it premiered it leaked online. While not the first time a big budget Hollywood studio movie leaked, it still was different from the Wolverine: Origins leak of 2009. While the leak of Wolverine: Origins was an unfinished movie, lacking CGI, whereas the leaked version of The Expendables 3 was a finished version with DVD quality. To this day, there has been 2.2 million downloads, estimated to have taken around 4 millions dollars from the box office.</p>
+<p>The Expendables 3 hasn&#8217;t really worked out as well as the first two movies and with the leak the discussion has of course been, is this due to piracy?</p>
+<p>In a blog post by Lexi Alexander, director of movies such as Punisher: War Zone, she says piracy is less to blame then the Hollywood studios producing movies directed by white men, aimed at white men. She writes that instead of blaming loss of money and jobs in the film industry on piracy, the should use the money for fighting piracy to promote/help smaller productions, and movies made not only white men. She continues with the statement that the studios wants you to pay for a movie because the guys on the floor gets their paycheck from your money isn&#8217;t really true. While they do, she says studios has no interest in looking after the guy on the floor. Studios move CGI effect production from American companies to cheaper ones in other countries (see Life of Pi and the discussion about this around last years Academy Award) and does nothing to provide a better work environment for the normal guy (or girl) on the floor. While I agree she has a point about this (see how many women that has won academy awards for best picture/direction) it&#8217;s 1) not a given that this would generate more money for the movie industry and 2) is not excuse for piracy. Nor does it differentiate between major Hollywood studio productions and smaller independent productions.</p>
+<p> </p>
+<p>While some people claim that a leak actually is a good thing since it generate a buzz for the movie, one must keep in mind that if this is true, studios would make sure movies leaked. If a leak or a pirated movie would mean a better theatrical run, it would happen more often. The movie industry, with MPAA has more or less declared war on piracy, taking it to the length of trying to change laws in different countries regarding piracy and copyright.</p>
+<p> </p>
+<p>While not in anyway a new problem &#8211; to be honest, Hollywood as a base of of movie production was for one reason to get away from East coast producers, studios and copyright holders (back in those days traveling cost to cost was not that easy) and movies from other countries was screened without permits with no royalties paid. Fast track to VHS, when you could make copies and then to Internet, where the possibility to share, and receive, information started a whole new age of piracy, often where people behind the piracy sites makes a lot of money, not from the piracy itself but selling ad space on these sites. And, with moving production from actual film to DCP (Digital Cinema Package) I can just assume that making an illegal copy of a movie has become easier.</p>
+<p>There is different way to fighting this piracy. Else then legal action, one way is to make movies more available, making them PG13 (which happened with The Expendables 3, and some people claim as a reason if didn&#8217;t do so well) as well as having international release dates on the same day, or earlier (like Iron Man 3 and Captain America: The Winter Soldier) as in USA, even though the fact international box office compared to US box office has something to to with this.</p>
+<p>Those defending piracy often claim that the punishment is to hard, but with The Expendables 3 there is a number on how much the financial damage it does. Also, that the punishment for piracy is not in comparison to punishment on other crimes, and while they have a point in this, it says more about the punishment for the other crime, not the punishment for piracy.</p>
+<p>Last point, which is technically right, is that piracy isn&#8217;t stealing. Well, it isn&#8217;t stealing a DVD or a Blu-ray, but this completely misses the point. A movie isn&#8217;t a disc. The disc is simply the storage media that the movie is stored on. When discussing piracy and &#8220;piracy isn&#8217;t stealing&#8221; I think this is an issue that&#8217;s needs to be kept in mind. There is a substantial difference between a movie and the storage media it is on.</p>
+<p> </p>
+<p>And, you know, the statement that piracy is good because it generates a buzz and free PR for the movie? (Like the idea that a leak generates a buzz for it&#8217;s theatrical release).  The fact is the studios these days does extensive ad runs when they release a movie, and does not need the imagined buzz that piracy defenders claim.  While this is more an issue of promotion costs, some movies with smaller production budgets actually cost more to promote then to produce. Case in point, Joe Carnahan&#8217;s Stretch (starring Chris Pine and Jessica Alba), with a production budget of 5 million dollars would, according to Universal, cost at least 20 million dollars to promote and put in cinemas.</p>
+<p> </p>
+<p>Back to piracy: what&#8217;s the easiest way to fight piracy? It&#8217;s easy. Don&#8217;t download movies. It doesn&#8217;t help movies, it kills them. And if you don&#8217;t believe me, ask Chloe Gracë Moretz who said that piracy killed Kick-Ass 3.</p>
+<p>*UPDATE*<br />As you probably heard, this is the worst summer in 17 years in USA. Transformer: Age of Exctinction, with a box office on more than 1 billion dollars, &#8220;only&#8221; made 245 million dollars in USA (less than it&#8217;s production budget) and Guardians of the Galaxy, with a box office on 586 million dollars, &#8220;only&#8221; made 295 millon dollars in USA. This is the first time since 2001 that no movie has had an dometstic box office of at least 300 million dollars.</p>
+<p> </p>
+<div id='contact-form-3'>
+<form action='http://moviedisplay.wordpress.com/2014/09/02/that-time-of-year-hollywood-and-piracy/#contact-form-3' method='post' class='contact-form commentsblock'>
+
+<div>
+		<label for='g3-name' class='grunion-field-label name'>Name<span>(required)</span></label>
+		<input type='text' name='g3-name' id='g3-name' value='' class='name'  required aria-required='true'/>
+	</div>
+
+<div>
+		<label for='g3-epost' class='grunion-field-label email'>E-post<span>(required)</span></label>
+		<input type='email' name='g3-epost' id='g3-epost' value='' class='email'  required aria-required='true'/>
+	</div>
+
+<div>
+		<label for='g3-website' class='grunion-field-label url'>Website</label>
+		<input type='text' name='g3-website' id='g3-website' value='' class='url'  />
+	</div>
+
+<div>
+		<label for='contact-form-comment-g3-kommentar' class='grunion-field-label textarea'>Kommentar<span>(required)</span></label>
+		<textarea name='g3-kommentar' id='contact-form-comment-g3-kommentar' rows='20'  required aria-required='true'></textarea>
+	</div>
+	<p class='contact-submit'>
+		<input type='submit' value='Submit &#187;' class='pushbutton-wide'/>
+		<input type='hidden' name='contact-form-id' value='3' />
+		<input type='hidden' name='action' value='grunion-contact-form' />
+	</p>
+</form>
+</div>
+			</div>
+	<div class="clear"></div>
+	<p class="metadata">
+		<a href="http://moviedisplay.wordpress.com/2014/09/02/that-time-of-year-hollywood-and-piracy/#respond" title="Comment on That time of the year: Hollywood and&nbsp;piracy">Leave a comment</a>		&nbsp;&nbsp;|&nbsp;&nbsp;tags: <a href="http://moviedisplay.wordpress.com/tag/blockbuster/" rel="tag">blockbuster</a>, <a href="http://moviedisplay.wordpress.com/tag/cinema/" rel="tag">cinema</a>, <a href="http://moviedisplay.wordpress.com/tag/hollywood/" rel="tag">Hollywood</a>, <a href="http://moviedisplay.wordpress.com/tag/movies/" rel="tag">movies</a>, <a href="http://moviedisplay.wordpress.com/tag/piracy/" rel="tag">piracy</a>, <a href="http://moviedisplay.wordpress.com/tag/the-expendables-3/" rel="tag">The Expendables 3</a>, <a href="http://moviedisplay.wordpress.com/tag/wolverine-origins/" rel="tag">Wolverine Origins</a>				| posted in <a href="http://moviedisplay.wordpress.com/category/movies/" rel="category tag">movies</a>					</p>
+	<div class="hr"><hr /></div>
+</div>						<div class="navigation">
+				<div class="next">
+									</div>
+				<div class="previous">
+									</div>
+			</div>
+					</div>
+		
+
+<div id="sidebar" class="sidebar">
+	<ul>
+			<li>
+			<li class="pagenav"><h2>Pages</h2><ul><li class="page_item page-item-1"><a href="http://moviedisplay.wordpress.com/om/">About me</a></li>
+</ul></li>		</li>
+		<li>
+			<h2>Archives</h2>
+			<ul>
+					<li><a href='http://moviedisplay.wordpress.com/2014/09/'>September 2014</a></li>
+			</ul>
+		</li>
+				<li>
+			<li id="linkcat-1372322" class="linkcat"><h2>Länklista</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://en.forums.wordpress.com/">Discuss</a></li>
+<li><a href="http://www.plinky.com/">Get Inspired</a></li>
+<li><a href="http://polldaddy.com/">Get Polling</a></li>
+<li><a href="http://en.support.wordpress.com/">Get Support</a></li>
+<li><a href="http://learn.wordpress.com/">Learn WordPress.com</a></li>
+<li><a href="http://theme.wordpress.com/">Theme Showcase</a></li>
+<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
+<li><a href="http://en.blog.wordpress.com/">WordPress.com News</a></li>
+
+	</ul>
+</li>
+		</li>
+		<li>
+			<h2>Meta</h2>
+			<ul>
+				<li><a href="https://en.wordpress.com/signup/?ref=wplogin">Register</a></li>				<li><a href="https://moviedisplay.wordpress.com/wp-login.php">Log in</a></li>
+							</ul>
+		</li>
+				</ul>
+</div><!-- #sidebar-1 -->
+
+	</div>
+	<div class="clear"></div>
+</div>
+</div><!-- #content-body -->
+<div id="footer-wrap-outer">
+	<div id="footer-wrap">
+		<div id="footer">
+			<div id="subscribe-rss">
+				<a href="http://moviedisplay.wordpress.com/feed/">Subscribe to RSS</a>
+			</div>
+						<div class="clear"></div>
+			<div class="credit">
+				<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com</a>.
+				<a href="https://wordpress.com/themes/elegant-grunge/" title="Learn more about this theme">The Elegant Grunge Theme</a>.			</div>
+		</div>
+	</div>
+</div><!-- #footer-wrap-outer -->
+		<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"content-body","ajaxurl":"http:\/\/moviedisplay.wordpress.com\/?infinity=scrolling","type":"scroll","wrapper":true,"wrapper_class":"infinite-wrap","footer":true,"click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"02.09.14","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"moviedisplay.wordpress.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"comments_popup":"","meta_key":"","meta_value":"","preview":"","s":"","sentence":"","fields":"","menu_order":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":7,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2014-09-02 21:47:26","stats":"blog=73508037&v=wpcom&tz=2&user_id=0&subd=moviedisplay&x_pagetype=infinite"}};
+		//]]>
+		</script>
+		<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201440x'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s2.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781g'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"http:\/\/moviedisplay.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/moviedisplay.wordpress.com\/wp-login.php?action=logout&_wpnonce=fc92de175e","homeURL":"http:\/\/moviedisplay.wordpress.com\/","postID":"3","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"","isJetpack":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1409006146j'></script>
+		<div id="infinite-footer">
+			<div class="container">
+				<div class="blog-info">
+					<a id="infinity-blog-title" href="http://moviedisplay.wordpress.com/" rel="home">
+						Movie display					</a>
+				</div>
+				<div class="blog-credits">
+					<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com</a>. <a href="https://wordpress.com/themes/elegant-grunge/" title="Learn more about this theme">The Elegant Grunge Theme</a>.				</div>
+			</div>
+		</div><!-- #infinite-footer -->
+		
+	<div id="bit" class="loggedout-follow-normal">
+		<a class="bsub" href="javascript:void(0)"><span id='bsub-text'>Follow</span></a>
+		<div id="bitsubscribe">
+
+					<h3><label for="loggedout-follow-field">Follow &ldquo;Movie display&rdquo;</label></h3>
+
+			<form action="https://subscribe.wordpress.com" method="post" accept-charset="utf-8" id="loggedout-follow">
+			<p>Get every new post delivered to your Inbox.</p>
+
+			<p id="loggedout-follow-error" style="display: none;"></p>
+
+			
+			<p><input type="email" name="email" value="Enter your email address" onfocus='this.value=(this.value=="Enter your email address") ? "" : this.value;' onblur='this.value=(this.value=="") ? "Enter email address" : this.value;'  id="loggedout-follow-field"/></p>
+
+			<input type="hidden" name="action" value="subscribe"/>
+			<input type="hidden" name="blog_id" value="73508037"/>
+			<input type="hidden" name="source" value="http://moviedisplay.wordpress.com/"/>
+			<input type="hidden" name="sub-type" value="loggedout-follow"/>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="8d9b2dc6ae" /><input type="hidden" name="_wp_http_referer" value="/" />
+			<p id='bsub-subscribe-button'><input type="submit" value="Sign me up" /></p>
+			</form>
+					<div id='bsub-credit'><a href="https://wordpress.com/?ref=lof">Powered by WordPress.com</a></div>
+		</div><!-- #bitsubscribe -->
+	</div><!-- #bit -->
+
+	<div id="carousel-reblog-box">
+		<form action="" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" onclick="if ( this.value == 'Add your thoughts here... (optional)' ) { this.value = ''; }" onblur="if ( this.value == '' || this.value == '' ) { this.value = 'Add your thoughts here... (optional)'; }">Add your thoughts here... (optional)</textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="73508037" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="http://moviedisplay.wordpress.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="Movie display" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="4726debd90" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+<link rel='stylesheet' id='all-css-0' href='http://s0.wp.com/_static/??-eJxti1sKgCAQAC+UbVKEfkRnkcVE01V80PV7QH31N8wwcCSGkaqmCqGx5JuxVMDkRjbSkxRWtsUcAMsX+os7+H9R5diK9uB0TQp39op7WsPCp0GKWYqRuxPrvy54' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='http://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1409081593g&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-2' href='http://s2.wp.com/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css?m=1401143454g' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"http:\/\/s1.wp.com\/wp-content\/mu-plugins\/shortcodes\/img\/slideshow-loader.gif","blog_id":"73508037","blog_subdomain":"moviedisplay","user_id":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/moviedisplay.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"f4ddd2f94a","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/moviedisplay.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Fmoviedisplay.wordpress.com%2F2014%2F09%2F02%2Fthat-time-of-year-hollywood-and-piracy%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=73508037&v=wpcom&tz=2&user_id=0&subd=moviedisplay","is_public":"1"};
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"http:\/\/moviedisplay.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"f4ddd2f94a","display_exif":"1","display_geo":"1","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/moviedisplay.wordpress.com\/wp-login.php?redirect_to=http%3A%2F%2Fmoviedisplay.wordpress.com%2F2014%2F09%2F02%2Fthat-time-of-year-hollywood-and-piracy%2F","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=73508037&v=wpcom&tz=2&user_id=0&subd=moviedisplay","is_public":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://s2.wp.com/_static/??-eJyNjtEOgjAMRX/IUUkkhgfjt2Apsjm2uXYgfy+SjBgfiG+37T0nhSko9E7ICRiGlkaNFF6F4QN8nYakgk137Ri067TTMm9hp8u9j4K+Jf7IzTNRnAuc0dLfEFu9pN5PattnVju0Kdemzt8MofyKs3VcNB4aZpIVWOcQiXnnFWyiT0wWDElo8KHyYmGuw6U8lce6LutzZd5L5Xtl'></script>
+<script type='text/javascript' src='http://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript' src='http://s0.wp.com/_static/??-eJyVy7EOQEAMANAfUnViYBDfgmsupepyivh7VpMY3/DwjDCuaqSGyw5R9sC6oZ1sRgkG6cd54OQhMqHSQYnUs4Z82jL8c+P3YyEPoRehdL31rG5pXVXUTVO70k03DU5D1g=='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "moviedisplay.wordpress.com";
+	</script>
+	<script type="text/javascript" src="http://s.skimresources.com/js/725X1342.skimlinks.js"></script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","mobile-useragent-info","jquery-core","jquery-migrate","postmessage","jquery_inview","jetpack_resize","loggedout-subscribe","spin","jquery.spin","grofiles-cards","wpgroho","jquery.autoresize","highlander-comments","devicepx","the-neverending-homepage","jquery-cycle","jetpack-slideshow","swfobject","videopress","jetpack-carousel","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["smileyproject","jetpack_likes","loggedout-subscribe","the-neverending-homepage","jetpack-slideshow","wpcom-core-compat-playlist-styles","mp6hacks","elegant-grunge","noticons","geo-location-flair","reblogging","a8c-global-print","h4-global","elegant-grunge-ie","highlander-comments","highlander-comments-ie7","grunion.css","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script><script src="//stats.wp.com/w.js?23" type="text/javascript"></script>
+<script type="text/javascript">
+st_go({'blog':'73508037','v':'wpcom','tz':'2','user_id':'0','subd':'moviedisplay'});
+ex_go({'crypt':'UE40eW5QN0p8M2Y/RE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzR6MmRCYnxkNmd4UExafDVrfit8aGxMZSt+fkdleEVTb1FwV34/Uj1DRWpnW21scHxPc085WWxZLndLfjE9UFVBLWtBK2pIbGovd2g0UUF4VFhJaElDMi8tcEklLi5NZmp6MCxmNVBqUlNreWR6cVVSWXUsMys5Uj1nWGp3bU1BQkMsdDc2d19SdVpjU2tGclZ6b2ZHaHA3WSZ3SmZIa2liUXEuS3lNUGExYmdbJlBkQ2pDPW44d2M3MWU5RUNrZXxUeTNhQkUuPzI='});
+addLoadEvent(function(){linktracker_init('73508037',0);});
+	</script>
+<noscript><img src="http://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script></body>
+</html>

@@ -1,0 +1,1307 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<html>
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>May The Force Be Ever In Your Favor.</title>
+    	<!--
+
+		  Alva theme for GE.
+
+		-->
+
+		<meta name="color:Background" content="#FFFFFF"/>
+		<meta name="color:Box Background" content="#333333"/>
+		<meta name="color:Text" content="#FFFFFF"/>
+		<meta name="color:Post Text" content="#3976B1"/>
+		<meta name="color:Post Text Link" content="#66B5E0"/>
+		<meta name="color:Post Photo" content="#F42D33"/>
+		<meta name="color:Post Quote" content="#7AB762"/>
+		<meta name="color:Post Link" content="#000116"/>
+		<meta name="color:Post Chat" content="#F42D33"/>
+		<meta name="color:Post Chat Bubble" content="#FFFFFF"/>
+		<meta name="color:Post Audio" content="#FF9E28"/>
+		<meta name="color:Post Video" content="#F42D33"/>
+
+        <meta name="text:Disqus Shortname" content="" />
+
+        <meta name="font:Body" content="'ge_geek', Arial, helvetica, sans-serif;"/>
+        <meta name="font:Details" content="Arial, Helvetica, sans-serif"/>
+
+        <meta name="image:Background" content="0" />
+        <meta name="if:Background Image Repeat" content="0" />
+
+        <meta name="if:Italic Text" content="1"/>
+        <meta name="if:Nav Unit Ask Archive" content="1"/>
+        <meta name="if:Nav Unit Search Box" content="1"/>
+        <meta name="if:Nav Unit Social Buttons" content="1"/>
+        <meta name="if:Nav Unit Background Credit" content="1"/>
+        <meta name="if:Use Default Background" content="1"/>
+        <meta name="if:Box Shadow" content="1"/>
+        <meta name="if:Infinite Scroll" content="1"/>
+		
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="http://curiousmice.tumblr.com/rss"/>
+    	<link rel="icon" href="http://33.media.tumblr.com/avatar_ec7dedf909a3_128.png"/>
+    	<meta name="description" content="Just a young lady full of optimism &amp; a love for music, fashion, family, friends &amp; other such things/people that tickle my fancy &amp; inspire me to inspire. Enjoy."/>
+		
+        <!--[if lt IE 9]>
+   <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+   </script>
+<![endif]-->
+        
+        
+		<link href='http://static.tumblr.com/ychvj87/0nzmpbuvm/style_built.css' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+			body { 
+				font-family: 'ge_geek', Arial, helvetica, sans-serif;; 
+				color: #FFFFFF;
+				/*
+					background: #FFFFFF;*/
+					
+					/*background-position: top;
+					background-repeat: repeat;
+				*/
+
+				
+					background: url(http://static.tumblr.com/ychvj87/rekmavotn/geek_bg.gif);
+				
+				
+				background: #FFFFFF url('http://assets.tumblr.com/images/x.gif') top left fixed repeat;
+			}
+			a, .sound .postInner { color: #FFFFFF; }
+			.link .postInner h3 a { border-color: #FFFFFF; }
+			#search, .noteCount, .date, .tags li, .postBase .source { font-family: Arial, Helvetica, sans-serif; }
+			#icon, #mask, #baseCircle, .unit, article, .pagination a { background:#000000; }
+			.notFound { color: #000000; }
+			.cssgradients #edge-top:after, .cssgradients #edge-bottom:after, .unitWrap, .quote .quoteMeta:before, .quoteMeta:after, .nextPage:after, .nextPage:before { border-color: #000000; }
+			.cssgradients #mask {
+				background-image: -moz-radial-gradient(-10px 32px, circle closest-corner, transparent 0, transparent 36px, #000000 37px, #000000 38px);
+				background-image: -webkit-radial-gradient(-10px 32px, circle closest-corner, rgba(0,0,0,0) 0, rgba(0,0,0,0) 36px, #000000 37px, #000000 38px);
+				background-image: -ms-radial-gradient(-10px 32px, circle closest-corner, rgba(0,0,0,0) 0, rgba(0,0,0,0) 36px, #000000 37px, #000000 38px);
+				background-image: -o-radial-gradient(-10px 32px, circle closest-corner, rgba(0,0,0,0) 0, rgba(0,0,0,0) 36px, #000000 37px, #000000 38px);
+				background-image: radial-gradient(-10px 32px, circle closest-corner, rgba(0,0,0,0) 0, rgba(0,0,0,0) 36px, #000000 37px, #000000 38px);
+			}
+			.text .postInner { background: #3976B1; }
+			.text .postInner a, .text .postText a {color:#66B5E0;}
+			.photo .caption a { color:#F42D33; }
+			.photosets .caption a { color:#F42D33; }
+			.quote .postInner { background: #7AB762; 
+								color: #000000 !important; }
+			.link .postInner { background: #000116; }
+			.link .caption a { color:#F42D33; }
+			.conversation .postInner { background: #F42D33; color: #000000; }
+			.conversation .convo li { background: #FFFFFF; }
+			.conversation .convo li:after { border-top: 20px solid #FFFFFF !important; }
+			.sound .postInner { background: #FF9E28; }
+			.vid .caption a { color:#F42D33; }
+			#pages a:hover { color: #FF9E28; }
+			#links a:hover { color: #7AB762; }
+			#details a:hover { color: #3976B1; }
+
+			
+			
+
+			
+		</style>
+        
+        <!--[if lt IE 9]>
+    	<link rel="stylesheet" href="http://static.tumblr.com/k2ux24d/b1ymd92ex/geek_ie.css">
+		<![endif]-->
+	<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=curiousmice" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="May The Force Be Ever In Your Favor." /><meta property="og:url" content="http://curiousmice.tumblr.com/?og=1" /><meta property="og:description" content="Just a young lady full of optimism &amp; a love for music, fashion, family, friends &amp; other such..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_ec7dedf909a3_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=curiousmice" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=curiousmice" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="curiousmice" /><meta name="twitter:description" content="Just a young lady full of optimism &amp; a love for music, fashion, family, friends &amp; other such things/people that tickle my fancy &amp; inspire me to inspire. Enjoy.
+
+
+
+" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=curiousmice&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=curiousmice&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=curiousmice&amp;referrer=twitter-cards" />
+
+</head>
+
+	<body>
+		<div class="wrapper">
+			
+			<div class="colLeft">
+				<div id="stuck">
+					<a href="/"><div id="icon" class="inversePair" style="background: url('http://33.media.tumblr.com/avatar_ec7dedf909a3_64.png')"></div></a>
+					<div id="mask" class="inversePair">
+                        <span class="description">Just a young lady full of optimism & a love for music, fashion, family, friends & other such things/people that tickle my fancy & inspire me to inspire. Enjoy.</span>
+					</div>
+					<div class="unitWrap">
+                        
+						
+						<div id="details" class="unit">
+							<ul>
+                            
+                                <li><a href="/ask">real or not real? </a></li>
+                            
+							<li><a href="/archive">Past Posts</a></li>
+							</ul>
+						</div>
+						
+						
+						<div id="search" class="unit">
+							<form id="searchForm" onsubmit="return tagSearch(this)">
+								<input name="tag" type="text" value="Search Tags..."
+									onfocus="if(this.value == 'Search Tags...') { this.value = ''; }" 
+									onblur="if(this.value == '') { this.value = 'Search Tags...'; }" />
+								<input type="submit" value="S" />
+							</form>
+						</div>
+						
+						
+						<div id="social" class="unit">
+							<div class="socialButtons">
+								<a class="facebook">&nbsp;</a>
+								<a class="twitter">&nbsp;</a>
+								<a class="googleplus">&nbsp;</a>
+								<a class="stumble">&nbsp;</a>
+							</div>
+						</div>
+						
+						
+						<div id="about" class="unit">
+							Background Illustrations provided by: <a href="http://edison.rutgers.edu/">http://edison.rutgers.edu/</a>
+						</div>
+						
+					</div>
+					<div id="baseCircle"></div>
+				</div>
+			</div>
+
+			<div class="colRight">
+				
+				<div class="autopagerize_page_element" id="posts">
+				
+					<article class="photo">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://fashiondailymag.tumblr.com/post/97408540454/libertine" class="reblogLink">fashiondailymag</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/97420341179/libertine">21 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/97420341179/libertine">Posted 13, September, 2014</a></div>
+
+						
+
+						
+							<a href="http://curiousmice.tumblr.com/post/97420341179/libertine" class="imageLink"><img src="http://33.media.tumblr.com/0011b0043051ce054d2a3ff833415183/tumblr_nbutdaM4MF1qicox1o1_1280.jpg" alt="fashiondailymag:
+
+nail art + backstage details,&nbsp;LIBERTINE spring 2015 NYFW
+ph andrew werner FashionDailyMag
+" class="bustImage" /></a>
+							
+	                            <div class="caption"><p><a class="tumblr_blog" href="http://fashiondailymag.tumblr.com/post/97408540454/libertine">fashiondailymag</a>:</p>
+<blockquote>
+<p>nail art + backstage details, <a href="http://fashiondailymag.com/libertine-spring-2015-nyfw/">LIBERTINE spring 2015 NYFW</a></p>
+<p>ph andrew werner FashionDailyMag</p>
+</blockquote></div>
+	                        
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/97420341179/Fa094Kt8" data-id="97420341179" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/97420341179/Fa094Kt8" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1Qkj6_x&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1Qkj6_x+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1Qkj6_x" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1Qkj6_x&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photosets">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://futuredisneyprincessinthemaking.tumblr.com/post/97408646532/photographerpunzie-chickennuggetpower-some" class="reblogLink">futuredisneyprincessinthemaking</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/97420314719/photographerpunzie-chickennuggetpower-some">48,013 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/97420314719/photographerpunzie-chickennuggetpower-some">Posted 13, September, 2014</a></div>
+
+						
+
+						
+
+						
+							<div id="photoset_97420314719" class="html_photoset">    <iframe id="photoset_iframe_97420314719" class="photoset" scrolling="no" frameborder="0" height="974" width="700"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://curiousmice.tumblr.com/post/97420314719/photoset_iframe/curiousmice/tumblr_mt46m9Zo971qj50dh/700/false"></iframe></div>
+							
+	                            <div class="caption"><p><a class="tumblr_blog" href="http://photographerpunzie.tumblr.com/post/95403662151/chickennuggetpower-some-snazzy-looking-textless">photographerpunzie</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://chickennuggetpower.tumblr.com/post/61195427454/some-snazzy-looking-textless-disney-renaissance">chickennuggetpower</a>:</p>
+<blockquote>
+<p>Some snazzy looking textless Disney Renaissance posters I’ve come across so far.</p>
+</blockquote>
+<p>I adore the light in these</p>
+</blockquote></div>
+	                        
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/97420314719/kLUEoHbH" data-id="97420314719" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/97420314719/kLUEoHbH" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1Qkj0XV&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1Qkj0XV+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1Qkj0XV" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1Qkj0XV&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							    <!-- ><a href="http://chickennuggetpower.tumblr.com/post/61195427454/some-snazzy-looking-textless-disney-renaissance" class="source">
+							        Source: chickennuggetpower
+							    </a> -->
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photo">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://calivintage.tumblr.com/post/97409523884/via-double-or-nothing-convertible-trench-coat" class="reblogLink">calivintage</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/97420284584/calivintage-via-double-or-nothing-convertible">92 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/97420284584/calivintage-via-double-or-nothing-convertible">Posted 13, September, 2014</a></div>
+
+						
+
+						
+							<a href="http://curiousmice.tumblr.com/post/97420284584/calivintage-via-double-or-nothing-convertible" class="imageLink"><img src="http://31.media.tumblr.com/8ededd05e791c85e55df19b45cb9121a/tumblr_nbtqmp8gYl1qzln3yo1_1280.jpg" alt="calivintage:
+
+(via Double or Nothing Convertible Trench Coat | Shop Clothes at Nasty Gal)
+" class="bustImage" /></a>
+							
+	                            <div class="caption"><p><a class="tumblr_blog" href="http://calivintage.tumblr.com/post/97409523884/via-double-or-nothing-convertible-trench-coat">calivintage</a>:</p>
+<blockquote>
+<p>(via <a href="http://www.nastygal.com/clothes/double-or-nothing-convertible-trench-coat?utm_source=commission_junction&amp;utm_medium=affiliate&amp;utm_campaign=affiliate&amp;cj_linkd=11085047&amp;cj_webid=4441350&amp;cj_sid=n-p6iqhdv8w--1652015929&amp;cj_affid=2975314&amp;cj_affname=rewardStyle&amp;utm_content=2975314">Double or Nothing Convertible Trench Coat | Shop Clothes at Nasty Gal</a>)</p>
+</blockquote></div>
+	                        
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/97420284584/4lTSj8GF" data-id="97420284584" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/97420284584/4lTSj8GF" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1QkivAe&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1QkivAe+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1QkivAe" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1QkivAe&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photo">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://menswear.wantering.com/post/97412832652/nyfw-playing-dress-up" class="reblogLink">wantering-menswear</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/97420062344/nyfw-playing-dress-up">1,485 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/97420062344/nyfw-playing-dress-up">Posted 13, September, 2014</a></div>
+
+						
+
+						
+							<a href="http://curiousmice.tumblr.com/post/97420062344/nyfw-playing-dress-up" class="imageLink"><img src="http://33.media.tumblr.com/c44147fe203a218288f77544c0bbb74d/tumblr_nbr6yse9MD1r5clboo1_1280.gif" alt="" class="bustImage" /></a>
+							
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/97420062344/rqCig8t1" data-id="97420062344" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/97420062344/rqCig8t1" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1Qki2w8&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1Qki2w8+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1Qki2w8" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1Qki2w8&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							    <!-- ><a href="http://blog.wantering.com/post/97244949246/nyfw-playing-dress-up" class="source">
+							        Source: wantering-blog
+							    </a> -->
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photosets">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://youngpandas.tumblr.com/post/97415876489/superselected-hair-stories-new-works-from" class="reblogLink">youngpandas</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/97419735919/superselected-hair-stories-new-works-from">46,484 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/97419735919/superselected-hair-stories-new-works-from">Posted 13, September, 2014</a></div>
+
+						
+
+						
+
+						
+							<div id="photoset_97419735919" class="html_photoset">    <iframe id="photoset_iframe_97419735919" class="photoset" scrolling="no" frameborder="0" height="5009" width="700"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://curiousmice.tumblr.com/post/97419735919/photoset_iframe/curiousmice/tumblr_nayjqqevMI1sbarna/700/false"></iframe></div>
+							
+	                            <div class="caption"><p><a class="tumblr_blog" href="http://superselected.tumblr.com/post/95919396354/hair-stories-new-works-from-artist-nakeya-b">superselected</a>:</p>
+<blockquote>
+<p>Hair-stories. New Works From Artist Nakeya B.<br/><br/><a href="http://superselected.com/hair-stories-new-works-from-artist-nakeya-b"><strong>MORE.</strong></a></p>
+</blockquote></div>
+	                        
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/97419735919/gXys4n3I" data-id="97419735919" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/97419735919/gXys4n3I" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1QkgpDl&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1QkgpDl+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1QkgpDl" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1QkgpDl&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							    <!-- ><a href="http://superselected.tumblr.com/post/95919396354/hair-stories-new-works-from-artist-nakeya-b" class="source">
+							        Source: superselected
+							    </a> -->
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photo">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://teacupandjeans.tumblr.com/post/97417436504" class="reblogLink">teacupandjeans</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/97419406579">12,503 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/97419406579">Posted 13, September, 2014</a></div>
+
+						
+
+						
+							<a href="http://curiousmice.tumblr.com/post/97419406579" class="imageLink"><img src="http://33.media.tumblr.com/045ca4294f1c210226326a9bd26e9c27/tumblr_nbt5o2W2KK1r6ijl6o1_500.jpg" alt="" class="bustImage" /></a>
+							
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/97419406579/Gp8NDnMV" data-id="97419406579" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/97419406579/Gp8NDnMV" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1QkfYpp&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1QkfYpp+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1QkfYpp" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1QkfYpp&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							    <!-- ><a href="http://tiaraloveskandlupita.tumblr.com" class="source">
+							        Source: tiaraloveskandlupita
+							    </a> -->
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photosets">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://andrewc17.tumblr.com/post/97418149526" class="reblogLink">andrewc17</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/97419290994/xhaileyreneex-micdotcom-for-many-muslim">124,969 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/97419290994/xhaileyreneex-micdotcom-for-many-muslim">Posted 13, September, 2014</a></div>
+
+						
+
+						
+
+						
+							<div id="photoset_97419290994" class="html_photoset">    <iframe id="photoset_iframe_97419290994" class="photoset" scrolling="no" frameborder="0" height="5218" width="700"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://curiousmice.tumblr.com/post/97419290994/photoset_iframe/curiousmice/tumblr_nbr5vxMdqM1r83d7l/700/false"></iframe></div>
+							
+	                            <div class="caption"><p><a class="tumblr_blog" href="http://xhaileyreneex.tumblr.com/post/97417521501/micdotcom-for-many-muslim-americans-9-11-was-a">xhaileyreneex</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://micdotcom.tumblr.com/post/97243533764/for-many-muslim-americans-9-11-was-a-double-punch">micdotcom</a>:</p>
+<blockquote>
+<p><strong><a href="http://mic.com/articles/98674/heartbreaking-posts-by-muslim-americans-show-another-side-of-9-11-we-must-never-forget?utm_source=policymicTBLR&amp;utm_medium=main&amp;utm_campaign=social">For many Muslim Americans, 9/11 was a double punch of tragedy and bigotry</a></strong></p>
+<blockquote>
+<p>The actions of 19 Islamic extremists on 9/11 left an indelible mark on America. Today, millions pause to commemorate the attacks’ 13th anniversary, to honor the victims and to remember that all life is special and sacred. But there’s an untold story amid the many speeches and moments of silence — one filled with a different kind of pain, grief and strong sense of loss. </p>
+<p><strong><a href="http://mic.com/articles/98674/heartbreaking-posts-by-muslim-americans-show-another-side-of-9-11-we-must-never-forget?utm_source=policymicTBLR&amp;utm_medium=main&amp;utm_campaign=social">Those stories are now being told on social media</a></strong></p>
+</blockquote>
+</blockquote>
+<p>I once watched a documentary about 9/11 and the Mosque where a majority of the Muslims went to for safety were getting terrible calls from other people. Leaving messages they were going to kill their children and other awful things. It was a short segment but it stuck. 9/11 is unforgettable but how the Muslims have been treated shouldn’t be forgotten as well. </p>
+</blockquote></div>
+	                        
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/97419290994/1c9eSLfd" data-id="97419290994" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/97419290994/1c9eSLfd" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1Qkf6bo&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1Qkf6bo+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1Qkf6bo" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1Qkf6bo&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							    <!-- ><a href="http://micdotcom.tumblr.com/post/97243533764/for-many-muslim-americans-9-11-was-a-double-punch" class="source">
+							        Source: micdotcom
+							    </a> -->
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photo">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://fashiondailymag.tumblr.com/post/97418831056/jeweled" class="reblogLink">fashiondailymag</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/97419087164/fashiondailymag-jeweled">156,658 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/97419087164/fashiondailymag-jeweled">Posted 13, September, 2014</a></div>
+
+						
+
+						
+							<a href="http://curiousmice.tumblr.com/post/97419087164/fashiondailymag-jeweled" class="imageLink"><img src="http://33.media.tumblr.com/a8917cfc4424506245b2e7db5a317c69/tumblr_n6k2obVpPg1tskntoo1_1280.jpg" alt="fashiondailymag:
+
+jeweled
+" class="bustImage" /></a>
+							
+	                            <div class="caption"><p><a class="tumblr_blog" href="http://fashiondailymag.tumblr.com/post/97418831056/jeweled">fashiondailymag</a>:</p>
+<blockquote>
+<p>jeweled</p>
+</blockquote></div>
+	                        
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/97419087164/Pl0VZu4Q" data-id="97419087164" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/97419087164/Pl0VZu4Q" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1QkeKqy&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1QkeKqy+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1QkeKqy" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1QkeKqy&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							    <!-- ><a href="http://elgerry82.tumblr.com/post/87617724708" class="source">
+							        Source: elgerry82
+							    </a> -->
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photosets">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://nickwoosteronline.tumblr.com/post/94536800590/romantic-dystopia-aiden-shaw-for-the-rake" class="reblogLink">nickwoosteronline</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/94610565029/romantic-dystopia-aiden-shaw-for-the-rake">643 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/94610565029/romantic-dystopia-aiden-shaw-for-the-rake">Posted 13, August, 2014</a></div>
+
+						
+
+						
+
+						
+							<div id="photoset_94610565029" class="html_photoset">    <iframe id="photoset_iframe_94610565029" class="photoset" scrolling="no" frameborder="0" height="3156" width="700"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://curiousmice.tumblr.com/post/94610565029/photoset_iframe/curiousmice/tumblr_n9booezoIo1sys91p/700/false"></iframe></div>
+							
+	                            <div class="caption"><p><a class="tumblr_blog" href="http://romantic-dystopia.tumblr.com/post/92920538701/aiden-shaw-for-the-rake-magazine-x">romantic-dystopia</a>:</p>
+<blockquote>
+<p><em>Aiden Shaw for The Rake magazine (<a href="http://www.thefashionisto.com/aiden-shaw-dons-luxe-suits-rake-magazine/">X</a>)</em></p>
+</blockquote></div>
+	                        
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/94610565029/jrAuttw1" data-id="94610565029" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/94610565029/jrAuttw1" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1O7EgUb&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1O7EgUb+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1O7EgUb" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1O7EgUb&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							    <!-- ><a href="http://romantic-dystopia.tumblr.com/post/92920538701/aiden-shaw-for-the-rake-magazine-x" class="source">
+							        Source: romantic-dystopia
+							    </a> -->
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photosets">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://futuredisneyprincessinthemaking.tumblr.com/post/94512863048/offbeat-and-whimsical-to-live-would-be-an" class="reblogLink">futuredisneyprincessinthemaking</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/94513329819">77,203 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/94513329819">Posted 12, August, 2014</a></div>
+
+						
+
+						
+
+						
+							<div id="photoset_94513329819" class="html_photoset">    <iframe id="photoset_iframe_94513329819" class="photoset" scrolling="no" frameborder="0" height="893" width="700"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://curiousmice.tumblr.com/post/94513329819/photoset_iframe/curiousmice/tumblr_na6aizHLF11qakh43/700/false"></iframe></div>
+							
+	                            <div class="caption"><p><a class="tumblr_blog" href="http://offbeat-and-whimsical.tumblr.com/post/94503469777/to-live-would-be-an-awfully-big-adventure"> </a></p></div>
+	                        
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/94513329819/84GOrLQk" data-id="94513329819" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/94513329819/84GOrLQk" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1O1RlQR&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1O1RlQR+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1O1RlQR" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1O1RlQR&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							    <!-- ><a href="http://bellecs.tumblr.com/post/94494538761/to-live-would-be-an-awfully-big-adventure" class="source">
+							        Source: bellecs
+							    </a> -->
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photo">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://sharatkatariya.tumblr.com/post/94508837531" class="reblogLink">sharatkatariya</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/94513283539">122 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/94513283539">Posted 12, August, 2014</a></div>
+
+						
+
+						
+							<a href="http://curiousmice.tumblr.com/post/94513283539" class="imageLink"><img src="http://38.media.tumblr.com/914455fc98d216d2256a9dfcaeb9fe9d/tumblr_na6i8k9W1v1tdqfito1_1280.jpg" alt="" class="bustImage" /></a>
+							
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/94513283539/POpxZXyz" data-id="94513283539" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/94513283539/POpxZXyz" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1O1Ra7J&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1O1Ra7J+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1O1Ra7J" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1O1Ra7J&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photosets">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://nawmanreedus.tumblr.com/post/94510904082/comedy-is-acting-out-optimism" class="reblogLink">nawmanreedus</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/94513245909/comedy-is-acting-out-optimism">364 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/94513245909/comedy-is-acting-out-optimism">Posted 12, August, 2014</a></div>
+
+						
+
+						
+
+						
+							<div id="photoset_94513245909" class="html_photoset">    <iframe id="photoset_iframe_94513245909" class="photoset" scrolling="no" frameborder="0" height="989" width="700"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://curiousmice.tumblr.com/post/94513245909/photoset_iframe/curiousmice/tumblr_na6j7qg2g11sqtpg1/700/false"></iframe></div>
+							
+	                            <div class="caption"><blockquote>
+<div><em><span>Comedy is acting out optimism</span></em><em><span>.</span></em></div>
+</blockquote></div>
+	                        
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/94513245909/dw8GulLw" data-id="94513245909" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/94513245909/dw8GulLw" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1O1RQxL&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1O1RQxL+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1O1RQxL" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1O1RQxL&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photo">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://adthekidd.tumblr.com/post/93934842125/cruelfortune-dont-stop" class="reblogLink">adthekidd</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/93936206509/cruelfortune-dont-stop">20,256 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/93936206509/cruelfortune-dont-stop">Posted 5, August, 2014</a></div>
+
+						
+
+						
+							<a href="http://curiousmice.tumblr.com/post/93936206509/cruelfortune-dont-stop" class="imageLink"><img src="http://38.media.tumblr.com/05ed3003323556f7d5cf43182a01833e/tumblr_mhlv5v8AxM1r67umlo1_400.gif" alt="cruelfortune:
+
+Don&rsquo;t stop
+" class="bustImage" /></a>
+							
+	                            <div class="caption"><p><a class="tumblr_blog" href="http://cruelfortune.tumblr.com/post/42115495955/dont-stop">cruelfortune</a>:</p>
+<blockquote>
+<p><em>Don’t stop</em></p>
+</blockquote></div>
+	                        
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/93936206509/cyZQa02D" data-id="93936206509" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/93936206509/cyZQa02D" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1NV2CAj&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1NV2CAj+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1NV2CAj" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1NV2CAj&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							    <!-- ><a href="http://cruelfortune.tumblr.com" class="source">
+							        Source: cruelfortune
+							    </a> -->
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photo">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://thegeneha.tumblr.com/post/92142044866/librarians-are-heroes-everyday-poster-for-the" class="reblogLink">thegeneha</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/93853075819/thegeneha-librarians-are-heroes-everyday">3,912 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/93853075819/thegeneha-librarians-are-heroes-everyday">Posted 5, August, 2014</a></div>
+
+						
+
+						
+							<a href="http://curiousmice.tumblr.com/post/93853075819/thegeneha-librarians-are-heroes-everyday" class="imageLink"><img src="http://38.media.tumblr.com/0ed9e8df754a5a8f211dffd4bf8df8f9/tumblr_n8wrxmGFjk1tbpb00o1_1280.jpg" alt="thegeneha:
+
+&quot;Librarians Are Heroes Everyday&quot; poster for the ALA, aka&nbsp;americanlibraryassoc. Original color file.My wife is a redheaded librarian so I really enjoyed doing this one.
+" class="bustImage" /></a>
+							
+	                            <div class="caption"><p><a class="tumblr_blog" href="http://thegeneha.tumblr.com/post/92142044866/librarians-are-heroes-everyday-poster-for-the">thegeneha</a>:</p>
+<blockquote>
+<p>"Librarians Are Heroes Everyday" poster for the ALA, aka <a class="tumblelog" href="http://tmblr.co/matkjOb5lxxCaeMFriedpoA">americanlibraryassoc</a>. Original color file.<br/><br/>My wife is a redheaded librarian so I really enjoyed doing this one.</p>
+</blockquote></div>
+	                        
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/93853075819/NY6x0rwL" data-id="93853075819" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/93853075819/NY6x0rwL" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1NQ54bh&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1NQ54bh+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1NQ54bh" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1NQ54bh&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+					<article class="photosets">
+
+						<div class="noteCount">
+							
+								Reblogged from <a href="http://xxbeaconofhopexx.tumblr.com/post/93849978727" class="reblogLink">xxbeaconofhopexx</a>&nbsp;
+							
+
+							
+								<a href="http://curiousmice.tumblr.com/post/93852969644">67,560 notes</a>
+							
+						</div>
+						
+						<div class="date"><a href="http://curiousmice.tumblr.com/post/93852969644">Posted 5, August, 2014</a></div>
+
+						
+
+						
+
+						
+							<div id="photoset_93852969644" class="html_photoset">    <iframe id="photoset_iframe_93852969644" class="photoset" scrolling="no" frameborder="0" height="1415" width="700"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://curiousmice.tumblr.com/post/93852969644/photoset_iframe/curiousmice/tumblr_n9stthOemF1r89838/700/false"></iframe></div>
+							
+						
+
+						
+
+						
+
+						
+
+						
+						
+						
+
+						
+
+						<div class="postBase">
+							
+
+							
+							<div class="socialButtons">
+								<div class="my-like" data-reblog="https://www.tumblr.com/reblog/93852969644/DchvSYIZ" data-id="93852969644" title="Like">&nbsp;</div>
+								<a href="https://www.tumblr.com/reblog/93852969644/DchvSYIZ" class="reblog">&nbsp;</a>
+								<a href="http://www.facebook.com/share.php?u=http://tmblr.co/ZJP11y1NQ4ggi&title=" class="facebook">&nbsp;</a>
+								<a href="http://twitter.com/home?status=+http://tmblr.co/ZJP11y1NQ4ggi+@generalelectric" class="twitter">&nbsp;</a>
+								<a href="https://plus.google.com/share?url=http://tmblr.co/ZJP11y1NQ4ggi" class="googleplus">&nbsp;</a>
+								<a href="http://www.stumbleupon.com/submit?url=http://tmblr.co/ZJP11y1NQ4ggi&title=" class="stumble">&nbsp;</a>
+							</div>
+							
+							    <!-- ><a href="http://peterquillj.tumblr.com/post/93804287546" class="source">
+							        Source: peterquillj
+							    </a> -->
+							
+							
+
+
+						</div>
+					</article>
+
+					
+					
+				
+				</div>
+
+				
+				
+					<div class="pagination">
+					
+					
+						<a href="/page/2" class="nextPage">Next</a>
+					
+					</div>
+				
+				
+
+			</div>
+		</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.1/modernizr.min.js"></script>
+		<script src="http://static.tumblr.com/ychvj87/1Uempbuul/geek_built.js"></script>
+		
+		<script>
+			var url = window.location.href
+			,	fbShare = 'http://www.facebook.com/share.php?u='+url+'&title=May The Force Be Ever In Your Favor.'
+			,	twShare = 'http://twitter.com/home?status='+url+'+May The Force Be Ever In Your Favor.'
+			,	ggShare = 'https://plus.google.com/share?url='+url
+			,	stShare = 'http://www.stumbleupon.com/submit?url='+url+'&title=May The Force Be Ever In Your Favor.';
+
+			$('#social .facebook').attr('href',fbShare);
+			$('#social .twitter').attr('href',twShare);
+			$('#social .googleplus').attr('href',ggShare);
+			$('#social .stumble').attr('href',stShare);
+		</script>
+		
+
+	    <iframe id="my-like-frame" style="display:none;"></iframe>
+	<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://curiousmice.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037836&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvY3VyaW91c21pY2UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=OMJLMMCICO&K=f735e7523c1c8d273855a8ae3e148a1b047bcc50c3c34f7e4e80011d9829a069&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037836&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvY3VyaW91c21pY2UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=OMJLMMCICO&K=52b5957bac2e4f4521fc7fee40dd4fcb348c87f7cc74210c0e589520a9024ca6&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037836&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2N1cmlvdXNtaWNlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxNjA5MjA5NyIsInJvb3RfcG9zdGlkIjoiOTc0MDg1NDA0NTQiLCJwb3N0aWQiOiI5NzQyMDM0MTE3OSIsImJsb2dpZCI6Ijk2Nzc1NDUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTY4MjQ1ODIiLCJyb290X3Bvc3RpZCI6NjExOTU0Mjc0NTQsInBvc3RpZCI6Ijk3NDIwMzE0NzE5IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzkzNTY5Iiwicm9vdF9wb3N0aWQiOiI5NzQwOTUyMzg4NCIsInBvc3RpZCI6Ijk3NDIwMjg0NTg0IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMjkxODIxOSIsInJvb3RfcG9zdGlkIjoiOTcyNDQ5NDkyNDYiLCJwb3N0aWQiOiI5NzQyMDA2MjM0NCIsImJsb2dpZCI6Ijk2Nzc1NDUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTI1MTc3Mzc1Iiwicm9vdF9wb3N0aWQiOiI5NTkxOTM5NjM1NCIsInBvc3RpZCI6Ijk3NDE5NzM1OTE5IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNDg3NTUzNCIsInJvb3RfcG9zdGlkIjoiOTczMzMzNzU4MTMiLCJwb3N0aWQiOiI5NzQxOTQwNjU3OSIsImJsb2dpZCI6Ijk2Nzc1NDUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzY5MTk2NzgiLCJyb290X3Bvc3RpZCI6OTcyNDM1MzM3NjQsInBvc3RpZCI6Ijk3NDE5MjkwOTk0IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9XX0=&U=PNJCDGNDIP&K=83786da8c24d1a9bd1d10fcd965596cc61ba896fae90fe128499e8e35477b2c9&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037836&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2N1cmlvdXNtaWNlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxNjA5MjA5NyIsInJvb3RfcG9zdGlkIjoiOTc0MDg1NDA0NTQiLCJwb3N0aWQiOiI5NzQyMDM0MTE3OSIsImJsb2dpZCI6Ijk2Nzc1NDUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTY4MjQ1ODIiLCJyb290X3Bvc3RpZCI6NjExOTU0Mjc0NTQsInBvc3RpZCI6Ijk3NDIwMzE0NzE5IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzkzNTY5Iiwicm9vdF9wb3N0aWQiOiI5NzQwOTUyMzg4NCIsInBvc3RpZCI6Ijk3NDIwMjg0NTg0IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzMjkxODIxOSIsInJvb3RfcG9zdGlkIjoiOTcyNDQ5NDkyNDYiLCJwb3N0aWQiOiI5NzQyMDA2MjM0NCIsImJsb2dpZCI6Ijk2Nzc1NDUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTI1MTc3Mzc1Iiwicm9vdF9wb3N0aWQiOiI5NTkxOTM5NjM1NCIsInBvc3RpZCI6Ijk3NDE5NzM1OTE5IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNDg3NTUzNCIsInJvb3RfcG9zdGlkIjoiOTczMzMzNzU4MTMiLCJwb3N0aWQiOiI5NzQxOTQwNjU3OSIsImJsb2dpZCI6Ijk2Nzc1NDUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzY5MTk2NzgiLCJyb290X3Bvc3RpZCI6OTcyNDM1MzM3NjQsInBvc3RpZCI6Ijk3NDE5MjkwOTk0IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=PNJCDGNDIP&K=67b6a776afad4427a2e35d9e3180d7dfa639423bd393fb639224e257e99f1e84&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037836&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2N1cmlvdXNtaWNlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxNzA5ODg1ODciLCJyb290X3Bvc3RpZCI6Ijg3NjE3NzI0NzA4IiwicG9zdGlkIjoiOTc0MTkwODcxNjQiLCJibG9naWQiOiI5Njc3NTQ1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExOTc1ODQ2NCIsInJvb3RfcG9zdGlkIjoiOTI5MjA1Mzg3MDEiLCJwb3N0aWQiOiI5NDYxMDU2NTAyOSIsImJsb2dpZCI6Ijk2Nzc1NDUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzA1MjQ2NyIsInJvb3RfcG9zdGlkIjoiOTQ0OTQ1Mzg3NjEiLCJwb3N0aWQiOiI5NDUxMzMyOTgxOSIsImJsb2dpZCI6Ijk2Nzc1NDUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg4NTU1MTE2Iiwicm9vdF9wb3N0aWQiOiI5NDUwODgzNzUzMSIsInBvc3RpZCI6Ijk0NTEzMjgzNTM5IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDYzNzMwNzciLCJyb290X3Bvc3RpZCI6Ijk0NTEwOTA0MDgyIiwicG9zdGlkIjoiOTQ1MTMyNDU5MDkiLCJibG9naWQiOiI5Njc3NTQ1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMzNzM2NDE0Iiwicm9vdF9wb3N0aWQiOiI0MjExNTQ5NTk1NSIsInBvc3RpZCI6IjkzOTM2MjA2NTA5IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODUxNDI5MTIiLCJyb290X3Bvc3RpZCI6IjkyMTQyMDQ0ODY2IiwicG9zdGlkIjoiOTM4NTMwNzU4MTkiLCJibG9naWQiOiI5Njc3NTQ1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjM3MTc2MTE2Iiwicm9vdF9wb3N0aWQiOiI5MzgwNDI4NzU0NiIsInBvc3RpZCI6IjkzODUyOTY5NjQ0IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9XX0=&U=MKDEIFLJIK&K=47094129a90ba1803632db2ff8ee742db113e360f07978a1307fa3ec51830ec4&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037836&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2N1cmlvdXNtaWNlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxNzA5ODg1ODciLCJyb290X3Bvc3RpZCI6Ijg3NjE3NzI0NzA4IiwicG9zdGlkIjoiOTc0MTkwODcxNjQiLCJibG9naWQiOiI5Njc3NTQ1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExOTc1ODQ2NCIsInJvb3RfcG9zdGlkIjoiOTI5MjA1Mzg3MDEiLCJwb3N0aWQiOiI5NDYxMDU2NTAyOSIsImJsb2dpZCI6Ijk2Nzc1NDUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzA1MjQ2NyIsInJvb3RfcG9zdGlkIjoiOTQ0OTQ1Mzg3NjEiLCJwb3N0aWQiOiI5NDUxMzMyOTgxOSIsImJsb2dpZCI6Ijk2Nzc1NDUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTg4NTU1MTE2Iiwicm9vdF9wb3N0aWQiOiI5NDUwODgzNzUzMSIsInBvc3RpZCI6Ijk0NTEzMjgzNTM5IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDYzNzMwNzciLCJyb290X3Bvc3RpZCI6Ijk0NTEwOTA0MDgyIiwicG9zdGlkIjoiOTQ1MTMyNDU5MDkiLCJibG9naWQiOiI5Njc3NTQ1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMzNzM2NDE0Iiwicm9vdF9wb3N0aWQiOiI0MjExNTQ5NTk1NSIsInBvc3RpZCI6IjkzOTM2MjA2NTA5IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODUxNDI5MTIiLCJyb290X3Bvc3RpZCI6IjkyMTQyMDQ0ODY2IiwicG9zdGlkIjoiOTM4NTMwNzU4MTkiLCJibG9naWQiOiI5Njc3NTQ1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjM3MTc2MTE2Iiwicm9vdF9wb3N0aWQiOiI5MzgwNDI4NzU0NiIsInBvc3RpZCI6IjkzODUyOTY5NjQ0IiwiYmxvZ2lkIjoiOTY3NzU0NSIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=MKDEIFLJIK&K=ea69efee7140e92cb1530e1a83652f56dadd07b8aaac38ecd5a57368b57dbbf0&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:9677545,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fcuriousmice.tumblr.com%2F&amp;lang=en_US&amp;name=curiousmice&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_ec7dedf909a3_64.png&amp;title=May+The+Force+Be+Ever+In+Your+Favor.&amp;url=http%3A%2F%2Fcuriousmice.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fcuriousmice.tumblr.com%2F&amp;lang=en_US&amp;name=curiousmice&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_ec7dedf909a3_64.png&amp;title=May+The+Force+Be+Ever+In+Your+Favor.&amp;url=http%3A%2F%2Fcuriousmice.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

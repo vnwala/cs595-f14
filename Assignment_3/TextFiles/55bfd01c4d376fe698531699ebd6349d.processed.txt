@@ -1,0 +1,859 @@
+   #[1]lewisroberts.com » Feed [2]lewisroberts.com » Comments Feed
+
+[3]lewisroberts.com
+
+   [4]Search
+   (BUTTON) Primary Menu [5]Skip to content
+   Search for: ____________________ Search
+   [6]Windows Server 2012 R2
+   [7]General
+
+[8]Windows Server 2012 R2 Upgrades
+
+   [9]Photography
+
+[10]Goldfinch Perch
+
+   [11]General
+
+[12]PowerShell .NET and GUI Interfaces
+
+   [13]Sat 5th April, 2014 [14]Lewis [15]Leave a comment
+
+   I’ve been grabbing a bit of software from Technet (you know, that thing
+   that Microsoft are shutting down!
+Function Get-FileName($initialDirectory)
+{
+ [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") |  Ou
+t-Null
+
+ $OpenFileDialog = New-Object System.Windows.Forms.OpenFileDialog
+ $OpenFileDialog.initialDirectory = $initialDirectory
+ $OpenFileDialog.filter = "All files (*.*)| *.*"
+
+ $OpenFileDialog.ShowDialog() | Out-Null
+ $OpenFileDialog.filename
+} #end function Get-FileName
+
+#We’re going to draw a form.
+[System.Reflection.Assembly]::LoadWithPartialName(“System.Windows.Forms”) | Out-
+Null
+
+#Open a GUI for the user to select the file.
+$Filename = Get-FileName -initialDirectory "C:\"
+
+# Check that the path is correct
+If (!(Test-Path $Filename)) { Exit }
+
+# Create Input Data (Read the file)
+$File = [System.IO.File]::Open($Filename, "open", "read")
+
+# Create a New SHA1 Crypto Provider
+$Sha1 = New-Object System.Security.Cryptography.SHA1CryptoServiceProvider
+
+# Output the hash (converted to Hex)
+$Hash = [String]::Concat(($Sha1.ComputeHash($File) | % { $_.ToString("x2") }))
+
+#[System.Windows.Forms.MessageBox]::Show("$Hash", "SHA1 Hash", 0)
+
+
+# Create a GUI Form
+$objForm = New-Object System.Windows.Forms.Form
+$objForm.Text = “SHA1 Hash Calculator/Comparison Tool”
+$objForm.MaximumSize = $objForm.MinimumSize = $objForm.Size = New-Object System.
+Drawing.Size(400,250)
+$objForm.MaximizeBox = $objForm.MinimizeBox = $false
+$objForm.StartPosition = “CenterScreen”
+
+# Add a label
+$oTitle = New-Object System.Windows.Forms.Label
+$oTitle.Location = New-Object System.Drawing.Size(5,5)
+$oTitle.Size = New-Object System.Drawing.Size(385,40)
+$oTitle.Text = "The calculated hash for your selected file is shown below. You c
+an paste a known hash and compare the two by clicking the compare button."
+$objForm.Controls.Add($oTitle)
+
+#File Label
+$oFileLabel = New-Object System.Windows.Forms.Label
+$oFileLabel.Location = New-Object System.Drawing.Size(5,(53))
+$oFileLabel.Size = New-Object System.Drawing.Size(105,20)
+$oFileLabel.Text = “File:”
+$objForm.Controls.Add($oFileLabel)
+
+# Add a Textbox
+$oFileTB = New-Object System.Windows.Forms.TextBox
+$oFileTB.Location = New-Object System.Drawing.Size(($oFileLabel.Left + $oFileLab
+el.Width + 5),($oFileLabel.Top -3))
+$oFileTB.Size = New-Object System.Drawing.Size(265,20)
+$oFileTB.Text = $Filename.ToString()
+$oFileTB.ReadOnly = $true
+$objForm.Controls.Add($oFileTB)
+
+# Add a Richtextbox
+#$oTitle = New-Object System.Windows.Forms.RichTextBox
+#$oTitle.Location = New-Object System.Drawing.Size(0,0)
+#$oTitle.Size = New-Object System.Drawing.Size(385,45)
+
+#$oTitle.Rtf = "{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2057{\fonttbl{\f
+0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fnil\fcharset0 Calibri;}}
+#{\*\generator Riched20 6.3.9600}\viewkind4\uc1
+#\pard\sa200\sl276\slmult1\f0\fs16\lang9 The calculated hash for your selected f
+ile \b ("+$Filename.Replace("\", "\\")+")\b0  is shown below. You can paste a kn
+own hash and compare the two by clicking the compare button.\f1\fs22\par
+#}"
+#$oTitle.ScrollBars = "None"
+#$oTitle.ReadOnly = $True
+
+#$objForm.Controls.Add($oTitle)
+
+
+# Add a label
+$objLabel = New-Object System.Windows.Forms.Label
+$objLabel.Location = New-Object System.Drawing.Size(5,(53+50)) # Everything else
+s location is calculated in reference to this.
+$objLabel.Size = New-Object System.Drawing.Size(105,20)
+$objLabel.Text = “Calculated SHA1:”
+#$objLabel.TextAlign = "MiddleRight"
+$objForm.Controls.Add($objLabel)
+
+# Add another label
+$objLabel2 = New-Object System.Windows.Forms.Label
+$objLabel2.Text = "Comparison SHA1:"
+#$objLabel2.TextAlign = "MiddleRight"
+$objLabel2.Location = New-Object System.Drawing.Point ($objLabel.Left, ($objLabe
+l.Height + $objLabel.Top + 10))
+$objLabel2.Size = New-Object System.Drawing.Size(105,20)
+$objForm.Controls.Add($objLabel2)
+
+# Add a Textbox
+$objTextBox = New-Object System.Windows.Forms.TextBox
+$objTextBox.Location = New-Object System.Drawing.Size(($objLabel.Left + $objLabe
+l.Width + 5),($objLabel.Top -3))
+$objTextBox.Size = New-Object System.Drawing.Size(265,20)
+$objTextBox.Text = $Hash
+$objTextBox.ReadOnly = $true
+$objForm.Controls.Add($objTextBox)
+
+# Add comparison box
+$objSuppliedVal = New-Object System.Windows.Forms.TextBox
+$objSuppliedVal.Location = New-Object System.Drawing.Point ($ObjTextBox.Left, ($
+objTextBox.Height + $objTextBox.Top + 10))
+$objSuppliedVal.Size = New-Object System.Drawing.Size(265,20)
+$objForm.Controls.Add($objSuppliedVal)
+
+# Add an Exit button
+$ExitButton = New-Object System.Windows.Forms.Button
+#$ExitButton.Location = New-Object System.Drawing.Size(300,100)
+$ExitButton.Location = New-Object System.Drawing.Point (($ObjTextBox.Right – 75)
+, ($objSuppliedVal.Height + $objSuppliedVal.Top + 10))
+$ExitButton.Size = New-Object System.Drawing.Size(75,23)
+$ExitButton.Text = “Exit”
+#$ExitButton.Add_Click({$objForm.Close()})
+$objForm.CancelButton = $ExitButton
+$objForm.Controls.Add($ExitButton)
+
+# Add compare button
+$CompareButton = New-Object System.Windows.Forms.Button
+$CompareButton.Location = New-Object System.Drawing.Point (($ExitButton.Left – $
+ExitButton.Width – 10), ($objSuppliedVal.Height + $objSuppliedVal.Top + 10))
+#$CompareButton.Location = New-Object System.Drawing.Size($ExitButton.Left – $Ex
+itButton.Width – 10,100)
+$CompareButton.Size = New-Object System.Drawing.Size(75,23)
+$CompareButton.Text = “Compare”
+$CompareButton.Add_Click({
+
+    $SuppliedValue = $objSuppliedVal.Text.ToLower()
+    $CalculatedValue = $objTextBox.Text.ToLower()
+
+    $MsgBoxButtons = New-Object System.Windows.Forms.MessageBoxButtons
+    $MsgBoxIcon = New-Object System.Windows.Forms.MessageBoxIcon
+
+    If ($SuppliedValue -eq $CalculatedValue) {
+
+        $MsgBoxButtons = "OK"
+        $MsgBoxIcon = "Information"
+
+        [System.Windows.Forms.MessageBox]::Show("Matched successfully.", "Succes
+s", $MsgBoxButtons, $MsgBoxIcon)
+
+    }
+    Else {
+
+        $MsgBoxButtons = "OK"
+        $MsgBoxIcon = "Warning"
+
+        [System.Windows.Forms.MessageBox]::Show("Not matched.", "Not matched", $
+MsgBoxButtons, $MsgBoxIcon)
+
+    }
+
+
+
+})
+$objForm.Controls.Add($CompareButton)
+
+
+$objForm.Topmost = $true
+$objForm.ShowDialog()
+
+
+
+# Clear up
+$File.Dispose()
+
+   All that lot should give you:
+   A prompt to select the file you want to calculate the hash of
+   Open Dialog
+   The hash result
+   Hash Result
+   And then, if you supply a hash and click the Compare button, it’ll say
+   either
+   Match Success Match Failure
+
+   Now I’m sure there are PowerShell gurus out there that could have all
+   this done in 4 lines of code but it was a learning experience so the
+   code is always likely to be a little more verbose than is absolutely
+   necessary.
+
+   Feel free to use the code but plug me as a source if you’re going to
+   use the code on your own blog if you wouldn’t mind.
+
+   -Lewis
+   [16]General
+
+[17]HTML5 Canvas Scaling
+
+   [18]Wed 2nd April, 2014 [19]Lewis [20]Leave a comment
+
+   Recently I’ve had some time to fettle with things other than
+   Infrastructure and Windows servers so I’ve decided to do [21]my company
+   website with HTML 5. It’s nothing special but as part of my tinkering,
+   I created a new logo and I thought it’d be cool to re-create it in
+   HTML5 Canvas so it was unique and somewhat versatile.
+
+   The process starts out as quite a difficult task. How on earth do you
+   re-create a logo by drawing some lines? Well, to cut a long story
+   short, I opened it up in my favourite vector drawing app (the one I
+   used to create it) and just copied the x,y coordinates of the anchor
+   points on to an HTML5 canvas that was the same size as the artboard the
+   illustration was on.
+
+   First you’ll need a canvas element on your HTML5 page. Something like:
+
+   Pay attention to the width and height declarations since this is the
+   canvas size (in pixels) you’re drawing on.
+<canvas id="logo" height="102" width="102">Browser says no...&lt;canvas&gt;</can
+vas>
+
+   The end result is pretty cool. All of this:
+
+function drawLogo(target) {
+var element = document.getElementById(target);
+var canvas = element.getContext("2d");
+
+/*
+Originally drawn on 102px x 102px canvas (it wouldn't go smaller without distort
+ing!)
+Use this scale (the original canvas size)
+to calculate the appropriate scaling values for
+the intended target canvas.
+*/
+
+var oScaleY = 102;
+var oScaleX = 102;
+
+canvas.scale ((element.width / oScaleX), (element.height / oScaleY)); //Scale th
+e canvas to fit the canvas object's width height.
+
+canvas.beginPath();
+
+canvas.moveTo(5, 4); // Starting Point
+canvas.lineTo(5, 30);
+canvas.lineTo(23, 30);
+canvas.lineTo(23, 40);
+canvas.lineTo(5, 40);
+canvas.lineTo(5, 66);
+canvas.lineTo(23, 66);
+canvas.lineTo(23, 77);
+canvas.lineTo(5, 77);
+canvas.lineTo(5, 103);
+canvas.lineTo(90, 103);
+canvas.lineTo(98, 90);
+canvas.lineTo(90, 77);
+canvas.lineTo(79, 77);
+canvas.lineTo(79, 66);
+canvas.lineTo(84, 66);
+canvas.lineTo(92, 53);
+canvas.lineTo(84, 40);
+canvas.lineTo(79, 40);
+canvas.lineTo(79, 30);
+canvas.lineTo(92, 30);
+canvas.lineTo(100, 17);
+canvas.lineTo(92, 4);
+
+canvas.closePath();
+
+// Seemingly the gradient size must be based on the original drawn canvas.
+var grad = canvas.createLinearGradient(0,oScaleX,0,0);
+
+grad.addColorStop(0, "rgb(46,92,139)");
+grad.addColorStop(0.25, "rgb(0,113,188)");
+
+canvas.fillStyle = grad; // Set the gradient as the fill colour.
+
+canvas.fill(); // Fill the closed path (with the gradient)
+
+canvas.fillStyle = "rgb(255,255,255)"; // Set a new fill colour (white)
+canvas.fillRect(29, 30, 44, 10); // Create a filled (white) rectangle.
+
+canvas.beginPath();
+
+canvas.moveTo(29, 66);
+canvas.lineTo(29, 77);
+canvas.lineTo(64, 77);
+canvas.lineTo(64, 81);
+canvas.lineTo(73, 81);
+canvas.lineTo(73, 62);
+canvas.lineTo(64, 62);
+canvas.lineTo(64, 66);
+
+canvas.closePath();
+
+canvas.fill();
+}
+
+drawLogo("logo"); // Actually draw the logo
+
+
+   Gives you something looking like this:
+
+   Anyway, I’m not here to teach you how to re-create my company logo in
+   HTML5, needless to say, that’s what it looks like. The JavaScript
+   function above does some clever scaling so if your intended target
+   HTML5 canvas element defines its height and width as something other
+   than what you drew the original anchor points on, it’ll scale to that
+   appropriately. To explain, I originally drew this on a 102px x 102px
+   canvas so all the canvas.lineTo declarations relate to that size
+   canvas. Say I want to scale it up to say 300px x 300px, I can use the
+   canvas.scale method to achieve that so this bit of code calculates the
+   scaling factor and applies that to the canvas which helps to retain
+   quality when it’s scaled unlike bitmaps which, as we know, don’t scale
+   well.
+/*
+Originally drawn on 102px x 102px canvas (it wouldn't go smaller without distort
+ing!)
+Use this scale (the original canvas size)
+to calculate the appropriate scaling values for
+the intended target canvas.
+*/
+
+var oScaleY = 102;
+var oScaleX = 102;
+
+canvas.scale ((element.width / oScaleX), (element.height / oScaleY)); //Scale th
+e canvas to fit the canvas object's width height.
+
+   Now, as we look at the site on a desktop PC, the logo looks great and
+   is razor sharp. It’ll scale up nicely in multiples of 2 by adjusting
+   the canvas element’s width and height properties and retain its
+   sharpness but values other than that will give you blurred edges.
+   Still, SVG does the same thing as far as I can tell from my own
+   eyesight.
+
+   So what’s the problem? Well, given that the new site is supposed to be
+   responsive design and degrade (I think I’ll call it re-grading since
+   there’s no loss of functionality for my site) for mobile and tablet,
+   when you look at that image on a mobile or tablet, it looks blurred
+   because the devicePixelRatio is greater than 1 and the image is scaled
+   up by the device but retains the original dimensions as defined on the
+   canvas element itself.
+
+   On a Nexus 5 with a devicePixelRatio of 3 (at least that’s what its
+   browser tells me it is) this blurriness is quite profound and looks
+   something like this which, for a sharp site, looks shocking compared to
+   the HTML5 SVG above.
+
+   nexus5_screenshot
+
+   nexus7_screenshot
+
+   So, the fix to me seems logical: you should scale the canvas element up
+   by the declared devicePixelRatio amount, let the scaling calculation in
+   the drawing function handle the actual size that comes out and scale
+   back using CSS.
+
+   So, here’s the extra code before we call our drawLogo function:
+// Upscale the canvas element for mobile HiDPI screens.
+// It gets scaled down again to the original size by CSS.
+// Keeps the HTML5 canvas sharp on all screen types.
+
+var canvas = document.getElementById("logo");
+canvas.width = canvas.width * window.devicePixelRatio;
+canvas.height = canvas.height * window.devicePixelRatio;
+
+   To retain the 102px x 102px image size that we originally intended for
+   our canvas (remember this works for other sizes too!) and for it to
+   look good (not just a bigger image) we need to use CSS to keep the
+   canvas element’s dimensions at what we originally intended for our
+   canvas.
+canvas {
+height: 102px;
+width: 102px;
+}
+
+   In essence what I’ve done is to increase the dimensions of the canvas
+   element proportionally to the devicePixelRatio so, if the
+   devicePixelRatio is 3, the in-flight JavaScript resizes the entire
+   element to: width = (102 x 3), height = (102 x 3). The increased size
+   of the canvas element is passed to the drawLogo function which creates
+   an image 3 times the size. This is then drawn on to the canvas which is
+   then styled using CSS back down to 102px. The best way to think of this
+   is like using an oversized PNG scaled down within the img dimensions so
+   it looks OK on mobile devices.
+   The end result is images that are sharp and consistent across desktop,
+   tablet and mobile screens:
+
+   nexus7_improved
+
+   nexus5_improved
+
+   desktop_original
+
+   NB: Please remember that I’ve only been able to test this with the
+   limited hardware available to me, all of which are Android devices.
+   Nexus 5, Nexus 7 (2012 and 2013), Samsung Galaxy Nexus and of course my
+   Windows 8.1 desktop. If you get different or inconsistent results with
+   your devices, please let me know!
+   [22]General
+
+[23]Managed Service Accounts in Windows 2012
+
+   [24]Wed 8th May, 2013 [25]Lewis [26]Leave a comment
+
+   One for the notebook if you tend to use Managed Service Accounts
+   extensively and eventually end up implementing them in a Windows Server
+   2012 environment.
+
+     For Windows Server 2012, the Windows PowerShell cmdlets default to
+     managing the group Managed Service Accounts instead of the original
+     standalone Managed Service Accounts.
+
+   A useful alteration but surely retaining the default use and extending
+   the cmdlet would make it less prone to us admins using MSAs regularly
+   to smashing up keyboards.
+
+   -Lewis
+   [27]General
+
+[28]Active Directory Recycle Bin
+
+   [29]Thu 18th April, 2013 [30]Lewis [31]Leave a comment
+
+   Windows Server 2008 R2 delivered a new feature called the Active
+   Directory Recycle Bin which offers the ability to restore items deleted
+   from the Active Directory database by restoring them from the Recycle
+   Bin with the simplicity of….well, it’s not really that simple.
+
+   The premise is simple enough. You’ve deleted an item that you want to
+   restore so instead of breaking out the backups, taking down a Domain
+   Controller, booting in to DSRM and re-acquanting yourself with
+   NTDSUTIL, you enable the Recycle Bin to save you all that hassle.
+
+   But wait a minute! Before enabling the Active Directory Recycle Bin
+   (ADRB) there are a couple of caveats which you should be aware of. Now,
+   Microsoft will tell you what you need to enable your use of ADRB such
+   as:
+     * Forest Functional Level: Windows Server 2008 R2.
+     * All Domain Controllers running Windows Server 2008R2
+
+   …but the limits that enabling Active Directory Recycle Bin can have on
+   restore operations is significant enough to ensure that your Backup
+   Operators and Data Security personnel need to be consulted before you
+   make a unilateral decision to enable it.
+    1. Enabling ADRB transitions all currently Tombstoned (deleted)
+       objects to the new Recycled object state. This effectively means
+       that current Tombstoned objects (objects deleted in the last 180
+       days) should never be restored, either through object reanimation
+       or via an authoritative restore.
+    2. Similar to the above, once an object reaches the Recycled object
+       state (after 180 days of being a Logically Deleted object) it
+       cannot be restored or recovered from backup. Microsoft recommends
+       that you do not use authoritative restores at all after enabling
+       ADRB and that you only use ADRB to restore objects during their
+       deleted object lifetime (DOL). This article:
+       http://technet.microsoft.com/en-us/library/dd379542(WS.10).aspx
+       details the recommendation which effectively means that restores
+       must be done within the deleted object lifetime or you should
+       consider the object completely unrecoverable. The deleted object
+       lifetime can be adjusted at the expense of an increased AD database
+       size and replication traffic but the default is 180 days.
+    3. ADRB cannot restore changed objects – this must be done using an
+       authoritative restore while the object is still live. Hopefully the
+       proper use of change processes in your organisation should
+       minimise the eventuality of this occurring and permit the ability
+       to simply undo a change but we all know what happens in the real
+       world.
+    4. Enabling ADRB results in the size of your Active Directory
+       database increasing (and consequently the replication bandwidth
+       requirements) to accommodate the new object states before objects
+       deleted are completely removed from the database. The increase is
+       dependent on the amount and type of objects created and deleted but
+       since there is a new object state, the time the objects remain in
+       the database is effectively doubled.
+
+   Once each of these discussion points has been thoroughly considered
+   should you look at enabling the Active Directory Recycle Bin.
+
+   I know this subject is fairly old hat given that Windows Server 2012 is
+   now available but I’m still astonished by the numbers of Active
+   Directories that I come across that aren’t making use of the Active
+   Directory Recycle Bin. Reading the pro-tip (can I call myself a pro?)
+   enabling it in Windows Server 2012 is pretty much a no-brainer with the
+   easy-peasy GUI on offer, just be mindful of the implications.
+
+   Pro tip: Although the procedure for using the Recycle Bin is currently
+   based on PowerShell, Windows Server 2012 provides a Graphical User
+   Interface to permit much simpler use of the Recycle Bin feature.
+
+   Admission: I actually wrote this article nearly 12 months ago but never
+   finished it or published it – since then Windows Server 2012 has been
+   released so I’ve made mention of that in the article.
+   [32]General
+
+[33]And just like that…
+
+   [34]Thu 20th December, 2012 [35]Lewis [36]Leave a comment
+
+   I’m no longer looking for new challenges in 2013! I have one ready to
+   go and it sounds fantastic. I’m looking forward to helping my next
+   employer bring their network infrastructure and supporting services
+   bang up to date so they can provide a cutting edge service to wow their
+   existing customers, expand their client base in to new markets and grow
+   their business the way they want it to grow.
+
+   If I don’t say so beforehand, I hope you all have a Happy Christmas
+   2012 and a prosperous New Year in 2013 and beyond. Here’s to new
+   challenges in 2013!
+
+   -Lewis
+   [37]General
+
+[38]Looking for new challenges in 2013
+
+   [39]Mon 17th December, 2012 [40]Lewis [41]Leave a comment
+
+   I’m now on the lookout for new contract opportunities beginning in
+   early 2013 and would welcome new contacts in the industry to get in
+   touch if you’re looking for a highly skilled Windows Server Enterprise
+   Administrator, Service Design Engineer or Project Technical Lead.
+
+   If you’re interested in making contact, please use my LinkedIn profile
+   at: http://uk.linkedin.com/in/lewisroberts/
+
+   Thanks!
+   Lewis
+   [42]General
+
+[43]Orange infuriate my soul
+
+   [44]Wed 3rd October, 2012 [45]Lewis [46]Leave a comment
+
+   I recently applied to join Orange as I was spending more than I needed
+   to on my monthly bills with T-Mobile. I gave T-Mobile a chance to match
+   the deal I could get with Orange but they could only give me it on a 12
+   month contract. I don’t do twelve month contracts any more, one month
+   rolling is all I’m willing to sign up to since I buy my own mobiles
+   unlocked and outright.
+
+   Since I’ve only lived at my new address for 18 months, Orange wanted
+   proof of my address using some kind of utility bill so, being the
+   environmentally friendly person I am using paperless billing and online
+   accounts as much as possible, I downloaded my latest bill from my
+   energy provider and emailed it to Orange’s referral team as
+   requested…this is what I got back.
+
+   So the referrals department received my proof but weren’t able to
+   accept it….
+
+   No explanation as to why or what the cause of their non-acceptance was
+   they just didn’t accept something they asked for and were sent. So am I
+   to guess what they want?!
+
+   Last chance Orange or I take my business to O2, again.
+   [47]General
+
+[48]Fedora 16 to 17 upgrade shenanigans
+
+   [49]Fri 21st September, 2012 [50]Lewis [51]1 Comment
+
+   Fedora 16 to 17 Upgrade…nightmare.
+
+   I’m convinced that persons developing and using Linux on a daily basis
+   insist that upgrading your Linux distro to the latest and greatest is
+   supposed to be the easiest thing since wiping your own arse. In all
+   frank and honesty, upgrading to Fedora 17 from 16 has been a royal pain
+   in said arse.
+
+   I first attempted to perform the upgrade shortly after Fedora 17 went
+   live. I received some random error message about gtk_init moaning about
+   displays or some such bollocks and didn’t bother trying any further
+   thinking they’d sort something out with F16 to help you through the
+   upgrade. Well, they didn’t.
+
+   Running preupgrade on a runlevel 3 (non-GUI, you know, a server) will
+   give you said error. What you’re supposed to do is execute
+   preupgrade-cli. Why of course! I should have known! Did the dev forget
+   to check the runlevel and offer a bit of advice instead of puking all
+   over the screen? Guess not.
+
+   Then when you run preupgrade-cli, you do so by specifying the distro to
+   upgrade to:
+preupgrade-cli "Fedora 17 (Beefy Miracle)"
+
+   Then you’re moaned at for not having a large enough partition for some
+   random file but told it will be all OK if you’re on a wired connection.
+   Full speed ahead your system downloads all the packages and then, after
+   saying its made a change to your grub config, you are safe to reboot.
+   Now the system reboots…and promptly goes straight back in to F16. If
+   your computer could look back at you in a nonplussed fashion, it would
+   be doing.
+
+   So you have another go and spot the error that says sh grub file or
+   folder not found. Eh? How is my PC even booting if grub isn’t there? It
+   turns out that F16 apparently forced an upgrade to GRUB2 and it’s your
+   GRUB2 config file that receives the updated “Upgrade to Beefy Miracle”
+   boot entry. Useful! Except my computer was booting from GRUB. Don’t ask
+   me why, I have no idea.
+
+   So I ensure GRUB2 is installed and on my boot partition:
+grub2-install /dev/sda
+
+   I then decide it’s wise to ensure that my GRUB2 install has the latest
+   info about my system (all the kernels I had in GRUB):
+grub2-mkconfig -o /boot/grub2/grub.cfg
+
+   A reboot yields an actual option to perform the upgrade to Beefy
+   Miracle so I select it and again my computer screen is puked on with
+   various 404 errors. Yes, that’s right, the “second stage” URL that
+   grubby spewed in to my grub.cfg at the end of preupgrade-cli was WRONG
+   so I had to edit it and remove the /LiveOS\squashfs.img location
+   MANUALLY by pressing “e” on the highlighted boot table entry when GRUB2
+   loaded.
+
+   Only after all this (which I admit involved a lot of reading/learning)
+   did I manage to get to a point where it looked like Fedora 17 would
+   install the packages it had spent an hour downloading. As I type this
+   it’s still installing the F17 packages but I have no idea if it will
+   actually work given how many upgrade cock-ups I’ve had to battle my way
+   through so far. Someone at Fedora needs shooting.
+
+   – Lewis
+
+Posts navigation
+
+   1 [52]2 … [53]22 [54]Next →
+
+Links
+
+     * [55]Blind Factory
+     * [56]Global DJ Broadcast
+     * [57]transishun mixes
+
+Meta
+
+     * [58]Log in
+     * [59]Entries RSS
+     * [60]Comments RSS
+     * [61]WordPress.org
+
+Tags
+
+   [62]architect [63]big dipper [64]blackpool [65]blackpool pleasure beach
+   [66]castle [67]cd [68]cherry blossom [69]church [70]city museum
+   [71]closeup [72]crow [73]feather [74]hdr [75]ie8 google maps street
+   view [76]leeds [77]leeds institute [78]lightning [79]markus shulz
+   [80]mill hill [81]Music [82]niece [83]night [84]november [85]opposite
+   the met [86]optical illusion [87]park row [88]petal [89]photo
+   [90]photography sunset [91]pink [92]pleasure beach [93]progressive
+   [94]release [95]rollercoaster [96]scarborough [97]smiling baby
+   [98]sunset [99]territorial [100]town hall [101]trance [102]trees
+   [103]tulips [104]wheat [105]yellow
+
+me, on scripting, trance and other subjects i enjoy
+
+   CAPTION: September 2014
+
+   S  M    T    W  T  F  S
+   [106]« Apr
+      1  2      3  4  5  6
+   7  8  9      10 11 12 13
+   14 15 16     17 18 19 20
+   21 22 23     24 25 26 27
+   28 29 30
+   Search for: ____________________ Search
+
+Categories
+
+     * [107]General
+     * [108]Music
+     * [109]Photography
+     * [110]Scripting
+     * [111]Web Development
+
+Meta
+
+     * [112]Log in
+     * [113]Entries RSS
+     * [114]Comments RSS
+     * [115]WordPress.org
+
+Links
+
+     * [116]Blind Factory
+     * [117]Global DJ Broadcast
+     * [118]transishun mixes
+
+[119]Stuff
+
+    1. [120]Goldfinch Perch
+
+[121]Goldfinch Perch
+       [122]Sun 14th June, 2009 [123]Lewis [124]Leave a comment
+
+   [125]More images →
+   [126]Proudly powered by WordPress
+
+References
+
+   Visible links
+   1. http://www.lewisroberts.com/feed/
+   2. http://www.lewisroberts.com/comments/feed/
+   3. http://www.lewisroberts.com/
+   4. http://www.lewisroberts.com/#search-container
+   5. http://www.lewisroberts.com/#content
+   6. http://www.lewisroberts.com/2013/10/13/windows-server-2012-r2-upgrades/
+   7. http://www.lewisroberts.com/category/general/
+   8. http://www.lewisroberts.com/2013/10/13/windows-server-2012-r2-upgrades/
+   9. http://www.lewisroberts.com/category/photography/
+  10. http://www.lewisroberts.com/2009/06/14/goldfinch-perch/
+  11. http://www.lewisroberts.com/category/general/
+  12. http://www.lewisroberts.com/2014/04/05/powershell-net-and-gui-interfaces/
+  13. http://www.lewisroberts.com/2014/04/05/powershell-net-and-gui-interfaces/
+  14. http://www.lewisroberts.com/author/ljr/
+  15. http://www.lewisroberts.com/2014/04/05/powershell-net-and-gui-interfaces/#respond
+  16. http://www.lewisroberts.com/category/general/
+  17. http://www.lewisroberts.com/2014/04/02/html5-canvas-scaling/
+  18. http://www.lewisroberts.com/2014/04/02/html5-canvas-scaling/
+  19. http://www.lewisroberts.com/author/ljr/
+  20. http://www.lewisroberts.com/2014/04/02/html5-canvas-scaling/#respond
+  21. http://www.eastgateit.co.uk/
+  22. http://www.lewisroberts.com/category/general/
+  23. http://www.lewisroberts.com/2013/05/08/managed-service-accounts-in-windows-2012/
+  24. http://www.lewisroberts.com/2013/05/08/managed-service-accounts-in-windows-2012/
+  25. http://www.lewisroberts.com/author/ljr/
+  26. http://www.lewisroberts.com/2013/05/08/managed-service-accounts-in-windows-2012/#respond
+  27. http://www.lewisroberts.com/category/general/
+  28. http://www.lewisroberts.com/2013/04/18/active-directory-recycle-bin/
+  29. http://www.lewisroberts.com/2013/04/18/active-directory-recycle-bin/
+  30. http://www.lewisroberts.com/author/ljr/
+  31. http://www.lewisroberts.com/2013/04/18/active-directory-recycle-bin/#respond
+  32. http://www.lewisroberts.com/category/general/
+  33. http://www.lewisroberts.com/2012/12/20/and-just-like-that/
+  34. http://www.lewisroberts.com/2012/12/20/and-just-like-that/
+  35. http://www.lewisroberts.com/author/ljr/
+  36. http://www.lewisroberts.com/2012/12/20/and-just-like-that/#respond
+  37. http://www.lewisroberts.com/category/general/
+  38. http://www.lewisroberts.com/2012/12/17/looking-for-new-challenges-in-2013/
+  39. http://www.lewisroberts.com/2012/12/17/looking-for-new-challenges-in-2013/
+  40. http://www.lewisroberts.com/author/ljr/
+  41. http://www.lewisroberts.com/2012/12/17/looking-for-new-challenges-in-2013/#respond
+  42. http://www.lewisroberts.com/category/general/
+  43. http://www.lewisroberts.com/2012/10/03/orange-infuriate-my-soul/
+  44. http://www.lewisroberts.com/2012/10/03/orange-infuriate-my-soul/
+  45. http://www.lewisroberts.com/author/ljr/
+  46. http://www.lewisroberts.com/2012/10/03/orange-infuriate-my-soul/#respond
+  47. http://www.lewisroberts.com/category/general/
+  48. http://www.lewisroberts.com/2012/09/21/fedora-16-to-17-upgrade-shenanigans/
+  49. http://www.lewisroberts.com/2012/09/21/fedora-16-to-17-upgrade-shenanigans/
+  50. http://www.lewisroberts.com/author/ljr/
+  51. http://www.lewisroberts.com/2012/09/21/fedora-16-to-17-upgrade-shenanigans/#comments
+  52. http://www.lewisroberts.com/page/2/
+  53. http://www.lewisroberts.com/page/22/
+  54. http://www.lewisroberts.com/page/2/
+  55. http://www.theblindfactoryleeds.co.uk/
+  56. http://www.globaldjbroadcast.com/
+  57. http://www.transishun.co.uk/
+  58. https://www.lewisroberts.com/wp-login.php
+  59. http://www.lewisroberts.com/feed/
+  60. http://www.lewisroberts.com/comments/feed/
+  61. https://wordpress.org/
+  62. http://www.lewisroberts.com/tag/architect/
+  63. http://www.lewisroberts.com/tag/big-dipper/
+  64. http://www.lewisroberts.com/tag/blackpool/
+  65. http://www.lewisroberts.com/tag/blackpool-pleasure-beach/
+  66. http://www.lewisroberts.com/tag/castle/
+  67. http://www.lewisroberts.com/tag/cd/
+  68. http://www.lewisroberts.com/tag/cherry-blossom/
+  69. http://www.lewisroberts.com/tag/church/
+  70. http://www.lewisroberts.com/tag/city-museum/
+  71. http://www.lewisroberts.com/tag/closeup/
+  72. http://www.lewisroberts.com/tag/crow/
+  73. http://www.lewisroberts.com/tag/feather/
+  74. http://www.lewisroberts.com/tag/hdr/
+  75. http://www.lewisroberts.com/tag/ie8-google-maps-street-view/
+  76. http://www.lewisroberts.com/tag/leeds/
+  77. http://www.lewisroberts.com/tag/leeds-institute/
+  78. http://www.lewisroberts.com/tag/lightning/
+  79. http://www.lewisroberts.com/tag/markus-shulz/
+  80. http://www.lewisroberts.com/tag/mill-hill/
+  81. http://www.lewisroberts.com/tag/music/
+  82. http://www.lewisroberts.com/tag/niece/
+  83. http://www.lewisroberts.com/tag/night/
+  84. http://www.lewisroberts.com/tag/november/
+  85. http://www.lewisroberts.com/tag/opposite-the-met/
+  86. http://www.lewisroberts.com/tag/optical-illusion/
+  87. http://www.lewisroberts.com/tag/park-row/
+  88. http://www.lewisroberts.com/tag/petal/
+  89. http://www.lewisroberts.com/tag/photo/
+  90. http://www.lewisroberts.com/tag/photography-sunset/
+  91. http://www.lewisroberts.com/tag/pink/
+  92. http://www.lewisroberts.com/tag/pleasure-beach/
+  93. http://www.lewisroberts.com/tag/progressive/
+  94. http://www.lewisroberts.com/tag/release/
+  95. http://www.lewisroberts.com/tag/rollercoaster/
+  96. http://www.lewisroberts.com/tag/scarborough/
+  97. http://www.lewisroberts.com/tag/smiling-baby/
+  98. http://www.lewisroberts.com/tag/sunset/
+  99. http://www.lewisroberts.com/tag/territorial/
+ 100. http://www.lewisroberts.com/tag/town-hall/
+ 101. http://www.lewisroberts.com/tag/trance/
+ 102. http://www.lewisroberts.com/tag/trees/
+ 103. http://www.lewisroberts.com/tag/tulips/
+ 104. http://www.lewisroberts.com/tag/wheat/
+ 105. http://www.lewisroberts.com/tag/yellow/
+ 106. http://www.lewisroberts.com/2014/04/
+ 107. http://www.lewisroberts.com/category/general/
+ 108. http://www.lewisroberts.com/category/music/
+ 109. http://www.lewisroberts.com/category/photography/
+ 110. http://www.lewisroberts.com/category/scripting/
+ 111. http://www.lewisroberts.com/category/web-development/
+ 112. https://www.lewisroberts.com/wp-login.php
+ 113. http://www.lewisroberts.com/feed/
+ 114. http://www.lewisroberts.com/comments/feed/
+ 115. https://wordpress.org/
+ 116. http://www.theblindfactoryleeds.co.uk/
+ 117. http://www.globaldjbroadcast.com/
+ 118. http://www.transishun.co.uk/
+ 119. http://www.lewisroberts.com/type/image/
+ 120. http://www.flickr.com/photos/36138078@N00/3625343832/
+ 121. http://www.lewisroberts.com/2009/06/14/goldfinch-perch/
+ 122. http://www.lewisroberts.com/2009/06/14/goldfinch-perch/
+ 123. http://www.lewisroberts.com/author/ljr/
+ 124. http://www.lewisroberts.com/2009/06/14/goldfinch-perch/#respond
+ 125. http://www.lewisroberts.com/type/image/
+ 126. http://wordpress.org/
+
+   Hidden links:
+ 128. http://www.lewisroberts.com/2009/06/14/goldfinch-perch/
+ 129. http://www.lewisroberts.com/wp-content/uploads/2012/10/orange.gif
+ 130. http://www.lewisroberts.com/wp-content/uploads/2012/10/PrtScr-capture.png

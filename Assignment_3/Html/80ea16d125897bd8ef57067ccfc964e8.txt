@@ -1,0 +1,2899 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" >
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQ8EUVRACgUEUlVRBg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,o){t&&t(e,n,o),o||(o={});for(var a=i(e),s=a.length,c=o[r]||(o[r]={}),f=0;s>f;f++)a[f].apply(c,n);return c}function o(t,e){s[t]=i(t).concat(e)}function i(t){return s[t]||[]}function a(){return n(e)}var s={};return{on:o,emit:e,create:a,listeners:i,_events:s}}var r="nr@context";e.exports=n()},{}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(4),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(f){"stack"in f&&(t(5),t(3),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:4,2:7,3:5,4:15,5:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],4:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=(t(1),t("ee").create()),i=t(2)(o);if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var a=document;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&n(a);for(var s=XMLHttpRequest.prototype;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=i(e,"fn-",null,e.name||"anonymous"):"function"==typeof e.handleEvent&&i.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:16,ee:"QJf3ax"}],5:[function(t,e){var n=(t(2),t("ee").create()),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:16,2:15,ee:"QJf3ax"}],6:[function(t,e){function n(t,e,n){var r=t[0];"string"==typeof r&&(r=new Function(r)),t[0]=o(r,"fn-",null,n)}var r=(t(2),t("ee").create()),o=t(1)(r);e.exports=r,o.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",n)},{1:16,2:15,ee:"QJf3ax"}],7:[function(t,e){function n(){c.inPlace(this,d,"fn-")}function r(t,e){c.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}var i=t("ee").create(),a=t(1),s=t(2),c=s(i),f=s(a),u=window.XMLHttpRequest,d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=i,window.XMLHttpRequest=function(t){var e=new u(t);try{i.emit("new-xhr",[],e),f.inPlace(e,["addEventListener","removeEventListener"],"-",function(t,e){return e}),e.addEventListener("readystatechange",n,!1)}catch(r){try{i.emit("internal-error",r)}catch(o){}}return e},window.XMLHttpRequest.prototype=u.prototype,c.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),i.on("send-xhr-start",r),i.on("open-xhr-start",r)},{1:4,2:16,ee:"QJf3ax"}],8:[function(t){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=e(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(n.cat=d.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r,this.startTime])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(1),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(2);t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=e(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var u=0;c>u;u++)n.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:9,2:12,3:7,4:4,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],9:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):(o[t]||(o[t]=[]),void o[t].push(e))}var r=t("ee").create(),o={};e.exports=n,n.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],12:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){p.proto="https"===d.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=c.createElement("script");e.src=p.proto+t.agent,c.body.appendChild(e)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,c=s.document,f="addEventListener",u="attachEvent",d=(""+location).split("?")[0],p=e.exports={offset:i(),origin:d,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),s[f]("load",n,!1)):(c[u]("onreadystatechange",r),s[u]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],15:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],16:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@wrapper";e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,f,u;try{i=this,n=o(arguments),f=r&&r(n,i)||{}}catch(d){c([d,"",[n,i,a],f])}s(e+"start",[n,i,a],f);try{return u=t.apply(i,n)}catch(p){throw s(e+"err",[n,i,p],f),p}finally{s(e+"end",[n,i,u],f)}}return n(t)?t:(e||(e=""),nrWrapper[i]=!0,nrWrapper)}function a(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s,t))}function s(e,n,r){try{t.emit(e,n,r)}catch(o){c([o,e,n,r])}}function c(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=a,e.flag=i,e}},{1:15,ee:"QJf3ax"}]},{},["G9z0Bl",3,8]);</script>
+    <title>Entertainment - Business Insider</title>
+    <meta property="description" content="What You Need To Know About The Good Life" />
+<meta property="og:title" content="Entertainment" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="http://www.businessinsider.com/thewire" />
+<meta property="og:image" content="http://static1.businessinsider.com/image/4b5f704800000000004527bd/image.png" />
+<meta property="og:site_name" content="Business Insider" />
+<meta property="og:admins" content="61404924,14700889,122084,773948648" />
+<meta property="og:description" content="The latest news from Entertainment on Business Insider" />    <link href="http://static2.businessinsider.com/assets/css/min-base.css?1411763854" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://static1.businessinsider.com/assets/css/min-home.css?1411763854" media="screen" rel="stylesheet" type="text/css" />
+<link href="http://www.businessinsider.com/thewire" rel="canonical" />    <link type="text/css" rel="stylesheet" media="print" href="http://static3.businessinsider.com/assets/css/print.css?1411763854" />   
+    <script type="text/javascript" src="http://static3.businessinsider.com/assets/js/min2.js?1411763854"></script>
+<script type="text/javascript">
+    //<![CDATA[
+    homepage_id = "4fbe8dbe69bedde32c00000e";    //]]>
+</script>    <!-- optimizely desktop -->
+        <!-- End optimizely desktop -->
+
+        <meta name="tbi-vertical" content="thewire" />
+    <meta name="viewport" content="width=1024" />
+
+    <!--[if gte IE 9]>
+    <style type="text/css">
+        .gradient {
+            filter: none;
+        }
+    </style>
+    <![endif]-->
+
+    <!--[if lt IE 8]>
+        <link type="text/css" rel="stylesheet" media="all" href="http://static3.businessinsider.com/assets/css/ie7_or_lower.css" />
+        <link type="text/css" rel="stylesheet" media="all" href="http://static2.businessinsider.com/assets/css_vendor/font-awesome-ie7.min.css">
+    <![endif]-->
+    <!--[if IE 8]>
+        <link type="text/css" rel="stylesheet" media="all" href="http://static5.businessinsider.com/assets/css/ie8.css" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script type="text/javascript" src="http://static3.businessinsider.com/assets/js/vendor/ie8/placeholders.min.js"></script>
+    <![endif]-->
+
+    <!--[if IE 9]>
+        <link type="text/css" rel="stylesheet" media="all" href="http://static4.businessinsider.com/assets/css/ie9.css" />
+        <script type="text/javascript" src="http://static5.businessinsider.com/assets/js/shims/Element.classList.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        var vertical = 'thewire';
+        var PageType = 'homepage';
+        var post_id = '';
+        var _sf_startpt=(new Date()).getTime();
+    </script>
+
+    <!-- Kissmetrics -->
+    <script type="text/javascript">
+        var _kmq = _kmq || [];
+        var _kmk = _kmk || '999f578acebfab6dd29b540ab4ebbcbaafafa774';
+
+        function _kms(u){
+            setTimeout(function(){
+                var s = document.createElement('script');
+                var f = document.getElementsByTagName('script')[0];
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = u;
+                f.parentNode.insertBefore(s, f);
+            }, 1);
+        }
+            </script>
+    <!-- Kissmetrics -->
+
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/businessinsider/thewire" />
+    <link rel="shortcut icon" href="http://static5.businessinsider.com/assets/images/faviconBI.ico" />
+    <link rel="icon" type="image/ico" href="http://static5.businessinsider.com/assets/images/faviconBI.ico" />
+    <link rel="apple-touch-icon" href="http://static4.businessinsider.com/assets/images/apple-touch-icon.png" />
+    <meta name="linkedin:owner" content="mid:218712">
+
+    <!--[if gte IE 9]>
+        <meta name="application-name" content="Business Insider - thewire"/>
+        <meta name="msapplication-tooltip" content="Start the page in Site Mode"/>
+        <meta name="msapplication-starturl" content="http://www.businessinsider.com/thewire"/>
+        <meta name="msapplication-window" content="width=800;height=600"/>
+        <meta name="msapplication-navbutton-color" content="#4C7C8D"/>
+
+        <meta name="msapplication-task" content="name=Tech;action-uri=http://www.businessinsider.com/sai;icon-uri=http://www.businessinsider.com/favicon.ico"/>
+        <meta name="msapplication-task" content="name=Media;action-uri=http://www.businessinsider.com/thewire;icon-uri=http://www.businessinsider.com/favicon.ico"/>
+        <meta name="msapplication-task" content="name=Wall Street;action-uri=http://www.businessinsider.com/clusterstock;icon-uri=http://www.businessinsider.com/favicon.ico"/>
+        <meta name="msapplication-task" content="name=Markets;action-uri=http://www.businessinsider.com/moneygame;icon-uri=http://www.businessinsider.com/favicon.ico"/>
+        <meta name="msapplication-task" content="name=Strategy;action-uri=http://www.businessinsider.com/warroom;icon-uri=http://www.businessinsider.com/favicon.ico"/>
+    <![endif]-->
+
+    <script type="text/javascript">BI.siteURI = 'http://www.businessinsider.com';</script>
+    <script type="text/javascript">BI.secureURI = 'https://www.businessinsider.com';</script>
+    <script type="text/javascript">BI.staticURI = 'http://static1.businessinsider.com';</script>
+    <script type="text/javascript">BI.env.setDomain('http://www.businessinsider.com');</script>
+
+    <script type="text/javascript" src="//platform.linkedin.com/in.js">
+       api_key: x4dbohswv62d
+       authorize: true
+       scope: r_basicprofile r_emailaddress r_network rw_nus
+    </script>
+
+        <script type="text/javascript">
+        window._taboola = window._taboola || [];
+        _taboola.push({home:'auto'});
+        !function (e, f, u) {
+            e.async = 1;
+            e.src = u;
+            f.parentNode.insertBefore(e, f);
+        }(
+            document.createElement('script'),
+            document.getElementsByTagName('script')[0],
+            'http://cdn.taboola.com/libtrc/businessinsider/loader.js'
+        );
+    </script>
+    
+</head>
+
+
+<body class="responsive ">
+
+<!-- print only -->
+<img class="print" src="http://static4.businessinsider.com/assets/images/logos/logo-bi-print.png" width="150" />
+
+<!-- FB Connect -->
+<div id="fb-root" data-bi-facebook-root="155043519637"></div>
+<!-- / FB Connect -->
+
+<!--[if lt IE 8]>
+    <div class="container>
+        <div class="row">
+            <div class="alert alert-error alert-block">
+                <h4>Warning!</h4>
+                You are using an outdated version of Internet Explorer.  For security reasons you should <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" target="_blank" title="Upgrade IE">upgrade your browser</a>. Please go to Windows Updates and install the latest version.
+            </div>
+        </div>
+    </div>
+<![endif]-->
+
+
+<!-- new masthead -->
+<div class="masthead">
+    <div class="masthead-bottom-gradient"></div>
+    <div class="container">
+        <div class="row">
+
+            <!-- BI Logo -->
+            <div class="span2 logo">
+                <div class="sprites logo-background"></div>
+                <div class="sprites logo-background-oneline"></div>
+                <a class="logo-link" href="/" title="Business Insider"><img src="http://static4.businessinsider.com/assets/images/transparent.gif" alt="Business Insider"></a>
+            </div>
+
+            <div class="span10 navigation">
+                <div class="row">
+
+                    <!-- user_menubar -->
+                    
+<div class="login-social loggedout">
+    <ul class="login">
+        <li class="user-login dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" rel="nofollow">Login <i class="fa fa-chevron-down"></i></a>
+
+            <!-- user login menu -->
+            <ul class="dropdown-menu popover bottom" role="menu">
+                <!-- <div class="arrow-up"><div></div></div> -->
+                <!-- <a class="sprites bi-icon-close bi-icon-login" href="#">&nbsp;</a> -->
+
+                <div class="arrow"></div>
+
+                <form name="login-form" action="https://www.businessinsider.com/login" method="post">
+                    <fieldset>
+                        <!-- <label for="username">Username</label> -->
+                        <input class="text" tabindex="1" name="username" type="text" value="" placeholder="Username or email">
+
+                        <!-- <label for="password">Password</label> -->
+                        <input class="text" type="password" tabindex="2" name="password" value="" placeholder="Password">
+
+                        <label class="checkbox" for="remember">
+                            <input type="checkbox" name="remember" id="remember"> Remember me
+                        </label>
+
+                        <input class="btn submit" value="Login" type="submit" />                        <span class="help-block"><a href="/forgot">I forgot username or password</a></span>
+                </form>
+                <hr>
+
+                <a id="tw_login_link" class="btn btn-social twitter" href="/register?action=twitter&first=twitter" rel="nofollow"><i class="fa fa-twitter"></i> Login with Twitter</a>
+
+                <a class="btn btn-social facebook" href="#" onclick="return BI.FB_Core.login(true)"><i class="fa fa-facebook"></i> Login with Facebook</a>
+
+                <a id="linkedin_login_link" class="btn btn-social linkedin" href="/register?action=linkedin&first=linkedin" rel="nofollow"><i class="fa fa-linkedin"></i> Login with LinkedIn</a>
+
+                <span id="gplus_login_button" class="btn btn-social google-plus" rel="nofollow"><i class="fa fa-google-plus"></i> Login with Google</span>
+
+            </ul>
+            <!-- / user login menu -->
+        </li>
+
+        <li class="ks-menubar-register"><a id="menubar-register" href="https://www.businessinsider.com/register?first=index" rel="nofollow">Register</a></li>
+    </ul>
+
+    <!-- social + share links -->
+    <ul class="sprites social">
+        <li>
+            <a href="//www.facebook.com/businessinsider" title="Like us on Facebook" target="_blank"><i class="fa fa-facebook ks-header-facebook"></i></a>
+        </li>
+        <li>
+            <a href="//twitter.com/businessinsider" title="Follow us on Twitter" target="_blank"><i class="fa fa-twitter ks-header-twitter"></i></a>
+        </li>
+        <li>
+            <a href="//plus.google.com/+BusinessInsider/posts" rel="publisher" title="Follow us on Google+" target="_blank"><i class="fa fa-google-plus ks-header-google-plus"></i></a>
+        </li>
+        <li class="last-social">
+            <a href="//www.linkedin.com/today/businessinsider.com" title="Connect with us on LinkedIn" target="_blank"><i class="fa fa-linkedin ks-header-linkedin"></i></a>
+        </li>
+    </ul>
+</div><!-- login social -->
+
+
+<!-- Kontera -->
+<script type="text/javascript">
+			BI.showKontera = false;
+	</script>
+<!-- / Kontera -->
+
+<script type="text/javascript">
+    BI.displayPunditRequestLinks = "non-logged-in";
+</script>
+
+                    <!-- Non-verticals -->
+                    <div class="non-verticals">
+                        <ul class="sprites">
+                            <li class="sprites"><a href="/events">Events</a></li>
+                            <li class="sprites"><a href="http://intelligence.businessinsider.com">BI Intelligence</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+                <div class="row">
+                    <!-- Search -->
+                    <div class="span4 nav-search">
+                        <form method="get" action="/s" class="search-field">
+                            <input class="sprites" name="q" type="text" placeholder="Search">
+                            <button type="submit" title="Search"></button>
+                        </form>
+                    </div>
+
+                    <!-- Main Nav -->
+                    <div class="main-nav">
+                        <ul>
+                                                                                    <li class="Tech">
+                                <a class="item" data-dropdown-id="dropdown-Tech" href="/sai">
+                                    <div class="triangle triangle-left"></div>
+                                    <div class="triangle triangle-right"></div>
+                                    Tech                                </a>
+                            </li>
+                                                                                    <li class="Finance">
+                                <a class="item" data-dropdown-id="dropdown-Finance" href="/clusterstock">
+                                    <div class="triangle triangle-left"></div>
+                                    <div class="triangle triangle-right"></div>
+                                    Finance                                </a>
+                            </li>
+                                                                                    <li class="Politics">
+                                <a class="item" data-dropdown-id="dropdown-Politics" href="/politics">
+                                    <div class="triangle triangle-left"></div>
+                                    <div class="triangle triangle-right"></div>
+                                    Politics                                </a>
+                            </li>
+                                                                                    <li class="Strategy">
+                                <a class="item" data-dropdown-id="dropdown-Strategy" href="/warroom">
+                                    <div class="triangle triangle-left"></div>
+                                    <div class="triangle triangle-right"></div>
+                                    Strategy                                </a>
+                            </li>
+                                                                                    <li class="Life">
+                                <a class="item" data-dropdown-id="dropdown-Life" href="/thelife">
+                                    <div class="triangle triangle-left"></div>
+                                    <div class="triangle triangle-right"></div>
+                                    Life                                </a>
+                            </li>
+                                                                                    <li class="Entertainment active">
+                                <a class="item" data-dropdown-id="dropdown-Entertainment" href="/thewire">
+                                    <div class="triangle triangle-left"></div>
+                                    <div class="triangle triangle-right"></div>
+                                    Entertainment                                </a>
+                            </li>
+                                                                                    <li class="All">
+                                <a class="item" data-dropdown-id="dropdown-All" href="/">
+                                    <div class="triangle triangle-left"></div>
+                                    <div class="triangle triangle-right"></div>
+                                    All                                </a>
+                            </li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Nav Dropdowns -->
+    <div class="main-nav-dropdown ks-nav-dropdown" style="border-color: #185f7c">
+    </div>
+</div>
+<!-- / new masthead -->
+
+<style type="text/css" id="leaderboard_styles">
+.info {
+	float: right;
+	clear: both;
+	margin: 2px 0;
+}
+#interstitial-countdown span {
+	font-weight: bold;
+}
+#main-content, #ft {
+	display: none;
+}
+.interstitial-ad-content {
+	width: 980px;
+	margin: 70px auto;
+}
+.interstitial_body {
+	margin: 1em auto;
+	padding: 1em 0;
+	display: table;
+}
+.leaderboard_hidden {
+	display: none;
+}
+</style>
+
+<script>
+// the rest of the JS is added to the footer, via interstitial.js
+(function() {
+
+	//as soon as it renders, doesnt need jquery. needs the bi lib
+	function onRender() {
+		var inAd = document.getElementById('interstitial-ad-content');
+		var leaderStyles = document.getElementById('leaderboard_styles');
+
+		if (BI.cookies.get('iad') == 1) {
+			//this is to handle when the user uses the back button from a post back to home
+			inAd.parentNode.removeChild(inAd);
+			leaderStyles.parentNode.removeChild(leaderStyles);
+		} else {
+			inAd.style.display = 'block';
+			inAd.setAttribute('data-bi-ad','interstitial');
+			amplify.publish('interstitialAdToBeShown');
+
+			//update link
+			document.getElementById('interstitial-link').href = window.location;
+
+			//set the cookie for them
+			BI.cookies.set('iad',1);
+		}
+	}
+
+	// Do stuff ASAP
+	document.addEventListener('DOMContentLoaded', onRender);
+}())
+</script>
+
+<div class="interstitial-ad-content" id="interstitial-ad-content" style="display: none">
+	<p class="info"><a id="interstitial-link" href="http://www.businessinsider.com">Continue to Business Insider &raquo;</a></p>
+	<p class="info" id="interstitial-countdown">You will be redirected in <span></span> seconds.</p>
+	<div class="interstitial_body" style="clear: both">
+		
+
+<div data-bi-ad class="ad dfp" data-adunit="desktop/entertainment/thewire/homepage" data-pagetype="homepage" data-region="Welcome Ad" data-sizes="640x480,600x480,600x600" data-url="/thewire"></div>
+<script type="text/javascript">
+	(function() {
+		'use strict';
+
+		// Notify the DFP code that a new ad has just been rendered
+		amplify.publish('adRender');
+	}());
+</script>
+	</div>
+</div>
+
+<div id="main-content" class="container">
+    <!-- flash messages -->
+    
+        <div class="subnav-container">
+        <div class="subnav-content">
+            
+
+<div data-bi-ad class="ad dfp" data-adunit="desktop/entertainment/thewire/homepage" data-pagetype="homepage" data-pos="atf" data-region="Subnav" data-sizes="728x90,970x250,970x90" data-url="/thewire"></div>
+<script type="text/javascript">
+	(function() {
+		'use strict';
+
+		// Notify the DFP code that a new ad has just been rendered
+		amplify.publish('adRender');
+	}());
+</script>
+        </div>
+    </div>
+    
+    
+    <div class="siteskin-dropshadow">
+        <div class="row primary-row">
+                            <div class="breaking-module-rendered" id="breaking-module-rendered">
+                    
+<div class="page-top">	
+</div>                </div>
+                        <div class="span8">
+                <div class="breaking-module-siteskin" id="breaking-module-siteskin"></div>
+    <div id="share-email-tmpl">
+    <div id="shareEmailModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="shareEmailModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="shareEmailModalLabel"></h3>
+      </div>
+      <div class="modal-body">
+        <div class="share-email-error alert alert-error display-none"></div>
+
+        <div class="share-email-body">
+            <div class="register">
+                <form id="form_form" class="form-horizontal" action="#" method="post">
+                    <div class="control-group">
+                        <label for="mail_from" class="control-label">From</label>
+                        <div class="controls">
+                            <input type="text" name="mail_from" class="mail-from" placeholder="Your Email Address" />
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label for="mail_to" class="control-label">To</label>
+                        <div class="controls">
+                            <input type="text" name="mail_to" class="mail-to" placeholder="Friend's Email Address" />
+                        </div>
+                    </div>
+                    <input type="hidden" name="action" value="email" />
+                    <div class="control-group">
+                        <div class="controls">
+                            <input type="submit" class="btn submit email-post" value="Send" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="share-email-success" style="display:none">
+            <div class="alert alert-success">
+                You have successfully emailed the post.
+            </div>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+
+
+<div id="content" class="content homepage" data-bi-homepage data-bi-heatmap="4fbe8dbe69bedde32c00000e" data-bi-ts="1412017642" >
+
+            <div class="vertical-name-wrapper underlined">
+            <a href="http://www.businessinsider.com/thewire">
+                <span class="vertical-name underlined" style="color: #2b679f; border-color: #2b679f;">
+                    Entertainment                </span>
+            </a>
+
+                            <!-- Hide Twitter button on 980 view to avoid collision -->
+                                 <ul class="vertical-social-buttons  pull-right">
+                                            <li class="twitter">
+                            <a href="https://twitter.com/BI_Entertain" class="twitter-follow-button" data-badge="twitter" data-show-count="true" data-align="right" data-lang="en">Follow @twitterapi</a>
+                        </li>
+                                                                <li class="facebook">
+                            <div class="fb-like" data-href="https://www.facebook.com/BusinessInsider.TheWire" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
+                        </li>
+                                    </ul>
+            
+        </div>
+    
+    
+    
+    <!-- Touts -->
+            <div class="touts tout-style-default">
+            <div class="row-fluid">
+    <div class="span9">
+        <div class="tout tout-0 id-54294d9c6da811373e951a36">
+            <h1 class="overridable"><a class="title" href="http://www.businessinsider.com/why-denzel-washingtons-equalizer-exploded-at-box-office-2014-9">5 Reasons Why Denzel Washington's ‘Equalizer’ Exploded At The Box Office</a></h1>
+            <a href="http://www.businessinsider.com/why-denzel-washingtons-equalizer-exploded-at-box-office-2014-9"><img src="http://static5.businessinsider.com/image/54294daa69bedd7a5adc2a72-600-450/5-reasons-why-denzel-washingtons-equalizer-exploded-at-the-box-office.jpg" alt="5 Reasons Why Denzel Washington's ‘Equalizer’ Exploded At The Box Office" border="0" /></a>            
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment Contributors' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/todd-cunningham">Todd Cunningham</a>, <a target="_blank" href="http://www.thewrap.com/">The Wrap</a></li>
+																					        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">6,681</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/why-denzel-washingtons-equalizer-exploded-at-box-office-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/why-denzel-washingtons-equalizer-exploded-at-box-office-2014-9#comments">3</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+			<div class="relatedlinks">
+	<ul>
+			</ul>
+</div>	        </div>
+    </div>
+    
+    <div class="span3">
+        <div class="tout-right">
+            <div class="tout tout-1 id-54296d936da811345c951a38">
+                <h3 class="overridable"><a class="title" href="http://www.businessinsider.com/simpsons-fans-upset-after-character-death-in-season-premiere-2014-9">'Simpsons' Fans Are Upset After 'Minor Character' Death In Season Premiere</a></h3>
+                <a href="http://www.businessinsider.com/simpsons-fans-upset-after-character-death-in-season-premiere-2014-9"><img src="http://static2.businessinsider.com/image/54296c4769bedd964edc2a75-209-156/simpsons-fans-are-upset-after-minor-character-death-in-season-premiere.jpg" alt="'Simpsons' Fans Are Upset After 'Minor Character' Death In Season Premiere" border="0" /></a>                
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/aly-weisman">Aly Weisman</a></li>
+																					        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">6,498</span></li>
+		    
+		    		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+            </div>
+
+                            <div class="tout tout-2 id-5429796a6bb3f7317736fb00">
+                    <h3 class="overridable"><a class="title" href="http://www.businessinsider.com/kristen-wiig-and-bill-hader-awkward-local-news-interview-2014-9">Kristen Wiig And Bill Hader's Awkward Interview With Local News Anchor Who Didn't See Their Movie</a></h3>
+                    <a href="http://www.businessinsider.com/kristen-wiig-and-bill-hader-awkward-local-news-interview-2014-9"><img src="http://static4.businessinsider.com/image/54297eb16bb3f7cc0b36fafd-209-156/kristen-wiig-and-bill-haders-awkward-interview-with-local-news-anchor-who-didnt-see-their-movie.jpg" alt="Kristen Wiig And Bill Hader's Awkward Interview With Local News Anchor Who Didn't See Their Movie" border="0" /></a>                    
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/aly-weisman">Aly Weisman</a></li>
+																					        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">4,380</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/kristen-wiig-and-bill-hader-awkward-local-news-interview-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/kristen-wiig-and-bill-hader-awkward-local-news-interview-2014-9#comments">2</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+                </div>
+            
+            <div class="quicklinks">
+	
+    <ul>
+            </ul>
+</div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <!-- / Touts -->
+
+    <div class="row-fluid">
+
+        <div class="span9">
+
+            <h3 class="underlined">What's Happening</h3>
+
+            <!-- River -->
+                            <div class="river">
+                    <div class="id-541aeedf6bb3f7ec333c96d1 border-bottom bigpicture">
+	<span class="river_stack_id" id="5422c3996da8110d0ad652ed" style="display:none"></span>
+    <h2 class="overridable"><a class="title" href="http://www.businessinsider.com/best-new-fall-shows-to-watch-2014-2014-9">The Only 10 New TV Shows Worth Watching This Fall</a></h2>
+    
+        <a href="http://www.businessinsider.com/best-new-fall-shows-to-watch-2014-2014-9"><img class="river-thumb" src="http://static2.businessinsider.com/image/5422c7d26da811091ad652ed-620-465/the-only-10-new-tv-shows-worth-watching-this-fall.jpg" width="620" height="465" /></a>
+    
+    
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/kirsten-acuna">Kirsten Acuna</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411402860">Sep. 22, 2014, 12:21 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites fire views" title="views">578,246</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/best-new-fall-shows-to-watch-2014-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/best-new-fall-shows-to-watch-2014-2014-9#comments">17</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+	<!-- If there is a tracking pixel render it here -->
+	
+</div>
+<div class="river-enhanced">
+	<span class="river_stack_id" id="53b0e72a69bedd6a088877e5" style="display:none;"></span>
+
+							<div  class="row-fluid border-bottom id-5429bc8a6bb3f7d20636fafe">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/amanda-bynes-arrested-for-dui-2014-9"><img class="river-thumb" src="http://static3.businessinsider.com/image/5429b8afeab8ea480484fb75-265-199/amanda-bynes-arrested-for-dui.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="5429bc8a6bb3f7d20636fafe">
+
+        <h3><a href="http://www.businessinsider.com/amanda-bynes-arrested-for-dui-2014-9">Amanda Bynes Arrested For DUI</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/aly-weisman">Aly Weisman</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1412021580">Sep. 29,  4:13 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites orange views" title="views">618</span></li>
+		    
+		    		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-5429b06869beddb973dc2a79">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/robert-downey-jr-tribute-to-his-mom-2014-9"><img class="river-thumb" src="http://static6.businessinsider.com/image/5429af6eecad04192131ea06-265-199/read-robert-downey-jrs-incredible-tribute-to-his-late-mother.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="5429b06869beddb973dc2a79">
+
+        <h3><a href="http://www.businessinsider.com/robert-downey-jr-tribute-to-his-mom-2014-9">Read Robert Downey Jr.'s Incredible Tribute To His Late Mother</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/aly-weisman">Aly Weisman</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1412019780">Sep. 29,  3:43 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">1,639</span></li>
+		    
+		    		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-54287771ecad04a338a035f9">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/snl-mocks-marvel-movie-titles-2014-9"><img class="river-thumb" src="http://static3.businessinsider.com/image/54299c3069bedd421fdc2a6f-265-199/snl-mocks-marvels-success-with-ridiculous-movie-ideas.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="54287771ecad04a338a035f9">
+
+        <h3><a href="http://www.businessinsider.com/snl-mocks-marvel-movie-titles-2014-9">SNL Mocks Marvel's Success With Ridiculous Movie Ideas</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/aly-weisman">Aly Weisman</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1412014740">Sep. 29,  2:19 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">2,007</span></li>
+		    
+		    		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-5429624b6bb3f7d01736fb00">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/dan-aykroyd-predicted-bill-haders-snl-career-2014-9"><img class="river-thumb" src="http://static3.businessinsider.com/image/542962b869bedd1932dc2a72-265-199/how-dan-aykroyd-predicted-bill-haders-entire-snl-career-after-3-episodes.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="5429624b6bb3f7d01736fb00">
+
+        <h3><a href="http://www.businessinsider.com/dan-aykroyd-predicted-bill-haders-snl-career-2014-9">How Dan Aykroyd Predicted Bill Hader's Entire SNL Career After 3 Episodes</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment Contributors' class='fa fa-stop' style='color: #2b679f'></i><a target="_blank" href="http://www.cinemablend.com/features/About-Us-296.html#Mack Rawden">Mack Rawden</a>, <a target="_blank" href="http://www.cinemablend.com/">CinemaBlend</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1412012580">Sep. 29,  1:43 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">4,669</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/dan-aykroyd-predicted-bill-haders-snl-career-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/dan-aykroyd-predicted-bill-haders-snl-career-2014-9#comments">3</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-54295b8369beddd511dc2a70">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/x-men-will-make-major-franchise-changes-after-apocalypse-2014-9"><img class="river-thumb" src="http://static6.businessinsider.com/image/54296499eab8eae63184fb64-265-199/why-x-men-will-make-major-franchise-changes-after-apocalypse.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="54295b8369beddd511dc2a70">
+
+        <h3><a href="http://www.businessinsider.com/x-men-will-make-major-franchise-changes-after-apocalypse-2014-9">Why 'X-Men' Will Make Major Franchise Changes After 'Apocalypse'</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment Contributors' class='fa fa-stop' style='color: #2b679f'></i><a target="_blank" href="http://www.cinemablend.com/features/About-Us-296.html#Eric Eisenberg">Eric Eisenberg</a>, <a target="_blank" href="http://www.cinemablend.com/">CinemaBlend</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1412008020">Sep. 29, 12:27 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">3,188</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/x-men-will-make-major-franchise-changes-after-apocalypse-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/x-men-will-make-major-franchise-changes-after-apocalypse-2014-9#comments">1</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-54295e01eab8eafe1684fb68">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/what-is-walking-dead-spinoff-about-2014-9"><img class="river-thumb" src="http://static5.businessinsider.com/image/53bc34ec6da81127480082c6-265-199/the-walking-dead-spinoff-is-going-to-be-about-these-people.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="54295e01eab8eafe1684fb68">
+
+        <h3><a href="http://www.businessinsider.com/what-is-walking-dead-spinoff-about-2014-9">The 'Walking Dead' Spinoff Is Going To Be About These People</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment Contributors' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/kelly-west">Kelly West</a>, <a target="_blank" href="http://www.cinemablend.com/">CinemaBlend</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1412001180">Sep. 29, 10:33 AM</li>		        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">2,040</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/what-is-walking-dead-spinoff-about-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/what-is-walking-dead-spinoff-about-2014-9#comments">2</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-542781eb5afbd36b628b456a">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/r-japans-softbank-in-talks-to-buy-dreamworks-media-reports-2014-9"><img class="river-thumb" src="http://static5.businessinsider.com/image/542939f3eab8eaf77b84fb77-265-199/japans-softbank-wants-to-buy-dreamworks.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="542781eb5afbd36b628b456a">
+
+        <h3><a href="http://www.businessinsider.com/r-japans-softbank-in-talks-to-buy-dreamworks-media-reports-2014-9">Japan's SoftBank Wants To Buy DreamWorks</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Finance Contributors' class='fa fa-stop' style='color: #cf4e00'></i>Kevin Krolicki, <a target="_blank" href="http://www.reuters.com">Reuters</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411987980">Sep. 29,  6:53 AM</li>		        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">1,092</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/r-japans-softbank-in-talks-to-buy-dreamworks-media-reports-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/r-japans-softbank-in-talks-to-buy-dreamworks-media-reports-2014-9#comments">1</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-542894576da811f11f026633">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/career-women-underrepresented-in-film-2014-9"><img class="river-thumb" src="http://static3.businessinsider.com/image/542893efecad048c2ba035f5-265-199/hollywood-is-the-most-sexist-place-in-america.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="542894576da811f11f026633">
+
+        <h3><a href="http://www.businessinsider.com/career-women-underrepresented-in-film-2014-9">Hollywood Is The Most Sexist Place In America</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment Contributors' class='fa fa-stop' style='color: #2b679f'></i><a target="_blank" href="http://www.vocativ.com/culture/tvmovies/women-in-hollywood/">Molly Fitzpatrick and EJ Fox</a>, <a target="_blank" href="http://www.vocativ.com/">Vocativ</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411955460">Sep. 28,  9:51 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">2,674</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/career-women-underrepresented-in-film-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/career-women-underrepresented-in-film-2014-9#comments">7</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-54282b38eab8eac650120b0b">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/walking-dead-emily-kinney-singer-2014-9"><img class="river-thumb" src="http://static1.businessinsider.com/image/54243bbc6da81149340a412c-265-199/actress-emily-kinney-got-her-big-break-as-a-singer-while-in-a-prison-surrounded-by-zombies-in-the-walking-dead.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="54282b38eab8eac650120b0b">
+
+        <h3><a href="http://www.businessinsider.com/walking-dead-emily-kinney-singer-2014-9">Actress Emily Kinney Got Her Big Break As A Singer While In A Prison Surrounded By Zombies In 'The Walking Dead'</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/business-insider">Business Insider</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411940100">Sep. 28,  5:35 PM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-54285fcb6da811712e026633">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/controversial-claims-in-hendrix-biopic-2014-9"><img class="river-thumb" src="http://static2.businessinsider.com/image/542879426da8118a2a026633-265-199/look-at-all-the-controversial-claims-in-the-new-jimi-hendrix-biopic.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="54285fcb6da811712e026633">
+
+        <h3><a href="http://www.businessinsider.com/controversial-claims-in-hendrix-biopic-2014-9">Look At All The Controversial Claims In The New Jimi Hendrix Biopic</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment Contributors' class='fa fa-stop' style='color: #2b679f'></i><a target="_blank" href="http://www.slate.com/blogs/browbeat/2014/09/26/jimi_all_is_by_my_side_true_story_fact_and_fiction_in_john_ridley_s_jimi.html">Dee Lockett</a>, <a target="_blank" href="http://www.slate.com/">Slate</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411938600">Sep. 28,  5:10 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">7,825</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/controversial-claims-in-hendrix-biopic-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/controversial-claims-in-hendrix-biopic-2014-9#comments">6</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+			</div> <div class="row-fluid post-river-twocolumn border-bottom id-54201aafecad040c47be14d1 featurepost">
+	<div class="span6 river-image">
+		<a href="http://www.businessinsider.com/ktva-reporter-quits-2014-9"><img src="http://static1.businessinsider.com/image/542019d9ecad04774abe14cc-403-302/reporter-quits-on-live-tv-admits-to-owning-cannabis-club.jpg" alt="Reporter Quits On Live TV, Admits To Owning Cannabis Club" border="0" /></a>	</div>
+
+	<div class="span6">
+		<h2 class="feature-post overridable">
+			<a class="title" href="http://www.businessinsider.com/ktva-reporter-quits-2014-9">Reporter Quits On Live TV, Admits To Owning Cannabis Club</a>		</h2>
+
+					
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/tony-manfred">Tony Manfred</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411390500">Sep. 22, 2014,  8:55 AM</li>		        			
+		    		        <li class="pageviews"><span class="sprites fire views" title="views">131,649</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/ktva-reporter-quits-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/ktva-reporter-quits-2014-9#comments">54</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+			</div>
+
+	<!-- If there is a tracking pixel render it here -->
+	
+	<span class="river_stack_id" id="54217a586bb3f7804a257064" style="display: none"></span>
+</div><div class="id-540cbf4d6bb3f74a4c255d15 border-bottom bigpicture">
+	<span class="river_stack_id" id="5419fadd69bedd166a724d90" style="display:none"></span>
+    <h2 class="overridable"><a class="title" href="http://www.businessinsider.com/highest-paid-actors-on-fall-tv-2014-9">The Highest-Paid Actors On TV This Fall</a></h2>
+    
+        <a href="http://www.businessinsider.com/highest-paid-actors-on-fall-tv-2014-9"><img class="river-thumb" src="http://static5.businessinsider.com/image/53d2d4b16bb3f7825e17ada6-620-465/the-highest-paid-actors-on-tv-this-fall.jpg" width="620" height="465" /></a>
+    
+    
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/kirsten-acuna">Kirsten Acuna</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1410873480">Sep. 16, 2014,  9:18 AM</li>		        			
+		    		        <li class="pageviews"><span class="sprites fire views" title="views">332,118</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/highest-paid-actors-on-fall-tv-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/highest-paid-actors-on-fall-tv-2014-9#comments">11</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+	<!-- If there is a tracking pixel render it here -->
+	
+</div><div class="id-5405c3c4eab8ea1d25f36184 border-bottom bigpicture">
+	<span class="river_stack_id" id="5416fc61ecad04d21d3a412a" style="display:none"></span>
+    <h2 class="overridable"><a class="title" href="http://www.businessinsider.com/fall-movies-to-see-2014-9">17 Movies To See This Fall</a></h2>
+    
+        <a href="http://www.businessinsider.com/fall-movies-to-see-2014-9"><img class="river-thumb" src="http://static4.businessinsider.com/image/5410aba96da8115b5abe47ef-620-465/17-movies-to-see-this-fall.jpg" width="620" height="465" /></a>
+    
+    
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/brett-arnold">Brett Arnold</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1410526380">Sep. 12, 2014,  8:53 AM</li>		        			
+		    		        <li class="pageviews"><span class="sprites fire views" title="views">366,948</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/fall-movies-to-see-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/fall-movies-to-see-2014-9#comments">6</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+	<!-- If there is a tracking pixel render it here -->
+	
+</div>
+<div class="river-enhanced">
+	<span class="river_stack_id" id="53a9a3dbecad043612f86499" style="display:none;"></span>
+
+							<div  class="row-fluid border-bottom id-542828f569bedde01d974c16">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/joss-whedon-cowrote-toy-story-2014-9"><img class="river-thumb" src="http://static3.businessinsider.com/image/50d38b3eeab8eaae16000038-265-199/toy-story-had-an-unwatchable-script-until-joss-whedon-saved-it.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="542828f569bedde01d974c16">
+
+        <h3><a href="http://www.businessinsider.com/joss-whedon-cowrote-toy-story-2014-9">'Toy Story' Had An Unwatchable Script Until Joss Whedon Saved It</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/business-insider">Business Insider</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411932900">Sep. 28,  3:35 PM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-5425764269bedd1a272c31ff">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/the-boxtrolls-10-years-to-make-2014-9"><img class="river-thumb" src="http://static3.businessinsider.com/image/54257929ecad049b3ad306d3-265-199/new-stop-motion-animated-movie-the-boxtrolls-took-nearly-10-years-to-make.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="5425764269bedd1a272c31ff">
+
+        <h3><a href="http://www.businessinsider.com/the-boxtrolls-10-years-to-make-2014-9">New Stop-Motion Animated Movie 'The Boxtrolls' Took Nearly 10 Years To Make</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment Contributors' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/steve-pond">Steve Pond</a>, <a target="_blank" href="http://www.thewrap.com/">The Wrap</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411928461">Sep. 28,  2:21 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites grey views" title="views">400</span></li>
+		    
+		    		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-5425cc58eab8ea11487f3c33">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/iconic-photographs-john-malkovich-sandro-miller-2014-9"><img class="river-thumb" src="http://static4.businessinsider.com/image/5425cb966bb3f7672f61ed4c-265-199/these-images-of-john-malkovich-recreating-iconic-photos-will-blow-your-mind.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="5425cc58eab8ea11487f3c33">
+
+        <h3><a href="http://www.businessinsider.com/iconic-photographs-john-malkovich-sandro-miller-2014-9">These Images Of John Malkovich Recreating Iconic Photos Will Blow Your Mind</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/christian-storm">Christian Storm</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411927200">Sep. 28,  2:00 PM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-54282613eab8ea4539120b0e">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/whats-new-on-netflix-october-2014-9"><img class="river-thumb" src="http://static3.businessinsider.com/image/5424bb366da811bf26269071-265-199/heres-whats-new-on-netflix-in-october.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="54282613eab8ea4539120b0e">
+
+        <h3><a href="http://www.businessinsider.com/whats-new-on-netflix-october-2014-9">Here's What's New On Netflix In October</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/kirsten-acuna">Kirsten Acuna</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411925700">Sep. 28,  1:35 PM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-54282cd7ecad049410a035f6">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/chris-pratt-snl-monologue-2014-9"><img class="river-thumb" src="http://static6.businessinsider.com/image/5428298569beddaf14974c21-265-199/chris-pratt-opens-snl-season-premiere-with-a-funny-song-about-himself.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="54282cd7ecad049410a035f6">
+
+        <h3><a href="http://www.businessinsider.com/chris-pratt-snl-monologue-2014-9">Chris Pratt Opens SNL Season Premiere With A Funny Song About Himself</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/aly-weisman">Aly Weisman</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411919640">Sep. 28, 11:54 AM</li>		        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">1,552</span></li>
+		    
+		    		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-5425cbba6bb3f76e3b61ed43">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/best-shark-tank-pitches-2014-9"><img class="river-thumb" src="http://static3.businessinsider.com/image/54231b846da81155428b456b-265-199/the-15-best-shark-tank-pitches-of-all-time.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="5425cbba6bb3f76e3b61ed43">
+
+        <h3><a href="http://www.businessinsider.com/best-shark-tank-pitches-2014-9">The 15 Best 'Shark Tank' Pitches Of All Time</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Strategy' class='fa fa-stop' style='color: #a11d0b'></i><a href="http://www.businessinsider.com/author/business-insider">Business Insider</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411916520">Sep. 28, 11:02 AM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-5428130d69beddc131974c1a">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/softbank-in-talks-to-acquire-dreamworks-animation-2014-9"><img class="river-thumb" src="http://static2.businessinsider.com/image/512d36f4eab8ea7049000009-265-199/report-japans-softbank-is-in-talks-to-acquire-dreamworks-animation.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="5428130d69beddc131974c1a">
+
+        <h3><a href="http://www.businessinsider.com/softbank-in-talks-to-acquire-dreamworks-animation-2014-9">REPORT: Japan's SoftBank Is In Talks To Acquire DreamWorks Animation</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Markets' class='fa fa-stop' style='color: #cf4e00'></i><a href="http://www.businessinsider.com/author/myles-udland">Myles Udland</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411912945">Sep. 28, 10:02 AM</li>		        			
+		    		        <li class="pageviews"><span class="sprites orange views" title="views">853</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/softbank-in-talks-to-acquire-dreamworks-animation-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/softbank-in-talks-to-acquire-dreamworks-animation-2014-9#comments">1</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-542719a55afbd3f6508b456a">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/afp-clooney-and-amal-alamuddin-have-wed-publicist-2014-9"><img class="river-thumb" src="http://static6.businessinsider.com/image/542737216bb3f7b058335aab-265-199/george-clooney-just-got-married.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="542719a55afbd3f6508b456a">
+
+        <h3><a href="http://www.businessinsider.com/afp-clooney-and-amal-alamuddin-have-wed-publicist-2014-9">George Clooney Just Got Married</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment Contributors' class='fa fa-stop' style='color: #2b679f'></i><a target="_blank" href="http://www.afp.com/en/home">AFP</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411855680">Sep. 27,  6:08 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">3,777</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/afp-clooney-and-amal-alamuddin-have-wed-publicist-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/afp-clooney-and-amal-alamuddin-have-wed-publicist-2014-9#comments">3</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-5426c5176bb3f7be0e335ab0">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/taken-3-what-its-about-2014-9"><img class="river-thumb" src="http://static3.businessinsider.com/image/5421a1efecad041969d491ca-265-199/everything-we-know-so-far-about-taken-3.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="5426c5176bb3f7be0e335ab0">
+
+        <h3><a href="http://www.businessinsider.com/taken-3-what-its-about-2014-9">Everything We Know So Far About 'Taken 3'</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/business-insider">Business Insider</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411853700">Sep. 27,  5:35 PM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+					<div  class="row-fluid border-bottom id-5426c34169bedd1e09335ab0">
+
+    <div class="span4 river-image">
+		<a href="http://www.businessinsider.com/best-new-fall-shows-to-watch-2014-2014-9"><img class="river-thumb" src="http://static2.businessinsider.com/image/54204c576bb3f7f2703cdfb4-265-199/the-only-10-new-tv-shows-worth-watching-this-fall.jpg" width="265" height="199" /></a>    </div>
+
+    <div class="span8 river-post" data-bi-post-id="5426c34169bedd1e09335ab0">
+
+        <h3><a href="http://www.businessinsider.com/best-new-fall-shows-to-watch-2014-2014-9">The Only 10 New TV Shows Worth Watching This Fall</a></h3>
+        
+        
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/kirsten-acuna">Kirsten Acuna</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411846500">Sep. 27,  3:35 PM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+        
+    </div>
+    
+</div>
+			</div><div class="id-53f63ea86bb3f72e07f34f7a border-bottom bigpicture">
+	<span class="river_stack_id" id="5411a02d6da8113a27a40b9d" style="display:none"></span>
+    <h2 class="overridable"><a class="title" href="http://www.businessinsider.com/tv-personality-salaries-2014-9">The Insanely Large Paychecks Of 19 TV Personalities</a></h2>
+    
+        <a href="http://www.businessinsider.com/tv-personality-salaries-2014-9"><img class="river-thumb" src="http://static4.businessinsider.com/image/54062715ecad04a07d85e13d-620-465/the-insanely-large-paychecks-of-19-tv-personalities.jpg" width="620" height="465" /></a>
+    
+    
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/kirsten-acuna">Kirsten Acuna</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1410353460">Sep. 10, 2014,  8:51 AM</li>		        			
+		    		        <li class="pageviews"><span class="sprites fire views" title="views">1,242,266</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/tv-personality-salaries-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/tv-personality-salaries-2014-9#comments">33</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+	<!-- If there is a tracking pixel render it here -->
+	
+</div><div class="id-54062db9ecad040a1685e13f border-bottom bigpicture">
+	<span class="river_stack_id" id="540f57e7ecad041c4adc85e9" style="display:none"></span>
+    <h2 class="overridable"><a class="title" href="http://www.businessinsider.com/new-fall-tv-shows-2014-9">Here Are The 24 New Shows Coming To TV This Fall</a></h2>
+    
+        <a href="http://www.businessinsider.com/new-fall-tv-shows-2014-9"><img class="river-thumb" src="http://static1.businessinsider.com/image/537e61fb6bb3f78f5a91ea16-620-465/here-are-the-24-new-shows-coming-to-tv-this-fall.jpg" width="620" height="465" /></a>
+    
+    
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/kirsten-acuna">Kirsten Acuna</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1410125400">Sep.  7, 2014,  5:30 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites fire views" title="views">312,674</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/new-fall-tv-shows-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/new-fall-tv-shows-2014-9#comments">7</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+	<!-- If there is a tracking pixel render it here -->
+	
+</div><div class="id-5405cdd46bb3f7b26144e2f1 border-bottom bigpicture">
+	<span class="river_stack_id" id="540714ceeab8ea740efded2c" style="display:none"></span>
+    <h2 class="overridable"><a class="title" href="http://www.businessinsider.com/what-is-burning-man-like-2014-9">I Went To Burning Man And It Was Even Crazier Than I Expected</a></h2>
+    
+        <a href="http://www.businessinsider.com/what-is-burning-man-like-2014-9"><img class="river-thumb" src="http://static2.businessinsider.com/image/5406ed566bb3f7af75fded34-620-465/i-went-to-burning-man-and-it-was-even-crazier-than-i-expected.jpg" width="620" height="465" /></a>
+    
+    
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/aly-weisman">Aly Weisman</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1409668740">Sep.  2, 2014, 10:39 AM</li>		        			
+		    		        <li class="pageviews"><span class="sprites fire views" title="views">3,122,956</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/what-is-burning-man-like-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/what-is-burning-man-like-2014-9#comments">24</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+	<!-- If there is a tracking pixel render it here -->
+	
+</div>
+	
+	<div class="row-fluid river-twocolumn border-bottom">
+
+		<div class="span6 first">
+							
+<div  class="river-item river-bigimages id-{$post->id} border-bottom" data-bi-post-id="5426ec8deab8eac53c335aac">
+	<h3>
+		<a class="title" href="http://www.businessinsider.com/us-veterans-send-fox-news-open-letter-about-boobs-on-the-ground-joke-2014-9">US Veterans Send Fox News An Open Letter About 'Boobs On The Ground' Joke</a>	  
+	</h3>
+
+	<div class="river-post" data-bi-post-id="5426ec8deab8eac53c335aac">
+		<div class="river-image photo">
+			<a href="http://www.businessinsider.com/us-veterans-send-fox-news-open-letter-about-boobs-on-the-ground-joke-2014-9"><img class="river-thumb" src="http://static2.businessinsider.com/image/5426f2d769bedd7b4b335aae-389-291/us-veterans-send-fox-news-an-open-letter-about-boobs-on-the-ground-joke.jpg" width="389" height="291" /></a>		</div>
+	</div>
+	
+	
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Military & Defense Contributors' class='fa fa-stop' style='color: #3f8e3b'></i><a href="http://www.businessinsider.com/author/amanda-macias">Amanda Macias</a> <span class="text-and">and</span> <a href="http://www.businessinsider.com/author/talking-points-memo">Talking Points Memo</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411842120">Sep. 27, 2014,  2:22 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites fire views" title="views">313,891</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/us-veterans-send-fox-news-open-letter-about-boobs-on-the-ground-joke-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/us-veterans-send-fox-news-open-letter-about-boobs-on-the-ground-joke-2014-9#comments">183</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+	
+</div>
+							
+<div  class="river-item river-bigimages id-{$post->id} border-bottom" data-bi-post-id="5426c15decad04524c335ab2">
+	<h3>
+		<a class="title" href="http://www.businessinsider.com/norman-reedus-didnt-like-acting-before-the-walking-dead-2014-9">Here's Why A 'Walking Dead' Star Hated Hollywood Before His Big Break</a>	  
+	</h3>
+
+	<div class="river-post" data-bi-post-id="5426c15decad04524c335ab2">
+		<div class="river-image photo">
+			<a href="http://www.businessinsider.com/norman-reedus-didnt-like-acting-before-the-walking-dead-2014-9"><img class="river-thumb" src="http://static4.businessinsider.com/image/54230d0769bedd3a6c8b4568-389-291/heres-why-a-walking-dead-star-hated-hollywood-before-his-big-break.jpg" width="389" height="291" /></a>		</div>
+	</div>
+	
+	
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/kirsten-acuna">Kirsten Acuna</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411839300">Sep. 27, 2014,  1:35 PM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+	
+</div>
+							
+<div  class="river-item river-bigimages id-{$post->id} border-bottom" data-bi-post-id="5426d8b169beddad6b335aab">
+	<h3>
+		<a class="title" href="http://www.businessinsider.com/blue-man-group-unboxing-video-apple-iphone6-2014-9">The Blue Man Group Just Made The iPhone 6 Unboxing Video To End All Unboxing Videos</a>	  
+	</h3>
+
+	<div class="river-post" data-bi-post-id="5426d8b169beddad6b335aab">
+		<div class="river-image photo">
+			<a href="http://www.businessinsider.com/blue-man-group-unboxing-video-apple-iphone6-2014-9"><img class="river-thumb" src="http://static3.businessinsider.com/image/54232c3b6bb3f7c575a849a8-389-291/the-blue-man-group-just-made-the-iphone-6-unboxing-video-to-end-all-unboxing-videos.jpg" width="389" height="291" /></a>		</div>
+	</div>
+	
+	
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Tech' class='fa fa-stop' style='color: #01819e'></i><a href="http://www.businessinsider.com/author/matt-johnston">Matt Johnston</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411832100">Sep. 27, 2014, 11:35 AM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+	
+</div>
+							
+<div  class="river-item river-bigimages id-{$post->id} border-bottom" data-bi-post-id="5424816869bedd8732b93374">
+	<h3>
+		<a class="title" href="http://www.businessinsider.com/video-game-health-benefits-2014-9">15 Ways Video Games Make You Smarter And Healthier</a>	  
+	</h3>
+
+	<div class="river-post" data-bi-post-id="5424816869bedd8732b93374">
+		<div class="river-image photo">
+			<a href="http://www.businessinsider.com/video-game-health-benefits-2014-9"><img class="river-thumb" src="http://static2.businessinsider.com/image/541c465eecad04df6bf1a553-389-291/15-ways-video-games-make-you-smarter-and-healthier.jpg" width="389" height="291" /></a>		</div>
+	</div>
+	
+	
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Science' class='fa fa-stop' style='color: #01819e'></i><a href="http://www.businessinsider.com/author/dina-spector">Dina Spector</a> <span class="text-and">and</span> <a href="http://www.businessinsider.com/author/kevin-loria">Kevin Loria</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411764901">Sep. 26, 2014,  4:55 PM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+	
+</div>
+							
+<div  class="river-item river-bigimages id-{$post->id} border-bottom" data-bi-post-id="5425b6b5eab8ead76914fcb8">
+	<h3>
+		<a class="title" href="http://www.careerbuilder.com/s/job-of-the-week?lr=cbpar_busiin&amp;siteid=cbpar_busiinjotw">JOB OF THE WEEK: Director, Web Engineering At Starbucks</a>	  
+	</h3>
+
+	<div class="river-post" data-bi-post-id="5425b6b5eab8ead76914fcb8">
+		<div class="river-image photo">
+			<a href="http://www.careerbuilder.com/s/job-of-the-week?lr=cbpar_busiin&siteid=cbpar_busiinjotw"><img class="river-thumb" src="http://static4.businessinsider.com/image/4f6cc8d1ecad042958000057-389-291/job-of-the-week-director-web-engineering-at-starbucks.jpg" width="389" height="291" /></a>		</div>
+	</div>
+	
+	
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Business Insider' class='fa fa-stop' style='color: #185f7c'></i><a href="http://www.businessinsider.com/author/business-insider">Business Insider</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411757880">Sep. 26, 2014,  2:58 PM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+	
+</div>
+					</div>
+
+		<div class="span6">
+							
+<div  class="river-item river-bigimages id-{$post->id} border-bottom" data-bi-post-id="5426e4adeab8eab51e335aab">
+	<h3>
+		<a class="title" href="http://www.businessinsider.com/shark-tank-entrepreneurs-cry-proving-emotion-key-to-pitch-2014-9">These 'Shark Tank' Entrepreneurs Made The Sharks Cry, Proving Emotion Is Key To A Successful Pitch</a>	  
+	</h3>
+
+	<div class="river-post" data-bi-post-id="5426e4adeab8eab51e335aab">
+		<div class="river-image photo">
+			<a href="http://www.businessinsider.com/shark-tank-entrepreneurs-cry-proving-emotion-key-to-pitch-2014-9"><img class="river-thumb" src="http://static2.businessinsider.com/image/5426f6156bb3f75358335aab-389-291/these-shark-tank-entrepreneurs-made-the-sharks-cry-proving-emotion-is-key-to-a-successful-pitch.jpg" width="389" height="291" /></a>		</div>
+	</div>
+	
+	
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Strategy' class='fa fa-stop' style='color: #a11d0b'></i><a href="http://www.businessinsider.com/author/richard-feloni">Richard Feloni</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411841647">Sep. 27, 2014,  2:14 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites fire views" title="views">10,734</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/shark-tank-entrepreneurs-cry-proving-emotion-key-to-pitch-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/shark-tank-entrepreneurs-cry-proving-emotion-key-to-pitch-2014-9#comments">6</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+	
+</div>
+							
+<div  class="river-item river-bigimages id-{$post->id} border-bottom" data-bi-post-id="5411c5da6da811c65ba40ba0">
+	<h3>
+		<a class="title" href="http://www.businessinsider.com/breakout-stars-of-fall-tv-season-2014-9">11 Breakout Stars Of The Fall TV Season</a>	  
+	</h3>
+
+	<div class="river-post" data-bi-post-id="5411c5da6da811c65ba40ba0">
+		<div class="river-image photo">
+			<a href="http://www.businessinsider.com/breakout-stars-of-fall-tv-season-2014-9"><img class="river-thumb" src="http://static1.businessinsider.com/image/54240f27ecad04856540f52c-389-291/11-breakout-stars-of-the-fall-tv-season.jpg" width="389" height="291" /></a>		</div>
+	</div>
+	
+	
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment Contributors' class='fa fa-stop' style='color: #2b679f'></i>TV TEAM, <a target="_blank" href="http://www.thewrap.com/">The Wrap</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411837260">Sep. 27, 2014,  1:01 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites red views" title="views">9,596</span></li>
+		    
+		    		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+	
+</div>
+							
+<div  class="river-item river-bigimages id-{$post->id} border-bottom" data-bi-post-id="5425cb1c6bb3f7fa2c61ed4c">
+	<h3>
+		<a class="title" href="http://www.businessinsider.com/worst-shark-tank-pitches-2014-9">The 12 Worst 'Shark Tank' Pitches Of All Time </a>	  
+	</h3>
+
+	<div class="river-post" data-bi-post-id="5425cb1c6bb3f7fa2c61ed4c">
+		<div class="river-image photo">
+			<a href="http://www.businessinsider.com/worst-shark-tank-pitches-2014-9"><img class="river-thumb" src="http://static4.businessinsider.com/image/52408bb3ecad04a7588b456c-389-291/the-12-worst-shark-tank-pitches-of-all-time.jpg" width="389" height="291" /></a>		</div>
+	</div>
+	
+	
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Strategy' class='fa fa-stop' style='color: #a11d0b'></i><a href="http://www.businessinsider.com/author/business-insider">Business Insider</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411830060">Sep. 27, 2014, 11:01 AM</li>		        			
+		    
+		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+	
+</div>
+							
+<div  class="river-item river-bigimages id-{$post->id} border-bottom" data-bi-post-id="54256943ecad04027ad306d3">
+	<h3>
+		<a class="title" href="http://www.businessinsider.com/judy-mcgrath-jason-hirschhorn-at-ignition-2014-9">Go Millennial With MTV Pioneer Judy McGrath And REDEF’s Jason Hirschhorn At IGNITION 2014</a>	  
+	</h3>
+
+	<div class="river-post" data-bi-post-id="54256943ecad04027ad306d3">
+		<div class="river-image photo">
+			<a href="http://www.businessinsider.com/judy-mcgrath-jason-hirschhorn-at-ignition-2014-9"><img class="river-thumb" src="http://static3.businessinsider.com/image/5425c08e6bb3f79106d306e9-389-291/go-millennial-with-mtv-pioneer-judy-mcgrath-and-redefs-jason-hirschhorn-at-ignition-2014.jpg" width="389" height="291" /></a>		</div>
+	</div>
+	
+	
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Business Insider' class='fa fa-stop' style='color: #185f7c'></i><a href="http://www.businessinsider.com/author/spencer-reiss">Spencer Reiss</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411760700">Sep. 26, 2014,  3:45 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites orange views" title="views">674</span></li>
+		    
+		    		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+	
+</div>
+							
+<div  class="river-item river-bigimages id-{$post->id} border-bottom" data-bi-post-id="54256393eab8ea711fec5d2a">
+	<h3>
+		<a class="title" href="http://www.businessinsider.com/how-back-to-the-futures-opening-scene-was-filmed-2014-9">How The Incredible Opening Scene In 'Back To The Future' Was Filmed</a>	  
+	</h3>
+
+	<div class="river-post" data-bi-post-id="54256393eab8ea711fec5d2a">
+		<div class="river-image photo">
+			<a href="http://www.businessinsider.com/how-back-to-the-futures-opening-scene-was-filmed-2014-9"><img class="river-thumb" src="http://static5.businessinsider.com/image/52ebf2f76bb3f7c3062368f2-389-291/how-the-incredible-opening-scene-in-back-to-the-future-was-filmed.jpg" width="389" height="291" /></a>		</div>
+	</div>
+	
+	
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment Contributors' class='fa fa-stop' style='color: #2b679f'></i><a target="_blank" href="http://www.cinemablend.com/features/About-Us-296.html#Eric Eisenberg">Eric Eisenberg</a>, <a target="_blank" href="http://www.cinemablend.com/">CinemaBlend</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1411754255">Sep. 26, 2014,  1:57 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites grey views" title="views">344</span></li>
+		    
+		    		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+
+	
+</div>
+					</div>
+	
+		<span class="river_stack_id" id="52ab6344eab8ea9e593a73ca" style="display:none;"></span>
+	
+	</div><div class="id-540a262e6bb3f7a63c8575c8 border-bottom bigpicture">
+	<span class="river_stack_id" id="540cda9c6bb3f7543b255d17" style="display:none"></span>
+    <h2 class="overridable"><a class="title" href="http://www.businessinsider.com/destiny-screenshots-2014-9">14 Breathtaking Skylines From 'Destiny' Gameplay</a></h2>
+    
+        <a href="http://www.businessinsider.com/destiny-screenshots-2014-9"><img class="river-thumb" src="http://static2.businessinsider.com/image/540a2a8ceab8ea5b4c8575c3-620-465/14-breathtaking-skylines-from-destiny-gameplay.jpg" width="620" height="465" /></a>
+    
+    
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/kirsten-acuna">Kirsten Acuna</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1410007560">Sep.  6, 2014,  8:46 AM</li>		        			
+		    		        <li class="pageviews"><span class="sprites fire views" title="views">111,510</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/destiny-screenshots-2014-9#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/destiny-screenshots-2014-9#comments">5</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+	<!-- If there is a tracking pixel render it here -->
+	
+</div><div class="id-5400e3e8eab8eac747bf4e02 border-bottom bigpicture">
+	<span class="river_stack_id" id="5405f798eab8ea8e01f36178" style="display:none"></span>
+    <h2 class="overridable"><a class="title" href="http://www.businessinsider.com/actors-in-high-school-2014-8">Here's What 21 Actors Were Like In High School</a></h2>
+    
+        <a href="http://www.businessinsider.com/actors-in-high-school-2014-8"><img class="river-thumb" src="http://static1.businessinsider.com/image/521ce70869bedd963a3a6ba9-620-465/what-21-actors-were-like-in-high-school.jpg" width="620" height="465" /></a>
+    
+    
+<div class="flex byline">
+	
+	
+	<div class="flex-item">
+		<div class="list-pipes">
+			<ul>
+																		<li class="all-caps author-byline ks-author-byline"><i title='Entertainment' class='fa fa-stop' style='color: #2b679f'></i><a href="http://www.businessinsider.com/author/melia-robinson">Melia Robinson</a></li>
+																					        			        <li class="date" data-bi-format="date" rel="1409508014">Aug. 31, 2014,  2:00 PM</li>		        			
+		    		        <li class="pageviews"><span class="sprites fire views" title="views">158,826</span></li>
+		    
+		    		        			        <li title="Read comments" class="comments ks-read-comments-top">
+				        <a href="http://www.businessinsider.com/actors-in-high-school-2014-8#comments" class="views sprites comments-icon"></a>
+						<a class="comment_count" href="http://www.businessinsider.com/actors-in-high-school-2014-8#comments">4</a>			        </li>
+		        		    
+			</ul>
+
+		</div>
+	</div>
+</div>
+	<!-- If there is a tracking pixel render it here -->
+	
+</div>                </div>
+
+                <!-- River Loading Spinner -->
+                <div data-load-more-notification style="display: none;">
+                    <div class="sprites bi-spinner">
+                        <div class="rotating"></div>
+                    </div>
+                    <div class="spinner-text">Loading more...</div>
+                </div>
+                <!-- /River Loading Spinner -->
+                
+                <!-- SHOW NO PAGINATION FOR SUBVERTICALS (category) PAGES FOR BRAND BLOGS/GAMECHANGES -->
+                                    <!-- Pagination -->
+                    
+	<ul class="pager cf">
+		<li class="previous disabled">
+			<a class="float-left btn button-white disabled" href="#"><i class="fa fa-chevron-left"></i> Previous</a>
+		</li>
+		<li class="next">
+			<a class="float-right btn button-white" href="?page=2">Next <i class="fa fa-chevron-right"></i></a>
+		</li>
+	</ul>
+
+                    <!-- / Pagination -->
+                                        <!-- / River -->
+
+            </div>
+                            <div class="trending-container span3">
+                    <div class="trending ks-trending-recirculation">
+                        <h3 class="underlined">Trending</h3>
+                    </div>
+                </div>
+                </div>
+
+</div>
+
+                        </div>
+                                                    <div class="span4">
+                                <div class="main-rail">
+                                                                            
+<div id="right-rail" class="right-rail">
+	<div class="sl-layout-post">
+		<!-- PERFECT MARKET RR -->
+					<!-- Only show at uppermost top if skin is active -->
+			
+			<!-- Vertical Host -->
+													<!-- / Vertical Host -->
+
+			<!-- Countdown Clock  -->
+						<!-- / Countdown Clock  -->
+
+			
+
+<div data-bi-ad class="ad dfp" data-adunit="desktop/entertainment/thewire/homepage" data-pagetype="homepage" data-region="Top Right Rail" data-sizes="300x60,300x168" data-url="/thewire"></div>
+<script type="text/javascript">
+	(function() {
+		'use strict';
+
+		// Notify the DFP code that a new ad has just been rendered
+		amplify.publish('adRender');
+	}());
+</script>
+
+			<!-- BI Live Widget (Above Fold Placement) -->
+										
+			<!-- Newsletters -->
+			
+<div class="right-subscribe">
+	<div class="right-news">
+		<h3>Get <span class="news-vert">Entertainment</span> Emails &amp; Alerts</h3>
+		<div class="alert" id="news-alert"></div>
+		<form class="form" action="/newsletter?source=sidebar" method="post">
+			<div class="input-append">
+				<input id="news-email" name="email" type="text" placeholder="Email Address" data-email="">
+				<button class="btn submit" id="news-signup" type="submit">Sign-Up</button>
+			</div>
+			<a class="pull-right smallest" href="/newsletter">Learn More &#187;</a>
+
+			<div id="newsletter-expand" class="newsletter-preview-links" style="display:none">
+				<ul>
+											<li>
+							<label class="checkbox">
+								<input type="checkbox" name="newsletters[]" value="Entertainment Select" checked="checked">
+									Entertainment Select							</label>
+						</li>
+											<li>
+							<label class="checkbox">
+								<input type="checkbox" name="newsletters[]" value="Business Insider Select" checked="checked">
+									Business Insider Select							</label>
+						</li>
+									</ul>
+				<div class="divider">More</div>
+				<div class="accordion" id="news-categories">
+																											<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle collapsed" data-toggle="collapse" href="#news-category-id1">
+									<i class="fa fa-caret-right"></i><span>Featured</span>
+								</a>
+							</div>
+							<div id="news-category-id1" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Business Insider Select"
+														checked="checked"													/>
+													Business Insider Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Tech Select"
+																											/>
+													Tech Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Tech Chart Of The Day"
+																											/>
+													Tech Chart Of The Day												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Markets Chart Of The Day"
+																											/>
+													Markets Chart Of The Day												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="10 Things Before the Opening Bell"
+																											/>
+													10 Things Before the Opening Bell												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Instant MBA"
+																											/>
+													Instant MBA												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Breaking News"
+																											/>
+													Breaking News												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Master Events List"
+																											/>
+													Business Insider Events												</label>
+											</li>
+																			</ul>
+								</div>
+							</div>
+						</div>
+																	<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle collapsed" data-toggle="collapse" href="#news-category-id2">
+									<i class="fa fa-caret-right"></i><span>Entertainment</span>
+								</a>
+							</div>
+							<div id="news-category-id2" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Entertainment Select"
+														checked="checked"													/>
+													Entertainment Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Sports Select"
+																											/>
+													Sports Select												</label>
+											</li>
+																			</ul>
+								</div>
+							</div>
+						</div>
+																	<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle collapsed" data-toggle="collapse" href="#news-category-id3">
+									<i class="fa fa-caret-right"></i><span>Finance</span>
+								</a>
+							</div>
+							<div id="news-category-id3" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Finance Select"
+																											/>
+													Finance Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Markets Select"
+																											/>
+													Markets Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Monday Scouting Report"
+																											/>
+													Monday Scouting Report												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Your Money Select"
+																											/>
+													Your Money Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Financial Advisor Insights"
+																											/>
+													Financial Advisor Insights												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Smart Investor"
+																											/>
+													Smart Investor												</label>
+											</li>
+																			</ul>
+								</div>
+							</div>
+						</div>
+																	<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle collapsed" data-toggle="collapse" href="#news-category-id4">
+									<i class="fa fa-caret-right"></i><span>Strategy</span>
+								</a>
+							</div>
+							<div id="news-category-id4" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Strategy Select"
+																											/>
+													Strategy Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Advertising Select"
+																											/>
+													Advertising Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Retail Select"
+																											/>
+													Retail Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Careers Select"
+																											/>
+													Careers Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Marketing Mondays"
+																											/>
+													Marketing Mondays												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Advertising: The Brief"
+																											/>
+													Advertising: The Brief												</label>
+											</li>
+																			</ul>
+								</div>
+							</div>
+						</div>
+																	<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle collapsed" data-toggle="collapse" href="#news-category-id5">
+									<i class="fa fa-caret-right"></i><span>Politics</span>
+								</a>
+							</div>
+							<div id="news-category-id5" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Politics Select"
+																											/>
+													Politics Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Military Select"
+																											/>
+													Military Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Law & Order Select"
+																											/>
+													Law & Order Select												</label>
+											</li>
+																			</ul>
+								</div>
+							</div>
+						</div>
+																	<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle collapsed" data-toggle="collapse" href="#news-category-id6">
+									<i class="fa fa-caret-right"></i><span>Life</span>
+								</a>
+							</div>
+							<div id="news-category-id6" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Life Select"
+																											/>
+													Life Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Transportation Select"
+																											/>
+													Transportation Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Education Select"
+																											/>
+													Education Select												</label>
+											</li>
+																			</ul>
+								</div>
+							</div>
+						</div>
+																	<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle collapsed" data-toggle="collapse" href="#news-category-id7">
+									<i class="fa fa-caret-right"></i><span>Tech</span>
+								</a>
+							</div>
+							<div id="news-category-id7" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Enterprise Select"
+																											/>
+													Enterprise Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Science Select"
+																											/>
+													Science Select												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Mobile Chart Of The Day"
+																											/>
+													Mobile Chart Of The Day												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="E-Commerce Chart Of The Day"
+																											/>
+													E-Commerce Chart Of The Day												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Payments Chart Of The Day"
+																											/>
+													Payments Chart Of The Day												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Digital Media Chart Of The Day"
+																											/>
+													Digital Media Chart Of The Day												</label>
+											</li>
+																			</ul>
+								</div>
+							</div>
+						</div>
+																	<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle collapsed" data-toggle="collapse" href="#news-category-id8">
+									<i class="fa fa-caret-right"></i><span>Charts of the Day</span>
+								</a>
+							</div>
+							<div id="news-category-id8" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Sports Chart Of The Day"
+																											/>
+													Sports Chart Of The Day												</label>
+											</li>
+																			</ul>
+								</div>
+							</div>
+						</div>
+																	<div class="accordion-group">
+							<div class="accordion-heading">
+								<a class="accordion-toggle collapsed" data-toggle="collapse" href="#news-category-id9">
+									<i class="fa fa-caret-right"></i><span>Top 10 Things</span>
+								</a>
+							</div>
+							<div id="news-category-id9" class="accordion-body collapse">
+								<div class="accordion-inner">
+									<ul>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="10 Things In Tech You Need To Know"
+																											/>
+													10 Things In Tech You Need To Know												</label>
+											</li>
+																																																						<li>
+												<label class="checkbox">
+													<input type="checkbox" name="newsletters[]" value="Closing Bell"
+																											/>
+													Closing Bell												</label>
+											</li>
+																			</ul>
+								</div>
+							</div>
+						</div>
+									</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+			<!-- Show here if skin is not active -->
+												<div class="right-ad">
+						<div class="ad-height-250">
+							<h5 class="text-ad">Advertisement</h5>
+							
+
+<div data-bi-ad class="ad dfp" data-adunit="desktop/entertainment/thewire/homepage" data-pagetype="homepage" data-region="Upper 300" data-sizes="300x250,300x600,300x400,300x1050" data-url="/thewire"></div>
+<script type="text/javascript">
+	(function() {
+		'use strict';
+
+		// Notify the DFP code that a new ad has just been rendered
+		amplify.publish('adRender');
+	}());
+</script>
+						</div>
+					</div>
+		        		    
+			<!-- Your Money -->
+							<div class="stock-ticker ks-rr-your-money">
+	<h3 class="underlined">Your Money</h3>
+    <table class="xignite-indices">
+	                <tr>
+                <td>
+                    NASDAQ Composite                </td>
+                <td class="price">4,506</td>
+                <td>
+                                            <span class="xignite-indices-red">
+                            -6.34                        </span>
+                                    </td>
+                <td>
+                                            <span class="xignite-indices-red">
+                            (-0.141%)
+                        </span>
+                                    </td>
+            </tr>
+                    <tr>
+                <td>
+                    S&P 500                </td>
+                <td class="price">1,978</td>
+                <td>
+                                            <span class="xignite-indices-red">
+                            -5.05                        </span>
+                                    </td>
+                <td>
+                                            <span class="xignite-indices-red">
+                            (-0.255%)
+                        </span>
+                                    </td>
+            </tr>
+                    <tr>
+                <td>
+                    NYSE Composite                </td>
+                <td class="price">10,749</td>
+                <td>
+                                            <span class="xignite-indices-red">
+                            -49.83                        </span>
+                                    </td>
+                <td>
+                                            <span class="xignite-indices-red">
+                            (-0.461%)
+                        </span>
+                                    </td>
+            </tr>
+            </table>
+
+            <div class="ad-marketswidget margin-top">
+            <h5 class="text-ad">Sponsored By</h5>
+
+                            <div class="marketswidget-unit">
+                    
+
+<div data-bi-ad class="ad dfp" data-adunit="desktop/entertainment/thewire/homepage" data-pagetype="homepage" data-region="Stock Widget 1" data-sizes="88x31" data-url="/thewire"></div>
+<script type="text/javascript">
+	(function() {
+		'use strict';
+
+		// Notify the DFP code that a new ad has just been rendered
+		amplify.publish('adRender');
+	}());
+</script>
+                </div>
+            
+                    </div>
+    </div>			
+			<div id="taboola-right-rail-thumbnails"></div>
+<script type="text/javascript">
+	window._taboola = window._taboola || [];
+	_taboola.push({
+		mode: 'organic-thumbnails-a',
+		container: 'taboola-right-rail-thumbnails',
+		placement: 'Right Rail Thumbnails',
+		target_type: 'video'
+	});
+</script>
+							<!-- Linkedin App -->
+									<div class="linkedin">
+    <div class="header">
+        <a class="logo"><span>LinkedIn</span></a>
+    </div>
+
+    <div class="tabbable ks-rr-linkedin">
+        <div class="tab-content">
+            <div id="selected-listings" class="tab-pane active">
+                                    <ul class="media-list">
+                                                    <li class="media">
+                                <a class="pull-left" href="http://www.businessinsider.com/the-future-of-the-payments-industry-2014-slide-deck-2014-7"><img src="http://static1.businessinsider.com/image/53df96796da8118c2faf27ee--45/the-future-of-payments-2014-slide-deck.jpg" height="45"></a>
+                                <div class="listings">
+                                    <div class="media-body">
+                                        <p>
+                                            <span class="float-right share-button">
+                                                <script type="IN/Share" data-counter="right" data-url="http://www.businessinsider.com/the-future-of-the-payments-industry-2014-slide-deck-2014-7"></script>
+                                            </span>
+
+                                            <a href="http://www.businessinsider.com/the-future-of-the-payments-industry-2014-slide-deck-2014-7">
+                                                THE FUTURE OF PAYMENTS: 2014 [SLIDE DECK]                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="media">
+                                <a class="pull-left" href="http://www.businessinsider.com/social-media-engagement-statistics-2013-12"><img src="http://static1.businessinsider.com/image/52ab8b4b6bb3f73d780aafbd--45/social-media-engagement-the-surprising-facts-about-how-much-time-people-spend-on-the-major-social-networks.jpg" height="45"></a>
+                                <div class="listings">
+                                    <div class="media-body">
+                                        <p>
+                                            <span class="float-right share-button">
+                                                <script type="IN/Share" data-counter="right" data-url="http://www.businessinsider.com/social-media-engagement-statistics-2013-12"></script>
+                                            </span>
+
+                                            <a href="http://www.businessinsider.com/social-media-engagement-statistics-2013-12">
+                                                Social Media Engagement: The Surprising Facts About How Much Time People Spend On The Major Social Networks                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                                                    <li class="media">
+                                <a class="pull-left" href="http://www.businessinsider.com/google-asks-applicants-the-same-questions-2014-9"><img src="http://static3.businessinsider.com/image/5425c888ecad045c79e44224--45/why-google-asks-everyone-applying-for-a-job-the-same-exact-questions.jpg" height="45"></a>
+                                <div class="listings">
+                                    <div class="media-body">
+                                        <p>
+                                            <span class="float-right share-button">
+                                                <script type="IN/Share" data-counter="right" data-url="http://www.businessinsider.com/google-asks-applicants-the-same-questions-2014-9"></script>
+                                            </span>
+
+                                            <a href="http://www.businessinsider.com/google-asks-applicants-the-same-questions-2014-9">
+                                                Why Google Asks Everyone Applying For A Job The Same Exact Questions                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                                            </ul>
+                            </div>
+
+            <div id="network-listings" class="tab-pane">
+                <p class="not-logged">
+                    <a class="linkedin_login_link" href="/register?action=linkedin"">Login with LinkedIn</a> to see what your friends are reading on Business Insider. <br />
+                    <a class="btn linkedin" href="/register?action=linkedin"" rel="nofollow"><i class="fa fa-linkedin"></i> Login with LinkedIn</a>
+                </p>
+                <ul>
+                </ul>
+                <p class="no-articles" style="display: none">
+                    No articles have recently been shared in your network.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer border-top-dotted">
+        <p><a href="/trending_on_linkedin">More &#187;</a></p>
+            </div>
+</div>							
+		 	                <div class="right-ad">
+                    <div>
+                        <div class="sponsored-content-widget ks-rr-sponsored-content-widget">
+    <h3 class="underlined">Featured</h3>
+    <ul class="media-list">
+                <li id="id-54258b6deab8ea383a14fcbd" class="media">
+                        <a class="pull-left" href="http://www.businessinsider.com/beautiful-drone-videos-2014-9">
+                                    <img src="http://static2.businessinsider.com/image/54259afe6da811e639ae948b-60/how-drones-are-changing-the-way-we-see-things.jpg" alt="How Drones Are Changing The Way We See Things" />
+                            </a>
+            <div class="media-body">
+                <p><a class="title" href="http://www.businessinsider.com/beautiful-drone-videos-2014-9">How Drones Are Changing The Way We See Things</a></p>
+            </div>
+            <p class="align-right">
+                <a href="http://www.businessinsider.com/game-changers">More &quot;Game Changers&quot; »</a>            </p>
+        </li>
+                <li id="id-54186bddeab8ea3818f059ec" class="media">
+                        <a class="pull-left" href="http://www.businessinsider.com/how-to-ask-for-prenup-2014-9">
+                                    <img src="http://static1.businessinsider.com/image/541877656da811f33e6816f7-60/how-to-ask-for-a-prenup-without-causing-a-breakup.jpg" alt="How To Ask For A Prenup Without Causing A Breakup" />
+                            </a>
+            <div class="media-body">
+                <p><a class="title" href="http://www.businessinsider.com/how-to-ask-for-prenup-2014-9">How To Ask For A Prenup Without Causing A Breakup</a></p>
+            </div>
+            <p class="align-right">
+                <a href="http://www.businessinsider.com/category/life-plan">More &quot;Life Plan&quot; »</a>            </p>
+        </li>
+                <li id="id-542350f5eab8ea0a0b85179c" class="media">
+                        <a class="pull-left" href="http://www.businessinsider.com/drones-in-advertising-2014-9">
+                                    <img src="http://static6.businessinsider.com/image/5425d85869bedd3540936a7b-60/here-are-the-coolest-ways-drones-have-been-used-in-advertising.jpg" alt="Here Are The Coolest Ways Drones Have Been Used In Advertising" />
+                            </a>
+            <div class="media-body">
+                <p><a class="title" href="http://www.businessinsider.com/drones-in-advertising-2014-9">Here Are The Coolest Ways Drones Have Been Used In Advertising</a></p>
+            </div>
+            <p class="align-right">
+                <a href="http://www.businessinsider.com/game-changers">More &quot;Game Changers&quot; »</a>            </p>
+        </li>
+                <li id="id-54294bf96bb3f7933536fb0f" class="media">
+                        <a class="pull-left" href="http://www.businessinsider.com/the-week-ahead-microsoft-evernote-and-oracle-2014-9">
+                                    <img src="http://static2.businessinsider.com/image/5429509fecad04e71e31ea08-60/microsoft-is-likely-to-reveal-the-next-version-of-windows-tomorrow.jpg" alt="Satya Nadella Microsoft" />
+                            </a>
+            <div class="media-body">
+                <p><a class="title" href="http://www.businessinsider.com/the-week-ahead-microsoft-evernote-and-oracle-2014-9">Microsoft Is Likely To Reveal The Next Version Of Windows Tomorrow</a></p>
+            </div>
+            <p class="align-right">
+                <a href="http://www.businessinsider.com/category/tech-360">More &quot;Tech 360&quot; »</a>            </p>
+        </li>
+            </ul>
+</div>                    </div>
+                </div>
+            
+			<!-- Facebook Promo -->
+			
+			<!-- Facebook App -->
+			<div class="facebook-app-container" style="display:none;">
+	<h3 class="underlined">Welcome, <span id="fb-username"></span>!</h3>
+	<div class="facebook-app media">
+
+		<div class="fb-profile-pic pull-left"></div>
+
+		<div class="media-body">
+
+			<h5>You are logged into Facebook</h5>
+
+			<h5>Social: <a class="switch-off" href=""></a></h5>
+
+			<ul class="clearfix">
+				<li class="bi-popover activity"><a href="">Your Activity</a><span>|</span>
+					<div class="popover bottom">
+						<div class="arrow"></div>
+						<h3 class="popover-title">These articles have been shared on your timeline. You can remove them here:</h3>
+						<div class="popover-content">
+							<div class="fb-remove-articles"></div>
+						</div>
+					</div>
+				</li>
+				<li class="bi-popover options"><a href="">Options</a>
+					<div class="popover bottom">
+						<div class="arrow"></div>
+						<h3 class="popover-title">Notify me when a story is shared.</h3>
+						<div class="popover-content">
+							<div>						
+								<form id="fb-app-form">
+									<label class="radio inline">
+										<input type="radio" name="shared" value="true" id="notify_yes">Yes</label>
+									<label class="radio inline">
+										<input type="radio" name="shared" value="false" id="notify_no">No</label>
+								</form>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+		</div>	
+
+	</div>
+</div>
+
+	        <!-- Google App -->
+	        <div class="google-app-container" style="display:none;">
+    <h3 class="underlined">Welcome, <span id="gp-username"></span>!</h3>
+    <div class="google-app media">
+
+        <div class="gp-profile-pic pull-left"></div>
+
+        <div class="media-body">
+
+            <h5>You are logged in with Google</h5>
+
+            <h5>Social: <a class="switch-off" href=""></a></h5>
+
+            <ul class="clearfix">
+                <li class="bi-popover activity"><a href="">Your Activity</a><span>|</span>
+                    <div class="popover bottom">
+                        <div class="arrow"></div>
+                        <h3 class="popover-title">These articles have been added to your Google activity log. You can remove them here:</h3>
+                        <div class="popover-content">
+                            <div class="gp-remove-articles"></div>
+                        </div>
+                    </div>
+                </li>
+                <li class="bi-popover options"><a href="">Options</a>
+                    <div class="popover bottom">
+                        <div class="arrow"></div>
+                        <h3 class="popover-title">Notify me when a story is shared.</h3>
+                        <div class="popover-content">
+                            <div>                       
+                                <form id="gp-app-form">
+                                    <label class="radio inline">
+                                        <input type="radio" name="shared" value="true" id="notify_yes">Yes</label>
+                                    <label class="radio inline">
+                                        <input type="radio" name="shared" value="false" id="notify_no">No</label>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>  
+
+    </div>
+</div>
+
+			<!-- Editorial Sidebar -->
+							<!-- editorial sidebar -->
+<div id="editorial" class="ks-rr-editorial" data-bi-heatmap="editorial">
+	<h3 class="underlined">Watch & Learn</h3>
+	<div>
+		<p><a href="http://www.businessinsider.com/how-to-be-a-better-dancer-2014-9"><img src="http://static2.businessinsider.com/image/5429bbd4eab8eaaf0e84fb67-340/dancers.jpg" border="0" alt="Dancers" /></a></p>
+<ul>
+<li><a href="http://www.businessinsider.com/how-to-be-a-better-dancer-2014-9">Scientists Discovered What Makes Someone A Good Dancer</a></li>
+<li><a href="http://www.businessinsider.com/most-persuasive-english-words-2014-9">The 4 Most Persuasive Words In The English Language</a></li>
+<li><a href="http://www.businessinsider.com/myths-eating-red-meat-2014-8">Scientists Have Debunked These 5 Common Myths About Meat</a></li>
+</ul>	</div>
+</div>
+<!-- / editorial sidebar -->
+			
+			<!-- Trending -->
+			<div class="trending ks-trending-recirculation">
+				<h3 class="underlined">Trending</h3>
+			</div>
+
+			<!-- Read Me -->
+			
+							<!-- The Hive -->
+							
+			<!-- Editorial Sidebar 2 -->
+							<!-- editorial sidebar 2 -->
+<div id="editorial2" class="ks-rr-editorial-2" data-bi-heatmap="editorial2">
+	<h3 class="underlined">The Pulse of Digital</h3>
+	<div>
+		<p><a href="http://www.businessinsider.com/faq-beacons-and-apples-ibeacon-system-2014-7?utm_source=House&amp;utm_term=RR&amp;utm_campaign=RR"><img src="http://static1.businessinsider.com/image/53dbc2216da8118f4dc71306/beacons_image.png" border="0" alt="Social Media Disruption" width="340" /></a></p>
+<ul>
+<li><a href="http://www.businessinsider.com/faq-beacons-and-apples-ibeacon-system-2014-7?utm_source=House&amp;utm_term=RR&amp;utm_campaign=RR">BEACONS FAQ: It's Time To Set The Story Straight</a></li>
+<li><a href="http://www.businessinsider.com/the-programmatic-ad-report-2014-7?utm_source=House&amp;utm_term=RR&amp;utm_campaign=RR">THE PROGRAMMATIC ADVERTISING REPORT: Forecasts And Top Trends</a></li>
+<li><a href="http://www.businessinsider.com/the-future-of-the-payments-industry-2014-slide-deck-2014-7?utm_source=House&amp;utm_term=RR&amp;utm_campaign=RR">The Future of Payments [SLIDE DECK]</a><span style="color: #222222; line-height: 1.5em;">&nbsp;<br />&nbsp;</span></li>
+</ul>
+<div style="border-top: 1px solid #ddd; margin-top: 20px; margin-left: -20px; width: 340px;">
+<div style="margin: 30px 20px 0px 20px;">
+<h3 class="underlined">Read Business Insider On The Go</h3>
+<div class="content" style="height: 190px; text-align: center !important; background-image: url('http://static2.businessinsider.com/image/520a3568ecad04d97a000017/greybackground.png'); background-repeat: no-repeat; background-position: bottom center; overflow: hidden;">
+<div style="float: left; margin-top: 21px; display: block; z-index: 1; width: 300px; border-bottom: 1px solid #9d9d9d;"><a href="/about/mobile"><img src="http://static3.businessinsider.com/image/529e59f9ecad046316dfbba8-260/.png" border="0" /></a></div>
+<div style="z-index: 100; margin: 0px 15px 86px 200px; position: absolute; height: 90px; width: 90px; -moz-border-radius: 45px; border-radius: 45px; background-color: #2e79a6; -moz-box-shadow: 3px 3px 4px rgba(0,0,0,0.6); -webkit-box-shadow: 3px 3px 4px rgba(0,0,0,0.6); box-shadow: -3px 3px 4px rgba(0,0,0,0.6); text-align: center; vertical-align: middle !important;">
+<p style="font-family: Helvetica Neue, Arial, sans-serif; color: white; font-size: 18px; font-weight: 100; line-height: 20px; margin-top: 23px;">FREE App<br />Download</p>
+</div>
+</div>
+<div style="text-align: center !important; width: 100%; display: block;"><a href="https://itunes.apple.com/us/app/business-insider/id554260576?mt=8"><img src="http://static2.businessinsider.com/image/51e9584f69beddbb1d000003-208/appstorebadgeen.png" border="0" style="margin: 20px 0px 10px 0px;" /></a> <br /><a href="http://www.businessinsider.com/about/mobile">Available for iPhone, iPad, Android, BlackBerry and Windows</a> <br /> <a href="http://www.businessinsider.com/about/mobile"><img src="http://static1.businessinsider.com/image/51e95c6aeab8ea3845000009/appleicon.png" border="0" style="margin: 10px 5px;" /></a> <a href="http://www.businessinsider.com/about/mobile"><img src="http://static4.businessinsider.com/image/51e95c6aeab8eab74700000b/androidicon.png" border="0" style="margin: 10px 5px;" /></a><a href="http://www.businessinsider.com/about/mobile"><img src="http://static1.businessinsider.com/image/51e95c6aecad04b45d000002/.png" border="0" style="margin: 10px 5px;" /></a><a href="http://www.businessinsider.com/about/mobile"><img src="http://static5.businessinsider.com/image/5271611eeab8ea5e3bfb295b/windowsicon.png" border="0" style="margin: 10px 5px;" /></a></div>
+</div>
+</div>	</div>
+</div>
+<!-- / editorial sidebar 2 -->
+			
+			<!-- BI Live Widget (Below Fold Placement) -->
+										
+			<!-- Author Sold -->
+							<div class="right-ad">
+					<div>
+						<h5 class="text-ad">Advertisement</h5>
+						
+
+<div data-bi-ad class="ad dfp" data-adunit="desktop/entertainment/thewire/homepage" data-pagetype="homepage" data-region="Lower 300" data-sizes="300x250" data-url="/thewire"></div>
+<script type="text/javascript">
+	(function() {
+		'use strict';
+
+		// Notify the DFP code that a new ad has just been rendered
+		amplify.publish('adRender');
+	}());
+</script>
+					</div>
+				</div>
+			
+			<!-- Jobs Widget -->
+			
+<!-- Jobs Module -->
+<div class="jobs ks-rr-jobs">
+	<h5 class="text-ad pull-right"><a href="http://www.careerbuilder.com/Jobseeker/Jobs/JobResults.aspx?IPath=QH&qb=1&s_rawwords=&s_freeloc=&s_jobtypes=ALL&lr=cbpar_busiin&siteid=cbpar_busiin026" title="Visit Career Builder"><img src="http://static3.businessinsider.com/assets/images/careerbuilder.png" alt="Career Builder"></a></h5>
+	<h3 class="underlined">Find A Job</h3>
+
+	<div class="row-fluid">
+		<div class="span6">
+			<ul>
+				<li>
+					<a rel="nofollow" href="http://www.careerbuilder.com/Jobseeker/Jobs/JobResults.aspx?IPath=QH&qb=1&s_rawwords=technology&s_freeloc=&s_jobtypes=ALL&lr=cbpar_busiin&siteid=cbpar_busiin020">Tech Jobs</a>
+				</li>
+				<li class="">
+					<a rel="nofollow" href="http://www.careerbuilder.com/Jobseeker/Jobs/JobResults.aspx?IPath=QH&qb=1&s_rawwords=media&s_freeloc=&s_jobtypes=ALL&lr=cbpar_busiin&siteid=cbpar_busiin021">Media Jobs</a>
+				</li>
+				<li class="">
+					<a rel="nofollow" href="http://www.careerbuilder.com/Jobseeker/Jobs/JobResults.aspx?IPath=QH&qb=1&s_rawwords=finance&s_freeloc=&s_jobtypes=ALL&lr=cbpar_busiin&siteid=cbpar_busiin022">Finance Jobs</a>
+				</li>
+			</ul>
+		</div>
+		<div class="span6">
+			<ul>
+				<li>
+					<a rel="nofollow" href="http://www.careerbuilder.com/Jobseeker/Jobs/JobResults.aspx?IPath=QH&qb=1&s_rawwords=c-level&s_freeloc=&s_jobtypes=ALL&lr=cbpar_busiin&siteid=cbpar_busiin023">C-Level Jobs</a>
+				</li>
+				<li>
+					<a rel="nofollow" href="http://www.careerbuilder.com/Jobseeker/Jobs/JobResults.aspx?IPath=QH&qb=1&s_rawwords=design&s_freeloc=&s_jobtypes=ALL&lr=cbpar_busiin&siteid=cbpar_busiin024">Design Jobs</a>
+				</li>
+				<li>
+					<a rel="nofollow" href="http://www.careerbuilder.com/Jobseeker/Jobs/JobResults.aspx?IPath=QH&qb=1&s_rawwords=sales&s_freeloc=&s_jobtypes=ALL&lr=cbpar_busiin&siteid=cbpar_busiin025">Sales Jobs</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer border-top-dotted clearfix">
+		<div class="pull-right">
+			<a href="http://www.careerbuilder.com/Jobseeker/Jobs/JobResults.aspx?IPath=QH&qb=1&s_rawwords=&s_freeloc=&s_jobtypes=ALL&lr=cbpar_busiin&siteid=cbpar_busiin026">See All Jobs</a>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+			<!-- Partners -->
+			<div class="right-ad">
+				<div class="partner-thanks clearfix">
+				<h3 class="underlined">Thanks to our partners</h3>
+					<a href="http://hub.am/16BKYF8" title="Visit Datapipe" target="_blank"><img class="pull-left" src="http://static6.businessinsider.com/assets/images/partners/datapipe7.png" alt="Datapipe" /></a>
+					<a href="http://www.catchpoint.com/" title="Visit Catchpoint" target="_blank"><img class="pull-left" src="http://static1.businessinsider.com/assets/images/partners/catchpoint7.png" alt="Catchpoint - Web Performance Monitoring" /></a>
+					<a href="http://www.ooyala.com/?utm_source=BusinessInsider&utm_medium=Sponsor&utm_campaign=Rebranding" title="Visit Ooyala" target="_blank"><img class="pull-left" src="http://static6.businessinsider.com/assets/images/partners/ooyala7.png" alt="Ooyala" /></a>
+				</div>
+			</div>
+
+			<!-- Google Adsense -->
+			            <!-- / Google Adsense -->
+
+			</div>
+</div>
+                                                                    </div>
+                            </div>
+                        
+                    </div>
+                </div>
+
+                
+                </div>
+            </div>
+        </div>
+
+        <div class="footer" data-bi-footer>
+
+            <div class="container border-top">
+
+                <div class="list-pipes">
+                    <ul>
+                    <li>* Copyright &copy; 2014 Business Insider Inc. All rights reserved.<span> Registration on or use of this site constitutes acceptance of our
+                            <a href="/terms">Terms of Service</a>
+                            and
+                            <a href="/privacy-policy">Privacy Policy</a>.</span>
+                        </li>
+                        <li><a href="/disclaimer">Disclaimer</a></li>
+                        <li><a href="/commerce-on-business-insider">Commerce Policy</a></li>
+                    </ul>
+                </div>
+                <div class="list-pipes">
+                    <ul>
+                        <li>
+                            Powered by <a href="http://www.mongodb.org">MongoDB</a>
+                        </li>
+                        <li>
+                            Hosted by <a href="http://hub.am/16BKYF8">Datapipe</a>
+                        </li>
+                        <li>
+                            Stock quotes by <a href="http://ycharts.com">YCharts</a>
+                        </li>
+                        <li>
+                            <a href="http://nytm.org/made">Made in NYC</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="international-links border-top list-pipes">
+                    <ul>International Editions:
+                        <li><a href="http://www.businessinsider.com.au/">AUS</a></li><li><a href="http://www.businessinsider.co.id/">ID</a></li><li><a href="http://www.businessinsider.in/">IN</a></li><li><a href="http://www.businessinsider.my/">MY</a></li><li><a href="http://www.businessinsider.sg/">SG</a></li>                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="http://static5.businessinsider.com/assets/js/min-foot.js?1411763854"></script>
+<script type="text/javascript" src="http://static6.businessinsider.com/assets/js/app/components/ads/interstitial.js"></script>
+
+<!--[if gte IE 9]>
+<script type="text/javascript">amplify.publish("ie9-pinned-site", {"hid":null,"vertical":"thewire"});</script><![endif]-->
+
+<!-- Google Tag Manager -->
+<noscript><iframe src=""//www.googletagmanager.com/ns.html?id=GTM-NS64GV""
+height=""0"" width=""0"" style=""display:none;visibility:hidden""></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NS64GV');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Twitter widget.js -->
+<script type="text/javascript">
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){
+        js=d.createElement(s);
+        js.id=id;
+        js.src="https://platform.twitter.com/widgets.js";
+        js.async=true;
+        fjs.parentNode.insertBefore(js,fjs);
+    }}(document,"script","twitter-wjs");
+</script>
+<!-- /Twitter widget.js -->
+
+            <!-- Tynt -->
+        <script class="post-loaded" type="text/javascript" data-src="http://tcr.tynt.com/javascripts/Tracer.js?user=a-j2SKmdSr37y5adbiUzgI&amp;s=142"></script>
+        <!-- / Tynt -->
+    
+    <!-- START Nielsen Online SiteCensus V6.0 -->
+    <!-- COPYRIGHT 2010 Nielsen Online -->
+    <script type="text/javascript">
+    (function () {
+        var d = new Image(1, 1);
+        d.onerror = d.onload = function () { d.onerror = d.onload = null; };
+        d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-103525h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+    })();
+    </script>
+    <noscript>
+        <div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-103525h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" /></div>
+    </noscript>
+    <!-- END Nielsen Online SiteCensus V6.0 -->
+
+    <!-- Begin comScore Tag -->
+    <script type="text/javascript">
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "9900186" });
+        (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=9900186&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+
+    <!-- Chartbeat -->
+    <script type="text/javascript">
+        // chartbeat wants the vars in global
+
+        window._sf_async_config={uid:14447,domain:"businessinsider.com"};
+        window._sf_async_config.useCanonical = true;
+
+        //only set the following if on a sponsored post
+        
+        (function(){
+          function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src',
+               (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+               "static.chartbeat.com/js/chartbeat_pub.js");
+            document.body.appendChild(e);
+          }
+          var oldonload = window.onload;
+          window.onload = (typeof window.onload != 'function') ?
+             loadChartbeat : function() { oldonload(); loadChartbeat(); };
+        })();
+    </script>
+    <!-- / Chartbeat -->
+
+    <!-- BEGIN Krux Control Tag for "businessinsider.com" -->
+<!-- Source: /snippet/controltag?confid=I2I9M2yx&site=businessinsider.com&edit=1 -->
+<script class="kxct" data-id="I2I9M2yx" data-timing="async" data-version="1.9" type="text/javascript">
+  window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+  (function(){
+    var k=document.createElement('script');k.type='text/javascript';k.async=true;
+    var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+    k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+      (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=I2I9M2yx"
+  ;
+    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+  }());
+</script>
+<!-- END Krux Controltag -->
+            <!-- Sailthru Concierge -->
+        <script type="text/javascript" src="http://ak.sail-horizon.com/horizon/v1.js"></script>
+        <script type="text/javascript" src="http://ak.sail-horizon.com/scout/v1.js"></script>
+        <script type="text/javascript">
+        $(function() {
+            // Sailthru Concierge
+            if (window.Sailthru) {
+                var sailthruOpts = {
+                    domain: 'horizon.businessinsider.com'
+                                    };
+                if (window.outerWidth < 800) { //on small screens we dont want the flyout to appear
+                    delete sailthruOpts.concierge;
+                }
+                Sailthru.setup(sailthruOpts);
+            }
+        });
+        </script>
+        <!-- / Sailthru Concierge -->
+                <!-- Skimlinks -->
+        <script class="post-loaded" type="text/javascript" data-src="http://s.skimresources.com/js/35871X943606.skimlinks.js"></script>
+        <!-- /Skimlinks -->
+
+    
+<!-- Perfect market JS -->
+    <!-- End Perfect market JS-->
+
+<!-- kontera contextual ads -->
+
+<!-- taboola -->
+<script type="text/javascript">
+    window._taboola = window._taboola || [];
+    _taboola.push({flush: true});
+</script>
+<!-- End taboola -->
+
+<!--bizio-->
+<script type="text/javascript">
+  _bizo_data_partner_id = "1301";
+</script>
+<script type="text/javascript">
+(function() {
+  var s = document.getElementsByTagName("script")[0];
+  var b = document.createElement("script");
+  b.type = "text/javascript";
+  b.async = true;
+  b.src = (window.location.protocol === "https:" ? "https://sjs" : "http://js") + ".bizographics.com/insight.min.js";
+  s.parentNode.insertBefore(b, s);
+})();
+</script>
+<noscript>
+  <img height="1" width="1" alt="" style="display:none;" src="//www.bizographics.com/collect/?pid=1301&fmt=gif" />
+</noscript>
+<!--end-->
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-1.newrelic.com","licenseKey":"4b4136998e","applicationID":"2646431,2646478,2664978","transactionName":"ZVZVZRBVXEJVVkJRDVwcdEQRQF1cG11ZVQdCUlBU","queueTime":0,"applicationTime":1884,"ttGuid":"","agentToken":"","atts":"SRFWE1hPT0w=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-460.min.js"}</script></body>
+</html>

@@ -1,0 +1,1103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--[if lt IE 7]> <html class="no-js ie6 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9 ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> <!--<![endif]-->
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+								<meta property="og:url" content="http://mypinkfriday.com/" />
+				<meta property="og:site_name" content="Nicki Minaj" />
+				<meta property="fb:admins" content="620488868,682091272,799055396,573242407,589532541,584578491" />
+				<meta property="og:title" content="Nicki Minaj" />
+				<meta property="og:image" content="" />
+				<meta property="og:description" content="" />
+				<meta property="og:type" content="website" />
+				
+						<link rel="shortcut icon" href="/clients/nicki_minaj/img/favicon.ico" />
+		
+				
+				<title>Home : Nicki Minaj</title>
+
+				
+				<!--[if !IE 6]><!-->
+		<link href="/themes/master/css/master.css" media="screen" rel="stylesheet" type="text/css" />
+				<link href="/clients/nicki_minaj/css/client.css" media="screen" rel="stylesheet" type="text/css" />
+						<!--<![endif]-->
+					<!--[if IE 6]><link href="/themes/master/css/client_IE6.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+		
+
+				
+				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<script>window.jQuery || document.write('<script src="/engine/js/jquery/jquery-1.7.1.min.js" type="text/javascript"><\/script>')</script>
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+		<script>window.jQuery.ui || document.write('<script src="/engine/js/jquery/jquery-ui-1.8.16.min.js" type="text/javascript"><\/script>')</script>
+
+		<script src="/engine/js/underscore.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/engine/js/jquery/plugins/fancybox/jquery.fancybox-1.3.1.js" type="text/javascript"></script>
+		<script src="/engine/js/jquery/plugins/jquery.json.js" type="text/javascript"></script>
+		<script src="/engine/js/jquery/plugins/jquery.cookie.js" type="text/javascript"></script>
+		<script src="/engine/js/swfobject/swfobject-2.2.js" type="text/javascript"></script>
+		<script src="/themes/master/js/master.js" type="text/javascript"></script>
+		
+				<!--[if IE 7]>
+<meta http-equiv="x-ua-compatible" content="IE=8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwcDVlBaGwAGUFRbAQU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&&r.length||0,s=n[i]||(n[i]={}),u=0;a>u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,n,i,s){try{u?u-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(d){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t(5),a=window.onerror,s=!1,u=0;t("loader").features.push("err"),window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(c){"stack"in c&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),s=!0)}i.on("fn-start",function(){s&&(u+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&u>0&&(u-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);try{i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1)}catch(r){try{i.emit("internal-error",r)}catch(s){}}return n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,c="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,d=e(c);if(d&&(r.rxSize=d),this.sameOrigin){var f=t.getResponseHeader("X-NewRelic-App-Data");f&&(n.cat=f.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,c=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var c=e(o);c&&(r.txSize=c)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var d=0;u>d;d++)n.addEventListener(s[d],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+c(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+c(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&u&&u.body){p.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=p.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,c="addEventListener",d="attachEvent",f=(""+location).split("?")[0],p=e.exports={offset:i(),origin:f,features:[]};u[c]?(u[c]("DOMContentLoaded",o,!1),s[c]("load",n,!1)):(u[d]("onreadystatechange",r),s[d]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,r,s){function nrWrapper(){try{var n,a=u(arguments),c=this,d=r&&r(a,c)||{}}catch(f){i([f,"",[a,c,s],d])}o(e+"start",[a,c,s],d);try{return n=t.apply(c,a)}catch(p){throw o(e+"err",[a,c,p],d),p}finally{o(e+"end",[a,c,n],d)}}return a(t)?t:(e||(e=""),nrWrapper[n.flag]=!0,nrWrapper)}function r(t,e,r,o){r||(r="");var i,s,u,c="-"===r.charAt(0);for(u=0;u<e.length;u++)s=e[u],i=t[s],a(i)||(t[s]=n(i,c?s+r:r,o,s,t))}function o(t,e,n){try{s.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{s.emit("internal-error",t)}catch(e){}}function a(t){return!(t&&"function"==typeof t&&t.apply&&!t[n.flag])}var s=t(1),u=t(2);e.exports=n,n.inPlace=r,n.flag="nr@wrapper"},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
+<link rel="stylesheet" href="/clients/nicki_minaj/css/client_ie7.css" type="text/css" media="screen" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/clients/nicki_minaj/css/fonts.css">
+<![endif] -->
+
+<meta name="google-site-verification" content="cveeWA9CJdht8CV6o6lS1PzOU_nhEM5lYIEkZFCjW0Y" />
+<script src="/engine/js/jquery/plugins/jquery.slider.js" type="text/javascript" charset="utf-8"></script>
+<script src="/engine/js/jquery/plugins/fitvid/jquery.fitvids.js" type="text/javascript"></script>
+<script src="/clients/nicki_minaj/js/jquery.popupwindow.js" type="text/javascript"></script>
+<script src="/clients/nicki_minaj/js/client.js" type="text/javascript"></script>
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+<![endif]-->
+
+				<link rel="alternate" type="application/rss+xml" title="News" href="/api/rss/news" />
+		<link rel="alternate" type="application/rss+xml" title="Events" href="/api/rss/events" />
+
+						
+
+	</head>
+	<body class="home">
+		<!--[if lt IE 7]>
+		<div id="ie6alert">
+			<p><strong>Warning:</strong> We do not support the <a href="http://en.wikipedia.org/wiki/Web_browser" title="What is a web browser, you ask?" target="_blank" class="help">web browser</a> you are using, and cannot guarantee a problem free experience. Please upgrade to one of these modern web browsers (they&rsquo;re free):</p>
+			<ul>
+				<li><a href="http://www.mozilla.com/en-US/firefox/firefox.html" title="Download Firefox for Windows, Mac OS X, and Linux">Mozilla Firefox 3.5+</a></li>
+				<li><a href="http://www.apple.com/safari/" title="Download Safari for Mac OS X and Windows">Apple Safari 3.0+</a></li>
+				<li><a href="http://www.google.com/chrome?brand=CHFV" title="Download Google Chrome for Windows, Mac OS X, and Linux">Google Chrome 4.0+</a></li>
+				<li><a href="http://www.opera.com/download/" title="Download Opera for Windows, Mac OS X and Linux">Opera 9.5+</a></li>
+				<li><a href="http://www.microsoft.com/windows/Internet-explorer/default.aspx" title="Download a newer Internet Explorer Windows">Internet Explorer 7.0+</a></li>
+			</ul>
+		</div>
+		<![endif]-->
+
+		<div id="dashboard">
+	<div class="section">
+		
+		<ul class="nav controls">
+			<li class="register">
+				<a href="/auth/register">Register</a>
+			</li>
+			<li class="login">
+				<a href="/auth/login">Login</a>
+			</li>
+		</ul>
+
+			</div><!-- .section -->
+</div>
+
+		
+		<div id="header">
+
+	<div id="menu">
+		<div class="nav clearfix">
+	<ul class="left">
+
+		<li class="selected home">
+			<a href="/">Home</a>
+		</li>
+
+		<li class="news parent">
+
+			<a href="/news">News</a>
+
+			<ul class="child hide">
+				<li><a href="/users/W5b6wqKd/blogs/">Nicki's Blog</a></li>
+				<li><a href="/users/billboard/blogs">Billboard</a></li>
+			</ul>
+
+		</li>
+
+		<li class="events">
+			<a href="/events">Events</a>
+		</li>
+
+		<li class="community parent">
+
+			<a class="hide">Community</a>
+
+			<ul class="child">
+				<li class="chat">
+					<a href="/chat">Chat</a>
+				</li>
+				<li class="users">
+					<a href="/users">Users</a>
+				</li>
+				<li class="blogs">
+					<a href="/blogs">Blogs</a>
+				</li>
+				<li class="forum">
+					<a href="/forum">Forum</a>
+				</li>
+				<li class="contests">
+					<a href="/contests">Contests</a>
+				</li>
+				<li class="contests">
+					<a href="/campaigns">Campaigns</a>
+				</li>
+			</ul>
+
+		</li>
+	</ul>
+
+	<!-- Right Side -->
+	<ul class="right">
+
+		<li class="charity">
+			<a href="/charity">Charity</a>
+		</li>
+
+		<li class="store close">
+			<a href="http://smarturl.it/7u7q8o">Store</a>
+		</li>
+
+		<li class="nictionary">
+			<a href="/nictionary">Nictionary</a>
+		</li>
+
+		<li class="media parent">
+
+			<a href="/media">Media</a>
+
+			<ul class="child hide">
+				<li class="photos">
+					<a href="/media/photos">Photos</a>
+				</li>
+				<li class="videos">
+					<a href="/media/videos">Videos</a>
+				</li>
+				<li class="releases">
+					<a href="/releases">Music</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+	</div><!-- .section -->
+
+	<!-- This will only be shown on the home -->
+	<div id="slideshow"></div>
+
+	<div id="cpanel" class="clearfix">
+		<p class="button login">
+						<a href="/login">Log In</a>
+					</p>
+		<div class="social clearfix">
+			<a href="http://twitter.com/nickiminaj" class="twitter">Twitter</a>
+			<a href="http://facebook.com/nickiminaj" class="facebook">Facebook</a>
+			<a href="http://www.youtube.com/user/NickiMinajTV" class="youtube">Youtube</a>
+			<a href="http://myspace.com/nickiminaj" class="myspace">Myspace</a>
+			<a href="http://eventful.com/performers/nicki-minaj-/P0-001-000140404-4/demand" class="eventful">Eventful</a>
+			<a href="#newsletter" class="fancybox newsletter">Newsletter</a>
+		</div>
+		<p class="button register">
+						<a href="/register">Register</a>
+					</p>
+	</div>
+	
+	
+	<div id="topbar" class="clearfix">
+		<p class="button register">
+						<a href="/register">Register</a>
+					</p>
+		<p class="button login">
+						<a href="/login">Log In</a>
+					</p>
+		<p class="button view_cart">
+			<a href="/store/cart">View cart</a>
+		</p>
+	</div>
+
+</div>
+
+		
+		<div id="breadcrumbs">
+	<div class="nav">
+		<span class="here">You are here:</span> <a href="/" class="home">Home</a>
+	</div><!-- .nav -->
+</div>
+
+		<div id="page">
+			<div id="container">
+				<div class="sidebar left">
+
+			<div class="section events">
+		<div class="header">
+			<h3 class="title"><span>Events</span></h3>
+			<ul class="nav actions">
+				<li><a class="viewall" href="/events/">View All</a></li>
+			</ul>
+		</div><!-- .header -->
+
+		<ul class="listing compact">
+		<li>
+		<p class="none">More events coming soon.</p>
+	</li>
+		
+</ul>
+
+		<div class="footer">
+			<ul class="nav actions">
+				<li><a class="viewall" href="/events">View All</a></li>
+			</ul>
+		</div><!-- .footer -->
+	</div><!-- .section.events -->
+	
+			<div class="section users recent">
+		<div class="header">
+			<h3 class="title"><span>Featured Users</span></h3>
+
+			<ul class="nav actions">
+				<li><a class="viewall" href="/blogs/">View All</a></li>
+			</ul>
+		</div><!-- .header -->
+
+			<ul class="listing compact">
+<li>
+	<span id="user_24797701" class="avatar_wrapper">
+			<a href="/users/2JlKgCO8" class="icon" rel="PinkFlintnomoreslavery,,2JlKgCO8"><img src="/themes/master/img/default_avatar.jpg" alt="PinkFlintnomoreslavery avatar" /></a>
+		<a href="/users/2JlKgCO8" rel="PinkFlintnomoreslavery,,2JlKgCO8" class="displayname">PinkFlintnomoreslavery</a>
+	</span> 
+</li>
+
+<li>
+	<span id="user_16942981" class="avatar_wrapper">
+			<a href="/users/BNxAVJtg" class="icon" rel="mzbarbie1205,,BNxAVJtg"><img src="http://groundctrl.s3.amazonaws.com/clients/nickiminaj/media/12/09/small.5dsz481f742m.jpg" alt="mzbarbie1205 avatar" /></a>
+		<a href="/users/BNxAVJtg" rel="mzbarbie1205,,BNxAVJtg" class="displayname">mzbarbie1205</a>
+	</span> 
+</li>
+
+<li>
+	<span id="user_11463921" class="avatar_wrapper">
+			<a href="/users/xArI0YpA" class="icon" rel="Love Nicki Minaj Forever,,xArI0YpA"><img src="http://groundctrl.s3.amazonaws.com/clients/nickiminaj/media/11/06/small.s91m4qts19pd.png" alt="Love Nicki Minaj Forever avatar" /></a>
+		<a href="/users/xArI0YpA" rel="Love Nicki Minaj Forever,,xArI0YpA" class="displayname">Love Nicki Minaj Forever</a>
+	</span> 
+</li>
+
+<li>
+	<span id="user_7969452" class="avatar_wrapper">
+			<a href="/users/2lZLFJQO" class="icon" rel="gavinburke33,,2lZLFJQO"><img src="/themes/master/img/default_avatar.jpg" alt="gavinburke33 avatar" /></a>
+		<a href="/users/2lZLFJQO" rel="gavinburke33,,2lZLFJQO" class="displayname">gavinburke33</a>
+	</span> 
+</li>
+
+<li>
+	<span id="user_16141191" class="avatar_wrapper">
+			<a href="/users/ppw0ZoFd" class="icon" rel="Mimi26,,ppw0ZoFd"><img src="http://groundctrl.s3.amazonaws.com/clients/nickiminaj/media/10/13/small.a1bl7q3lkkwb.jpg" alt="Mimi26 avatar" /></a>
+		<a href="/users/ppw0ZoFd" rel="Mimi26,,ppw0ZoFd" class="displayname">Mimi26</a>
+	</span> 
+</li>
+
+
+</ul>
+
+
+		<div class="footer">
+			<ul class="nav actions">
+				<li><a class="viewall" href="/users/">View All</a></li>
+			</ul>
+		</div><!-- .footer -->
+	</div><!-- .section.bloggers.recent -->
+	
+			<div class="section featured">
+		<div class="details">
+			<a href="http://mypinkfriday.com/reup">
+				<img src="http://groundctrl.s3.amazonaws.com/clients/nickiminaj/features/the-re-up-cover.jpeg"/>
+			</a>
+		</div>
+	</div>
+</div>
+<div class="content">
+
+		
+			<div class="section news recent">
+		<div class="header">
+			<h2 class="title"><span>News</span></h2>
+			<ul class="nav actions">
+				<li><a class="viewall" href="/news">View All</a></li>
+			</ul>
+		</div><!-- .header -->
+
+		<ol class='listing full'>
+	
+		
+	<li class="item first">
+		<div class="article">
+			<div class="header">
+				<p class="datestamp">
+					<span class="time shellbtn">Mon, Sep 29, 2014 at  3:00 PM</span>
+				</p>
+				<h3 class="title"><a href="/news/226523">Nicki Minaj Performs At The iHeartRadio Music Festival On The CW Network</a></h3>
+				<div class="meta">
+					<span class="author">Posted by User</span>
+				</div><!-- .meta -->
+			</div><!-- .header -->
+						<div class="figure">
+				<img src="http://groundctrl.s3.amazonaws.com/clients/nickiminaj/media/12/07/images/assets/original.VGdEBmjMHP666dmdGdcIa0ni32un0tp182tx_ZdTtA0.jpg"  alt="" />
+				<!-- <p class="caption"></p> -->
+			</div>
+						<div class="details content excerpt">
+				<p>Catch Nicki Minaj&#39;s performance of &quot;Anaconda&quot; and her onstage collaboration with Ariana Grande on the television broadcast of the iHeartRadio Music Festival when it airs as an exclusive special on&nbsp;The CW network tonight at 8p ET / 8p PT! <a href="http://cwtv.com/thecw/stations" target="_blank">CLICK HERE</a>&nbsp;to find out what time and on what channel it airs in your area!</p>
+
+			</div><!-- .details.content.excerpt -->
+			<div class="footer clearfix">
+				<div class="nav actions">
+					<a href="/news/226523" class="shellbtn continue">Read the rest of this entry</a>
+				</div><!-- .actions -->
+				<div class="comments">
+					<a href="/news/226523/#comments" class="shellbtn">0 Comments</a>
+				</div>
+			</div><!-- .footer -->
+			
+		</div><!-- .article -->
+	</li>
+	
+		
+	<li class="item alt">
+		<div class="article">
+			<div class="header">
+				<p class="datestamp">
+					<span class="time shellbtn">Mon, Sep 29, 2014 at  3:08 AM</span>
+				</p>
+				<h3 class="title"><a href="/news/226443">#InstaNicki: Nicki Minaj Posts Selfies In New Wig</a></h3>
+				<div class="meta">
+					<span class="author">Posted by User</span>
+				</div><!-- .meta -->
+			</div><!-- .header -->
+						<div class="figure">
+				<img src="http://groundctrl.s3.amazonaws.com/clients/nickiminaj/media/11/04/images/assets/original.rlJf_hHN5vbGNfQdrONy4-zJy57QqhTJgTxiigv9tLc.png"  alt="" />
+				<!-- <p class="caption"></p> -->
+			</div>
+						<div class="details content excerpt">
+				<p>Nicki Minaj had instagram in a frenzy when she posted a pair of boobilicious selfies on Sunday. In the photos she shows us her flawless make up, short black bob wig and sexy bra &mdash; which according to her, are all a part of a &quot;secret project.&quot;</p>
+<p>&quot;Thx 4 my makeup Uza, short bob by Oscar, bra by my crazy &quot;mother&quot; Rushka #ItsASecret,&quot; she captioned one of the photos.</p>
+<p>What do you think the secret is barbz? A photo shoot, video shoot or something else?</p>
+<p><a href="http://s3.amazonaws.com/groundctrl/clients/nickiminaj/media/03/05/ckeditor/pictures/data/content.ps3utksa6sxwtyzipzvwx_graeycegsoqrpmwbkkaje.png" target="_blank"><img alt="" src="http://s3.amazonaws.com/groundctrl/clients/nickiminaj/media/03/05/ckeditor/pictures/data/content.ps3utksa6sxwtyzipzvwx_graeycegsoqrpmwbkkaje.png?1411985322" style="width: 125px; height: 125px;" /></a>&nbsp; <a href="http://s3.amazonaws.com/groundctrl/clients/nickiminaj/media/05/13/ckeditor/pictures/data/content.iu82-lzpfpnp5muvohkng3kcnzakirzacyyb_az4nvm.png" target="_blank"><img alt="" src="http://s3.amazonaws.com/groundctrl/clients/nickiminaj/media/05/13/ckeditor/pictures/data/content.iu82-lzpfpnp5muvohkng3kcnzakirzacyyb_az4nvm.png?1411985356" style="width: 125px; height: 125px;" /></a></p>
+
+			</div><!-- .details.content.excerpt -->
+			<div class="footer clearfix">
+				<div class="nav actions">
+					<a href="/news/226443" class="shellbtn continue">Read the rest of this entry</a>
+				</div><!-- .actions -->
+				<div class="comments">
+					<a href="/news/226443/#comments" class="shellbtn">1 Comments</a>
+				</div>
+			</div><!-- .footer -->
+			
+		</div><!-- .article -->
+	</li>
+	
+		
+	<li class="item ">
+		<div class="article">
+			<div class="header">
+				<p class="datestamp">
+					<span class="time shellbtn">Sun, Sep 28, 2014 at 10:10 AM</span>
+				</p>
+				<h3 class="title"><a href="/news/226353">Nicki Minaj, Ariana Grande and Jessie J Score UK No.1 With 'Bang Bang' </a></h3>
+				<div class="meta">
+					<span class="author">Posted by User</span>
+				</div><!-- .meta -->
+			</div><!-- .header -->
+						<div class="figure">
+				<img src="http://groundctrl.s3.amazonaws.com/clients/nickiminaj/media/08/02/images/assets/original.XG07Rhr25TX-PerzDOxHXWP2kjKex-uAX3K_oAfHWR4.jpg"  alt="" />
+				<!-- <p class="caption"></p> -->
+			</div>
+						<div class="details content excerpt">
+				<p>Jessie J, Ariana Grande and Nicki Minaj have taken the number one spot in this week&#39;s UK singles chart with their song &quot;Bang Bang&quot;. The single achieved 92,000 downloads and was streamed more than 800,000 times to give an overall tally of almost 100,000 chart sales, according to data from the Official Charts Company.</p>
+<p>This achievement marks Jessie J&#39;s third number one single. The track also gives Nicki her first UK number one single and marks Ariana Grande&#39;s second after &quot;Problem&quot;.</p>
+<p>Excited about the news, both Jessie and Nicki took to Instagram to show their appreciation.</p>
+<p><span id="intelliTXT">Jessie J: &quot;Ladies we did it! THANK YOU for being so unbelievably amazing! For holding my hand on this part of my journey!&quot; she wrote. &quot;I love you both and am so happy for us to share this moment. Number one in the UK BABY!&quot;</span></p>
+<p>Nicki Minaj: &quot;<span data-reactid=".e.0.0.0.0.0.0.1.0.0.0.0.1.2:1"><span data-reactid=".e.0.0.0.0.0.0.1.0.0.0.0.1.2:1.0">Heard #BangBang is #1 in the UK. AAAAAHHHHHHHHH! Thank u guys! Can&#39;t wait to come see u!!!!! ItsMeJessieAndAri #HistoryInTheMaking mmmmuuuuaaahhhhh!&quot;</span></span></p>
+
+			</div><!-- .details.content.excerpt -->
+			<div class="footer clearfix">
+				<div class="nav actions">
+					<a href="/news/226353" class="shellbtn continue">Read the rest of this entry</a>
+				</div><!-- .actions -->
+				<div class="comments">
+					<a href="/news/226353/#comments" class="shellbtn">2 Comments</a>
+				</div>
+			</div><!-- .footer -->
+			
+		</div><!-- .article -->
+	</li>
+	
+		
+	<li class="item last_alt">
+		<div class="article">
+			<div class="header">
+				<p class="datestamp">
+					<span class="time shellbtn">Sat, Sep 27, 2014 at 10:30 AM</span>
+				</p>
+				<h3 class="title"><a href="/news/226333">Billboard Hosting Q&A With Nicki Minaj</a></h3>
+				<div class="meta">
+					<span class="author">Posted by User</span>
+				</div><!-- .meta -->
+			</div><!-- .header -->
+						<div class="figure">
+				<img src="http://groundctrl.s3.amazonaws.com/clients/nickiminaj/media/12/00/images/assets/original.JA_Qld0EPWp4GLBEN-wpCXPOX-xaiciEHYYbeXiWAVw.png"  alt="" />
+				<!-- <p class="caption"></p> -->
+			</div>
+						<div class="details content excerpt">
+				<p>Have a question for Nicki Minaj? Tweet <a class="pretty-link js-nav" data-send-impression-cookie="true" dir="ltr" href="https://twitter.com/billboard"><span class="screen-name"><s>@</s>billboard</span></a> or send them an Instagram video and include the hashtag <a data-query-source="hashtag_click" dir="ltr" href="https://twitter.com/hashtag/BBAskNicki?src=hash"><s>#</s>BBAskNicki</a> - they may select your question for the Q&amp;A with the hip-hop star!</p>
+
+			</div><!-- .details.content.excerpt -->
+			<div class="footer clearfix">
+				<div class="nav actions">
+					<a href="/news/226333" class="shellbtn continue">Read the rest of this entry</a>
+				</div><!-- .actions -->
+				<div class="comments">
+					<a href="/news/226333/#comments" class="shellbtn">5 Comments</a>
+				</div>
+			</div><!-- .footer -->
+			
+		</div><!-- .article -->
+	</li>
+	
+	
+</ol><!-- .news.listing.full -->
+
+<div class="nav pagination">
+
+	<div class="pages clearfix">
+
+		<ul class="actions back clearfix">
+								</ul>
+
+					<ul class="actions forth clearfix">
+				<li><a href="?h=2014-09-27+10%3A30%3A00&p=2&d=next">Next</a></li>
+				<li><a href="?h=l">Last</a></li>
+			</ul>
+		
+		<ul class="results">
+			<li>Page 1 of 433</li>
+		</ul>
+	</div>
+
+</div>
+
+
+		<div class="footer">
+			<ul class="nav actions">
+				<li><a class="viewall" href="/news">View All</a></li>
+			</ul>
+		</div><!-- .footer -->
+	</div><!-- .section.news.recent -->
+	
+</div>
+<div class="sidebar right">
+
+	<div class="section twitter">
+		<div class="header">
+			<h3 class="title"><span>Twitter</span></h3>
+		</div>
+		<div id="tweets" class="details">
+			<a class="twitter-timeline"  href="https://twitter.com/NICKIMINAJ"  data-widget-id="347781271629488129" data-tweet-limit="3" data-link-color="#FFF" data-chrome="noheader nofooter transparent noborders noscrollbar">Tweets by @NICKIMINAJ</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+		<div class="footer">
+			<ul class="nav actions">
+				<li><a href="http://twitter.com/nickiminaj">Follow @nickiminaj</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="section campaigns compact">
+		<div class="header">
+			<h2 class="title"><span>campaigns</span></h2>
+		</div><!-- .header -->
+
+		<ol class="listing full">
+
+	
+	<li class="item">
+		<div class="article none">
+			<div class="header">
+				<h3 class="title">No Items</h3>
+			</div><!-- .header -->
+			<div class="details">
+				<p>There is nothing to display yet, check back soon.</p>
+			</div><!-- .details -->
+		</div><!-- .article -->
+	</li>
+
+	
+</ol>
+
+
+
+		<div class="footer">
+			<ul class="nav actions">
+				<li><a href="/campaigns/" class="viewall">View All</a></li>
+			</ul>
+		</div>
+
+	</div><!-- .section.campaigns.current -->
+
+	<div class="section contests compact">
+		<div class="header">
+			<h2 class="title"><span>contests</span></h2>
+		</div><!-- .header -->
+
+		<ol class="listing compact">
+
+ 	
+		<li>
+			<p class="none">There are no contests to show at the moment.</p>
+		</li>
+		
+	
+</ol>
+
+		<div class="footer">
+			<ul class="nav actions">
+				<li><a href="/contests/" class="viewall">View All</a></li>
+			</ul>
+		</div>
+
+	</div><!-- .section.contests.current -->
+
+		
+</div>
+			</div><!-- #container -->
+		</div><!-- #page -->
+
+		<div id="footer">
+    <div class="section">
+        <div class="nav clearfix">
+	<ul class="left">
+
+		<li class="selected home">
+			<a href="/">Home</a>
+		</li>
+
+		<li class="news parent">
+
+			<a href="/news">News</a>
+
+			<ul class="child hide">
+				<li><a href="/users/W5b6wqKd/blogs/">Nicki's Blog</a></li>
+				<li><a href="/users/billboard/blogs">Billboard</a></li>
+			</ul>
+
+		</li>
+
+		<li class="events">
+			<a href="/events">Events</a>
+		</li>
+
+		<li class="community parent">
+
+			<a class="hide">Community</a>
+
+			<ul class="child">
+				<li class="chat">
+					<a href="/chat">Chat</a>
+				</li>
+				<li class="users">
+					<a href="/users">Users</a>
+				</li>
+				<li class="blogs">
+					<a href="/blogs">Blogs</a>
+				</li>
+				<li class="forum">
+					<a href="/forum">Forum</a>
+				</li>
+				<li class="contests">
+					<a href="/contests">Contests</a>
+				</li>
+				<li class="contests">
+					<a href="/campaigns">Campaigns</a>
+				</li>
+			</ul>
+
+		</li>
+	</ul>
+
+	<!-- Right Side -->
+	<ul class="right">
+
+		<li class="charity">
+			<a href="/charity">Charity</a>
+		</li>
+
+		<li class="store close">
+			<a href="http://smarturl.it/7u7q8o">Store</a>
+		</li>
+
+		<li class="nictionary">
+			<a href="/nictionary">Nictionary</a>
+		</li>
+
+		<li class="media parent">
+
+			<a href="/media">Media</a>
+
+			<ul class="child hide">
+				<li class="photos">
+					<a href="/media/photos">Photos</a>
+				</li>
+				<li class="videos">
+					<a href="/media/videos">Videos</a>
+				</li>
+				<li class="releases">
+					<a href="/releases">Music</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+        <div id="copyright" class="clearfix">
+            <p class="copy"><span class="copyright">&copy; 2014 Nicki Minaj.  All rights reserved.</span> <span class="poweredby">Powered by <a href="http://groundctrl.com"><strong>ground</strong>(ctrl)</a></span></p>
+            
+            <ul class="nav terms">
+                <li class="privacy coppa"><a href="/privacy/">Privacy Policy</a></li>
+                <li class="conditions"><a href="http://groundctrl.com/terms/">Terms &amp; Conditions</a></li>
+                <li class="support"><a href="http://support.groundctrl.com/">Support</a></li>
+            </ul>
+            <p class="copy"><span>Visit <a href="http://www.OnGuardOnline.gov" target='blank'>www.OnGuardOnline.gov</a> for social networking safety tips for parents and youth</span></p>
+        </div><!-- #copyright -->
+    </div><!-- .section -->
+</div>
+
+<!-- Google Code for Nicki Minaj Remarketing List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1035879503;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "666666";
+var google_conversion_label = "WJb-CPm8gwIQz4j57QM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1035879503/?label=WJb-CPm8gwIQz4j57QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<div class="newsletter-wrapper">
+    <div id="newsletter">
+        <h2 class="title">Newsletter Signup</h2>
+        <form action="http://mailinglist.gctrl.com/t/y/s/qikhjk/" id="gc-validate-signup" method="post" data-require-email="true" data-valid-age="755935">
+            <p>
+                <label for="fieldName">Name</label>
+                <input id="fieldName" name="cm-name" type="text" />
+            </p>
+            <p>
+                <label for="fieldEmail">Email</label>
+                <input id="fieldEmail" class="gc-validate-email" name="cm-qikhjk-qikhjk" type="email" />
+            </p>
+            <p>
+                <label for="fieldxjkdyl">City</label>
+                <input id="fieldxjkdyl" name="cm-f-xjkdyl" type="text" />
+            </p>
+            <p>
+                <label for="fieldxjkdyr">State</label>
+                <select id="fieldxjkdyr" name="cm-fo-xjkdyr">
+                    <option value="725364">Alabama</option>
+                    <option value="725365">Alaska</option>
+                    <option value="725366">Arizona</option>
+                    <option value="725367">Arkansas</option>
+                    <option value="725368">California</option>
+                    <option value="725369">Colorado</option>
+                    <option value="725370">Connecticut</option>
+                    <option value="725371">Delaware</option>
+                    <option value="725372">District of Columbia</option>
+                    <option value="725373">Florida</option>
+                    <option value="725374">Georgia</option>
+                    <option value="725375">Hawaii</option>
+                    <option value="725376">Idaho</option>
+                    <option value="725377">Illinois</option>
+                    <option value="725378">Indiana</option>
+                    <option value="725379">Iowa</option>
+                    <option value="725380">Kansas</option>
+                    <option value="725381">Kentucky</option>
+                    <option value="725382">Louisiana</option>
+                    <option value="725383">Maine</option>
+                    <option value="725384">Maryland</option>
+                    <option value="725385">Massachusetts</option>
+                    <option value="725386">Michigan</option>
+                    <option value="725387">Minnesota</option>
+                    <option value="725388">Mississippi</option>
+                    <option value="725389">Missouri</option>
+                    <option value="725390">Montana</option>
+                    <option value="725391">Nebraska</option>
+                    <option value="725392">Nevada</option>
+                    <option value="725393">New Hampshire</option>
+                    <option value="725394">New Jersey</option>
+                    <option value="725395">New Mexico</option>
+                    <option value="725396">New York</option>
+                    <option value="725397">North Carolina</option>
+                    <option value="725398">North Dakota</option>
+                    <option value="725399">Ohio</option>
+                    <option value="725400">Oklahoma</option>
+                    <option value="725401">Oregon</option>
+                    <option value="725402">Pennsylvania</option>
+                    <option value="725403">Rhode Island</option>
+                    <option value="725404">South Carolina</option>
+                    <option value="725405">South Dakota</option>
+                    <option value="725406">Tennessee</option>
+                    <option value="725407">Texas</option>
+                    <option value="725408">Utah</option>
+                    <option value="725409">Vermont</option>
+                    <option value="725410">Virginia</option>
+                    <option value="725411">Washington</option>
+                    <option value="725412">West Virginia</option>
+                    <option value="725413">Wisconsin</option>
+                    <option value="725414">Wyoming</option>
+                </select>
+            </p>
+            <p>
+                <label for="fieldxjkdyy">Country</label>
+                <select id="fieldxjkdyy" name="cm-fo-xjkdyy">
+                    <option value="725415">Afghanistan</option>
+                    <option value="725416">Albania</option>
+                    <option value="725417">Algeria</option>
+                    <option value="725418">American Samoa</option>
+                    <option value="725419">Andorra</option>
+                    <option value="725420">Angola</option>
+                    <option value="725421">Anguilla</option>
+                    <option value="725422">Antigua &amp; Barbuda</option>
+                    <option value="725423">Argentina</option>
+                    <option value="725424">Armenia</option>
+                    <option value="725425">Aruba</option>
+                    <option value="725426">Australia</option>
+                    <option value="725427">Austria</option>
+                    <option value="725428">Azerbaijan</option>
+                    <option value="725429">Azores</option>
+                    <option value="725430">Bahamas</option>
+                    <option value="725431">Bahrain</option>
+                    <option value="725432">Bangladesh</option>
+                    <option value="725433">Barbados</option>
+                    <option value="725434">Belarus</option>
+                    <option value="725435">Belgium</option>
+                    <option value="725436">Belize</option>
+                    <option value="725437">Benin</option>
+                    <option value="725438">Bermuda</option>
+                    <option value="725439">Bhutan</option>
+                    <option value="725440">Bolivia</option>
+                    <option value="725441">Bonaire</option>
+                    <option value="725442">Bosnia &amp; Herzegovina</option>
+                    <option value="725443">Botswana</option>
+                    <option value="725444">Brazil</option>
+                    <option value="725445">British Indian Ocean Ter</option>
+                    <option value="725446">Brunei</option>
+                    <option value="725447">Bulgaria</option>
+                    <option value="725448">Burkina Faso</option>
+                    <option value="725449">Burundi</option>
+                    <option value="725450">Cambodia</option>
+                    <option value="725451">Cameroon</option>
+                    <option value="725452">Canada</option>
+                    <option value="725453">Canary Islands</option>
+                    <option value="725454">Cape Verde</option>
+                    <option value="725455">Cayman Islands</option>
+                    <option value="725456">Central African Republic</option>
+                    <option value="725457">Chad</option>
+                    <option value="725458">Channel Islands</option>
+                    <option value="725459">Chile</option>
+                    <option value="725460">China</option>
+                    <option value="725461">Christmas Island</option>
+                    <option value="725462">Cocos Island</option>
+                    <option value="725463">Colombia</option>
+                    <option value="725464">Comoros</option>
+                    <option value="725465">Congo</option>
+                    <option value="725466">Congo Democratic Rep</option>
+                    <option value="725467">Cook Islands</option>
+                    <option value="725468">Costa Rica</option>
+                    <option value="725469">Cote D&#x27;Ivoire</option>
+                    <option value="725470">Croatia</option>
+                    <option value="725471">Cuba</option>
+                    <option value="725472">Curacao</option>
+                    <option value="725473">Cyprus</option>
+                    <option value="725474">Czech Republic</option>
+                    <option value="725475">Denmark</option>
+                    <option value="725476">Djibouti</option>
+                    <option value="725477">Dominica</option>
+                    <option value="725478">Dominican Republic</option>
+                    <option value="725479">East Timor</option>
+                    <option value="725480">Ecuador</option>
+                    <option value="725481">Egypt</option>
+                    <option value="725482">El Salvador</option>
+                    <option value="725483">Equatorial Guinea</option>
+                    <option value="725484">Eritrea</option>
+                    <option value="725485">Estonia</option>
+                    <option value="725486">Ethiopia</option>
+                    <option value="725487">Falkland Islands</option>
+                    <option value="725488">Faroe Islands</option>
+                    <option value="725489">Fiji</option>
+                    <option value="725490">Finland</option>
+                    <option value="725491">France</option>
+                    <option value="725492">French Guiana</option>
+                    <option value="725493">French Polynesia</option>
+                    <option value="725494">French Southern Ter</option>
+                    <option value="725495">Gabon</option>
+                    <option value="725496">Gambia</option>
+                    <option value="725497">Georgia</option>
+                    <option value="725498">Germany</option>
+                    <option value="725499">Ghana</option>
+                    <option value="725500">Gibraltar</option>
+                    <option value="725501">Great Britain</option>
+                    <option value="725502">Greece</option>
+                    <option value="725503">Greenland</option>
+                    <option value="725504">Grenada</option>
+                    <option value="725505">Guadeloupe</option>
+                    <option value="725506">Guam</option>
+                    <option value="725507">Guatemala</option>
+                    <option value="725508">Guernsey</option>
+                    <option value="725509">Guinea</option>
+                    <option value="725510">Guinea-Bissau</option>
+                    <option value="725511">Guyana</option>
+                    <option value="725512">Haiti</option>
+                    <option value="725513">Honduras</option>
+                    <option value="725514">Hong Kong</option>
+                    <option value="725515">Hungary</option>
+                    <option value="725516">Iceland</option>
+                    <option value="725517">India</option>
+                    <option value="725518">Indonesia</option>
+                    <option value="725519">Iran</option>
+                    <option value="725520">Iraq</option>
+                    <option value="725521">Ireland</option>
+                    <option value="725522">Isle of Man</option>
+                    <option value="725523">Israel</option>
+                    <option value="725524">Italy</option>
+                    <option value="725525">Jamaica</option>
+                    <option value="725526">Japan</option>
+                    <option value="725527">Jersey</option>
+                    <option value="725528">Jordan</option>
+                    <option value="725529">Kazakhstan</option>
+                    <option value="725530">Kenya</option>
+                    <option value="725531">Kiribati</option>
+                    <option value="725532">Korea North</option>
+                    <option value="725533">Korea South</option>
+                    <option value="725534">Kuwait</option>
+                    <option value="725535">Kyrgyzstan</option>
+                    <option value="725536">Laos</option>
+                    <option value="725537">Latvia</option>
+                    <option value="725538">Lebanon</option>
+                    <option value="725539">Lesotho</option>
+                    <option value="725540">Liberia</option>
+                    <option value="725541">Libya</option>
+                    <option value="725542">Liechtenstein</option>
+                    <option value="725543">Lithuania</option>
+                    <option value="725544">Luxembourg</option>
+                    <option value="725545">Macau</option>
+                    <option value="725546">Macedonia</option>
+                    <option value="725547">Madagascar</option>
+                    <option value="725548">Malawi</option>
+                    <option value="725549">Malaysia</option>
+                    <option value="725550">Maldives</option>
+                    <option value="725551">Mali</option>
+                    <option value="725552">Malta</option>
+                    <option value="725553">Marshall Islands</option>
+                    <option value="725554">Martinique</option>
+                    <option value="725555">Mauritania</option>
+                    <option value="725556">Mauritius</option>
+                    <option value="725557">Mayotte</option>
+                    <option value="725558">Mexico</option>
+                    <option value="725559">Midway Islands</option>
+                    <option value="725560">Moldova</option>
+                    <option value="725561">Monaco</option>
+                    <option value="725562">Mongolia</option>
+                    <option value="725563">Montenegro</option>
+                    <option value="725564">Montserrat</option>
+                    <option value="725565">Morocco</option>
+                    <option value="725566">Mozambique</option>
+                    <option value="725567">Myanmar</option>
+                    <option value="725568">Namibia</option>
+                    <option value="725569">Nauru</option>
+                    <option value="725570">Nepal</option>
+                    <option value="725571">Netherland Antilles</option>
+                    <option value="725572">Netherlands</option>
+                    <option value="725573">Nevis</option>
+                    <option value="725574">New Caledonia</option>
+                    <option value="725575">New Zealand</option>
+                    <option value="725576">Nicaragua</option>
+                    <option value="725577">Niger</option>
+                    <option value="725578">Nigeria</option>
+                    <option value="725579">Niue</option>
+                    <option value="725580">Norfolk Island</option>
+                    <option value="725581">Norway</option>
+                    <option value="725582">Oman</option>
+                    <option value="725583">Pakistan</option>
+                    <option value="725584">Palau Island</option>
+                    <option value="725585">Palestine</option>
+                    <option value="725586">Panama</option>
+                    <option value="725587">Papua New Guinea</option>
+                    <option value="725588">Paraguay</option>
+                    <option value="725589">Peru</option>
+                    <option value="725590">Philippines</option>
+                    <option value="725591">Pitcairn Island</option>
+                    <option value="725592">Poland</option>
+                    <option value="725593">Portugal</option>
+                    <option value="725594">Puerto Rico</option>
+                    <option value="725595">Qatar</option>
+                    <option value="725596">Reunion</option>
+                    <option value="725597">Romania</option>
+                    <option value="725598">Russia</option>
+                    <option value="725599">Rwanda</option>
+                    <option value="725600">Saipan</option>
+                    <option value="725601">Samoa</option>
+                    <option value="725602">Samoa American</option>
+                    <option value="725603">San Marino</option>
+                    <option value="725604">Sao Tome &amp; Principe</option>
+                    <option value="725605">Saudi Arabia</option>
+                    <option value="725606">Senegal</option>
+                    <option value="725607">Serbia</option>
+                    <option value="725608">Serbia &amp; Montenegro</option>
+                    <option value="725609">Seychelles</option>
+                    <option value="725610">Sierra Leone</option>
+                    <option value="725611">Singapore</option>
+                    <option value="725612">Slovakia</option>
+                    <option value="725613">Slovenia</option>
+                    <option value="725614">Solomon Islands</option>
+                    <option value="725615">Somalia</option>
+                    <option value="725616">South Africa</option>
+                    <option value="725617">South Sudan</option>
+                    <option value="725618">Spain</option>
+                    <option value="725619">Sri Lanka</option>
+                    <option value="725620">St Barthelemy</option>
+                    <option value="725621">St Eustatius</option>
+                    <option value="725622">St Helena</option>
+                    <option value="725623">St Kitts-Nevis</option>
+                    <option value="725624">St Lucia</option>
+                    <option value="725625">St Maarten</option>
+                    <option value="725626">St Pierre &amp; Miquelon</option>
+                    <option value="725627">St Vincent &amp; Grenadines</option>
+                    <option value="725628">Sudan</option>
+                    <option value="725629">Suriname</option>
+                    <option value="725630">Swaziland</option>
+                    <option value="725631">Sweden</option>
+                    <option value="725632">Switzerland</option>
+                    <option value="725633">Syria</option>
+                    <option value="725634">Tahiti</option>
+                    <option value="725635">Taiwan</option>
+                    <option value="725636">Tajikistan</option>
+                    <option value="725637">Tanzania</option>
+                    <option value="725638">Thailand</option>
+                    <option value="725639">Togo</option>
+                    <option value="725640">Tokelau</option>
+                    <option value="725641">Tonga</option>
+                    <option value="725642">Trinidad &amp; Tobago</option>
+                    <option value="725643">Tunisia</option>
+                    <option value="725644">Turkey</option>
+                    <option value="725645">Turkmenistan</option>
+                    <option value="725646">Turks &amp; Caicos Is</option>
+                    <option value="725647">Tuvalu</option>
+                    <option value="725648">Uganda</option>
+                    <option value="725649">Ukraine</option>
+                    <option value="725650">United Arab Emirates</option>
+                    <option value="725651">United Kingdom</option>
+                    <option selected value="725652">United States of America</option>
+                    <option value="725653">Uruguay</option>
+                    <option value="725654">Uzbekistan</option>
+                    <option value="725655">Vanuatu</option>
+                    <option value="725656">Vatican City State</option>
+                    <option value="725657">Venezuela</option>
+                    <option value="725658">Vietnam</option>
+                    <option value="725659">Virgin Islands (Brit)</option>
+                    <option value="725660">Virgin Islands (USA)</option>
+                    <option value="725661">Wake Island</option>
+                    <option value="725662">Wallis &amp; Futana Is</option>
+                    <option value="725663">Yemen</option>
+                    <option value="725664">Zambia</option>
+                    <option value="725665">Zimbabwe</option>
+                </select>
+            </p>
+            <p>
+                <label for="fieldxklulu">Age Verification</label>
+                <select id="fieldxklulu" name="cm-fo-xklulu" class="gc-validate-age">
+                    <option value="755934" selected="selected">I am under 13 years of age.</option>
+                    <option value="755935">I am at least 13 years of age.</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit" class="button">Subscribe</button>
+            </p>
+        </form>
+
+    </div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+
+	//client specific
+			var pageTracker = _gat._getTracker("UA-2233934-62");
+		pageTracker._trackPageview();
+			
+	//ground(ctrl) wide
+	var pageTrackerAll = _gat._getTracker("UA-2233934-41");
+	pageTrackerAll._setDomainName("none");
+	pageTrackerAll._setAllowLinker(true);
+	pageTrackerAll._trackPageview();
+</script>
+
+<script type="text/javascript">
+
+   var GoSquared={};
+   GoSquared.acct = "GSN-353074-Z";
+   (function(w){
+       function gs(){
+           w._gstc_lt=+(new Date); var d=document;
+           var g = d.createElement("script"); g.type = "text/javascript"; g.async = true; g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+           var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);
+       }
+       w.addEventListener?w.addEventListener("load",gs,false):w.attachEvent("onload",gs);
+   })(window);
+
+</script>
+
+<!-- Google Code for Nicki Minaj - Site - 365 Day Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1017011664;
+var google_conversion_label = "6jQOCKCSpQsQ0Lv55AM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">;
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" 
+src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1017011664/?value=0
+&label=6jQOCKCSpQsQ0Lv55AM&guid=ON&script=0"/>
+</div>
+</noscript>
+
+<!-- Facebook Tracker -->
+
+ <script type="text/javascript">(function(){ 
+window._fbds = window._fbds || {}; 
+_fbds.pixelId = 686001558117965; 
+var fbds = document.createElement('script'); 
+fbds.async = true; 
+fbds.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//connect.facebook.net/en_US/fbds.js'; 
+var s = document.getElementsByTagName('script')[0]; 
+s.parentNode.insertBefore(fbds, s); 
+})(); 
+window._fbq = window._fbq || []; 
+window._fbq.push(["track", "PixelInitialized", {}]); 
+</script> 
+
+<noscript><img height="1" width="1" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=686001558117965&amp;ev=NoScript"; /></noscript>
+
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-6.newrelic.com","licenseKey":"765edf4a24","applicationID":"3645964","transactionName":"ZV1QN0BXD0pZW0RaX1wXcRZBQg5UF3BfXlU=","queueTime":0,"applicationTime":53,"ttGuid":"","agentToken":"","atts":"SRpTQQhNHEQ=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-412.min.js"}</script></body>
+</html>

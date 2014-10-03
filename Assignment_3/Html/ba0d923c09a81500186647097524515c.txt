@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ 
+<!-- Please keep my credit on this theme. Or at least link
+me as the creator on your blog somewhere. Thanks! =)
+ 
+Accumulate V2 Theme by: sleeplessthemes.com & destroyer.tumblr.com
+Accumulate V2 Theme by: sleeplessthemes.com & destroyer.tumblr.com
+Accumulate V2 Theme by: sleeplessthemes.com & destroyer.tumblr.com
+Accumulate V2 Theme by: sleeplessthemes.com & destroyer.tumblr.com
+Accumulate V2 Theme by: sleeplessthemes.com & destroyer.tumblr.com -->
+ 
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<!-- DEFAULT VARIABLES -->
+<meta name="color:Background" content="#070707"/>
+<meta name="color:Box" content="#0C0C0C"/>
+<meta name="color:Text" content="#808080"/>
+<meta name="color:text headers" content="#db1745"/>
+<meta name="color:bold text" content="#B6B6B6"/>
+<meta name="color:label background" content="#181818"/>
+<meta name="color:link" content="#87caf6"/>
+<meta name="color:link hover" content="#417fa8"/>
+ 
+<meta name="image:Portrait" content=""/>
+<meta name="image:Background" content=""/>
+ 
+<meta name="if:Show Caption" content="1" />
+<meta name="if:Show Title" content="1" />
+<meta name="if:Show Reblog Button" content="1" />
+<meta name="if:Show Image Fade" content="1" />
+<meta name="if:Show Infinite Scroll" content="1" />
+ 
+<meta name="text:Font Size" content="9px"/>
+<meta name="font:Body" content="'Arial', Trebuchet MS, Helvetica, Tahoma, sans-serif" />
+ 
+<meta name="text:Custom Link One" content="" />
+<meta name="text:Custom Link One Title" content="" />
+<meta name="text:Custom Link Two" content="" />
+<meta name="text:Custom Link Two Title" content="" />
+<meta name="text:Custom Link Three" content="" />
+<meta name="text:Custom Link Three Title" content="" />
+<meta name="text:Custom Link Four" content="" />
+<meta name="text:Custom Link Four Title" content="" />
+ 
+ 
+<title>Heavily Blessed</title>
+ 
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+ 
+
+ 
+<div id="page-nav"><a href="/page/2"></a></div>
+ 
+<script src='http://code.jquery.com/jquery-1.4.2.min.js' type='text/javascript'></script>
+ 
+<script src='http://static.tumblr.com/1s4z8hu/UTBlo4136/jquery.masonry.min.js' type='text/javascript'></script>
+ 
+<script type="text/javascript" src="http://static.tumblr.com/jnmer2r/WKhljk73d/jquery.infinitescroll.min.js"></script>
+ 
+ 
+<script>
+jQuery(window).load(function(){
+var $wall = $('#posts');
+$wall.imagesLoaded(function(){
+$wall.masonry({
+singleMode: true,
+columnWidth: 215,
+itemSelector: '#entry'
+});
+});
+$wall.infinitescroll({
+navSelector : '#page-nav',
+nextSelector : '#page-nav a',
+itemSelector : '#entry',
+},
+ 
+function( newElements ){
+$(newElements).hide();
+setTimeout(function(){
+$wall.masonry({ appendedContent: $(newElements) });
+},2000);
+setTimeout(function(){
+$(newElements).fadeIn('slow');
+},2100);
+},1000);
+});
+</script>
+ 
+ 
+<script>
+$.fn.imagesLoaded = function(callback){
+var elems = this.find('img'),
+len = elems.length,
+_this = this;
+if ( !elems.length ) {
+callback.call( this );}
+elems.bind('load',function(){
+if (--len <= 0){
+callback.call( _this );}
+}).each(function(){
+// cached images don't fire load sometimes, so we reset src.
+if (this.complete || this.complete === undefined){
+var src = this.src;
+// webkit hack from http://groups.google.com/group/jquery-dev/browse_thread/thread/eee6ab7b2da50e1f
+// data uri bypasses webkit log warning (thx doug jones)
+this.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
+this.src = src;}
+});
+return this;};
+</script>
+ 
+
+ 
+<style type="text/css">
+ 
+body{
+margin-top: 40px;
+text-align:justify;
+color: #808080;
+font-family: 'Calluna', serif;
+font-size: 10px;
+line-height: 12px;
+text-align:justify;
+background-color:#070707;
+background-image:url(http://assets.tumblr.com/images/x.gif);
+background-attachment: fixed;
+background-position:top center;
+background-repeat: repeat;}
+ 
+a:link, a:visited, a:active{color: #87caf6; text-decoration:none;
+font-family: 'Calluna', serif;
+font-size: 10px; line-height:12px; }
+a:hover{color: #417fa8; line-height:12px;}
+ 
+a img {
+border: 0px;
+opacity: 1;
+filter: alpha(opacity=80);
+}
+ 
+a:hover img {
+opacity: .60;
+filter: alpha(opacity=100);
+}
+ 
+ 
+#tumblr_controls{
+position:fixed!important;}
+ 
+b, strong{color: #B6B6B6;
+font-family: 'Calluna', serif;
+font-size: 10px; line-height:12px;}
+ 
+#posts{
+margin-left:-432px;
+left:50%;
+position:absolute;
+width:646px;
+background-color: transparent;}
+ 
+#right{
+position: fixed;
+z-index:8;
+overflow:hidden;
+display:block;
+margin-left: 218px;
+left: 50%;
+padding: 4px;
+top:44px;
+width: 200px;
+height: auto;
+background-image:url();
+background-color: #0C0C0C;}
+ 
+#entry{
+overflow: hidden;
+float: left;
+width: 200px;
+
+background-color: #0C0C0C;
+padding: 0px;
+margin: 4px;
+border: 4px solid #0C0C0C;
+background-image:url();}
+ 
+ 
+#permapage {
+padding:4px;
+margin-top:2px;
+margin-bottom:2px;
+background-color:#181818;}
+ 
+#question{
+overflow:SHOW;
+padding-bottom:3px;
+margin-bottom:3px;}
+ 
+#askr{
+display:block;
+float:left;
+width:33px;
+overflow:hidden;
+margin-right:3px;}
+ 
+ul {
+list-style: disc;
+padding: 4px 0px 6px 20px;}
+ 
+blockquote{padding:0px; padding-left:5px; margin:5px; border-left:2px solid #181818;}
+ 
+blockquote img{display:block; width:100%;}
+ 
+blockquote p{padding:0px; margin:0px;}
+ 
+blockquote blockquote{position:relative; left:6px; margin-top:0px; margin-right:0px; padding-right:0px;}
+ 
+#bottominfo{
+padding:2px 0px 0px 0px;
+display:block;}
+ 
+.answer p{margin:0px;}
+.notes img{
+width:10px;
+position:relative;
+top:1px;}
+ 
+ol.notes, .notes li{
+list-style:none;
+margin:0px;
+padding:0px;}
+ 
+small {font-size:7px; line-height:8px; letter-spacing:0px;}
+big {font-family:arial black; color:#808080; font-size:14px;}
+ 
+a img{border:none;}
+ 
+.label {
+color: #B6B6B6;font-weight: bold; line-height:12px;}
+ 
+.odd {
+background-color:#181818;}
+ 
+h1 {
+color: #db1745;
+font-size: 12px;
+line-height: 12px;
+font-family: arial black;
+text-transform: uppercase;
+letter-spacing: -1px;}
+ 
+h2 {
+color: #db1745;
+font-size: 12px;
+line-height: 12px;
+font-family: arial;
+font-weight:bold;
+text-transform: uppercase;
+letter-spacing: -1px;
+margin-top:0px;
+margin-bottom:-6px;
+padding-bottom:6px;}
+ 
+h3 {
+color: #db1745;
+font-size: 10px;
+line-height: 12px;
+font-family: arial;
+font-weight:bold;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-top:0px;
+margin-bottom:-6px;
+padding-bottom:6px;}
+ 
+.audio embed {width:200px; z-index:-2;}
+ 
+.video embed, object {
+
+width:200px;
+
+
+}
+ 
+#ask {
+background-color: #181818;
+padding:4px;
+margin-bottom:4px;}
+ 
+#vid {
+margin-top:-12px;
+margin-bottom:-2px;
+text-align:right;}
+ 
+#entry #infos {
+opacity:0.8;
+filter: alpha(opacity=80);
+-moz-opacity:0.8;
+background-color:#000000;
+width:202px;
+position: absolute;
+top:-50px;
+margin-left:0px;
+-webkit-transition: all .4s ease-out;
+-moz-transition: all .4s ease-out;
+-o-transition: all .4s ease-out;
+transition: all .4s ease-out;
+z-index:10;
+overflow-y:hidden;
+height: 50px;}
+ 
+#entry:hover #infos {
+top:0px;
+-webkit-transition: all .4s ease-out;
+-moz-transition: all .4s ease-out;
+-o-transition: all .4s ease-out;
+transition: all .4s ease-out;}
+ 
+#entry #infos #details {
+background-image:url();
+background-position:top center;
+background-repeat:repeat;
+float:left;
+display:block;
+width:202px;
+height: auto;
+padding: 8px 0px 0px 0px;}
+ 
+a.notecount {
+color:#ffffff;
+font-size: 24px;
+line-height: 20px;
+font-family: arial black;
+font-weight:bold;
+text-transform: uppercase;
+letter-spacing: -4px;}
+ 
+a.notecount:hover { color: #777777;}
+ 
+a.notecount2 {
+color: #db1745;
+font-size: 8px;
+line-height: 10px;
+font-family: arial;
+font-weight: normal;
+text-transform: uppercase;
+letter-spacing: 10px;}
+ 
+a.notecount2:hover {
+color:#ffffff;}
+ 
+ 
+a.links {
+background-color:#181818;
+font-family: Arial;
+font-size: 7px;
+line-height: 10px;
+font-weight:bold;
+text-transform: uppercase;
+letter-spacing:0px;
+display:block;
+padding:1px;
+margin-top: 4px;
+margin-bottom: 4px;}
+ 
+a.links:hover {
+text-align: center;
+background-color:#070707; }
+ 
+
+</style>
+ 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+ 
+<script type="text/javascript" src="http://static.tumblr.com/eptm5us/Rb0llmimz/jquery.magnifier.js">
+ 
+/***********************************************
+* jQuery Image Magnify- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+</script>
+ 
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_8ed31a703632_128.png">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://dayanaax3.tumblr.com/rss" />
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=dayanaax3" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/calluna/stylesheet.css?v=3"><link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/grumpyblack48/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Heavily Blessed" /><meta property="og:url" content="http://dayanaax3.tumblr.com/?og=1" /><meta property="og:description" content="twitter: dayanaros_" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_8ed31a703632_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=dayanaax3" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=dayanaax3" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="dayanaax3" /><meta name="twitter:description" content="&lt;p&gt;twitter: dayanaros_&lt;/p&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=dayanaax3&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=dayanaax3&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=dayanaax3&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+ 
+ 
+<div id="posts">
+ 
+<div id="right">
+<center>
+<a href="/"><img src="http://static.tumblr.com/116ab1939b7db420a9255591aff31f17/we9cw55/9iwmyoydy/tumblr_static_img_3520.jpeg" width="200"></a></center>
+ 
+<center><p><h2>Heavily Blessed</h2></p></center>
+ 
+ 
+<p><p>twitter: dayanaros_</p></p>
+ 
+<a href="/" class="links">Home</a>
+
+
+ 
+<a href="/archive" class="links">Archive</a>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<center><table width="70" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="10">
+
+</td>
+<td width="50"><center>1 of 1712</center></td>
+<td width="10"><h1><a href="/page/2">►</a></h1>
+</td>
+</tr>
+</table></center>
+ 
+<center><b><small>Theme By:</small></b> <a href="http://destroyer.tumblr.com"><small>Destroyer</small></a>/<a href="http://sleeplessthemes.tumblr.com"><small>Sleepless</small></a> <small>|</small> <b><small>Powered By:</small></b> <a href="http://tumblr.com"><small>Tumblr.com</small></a></center>
+</div>
+ 
+
+<div id="entry">
+ 
+
+<center><div id="infos">
+<div id="details">
+ 
+<center><a href="http://dayanaax3.tumblr.com/post/98704334060" class="notecount">248,517 notes</a></center>
+ 
+<center>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/98704334060/uCnystSA" class="notecount2">Reblog</a></center>
+ 
+</div>
+</div></center>
+
+ 
+
+ 
+
+ 
+
+<a href="http://evolutional.tumblr.com/"><a href="http://dayanaax3.tumblr.com/post/98704334060"><img src="http://41.media.tumblr.com/tumblr_lwyh0wPga91qipw1jo1_500.jpg" alt="" width="200"></a>
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+</div>
+ 
+
+<div id="entry">
+ 
+
+<center><div id="infos">
+<div id="details">
+ 
+<center><a href="http://dayanaax3.tumblr.com/post/98704303505/theoitnblife-oitnb-posts-here" class="notecount">1,143 notes</a></center>
+ 
+<center>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/98704303505/GMagP5Yz" class="notecount2">Reblog</a></center>
+ 
+</div>
+</div></center>
+
+ 
+
+ 
+
+ 
+
+<a href="http://theoitnblife.tumblr.com/"><a href="http://dayanaax3.tumblr.com/post/98704303505/theoitnblife-oitnb-posts-here"><img src="http://31.media.tumblr.com/df200f7a39a35afaa0b8b88116ace51d/tumblr_ncfa5jZzN61tmn92vo1_500.jpg" alt="theoitnblife:
+
+OITNB posts here" width="200"></a>
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+</div>
+ 
+
+<div id="entry">
+ 
+
+<center><div id="infos">
+<div id="details">
+ 
+<center><a href="http://dayanaax3.tumblr.com/post/98704232145" class="notecount">1,289 notes</a></center>
+ 
+<center>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/98704232145/Evn2qSQG" class="notecount2">Reblog</a></center>
+ 
+</div>
+</div></center>
+
+ 
+
+ 
+
+ 
+
+<a href="http://dayanaax3.tumblr.com/post/98704232145"><img src="http://31.media.tumblr.com/366b609192563e10fccbb51adcb3050f/tumblr_ncnclpbNyG1qjm9bpo1_500.png" alt="" width="200"></a>
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+</div>
+ 
+
+<div id="entry">
+ 
+
+<center><div id="infos">
+<div id="details">
+ 
+<center><a href="http://dayanaax3.tumblr.com/post/98638930420/my-teen-quote-relatable-quotes-daily-here" class="notecount">4,661 notes</a></center>
+ 
+<center>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/98638930420/vgbrUr4b" class="notecount2">Reblog</a></center>
+ 
+</div>
+</div></center>
+
+ 
+
+ 
+
+ 
+
+<a href="http://these-times-shall-pass.tumblr.com/"><a href="http://dayanaax3.tumblr.com/post/98638930420/my-teen-quote-relatable-quotes-daily-here"><img src="http://33.media.tumblr.com/adacc26cf4ec110bbcd8b54757722604/tumblr_ncjc2ioBbE1rkbqbko1_500.jpg" alt="my-teen-quote:
+
+relatable&nbsp;quotes&nbsp;daily here!" width="200"></a>
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+</div>
+ 
+
+<div id="entry">
+ 
+
+<center><div id="infos">
+<div id="details">
+ 
+<center><a href="http://dayanaax3.tumblr.com/post/98358205025" class="notecount">3,355 notes</a></center>
+ 
+<center>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/98358205025/k7mKJTKK" class="notecount2">Reblog</a></center>
+ 
+</div>
+</div></center>
+
+ 
+
+ 
+
+ 
+
+<a href="http://my-teen-quote.tumblr.com/"><a href="http://dayanaax3.tumblr.com/post/98358205025"><img src="http://33.media.tumblr.com/e532b0d8ef3085379ca8fa316c406e93/tumblr_ncdpjbXWKA1rh1wv4o1_500.jpg" alt="" width="200"></a>
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+</div>
+ 
+
+<div id="entry">
+ 
+
+<center><div id="infos">
+<div id="details">
+ 
+<center><a href="http://dayanaax3.tumblr.com/post/98358201025" class="notecount">56,375 notes</a></center>
+ 
+<center>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/98358201025/CGuJ53hS" class="notecount2">Reblog</a></center>
+ 
+</div>
+</div></center>
+
+ 
+
+ 
+
+ 
+
+<a href="https://chrome.google.com/webstore/detail/tumblr-archive-poster/ceakpicibkmdilicebgddflnfbpmcpgd?hl=en-US"><a href="http://dayanaax3.tumblr.com/post/98358201025"><img src="http://40.media.tumblr.com/tumblr_me7u97x6Wa1qzjg61o1_500.jpg" alt="" width="200"></a>
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+</div>
+ 
+
+<div id="entry">
+ 
+
+<center><div id="infos">
+<div id="details">
+ 
+<center><a href="http://dayanaax3.tumblr.com/post/98358193910" class="notecount">1,253,569 notes</a></center>
+ 
+<center>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/98358193910/Nbve8cEw" class="notecount2">Reblog</a></center>
+ 
+</div>
+</div></center>
+
+ 
+
+ 
+
+ 
+
+<a href="http://dayanaax3.tumblr.com/post/98358193910"><img src="http://38.media.tumblr.com/tumblr_m6bvuqfIjy1rslzvxo1_400.gif" alt="" width="200"></a>
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+</div>
+ 
+
+<div id="entry">
+ 
+
+<center><div id="infos">
+<div id="details">
+ 
+<center><a href="http://dayanaax3.tumblr.com/post/98358181950" class="notecount">22,218 notes</a></center>
+ 
+<center>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/98358181950/Sumv0sJg" class="notecount2">Reblog</a></center>
+ 
+</div>
+</div></center>
+
+ 
+
+ 
+
+ 
+
+<a href="http://dayanaax3.tumblr.com/image/98358181950"><a href="http://dayanaax3.tumblr.com/post/98358181950"><img src="http://36.media.tumblr.com/7456c0caceadbccbfe7e79264fc91d5a/tumblr_nb2qn3Y8MH1s0ia04o1_500.jpg" alt="" width="200"></a>
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+</div>
+ 
+
+<div id="entry">
+ 
+
+<center><div id="infos">
+<div id="details">
+ 
+<center><a href="http://dayanaax3.tumblr.com/post/98358165195" class="notecount">1,248 notes</a></center>
+ 
+<center>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/98358165195/is7QsHll" class="notecount2">Reblog</a></center>
+ 
+</div>
+</div></center>
+
+ 
+
+ 
+
+ 
+
+<a href="http://pugking.tumblr.com"><a href="http://dayanaax3.tumblr.com/post/98358165195"><img src="http://36.media.tumblr.com/44f5ce070d806d4efdb217727e0d1e7b/tumblr_n2aipmZIqc1shoj1zo1_500.jpg" alt="" width="200"></a>
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+</div>
+ 
+
+<div id="entry">
+ 
+
+<center><div id="infos">
+<div id="details">
+ 
+<center><a href="http://dayanaax3.tumblr.com/post/98358139230/only-xthree-love-sensual-sexual-n-romance" class="notecount">496,002 notes</a></center>
+ 
+<center>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/98358139230/XbNhGf6N" class="notecount2">Reblog</a></center>
+ 
+</div>
+</div></center>
+
+ 
+
+ 
+
+ 
+
+<a href="http://sexual-passion.tumblr.com/"><a href="http://dayanaax3.tumblr.com/post/98358139230/only-xthree-love-sensual-sexual-n-romance"><img src="http://31.media.tumblr.com/70af581598a20a1af31773cdab4b0321/tumblr_mliwu8ZwJ51qkzl7oo1_r3_500.gif" alt="only-xthree:
+
+Love, Sensual, Sexual n&rsquo; Romance blog&nbsp;&larr;&nbsp;More&nbsp;&hearts;" width="200"></a>
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+</div>
+ 
+
+ 
+</div>
+</div>
+ 
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://dayanaax3.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037944&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZGF5YW5hYXgzLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=KLICGHLCEL&K=383307977e4270bca023c374d1024ea4713721ead6add79cc0faf95209cdd4d4&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037944&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZGF5YW5hYXgzLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=KLICGHLCEL&K=8f71e2cc6e3e69d2854edf9e5d49f01b90f825c7927137487555776aa199ad35&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037944&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2RheWFuYWF4My50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTU0OTUyODQiLCJyb290X3Bvc3RpZCI6IjE0OTY1OTk5MTc4IiwicG9zdGlkIjoiOTg3MDQzMzQwNjAiLCJibG9naWQiOiIxMjUzOTgwOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDM1MDYwMjYiLCJyb290X3Bvc3RpZCI6Ijk4NTEzMTU0NDI4IiwicG9zdGlkIjoiOTg3MDQzMDM1MDUiLCJibG9naWQiOiIxMjUzOTgwOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODIzNTgzNiIsInJvb3RfcG9zdGlkIjoiOTg3MDM5MDA3MzgiLCJwb3N0aWQiOiI5ODcwNDIzMjE0NSIsImJsb2dpZCI6IjEyNTM5ODA5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc5ODczNjE3Iiwicm9vdF9wb3N0aWQiOiI5ODU2NDkxOTM4MSIsInBvc3RpZCI6Ijk4NjM4OTMwNDIwIiwiYmxvZ2lkIjoiMTI1Mzk4MDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzM3NjkyMTIiLCJyb290X3Bvc3RpZCI6OTgzNTc1ODAzMjgsInBvc3RpZCI6Ijk4MzU4MjA1MDI1IiwiYmxvZ2lkIjoiMTI1Mzk4MDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTMyNDk2OSIsInJvb3RfcG9zdGlkIjoiMzY3NTY4MDUzNDIiLCJwb3N0aWQiOiI5ODM1ODIwMTAyNSIsImJsb2dpZCI6IjEyNTM5ODA5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjUwMTE4NTI0Iiwicm9vdF9wb3N0aWQiOiIyNjA2NzgzMDcxMCIsInBvc3RpZCI6Ijk4MzU4MTkzOTEwIiwiYmxvZ2lkIjoiMTI1Mzk4MDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODUyNTExMjQiLCJyb290X3Bvc3RpZCI6Ijk2MDkwNjIzMjMyIiwicG9zdGlkIjoiOTgzNTgxODE5NTAiLCJibG9naWQiOiIxMjUzOTgwOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzQ3MTgyMDIiLCJyb290X3Bvc3RpZCI6Ijc5MjkzMTE5NzIxIiwicG9zdGlkIjoiOTgzNTgxNjUxOTUiLCJibG9naWQiOiIxMjUzOTgwOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTM0MDcxMSIsInJvb3RfcG9zdGlkIjoiNDg0MzYzNzcwNjgiLCJwb3N0aWQiOiI5ODM1ODEzOTIzMCIsImJsb2dpZCI6IjEyNTM5ODA5Iiwic291cmNlIjozM31dfQ==&U=GONPMKIGPB&K=bfa0e357d3297f5234d7981aeb423ee2bbfc8c2998e755c1aad5dfb319d3442d&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037944&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2RheWFuYWF4My50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTU0OTUyODQiLCJyb290X3Bvc3RpZCI6IjE0OTY1OTk5MTc4IiwicG9zdGlkIjoiOTg3MDQzMzQwNjAiLCJibG9naWQiOiIxMjUzOTgwOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDM1MDYwMjYiLCJyb290X3Bvc3RpZCI6Ijk4NTEzMTU0NDI4IiwicG9zdGlkIjoiOTg3MDQzMDM1MDUiLCJibG9naWQiOiIxMjUzOTgwOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODIzNTgzNiIsInJvb3RfcG9zdGlkIjoiOTg3MDM5MDA3MzgiLCJwb3N0aWQiOiI5ODcwNDIzMjE0NSIsImJsb2dpZCI6IjEyNTM5ODA5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc5ODczNjE3Iiwicm9vdF9wb3N0aWQiOiI5ODU2NDkxOTM4MSIsInBvc3RpZCI6Ijk4NjM4OTMwNDIwIiwiYmxvZ2lkIjoiMTI1Mzk4MDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzM3NjkyMTIiLCJyb290X3Bvc3RpZCI6OTgzNTc1ODAzMjgsInBvc3RpZCI6Ijk4MzU4MjA1MDI1IiwiYmxvZ2lkIjoiMTI1Mzk4MDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTMyNDk2OSIsInJvb3RfcG9zdGlkIjoiMzY3NTY4MDUzNDIiLCJwb3N0aWQiOiI5ODM1ODIwMTAyNSIsImJsb2dpZCI6IjEyNTM5ODA5Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjUwMTE4NTI0Iiwicm9vdF9wb3N0aWQiOiIyNjA2NzgzMDcxMCIsInBvc3RpZCI6Ijk4MzU4MTkzOTEwIiwiYmxvZ2lkIjoiMTI1Mzk4MDkiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODUyNTExMjQiLCJyb290X3Bvc3RpZCI6Ijk2MDkwNjIzMjMyIiwicG9zdGlkIjoiOTgzNTgxODE5NTAiLCJibG9naWQiOiIxMjUzOTgwOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzQ3MTgyMDIiLCJyb290X3Bvc3RpZCI6Ijc5MjkzMTE5NzIxIiwicG9zdGlkIjoiOTgzNTgxNjUxOTUiLCJibG9naWQiOiIxMjUzOTgwOSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxOTM0MDcxMSIsInJvb3RfcG9zdGlkIjoiNDg0MzYzNzcwNjgiLCJwb3N0aWQiOiI5ODM1ODEzOTIzMCIsImJsb2dpZCI6IjEyNTM5ODA5Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=GONPMKIGPB&K=59847f70244e3fb04fef082655c96b4a3d4ed2fb7851a5d8a0be8aada10d7e60&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:12539809,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fdayanaax3.tumblr.com%2F&amp;lang=en_US&amp;name=dayanaax3&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_8ed31a703632_64.png&amp;title=Heavily+Blessed&amp;url=http%3A%2F%2Fdayanaax3.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fdayanaax3.tumblr.com%2F&amp;lang=en_US&amp;name=dayanaax3&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_8ed31a703632_64.png&amp;title=Heavily+Blessed&amp;url=http%3A%2F%2Fdayanaax3.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>
+     <!--Hypster Music Player-->
+                            <script type="text/javascript" src="http://scm.hypster.com/script.php" ><!--//--></script>
+                            <script type="text/javascript">
+                            <!--
+                                SCMMusicPlayer.init("{'skin':'skins/black/skin.css','playback':{'autostart':'true','shuffle':'true','volume':'100'},'playlist':'6838308','placement':'bottom','showplaylist':'false'}");
+                            //-->
+                            </script>
+                            <!--Hypster Music Player-->
+                        

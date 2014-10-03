@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>A. Byron Deans's Personal Website and A. Byron Deans Consulting's Corporate Website - Pictures</title>
+<meta name="description" content="A. Byron Deans is a frontend and backend web programmer and interaction designer based in Limassol, Cyprus.  He works on his own projects, for which he is continually seeking angel and venture capital funding, and works on a contract basis for $95 / hour.">
+<link rel="stylesheet" type="text/css" href="main.css" />
+<link rel="stylesheet" type="text/css" href="pictures.css" />
+    
+<script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
+
+</head>
+
+<body>
+
+
+   <!-- Begin Wrapper -->
+   <div id="wrapper">
+   
+         <!-- Begin Header -->
+     <div id="header">
+		 
+		       <img src="images/header.png" width="960" height="89" alt="Header image with Byrondeans.com written in it.">		 
+			   
+		 </div>
+		 <!-- End Header -->
+		 
+		 <!-- Begin Navigation -->
+		 <!-- End Navigation -->
+		 
+		 <!-- Begin Left Column -->
+		 <div id="leftcolumn">
+		 
+		    <img src="images/Photo_of_the_Day_text.png" id="photo_of_the_day_text" alt="Photo Of The Day">
+			<br />
+           <div id="photo_of_the_day_image">
+			<a href="photo_of_day_large.html"><img src="images/Photo_of_the_Day_image.png" alt="Photo Of The Day"></a>
+           </div>
+			<br /><br /><br />
+		   <div id="left_column_links">
+ 			 <a href="index.php?page=pictures">Pictures</a><br />
+			 <a href="index.php?page=writings">Writings</a><br />
+			 <a href="index.php?page=example_work">Example Work</a><br />
+			 <a href="index.php?page=about">About</a><br />
+		   </div>
+           <img src="images/Latest_News.png" id="latest_news_text" alt="Latest News Image in Red"> 
+           <div id="latest_news_box">
+            <div id="latest_news">
+
+I noticed my Photo of the Day seems to have a bug. It hasn't changed for a few days. I'll have to add debugging code.
+
+<br />
+<br />
+
+
+I've been following Scottish independence.  It looked like a vote of "No" when I checked earlier today, but it was by a statistically insignificantly narrow margin by the standards of presidential polls.  I thought "Yes" would be the outcome, personally, judging by the state of things, and what I know about the Scottish mind.
+
+<br />
+<br />
+
+I got up really late today, because I stayed up really late yesterday.  I'm becoming nocturnal, or more so, these days.
+
+
+
+			 </div>
+            <div id="more_image">
+               <a href="http://www.twitter.com/byrondeans"><img src="images/more.png" alt="More Image in Red"></a>
+            </div>
+           </div>
+           <a href="index.php?page=downloads"><img src="images/downloads.png" id="downloads_text" alt="Downloads Image in Red"></a></div>
+		 <!-- End Left Column -->
+
+		 <!-- Begin Right Column -->
+		 <div id="rightcolumn">
+       	   <div id="box_above_main_content_box">
+           <a href="index.php?page=pictures"><img src="images/pictures.png" id="pictures" /></a>
+           <a href="index.php?page=writings"><img src="images/writings.png" id="writings" /></a>
+           <a href="index.php?page=example_work"><img src="images/example_work.png" id="example_work" /></a>
+           <a href="index.php?page=about"><img src="images/about.png" id="about" /></a>
+          </div>          <div id="main_content_box_pictures"><div id="photo_wrap">
+<div id="albums_header">Photo Albums</div>
+
+<div id="album1_container">
+	<div class="album_image"><a href="index.php?page=pictures&album=1"><img src="images/midsize/album1/midsize_hogwarts_oxford.png" /></a></div>
+	<div class="album_name_text"><a href="index.php?page=pictures&album=1">UK Photos - Summer 2013</a></div>
+</div>
+
+<div id="album2_container">
+	<div class="album_image"><a href="index.php?page=pictures&album=2"><img src="images/midsize/album2/le_reve_ticket.png" /></a></div>
+	<div class="album_name_text"><a href="index.php?page=pictures&album=2">Vegas Vacation - Spring 2013</a></div>
+</div>
+
+<div id="album3_container">
+	<div class="album_image"><a href="index.php?page=pictures&album=3"><img src="images/midsize/album3/04_super_award.png" /></a></div>
+	<div class="album_name_text"><a href="index.php?page=pictures&album=3">Important Documents</a></div>
+</div>
+
+<div id="album4_container">
+	<div class="album_image"><a href="index.php?page=pictures&album=4"><img src="images/midsize/album4/midsize_DSCF2514.JPG" /></a></div>
+	<div class="album_name_text"><a href="index.php?page=pictures&album=4">European Long Distance Trail Cyprus</a></div>
+</div>
+</div>
+
+          </div>
+<img src="images/Content_Footer.png" id="main_content_box_footer_image" />
+	 </div>
+		 <!-- End Right Column -->
+		 
+		 <!-- Begin Footer -->
+		 <div id="footer">
+		       
+			<a href="https://www.odesk.com/users/~018d7973bcea4313e4"><img src="images/oDesk.png" alt="oDesk" id="oDesk"></a>
+			<a href="http://www.elance.com/s/bdeans/"><img src="images/Elance_Logo-small.png" alt="Elance" id="Elance"></a>
+			<a href="http://www.guru.com/freelancers/Web-Developer-Website-Designer-Email-Design-Social-Networks-UI/United-Kingdom/London/1692155"><img src="images/guru_logo.png" alt="Guru.com" height="34" id="Guru"></a>
+			<a href="http://www.project4hire.com/users/byrondeans.html"><img src="images/project4hirelogo.png" alt="Project4Hire.com" id="Project4Hire"></a>
+			<a href="http://www.flickr.com/photos/byrondeans"><img src="images/flickr.png" alt="Flickr" id="Flickr"></a>
+			<a href="http://www.linkedin.com/pub/ashley-byron-deans/82/50a/14b"><img src="images/linkedin-logo.png" alt="LinkedIn" id="LinkedIn"></a>
+			<a href="http://www.twitter.com/byrondeans"><img src="images/twitter.png" alt="Twitter" id="Twitter" /></a>
+           
+			    
+	     </div>
+		 <!-- End Footer -->
+		 
+   </div>
+   <!-- End Wrapper -->
+   
+</body>
+</html>

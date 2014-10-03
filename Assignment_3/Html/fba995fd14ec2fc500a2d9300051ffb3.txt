@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name = "viewport" content = "width = device-width,maximum-scale=1.0" />
+<title>Dash O - A Star Is Born - DJ Schemes :: Mobile.LiveMixtapes.com</title>
+<meta name="keywords" content="mobile mixtapes" />
+<meta name="description" content="Dash O - A Star Is Born - DJ Schemes - Stream mixtape for free on your mobile device" />
+<link rel="stylesheet" type="text/css" href="/style.css?1327245238" />
+<script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.jplayer-2.1.0.min.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/support.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+function checkSupport() {
+	var mp3support = supportsMp3();
+	var flashVer = getFlashVersion();
+	$.ajax({url: "/agent.php", 
+		data: {
+			audio_tag: supportsAudio(), audio_mp3_support: mp3support, 
+			flash: flashVer, resolution: getResolution()
+		},
+		complete: function(){
+			if (mp3support != 'true' && (flashVer == '0.0.0' || flashVer == ''))
+				window.location.href = '/support.php';
+		}
+	});
+}
+$(function(){
+	setTimeout(checkSupport, 1000);
+});
+//]]>
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5526961-5']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript">
+comments = {page: 0};
+$(function(){
+	$("#loadComments").click(function(){
+		$(this).hide();
+		getComments(26470, ++comments.page);
+		return false;
+	});
+});
+durations = {391337:43,391338:245,391339:130,391340:168,391341:256,391342:181,391343:114,391344:131,391345:161,391346:114,391347:197,391348:132,391349:144,391350:21,391351:130,391352:199,391353:118,391354:92,391355:132,391356:86,391357:109,391358:207,391359:196};
+</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
+<script type="text/javascript" src="/js/mixtape-2.1.0.js?1325122950"></script>
+<script type="text/javascript" src="/js/jquery.countdown-1.5.2.js"></script>
+<script type="text/javascript" src="/js/countdown.js"></script>
+<style type="text/css">
+.nw {
+	white-space: nowrap;
+}
+</style>
+</head>
+<body>
+<script type='text/javascript' src='http://cdn.complexmedianetwork.com/js/cmnUNTmob.js?cmnunt_site=cmn_livemixtapes_mob/internal_interstitial&cmnunt_kw=mob'></script>
+<div id="player" style="display: none" class="jp-jplayer">&nbsp;</div>
+<div id="progress" style="display: none"><div id="progressbar"><div id="preload"><div id="slider">&nbsp;</div></div></div></div>
+<div id="header">
+	<!--<a href="/report.php" style="float: right; text-align: right; position: relative; z-index: 100; font-weight: bold; font-size: 0.75em; margin: 4px 10px 0 0">Report a<br />Problem</a>-->
+	<a href="/"><img src="http://images.livemixtapes.com/mb_logo.png" border="0" width="209" height="60" alt="Home" style="padding: 8px 0 0 6px" /></a>
+	<div id="nav">
+		<a href="/">Home</a>
+		<a href="/indy/main.php" class="navsel">Indy</a>
+		<a href="/club/main.php">Club</a>
+		<a href="/login.php">Sign In</a>
+		<div style="clear: both;"></div>
+	</div>
+</div>
+<script>
+var RadioPoster = (function(el){
+	var setCookie = function(){
+		var dt = new Date();
+		dt.setTime(dt.getTime()+86400000);
+		document.cookie='radioposter=1; domain=.livemixtapes.com; path=/; expires='+dt.toGMTString();
+	};
+	el.find('.poster-image').click(function(){
+		window.open('http://bit.ly/lmtradio', '_blank');
+	});
+	el.find('.poster-link').click(function(){
+		setCookie();
+		el.hide();
+	});
+	el.find('.poster-close').click(function(e){
+		e.stopPropagation();
+		e.preventDefault();
+		setCookie();
+		el.hide();
+	});
+	el.find('.poster-android').click(function(e){
+		e.stopPropagation();
+		e.preventDefault();
+		el.find('.poster-comingsoon').show();
+	});
+});
+$(function(){
+	poster = new RadioPoster($('#radioPoster'));
+});
+</script>
+<div id="radioPoster" style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 99999; background: rgba(0,0,0,0.8)">
+	<div class="poster-image" style="position: relative; width: 100%; height: 100%; max-width: 480px; max-height: 672px; margin: 0 auto; background: url(http://images.livemixtapes.com/radiopromo3.jpg) no-repeat center; background-size: contain">
+		<a href="http://www.lmtradio.com/" target="_blank" class="poster-link"><img src="http://images.livemixtapes.com/clear.gif" width="100%" height="100%" style="position: absolute; z-index: 10; top: 0; left: 0" /></a>
+		<a href="#" class="poster-close"><img src="http://images.livemixtapes.com/close.png" width="26" height="32" style="position: absolute; z-index: 20; padding: 10px; border: 0; right: 0"></a>
+	</div>
+	<!--
+	<table cellspacing="0" cellpadding="0" width="100%" border="0" style="max-width: 480px; margin: 8px auto">
+		<tr>
+			<td width="50%" align="center" valign="top">
+				<a href="#" class="poster-android"><img src="http://www.lmtradio.com/images/android-store.png" height="40" style="border: 0" /></a>
+				<div class="poster-comingsoon" style="color: #fff; display: none">Coming Soon!</div>
+			</td>
+			<td width="50%" align="center" valign="top">
+				<a href="http://bit.ly/LMTRadio-iOS"><img src="http://www.lmtradio.com/images/apple-ios-store.png" height="40" style="border: 0" /></a>
+			</td>
+		</tr>
+	</table>
+	-->
+</div>
+<div id="content">
+	<div class="directory fsb" style="margin-bottom: 10px">
+		<a href="/indy/main.php">Indy Mixtapes</a> <span>&#8250;</span> <a href="/djs/1033/dj_schemes.html">DJ Schemes</a> <span>&#8250;</span> <strong>Dash O - A Star Is Born</strong>
+	</div>
+
+	<div class="mixtape-cover fs">
+		<a href="http://images.livemixtapes.com/artists/schemes/dash_o-a_star_is_born/cover.jpg" target="_blank">
+			<img src="http://images.livemixtapes.com/artists/schemes/dash_o-a_star_is_born/tn_cover.jpg" alt="Mixtape cover art" height="125" width="125" border="0" /><br/>
+			View Large Cover
+		</a>
+	</div>
+	<div class="mixtape-tr">
+		<div class="score-container">
+			<span class="fm" style="color: #888;">Score:</span>
+			<span id="score" style="color:#207717">23</span><br/>
+		</div>
+		<div class="mixtape-views" style="margin: 4px 0">
+			<a href="/login.php"><strong>Sign In</strong> to vote!</a>
+		</div>
+		<div class="mixtape-views">
+			<strong>25</strong> Mixtape Votes<br/>
+			<strong>5,672</strong> Mixtape Views
+			<div id="social">
+				<a target="_blank" href="http://www.facebook.com/share.php?u=http://www.livemixtapes.com/mixtapes/26470/dash-o-a-star-is-born.html"><img src="http://images.livemixtapes.com/mb_facebook.png" alt="Share with Facebook" width="32" height="32" border="0" /></a>
+				<a target="_blank" href="http://twitter.com/intent/tweet?status=%5BMixtape%5D+Dash+O+-+A+Star+Is+Born+%3A%3A+%23GetItLIVE%21+http%3A%2F%2Flivemixtap.es%2Fkfa+%40IndyTapes+%40DJSchemes+%40TheReal_DashO"><img src="http://images.livemixtapes.com/mb_twitter.png" alt="Share with Twitter" width="32" height="32" border="0" /></a>
+			</div>
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+<div style="text-align: center; margin-top: 10px">
+<script type='text/javascript' src='http://cdn.complexmedianetwork.com/js/cmnUNTmob.js?cmnunt_site=cmn_livemixtapes_mob/internal_top&cmnunt_kw=mob'></script>
+</div>
+	<div class="mixtape-desc fs">
+		<em><font size="3">2nd solo project from Virginia's own Dash O. hosted by Core DJs DJ Schemes. Dash O uses classic hip hop beats and makes them his own. DJ Schemes adds his flavor and Dash O lays down some great lyrics on some beats we have grown to love.</font></em>  @DJSCHEMES @THEREAL_DASHO
+<br /><br />
+Follow <a href="http://twitter.com/IndyTapes" target="_blank">@IndyTapes</a>, <a href="http://twitter.com/DJSchemes" target="_blank">@DJSchemes</a> &amp; <a href="http://twitter.com/TheReal_DashO" target="_blank">@TheReal_DashO</a>!		<br />
+	</div>
+	<div style="clear: both;"><br /></div>
+	
+	<div style="background: #f5f5f5; padding: 6px 4px;">
+		<div id="play_all" style="display: none">
+			<a href="javascript:play();"><img src="http://images.livemixtapes.com/mb_playall_lg.png" alt="Listen to mixtape" border="0" width="210" height="45" /></a>
+		</div>
+		<div id="pause_next" style="display: none">
+			<img src="http://images.livemixtapes.com/mb_pausenext.png" border="0" width="210" height="45" usemap="#pn" />
+			<map name="pn">
+				<area shape="rect" coords="0,0,105,45" href="javascript:pause()" alt="Pause playback" />
+				<area shape="rect" coords="105,0,210,45" href="javascript:playNext()" alt="Next track" />
+			</map>
+		</div>
+		<noscript><span class="fsb">Please enable JavaScript for continuous playback</span></noscript>
+	</div>
+		<table cellpadding="0" cellspacing="0" border="0" width="100%" id="tracks">
+			<tr class="track " id="track391337">
+				<td width="30"><a name="play1" href="#" onclick="var tid = 391337; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391337" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					01. Dash O - Intro (0:43)				</td>
+			</tr>
+			<tr class="track gray" id="track391338">
+				<td width="30"><a name="play2" href="#" onclick="var tid = 391338; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391338" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					02. Dash O - In Da Way [Prod. By Society Beats] (4:05)				</td>
+			</tr>
+			<tr class="track " id="track391339">
+				<td width="30"><a name="play3" href="#" onclick="var tid = 391339; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391339" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					03. Dash O - Shook Ones (2:10)				</td>
+			</tr>
+			<tr class="track gray" id="track391340">
+				<td width="30"><a name="play4" href="#" onclick="var tid = 391340; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391340" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					04. Dash O - New Jays (2:48)				</td>
+			</tr>
+			<tr class="track " id="track391341">
+				<td width="30"><a name="play5" href="#" onclick="var tid = 391341; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391341" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					05. Dash O - Forgot About Dash (4:16)				</td>
+			</tr>
+			<tr class="track gray" id="track391342">
+				<td width="30"><a name="play6" href="#" onclick="var tid = 391342; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391342" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					06. Dash O - Got It Twisted (3:01)				</td>
+			</tr>
+			<tr class="track " id="track391343">
+				<td width="30"><a name="play7" href="#" onclick="var tid = 391343; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391343" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					07. Dash O - Vibrant Thing (1:54)				</td>
+			</tr>
+			<tr class="track gray" id="track391344">
+				<td width="30"><a name="play8" href="#" onclick="var tid = 391344; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391344" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					08. Dash O - Y'all Don't Wanna (2:11)				</td>
+			</tr>
+			<tr class="track " id="track391345">
+				<td width="30"><a name="play9" href="#" onclick="var tid = 391345; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391345" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					09. Dash O - Feel It In The Air (2:41)				</td>
+			</tr>
+			<tr class="track gray" id="track391346">
+				<td width="30"><a name="play10" href="#" onclick="var tid = 391346; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391346" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					10. Dash O - The Rain (1:54)				</td>
+			</tr>
+			<tr class="track " id="track391347">
+				<td width="30"><a name="play11" href="#" onclick="var tid = 391347; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391347" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					11. Dash O - Drop My Side Chick (3:17)				</td>
+			</tr>
+			<tr class="track gray" id="track391348">
+				<td width="30"><a name="play12" href="#" onclick="var tid = 391348; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391348" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					12. Dash O - Who Do You Trust (2:12)				</td>
+			</tr>
+			<tr class="track " id="track391349">
+				<td width="30"><a name="play13" href="#" onclick="var tid = 391349; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391349" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					13. Dash O - Ha (2:24)				</td>
+			</tr>
+			<tr class="track gray" id="track391350">
+				<td width="30"><a name="play14" href="#" onclick="var tid = 391350; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391350" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					14. Dash O - DJ Schemes Interlude (0:21)				</td>
+			</tr>
+			<tr class="track " id="track391351">
+				<td width="30"><a name="play15" href="#" onclick="var tid = 391351; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391351" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					15. Dash O - Don't Wait [Prod. By Pk beats] (2:10)				</td>
+			</tr>
+			<tr class="track gray" id="track391352">
+				<td width="30"><a name="play16" href="#" onclick="var tid = 391352; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391352" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					16. Dash O - Made A Statement (Feat. Lou Daddie) [Prod. By Unknown] (3:19)				</td>
+			</tr>
+			<tr class="track " id="track391353">
+				<td width="30"><a name="play17" href="#" onclick="var tid = 391353; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391353" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					17. Dash O - Donald Trump (1:58)				</td>
+			</tr>
+			<tr class="track gray" id="track391354">
+				<td width="30"><a name="play18" href="#" onclick="var tid = 391354; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391354" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					18. Dash O - What These Boppers Want (1:32)				</td>
+			</tr>
+			<tr class="track " id="track391355">
+				<td width="30"><a name="play19" href="#" onclick="var tid = 391355; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391355" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					19. Dash O - Pound Cake (2:12)				</td>
+			</tr>
+			<tr class="track gray" id="track391356">
+				<td width="30"><a name="play20" href="#" onclick="var tid = 391356; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391356" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					20. Dash O - Grindin' (1:26)				</td>
+			</tr>
+			<tr class="track " id="track391357">
+				<td width="30"><a name="play21" href="#" onclick="var tid = 391357; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391357" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					21. Dash O - Versace (1:49)				</td>
+			</tr>
+			<tr class="track gray" id="track391358">
+				<td width="30"><a name="play22" href="#" onclick="var tid = 391358; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391358" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					22. Dash O - The Message (3:27)				</td>
+			</tr>
+			<tr class="track " id="track391359">
+				<td width="30"><a name="play23" href="#" onclick="var tid = 391359; play(tid); return false" style="display: block; height: 35px; width: 35px"><img id="img391359" src="http://images.livemixtapes.com/mb_play_lg.png" alt="Play" border="0" height="35" width="35" class="playicon" /></a></td>
+				<td class="fxs">
+					23. Dash O - Comin To Me (Feat. Lou Daddie) [Prod. By Ace Blackhawks] (3:16)				</td>
+			</tr>
+		</table>
+	<div style="text-align: center; margin: 20px 0 10px 0;">
+		<a href="http://www.lmtradio.com/" target="_blank"><img src="http://images.livemixtapes.com/lmtradio300.jpg" width="300" height="300" /></a>
+	</div>
+	<div id="comments" class="fs">
+		<a name="topcomment"></a>
+		<div class="comment">
+			<span style="float: right;">2:39 PM February 20, 2014</span>
+			<span><strong>FreeIamBeatz said:</strong><br /><br />
+			Yoo Homie be goin in! Keept Grindin  </span>
+		</div>
+		<div class="comment">
+			<span style="float: right;">2:29 PM February 18, 2014</span>
+			<span><strong>DMV_Music said:</strong><br /><br />
+			Dope! </span>
+		</div>
+	</div>
+	<center><a href="#topcomment" id="loadComments" class="fs">Load More Comments</a></center><br />
+			
+</div>
+
+<div style="width: 320px; height: 50px; margin: 6px auto">
+<script language="JavaScript" src="http://ad.doubleclick.net/adj/cmn_livemixtapes/mobile;tile=1;sz=300x50;ord=48938411549?" type="text/javascript"></script>
+</div>
+
+<div id="footer">
+	<a class="nav fs" href="http://www.livemixtapes.com/" title="Regular Version">Regular</a> <span class="fm">|</span> <a href="/" class="nav fs" title="Mobile Site">Mobile</a> <span class="fm">|</span> <a class="nav fs" href="http://www.indytapes.com/">www.indytapes.com</a>
+</div>
+<br /><br /><br /><br />
+
+
+</body>
+</html>

@@ -1,0 +1,516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>THE MARSCHER LORDS FILM</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="description" content="THE MARSCHER LORDS tells a tale familiar to each one of us since time began: Where does the line of duty, love, or devotion divide us from our family? And if there is a divide within that family, what are the consequences? This is a story about boldness and courage and how far is one willing to take it." />
+<meta name="keywords" content="THE MARSCHER LORDS, MARSCHER LORDS film, Knight, Knights"/>
+
+<!-- START: BACKGROUND IMG SLIDER -->
+<link rel="stylesheet" type="text/css" href="style.css" /> 
+<script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+
+
+<script type="text/javascript">
+
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    // uncomment the 3 lines below to pull the images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+
+</script>
+<!-- END: BACKGROUND IMG SLIDER -->
+
+<link rel="stylesheet" href="css/style_vertical.css" type="text/css" media="screen"/>
+<script type="text/javascript" src="jquery-1.3.2.js"></script>
+    
+<style>
+	h1 {
+		letter-spacing:0px;
+		
+	}
+	p {
+	font-size:24px;	
+		
+	}
+td {
+   letter-spacing:1px;
+}
+	a:link {
+	color: #00F;
+}
+a:visited {
+	color: #00F;
+}
+a:hover {
+	color: #06F;
+	text-decoration:underline;
+}
+a:active {
+	color: #F00;
+}
+a {
+	text-decoration:none;
+}
+
+span.reference{
+    position:fixed;
+    left:10px;
+    bottom:10px;
+    font-size:13px;
+    font-weight:bold;
+}
+span.reference a{
+     padding-right:20px;
+}
+span.reference a:hover{
+	text-decoration:none;
+}
+#container {
+	position:relative;
+	width: 1000px;
+	height:823px;
+	margin: 0 auto;
+	
+}
+
+#main-image {
+	width: 1000px;
+	height:	823px;
+	000background-image:url(images/Medieval_Knight01.jpg);
+	
+}
+
+
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 10px;
+    left: -50px;
+    list-style: none;
+    z-index:9999;
+}
+ul#navigation li {
+    width: 100px;
+}
+ul#navigation li a {
+    display: block;
+    margin-left: -2px;
+    width: 135px;
+    height: 70px;    
+    background-color:#CFCFCF;
+    background-repeat:no-repeat;
+    background-position: right;
+    border:1px solid #AFAFAF;
+	padding-right: -5px;
+    -moz-border-radius:0px 10px 10px 0px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-top-right-radius: 10px;
+    /*-moz-box-shadow: 0px 4px 3px #000;
+    -webkit-box-shadow: 0px 4px 3px #000;
+    */
+    opacity: 0.6;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+ul#navigation li a:hover {
+	opacity: 1.0;
+	filter: alpha(opacity = 100); zoom:1;
+	left: 150px;
+	width:200px;
+}
+ul#navigation .home a{
+    background-image: url(images/home.png);
+	
+}
+
+ul#navigation .about a      {
+    background-image: url(images/story.png);
+}
+ul#navigation .production a      {
+    background-image: url(images/production.png);
+}
+ul#navigation .composers a      {
+    background-image: url(images/composers.png);
+}
+ul#navigation .rssfeed a   {
+    background-image: url(../images/rss.png);
+}
+ul#navigation .photos a     {
+    background-image: url(../images/camera.png);
+}
+ul#navigation .contact a    {
+    background-image: url(images/mail.png);
+}
+#ribbon {
+position: fixed;
+top: 0;
+right: 0;
+float:right;
+z-index: 10000;
+cursor: pointer;
+}
+
+.smaller {
+	
+	font-size:22px;
+	
+}
+
+.smaller2 {
+	
+	font-size:14px;
+	
+}
+
+#fixed-box {
+	position:fixed;
+	top:50%;
+	left:80%;
+	width:229px;
+	height:227px;
+	
+	
+	
+}
+</style> 
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script> 
+</head>
+<body onload="MM_preloadImages('indiegogo_logo-01.png')">
+<!--http://www.indiegogo.com/projects/the-marscher-lords-brotherhood-or-death/x/5146664 target="_new"-->
+<div>
+<a href="http://www.indiegogo.com/projects/the-marscher-lords-brotherhood-or-death" target="_new" onmouseover="MM_swapImage('Image15','','images/indiegogo_logo-01.png',1)"  onmouseout="MM_swapImgRestore()"><img src="images/indiegogo_logo-02.png" width="246" height="245" border="0" id="Image15" style="position:fixed; top: 25%; left: 80%; z-index:1;"/>
+<div style="font-family:arial; font-weight:bold; font-size:18px; text-align:center; width:246px; height:55px; padding:5px; background-color:white; color:#000; position:fixed; top: 55%; left: 80%; z-index:2;"><b>Visit Us NOW!</b> <br />Let's Make this Project Happen!</div></a> </div>
+<div>
+<a id="ribbon" href="#section4" >
+<img alt="Composers Wanted" src="images/website-ribbon.png" width="181 height="182" border="0">
+</a>    
+</div>  
+<div>
+<span class="reference">
+<ul id="navigation" class="nav">
+<li class="home"><a href="#section1" title="Home"></a></li>
+<li class="about"><a href="#section2" title="About Film"></a></li>
+<li class="production"><a href="#section3" title="Production Info"></a></li>
+<li class="composers"><a href="#section4" title="Composers Info"></a></li>
+<li class="contact"><a href="mailto:filmproject@marscherlordsfilm.com"  title="Contact"></a></li>
+</ul>
+</span>
+</div>
+
+<div class="section black" id="section1">		
+<div id="container">
+<div id="main-image">
+<div id="slideshow">
+    <img src="images/image1.jpg" alt="Slideshow Image 1" class="active" />
+    <img src="images/image2.jpg" alt="Slideshow Image 2" />
+    <img src="images/image3.jpg" alt="Slideshow Image 3" />
+    <img src="images/image4.jpg" alt="Slideshow Image 4" />
+    <img src="images/image5.jpg" alt="Slideshow Image 5" />
+    <img src="images/image6.jpg" alt="Slideshow Image 6" />
+</div>
+</div> 
+</div><!-- END: Container -->
+</div>
+        <div class="section white" id="section2">
+            <h2>THE MARSCHER LORDS</h2>
+            <img src="images/Medieval_Knight02.jpg" width="1000" height="823" border="0" align="right" />
+            <p>
+<strong>THE MARSCHER LORDS</strong> tells a tale familiar to each one of us since time began: Where does the line of duty, love, or devotion divide us from our family? And if there is a divide within that family, what are the consequences? This is a story about boldness and courage and how far is one willing to take it. This story is something everyone of us has lived at some point in our lives. Families grow together, split apart, then (hopefully) come back together again. Who do you trust when in need? Who do you go to when disaster looms? Do you even dare go to them being that they are members of your own family? This is a story that's as old as time. It is a story about the ages for the ages.</p>
+<br />
+
+<p>
+<strong>WHAT IS THIS FILM ABOUT?</strong> In times of imminent danger, do we look out for ourselves or others? Within each and every one of us is that very eternal conflict, that inner struggle between living up to our responsibilities or protecting our own material goods?
+THE MARSCHER LORDS is the story of two brothers caught in the maelstrom of the Barbarian Invasions of Europe during the 13th Century. Maxim von Marscher and his adopted brother Petrus meet for the first time in several years. Maxim - as a member of the Teutonic Order - has been away at war while Petrus has expanded his Nobility in the land of their birth, becoming a very high, respected, and influential Lord. Maxim informs his brother that the Barbarian Hordes quickly approach and that haste must be made to get the innocent and women and children out of harm's way; not to do so is tantamount to a death sentence. However Petrus's main concern is that of the landed estates and their contents and how best to secure their property from the advancing enemy. The two brothers - hitherto very close - quickly find themselves at an impasse as precious time ticks away.</p>
+<br />
+
+<p>
+<strong>HOW THE PROJECT CAME TO BE</strong>? <em>The principal actors - Edwin Bravo (Petrus) &amp;  Robert E Wilhelm (Maxim) have a long history working together, both on camera  and on the stage. Shakespeare and the classics help mold them as actors and  they are passionate about both, having performed such works as&nbsp;</em><strong><em>Richard III</em></strong><em>, </em><strong><em>Julius Caesar</em></strong><em>, and&nbsp;</em><strong><em>Henry V</em></strong><em>&nbsp;both on the stage and in free public  forums.  Both wanted to do something in a  classic vein here, but felt it should be something original. Thus THE MARSCHER  LORDS was borne, which Wilhelm wrote (and - as an avid historian - of course  exhaustively researched the project beforehand).  A produced playwright (his original works <strong>My Kind of Girl</strong> &amp; <strong>Learning to Fly</strong> were produced by the  venerable Stanley Ralph Ross in Studio City, CA). His historical expertise has  been profiled on such shows as Spike TV's&nbsp;</em><strong><em>Deadliest Warrior</em></strong><em>&nbsp;and in books (his novel of historical  fiction</em> <a href="http://www.amazon.com/All-Iron-Men-Welcome-Already/dp/0615502784/ref=sr_1_12?s=books&ie=UTF8&qid=1367902791&sr=1-12&keywords=all+the+iron+men" target="_new">All the Iron Men</a> can be found on amazon.com). Edwin Bravo has been seen in such shows as <strong>Sons of Tucson</strong>, <strong>Supah Ninja</strong>, <strong>Hawaii Five-O</strong>, and <strong>Harry's Law</strong>. This is a timeless story as poignant today as it was then. The response to the script has been overwhelmingly positive and has afforded us the opportunity to assemble an exceptional - as well as seasoned - production team. One of the most beautiful and natural areas of the California coastline will be utilized for this production. It is - in a word - breathtaking. </p>
+<table width="700" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">Design/Web Development</td>
+  </tr>
+  <tr>
+    <td align="center"><font color="#fff"><a href="http://www.erm3designs.com" target="_new">www.erm3designs.com</a></font></td>
+  </tr>
+</table>
+        </div>
+        
+        
+        <div class="section black" id="section3">
+          <h2>Production</h2>
+          <p>&nbsp;</p>
+            <table width="900" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><div  style="width:125px;">&nbsp;</div></td>
+    <td><img src="images/roberts-image01.jpg" width="320" height="213" style="border-style:solid; border-color:#fff; margin:5px;" /></td>
+    <td><img src="images/Brick-images.jpg" width="320" height="213" style="border-style:solid; border-color:#fff; margin:5px;"  /></td>
+    <td><img src="images/Stephen_Rollins-images.jpg" width="320" height="213" style="border-style:solid; border-color:#fff; margin:5px;"  /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td valign="top" bgcolor="#000000"><div style="color:#fff; font-size:14px; height:750px; padding:5px;"><strong><h1>Robert E. Wilhelm</h1></strong> <br />
+<h3><font color="red">Writer/Director/Actor</font></h3><br />
+<h4><i>(Maxim)</i></h4><br />
+Robert began his adventures into the drama realm in his hometown of Annapolis, Maryland, literally on a dare when he auditioned for a local production of Neil Simon's <strong>Biloxi Blues</strong>, where he was cast as Eugene Jerome's eternal nemesis Wykowski. After cutting his teeth in theatre productions in Annapolis/Baltimore area, he ventured to Los Angeles and began honing his edge under the sharp eye of director/teacher <strong>Sal Romeo</strong> of the Friends & Artists Theatre Ensemble.  He has since studied with Bobby Chance and Scott Columby. His experience includes live Shakespeare as well as a host of short films, including <strong>Red Cape Cinema's</strong> (<a href="http://www.redcapecinema.com" target="_new">www.redcapecinema.com</a>) fan favorite WWII: Balance of Power. A military historian and scuba diver since the tender age of twelve, Wilhelm recently found an outlet for all by working currently on two upcoming original series: Masters  of War: Soldiers of Distinction & Diver Down! Recently he was a guest expert on the highly-rated Spike TV smash  <strong>Deadliest Warrior</strong>.  An accomplished author (his novel <a href="http://www.amazon.com/All-Iron-Men-Welcome-Already/dp/0615502784/ref=sr_1_12?s=books&ie=UTF8&qid=1367902791&sr=1-12&keywords=all+the+iron+men" target="_new">All the Iron Men</a> can be found on Amazon.com) as well as produced playwright; his original works My Kind of Girl & Learning To Fly were produced by the Academy of Television Arts & Sciences alumni Stanley Ralph Ross in Los Angeles at Studio City's Theatre East. A sample series intro and other works can be seen over at <a href="http://www.quarterdeckent.com" target="_new">www.quarterdeckent.com</a>. Most recently Wilhelm worked with director <strong>Michael Bay on T3</strong>. Wilhelm is repped by the renowned <strong>Jack Scagnetti Agency</strong>. </div></td>
+    <td valign="top" bgcolor="#000000"><div style="color:#fff; font-size:14px; height:750px; padding:5px;"><strong>
+      <h1><em>Sir Oliver </em><em>Price II&nbsp;</em></h1>
+    </strong> <br />
+    <h3><font color="red">Executive Production Design</font></h3><br />
+<h4><i>&nbsp;</i></h4><br />
+    Sir Oliver &quot;Brick&quot; Price II, the CEO of WonderWorks, Inc., one of the top special effects companies in the world based in Canoga Park, California, is the epitome of the concept of “diversified innovation.” His studio has provided models, sets and visual effects for over 40 movies including Apollo 13, Armageddon, Deep Impact, the Star Trek movies and, most recently, The Astronaut Farmer. Brick himself won an Emmy for “Star Trek Voyager” and was part of the Oscar nominated team for The Abyss.<br /><br /> See more <a href="http://www.wonderworksweb.com">www.wonderworksweb.com</a> </div></td>
+    <td valign="top" bgcolor="#000000"><div style="color:#fff; font-size:14px; height:750px; padding:5px;"><strong>
+    <h1>Stephen Rollins</h1></strong> <br />
+    <h3><font color="red">Producer</font></h3>
+    <br />
+<h4>&nbsp;</h4><br />  
+      Stephen’s professional background includes appearing in over 40 movies and television series as an actor, most recently appearing as a teacher on the Fox television series “Glee”.  Stephen’s love for sports, particularly baseball and hockey, also came into play.  In addition to his work in film and television entertainment, Stephen began a professional hockey career.  An unfortunate injury ended his hockey career, and he then turned his attention full time to a film and television career.
+In 2001, Stephen returned to the film industry as a producer.  Following the events of 9/11, he wrote, produced, and directed the 30 minute short film, American Identity, which pays tribute to the victims of that day, as well as our nation’s military.  The film led to remarkable premiere events at the Cannes Film Festival, and the Academy of Motion Picture Arts & Sciences.  The film opened new eyes to Stephen and his career, and continues to present new opportunities for him.
+In February 2012, Stephen entered the 2012 presidential race as an independent candidate.  Touring the country, meeting fellow citizens, his spirit was renewed by the passion of the people.  In January 2013, Stephen founded the “National Foundation for Military Family Support”, a charity specifically to assist our troops and their families with medical, mental, and legal assistance and support.
+</div></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+
+            <table width="320" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><div  style="width:125px;">&nbsp;</div></td>
+    <td><img src="images/edwin-image.jpg" alt="" width="320" height="213" style="border-style:solid; border-color:#fff; margin:5px;"  /></td>
+    <td><img src="images/filler-pic.jpg" width="320" height="213" style="border-style:solid; border-color:#fff; margin:5px;" /></td>
+    <td><img src="images/Dean-Andre-image.jpg" alt="" width="320" height="213" style="border-style:solid; border-color:#fff; margin:5px;" /></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td valign="top" bgcolor="#000000"><div style="color:#fff; font-size:14px; height:500px; padding:5px;"><strong>
+      <h1>Edwin H. Bravo</h1>
+      </strong> <br />
+      <h3><font color="red">Actor/Story Development</font></h3>
+      <br />
+      <h4><i>(<em>Petrus</em>)</i></h4>
+      Edwin H. Bravo didn't make the decision to pursue an entertainment career until he was in his 30's, but the Filipino actor hasn't looked back since. He's quickly building a solid resume in Hollywood, with appearances in several hit film and television shows, including  Pirates of the Caribbean: At World's End, Hawaii Five-O, Sons of Tucson, Mind of Mencia, Supah Ninjas, and the highlight of his career, co-starring alongside Academy Award winning actress Kathy Bates on her show, Harry's Law. </div></td>
+    <td valign="top" bgcolor="#000000">
+      <div style="color:#fff; font-size:14px;  padding:5px;"><strong><h1><strong>John Lynch</strong></h1>
+        </strong>
+        <h3><font color="red">Director of Photography</font></h3>
+        <br />
+        <h4><i>&nbsp;</i></h4>
+        <b>AWARDS</b><br /> 
+        Best Cinematography Award – Toronto Film Festival
+        Pandaemonium (Feature Film Director: Julian Temple)
+        
+        Silver Lion for Cinematography – Cannes Advertising Festival
+        Peugeot 307 “Envy” Director: Frederic Bond
+        
+        Best Cinematography Award – British Television Advertising (BTA) Craft Awards 
+        Levi’s “Twisted” Director: Frank Budgen
+        
+        Best Cinematography Award in a Video 
+        Robbie Williams “Millenium” Director: Vaughan Arnell
+        
+        Silver for Outstanding Cinematography - Design & Art Direction (D&AD) 
+        Best Music Video of the Millenium – World Music Awards & many more 
+        Bjork “All is Full of Love” Director: Chris Cunningham
+        
+        Best Video – World Music Awards 
+        Best Video – European Music TV Awards 
+        Prodigy “Breathe” Director: Walter Stern
+        
+        Irish National Award for Cinematography 
+        Irish National Lottery Director: Douglas Brothers
+        
+      <a href="http://anthonyignacio.com/" target="_blank"></a></div></td>
+    <td valign="top" bgcolor="#000000"><div style="color:#fff; font-size:14px; padding:5px;"><strong>
+      <h1><em>Dean Andre</em></h1>
+      <h3><font color="red">Sound</font></h3>
+      <br />
+      <br />
+      </strong> Composer, Recording Artist, Producer, Conductor, Sound Designer, Production Sound Recordist, President; Ambient Sound, Inc.
+      Dean is an accomplished musical director, Recording Artist, Producer, Sound Designer and Composer.  He has created musical scores for hundreds of movies,television shows and records, and his talent and awards distinguish him as a legend in the music and audio industries.  Mr. Andre has received two Emmy nominations for his compositions.  Scores and featured music were delivered to  Filmation Studios .  Mr. Andre has worked on such productions as&quot;Aladdin&quot; and &quot;The Little Mermaid&quot; ,&quot;The Contract&quot;, &quot;The Maker&quot;, XII,   &quot;Fish Don't Blink&quot;, &quot;B-Girl&quot;, &quot;Five Star Day&quot;  &quot;Emerald Acres&quot; and &quot;The Cross&quot;, Call of Duty:  Black Ops,The Wayshower, The Mis-Informant with Jack Black, Glamour Reel Moments and Panasonic's:  Celebrity Hookup in addition to hundreds of other film, gaming, television and commercial productions. </div></td>
+    </tr>
+</table>
+
+
+<table width="320" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><div  style="width:125px;">&nbsp;</div></td>
+    <td><img src="images/dave-pic.jpg" alt="" width="320" height="213" style="border-style:solid; border-color:#fff; margin:5px;" /></td>
+    <td><img src="images/Jane_Brewster.jpg" alt="" width="320" height="213" style="border-style:solid; border-color:#fff; margin:5px;" /></td>
+    <td><img src="images/staff_2011.jpg" width="320" height="213" style="border-style:solid; border-color:#fff; margin:5px;" /></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td valign="top" bgcolor="#000000"><div style="color:#fff; font-size:14px; height:520px; padding:5px;"><strong>
+      <h1>David Hansen-Sturm</h1>
+      </strong>
+      <h3><font color="red">Documentary of Marscher Lords</font></h3>
+      <br />
+      <h4><i>&nbsp;</i></h4>
+      David studied filmmaking at USC's School of Cinematic Arts in Los Angeles. Since then he as worked as a Director of Photography, Editor, and/or Producer on Reality-TV shows including &quot;The Rooney's&quot; (starring Mickey Rooney), &quot;29 Minutes and Counting&quot;, and &quot;Another Chance Romance&quot; to name a few. David is also the owner of Twin Palms Media, a boutique video production company in Studio City, California which specializes in micro-budgeted Web Commercials and local Wedding and Event Documentaries. He as documented the private events for talents such as Billy Crystal, William Shatner, Chad Michael Murray, Harry Dean Anderson, Marcia Cross, Dr. Laura Schlessinger, and &quot;Rush&quot; drummer Neil Peart. In the corporate world David has completed video projects for Disney, Nike, AAMCO, Federal Aviation Administration, eHarmony, Mini Cooper, L'Oreal, and many others.</div></td>
+    <td bgcolor="#000000"><div style="color:#fff; font-size:14px; height:520px; padding:5px;"><strong>
+      <h1><strong>Jane Brewster</strong></h1>
+      </strong>
+      <h3><font color="red">Storyboard Artist</font></h3>
+      <br />
+      <h4><i>&nbsp;</i></h4>
+      We're excited to bring on  Jane Brewster as our storyboard artist. Ms. Brewster's work speaks for itself.  You can see her work here: <a href="http://www.janebrewster.com" target="_blank">www.janebrewster.com</a></div></td>
+    <td valign="top" bgcolor="#000000"><div style="color:#fff; font-size:14px; height:520px; padding:5px;"><strong><h1><strong>Ride On Therapeutic Horsemanship</strong></h1>
+          <br />
+        <font color="red">Special Thank You</font> to Ride On Therapeutic Horsemanship in Chatsworth, CA for their invaluable assistance in the making of this production: <a href="http://www.rideon.org" target="_blank">www.rideon.org</a></div></td>
+    </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td valign="top" bgcolor="#000000"><img src="images/chuck-images.jpg" alt="" width="320" height="213" style="border-style:solid; border-color:#fff; margin:0 5px;" /><br />
+      <div style="color:#fff; font-size:24px; font-weight:bold; padding:5px;">Charles E. Santacrose</div>
+      <div style="color:red; font-size:18px; padding:5px;">Writer/Executive Producer</div></td>
+    <td colspan="2" bgcolor="#000000"><table width="100%" bgcolor="#FFFFFF" border="0" cellspacing="5" cellpadding="0">
+      <tr>
+        <td align="center" bgcolor="#FFFFFF"><strong>Film Dedicated </strong></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="#FFFFFF">-IN MEMORY OF CHARLES-<br />
+          <span class="smaller">January 29, 1953 to August 30, 2013</span><br />
+          <br /></td>
+      </tr>
+      <tr>
+        <td bgcolor="#FFFFFF" class="smaller2"><span class="production">Sadly, we lost a very important part of our production team recently, Charles Edward Santacrose, age 60 of Winnetka, CA passed away August 30. This native of Endicott, NY often worked as a field recruiter for Nielsen Research. For Nielsen Charles recruited test audiences, assisted focus groups and prepared reports to film industry clients. These duties honed a key insight for what audiences would respond to. He turned this expertise into an multi-award winning short film &quot;The Angel&quot;, in which he handled the reigns of Executive Producer. Charles was particular about what his name was attached to, and he looked far and wide before settling on another film project to do. When he did, it was The Marscher Lords: Brotherhood or Death, and it was one he was very passionate about. When Charles saw talent in someone or a project, he would intensively labor to see that individual or that project become a success. That was his intent with The Marscher Lords: Brotherhood or Death before his illness intervened. We are going to miss him dearly, Charles was a good man and great friend to many. Always offering to help his friends but rarely asking for anything in return. He will be with us in spirit and we are dedicating this project to him in Memorial. May God rest your soul and Christ Jesus bring you peace.
+          
+          
+          here's the link to The Angel youtube video: </span><a href="http://www.youtube.com/watch?v=m4OuxjgknHQ">http://www.youtube.com/watch?v=m4OuxjgknHQ</a></td>
+      </tr>
+    </table></td>
+    </tr>
+</table>
+<p>&nbsp;</p>
+<table width="700" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">Design/Web Development</td>
+  </tr>
+  <tr>
+    <td align="center"><font color="#fff"><a href="http://www.erm3designs.com" target="_new">www.erm3designs.com</a></font></td>
+  </tr>
+</table>
+<table width="320" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</div>
+<div class="section white" id="section4">
+            <h2>Attention All Film Composers/Film Scorers:</h2>
+            <img src="images/composer-img.jpg" width="1000" height="823" border="0" align="right" />
+            <p>
+<strong>We Welcome Your Submissions!!</strong><br />
+   The Marscher Lords is a unique period film and we consider your expertise invaluable! We welcome and encourage your submissions to our project. <a href="mailto:filmproject@marscherlordsfilm.com">Please send us an email</a> with a clip or a link to where we can review a sample of your work. We will be using original music both in the film and the "Making of The Marscher Lords" Documentary. We know how hard it is to get a helping hand in this industry, so we're offering everyone not only our hand but (hopefully) a leg up.
+</p>
+<br />
+
+<p>
+<strong>Note On Submissions:</strong> <br />
+Please Take Note of the Time Represented in The Marscher Lords - 13th Century Europe. Both instrumental & vocal submissions are encouraged, just please know that submissions must reflect the time frame being represented within the film.</p>
+<br />
+<table width="700" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">Design/Web Development</td>
+  </tr>
+  <tr>
+    <td align="center"><font color="#fff"><a href="http://www.erm3designs.com" target="_new">www.erm3designs.com</a></font></td>
+  </tr>
+</table>
+</div>
+        <!-- The JavaScript --> 
+       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
+        <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('ul.nav a').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+                    /*
+                    if you don't want to use the easing effects:
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1000);
+                    */
+                    event.preventDefault();
+                });
+            });
+        </script> 
+        <script type="text/javascript">
+            $(function() {
+                $('#navigation a').stop().animate({'marginLeft':'-35px'},1000);
+
+                $('#navigation > li').hover(
+                    function () {
+                        $('a',$(this)).stop().animate({'marginLeft':'-2px'},200);
+                    },
+                    function () {
+                        $('a',$(this)).stop().animate({'marginLeft':'-35px'},200);
+                    }
+                );
+            });
+        </script> 
+    </body>
+</html>

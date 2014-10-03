@@ -1,0 +1,1558 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta property="og:url" content="http://www.wnetwork.com/" />
+<meta property="og:title" content="W Network" />
+<meta property="og:site_name" content="W Network" />
+<link rel="shortcut icon" href="http://www.wnetwork.com/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="google-site-verification" content="SL6N0hU77BhFpr7w0xzX9at-owaw1fEIKs8Yz4aRBvo" />
+<meta name="p:domain_verify" content="e8ce5b54b606f4041feaebbf887b6678" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta property="og:image" content="http://dev.wnetwork.com/sites/wnetwork.com/files/ffffff%26text%3D1200x624.gif" />
+<meta property="og:type" content="website" />
+<link rel="canonical" href="http://www.wnetwork.com/" />
+
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+
+
+
+      
+  <script type="text/javascript">
+
+    function getCookie(name) {
+        var dc = document.cookie,
+          prefix = name + '=',
+          begin = dc.indexOf(prefix);
+
+        if (begin == -1) {
+            return null;
+        } else {
+            var end = document.cookie.indexOf(';', begin);
+            if (end == -1) {
+              end = dc.length;
+            }
+        }
+        return unescape(dc.substring(begin + prefix.length, end));
+    }
+
+    function getWidth() {
+      var x = 0;
+      if (self.innerHeight) {
+          x = self.innerWidth;
+      }
+      else if (document.documentElement && document.documentElement.clientHeight) {
+          x = document.documentElement.clientWidth;
+      }
+      else if (document.body) {
+          x = document.body.clientWidth;
+      }
+      return x;
+    }
+
+    function testCookie() {
+      if (navigator.cookieEnabled) {
+        return true;
+      }
+
+      document.cookie = 'cookietest=1';
+
+      var ret = document.cookie.indexOf("cookietest=") != -1;
+      document.cookie = "cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT";
+      return ret;
+    }
+
+    if(testCookie()) {
+      var cookie_res = getCookie('resolution'),
+        width = getWidth();
+
+      if(cookie_res == null || typeof cookie_res == 'null') {
+        document.cookie = 'resolution=' + width;
+        window.location.reload(); 
+      }
+    }
+
+  </script>
+
+            <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=221260338073701";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+		
+            
+            <meta property="fb:app_id" content="221260338073701"/>
+        
+    <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-40830001-1', 'wnetwork.com'); ga('send', 'pageview');</script>
+    
+    <script type="text/javascript">
+    document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    if(typeof COMSCORE != 'undefined') {
+        COMSCORE.beacon({
+            c1:2, c2:3005670, c3:"", c4:"www.wnetwork.com", c5:"", c6:"", c15:""
+        });
+    }
+</script>
+
+  <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+    
+    <script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+        
+  <title>W Network</title>
+  <style type="text/css" media="all">@import url("http://www.wnetwork.com/modules/system/system.base.css?ncifdv");
+@import url("http://www.wnetwork.com/modules/system/system.menus.css?ncifdv");
+@import url("http://www.wnetwork.com/modules/system/system.messages.css?ncifdv");
+@import url("http://www.wnetwork.com/modules/system/system.theme.css?ncifdv");</style>
+<style type="text/css" media="all">@import url("http://www.wnetwork.com/modules/aggregator/aggregator.css?ncifdv");
+@import url("http://www.wnetwork.com/modules/comment/comment.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/all/modules/contrib/date/date_api/date.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?ncifdv");
+@import url("http://www.wnetwork.com/modules/field/theme/field.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/all/modules/contrib/logintoboggan/logintoboggan.css?ncifdv");
+@import url("http://www.wnetwork.com/modules/node/node.css?ncifdv");
+@import url("http://www.wnetwork.com/modules/poll/poll.css?ncifdv");
+@import url("http://www.wnetwork.com/modules/search/search.css?ncifdv");
+@import url("http://www.wnetwork.com/modules/user/user.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/all/modules/contrib/views/css/views.css?ncifdv");</style>
+<style type="text/css" media="all">@import url("http://www.wnetwork.com/sites/all/modules/contrib/ctools/css/ctools.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/all/modules/contrib/panels/css/panels.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/css/shop.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/all/modules/contrib/panels/plugins/layouts/w_simple/w_simple.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/all/modules/contrib/panels/plugins/layouts/w_1_col_ad/w_1_col_ad.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/all/modules/contrib/field_group/field_group.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/wnetwork.com/modules/contrib/custom_search/custom_search.css?ncifdv");</style>
+<style type="text/css" media="all">@import url("http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/css/normalize.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/select2.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/css/all.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/css/desktop.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/css/tablet.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/css/phone.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/css/print.css?ncifdv");
+@import url("http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/css/corus-backport.css?ncifdv");</style>
+
+<!--[if lte IE 9]>
+<style type="text/css" media="all">@import url("http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/css/ie.css?ncifdv");</style>
+<![endif]-->
+  <script type="text/javascript" src="http://www.wnetwork.com/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+googletag.slots = googletag.slots || {};
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/misc/drupal.js?ncifdv"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots["dfp_300x250_homepage"] = googletag.defineSlot("23171097/TV_Wnetwork.com_Web/homepage", [300, 250], "dfp-ad-dfp_300x250_homepage")
+  .addService(googletag.pubads())
+  .setTargeting("URL", "/home")
+  .setTargeting("pos", "above");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots["dfp_300x251_homepage"] = googletag.defineSlot("23171097/TV_Wnetwork.com_Web/homepage", [300, 251], "dfp-ad-dfp_300x251_homepage")
+  .addService(googletag.pubads())
+  .setTargeting("URL", "/home")
+  .setTargeting("pos", "below");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots["clone_of_dfp_300x251_homepage_2"] = googletag.defineSlot("23171097/TV_Wnetwork.com_Web/homepage", [300, 251], "dfp-ad-clone_of_dfp_300x251_homepage_2")
+  .addService(googletag.pubads())
+  .setTargeting("URL", "/home")
+  .setTargeting("pos", "below");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots["dfp_300x250_homepage_below"] = googletag.defineSlot("23171097/TV_Wnetwork.com_Web/homepage", [300, 250], "dfp-ad-dfp_300x250_homepage_below")
+  .addService(googletag.pubads())
+  .setTargeting("URL", "/home")
+  .setTargeting("pos", "below");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.defineOutOfPageSlot("/23171097/TV_Wnetwork.com_Web/homepage","dfp-ad-dfp_1x1_int1").addService(googletag.pubads()).setTargeting("URL", "/home").setTargeting("pos", "int");;
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots["dfp_1x2_homepage"] = googletag.defineSlot("23171097/TV_Wnetwork.com_Web/HomePage", [1, 2], "dfp-ad-dfp_1x2_homepage")
+  .addService(googletag.pubads())
+  .setTargeting("URL", "/home");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots["dfp_728x90_homepage"] = googletag.defineSlot("23171097/TV_Wnetwork.com_Web/homepage", [728, 90], "dfp-ad-dfp_728x90_homepage")
+  .addService(googletag.pubads())
+  .setTargeting("URL", "http://www.wnetwork.com/home");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.wnetwork.com/misc/form.js?v=7.12"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function() {
+  googletag.pubads().enableSyncRendering();
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().collapseEmptyDivs();
+});
+googletag.enableServices();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/all/modules/contrib/panels/js/panels.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/modules/custom/wnetwork_custom_contest/js/custom_contest.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/modules/custom/wnetwork_custom_contest/js/custom_contest_success.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/shop.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/modules/custom/wnetwork_custom_poll/js/custom_poll.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/all/modules/custom/corus_base/js/corus-base.js?ncifdv"></script>
+<script type="text/javascript" src="http://cdn.gigya.com/JS/socialize.js?apikey="></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/all/modules/contrib/gigya/gigya.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/all/modules/contrib/gigya/gigya.behaviors.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/modules/contrib/custom_search/js/custom_search.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/all/modules/contrib/field_group/field_group.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/misc/collapse.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/hash.js?ncifdv"></script>
+<script type="text/javascript" src="http://use.typekit.net/zkq2cgm.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/hammer.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/select2.min.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/jquery.scrollTo-1.4.3.1-min.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/jquery.cycle.all.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/modernizr.custom.36629.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/jquery.jcarousel.min.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/jquery.inview.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/jquery.cookie.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/jquery.mousewheel.min.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/jquery.validate.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/Omniture.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/OmnitureConfig.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/trunk8.min.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/libs/jquery.history.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/wnetwork.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/menus.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/recipe.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/contact.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/show-hub.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/newsletter.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/search.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/channel-finder.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/movies.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/gallery.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/shop-the-show.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/analytics.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/back-to-top.js?ncifdv"></script>
+<script type="text/javascript" src="http://www.wnetwork.com/sites/wnetwork.com/themes/wnetwork/js/clips.js?ncifdv"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"wnetwork","theme_token":"fp8k5GrpbeTfTvjvV5ZhIphoIJpsged05VAQ4L97hd0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"0":1,"http:\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"misc\/drupal.js":1,"1":1,"2":1,"3":1,"4":1,"5":1,"6":1,"7":1,"misc\/form.js":1,"8":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/wnetwork.com\/modules\/custom\/wnetwork_custom_contest\/js\/custom_contest.js":1,"sites\/wnetwork.com\/modules\/custom\/wnetwork_custom_contest\/js\/custom_contest_success.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/shop.js":1,"sites\/wnetwork.com\/modules\/custom\/wnetwork_custom_poll\/js\/custom_poll.js":1,"sites\/all\/modules\/custom\/corus_base\/js\/corus-base.js":1,"http:\/\/cdn.gigya.com\/JS\/socialize.js?apikey=":1,"sites\/all\/modules\/contrib\/gigya\/gigya.js":1,"sites\/all\/modules\/contrib\/gigya\/gigya.behaviors.js":1,"sites\/wnetwork.com\/modules\/contrib\/custom_search\/js\/custom_search.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"misc\/collapse.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/hash.js":1,"http:\/\/use.typekit.net\/zkq2cgm.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/hammer.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/select2.min.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/jquery.scrollTo-1.4.3.1-min.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/jquery.cycle.all.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/modernizr.custom.36629.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/jquery.jcarousel.min.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/jquery.inview.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/jquery.cookie.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/jquery.mousewheel.min.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/jquery.validate.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/Omniture.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/OmnitureConfig.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/trunk8.min.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/jquery.history.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/wnetwork.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/menus.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/recipe.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/contact.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/show-hub.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/newsletter.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/search.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/channel-finder.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/movies.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/gallery.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/shop-the-show.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/analytics.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/back-to-top.js":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/clips.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/aggregator\/aggregator.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/wnetwork.com\/themes\/wnetwork\/css\/shop.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/w_simple\/w_simple.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/w_1_col_ad\/w_1_col_ad.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/wnetwork.com\/modules\/contrib\/custom_search\/custom_search.css":1,"sites\/wnetwork.com\/themes\/wnetwork\/css\/normalize.css":1,"sites\/wnetwork.com\/themes\/wnetwork\/js\/libs\/select2.css":1,"sites\/wnetwork.com\/themes\/wnetwork\/css\/all.css":1,"sites\/wnetwork.com\/themes\/wnetwork\/css\/desktop.css":1,"sites\/wnetwork.com\/themes\/wnetwork\/css\/tablet.css":1,"sites\/wnetwork.com\/themes\/wnetwork\/css\/phone.css":1,"sites\/wnetwork.com\/themes\/wnetwork\/css\/print.css":1,"sites\/wnetwork.com\/themes\/wnetwork\/css\/corus-backport.css":1,"sites\/wnetwork.com\/themes\/wnetwork\/css\/ie.css":1}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"gigya":{"conf":{"enabledProviders":"facebook, twitter, google, yahoo, messenger, myspace","APIKey":"","connectWithoutLoginBehavior":"alwaysLogin"},"loginDestination":"http:\/\/www.wnetwork.com\/socialize-login?destination","loginUIParams":[{"headerText":"","width":245,"height":100,"containerID":"divGigyaLogin","showTermsLink":true,"UIConfig":"\u003Cconfig\u003E\u003Cbody\u003E\u003Ccaptions background-color=\u0022#4692DE\u0022 color=\u0022#FFFFFF\u0022\u003E\u003C\/captions\u003E\u003Ctexts color=\u0022#3A3A3A\u0022\u003E\u003Clinks color=\u0022#0066CC\u0022\u003E\u003C\/links\u003E\u003C\/texts\u003E\u003Ccontrols\u003E\u003Csnbuttons buttonsize=\u002230\u0022 color=\u0022#3A3A3A\u0022\u003E\u003C\/snbuttons\u003E\u003Cscrollingarrow color=\u0022#79BCFD\u0022\u003E\u003C\/scrollingarrow\u003E\u003C\/controls\u003E\u003Cbackground background-color=\u0022Transparent\u0022 frame-color=\u0022#DFDFDF\u0022\u003E\u003C\/background\u003E\u003C\/body\u003E\u003C\/config\u003E","requiredCapabilities":"login","useHTML":true,"pendingRegistration":true,"buttonsStyle":"fullLogo"}]},"custom_search":{"form_target":"_self","solr":0},"field_group":{"div":"homepage_3_columns","fieldset":"homepage_1_column"}});
+//--><!]]>
+</script>
+</head>
+<body class="html front not-logged-in no-sidebars page-home" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    
+<div id="page-wrapper">
+
+    <div id="ads">
+          <div class="region region-leaderboard">
+    <div id="block-dfp-custom-dfp-custom-leaderboard" class="block block-dfp-custom">
+
+    
+  <div class="content">
+    <div id="dfp-ad-dfp_728x90_homepage-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-dfp_728x90_homepage" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-dfp_728x90_homepage");
+    });
+  </script>
+</div>
+</div>  </div>
+</div>
+  </div>
+                    </div>
+    <!-- Main header -->
+    <div id="site-header" class="container transparent mobile-menu-parent">
+
+        <a href="/" title="Home" rel="home" id="logo" class="brand">
+
+            
+
+                <img src="/sites/wnetwork.com/themes/wnetwork/images/logo-header.png">
+
+        </a>
+
+        <!-- Primary navigation -->
+        <div id="main-nav" class="container transparent">
+
+            <ul id="social-icons">
+                <li id="search">
+                    <div class="icon"></div>
+                    <a href="/search"></a>
+                </li>
+                <li id="facebook">
+                    <div class="icon"></div>
+                    <a href="https://www.facebook.com/wnetwork" target="_blank"></a>
+                    <div class="dropdown"><div class="fb-like" data-href="https://www.facebook.com/wnetwork" data-send="false" data-layout="button_count" data-width="85" data-show-faces="false"></div></div>
+                </li>
+                <li id="twitter">
+                    <div class="icon"></div>
+                    <a href="https://twitter.com/w_network" target="_blank"></a>
+                    <div class="dropdown"><a href="https://twitter.com/w_network" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @w_network</a>
+                        <script>!function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0];
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = "//platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");</script></div>
+                </li>
+                <li id="pinterest">
+                    <div class="icon"></div>
+                    <a href="http://pinterest.com/source/wnetwork.com/" target="_blank"></a>
+                    <div class="dropdown">
+                        <a data-pin-do="buttonFollow" href="http://pinterest.com/source/wnetwork.com/" target="_blank"><img src="/sites/wnetwork.com/themes/wnetwork/images/pinterest.png"/></a>
+                    </div>
+                </li>
+
+                <li id="googleplus">
+                    <div class="icon"></div>
+                    <a href="https://plus.google.com/106895235052880688106/posts" target="_blank"></a>
+                    <div class="dropdown">
+                        <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/106895235052880688106" data-rel="author"></div>
+                    </div>
+                </li>
+
+                <li id="email">
+                    <div class="icon"></div>
+                    <a href="/newsletters"></a>
+                    <div class="dropdown">
+
+                        <div class="newsletter-throbber"></div>
+
+                        <form class="newsletter-form">
+
+                            <label for="newsletteremail" class="newsletter-email-label">Enter your email to subscribe to our newsletter</label>
+                            <input name="newsletteremail" class="newsletter-email" type="text">
+
+                            <p>Choose the emails you wish to subscribe to.</p><a href="/newsletters">Learn more</a>
+
+                            <fieldset class="newsletter-checkboxes" name="newslettercheckboxes">
+                                <label><input type="checkbox"  name="whats-on-w" value="wnetwork-whats_on_w">What's On W</label>
+                                <label><input type="checkbox"  name="dinner-and-a-movie" value="wnetwork-dinnerandamovie">Dinner &amp; a Movie</label>
+                                <br>
+                                  <!--
+                                <label><input type="checkbox" checked="checked" name="new-feature-updates" value="wnetwork-newfeatureupdate">New Feature Updates</label>
+                                -->
+                                <label><input type="checkbox"  name="best-of-w" value="wnetwork-bestofw">Best of W</label>
+                                <!--label><input type="checkbox"  name="special-partners" value="wnetwork-specialpartners">Special Partners</label-->
+                            </fieldset>
+
+
+                            <input type="submit" name="submit" class="newsletter-submit" value="Submit">
+
+                            <p class="casl">By subscribing, you agree to our use of your personal information as per our Privacy Policy. You may unsubscribe at any time by clicking “Unsubscribe.” If you have any questions, contact us at privacy@corusent.com, or write us at W Network CASLInquiries, 25 Dockside Drive, Toronto ON M5A 0B5</p>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+
+              <div class="region region-navigation">
+    <div id="block-custom-search-blocks-2" class="block block-custom-search-blocks">
+
+    
+  <div class="content">
+    <form class="search-form" action="/" method="post" id="custom-search-blocks-form-2" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-custom-search-blocks-form-2">
+  <input class="custom-search-default-value custom-search-box form-text" type="text" id="edit-custom-search-blocks-form-2--2" name="custom_search_blocks_form_2" value="" size="15" maxlength="128" />
+</div>
+<fieldset class="custom_search-popup form-wrapper" id="edit-popup"><div class="fieldset-wrapper"></div></fieldset>
+<input type="hidden" name="delta" value="2" />
+<input type="hidden" name="form_build_id" value="form-fkcuMxzbK2F5hJJP6T_ZgiRjNyJACm8brTAj3pemp1g" />
+<input type="hidden" name="form_id" value="custom_search_blocks_form_2" />
+<input class="default-text" type="hidden" name="default_text" value="" />
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div></div></form>  </div>
+</div>
+<div id="block-menu-block-1" class="block block-menu-block">
+
+    
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-697"><a href="/shows" title="">Shows</a></li>
+<li class="leaf menu-mlid-698"><a href="/movies" title="">Movies</a></li>
+<li class="leaf menu-mlid-699"><a href="/living" title="">Living</a></li>
+<li class="leaf menu-mlid-701"><a href="/food" title="">Food</a></li>
+<li class="leaf menu-mlid-700"><a href="/shop">Shop</a></li>
+<li class="leaf menu-mlid-1406"><a href="/video">Video</a></li>
+<li class="leaf menu-mlid-767"><a href="https://www.facebook.com/wnetwork" class="mobile top-menu-only" target="_blank">Facebook</a></li>
+<li class="leaf menu-mlid-768"><a href="https://twitter.com/w_network" class="mobile top-menu-only" target="_blank">Twitter</a></li>
+<li class="leaf menu-mlid-879"><a href="http://pinterest.com/source/wnetwork.com/" class="mobile top-menu-only">Pinterest</a></li>
+<li class="leaf menu-mlid-878"><a href="https://plus.google.com/106895235052880688106/posts" class="mobile top-menu-only">Google+</a></li>
+<li class="leaf menu-mlid-902"><a href="/newsletters" class="mobile top-menu-only">Newsletters</a></li>
+<li class="last leaf menu-mlid-769"><a href="/search" class="mobile">Search</a></li>
+</ul></div>
+  </div>
+</div>
+  </div>
+
+        </div>
+
+        <div id="mobile-menu-toggle"></div>
+
+    </div>
+
+            
+        <!-- Upper page content and tools -->
+        <div id="upper-area">
+
+                                        
+        </div>
+
+    
+    <!-- Main page content -->
+    <div id="content-area">
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    
+<div class="panel-display panel-w-simple clearfix" >
+	
+
+	    <div class="panel-panel panel-cell-a cell-100">
+		  		      <div class="inside"><div class="panel-pane pane-block pane-views-homepage-carousel-block-1" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-carousel view-id-homepage_carousel view-display-id-block_1 top-carousel view-dom-id-560420eaf51fb61136c03203175aafd8">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="ds-1col node node-homepage-carousel-link view-mode-homepage_1_column clearfix">
+
+  
+                    <div class="views-field-field-related-show"><a href="shows/property-brothers">Property Brothers</a></div>
+        
+        
+
+        <a class="carousel-link panel-article-link" href="/shows/property-brothers/">
+                        <div class="views-field-field-photo"><img src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/new-pro-bros.jpg"/></div>
+
+            <div class="group-copy">
+              <div class="views-field-title"><span>New Episode, New Night!<br/>Tonight, 9 E/P</span></div>
+              <div class="views-field-title bg"><span>New Episode, New Night!<br/>Tonight, 9 E/P</span></div>
+              <div class="views-field-body"><span>
+
+                              </span></div>
+            </div>
+        </a>
+
+  </div>
+
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="ds-1col node node-homepage-carousel-link view-mode-homepage_1_column clearfix">
+
+  
+                    <div class="views-field-field-related-show"><a href="shows/love-it-or-list-it">Love It or List It</a></div>
+        
+        
+
+        <a class="carousel-link panel-article-link" href="/shows/love-it-or-list-it">
+                        <div class="views-field-field-photo"><img src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/loveitlistit_0.jpg"/></div>
+
+            <div class="group-copy">
+              <div class="views-field-title"><span>New Episode!<br/>Tonight, 10 E/P</span></div>
+              <div class="views-field-title bg"><span>New Episode!<br/>Tonight, 10 E/P</span></div>
+              <div class="views-field-body"><span>
+
+                              </span></div>
+            </div>
+        </a>
+
+  </div>
+
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div class="ds-1col node node-homepage-carousel-link view-mode-homepage_1_column clearfix">
+
+  
+        
+        
+
+        <a class="carousel-link panel-article-link" href="/customcontest/big-500-contest-september?cmpid=social_20140923_32096566">
+            <div class="views-field-field-carousel-image"><img src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/WN_newsletter_rotator-2_0.jpg"/></div>            <div class="views-field-field-photo"><img src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/WN_newsletter_rotator-2.jpg"/></div>
+
+            <div class="group-copy">
+              <div class="views-field-title"><span>Your Chance to Win $500! </br> Enter Now!</span></div>
+              <div class="views-field-title bg"><span>Your Chance to Win $500! </br> Enter Now!</span></div>
+              <div class="views-field-body"><span>
+
+                              </span></div>
+            </div>
+        </a>
+
+  </div>
+
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    
+<div class="ds-1col node node-post view-mode-homepage_1_column clearfix">
+
+  
+  
+    <div class="field-name-field-show"><a href="/shows/buying-and-selling-property-brothers">Buying and Selling with The Property Brothers</a></div>
+
+  
+    <a href="/living/21-questions-jonathan-scott" class="panel-article-link">
+
+      <div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-carousel-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/jscottcarousel.jpg" alt="" /></div></div></div><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/post/12821/jonathan_scott_interview-bio.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>21 Questions with Jonathan Scott</h2></div></div></div></div></div>      <div class="field-name-title bg"><h2>21 Questions with Jonathan Scott</h2></div>
+    </a>
+
+  
+</div>
+
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    <div class="ds-1col node node-homepage-carousel-link view-mode-homepage_1_column clearfix">
+
+  
+        
+        
+
+        <a class="carousel-link panel-article-link" href="/beontv/be-tv">
+                        <div class="views-field-field-photo"><img src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/syttd-casting.jpg"/></div>
+
+            <div class="group-copy">
+              <div class="views-field-title"><span>Say Yes to the Dress is Coming to Canada! Apply to Be on TV </span></div>
+              <div class="views-field-title bg"><span>Say Yes to the Dress is Coming to Canada! Apply to Be on TV </span></div>
+              <div class="views-field-body"><span>
+
+                              </span></div>
+            </div>
+        </a>
+
+  </div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-homepage-items-block" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-items view-id-homepage_items view-display-id-block view-dom-id-fb5a526c1f8575ad4ec23c96edd048c8">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="ds-1col node node-homepage-carousel-link view-mode-homepage_3_columns clearfix">
+
+  
+        
+        
+
+        <a class="carousel-link panel-article-link" href="/shows/audience/clips">
+                        <div class="views-field-field-photo"><img src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/aug-26-audience.jpg"/></div>
+
+            <div class="group-copy">
+              <div class="views-field-title"><span>The Audience, Full Season! </span></div>
+              <div class="views-field-title bg"><span>The Audience, Full Season! </span></div>
+              <div class="views-field-body"><span>
+
+                <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Missed The Audience? Catch up on all the episodes of season 1 online! </p></div></div></div>              </span></div>
+            </div>
+        </a>
+
+  </div>
+
+  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+    <div class="ds-1col node node-homepage-carousel-link view-mode-homepage_3_columns clearfix">
+
+  
+        
+        
+
+        <a class="carousel-link panel-article-link" href="/shows/buying-and-selling-property-brothers/clips">
+                        <div class="views-field-field-photo"><img src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/aug-26-probro.jpg"/></div>
+
+            <div class="group-copy">
+              <div class="views-field-title"><span>Buying and Selling, New Episodes!</span></div>
+              <div class="views-field-title bg"><span>Buying and Selling, New Episodes!</span></div>
+              <div class="views-field-body"><span>
+
+                <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Missed this week's Buying &amp; Selling? Catch up on full episodes online and watch new episodes Tuesdays at 10 E/P!</p></div></div></div>              </span></div>
+            </div>
+        </a>
+
+  </div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-dfp-custom-dfp-custom-bigbox pane-dfp-300x250" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="dfp-ad-dfp_300x250_homepage-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-dfp_300x250_homepage" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-dfp_300x250_homepage");
+    });
+  </script>
+</div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-block-30 pane-dfp-300x250" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="newsletter-form-homepage">
+<div>
+<div class="newsletter-throbber"></div>
+
+<h1>Sign Up For Newsletters</h1>
+
+            <form class="newsletter-form">
+
+              <p>Choose the emails you wish to subscribe to. <a href="/newsletters">Learn more</a></p>
+
+              <fieldset class="newsletter-checkboxes" name="newslettercheckboxes">
+                <label><input type="checkbox"  name="whats-on-w" value="wnetwork-whats_on_w">What's On W</label>
+                <label><input type="checkbox"  name="dinner-and-a-movie" value="wnetwork-dinnerandamovie">Dinner &amp; a Movie</label>
+                <br>
+<!--
+                <label><input type="checkbox" name="new-feature-updates" value="wnetwork-newfeatureupdate">New Feature Updates</label>
+-->
+                <label><input type="checkbox"  name="best-of-w" value="wnetwork-bestofw">Best of W</label>
+                <!--label><input type="checkbox"  name="special-partners" value="wnetwork-specialpartners">Special Partners</label-->
+              </fieldset>
+
+              <label for="newsletteremail" class="newsletter-email-label">Email</label>
+              <input name="newsletteremail" class="newsletter-email" type="text">
+
+              <input type="submit" name="submit" class="newsletter-submit" value="Submit">
+<p class="casl">By subscribing, you agree to our use of your personal information as per our Privacy Policy. You may unsubscribe at any time by clicking “Unsubscribe.” If you have any questions, contact us at privacy@corusent.com, or write us at W Network CASLInquiries, 25 Dockside Drive, Toronto ON M5A 0B5</p>
+            </form>
+</div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-schedule-primetime" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="schedule-widget">
+
+    <h2 class='homepage-category-header'>
+        <a name='whats-on'>What's on<span class="mobile-only"> tonight</a></a>
+        <a class="primetime-schedule" href="/schedule">Full schedule</a>
+    </h2>
+
+    
+    <div class="shows">
+
+        <a class='schedule-slot slot-60 img-60 position-0' href='shows/property-brothers'><div class='airtimes'><span class='airtime views-field-title'>8 PM</span><span class='airtime views-field-title'>8:30 PM</span></div><div class='field-name-field-photo '><img src='http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-show-60/public/PB-Feature_0.jpg'></div><span class='title views-field-title'>Property Brothers</span></a><a class='schedule-slot slot-60 img-60 position-1' href='shows/property-brothers'><div class='airtimes'><span class='airtime views-field-title'>9 PM</span><span class='airtime views-field-title'>9:30 PM</span></div><div class='field-name-field-photo '><img src='http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-show-60/public/PB-Feature_0.jpg'></div><span class='title views-field-title'>Property Brothers</span></a><a class='schedule-slot slot-60 img-60 position-0' href='shows/love-it-or-list-it'><div class='airtimes'><span class='airtime views-field-title'>10 PM</span><span class='airtime views-field-title'>10:30 PM</span></div><div class='field-name-field-photo '><img src='http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-show-60/public/LIOLI_1.jpg'></div><span class='title views-field-title'>Love It or List It</span></a>
+    </div>
+
+    
+    <div class="clearfix"></div>
+
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-homepage-items-block-1" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-items view-id-homepage_items view-display-id-block_1 view-dom-id-54b0799c7cbc5cfc511805f9d4055c9a">
+            <div class="view-header">
+      <div class="homepage-category-header link color-orange">
+    <a href="/movies">Movies</a>
+</div>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    
+<div class="ds-1col node node-post view-mode-homepage_1_column clearfix">
+
+  
+  
+    <div class="field-name-field-show"><a href="/movies/step">Step Up</a></div>
+
+  
+    <a href="/movies/bust-move-7-dance-movies-make-us-want-get-our" class="panel-article-link">
+
+      <div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-carousel-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/stepup.jpg" alt="" /></div></div></div><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/post/8910/stepup.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Bust a Move! 7 Dance Movies That Make Us Want to Get Our Groove On</h2></div></div></div></div></div>      <div class="field-name-title bg"><h2>Bust a Move! 7 Dance Movies That Make Us Want to Get Our Groove On</h2></div>
+    </a>
+
+  
+</div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-homepage-items-block-2" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-items view-id-homepage_items view-display-id-block_2 view-dom-id-5a7d9b698a964da553fba9360184dbdc">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="post-date" style="display:none">September 2, 2014</div>
+<div class="ds-1col node node-post view-mode-homepage_3_columns clearfix">
+
+
+<a href="/movies/10-reasons-we-love-betty-white" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/post/9185/you-again.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>10 Reasons We Love Betty White </h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">In honour of our favourite Golden Girl, here are 10 things we love about Betty White.</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="post-date" style="display:none">August 19, 2014</div>
+<div class="ds-1col node node-post view-mode-homepage_3_columns clearfix">
+
+
+<a href="/movies/previously-loved-movie-moments" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/post/12592/footloose2.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Previously Loved Movie Moments</h2></div></div></div><div class="field field-name-field-sponsorship-text field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Brought to you by</div></div></div><div class="field field-name-field-sponsorship-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/Value-Village-logo-4.jpg" width="170" height="33" alt="" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">From Owen Wilson and Vince Vaughn in The Wedding Crashe rs to Andie MacDowell and Dennis Quaid in Footloose we're rounding up our favourite previously...</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <div class="post-date" style="display:none">September 2, 2014</div>
+<div class="ds-1col node node-post view-mode-homepage_3_columns clearfix">
+
+
+<a href="/movies/fey-isms-tina-feys-best-quotes-about-life" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/post/9498/TinaFey.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Fey-isms: Tina Fey&#039;s Best Quotes About Life</h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">We bring you our favourite quotes about life and womanhood from our favourite comedian slash role model, Tina Fey. This writer/producer/actor/comedienne has come a long...</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-homepage-items-block-3" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-items view-id-homepage_items view-display-id-block_3 view-dom-id-fcfcec08930eb5d233f15e2147cdb9e7">
+            <div class="view-header">
+      <div class="homepage-category-header link color-orange">
+    <a href="/living">Living</a>
+</div>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    
+<div class="ds-1col node node-post view-mode-homepage_1_column clearfix">
+
+  
+  
+    <div class="field-name-field-show"><a href="/shows/candice-tells-all">Candice Tells All</a></div>
+
+  
+    <a href="/living/5-decorating-mistakes-everyone-makes" class="panel-article-link">
+
+      <div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/post/1184/cta-sts-1.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>5 Decorating Mistakes Everyone Makes </h2></div></div></div></div></div>      <div class="field-name-title bg"><h2>5 Decorating Mistakes Everyone Makes </h2></div>
+    </a>
+
+  
+</div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-homepage-items-block-4" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-items view-id-homepage_items view-display-id-block_4 view-dom-id-7e6481b50a6d0ca5e4a28562ff828535">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="post-date" style="display:none">September 2, 2014</div>
+<div class="ds-1col node node-post view-mode-homepage_3_columns clearfix">
+
+
+<a href="/living/18-questions-love-it-or-list-its-david-visentin" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/post/12817/DV_0.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>18 Questions With Love It Or List It&#039;s David Visentin </h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">If you invite "Vizzer" to your next dinner party make sure you cook seafood pasta and allow him to be in control of the grill...</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="post-date" style="display:none">May 2, 2013</div>
+<div class="ds-1col node node-post view-mode-homepage_3_columns clearfix">
+
+
+<a href="/living/candice-olsons-top-tips-paint-and-carpet-colours" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/post/6694/D2_0.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Candice Olson&#039;s Top Tips For Paint and Carpet Colours</h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">You think you know what colours you want – until you're standing in front of a vast stand of paint chips and wondering which hue...</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <div class="post-date" style="display:none">August 7, 2014</div>
+<div class="ds-1col node node-post view-mode-homepage_3_columns clearfix">
+
+
+<a href="/living/19-questions-love-it-or-list-its-hilary-farr" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/post/12818/hilary-farr.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>19 Questions With Love It or List It&#039;s Hilary Farr</h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">What's one thing Love It or List It's Hilary Farr hasn't done but wants to? Go skydiving, she says. Her favourite dish? Silky yogurt with...</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-homepage-items-block-5" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-items view-id-homepage_items view-display-id-block_5 view-dom-id-0c771571b51d8da00a968414ed73c6c1">
+            <div class="view-header">
+      <div class="homepage-category-header link color-orange">
+    <a href="/food">Food</a>
+</div>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    
+<div class="ds-1col node node-gallery view-mode-homepage_1_column clearfix">
+
+  
+  
+    <a href="/food/easy-soup-recipes" class="panel-article-link">
+
+      <div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-gallery-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/tom-yum-soup2.gif" alt="&lt;p&gt;Coconut gives a rich, savoury creaminess without the heaviness of dairy.&lt;/p&gt;
+&lt;p&gt;&lt;a style=&quot;cursor: pointer; text-decoration: none; outline: none !important; color: #f27d2f; -webkit-transition: color 0.2s; font-family: open-sans, Helvetica, Arial, sans-serif; font-size: 14px; background-color: rgba(255, 255, 255, 0.898438);&quot; href=&quot;../../recipe/tom-yum-soup&quot; target=&quot;_self&quot;&gt;&lt;strong&gt;See the recipe for Chicken and Shrimp Tom Yum soup here &amp;gt;&amp;gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;" title="Chicken &amp; Shrimp Coconut Soup " /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Easy Fall Soup Recipes</h2></div></div></div></div></div>      <div class="field-name-title bg"><h2>Easy Fall Soup Recipes</h2></div>
+    </a>
+
+  
+</div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-homepage-items-block-6" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-items view-id-homepage_items view-display-id-block_6 view-dom-id-a7201c3ec7cbcb524f76f89019978777">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="post-date" style="display:none">September 12, 2013</div>
+<div class="ds-1col node node-gallery view-mode-homepage_3_columns clearfix">
+
+
+<a href="/food/best-apple-recipes" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-gallery-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/16Apple_Crisp_Recipenew.jpg" alt="&lt;p&gt;This classic recipe is our favourite fall comfort food and works every time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;../../recipe/apple-crisp-homemade-caramel-sauce&quot;&gt;See the recipe for Apple Crisp here &amp;gt;&amp;gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;" title="Apple Crisp" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Best Apple Recipes</h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Apple crisp, apple crumble cake, cider-soaked pork and more incredibly delicious fall recipes that all start with apples.</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="post-date" style="display:none">March 25, 2014</div>
+<div class="ds-1col node node-gallery view-mode-homepage_3_columns clearfix">
+
+
+<a href="/food/jillian-harriss-top-10-recipes" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-gallery-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/jillian-harris-recipe--pink-strawberry-milk-popsicles.gif" alt="&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;../../food/jillian-harris-recipe-strawberry-popsicles&quot;&gt;See the recipe&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;" title="Strawberry Milk Popsicles" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Jillian Harris&#039;s Best Recipes</h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Jillian Harris shares favourite recipes from her blog.</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <div class="post-date" style="display:none">March 5, 2014</div>
+<div class="ds-1col node node-gallery view-mode-homepage_3_columns clearfix">
+
+
+<a href="/food/easy-chicken-recipes" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-gallery-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/best-easy-chicken-recipes-fried.gif" alt="&lt;p&gt;&lt;a href=&quot;../../recipe/buttermilk-fried-chicken&quot;&gt;&lt;strong&gt;See the recipe&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;" title="Buttermilk Fried Chicken" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Easy Chicken Recipes</h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Quick &amp; easy chicken dinner recipes for every night of the week.</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-homepage-items-block-7" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-items view-id-homepage_items view-display-id-block_7 view-dom-id-09bfeda1a23004462f7225c85a9ffa1d">
+            <div class="view-header">
+      <div class="homepage-category-header link color-orange">
+    <a href="/shop">Shop</a>
+</div>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    
+<div class="ds-1col node node-post view-mode-homepage_1_column clearfix">
+
+  
+  
+    <div class="field-name-field-show"><a href="/shows/love-it-or-list-it-vancouver">Love It or List It Vancouver</a></div>
+
+  
+    <a href="/living/beautiful-jillian-harris-bedroom" class="panel-article-link">
+
+      <div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-1-col-desktop/public/post/9036/SHOPSHOWVAN.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>A Beautiful Jillian Harris Bedroom </h2></div></div></div></div></div>      <div class="field-name-title bg"><h2>A Beautiful Jillian Harris Bedroom </h2></div>
+    </a>
+
+  
+</div>
+
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-homepage-items-block-8" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-homepage-items view-id-homepage_items view-display-id-block_8 view-dom-id-4f751408f484ea2d3811c21d89a86faa">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="post-date" style="display:none">February 5, 2014</div>
+<div class="ds-1col node node-post view-mode-homepage_3_columns clearfix">
+
+
+<a href="/living/love-it-or-list-it-get-nautical-bedroom-style" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/post/10496/nautical.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Love It or List It: Get Nautical Bedroom Style</h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Ahoy, mateys! Are you ready to abandon ship on your outdated bedroom decor and set sail on a brand new style? This seaworthy Love It...</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="post-date" style="display:none">August 7, 2013</div>
+<div class="ds-1col node node-post view-mode-homepage_3_columns clearfix">
+
+
+<a href="/living/shop-show-transform-your-basement-nature-inspired" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/post/8756/CTA503_after.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Shop the Show: Transform Your Basement Into a Nature-Inspired Retreat</h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">With its fluorescent lighting and dropped ceiling, Tania and Vinicius' large basement felt more like a commercial space than a residential one. But Candice and...</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <div class="post-date" style="display:none">November 6, 2013</div>
+<div class="ds-1col node node-post view-mode-homepage_3_columns clearfix">
+
+
+<a href="/living/get-ultra-modern-bathroom-candice-olson" class="panel-article-link">
+        <div class="ds3_post" ><div class="field-group-format group_outer field-group-div group-outer  speed-fast effect-none"><div class="field field-name-field-photo field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-homepage-3-col-desktop/public/post/9850/cta-611-after.jpg" alt="" /></div></div></div><div class="field-group-format group_copy field-group-div group-copy  speed-fast effect-none"><div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Get an Ultra-Modern Bathroom by Candice Olson</h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">Here's how this masterpiece in chrome and dark wood can be yours.</div></div></div></div></div></div>
+    
+
+
+    
+</a>
+
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-node" >
+  
+        <h2 class="pane-title">Meet The Hosts</h2>
+    
+  
+  <div class="pane-content">
+    
+<div class="homepage-category-header  color-grey">
+    <a >
+        Meet The Hosts    </a>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-views-meet-the-hosts-block-1" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-meet-the-hosts view-id-meet_the_hosts view-display-id-block_1 view-dom-id-f95ef9d6bb16a344c4f3b3afeec654fc">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first views-row">  
+  <div class="views-field views-field-field-thumbnail">        <div class="field-content"><a href="/shows/love-it-or-list-it/cast/david-visentin"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-meet-the-hosts-thumbnail/public/david_cast-thumb.jpg" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/shows/love-it-or-list-it/cast/david-visentin">David Visentin</a></span>  </div></li>
+          <li class="views-row views-row-2 views-row-even views-row">  
+  <div class="views-field views-field-field-thumbnail">        <div class="field-content"><a href="/shows/property-brothers/cast/jonathan-drew-scott"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-meet-the-hosts-thumbnail/public/cast-of-buying-and-selling-2%20%281%29.jpg" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/shows/property-brothers/cast/jonathan-drew-scott">Jonathan &amp; Drew Scott</a></span>  </div></li>
+          <li class="views-row views-row-3 views-row-odd views-row">  
+  <div class="views-field views-field-field-thumbnail">        <div class="field-content"><a href="/shows/love-it-or-list-it/cast/hilary-farr"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-meet-the-hosts-thumbnail/public/hilary_cast-thumb.jpg" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/shows/love-it-or-list-it/cast/hilary-farr">Hilary Farr</a></span>  </div></li>
+          <li class="views-row views-row-4 views-row-even views-row">  
+  <div class="views-field views-field-field-thumbnail">        <div class="field-content"><a href="/shows/love-it-or-list-it-vancouver/cast/todd-talbot"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-meet-the-hosts-thumbnail/public/todd3.jpg" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/shows/love-it-or-list-it-vancouver/cast/todd-talbot">Todd Talbot</a></span>  </div></li>
+          <li class="views-row views-row-5 views-row-odd views-row">  
+  <div class="views-field views-field-field-thumbnail">        <div class="field-content"><a href="/shows/love-it-or-list-it-vancouver/cast/jillian-harris"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-meet-the-hosts-thumbnail/public/cast-liolivan_jillian-thumb.jpg" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/shows/love-it-or-list-it-vancouver/cast/jillian-harris">Jillian Harris</a></span>  </div></li>
+          <li class="views-row views-row-6 views-row-even views-row">  
+  <div class="views-field views-field-field-thumbnail">        <div class="field-content"><a href="/shows/candice-tells-all/cast/candice-olson"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-meet-the-hosts-thumbnail/public/cast-cta-candice-thumb.jpg" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/shows/candice-tells-all/cast/candice-olson">Candice Olson</a></span>  </div></li>
+          <li class="views-row views-row-7 views-row-odd views-row-last views-row">  
+  <div class="views-field views-field-field-thumbnail">        <div class="field-content"><a href="/shows/cast/shannon-tweed"><img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-meet-the-hosts-thumbnail/public/shannon_0.jpg" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/shows/cast/shannon-tweed">Shannon Tweed</a></span>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-homepage-tablet-phone-ad" >
+  
+      
+  
+  <div class="pane-content">
+    
+<div class="panel-display panel-w-1-col-ad clearfix" id="mini-panel-homepage_tablet_phone_ad">
+
+    <div class="mobile-side-scroll">
+
+        <div class="panel-panel first last">
+
+            <div class="big-box ad-300x250">
+                            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
+
+    </div>
+
+</div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-custom pane-1" >
+  
+        <h2 class="pane-title">Contests</h2>
+    
+  
+  <div class="pane-content">
+    <div class="homepage-category-header"><a id="CONTESTANDPARTNERS">CONTESTS</a></div>
+  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-dfp-dfp-300x251-homepage contest-ad contest-ad-1" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="dfp-ad-dfp_300x251_homepage-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-dfp_300x251_homepage" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-dfp_300x251_homepage");
+    });
+  </script>
+</div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-dfp-clone-of-dfp-300x251-homepage-2 contest-ad contest-ad-2" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="dfp-ad-clone_of_dfp_300x251_homepage_2-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-clone_of_dfp_300x251_homepage_2" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-clone_of_dfp_300x251_homepage_2");
+    });
+  </script>
+</div>
+</div>  </div>
+
+  
+  </div>
+<div class="panel-separator"></div><div class="panel-pane pane-block pane-dfp-custom-dfp-custom-bigbox-below contest-ad contest-ad-3" >
+  
+      
+  
+  <div class="pane-content">
+    <div id="dfp-ad-dfp_300x250_homepage_below-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-dfp_300x250_homepage_below" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-dfp_300x250_homepage_below");
+    });
+  </script>
+</div>
+</div>  </div>
+
+  
+  </div>
+</div>
+		  	    </div>
+
+</div>
+  </div>
+</div>
+  </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div id="site-footer">
+
+        <a href="/" title="Home" rel="home" id="logo-footer" class="brand"></a>
+
+          <div class="region region-footer">
+    <div id="block-custom-search-blocks-1" class="block block-custom-search-blocks">
+
+    
+  <div class="content">
+    <form class="search-form" action="/" method="post" id="custom-search-blocks-form-1" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-custom-search-blocks-form-1">
+  <label class="element-invisible" for="edit-custom-search-blocks-form-1--2">Search this site </label>
+ <input class="custom-search-default-value custom-search-box form-text" type="text" id="edit-custom-search-blocks-form-1--2" name="custom_search_blocks_form_1" value="SEARCH" size="15" maxlength="128" />
+</div>
+<fieldset class="custom_search-popup form-wrapper" id="edit-popup--2"><div class="fieldset-wrapper"></div></fieldset>
+<input type="hidden" name="delta" value="1" />
+<input type="hidden" name="form_build_id" value="form-M_iO9j9dNhLaUx_ETaiVXTJcbBmUXeGHj_TZUkjJPJQ" />
+<input type="hidden" name="form_id" value="custom_search_blocks_form_1" />
+<input class="default-text" type="hidden" name="default_text" value="SEARCH" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit" /></div></div></form>  </div>
+</div>
+<div id="block-dfp-custom-dfp-custom-out-of-page" class="block block-dfp-custom">
+
+    
+  <div class="content">
+    <div id='dfp-ad-dfp_1x1_int1'>
+    <script type='text/javascript'>
+        googletag.display("dfp-ad-dfp_1x1_int1");
+    </script>
+</div>  </div>
+</div>
+<div id="block-menu-block-2" class="block block-menu-block">
+
+    <h2>Main</h2>
+  
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-697"><a href="/shows" title="">Shows</a></li>
+<li class="leaf menu-mlid-698"><a href="/movies" title="">Movies</a></li>
+<li class="leaf menu-mlid-699"><a href="/living" title="">Living</a></li>
+<li class="leaf menu-mlid-701"><a href="/food" title="">Food</a></li>
+<li class="leaf menu-mlid-700"><a href="/shop">Shop</a></li>
+<li class="leaf menu-mlid-1406"><a href="/video">Video</a></li>
+<li class="leaf menu-mlid-767"><a href="https://www.facebook.com/wnetwork" class="mobile top-menu-only" target="_blank">Facebook</a></li>
+<li class="leaf menu-mlid-768"><a href="https://twitter.com/w_network" class="mobile top-menu-only" target="_blank">Twitter</a></li>
+<li class="leaf menu-mlid-879"><a href="http://pinterest.com/source/wnetwork.com/" class="mobile top-menu-only">Pinterest</a></li>
+<li class="leaf menu-mlid-878"><a href="https://plus.google.com/106895235052880688106/posts" class="mobile top-menu-only">Google+</a></li>
+<li class="leaf menu-mlid-902"><a href="/newsletters" class="mobile top-menu-only">Newsletters</a></li>
+<li class="last leaf menu-mlid-769"><a href="/search" class="mobile">Search</a></li>
+</ul></div>
+  </div>
+</div>
+<div id="block-menu-block-4" class="block block-menu-block">
+
+    <h2>Explore</h2>
+  
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-4 menu-name-menu-explore parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-705"><a href="/faq">FAQ</a></li>
+<li class="leaf menu-mlid-706"><a href="/producer-info">Producer Info</a></li>
+<li class="leaf menu-mlid-707"><a href="/legal-info">Legal</a></li>
+<li class="leaf menu-mlid-708"><a href="/channel-finder">Channel Finder</a></li>
+<li class="leaf menu-mlid-709"><a href="/contests">Contests</a></li>
+<li class="leaf menu-mlid-710"><a href="/schedule">Schedule</a></li>
+<li class="leaf menu-mlid-898"><a href="/schedule/#w-movies">W Movies</a></li>
+<li class="last leaf menu-mlid-1390"><a href="/beontv/be-tv">Be On Tv</a></li>
+</ul></div>
+  </div>
+</div>
+<div id="block-menu-block-3" class="block block-menu-block">
+
+    <h2>Connect</h2>
+  
+  <div class="content">
+    <div class="menu-block-wrapper menu-block-3 menu-name-menu-connect parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-713"><a href="https://www.facebook.com/wnetwork" class="facebook" target="_blank">Facebook</a></li>
+<li class="leaf menu-mlid-714"><a href="https://twitter.com/w_network" class="twitter" target="_blank">Twitter</a></li>
+<li class="leaf menu-mlid-715"><a href="https://www.pinterest.com/wnetworkcanada/" class="pinterest" target="_blank">Pinterest</a></li>
+<li class="leaf menu-mlid-874"><a href="https://plus.google.com/106895235052880688106/posts" class="google-plus" target="_blank">Google+</a></li>
+<li class="leaf menu-mlid-712"><a href="/newsletters" class="newsletter">Newsletters</a></li>
+<li class="leaf menu-mlid-716"><a href="/contact/contact-us">Contact</a></li>
+<li class="leaf menu-mlid-717"><a href="http://www.corusent.com/home/default.aspx" target="_blank">Publicity</a></li>
+<li class="last leaf menu-mlid-718"><a href="/advertising" target="_blank">Advertising</a></li>
+</ul></div>
+  </div>
+</div>
+<div id="block-dfp-custom-dfp-custom-1x2" class="block block-dfp-custom">
+
+    
+  <div class="content">
+    <div id="dfp-ad-dfp_1x2_homepage-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-dfp_1x2_homepage" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-dfp_1x2_homepage");
+    });
+  </script>
+</div>
+</div>  </div>
+</div>
+  </div>
+
+        <div class="clearfix"></div>
+
+        <div class="clearfix">
+
+            <div id="corus-network"><img src="/sites/wnetwork.com/themes/wnetwork/images/corus-network.png"><span id="network">Network</span></div>
+
+            <div id="legal">W Movies&#8482; and W Network&#8482; are trademarks of Corus&reg; Entertainment Inc. or a subsidiary thereof, which might be used under license. &copy;2013 Corus&reg; Entertainment Inc. All rights reserved.</div>
+
+            <div id="network-dropdown">  <div class="region region-network">
+    <div id="block-views-network-list-block" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-network-list view-id-network_list view-display-id-block view-dom-id-cee6233a91ba39231881f5001a7bfefe">
+        
+  
+  
+      <div class="view-content">
+        <h3>More Sites</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="http://www.cmt.ca/" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/cmt%20copy.png" width="289" height="100" alt="" />    
+          </a>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="http://www.moviecentral.ca/encore-avenue" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/encoreave_0%20copy.png" width="289" height="100" alt="" />    
+          </a>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="http://www.moviecentral.ca/" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/moviecentral_0%20copy.png" width="289" height="100" alt="" />    
+          </a>    </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+      
+          <a href="http://www.sundancechannel.ca/" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/sundance_0%20copy_0.png" width="289" height="100" alt="" />    
+          </a>    </div>
+  <h3>Corus Women</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="http://www.cosmotv.ca/" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/cosmo%20copy.png" width="289" height="100" alt="" />    
+          </a>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="http://www.ivillage.ca/" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/ivillage_1.png" width="169" height="100" alt="" />    
+          </a>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <a href="http://ownca.oprah.com/" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/own%20copy%20copy.png" width="289" height="100" alt="" />    
+          </a>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <a href="http://www.corusmedia.com/wmovies/" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/wmovies%20copy.png" width="289" height="100" alt="" />    
+          </a>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <a href="http://www.wnetwork.com/" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/W%20copy_0.png" width="289" height="100" alt="" />    
+          </a>    </div>
+  <h3>Corus Kids</h3>
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <a href="http://www.nickcanada.com/" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/nick%20copy.png" width="289" height="100" alt="" />    
+          </a>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <a href="http://www.treehousetv.com/" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/treehouse%20copy.png" width="289" height="100" alt="" />    
+          </a>    </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+      
+          <a href="http://www.ytv.com/" class="network-logo" target="_blank">    
+          <img typeof="foaf:Image" src="http://www.wnetwork.com/sites/wnetwork.com/files/styles/w-network-logo/public/ytv%20copy.png" width="289" height="100" alt="" />    
+          </a>    </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="clearfix"></div>    </div>
+  
+  
+</div>  </div>
+</div>
+  </div>
+</div>
+
+            <div class="clearfix"></div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="shadow"></div>
+<script type="text/javascript">
+// google +
+
+    (function() {
+        var po = document.createElement('script');
+        po.type = 'text/javascript';
+        po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(po, s);
+    })();
+</script>
+
+<script type="text/javascript">
+// chartbeat
+
+    var _sf_async_config = {uid: 46973, domain: 'wnetwork.com', useCanonical: true};
+    (function() {
+        function loadChartbeat() {
+            window._sf_endpt = (new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        }
+        ;
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+                loadChartbeat : function() {
+                    oldonload();
+                    loadChartbeat();
+                };
+    })();
+</script>
+  </body>
+</html>

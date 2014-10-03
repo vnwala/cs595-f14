@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 6) & !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Your WoW Money | Your home to learn to make gold in the World of Warcraft</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://yourwowmoney.com/wp-content/themes/twentyeleven/style.css" />
+<link rel="pingback" href="http://yourwowmoney.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://yourwowmoney.com/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Your WoW Money &raquo; Feed" href="http://yourwowmoney.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Your WoW Money &raquo; Comments Feed" href="http://yourwowmoney.com/comments/feed/" />
+<!-- This site is powered by Shareaholic - https://shareaholic.com -->
+<script type='text/javascript' data-cfasync='false'>
+  //<![CDATA[
+    (function() {
+      var shr = document.createElement('script');
+      shr.setAttribute('data-cfasync', 'false');
+      shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+      shr.type = 'text/javascript'; shr.async = 'true';
+      shr.onload = shr.onreadystatechange = function() {
+        var rs = this.readyState;
+        if (rs && rs != 'complete' && rs != 'loaded') return;
+        var site_id = 'ff3b0b489c673a08e21d055071e353e3';
+        var page_config = {"apps":{"share_buttons":{"get_share_counts":  function(url, services, cb) {
+    Shareaholic.Utils.ajax({
+      cache: true,
+      cache_ttl: '1 minute',
+      url: 'http://yourwowmoney.com/wp-admin/admin-ajax.php',
+      data: { action: 'shareaholic_share_counts_api', url: url, services: services },
+      success: function(res) {
+        if(res && res.data) {
+          cb(res.data, true);
+        }
+      }
+    })
+  }}}};
+        try { Shareaholic.init(site_id, page_config); } catch (e) {}
+      };
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(shr, s);
+    })();
+  //]]>
+</script>
+
+<!-- Shareaholic Content Tags -->
+<meta name='shareaholic:site_name' content='Your WoW Money' />
+<meta name='shareaholic:language' content='en-US' />
+<meta name='shareaholic:site_id' content='ff3b0b489c673a08e21d055071e353e3' />
+<meta name='shareaholic:wp_version' content='7.4.0.1' />
+
+<!-- Shareaholic Content Tags End -->
+<link rel='stylesheet' id='mediaelement-css'  href='http://yourwowmoney.com/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.15.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://yourwowmoney.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://yourwowmoney.com/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='http://yourwowmoney.com/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='sharedaddy-css'  href='http://yourwowmoney.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=3.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://yourwowmoney.com/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://yourwowmoney.com/wp-content/plugins/powerpress/player.min.js?ver=4.0'></script>
+<script type='text/javascript' src='http://yourwowmoney.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://yourwowmoney.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://yourwowmoney.com/wp-content/plugins/powerpress/powerpress-mejs.js?ver=4.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://yourwowmoney.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://yourwowmoney.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.0" />
+<link rel='shortlink' href='http://wp.me/2YHkT' />
+
+        <style type="text/css" media="screen">
+
+          div.instaemail {
+            margin: 12px 12px 12px 12px;
+          }
+          div.instaemail a, div.instaemail a:link, div.instaemail a:visited {
+            text-decoration: none;
+            font-size: 14px;
+            color: #55750C;
+            vertical-align: bottom;
+            border: none;
+          }
+
+          .instaemail a:hover {
+            cursor: pointer;
+          }
+
+          .instaemail a img  {
+            border: none;
+            padding:0;
+            margin-right: 6px;
+            display:inline-block;
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+          }
+
+          .etp-alignleft {
+            float: left;
+          }
+          .etp-alignright {
+            float: right;
+          }
+          div.etp-aligncenter {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+          }
+          .instaemail a span {
+            vertical-align: bottom;
+          }
+
+        </style>
+        <style type="text/css" media="print">
+          .instaemail {
+            display: none;
+          }
+        </style>
+        <script type="text/javascript"><!--
+function powerpress_pinw(pinw){window.open('http://yourwowmoney.com/?powerpress_pinw='+pinw, 'PowerPressPlayer','toolbar=0,status=0,resizable=1,width=460,height=320');	return false;}
+powerpress_url = 'http://yourwowmoney.com/wp-content/plugins/powerpress/';
+//-->
+</script>
+	<style>
+		/* Link color */
+		a,
+		#site-title a:focus,
+		#site-title a:hover,
+		#site-title a:active,
+		.entry-title a:hover,
+		.entry-title a:focus,
+		.entry-title a:active,
+		.widget_twentyeleven_ephemera .comments-link a:hover,
+		section.recent-posts .other-recent-posts a[rel="bookmark"]:hover,
+		section.recent-posts .other-recent-posts .comments-link a:hover,
+		.format-image footer.entry-meta a:hover,
+		#site-generator a:hover {
+			color: #644640;
+		}
+		section.recent-posts .other-recent-posts .comments-link a:hover {
+			border-color: #644640;
+		}
+		article.feature-image.small .entry-summary p a:hover,
+		.entry-header .comments-link a:hover,
+		.entry-header .comments-link a:focus,
+		.entry-header .comments-link a:active,
+		.feature-slider a.active {
+			background-color: #644640;
+		}
+	</style>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #000000; }
+</style>
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Your WoW Money" />
+<meta property="og:description" content="Your home to learn to make gold in the World of Warcraft" />
+<meta property="og:url" content="http://yourwowmoney.com/" />
+<meta property="og:site_name" content="Your WoW Money" />
+<meta property="og:image" content="http://wordpress.com/i/blank.jpg" />
+<meta name="twitter:site" content="@jetpack" />
+</head>
+
+<body class="home blog custom-background two-column right-sidebar">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="http://yourwowmoney.com/" rel="home">Your WoW Money</a></span></h1>
+				<h2 id="site-description">Your home to learn to make gold in the World of Warcraft</h2>
+			</hgroup>
+
+						<a href="http://yourwowmoney.com/">
+									<img src="http://yourwowmoney.com/wp-content/uploads/2013/05/cropped-Moneycast_banner-Copy.jpg" width="1000" height="345" alt="" />
+							</a>
+			
+								<form method="get" id="searchform" action="http://yourwowmoney.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Main menu</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content">Skip to primary content</a></div>
+									<div class="skip-link"><a class="assistive-text" href="#secondary">Skip to secondary content</a></div>
+												<div class="menu"><ul><li class="current_page_item"><a href="http://yourwowmoney.com/">Home</a></li><li class="page_item page-item-166"><a href="http://yourwowmoney.com/blog-posts/">Blog Posts</a></li><li class="page_item page-item-37"><a href="http://yourwowmoney.com/contacts/">Contacts &#038; Links to Websites</a></li></ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+			
+						<nav id="nav-above">
+			<h3 class="assistive-text">Post navigation</h3>
+			<div class="nav-previous"><a href="http://yourwowmoney.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+								
+					
+	<article id="post-448" class="post-448 post type-post status-publish format-standard hentry category-podcast">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://yourwowmoney.com/post-show-news/" rel="bookmark">Post Show News!</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://yourwowmoney.com/post-show-news/" title="3:16 PM" rel="bookmark"><time class="entry-date" datetime="2014-09-14T15:16:17+00:00">September 14, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://yourwowmoney.com/author/lady-havah/" title="View all posts by Lady Havah" rel="author">Lady Havah</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://yourwowmoney.com/post-show-news/#respond" title="Comment on Post Show News!"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>It is with great excitement that we announce the return of the undermine journal! Kero found the note below after the creation of this week’s show and we want to make sure that you had the news!</p>
+<p>Welcome back TUJ!! I missed you.</p>
+<p>~~LadyHavah</p>
+<p>from <a href="https://theunderminejournal.com/#earthen-ring/horde">https://theunderminejournal.com/#earthen-ring/horde</a></p>
+<p><b>September 3, 2014</b></p>
+<p>We&#8217;ve recently had to move our operation to a new facility, and our old equipment and data could not come with us. So, what&#8217;s old is new again, and we&#8217;re back in <b>beta testing</b> as things get back up to speed.</p>
+<p>95% of the TUJ code is newly written, and the underlying system is a fresh install. This means that many of the features we once shared are no longer available, but we tried to get the most important stuff back up and running. Items, sellers, and battle pets pages can all be found behind the Search box in the top right corner.</p>
+<p>Our data collection is fresh as well, and we no longer have the old history data. This isn&#8217;t as big a problem as you&#8217;d guess, since realms are getting connected all the time, and the Alliance and Horde auction houses will be joined with WoW 6.0 later this season anyway. When that happens, we&#8217;ll wipe the data once again, since it&#8217;ll be a whole new market.</p>
+<p>Category pages are not yet available, but we plan on getting those back up and running over the next few weeks. There are no plans to rebuild market notifications, the market API, or the addon. EU realms are also unavailable, though we plan on supporting all EU realms when the Warlords of Draenor pre-patch is released.</p>
+<p>Since we are beta testing, we welcome your feedback <a href="http://stormspire.net/official-forum-undermine-journal/">in our official forum</a>. Expect things to change and grow over the coming weeks.</p>
+<p><strong>Thank you for your patience and support while we were away. We hope you like our new look, and we&#8217;re happy to continue serving your auction house data needs.</strong></p>
+<div class="instaemail etp-alignleft"><a class="instaemail" id="instaemail-button" href="#" rel="nofollow" title="Email this page" onclick="pfEmail.init()" data-button-img=email-button>Email this page</a></div><div class='shareaholic-canvas' data-app-id='5548495' data-app='share_buttons' data-title='Post Show News!' data-link='http://yourwowmoney.com/post-show-news/' data-summary=''></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://yourwowmoney.com/post-show-news/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-448"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://yourwowmoney.com/post-show-news/?share=facebook" title="Share on Facebook" id="sharing-facebook-448"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="http://yourwowmoney.com/post-show-news/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-448"><span>Google</span></a></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://yourwowmoney.com/post-show-news/?share=email" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://yourwowmoney.com/category/podcast/" rel="category tag">podcast episodes</a>			</span>
+															
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://yourwowmoney.com/post-show-news/#respond" title="Comment on Post Show News!"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-448 -->
+
+				
+					
+	<article id="post-445" class="post-445 post type-post status-publish format-standard hentry category-podcast">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://yourwowmoney.com/89/" rel="bookmark">Show 89: Gone to the Dogs</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://yourwowmoney.com/89/" title="10:09 PM" rel="bookmark"><time class="entry-date" datetime="2014-09-13T22:09:49+00:00">September 13, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://yourwowmoney.com/author/admin/" title="View all posts by Kerosenekid" rel="author">Kerosenekid</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://yourwowmoney.com/89/#respond" title="Comment on Show 89: Gone to the Dogs"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<!--powerpress_player--><div class="powerpress_player" id="powerpress_player_3714"><object type="application/x-shockwave-flash" data="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" id="3714" height="24" width="290">
+<param name="movie" value="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" />
+<param name="FlashVars" value="playerID=3714&amp;soundFile=http%3A%2F%2Ftraffic.libsyn.com%2Fmywowmoney%2Fyourwowmoney89.mp3&amp;pagebg=&amp;bg=&amp;width=290&amp;rtl=no&amp;loader=009900&amp;text=333333&amp;titles=Your WoW Money&amp;animation=yes&amp;remaining=no&amp;buffer=&amp;track=faf8f7&amp;tracker=e33939&amp;border=bd0404&amp;initialvolume=60&amp;leftbg=b50d0d&amp;lefticon=333333&amp;voltrack=F2F2F2&amp;volslider=666666&amp;rightbg=993131&amp;rightbghover=993131&amp;righticon=333333&amp;righticonhover=FFFFFF&amp;transparentpagebg=yes" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="wmode" value="transparent" />
+<a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney89.mp3" title="Play" target="_blank"><img src="http://yourwowmoney.com/wp-content/plugins/powerpress/play_audio.png" title="Play" alt="Play" style="border:0;" /></a></object>
+</div>
+<p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney89.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('445-podcast');" rel="nofollow">Play in new window</a>
+ | <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney89.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="yourwowmoney89.mp3">Download</a>
+</p><p>It is time to say (again) changes are coming. But only 1 change is announced (more to come?). In here you could find a pick for mining, 2 new pets, and <a href="https://www.tradeskillmaster.com/" target="_blank">Tradeskillmaster.com</a>. Plus stress test result, <a href="https://www.youtube.com/watch?v=FRnabRRi1ik&amp;list=PLY0KbDiiFYeNgQkjujixr7qD-FS8qecoP" target="_blank">Lords of War</a>, and the Grand <b>Expedition Yak</b>. Go and listen.</p>
+<div class="instaemail etp-alignleft"><a class="instaemail" id="instaemail-button" href="#" rel="nofollow" title="Email this page" onclick="pfEmail.init()" data-button-img=email-button>Email this page</a></div><div class='shareaholic-canvas' data-app-id='5548495' data-app='share_buttons' data-title='Show 89: Gone to the Dogs' data-link='http://yourwowmoney.com/89/' data-summary=''></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://yourwowmoney.com/89/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-445"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://yourwowmoney.com/89/?share=facebook" title="Share on Facebook" id="sharing-facebook-445"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="http://yourwowmoney.com/89/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-445"><span>Google</span></a></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://yourwowmoney.com/89/?share=email" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://yourwowmoney.com/category/podcast/" rel="category tag">podcast episodes</a>			</span>
+															
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://yourwowmoney.com/89/#respond" title="Comment on Show 89: Gone to the Dogs"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-445 -->
+
+				
+					
+	<article id="post-443" class="post-443 post type-post status-publish format-standard hentry category-podcast">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://yourwowmoney.com/88/" rel="bookmark">Show 88: Easy Bake Robot</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://yourwowmoney.com/88/" title="10:43 PM" rel="bookmark"><time class="entry-date" datetime="2014-09-06T22:43:46+00:00">September 6, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://yourwowmoney.com/author/admin/" title="View all posts by Kerosenekid" rel="author">Kerosenekid</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://yourwowmoney.com/88/#respond" title="Comment on Show 88: Easy Bake Robot"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<!--powerpress_player--><div class="powerpress_player" id="powerpress_player_3715"><object type="application/x-shockwave-flash" data="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" id="3715" height="24" width="290">
+<param name="movie" value="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" />
+<param name="FlashVars" value="playerID=3715&amp;soundFile=http%3A%2F%2Ftraffic.libsyn.com%2Fmywowmoney%2Fyourwowmoney88_1.mp3&amp;pagebg=&amp;bg=&amp;width=290&amp;rtl=no&amp;loader=009900&amp;text=333333&amp;titles=Your WoW Money&amp;animation=yes&amp;remaining=no&amp;buffer=&amp;track=faf8f7&amp;tracker=e33939&amp;border=bd0404&amp;initialvolume=60&amp;leftbg=b50d0d&amp;lefticon=333333&amp;voltrack=F2F2F2&amp;volslider=666666&amp;rightbg=993131&amp;rightbghover=993131&amp;righticon=333333&amp;righticonhover=FFFFFF&amp;transparentpagebg=yes" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="wmode" value="transparent" />
+<a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney88_1.mp3" title="Play" target="_blank"><img src="http://yourwowmoney.com/wp-content/plugins/powerpress/play_audio.png" title="Play" alt="Play" style="border:0;" /></a></object>
+</div>
+<p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney88_1.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('443-podcast');" rel="nofollow">Play in new window</a>
+ | <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney88_1.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="yourwowmoney88_1.mp3">Download</a>
+</p><p>Hey guys It is just Kero and Reckels this week but Havah will tell you why. In this episode we talk about <a href="http://beta.wowdb.com/quests/37014-auctioning-for-parts" target="_blank">Robots</a>, <a href="http://wod.wowhead.com/guide=2479/warlords-of-draenor-jewelcrafting-overview" target="_blank">new JC profession</a>, and Trading Post in the garrison.</p>
+<p>We also talk about <a href="http://us.battle.net/wow/game/lore/savage-world/hellscream/" target="_blank">Hellscream</a>, <a href="http://www.twitch.tv/wow/b/565422082?t=00h21m28s" target="_blank">QA session</a> with Cory Stockton and Dave Kosak,  Hearthstone, <a href="http://us.battle.net/blizzcon/en/blog/15663730/attend-blizzcon%C2%AE-from-anywhere-with-the-virtual-ticket-9-4-2014" target="_blank">The Virtual Ticket</a>, and more. We shall see you inside.</p>
+<div class="instaemail etp-alignleft"><a class="instaemail" id="instaemail-button" href="#" rel="nofollow" title="Email this page" onclick="pfEmail.init()" data-button-img=email-button>Email this page</a></div><div class='shareaholic-canvas' data-app-id='5548495' data-app='share_buttons' data-title='Show 88: Easy Bake Robot' data-link='http://yourwowmoney.com/88/' data-summary=''></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://yourwowmoney.com/88/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-443"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://yourwowmoney.com/88/?share=facebook" title="Share on Facebook" id="sharing-facebook-443"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="http://yourwowmoney.com/88/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-443"><span>Google</span></a></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://yourwowmoney.com/88/?share=email" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://yourwowmoney.com/category/podcast/" rel="category tag">podcast episodes</a>			</span>
+															
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://yourwowmoney.com/88/#respond" title="Comment on Show 88: Easy Bake Robot"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-443 -->
+
+				
+					
+	<article id="post-440" class="post-440 post type-post status-publish format-standard hentry category-podcast">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://yourwowmoney.com/87/" rel="bookmark">Show #87: Reck-Less</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://yourwowmoney.com/87/" title="9:01 PM" rel="bookmark"><time class="entry-date" datetime="2014-08-30T21:01:40+00:00">August 30, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://yourwowmoney.com/author/admin/" title="View all posts by Kerosenekid" rel="author">Kerosenekid</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://yourwowmoney.com/87/#respond" title="Comment on Show #87: Reck-Less"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<!--powerpress_player--><div class="powerpress_player" id="powerpress_player_3716"><object type="application/x-shockwave-flash" data="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" id="3716" height="24" width="290">
+<param name="movie" value="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" />
+<param name="FlashVars" value="playerID=3716&amp;soundFile=http%3A%2F%2Ftraffic.libsyn.com%2Fmywowmoney%2FYourwowmoney87.mp3&amp;pagebg=&amp;bg=&amp;width=290&amp;rtl=no&amp;loader=009900&amp;text=333333&amp;titles=Your WoW Money&amp;animation=yes&amp;remaining=no&amp;buffer=&amp;track=faf8f7&amp;tracker=e33939&amp;border=bd0404&amp;initialvolume=60&amp;leftbg=b50d0d&amp;lefticon=333333&amp;voltrack=F2F2F2&amp;volslider=666666&amp;rightbg=993131&amp;rightbghover=993131&amp;righticon=333333&amp;righticonhover=FFFFFF&amp;transparentpagebg=yes" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="wmode" value="transparent" />
+<a href="http://traffic.libsyn.com/mywowmoney/Yourwowmoney87.mp3" title="Play" target="_blank"><img src="http://yourwowmoney.com/wp-content/plugins/powerpress/play_audio.png" title="Play" alt="Play" style="border:0;" /></a></object>
+</div>
+<p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://traffic.libsyn.com/mywowmoney/Yourwowmoney87.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('440-podcast');" rel="nofollow">Play in new window</a>
+ | <a href="http://traffic.libsyn.com/mywowmoney/Yourwowmoney87.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="Yourwowmoney87.mp3">Download</a>
+</p><p>Hey all it is just Kero and Havah this week and not a lot to talk about but we do have some stuff like: 1,000,000 gold looted, garrison effect, and goodbye to justice and valor.</p>
+<p>We also talk about: The next expansion (past WoD), <a href="https://www.kickstarter.com/projects/gaymercon/gx3-everyone-games" target="_blank">GamerX</a>, and Twitch acquired by Amazon.</p>
+<div class="instaemail etp-alignleft"><a class="instaemail" id="instaemail-button" href="#" rel="nofollow" title="Email this page" onclick="pfEmail.init()" data-button-img=email-button>Email this page</a></div><div class='shareaholic-canvas' data-app-id='5548495' data-app='share_buttons' data-title='Show #87: Reck-Less' data-link='http://yourwowmoney.com/87/' data-summary=''></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://yourwowmoney.com/87/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-440"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://yourwowmoney.com/87/?share=facebook" title="Share on Facebook" id="sharing-facebook-440"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="http://yourwowmoney.com/87/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-440"><span>Google</span></a></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://yourwowmoney.com/87/?share=email" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://yourwowmoney.com/category/podcast/" rel="category tag">podcast episodes</a>			</span>
+															
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://yourwowmoney.com/87/#respond" title="Comment on Show #87: Reck-Less"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-440 -->
+
+				
+					
+	<article id="post-438" class="post-438 post type-post status-publish format-standard hentry category-podcast">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://yourwowmoney.com/86/" rel="bookmark">Show 86: Petaholic</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://yourwowmoney.com/86/" title="9:33 PM" rel="bookmark"><time class="entry-date" datetime="2014-08-23T21:33:42+00:00">August 23, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://yourwowmoney.com/author/admin/" title="View all posts by Kerosenekid" rel="author">Kerosenekid</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://yourwowmoney.com/86/#respond" title="Comment on Show 86: Petaholic"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<!--powerpress_player--><div class="powerpress_player" id="powerpress_player_3717"><object type="application/x-shockwave-flash" data="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" id="3717" height="24" width="290">
+<param name="movie" value="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" />
+<param name="FlashVars" value="playerID=3717&amp;soundFile=http%3A%2F%2Ftraffic.libsyn.com%2Fmywowmoney%2Fyourwowmoney86.mp3&amp;pagebg=&amp;bg=&amp;width=290&amp;rtl=no&amp;loader=009900&amp;text=333333&amp;titles=Your WoW Money&amp;animation=yes&amp;remaining=no&amp;buffer=&amp;track=faf8f7&amp;tracker=e33939&amp;border=bd0404&amp;initialvolume=60&amp;leftbg=b50d0d&amp;lefticon=333333&amp;voltrack=F2F2F2&amp;volslider=666666&amp;rightbg=993131&amp;rightbghover=993131&amp;righticon=333333&amp;righticonhover=FFFFFF&amp;transparentpagebg=yes" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="wmode" value="transparent" />
+<a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney86.mp3" title="Play" target="_blank"><img src="http://yourwowmoney.com/wp-content/plugins/powerpress/play_audio.png" title="Play" alt="Play" style="border:0;" /></a></object>
+</div>
+<p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney86.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('438-podcast');" rel="nofollow">Play in new window</a>
+ | <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney86.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="yourwowmoney86.mp3">Download</a>
+</p><p>We are back this week with the tribute news. I (Kero) was on vacation when I found out the 2 major things that happened when I was gone. But first things first. We talk about over 30 new pets for warlords, Prospecting old ore, and <a href="http://www.powerwordgold.net/2014/08/macros-for-quickly-buying-5-stack.html" target="_blank">Power Word Gold&#8217;s macro</a>.</p>
+<p>We also talk about <a href="http://community.guildlaunch.com/promotions/g/DragonSlayer/" target="_blank">Voting on your favorites</a>, Warlords (stuff), and Robin Williams.</p>
+<div class="instaemail etp-alignleft"><a class="instaemail" id="instaemail-button" href="#" rel="nofollow" title="Email this page" onclick="pfEmail.init()" data-button-img=email-button>Email this page</a></div><div class='shareaholic-canvas' data-app-id='5548495' data-app='share_buttons' data-title='Show 86: Petaholic' data-link='http://yourwowmoney.com/86/' data-summary=''></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://yourwowmoney.com/86/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-438"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://yourwowmoney.com/86/?share=facebook" title="Share on Facebook" id="sharing-facebook-438"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="http://yourwowmoney.com/86/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-438"><span>Google</span></a></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://yourwowmoney.com/86/?share=email" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://yourwowmoney.com/category/podcast/" rel="category tag">podcast episodes</a>			</span>
+															
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://yourwowmoney.com/86/#respond" title="Comment on Show 86: Petaholic"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-438 -->
+
+				
+					
+	<article id="post-434" class="post-434 post type-post status-publish format-standard hentry category-podcast">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://yourwowmoney.com/85/" rel="bookmark">Show#85: A Podcast Full of Doodads</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://yourwowmoney.com/85/" title="11:51 PM" rel="bookmark"><time class="entry-date" datetime="2014-08-09T23:51:40+00:00">August 9, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://yourwowmoney.com/author/admin/" title="View all posts by Kerosenekid" rel="author">Kerosenekid</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://yourwowmoney.com/85/#respond" title="Comment on Show#85: A Podcast Full of Doodads"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<!--powerpress_player--><div class="powerpress_player" id="powerpress_player_3718"><object type="application/x-shockwave-flash" data="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" id="3718" height="24" width="290">
+<param name="movie" value="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" />
+<param name="FlashVars" value="playerID=3718&amp;soundFile=http%3A%2F%2Ftraffic.libsyn.com%2Fmywowmoney%2Fyourwowmoney85.mp3&amp;pagebg=&amp;bg=&amp;width=290&amp;rtl=no&amp;loader=009900&amp;text=333333&amp;titles=Your WoW Money&amp;animation=yes&amp;remaining=no&amp;buffer=&amp;track=faf8f7&amp;tracker=e33939&amp;border=bd0404&amp;initialvolume=60&amp;leftbg=b50d0d&amp;lefticon=333333&amp;voltrack=F2F2F2&amp;volslider=666666&amp;rightbg=993131&amp;rightbghover=993131&amp;righticon=333333&amp;righticonhover=FFFFFF&amp;transparentpagebg=yes" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="wmode" value="transparent" />
+<a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney85.mp3" title="Play" target="_blank"><img src="http://yourwowmoney.com/wp-content/plugins/powerpress/play_audio.png" title="Play" alt="Play" style="border:0;" /></a></object>
+</div>
+<p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney85.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('434-podcast');" rel="nofollow">Play in new window</a>
+ | <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney85.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="yourwowmoney85.mp3">Download</a>
+</p><p>Hi guys. We will take a week off because Kero is going on vacation. It is much needed time off. But in this podcast we talk about pets (mainly Lady Havah), Garrison set up, and the Undermine Journal.</p>
+<p>We also talk about Hackers, 10 years of Warcraft, and the Release Date for WoD (among other stuff).</p>
+<div class="instaemail etp-alignleft"><a class="instaemail" id="instaemail-button" href="#" rel="nofollow" title="Email this page" onclick="pfEmail.init()" data-button-img=email-button>Email this page</a></div><div class='shareaholic-canvas' data-app-id='5548495' data-app='share_buttons' data-title='Show#85: A Podcast Full of Doodads' data-link='http://yourwowmoney.com/85/' data-summary=''></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://yourwowmoney.com/85/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-434"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://yourwowmoney.com/85/?share=facebook" title="Share on Facebook" id="sharing-facebook-434"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="http://yourwowmoney.com/85/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-434"><span>Google</span></a></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://yourwowmoney.com/85/?share=email" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://yourwowmoney.com/category/podcast/" rel="category tag">podcast episodes</a>			</span>
+															
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://yourwowmoney.com/85/#respond" title="Comment on Show#85: A Podcast Full of Doodads"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-434 -->
+
+				
+					
+	<article id="post-431" class="post-431 post type-post status-publish format-standard hentry category-podcast">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://yourwowmoney.com/84/" rel="bookmark">Show #84: Auction House on Fire</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://yourwowmoney.com/84/" title="10:37 PM" rel="bookmark"><time class="entry-date" datetime="2014-08-02T22:37:29+00:00">August 2, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://yourwowmoney.com/author/admin/" title="View all posts by Kerosenekid" rel="author">Kerosenekid</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://yourwowmoney.com/84/#respond" title="Comment on Show #84: Auction House on Fire"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<!--powerpress_player--><div class="powerpress_player" id="powerpress_player_3719"><object type="application/x-shockwave-flash" data="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" id="3719" height="24" width="290">
+<param name="movie" value="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" />
+<param name="FlashVars" value="playerID=3719&amp;soundFile=http%3A%2F%2Ftraffic.libsyn.com%2Fmywowmoney%2Fyourwowmoney84.mp3&amp;pagebg=&amp;bg=&amp;width=290&amp;rtl=no&amp;loader=009900&amp;text=333333&amp;titles=Your WoW Money&amp;animation=yes&amp;remaining=no&amp;buffer=&amp;track=faf8f7&amp;tracker=e33939&amp;border=bd0404&amp;initialvolume=60&amp;leftbg=b50d0d&amp;lefticon=333333&amp;voltrack=F2F2F2&amp;volslider=666666&amp;rightbg=993131&amp;rightbghover=993131&amp;righticon=333333&amp;righticonhover=FFFFFF&amp;transparentpagebg=yes" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="wmode" value="transparent" />
+<a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney84.mp3" title="Play" target="_blank"><img src="http://yourwowmoney.com/wp-content/plugins/powerpress/play_audio.png" title="Play" alt="Play" style="border:0;" /></a></object>
+</div>
+<p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney84.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('431-podcast');" rel="nofollow">Play in new window</a>
+ | <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney84.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="yourwowmoney84.mp3">Download</a>
+</p><p>My internet was being buggy, so i apologize for the audio. Some things just cannot be helped. Hopefully I will get better internet soon. Anyway here is what we talk about: Raiding old raids, <a href="https://www.youtube.com/user/Elvinelol/videos" target="_blank">Enchant Transmogs</a>, and a full review of the Going Prices addon.</p>
+<p>We also talk about:Artcraft, Movie at SDCC, Hearthstone, and Blizzard power outage.</p>
+<p>By the way there is some <a href="http://www.nals.org/?p=1340" target="_blank">clarification</a> on the <a href="http://money.howstuffworks.com/personal-finance/personal-income-taxes/virtual-tax.htm" target="_blank">Raffle</a> as well.</p>
+<p>Thanks for listening.</p>
+<div class="instaemail etp-alignleft"><a class="instaemail" id="instaemail-button" href="#" rel="nofollow" title="Email this page" onclick="pfEmail.init()" data-button-img=email-button>Email this page</a></div><div class='shareaholic-canvas' data-app-id='5548495' data-app='share_buttons' data-title='Show #84: Auction House on Fire' data-link='http://yourwowmoney.com/84/' data-summary=''></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://yourwowmoney.com/84/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-431"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://yourwowmoney.com/84/?share=facebook" title="Share on Facebook" id="sharing-facebook-431"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="http://yourwowmoney.com/84/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-431"><span>Google</span></a></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://yourwowmoney.com/84/?share=email" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://yourwowmoney.com/category/podcast/" rel="category tag">podcast episodes</a>			</span>
+															
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://yourwowmoney.com/84/#respond" title="Comment on Show #84: Auction House on Fire"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-431 -->
+
+				
+					
+	<article id="post-427" class="post-427 post type-post status-publish format-standard hentry category-podcast">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://yourwowmoney.com/83/" rel="bookmark">Show #83 Beta Suggestions</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://yourwowmoney.com/83/" title="10:07 PM" rel="bookmark"><time class="entry-date" datetime="2014-07-26T22:07:07+00:00">July 26, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://yourwowmoney.com/author/admin/" title="View all posts by Kerosenekid" rel="author">Kerosenekid</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://yourwowmoney.com/83/#respond" title="Comment on Show #83 Beta Suggestions"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<!--powerpress_player--><div class="powerpress_player" id="powerpress_player_3720"><object type="application/x-shockwave-flash" data="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" id="3720" height="24" width="290">
+<param name="movie" value="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" />
+<param name="FlashVars" value="playerID=3720&amp;soundFile=http%3A%2F%2Ftraffic.libsyn.com%2Fmywowmoney%2Fyourwowmoney83.mp3&amp;pagebg=&amp;bg=&amp;width=290&amp;rtl=no&amp;loader=009900&amp;text=333333&amp;titles=Your WoW Money&amp;animation=yes&amp;remaining=no&amp;buffer=&amp;track=faf8f7&amp;tracker=e33939&amp;border=bd0404&amp;initialvolume=60&amp;leftbg=b50d0d&amp;lefticon=333333&amp;voltrack=F2F2F2&amp;volslider=666666&amp;rightbg=993131&amp;rightbghover=993131&amp;righticon=333333&amp;righticonhover=FFFFFF&amp;transparentpagebg=yes" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="wmode" value="transparent" />
+<a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney83.mp3" title="Play" target="_blank"><img src="http://yourwowmoney.com/wp-content/plugins/powerpress/play_audio.png" title="Play" alt="Play" style="border:0;" /></a></object>
+</div>
+<p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney83.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('427-podcast');" rel="nofollow">Play in new window</a>
+ | <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney83.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="yourwowmoney83.mp3">Download</a>
+</p><p>Hey guys and girls. This time we talk about the beta update, ideas for raid guilds to cover raid costs, and an addon that is like TUJ.</p>
+<p>We also talk about: Hearthstone, Horde mount, and the (blah) movie logo. Have fun listening to the podcast.</p>
+<div class="instaemail etp-alignleft"><a class="instaemail" id="instaemail-button" href="#" rel="nofollow" title="Email this page" onclick="pfEmail.init()" data-button-img=email-button>Email this page</a></div><div class='shareaholic-canvas' data-app-id='5548495' data-app='share_buttons' data-title='Show #83 Beta Suggestions' data-link='http://yourwowmoney.com/83/' data-summary=''></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://yourwowmoney.com/83/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-427"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://yourwowmoney.com/83/?share=facebook" title="Share on Facebook" id="sharing-facebook-427"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="http://yourwowmoney.com/83/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-427"><span>Google</span></a></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://yourwowmoney.com/83/?share=email" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://yourwowmoney.com/category/podcast/" rel="category tag">podcast episodes</a>			</span>
+															
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://yourwowmoney.com/83/#respond" title="Comment on Show #83 Beta Suggestions"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-427 -->
+
+				
+					
+	<article id="post-422" class="post-422 post type-post status-publish format-standard hentry category-podcast">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://yourwowmoney.com/82/" rel="bookmark">Show #82: The Wowuction Pet Glyph</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://yourwowmoney.com/82/" title="10:16 PM" rel="bookmark"><time class="entry-date" datetime="2014-07-19T22:16:47+00:00">July 19, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://yourwowmoney.com/author/admin/" title="View all posts by Kerosenekid" rel="author">Kerosenekid</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://yourwowmoney.com/82/#respond" title="Comment on Show #82: The Wowuction Pet Glyph"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<!--powerpress_player--><div class="powerpress_player" id="powerpress_player_3721"><object type="application/x-shockwave-flash" data="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" id="3721" height="24" width="290">
+<param name="movie" value="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" />
+<param name="FlashVars" value="playerID=3721&amp;soundFile=http%3A%2F%2Ftraffic.libsyn.com%2Fmywowmoney%2Fyourwowmoney82.mp3&amp;pagebg=&amp;bg=&amp;width=290&amp;rtl=no&amp;loader=009900&amp;text=333333&amp;titles=Your WoW Money&amp;animation=yes&amp;remaining=no&amp;buffer=&amp;track=faf8f7&amp;tracker=e33939&amp;border=bd0404&amp;initialvolume=60&amp;leftbg=b50d0d&amp;lefticon=333333&amp;voltrack=F2F2F2&amp;volslider=666666&amp;rightbg=993131&amp;rightbghover=993131&amp;righticon=333333&amp;righticonhover=FFFFFF&amp;transparentpagebg=yes" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="wmode" value="transparent" />
+<a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney82.mp3" title="Play" target="_blank"><img src="http://yourwowmoney.com/wp-content/plugins/powerpress/play_audio.png" title="Play" alt="Play" style="border:0;" /></a></object>
+</div>
+<p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney82.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('422-podcast');" rel="nofollow">Play in new window</a>
+ | <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney82.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="yourwowmoney82.mp3">Download</a>
+</p><p>Well news is short this week but there is a lot of classroom this week. So here is what we talk about Glyphs, Living Steel CD&#8217;s, Wowuction.com, and A LOT of Pets.</p>
+<p>We also talk about 6.1 Flying, the new Core Hound mount, and an undermine journal update. Have fun inside, just watch your step.<img class="alignright size-medium wp-image-423" src="http://yourwowmoney.com/wp-content/uploads/2014/07/corehound-300x214.png" alt="corehound" width="300" height="214" /></p>
+<div class="instaemail etp-alignleft"><a class="instaemail" id="instaemail-button" href="#" rel="nofollow" title="Email this page" onclick="pfEmail.init()" data-button-img=email-button>Email this page</a></div><div class='shareaholic-canvas' data-app-id='5548495' data-app='share_buttons' data-title='Show #82: The Wowuction Pet Glyph' data-link='http://yourwowmoney.com/82/' data-summary=''></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://yourwowmoney.com/82/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-422"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://yourwowmoney.com/82/?share=facebook" title="Share on Facebook" id="sharing-facebook-422"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="http://yourwowmoney.com/82/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-422"><span>Google</span></a></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://yourwowmoney.com/82/?share=email" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://yourwowmoney.com/category/podcast/" rel="category tag">podcast episodes</a>			</span>
+															
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://yourwowmoney.com/82/#respond" title="Comment on Show #82: The Wowuction Pet Glyph"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-422 -->
+
+				
+					
+	<article id="post-418" class="post-418 post type-post status-publish format-standard hentry category-podcast">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="http://yourwowmoney.com/81/" rel="bookmark">Show #81: A Sad Profession (Maybe Not)</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Posted on </span><a href="http://yourwowmoney.com/81/" title="11:08 PM" rel="bookmark"><time class="entry-date" datetime="2014-07-12T23:08:50+00:00">July 12, 2014</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="http://yourwowmoney.com/author/admin/" title="View all posts by Kerosenekid" rel="author">Kerosenekid</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="http://yourwowmoney.com/81/#respond" title="Comment on Show #81: A Sad Profession (Maybe Not)"><span class="leave-reply">Reply</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<!--powerpress_player--><div class="powerpress_player" id="powerpress_player_3722"><object type="application/x-shockwave-flash" data="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" id="3722" height="24" width="290">
+<param name="movie" value="http://yourwowmoney.com/wp-content/plugins/powerpress/audio-player.swf" />
+<param name="FlashVars" value="playerID=3722&amp;soundFile=http%3A%2F%2Ftraffic.libsyn.com%2Fmywowmoney%2Fyourwowmoney81.mp3&amp;pagebg=&amp;bg=&amp;width=290&amp;rtl=no&amp;loader=009900&amp;text=333333&amp;titles=Your WoW Money&amp;animation=yes&amp;remaining=no&amp;buffer=&amp;track=faf8f7&amp;tracker=e33939&amp;border=bd0404&amp;initialvolume=60&amp;leftbg=b50d0d&amp;lefticon=333333&amp;voltrack=F2F2F2&amp;volslider=666666&amp;rightbg=993131&amp;rightbghover=993131&amp;righticon=333333&amp;righticonhover=FFFFFF&amp;transparentpagebg=yes" />
+<param name="quality" value="high" />
+<param name="menu" value="false" />
+<param name="wmode" value="transparent" />
+<a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney81.mp3" title="Play" target="_blank"><img src="http://yourwowmoney.com/wp-content/plugins/powerpress/play_audio.png" title="Play" alt="Play" style="border:0;" /></a></object>
+</div>
+<p class="powerpress_links powerpress_links_mp3">Podcast: <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney81.mp3" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('418-podcast');" rel="nofollow">Play in new window</a>
+ | <a href="http://traffic.libsyn.com/mywowmoney/yourwowmoney81.mp3" class="powerpress_link_d" title="Download" rel="nofollow" download="yourwowmoney81.mp3">Download</a>
+</p><p>Hey people <a href="https://twitter.com/ryanaeckles" target="_blank">Reckles </a>is back with us and he will stay with us for a while (YAY). The 3 of us have a lot to talk about. Namely <a href="http://wod.wowhead.com/guide=2327/warlords-of-draenor-professions-overview" target="_blank">new professions</a> and what to do with a 90 that you want to leave a realm with (gold wise).</p>
+<p>We also talk about <a href="https://theunderminejournal.com/" target="_blank">The Undermine Journal</a>, Garrison achievements, Valor Points, and Hearthstones Naxxramas. See you inside.</p>
+<div class="instaemail etp-alignleft"><a class="instaemail" id="instaemail-button" href="#" rel="nofollow" title="Email this page" onclick="pfEmail.init()" data-button-img=email-button>Email this page</a></div><div class='shareaholic-canvas' data-app-id='5548495' data-app='share_buttons' data-title='Show #81: A Sad Profession (Maybe Not)' data-link='http://yourwowmoney.com/81/' data-summary=''></div><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" class="share-twitter sd-button share-icon" href="http://yourwowmoney.com/81/?share=twitter" title="Click to share on Twitter" id="sharing-twitter-418"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" class="share-facebook sd-button share-icon" href="http://yourwowmoney.com/81/?share=facebook" title="Share on Facebook" id="sharing-facebook-418"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" class="share-google-plus-1 sd-button share-icon" href="http://yourwowmoney.com/81/?share=google-plus-1" title="Click to share on Google+" id="sharing-google-418"><span>Google</span></a></li><li class="share-email"><a rel="nofollow" class="share-email sd-button share-icon" href="http://yourwowmoney.com/81/?share=email" title="Click to email this to a friend"><span>Email</span></a></li><li class="share-end"></li></ul></div></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://yourwowmoney.com/category/podcast/" rel="category tag">podcast episodes</a>			</span>
+															
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="http://yourwowmoney.com/81/#respond" title="Comment on Show #81: A Sad Profession (Maybe Not)"><span class="leave-reply">Leave a reply</span></a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-418 -->
+
+				
+						<nav id="nav-below">
+			<h3 class="assistive-text">Post navigation</h3>
+			<div class="nav-previous"><a href="http://yourwowmoney.com/page/2/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+			
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+			<aside id="search-2" class="widget widget_search">	<form method="get" id="searchform" action="http://yourwowmoney.com/">
+		<label for="s" class="assistive-text">Search</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Search" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+	</form>
+</aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://yourwowmoney.com/post-show-news/">Post Show News!</a>
+						</li>
+					<li>
+				<a href="http://yourwowmoney.com/89/">Show 89: Gone to the Dogs</a>
+						</li>
+					<li>
+				<a href="http://yourwowmoney.com/88/">Show 88: Easy Bake Robot</a>
+						</li>
+					<li>
+				<a href="http://yourwowmoney.com/87/">Show #87: Reck-Less</a>
+						</li>
+					<li>
+				<a href="http://yourwowmoney.com/86/">Show 86: Petaholic</a>
+						</li>
+				</ul>
+		</aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Recent Comments</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Kerosenekid</span> on <a href="http://yourwowmoney.com/75/#comment-3535">Show #75 Planning The Garrisons</a></li><li class="recentcomments"><span class="comment-author-link">Varonin</span> on <a href="http://yourwowmoney.com/75/#comment-3532">Show #75 Planning The Garrisons</a></li><li class="recentcomments"><span class="comment-author-link">Ty</span> on <a href="http://yourwowmoney.com/79/#comment-3310">Show #79 Beta Get Your Gold On</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://fel-tron.com/' rel='external nofollow' class='url'>Hasteur</a></span> on <a href="http://yourwowmoney.com/74/#comment-2996">Show #74 What Variables?</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://yourwowmoney.com/60/' rel='external nofollow' class='url'>Show #60: Book Done | Your WoW Money</a></span> on <a href="http://yourwowmoney.com/5/#comment-2257">Show#5 The World of Warcraft Armory app for Iphone and Andriod with news</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Archives</h3>		<ul>
+	<li><a href='http://yourwowmoney.com/2014/09/'>September 2014</a></li>
+	<li><a href='http://yourwowmoney.com/2014/08/'>August 2014</a></li>
+	<li><a href='http://yourwowmoney.com/2014/07/'>July 2014</a></li>
+	<li><a href='http://yourwowmoney.com/2014/06/'>June 2014</a></li>
+	<li><a href='http://yourwowmoney.com/2014/05/'>May 2014</a></li>
+	<li><a href='http://yourwowmoney.com/2014/04/'>April 2014</a></li>
+	<li><a href='http://yourwowmoney.com/2014/03/'>March 2014</a></li>
+	<li><a href='http://yourwowmoney.com/2014/02/'>February 2014</a></li>
+	<li><a href='http://yourwowmoney.com/2014/01/'>January 2014</a></li>
+	<li><a href='http://yourwowmoney.com/2013/12/'>December 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2013/11/'>November 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2013/10/'>October 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2013/09/'>September 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2013/08/'>August 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2013/07/'>July 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2013/06/'>June 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2013/05/'>May 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2013/04/'>April 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2013/03/'>March 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2013/02/'>February 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2013/01/'>January 2013</a></li>
+	<li><a href='http://yourwowmoney.com/2012/12/'>December 2012</a></li>
+		</ul>
+</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categories</h3>		<ul>
+	<li class="cat-item cat-item-3"><a href="http://yourwowmoney.com/category/blog/" >blog posts</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://yourwowmoney.com/category/podcast/" >podcast episodes</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Meta</h3>			<ul>
+						<li><a href="http://yourwowmoney.com/wp-login.php">Log in</a></li>
+			<li><a href="http://yourwowmoney.com/feed/">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://yourwowmoney.com/comments/feed/">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+<li><a href="https://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>			</ul>
+</aside>		</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+<div id="supplementary" class="three">
+		<div id="first" class="widget-area" role="complementary">
+		<aside id="text-2" class="widget widget_text">			<div class="textwidget"><!-- Begin SpeakPipe code -->
+<script type="text/javascript">
+(function(d){
+var app = d.createElement('script'); app.type = 'text/javascript'; app.async = true;
+var pt = ('https:' == document.location.protocol ? 'https://' : 'http://');
+app.src = pt + 'www.speakpipe.com/loader/tl939yosegtgzc0y2eig3e99pd2svx2a.js'; 
+var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(app, s);
+})(document);
+</script>
+<!-- End SpeakPipe code -->
+</div>
+		</aside><aside id="text-8" class="widget widget_text"><h3 class="widget-title">paypal</h3>			<div class="textwidget"><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input name="hosted_button_id" type="hidden" value="4FKZHG6THJ758D" />
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="63B3A5AVLR4C8">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+		</aside>	</div><!-- #first .widget-area -->
+	
+		<div id="second" class="widget-area" role="complementary">
+		<aside id="text-3" class="widget widget_text">			<div class="textwidget"><div class="fb-like" data-href="http://yourwowmoney.com" data-send="true" data-width="450" data-show-faces="false"></div></div>
+		</aside>	</div><!-- #second .widget-area -->
+	
+		<div id="third" class="widget-area" role="complementary">
+		<aside id="text-4" class="widget widget_text">			<div class="textwidget"><div class="fb-like" data-href="http://facebook.com/yourwowmoney" data-send="true" data-width="450" data-show-faces="false"></div></div>
+		</aside>	</div><!-- #third .widget-area -->
+	</div><!-- #supplementary -->
+			<div id="site-generator">
+								<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+	<div style="display:none">
+	</div>
+  <script type="text/javascript">
+    // InstaEmail
+	(function(){var js, pf;pf = document.createElement('script');pf.type = 'text/javascript';if('https:' == document.location.protocol){js='https://pf-cdn.printfriendly.com/javascripts/email/app.js'}else{js='http://cdn.instaemail.net/js/app.js'}pf.src=js;document.getElementsByTagName('head')[0].appendChild(pf)})();
+  </script>
+
+
+        
+	<script type="text/javascript">
+		WPCOM_sharing_counts = {"http:\/\/yourwowmoney.com\/post-show-news\/":448,"http:\/\/yourwowmoney.com\/89\/":445,"http:\/\/yourwowmoney.com\/88\/":443,"http:\/\/yourwowmoney.com\/87\/":440,"http:\/\/yourwowmoney.com\/86\/":438,"http:\/\/yourwowmoney.com\/85\/":434,"http:\/\/yourwowmoney.com\/84\/":431,"http:\/\/yourwowmoney.com\/83\/":427,"http:\/\/yourwowmoney.com\/82\/":422,"http:\/\/yourwowmoney.com\/81\/":418}	</script>
+		<script type="text/javascript">
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+			<div id="sharing_email" style="display: none;">
+		<form action="/" method="post">
+			<label for="target_email">Send to Email Address</label>
+			<input type="email" name="target_email" id="target_email" value="" />
+
+			
+				<label for="source_name">Your Name</label>
+				<input type="text" name="source_name" id="source_name" value="" />
+
+				<label for="source_email">Your Email Address</label>
+				<input type="email" name="source_email" id="source_email" value="" />
+
+			
+			
+			<img style="float: right; display: none" class="loading" src="http://yourwowmoney.com/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif" alt="loading" width="16" height="16" />
+			<input type="submit" value="Send Email" class="sharing_send" />
+			<a href="#cancel" class="sharing_cancel">Cancel</a>
+
+			<div class="errors errors-1" style="display: none;">
+				Post was not sent - check your email addresses!			</div>
+
+			<div class="errors errors-2" style="display: none;">
+				Email check failed, please try again			</div>
+
+			<div class="errors errors-3" style="display: none;">
+				Sorry, your blog cannot share posts by email.			</div>
+		</form>
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+var mejsL10n = {"language":"en","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://yourwowmoney.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.15.0'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201440'></script>
+<script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Sepaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://yourwowmoney.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var recaptcha_options = {"lang":"en"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://yourwowmoney.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=20121205'></script>
+
+	<script src="http://stats.wp.com/e-201440.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:3.1.1',blog:'44018939',post:'0',tz:'0'});
+	var load_cmc = function(){linktracker_init(44018939,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script>
+</body>
+</html>

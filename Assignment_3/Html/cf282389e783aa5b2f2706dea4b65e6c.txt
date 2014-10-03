@@ -1,0 +1,1040 @@
+<meta http-equiv="x-dns-prefetch-control" content="off"/><link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3"><!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!--
+Theme by vikki
+Please do not remove the theme credit (: 
+-->
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function() {
+//
+$('a.poplight[href^=#]').click(function() {
+var popID = $(this).attr('rel'); //Get Popup Name
+var popURL = $(this).attr('href'); //Get Popup href to define size
+var query= popURL.split('?');
+var dim= query[1].split('&');
+var popWidth = dim[0].split('=')[1]; //Gets the first query string value
+$('#' + popID).fadeIn().css({ 'width': Number( popWidth ) }).prepend('<a href="#" class="close"><img src="http://media.tumblr.com/tumblr_lngwraXumj1qf72le.png" class="btn_close" title="Close" alt="Close" /></a>');
+var popMargTop = ($('#' + popID).height() + 80) / 2;
+var popMargLeft = ($('#' + popID).width() + 80) / 2;
+//Apply Margin to Popup
+$('#' + popID).css({
+'margin-top' : -popMargTop,
+'margin-left' : -popMargLeft
+});
+$('body').append('<div id="fade"></div>');
+$('#fade').css({'filter' : 'alpha(opacity=80)'}).fadeIn(); //Fade in the fade layer - .css({'filter' : 'alpha(opacity=80)'})
+return false;
+});
+$('a.close, #fade').live('click', function() {
+$('#fade , .popup_block').fadeOut(function() {
+$('#fade, a.close').remove(); //fade them both out
+});
+return false;
+});
+});
+</script>
+<link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
+<html lang="en">
+
+
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="color:background" content="#ffffff"/>
+<meta name="color:text" content="#000000"/>
+<meta name="color:borda" content="#d8d8d8"/>
+<meta name="color:sidebarborda" content="#d8d8d8"/>
+<meta name="color:links" content="#000000"/>
+<meta name="color:title" content="#000000"/>
+<meta name="color:asks" content="#e6e6e6"/>
+<meta name="image:bottomleft" content=""/>
+<meta name="color:hover" content="#686868"/>
+<meta name="image:Sidebar" content=""/>
+<meta name="image:Background" content=""/>
+<meta name="text:Music code" content="Music code here" />
+<meta name="text:Link one Title" content=""/>
+<meta name="text:Link one" content="" />
+<meta name="text:Link Three Title" content=""/>
+<meta name="text:Link Three" content=""/>
+<meta name="text:Link Four Title" content=""/>
+<meta name="text:Link Four" content=""/>
+<meta name="text:Link two Title" content=""/>
+<meta name="text:Link two" content=""/>
+<meta name="text:Link Five Title" content=""/>
+<meta name="text:Link Five" content=""/>
+<meta name="image:Sidebar" content=""/>
+<meta name="image:Sidebar2" content=""/>
+<meta name="image:SidebarBackground" content=""/>
+<meta name="if:Show Sidebar Image" content="0"/>
+<meta name="if:popups" content="0"/>
+<meta name="if:3columns" content="0"/>
+<meta name="if:1column" content="0"/>
+<meta name="if:Show Bottom Left Image" content="0"/>
+<style type="text/css">
+
+a {color:;text-decoration:none;-webkit-transition: all 0.7s ease-out;-moz-transition: all 0.7s ease-out;transition: all 0.7s ease-out;}
+
+
+<title>♥♥♥</title> 
+<script type=”text/javascript” src=”http://codysherman.com/tools/infinite-scrolling/code”></script>
+
+
+<script type=”text/javascript”>
+//
+function desabilitaMenu(e)
+{
+if (window.Event)
+{
+if (e.which == 2 || e.which == 3)
+return false;
+}
+else
+{
+event.cancelBubble = true
+event.returnValue = false;
+return false;
+}
+}
+document.oncontextmenu = desabilitaMenu;
+document.onmousedown = desabilitaBotaoDireito;
+document.onmouseup = desabilitaBotaoDireito;
+</script>trols{
+position:fixed !important;
+}
+::-webkit-scrollbar-thumb:vertical {
+
+height:9px;
+
+background-color: #a4a4a4;
+
+}
+
+::-webkit-scrollbar {
+
+width:5px;
+
+height:5px;
+
+background:#fff;
+
+margin-right:5px;
+
+}
+
+.popup_block{
+display: none; /*--hidden by default--*/
+background: white ;
+padding: 5px;
+border: 2px solid #d8d8d8;
+float: left;
+font-family: "short stack";
+font-size: 12;
+position: fixed;
+top: 50%; left: 50%;
+z-index: 99999;
+/*--CSS3 Box Shadows--*/
+-webkit-box-shadow: 0px 0px 20px #000;
+-moz-box-shadow: 0px 0px 20px #000;
+box-shadow: 0px 0px 20px #000;
+/*--CSS3 Rounded Corners--*/
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}
+img.btn_close {
+float: right;
+margin: 0 0px 0 0;
+}
+/*--Making IE6 Understand Fixed Positioning--*/
+*html #fade {
+position: absolute;
+}
+*html .popup_block {
+position: absolute;
+}
+@font-face {
+font-family: "kg luck of the irish";
+src: url('http://static.tumblr.com/nsunyax/RJSlz7y7g/kgluckoftheirish.ttf');
+}
+@font-face {
+font-family: "kg luck of the irish";
+src: url('http://static.tumblr.com/nsunyax/RJSlz7y7g/kgluckoftheirish.ttf');
+}
+
+@font-face { font-family: "stars"; src: url('http://static.tumblr.com/hcfbjje/sfRlpm8t0/starsfromoureyes.ttf'); }
+
+.left{
+float: left;
+margin-right: 20px;
+width: 802px;
+}
+
+.right{
+float: right;
+width: 200px;
+background-color: #fdfcfc;
+}
+iframe#tumblr_controls {
+top: 0% !important;
+right:0% !important; 
+position: fixed !important;}
+body {
+padding: 0px;
+margin: 0px;
+color:#000;
+font-family: Short Stack;
+font-size: 11px;
+background-color: #fdfcfc;
+background-image:url(http://static.tumblr.com/bde099fdfe799059cd9c7b0763a8ff64/chovlgr/3Vdmfpyck/tumblr_static_tumblr_mfcurbcevq1qkso6so1_500.jpg);
+background-attachment: fixed;
+background-repeat: repeat;
+}
+
+a:link, a:active, a:visited{
+color:#000000;
+text-decoration: none; 
+-webkit-transition: color 0.4s ease-out; 
+-moz-transition: color 0.4s ease-out; 
+}
+
+a:hover{
+color:#686868;
+-webkit-transition: color 0.4s ease-out; 
+-moz-transition: color 0.4s ease-out; 
+text-shadow:0px 0px 1px #686868;
+}
+
+.entry {
+
+padding: 1px;
+float:left;
+background-color: white;
+border: 1px solid #d8d8d8;
+font-family: Short Stack;
+font-size: 11px;
+line-height:10px;
+
+overflow: hidden;
+
+
+
+
+
+
+width:250px;
+margin:4px;
+
+
+
+
+}
+
+.bubble {align:right;background:#f89292; margin:7px 0px 5px 66px;padding:10px;position: relative;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+.bubble p {margin:1px 0px;}
+.bubble span {display:block;position:absolute;width:1px;height:1px;font-size: 0;line-height: 1px;left:-10px;top:10px;border-top:7px solid transparent;border-bottom:7px solid transparent;border-right:10px solid #f89292;}
+.askborder {float: left;margin: 1px 4px 0 0;padding: 2px; background: #f89292}
+
+.entry #permalink {
+position: absolute;
+margin-top: 100px;
+margin-left: 6px;
+opacity: 0;
+-webkit-transition: all .5s ease;
+-moz-transition: all .5s ease;
+-o-transition: all .5s ease;
+transition: all .5s ease;
+}
+
+.entry:hover #permalink {
+margin-top: 9px;
+margin-left: 6px;
+opacity: .9;
+}
+
+.countreblog {
+letter-spacing:1px; 
+font-family: short stack;
+font-size:9px; 
+color: #a4a4a4;
+line-height:5px;
+margin: 2px;
+background:#fff;
+background-repeat:repeat;
+border:1px solid #fafafa;
+padding:2px 2px;
+opacity: 1;
+-webkit-border-radius:0px;
+moz-border-radius:0px;
+-o-border-radius:0px;
+border-radius:0px;
+}
+
+.countreblog a { color: #000; }
+
+div#linkss {
+z-index:99;
+font-size:12px;
+background:white;
+position:fixed;
+height:auto; 
+margin-top:230px;
+margin-left:90px;
+width:226px;
+font-family:pewp;
+border:1px solid #d8d8d8;
+text-color:#000000;
+}
+
+div#titleee{
+font-family: "megrim";
+font-size: 20px;
+line-height: 20px;
+margin-top: 5px;
+color:#facaca;
+}
+@font-face { font-family: "pewp"; src: url('http://static.tumblr.com/bepad33/6M6m295eu/delius-regular.ttf'); }
+
+
+div#sidebar{#musicplayer {text-align: center;font-size: 11px;position:fixed;left:20px;top:-43px;-webkit-transition: all .5s ease-in-out;-moz-transition: all .5s ease-in-out;-o-transition: all .5s ease-in-out;z-index:999;}
+
+#musicplayer:hover {top:0px;}
+
+#music {padding: 0px 0 0px 0;background: #fff;width:60px;}
+
+#musictab {font-family:century gothic;text-shadow: 0 1px 0 #FFFFFF;height:15px;padding: 10px 0 2px 0;background:#fff;width: 26px; margin-left:0px; margin-top:0px;}
+border-radius: 6px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 0px 0px 0px 0px;
+z-index:99;
+position:absolute !important;
+position:fixed !important;
+font-family: calibri;
+font-size: 11px;
+background-color: white;
+width:120px;
+height:auto;
+top:255px;
+left: 90px;
+padding:5px;
+border:1px solid #d8d8d8;
+#musicplayer
+
+
+text-align: center;
+font-size: 11px;
+position:fixed;left:109px;top:-43px;
+
+-webkit-transition: all .4s ease-in-out;
+-moz-transition: all .4s ease-in-out;
+-o-transition: all .4s ease-in-out;
+z-index:999;
+}
+
+#musicplayer:hover{
+top:0px;
+}
+
+#music{
+padding:3px;
+background: #fff;
+width:60px;
+z-index: 9999;
+text-align:center;
+}
+
+#musictab{
+font-family:cambria;
+height: auto;
+padding:1px;
+background:#fff;
+width:64px;
+-moz-border-radius:0px;
+border-bottom-right-radius:6px;
+border-bottom-left-radius:6px;
+}
+
+}
+
+
+div#sidebar2{
+z-index:1;
+position:fixed !important;
+font-family: 'short stack';
+font-size: 10px;
+background:url(http://assets.tumblr.com/images/x.gif);
+width:243px;
+height:190px;
+top:210px;
+opacity:.9;
+left: 0px;
+padding:1px;
+letter-spacing:0px;
+border: 1px solid #d8d8d8;
+}
+div#sidebar3{
+z-index:1;
+position:fixed !important;
+font-family: 'short stack';
+font-size: 10px;
+background:url(http://assets.tumblr.com/images/x.gif);
+width:45px;
+height:100%;
+top:0px;
+opacity:.8;
+padding:1px;
+letter-spacing:0px;
+
+
+
+margin-left:1135px;
+
+}
+div#desc{
+font-family:arial;
+height:auto;
+font-size:12px;
+width:85px;
+color:#848484;
+margin-top:43px;
+margin-left:145px;
+padding:2px;
+background: white;
+border-top-right-radius:0px;
+border-top-left-radius:0px;
+border: 1px solid #d8d8d8;
+}
+.img1{padding: 0px; background-color: transparent;float: left; text-align: center; margin-top: 0px; margin-left: 0px; margin-right:0px; }
+.img1 img {float: left; display: block; width: 120px; height:80px;margin-top:0px; margin-left:1px;}
+
+#img2 {letter-spacing:0px; padding: 0px;}
+#img2 img {display: inline; text-align:center; border: 0px solid ;}
+#img2 img:hover {display: inline; height:80px; text-align:center; opacity:3; -webkit-transition: all 0.6s ease;border: 0px solid ;}
+.sidebar{float:right; letter-spacing:2px; padding: 0px; position:fixed; -webkit-transition: all 1s ease-in;opacity: 0;}
+.sidebar img{width: 120px; height:80px; border: 0px;margin-top:0px;}
+.sidebar:hover{opacity:3;}
+
+
+#posts {
+
+
+
+width:850px;
+margin-left:350px;
+
+margin-top:2px;
+float:left;
+font-family: "short stack";
+}
+.cred{
+top: 0px;
+left:0px;
+position:fixed;
+}
+#infscr-loading{
+bottom: -70px;
+position: absolute;
+left: 50%;
+margin-left:-8px;
+width:16px;
+height:11px;
+overflow:hidden;
+margin-bottom: 50px;
+}
+
+
+@font-face { font-family: "origin"; src: url('http://static.tumblr.com/lyl1wkn/6tdm8yvpc/origin-light.ttf'); }
+blockquote{
+padding:0px 0px 2px 5px;
+margin:0px 0px 0px 0px;
+border-left: 1px solid #555555;
+}
+
+blockquote p, ul{
+margin:0px; 
+padding:0px; 
+}
+
+a img{border: 0px;}
+
+ul, ol, li{list-style:none; margin:0px; padding:0px;}
+
+.user_1 .label, .user_2 .label, .user_3 .label, .user_4 .label, .user_5 .label, .user_6 .label, 
+.user_7 .label, .user_8 .label, .user_9 .label {color:#555555;}
+
+.notes img{
+width:10px;
+position:relative;
+top:3px;
+}
+
+.photoset, .photoset_row, div.photoset_photo, .photoset img, .html_photoset {
+
+width: 250px !important;
+
+}
+.video embed, .post div.video object {width:250px !important; height:120px !important;}
+
+
+
+
+.title{
+font-family: 'origin'; 
+font-size: 12px;
+line-height:15px;
+color: #facaca; 
+font-weight: normal;
+}
+
+div#borda {
+border-bottom: 1px dashed #d8d8d8;}
+
+
+</style>
+
+<script type="text/javascript" src="http://static.tumblr.com/dbek3sy/iBElrgjim/jquerymasonry.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/9ukfwg7/TlZmfhq24/inf.txt"></script>
+
+<script type="text/javascript">
+$(window).load(function () {
+var $content = $('#posts');
+$content.masonry({itemSelector: '.entry'}),
+$content.infinitescroll({
+navSelector : 'div#pagination', 
+nextSelector : 'div#pagination a#nextPage', 
+itemSelector : '.entry',
+loading: {
+finishedMsg: '',
+img: 'http://static.tumblr.com/dbek3sy/pX1lrx8xv/ajax-loader.gif'
+},
+bufferPx : 600,
+debug : false,
+},
+// call masonry as a callback.
+function( newElements ) {
+var $newElems = $( newElements );
+$newElems.hide();
+// ensure that images load before adding to masonry layout
+$newElems.imagesLoaded(function(){
+$content.masonry( 'appended', $newElems, true, function(){$newElems.fadeIn(300);} );
+
+
+});
+});
+});
+</script>
+
+
+
+</div>
+
+<title>♥♥♥</title>
+
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_0e3f459c2085_128.png">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://zetuslapetusjada.tumblr.com/rss" />
+<meta name="viewport" content="width=820" />
+
+
+
+<div class="wrapper">
+
+<div class="header">
+
+</div>
+
+<div id="sidebar"><div class="img1"><div id="img2"><div class="sidebar"><center><img src="http://static.tumblr.com/0714fbe76866b05f1c2cbd48848a9a40/chovlgr/nbmmp0sbv/tumblr_static_tumblr_mo2zphvtvo1s273lto1_500.png" style="-webkit-border-radius: 0px 0px 0px 0px;;" margin-top:0px; height=200px width=200px ></center></div><a href="/"><img src="http://static.tumblr.com/b0c130271ee8f04c2ecd49b61bc7bbdf/chovlgr/ngFn23hd4/tumblr_static_old-notebook-paper.jpg" style="-webkit-border-radius: 0px 0px 0px 0px;;" margin-top:0px; width=200px></a></div></div></div></div> </center><div id="sidebar2"> <div id="desc"><div id="titleee"><center>♥♥♥</div><!----><i>
+<center></i></center></div></div><div id="linkss"><center>
+<a href="/">↺</a></span> -  <a href="/ask">ask</a> - 
+ <a href="https://vine.co/u/925466746050191360"> vine - </a>  <a href="nycbagel.tumblr.com/facts"> facts - </a>  <a href="nycbagels.tumblr.com/faq"> faq - </a>  <a href="https://twitter.com/crannarrys"> twitter - </a>  <a href="http://cozed.tumblr.com">&copy;</a>
+</div>
+<div id="sidebar3"></div>
+<div class="left">
+
+<div id="posts">
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<center>
+
+<div id="permalink">
+<span class="countreblog"><a href="http://zetuslapetusjada.tumblr.com/post/98691564147">4 notes</a></span> <span class="countreblog"> <a href="https://www.tumblr.com/reblog/98691564147/FiSOyqPs" target="_blank">reblog</a></span></div>
+<a href="http://weheartit.com/entry/135939698/via/ThomazHenri?utm_campaign=share&amp;utm_medium=image_share&amp;utm_source=tumblr"><div class="photo"><img src="http://33.media.tumblr.com/d5c8eca0dcec3b2f0980ccf8134423af/tumblr_ncmnqdZum01rjahtao1_500.png" alt="" width=250px/></div></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<center>
+
+<div id="permalink">
+<span class="countreblog"><a href="http://zetuslapetusjada.tumblr.com/post/98691474082/carmenawithlove-8-sabot4ge-via-facebook-on">18 notes</a></span> <span class="countreblog"> <a href="https://www.tumblr.com/reblog/98691474082/b91Or7i2" target="_blank">reblog</a></span></div>
+<a href="http://weheartit.com/entry/69136605/via/CarmenaWithLove?utm_campaign=share&amp;utm_medium=image_share&amp;utm_source=tumblr"><div class="photo"><img src="http://33.media.tumblr.com/25db6bc294f196c50cf303e6907438c1/tumblr_ncn41kfiKV1tnvc9po1_500.jpg" alt="carmenawithlove:
+
+(8) Sabot4ge | via Facebook on We Heart It.
+" width=250px/></div></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<center>
+
+<div id="permalink">
+<span class="countreblog"><a href="http://zetuslapetusjada.tumblr.com/post/98691353647/kouka-webb">5047 notes</a></span> <span class="countreblog"> <a href="https://www.tumblr.com/reblog/98691353647/Z5JZn3mx" target="_blank">reblog</a></span></div>
+<a href="http://zetuslapetusjada.tumblr.com/image/98691353647"><div class="photo"><img src="http://38.media.tumblr.com/cc8902322edcf66acd582be315f7ce1a/tumblr_ncbtegh7GP1th8wfjo1_500.jpg" alt="
+Kouka Webb
+" width=250px/></div></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<center>
+
+<div id="permalink">
+<span class="countreblog"><a href="http://zetuslapetusjada.tumblr.com/post/98691265672">4224 notes</a></span> <span class="countreblog"> <a href="https://www.tumblr.com/reblog/98691265672/jd6FUjWB" target="_blank">reblog</a></span></div>
+<div class="photo"><img src="http://38.media.tumblr.com/722406f77d209774cde38f8be8cdfbce/tumblr_ms45nkRxtL1r1qjr6o1_500.jpg" alt="" width=250px/></div></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<center>
+
+<div id="permalink">
+<span class="countreblog"><a href="http://zetuslapetusjada.tumblr.com/post/98691248177/myunexpectedd-moss">12315 notes</a></span> <span class="countreblog"> <a href="https://www.tumblr.com/reblog/98691248177/YwR29E0M" target="_blank">reblog</a></span></div>
+<a href="http://zetuslapetusjada.tumblr.com/image/98691248177"><div class="photo"><img src="http://33.media.tumblr.com/tumblr_ma30ghYHZC1qzdxbwo1_500.jpg" alt="myunexpectedd:
+
+Moss
+" width=250px/></div></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<center>
+
+<div id="permalink">
+<span class="countreblog"><a href="http://zetuslapetusjada.tumblr.com/post/98691176677">1009 notes</a></span> <span class="countreblog"> <a href="https://www.tumblr.com/reblog/98691176677/p7BPHikE" target="_blank">reblog</a></span></div>
+<a href="http://zetuslapetusjada.tumblr.com/image/98691176677"><div class="photo"><img src="http://31.media.tumblr.com/bcccdc15f672c59e0992f8415124d18f/tumblr_ncktwmFX3H1tnrvc6o1_500.png" alt="
+春
+" width=250px/></div></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<center>
+
+<div id="permalink">
+<span class="countreblog"><a href="http://zetuslapetusjada.tumblr.com/post/98691149547/80slove-1990">355 notes</a></span> <span class="countreblog"> <a href="https://www.tumblr.com/reblog/98691149547/AYHAUS3K" target="_blank">reblog</a></span></div>
+<a href="http://zetuslapetusjada.tumblr.com/image/98691149547"><div class="photo"><img src="http://38.media.tumblr.com/1712042aefcaadd32b5383e94a4442cb/tumblr_n9cah6lwh01soyikno1_500.jpg" alt="80slove:
+
+1990
+" width=250px/></div></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<center>
+
+<div id="permalink">
+<span class="countreblog"><a href="http://zetuslapetusjada.tumblr.com/post/98691073687">223 notes</a></span> <span class="countreblog"> <a href="https://www.tumblr.com/reblog/98691073687/by7SK1Fe" target="_blank">reblog</a></span></div>
+<a href="http://zetuslapetusjada.tumblr.com/image/98691073687"><div class="photo"><img src="http://38.media.tumblr.com/b39c703f2cabd07499c14fa75e6eaf0a/tumblr_nckx2663Eq1qhrm3lo1_500.png" alt="" width=250px/></div></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<center>
+
+<div id="permalink">
+<span class="countreblog"><a href="http://zetuslapetusjada.tumblr.com/post/98690881287/aqqindex-robert-bray-and-michael-schaible">516 notes</a></span> <span class="countreblog"> <a href="https://www.tumblr.com/reblog/98690881287/SLgGGG12" target="_blank">reblog</a></span></div>
+<a href="http://zetuslapetusjada.tumblr.com/image/98690881287"><div class="photo"><img src="http://38.media.tumblr.com/3a2596a4506f7309961743631151a3a1/tumblr_mkwpanDqux1rionq1o1_500.jpg" alt="aqqindex:
+
+
+Robert Bray and Michael Schaible, Interior, Circa 1980
+
+" width=250px/></div></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<center>
+
+<div id="permalink">
+<span class="countreblog"><a href="http://zetuslapetusjada.tumblr.com/post/98690775657">215 notes</a></span> <span class="countreblog"> <a href="https://www.tumblr.com/reblog/98690775657/q2LU88OH" target="_blank">reblog</a></span></div>
+<a href="http://zetuslapetusjada.tumblr.com/image/98690775657"><div class="photo"><img src="http://31.media.tumblr.com/27af742afa98e8ac4503d71458b4f4a2/tumblr_n51yh9F8bH1qac70ko1_500.jpg" alt="" width=250px/></div></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+</div> 
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+</div>
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://zetuslapetusjada.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037981&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvemV0dXNsYXBldHVzamFkYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=ACHDENDOEO&K=3dac78a28a5f7b492f44fdee4a2ec8bb5f949e7e745a644087648f8ba8c0bbd1&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037981&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvemV0dXNsYXBldHVzamFkYS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=ACHDENDOEO&K=47af20e9c633d8efacd3d2761b152e908d4436ade7c55780456dd997dea85de3&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037981&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3pldHVzbGFwZXR1c2phZGEudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6Ijc4MTY5MDc5Iiwicm9vdF9wb3N0aWQiOiI5ODY2MjA1MjM4MiIsInBvc3RpZCI6Ijk4NjkxNTY0MTQ3IiwiYmxvZ2lkIjoiODY4NDUzNzIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTYxOTA5ODU2Iiwicm9vdF9wb3N0aWQiOiI5ODY4OTQ4NDIyMCIsInBvc3RpZCI6Ijk4NjkxNDc0MDgyIiwiYmxvZ2lkIjoiODY4NDUzNzIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTk1MDI4NTQ0Iiwicm9vdF9wb3N0aWQiOiI5ODE4MjAwOTczNCIsInBvc3RpZCI6Ijk4NjkxMzUzNjQ3IiwiYmxvZ2lkIjoiODY4NDUzNzIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjU2MzY5MjYiLCJyb290X3Bvc3RpZCI6IjU5MzUxOTUxOTg1IiwicG9zdGlkIjoiOTg2OTEyNjU2NzIiLCJibG9naWQiOiI4Njg0NTM3MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDM0MDM1Iiwicm9vdF9wb3N0aWQiOjMxMTkyODAyMTcyLCJwb3N0aWQiOiI5ODY5MTI0ODE3NyIsImJsb2dpZCI6Ijg2ODQ1MzcyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2MTcxNDczMCIsInJvb3RfcG9zdGlkIjo5ODU3Mzk5OTE5OCwicG9zdGlkIjoiOTg2OTExNzY2NzciLCJibG9naWQiOiI4Njg0NTM3MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDMyNzE5MDIiLCJyb290X3Bvc3RpZCI6Ijk4NTYwMTc0ODAwIiwicG9zdGlkIjoiOTg2OTExNDk1NDciLCJibG9naWQiOiI4Njg0NTM3MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzkyOTc5MCIsInJvb3RfcG9zdGlkIjoiOTg2MDcwNTI5ODkiLCJwb3N0aWQiOiI5ODY5MTA3MzY4NyIsImJsb2dpZCI6Ijg2ODQ1MzcyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc1OTAzNTQxIiwicm9vdF9wb3N0aWQiOiI0NzQwNTMzNTI1NiIsInBvc3RpZCI6Ijk4NjkwODgxMjg3IiwiYmxvZ2lkIjoiODY4NDUzNzIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjY0OTI5NyIsInJvb3RfcG9zdGlkIjoiODQ3MTY4MzM0MzQiLCJwb3N0aWQiOiI5ODY5MDc3NTY1NyIsImJsb2dpZCI6Ijg2ODQ1MzcyIiwic291cmNlIjozM31dfQ==&U=MDCJMGAEFC&K=7b5ea9b6073421c234df2cb782417ef154cc3bd379f08d17c62998b344bbd0cd&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037981&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3pldHVzbGFwZXR1c2phZGEudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6Ijc4MTY5MDc5Iiwicm9vdF9wb3N0aWQiOiI5ODY2MjA1MjM4MiIsInBvc3RpZCI6Ijk4NjkxNTY0MTQ3IiwiYmxvZ2lkIjoiODY4NDUzNzIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTYxOTA5ODU2Iiwicm9vdF9wb3N0aWQiOiI5ODY4OTQ4NDIyMCIsInBvc3RpZCI6Ijk4NjkxNDc0MDgyIiwiYmxvZ2lkIjoiODY4NDUzNzIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTk1MDI4NTQ0Iiwicm9vdF9wb3N0aWQiOiI5ODE4MjAwOTczNCIsInBvc3RpZCI6Ijk4NjkxMzUzNjQ3IiwiYmxvZ2lkIjoiODY4NDUzNzIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjU2MzY5MjYiLCJyb290X3Bvc3RpZCI6IjU5MzUxOTUxOTg1IiwicG9zdGlkIjoiOTg2OTEyNjU2NzIiLCJibG9naWQiOiI4Njg0NTM3MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDM0MDM1Iiwicm9vdF9wb3N0aWQiOjMxMTkyODAyMTcyLCJwb3N0aWQiOiI5ODY5MTI0ODE3NyIsImJsb2dpZCI6Ijg2ODQ1MzcyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2MTcxNDczMCIsInJvb3RfcG9zdGlkIjo5ODU3Mzk5OTE5OCwicG9zdGlkIjoiOTg2OTExNzY2NzciLCJibG9naWQiOiI4Njg0NTM3MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDMyNzE5MDIiLCJyb290X3Bvc3RpZCI6Ijk4NTYwMTc0ODAwIiwicG9zdGlkIjoiOTg2OTExNDk1NDciLCJibG9naWQiOiI4Njg0NTM3MiIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzkyOTc5MCIsInJvb3RfcG9zdGlkIjoiOTg2MDcwNTI5ODkiLCJwb3N0aWQiOiI5ODY5MTA3MzY4NyIsImJsb2dpZCI6Ijg2ODQ1MzcyIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc1OTAzNTQxIiwicm9vdF9wb3N0aWQiOiI0NzQwNTMzNTI1NiIsInBvc3RpZCI6Ijk4NjkwODgxMjg3IiwiYmxvZ2lkIjoiODY4NDUzNzIiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjY0OTI5NyIsInJvb3RfcG9zdGlkIjoiODQ3MTY4MzM0MzQiLCJwb3N0aWQiOiI5ODY5MDc3NTY1NyIsImJsb2dpZCI6Ijg2ODQ1MzcyIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=MDCJMGAEFC&K=36cc91981d746ffb874e713551016e3c2a804ed55e45fc1d21b9022ab55a9a3a&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:86845372,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fzetuslapetusjada.tumblr.com%2F&amp;lang=en_US&amp;name=zetuslapetusjada&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_0e3f459c2085_64.png&amp;title=%26hearts%3B%26hearts%3B%26hearts%3B&amp;url=http%3A%2F%2Fzetuslapetusjada.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fzetuslapetusjada.tumblr.com%2F&amp;lang=en_US&amp;name=zetuslapetusjada&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_0e3f459c2085_64.png&amp;title=%26hearts%3B%26hearts%3B%26hearts%3B&amp;url=http%3A%2F%2Fzetuslapetusjada.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+<!-- SCM Music Player http://scmplayer.net -->
+<script type="text/javascript" src="http://scmplayer.net/script.js" 
+data-config="{'skin':'http://static.tumblr.com/d41lcii/CPRmqwldp/skinflor.css','volume':100,'autoplay':false,'shuffle':false,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'Settle Down ','url':'https://soundcloud.com/the1975/settle-down'},{'title':'Walking On A Dream','url':'http://youtu.be/eimgRedLkkU'},{'title':'Coming Of Age','url':'https://www.youtube.com/watch?v=MBqzrj18S2w'},{'title':'Matchbox','url':'http://youtu.be/DTpk4a3DZLs'},{'title':'If I Could Change Your Mind','url':'http://youtu.be/Ljg6g7BAdQo'},{'title':'Head Over Heels','url':'http://youtu.be/NYx8IHJ9dWE'},{'title':'Gypsy','url':'http://youtu.be/6WZ3na8NGjY'},{'title':'Pressure','url':'https://www.youtube.com/watch?v=-dMFqFX1sVc&feature=kp'},{'title':'Heart Out','url':'http://youtu.be/d32VfZ5Pf0w'},{'title':'Falling','url':'http://youtu.be/AIjVpRAXK18'},{'title':'Electric Feel','url':'https://www.youtube.com/watch?v=MmZexg8sxyk'},{'title':'All Eyes On You','url':'https://www.youtube.com/watch?v=oydbEwgUh_k'},{'title':'I Would Do Anything For You','url':'https://www.youtube.com/watch?v=OOIfNyBmZ0g&feature=kp'},{'title':'Stop The World I Wanna Get Off With You','url':'https://www.youtube.com/watch?v=3PyoxMSEHYI'},{'title':'Human','url':'https://www.youtube.com/watch?v=s1ysoohV_zA'},{'title':'Aint No Rest For The Wicked','url':'https://www.youtube.com/watch?v=wBgp5aDH23g&feature=kp'},{'title':'Loser','url':'https://www.youtube.com/watch?v=YgSPaXgAdzE'},{'title':'Head. Cars. Bending','url':'https://www.youtube.com/watch?v=3p2-sp0LHng&feature=kp'}]}" ></script>
+<!-- SCM Music Player script end -->
+
+
+
+
+
+    
+</div>
+<div style="width:227px;background:white;position:fixed; top:355px; left:90px;z-index:2;border: 1px solid #d8d8d8;"><!-- SCM Music Player http://scmplayer.net --> <script type="text/javascript" src="http://scmplayer.net/script.js"  data-config="{'skin':'http://static.tumblr.com/kpofzpr/KhQm1codr/harry.css','volume':100,'autoplay':false,'shuffle':false,'repeat':1,'placement':'bottom','showplaylist':false,'playlist':[{'title':'//Settle Down//','url':'https://soundcloud.com/the1975/settle-down'},{'title':'//Pressure//','url':'https://soundcloud.com/the1975/pressure'},{'title':'//She Way Out//','url':'https://soundcloud.com/the1975/she-way-out'},{'title':'//Girls//','url':'https://soundcloud.com/the1975/girls'},{'title':'//Heart Out//','url':'https://soundcloud.com/the1975/heart-out'},{'title':'%5C%5CJumper%5C%5C','url':'https://www.youtube.com/watch?v=QdgCajndgNw'},{'title':'%5C%5CWhat%27s My Age Again?%5C%5C','url':'http://www.youtube.com/watch?v=K7l5ZeVVoCA'}]}" ></script> <!-- SCM Music Player script end --></div>
+ 
+</html>
+
+<!-- SCM Music Player script end -->
+
+
+
+
+Please do not remove the theme credit (: 
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>

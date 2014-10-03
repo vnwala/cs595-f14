@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Scrambled Thoughts</title>
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_6358b4ad7f4a_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://kerrrr93.tumblr.com/rss">
+
+<meta name="description" content="My Name is Kerri. I am 20 years old. I go to community college and I have no fucking clue what I am doing with my life or where I will end up....but what&#039;s the point in living life if you know what is..." />
+
+<meta name="image:Background" content="" />
+<meta name="image:Footer" content="" />
+<meta name="color:Background" content="#FFFFFF" />
+<meta name="color:Text" content="#444444" />
+<meta name="color:Footer background" content="#ECEEF5" />
+<meta name="color:Footer text" content="#3B5998" />
+<meta name="text:Post height" content="300px" />
+<meta name="text:Shadow strength" content="2" />
+
+<!-- More fonts here: http://www.google.com/webfonts -->
+<meta name="text:Google webfont name" content="Miniver" />
+<meta name="text:URL to Like" content="" />
+<meta name="text:Twitter username" content="" />
+<meta name="if:Repeat background" content="1" />
+<meta name="if:Center background" content="0" />
+<meta name="if:Stretch background" content="0" />
+<meta name="if:Infinite scroll" content="1" />
+<meta name="if:Scroll hidden text" content="0" />
+<meta name="if:Show RSS link" content="1" />
+<meta name="if:Show archive link" content="1" />
+<meta name="if:Show Facebook Like button" content="0" />
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/m9ln1jy/KyNn0wyn6/theme.js"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Miniver' rel='stylesheet' type='text/css'>
+<style type="text/css">
+	html, body {
+		width: 100%;
+		height: 100%;
+	}
+	body {
+		margin: 0px;
+		
+		
+		
+		
+		
+		background-color: #7ac7a4;
+		
+		font-family: 'Helvetica neue', Helvetia, Arial, sans-serif;
+		line-height: 1.5;
+		color: #444444;
+	}
+		p, li, blockquote, code, pre, td {
+			font-size: 12px;
+		}
+		blockquote {
+			margin: 10px 0px;
+			padding: 0px 10px;
+			
+			border-left: 1px solid;
+		}
+		h1 {
+			font-family: 'Miniver';
+			
+			margin: 0px;
+		}
+		a {
+			color: inherit;
+		}
+		img {
+			border: 0px;
+		}
+		.posts {			
+			position: relative;
+			
+			text-align: center;
+			
+			margin: 20px;
+		}
+			article {
+				height: 300px;
+				
+				display: inline-block;
+				
+				position: relative;
+				
+				margin: 5px;
+				
+				text-align: left;
+				
+				vertical-align: middle;
+			}
+				article .controls {
+					position: absolute;
+					top: 10px;
+					right: 10px;
+					
+					display: none;
+				}
+				article:hover .controls {
+					display: block;
+				}
+					article .controls .item {
+						float: right;
+						
+						position: relative;
+					}
+					article .controls .like {
+						background-image: url('http://static.tumblr.com/jw8fmba/JQllum7dg/like.png');
+						
+						width: 21px;
+						height: 20px;
+						
+						margin-left: 5px;
+					}
+					article .controls .reblog {
+						background-image: url('http://static.tumblr.com/jw8fmba/bPzlum7er/reblog.png');
+						
+						width: 24px;
+						height: 20px;
+					}
+					article .controls .note_count {
+						background-image: url('http://static.tumblr.com/jw8fmba/Iosm7ri3a/note_count_middle.png');
+						
+						height: 16px;
+						
+						color: #FFF;
+						font-weight: bold;
+						font-size: 11px;
+						
+						padding: 2px 5px;
+						margin-left: 7px;
+					}
+					article .controls .note_count:before {
+						content: '';
+						
+						background-image: url('http://static.tumblr.com/jw8fmba/dIim7ri67/note_count_left.png');
+						
+						height: 20px;
+						width: 5px;
+						
+						position: absolute;
+						top: 0px;
+						left: -5px;
+					}
+					article .controls .note_count:after {
+						content: '';
+						
+						background-image: url('http://static.tumblr.com/jw8fmba/gtqm7ri8i/note_count_right.png');
+						
+						height: 20px;
+						width: 2px;
+						
+						position: absolute;
+						top: 0px;
+						right: -2px;
+					}
+				article img {
+					height: 100%;
+					width: auto;
+					
+					float: left;
+				}
+				.audio_embed, .photo_set {					
+					overflow-y: scroll;
+				}
+				.video iframe {
+					height: 100%;
+					width: auto;
+				}
+				.text, .quote, .chat, .link, .answer {
+					max-width: 300px;
+					
+					overflow-y: hidden;
+				}
+				article .chat_table {
+					border-top: 1px solid #444444;
+					border-left: 1px solid #444444;
+				}
+					article .chat_table td {
+						border-bottom: 1px solid #444444;
+						border-right: 1px solid #444444;
+					}
+				.audio_player {
+					width: 100%;
+					height: 27px;
+					
+					position: absolute;
+					left: 0px;
+					bottom: 0px;
+					
+					background-color: #000;
+					
+					opacity: 0.75;
+				}
+		.pagination {
+			width: 100%;
+			
+			text-align: center;
+		}
+			.pagination h1 {
+				display: inline-block;
+				
+				margin: 5px;
+			}
+		.notes {
+			list-style: none;
+			
+			width: 500px;
+			
+			margin: 40px auto;
+		}
+			.notes li {
+				padding: 10px 0px;
+				
+				text-align: left;
+			}
+		footer {
+			width: 100%;
+			
+			position: fixed;
+			bottom: 0px;
+			left: 0px;
+			
+			background-color: #ECEEF5;
+			
+			color: #3B5998;
+			
+			box-shadow: 0px -1px 10px rgba(0,0,0,0.2);
+		}
+			footer ul {
+				width: 100%;
+				
+				text-align: center;
+				
+				list-style: none;
+				
+				padding: 0px;
+				margin: 0px;
+			}
+				footer ul a {
+					text-decoration: none;
+				}
+					footer ul li {
+						padding: 10px;
+						margin: 0px;
+						
+						display: inline-block;
+						
+						vertical-align: middle;
+						
+						font-size: 12px;
+						line-height: 1;
+					}
+					footer ul .title {
+						font-size: 18px;
+						font-family: 'Miniver';
+					}
+						footer ul .title img {
+							max-height: 30px;
+						}
+	
+</style>
+
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=kerrrr93" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Scrambled Thoughts" /><meta property="og:url" content="http://kerrrr93.tumblr.com/?og=1" /><meta property="og:description" content="My Name is Kerri. I am 20 years old. I go to community college and I have no fucking clue what I am..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_6358b4ad7f4a_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=kerrrr93" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=kerrrr93" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="kerrrr93" /><meta name="twitter:description" content="My Name is Kerri. I am 20 years old. I go to community college and I have no fucking clue what I am doing with my life or where I will end up....but what&#039;s the point in living life if you know what is happening next? 
+" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=kerrrr93&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=kerrrr93&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=kerrrr93&amp;referrer=twitter-cards" />
+
+</head>
+
+<body class="kerrrr93" data-theme-network="level82" data-theme-id="35990" onload="var image1 = new Image(); image1.src = 'http://assets.tumblr.com/images/iframe_like_active_alpha.png'">
+    <div class="posts">
+        <article class="photo">
+        	<div class="controls">
+                <a href="http://kerrrr93.tumblr.com/post/98514768398"><div class="note_count item" id="note_count_98514768398">228</div></a>
+                <a class="like item" onclick="LikePost('98514768398','https://www.tumblr.com/reblog/98514768398/52wwlJt2',this); $(this).css('background-image', 'url(http://assets.tumblr.com/images/iframe_like_active_alpha.png)')"></a>
+                <a href="https://www.tumblr.com/reblog/98514768398/52wwlJt2?redirect_to=http%3A%2F%2Fkerrrr93.tumblr.com%2Fpage%2F1" class="reblog item" target="_blank"></a>
+            </div>
+            <a href="http://kerrrr93.tumblr.com/post/98514768398"><img src="http://33.media.tumblr.com/f736980d2524e27de333ab1de10e860e/tumblr_ncdcje1f1j1skfi9fo1_500.jpg" alt="" /></a>
+        </article><article class="photo">
+        	<div class="controls">
+                <a href="http://kerrrr93.tumblr.com/post/98514745933"><div class="note_count item" id="note_count_98514745933">184223</div></a>
+                <a class="like item" onclick="LikePost('98514745933','https://www.tumblr.com/reblog/98514745933/Ltg0xh1c',this); $(this).css('background-image', 'url(http://assets.tumblr.com/images/iframe_like_active_alpha.png)')"></a>
+                <a href="https://www.tumblr.com/reblog/98514745933/Ltg0xh1c?redirect_to=http%3A%2F%2Fkerrrr93.tumblr.com%2Fpage%2F1" class="reblog item" target="_blank"></a>
+            </div>
+            <a href="http://kerrrr93.tumblr.com/post/98514745933"><img src="http://38.media.tumblr.com/5af9b8f1f99659fd562cb79312f054aa/tumblr_n9g62f0cKi1snotbzo1_500.jpg" alt="" /></a>
+        </article><article class="photo">
+        	<div class="controls">
+                <a href="http://kerrrr93.tumblr.com/post/98514733933/ginger-haze-more-hippie-nature-spiritual-post"><div class="note_count item" id="note_count_98514733933">207795</div></a>
+                <a class="like item" onclick="LikePost('98514733933','https://www.tumblr.com/reblog/98514733933/XYKMXJC5',this); $(this).css('background-image', 'url(http://assets.tumblr.com/images/iframe_like_active_alpha.png)')"></a>
+                <a href="https://www.tumblr.com/reblog/98514733933/XYKMXJC5?redirect_to=http%3A%2F%2Fkerrrr93.tumblr.com%2Fpage%2F1" class="reblog item" target="_blank"></a>
+            </div>
+            <a href="http://kerrrr93.tumblr.com/post/98514733933/ginger-haze-more-hippie-nature-spiritual-post"><img src="http://38.media.tumblr.com/19a49767d9d780561d74e71268afa820/tumblr_mpjvx9xnc11r9uagzo1_500.jpg" alt="ginger-haze:
+
+✿ more hippie/nature/spiritual post here ❀
+" /></a>
+        </article><article class="photo">
+        	<div class="controls">
+                <a href="http://kerrrr93.tumblr.com/post/98514629643"><div class="note_count item" id="note_count_98514629643">105799</div></a>
+                <a class="like item" onclick="LikePost('98514629643','https://www.tumblr.com/reblog/98514629643/MAGnq6aB',this); $(this).css('background-image', 'url(http://assets.tumblr.com/images/iframe_like_active_alpha.png)')"></a>
+                <a href="https://www.tumblr.com/reblog/98514629643/MAGnq6aB?redirect_to=http%3A%2F%2Fkerrrr93.tumblr.com%2Fpage%2F1" class="reblog item" target="_blank"></a>
+            </div>
+            <a href="http://kerrrr93.tumblr.com/post/98514629643"><img src="http://38.media.tumblr.com/523d919546553d30fd9ce913ce91aa3c/tumblr_nbk2k4uqW41qhrw7bo1_500.jpg" alt="" /></a>
+        </article><article class="photo">
+        	<div class="controls">
+                <a href="http://kerrrr93.tumblr.com/post/98514549923"><div class="note_count item" id="note_count_98514549923">45057</div></a>
+                <a class="like item" onclick="LikePost('98514549923','https://www.tumblr.com/reblog/98514549923/wzp3DSqs',this); $(this).css('background-image', 'url(http://assets.tumblr.com/images/iframe_like_active_alpha.png)')"></a>
+                <a href="https://www.tumblr.com/reblog/98514549923/wzp3DSqs?redirect_to=http%3A%2F%2Fkerrrr93.tumblr.com%2Fpage%2F1" class="reblog item" target="_blank"></a>
+            </div>
+            <a href="http://kerrrr93.tumblr.com/post/98514549923"><img src="http://38.media.tumblr.com/df1b6e29c102930b63038813aacc54f8/tumblr_n3815951si1rhdmjqo1_500.jpg" alt="" /></a>
+        </article><article class="photo">
+        	<div class="controls">
+                <a href="http://kerrrr93.tumblr.com/post/98514493838"><div class="note_count item" id="note_count_98514493838">555</div></a>
+                <a class="like item" onclick="LikePost('98514493838','https://www.tumblr.com/reblog/98514493838/Km4j2tBi',this); $(this).css('background-image', 'url(http://assets.tumblr.com/images/iframe_like_active_alpha.png)')"></a>
+                <a href="https://www.tumblr.com/reblog/98514493838/Km4j2tBi?redirect_to=http%3A%2F%2Fkerrrr93.tumblr.com%2Fpage%2F1" class="reblog item" target="_blank"></a>
+            </div>
+            <a href="http://kerrrr93.tumblr.com/post/98514493838"><img src="http://38.media.tumblr.com/99d08ee50ddf3672009f51af9aa5acea/tumblr_msh9jiP3su1s8v8joo1_500.jpg" alt="" /></a>
+        </article><article class="photo">
+        	<div class="controls">
+                <a href="http://kerrrr93.tumblr.com/post/98514473538"><div class="note_count item" id="note_count_98514473538">11477</div></a>
+                <a class="like item" onclick="LikePost('98514473538','https://www.tumblr.com/reblog/98514473538/tBasqbxk',this); $(this).css('background-image', 'url(http://assets.tumblr.com/images/iframe_like_active_alpha.png)')"></a>
+                <a href="https://www.tumblr.com/reblog/98514473538/tBasqbxk?redirect_to=http%3A%2F%2Fkerrrr93.tumblr.com%2Fpage%2F1" class="reblog item" target="_blank"></a>
+            </div>
+            <a href="http://kerrrr93.tumblr.com/post/98514473538"><img src="http://38.media.tumblr.com/9eed9b6f98442027caa85ab221ea83c3/tumblr_nae465KUl71sfaftvo1_500.jpg" alt="" /></a>
+        </article><article class="photo">
+        	<div class="controls">
+                <a href="http://kerrrr93.tumblr.com/post/98514348068"><div class="note_count item" id="note_count_98514348068">5554</div></a>
+                <a class="like item" onclick="LikePost('98514348068','https://www.tumblr.com/reblog/98514348068/r6qv1IA6',this); $(this).css('background-image', 'url(http://assets.tumblr.com/images/iframe_like_active_alpha.png)')"></a>
+                <a href="https://www.tumblr.com/reblog/98514348068/r6qv1IA6?redirect_to=http%3A%2F%2Fkerrrr93.tumblr.com%2Fpage%2F1" class="reblog item" target="_blank"></a>
+            </div>
+            <a href="http://kerrrr93.tumblr.com/post/98514348068"><img src="http://31.media.tumblr.com/67e01e0b93906517895a18c100cebdc8/tumblr_nalrv9ZmWd1rrjug1o1_500.png" alt="" /></a>
+        </article><article class="photo">
+        	<div class="controls">
+                <a href="http://kerrrr93.tumblr.com/post/98514205513"><div class="note_count item" id="note_count_98514205513">1773516</div></a>
+                <a class="like item" onclick="LikePost('98514205513','https://www.tumblr.com/reblog/98514205513/3S5Bcjcz',this); $(this).css('background-image', 'url(http://assets.tumblr.com/images/iframe_like_active_alpha.png)')"></a>
+                <a href="https://www.tumblr.com/reblog/98514205513/3S5Bcjcz?redirect_to=http%3A%2F%2Fkerrrr93.tumblr.com%2Fpage%2F1" class="reblog item" target="_blank"></a>
+            </div>
+            <a href="http://kerrrr93.tumblr.com/post/98514205513"><img src="http://38.media.tumblr.com/f6f4eee6d543d126ec72b674c223be3b/tumblr_mgc4c0xlo71rlylblo1_400.gif" alt="" /></a>
+        </article><article class="photo">
+        	<div class="controls">
+                <a href="http://kerrrr93.tumblr.com/post/98514051108"><div class="note_count item" id="note_count_98514051108">8523</div></a>
+                <a class="like item" onclick="LikePost('98514051108','https://www.tumblr.com/reblog/98514051108/ZUGZZ11L',this); $(this).css('background-image', 'url(http://assets.tumblr.com/images/iframe_like_active_alpha.png)')"></a>
+                <a href="https://www.tumblr.com/reblog/98514051108/ZUGZZ11L?redirect_to=http%3A%2F%2Fkerrrr93.tumblr.com%2Fpage%2F1" class="reblog item" target="_blank"></a>
+            </div>
+            <a href="http://kerrrr93.tumblr.com/post/98514051108"><img src="http://38.media.tumblr.com/984910d8a6c29636bb5ccffeae8845d5/tumblr_n9bqudtRHT1ti4b2uo1_500.jpg" alt="" /></a>
+        </article>
+        
+        
+    
+        <div class="pagination" style="display: none">
+            
+            <h1><a href="/page/2" class="next_page">Next &#8594;</a></h1>
+        </div>
+    </div>
+    
+    <footer>
+    	<ul>
+        	<a href="/" title="Scrambled Thoughts"><li class="title">Scrambled Thoughts</li></a>
+        	<a href="/ask"><li>Ask me anything</li></a>
+            
+            <a href="http://kerrrr93.tumblr.com/rss"><li>RSS</li></a>
+            <a href="/archive"><li>Archive</li></a>
+            
+            
+            
+        </ul>
+    </footer>
+    
+	<script type="text/javascript">
+		$(document).ready(function() {
+            var footerHeight = $('footer').height();
+			$('.posts').css('margin-bottom', footerHeight);
+        });
+		function LikePost(sPostID,sReblogID,obj)
+{
+			sReblogID = sReblogID.replace("http://","");
+			var sArray = sReblogID.split("/");
+			document.getElementById("likes_frame").setAttribute("src","http://www.tumblr.com/like/" + sArray[3] + "?id=" + sPostID);
+			document.getElementById("note_count_" + sPostID).innerHTML = parseInt(document.getElementById("note_count_" + sPostID).innerHTML) + 1;
+			
+		}
+		$('.posts').infinitescroll({
+			navSelector: '.pagination',
+			nextSelector: '.next_page',
+			itemSelector: 'article',
+			loading: {
+				img: 'http://static.tumblr.com/jw8fmba/yGMlx5zw8/transparent.gif',
+				msgText : '',
+				donetext: ''
+			}
+		});
+	</script>
+    
+    <iframe id="likes_frame" width="0" height="0" frameborder="0"></iframe>
+    
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://kerrrr93.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037503&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wva2VycnJyOTMudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=JLANPIFBDC&K=41669a4b363234857752acbd763a36ba2ea0daee3cbaee9cbdc5d782f04bf0bf&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037503&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wva2VycnJyOTMudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=JLANPIFBDC&K=c5531c6d9368718144f50fc5f8c8f27b45b5713b6b8148a9c834218ba3b2352a&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037503&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2tlcnJycjkzLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxNDA1NDkyMDAiLCJyb290X3Bvc3RpZCI6Ijk4MjQ1MDgxNTc1IiwicG9zdGlkIjoiOTg1MTQ3NjgzOTgiLCJibG9naWQiOiI4Mjg4NTU4NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDExMDU5NzQiLCJyb290X3Bvc3RpZCI6IjkzMTU4ODY2MjcyIiwicG9zdGlkIjoiOTg1MTQ3NDU5MzMiLCJibG9naWQiOiI4Mjg4NTU4NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzOTI0OTM3MCIsInJvb3RfcG9zdGlkIjo1NDgwODUyOTE5NywicG9zdGlkIjoiOTg1MTQ3MzM5MzMiLCJibG9naWQiOiI4Mjg4NTU4NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzkwOTE4OCIsInJvb3RfcG9zdGlkIjoiOTY5MjQ3MjM3OTgiLCJwb3N0aWQiOiI5ODUxNDYyOTY0MyIsImJsb2dpZCI6IjgyODg1NTg3Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc0OTU2ODYxIiwicm9vdF9wb3N0aWQiOiI4MTEyMjI3NzAxOSIsInBvc3RpZCI6Ijk4NTE0NTQ5OTIzIiwiYmxvZ2lkIjoiODI4ODU1ODciLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTgwNjMyNDMiLCJyb290X3Bvc3RpZCI6NjAyNjQ4OTI2MDYsInBvc3RpZCI6Ijk4NTE0NDkzODM4IiwiYmxvZ2lkIjoiODI4ODU1ODciLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTMxOTE0MTk0Iiwicm9vdF9wb3N0aWQiOiI5NDk1NTQ3NTE3NSIsInBvc3RpZCI6Ijk4NTE0NDczNTM4IiwiYmxvZ2lkIjoiODI4ODU1ODciLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDgzMzk0OTMiLCJyb290X3Bvc3RpZCI6Ijk1Mjc0MTQxNTE5IiwicG9zdGlkIjoiOTg1MTQzNDgwNjgiLCJibG9naWQiOiI4Mjg4NTU4NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4MTQ0MDQ4MiIsInJvb3RfcG9zdGlkIjoiNDAwNTYzODc1MDMiLCJwb3N0aWQiOiI5ODUxNDIwNTUxMyIsImJsb2dpZCI6IjgyODg1NTg3Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5NjUyNzA2NSIsInJvb3RfcG9zdGlkIjoiOTI5Mjk1MTU0MTYiLCJwb3N0aWQiOiI5ODUxNDA1MTEwOCIsImJsb2dpZCI6IjgyODg1NTg3Iiwic291cmNlIjozM31dfQ==&U=JJIGLALOKH&K=d050df95d1b55e7ddd7b3c52325684fba5d5395ed79e3b52712f1944b3897b3c&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037503&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2tlcnJycjkzLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIxNDA1NDkyMDAiLCJyb290X3Bvc3RpZCI6Ijk4MjQ1MDgxNTc1IiwicG9zdGlkIjoiOTg1MTQ3NjgzOTgiLCJibG9naWQiOiI4Mjg4NTU4NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDExMDU5NzQiLCJyb290X3Bvc3RpZCI6IjkzMTU4ODY2MjcyIiwicG9zdGlkIjoiOTg1MTQ3NDU5MzMiLCJibG9naWQiOiI4Mjg4NTU4NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzOTI0OTM3MCIsInJvb3RfcG9zdGlkIjo1NDgwODUyOTE5NywicG9zdGlkIjoiOTg1MTQ3MzM5MzMiLCJibG9naWQiOiI4Mjg4NTU4NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMzkwOTE4OCIsInJvb3RfcG9zdGlkIjoiOTY5MjQ3MjM3OTgiLCJwb3N0aWQiOiI5ODUxNDYyOTY0MyIsImJsb2dpZCI6IjgyODg1NTg3Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc0OTU2ODYxIiwicm9vdF9wb3N0aWQiOiI4MTEyMjI3NzAxOSIsInBvc3RpZCI6Ijk4NTE0NTQ5OTIzIiwiYmxvZ2lkIjoiODI4ODU1ODciLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiOTgwNjMyNDMiLCJyb290X3Bvc3RpZCI6NjAyNjQ4OTI2MDYsInBvc3RpZCI6Ijk4NTE0NDkzODM4IiwiYmxvZ2lkIjoiODI4ODU1ODciLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTMxOTE0MTk0Iiwicm9vdF9wb3N0aWQiOiI5NDk1NTQ3NTE3NSIsInBvc3RpZCI6Ijk4NTE0NDczNTM4IiwiYmxvZ2lkIjoiODI4ODU1ODciLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDgzMzk0OTMiLCJyb290X3Bvc3RpZCI6Ijk1Mjc0MTQxNTE5IiwicG9zdGlkIjoiOTg1MTQzNDgwNjgiLCJibG9naWQiOiI4Mjg4NTU4NyIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4MTQ0MDQ4MiIsInJvb3RfcG9zdGlkIjoiNDAwNTYzODc1MDMiLCJwb3N0aWQiOiI5ODUxNDIwNTUxMyIsImJsb2dpZCI6IjgyODg1NTg3Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE5NjUyNzA2NSIsInJvb3RfcG9zdGlkIjoiOTI5Mjk1MTU0MTYiLCJwb3N0aWQiOiI5ODUxNDA1MTEwOCIsImJsb2dpZCI6IjgyODg1NTg3Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=JJIGLALOKH&K=d575b11f308c0e98ecf0417b317a134d76b9019d93aed3247825afde2878fdd5&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:82885587,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fkerrrr93.tumblr.com%2F&amp;lang=en_US&amp;name=kerrrr93&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_6358b4ad7f4a_64.png&amp;title=Scrambled+Thoughts&amp;url=http%3A%2F%2Fkerrrr93.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fkerrrr93.tumblr.com%2F&amp;lang=en_US&amp;name=kerrrr93&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_6358b4ad7f4a_64.png&amp;title=Scrambled+Thoughts&amp;url=http%3A%2F%2Fkerrrr93.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en" xml:lang="en" xmlns='http://www.w3.org/1999/xhtml' xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" >
+    <head id="ctl00_Header" prefix="og:http://ogp.me/ns# fb:http://ogp.me/ns/fb# website:http://ogp.me/ns/website#">
+<script type="text/javascript">//<![CDATA[
+var Guid=Guid||(function(){var b="00000000-0000-0000-0000-000000000000";var a=function(){var c=new Date().getTime();return"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,function(e){var d=(c+Math.random()*16)%16|0;c=Math.floor(c/16);return(e==="x"?d:(d&7|8)).toString(16)})};return{empty:b,pageGuid:a(),newGuid:a}})();function mpGC(c,b){var a=(document.cookie+";").match(new RegExp(c+"=.*;"));if(!a){return a}a=a[0].split(/=|;/)[1];if(b){a=(decodeURIComponent(a)+"&").match(new RegExp(b+"=.*&"));return a&&a[0].split(/=|&/)[1]}return a}!document.addEventListener||document.addEventListener("click",function(c){var b=c.target;while(b!=null&&b.nodeName!=="A"){b=b.parentNode}if(b==null||!b.hostname||b.hostname.toLowerCase().indexOf("maxpreps.com")!=-1||c.defaultPrevented){return}_gaq.push(["_trackEvent","Off-Site-Navigation",b.hostname,b.href,null,false])});
+//]]>
+</script>
+
+<!-- Ontology = {"brandId":"64"
+, "siteId":"189"
+, "siteName":"Desktop"
+, "pageType":"2000"
+, "pageTypeName":"FrontPage"
+, "fullOntologyIds":"1:"
+, "fullOntologyNames":"HOME:"
+};
+ -->
+
+<script type="text/javascript">//<![CDATA[
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+var dfpAdSlots = dfpAdSlots || [];
+(function(d, s, l) {
+var ph = d.getElementsByTagName(s)[0];
+s = d.createElement(s);
+s.type = 'text/javascript';
+s.async = true;
+s.src = l;
+ph.parentNode.insertBefore(s, ph);
+})(document, 'script', '//www.googletagservices.com/tag/js/gpt.js');
+
+(function()
+{
+var googletag = window.googletag;
+var dfpAdSlots = window.dfpAdSlots;
+googletag.cmd.push(function()
+{
+
+window.queryStringParams = queryStringParams = {};
+window.location.href.replace(
+	new RegExp('([^?=&]+)(=([^&#]*))?', 'g'),
+	function($0, $1, $2, $3) { queryStringParams[$1] = $3; }
+);
+if(queryStringParams.adserverid)
+{
+	sessionStorage.setItem('adServerId', queryStringParams.adserverid);
+}
+var adServerId = null;
+if(window.sessionStorage) adServerId = sessionStorage.getItem('adServerId');
+
+dfpAdSlots.push({id:"ad_177", css:"takeover", server:"8264", site:"aw-maxpreps", adUnits:"home", sizes:[[970,66],[728,90],[970,90],[970,250]], usesPS:true, usesCS:false, position:"top", dfpAd:googletag.defineSlot('/' + (adServerId || '8264') + '/aw-maxpreps/home', [[970,66],[728,90],[970,90],[970,250]], "ad_177").addService(googletag.pubads()).setTargeting('pos', "top")}); // "Takeover"
+dfpAdSlots.push({id:"ad_179", css:"marquee", server:"8264", site:"aw-maxpreps", adUnits:"home", sizes:[[234,60]], usesPS:true, usesCS:false, position:"top", dfpAd:googletag.defineSlot('/' + (adServerId || '8264') + '/aw-maxpreps/home', [[234,60]], "ad_179").addService(googletag.pubads()).setTargeting('pos', "top")}); // "Marquee"
+dfpAdSlots.push({id:"ad_180", css:"marquee", server:"8264", site:"aw-maxpreps", adUnits:"home", sizes:[[234,60]], usesPS:true, usesCS:false, position:"middle", dfpAd:googletag.defineSlot('/' + (adServerId || '8264') + '/aw-maxpreps/home', [[234,60]], "ad_180").addService(googletag.pubads()).setTargeting('pos', "middle")}); // "Marquee"
+dfpAdSlots.push({id:"ad_181", css:"marquee", server:"8264", site:"aw-maxpreps", adUnits:"home", sizes:[[234,60]], usesPS:true, usesCS:false, position:"bottom", dfpAd:googletag.defineSlot('/' + (adServerId || '8264') + '/aw-maxpreps/home', [[234,60]], "ad_181").addService(googletag.pubads()).setTargeting('pos', "bottom")}); // "Marquee"
+dfpAdSlots.push({id:"skin_ad_call", css:"site-skin", server:"8264", site:"aw-maxpreps", adUnits:"home", sizes:[[1600,1000]], usesPS:true, usesCS:false, position:"top", dfpAd:googletag.defineSlot('/' + (adServerId || '8264') + '/aw-maxpreps/home', [[1600,1000]], "skin_ad_call").addService(googletag.pubads()).setTargeting('pos', "top")}); // "Site Skin"
+dfpAdSlots.push({id:"ad_178", css:"mpu", server:"8264", site:"aw-maxpreps", adUnits:"home", sizes:[[300,250]], usesPS:true, usesCS:false, position:"top", dfpAd:googletag.defineSlot('/' + (adServerId || '8264') + '/aw-maxpreps/home', [[300,250]], "ad_178").addService(googletag.pubads()).setTargeting('pos', "top")}); // "MPU"
+dfpAdSlots.push({id:"ad_185", css:"video-companion", server:"8264", site:"vaw-maxpreps", adUnits:"home", sizes:[[300,60]], usesPS:false, usesCS:true, dfpAd:googletag.defineSlot('/' + (adServerId || '8264') + '/vaw-maxpreps/home', [[300,60]], "ad_185").addService(googletag.companionAds())}); // "Video Companion"
+
+googletag.pubads().setTargeting("ptype", "frontpage");
+googletag.pubads().setTargeting("env", "prod");
+googletag.pubads().setTargeting("vguid", Guid.pageGuid);
+
+googletag.pubads().enableSingleRequest();
+googletag.pubads().collapseEmptyDivs();
+googletag.pubads().enableVideoAds();
+googletag.pubads().addEventListener('slotRenderEnded', 
+function(e)
+{
+	if(!e.isEmpty
+		&& e.slot.getTargeting("pos")[0] === "top"
+		&& e.size != null
+		&& (e.size[0] === 728 || e.size[0] === 970)
+		&& e.slot.b && e.slot.b.d && document.getElementById(e.slot.b.d))
+	{
+		document.getElementById(e.slot.b.d).style.cssText += 'padding-top:10px;';
+	}
+});
+googletag.enableServices();
+});
+})();
+var adGlobals = {"server":"8264","site":"aw-maxpreps","adUnits":"home"};
+//]]>
+</script>
+<script type="text/javascript">//<![CDATA[
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-30954-1']);
+_gaq.push(['_setDomainName', 'maxpreps.com']);
+var _gaqPagviewUrl = _gaqPagviewUrl || "/national/home.aspx?signedin=0"
+_gaq.push(['_trackPageview', _gaqPagviewUrl]);
+(function(d, s, l) {
+var ph = d.getElementsByTagName(s)[0];
+s = d.createElement(s);
+s.type = 'text/javascript';
+s.async = true;
+s.src = l;
+ph.parentNode.insertBefore(s, ph);
+})(document, 'script', '//stats.g.doubleclick.net/dc.js');
+//]]>
+</script>
+
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta name="description" content="MaxPreps is America&#39;s source for high school sports. Find rankings, stat leaderboards, schedules and scores of your high school teams and players. Sports coverage includes Football, Basketball, and many more High School sports." /><title>
+	High School Sports - MaxPreps
+</title>
+        
+        
+        <!--[if lt IE 9]>
+			<script src="http://www-content-v3.maxpreps.com.edgesuite.net/includes/js/html5shiv.js"></script>
+        <![endif]-->
+
+		<link rel="icon" sizes="57x57 72x72 114x114 144x144" href="http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/icons/maxpreps-icon-57x57.png" /><link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/icons/maxpreps-icon-57x57.png" /><link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/icons/maxpreps-icon-72x72.png" /><link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/icons/maxpreps-icon-114x114.png" /><link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/icons/maxpreps-icon-144x144.png" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><link href="http://maxpreps.cbsistatic.com/includes/css/core.compressed.20140922.css" rel="stylesheet" type="text/css" /><meta name="robots" content="noodp,noydir" /><link href="http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /><link rel="canonical" href="http://www.maxpreps.com/national/national.htm" /><link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.maxpreps.com/m/default.aspx" />
+    <style type="text/css">   
+       
+        
+        /* Ad stuff */
+        .marquee234
+        {
+            margin:0 auto;
+        }       
+        
+        
+        .editorial-feature
+        {
+	        position:relative;
+	        float:left;
+	        margin:0 0 2em 0;
+	        border:#e9e9e9 solid 1px;
+	        border-style:solid solid none;
+	        width:488px;
+			box-shadow: 0 9px 7px -7px rgba(0, 0, 0, 0.75);
+			
+			background:#000;
+			min-height:300px;                	        
+        }
+        .editorial-feature img
+        {
+            width:100%;
+	        display:block;
+	        
+        }
+        .editorial-feature div
+        {       
+            /* caption background */
+			background: #333333;
+			background: rgba(0, 0, 0, 0.75);
+            color:#fff;
+            position:absolute;
+            left:0;
+            bottom:0;
+            padding: 5px 10px;
+        }
+        .editorial-feature h2
+        {
+            font-family:Verdana,Helvetica,Arial,Sans-Serif;
+            position:relative;
+            color:#fff;
+            margin:0;
+            padding:0;
+            border:none;
+        }
+        .editorial-feature a
+        {
+	        color:#669DD6;
+            font-weight:bold;
+	        border-bottom:none #ccc 1px;
+        }
+        .editorial-feature a:hover
+        {
+	        color:#96c3e9;        
+	        border-bottom-style:solid;
+	        text-decoration:none;
+        }
+        
+        .editorial-feature p
+        {
+            position:relative;
+            margin:0 0 .5em 0;
+            font-family:Verdana,Helvetica,Arial,Sans-Serif;
+            font-size:90%;
+        }
+        
+        .editorial-feature cite
+        {
+			color:#808080;
+			display:block;
+			font-size: 10px;
+			line-height: 8px;
+			text-align: right;
+        }
+        
+        .editorial-feature .related
+        { 
+	        margin:0 0 6px 0;
+	        font-weight:bold;
+            padding:0 0 0 14px;
+            
+            /* arrow icon */
+            background:url(http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/site_themes/default_sprite.20111219.png) no-repeat 4px -48px;
+        }
+        
+        
+
+        .promo-tabs 
+        { 
+            margin:2em 0 0 0; 
+            width:642px; 
+            overflow:hidden;
+        }
+        .promo-tabs .content
+        {
+            text-align:center;
+            background:#f9f9f9;
+            border:1px solid #e9e9e9;  
+            border-style:none solid solid;  
+			border-radius:0 0 4px 4px;
+        }
+        .promo-tabs .content div
+        {
+            margin:0 auto 3px;
+        }        
+        .promo-tabs .content a
+        {
+            display:block;
+            margin:3px auto;
+        }
+        .promo-tabs .content img 
+        {
+            width:100%;
+            height:350px;
+            margin-bottom:3px;
+        } 
+        .promo-tabs ul
+        {
+			border-radius:4px 4px 0 0;
+			border:solid 1px #e8e8e8;
+			background-color: #f9f9f9;
+			background-image: -webkit-linear-gradient(top,white,#f7f7f7);
+			background-image: -moz-linear-gradient(top,white,#f7f7f7);
+			background-image: -ms-linear-gradient(top,white,#f7f7f7);
+			background-image: -o-linear-gradient(top,white,#f7f7f7);
+			background-image: linear-gradient(top,white,#f7f7f7);
+        }        
+        .promo-tabs li
+        {
+            float:left;
+            margin:0 1px 0 0;
+            padding:0 1px 0 0;
+        }
+        .promo-tabs .first
+        {
+            margin:0 0 0 .5em;
+        }
+        .promo-tabs li a
+        {
+			background:#fff;
+            border-radius:3px;
+            display:block;
+            margin:0.25em 0;
+            padding:4px 6px;
+            text-decoration:none;
+            font-weight:bold;
+			-webkit-transition: background-color .2s ease-out,color .2s ease-out,box-shadow .2s ease-out;
+			-moz-transition: background-color .2s ease-out,color .2s ease-out,box-shadow .2s ease-out;
+			-ms-transition: background-color .2s ease-out,color .2s ease-out,box-shadow .2s ease-out;
+			-o-transition: background-color .2s ease-out,color .2s ease-out,box-shadow .2s ease-out;
+			transition: background-color .2s ease-out,color .2s ease-out,box-shadow .2s ease-out;            
+        }
+        .promo-tabs li a:hover,
+        .promo-tabs .selected a
+        {
+			background:#3778B4;
+			box-shadow: 0 9px 7px -7px rgba(0, 0, 0, 0.5);
+            color: #FFFFFF;
+            border-radius:3px;
+        }
+        
+        
+        .headline-articles
+        {
+            clear:both;
+        }
+        .headline-articles > .header > a
+        {
+			float:right;
+            font-size:1em;
+            padding:5px 10px 0 0;
+            color:white;
+        }
+        .headline-articles > ul
+        {  
+            background:#f9f9f9;
+	        border:1px solid #e9e9e9;
+	        padding:5px 0;
+			border-radius:4px;
+        }
+        .headline-articles li.first
+        {
+			margin-left:.9%;
+        }
+        .headline-articles li
+        {
+            float:left;
+            margin:0 1% 0 0;
+            width:18.8%;
+        }
+        .headline-articles li > a
+        {
+			display:block;
+			
+            height:156px;
+            padding:5px;
+            border:1px solid #fff;
+            
+            overflow:hidden;
+            
+            background:#fff;
+        }
+        .headline-articles li > a:hover
+        {
+	        border:1px solid #e9e9e9;
+			box-shadow: 0 9px 7px -7px rgba(0, 0, 0, 0.5);
+
+        }      
+        .headline-articles li img 
+        {
+            width:100px;
+            height:100px;
+            margin:0 auto 6px;
+            display:block;
+        }
+
+
+
+        .maxwire-blog
+        {
+	        clear:both;
+	        margin:0 0 2em 0;
+	        
+        }
+        .maxwire-blog li
+        {
+            margin-bottom:1px;  
+	        white-space:nowrap;
+	        /* pipe icon */
+	        background-color: #f9f9f9;
+			border-bottom: 1px solid #e9e9e9;
+			
+			-webkit-transition: background-color .3s ease-out,border-bottom-color .3s ease-out;
+			-moz-transition: background-color .3s ease-out,border-bottom-color .3s ease-out;
+			-ms-transition: background-color .3s ease-out,border-bottom-color .3s ease-out;
+			-o-transition: background-color .3s ease-out,border-bottom-color .3s ease-out;
+			transition: background-color .3s ease-out,border-bottom-color .3s ease-out;
+	        
+        }                  
+        .maxwire-blog li:hover
+        {
+	        background:#D9E2EA;       
+        }
+        .maxwire-blog li > a
+        {
+	        display:block;
+	        overflow:hidden;	
+	        padding:.4em .5em;
+        }
+
+
+
+
+
+
+        .navigation-column
+        {
+	        float:left;
+	        width:140px;
+	        margin:0 12px 2em 0;
+        }
+
+
+
+
+        .video-container
+        {
+	        margin:0 0 24px 0;		        
+        }
+        .uvp-video-player-container
+        {
+	        background:#000;
+	        padding:6px 0 0;
+        }
+        .uvp-video-player-container object
+        {
+	        display:block;
+	        margin:0 auto;
+        }
+        
+        .uvp-video-player
+        {
+            margin:0 auto;
+        }
+        .uvp-video-player div
+        {
+            color:#fff;
+            padding:1em;
+        }
+        .uvp-video-player h2
+        {
+            line-height:90px;
+            vertical-align:middle;
+            margin:0;
+            padding:0;
+            border:0;
+        }
+        
+        /* Can be removed if the video player is always set to auto play */
+        
+			.uvp-video-player
+			{
+				cursor:pointer;
+			}
+			.uvp-video-player div 
+			{
+				padding:12px 20px 0 20px;
+			}
+			.uvp-video-player img
+			{
+				float:left;
+				margin:0 2em .5em 0;
+				width:120px;
+				height:90px;
+			} 
+			.uvp-video-player span
+			{
+				display:block;
+				font-weight:bold;
+				font-size:1.33em;
+				line-height:90px;
+			}
+			.uvp-video-player p
+			{
+				clear:both;
+			}
+		
+      
+        
+        /* social networks styles */  
+        .related-column .header > a
+        {
+			float:right;
+            color:#fff;
+            font-size:1em;
+            padding:5px 10px 0 0;
+        }
+        
+        
+        .social-mobile
+        {
+			margin-top:1em;
+        }
+        .stay-connected
+        {
+			background: #f9f9f9; 
+			border: 1px solid #e9e9e9; 
+			padding: .75em;
+			border-radius:4px;
+        }
+		.social-networks
+        {
+            margin:0;
+        }
+        .social-networks li
+        {
+			float:left;
+			margin-right:5px;
+			border
+        }
+        .social-networks li.first
+        {
+            font-weight:bold;            
+        }   
+        .social-networks li.last
+        {
+	        margin-right:0;
+        }        
+        .social-networks a
+        {
+            background:url(http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/sprites/social-mobile-07012014.png) no-repeat;                     
+            /* background:url(/includes/images/sprites/social-mobile-2012.png) no-repeat;  */                   
+            width:48px;
+            height:35px;
+            display:block;
+        }
+        .social-networks a:hover
+        {
+			box-shadow: 0 9px 7px -7px rgba(0, 0, 0, 0.75);			
+        }
+        .social-networks .about-company-blog
+        {
+            background-position:0 0px;
+            width:54px;
+        }       
+        .social-networks .about-facebook
+        {
+            background-position:0 -100px;
+        }
+        .social-networks .about-twitter
+        {
+            background-position:0 -150px;
+        }
+        .social-networks .about-you-tube
+        {
+            background-position:0 -200px;
+            width:54px;
+        }   
+        .social-networks .go-mobile
+        {
+            background-position:0 -50px;
+            width:54px;
+        }
+        
+        
+
+        #spotlight p
+        {
+            margin:0 0 .5em 0;
+        }
+        #spotlight h3
+        {
+            margin-top:0;
+        }
+        #spotlight h4,
+        #spotlight select
+        {
+	        display:inline;
+	        margin:9px 0px;
+        }
+        #spotlight select
+        {
+            margin-left:6px;
+            width:150px;
+        }
+        #spotlight li
+        {
+            text-align:center;
+            width:32.1%;
+            margin:0 .25em;
+            padding:0 5px;
+            height:220px;
+            background:#fff;
+        }
+        #spotlight li.first
+        {
+            border-right:solid 1px #e9e9e9;
+            
+            margin-left:0;
+            margin-right:0;
+        }
+        #spotlight li.last
+        {
+            border-left:solid 1px #e9e9e9;
+
+            margin-left:0;
+            margin-right:0;
+        }
+        
+        
+        
+    </style>
+<meta name="application-name" content="High School Sports - MaxPreps" /><meta name="msapplication-TileColor" content="#333333" /><meta name="msapplication-TileImage" content="http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/logos/mp_144x144.png" /><meta property="og:type" content="website" /><meta property="og:url" content="http://www.maxpreps.com/national/national.htm" /><meta property="og:image" content="http://www.maxpreps.com/FanPages/Images/BrandPage/MaxprepsLogo01_lrg.jpg" /><meta property="og:title" content="MaxPreps High School Sports" /><meta property="og:site_name" content="MaxPreps.com" /><meta property="og:description" content="MaxPreps covers high school sports in every state across the country. Find schedules, rosters, stats, rankings and more of your high school team." /><meta property="og:locale" content="en_US" /><meta property="fb:admins" content="722606993,1011979448" /><meta property="fb:app_id" content="122654294480469" /></head>
+    
+    
+    
+    <body  >        
+        
+        <form method="post" action="/national//home.aspx" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyMDk1MzEyNzVkGAUFQmN0bDAwJENvbnRlbnRCb3R0b20kUmFua2luZ3NTcG90bGlnaHRVc2VyQ29udHJvbCRSYW5raW5nc011bHRpVmlldw8PZGZkBTVjdGwwMCRDb250ZW50Qm90dG9tJExlYWRlcnNTcG90bGlnaHRVc2VyQ29udHJvbCR2aWV3cw8PZGZkBTRjdGwwMCRDb250ZW50Qm90dG9tJFNjb3Jlc1Nwb3RsaWdodFVzZXJDb250cm9sJHZpZXdzDw9kZmQFD2N0bDAwJE11bHRpVmlldw8PZAICZAUvY3RsMDAkUmVsYXRlZF9Db250ZW50JEVkaXRvcmlhbEZlYXR1cmVNdWx0aVZpZXcPD2RmZA==" />
+</div>
+
+<script type="text/javascript" >//<![CDATA[
+
+
+// tealium variables
+var utag_data = {
+  "siteHier": [
+    "home"
+  ],
+  "siteSection": "home",
+  "siteType": "desktop web",
+  "pageOntologyId": "1",
+  "pageType": "frontpage",
+  "pageTypeId": "2000"
+};
+
+(function(d, s, l) {
+utag_data.pageViewGuid = Guid.pageGuid;
+utag_data.userType = window.MaxPreps != null && MaxPreps.Membership.loggedIn? 'registered' : 'anon';
+utag_data.userState = window.MaxPreps != null && MaxPreps.Membership.isSessionAuthenticated() ? 'authenicated' : 'not authenticated';
+utag_data.userId = window.MaxPreps != null ? MaxPreps.Membership.getMemberInfo('puid') : null;
+var ph = d.getElementsByTagName(s)[0];
+s = d.createElement(s);
+s.type = 'text/javascript';
+s.async = true;
+s.src = l;
+ph.parentNode.insertBefore(s, ph);
+})(document, 'script', '//tags.tiqcdn.com/utag/cbsi/maxprepssite/prod/utag.js');
+//]]></script>
+     
+             
+            <header id="header" >
+                    
+                <div id="header_center" class="cf" >                   
+                    
+                    
+
+					<span class="logo">
+						<a class="btnLogo" id="maxpreps_logo" href="/national/national.htm" title="Go to the MaxPreps home page." ></a>
+					</span>
+					
+                    <span class="slogan">America's Source for High School Sports</span>
+                          
+                    
+                    
+                                        
+                    <div id='header_school_search' class='school-search' ><input placeholder='Enter school name or city' type='text' /> <span class='cell school-search-button'><span class='btn btn-success' ><i class='fa fa-search' ></i></span></span></div>
+
+                                              
+                </div>
+                
+                <nav class='header-navigation' >
+<ul id="gender_sport_navigation" >
+<li data-gender-sport='boys,baseball' data-menu-index='0'  class='expandable' ><a data-lt='home' href='/national/baseball.htm'  > Baseball <span></span></a></li>
+
+<li data-gender-sport='boys,basketball' data-menu-index='1'  class='expandable' ><a data-lt='home' href='/national/basketball.htm'  > Basketball <span></span></a></li>
+
+<li data-gender-sport='boys,football' data-menu-index='2'  class='expandable' ><a data-lt='home' href='/national/football.htm'  > Football <span></span></a></li>
+
+<li data-gender-sport='girls,basketball' data-menu-index='3'  class='expandable' ><a data-lt='home' href='/national/girls-basketball.htm'  >G Basketball <span></span></a></li>
+
+<li data-gender-sport='girls,volleyball' data-menu-index='4'  class='expandable' ><a data-lt='home' href='/national/volleyball.htm'  > Volleyball <span></span></a></li>
+
+<li data-gender-sport='more-sports' data-menu-index='5'  class='expandable more-sports' ><a data-lt='states-by-sport' href="/search/states_by_sport.aspx" >More Sports <span></span></a>
+<div class='header-sub-navigation' >
+<div class='list-container' >
+<div class='most-popular-sports' >
+<span>Most Popular Sports</span>
+<ul>
+<li>
+<span>Baseball</span><a href='/national/baseball.htm' >Boys</a></li>
+<li>
+<span>Basketball</span><a href='/national/basketball.htm' >Boys</a>, <a href='/national/girls-basketball.htm' >Girls</a></li>
+<li>
+<span>Football</span><a href='/national/football.htm' >Boys</a></li>
+<li>
+<span>Soccer</span><a href='/national/soccer.htm' >Boys</a>, <a href='/national/girls-soccer.htm' >Girls</a></li>
+<li>
+<span>Volleyball</span><a href='/search/states_by_sport.aspx?gendersport=boys,volleyball' >Boys</a>, <a href='/national/volleyball.htm' >Girls</a></li>
+</ul>
+</div><ul><li>
+<span>Badminton</span><a href='/search/school.aspx?gendersport=boys,badminton' >Boys</a></li>
+<li>
+<span>Bowling</span><a href='/search/school.aspx?gendersport=boys,bowling' >Boys</a></li>
+<li>
+<span>Cheer</span><a href='/search/school.aspx?gendersport=co-ed,cheer' >Co-ed</a></li>
+<li>
+<span>Cross Country</span><a href='/search/states_by_sport.aspx?gendersport=boys,crosscountry' >Boys</a>, <a href='/search/states_by_sport.aspx?gendersport=girls,crosscountry' >Girls</a></li>
+<li>
+<span>Dance Team</span><a href='/search/school.aspx?gendersport=co-ed,danceteam' >Co-ed</a></li>
+<li>
+<span>Field Hockey</span><a href='/search/states_by_sport.aspx?gendersport=girls,fieldhockey' >Girls</a></li>
+<li>
+<span>Golf</span><a href='/search/states_by_sport.aspx?gendersport=boys,golf' >Boys</a>, <a href='/search/states_by_sport.aspx?gendersport=girls,golf' >Girls</a></li>
+<li>
+<span>Gymnastics</span><a href='/search/school.aspx?gendersport=girls,gymnastics' >Girls</a></li>
+<li>
+<span>Ice Hockey</span><a href='/search/states_by_sport.aspx?gendersport=boys,icehockey' >Boys</a>, <a href='/search/states_by_sport.aspx?gendersport=girls,icehockey' >Girls</a></li>
+</ul><ul><li>
+<span>Lacrosse</span><a href='/national/lacrosse.htm' >Boys</a>, <a href='/national/girls-lacrosse.htm' >Girls</a></li>
+<li>
+<span>Softball</span><a href='/national/softball.htm' >Girls</a></li>
+<li>
+<span>Speech</span><a href='/search/school.aspx?gendersport=co-ed,speech' >Co-ed</a></li>
+<li>
+<span>Swimming</span><a href='/search/states_by_sport.aspx?gendersport=boys,swimming' >Boys</a>, <a href='/search/states_by_sport.aspx?gendersport=girls,swimming' >Girls</a></li>
+<li>
+<span>Tennis</span><a href='/search/states_by_sport.aspx?gendersport=boys,tennis' >Boys</a>, <a href='/search/states_by_sport.aspx?gendersport=girls,tennis' >Girls</a></li>
+<li>
+<span>Track & Field</span><a href='/national/track-field.htm' >Boys</a>, <a href='/national/girls-track-field.htm' >Girls</a></li>
+<li>
+<span>Water Polo</span><a href='/search/states_by_sport.aspx?gendersport=boys,waterpolo' >Boys</a>, <a href='/search/states_by_sport.aspx?gendersport=girls,waterpolo' >Girls</a></li>
+<li>
+<span>Wrestling</span><a href='/search/states_by_sport.aspx?gendersport=boys,wrestling' >Boys</a></li>
+</ul></div>
+</div>
+</li>
+<li class='expandable member-action register' >
+<a class='register' data-dont-track='1' >Join <span></span></a>
+<div class='header-sub-navigation' >
+<div class='list-container' >
+<ul>
+<li><a href='/utility/member/register.aspx?source=desktop_header_menu_member' >Member Account</a></li>
+<li><a href='/utility/member/register.aspx?source=desktop_header_menu_coach&amp;adorcoach=1' >AD/Coach Account</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class='member-action login' >
+<a href='/utility/member/login.aspx?source=desktop_header_menu_sign_in&amp;returnurl=47-110-97-116-105-111-110-97-108-47-104-111-109-101-46-97-115-112-120-' >Sign In</a></li>
+</ul>
+</nav>
+    
+            </header>
+
+            
+            <div id="mantle_skin" > 
+            
+                
+        
+                
+    <div id="skin_ad_call" class="ad ad-container site-skin">
+
+</div>
+    <div id="ad_177" class="ad ad-container takeover">
+
+</div>
+
+                      
+                <div id="content">
+                            
+                    
+                            <div class="content-center">
+                            
+                                
+                                
+                                <div id="layout_3" class="cf layout-type">
+                                    <section class="content-column">
+                                        
+    
+    
+    
+
+    <dl class="navigation-column">
+        <dt class="first">Links</dt>
+        <dd><a data-link-type="find-your-school" href="/search/school.aspx">Find your School</a></dd>
+        <dd><a data-link-type="find-your-athlete" href="/search/player.aspx">Find an Athlete</a></dd>
+        <dd><a data-link-type="find-your-state-sport" href="/search/states_by_sport.aspx">Select a Sport</a></dd>
+        <dd><a data-link-type="find-your-state" href="/list/states.aspx">Select a State</a></dd>
+        
+        <dd><a data-link-type="stat-leaders" href="/list/leaders_by_sport.aspx">Stat Leaders</a></dd>
+        <dd><a data-link-type="team-rankings" href="/list/rankings_by_sport.aspx">Rankings</a></dd>
+        <dd><a data-link-type="recruiting" href="/list/recruiting_by_sport.aspx">Recruiting</a></dd>
+        
+        <dd><a data-link-type="photos" href="/photo/search_photos.aspx">Photos</a></dd>
+        <dd><a data-link-type="videos" href="/video/watch.aspx">Videos</a></dd>
+        
+        <dd><a data-link-type="more" href="/list/features.aspx">More [+]</a></dd>
+
+    </dl>
+    
+    
+			<div class="editorial-feature" ><a href="http://t.maxpreps.com/1rx0gVN" ><img src="http://images.maxpreps.com.edgesuite.net/FanPages/Images/Photos/5ce07e27-c2b7-4c26-8350-c8eb50fc271e.jpg" alt="High School Sports Featured Photo &quot;Bursting onto the scene.&quot;" /></a>
+<div class="png" ><cite title="Photo by Mark Jones from 9/29/2014" class="photo-credit" >Photo By: Mark Jones</cite><h2>Bursting onto the scene</h2><p>Hamilton (Chandler, Ariz.) is new to the Xcellent 25, and the Huskies join with three others. Is there a new No. 1 as well? <a name=""   class="" href="http://t.maxpreps.com/1rx0gVN">Find out here</a><br /></p>
+</div>
+</div>
+
+		
+    
+    
+    <div class="headline-articles">
+    
+		<div class="header" >
+			<a href="/news/articles_list.aspx">More Articles</a>
+			<h2 class="mx-header">Latest on MaxPreps</h2>
+        </div>
+        
+        
+		<ul class="cf">
+	<li class="first" ><a href="/news/NkFfaZ7qTUex0bUDtF8ajg/week-4-california-bowl-game-rankings.htm" ><img alt="Week 4 California Bowl Game Rankings" src="http://images.maxpreps.com.edgesuite.net/site_images/editorial/article/6/9/5/695f4136-ea9e-474d-b1d1-b503b45f1a8e/ff07a3fa-6847-e411-b4d2-002655e6c45a_thumbnail.jpg" >
+<span>Week 4 California Bowl Game Rankings</span></a>
+</li><li class=" alternate" ><a href="/news/KIkomuG4aUixy9Ai_AQDXg/maxpreps-top-25-national-high-school-football-scoreboard.htm" ><img alt="Xcellent 25 Football Scoreboard" src="http://images.maxpreps.com.edgesuite.net/site_images/editorial/article/9/a/2/9a288928-b8e1-4869-b1cb-d022fc04035e/a34f2b1f-d245-e411-b4d2-002655e6c45a_thumbnail.jpg" >
+<span>Xcellent 25 Football Scoreboard</span></a>
+</li><li class="" ><a href="/news/gbuQt6Iy8Ui3QE_8nef0tA/middle-school-team-pulls-off-the-ugly-kardashian-trick-play.htm" ><img alt=""The Ugly Kardashian" trick play for a TD" src="http://images.maxpreps.com.edgesuite.net/site_images/editorial/article/b/7/9/b790bb81-32a2-48f1-b740-4ffc9de7f4b4/c0f7e1a2-6f46-e411-b4d2-002655e6c45a_thumbnail.jpg" >
+<span>"The Ugly Kardashian" trick play for a TD</span></a>
+</li><li class=" alternate" ><a href="/news/v-93u0Nw4EOFPYaZwDU59Q/video--shocking-last-second-kickoff-return-wins-it-for-wren.htm" ><img alt="Video: Shocking game-winning KO return" src="http://images.maxpreps.com.edgesuite.net/site_images/editorial/article/b/b/7/bb77efbf-7043-43e0-853d-8699c03539f5/09059937-7546-e411-b4d2-002655e6c45a_thumbnail.jpg" >
+<span>Video: Shocking game-winning KO return</span></a>
+</li><li class="" ><a href="/news/iZFPDswaYUmXKabxWT7cSw/mitchmash--10-takes-from-bishop-gorman-versus-st-john-bosco.htm" ><img alt="Photos: 10 takes from Las Vegas" src="http://images.maxpreps.com.edgesuite.net/site_images/editorial/article/0/e/4/0e4f9189-1acc-4961-9729-a6f1593edc4b/a2335aeb-b646-e411-b4d2-002655e6c45a_thumbnail.jpg" >
+<span>Photos: 10 takes from Las Vegas</span></a>
+</li>
+		</ul>
+	
+
+    </div> 
+
+    
+
+
+<div class="promo-tabs">
+    <ul class="cf">
+<li class="first selected">
+<a href="#" onclick="updateTab(this, '',0); return false;">College Assistance</a>
+</li>
+<li>
+<a href="#" onclick="updateTab(this, '',1); return false;">MPCoach App</a>
+</li>
+<li class="last">
+<a href="#" onclick="updateTab(this, '',2); return false;">Friday Night Live</a>
+</li>
+</ul>
+
+    <div class="content">
+        
+            <div style="width:636px; margin:2px 0 0 2px; overflow:hidden;">
+			  <div id="randomImage"></div>
+			</div>
+				  
+           <script language="JavaScript">
+              G_total_sa = 0;
+              G_day = new Date();
+              G_seed = G_day.getTime();
+
+              ae_('<a href="/events/collegeAssistance/default.aspx?src=promotab"><img src="http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/promotabs_636x350/college-assistance-PT-02242014.jpg" alt="" /></a><div style="width:1px; height:1px;"><img src="http://ad.doubleclick.net/N8264/ad/aw-cbsi/tracking;sz=1x1;lineid=138532809;ord='+G_seed+'?" /></div>');
+              ae_('<a href="/events/collegeAssistance/default.aspx?src=promotab"><img src="http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/promotabs_636x350/college-assistance-PT-2-02242014.jpg" alt="" /></a><div style="width:1px; height:1px;"><img src="http://ad.doubleclick.net/N8264/ad/aw-cbsi/tracking;sz=1x1;lineid=138532809;ord='+G_seed+'?" /></div>');
+              ae_('<a href="/events/collegeAssistance/default.aspx?src=promotab"><img src="http://www-content-v3.maxpreps.com.edgesuite.net/includes/images/promotabs_636x350/college-assistance-PT-1-02242014.jpg" alt="" /></a><div style="width:1px; height:1px;"><img src="http://ad.doubleclick.net/N8264/ad/aw-cbsi/tracking;sz=1x1;lineid=138532809;ord='+G_seed+'?" /></div>');
+
+              function ae_ (description) {
+                G_total_sa++;
+                sa [G_total_sa] = description;
+              }
+              function rand() {
+                RN = parseInt(((G_seed - (parseInt(G_seed/1000,10) * 1000))/10)/100*G_total_sa + 1,10);
+                return RN;
+              }
+              function sa () {}
+              document.getElementById('randomImage').innerHTML =  sa[rand()];
+           </script>
+          
+    </div>
+</div>
+
+
+    
+
+                                    </section>
+                                    <aside class="related-column">
+                                        
+
+    <div class="maxwire-blog">
+		<div class="header" >
+			<a href="/blogs/maxwire-national-blog/home.htm">More Posts</a>
+			<h2 class="mx-header">MaxWire Blog</h2>
+        </div>
+        
+        <ul>
+<li class="first" ><a title="North Carolina football player dies" href="/blogs/maxwire-national-blog/VaAUN_84pEuj4YgwkL_XNg/north-carolina-football-player-dies.htm" >North Carolina football player dies</a></li>
+<li class="" ><a title="Community rallies around injured IL player" href="/blogs/maxwire-national-blog/MZUsMY-FoUKOB8F2G7Mrig/community-rallies-around-injured-il-player.htm" >Community rallies around injured IL player</a></li>
+<li class="" ><a title="No. 6 De La Salle runs away from scare" href="/blogs/maxwire-national-blog/BO-O2tbMt0OGRMo9wo0Ugg/no-6-de-la-salle-runs-away-from-scare.htm" >No. 6 De La Salle runs away from scare</a></li>
+<li class="last" ><a title="Photos: Lightning delay at Gorman-Bosco" href="/blogs/maxwire-national-blog/qxrlS1QOmUO1G8Ka5AXx4g/photos--lightning-delay-at-gorman-bosco.htm" >Photos: Lightning delay at Gorman-Bosco</a></li>
+</ul>
+
+     
+        
+    </div>
+    
+    
+    <div id="ctl00_Related_Related_VideoPlayerUserControl_VideoContainerPanel" class="video-container cf">
+	
+    
+    <div class="uvp-video-player-container">
+        <div id="ctl00_Related_Related_VideoPlayerUserControl_VideoPlayerPanel" class="uvp-video-player" style="width:288px;min-height:192px;">
+		
+			<div>
+<img src="http://www-video.maxpreps.com/videos/2014/9/22/9b4b4a27-5350-6d81-08c9-3a361eea979b_thumbnail.jpg" alt="TOP 10 PLAYS OF THE WEEK - September 22" /><span>Play Video</span>
+<p>TOP 10 PLAYS OF THE WEEK - September 22</p>
+</div>
+
+        
+	</div>
+    </div>
+    
+<div id="ad_185" class="ad ad-container video-companion">
+
+	</div>
+</div>
+    
+    
+    <div id="ad_178" class="ad ad-container mpu">
+
+</div>
+
+
+    
+	<div class="social-mobile">  
+		<h2 class="mx-header">Stay Connected</h2>
+		
+
+<div class="stay-connected">
+	<ul class="cf social-networks">
+		<li class="first"> 
+			<a class="about-facebook" target="_blank" title="Find us on Facebook" href="http://www.facebook.com/maxpreps"></a>
+		</li>  
+		<li class="alternate">  
+			<a class="about-twitter" target="_blank" title="Find us on Twitter" href="http://www.twitter.com/maxpreps"></a>
+		</li> 
+		<li>  
+			<a class="about-you-tube" target="_blank" title="Find us on You Tube" href="http://www.youtube.com/maxprepssports"></a>
+		</li> 
+		<li class="alternate">
+			<a class="about-company-blog" target="_blank" title="Find us on Instagram" href="http://instagram.com/maxpreps"></a>
+		</li>  
+		<li class="last">  
+			<a class="go-mobile" target="_blank" title="MaxPreps Mobile Products" href="/mobile/home.aspx"></a>
+		</li> 
+	</ul>
+
+	
+</div>
+
+    </div>
+
+                                    </aside>
+                                </div>
+                            </div>
+                        
+                    
+                    
+    <div id="spotlight" class="content-center">
+        <h2 class="mx-header">What's on MaxPreps?</h2>
+              
+        <ul class="cf">
+        
+            <li class="first">
+                
+        <h3>High School Rankings</h3>
+        <p>See where your team ranks nationally, by state or division.</p>
+         
+        <h4>
+            <label for="boys_rankings_spotlight" >Boys Sports:</label>
+        </h4>
+        <select id="boys_rankings_spotlight" onchange="if(this.options[this.selectedIndex].value == '-1') { return false; } window.location.href = '/list/rankings.aspx?gendersport=' + this.options[this.selectedIndex].value;" >
+            <option value="-1" >Select a Sport</option>
+            <option value="boys,baseball" >Baseball</option> 
+            <option value="boys,basketball" >Basketball</option> 
+            <option value="boys,football" >Football</option> 
+            <option value="boys,lacrosse" >Lacrosse</option> 
+            <option id="ctl00_ContentBottom_RankingsSpotlightUserControl_NationalBoysSoccer" value="boys,soccer">Soccer</option> 
+                                         
+        </select>
+
+        <br />
+
+        <h4>
+            <label for="girls_rankings_spotlight" >Girls Sports:</label>
+        </h4>
+        <select id="girls_rankings_spotlight" onchange="if(this.options[this.selectedIndex].value == '-1') { return false; } window.location.href = '/list/rankings.aspx?gendersport=' + this.options[this.selectedIndex].value;" >
+            <option value="-1" >Select a Sport</option>
+            <option value="girls,basketball" >Basketball</option> 
+            <option value="girls,lacrosse" >Lacrosse</option> 
+            <option id="ctl00_ContentBottom_RankingsSpotlightUserControl_NationalGirlsSoccer" value="girls,soccer">Soccer</option> 
+            <option value="girls,softball" >Softball</option>
+            <option value="girls,volleyball" >Volleyball</option>                              
+        </select>
+      
+                
+                <div id="ad_179" class="ad ad-container marquee">
+
+</div>
+            </li>
+            <li>
+                <h3 id="ctl00_ContentBottom_LeadersSpotlightUserControl_Header">High School Stat Leaders</h3>
+<p id="ctl00_ContentBottom_LeadersSpotlightUserControl_BlurbGenericControl">Search the web's most comprehensive list of stats for high school sports.</p>
+
+
+
+        <h4>
+            <label for="ctl00_ContentBottom_LeadersSpotlightUserControl_cmbBoys">Boys Sports:</label>
+        </h4>
+        <select name="ctl00$ContentBottom$LeadersSpotlightUserControl$cmbBoys" id="ctl00_ContentBottom_LeadersSpotlightUserControl_cmbBoys" onchange="if(this.options[this.selectedIndex].value == &#39;-1&#39;) { return false; } window.location.href = this.options[this.selectedIndex].value;">
+	<option value="-1">Select a Sport</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,baseball&amp;season=fall">Baseball (Fall)</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,baseball">Baseball</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,basketball">Basketball</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,crosscountry">Cross Country</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,football">Football</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,golf">Golf</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,golf&amp;season=spring">Golf (Spring)</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,icehockey">Ice Hockey</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,lacrosse">Lacrosse</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,soccer">Soccer</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,soccer&amp;season=winter">Soccer (Winter)</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,soccer&amp;season=spring">Soccer (Spring)</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,swimming&amp;season=fall">Swimming (Fall)</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,swimming&amp;season=winter">Swimming (Winter)</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,swimming">Swimming</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,tennis&amp;season=fall">Tennis (Fall)</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,tennis">Tennis</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,trackfield&amp;season=winter">Track &amp; Field (Winter)</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,trackfield">Track &amp; Field</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,volleyball&amp;season=fall">Volleyball (Fall)</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,volleyball">Volleyball</option>
+	<option value="/list/stat_leaders.aspx?gendersport=boys,waterpolo">Water Polo</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,wrestling&amp;season=fall">Wrestling (Fall)</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=boys,wrestling">Wrestling</option>
+
+</select>
+        
+        <br />
+              
+        <h4>
+            <label for="ctl00_ContentBottom_LeadersSpotlightUserControl_cmbGirls">Girls Sports:</label>
+        </h4>
+        <select name="ctl00$ContentBottom$LeadersSpotlightUserControl$cmbGirls" id="ctl00_ContentBottom_LeadersSpotlightUserControl_cmbGirls" onchange="if(this.options[this.selectedIndex].value == &#39;-1&#39;) { return false; } window.location.href = this.options[this.selectedIndex].value;">
+	<option value="-1">Select a Sport</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,basketball&amp;season=fall">Basketball (Fall)</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,basketball">Basketball</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=girls,crosscountry">Cross Country</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,fieldhockey">Field Hockey</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=girls,golf">Golf</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=girls,golf&amp;season=spring">Golf (Spring)</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,icehockey">Ice Hockey</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,lacrosse">Lacrosse</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,soccer">Soccer</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,soccer&amp;season=winter">Soccer (Winter)</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,soccer&amp;season=spring">Soccer (Spring)</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,softball&amp;season=fall">Softball (Fall)</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,softball">Softball</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=girls,swimming&amp;season=fall">Swimming (Fall)</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=girls,swimming">Swimming</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=girls,swimming&amp;season=spring">Swimming (Spring)</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=girls,tennis">Tennis</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=girls,tennis&amp;season=spring">Tennis (Spring)</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=girls,trackfield&amp;season=winter">Track &amp; Field (Winter)</option>
+	<option value="/list/leaderboard_list.aspx?gendersport=girls,trackfield">Track &amp; Field</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,volleyball">Volleyball</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,waterpolo">Water Polo</option>
+	<option value="/list/stat_leaders.aspx?gendersport=girls,waterpolo&amp;season=winter">Water Polo (Winter)</option>
+
+</select>
+    
+
+
+                
+                <div id="ad_180" class="ad ad-container marquee">
+
+</div>
+            </li>
+            <li class="last">
+                <h3 id="ctl00_ContentBottom_ScoresSpotlightUserControl_Header">High School Scoreboard</h3>
+<p id="ctl00_ContentBottom_ScoresSpotlightUserControl_BlurbGenericControl">
+    Find the latest scores from the top high school teams across the nation.
+</p>
+
+        <h4>
+            <label for="ctl00_ContentBottom_ScoresSpotlightUserControl_cmbBoys">Boys Sports:</label>
+        </h4>
+        <select name="ctl00$ContentBottom$ScoresSpotlightUserControl$cmbBoys" id="ctl00_ContentBottom_ScoresSpotlightUserControl_cmbBoys" onchange="if(this.options[this.selectedIndex].value == &#39;-1&#39;) { return false; } window.location.href = &#39;/list/schedules_scores.aspx?&#39; + this.options[this.selectedIndex].value;">
+	<option value="-1">Select a Sport</option>
+	<option value="&amp;ssid=c7ec9bc1-6640-4746-9f57-8d579742e428">Baseball (Fall)</option>
+	<option value="&amp;ssid=98d1acee-72f3-49ae-a8df-d74f6c4d4e1d">Baseball (Spring)</option>
+	<option value="&amp;gendersport=Boys,Basketball">Basketball</option>
+	<option value="&amp;gendersport=Boys,Football">Football</option>
+	<option value="&amp;gendersport=Boys,IceHockey">Ice Hockey</option>
+	<option value="&amp;gendersport=Boys,Lacrosse">Lacrosse</option>
+	<option value="&amp;ssid=f9bafe0d-45cb-4693-aa16-f8766dc2f9fb">Soccer (Fall)</option>
+	<option value="&amp;ssid=e57cb17d-2534-4de5-a23d-60341ebaee04">Soccer (Winter)</option>
+	<option value="&amp;ssid=8ce64efa-ac13-4644-88c3-3543ec070851">Soccer (Spring)</option>
+	<option value="&amp;ssid=1d7b95ae-466b-4e1e-8de0-4071ea4a6f73">Volleyball (Fall)</option>
+	<option value="&amp;ssid=65da0c3a-9482-4374-9e5b-c66779533b70">Volleyball (Spring)</option>
+	<option value="&amp;gendersport=Boys,WaterPolo">Water Polo</option>
+
+</select>
+        
+        <br />
+            
+        <h4>
+            <label for="ctl00_ContentBottom_ScoresSpotlightUserControl_cmbGirls">Girls Sports:</label>
+        </h4>
+        <select name="ctl00$ContentBottom$ScoresSpotlightUserControl$cmbGirls" id="ctl00_ContentBottom_ScoresSpotlightUserControl_cmbGirls" onchange="if(this.options[this.selectedIndex].value == &#39;-1&#39;) { return false; } window.location.href = &#39;/list/schedules_scores.aspx?&#39; + this.options[this.selectedIndex].value;">
+	<option value="-1">Select a Sport</option>
+	<option value="&amp;gendersport=Girls,Basketball">Basketball</option>
+	<option value="&amp;gendersport=Girls,FieldHockey">Field Hockey</option>
+	<option value="&amp;gendersport=Girls,IceHockey">Ice Hockey</option>
+	<option value="&amp;gendersport=Girls,Lacrosse">Lacrosse</option>
+	<option value="&amp;ssid=8a56a490-d455-4969-a16a-0fdfc001e119">Soccer (Fall)</option>
+	<option value="&amp;ssid=d8ec864e-96ce-4b7f-b4cd-82df128b58fd">Soccer (Winter)</option>
+	<option value="&amp;ssid=e12502a2-fada-4150-951f-a41087775576">Soccer (Spring)</option>
+	<option value="&amp;ssid=8e99164e-e28c-41f9-8320-a3290da2355e">Softball (Fall)</option>
+	<option value="&amp;ssid=233b57e7-9daa-44ef-a481-7a33879aef43">Softball (Spring)</option>
+	<option value="&amp;gendersport=Girls,Volleyball">Volleyball</option>
+	<option value="&amp;ssid=4431c9eb-61b5-4de5-920a-95f4dc655904">Water Polo (Fall)</option>
+	<option value="&amp;ssid=214262c7-f469-4153-9b85-0e3c2695e1b8">Water Polo (Winter)</option>
+
+</select>
+    
+
+                
+                <div id="ad_181" class="ad ad-container marquee">
+
+</div>
+            </li>
+        </ul>       
+    </div>
+
+                </div>
+                
+                
+                
+                
+                
+
+
+<footer id="footer">
+
+    <nav id="footer_center">
+             
+        
+        
+		<a class="cbs-sports" rel="nofollow" href="http://www.cbssports.com/" target="_blank" title="MaxPreps, An Offical Partner of CBSSports.com" ></a>
+        
+        
+        <div>     
+			<a href="/list/metros.aspx">Find a Metro</a>
+			·
+			<a class="first" href="/search/school.aspx">Find a Team</a>
+			·
+			<a href="/search/player.aspx">Find a Player</a>
+			·
+			<a href="/video/search.aspx">Search Videos</a>
+			·
+			<a class="last" href="/photo/find_photos.aspx">Search Photos</a>
+		</div>       
+        <div>     
+
+			<a href="/utility/aboutus.aspx">About Us</a>
+			
+			·
+			<a target="_blank" onclick="return showPopup('/admin/default.aspx');" href="/admin/default.aspx" >Coach Access</a>
+			
+			·
+			<a target="_blank" href="http://support.maxpreps.com" >Support</a>
+			·
+			<a target="_blank" onclick="return showPopup('/utility/stat_import/partners.aspx'); return false;" href="/utility/stat_import/partners.aspx">Stat Partners</a>
+			·
+			<a href="/widgets/createwidget.aspx">Widgets</a>
+
+		</div>       
+
+        <div>           
+			<a target="_blank" rel="nofollow" href="http://cbsinteractive.com/advertise/">Advertise</a>
+			·
+			<a target="_blank" rel="nofollow" href="http://legalterms.cbsinteractive.com/privacy">Privacy Policy</a>
+			·
+			<a target="_blank" rel="nofollow" href="http://legalterms.cbsinteractive.com/adchoice">Ad Choice</a>
+			·
+			<a target="_blank" class="last" rel="nofollow" href="http://legalterms.cbsinteractive.com/terms-of-use">Terms of Use</a>
+			·
+			<a class="last" href="http://sitemap.maxpreps.com">Site Map</a> 
+		</div>
+		
+		
+		
+        <cite title="Copyright Infomation." >
+            &copy; 
+            2014
+            CBS Interactive.
+            All rights reserved.
+        </cite>
+    
+    </nav>
+</footer>
+ 
+            </div>            
+        
+<script type="text/javascript" src="http://maxpreps.cbsistatic.com/includes/js/prototype/prototype-1.7.1.compressed.20140915.js" ></script><script type="text/javascript" >//<![CDATA[
+window.allowMemberPopup = true;
+//]]></script>
+<script type="text/javascript" >//<![CDATA[
+    
+    //Use protoype to load data :)
+    function updateTab(element, gendersport, index)
+    {
+        element = $(element);
+        
+        var newSelectedItem = element.up("li"),
+        list = newSelectedItem.up("ul"),
+        promoTabContainer = list.up(".promo-tabs");
+        
+        new Ajax.Updater(promoTabContainer.down(".content").identify(), 
+            '/feeds/promo_tabs/getpromo.ashx?gendersport=' + gendersport + '&index=' + index,
+            {evalScripts: true}
+        );
+        
+        if(list != null)
+        {
+            var oldSelectedItem = list.down(".selected");
+            if(oldSelectedItem != null)
+            {
+                oldSelectedItem.removeClassName("selected");
+            }
+        }
+        newSelectedItem.addClassName("selected");
+    }
+
+//]]></script>
+<script type="text/javascript" >//<![CDATA[
+MaxPreps.UI.NavigationClickTracking = Class.create(
+{
+	initialize: function(trackingCategory, genderSport)
+	{
+		this.trackingCategory = trackingCategory != null ? trackingCategory : "Navigation";
+		this.genderSport = genderSport;
+		
+		var navigationColumn = $$('.navigation-column')[0];
+		if(navigationColumn != null)
+		{
+			navigationColumn.observe('click', this.navigationClick.bind(this));
+		}
+	},
+	
+	navigationClick: function(e)
+	{
+		var element = e.element();
+		
+		if(element.nodeName === 'A'
+			&& window._gaq != null)
+		{
+			var dataLinkType = element.readAttribute('data-link-type');
+			
+			if(dataLinkType != null
+				&& dataLinkType !== '')
+			{			
+				try
+				{
+					_gaq.push(['_trackEvent', this.trackingCategory, dataLinkType, this.genderSport, null, true]);
+				}
+				catch(exception)
+				{
+					// ignore...
+				}
+			}
+		}
+	}
+});
+//]]></script>
+<script type="text/javascript" >//<![CDATA[
+new MaxPreps.UI.NavigationClickTracking('Home-Page-Navigation', null);
+//]]></script>
+<script type="text/javascript" >//<![CDATA[
+new MaxPreps.UI.SchoolSearch('header_school_search');
+//]]></script>
+<script type="text/javascript" >//<![CDATA[
+(function()
+{
+var googletag = window.googletag;
+
+googletag.cmd.push(function()
+{
+
+if(window.MaxPreps != null && MaxPreps.Ads != null)
+{
+var sessionData = MaxPreps.Ads.GetSessionData();
+if(sessionData != null)
+{
+sessionData.each(function(pair)
+{
+if(pair.value == null) return;
+googletag.pubads().setTargeting(pair.key, pair.value);
+});
+}
+
+// query string overrides
+var queryParamsHash = $H(window.location.href.toLowerCase().toQueryParams());
+queryParamsHash.each(function(pair)
+{
+if(pair.value == null) return;
+if(pair.key === 'adregion' || pair.key === 'env' || pair.key === 'session') googletag.pubads().setTargeting(pair.key, pair.value);
+else if(pair.key.startsWith('adtargeting_') && pair.key !== 'adtargeting_') googletag.pubads().setTargeting(pair.key.slice(12), pair.value);
+});
+
+}
+
+googletag.display("ad_177");
+googletag.display("ad_179");
+googletag.display("ad_180");
+googletag.display("ad_181");
+googletag.display("skin_ad_call");
+googletag.display("ad_178");
+googletag.display("ad_185");
+});
+})();
+
+//]]></script>
+
+<script type="text/javascript">
+//<![CDATA[
+document.observe("dom:loaded", function(e) {
+var __js = null, __head = document.getElementsByTagName("head")[0], s = 'script';
+new MaxPreps.UI.FanPageMenu(["\u003cdiv class=\u0027header-sub-navigation\u0027 \u003e\r\n\u003cdiv class=\u0027list-container\u0027 \u003e\r\n\r\n\t\t\t\u003cul\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027signing-day\u0027 href=\u0027/baseball-draft-day/college/baseball/draftees.htm\u0027 \u003eMLB Draft Day\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027schedule-scores\u0027 href=\u0027/scoreboard/baseball/national.htm\u0027 \u003eSchedule/Scores\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027stat-leaders\u0027 href=\u0027/list/stat_leaders.aspx?gendersport=boys,baseball\u0027 \u003eStat Leaders\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027rankings\u0027 href=\u0027/polls/baseball/xcellent25.htm\u0027 \u003eRankings (Spring only)\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027recruiting\u0027 href=\u0027/baseball-recruiting/baseball-spring-14/rI-HXqPhEeOzMAAmVebBJg/top-100-baseball-seniors---class-of-2014/top-recruits.htm\u0027 \u003eRecruiting\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027playoffs\u0027 href=\u0027/playoffs/brackets.aspx?gendersport=boys,baseball\u0027 \u003ePlayoffs (Spring Only)\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027more\u0027 href=\u0027/list/gendersport_features.aspx?gendersport=boys,baseball\u0027 \u003eMore\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\u003c/ul\u003e\r\n\r\n\t\t\t\u003cul\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027blog\u0027 href=\u0027/blogs/maxwire-national-blog/baseball/home.htm\u0027\u003eBlog\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027news\u0027 href=\u0027/news/articles_list.aspx?gendersport=boys,baseball\u0027\u003eNews\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027photos\u0027 href=\u0027/photo/find_photos.aspx?gendersport=boys,baseball\u0027\u003ePhotos\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027videos\u0027 href=\u0027/video/watch.aspx#!gendersport=boys,baseball\u0027\u003eVideos\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\u003c/ul\u003e\r\n\t\t\r\n\u003c/div\u003e\r\n\u003c/div\u003e\r\n", "\u003cdiv class=\u0027header-sub-navigation\u0027 \u003e\r\n\u003cdiv class=\u0027list-container\u0027 \u003e\r\n\r\n\t\t\t\u003cul\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027qwixcore\u0027 href=\u0027/qwixcore/basketball.aspx\u0027 \u003eQwixcore\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027playoffs\u0027 href=\u0027/playoffs/brackets.aspx?gendersport=boys,basketball\u0027 \u003ePlayoffs\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027schedule-scores\u0027 href=\u0027/scoreboard/basketball/national.htm\u0027 \u003eSchedule/Scores\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027rankings\u0027 href=\u0027/polls/basketball/xcellent25.htm\u0027 \u003eRankings\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027stat-leaders\u0027 href=\u0027/list/stat_leaders.aspx?gendersport=boys,basketball\u0027 \u003eStat Leaders\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027signing-day\u0027 href=\u0027/basketball-signing-day/college/basketball/recruits.htm\u0027 \u003eCollege Commitments\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027team-previews\u0027 href=\u0027/list/team_preview.aspx?gendersport=boys,basketball\u0027 \u003eTeam Previews\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027recruiting\u0027 target=\u0027_blank\u0027 rel=\u0027nofollow\u0027 href=\u0027http://247sports.com/Season/2014-Basketball/RecruitRankings?InstitutionGroup=HighSchool&amp;referer=MAXPREPS\u0027 \u003e247Sports Top 247\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027more\u0027 href=\u0027/list/gendersport_features.aspx?gendersport=boys,basketball\u0027\u003eMore\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\u003c/ul\u003e\r\n\r\n\t\t\t\u003cul\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027blog\u0027 href=\u0027/blogs/maxwire-national-blog/basketball/home.htm\u0027 \u003eBlog\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027news\u0027 href=\u0027/news/articles_list.aspx?gendersport=boys,basketball\u0027 \u003eNews\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027photos\u0027 href=\u0027/photo/find_photos.aspx?gendersport=boys,basketball\u0027 \u003ePhotos\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027videos\u0027 href=\u0027/video/watch.aspx#!gendersport=boys,basketball\u0027 \u003eVideos\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\u003c/ul\u003e\r\n\t\t\r\n\t\t\r\n\u003c/div\u003e\r\n\u003c/div\u003e\r\n", "\u003cdiv class=\u0027header-sub-navigation\u0027 \u003e\r\n\u003cdiv class=\u0027list-container\u0027 \u003e\r\n\r\n\t\t\t\u003cul\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027qwixcore\u0027 href=\u0027/qwixcore/football.aspx\u0027 \u003eQwixcore\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027rankings\u0027 href=\u0027/polls/football/xcellent25.htm\u0027 \u003eRankings\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027schedule-scores\u0027 href=\u0027/scoreboard/football/national.htm\u0027 \u003eSchedule/Scores\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027stat-leaders\u0027 href=\u0027/list/stat_leaders.aspx?gendersport=boys,football\u0027 \u003eStat Leaders\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027playoffs\u0027 href=\u0027/playoffs/brackets.aspx?gendersport=boys,football\u0027 \u003ePlayoffs\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027recruiting\u0027 href=\u0027/football-signing-day/football/home.htm\u0027 \u003eSigning Day\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027247\u0027 href=\u0027/signingday/football/top_teams.aspx\u0027 \u003e247Sports Top 247\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027preps-to-pros\u0027 href=\u0027/signingday/preps_to_pros/default.aspx\u0027 \u003ePreps to Pros\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027more\u0027 href=\u0027/list/gendersport_features.aspx?gendersport=boys,football\u0027 \u003eMore\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\u003c/ul\u003e\r\n\r\n\t\t\t\u003cul\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027blog\u0027 href=\u0027/blogs/maxwire-national-blog/football/home.htm\u0027 \u003eBlog\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027news\u0027 href=\u0027/news/articles_list.aspx?gendersport=boys,football\u0027 \u003eNews\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027photos\u0027 href=\u0027/photo/find_photos.aspx?gendersport=boys,football\u0027 \u003ePhotos\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027videos\u0027 href=\u0027/video/watch.aspx#!gendersport=boys,football\u0027 \u003eVideos\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\u003c/ul\u003e\r\n\t\t\r\n\u003c/div\u003e\r\n\u003c/div\u003e\r\n", "\u003cdiv class=\u0027header-sub-navigation\u0027 \u003e\r\n\u003cdiv class=\u0027list-container\u0027 \u003e\r\n\r\n\t\t\t\u003cul\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027qwixcore\u0027 href=\u0027/qwixcore/basketball.aspx\u0027 \u003eQwixcore\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027rankings\u0027 href=\u0027/polls/girls-basketball/xcellent25.htm\u0027 \u003eRankings\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027schedule-scores\u0027 href=\u0027/scoreboard/girls-basketball/national.htm\u0027 \u003eSchedule/Scores\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027stat-leaders\u0027 href=\u0027/list/stat_leaders.aspx?gendersport=girls,basketball\u0027 \u003eStat Leaders\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027playoffs\u0027 href=\u0027/playoffs/brackets.aspx?gendersport=girls,basketball\u0027 \u003ePlayoffs\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027more\u0027 href=\u0027/list/gendersport_features.aspx?gendersport=girls,basketball\u0027 \u003eMore\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\u003c/ul\u003e\r\n\r\n\t\t\t\u003cul\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027blog\u0027 href=\u0027/blogs/maxwire-national-blog/girls-basketball/home.htm\u0027 \u003eBlog\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027news\u0027 href=\u0027/news/articles_list.aspx?gendersport=girls,basketball\u0027 \u003eNews\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027photos\u0027 href=\u0027/photo/find_photos.aspx?gendersport=girls,basketball\u0027 \u003ePhotos\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027videos\u0027 href=\u0027/video/watch.aspx#!gendersport=girls,basketball\u0027 \u003eVideos\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\u003c/ul\u003e\r\n\t\t\r\n\u003c/div\u003e\r\n\u003c/div\u003e\r\n", "\u003cdiv class=\u0027header-sub-navigation\u0027 \u003e\r\n\u003cdiv class=\u0027list-container\u0027 \u003e\r\n\r\n\t\t\t\u003cul\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027rankings\u0027 href=\u0027/polls/girls-volleyball/xcellent25.htm\u0027 \u003eRankings\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027schedule-scores\u0027 href=\u0027/scoreboard/volleyball/national.htm\u0027 \u003eSchedule/Scores\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027stat-leaders\u0027 href=\u0027/list/stat_leaders.aspx?gendersport=girls,volleyball\u0027 \u003eStat Leaders\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027playoffs\u0027 href=\u0027/playoffs/brackets.aspx?gendersport=girls,volleyball\u0027 \u003ePlayoffs\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\u003c/ul\u003e\r\n\r\n\t\t\t\u003cul\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027blog\u0027 href=\u0027/blogs/maxwire-national-blog/volleyball/home.htm\u0027 \u003eBlog\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027news\u0027 href=\u0027/news/articles_list.aspx?gendersport=girls,volleyball\u0027 \u003eNews\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027photos\u0027 href=\u0027/photo/find_photos.aspx?gendersport=girls,volleyball\u0027 \u003ePhotos\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\t\u003cli\u003e\u003ca data-lt=\u0027videos\u0027 href=\u0027/video/watch.aspx#!gendersport=girls,volleyball\u0027 \u003eVideos\u003c/a\u003e\u003c/li\u003e\r\n\t\t\t\u003c/ul\u003e\r\n\t\t\r\n\u003c/div\u003e\r\n\u003c/div\u003e\r\n"]);
+document.observe("maxpreps:loaded", function(e) {
+if(e.memo.file == "/includes/js/video/uvp_video.js"){
+var vp = new MaxPreps.Video({containerId:"ctl00_Related_Related_VideoPlayerUserControl_VideoContainerPanel", uniqueId:"1923", loadOnClick:true},
+{adMode:"once", layout:"Width_288", startMode:"stop", showCompanionAd:true, showCompanionAdInPlayer:false, feature:"frontpage"});
+
+vp.addPlaylistItem({"id":"9b4b4a27-5350-6d81-08c9-3a361eea979b", "title":"TOP 10 PLAYS OF THE WEEK - September 22", "filePath":"videos/2014/9/22/", "publishDate":"Mon, Sep 22 2014", "views":2009, "streams":[{"name":"High", "bitrate":1359872, "extension":"MP4", "width":576, "height":324}, {"name":"Low", "bitrate":643072, "extension":"MP4", "width":576, "height":324}, {"name":"Medium", "bitrate":950272, "extension":"MP4", "width":576, "height":324}], "thumbnailUrl":"http://www-video.maxpreps.com/videos/2014/9/22/9b4b4a27-5350-6d81-08c9-3a361eea979b_thumbnail.jpg", "userId":{"id":"3b45dd05-af38-41ef-abb9-de76c94c6416", "name":" "}, "duration":"5:11", "reviews":[1,0], "description":"If you want to be a MaxPreps Top 10 Play, just send us your video by uploading it to MaxPreps.com with #MPTopPlay."});
+vp.addPlaylistItem({"id":"0d37e2aa-a2c6-9bc7-5532-18a81e56f25d", "title":"Friday Night Live - Way Back When: LeSean McCoy", "filePath":"videos/2014/9/19/", "publishDate":"Fri, Sep 19 2014", "views":750, "streams":[{"name":"High", "bitrate":1359872, "extension":"MP4", "width":576, "height":324}, {"name":"Medium", "bitrate":950272, "extension":"MP4", "width":576, "height":324}], "thumbnailUrl":"http://www-video.maxpreps.com/videos/2014/9/19/0d37e2aa-a2c6-9bc7-5532-18a81e56f25d_thumbnail.jpg", "userId":{"id":"3b45dd05-af38-41ef-abb9-de76c94c6416", "name":" "}, "duration":"1:52", "reviews":[0,0], "description":"Zack Poff takes a look at Philadelphia Eagles running back, LeSean McCoy, back when he played high school football."});
+vp.addPlaylistItem({"id":"bf96cfb4-dd36-dabc-3c9f-66434dd4b6e1", "title":"Friday Night Live - Toughest Football Cities", "filePath":"videos/2014/9/19/", "publishDate":"Fri, Sep 19 2014", "views":247, "streams":[{"name":"High", "bitrate":1359872, "extension":"MP4", "width":576, "height":324}, {"name":"Medium", "bitrate":950272, "extension":"MP4", "width":576, "height":324}], "thumbnailUrl":"http://www-video.maxpreps.com/videos/2014/9/19/bf96cfb4-dd36-dabc-3c9f-66434dd4b6e1_thumbnail.jpg", "userId":{"id":"3b45dd05-af38-41ef-abb9-de76c94c6416", "name":" "}, "duration":"2:15", "reviews":[0,0], "description":"Top 15 toughest football cities in America."});
+vp.addPlaylistItem({"id":"b9ade520-2262-0cbf-63ee-dd3ebc805a8b", "title":"Games of the Week - Week 4", "filePath":"videos/2014/9/17/", "publishDate":"Wed, Sep 17 2014", "views":16498, "streams":[{"name":"High", "bitrate":1359872, "extension":"MP4", "width":576, "height":324}, {"name":"Low", "bitrate":643072, "extension":"MP4", "width":576, "height":324}, {"name":"Medium", "bitrate":950272, "extension":"MP4", "width":576, "height":324}], "thumbnailUrl":"http://www-video.maxpreps.com/videos/2014/9/17/b9ade520-2262-0cbf-63ee-dd3ebc805a8b_thumbnail.jpg", "userId":{"id":"3b45dd05-af38-41ef-abb9-de76c94c6416", "name":" "}, "duration":"4:51", "reviews":[0,0], "description":"Chris Stonebraker breaks down this week\u0027s Games of the Week."});
+vp.start();
+}});
+
+__js = new Element(s, {type:"text/javascript", async:true, src:"http://maxpreps.cbsistatic.com/includes/js/video/uvp_video-swfobject.compressed.20140124.js"});
+__head.appendChild(__js);
+});
+//]]>
+</script>
+</form>
+        
+        
+        
+    </body>
+</html>

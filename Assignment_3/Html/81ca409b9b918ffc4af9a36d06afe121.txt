@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        
+        <meta charset="utf-8">
+        <title>Finding a way</title>
+        
+        <meta name="description" content="The Game is On. Allons-y.">
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" href="http://31.media.tumblr.com/avatar_26386216a99c_128.png">
+        <link rel="apple-touch-icon-precomposed" href="http://31.media.tumblr.com/avatar_26386216a99c_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://twigty.tumblr.com/rss">
+        
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/qE8n2yg06/optica-icons.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/lu6nbykui/main.css">
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+            <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /* Colors */
+            body {
+                background: #644b74;
+            }
+
+            h1 {
+                font-family: 'Avalon', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+                font-weight: bold;
+            }
+
+            h1 a,
+            .description,
+            .search-header {
+                color: #000000;
+            }
+
+            .h-line {
+                background: #000000;
+            }
+
+            a {
+                color: #529ECC;
+            }
+            
+            #pagination a,
+            .exposed-nav-wrapper li a {
+                color: #529ECC;
+            }
+
+            #pagination a.next:after {
+                border-left-color: #529ECC;
+            }
+
+            #pagination a.previous:after {
+                border-right-color: #529ECC;
+            }
+
+            .loader .loader-bar {
+                background-color: #000000;
+            }
+
+            .link-wrapper h2 a {
+                background-color: #529ECC;
+            }
+            
+            .header-image.cover {
+                background-image: url(http://static.tumblr.com/9cacb6707e34792c9ac1dbbaa0661cd8/cwcvuko/tCwn5y6dt/tumblr_static_tumblr_static_5649smqpm84k8kowwgkk0gcs4_focused_v3.jpg);
+            }
+
+            .user-avatar {
+                background-color: #644b74;
+                border-color: #644b74;
+            }
+
+            .avatar-style-square .user-avatar {
+                -wekbit-box-shadow: 0 0 0 4px #644b74;
+                -moz-box-shadow: 0 0 0 4px #644b74;
+                box-shadow: 0 0 0 4px #644b74;
+            }
+            
+            .no-header-image .selector .bar-icon,
+            .contain-header-image .selector .bar-icon {
+                background: #529ECC;
+            }
+
+            .no-header-image .search-only .selector .icon,
+            .contain-header-image .search-only .selector .icon {
+                color: #529ECC;
+            }
+
+            /* Adjust menus for light accents on light backgrounds */
+            .light-on-light.no-header-image .selector .bar-icon,
+            .light-on-light.contain-header-image .selector .bar-icon {
+                background: #444;
+            }
+
+            .light-on-light.no-header-image .search-only .selector .icon,
+            .light-on-light.contain-header-image .search-only .selector .icon {
+                color: #444;
+            }
+
+            /* Adjust menus for dark accents on dark backgrounds */
+            .dark-on-dark.no-header-image .selector .bar-icon,
+            .dark-on-dark.contain-header-image .selector .bar-icon {
+                background: #fff;
+            }
+
+            .dark-on-dark.no-header-image .search-only .selector .icon,
+            .dark-on-dark.contain-header-image .search-only .selector .icon {
+                color: #fff;
+            }
+
+            @media screen and (max-device-width: 568px) {
+                .header-image.cover {
+                    background-image: url(http://static.tumblr.com/9cacb6707e34792c9ac1dbbaa0661cd8/cwcvuko/tCwn5y6dt/tumblr_static_tumblr_static_5649smqpm84k8kowwgkk0gcs4_640.jpg);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                .nav-menu-bg,
+                .nav-menu-wrapper .nav-menu.active:before,
+                .nav-menu .pop-menu ul {
+                    background: #644b74;
+                }
+
+                .nav-menu.active .selector .bar-icon,
+                .below-header .selector .bar-icon {
+                    background: #529ECC;
+                }
+
+                .nav-menu .pop-menu ul li a,
+                .below-header .search-only .selector .icon {
+                    color: #529ECC;
+                }
+                
+                /* Adjust menus for light accents on light backgrounds */
+                .light-on-light.below-header .nav-menu .selector .bar-icon,
+                .light-on-light.below-header .selector .bar-icon {
+                    background: #444;
+                }
+
+                .light-on-light .nav-menu .pop-menu ul li a,
+                .light-on-light.below-header .search-only .selector .icon {
+                    color: #444;
+                }
+                
+                /* Adjust menus for dark accents on dark backgrounds */
+                .dark-on-dark .nav-menu .selector .bar-icon,
+                .dark-on-dark .below-header .selector .bar-icon {
+                    background: #fff;
+                }
+
+                .dark-on-dark .nav-menu .pop-menu ul li a,
+                .dark-on-dark.below-header .search-only .selector .icon {
+                    color: #fff;
+                }
+
+                .avatar-style-square .user-avatar {
+                    -wekbit-box-shadow: 0 0 0 3px #644b74;
+                    -moz-box-shadow: 0 0 0 3px #644b74;
+                    box-shadow: 0 0 0 3px #644b74;
+                }
+
+            }
+
+            /* Custom CSS */
+            
+        </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=twigty" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/avalon/stylesheet.css?v=1">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="supernatural,Mumford and Sons,Paramore,Jensen Ackles,eye of the tiger" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Finding a way" /><meta property="og:url" content="http://twigty.tumblr.com/?og=1" /><meta property="og:description" content="The Game is On. Allons-y." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://31.media.tumblr.com/avatar_26386216a99c_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=twigty" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=twigty" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="twigty" /><meta name="twitter:description" content="                                                                The Game is On. Allons-y." /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=twigty&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=twigty&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=twigty&amp;referrer=twitter-cards" />
+
+</head>
+    <body data-urlencoded-name="twigty" class="regular index-page">
+        <section id="page">
+            <div class="nav-menu-wrapper ">
+                <nav class="nav-menu pop">
+                    <a class="selector">
+                        
+                            <div class="bar-icon-wrapper">
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                            </div>
+                        
+                        
+                    </a>
+                    <div class="pop-menu west">
+                        <ul>
+                            <li class="no-hover search">
+                                <form action="/search" method="get" id="search">
+                                    <input type="text" name="q" id="q" placeholder="Search" value="">
+                                    <button type="submit" class="icon-search_16"></button>
+                                </form>
+                            </li>
+                            
+                                <li>
+                                    <a href="/archive" class="archive">Archive <i class="icon-arrow_carrot_right"></i></a>
+                                </li>
+                                
+                                    <li>
+                                        <a href="/ask" class="ask">Ask me anything <i class="icon-arrow_carrot_right"></i></a>
+                                    </li>
+                                
+                                
+                                
+                            
+                        </ul>
+                    </div> 
+                </nav>
+                <div class="glass"></div>
+            </div>
+            
+            <div class="nav-menu-bg"></div>
+            
+            <div class="header-wrapper
+                
+                
+                
+                avatar-style-square">
+
+                <header id="header">
+                    
+                    <div class="header-image-wrapper ">
+                        <a href="/" class="header-image parallax cover " data-bg-image="http://static.tumblr.com/9cacb6707e34792c9ac1dbbaa0661cd8/cwcvuko/tCwn5y6dt/tumblr_static_tumblr_static_5649smqpm84k8kowwgkk0gcs4_focused_v3.jpg">
+                            
+                        </a>
+                        <div class="loader-bg"></div>
+                    </div>
+                    
+
+                    <div class="blog-title content">
+                        <figure class="avatar-wrapper animate">
+                            <a href="/" style="background-image: url(http://31.media.tumblr.com/avatar_26386216a99c_128.png)" class="user-avatar"><img src="http://31.media.tumblr.com/avatar_26386216a99c_128.png" alt="" class="print-only invisible"></a>
+                        </figure>
+
+                        <div class="title-group animate">
+                            
+                            <h1><a href="/">Finding a way</a></h1>
+                            
+                            
+                            <span class="description">
+                                The Game is On. Allons-y.
+                            </span>
+                            
+                        </div>
+                    </div>
+
+                    
+                </header>
+            </div>
+            
+            <section id="posts" class="content clearfix  avatar-style-square  ">
+    
+                <div data-page-id="1">
+                    
+                            <article class="text not-page post-98665808935 " data-post-id="post_98665808935">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p>I find it creepy when I see tumblr posts of episodes I&#8217;ve watched that day, when I know it&#8217;s is very unlikely they&#8217;ve been shown on tv, and even though I know it&#8217;s only coincidence I still feel a bit like I&#8217;m being watched O.O</p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                            
+                                            <section class="attribution-tags clearfix">
+                                                <ul>
+                                                    
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/creeped-out" class="tag">creeped out</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/it-happened-twice-today" class="tag">it happened twice today</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/being-watched" class="tag">being watched</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/supernatural" class="tag">supernatural</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/doctor-who" class="tag">doctor who</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/tv-shows" class="tag">tv shows</a>
+                                                        </li>
+                                                    
+                                                </ul>
+                                            </section>
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://twigty.tumblr.com/post/98665808935/i-find-it-creepy-when-i-see-tumblr-posts-of" title="1 day ago">Sep 28th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98665808935">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98665808935">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98665808935%2Fi-find-it-creepy-when-i-see-tumblr-posts-of&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=I%20find%20it%20creepy%20when%20I%20see%20tumblr%20posts%20of%20episodes%20I%E2%80%99ve%20watched%20that%20day%2C%20when%20I%20know%20it%E2%80%99s%20is%20very...%20http%3A%2F%2Ftmblr.co%2FZiwETn1RuyCGd" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20Finding%20a%20way&amp;body=I%20find%20it%20creepy%20when%20I%20see%20tumblr%20posts%20of%20episodes%20I%E2%80%99ve%20watched%20that%20day%2C%20when%20I%20know%20it%E2%80%99s%20is%20very%20unlikely%20they%E2%80%99ve%20been%20shown%20on%20tv%2C%20and%20even%20though%20I%20know%20it%E2%80%99s...%20http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98665808935%2Fi-find-it-creepy-when-i-see-tumblr-posts-of" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://twigty.tumblr.com/post/98665808935/i-find-it-creepy-when-i-see-tumblr-posts-of" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98665808935/qe8FA7M6" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98665808935" id="like_button_98665808935"><iframe id="like_iframe_98665808935" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=twigty&amp;post_id=98665808935&amp;color=black&amp;rk=qe8FA7M6" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-98659287020 " data-post-id="post_98659287020">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://fluffydragonite.tumblr.com/post/98658466666"><i class="icon-reblog"></i>fluffydragonite</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res" data-photo-width="484">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://fuzzy-pink-blanket.tumblr.com/"><img src="http://36.media.tumblr.com/tumblr_lul3qtG3HT1qijfhko1_1280.png" alt="" width="484" height="815"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://fluffydragonite.tumblr.com/post/98658466666"><i class="icon-reblog"></i>fluffydragonite</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://fierceblanket.tumblr.com/post/12725779176">Source: fierceblanket</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://twigty.tumblr.com/post/98659287020#notes">12,056 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://twigty.tumblr.com/post/98659287020" title="1 day ago">Sep 28th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98659287020">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98659287020">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98659287020&amp;t=Finding%20a%20way" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZiwETn1RuZJ-i" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Finding%20a%20way&amp;body=Photo%3A%20%20http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98659287020" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://twigty.tumblr.com/post/98659287020" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98659287020/TeV6RR7s" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98659287020" id="like_button_98659287020"><iframe id="like_iframe_98659287020" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=twigty&amp;post_id=98659287020&amp;color=black&amp;rk=TeV6RR7s" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="reblogged quote not-page post-98630965250 " data-post-id="post_98630965250">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://david-10inch.tumblr.com/post/98630061680/the-best-advice-ive-ever-received-is-no-one"><i class="icon-reblog"></i>david-10inch</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                        <blockquote class="short">
+                                            The best advice I’ve ever received is, ‘No one else knows what they’re doing either.
+                                        </blockquote>
+                                        
+                                        <div class="source"><a href="http://www.goodreads.com/author/show/220215.Ricky_Gervais">Ricky Gervais</a> (via <a class="tumblr_blog" href="http://unzo.tumblr.com/">unzo</a>)</div>
+                                        
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://david-10inch.tumblr.com/post/98630061680/the-best-advice-ive-ever-received-is-no-one"><i class="icon-reblog"></i>david-10inch</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://thatlitsite.com/post/94469154509/the-best-advice-ive-ever-received-is-no-one">Source: thatlitsite</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://twigty.tumblr.com/post/98630965250/the-best-advice-ive-ever-received-is-no-one#notes">72,518 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://twigty.tumblr.com/post/98630965250/the-best-advice-ive-ever-received-is-no-one" title="1 day ago">Sep 28th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98630965250">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98630965250">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98630965250%2Fthe-best-advice-ive-ever-received-is-no-one&amp;t=Finding%20a%20way" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=%22The%20best%20advice%20I%E2%80%99ve%20ever%20received%20is%2C%20%E2%80%98No%20one%20else%20knows%20what%20they%E2%80%99re%20doing%20either.%22%20-%20Ricky%20Gervais%20%28via...%20http%3A%2F%2Ftmblr.co%2FZiwETn1RstHW2" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20quote%20from%20Finding%20a%20way&amp;body=%22The%20best%20advice%20I%E2%80%99ve%20ever%20received%20is%2C%20%E2%80%98No%20one%20else%20knows%20what%20they%E2%80%99re%20doing%20either.%22%20-%20Ricky%20Gervais%20%28via%20unzo%29%20http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98630965250%2Fthe-best-advice-ive-ever-received-is-no-one" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://twigty.tumblr.com/post/98630965250/the-best-advice-ive-ever-received-is-no-one" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98630965250/b2TJf9cr" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98630965250" id="like_button_98630965250"><iframe id="like_iframe_98630965250" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=twigty&amp;post_id=98630965250&amp;color=black&amp;rk=b2TJf9cr" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text reblogged not-page post-98558737615 " data-post-id="post_98558737615">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://david-10inch.tumblr.com/post/98558598040/kalany-dear-followers-have-you-eaten"><i class="icon-reblog"></i>david-10inch</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p><a class="tumblr_blog" href="http://kalany.tumblr.com/post/92866526920/dear-followers-have-you-eaten-today-did-you">kalany</a>:</p>
+<blockquote>
+<p>Dear followers,</p>
+<ul><li>
+<p>have you eaten today?</p>
+</li>
+<li>
+<p>did you take any meds you need?</p>
+</li>
+<li>
+<p>how about hydration?</p>
+</li>
+<li>
+<p>maybe a nap if you need one</p>
+</li>
+<li>
+<p>you are awesome</p>
+</li>
+<li>
+<p>keep it up</p>
+</li>
+</ul></blockquote>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://david-10inch.tumblr.com/post/98558598040/kalany-dear-followers-have-you-eaten"><i class="icon-reblog"></i>david-10inch</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://kalany.tumblr.com/post/92866526920/dear-followers-have-you-eaten-today-did-you">Source: kalany</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://twigty.tumblr.com/post/98558737615/kalany-dear-followers-have-you-eaten#notes">89,188 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://twigty.tumblr.com/post/98558737615/kalany-dear-followers-have-you-eaten" title="2 days ago">Sep 27th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98558737615">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98558737615">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98558737615%2Fkalany-dear-followers-have-you-eaten&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=kalany%3A%20Dear%20followers%2C%20have%20you%20eaten%20today%3F%20did%20you%20take%20any%20meds%20you%20need%3F%20how%20about%20hydration%3F%20maybe%20a...%20http%3A%2F%2Ftmblr.co%2FZiwETn1RoZlpF" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20Finding%20a%20way&amp;body=kalany%3A%20Dear%20followers%2C%20have%20you%20eaten%20today%3F%20did%20you%20take%20any%20meds%20you%20need%3F%20how%20about%20hydration%3F%20maybe%20a%20nap%20if%20you%20need%20one%20you%20are%20awesome%20keep%20it%20up%20http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98558737615%2Fkalany-dear-followers-have-you-eaten" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://twigty.tumblr.com/post/98558737615/kalany-dear-followers-have-you-eaten" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98558737615/x8ZDVTrO" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98558737615" id="like_button_98558737615"><iframe id="like_iframe_98558737615" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=twigty&amp;post_id=98558737615&amp;color=black&amp;rk=x8ZDVTrO" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-98319420120 " data-post-id="post_98319420120">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p>I was tagged by dhillarearen for a random playlist! </p>
+<p>The rules; Put your music devise on shuffle and list the first 20 songs without skipping any!</p>
+<ol><li>Hopeless wanderer-Mumford and Sons</li>
+<li>Nelson&#8217;s county-Deaf Havana</li>
+<li>Little white lies-Deaf Havana</li>
+<li>Ignorance-Paramore</li>
+<li>Careful-Paramore</li>
+<li>Below my feet-Mumford and Sons</li>
+<li>Babel-Mumford and Sons</li>
+<li>Fifty Four-Deaf Havana</li>
+<li>Blank white page-Mumford and Sons</li>
+<li>Nearly witches-Panic! At the disco</li>
+<li>If today was your last day-Nickelback</li>
+<li>Lovers eyes-Mumford and Sons</li>
+<li>Rusty halo-The Script</li>
+<li>Awake my soul-Mumford and Sons</li>
+<li>Timshel-Mumford and Sons</li>
+<li>Anybody there-The Script</li>
+<li>Filthy rotten scoundrel (alternative)-Deaf Havana</li>
+<li>Breakeven-The Script</li>
+<li>Sigh no more-Mumford and Sons</li>
+<li>Mildred-Deaf Havana</li>
+</ol><p>My iPod was being quite select with it&#8217;s taste this evening!</p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                            
+                                            <section class="attribution-tags clearfix">
+                                                <ul>
+                                                    
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/music" class="tag">music</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/me" class="tag">me</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/Deaf-Havana" class="tag">Deaf Havana</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/Paramore" class="tag">Paramore</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/Mumford-and-Sons" class="tag">Mumford and Sons</a>
+                                                        </li>
+                                                    
+                                                </ul>
+                                            </section>
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://twigty.tumblr.com/post/98319420120/i-was-tagged-by-dhillarearen-for-a-random#notes">1 note</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://twigty.tumblr.com/post/98319420120/i-was-tagged-by-dhillarearen-for-a-random" title="5 days ago">Sep 24th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98319420120">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98319420120">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98319420120%2Fi-was-tagged-by-dhillarearen-for-a-random&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=I%20was%20tagged%20by%20dhillarearen%C2%A0for%20a%20random%20playlist%21%C2%A0%20The%20rules%3B%20Put%20your%20music%20devise%20on%20shuffle%20and%20list...%20http%3A%2F%2Ftmblr.co%2FZiwETn1RaIqhO" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20Finding%20a%20way&amp;body=I%20was%20tagged%20by%20dhillarearen%C2%A0for%20a%20random%20playlist%21%C2%A0%20The%20rules%3B%20Put%20your%20music%20devise%20on%20shuffle%20and%20list%20the%20first%2020%20songs%20without%20skipping%20any%21%20Hopeless...%20http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98319420120%2Fi-was-tagged-by-dhillarearen-for-a-random" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://twigty.tumblr.com/post/98319420120/i-was-tagged-by-dhillarearen-for-a-random" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98319420120/RVHtMpMl" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98319420120" id="like_button_98319420120"><iframe id="like_iframe_98319420120" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=twigty&amp;post_id=98319420120&amp;color=black&amp;rk=RVHtMpMl" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="video not-page post-98059306405 " data-post-id="post_98059306405">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                                                    
+                                        <figure class="with-caption">
+                                            <div class="video-wrapper">
+                                                <iframe width="700" height="524" src="https://www.youtube.com/embed/XTsxF47wx5M?feature=oembed" frameborder="0" allowfullscreen></iframe>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>Words cannot express how much I actually ADORE this ^_^</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                            
+                                            <section class="attribution-tags clearfix">
+                                                <ul>
+                                                    
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/Jensen-Ackles" class="tag">Jensen Ackles</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/supernatural" class="tag">supernatural</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/eye-of-the-tiger" class="tag">eye of the tiger</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/gag" class="tag">gag</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                            <a href="http://twigty.tumblr.com/tagged/giggles" class="tag">giggles</a>
+                                                        </li>
+                                                    
+                                                </ul>
+                                            </section>
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://twigty.tumblr.com/post/98059306405/words-cannot-express-how-much-i-actually-adore" title="1 week ago">Sep 21st, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98059306405">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98059306405">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98059306405%2Fwords-cannot-express-how-much-i-actually-adore&amp;t=Finding%20a%20way" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Video%3A%20Words%20cannot%20express%20how%20much%20I%20actually%20ADORE%20this%20%5E_%5E%20http%3A%2F%2Ftmblr.co%2FZiwETn1RKoaMb" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20video%20from%20Finding%20a%20way&amp;body=Video%3A%20Words%20cannot%20express%20how%20much%20I%20actually%20ADORE%20this%20%5E_%5E%20http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98059306405%2Fwords-cannot-express-how-much-i-actually-adore" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://twigty.tumblr.com/post/98059306405/words-cannot-express-how-much-i-actually-adore" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98059306405/0lOQTeg9" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98059306405" id="like_button_98059306405"><iframe id="like_iframe_98059306405" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=twigty&amp;post_id=98059306405&amp;color=black&amp;rk=0lOQTeg9" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-98044275920 " data-post-id="post_98044275920">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://david-10inch.tumblr.com/post/98044209775/tic-tac-scented-tree-a-message-from-a-friend-3"><i class="icon-reblog"></i>david-10inch</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset with-caption">
+                                            <div id="photoset_98044275920" class="html_photoset">    <iframe id="photoset_iframe_98044275920" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://twigty.tumblr.com/post/98044275920/photoset_iframe/twigty/tumblr_ml9nl9H4w61rlm4cy/0/false"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://tic-tac-scented-tree.tumblr.com/post/47991382412/a-message-from-a-friend-3">tic-tac-scented-tree</a>:</p>
+<blockquote>
+<p>A message from a friend~&lt;3</p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://david-10inch.tumblr.com/post/98044209775/tic-tac-scented-tree-a-message-from-a-friend-3"><i class="icon-reblog"></i>david-10inch</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://tic-tac-scented-tree.tumblr.com/post/47991382412/a-message-from-a-friend-3">Source: tic-tac-scented-tree</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://twigty.tumblr.com/post/98044275920/tic-tac-scented-tree-a-message-from-a-friend-3#notes">483,764 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://twigty.tumblr.com/post/98044275920/tic-tac-scented-tree-a-message-from-a-friend-3" title="1 week ago">Sep 21st, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98044275920">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98044275920">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98044275920%2Ftic-tac-scented-tree-a-message-from-a-friend-3&amp;t=Finding%20a%20way" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20tic-tac-scented-tree%3A%20A%20message%20from%20a%20friend~%20http%3A%2F%2Ftmblr.co%2FZiwETn1RJvEpG" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Finding%20a%20way&amp;body=Photoset%3A%20tic-tac-scented-tree%3A%20A%20message%20from%20a%20friend~%20http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F98044275920%2Ftic-tac-scented-tree-a-message-from-a-friend-3" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://twigty.tumblr.com/post/98044275920/tic-tac-scented-tree-a-message-from-a-friend-3" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98044275920/iTcRTHG6" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98044275920" id="like_button_98044275920"><iframe id="like_iframe_98044275920" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=twigty&amp;post_id=98044275920&amp;color=black&amp;rk=iTcRTHG6" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-97986694465 " data-post-id="post_97986694465">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://david-10inch.tumblr.com/post/97978898025/unfollovving-chusska-i-shaved-my-leg-feel"><i class="icon-reblog"></i>david-10inch</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="640">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://twigty.tumblr.com/image/97986694465"><img src="http://40.media.tumblr.com/d0fcf18d5eb5083bfebccf5eaaa8d9e9/tumblr_n35ia9A1761ra2u6go1_1280.jpg" alt="unfollovving:
+
+chusska:
+
+I shaved my leg. Feel how smooth it is!
+
+Nash Grier would be so happy
+" width="640" height="480"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p><a class="tumblr_blog" href="http://unfollovving.com/post/81141664893/chusska-i-shaved-my-leg-feel-how-smooth-it">unfollovving</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://chusska.tumblr.com/post/80976600652/i-shaved-my-leg-feel-how-smooth-it-is">chusska</a>:</p>
+<blockquote>
+<p>I shaved my leg. Feel how smooth it is!</p>
+</blockquote>
+<p>Nash Grier would be so happy</p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://david-10inch.tumblr.com/post/97978898025/unfollovving-chusska-i-shaved-my-leg-feel"><i class="icon-reblog"></i>david-10inch</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://chusska.tumblr.com/post/80976600652/i-shaved-my-leg-feel-how-smooth-it-is">Source: chusska</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://twigty.tumblr.com/post/97986694465/unfollovving-chusska-i-shaved-my-leg-feel#notes">106,329 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://twigty.tumblr.com/post/97986694465/unfollovving-chusska-i-shaved-my-leg-feel" title="1 week ago">Sep 20th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97986694465">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97986694465">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F97986694465%2Funfollovving-chusska-i-shaved-my-leg-feel&amp;t=Finding%20a%20way" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20unfollovving%3A%20chusska%3A%20I%20shaved%20my%20leg.%20Feel%20how%20smooth%20it%20is%21%20Nash%20Grier%20would%20be%20so%20happy%20http%3A%2F%2Ftmblr.co%2FZiwETn1RGTar1" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Finding%20a%20way&amp;body=Photo%3A%20unfollovving%3A%20chusska%3A%20I%20shaved%20my%20leg.%20Feel%20how%20smooth%20it%20is%21%20Nash%20Grier%20would%20be%20so%20happy%20http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F97986694465%2Funfollovving-chusska-i-shaved-my-leg-feel" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://twigty.tumblr.com/post/97986694465/unfollovving-chusska-i-shaved-my-leg-feel" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97986694465/MAJjhYLT" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97986694465" id="like_button_97986694465"><iframe id="like_iframe_97986694465" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=twigty&amp;post_id=97986694465&amp;color=black&amp;rk=MAJjhYLT" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo reblogged not-page post-97896961840 " data-post-id="post_97896961840">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://david-10inch.tumblr.com/post/97896363975"><i class="icon-reblog"></i>david-10inch</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="" data-photo-width="500">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <img src="http://33.media.tumblr.com/f22fc9c7057b6c044907bcd97d861738/tumblr_nar7wo1dOV1rol508o1_500.gif" alt="" width="500" height="625">
+                                                </div>
+                                            </div>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://david-10inch.tumblr.com/post/97896363975"><i class="icon-reblog"></i>david-10inch</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://unrealisticstory.tumblr.com/post/95537054416">Source: unrealisticstory</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://twigty.tumblr.com/post/97896961840#notes">296 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://twigty.tumblr.com/post/97896961840" title="1 week ago">Sep 19th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97896961840">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97896961840">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F97896961840&amp;t=Finding%20a%20way" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20%20http%3A%2F%2Ftmblr.co%2FZiwETn1RB7HSm" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Finding%20a%20way&amp;body=Photo%3A%20%20http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F97896961840" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://twigty.tumblr.com/post/97896961840" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97896961840/ZXYV61yE" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97896961840" id="like_button_97896961840"><iframe id="like_iframe_97896961840" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=twigty&amp;post_id=97896961840&amp;color=black&amp;rk=ZXYV61yE" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-97881231315 " data-post-id="post_97881231315">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://fuckyespetercapaldi.tumblr.com/post/97807152909/hugh-grant-and-peter-capaldi-in-the-lair-of-the"><i class="icon-reblog"></i>fuckyespetercapaldi</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset with-caption">
+                                            <div id="photoset_97881231315" class="html_photoset">    <iframe id="photoset_iframe_97881231315" class="photoset" scrolling="no" frameborder="0" height="18" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://twigty.tumblr.com/post/97881231315/photoset_iframe/twigty/tumblr_nc2zhrLEE51qdhps7/0/false"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <blockquote>
+<p><small><strong>Hugh Grant and Peter Capaldi</strong> in The Lair of the White Worm (1988)</small></p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://fuckyespetercapaldi.tumblr.com/post/97807152909/hugh-grant-and-peter-capaldi-in-the-lair-of-the"><i class="icon-reblog"></i>fuckyespetercapaldi</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://foxyfoxy.tumblr.com/post/97793388371">Source: foxyfoxy</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://twigty.tumblr.com/post/97881231315/hugh-grant-and-peter-capaldi-in-the-lair-of-the#notes">649 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://twigty.tumblr.com/post/97881231315/hugh-grant-and-peter-capaldi-in-the-lair-of-the" title="1 week ago">Sep 19th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97881231315">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97881231315">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F97881231315%2Fhugh-grant-and-peter-capaldi-in-the-lair-of-the&amp;t=Finding%20a%20way" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20Hugh%20Grant%20and%20Peter%20Capaldi%20in%20The%20Lair%20of%20the%20White%20Worm%20%281988%29%20http%3A%2F%2Ftmblr.co%2FZiwETn1RABG-J" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20Finding%20a%20way&amp;body=Photoset%3A%20Hugh%20Grant%20and%20Peter%20Capaldi%20in%20The%20Lair%20of%20the%20White%20Worm%20%281988%29%20http%3A%2F%2Ftwigty.tumblr.com%2Fpost%2F97881231315%2Fhugh-grant-and-peter-capaldi-in-the-lair-of-the" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://twigty.tumblr.com/post/97881231315/hugh-grant-and-peter-capaldi-in-the-lair-of-the" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97881231315/aCFSzSTr" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97881231315" id="like_button_97881231315"><iframe id="like_iframe_97881231315" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=twigty&amp;post_id=97881231315&amp;color=black&amp;rk=aCFSzSTr" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                </div>
+            </section>
+            <footer id="footer" class="content clearfix">
+                
+                    
+                    <div id="pagination">
+                        
+                        
+                        <a href="/page/2" class="next" data-current-page="1" data-total-pages="14">Next<span class="bg"></span></a>
+                        
+                        <div class="loader"><div class="loader-bar"></div><div class="loader-bar"></div><div class="loader-bar"></div></div>
+                    </div>
+                    
+                
+            </footer>
+        </section>
+        <script>
+            var Optica = {};
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.LAYOUT = "regular";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.TITLE_COLOR = "#000000";
+            Optica.ACCENT_COLOR = "#529ECC";
+            Optica.BACKGROUND_COLOR = "#644b74";
+            Optica.ENDLESS_NOTES_SCROLLING = true;
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vr9xgox/sBgmmjhyw/jquery-1.9.1.min.js"%3E%3C/script%3E'));</script>
+        <script src="http://static.tumblr.com/vr9xgox/Azhmnml1q/jquery.masonry.min.js"></script>
+        <script src="http://static.tumblr.com/wogenvz/kcyn7f6re/main-min.js"></script>
+
+        
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://twigty.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037967&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdHdpZ3R5LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=EPBLMIGOIA&K=b1af58a5b63785b8a3f20e17607a3f0ba5fc72d0560c18ae6b937307339e0e8c&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037967&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdHdpZ3R5LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=EPBLMIGOIA&K=e31b77ccedf748b0cecf7317b6f91808c4994b3999d2aad8987113721487282e&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037967&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3R3aWd0eS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijk4NjY1ODA4OTM1IiwiYmxvZ2lkIjoiMTg2ODMxNTA0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2NDQxMTEzIiwicm9vdF9wb3N0aWQiOiIxMjcyNTc3OTE3NiIsInBvc3RpZCI6Ijk4NjU5Mjg3MDIwIiwiYmxvZ2lkIjoiMTg2ODMxNTA0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk4NDc2MTQyIiwicm9vdF9wb3N0aWQiOiI5NDQ2OTE1NDUwOSIsInBvc3RpZCI6Ijk4NjMwOTY1MjUwIiwiYmxvZ2lkIjoiMTg2ODMxNTA0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2NDgyNTAiLCJyb290X3Bvc3RpZCI6IjkyODY2NTI2OTIwIiwicG9zdGlkIjoiOTg1NTg3Mzc2MTUiLCJibG9naWQiOiIxODY4MzE1MDQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk4MzE5NDIwMTIwIiwiYmxvZ2lkIjoiMTg2ODMxNTA0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODA1OTMwNjQwNSIsImJsb2dpZCI6IjE4NjgzMTUwNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4MjA1NDgwOSIsInJvb3RfcG9zdGlkIjoiNDc5OTEzODI0MTIiLCJwb3N0aWQiOiI5ODA0NDI3NTkyMCIsImJsb2dpZCI6IjE4NjgzMTUwNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2MjA1NTU1NyIsInJvb3RfcG9zdGlkIjoiODA5NzY2MDA2NTIiLCJwb3N0aWQiOiI5Nzk4NjY5NDQ2NSIsImJsb2dpZCI6IjE4NjgzMTUwNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0MzM3NzM2OCIsInJvb3RfcG9zdGlkIjoiOTU1MzcwNTQ0MTYiLCJwb3N0aWQiOiI5Nzg5Njk2MTg0MCIsImJsb2dpZCI6IjE4NjgzMTUwNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3OTI4NDE5Iiwicm9vdF9wb3N0aWQiOiI5Nzc5MzM4ODM3MSIsInBvc3RpZCI6Ijk3ODgxMjMxMzE1IiwiYmxvZ2lkIjoiMTg2ODMxNTA0Iiwic291cmNlIjozM31dfQ==&U=LJAAKFJHIJ&K=7657ead4d5da159137ff4e08e4a75a35dc9afa29fc2c247851d3469d56561d22&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037967&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3R3aWd0eS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijk4NjY1ODA4OTM1IiwiYmxvZ2lkIjoiMTg2ODMxNTA0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2NDQxMTEzIiwicm9vdF9wb3N0aWQiOiIxMjcyNTc3OTE3NiIsInBvc3RpZCI6Ijk4NjU5Mjg3MDIwIiwiYmxvZ2lkIjoiMTg2ODMxNTA0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk4NDc2MTQyIiwicm9vdF9wb3N0aWQiOiI5NDQ2OTE1NDUwOSIsInBvc3RpZCI6Ijk4NjMwOTY1MjUwIiwiYmxvZ2lkIjoiMTg2ODMxNTA0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2NDgyNTAiLCJyb290X3Bvc3RpZCI6IjkyODY2NTI2OTIwIiwicG9zdGlkIjoiOTg1NTg3Mzc2MTUiLCJibG9naWQiOiIxODY4MzE1MDQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk4MzE5NDIwMTIwIiwiYmxvZ2lkIjoiMTg2ODMxNTA0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODA1OTMwNjQwNSIsImJsb2dpZCI6IjE4NjgzMTUwNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4MjA1NDgwOSIsInJvb3RfcG9zdGlkIjoiNDc5OTEzODI0MTIiLCJwb3N0aWQiOiI5ODA0NDI3NTkyMCIsImJsb2dpZCI6IjE4NjgzMTUwNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2MjA1NTU1NyIsInJvb3RfcG9zdGlkIjoiODA5NzY2MDA2NTIiLCJwb3N0aWQiOiI5Nzk4NjY5NDQ2NSIsImJsb2dpZCI6IjE4NjgzMTUwNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0MzM3NzM2OCIsInJvb3RfcG9zdGlkIjoiOTU1MzcwNTQ0MTYiLCJwb3N0aWQiOiI5Nzg5Njk2MTg0MCIsImJsb2dpZCI6IjE4NjgzMTUwNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3OTI4NDE5Iiwicm9vdF9wb3N0aWQiOiI5Nzc5MzM4ODM3MSIsInBvc3RpZCI6Ijk3ODgxMjMxMzE1IiwiYmxvZ2lkIjoiMTg2ODMxNTA0Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=LJAAKFJHIJ&K=dcc11e98dbaeafc84efb05894b580cd4ac963dedb48f3e1704171a9d07cf89df&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:186831504,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Ftwigty.tumblr.com%2F&amp;lang=en_US&amp;name=twigty&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_26386216a99c_64.png&amp;title=Finding+a+way&amp;url=http%3A%2F%2Ftwigty.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Ftwigty.tumblr.com%2F&amp;lang=en_US&amp;name=twigty&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_26386216a99c_64.png&amp;title=Finding+a+way&amp;url=http%3A%2F%2Ftwigty.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

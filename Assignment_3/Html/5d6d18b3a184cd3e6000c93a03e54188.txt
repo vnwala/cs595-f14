@@ -1,0 +1,1429 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<title>Cancer Support Community Greater Miami</title>
+<meta name="keywords" content="Greater Miami, Cancer Support Community, cancer, cancer support, mind body programs, heart & star, heart & star award dinner ">
+<link href="cscgm.css" rel="stylesheet" type="text/css" />
+<head>
+</link>
+<link rel="shortcut icon" href="/favicon.ico" >
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.cycle.all.latest.js"></script>
+
+<SCRIPT TYPE="text/javascript">
+<!--
+function slide(src,link,text,target,attr) {
+  // This is the constructor function for the slide object.
+  // It is called automatically when you create a new slide object.
+  // For example:
+  // s = new slide();
+
+  // Image URL
+  this.src = src;
+
+  // Link URL
+  this.link = link;
+
+  // Text to display
+  this.text = text;
+
+  // Name of the target window ("_blank")
+  this.target = target;
+
+  // Custom duration for the slide, in milliseconds.
+  // This is an optional parameter.
+  // this.timeout = 3000
+
+  // Attributes for the target window:
+  // width=n,height=n,resizable=yes or no,scrollbars=yes or no,
+  // toolbar=yes or no,location=yes or no,directories=yes or no,
+  // status=yes or no,menubar=yes or no,copyhistory=yes or no
+  // Example: "width=200,height=300"
+  this.attr = attr;
+
+  // Create an image object for the slide
+  if (document.images) {
+    this.image = new Image();
+  }
+
+  // Flag to tell when load() has already been called
+  this.loaded = false;
+
+  //--------------------------------------------------
+  this.load = function() {
+    // This method loads the image for the slide
+
+    if (!document.images) { return; }
+
+    if (!this.loaded) {
+      this.image.src = this.src;
+      this.loaded = true;
+    }
+  }
+
+  //--------------------------------------------------
+  this.hotlink = function() {
+    // This method jumps to the slide's link.
+    // If a window was specified for the slide, then it opens a new window.
+
+    var mywindow;
+
+    // If this slide does not have a link, do nothing
+    if (!this.link) return;
+
+    // Open the link in a separate window?
+    if (this.target) {
+
+      // If window attributes are specified,
+      // use them to open the new window
+      if (this.attr) {
+        mywindow = window.open(this.link, this.target, this.attr);
+  
+      } else {
+        // If window attributes are not specified, do not use them
+        // (this will copy the attributes from the originating window)
+        mywindow = window.open(this.link, this.target);
+      }
+
+      // Pop the window to the front
+      if (mywindow && mywindow.focus) mywindow.focus();
+
+    } else {
+      // Open the link in the current window
+      location.href = this.link;
+    }
+  }
+}
+
+function slideshow( slideshowname ) {
+  // This is the constructor function for the slideshow object.
+  // It is called automatically when you create a new object.
+  // For example:
+  // ss = new slideshow("ss");
+
+  // Name of this object
+  // (required if you want your slideshow to auto-play)
+  // For example, "SLIDES1"
+  this.name = slideshowname;
+
+  // When we reach the last slide, should we loop around to start the
+  // slideshow again?
+  this.repeat = true;
+
+  // Number of images to pre-fetch.
+  // -1 = preload all images.
+  //  0 = load each image is it is used.
+  //  n = pre-fetch n images ahead of the current image.
+  // I recommend preloading all images unless you have large
+  // images, or a large amount of images.
+  this.prefetch = -1;
+
+  // IMAGE element on your HTML page.
+  // For example, document.images.SLIDES1IMG
+  this.image;
+
+  // ID of a DIV element on your HTML page that will contain the text.
+  // For example, "slides2text"
+  // Note: after you set this variable, you should call
+  // the update() method to update the slideshow display.
+  this.textid;
+
+  // TEXTAREA element on your HTML page.
+  // For example, document.SLIDES1FORM.SLIDES1TEXT
+  // This is a depracated method for displaying the text,
+  // but you might want to supply it for older browsers.
+  this.textarea;
+
+  // Milliseconds to pause between slides.
+  // Individual slides can override this.
+  this.timeout = 3000;
+
+  // Hook functions to be called before and after updating the slide
+  // this.pre_update_hook = function() { }
+  // this.post_update_hook = function() { }
+
+  // These are private variables
+  this.slides = new Array();
+  this.current = 0;
+  this.timeoutid = 0;
+
+  //--------------------------------------------------
+  // Public methods
+  //--------------------------------------------------
+  this.add_slide = function(slide) {
+    // Add a slide to the slideshow.
+    // For example:
+    // SLIDES1.add_slide(new slide("s1.jpg", "link.html"))
+  
+    var i = this.slides.length;
+  
+    // Prefetch the slide image if necessary
+    if (this.prefetch == -1) {
+      slide.load();
+    }
+
+    this.slides[i] = slide;
+  }
+
+  //--------------------------------------------------
+  this.play = function(timeout) {
+    // This method implements the automatically running slideshow.
+    // If you specify the "timeout" argument, then a new default
+    // timeout will be set for the slideshow.
+  
+    // Make sure we're not already playing
+    this.pause();
+  
+    // If the timeout argument was specified (optional)
+    // then make it the new default
+    if (timeout) {
+      this.timeout = timeout;
+    }
+  
+    // If the current slide has a custom timeout, use it;
+    // otherwise use the default timeout
+    if (typeof this.slides[ this.current ].timeout != 'undefined') {
+      timeout = this.slides[ this.current ].timeout;
+    } else {
+      timeout = this.timeout;
+    }
+
+    // After the timeout, call this.loop()
+    this.timeoutid = setTimeout( this.name + ".loop()", timeout);
+  }
+
+  //--------------------------------------------------
+  this.pause = function() {
+    // This method stops the slideshow if it is automatically running.
+  
+    if (this.timeoutid != 0) {
+
+      clearTimeout(this.timeoutid);
+      this.timeoutid = 0;
+
+    }
+  }
+
+  //--------------------------------------------------
+  this.update = function() {
+    // This method updates the slideshow image on the page
+
+    // Make sure the slideshow has been initialized correctly
+    if (! this.valid_image()) { return; }
+  
+    // Call the pre-update hook function if one was specified
+    if (typeof this.pre_update_hook == 'function') {
+      this.pre_update_hook();
+    }
+
+    // Convenience variable for the current slide
+    var slide = this.slides[ this.current ];
+
+    // Determine if the browser supports filters
+    var dofilter = false;
+    if (this.image &&
+        typeof this.image.filters != 'undefined' &&
+        typeof this.image.filters[0] != 'undefined') {
+
+      dofilter = true;
+
+    }
+
+    // Load the slide image if necessary
+    slide.load();
+  
+    // Apply the filters for the image transition
+    if (dofilter) {
+
+      // If the user has specified a custom filter for this slide,
+      // then set it now
+      if (slide.filter &&
+          this.image.style &&
+          this.image.style.filter) {
+
+        this.image.style.filter = slide.filter;
+
+      }
+      this.image.filters[0].Apply();
+    }
+
+    // Update the image.
+    this.image.src = slide.image.src;
+
+    // Play the image transition filters
+    if (dofilter) {
+      this.image.filters[0].Play();
+    }
+
+    // Update the text
+    this.display_text();
+
+    // Call the post-update hook function if one was specified
+    if (typeof this.post_update_hook == 'function') {
+      this.post_update_hook();
+    }
+
+    // Do we need to pre-fetch images?
+    if (this.prefetch > 0) {
+
+      var next, prev, count;
+
+      // Pre-fetch the next slide image(s)
+      next = this.current;
+      prev = this.current;
+      count = 0;
+      do {
+
+        // Get the next and previous slide number
+        // Loop past the ends of the slideshow if necessary
+        if (++next >= this.slides.length) next = 0;
+        if (--prev < 0) prev = this.slides.length - 1;
+
+        // Preload the slide image
+        this.slides[next].load();
+        this.slides[prev].load();
+
+        // Keep going until we have fetched
+        // the designated number of slides
+
+      } while (++count < this.prefetch);
+    }
+  }
+
+  //--------------------------------------------------
+  this.goto_slide = function(n) {
+    // This method jumpts to the slide number you specify.
+    // If you use slide number -1, then it jumps to the last slide.
+    // You can use this to make links that go to a specific slide,
+    // or to go to the beginning or end of the slideshow.
+    // Examples:
+    // onClick="myslides.goto_slide(0)"
+    // onClick="myslides.goto_slide(-1)"
+    // onClick="myslides.goto_slide(5)"
+  
+    if (n == -1) {
+      n = this.slides.length - 1;
+    }
+  
+    if (n < this.slides.length && n >= 0) {
+      this.current = n;
+    }
+  
+    this.update();
+  }
+
+
+  //--------------------------------------------------
+  this.goto_random_slide = function(include_current) {
+    // Picks a random slide (other than the current slide) and
+    // displays it.
+    // If the include_current parameter is true,
+    // then 
+    // See also: shuffle()
+
+    var i;
+
+    // Make sure there is more than one slide
+    if (this.slides.length > 1) {
+
+      // Generate a random slide number,
+      // but make sure it is not the current slide
+      do {
+        i = Math.floor(Math.random()*this.slides.length);
+      } while (i == this.current);
+ 
+      // Display the slide
+      this.goto_slide(i);
+    }
+  }
+
+
+  //--------------------------------------------------
+  this.next = function() {
+    // This method advances to the next slide.
+
+    // Increment the image number
+    if (this.current < this.slides.length - 1) {
+      this.current++;
+    } else if (this.repeat) {
+      this.current = 0;
+    }
+
+    this.update();
+  }
+
+
+  //--------------------------------------------------
+  this.previous = function() {
+    // This method goes to the previous slide.
+  
+    // Decrement the image number
+    if (this.current > 0) {
+      this.current--;
+    } else if (this.repeat) {
+      this.current = this.slides.length - 1;
+    }
+  
+    this.update();
+  }
+
+
+  //--------------------------------------------------
+  this.shuffle = function() {
+    // This method randomly shuffles the order of the slides.
+
+    var i, i2, slides_copy, slides_randomized;
+
+    // Create a copy of the array containing the slides
+    // in sequential order
+    slides_copy = new Array();
+    for (i = 0; i < this.slides.length; i++) {
+      slides_copy[i] = this.slides[i];
+    }
+
+    // Create a new array to contain the slides in random order
+    slides_randomized = new Array();
+
+    // To populate the new array of slides in random order,
+    // loop through the existing slides, picking a random
+    // slide, removing it from the ordered list and adding it to
+    // the random list.
+
+    do {
+
+      // Pick a random slide from those that remain
+      i = Math.floor(Math.random()*slides_copy.length);
+
+      // Add the slide to the end of the randomized array
+      slides_randomized[ slides_randomized.length ] =
+        slides_copy[i];
+
+      // Remove the slide from the sequential array,
+      // so it cannot be chosen again
+      for (i2 = i + 1; i2 < slides_copy.length; i2++) {
+        slides_copy[i2 - 1] = slides_copy[i2];
+      }
+      slides_copy.length--;
+
+      // Keep going until we have removed all the slides
+
+    } while (slides_copy.length);
+
+    // Now set the slides to the randomized array
+    this.slides = slides_randomized;
+  }
+
+
+  //--------------------------------------------------
+  this.get_text = function() {
+    // This method returns the text of the current slide
+  
+    return(this.slides[ this.current ].text);
+  }
+
+
+  //--------------------------------------------------
+  this.get_all_text = function(before_slide, after_slide) {
+    // Return the text for all of the slides.
+    // For the text of each slide, add "before_slide" in front of the
+    // text, and "after_slide" after the text.
+    // For example:
+    // document.write("<ul>");
+    // document.write(s.get_all_text("<li>","\n"));
+    // document.write("<\/ul>");
+  
+    all_text = "";
+  
+    // Loop through all the slides in the slideshow
+    for (i=0; i < this.slides.length; i++) {
+  
+      slide = this.slides[i];
+    
+      if (slide.text) {
+        all_text += before_slide + slide.text + after_slide;
+      }
+  
+    }
+  
+    return(all_text);
+  }
+
+
+  //--------------------------------------------------
+  this.display_text = function(text) {
+    // Display the text for the current slide
+  
+    // If the "text" arg was not supplied (usually it isn't),
+    // get the text from the slideshow
+    if (!text) {
+      text = this.slides[ this.current ].text;
+    }
+  
+    // If a textarea has been specified,
+    // then change the text displayed in it
+    if (this.textarea && typeof this.textarea.value != 'undefined') {
+      this.textarea.value = text;
+    }
+
+    // If a text id has been specified,
+    // then change the contents of the HTML element
+    if (this.textid) {
+
+      r = this.getElementById(this.textid);
+      if (!r) { return false; }
+      if (typeof r.innerHTML == 'undefined') { return false; }
+
+      // Update the text
+      r.innerHTML = text;
+    }
+  }
+
+
+  //--------------------------------------------------
+  this.hotlink = function() {
+    // This method calls the hotlink() method for the current slide.
+  
+    this.slides[ this.current ].hotlink();
+  }
+
+
+  //--------------------------------------------------
+  this.save_position = function(cookiename) {
+    // Saves the position of the slideshow in a cookie,
+    // so when you return to this page, the position in the slideshow
+    // won't be lost.
+  
+    if (!cookiename) {
+      cookiename = this.name + '_slideshow';
+    }
+  
+    document.cookie = cookiename + '=' + this.current;
+  }
+
+
+  //--------------------------------------------------
+  this.restore_position = function(cookiename) {
+  // If you previously called slideshow_save_position(),
+  // returns the slideshow to the previous state.
+  
+    //Get cookie code by Shelley Powers
+  
+    if (!cookiename) {
+      cookiename = this.name + '_slideshow';
+    }
+  
+    var search = cookiename + "=";
+  
+    if (document.cookie.length > 0) {
+      offset = document.cookie.indexOf(search);
+      // if cookie exists
+      if (offset != -1) { 
+        offset += search.length;
+        // set index of beginning of value
+        end = document.cookie.indexOf(";", offset);
+        // set index of end of cookie value
+        if (end == -1) end = document.cookie.length;
+        this.current = parseInt(unescape(document.cookie.substring(offset, end)));
+        }
+     }
+  }
+
+
+  //--------------------------------------------------
+  this.noscript = function() {
+    // This method is not for use as part of your slideshow,
+    // but you can call it to get a plain HTML version of the slideshow
+    // images and text.
+    // You should copy the HTML and put it within a NOSCRIPT element, to
+    // give non-javascript browsers access to your slideshow information.
+    // This also ensures that your slideshow text and images are indexed
+    // by search engines.
+  
+    $html = "\n";
+  
+    // Loop through all the slides in the slideshow
+    for (i=0; i < this.slides.length; i++) {
+  
+      slide = this.slides[i];
+  
+      $html += '<P>';
+  
+      if (slide.link) {
+        $html += '<a href="' + slide.link + '">';
+      }
+  
+      $html += '<img src="' + slide.src + '" ALT="slideshow image">';
+  
+      if (slide.link) {
+        $html += "<\/a>";
+      }
+  
+      if (slide.text) {
+        $html += "<BR>\n" + slide.text;
+      }
+  
+      $html += "<\/P>" + "\n\n";
+    }
+  
+    // Make the HTML browser-safe
+    $html = $html.replace(/\&/g, "&amp;" );
+    $html = $html.replace(/</g, "&lt;" );
+    $html = $html.replace(/>/g, "&gt;" );
+  
+    return('<pre>' + $html + '</pre>');
+  }
+
+
+  //==================================================
+  // Private methods
+  //==================================================
+
+  //--------------------------------------------------
+  this.loop = function() {
+    // This method is for internal use only.
+    // This method gets called automatically by a JavaScript timeout.
+    // It advances to the next slide, then sets the next timeout.
+    // If the next slide image has not completed loading yet,
+    // then do not advance to the next slide yet.
+
+    // Make sure the next slide image has finished loading
+    if (this.current < this.slides.length - 1) {
+      next_slide = this.slides[this.current + 1];
+      if (next_slide.image.complete == null || next_slide.image.complete) {
+        this.next();
+      }
+    } else { // we're at the last slide
+      this.next();
+    }
+    
+    // Keep playing the slideshow
+    this.play( );
+  }
+
+
+  //--------------------------------------------------
+  this.valid_image = function() {
+    // Returns 1 if a valid image has been set for the slideshow
+  
+    if (!this.image)
+    {
+      return false;
+    }
+    else {
+      return true;
+    }
+  }
+
+  //--------------------------------------------------
+  this.getElementById = function(element_id) {
+    // This method returns the element corresponding to the id
+
+    if (document.getElementById) {
+      return document.getElementById(element_id);
+    }
+    else if (document.all) {
+      return document.all[element_id];
+    }
+    else if (document.layers) {
+      return document.layers[element_id];
+    } else {
+      return undefined;
+    }
+  }
+  
+
+  //==================================================
+  // Deprecated methods
+  // I don't recommend the use of the following methods,
+  // but they are included for backward compatibility.
+  // You can delete them if you don't need them.
+  //==================================================
+
+  //--------------------------------------------------
+  this.set_image = function(imageobject) {
+    // This method is deprecated; you should use
+    // the following code instead:
+    // s.image = document.images.myimagename;
+    // s.update();
+
+    if (!document.images)
+      return;
+    this.image = imageobject;
+  }
+
+  //--------------------------------------------------
+  this.set_textarea = function(textareaobject) {
+    // This method is deprecated; you should use
+    // the following code instead:
+    // s.textarea = document.form.textareaname;
+    // s.update();
+
+    this.textarea = textareaobject;
+    this.display_text();
+  }
+
+  //--------------------------------------------------
+  this.set_textid = function(textidstr) {
+    // This method is deprecated; you should use
+    // the following code instead:
+    // s.textid = "mytextid";
+    // s.update();
+
+    this.textid = textidstr;
+    this.display_text();
+  }
+}
+
+//-->
+</SCRIPT>
+
+<SCRIPT TYPE="text/javascript">
+<!--
+
+SLIDES = new slideshow("SLIDES");
+SLIDES.timeout = 5000;
+SLIDES.prefetch = -1;
+SLIDES.repeat = true;
+
+s = new slide();
+s.src =  "http://cancersupportcommunitymiami.org/graphics/sponsor1.png";
+s.text = unescape("");
+s.link = "http://www.komenmiaftl.org";
+s.target = "_blank";
+s.attr = "";
+s.filter = "";
+SLIDES.add_slide(s);
+
+s = new slide();
+s.src =  "http://cancersupportcommunitymiami.org/graphics/sponsor10.png";
+s.text = unescape("");
+s.link = "http://www.macfound.org/";
+s.target = "_blank";
+s.attr = "";
+s.filter = "";
+SLIDES.add_slide(s);
+
+
+s = new slide();
+s.src =  "http://cancersupportcommunitymiami.org/graphics/sponsor2.png";
+s.text = unescape("");
+s.link = "http://www.peacockfoundationinc.org";
+s.target = "_blank";
+s.attr = "";
+s.filter = "";
+SLIDES.add_slide(s);
+
+s = new slide();
+s.src =  "http://cancersupportcommunitymiami.org/graphics/sponsor3.png";
+s.text = unescape("");
+s.link = "http://www.baptisthealth.net/en/Pages/home.aspx";
+s.target = "_blank";
+s.attr = "";
+s.filter = "";
+SLIDES.add_slide(s);
+
+s = new slide();
+s.src =  "http://cancersupportcommunitymiami.org/graphics/sponsor4.png";
+s.text = unescape("");
+s.link = "http://www.carnival.com/cms/carnivalfoundation/community_partners.aspx";
+s.target = "_blank";
+s.attr = "";
+s.filter = "";
+SLIDES.add_slide(s);
+
+s = new slide();
+s.src =  "http://cancersupportcommunitymiami.org/graphics/sponsor6.png";
+s.text = unescape("");
+s.link = "http://www.millennium.com";
+s.target = "_blank";
+s.attr = "";
+s.filter = "";
+SLIDES.add_slide(s);
+
+s = new slide();
+s.src =  "http://cancersupportcommunitymiami.org/graphics/sponsor8.png";
+s.text = unescape("");
+s.link = "http://www.pery.com";
+s.target = "_blank";
+s.attr = "";
+s.filter = "";
+SLIDES.add_slide(s);
+
+s = new slide();
+s.src =  "http://cancersupportcommunitymiami.org/graphics/sponsor13.png";
+s.text = unescape("");
+s.link = "http://sylvester.org/";
+s.target = "_blank";
+s.attr = "";
+s.filter = "";
+SLIDES.add_slide(s);
+if (false) SLIDES.shuffle();
+
+s = new slide();
+s.src =  "http://cancersupportcommunitymiami.org/graphics/sponsor12.png";
+s.text = unescape("");
+s.link = "http://www.sharpgc.com/";
+s.target = "_blank";
+s.attr = "";
+s.filter = "";
+SLIDES.add_slide(s);
+if (false) SLIDES.shuffle();
+
+//-->
+</SCRIPT>
+
+</head>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.ss1').cycle({
+		fx: 'turnLeft',
+		speed:  5500  
+	});
+});
+
+
+$('#ss1').cycle({     
+fx:     'turnLeft',     
+speed:   500,     
+timeout: 4000,     
+next:   '#ss1',     
+pause:   1 });
+
+$(document).ready(function() {
+    $('.ss2').cycle({
+		fx: 'fade',
+		speed:  5500  
+	});
+});
+
+
+$('#ss2').cycle({     
+fx:     'fade',     
+speed:   500,     
+timeout: 4000,     
+next:   '#ss2',     
+pause:   1 });
+
+$(document).ready(function() {
+    $('.ss3').cycle({
+		fx: 'turnRight',
+		speed:  5500  
+	});
+});
+
+$('#ss3').cycle({     
+fx:     'turnRight',     
+speed:   500,     
+timeout: 4000,     
+next:   '#ss3',     
+pause:   1 });
+
+$(document).ready(function() {
+    $('.ss4').cycle({
+		fx: 'turnRight',
+		speed:  5500  
+	});
+});
+
+$('#ss4').cycle({     
+fx:     'turnRight',     
+speed:   500,     
+timeout: 4000,     
+next:   '#ss4',     
+pause:   1 });
+</script>
+
+<body>
+<div align="center">
+<table border="0" cellspacing="0" cellpadding="0">
+
+  <tbody>
+  
+  <tr>
+    <td bgcolor="#999999" valign="middle" width="280" align="left"><a  
+      href="http://cancersupportcommunitymiami.org/espanol/index.htm"><img 
+      border=0 src="http://cancersupportcommunitymiami.org/graphics/espanol.gif" 
+      width=91 height=20 style="margin-left:2px"></a><img border="0" 
+      src="http://cancersupportcommunitymiami.org/graphics/utility-slash.gif" 
+      width=9 height=20><a  
+      href="http://cancersupportcommunitymiami.org/kreyol.htm"><img 
+      border=0 src="http://cancersupportcommunitymiami.org/graphics/kreyol.gif" 
+      width=82 height=20></a></td>
+    
+    <td bgcolor="#999999" valign="middle" width="700" align="right"><img border="0" 
+      src="http://cancersupportcommunitymiami.org/graphics/utility-home.gif" 
+      width=42 height=20></a><img border="0" 
+      src="http://cancersupportcommunitymiami.org/graphics/utility-slash.gif" 
+      width=9 height=20><a 
+      href="http://cancersupportcommunitymiami.org/faq.htm"><img border="0" 
+      src="http://cancersupportcommunitymiami.org/graphics/utility-help.gif" 
+      width=33 height=20></a><img border="0" 
+      src="http://cancersupportcommunitymiami.org/graphics/utility-slash.gif" 
+      width=9 height=20><a href="http://www.cancersupportcommunity.org" 
+      target=_blank><img border="0" 
+      src="http://cancersupportcommunitymiami.org/graphics/utility-national.gif" 
+      width=124 height=20></a>&nbsp; </td>
+  </tr></tbody></table>
+
+<div id="wrapper"><tr>
+<link href="http://cancersupportcommunitymiami.org/menu-style.css" rel="stylesheet" />
+
+<script language="JavaScript">
+<!-- hide this script from non-javascript-enabled browsers
+if (document.images) {
+Ibuttons01 = new Image(187, 24);Ibuttons01.src = 'http://cancersupportcommunitymiami.org/graphics/about.gif';
+Ibuttons01o = new Image(187, 24);Ibuttons01o.src = 'http://cancersupportcommunitymiami.org/graphics/wabout.gif';
+Ibuttons02 = new Image(187, 24);Ibuttons02.src = 'http://cancersupportcommunitymiami.org/graphics/adult.gif';
+Ibuttons02o = new Image(187, 24);Ibuttons02o.src = 'http://cancersupportcommunitymiami.org/graphics/wadult.gif';
+Ibuttons03 = new Image(187, 24);Ibuttons03.src = 'http://cancersupportcommunitymiami.org/graphics/bcalendar.gif';
+Ibuttons03o = new Image(187, 24);Ibuttons03o.src = 'http://cancersupportcommunitymiami.org/graphics/wcalendar.gif';
+Ibuttons04 = new Image(187, 24);Ibuttons04.src = 'http://cancersupportcommunitymiami.org/graphics/sprograms.gif';
+Ibuttons04o = new Image(187, 24);Ibuttons04o.src = 'http://cancersupportcommunitymiami.org/graphics/wsprograms.gif';
+Ibuttons05 = new Image(187, 24);Ibuttons05.src = 'http://cancersupportcommunitymiami.org/graphics/bspevents.gif';
+Ibuttons05o = new Image(187, 24);Ibuttons05o.src = 'http://cancersupportcommunitymiami.org/graphics/wspevents.gif';
+Ibuttons06 = new Image(187, 24);Ibuttons06.src = 'http://cancersupportcommunitymiami.org/graphics/bgiving.png';
+Ibuttons06o = new Image(187, 24);Ibuttons06o.src = 'http://cancersupportcommunitymiami.org/graphics/wgiving.png';
+Ibuttons07 = new Image(187, 24);Ibuttons07.src = 'http://cancersupportcommunitymiami.org/graphics/directions.gif';
+Ibuttons07o = new Image(187, 24);Ibuttons07o.src = 'http://cancersupportcommunitymiami.org/graphics/wdirections.gif';
+Ibuttons08 = new Image(187, 24);Ibuttons08.src = 'http://cancersupportcommunitymiami.org/graphics/howhelp1.gif';
+Ibuttons08o = new Image(187, 24);Ibuttons08o.src = 'http://cancersupportcommunitymiami.org/graphics/bhowhelp1.gif';
+Ibuttons09 = new Image(187, 24);Ibuttons09.src = 'http://cancersupportcommunitymiami.org/graphics/kids.gif';
+Ibuttons09o = new Image(187, 24);Ibuttons09o.src = 'http://cancersupportcommunitymiami.org/graphics/kids1.gif';
+Ibuttons10 = new Image(187, 24);Ibuttons10.src = 'http://cancersupportcommunitymiami.org/graphics/doctor.gif';
+Ibuttons10o = new Image(187, 24);Ibuttons10o.src = 'http://cancersupportcommunitymiami.org/graphics/doctorw.gif';
+Ibuttons11 = new Image(187, 24);Ibuttons11.src = 'http://cancersupportcommunitymiami.org/graphics/staff.gif';
+Ibuttons11o = new Image(187, 24);Ibuttons11o.src = 'http://cancersupportcommunitymiami.org/graphics/wstaff.gif';
+Ibuttons12 = new Image(187, 24);Ibuttons12.src = 'http://cancersupportcommunitymiami.org/graphics/staff1.gif';
+Ibuttons12o = new Image(187, 24);Ibuttons12o.src = 'http://cancersupportcommunitymiami.org/graphics/wstaff1.gif';
+Ibuttons13 = new Image(187, 24);Ibuttons13.src = 'http://cancersupportcommunitymiami.org/graphics/faq.gif';
+Ibuttons13o = new Image(187, 24);Ibuttons13o.src = 'http://cancersupportcommunitymiami.org/graphics/wfaq.gif';
+Ibuttons14 = new Image(187, 24);Ibuttons14.src = 'http://cancersupportcommunitymiami.org/graphics/blinks.gif';
+Ibuttons14o = new Image(187, 24);Ibuttons14o.src = 'http://cancersupportcommunitymiami.org/graphics/wlinks.gif';
+Ibuttons15 = new Image(187, 24);Ibuttons15.src = 'http://cancersupportcommunitymiami.org/graphics/contactus.gif';
+Ibuttons15o = new Image(187, 24);Ibuttons15o.src = 'http://cancersupportcommunitymiami.org/graphics/wcontactus.gif';
+Ibuttons16 = new Image(187, 24);Ibuttons16.src = 'http://cancersupportcommunitymiami.org/graphics/teen.gif';
+Ibuttons16o = new Image(187, 24);Ibuttons16o.src = 'http://cancersupportcommunitymiami.org/graphics/wteen.gif';
+
+
+
+}
+function di(id,name){
+  if (document.images) {document.images[id].src=eval(name+".src"); }
+}
+
+// function that displays status bar message
+
+function dm(msgStr) {
+  document.returnValue = false;
+  if (document.images) { 
+     window.status = msgStr;
+     document.returnValue = true;
+  }
+}
+var showMsg = navigator.userAgent != "Mozilla/4.0 (compatible; MSIE 4.0; Mac_PowerPC)";
+function dmim(msgStr) {
+  document.returnValue = false;
+  if (showMsg) { 
+    window.status = msgStr;
+    document.returnValue = true;
+  }
+}
+
+// stop hiding -->
+</script>
+
+<script language="JavaScript">
+<!--
+function MM_displayStatusMsg(msgStr) { //v1.2
+  status=msgStr;
+  document.MM_returnValue = true;
+}
+//-->
+</script>
+
+<table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+  <tbody>
+  <tr>
+    <td valign="top" width="187" align="left">
+      <table border="0" cellspacing="0" cellpadding="0" width="187">
+        <tbody>
+        <tr>
+          <td>
+            <a 
+            href="http://cancersupportcommunitymiami.org"><img 
+            src="http://cancersupportcommunitymiami.org/graphics/newlogo.jpg" 
+            alt="Cancer Support Community Greater Miami" hspace="10" vspace="10" border="0" /></a></td></tr>
+          <tr>
+          <td ><a 
+            href="http://cancersupportcommunitymiami.org/donate.htm"><img 
+            src="http://cancersupportcommunitymiami.org/graphics/donate1.gif" width="187" 
+            border=0></a></td></tr>
+        <tr>
+          <td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/aboutus.htm" onMouseOut="di('Nbuttons01','Ibuttons01');return false;" onMouseOver="MM_displayStatusMsg('About Us');di('Nbuttons01','Ibuttons01o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/about.gif" alt="About Us" name="Nbuttons01" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/programs.htm" onMouseOut="di('Nbuttons02','Ibuttons02');return false;" onMouseOver="MM_displayStatusMsg('Adult Programs');di('Nbuttons02','Ibuttons02o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/adult.gif" alt="Adult Programs" name="Nbuttons02" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+          <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/programs-ct.htm" onMouseOut="di('Nbuttons16','Ibuttons16');return false;" onMouseOver="MM_displayStatusMsg('Children & Teens Programs');di('Nbuttons16','Ibuttons16o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/teen.gif" alt="Children & Teens Programs" name="Nbuttons16" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/calendar/index.htm" onMouseOut="di('Nbuttons03','Ibuttons03');return false;" onMouseOver="MM_displayStatusMsg('Calendar');di('Nbuttons03','Ibuttons03o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/bcalendar.gif" alt="Calendar" name="Nbuttons03" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/sprograms.htm" onMouseOut="di('Nbuttons04','Ibuttons04');return false;" onMouseOver="MM_displayStatusMsg('Educational Programs');di('Nbuttons04','Ibuttons04o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/sprograms.gif" alt="Educational Programs" name="Nbuttons04" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/spevents.htm" onMouseOut="di('Nbuttons05','Ibuttons05');return false;" onMouseOver="MM_displayStatusMsg('Special Events');di('Nbuttons05','Ibuttons05o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/bspevents.gif" alt="Special Events" name="Nbuttons05" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+          <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+         <td width="187" height="24">
+         <div class="menu">
+    <ul>
+    <li><img src="http://cancersupportcommunitymiami.org/graphics/howucanhelp.gif" alt="How You Can Help" border="0"></a>
+    <div style="position:relative;margin-top:-24px">
+            <ul>
+            <li><a href="http://cancersupportcommunitymiami.org/howhelp.htm"><img src="http://cancersupportcommunitymiami.org/graphics/howhelp1.gif" alt="Volunteer" border="0"></a>
+                <li><a href="http://cancersupportcommunitymiami.org/kcommunity.htm"><img src="http://cancersupportcommunitymiami.org/graphics/kids.gif" alt="Kids in the Community" border="0"></a></li>
+		
+    </ul></li></ul></div>
+</td>
+          <td>&nbsp;</td></tr>
+        
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/directions.htm" onMouseOut="di('Nbuttons07','Ibuttons07');return false;" onMouseOver="MM_displayStatusMsg('Directions');di('Nbuttons07','Ibuttons07o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/directions.gif" alt="Directions" name="Nbuttons07" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+
+        <tr>
+         <td width="187" height="24">
+         <div class="menu">
+    <ul>
+    <li><img src="http://cancersupportcommunitymiami.org/graphics/giving.gif" alt="Giving Campaigns" border="0"></a>
+    <div style="position:relative;margin-top:-24px">
+            <ul>
+            <li><a href="http://cancersupportcommunitymiami.org/guardians.htm"><img src="http://cancersupportcommunitymiami.org/graphics/guardians.gif" alt="Guardians of Hope" border="0"></a>
+                <li><a href="http://cancersupportcommunitymiami.org/givingtree.htm"><img src="http://cancersupportcommunitymiami.org/graphics/bgiving.png" alt="The Giving Tree" border="0"></a></li>
+		
+    </ul></li></ul></div>
+</td>
+          <td>&nbsp;</td></tr>
+           <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+<tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/doctors.htm" onMouseOut="di('Nbuttons10','Ibuttons10');return false;" onMouseOver="MM_displayStatusMsg('For Healthcare Professionals');di('Nbuttons10','Ibuttons10o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/doctor.gif" alt="For Healthcare Professionals" name="Nbuttons10" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+       <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/staff.htm" onMouseOut="di('Nbuttons11','Ibuttons11');return false;" onMouseOver="MM_displayStatusMsg('Board of Directors & Staff');di('Nbuttons11','Ibuttons11o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/staff.gif" alt="Board of Directors & Staff" name="Nbuttons11" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/staff1.htm" onMouseOut="di('Nbuttons12','Ibuttons12');return false;" onMouseOver="MM_displayStatusMsg('Advisory Board & Ambassadors');di('Nbuttons12','Ibuttons12o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/staff1.gif" alt="Advisory Board & Ambassadors" name="Nbuttons12" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/faq.htm" onMouseOut="di('Nbuttons13','Ibuttons13');return false;" onMouseOver="MM_displayStatusMsg('FAQs');di('Nbuttons13','Ibuttons13o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/faq.gif" alt="FAQs" name="Nbuttons13" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/links.htm" onMouseOut="di('Nbuttons14','Ibuttons14');return false;" onMouseOver="MM_displayStatusMsg('Links & Resources');di('Nbuttons14','Ibuttons14o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/blinks.gif" alt="Links & Resources" name="Nbuttons14" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+       <tr>
+         <td width="187" height="24"><a href="http://cancersupportcommunitymiami.org/contactus.htm" onMouseOut="di('Nbuttons15','Ibuttons15');return false;" onMouseOver="MM_displayStatusMsg('Contact Us');di('Nbuttons15','Ibuttons15o');return false;return document.MM_returnValue"><img src="http://cancersupportcommunitymiami.org/graphics/contactus.gif" alt="Contact Us" name="Nbuttons15" border="0" align="bottom"></a></td>
+          <td>&nbsp;</td></tr>
+          <tr>
+          <td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+          <td><a href="http://youtu.be/d-MqHDLyyiE" target="_new"><img 
+            src="http://cancersupportcommunitymiami.org/graphics/video-button_big.jpg" alt="Watch Our Video" width="187" border="0"></a></a></td></tr>
+            <tr>
+          <td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+          <td><a href="https://twitter.com/csc_miami" target="_new"><img 
+            src="http://cancersupportcommunitymiami.org/graphics/followus.png" alt="Follow Us on Twitter" border="0"></a></a></td></tr>
+          <tr>
+          <td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+          <td><a href="http://cancersupportcommunitymiami.org/comprehensive.htm"><img 
+            src="http://cancersupportcommunitymiami.org/graphics/comprehensive-button.jpg" alt="Why Comprehensive Cancer Care is Important" border="0"></a></a></td></tr>
+        <tr><td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr
+        ><tr><td width="187"><a 
+            href="http://www.facebook.com/pages/Cancer-Support-Community-Greater-Miami-NEW-and-OFFICIAL-Facebook-Page/236709739680483?ref=ts" 
+            target=_blank><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/facebook.gif"></a><div style="margin-top: 5px; text-align: center" class="fb-like" data-href="http://www.facebook.com/pages/Cancer-Support-Community-Greater-Miami-Welcome-to-our-NEW-Facebook-Page/" data-send="true" data-layout="button_count" data-width="127" data-show-faces="false"></div></td></tr>
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        <tr>
+          <td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+                <td width="187"><a 
+            href="http://itunes.apple.com/us/app/cancersupportsource/id402342273?mt=8&ls=1" 
+            target=_blank><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/csc-button.gif"></a><br>                    </td>
+        </tr>
+        
+        <tr>
+          <td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+                <td width="187"><a 
+                  href="http://www.youtube.com/watch?v=d6FBzIlz47I&feature=youtube_gdata_player" 
+                  target=_blank><img 
+                  src="http://cancersupportcommunitymiami.org/graphics/dempsey.jpg" 
+                  alt="Click here to watch video" border="0"></a><br>                    </td>
+        </tr>
+        
+        <tr>
+          <td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+                <td width="187"><a 
+                  href="http://cancersupportcommunity.org/mm/Learn-About/FSAC/default.aspx" 
+                  target=_blank><img 
+                  src="http://cancersupportcommunitymiami.org/graphics/fsac-button.jpg" 
+                  alt="Frankly Speaking About Cancer" border="0"></a><br>                    </td>
+        </tr>
+        <tr>
+          <td><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/spacer.gif" 
+            width=8 height=12></td></tr>
+        <tr>
+          <td><a 
+            href="http://www.cancersupportcommunity.org/MainMenu/Cancer-Support/Online-Support-Groups.html" 
+            target=_blank><img border="0" 
+            src="http://cancersupportcommunitymiami.org/graphics/login.gif"></a></td></tr>
+            
+        
+        </table>
+
+  <td valign="top" align="left">
+      <table border="0" cellspacing="0" bordercolor="#ffffff" cellpadding="0" align=center>
+        <tbody>
+        <tr>
+          <td colspan="2" align="center"><br></td>
+        </tr>
+                <tr>
+          <td align="center"><td align="center"><img src="http://cancersupportcommunitymiami.org/graphics/houses.png" width="740" border="0"></td></tr>
+          
+        <tr>
+          <td colspan="2" align="center"><br></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="left">
+            <table width="646" border="0" align="center" cellpadding="0">
+              <tbody>
+
+              <tr>
+                <td align="center">
+                  
+<img src="http://cancersupportcommunitymiami.org/graphics/upcomingb.png" alt="Upcoming Program">
+        <p align="justify"><span class="b2r">
+Community Call: Lung Cancer Treatments</span> <br>
+                    <span class="b1r"><em>Wednesday, October 1, 6 - 8 pm &#8211; Cancer Support Community Greater Miami</em></span><br>
+                    <span class="n1g">Speaker: 
+                      <strong>Michael B. Troner, M.D.
+
+</strong><br>
+                      <em>Medical Oncologist/Hematologist<br>
+Advanced Medical Specialties<br> 
+Baptist Health South Florida </em><br>
+                    Dr. Troner will offer information about the latest treatments for lung cancer and how those advances are implemented in his practice. There will be discussion of the benefits and possible side-effects of various types of treatments and therapies and ample time for questions and exchange.
+Patients/Survivors and loved ones are welcome. Light dinner served at 5:30 pm. </span>
+                    <div align="right" style="margin-top:-10px"><span class="n1g">Generously sponsored by:</span><br><a 
+                  href="http://www.baptisthealth.net/en/Pages/home.aspx" target="_blank"><img src="http://cancersupportcommunitymiami.org/graphics/BHSF.jpg" alt="Baptist Health South Florida" width="125" border="0" 
+                  align="top"></a><br></div></p>
+                    
+              </td>
+              <tr>
+               <td align="center" style="padding-top:2px; padding-bottom:10px"><hr align="center" color="#575654" background-color="#575654" 
+                  height="10px"></td>
+              </tr>
+              <tr>
+               <td align="center"><p><a href="http://www.carnivalfoundation.com/" target="_new"><img src="http://cancersupportcommunitymiami.org/graphics/making-waves.jpg" alt="Making Waves That Matter" width="450" border="0"></a></p>
+                 <p class="tnorm2"><span class="n3rd"><strong>CSCGM is the Carnival Foundation Featured Partner for September!</strong></span><BR>
+                   Click below to learn why . . .<BR>
+                   <a href="http://www.carnivalfoundation.com/" title="Carnival Foundation" target="_blank">http://www.carnivalfoundation.com/</a>
+                 </p></td>
+              </tr>
+              <tr>
+               <td align="center" style="padding-top:2px; padding-bottom:10px"><hr align="center" color="#575654" background-color="#575654" 
+                  height="10px"></td>
+              </tr>
+                  
+              <tr>
+                <td colspan="2" align="center">
+               <img src="http://cancersupportcommunitymiami.org/graphics/featurede.png" height="30" alt="Featured Event">
+                
+                <table width="85%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom:7px">
+                  
+                  <tr>
+                      <td align="center">
+                        <p><a href="http://cancersupportcommunitymiami.org/teeoff.htm" target="_new"><img src="http://cancersupportcommunitymiami.org/graphics/teeoff-logo.png" alt="Teeoff Fore Wellness" width="175" border="0"></a><br>
+                        </p>
+                        <p><span class="b3rd">Cancer Support Community Greater Miami
+                          </span><br>
+                          <span class="tbold">Golf & Tennis Tournament</span></p>
+                        <p class="tbold">Monday, October 20, 2014
+                          <br>
+                          Deering Bay Yacht & Country Club</p>
+                        <p><a href="http://cancersupportcommunitymiami.org/teeoff_entry.htm"><img src="http://cancersupportcommunitymiami.org/graphics/se-register.gif" alt="Click here to register now" height="35" border="0"></a></p>
+                        <p class="tnorm"><strong>The Sandy Teter Invitational Tennis Tournament</strong> <span class="tnormr" style="background-color: #FFFF00">(SOLD OUT)<br>
+                        </span><span class="tb2g">Morning Doubles &amp; Mixed Doubles Tournaments are still welcoming tennis players!</span></p>
+                        </td>
+                      
+                    </tr>
+            </table></td>
+              </tr>     
+              <tr>
+               <td align="center" style="padding-top:0px; padding-bottom:10px"><hr align="center" color="#575654" background-color="#575654" 
+                  height="10px"></td>
+              </tr>
+              <tr>
+               <td align="center"><a href="http://cancersupportcommunitymiami.org/programs-ct.htm"><img src="http://cancersupportcommunitymiami.org/graphics/kt-programs.png" alt="Kids and Teens Programs" height="30" border="0"></a>
+               <p align="center" class="b4r"><a href="http://cancersupportcommunitymiami.org/programs-ct.htm" target="_new">INTRODUCING OUR NEW PEDIATRIC ONCOLOGY PROGRAM</a></p>
+               <p><a href="http://m.carnival.com/cms/carnivalfoundation/default.aspx?icid=CC_Footer_401" target="_new"><img src="http://cancersupportcommunitymiami.org/graphics/carnival-logos.gif" alt="Carnival Foundation" width="220" border="0" align="top"></a></img></p>
+                 <p align="justify">Cancer Support Community Greater Miami (CSCGM) is proud to introduce our new <em>Pediatric Oncology Pilot Program</em>, presented by <strong><a href="http://www.carnival.com/cms/carnivalfoundation/community_partners.aspx" title="Carnival Foundation" target="_new">Carnival Foundation</a></strong>. Please follow the <strong><a href="http://cancersupportcommunitymiami.org/programs-ct.htm">CHILDREN & TEENS PROGRAMS</a></strong> link on this page for the latest information on our new and exciting programs beginning with our currently established monthly <strong><a href="http://cancersupportcommunitymiami.org/support-ct.htm">Family Networking Group</a></strong>, taking place on the third Saturday of every month. </p>
+                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                   <tr>
+                     <td align="center"><img src="http://cancersupportcommunitymiami.org/graphics/ped-onc1.jpg" height="115"></td>
+                     <td align="center"><img src="http://cancersupportcommunitymiami.org/graphics/ped-onc2.jpg" height="115"></td>
+                     <td align="center"><img src="http://cancersupportcommunitymiami.org/graphics/ped-onc.jpg" height="115"></td>
+                     <td align="center"><img src="http://cancersupportcommunitymiami.org/graphics/hospital.jpg" height="115"></td>
+                     <td align="center"><img src="http://cancersupportcommunitymiami.org/graphics/ped-onc3.jpg" height="115"></td>
+                   </tr>
+                 </table>
+                 
+                 <p align="justify">
+                   <span class="b2r">OUR GOALS:</span></p>
+<p align="justify">1. Help <span class="b2r">children</span> with cancer process feelings, adapt to stress of their illness, skill build and learn through age-appropriate interventions including therapeutic play.</p>
+                 <p align="justify">2. Give well <span class="b2r">siblings</span> an opportunity for safe expression regarding how cancer has affected them by providing developmentally appropriate support for their needs.</p>
+                 <p align="justify">3. Help <span class="b2r">parents</span> address their own emotional needs so they can better manage the tasks of parenting a child with cancer.</p>
+                 <p align="justify">4. Provide <span class="b2r">schools</span> with information and resources for responding to the needs of children and their families 	living with cancer.</p>
+                 </td>
+              </tr>
+              <tr>
+               <td align="center" style="padding-top:10px; padding-bottom:10px"><hr align="center" color="#575654" background-color="#575654" 
+                  height="10px"></td>
+              </tr>
+              <tr>
+               <td align="center"><img src="http://cancersupportcommunitymiami.org/graphics/kreyol-head.png" height="30" alt="An Kreyol">
+                 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="61%"><p align="center" class="b3r">INTRODUCING OUR NEW<br>
+      HAITIAN CANCER SUPPORT PROGRAM</p>
+      <p class="n2g" align="justify" style="margin-top:-10px">At CSCGM we are committed to providing support services to everyone  affected by cancer. The <strong>Haitian  Cancer Support Program</strong> is a program designed to better address  the needs of cancer survivors in the Haitian community. We now offer education,  support, and healthy living groups in Creole. Meetings are held in select  locations. <a href="http://cancersupportcommunitymiami.org/kreyol.htm">Please click here for  more information</a>.</span></p></td>
+    <td width="39%"><img src="http://cancersupportcommunitymiami.org/graphics/kreyol-photo.jpg" alt="An Kreyol" height="140" align="right"></td>
+  </tr>
+</table>
+<p align="center" class="n1g" style="margin-top:0px">WE  THANK OUR GENEROUS SPONSOR / NOU VLE REM&Egrave;SYE<br>
+  <a href="http://www.sharpgc.com/" target="_new"><img src="http://cancersupportcommunitymiami.org/graphics/sharp-logo.png" alt="Sharp General Contractors" width="110" border="0"></a></p>
+                 </td>
+              </tr>
+                            
+               <tr>
+                <td colspan="2" align="center" style="padding-top:5px; padding-bottom:10px"><hr align="center" color="#575654" background-color="#575654" 
+                  height="10px"></td></tr>
+               
+              
+              <tr>
+                <td align="center">
+                <img src="http://cancersupportcommunitymiami.org/graphics/resources.png" height="30" alt="Resources and Information"><br>
+                <br>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  
+                  <tr>
+                      <td width="33%" align="center" valign="top"><a 
+            href="http://cancertohealth.osu.edu/" target="_new"><img 
+            src="http://cancersupportcommunitymiami.org/graphics/peggy-photo.jpg" 
+            alt="from Cancer to Health" width="200" height="110" border="0" style="padding-bottom:10px;" /><br>
+                          <center><span class="n2g"><strong>from Cancer to Health</strong></span></center>
+                      </a>
+                      </td>
+                      <td width="1%" class="rightborder"></td>
+                      <td width="32%" align="center"  valign="top"><a 
+            href="http://cancersupportcommunitymiami.org/newcomer.htm"><img 
+            src="http://cancersupportcommunitymiami.org/graphics/started.png" 
+            alt="How Do I Get Started?" border="0" style="padding-bottom:10px;" /><br>
+                          <span class="n2g"><strong>How Do I Get Started?</strong></span>
+                      </a></td>
+                      <td width="1%" class="leftborder"></td>
+                      <td width="33%" align="center" valign="top"><a 
+            href="http://cancersupportcommunitymiami.org/espanol/healthye.htm"><img 
+            src="http://cancersupportcommunitymiami.org/graphics/amparo-giving.jpg" 
+            alt="Cocina sana y deliciosa" width="200" height="110" border="0" style="padding-bottom:10px;" /><br>
+                          <center><span class="n2g"><strong>Cocina sana y deliciosa</strong></span></center>
+                      </a></td>
+                      </tr>
+                    
+              </table></td>
+              </tr>
+                            
+              <tr>
+                <td colspan="2" align="center" style="padding-top:10px; padding-bottom:10px"><hr align="center" color="#575654" background-color="#575654" 
+                  height="10px"></td>
+              </tr>
+            </table></td></tr>
+            
+        <tr>
+          <td colspan="2" align="center" valign="top">
+          
+            
+            <table border="0" width="646" align="center">
+              <tbody>
+              <tr>
+                  <td colspan="4" align="center"><img src="http://cancersupportcommunitymiami.org/graphics/sponsors.png" alt="CSCGM Grantors and Program Sponsors" height="30"></td>
+                </tr>
+                
+                <TR>
+              <TD colspan="3" align="center">
+                <div align="center">
+                  <SCRIPT type="text/javascript">
+<!--
+// For browsers that cannot change the HTML on the page,
+// display all of the text from the slideshow.
+// I place this within the DIV, so browers won't see it
+// if they can change the DIV.
+nodivtext = SLIDES.get_all_text("<li>", "<p>\n");
+if (nodivtext) {
+  document.write("<UL>\n" + nodivtext + "\n</UL>");
+}
+//-->
+                </SCRIPT>
+                  
+                  
+                  
+                  
+                  <a href="javascript:SLIDES.hotlink()"><img name="SLIDESIMG"
+src="http://cancersupportcommunitymiami.org/graphics/sponsor1.png" STYLE="filter:progid:DXImageTransform.Microsoft.Fade()" BORDER=0 alt="Slideshow image"></A><br>
+                  <br>
+                  
+                  <a HREF="javascript:SLIDES.previous()">previous</a>
+                  
+                  | <a HREF="javascript:SLIDES.next()">next</a>
+                  
+                  | <a HREF="javascript:SLIDES.play()">play</a>
+                  
+                  | <a HREF="javascript:SLIDES.pause()">stop</a>
+  <SCRIPT type="text/javascript">
+<!--
+if (document.images) {
+  SLIDES.image = document.images.SLIDESIMG;
+  SLIDES.textid = "SLIDESTEXT";
+  SLIDES.update();
+  SLIDES.play();
+  
+var fadein_opacity = 0.04;
+var fadein_img = SLIDES.image;
+function fadein(opacity) {
+  if (typeof opacity != 'undefined') fadein_opacity = opacity;
+  if (fadein_opacity < 0.99 && fadein_img && fadein_img.style &&
+      typeof fadein_img.style.MozOpacity != 'undefined') {
+
+    fadein_opacity += .05;
+    fadein_img.style.MozOpacity = fadein_opacity;
+    setTimeout("fadein()", 50);
+  }
+}
+
+SLIDES.post_update_hook = function() { fadein(0.04); }
+
+}
+//-->
+</SCRIPT>
+                  
+  
+  <BR CLEAR=all>
+                  </div></TD>
+            </TR>
+            <tr>
+                <td align="center">&nbsp;</td>
+              </tr>
+              
+              <tr>
+                <td colspan="2" align="center"><hr align="center" color="#575654" background-color="#575654" 
+                  height="10px"></td>
+              </tr>
+              <tr>
+                <td align="center"><p align="center" class="b2r"><em>&quot;The highest compliment you can give  is <em>to let other cancer survivors know about us.&quot;</em></em></p>
+                  <p align="right" class="b2r"><em>Amparo Alvarez, CSCGM's Education and Outreach Director</em></p></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center"><hr align="center" color="#575654" background-color="#575654" 
+                  height="10px"></td>
+              </tr>
+              
+                  <td colspan="3" align="center">
+                        <span class="n1g">Address any website problems to <a href="mailto:webmaster@cancersupportcommunitymiami.org">webmaster@cancersupportcommunitymiami.org <br>
+                        </a> Copyright &copy;2014 Cancer Support Community 
+                        Greater Miami. All Rights Reserved</span><br>                      </td>
+                </tr>
+                
+              
+            </table>
+            </td></tr>
+        
+        </tbody>
+      </table>
+    </td></tr></tbody></table>
+     
+ </body></html>

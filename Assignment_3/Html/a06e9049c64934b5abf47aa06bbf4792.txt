@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr" 
+  xmlns:fb="http://www.facebook.com/2008/fbml"
+  xmlns:v="http://rdf.data-vocabulary.org/#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head>
+  <script type="text/javascript" src="http://cdn.onswipe.com/synapse/on.js?usr=denofgeekus" id="onswipe_synapse"></script>
+  <meta name="msvalidate.01" content="67426865D262F8FF3EA499F8C5F3E469" />
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:site" content="@DenofGeekUS">
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({QJf3ax:[function(t,n){function e(t){function n(n,e,o){t&&t(n,e,o),o||(o={});for(var a=i(n),u=a.length,c=o[r]||(o[r]={}),f=0;u>f;f++)a[f].apply(c,e);return c}function o(t,n){u[t]=i(t).concat(n)}function i(t){return u[t]||[]}function a(){return e(n)}var u={};return{on:o,emit:n,create:a,listeners:i,_events:u}}var r="nr@context";n.exports=e()},{}],ee:[function(t,n){n.exports=t("QJf3ax")},{}],D5DuLP:[function(t,n){function e(t,n,e){return r.listeners(t).length?r.emit(t,n,e):(o[t]||(o[t]=[]),void o[t].push(n))}var r=t("ee").create(),o={};n.exports=e,e.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&c&&c.body){l.proto="https"===p.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var n=c.createElement("script");n.src=l.proto+t.agent,c.body.appendChild(n)}}function r(){"complete"===c.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),u=window,c=u.document,f="addEventListener",s="attachEvent",p=(""+location).split("?")[0],l=n.exports={offset:i(),origin:p,features:{}};c[f]?(c[f]("DOMContentLoaded",o,!1),u[f]("load",e,!1)):(c[s]("onreadystatechange",r),u[s]("onload",e)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}]},{},["G9z0Bl"]);</script>
+<meta name="copyright" content="Dennis Publishing Limited, licensed by Felden" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta property="og:site_name" content="Den of Geek" />
+<meta property="og:image" content="http://cdn.denofgeek.us/sites/denofgeekus/themes/denofgeek/logo.png" />
+<link rel="shortcut icon" href="http://cdn.denofgeek.us/sites/denofgeekus/themes/denofgeek/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta property="og:description" content="Cult TV, Movies, Games &amp; Comics Reviewed" />
+<meta property="twitter:site" content="@DenofGeekUS" />
+<meta property="og:type" content="website" />
+<meta property="twitter:card" content="summary" />
+<link rel="next" href="http://www.denofgeek.us/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated/page/1/0?field_category_primary_tid=All&amp;field_article_type_tid=All&amp;sort_by=field_published_date_value&amp;sort_order=DESC" />
+<link rel="dns-prefetch" href="//cdn.denofgeek.us" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<meta content="Movie reviews, Cult TV, Games &amp; Comics Reviewed, Discussed &amp; Appreciated" about="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated" property="dc:title" />
+<meta name="description" content="Who will be the next Superman? What&#039;s going on in Doctor Who? What sequels are coming? What comics are becoming movies? All your geek news in one place." />
+<meta property="og:title" content="Den of Geek" />
+<link rel="canonical" href="http://www.denofgeek.us/" />
+<meta property="og:url" content="http://www.denofgeek.us/" />
+  <title>Den of Geek | Cult TV, Movies, Games &amp; Comics Reviewed</title>
+  <style type="text/css" media="all">@import url("http://cdn.denofgeek.us/modules/system/system.base.css?nc57br");
+@import url("http://cdn.denofgeek.us/modules/system/system.messages.css?nc57br");
+@import url("http://cdn.denofgeek.us/modules/system/system.theme.css?nc57br");</style>
+<style type="text/css" media="all">@import url("http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/lightbox2/css/lightbox.css?nc57br");
+@import url("http://cdn.denofgeek.us/sites/denofgeekus/modules/features/seek_a_geek_feature/promo_box_styles.css?nc57br");
+@import url("http://cdn.denofgeek.us/profiles/dennis_distro/libraries/superfish/css/superfish.css?nc57br");
+@import url("http://cdn.denofgeek.us/profiles/dennis_distro/libraries/superfish/css/superfish-vertical.css?nc57br");
+@import url("http://cdn.denofgeek.us/profiles/dennis_distro/libraries/superfish/css/superfish-navbar.css?nc57br");
+@import url("http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/views_slideshow/views_slideshow.css?nc57br");
+@import url("http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?nc57br");</style>
+<style type="text/css" media="all">@import url("http://cdn.denofgeek.us/sites/denofgeekus/files/less/nKQ3n4b-LUf5AaRyLUvJnglDJj3EVZiGB6bdCTXNGjM/profiles/dennis_distro/themes/custom/dennis_base/assets/css/dennis_base-master.XcVzbo5GbrB4v7QVES377fts6uudS0o0YbaMpBamvPg.css?nc57br");
+@import url("http://cdn.denofgeek.us/sites/denofgeekus/themes/denofgeek/css/style.css?nc57br");
+@import url("http://cdn.denofgeek.us/sites/denofgeekus/themes/denofgeek/css/fivestar.css?nc57br");
+@import url("http://cdn.denofgeek.us/sites/denofgeekus/themes/denofgeek/css/color/color.css?nc57br");
+@import url("http://cdn.denofgeek.us/profiles/dennis_distro/themes/custom/dennis_base/assets/css/grid24-980.css?nc57br");</style>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.google_analytics_uacct = "UA-31324271-1";
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+googletag.slots = googletag.slots || {};
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/modules/features/dennis_dfp/dennis_dfp.js?nc57br"></script>
+<script type="text/javascript" src="http://www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/misc/drupal.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/misc/jquery.cookie.js?v=1.0"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/misc/jquery.form.js?v=2.52"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots.leaderboard_1 = googletag.defineSlot("/359/denofgeek.us", [728, 90], "dfp-ad-leaderboard_1")
+  .addService(googletag.pubads())
+  .setTargeting("position", "1");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots.billboard = googletag.defineSlot("/359/denofgeek.us", [994, 250], "dfp-ad-billboard")
+  .addService(googletag.pubads())
+  .setTargeting("position", "1");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots.out_of_page = googletag.defineOutOfPageSlot("/359/denofgeek.us", "dfp-ad-out_of_page")
+  .addService(googletag.pubads())
+  .setTargeting("position", "1");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots.skin = googletag.defineSlot("/359/denofgeek.us", [1000, 800], "dfp-ad-skin")
+  .addService(googletag.pubads())
+  .setTargeting("position", "1");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots.mpu_1 = googletag.defineSlot("/359/denofgeek.us", [[300, 250], [300, 600]], "dfp-ad-mpu_1")
+  .addService(googletag.pubads())
+  .setTargeting("position", "1");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots.mpu_2 = googletag.defineSlot("/359/denofgeek.us", [[300, 250], [300, 600]], "dfp-ad-mpu_2")
+  .addService(googletag.pubads())
+  .setTargeting("position", "2");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots.skyscraper_right_1 = googletag.defineSlot("/359/denofgeek.us", [[120, 600], [160, 600]], "dfp-ad-skyscraper_right_1")
+  .addService(googletag.pubads())
+  .setTargeting("position", "1");
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.slots.leaderboard_2 = googletag.defineSlot("/359/denofgeek.us", [728, 90], "dfp-ad-leaderboard_2")
+  .addService(googletag.pubads())
+  .setTargeting("position", "2");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/misc/ajax.js?v=7.30"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/addthis/addthis.js?nc57br"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+googletag.cmd.push(function() {
+  googletag.pubads().enableAsyncRendering();
+  googletag.pubads().enableSingleRequest();
+  googletag.pubads().collapseEmptyDivs();
+  googletag.pubads().setTargeting("zone", "homepage");
+  googletag.pubads().setTargeting("article", "1");
+  googletag.pubads().setTargeting("live", "yes");
+  googletag.pubads().setTargeting("ord", "2636962417");
+});
+googletag.enableServices();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/lightbox2/js/lightbox.js?1412034868"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/pullquote/pullquote.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/libraries/superfish/jquery.hoverIntent.minified.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/libraries/superfish/jquery.bgiframe.min.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/libraries/superfish/superfish.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/libraries/superfish/supersubs.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/libraries/superfish/supposition.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/libraries/superfish/sftouchscreen.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/superfish/superfish.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/views_slideshow/js/views_slideshow.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/views/js/base.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/misc/progress.js?v=7.30"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/google_analytics/googleanalytics.js?nc57br"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-31324271-1"]);_gaq.push(["_trackPageview"]);_gaq.push(['_trackPageLoadTime']);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/google_analytics_et/js/google_analytics_et.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/views/js/ajax_view.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/sites/denofgeekus/themes/denofgeek/js/script.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/libraries/jquery.cycle/jquery.cycle.all.min.js?nc57br"></script>
+<script type="text/javascript" src="http://cdn.denofgeek.us/profiles/dennis_distro/modules/contrib/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycle.js?nc57br"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"denofgeek","theme_token":"jw1lkD8nPbXKH9sb6QEdNAgnSUL6ZW4f6-DETX7kgnw","js":{"0":1,"1":1,"2":1,"3":1,"4":1,"5":1,"misc\/jquery.js":1,"misc\/jquery.once.js":1,"6":1,"profiles\/dennis_distro\/modules\/features\/dennis_dfp\/dennis_dfp.js":1,"http:\/\/www.googletagservices.com\/tag\/js\/gpt.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"misc\/jquery.form.js":1,"7":1,"8":1,"9":1,"10":1,"11":1,"12":1,"13":1,"14":1,"misc\/ajax.js":1,"profiles\/dennis_distro\/modules\/contrib\/addthis\/addthis.js":1,"15":1,"profiles\/dennis_distro\/modules\/contrib\/lightbox2\/js\/lightbox.js":1,"profiles\/dennis_distro\/modules\/contrib\/pullquote\/pullquote.js":1,"profiles\/dennis_distro\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"profiles\/dennis_distro\/libraries\/superfish\/jquery.bgiframe.min.js":1,"profiles\/dennis_distro\/libraries\/superfish\/superfish.js":1,"profiles\/dennis_distro\/libraries\/superfish\/supersubs.js":1,"profiles\/dennis_distro\/libraries\/superfish\/supposition.js":1,"profiles\/dennis_distro\/libraries\/superfish\/sftouchscreen.js":1,"profiles\/dennis_distro\/modules\/contrib\/superfish\/superfish.js":1,"profiles\/dennis_distro\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"profiles\/dennis_distro\/modules\/contrib\/views\/js\/base.js":1,"misc\/progress.js":1,"profiles\/dennis_distro\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"16":1,"profiles\/dennis_distro\/modules\/contrib\/google_analytics_et\/js\/google_analytics_et.js":1,"profiles\/dennis_distro\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/denofgeekus\/themes\/denofgeek\/js\/script.js":1,"profiles\/dennis_distro\/libraries\/jquery.cycle\/jquery.cycle.all.min.js":1,"profiles\/dennis_distro\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"profiles\/dennis_distro\/modules\/contrib\/lightbox2\/css\/lightbox.css":1,"sites\/denofgeekus\/modules\/features\/seek_a_geek_feature\/promo_box_styles.css":1,"profiles\/dennis_distro\/libraries\/superfish\/css\/superfish.css":1,"profiles\/dennis_distro\/libraries\/superfish\/css\/superfish-vertical.css":1,"profiles\/dennis_distro\/libraries\/superfish\/css\/superfish-navbar.css":1,"profiles\/dennis_distro\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"profiles\/dennis_distro\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"profiles\/dennis_distro\/themes\/custom\/dennis_base\/assets\/css\/dennis_base-master.css.less":1,"sites\/denofgeekus\/themes\/denofgeek\/css\/style.css":1,"sites\/denofgeekus\/themes\/denofgeek\/css\/fivestar.css":1,"sites\/denofgeekus\/themes\/denofgeek\/css\/color\/color.css":1,"profiles\/dennis_distro\/themes\/custom\/dennis_base\/assets\/css\/grid24-980.css":1}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)public:\/","default_image":"\/profiles\/dennis_distro\/modules\/contrib\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":false},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:f82f83cc8d04b5abf0024046a8e7af40":{"view_name":"latest_articles_for_the_homepage","view_display_id":"block","view_args":"","view_path":"node\/1","view_base_path":null,"view_dom_id":"f82f83cc8d04b5abf0024046a8e7af40","pager_element":0},"views_dom_id:7ec30cd957b997b0efaa1afa93d186c7":{"view_name":"latest_articles_for_the_homepage","view_display_id":"block_1","view_args":"","view_path":"node\/1","view_base_path":null,"view_dom_id":"7ec30cd957b997b0efaa1afa93d186c7","pager_element":"0"},"views_dom_id:d94eeb24278fbc8e62665e334c139a86":{"view_name":"latest_articles_for_the_homepage","view_display_id":"block","view_args":"","view_path":"node\/1","view_base_path":null,"view_dom_id":"d94eeb24278fbc8e62665e334c139a86","pager_element":0},"views_dom_id:d577d4121520a46426b6a59884e6fa55":{"view_name":"latest_articles_for_the_homepage","view_display_id":"block_1","view_args":"","view_path":"node\/1","view_base_path":null,"view_dom_id":"d577d4121520a46426b6a59884e6fa55","pager_element":"0"}}},"viewsSlideshow":{"carousel_homepage_smaller_custom-block":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"carousel_homepage_smaller_custom-block_2":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowPager":{"carousel_homepage_smaller_custom-block":{"bottom":{"type":"viewsSlideshowPagerFields"}},"carousel_homepage_smaller_custom-block_2":{"bottom":{"type":"viewsSlideshowPagerFields"}}},"viewsSlideshowPagerFields":{"carousel_homepage_smaller_custom-block":{"bottom":{"activatePauseOnHover":0}},"carousel_homepage_smaller_custom-block_2":{"bottom":{"activatePauseOnHover":0}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_carousel_homepage_smaller_custom-block":{"num_divs":12,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"carousel_homepage_smaller_custom-block","effect":"scrollLeft","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":5000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"},"#views_slideshow_cycle_main_carousel_homepage_smaller_custom-block_2":{"num_divs":12,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"carousel_homepage_smaller_custom-block_2","effect":"scrollLeft","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"action_advanced":1,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":5000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"addthis":{"widget_url":"http:\/\/s7.addthis.com\/js\/250\/addthis_widget.js?async=1"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"googleAnalyticsETSettings":{"selectors":[]}});
+//--><!]]>
+</script>
+
+</head>
+<body id="pid-movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated" class="html front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1 node-type-page sidebars-both-last grid-type-980 grid-width-24" >
+  <div id="skip-link">
+    <a href="#main-content-area">Skip to main content area</a>
+  </div>
+    
+
+    <!-- header-top region -->
+  <div id="header-top" class="region region-header-top header-top">
+    <div id="header-top-inner" class="header-top-inner inner clearfix">
+    <div id="block-denofgeek_site_switcher-dog_site_switcher" class="block block-denofgeek-site-switcher">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div class="item-list"><ul id="dog_site_selector"><li class="first last"><span id="dog_selector_current" class="">US Site</span><div class="item-list"><ul><li class="first"><a href="http://www.denofgeek.com#switched">UK Site</a></li>
+<li class="last"><a href="/#switched">US Site</a></li>
+</ul></div></li>
+</ul></div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /header-top-inner -->
+  </div><!-- /header-top -->
+
+  
+
+    <div class="social-menu-span" align="center">
+    	<div class="social-menu-inner" align="right">
+    		<div class="social-menu-inner-small">
+    			<div class="social-menu-inner-find-us">Follow us on</div>
+    			<a href="http://www.facebook.com/denofgeekus"><img src="/sites/denofgeekus/themes/denofgeek/images/social/facebook.png" /></a>
+    			<a href="http://twitter.com/DenofGeekUS"><img src="/sites/denofgeekus/themes/denofgeek/images/social/twitter.png" /></a>
+          <a href="http://google.com/+DenofgeekUs"><img src="/sites/denofgeekus/themes/denofgeek/images/social/googleplus.png" /></a>
+          <a href="http://Youtube.com/denofgeektube"><img src="/sites/denofgeekus/themes/denofgeek/images/social/youtube.png" /></a>
+          <a href="http://denofgeekus.tumblr.com"><img src="/sites/denofgeekus/themes/denofgeek/images/social/tumblr.png" /></a>
+    		</div>
+    	</div>
+    </div>
+
+
+  <div id="header-group" class="header-group region" align="center">
+    <div id="header-group-inner" class="header-group-inner inner clearfix" align="center">
+
+      		               <h1 id="logo">
+                <a href="http://www.denofgeek.us/" title="Den of Geek">
+                    <img src="http://cdn.denofgeek.us/sites/denofgeekus/themes/denofgeek/logo.png" alt="Den of Geek" />
+                </a>
+            </h1>
+            		        <!-- header region -->
+  <div id="header" class="region region-header header nested">
+    <div id="header-inner" class="header-inner inner clearfix">
+    <div id="leaderboard-top" class="dfp-leaderboard region">
+        <div id="dfp-ad-leaderboard_1-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-leaderboard_1" class="dfp-tag-wrapper">
+  <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-leaderboard_1");
+    });
+  </script>
+</div>
+</div></div><!-- /block -->
+    </div><!-- /header-inner -->
+  </div><!-- /header -->
+
+    </div><!-- /header-group-inner -->
+  </div><!-- /header-group -->
+  <div id="menu-group" class="menu-group region" align="center">
+    <div id="menu-group-inner" class="menu-group-inner inner clearfix" style="width:900px">
+        <!-- main-menu region -->
+  <div id="main-menu" class="region region-main-menu main-menu">
+    <div id="main-menu-inner" class="main-menu-inner inner clearfix">
+    <div id="block-search-form" class="block block-search">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <form action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+  <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="SEARCH THE SITE" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><button type="submit" id="edit-submit" name="op" value="Search" class="form-submit">Search</button></div><input type="hidden" name="form_build_id" value="form-PDBZZAj1NiGhn0oT9P_eRk1dtVIzzC3slOKHqrXcnpg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-system-main-menu" class="block block-system block-menu">
+  <div class="gutter inner clearfix">
+            <h4 class="title block-title"><span>Main menu</span></h4>
+        
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/" class="active">Home</a></li>
+<li class="leaf"><a href="/movies" class="menu-movies">Movies</a></li>
+<li class="leaf"><a href="/tv" class="menu-tv">TV</a></li>
+<li class="leaf"><a href="/games" class="menu-games">Games</a></li>
+<li class="leaf"><a href="/books-comics" class="menu-comics">Comics/Books</a></li>
+<li class="leaf"><a href="/trailers" class="menu-trailers">Trailers</a></li>
+<li class="leaf"><a href="/other" class="menu-other">Other</a></li>
+<li class="last leaf"><a href="/the-lists" class="menu-the-lists">Lists</a></li>
+</ul>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /main-menu-inner -->
+  </div><!-- /main-menu -->
+        <!-- secondary-menu region -->
+  <div id="secondary-menu" class="region region-secondary-menu secondary-menu">
+    <div id="secondary-menu-inner" class="secondary-menu-inner inner clearfix">
+    <div id="block-menu-secondary-menu" class="block block-menu">
+  <div class="gutter inner clearfix">
+            <p class="title block-title"><span>Secondary menu</span></p>
+        
+    <div class="content clearfix">
+          </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /secondary-menu-inner -->
+  </div><!-- /secondary-menu -->
+
+    </div><!-- /menu-group-inner -->
+  </div><!-- /menu-group -->
+
+    <!-- pre-page region -->
+  <div id="pre-page" class="region region-pre-page pre-page">
+    <div id="pre-page-inner" class="pre-page-inner inner clearfix">
+    <div id="block-dfp-billboard" class="block block-dfp">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div id="dfp-ad-billboard-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-billboard" class="dfp-tag-wrapper">
+  <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-billboard");
+    });
+  </script>
+</div>
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-dfp-out_of_page" class="block block-dfp">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div id="dfp-ad-out_of_page-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-out_of_page" class="dfp-tag-wrapper">
+  <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-out_of_page");
+    });
+  </script>
+</div>
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-dfp-skin" class="block block-dfp">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div id="dfp-ad-skin-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-skin" class="dfp-tag-wrapper">
+  <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-skin");
+    });
+  </script>
+</div>
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /pre-page-inner -->
+  </div><!-- /pre-page -->
+
+  <div id="page" class="page grid24-24">
+ 
+    <!-- preface-top region -->
+  <div id="preface-top" class="region region-preface-top preface-top">
+    <div id="preface-top-inner" class="preface-top-inner inner clearfix">
+    <div id="block-views-930285a24a58c5c37c925ba7e862c275" class="block block-views">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div class="view view-carousel-homepage-smaller-custom view-id-carousel_homepage_smaller_custom view-display-id-block view-dom-id-74079fe0403074574ece3dfc9763c2eb">
+        
+  
+  
+      <div class="view-content">
+      <div class="carousel-custom-wrap-category-">
+    <div class="skin-default">
+      
+      <div id="views_slideshow_cycle_main_carousel_homepage_smaller_custom-block" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_carousel_homepage_smaller_custom-block" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/tv/power-rangers/238805/the-top-52-power-rangers-episodes-that-will-make-you-a-fan"><span class='category-8'>The Top 52 Power Rangers Episodes That Will Make You a Fan</span></a></h2></div>
+<div class="carousel-custom-teaser">Wanted to check out Power Rangers but haven’t had the chance? Here are the episodes to get you started.</div>
+</div>
+<div class="carousel-custom-read-more category-8"><span><a href="/tv/power-rangers/238805/the-top-52-power-rangers-episodes-that-will-make-you-a-fan">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/power_rangers1.jpg" /></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/books-comics/the-walking-dead/231541/the-walking-dead-season-5-9-moments-from-the-comics-we-need-to-see-on-tv"><span class='category-12'>The Walking Dead Season 5: 9 Moments From the Comics We Need to See on TV</span></a></h2></div>
+<div class="carousel-custom-teaser">Here are 9 moments from the Walking Dead comics that we need to see on TV...</div>
+</div>
+<div class="carousel-custom-read-more category-12"><span><a href="/books-comics/the-walking-dead/231541/the-walking-dead-season-5-9-moments-from-the-comics-we-need-to-see-on-tv">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/wdcomicsbanner_0.jpg" /></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_2" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/movies/whiplash/239634/whiplash-review"><span class='category-6'>Whiplash Review</span></a></h2></div>
+<div class="carousel-custom-teaser">Whiplash has flown under the radar at NYFF, but it might be the year&#039;s best movie, and J.K. Simmons is a lock for Best Supporting Actor.</div>
+</div>
+<div class="carousel-custom-read-more category-6"><span><a href="/movies/whiplash/239634/whiplash-review">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/whiplash_cover.jpg" /></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_3" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/movies/star-wars/238534/star-wars-9-characters-that-have-worn-mandalorian-armor"><span class='category-6'>Star Wars: 9 Characters That Have Worn Mandalorian Armor</span></a></h2></div>
+<div class="carousel-custom-teaser">Many Star Wars characters wore the Mandalorian armor made famous by Boba Fett. With Star Wars: Rebels premiering, we look at the best.</div>
+</div>
+<div class="carousel-custom-read-more category-6"><span><a href="/movies/star-wars/238534/star-wars-9-characters-that-have-worn-mandalorian-armor">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/clipboard01_681.jpg" /></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_4" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/movies/gone-girl/239610/gone-girl-review"><span class='category-6'>Gone Girl Review</span></a></h2></div>
+<div class="carousel-custom-teaser">David Fincher&#039;s Gone Girl genuinely thrills at NYFF thanks in part to unpredictable and inspired casting of Ben Affleck and Rosamund Pike.</div>
+</div>
+<div class="carousel-custom-read-more category-6"><span><a href="/movies/gone-girl/239610/gone-girl-review">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/gone_girl_cover.jpg" /></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_5" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-6 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/movies/the-boxtrolls/239594/the-boxtrolls-review"><span class='category-6'>The Boxtrolls review</span></a></h2></div>
+<div class="carousel-custom-teaser">Can Laika’s The Boxtrolls measure up to Coraline and ParaNorman? Read our review and see.</div>
+</div>
+<div class="carousel-custom-read-more category-6"><span><a href="/movies/the-boxtrolls/239594/the-boxtrolls-review">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/boxtrolls_banner.jpg" /></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_6" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-7 views_slideshow_cycle_hidden views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/books-comics/dc-comics/239531/theres-a-crisis-coming-to-the-dc-new-52"><span class='category-12'>There&#039;s a Crisis Coming to the DC New 52</span></a></h2></div>
+<div class="carousel-custom-teaser">The signs are all there, and it&#039;s time for a trademark Crisis in the DC Universe. So what&#039;s it gonna fix?</div>
+</div>
+<div class="carousel-custom-read-more category-12"><span><a href="/books-comics/dc-comics/239531/theres-a-crisis-coming-to-the-dc-new-52">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/crisisbanner.png" /></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_7" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-8 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/tv/doctor-who/239540/doctor-who-steven-moffat-s-mysterious-female-characters"><span class='category-8'>Doctor Who: Steven Moffat’s mysterious female characters</span></a></h2></div>
+<div class="carousel-custom-teaser">Missy is only the latest in a series of enigmatic women characters that Steven Moffat has teased us with in Doctor Who… </div>
+</div>
+<div class="carousel-custom-read-more category-8"><span><a href="/tv/doctor-who/239540/doctor-who-steven-moffat-s-mysterious-female-characters">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/clipboard01_756.jpg" /></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_8" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-9 views_slideshow_cycle_hidden views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/tv/sci-fi/239355/5-sci-fi-shows-that-deserve-another-season"><span class='category-8'>5 Sci-Fi Shows That Deserve Another Season</span></a></h2></div>
+<div class="carousel-custom-teaser">Networks have been known to cancel sci-fi shows before their time. We took a look at some shows sitting on the cancelation bubble. </div>
+</div>
+<div class="carousel-custom-read-more category-8"><span><a href="/tv/sci-fi/239355/5-sci-fi-shows-that-deserve-another-season">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/5_sci_fi.jpg" /></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_9" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-10 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/games/wildstar/239408/wildstar-is-fixing-itself-for-the-better"><span class='category-10'>WildStar Is Fixing Itself For the Better</span></a></h2></div>
+<div class="carousel-custom-teaser">We discuss what went wrong with WildStar at launch and how, through bug-fixing and megaservers, Carbine seeks to fix the game&#039;s problems.</div>
+</div>
+<div class="carousel-custom-read-more category-10"><span><a href="/games/wildstar/239408/wildstar-is-fixing-itself-for-the-better">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/clipboard01_747.jpg" /></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_10" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-11 views_slideshow_cycle_hidden views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/tv/key-and-peele/238845/15-fundamental-key-peele-sketches"><span class='category-8'>15 Fundamental Key &amp; Peele Sketches</span></a></h2></div>
+<div class="carousel-custom-teaser">We look at some of Key &amp; Peele&#039;s best sketches that prove the genius of their show. </div>
+</div>
+<div class="carousel-custom-read-more category-8"><span><a href="/tv/key-and-peele/238845/15-fundamental-key-peele-sketches">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/key_peele.jpg" alt="Key &amp; Peele Sketches" title="Key &amp; Peele Sketches" /></div>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_carousel_homepage_smaller_custom-block_11" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-12 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-first views-row-odd">
+    
+  <div>        <div class="carousel-custom-text"><div class="carousel-custom-wrap-content"><div class="carousel-custom-title"><h2><a href="/books-comics/agents-of-shield/239438/agents-of-shield-the-absorbing-mans-most-ridiculous-transformations"><span class='category-12'>Agents of SHIELD: The Absorbing Man&#039;s Most Ridiculous Transformations</span></a></h2></div>
+<div class="carousel-custom-teaser">The first baddie of Agents of SHIELD season 2 has had some strange moments in the comics, that&#039;s for sure...</div>
+</div>
+<div class="carousel-custom-read-more category-12"><span><a href="/books-comics/agents-of-shield/239438/agents-of-shield-the-absorbing-mans-most-ridiculous-transformations">Read More</a></span></div></div>  </div>  
+  <div class="views-field views-field-field-rotator-image">        <div class="field-content"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/absorbbanner.jpg" /></div>  </div></div>
+</div>
+</div>
+</div>              <div class="views-slideshow-controls-bottom clearfix">
+          <div id="widget_pager_bottom_carousel_homepage_smaller_custom-block" class="views-slideshow-pager-fields widget_pager widget_pager_bottom views_slideshow_pager_field">
+  <div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_0" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views_slideshow_active_pager_field_item views-row-odd">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_1" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_2" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_3" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_4" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_5" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_6" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_7" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_8" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_9" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_10" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd">
+  </div>
+<div id="views_slideshow_pager_field_item_bottom_carousel_homepage_smaller_custom-block_11" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even">
+  </div>
+</div>
+        </div>
+              
+    </div>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /preface-top-inner -->
+  </div><!-- /preface-top -->
+
+    <div id="main" class="main region">
+   <div id="main-inner" class="main-inner inner clearfix">
+
+      
+
+            <div id="main-group" class="main-group region grid24-24">
+        <div id="main-group-inner" class="main-group-inner inner">
+          
+          <div id="main-content" class="main-content region nested">
+            <div id="main-content-inner" class="main-content-inner inner">
+			    	  <div id="content-group" class="content-group grid24-16">
+                <div id="content-group-inner" class="content-group-inner inner">
+                  <a id="main-content-area"></a>
+                  
+                                                      
+                  
+                                      <!-- content region -->
+  <div id="content" class="region region-content content nested grid24-16">
+    <div id="content-inner" class="content-inner inner clearfix">
+    <div id="block-views-a25c3ae1f449e31cc85babbf57f76a99" class="block block-views">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div class="view view-latest-articles-for-the-homepage view-id-latest_articles_for_the_homepage view-display-id-block top-article-homepage view-dom-id-f82f83cc8d04b5abf0024046a8e7af40">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first clearfix">
+      
+  <div class="views-field views-field-field-primary-image">        <div class="field-content"><span class='category-6'>
+<a href="/movies/the-boxtrolls/239547/laika-ceo-travis-knight-talks-the-boxtrolls-and-the-future-of-stop-motion-animation"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/top_homepage_articles/public/boxtrolls_3_0.jpg?itok=CtqmtjbJ" /></a>
+</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/the-boxtrolls/239547/laika-ceo-travis-knight-talks-the-boxtrolls-and-the-future-of-stop-motion-animation">Laika CEO Travis Knight talks The Boxtrolls and the Future of Stop-Motion Animation</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even clearfix">
+      
+  <div class="views-field views-field-field-primary-image">        <div class="field-content"><span class='category-6'>
+<a href="/movies/batman/239632/why-tim-burtons-batman-3-never-happened"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/top_homepage_articles/public/batman_1_1.jpg?itok=UV4A_bsL" alt="Batman 3" title="Batman 3" /></a>
+</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/batman/239632/why-tim-burtons-batman-3-never-happened">Why Tim Burton&#039;s Batman 3 Never Happened</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last clearfix">
+      
+  <div class="views-field views-field-field-primary-image">        <div class="field-content"><span class='category-6'>
+<a href="/movies/the-addams-family/239647/how-1991s-the-addams-family-nearly-got-derailed"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/top_homepage_articles/public/addams-main.jpg?itok=Ssu3NBy0" /></a>
+</span></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/the-addams-family/239647/how-1991s-the-addams-family-nearly-got-derailed">How 1991&#039;s The Addams Family nearly got derailed</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-views-83c8b7c45a214fc860bec6d1731c2b11" class="block block-views">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div class="view view-latest-articles-for-the-homepage view-id-latest_articles_for_the_homepage view-display-id-block_1 bottom-article-homepage view-dom-id-7ec30cd957b997b0efaa1afa93d186c7">
+            <div class="view-header">
+      <div class='homepage_latest_articles_subnav'>
+  <ul>
+     <li class='term-All category-0 active'><span><a id='All' class='category-filter' href='#'>All</a></span></li>
+     <li class='term-6'><span><a id='cat:6' class='category-filter' href='#'>Movies</a></span></li>
+     <li class='term-8'><span><a id='cat:8' class='category-filter' href='#'>Tv</a></span></li>
+     <li class='term-10'><span><a id='cat:10' class='category-filter' href='#'>Games</a></span></li>
+     <li class='term-12'><span><a id='cat:12' class='category-filter' href='#'>Comics/Books</a></span></li>
+     <li class='term-20'><span><a id='at:20' class='category-filter' href='#'>Trailers</a></span></li>
+     <li class='term-16'><span><a id='cat:16' class='category-filter' href='#'>Other</a></span></li>
+     <li class='term-36753'><span><a id='at:36753' class='category-filter' href='#'>Lists</a></span></li>
+  </ul>
+</div>
+<div style='clear: both'></div>
+<div class='homepage_latest_articles_filter'>
+ <span>SORT BY</span>
+ <span><a id='field_published_date_value' class='active' href='#'>MOST&nbsp;&nbsp;RECENT</a></span>
+ <span class='brd-left'><a id='count' href='#'>MOST&nbsp;&nbsp;POPULAR</a></span>
+</div>    </div>
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/gotham/239671/gotham-extended-season-one-trailer-is-full-of-villains">Gotham Extended Season One Trailer is Full of Villains</a></span>  </div>  
+          <a href="/tv/gotham/239671/gotham-extended-season-one-trailer-is-full-of-villains"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/gotham_heading.jpg?itok=vHFkHs65" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-20'>
+<a href="/trailers" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Trailer</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T19:50:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/gotham/239671/gotham-extended-season-one-trailer-is-full-of-villains">This extended trailer for the next few episodes of Gotham is riddled with Batman villains. Watch it here...</a></span>  </div></div>  </div>
+  <div class="views-row views-row-2 views-row-even clearfix">
+    <div class='row-wrapper-6 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/clerks-3/239669/kevin-smith-finds-financing-for-clerks-3">Kevin Smith Finds Financing For Clerks 3</a></span>  </div>  
+          <a href="/movies/clerks-3/239669/kevin-smith-finds-financing-for-clerks-3"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/images/63627.jpg?itok=CaKtgLyH" alt="Kevin Smith&#039;s Clerks" title="Kevin Smith&#039;s Clerks" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-6'>
+<a href="/movies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Movies</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T16:57:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/movies/clerks-3/239669/kevin-smith-finds-financing-for-clerks-3">Kevin Smith reveals himself that Clerks 3 is now being financed thanks to the positive reactions toward this month&#039;s Tusk.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-3 views-row-odd clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/legend-of-korra/239665/the-legend-of-korra-book-four-trailer-analysis">The Legend of Korra: Book Four Trailer Analysis</a></span>  </div>  
+          <a href="/tv/legend-of-korra/239665/the-legend-of-korra-book-four-trailer-analysis"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/korraprimary.jpg?itok=Naxmkjb8" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-8063'>
+<a href="/field-guide" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Field-guide</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T15:03:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/legend-of-korra/239665/the-legend-of-korra-book-four-trailer-analysis">The trailer for the next Korra season is out and we&#039;ve cut it apart to decipher it piece by piece.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-4 views-row-even clearfix">
+    <div class='row-wrapper-6 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/birdman/239663/watch-the-new-birdman-tv-spot">Watch The New Birdman TV Spot</a></span>  </div>  
+          <a href="/movies/birdman/239663/watch-the-new-birdman-tv-spot"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/birdman_0.jpg?itok=pgzWse60" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-6'>
+<a href="/movies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Movies</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T13:57:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/movies/birdman/239663/watch-the-new-birdman-tv-spot">Watch the new TV spot for Birdman, featuring Michael Keaton as an actor famous for playing a superhero decades ago.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-5 views-row-odd clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/the-walking-dead/239659/amc-announces-survivors-in-walking-dead-spin-off">AMC Announces Survivors in Walking Dead Spin-Off</a></span>  </div>  
+          <a href="/tv/the-walking-dead/239659/amc-announces-survivors-in-walking-dead-spin-off"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/the-walking-dead-.jpg?itok=bDUXcNQ2" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T12:40:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/the-walking-dead/239659/amc-announces-survivors-in-walking-dead-spin-off">Walking Dead spinoff characters detailed by AMC.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-6 views-row-even clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/saturday-night-live/239658/saturday-night-live-spoofs-marvels-film-schedule">Saturday Night Live Spoofs Marvel&#039;s Film Schedule</a></span>  </div>  
+          <a href="/tv/saturday-night-live/239658/saturday-night-live-spoofs-marvels-film-schedule"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/fancyghosts.jpg?itok=uyud-JsW" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-32'>
+<a href="/viral-video" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Viral Video</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T12:32:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/saturday-night-live/239658/saturday-night-live-spoofs-marvels-film-schedule">The season premiere has some fun with Guardians of the Galaxy&#039;s success by introducing some other unlikely superhero movies.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-7 views-row-odd clearfix">
+    <div class='row-wrapper-6 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/star-wars/239657/david-fincher-was-approached-for-star-wars-episode-vii">David Fincher Was Approached for Star Wars: Episode VII</a></span>  </div>  
+          <a href="/movies/star-wars/239657/david-fincher-was-approached-for-star-wars-episode-vii"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/starwarscover_5.png?itok=juNt9ft8" alt="Den of Geek Star Wars" title="Den of Geek Star Wars" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-6'>
+<a href="/movies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Movies</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T12:09:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/movies/star-wars/239657/david-fincher-was-approached-for-star-wars-episode-vii">Gone Girl director David Fincher spoke with Disney about directing Star Wars: Episode VII.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-8 views-row-even clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/american-horror-story/239656/american-horror-story-freak-show-premiere-to-run-90-minutes">American Horror Story: Freak Show Premiere To Run 90 Minutes</a></span>  </div>  
+          <a href="/tv/american-horror-story/239656/american-horror-story-freak-show-premiere-to-run-90-minutes"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/ahs_10.jpg?itok=zuFsL0nu" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T11:56:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/american-horror-story/239656/american-horror-story-freak-show-premiere-to-run-90-minutes">The American Horror Story: Freak Show premiere will run for 90 minutes...</a></span>  </div></div>  </div>
+  <div class="views-row views-row-9 views-row-odd clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/arrow/239655/arrow-season-3-and-the-flash-crossover-episode-has-a-comic-friendly-title">Arrow Season 3 and The Flash Crossover Episode Has a Comic Friendly Title</a></span>  </div>  
+          <a href="/tv/arrow/239655/arrow-season-3-and-the-flash-crossover-episode-has-a-comic-friendly-title"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/arrowposter.png?itok=HbiYT4rh" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T11:49:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/arrow/239655/arrow-season-3-and-the-flash-crossover-episode-has-a-comic-friendly-title">Comic book fans should be thrilled about the name of the Arrow and The Flash crossover episode. </a></span>  </div></div>  </div>
+  <div class="views-row views-row-10 views-row-even clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/tv-speed-reads/239654/tv-speed-reads-masters-of-sex-walking-dead-the-simpsons-boardwalk-empire-and-more">TV Speed Reads: Masters of Sex, Walking Dead, The Simpsons, Boardwalk Empire and More</a></span>  </div>  
+          <a href="/tv/tv-speed-reads/239654/tv-speed-reads-masters-of-sex-walking-dead-the-simpsons-boardwalk-empire-and-more"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/usainbolt.jpg?itok=euBQHhnN" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T11:43:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/tv-speed-reads/239654/tv-speed-reads-masters-of-sex-walking-dead-the-simpsons-boardwalk-empire-and-more">Catch up on last night&#039;s programming slate with our TV Speed Reads, a loaded Sunday night edition!</a></span>  </div></div>  </div>
+  <div class="views-row views-row-11 views-row-odd clearfix">
+    <div class='row-wrapper-6 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/whiplash/239634/whiplash-review">Whiplash Review</a></span>  </div>  
+          <a href="/movies/whiplash/239634/whiplash-review"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/whiplash_1.jpg?itok=wgHGGDsq" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-6'>
+<a href="/movies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Movies</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-28'>
+<a href="/reviews" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Review</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="v:dtreviewed" datatype="xsd:dateTime" content="2014-09-29T09:37:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/movies/whiplash/239634/whiplash-review">Whiplash has flown under the radar at NYFF, but it might be the year&#039;s best movie, and J.K. Simmons is a lock for Best Supporting Actor.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-12 views-row-even clearfix">
+    <div class='row-wrapper-10 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/games/playstation/239607/playstation-home-closing-its-doors-next-march">PlayStation Home closing its doors next March</a></span>  </div>  
+          <a href="/games/playstation/239607/playstation-home-closing-its-doors-next-march"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/pshome.jpg?itok=j__0uEBK" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-10'>
+<a href="/games" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Games</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T08:58:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/games/playstation/239607/playstation-home-closing-its-doors-next-march">PlayStation Home in the west is due to follow its Japanese counterpart as it closes its doors next year...</a></span>  </div></div>  </div>
+  <div class="views-row views-row-13 views-row-odd clearfix">
+    <div class='row-wrapper-6 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/london-has-fallen/239642/new-director-for-olympus-has-fallen-2-london-has-fallen">New director for Olympus Has Fallen 2: London Has Fallen</a></span>  </div>  
+          <a href="/movies/london-has-fallen/239642/new-director-for-olympus-has-fallen-2-london-has-fallen"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/olympus-has-fallen_0.jpg?itok=XSkXqSJL" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-6'>
+<a href="/movies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Movies</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T08:33:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/movies/london-has-fallen/239642/new-director-for-olympus-has-fallen-2-london-has-fallen">After Fredrik Bond quit last week, a new director has been found for London Has Fallen, starring Gerard Butler...</a></span>  </div></div>  </div>
+  <div class="views-row views-row-14 views-row-even clearfix">
+    <div class='row-wrapper-6 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/dreamworks/239644/dreamworks-animation-linked-with-34bn-takeover">DreamWorks Animation linked with $3.4bn takeover</a></span>  </div>  
+          <a href="/movies/dreamworks/239644/dreamworks-animation-linked-with-34bn-takeover"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/180979.jpg?itok=t1MVNgrs" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-6'>
+<a href="/movies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Movies</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T08:25:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/movies/dreamworks/239644/dreamworks-animation-linked-with-34bn-takeover">Ahead of the release of The Penguins Of Madagascar, DreamWorks Animation may have new owners...</a></span>  </div></div>  </div>
+  <div class="views-row views-row-15 views-row-odd clearfix">
+    <div class='row-wrapper-6 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/the-boxtrolls/239547/laika-ceo-travis-knight-talks-the-boxtrolls-and-the-future-of-stop-motion-animation">Laika CEO Travis Knight talks The Boxtrolls and the Future of Stop-Motion Animation</a></span>  </div>  
+          <a href="/movies/the-boxtrolls/239547/laika-ceo-travis-knight-talks-the-boxtrolls-and-the-future-of-stop-motion-animation"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/boxtrolls_3_0.jpg?itok=z9bz9nQM" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-6'>
+<a href="/movies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Movies</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-24'>
+<a href="/interview" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Interview</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T08:24:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/movies/the-boxtrolls/239547/laika-ceo-travis-knight-talks-the-boxtrolls-and-the-future-of-stop-motion-animation">The head of the independent animation studio, Laika discusses The Boxtrolls, Paranorman, Coraline, and stop motion animation.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-16 views-row-even clearfix">
+    <div class='row-wrapper-6 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/batman/239632/why-tim-burtons-batman-3-never-happened">Why Tim Burton&#039;s Batman 3 Never Happened</a></span>  </div>  
+          <a href="/movies/batman/239632/why-tim-burtons-batman-3-never-happened"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/batman_1_1.jpg?itok=geNWxwxl" alt="Batman 3" title="Batman 3" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-6'>
+<a href="/movies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Movies</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T08:18:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/movies/batman/239632/why-tim-burtons-batman-3-never-happened">Despite directing the still beloved Batman and Batman Returns, Tim Burton (and Michael Keaton) did not return for Batman 3. Here&#039;s why...</a></span>  </div></div>  </div>
+  <div class="views-row views-row-17 views-row-odd clearfix">
+    <div class='row-wrapper-6 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/the-addams-family/239647/how-1991s-the-addams-family-nearly-got-derailed">How 1991&#039;s The Addams Family nearly got derailed</a></span>  </div>  
+          <a href="/movies/the-addams-family/239647/how-1991s-the-addams-family-nearly-got-derailed"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/addams-main.jpg?itok=ewjg6TYx" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-6'>
+<a href="/movies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Movies</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-45'>
+<a href="/feature" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Feature</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T08:10:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/movies/the-addams-family/239647/how-1991s-the-addams-family-nearly-got-derailed">The Addams Family looked a seamless project to bring to the screen. But the film, starring Raul Julia and Anjelica Huston, was anything but.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-18 views-row-even clearfix">
+    <div class='row-wrapper-6 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/avengers/239641/first-avengers-age-of-ultron-trailer-set-to-land-next-month">First Avengers: Age Of Ultron trailer set to land next month</a></span>  </div>  
+          <a href="/movies/avengers/239641/first-avengers-age-of-ultron-trailer-set-to-land-next-month"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/avengers_age_of_ultron_5.jpg?itok=WDtxHZme" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-6'>
+<a href="/movies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Movies</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-3'>
+<a href="/news-old" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">News</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-29T07:53:00-04:00">Sep 29, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/movies/avengers/239641/first-avengers-age-of-ultron-trailer-set-to-land-next-month">The covers may just be coming off Joss Whedon&#039;s Avengers: Age Of Ultron, as reports suggest the first trailer is weeks away...</a></span>  </div></div>  </div>
+  <div class="views-row views-row-19 views-row-odd clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/boardwalk-empire/239637/boardwalk-empire-king-of-norway-trailer">Boardwalk Empire: King of Norway trailer</a></span>  </div>  
+          <a href="/tv/boardwalk-empire/239637/boardwalk-empire-king-of-norway-trailer"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/boardwalk_king_of_norway.jpg?itok=eCiOqrDW" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-20'>
+<a href="/trailers" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Trailer</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-28T22:45:00-04:00">Sep 28, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/boardwalk-empire/239637/boardwalk-empire-king-of-norway-trailer">Nucky dodges a bullet, or two, next week on Boardwalk Empire. Watch the trailer for &quot;King of Norway&quot; here.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-20 views-row-even clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/once-upon-a-time/239636/once-upon-a-time-season-4-premiere-review-a-tale-of-two-sisters">Once Upon a Time Season 4 Premiere Review: A Tale of Two Sisters</a></span>  </div>  
+          <a href="/tv/once-upon-a-time/239636/once-upon-a-time-season-4-premiere-review-a-tale-of-two-sisters"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/once-upon-a-time-frozen-02.jpg?itok=qjxay26A" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-28'>
+<a href="/reviews" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Review</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="v:dtreviewed" datatype="xsd:dateTime" content="2014-09-28T22:26:00-04:00">Sep 28, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/once-upon-a-time/239636/once-upon-a-time-season-4-premiere-review-a-tale-of-two-sisters">Once Upon a Time meets Frozen in the season 4 premiere episode. Here&#039;s Rebecca&#039;s review...</a></span>  </div></div>  </div>
+  <div class="views-row views-row-21 views-row-odd clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/boardwalk-empire/239615/boardwalk-empire-cuanto-review">Boardwalk Empire: Cuanto Review</a></span>  </div>  
+          <a href="/tv/boardwalk-empire/239615/boardwalk-empire-cuanto-review"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/sally_.jpg?itok=AnhLy84i" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-28'>
+<a href="/reviews" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Review</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="v:dtreviewed" datatype="xsd:dateTime" content="2014-09-28T22:03:00-04:00">Sep 28, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/boardwalk-empire/239615/boardwalk-empire-cuanto-review">Boardwalk Empire will knock the wind out of you and leave it by the side of the road.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-22 views-row-even clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/boardwalk-empire/231051/boardwalk-empire-season-5-the-real-al-capone">Boardwalk Empire Season 5: The Real Al Capone</a></span>  </div>  
+          <a href="/tv/boardwalk-empire/231051/boardwalk-empire-season-5-the-real-al-capone"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/800704_1.jpg?itok=wfn0D-JV" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-45'>
+<a href="/feature" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Feature</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-28T15:44:00-04:00">Sep 28, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/boardwalk-empire/231051/boardwalk-empire-season-5-the-real-al-capone">SPOILER ADVISORY: These Boardwalk Empire character studies may be hazardous to your viewing experience.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-23 views-row-odd clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/true-detective/238707/true-detective-season-2-everything-we-know-and-more">True Detective Season 2: Everything We Know and More</a></span>  </div>  
+          <a href="/tv/true-detective/238707/true-detective-season-2-everything-we-know-and-more"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/true_detective_devil_3.png?itok=RW3zLG0U" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-45'>
+<a href="/feature" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Feature</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-28T15:01:00-04:00">Sep 28, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/true-detective/238707/true-detective-season-2-everything-we-know-and-more">True Detective will start fresh in season 2, but not clean. Here&#039;s everything you need to know...</a></span>  </div></div>  </div>
+  <div class="views-row views-row-24 views-row-even clearfix">
+    <div class='row-wrapper-6 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/movies/71/239616/71-review">&#039;71 Review</a></span>  </div>  
+          <a href="/movies/71/239616/71-review"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/71-1-1.jpg?itok=wEM-IP10" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-6'>
+<a href="/movies" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Movies</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-28'>
+<a href="/reviews" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Review</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="v:dtreviewed" datatype="xsd:dateTime" content="2014-09-28T14:19:00-04:00">Sep 28, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/movies/71/239616/71-review">Jack O&#039;Connell stars in &#039;71, a white-knuckled ride into the heart of Belfast&#039;s Troubles. Here is our review of the NYFF film.</a></span>  </div></div>  </div>
+  <div class="views-row views-row-25 views-row-odd clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/speed-reads/239627/tv-speed-reads-doctor-who-outlander-hell-on-wheels-and-more">TV Speed Reads: Doctor Who, Outlander, Hell on Wheels, and More!</a></span>  </div>  
+          <a href="/tv/speed-reads/239627/tv-speed-reads-doctor-who-outlander-hell-on-wheels-and-more"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/usainbolt.jpg?itok=euBQHhnN" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-28'>
+<a href="/reviews" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Review</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-28T10:21:00-04:00">Sep 28, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/speed-reads/239627/tv-speed-reads-doctor-who-outlander-hell-on-wheels-and-more">It&#039;s your weekend edition of TV Speed Reads, with bite-sized reviews of your favorite Friday and Saturday shows all in one place. </a></span>  </div></div>  </div>
+  <div class="views-row views-row-26 views-row-even views-row-last clearfix">
+    <div class='row-wrapper-8 article-row'>
+  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/tv/doctor-who/239623/doctor-who-kill-the-moon-trailer">Doctor Who: Kill the Moon trailer</a></span>  </div>  
+          <a href="/tv/doctor-who/239623/doctor-who-kill-the-moon-trailer"><img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_small/public/capaldi_doctor_who_1.jpg?itok=-1_PmZIr" /></a>    
+  <span class="views-field views-field-field-category-primary">        <span class="field-content"><div class='category-date-container wrap-category-8'>
+<a href="/tv" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">TV</a>
+</div></span>  </span>  
+  <span class="views-field views-field-field-article-type">        <span class="field-content"><div class='category-date-container wrap-category-20'>
+<a href="/trailers" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Trailer</a>
+</div></span>  </span>  
+          <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2014-09-27T22:17:00-04:00">Sep 27, 2014</span>    
+  <div class="views-field views-field-field-short-teaser">        <span class="field-content"><a href="http://www.denofgeek.us/tv/doctor-who/239623/doctor-who-kill-the-moon-trailer">The Doctor and Clara take on creepy spider aliens in the trailer for Doctor Who season 8 episode 7, &quot;Kill the Moon.&quot;</a></span>  </div></div>  </div>
+    </div>
+  
+      <p class="element-invisible">Pages</p><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated?field_category_primary_tid=All&amp;field_article_type_tid=All&amp;sort_by=field_published_date_value&amp;sort_order=DESC&page=1,0">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated?field_category_primary_tid=All&amp;field_article_type_tid=All&amp;sort_by=field_published_date_value&amp;sort_order=DESC&page=2,0">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated?field_category_primary_tid=All&amp;field_article_type_tid=All&amp;sort_by=field_published_date_value&amp;sort_order=DESC&page=3,0">4</a></li>
+<li class="pager-item"><a title="Go to page 5" href="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated?field_category_primary_tid=All&amp;field_article_type_tid=All&amp;sort_by=field_published_date_value&amp;sort_order=DESC&page=4,0">5</a></li>
+<li class="pager-item"><a title="Go to page 6" href="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated?field_category_primary_tid=All&amp;field_article_type_tid=All&amp;sort_by=field_published_date_value&amp;sort_order=DESC&page=5,0">6</a></li>
+<li class="pager-item"><a title="Go to page 7" href="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated?field_category_primary_tid=All&amp;field_article_type_tid=All&amp;sort_by=field_published_date_value&amp;sort_order=DESC&page=6,0">7</a></li>
+<li class="pager-item"><a title="Go to page 8" href="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated?field_category_primary_tid=All&amp;field_article_type_tid=All&amp;sort_by=field_published_date_value&amp;sort_order=DESC&page=7,0">8</a></li>
+<li class="pager-item"><a title="Go to page 9" href="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated?field_category_primary_tid=All&amp;field_article_type_tid=All&amp;sort_by=field_published_date_value&amp;sort_order=DESC&page=8,0">9</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a title="Go to next page" href="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated?field_category_primary_tid=All&amp;field_article_type_tid=All&amp;sort_by=field_published_date_value&amp;sort_order=DESC&page=1,0">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated?field_category_primary_tid=All&amp;field_article_type_tid=All&amp;sort_by=field_published_date_value&amp;sort_order=DESC&page=1051,0">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-system-main" class="block block-system">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      
+
+<div  class="node node-page node-promoted odd node-full clearfix" about="/movie-reviews-cult-tv-games-comics-reviewed-discussed-appreciated" typeof="sioc:Item foaf:Document">
+  
+  
+  
+  <div class="content">
+      </div>
+
+  
+  
+  
+</div>
+    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /content-inner -->
+  </div><!-- /content -->
+                                                    </div><!-- /content-group-inner -->
+              </div><!-- /content-group -->
+                <!-- sidebar-second region -->
+  <div id="sidebar-second" class="region region-sidebar-second sidebar sidebar-second nested grid24-8">
+    <div id="sidebar-second-inner" class="sidebar-second-inner inner clearfix">
+    <div id="block-dfp-mpu_1" class="block block-dfp">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div id="dfp-ad-mpu_1-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-mpu_1" class="dfp-tag-wrapper">
+  <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-mpu_1");
+    });
+  </script>
+</div>
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-block-1" class="block block-block">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div id="social-bar"><a href="http://www.facebook.com/DenOfGeekUS" title="Facebook" class="facebook">Facebook</a>
+<a href="http://twitter.com/DenOfGeekUS" title="twitter" class="twitter">twitter</a>
+<a href="http://plus.google.com/+DenofgeekUs" title="Google Plus" class="gplus" rel="publisher">Google Plus</a>
+<a href="http://denofgeekus.tumblr.com" title="tumblr" class="tumblr">tumblr</a>
+<a href="http://www.youtube.com/user/denofgeektube" title="YouTube" class="youtube">YouTube</a>
+<span class="spacer">Spacer</span></div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-term_queue-0" class="block block-term-queue">
+  <div class="gutter inner clearfix">
+            <h4 class="title block-title"><span>Trending</span></h4>
+        
+    <div class="content clearfix">
+      <ul class="term-queue-links"><li class="0 first"><a href="/agents-of-shield">agents of shield</a></li>
+<li class="1"><a href="/gotham">Gotham</a></li>
+<li class="2"><a href="/boardwalk-empire">Boardwalk Empire</a></li>
+<li class="3"><a href="/the-walking-dead">The Walking Dead</a></li>
+<li class="4"><a href="/sailor-moon">sailor moon</a></li>
+<li class="5"><a href="/star-wars">Star Wars</a></li>
+<li class="6"><a href="/batman-v-superman-dawn-of-justice">batman v. superman: dawn of justice</a></li>
+<li class="7"><a href="/tags/doctor-who">Doctor Who</a></li>
+<li class="8"><a href="/tags/hell-on-wheels">Hell On Wheels</a></li>
+<li class="9 last"><a href="/destiny">destiny</a></li>
+</ul>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-dfp-mpu_2" class="block block-dfp">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div id="dfp-ad-mpu_2-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-mpu_2" class="dfp-tag-wrapper">
+  <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-mpu_2");
+    });
+  </script>
+</div>
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-views-promoted_overlay_box_view-block" class="block block-views">
+  <div class="gutter inner clearfix">
+            <h4 class="title block-title"><span>Featured Content</span></h4>
+        
+    <div class="content clearfix">
+      <div class="view view-promoted-overlay-box-view view-id-promoted_overlay_box_view view-display-id-block view-dom-id-dffb6edf1b888f74d8a86638559f50ec">
+	 
+  <!-- CLIENT HEADER IMG -->
+	<!-- <a href="/codemasters/dirt-showdown" class="index-link" onclick="_gaq.push(['_trackEvent', 'Codemasters - Dirt Showdown - Index', 'Promo overlay box', document.location.href.toLowerCase().substring((document.location.href.toLowerCase().indexOf(document.domain.toLowerCase())) + (document.domain.toLowerCase().length))]);"><img src="/" alt="Dirt Showdown" /></a>-->
+  
+  
+	      
+  
+  
+  
+  
+      <div class="attachment attachment-after">
+      <div class="view view-promoted-overlay-box-view view-id-promoted_overlay_box_view view-display-id-promo_links">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first clearfix">
+    
+
+
+
+	
+  
+  <div class="views-field views-field-title">        <span class="field-content">The Top 25 Must See Movies of 2014<span class="view-field-raquo">&raquo;</span></span>  </div>
+	
+  
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><div id="file-195107" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/cover_movies_254.jpg?itok=vrxs0MXQ" alt="" />  </div>
+
+  
+</div>
+</span>  </span>
+	
+  
+          <div class="views-field-path"><a href="http://www.denofgeek.us/movies/top-25-must-see-movies-of-2014/198181/the-top-25-must-see-movies-of-2014" class="more-link" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;The Top 25 Must See Movies of 2014&#039;, &#039;Promo overlay box&#039;, document.location.href.toLowerCase().substring((document.location.href.toLowerCase().indexOf(document.domain.toLowerCase())) + (document.domain.toLowerCase().length))]);">The Top 25 Must See Movies of 2014</a></div>    </div>
+  <div class="views-row views-row-2 views-row-even clearfix">
+    
+
+
+
+	
+  
+  <div class="views-field views-field-title">        <span class="field-content">Comics! 101 Creators to Watch in 2014<span class="view-field-raquo">&raquo;</span></span>  </div>
+	
+  
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><div id="file-232085" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/101comicsprimary.jpg?itok=yXDDX2VV" alt="" />  </div>
+
+  
+</div>
+</span>  </span>
+	
+  
+          <div class="views-field-path"><a href="http://www.denofgeek.us/books-comics/comics/231831/comics-101-creators-to-watch-in-2014" class="more-link" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Comics! 101 Creators to Watch in 2014&#039;, &#039;Promo overlay box&#039;, document.location.href.toLowerCase().substring((document.location.href.toLowerCase().indexOf(document.domain.toLowerCase())) + (document.domain.toLowerCase().length))]);">Comics! 101 Creators to Watch in 2014</a></div>    </div>
+  <div class="views-row views-row-3 views-row-odd clearfix">
+    
+
+
+
+	
+  
+  <div class="views-field views-field-title">        <span class="field-content">The 9 Stages Of Matthew McConaughey&#039;s McConaissance<span class="view-field-raquo">&raquo;</span></span>  </div>
+	
+  
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><div id="file-233857" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/true_detective1.jpg?itok=Zv5eQu1K" alt="" />  </div>
+
+  
+</div>
+</span>  </span>
+	
+  
+          <div class="views-field-path"><a href="http://www.denofgeek.us/movies/matthew-mcconaughey/232542/the-9-stages-of-matthew-mcconaugheys-mcconaissance" class="more-link" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;The 9 Stages Of Matthew McConaughey&#039;s McConaissance&#039;, &#039;Promo overlay box&#039;, document.location.href.toLowerCase().substring((document.location.href.toLowerCase().indexOf(document.domain.toLowerCase())) + (document.domain.toLowerCase().length))]);">The 9 Stages Of Matthew McConaughey&#039;s McConaissance</a></div>    </div>
+  <div class="views-row views-row-4 views-row-even clearfix">
+    
+
+
+
+	
+  
+  <div class="views-field views-field-title">        <span class="field-content">Mario&#039;s 18 Greatest! Ranking the Mario Games<span class="view-field-raquo">&raquo;</span></span>  </div>
+	
+  
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><div id="file-231810" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/nintendo-new-super-mario-bros-ds-art-screenshot.jpg?itok=4pEjX1iK" alt="" />  </div>
+
+  
+</div>
+</span>  </span>
+	
+  
+          <div class="views-field-path"><a href="http://www.denofgeek.us/games/mario/231792/marios-18-greatest-ranking-the-mario-games" class="more-link" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Mario&#039;s 18 Greatest! Ranking the Mario Games&#039;, &#039;Promo overlay box&#039;, document.location.href.toLowerCase().substring((document.location.href.toLowerCase().indexOf(document.domain.toLowerCase())) + (document.domain.toLowerCase().length))]);">Mario&#039;s 18 Greatest! Ranking the Mario Games</a></div>    </div>
+  <div class="views-row views-row-5 views-row-odd clearfix">
+    
+
+
+
+	
+  
+  <div class="views-field views-field-title">        <span class="field-content">Guardians Of The Galaxy: A Comic Book History of Marvel&#039;s Newest Movie Stars<span class="view-field-raquo">&raquo;</span></span>  </div>
+	
+  
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><div id="file-235273" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/lanningguardians_0.jpeg?itok=NRdz7jNs" alt="" />  </div>
+
+  
+</div>
+</span>  </span>
+	
+  
+          <div class="views-field-path"><a href="http://www.denofgeek.us/books-comics/guardians-of-the-galaxy/233152/guardians-of-the-galaxy-a-comic-book-history-of-marvels-newest-movie-stars" class="more-link" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Guardians Of The Galaxy: A Comic Book History of Marvel&#039;s Newest Movie Stars&#039;, &#039;Promo overlay box&#039;, document.location.href.toLowerCase().substring((document.location.href.toLowerCase().indexOf(document.domain.toLowerCase())) + (document.domain.toLowerCase().length))]);">Guardians Of The Galaxy: A Comic Book History of Marvel&#039;s Newest Movie Stars</a></div>    </div>
+  <div class="views-row views-row-6 views-row-even clearfix">
+    
+
+
+
+	
+  
+  <div class="views-field views-field-title">        <span class="field-content">RoboCop: The Franchise That Wasn&#039;t<span class="view-field-raquo">&raquo;</span></span>  </div>
+	
+  
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><div id="file-234980" class="file file-image file-image-png">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/robocopmain.png?itok=cwsvJd8K" alt="" />  </div>
+
+  
+</div>
+</span>  </span>
+	
+  
+          <div class="views-field-path"><a href="http://www.denofgeek.us/movies/robocop/233032/robocop-the-franchise-that-wasnt" class="more-link" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;RoboCop: The Franchise That Wasn&#039;t&#039;, &#039;Promo overlay box&#039;, document.location.href.toLowerCase().substring((document.location.href.toLowerCase().indexOf(document.domain.toLowerCase())) + (document.domain.toLowerCase().length))]);">RoboCop: The Franchise That Wasn&#039;t</a></div>    </div>
+  <div class="views-row views-row-7 views-row-odd clearfix">
+    
+
+
+
+	
+  
+  <div class="views-field views-field-title">        <span class="field-content">Rick and Morty: A Viewer&#039;s Guide to Adult Swim&#039;s New Sci-Fi Show<span class="view-field-raquo">&raquo;</span></span>  </div>
+	
+  
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><div id="file-232715" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/rickmorty.jpg?itok=kHE0j4wI" alt="" />  </div>
+
+  
+</div>
+</span>  </span>
+	
+  
+          <div class="views-field-path"><a href="http://www.denofgeek.us/tv/rick-and-morty/232074/rick-and-morty-a-viewers-guide-to-adult-swims-new-sci-fi-show" class="more-link" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;Rick and Morty: A Viewer&#039;s Guide to Adult Swim&#039;s New Sci-Fi Show&#039;, &#039;Promo overlay box&#039;, document.location.href.toLowerCase().substring((document.location.href.toLowerCase().indexOf(document.domain.toLowerCase())) + (document.domain.toLowerCase().length))]);">Rick and Morty: A Viewer&#039;s Guide to Adult Swim&#039;s New Sci-Fi Show</a></div>    </div>
+  <div class="views-row views-row-8 views-row-even clearfix">
+    
+
+
+
+	
+  
+  <div class="views-field views-field-title">        <span class="field-content">5 Cliches In 5 of Your Favorite Video Game Genres<span class="view-field-raquo">&raquo;</span></span>  </div>
+	
+  
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><div id="file-234967" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/97443.jpg?itok=Qwy28JmE" alt="" />  </div>
+
+  
+</div>
+</span>  </span>
+	
+  
+          <div class="views-field-path"><a href="http://www.denofgeek.us/games/video-game-genres/233020/5-cliches-in-5-of-your-favorite-video-game-genres" class="more-link" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;5 Cliches In 5 of Your Favorite Video Game Genres&#039;, &#039;Promo overlay box&#039;, document.location.href.toLowerCase().substring((document.location.href.toLowerCase().indexOf(document.domain.toLowerCase())) + (document.domain.toLowerCase().length))]);">5 Cliches In 5 of Your Favorite Video Game Genres</a></div>    </div>
+  <div class="views-row views-row-9 views-row-odd clearfix">
+    
+
+
+
+	
+  
+  <div class="views-field views-field-title">        <span class="field-content">WWE Network: Our 22 Must-Watch Wrestling PPVs<span class="view-field-raquo">&raquo;</span></span>  </div>
+	
+  
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><div id="file-233689" class="file file-image file-image-png">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/wwenetworklogo_0.png?itok=ZUOWMqrb" alt="" />  </div>
+
+  
+</div>
+</span>  </span>
+	
+  
+          <div class="views-field-path"><a href="http://www.denofgeek.us/other/wwe/233254/wwe-network-our-22-must-watch-wrestling-ppvs" class="more-link" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;WWE Network: Our 22 Must-Watch Wrestling PPVs&#039;, &#039;Promo overlay box&#039;, document.location.href.toLowerCase().substring((document.location.href.toLowerCase().indexOf(document.domain.toLowerCase())) + (document.domain.toLowerCase().length))]);">WWE Network: Our 22 Must-Watch Wrestling PPVs</a></div>    </div>
+  <div class="views-row views-row-10 views-row-even views-row-last clearfix">
+    
+
+
+
+	
+  
+  <div class="views-field views-field-title">        <span class="field-content">The Teenage Mutant Ninja Turtles Movie: Everything We Know<span class="view-field-raquo">&raquo;</span></span>  </div>
+	
+  
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><div id="file-176863" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/70093_12.jpg?itok=76eXzz91" alt="" />  </div>
+
+  
+</div>
+</span>  </span>
+	
+  
+          <div class="views-field-path"><a href="http://www.denofgeek.us/movies/teenage-mutant-ninja-turtles/180959/the-teenage-mutant-ninja-turtles-movie-everything-we-know" class="more-link" onclick="_gaq.push([&#039;_trackEvent&#039;, &#039;The Teenage Mutant Ninja Turtles Movie: Everything We Know&#039;, &#039;Promo overlay box&#039;, document.location.href.toLowerCase().substring((document.location.href.toLowerCase().indexOf(document.domain.toLowerCase())) + (document.domain.toLowerCase().length))]);">The Teenage Mutant Ninja Turtles Movie: Everything We Know</a></div>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+    
+	<div style="position:absolute;width:0;height:0;overflow:hidden;">
+  
+  <!-- EDS CLIENT Impression counter FFoE_DoG_EDBOX_MayJun12 -->
+  <IMG SRC="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=19&mc=imp&pli=4704291&PluID=0&ord=409093264&rtu=-1" BORDER=0 vspace=0 hspace=0 width=1 height=1>
+   
+	</div>
+  
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-views-latest_tv-block" class="block block-views">
+  <div class="gutter inner clearfix">
+            <h4 class="title block-title"><span>Latest TV</span></h4>
+        
+    <div class="content clearfix">
+      <div class="view view-latest-tv view-id-latest_tv view-display-id-block view-dom-id-1c4e2ba88466bb0842e5568da97ee3b5">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/gotham/239671/gotham-extended-season-one-trailer-is-full-of-villains"><div id="file-247082" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/gotham_heading.jpg?itok=K5jbVh-Z" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/gotham/239671/gotham-extended-season-one-trailer-is-full-of-villains">Gotham Extended Season One Trailer is Full of Villains <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/legend-of-korra/239665/the-legend-of-korra-book-four-trailer-analysis"><div id="file-247936" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/korraprimary.jpg?itok=doJT8OPv" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/legend-of-korra/239665/the-legend-of-korra-book-four-trailer-analysis">The Legend of Korra: Book Four Trailer Analysis <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/outlander/239660/outlander-season-1-review-round-up"><div id="file-239760" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/outlander_main.jpg?itok=-RF2LtFc" alt="Outlander Season 1" title="Outlander Season 1" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/outlander/239660/outlander-season-1-review-round-up">Outlander Season 1 Review Round-Up <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/space-dandy/239662/space-dandy-season-2-review-round-up"><div id="file-243571" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/spacedandy_0.jpg?itok=PVOJNh-P" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/space-dandy/239662/space-dandy-season-2-review-round-up">Space Dandy Season 2 Review Round-Up <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/the-walking-dead/239659/amc-announces-survivors-in-walking-dead-spin-off"><div id="file-247915" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/the-walking-dead-.jpg?itok=Vl6PhLdz" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/the-walking-dead/239659/amc-announces-survivors-in-walking-dead-spin-off">AMC Announces Survivors in Walking Dead Spin-Off <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/saturday-night-live/239658/saturday-night-live-spoofs-marvels-film-schedule"><div id="file-247903" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/fancyghosts.jpg?itok=Js5fuJgs" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/saturday-night-live/239658/saturday-night-live-spoofs-marvels-film-schedule">Saturday Night Live Spoofs Marvel&#039;s Film Schedule <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/american-horror-story/239656/american-horror-story-freak-show-premiere-to-run-90-minutes"><div id="file-247900" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/ahs_10.jpg?itok=wNhelhUC" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/american-horror-story/239656/american-horror-story-freak-show-premiere-to-run-90-minutes">American Horror Story: Freak Show Premiere To Run 90 Minutes <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/arrow/239655/arrow-season-3-and-the-flash-crossover-episode-has-a-comic-friendly-title"><div id="file-247297" class="file file-image file-image-png">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/arrowposter.png?itok=qvGk8My4" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/arrow/239655/arrow-season-3-and-the-flash-crossover-episode-has-a-comic-friendly-title">Arrow Season 3 and The Flash Crossover Episode Has a Comic Friendly Title <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/tv-speed-reads/239654/tv-speed-reads-masters-of-sex-walking-dead-the-simpsons-boardwalk-empire-and-more"><div id="file-247033" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/usainbolt.jpg?itok=EUMC8Sr6" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/tv-speed-reads/239654/tv-speed-reads-masters-of-sex-walking-dead-the-simpsons-boardwalk-empire-and-more">TV Speed Reads: Masters of Sex, Walking Dead, The Simpsons, Boardwalk Empire and More <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/masters-of-sex/239653/masters-of-sex-season-2-finale-review"><div id="file-247899" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/clipboard01_768.jpg?itok=6GS-rN7x" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/masters-of-sex/239653/masters-of-sex-season-2-finale-review">Masters of Sex: Season 2 Finale Review <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-11 views-row-odd clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/black-mirror/239652/jon-hamm-more-join-cast-of-black-mirror-xmas-special"><div id="file-247898" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/black_mirror_logo_0.jpg?itok=kzuwXOB7" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/black-mirror/239652/jon-hamm-more-join-cast-of-black-mirror-xmas-special">Jon Hamm &amp; more join cast of Black Mirror Xmas special <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-12 views-row-even clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/the-walking-dead/239651/the-walking-dead-season-5-no-sanctuary-spoiler-free-review"><div id="file-247897" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/twd_5-1.jpg?itok=QGNHv4_U" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/the-walking-dead/239651/the-walking-dead-season-5-no-sanctuary-spoiler-free-review">The Walking Dead season 5: No Sanctuary spoiler-free review <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-13 views-row-odd clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/family-guy/239648/family-guy-the-simpsons-guy-review"><div id="file-247883" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/simpsonsguyprimary.jpg?itok=hO9VxNAe" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/family-guy/239648/family-guy-the-simpsons-guy-review">Family Guy: The Simpsons Guy Review <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-14 views-row-even clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/the-strain/239638/the-strain-last-rites-review"><div id="file-247880" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/clipboard01_767.jpg?itok=sIjKYwZi" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/the-strain/239638/the-strain-last-rites-review">The Strain: Last Rites Review <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+  <div class="views-row views-row-15 views-row-odd views-row-last clearfix">
+      
+  <span class="views-field views-field-field-primary-image">        <span class="field-content"><a href="http://www.denofgeek.us/tv/boardwalk-empire/239637/boardwalk-empire-king-of-norway-trailer"><div id="file-247879" class="file file-image file-image-jpeg">
+
+  
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://cdn.denofgeek.us/sites/denofgeekus/files/styles/thumbnail_large/public/boardwalk_king_of_norway.jpg?itok=SA22nm7g" alt="" />  </div>
+
+  
+</div>
+</a></span>  </span>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="http://www.denofgeek.us/tv/boardwalk-empire/239637/boardwalk-empire-king-of-norway-trailer">Boardwalk Empire: King of Norway trailer <span class="view-field-raquo">&raquo;</span></a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-dfp-skyscraper_right_1" class="block block-dfp">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <div id="dfp-ad-skyscraper_right_1-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-skyscraper_right_1" class="dfp-tag-wrapper">
+  <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-skyscraper_right_1");
+    });
+  </script>
+</div>
+</div>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /sidebar-second-inner -->
+  </div><!-- /sidebar-second -->
+
+            </div><!-- /main-content-inner -->
+          </div><!-- /main-content -->
+
+                  </div><!-- /main-group-inner -->
+      </div><!-- /main-group -->
+    </div><!-- /main-inner -->
+  </div><!-- /main -->
+
+  </div><!-- /page -->
+<div id="footer-group" class="footer-group region" align="center">
+    <div style="width:980px;">
+       <!-- footer region -->
+  <div id="footer" class="region region-footer footer">
+    <div id="footer-inner" class="footer-inner inner clearfix">
+    <div id="leaderboard-bottom" class="dfp-leaderboard region">
+        <div id="dfp-ad-leaderboard_2-wrapper" class="dfp-tag-wrapper">
+<div  id="dfp-ad-leaderboard_2" class="dfp-tag-wrapper">
+  <script type="text/javascript">
+    googletag.cmd.push(function() {
+      googletag.display("dfp-ad-leaderboard_2");
+    });
+  </script>
+</div>
+</div></div><!-- /block -->
+<div id="block-boxes-footer_contact" class="block block-boxes block-boxes-simple">
+  <div class="gutter inner clearfix">
+  
+		    	<a href="/" id="footer-logo" class="logo-link"><img src="http://cdn.denofgeek.us/sites/denofgeekus/themes/denofgeek/logo.png" alt="Home" /></a>        
+    <div class="footer-align-left">
+                  <p class="title block-title"><span>Contact us</span></p>
+            
+      <div class="content clearfix">        
+        <div id='boxes-box-footer_contact' class='boxes-box'><div class="boxes-box-content"> <!--smart_paging_filter--><!--smart_paging_autop_filter-->DoGTech <br />
+1156 Main Street<br />
+3rd Floor<br />
+Branford, CT 06405<br />
+Ph. 203.433.4097<br /></div></div>      </div>
+    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+<div id="block-menu-menu-footer" class="block block-menu">
+  <div class="gutter inner clearfix">
+            <p class="title block-title"><span>Useful links</span></p>
+        
+    <div class="content clearfix">
+      <ul class="links"><li class="menu-524 first active"><a href="/" class="active">Home</a></li>
+<li class="menu-862"><a href="/movies" class="menu-movies">Movies</a></li>
+<li class="menu-864"><a href="/tv" class="menu-tv">TV</a></li>
+<li class="menu-866"><a href="/games" class="menu-games">Games</a></li>
+<li class="menu-1075"><a href="/books-comics" class="menu-comics">Comics/Books</a></li>
+<li class="menu-3245"><a href="/trailers" class="menu-trailers">Trailers</a></li>
+<li class="menu-868"><a href="/other" class="menu-other">Other</a></li>
+<li class="menu-3244"><a href="/the-lists" class="menu-the-lists">Lists</a></li>
+<li class="menu-2277"><a href="/interview">Interviews</a></li>
+<li class="menu-2474"><a href="/preview">Previews</a></li>
+<li class="menu-2278"><a href="/reviews">Reviews</a></li>
+<li class="menu-255"><a href="/content/privacy-notice">Privacy Notice</a></li>
+<li class="menu-526"><a href="/content/we-are-den-of-geek">About us</a></li>
+<li class="menu-525"><a href="/content/email-us-tweet-give-us-a-call">Contact us</a></li>
+<li class="menu-1513"><a href="/authors">Authors</a></li>
+<li class="menu-527"><a href="/content/feeds">Feeds</a></li>
+<li class="menu-2275"><a href="/content/sitemap">Sitemap</a></li>
+<li class="menu-3257"><a href="http://www.denofgeek.us/sites/denofgeekus/files/dog-onesheet.pdf" target="_blank">Advertise With Us</a></li>
+<li class="menu-2916"><a href="/join-our-mailing-list">Join our mailing list</a></li>
+<li class="menu-2920 last"><a href="/content/terms-of-use">Terms of Use</a></li>
+</ul>    </div>
+  </div><!-- /block-inner -->
+</div><!-- /block -->
+    </div><!-- /footer-inner -->
+  </div><!-- /footer -->
+    </div>
+</div>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config = {"services_compact":"facebook,facebook_like,google_plusone,google_plusone_share,linkedin,pinterest,print,printfriendly,reddit,stumbleupon,twitter,twitthis,more","data_track_clickback":false,"ui_508_compliant":false,"ui_click":false,"ui_cobrand":"","ui_delay":1,"ui_header_background":"","ui_header_color":"#FFFFFF","ui_open_windows":false,"ui_use_css":true,"ui_use_addressbook":false,"ui_language":"en"}
+var addthis_share = {"templates":{"twitter":"{{title}} {{url}} via @DenOfGeekUS"}}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+      setTimeout(function(){var a=document.createElement("script");
+      var b=document.getElementsByTagName('script')[0];
+      a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/8751.js";
+      a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+      
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready( function () {
+	if (window.location.hash.indexOf("#switched") > -1) {
+		jQuery.cookie("dog_switched", 1, { expires: 1});
+	}
+});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+    (function() {
+        var nstrack = document.createElement("script"), el_nstrack = document.getElementsByTagName("script")[0]; nstrack.async = true;
+        nstrack.src = "http://track.netshelter.net/async/js/sites/denofgeek.us-async.js";
+        el_nstrack.parentNode.insertBefore(nstrack, el_nstrack);
+    })();
+    
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function ($) {
+	Drupal.behaviors.dog_site_switcher = {
+		attach: function (context, settings) {
+			$("#dog_site_selector .item-list").hide();
+			$("#dog_site_selector #dog_selector_current", context).bind("click", function(event) {
+				if (typeof _gaq === "object") {_gaq.push(["_trackEvent", "Site Switcher", "Site switcher expanded"])};
+				$("#dog_site_selector .item-list").toggle();
+				$("#dog_site_selector #dog_selector_current").toggleClass( "dogflag_selected" )
+			});
+			$("#dog_site_selector ul", context).bind("mouseleave", function(event) {
+				$("#dog_site_selector .item-list").toggle();
+				$("#dog_site_selector #dog_selector_current").toggleClass( "dogflag_selected" )
+			});
+			$("#dog_site_selector .item-list li", context).bind("click", function(event) {
+				if (typeof _gaq === "object") {_gaq.push(["_trackEvent", "Site Switcher", "Link in site switcher clicked"])};
+			});
+		}
+	}
+})(jQuery)
+//--><!]]>
+</script>
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-3.newrelic.com","licenseKey":"c50bb2a122","applicationID":"2988868,1688962","transactionName":"ZAFSYkdTXxECBRcMDl1LcVVBW14MTAgMAQRsFFFRUG1HCwYR","queueTime":0,"applicationTime":1675,"ttGuid":"","agentToken":"","atts":"SEZRFA9JTB8=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-460.min.js"}</script></body>
+</html>

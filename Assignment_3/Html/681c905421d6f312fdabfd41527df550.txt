@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#"><title>Fuckbox</title>
+    <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_5d7b341d7724_128.png">
+    <link rel="alternate" type="application/rss+xml" href="http://moriartysdance.tumblr.com/rss">
+    <meta name="description" content="I&#039;m Sofie. A 20 year old from Sweden. Hello, very nice to meet you. If you want an url graphic or if you want to request a specific graphic in general, just ask and I&#039;ll be happy to give it a try." />
+
+<!--
+ 
+DISTALS THEME 003 - AMETHYST
+ 
+You can:
+- edit the code as much as you wish
+- move the theme credit to a visible secondary page
+ 
+You can't:
+- claim this theme as your own and/or redistribute
+- copy parts of the code and paste it in your html
+- use as a base code and claim as your own
+- remove the theme credit
+ 
+Any questions, please direct to distals.tumblr.com. Have a good day!
+
+-->
+
+<meta name="color:background" content="#ffffff" />
+<meta name="color:scrollbar bg" content="#ffffff" />
+<meta name="color:scrollbar" content="#000000" />
+<meta name="color:text" content="#000000" />
+<meta name="color:links" content="#444444" />
+<meta name="color:sidebar" content="#000000" />
+<meta name="color:sidebar bg" content="#ffffff" />
+<meta name="color:ask background" content="#4b4b4b" />
+<meta name="color:ask border" content="#000000" />
+<meta name="color:ask text" content="#ffffff" />
+<meta name="color:borders" content="#000000" />
+
+<meta name="text:link 1 url" content="/" />
+<meta name="text:link 1" content="about" />
+<meta name="text:link 2 url" content="/" />
+<meta name="text:link 2" content="more" />
+<meta name="text:link 3 url" content="/" />
+<meta name="text:link 3" content="links" />
+<meta name="text:link 4 url" content="/" />
+<meta name="text:link 4" content="here" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript" src="http://static.tumblr.com/ko1mcho/PMbmlkh9e/jquery.style-my-tooltips.js"></script>
+       
+<script>
+(function($){
+$(document).ready(function(){
+$("[title],a[title],img[title]").style_my_tooltips({
+tip_follows_cursor:"true",
+tip_delay_time:100,
+tip_fade_speed:100,
+attribute:"title"
+});
+});
+})(jQuery);
+</script>
+
+<style type="text/css">
+
+#s-m-t-tooltip {
+    font-size: 9px;
+    letter-spacing: 1px;
+    max-width: 100px;
+    word-wrap: break-word;
+    padding: 2px 6px;
+    display: block;
+    margin: 10px;
+    line-height: 150%;
+    border: 1px solid #000;
+    border-left:4px solid;
+    text-align: left;
+    color: #000;
+    background: rgba(255,255,255,.9);
+    position: absolute;
+    z-index: 100000;
+    font-family:helvetica;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 5px;
+    width:5px;
+    background-color: #ffffff;
+    border: 2px solid #d5d5d5;
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #d5d5d5;
+}
+
+::-moz-selection {background:#111;color:#fff;}
+::selection {background:#111;color:#fff;}
+
+body {
+    font-family:helvetica;
+    font-size: 11px;
+    text-align: justify;
+    line-height: 150%;
+    color: #000000;
+    margin: 0;
+    background:#ffffff;
+}
+
+sup, sub, small { font-size:9px; }
+a { color: #444444; text-decoration: none }
+a:hover{ text-decoration:underline; }
+img { border-bottom: none; }
+
+blockquote {
+    width:90%;
+    padding:0 20px;
+    border-left: 1px solid #000000;
+    margin-left: 12px;
+    word-wrap:break-word;
+}
+
+blockquote img {
+    max-width:95%!important;
+    height: auto;
+}
+
+pre {
+    max-width: 400px;
+    word-wrap: break-word;
+    font-family:consolas;
+}
+
+#mm {
+    width: 600px;
+    margin: 0 auto -12px auto;
+}
+
+/*SIDEBAR*/
+#sidebar {
+    position: fixed;
+    margin-top: 250px;
+    left:15%;
+    width: 100px;
+    background: transparent;
+}
+
+#lynk {
+    position: fixed;
+    margin-top: 250px;
+    right:15%;
+    padding:10px 0;
+    width: 100px;
+    text-align: center;
+    color: #000000;
+    font-size: 10px;
+    line-height: 130%;
+    background: rgba(255,255,255,.7);
+    border-right: 3px #000000 solid;
+    overflow:hidden;
+}
+
+.ltxt a {
+    font-family:consolas;
+    color:#000000;
+    font-weight:bold;
+    letter-spacing:2px;
+    padding:1px 15px;
+    text-decoration:none;
+    text-align:right;
+    width:50px;
+    display:block;
+    border:none;
+    text-transform:uppercase;
+    margin:6px 0px 6px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.ltxt a:hover {
+    box-shadow: 90px 0px #000000 inset;
+    -webkit-box-shadow: 90px 0px #000000 inset;
+    color:#ffffff;
+}
+
+#description {
+    width: 100px;
+    padding: 10px 20px 15px;
+    text-align: justify;
+    color: #000000;
+    font-size: 10px;
+    line-height: 130%;
+    background: rgba(255,255,255,.7);
+    border-left: 3px #000000 solid;
+}
+
+.pagi {
+    text-align: center;
+    font-family:consolas;
+    width: 130px;
+    padding: 10px 5px;
+    background: rgba(255,255,255,.7);
+    border-left:#000000 3px solid;
+}
+
+.pagi a {
+    margin: 0 2px;
+    color: #000000;
+    text-decoration:none;
+    border:none;
+}
+
+/*ENTRIES*/
+#container {
+    left:50%;
+    margin:100px 0 0 -200px;
+    position:absolute;
+}
+
+.posts {
+    width: 400px;
+    max-width: 400px;
+    padding: 10px;
+    background: rgba(255,255,255,.7);
+    margin-top: 30px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.ptit {
+    font-size:12px;
+    font-weight:bold;
+    letter-spacing:1px;
+    border:1px #000 solid;
+    border-left: #000000 4px solid;
+    background: rgba(255,255,255,.7);
+    padding:10px;
+    margin:5px;
+    word-wrap: break-word;
+}
+
+.ptit a {
+    color:#000000;
+    border:none;
+    word-wrap:break-word;
+}
+
+.imglink a {
+    border: none;
+}
+
+.caption {
+    padding:0 5px;
+    max-width: 400px;
+    word-wrap:break-word;
+}
+
+.caption img {
+    max-width:95%;
+    height: auto;
+}
+
+.playbutton {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.playbox {
+    position: absolute;
+    padding: 11px;
+    margin-right: 5px;
+    margin-top:-5px;
+    background:#fff;
+}
+
+.songtitle {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 5px 0 0 60px;
+}
+
+.songartist {
+    margin: -15px 0 0 60px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.quote {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing:1px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #000000;
+}
+
+.source {
+    text-align: right;
+    padding-top: 6px;
+}
+
+.asks {
+    background: #4b4b4b;
+    border:1px solid #000000;
+    border-left:4px solid #000000;
+    padding: 15px 20px 15px 15px;
+    color: #ffffff;
+}
+
+.asks a {
+    font-weight: 700;
+    color: #ffffff;
+    border:none;
+}
+
+.convo {
+    list-style: none;
+    line-height: 150%;
+    margin-left: -40px;
+}
+
+.line.odd {
+    background: #4b4b4b;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.line.even {
+    padding: 5px;
+}
+
+.label {
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0 2px;
+    text-transform: uppercase;
+}
+
+/*POST INFO*/
+.info {
+    position:relative;
+    font-size: 9px;
+    color: #000000;
+    border-top: #000000 3px solid;
+    padding:5px 10px;
+    word-wrap: break-word;
+    background: rgba(255,255,255,.7);
+    
+    
+    margin-top: -10px;
+    visibility: hidden;
+    padding: 5px;
+    opacity: 0;
+    overflow: hidden;
+    -webkit-transition: .4s ease;
+    -o-transition: .4s ease;
+    -moz-transition: .4s ease;
+    transition: .4s ease;
+}
+ 
+.posts:hover .info {
+    opacity: 1;
+    visibility: visible;
+    margin-top:7px;
+    padding: 5px;
+    -webkit-transition: .4s ease;
+    -o-transition: .4s ease;
+    -moz-transition: .4s ease;
+    transition: .4s ease;
+    
+}
+
+.info a {
+    color: #000000;
+    border: none;
+}
+
+#tags {
+    padding: 1px;
+    word-wrap: break-word;
+    text-align:left;
+    font-size: 9px;
+    font-style:italic;
+    opacity: 1;
+    color: #000000;
+    transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+    -o-transition-duration: .5s;
+}
+
+#tags a {
+    padding: 3px 10px 0 0;
+    word-wrap: break-all;
+    color: #000000;
+    font-size: 9px;
+    line-height: 150%;
+}
+
+#notes {
+    font-size: 9px;
+}
+
+.pnot {
+    font-size:15px;
+    text-align:left;
+    padding:5px;
+    font-weight:bold;
+}
+
+.pagenotes {
+    
+    display: none !important;
+    
+    {block: PermalinkPage}
+    position:relative;
+    background: rgba(255,255,255,.7);
+    font-size: 9px;
+    color: #000000;
+    border-left: #000000; 3px solid;
+    padding:5px 10px;
+    margin: 10px 5px 5px 5px;
+    word-wrap: break-word;
+    {block: PermalinkPage}    
+}
+
+.pagenotes img {
+    display: none !important;
+}
+
+.pagenotes li {
+    list-style: none;
+    padding: 5px 0;
+    text-align: left;
+    margin: 0 0 0 -40px;
+    font-size: 9px;
+    line-height: 150%;
+    letter-spacing:1px;
+}
+
+#credit a {
+    left:10px;
+    padding:5px;
+    font-size:8px;
+    position:fixed;
+    bottom:10px;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+}
+ 
+#credit a:hover {
+    text-decoration:none;
+    color:#eee;
+    background:#333;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    -ms-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out; }
+
+
+
+    
+</style><link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=moriartysdance" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/streetscript/stylesheet.css?v=1">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="moriarty,sherlock,oh look im making edits,sherlockedit,url graphic" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Fuckbox" /><meta property="og:url" content="http://moriartysdance.tumblr.com/?og=1" /><meta property="og:description" content="I&#039;m Sofie. A 20 year old from Sweden. Hello, very nice to meet you. If you want an url graphic or if..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_5d7b341d7724_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=moriartysdance" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=moriartysdance" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="moriartysdance" /><meta name="twitter:description" content="I&#039;m Sofie. A 20 year old from Sweden. Hello, very nice to meet you. If you want an url graphic or if you want to request a specific graphic in general, just ask and I&#039;ll be happy to give it a try." /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=moriartysdance&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=moriartysdance&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=moriartysdance&amp;referrer=twitter-cards" />
+
+</head>
+
+
+<body>
+<div id="mm">
+
+<div id="sidebar">
+
+<div id="description">
+
+
+I'm Sofie. A 20 year old from Sweden. Hello, very nice to meet you. If you want an url graphic or if you want to request a specific graphic in general, just ask and I'll be happy to give it a try.
+
+</div>
+
+
+<div class="pagi">
+
+
+
+<b><a href="/">1</a></b>
+
+
+
+
+
+<a href="/page/2">2</a>
+
+
+
+
+<a href="/page/3">3</a>
+
+
+
+
+<a href="/page/4">4</a>
+
+
+
+
+<a href="/page/5">5</a>
+
+
+
+<a href="/page/2">»</a>
+
+</div>
+
+
+
+</div></div>
+
+<div id="lynk">
+    <div class="ltxt"><a href="/">home</a>
+        <a href="/ask">mail</a>
+        <a href="http://moriartysdance.tumblr.com/submit">Submit</a>
+        <a href="http://moriartysdance.tumblr.com/tagged/oh%20look%20im%20making%20edits">Graphics</a>
+        <a href="http://moriartysdance.tumblr.com/tagged/me">Selfies</a>
+        <a href="http://moriartysdance.tumblr.com/tagged/my%20crappy%20photography">Photos</a>
+    </div>
+</div>
+
+
+
+
+<div id="container">
+
+<div class="posts">
+<div class="pobg">
+
+<!--TEXT POSTS-->
+
+
+ 
+<!--ASKS-->
+
+
+<div class="asks">
+<b>Anonymous</b> said:
+Hi hey hello hi um I noticed you make a lot of graphics and stuff and um I think they&#039;re really awesome and basically I was just wondering what software and stuff you use? I&#039;ve always wanted to make awesome graphics but I don&#039;t have the right software or anything.</div>
+<div class="caption"><p>I use GIMP 2.6 but it crashes <em>a lot</em> so idk if I&#8217;d recommend it.</p></div>
+
+ 
+<!--QUOTE POSTS-->
+
+ 
+<!--LINK POSTS-->
+
+
+ 
+<!--CHAT POSTS-->
+
+
+ 
+<!--PHOTO POSTS-->
+
+
+ 
+<!--PHOTOSET POSTS-->
+
+
+ 
+<!--VIDEO POSTS-->
+
+
+
+
+<!--AUDIO POSTS-->
+
+
+ 
+
+<!--POST INFO-->
+
+<div class="info">
+ <a href="http://moriartysdance.tumblr.com/post/98750187179/hi-hey-hello-hi-um-i-noticed-you-make-a-lot-of-graphics" title="3 hours ago">29:09</a> 
+
+ &nbsp;&nbsp;&nbsp; <a href="http://moriartysdance.tumblr.com/post/98750187179/hi-hey-hello-hi-um-i-noticed-you-make-a-lot-of-graphics">+3</a> 
+
+ 
+ <br>
+ <div id="tags"><a href="/tagged/GIMP crashes A LOT ok?">GIMP crashes A LOT ok?</a> <a href="/tagged/like a lot a lot">like a lot a lot</a> <a href="/tagged/Anonymous">Anonymous</a> </div>
+
+ 
+ 
+ 
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="posts">
+<div class="pobg">
+
+<!--TEXT POSTS-->
+
+
+ 
+<!--ASKS-->
+
+
+ 
+<!--QUOTE POSTS-->
+
+ 
+<!--LINK POSTS-->
+
+
+ 
+<!--CHAT POSTS-->
+
+
+ 
+<!--PHOTO POSTS-->
+
+
+ 
+<!--PHOTOSET POSTS-->
+
+<div class="imglink">
+<div id="photoset_98748018704" class="html_photoset">    <iframe id="photoset_iframe_98748018704" class="photoset" scrolling="no" frameborder="0" height="820" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://moriartysdance.tumblr.com/post/98748018704/photoset_iframe/moriartysdance/tumblr_ncojm1CHb11s8q7er/400/false"></iframe></div></div>
+<div class="caption"><blockquote>
+<p>url graphic for <strong><a class="tumblelog" href="http://tmblr.co/m5raOBEZ0MUbrrr43d2ax-w">jimlocket</a></strong></p>
+</blockquote></div>
+
+ 
+<!--VIDEO POSTS-->
+
+
+
+
+<!--AUDIO POSTS-->
+
+
+ 
+
+<!--POST INFO-->
+
+<div class="info">
+ <a href="http://moriartysdance.tumblr.com/post/98748018704/url-graphic-for-jimlocket" title="4 hours ago">29:09</a> 
+
+ &nbsp;&nbsp;&nbsp; <a href="http://moriartysdance.tumblr.com/post/98748018704/url-graphic-for-jimlocket">+53</a> 
+
+ 
+ <br>
+ <div id="tags"><a href="/tagged/jimlocket​">jimlocket​</a> <a href="/tagged/url graphic">url graphic</a> <a href="/tagged/sherlockedit">sherlockedit</a> <a href="/tagged/moriarty">moriarty</a> <a href="/tagged/sherlock">sherlock</a> <a href="/tagged/oh look im making edits">oh look im making edits</a> </div>
+
+ 
+ 
+ 
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="posts">
+<div class="pobg">
+
+<!--TEXT POSTS-->
+
+
+ 
+<!--ASKS-->
+
+
+ 
+<!--QUOTE POSTS-->
+
+ 
+<!--LINK POSTS-->
+
+
+ 
+<!--CHAT POSTS-->
+
+
+ 
+<!--PHOTO POSTS-->
+
+
+ 
+<!--PHOTOSET POSTS-->
+
+<div class="imglink">
+<div id="photoset_98737849354" class="html_photoset">    <iframe id="photoset_iframe_98737849354" class="photoset" scrolling="no" frameborder="0" height="448" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://moriartysdance.tumblr.com/post/98737849354/photoset_iframe/moriartysdance/tumblr_n2g0o4WXtF1rmugyz/400/false"></iframe></div></div>
+<div class="caption"><blockquote>
+<p><em><strong> İnterview - <span>The Stag - </span><span>Andrew Scott </span></strong></em></p>
+</blockquote></div>
+
+ 
+<!--VIDEO POSTS-->
+
+
+
+
+<!--AUDIO POSTS-->
+
+
+ 
+
+<!--POST INFO-->
+
+<div class="info">
+ <a href="http://moriartysdance.tumblr.com/post/98737849354/interview-the-stag-andrew-scott" title="6 hours ago">29:09</a> 
+
+ &nbsp;&nbsp;&nbsp; <a href="http://moriartysdance.tumblr.com/post/98737849354/interview-the-stag-andrew-scott">+958</a> 
+
+ &nbsp;&nbsp;&nbsp;<a href="http://ssliceoflifee.tumblr.com/post/79580989876/interview-the-stag-andrew-scott" title="ssliceoflifee">VIA</a>  
+ <br>
+ 
+
+ 
+ 
+ 
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="posts">
+<div class="pobg">
+
+<!--TEXT POSTS-->
+
+
+ 
+<!--ASKS-->
+
+
+ 
+<!--QUOTE POSTS-->
+
+ 
+<!--LINK POSTS-->
+
+
+ 
+<!--CHAT POSTS-->
+
+
+ 
+<!--PHOTO POSTS-->
+
+<div class="imglink">
+<center><img src="http://31.media.tumblr.com/7df31fee4337d8913b38c13f84e77910/tumblr_n2cwzbTB0C1sus0sto1_400.jpg" alt=""></center></div>
+
+
+ 
+<!--PHOTOSET POSTS-->
+
+
+ 
+<!--VIDEO POSTS-->
+
+
+
+
+<!--AUDIO POSTS-->
+
+
+ 
+
+<!--POST INFO-->
+
+<div class="info">
+ <a href="http://moriartysdance.tumblr.com/post/98737528994" title="6 hours ago">29:09</a> 
+
+ &nbsp;&nbsp;&nbsp; <a href="http://moriartysdance.tumblr.com/post/98737528994">+125</a> 
+
+ &nbsp;&nbsp;&nbsp;<a href="http://fixcastiel.tumblr.com/post/98504827476" title="fixcastiel">VIA</a>  
+ <br>
+ 
+
+ 
+ 
+ 
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="posts">
+<div class="pobg">
+
+<!--TEXT POSTS-->
+
+
+ 
+<!--ASKS-->
+
+
+ 
+<!--QUOTE POSTS-->
+
+ 
+<!--LINK POSTS-->
+
+
+ 
+<!--CHAT POSTS-->
+
+
+ 
+<!--PHOTO POSTS-->
+
+<div class="imglink">
+<center><img src="http://38.media.tumblr.com/tumblr_m3qedzHY311qzjpgko1_400.png" alt="
+I am Iron Man.
+"></center></div>
+<div class="caption"><blockquote>
+<p><em>I am Iron Man.</em></p>
+</blockquote></div>
+
+ 
+<!--PHOTOSET POSTS-->
+
+
+ 
+<!--VIDEO POSTS-->
+
+
+
+
+<!--AUDIO POSTS-->
+
+
+ 
+
+<!--POST INFO-->
+
+<div class="info">
+ <a href="http://moriartysdance.tumblr.com/post/98737017559/i-am-iron-man" title="6 hours ago">29:09</a> 
+
+ &nbsp;&nbsp;&nbsp; <a href="http://moriartysdance.tumblr.com/post/98737017559/i-am-iron-man">+23569</a> 
+
+ &nbsp;&nbsp;&nbsp;<a href="http://now-at-punkwarren.tumblr.com/post/22688649904/i-am-iron-man" title="now-at-punkwarren">VIA</a>  
+ <br>
+ 
+
+ 
+ 
+ 
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="posts">
+<div class="pobg">
+
+<!--TEXT POSTS-->
+
+
+ 
+<!--ASKS-->
+
+
+ 
+<!--QUOTE POSTS-->
+
+ 
+<!--LINK POSTS-->
+
+
+ 
+<!--CHAT POSTS-->
+
+
+ 
+<!--PHOTO POSTS-->
+
+
+ 
+<!--PHOTOSET POSTS-->
+
+<div class="imglink">
+<div id="photoset_98736629784" class="html_photoset">    <iframe id="photoset_iframe_98736629784" class="photoset" scrolling="no" frameborder="0" height="620" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://moriartysdance.tumblr.com/post/98736629784/photoset_iframe/moriartysdance/tumblr_naqrl98uK01r2xz9j/400/false"></iframe></div></div>
+<div class="caption"><p><a href="http://snogboxez.tumblr.com/post/95519023262/i-should-get-myself-a-live-in-one-favorite" class="tumblr_blog">snogboxez</a>:</p>
+
+<blockquote><p><em><span><span><span><span><span><span><span><span>"I should get myself a live-in one."</span></span></span></span></span></span></span></span></em></p>
+<blockquote>
+<p><strike><em><span><span><span><span><span><span><span><span>favorite antagonist dialogue in the history of television</span></span></span></span></span></span></span></span></em></strike></p>
+</blockquote></blockquote></div>
+
+ 
+<!--VIDEO POSTS-->
+
+
+
+
+<!--AUDIO POSTS-->
+
+
+ 
+
+<!--POST INFO-->
+
+<div class="info">
+ <a href="http://moriartysdance.tumblr.com/post/98736629784/snogboxez-i-should-get-myself-a-live-in" title="6 hours ago">29:09</a> 
+
+ &nbsp;&nbsp;&nbsp; <a href="http://moriartysdance.tumblr.com/post/98736629784/snogboxez-i-should-get-myself-a-live-in">+1741</a> 
+
+ &nbsp;&nbsp;&nbsp;<a href="http://snogboxez.tumblr.com/post/95519023262/i-should-get-myself-a-live-in-one-favorite" title="snogboxez">VIA</a>  
+ <br>
+ 
+
+ 
+ 
+ 
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="posts">
+<div class="pobg">
+
+<!--TEXT POSTS-->
+
+
+ 
+<!--ASKS-->
+
+
+ 
+<!--QUOTE POSTS-->
+
+ 
+<!--LINK POSTS-->
+
+
+ 
+<!--CHAT POSTS-->
+
+
+ 
+<!--PHOTO POSTS-->
+
+
+ 
+<!--PHOTOSET POSTS-->
+
+<div class="imglink">
+<div id="photoset_98736357059" class="html_photoset">    <iframe id="photoset_iframe_98736357059" class="photoset" scrolling="no" frameborder="0" height="442" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://moriartysdance.tumblr.com/post/98736357059/photoset_iframe/moriartysdance/tumblr_nco29gcMY51td09s5/400/false"></iframe></div></div>
+<div class="caption"><blockquote>
+<p><em><small>So why can’t the others see them?<br/> The only people who can see them are those who’ve seen  d e a t h.</small></em></p>
+</blockquote></div>
+
+ 
+<!--VIDEO POSTS-->
+
+
+
+
+<!--AUDIO POSTS-->
+
+
+ 
+
+<!--POST INFO-->
+
+<div class="info">
+ <a href="http://moriartysdance.tumblr.com/post/98736357059/so-why-cant-the-others-see-them-the-only-people" title="6 hours ago">29:09</a> 
+
+ &nbsp;&nbsp;&nbsp; <a href="http://moriartysdance.tumblr.com/post/98736357059/so-why-cant-the-others-see-them-the-only-people">+25</a> 
+
+ &nbsp;&nbsp;&nbsp;<a href="http://ledarcy.tumblr.com/post/98724895942/so-why-cant-the-others-see-them-the-only-people" title="ledarcy">VIA</a>  
+ <br>
+ 
+
+ 
+ 
+ 
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="posts">
+<div class="pobg">
+
+<!--TEXT POSTS-->
+
+
+ 
+<!--ASKS-->
+
+
+ 
+<!--QUOTE POSTS-->
+
+ 
+<!--LINK POSTS-->
+
+
+ 
+<!--CHAT POSTS-->
+
+
+ 
+<!--PHOTO POSTS-->
+
+
+ 
+<!--PHOTOSET POSTS-->
+
+<div class="imglink">
+<div id="photoset_98736180789" class="html_photoset">    <iframe id="photoset_iframe_98736180789" class="photoset" scrolling="no" frameborder="0" height="665" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://moriartysdance.tumblr.com/post/98736180789/photoset_iframe/moriartysdance/tumblr_nco4m7ms6S1tyl2dj/400/false"></iframe></div></div>
+<div class="caption"><blockquote>
+<p><em>he used a diamond</em></p>
+</blockquote></div>
+
+ 
+<!--VIDEO POSTS-->
+
+
+
+
+<!--AUDIO POSTS-->
+
+
+ 
+
+<!--POST INFO-->
+
+<div class="info">
+ <a href="http://moriartysdance.tumblr.com/post/98736180789/he-used-a-diamond" title="6 hours ago">29:09</a> 
+
+ &nbsp;&nbsp;&nbsp; <a href="http://moriartysdance.tumblr.com/post/98736180789/he-used-a-diamond">+94</a> 
+
+ &nbsp;&nbsp;&nbsp;<a href="http://mvriartys.tumblr.com/post/98727260305/he-used-a-diamond" title="mvriartys">VIA</a>  
+ <br>
+ 
+
+ 
+ 
+ 
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="posts">
+<div class="pobg">
+
+<!--TEXT POSTS-->
+
+
+ 
+<!--ASKS-->
+
+
+ 
+<!--QUOTE POSTS-->
+
+ 
+<!--LINK POSTS-->
+
+
+ 
+<!--CHAT POSTS-->
+
+
+ 
+<!--PHOTO POSTS-->
+
+
+ 
+<!--PHOTOSET POSTS-->
+
+<div class="imglink">
+<div id="photoset_98735996224" class="html_photoset">    <iframe id="photoset_iframe_98735996224" class="photoset" scrolling="no" frameborder="0" height="666" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://moriartysdance.tumblr.com/post/98735996224/photoset_iframe/moriartysdance/tumblr_n4bt832sU21rs25p4/400/false"></iframe></div></div>
+<div class="caption"><blockquote>
+<p><em>Andrew Scott in The Stag (The Bachelor Weekend)</em></p>
+</blockquote></div>
+
+ 
+<!--VIDEO POSTS-->
+
+
+
+
+<!--AUDIO POSTS-->
+
+
+ 
+
+<!--POST INFO-->
+
+<div class="info">
+ <a href="http://moriartysdance.tumblr.com/post/98735996224/andrew-scott-in-the-stag-the-bachelor-weekend" title="7 hours ago">29:09</a> 
+
+ &nbsp;&nbsp;&nbsp; <a href="http://moriartysdance.tumblr.com/post/98735996224/andrew-scott-in-the-stag-the-bachelor-weekend">+2940</a> 
+
+ &nbsp;&nbsp;&nbsp;<a href="http://cayya.tumblr.com/post/83292365383/andrew-scott-in-the-stag-the-bachelor-weekend" title="cayya">VIA</a>  
+ <br>
+ 
+
+ 
+ 
+ 
+
+</div>
+</div>
+</div>
+
+
+
+
+<div class="posts">
+<div class="pobg">
+
+<!--TEXT POSTS-->
+
+
+ 
+<!--ASKS-->
+
+
+ 
+<!--QUOTE POSTS-->
+
+ 
+<!--LINK POSTS-->
+
+
+ 
+<!--CHAT POSTS-->
+
+
+ 
+<!--PHOTO POSTS-->
+
+
+ 
+<!--PHOTOSET POSTS-->
+
+<div class="imglink">
+<div id="photoset_98735619784" class="html_photoset">    <iframe id="photoset_iframe_98735619784" class="photoset" scrolling="no" frameborder="0" height="810" width="400"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://moriartysdance.tumblr.com/post/98735619784/photoset_iframe/moriartysdance/tumblr_ncnzuznJoi1sff8c9/400/false"></iframe></div></div>
+<div class="caption"><blockquote>
+<p><em><small>"Dear<strong> Jim</strong>, please will you fix it for me to get rid of my lover’s nasty sister.” “Dear<strong> Jim</strong>, please will you fix it for me to disappear to South America.”</small></em></p>
+</blockquote></div>
+
+ 
+<!--VIDEO POSTS-->
+
+
+
+
+<!--AUDIO POSTS-->
+
+
+ 
+
+<!--POST INFO-->
+
+<div class="info">
+ <a href="http://moriartysdance.tumblr.com/post/98735619784/dear-jim-please-will-you-fix-it-for-me-to-get" title="7 hours ago">29:09</a> 
+
+ &nbsp;&nbsp;&nbsp; <a href="http://moriartysdance.tumblr.com/post/98735619784/dear-jim-please-will-you-fix-it-for-me-to-get">+116</a> 
+
+ &nbsp;&nbsp;&nbsp;<a href="http://morivrty.tumblr.com/post/98722106176/dear-jim-please-will-you-fix-it-for-me-to-get" title="morivrty">VIA</a>  
+ <br>
+ 
+
+ 
+ 
+ 
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+ <div id="credit">
+ <a href="distals.tumblr.com" title="theme by distals">DS</a> </div>
+       
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://moriartysdance.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037519&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbW9yaWFydHlzZGFuY2UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=HNAEKOLKGM&K=dc2ce4ad7135e2703cb1dac3907a7e41cc54e7f986fcbaca581d8219f3d94ad9&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037519&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbW9yaWFydHlzZGFuY2UudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=HNAEKOLKGM&K=52c317293627bd304da99b87b9cc6f7b21223826c51d299b9a0f99043d951973&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037519&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL21vcmlhcnR5c2RhbmNlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiOTg3NTAxODcxNzkiLCJibG9naWQiOiI5NzgyODQ5MCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg3NDgwMTg3MDQiLCJibG9naWQiOiI5NzgyODQ5MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4MjkyNjg3NCIsInJvb3RfcG9zdGlkIjoiNzk1ODA5ODk4NzYiLCJwb3N0aWQiOiI5ODczNzg0OTM1NCIsImJsb2dpZCI6Ijk3ODI4NDkwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExMzAyODg0NCIsInJvb3RfcG9zdGlkIjoiOTg1MDQ4Mjc0NzYiLCJwb3N0aWQiOiI5ODczNzUyODk5NCIsImJsb2dpZCI6Ijk3ODI4NDkwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEzMDM3OTciLCJyb290X3Bvc3RpZCI6IjIyNjg4NjQ5OTA0IiwicG9zdGlkIjoiOTg3MzcwMTc1NTkiLCJibG9naWQiOiI5NzgyODQ5MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNzYzMDAyMCIsInJvb3RfcG9zdGlkIjoiOTU1MTkwMjMyNjIiLCJwb3N0aWQiOiI5ODczNjYyOTc4NCIsImJsb2dpZCI6Ijk3ODI4NDkwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4NzkyMzM3NyIsInJvb3RfcG9zdGlkIjoiOTg3MjQ4OTU5NDIiLCJwb3N0aWQiOiI5ODczNjM1NzA1OSIsImJsb2dpZCI6Ijk3ODI4NDkwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4MTEwMjk1MiIsInJvb3RfcG9zdGlkIjoiOTg3MjcyNjAzMDUiLCJwb3N0aWQiOiI5ODczNjE4MDc4OSIsImJsb2dpZCI6Ijk3ODI4NDkwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ4NjAzMjY4Iiwicm9vdF9wb3N0aWQiOiI4MzI5MjM2NTM4MyIsInBvc3RpZCI6Ijk4NzM1OTk2MjI0IiwiYmxvZ2lkIjoiOTc4Mjg0OTAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTMyMTIxODY5Iiwicm9vdF9wb3N0aWQiOiI5ODcyMjEwNjE3NiIsInBvc3RpZCI6Ijk4NzM1NjE5Nzg0IiwiYmxvZ2lkIjoiOTc4Mjg0OTAiLCJzb3VyY2UiOjMzfV19&U=CDADGPFEDK&K=a8f99e3c57f17b91b80a034c3ab024bce530946a906c34329451d4a9343bf48c&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037519&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL21vcmlhcnR5c2RhbmNlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiOTg3NTAxODcxNzkiLCJibG9naWQiOiI5NzgyODQ5MCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg3NDgwMTg3MDQiLCJibG9naWQiOiI5NzgyODQ5MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI4MjkyNjg3NCIsInJvb3RfcG9zdGlkIjoiNzk1ODA5ODk4NzYiLCJwb3N0aWQiOiI5ODczNzg0OTM1NCIsImJsb2dpZCI6Ijk3ODI4NDkwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExMzAyODg0NCIsInJvb3RfcG9zdGlkIjoiOTg1MDQ4Mjc0NzYiLCJwb3N0aWQiOiI5ODczNzUyODk5NCIsImJsb2dpZCI6Ijk3ODI4NDkwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjEzMDM3OTciLCJyb290X3Bvc3RpZCI6IjIyNjg4NjQ5OTA0IiwicG9zdGlkIjoiOTg3MzcwMTc1NTkiLCJibG9naWQiOiI5NzgyODQ5MCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNzYzMDAyMCIsInJvb3RfcG9zdGlkIjoiOTU1MTkwMjMyNjIiLCJwb3N0aWQiOiI5ODczNjYyOTc4NCIsImJsb2dpZCI6Ijk3ODI4NDkwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4NzkyMzM3NyIsInJvb3RfcG9zdGlkIjoiOTg3MjQ4OTU5NDIiLCJwb3N0aWQiOiI5ODczNjM1NzA1OSIsImJsb2dpZCI6Ijk3ODI4NDkwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE4MTEwMjk1MiIsInJvb3RfcG9zdGlkIjoiOTg3MjcyNjAzMDUiLCJwb3N0aWQiOiI5ODczNjE4MDc4OSIsImJsb2dpZCI6Ijk3ODI4NDkwIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ4NjAzMjY4Iiwicm9vdF9wb3N0aWQiOiI4MzI5MjM2NTM4MyIsInBvc3RpZCI6Ijk4NzM1OTk2MjI0IiwiYmxvZ2lkIjoiOTc4Mjg0OTAiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTMyMTIxODY5Iiwicm9vdF9wb3N0aWQiOiI5ODcyMjEwNjE3NiIsInBvc3RpZCI6Ijk4NzM1NjE5Nzg0IiwiYmxvZ2lkIjoiOTc4Mjg0OTAiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=CDADGPFEDK&K=4d0b857733ec146ec072681ef705f5af435e12bf360c03f259bc3e4eead8d4f2&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:97828490,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fmoriartysdance.tumblr.com%2F&amp;lang=en_US&amp;name=moriartysdance&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_5d7b341d7724_64.png&amp;title=Fuckbox&amp;url=http%3A%2F%2Fmoriartysdance.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fmoriartysdance.tumblr.com%2F&amp;lang=en_US&amp;name=moriartysdance&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_5d7b341d7724_64.png&amp;title=Fuckbox&amp;url=http%3A%2F%2Fmoriartysdance.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body></html>

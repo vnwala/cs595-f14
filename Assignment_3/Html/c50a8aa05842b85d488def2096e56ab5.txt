@@ -1,0 +1,609 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+ <title>Alan Dale Dalby on Booksie</title>
+<meta name="description" content="
+	I am revisiting and fixing all of my stories for submissions.
+
+	If you have been turned down a lot over the years, go back and give those rejected gems another look.
+
+	You've grown and learned and honed your craft.
+
+	You will polish and perfect your seeds of genius and help them flower until ..."/>
+<meta name="keywords" content="online writing, writing community, writing forums, writing feedback, writing contests"/> 
+ 
+
+
+<link href="/parts/css/newinner.css" rel="stylesheet" type="text/css"/>
+<link href="/includes/new.css" rel="stylesheet" type="text/css"/> 
+<script type="text/javascript" src="/parts/global.js"></script>
+<script type="text/javascript" src="/parts/jquery-latest.pack.js"></script>
+<script type="text/javascript" src="/assets/js/adzones-google-default.js"></script>
+<script type="text/javascript" src="/assets/js/adzones-booksie-manage.js"></script> 
+   
+<script type="text/javascript">
+	//$(document).ready(function(){
+	//$("div[@id='comments']").load('//commentlist/nohead?'+(new Date()).valueOf()); 
+	//});
+</script>  
+
+
+
+
+<link rel="shortcut icon" href="/favicon.ico" />
+</head>
+
+<body>
+<!-- TOP HEADER -->
+
+	 
+	     <div id="userSpaceTopBar">
+        <p style="float:right"><a href="/register/index.html">Get your own Booksie page</a> | <a href="/users/beta.html">Edit</a></p>
+        <a href="/" style="float:left"><img src="/parts/images/userSpaceLogo.gif" alt="Booksie Home"/></a>
+        <p><a href="/">Home</a> | 
+		<a href="/users/beta.html/pubcenter" rel="nofollow">Publish</a> | 
+        <a href="/read/index.html">Read</a> | 
+        <a href="/writers">Writers</a> | 
+   
+    </div>
+    <div class="wrapper">  
+	<div class="clear"><!-- --></div>
+	          <div id="ad" align='center'>
+			  
+			  <!-- manage-ad-manage-top-728-90 -->
+<div id='div-gpt-ad-1374247537846-0' style='width:728px; height:90px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1374247537846-0'); });
+</script>
+</div>
+			  
+			  <div id="azk73213"></div></div>
+<div class="miniRule"><!-- --></div>
+
+     <div class="users_content"> 
+    
+<!-- Template: Inner_SMRTY_public.dwt--> 
+ 
+<script type="text/javascript">
+function savelink() 
+ 
+  {
+
+ title = "Alan Dale Dalby on Booksie"; 
+  
+ url = "http://www.booksie.com/alan dale dalby";
+   
+
+	if (window.sidebar) { // Mozilla Firefox Bookmark
+		window.sidebar.addPanel(title, url,"");
+	} else if( window.external ) { // IE Favorite
+		window.external.AddFavorite( url, title); }
+	else if(window.opera && window.print) { // Opera Hotlist
+		return true; }
+ }
+
+
+$(document).ready(function()
+{     
+    var author = $('#comments_author').val();         
+    $('#comments').load('/'+author+'/commentlist/nohead?'+(new Date()).valueOf());
+              
+    $('#comments_button').click(function(){
+        $('#comments_form_container').show();
+        $('#comments_button').hide();
+    });    
+    
+    $('#comments_cancel').click(function(){
+        $('#comments_form_container').hide();
+        $('#comment').attr('value','');
+        $('#comments_button').show();
+        
+    });    
+    $('#comments_save').click(function()
+    {
+       var comment = $('#comment').val(); 
+       if(comment.length<=0)
+       {
+            alert('Please Enter a comment');  
+       }     
+       $.post('/'+author+'/comment/nohead',{comment:comment},function(txt)
+       {                                                                             
+           $('#comments_cancel').trigger('click');
+           $('#comments').load('/'+author+'/commentlist/nohead?'+(new Date()).valueOf());
+            
+       }); 
+    });
+                 
+/**
+//$('#comments_form').show();
+$("button[id='comments.button']").click(function()
+{     
+    $("textarea[id='comment']").val('');$(this).hide();$("div[id='comments.form']").show();
+}); 
+$("button[id='comments.cancel']").click(function(){$("div[id='comments.form']").hide("slow");$("button[id='comments.button']").show();});
+$("div[id='comments']").load('/'+$("input[id='comments.author']").val()+'/commentlist/nohead?'+(new Date()).valueOf());   
+$("div[id='comments']").show();
+$("button[id='comments.save']").click(function(){
+var comment = $("textarea[id='comment']").val();
+var author  = $("input[id='comments.author']").val();
+
+if((author.length>0)&&(comment.length>0))
+{
+    $.post('/'+author+'/comment/nohead',{comment:comment},
+    function(txt){
+    $("div[id='comments.debug']").html(txt).fadeOut(2000); 
+    $("div[id='comments']").fadeOut(1000,function(){$(this).load('/'+author+'/commentlist/nohead?'+(new Date()).valueOf()); 
+    $(this).fadeIn(1000);});
+    $("button[id='comments.button']").show(); 
+    return false;});return false;
+}
+alert('Please Enter a comment');
+});
+$("div[id='comments.result']").ajaxStart(function(){$("div[id='comments.form']").hide("slow");$(this).show(500);});
+//.ajaxStop(function(){$(this).html("Your commment will appear shortly");});                
+**/
+});
+
+function RemoveComment(i)
+{
+    if(i==''){return;}
+    var author  = 'alan_dale_dalby'; 
+    if(author.length>0){$.post('/'+author+'/rmcomment/nohead',{comment:i},function(data){$("div[id='comments']").fadeOut(1000,function(){$(this).load('/'+author+'/commentlist/nohead');$(this).fadeIn(1000);});});}
+} 
+</script>
+<script type="text/javascript" charset="utf-8">
+                    <!--
+                    function toggleTypes (div,tab){
+                        $("#tabs").children().each(function(){ $(this).attr('id','')});
+                        $("#portfolio").children().each(function(){ $(this).hide()});
+                        tab.id = "currentTab";
+                        $("#"+div).show();
+                    }
+                    // -->
+                </script>     
+
+
+                              <div class="newBio">
+                              
+            <div class="newBioLeft">  
+                                  <img src='/content/profiles/MED-2643_USER_PROFILE_.jpg' alt="" class="userPic"/>
+                
+                  
+               
+                                <h2 style="clear:none;margin:0">Alan Dale Dalby</h2>
+              
+ <br />
+                        <div class="bioSection" style="float:left"> 
+                          <p>
+                            <a href="/users/fan_list_options.html/add/2643"><img src='/images/add-user-green.gif' border='0'/> Become a fan</a><br/>
+                            <a href="javascript:savelink();"><img src='/images/add-user-green.gif' border='0'/> Bookmark my page</a><br/>
+                            <a href="/contact/send_link.html/Alan_Dale_Dalby"><img src="/parts/images/email-blue.gif" alt="Email this story" style="margin-bottom:2px" /> Forward to a friend </a><br>
+                            <a href="/Alan_Dale_Dalby/rss/2.0/nohead"><img src="/images/rss-icon.gif" align=absmiddle height=14 alt="RSS" style="margin-bottom:2px" /> RSS Feed</a><br>
+                                                      </p>
+                        </div>
+						<br>
+                 <table cellpadding="3" cellspacing="1" style=clear:both >
+ 						  <tr>
+						    <td nowrap bgcolor="#FFFFFF"><strong>Booksie Address:</strong></td>
+						    <td bgcolor="#FFFFFF"><a target=_blank href="http://www.booksie.com/alan_dale_dalby">http://www.booksie.com/Alan_Dale_Dalby</a></td>
+						  </tr>
+ 
+       <tr>
+    <td nowrap bgcolor="#FFFFFF"><strong>Country:</strong></td>
+    <td bgcolor="#FFFFFF">United States</td>
+  </tr>
+     <tr>
+    <td nowrap bgcolor="#FFFFFF"><strong>Other site:</strong></td>
+    <td bgcolor="#FFFFFF"><a href="http://http://www.facebook.com/profile.php?id=100000156978451#!/pages/Alan-Dale-Dalby/126471804060080" target="_blank" rel="no follow">View Link</a></td>
+  </tr>
+     <tr>
+    <td nowrap bgcolor="#FFFFFF"><strong>Favorite book:</strong></td>
+    <td bgcolor="#FFFFFF">The Hitchhiker's Guide to the Galaxy</td>
+  </tr>
+    
+  <tr>
+    <td nowrap bgcolor="#FFFFFF"><strong>Member Since: </strong></td>
+    <td bgcolor="#FFFFFF">May 17, 2007</td>
+  </tr>
+     
+</table>
+
+                <div class="clear"><!-- --></div>
+                
+                
+                
+                   
+                     
+                    <h3>Featured Writing</h3>
+               <!-- ########################################### FEATURED WRITING -->
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/the-stalks-stalk-back:-a-gordy-the-pumpkin-adventure"><img src="/content/profiles/media/SM-443982-2643_MEDIA_IMAGE_.jpg" alt="Alan_Dale_Dalby"/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/the-stalks-stalk-back:-a-gordy-the-pumpkin-adventure">The Stalks Stalk Back: A Gordy the Pumpkin Adventure</a></h2><p><strong><a href="//">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct 30, 2013<br />The fourth Halloween adventure for Gordy the Pumpkin is a...<br />Tags:<a href="/tags/horror">horror</a>, <a href="/tags/murder">murder</a>, <a href="/tags/mystery">mystery</a>, <a href="/tags/holiday">holiday</a>, <a href="/tags/halloween">halloween</a>, <a href="/tags/werewolf">werewolf</a>, <a href="/tags/pumpkin">pumpkin</a></p></div><div class="clearLeft"><!-- --></div></div> 
+ 
+
+ 
+
+ 
+
+ 
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/which-way-is-witch-way"><img src="/content/profiles/media/SM-366304-2643_MEDIA_IMAGE_.jpg" alt="Alan_Dale_Dalby"/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/which-way-is-witch-way">WHICH WAY IS WITCH WAY?</a></h2><p><strong><a href="//">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct 29, 2012<br />The third annual Gordy the Pumpkin Halloween story tells...</p></div><div class="clearLeft"><!-- --></div></div> 
+ 
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/i-crashed-the-mash-at-castle-frankenstein-on-all-hallows-eve"><img src="/content/profiles/media/SM-268678-2643_MEDIA_IMAGE_.jpg" alt="Alan_Dale_Dalby"/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/i-crashed-the-mash-at-castle-frankenstein-on-all-hallows-eve">I CRASHED THE MASH AT CASTLE FRANKENSTEIN ON ALL HALLOW'S EVE</a></h2><p><strong><a href="//">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct 29, 2011<br />Another Halloween outing for Gordy the Pumpkin with some...<br />Tags:<a href="/tags/horror">horror</a>, <a href="/tags/fiction">fiction</a>, <a href="/tags/halloween">halloween</a>, <a href="/tags/adventure">adventure</a>, <a href="/tags/vampire">vampire</a>, <a href="/tags/werewolf">werewolf</a>, <a href="/tags/mummy">mummy</a>, <a href="/tags/ghost">ghost</a>, <a href="/tags/frankenstein">frankenstein</a>, <a href="/tags/pumpkin">pumpkin</a>, <a href="/tags/gordy">gordy</a></p></div><div class="clearLeft"><!-- --></div></div> 
+ 
+
+ 
+
+ 
+
+ 
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/i-saw-mommy-kissing-the-boogey-man-on-all-hallows-eve"><img src="/content/profiles/media/SM-182301-2643_MEDIA_IMAGE_.jpg" alt="Alan_Dale_Dalby"/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/i-saw-mommy-kissing-the-boogey-man-on-all-hallows-eve">I SAW MOMMY KISSING THE BOOGEY MAN ON ALL HALLOWS EVE</a></h2><p><strong><a href="//">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct  9, 2010<br />I felt like there where enough straight horror stories...<br />Tags:<a href="/tags/horror">horror</a>, <a href="/tags/fantasy">fantasy</a>, <a href="/tags/gothic">gothic</a>, <a href="/tags/raven">raven</a>, <a href="/tags/halloween">halloween</a>, <a href="/tags/fun">fun</a>, <a href="/tags/funny">funny</a>, <a href="/tags/comedy">comedy</a>, <a href="/tags/twisted">twisted</a>, <a href="/tags/spooky">spooky</a>, <a href="/tags/tale">tale</a></p></div><div class="clearLeft"><!-- --></div></div> 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+                 
+                  
+        
+                <h3>Writing Portfolio   </h3>
+                      
+                <ul id="tabs" class="tabs">
+                <li id="currentTab"><a href=javascript:; onclick="toggleTypes('all',this.parentNode)">All</a></li>
+                                    <li ><a href="javascript:;" onclick="toggleTypes('Short_Story',this.parentNode)">Short Story</a></li>  
+                                    <li ><a href="javascript:;" onclick="toggleTypes('Novel',this.parentNode)">Novel</a></li>  
+                                    <li ><a href="javascript:;" onclick="toggleTypes('Poetry',this.parentNode)">Poetry</a></li>  
+                                                    </ul>
+               
+				<div class="clear"><!-- --></div>
+                <div id="portfolio">
+                 <div class="scroller" id=all>                    
+                        
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/the-stalks-stalk-back:-a-gordy-the-pumpkin-adventure"><img src="/content/profiles/media/SM-443982-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/the-stalks-stalk-back:-a-gordy-the-pumpkin-adventure">The Stalks Stalk Back: A Gordy the Pumpkin Adventure</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct 30, 2013<br />The fourth Halloween adventure for Gordy the Pumpkin is a...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/little-lark"><img src="/content/profiles/media/SM-418816-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/little-lark">Little Lark</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jun 29, 2013<br />A pair of watchers find that they may have been wrong all...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/beyond-the-flesh"><img src="/content/profiles/media/SM-402061-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/beyond-the-flesh">BEYOND THE FLESH</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Mar 28, 2013<br />In support of love.</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/horror/short_story/alan_dale_dalby/dark-n-stormy"><img src="/content/profiles/media/SM-387793-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/horror/short_story/alan_dale_dalby/dark-n-stormy">Dark 'n' Stormy</a></h2><p><strong><a href="/horror/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jan 26, 2013<br />Two professors clash over more than their different views...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/which-way-is-witch-way"><img src="/content/profiles/media/SM-366304-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/which-way-is-witch-way">WHICH WAY IS WITCH WAY?</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct 29, 2012<br />The third annual Gordy the Pumpkin Halloween story tells...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/i-crashed-the-mash-at-castle-frankenstein-on-all-hallows-eve"><img src="/content/profiles/media/SM-268678-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/i-crashed-the-mash-at-castle-frankenstein-on-all-hallows-eve">I CRASHED THE MASH AT CASTLE FRANKENSTEIN ON ALL HALLOW'S EVE</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct 29, 2011<br />Another Halloween outing for Gordy the Pumpkin with some...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/animal-spirit-by-alan-dale-dalby"><img src="/content/profiles/media/SM-227308-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/animal-spirit-by-alan-dale-dalby">ANIMAL SPIRIT by Alan Dale Dalby</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: May 27, 2011<br />Caught in the wasteland seeking the way out while the...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/couch-cushion-by-the-side-of-the-road:-a-fever-dream"><img src="/content/profiles/media/SM-223722-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/couch-cushion-by-the-side-of-the-road:-a-fever-dream">Couch Cushion by the Side of the Road: A Fever Dream</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: May 12, 2011<br />Not so much a story as a fever dream brought on by a cold...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/savage-season"><img src="/content/profiles/media/SM-183729-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/savage-season">SAVAGE SEASON</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct 17, 2010<br />The animal within finds its way to the outside world in a...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/i-saw-mommy-kissing-the-boogey-man-on-all-hallows-eve"><img src="/content/profiles/media/SM-182301-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/i-saw-mommy-kissing-the-boogey-man-on-all-hallows-eve">I SAW MOMMY KISSING THE BOOGEY MAN ON ALL HALLOWS EVE</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct  9, 2010<br />I felt like there where enough straight horror stories...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/eternal-gratitude"><img src="/content/profiles/media/SM-177553-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/eternal-gratitude">ETERNAL GRATITUDE</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep 10, 2010<br />A man sells his soul for a great price, but what price is...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/see-through"><img src="/content/profiles/media/SM-175347-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/see-through">SEE THROUGH</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Aug 29, 2010<br />A modern day fairy tale about a boy who wishes he could...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/novel/alan_dale_dalby/how-to-kidnap-an-axe-murderer:-a-tale-of-romance-after-the-happily-ever/chapter/1"><img src="/content/profiles/media/SM-163186-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/novel/alan_dale_dalby/how-to-kidnap-an-axe-murderer:-a-tale-of-romance-after-the-happily-ever/chapter/1">HOW TO KIDNAP AN AXE MURDERER: A TALE OF ROMANCE AFTER THE HAPPILY EVER</a></h2><p><strong><a href="/literary_fiction/novel">Novel</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jul  6, 2010<br />Darwin Phelps is on the verge of turning thirty and his...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/no-end-in-sight"><img src="/content/profiles/media/SM-159484-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/no-end-in-sight">NO END IN SIGHT...</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jun 21, 2010<br />Marvin Pembry jumps off of the ten story office building...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/time-past"><img src="/content/profiles/media/SM-148637-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/time-past">TIME PAST</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: May  3, 2010<br />A man finds himself sent back in time in a most unusual...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/penny-arcade"><img src="/content/profiles/media/SM-78211-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/penny-arcade">PENNY ARCADE</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Apr 14, 2009<br />None of us can avoid aging, but our inner children can.</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/rosetta"><img src="/content/profiles/media/SM-72204-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/rosetta">ROSETTA</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Mar 11, 2009<br />Inspired by a very striking cat that came to stay in the...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/humor/poetry/alan_dale_dalby/sexy-sadie"><img src="/content/profiles/media/SM-15345-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/humor/poetry/alan_dale_dalby/sexy-sadie">Sexy Sadie</a></h2><p><strong><a href="/humor/poetry">Poem</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep 16, 2007<br />A quick limerick about life and love on the internet.
+
+</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/horror/short_story/alan_dale_dalby/red-ink"><img src="/content/profiles/media/SM-15191-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/horror/short_story/alan_dale_dalby/red-ink">Red Ink</a></h2><p><strong><a href="/horror/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep 13, 2007<br />An author breaks through his writer's block only to find...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/poetry/poetry/alan_dale_dalby/nocturne"><img src="/content/profiles/media/SM-15127-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/poetry/poetry/alan_dale_dalby/nocturne">Nocturne</a></h2><p><strong><a href="/poetry/poetry">Poem</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep 12, 2007<br />Recently I discovered a book among my father's personal...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/the-shadow-of-death-part-one-of-two-parts"><img src="/content/profiles/media/SM-14693-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/the-shadow-of-death-part-one-of-two-parts">The Shadow of Death - Part One of Two Parts</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep  3, 2007<br />Romance finds a frustrated married woman in the form of a...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/the-shadow-of-death-part-two-of-two-parts"><img src="/content/profiles/media/SM-14691-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/the-shadow-of-death-part-two-of-two-parts">The Shadow of Death - Part Two of Two Parts</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep  3, 2007<br />The Conclusion of this two part story. Romance finds a...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/lost-in-endless-winter"><img src="/content/profiles/media/SM-11771-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/lost-in-endless-winter">Lost in Endless Winter</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jul  5, 2007<br />A woman falls into a strange world where she meets a...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/poetry/poetry/alan_dale_dalby/we-wonder"><img src="/content/profiles/media/SM-11705-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/poetry/poetry/alan_dale_dalby/we-wonder">We Wonder</a></h2><p><strong><a href="/poetry/poetry">Poem</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jul  3, 2007<br />This is a poem that my mom wrote about my father. Since I...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/dusk-dawn-and-senior-prom-part-two-of-two"><img src="/content/profiles/media/SM-11095-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/dusk-dawn-and-senior-prom-part-two-of-two">Dusk, Dawn, and Senior Prom - Part Two of Two</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jun 17, 2007<br />The second half of the mostly true story of my senior...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/dusk-dawn-and-senior-prom-part-one-of-two"><img src="/content/profiles/media/SM-11094-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/dusk-dawn-and-senior-prom-part-one-of-two">Dusk, Dawn, and Senior Prom - Part One of Two</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jun 17, 2007<br />Three best friends set out to have the time of their...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/horror/short_story/alan_dale_dalby/toby"><img src="/content/profiles/media/SM-10223-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/horror/short_story/alan_dale_dalby/toby">Toby</a></h2><p><strong><a href="/horror/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jun  1, 2007<br />After their third attempt to have a baby results in a...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/poetry/poetry/alan_dale_dalby/never-truly-apart"><img src="/content/profiles/media/SM-9553-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/poetry/poetry/alan_dale_dalby/never-truly-apart">Never Truly Apart</a></h2><p><strong><a href="/poetry/poetry">Poem</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: May 20, 2007<br />A poem about a relationship that has been over for a...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/the-center"><img src="/content/profiles/media/SM-9386-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/the-center">The Center</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: May 17, 2007<br />On November 1st, 2006, my father passed away.  This is a...</p></div><div class="clearLeft"><!-- --></div></div>
+    
+                   </div>
+                    
+                    
+    <div  class="scroller" style=display:none id=Short_Story>
+                         
+
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/the-stalks-stalk-back:-a-gordy-the-pumpkin-adventure"><img src="/content/profiles/media/SM-443982-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/the-stalks-stalk-back:-a-gordy-the-pumpkin-adventure">The Stalks Stalk Back: A Gordy the Pumpkin Adventure</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct 30, 2013<br />The fourth Halloween adventure for Gordy the Pumpkin is a...<br />Tags:<a href="/tags/horror">horror</a>, <a href="/tags/murder">murder</a>, <a href="/tags/mystery">mystery</a>, <a href="/tags/holiday">holiday</a>, <a href="/tags/halloween">halloween</a>, <a href="/tags/werewolf">werewolf</a>, <a href="/tags/pumpkin">pumpkin</a></p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/little-lark"><img src="/content/profiles/media/SM-418816-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/little-lark">Little Lark</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jun 29, 2013<br />A pair of watchers find that they may have been wrong all...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/beyond-the-flesh"><img src="/content/profiles/media/SM-402061-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/beyond-the-flesh">BEYOND THE FLESH</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Mar 28, 2013<br />In support of love.<br />Tags:<a href="/tags/love">love</a>, <a href="/tags/gay">gay</a>, <a href="/tags/life">life</a>, <a href="/tags/soul">soul</a>, <a href="/tags/forever">forever</a>, <a href="/tags/music">music</a>, <a href="/tags/eternity">eternity</a>, <a href="/tags/humanity">humanity</a>, <a href="/tags/bliss">bliss</a>, <a href="/tags/black">black</a>, <a href="/tags/straight">straight</a></p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/horror/short_story/alan_dale_dalby/dark-n-stormy"><img src="/content/profiles/media/SM-387793-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/horror/short_story/alan_dale_dalby/dark-n-stormy">Dark 'n' Stormy</a></h2><p><strong><a href="/horror/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jan 26, 2013<br />Two professors clash over more than their different views...<br />Tags:<a href="/tags/horror">horror</a>, <a href="/tags/anger">anger</a>, <a href="/tags/fear">fear</a>, <a href="/tags/regret">regret</a>, <a href="/tags/murder">murder</a>, <a href="/tags/fiction">fiction</a>, <a href="/tags/literary">literary</a>, <a href="/tags/short">short</a>, <a href="/tags/fate">fate</a>, <a href="/tags/conflict">conflict</a></p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/which-way-is-witch-way"><img src="/content/profiles/media/SM-366304-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/which-way-is-witch-way">WHICH WAY IS WITCH WAY?</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct 29, 2012<br />The third annual Gordy the Pumpkin Halloween story tells...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/i-crashed-the-mash-at-castle-frankenstein-on-all-hallows-eve"><img src="/content/profiles/media/SM-268678-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/i-crashed-the-mash-at-castle-frankenstein-on-all-hallows-eve">I CRASHED THE MASH AT CASTLE FRANKENSTEIN ON ALL HALLOW'S EVE</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct 29, 2011<br />Another Halloween outing for Gordy the Pumpkin with some...<br />Tags:<a href="/tags/horror">horror</a>, <a href="/tags/fiction">fiction</a>, <a href="/tags/halloween">halloween</a>, <a href="/tags/adventure">adventure</a>, <a href="/tags/vampire">vampire</a>, <a href="/tags/werewolf">werewolf</a>, <a href="/tags/mummy">mummy</a>, <a href="/tags/ghost">ghost</a>, <a href="/tags/frankenstein">frankenstein</a>, <a href="/tags/pumpkin">pumpkin</a>, <a href="/tags/gordy">gordy</a></p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/animal-spirit-by-alan-dale-dalby"><img src="/content/profiles/media/SM-227308-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/animal-spirit-by-alan-dale-dalby">ANIMAL SPIRIT by Alan Dale Dalby</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: May 27, 2011<br />Caught in the wasteland seeking the way out while the...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/couch-cushion-by-the-side-of-the-road:-a-fever-dream"><img src="/content/profiles/media/SM-223722-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/couch-cushion-by-the-side-of-the-road:-a-fever-dream">Couch Cushion by the Side of the Road: A Fever Dream</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: May 12, 2011<br />Not so much a story as a fever dream brought on by a cold...<br />Tags:<a href="/tags/life">life</a>, <a href="/tags/insanity">insanity</a>, <a href="/tags/mind">mind</a>, <a href="/tags/strange">strange</a>, <a href="/tags/madness">madness</a>, <a href="/tags/odd">odd</a>, <a href="/tags/eternal">eternal</a>, <a href="/tags/sanity">sanity</a>, <a href="/tags/fever">fever</a>, <a href="/tags/quirky">quirky</a></p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/savage-season"><img src="/content/profiles/media/SM-183729-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/savage-season">SAVAGE SEASON</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct 17, 2010<br />The animal within finds its way to the outside world in a...<br />Tags:<a href="/tags/love">love</a>, <a href="/tags/loss">loss</a>, <a href="/tags/death">death</a>, <a href="/tags/life">life</a>, <a href="/tags/beauty">beauty</a>, <a href="/tags/pain">pain</a>, <a href="/tags/suffering">suffering</a>, <a href="/tags/solitude">solitude</a>, <a href="/tags/nature">nature</a>, <a href="/tags/beast">beast</a>, <a href="/tags/human">human</a></p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/i-saw-mommy-kissing-the-boogey-man-on-all-hallows-eve"><img src="/content/profiles/media/SM-182301-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/i-saw-mommy-kissing-the-boogey-man-on-all-hallows-eve">I SAW MOMMY KISSING THE BOOGEY MAN ON ALL HALLOWS EVE</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Oct  9, 2010<br />I felt like there where enough straight horror stories...<br />Tags:<a href="/tags/horror">horror</a>, <a href="/tags/fantasy">fantasy</a>, <a href="/tags/gothic">gothic</a>, <a href="/tags/raven">raven</a>, <a href="/tags/halloween">halloween</a>, <a href="/tags/fun">fun</a>, <a href="/tags/funny">funny</a>, <a href="/tags/comedy">comedy</a>, <a href="/tags/twisted">twisted</a>, <a href="/tags/spooky">spooky</a>, <a href="/tags/tale">tale</a></p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/eternal-gratitude"><img src="/content/profiles/media/SM-177553-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/eternal-gratitude">ETERNAL GRATITUDE</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep 10, 2010<br />A man sells his soul for a great price, but what price is...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/see-through"><img src="/content/profiles/media/SM-175347-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/see-through">SEE THROUGH</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Aug 29, 2010<br />A modern day fairy tale about a boy who wishes he could...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/no-end-in-sight"><img src="/content/profiles/media/SM-159484-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/no-end-in-sight">NO END IN SIGHT...</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jun 21, 2010<br />Marvin Pembry jumps off of the ten story office building...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/time-past"><img src="/content/profiles/media/SM-148637-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/time-past">TIME PAST</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: May  3, 2010<br />A man finds himself sent back in time in a most unusual...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/penny-arcade"><img src="/content/profiles/media/SM-78211-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/penny-arcade">PENNY ARCADE</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Apr 14, 2009<br />None of us can avoid aging, but our inner children can.<br />Tags:<a href="/tags/love">love</a>, <a href="/tags/childhood">childhood</a>, <a href="/tags/romance">romance</a>, <a href="/tags/change">change</a>, <a href="/tags/games">games</a></p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/rosetta"><img src="/content/profiles/media/SM-72204-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/rosetta">ROSETTA</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Mar 11, 2009<br />Inspired by a very striking cat that came to stay in the...<br />Tags:<a href="/tags/death">death</a>, <a href="/tags/animals">animals</a>, <a href="/tags/life">life</a>, <a href="/tags/cat">cat</a>, <a href="/tags/reincarnation">reincarnation</a>, <a href="/tags/buddhism">buddhism</a></p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/horror/short_story/alan_dale_dalby/red-ink"><img src="/content/profiles/media/SM-15191-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/horror/short_story/alan_dale_dalby/red-ink">Red Ink</a></h2><p><strong><a href="/horror/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep 13, 2007<br />An author breaks through his writer's block only to find...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/the-shadow-of-death-part-one-of-two-parts"><img src="/content/profiles/media/SM-14693-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/the-shadow-of-death-part-one-of-two-parts">The Shadow of Death - Part One of Two Parts</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep  3, 2007<br />Romance finds a frustrated married woman in the form of a...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/the-shadow-of-death-part-two-of-two-parts"><img src="/content/profiles/media/SM-14691-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/the-shadow-of-death-part-two-of-two-parts">The Shadow of Death - Part Two of Two Parts</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep  3, 2007<br />The Conclusion of this two part story. Romance finds a...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/lost-in-endless-winter"><img src="/content/profiles/media/SM-11771-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/lost-in-endless-winter">Lost in Endless Winter</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jul  5, 2007<br />A woman falls into a strange world where she meets a...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/dusk-dawn-and-senior-prom-part-two-of-two"><img src="/content/profiles/media/SM-11095-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/dusk-dawn-and-senior-prom-part-two-of-two">Dusk, Dawn, and Senior Prom - Part Two of Two</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jun 17, 2007<br />The second half of the mostly true story of my senior...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/dusk-dawn-and-senior-prom-part-one-of-two"><img src="/content/profiles/media/SM-11094-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/dusk-dawn-and-senior-prom-part-one-of-two">Dusk, Dawn, and Senior Prom - Part One of Two</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jun 17, 2007<br />Three best friends set out to have the time of their...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/horror/short_story/alan_dale_dalby/toby"><img src="/content/profiles/media/SM-10223-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/horror/short_story/alan_dale_dalby/toby">Toby</a></h2><p><strong><a href="/horror/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jun  1, 2007<br />After their third attempt to have a baby results in a...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/short_story/alan_dale_dalby/the-center"><img src="/content/profiles/media/SM-9386-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/short_story/alan_dale_dalby/the-center">The Center</a></h2><p><strong><a href="/literary_fiction/short_story">Short Story</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: May 17, 2007<br />On November 1st, 2006, my father passed away.  This is a...</p></div><div class="clearLeft"><!-- --></div></div>
+    
+                    </div>                    
+     <div  class="scroller" style=display:none id=Novel>
+                         
+
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/literary_fiction/novel/alan_dale_dalby/how-to-kidnap-an-axe-murderer:-a-tale-of-romance-after-the-happily-ever/chapter/1"><img src="/content/profiles/media/SM-163186-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/literary_fiction/novel/alan_dale_dalby/how-to-kidnap-an-axe-murderer:-a-tale-of-romance-after-the-happily-ever/chapter/1">HOW TO KIDNAP AN AXE MURDERER: A TALE OF ROMANCE AFTER THE HAPPILY EVER</a></h2><p><strong><a href="/literary_fiction/novel">Novel</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jul  6, 2010<br />Darwin Phelps is on the verge of turning thirty and his...</p></div><div class="clearLeft"><!-- --></div></div>
+    
+                    </div>                    
+     <div  class="scroller" style=display:none id=Poetry>
+                         
+
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/humor/poetry/alan_dale_dalby/sexy-sadie"><img src="/content/profiles/media/SM-15345-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/humor/poetry/alan_dale_dalby/sexy-sadie">Sexy Sadie</a></h2><p><strong><a href="/humor/poetry">Poem</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep 16, 2007<br />A quick limerick about life and love on the internet.
+
+</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/poetry/poetry/alan_dale_dalby/nocturne"><img src="/content/profiles/media/SM-15127-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/poetry/poetry/alan_dale_dalby/nocturne">Nocturne</a></h2><p><strong><a href="/poetry/poetry">Poem</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Sep 12, 2007<br />Recently I discovered a book among my father's personal...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/poetry/poetry/alan_dale_dalby/we-wonder"><img src="/content/profiles/media/SM-11705-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/poetry/poetry/alan_dale_dalby/we-wonder">We Wonder</a></h2><p><strong><a href="/poetry/poetry">Poem</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: Jul  3, 2007<br />This is a poem that my mom wrote about my father. Since I...</p></div><div class="clearLeft"><!-- --></div></div>
+<div class="featuredBox"><div class="featuredBoxLeft"><a href="/poetry/poetry/alan_dale_dalby/never-truly-apart"><img src="/content/profiles/media/SM-9553-2643_MEDIA_IMAGE_.jpg" alt=""/></a></div><div class="featuredBoxRight"><h2><a href="/poetry/poetry/alan_dale_dalby/never-truly-apart">Never Truly Apart</a></h2><p><strong><a href="/poetry/poetry">Poem</a> by <a href="/alan_dale_dalby">Alan Dale Dalby</a></strong><br/>Posted: May 20, 2007<br />A poem about a relationship that has been over for a...</p></div><div class="clearLeft"><!-- --></div></div>
+    
+                    </div>                    
+         
+ </div>          
+
+                <br /><br /> 
+                            </div>
+            <div class="newBioRight">
+                     
+                <script type="text/javascript" charset="utf-8">
+                    <!--
+                    function toggleBio (div,tab) {
+                        document.getElementById('newstab').style.display = "none";
+                        document.getElementById('bio').style.display = "none";
+                        document.getElementById('books').style.display = "none";
+
+                        document.getElementById('toggleBioTabs').getElementsByTagName('li')[0].id = "";
+                        document.getElementById('toggleBioTabs').getElementsByTagName('li')[1].id = "";
+                        document.getElementById('toggleBioTabs').getElementsByTagName('li')[2].id = "";
+                        tab.parentNode.id = "currentTab";
+
+
+                        document.getElementById(div).style.display = "block";
+                    }
+                    
+                    
+                    // -->
+                </script>        
+                <ul class="tabs" id="toggleBioTabs">
+                <li id="currentTab"><a href="javascript:;" onmouseover="toggleBio('bio',this);">Profile</a></li>
+                <li><a href="javascript:;" onmouseover="toggleBio('newstab',this);">My News</a></li>
+                <li><a href="javascript:;" onmouseover="toggleBio('books',this);">Printed Books</a></li>
+		</ul>
+		</ul>
+                <div class="tabBioSection" id="books" style="display:none">
+                                          No books listed.
+                                  </div>
+                <div class="tabBioSection" id="newstab" style="display:none">
+                     <div id="news.list">
+                                           <p id="newsbox_89145"><B>Jun 26, 2013</B> 
+<BR><span id="newscon_89145">Just got The Shadow of Death accepted by Horror-Writers.net! One small step...
+http://horror-writers.net/stories/the-shadow-of-death-by-alan-dale-dalby/</span> </p><br>
+<p id="newsbox_79649"><B>Nov  2, 2012</B> 
+<BR><span id="newscon_79649">It's the first week of November and I have taken my vacation to get the next novel going. I hope all of you are writing too. This is the month for it. Any time is a good time to slap your imagination down on the page. I look forward to seeing what you all come up with. Never stop. If you love it, if it is your passion and your true calling, or just a fun hobby to pass the time...never stop creating. You've got great stories bubbling in your brain and we think you should share them! Cheers everyone!</span> </p><br>
+                                        </div>
+                   
+                   
+                </div>
+                <div class="tabBioSection" id="bio"> 
+                    <p><p>
+	I am revisiting and fixing all of my stories for submissions.</p>
+<p>
+	If you have been turned down a lot over the years, go back and give those rejected gems another look.</p>
+<p>
+	You've grown and learned and honed your craft.</p>
+<p>
+	You will polish and perfect your seeds of genius and help them flower until soon their sweet aroma will open up the nostrils of those who had no interest in you before.</p>
+<p>
+	Never give in, never stop working on the same old stuff that you know has potential. </p>
+<p>
+	Cut out anything that needn't be there and present the most streamlined version of your story that you can.</p>
+<p>
+	With time they have forgotten those submissions they rejected and you have the chance to make a second first impression.</p>
+<p>
+	You WILL get there if you keep working, keep writing, keep growing, keep up those long sleepless nights of edit after edit until you finally have exactly what they are looking for.</p>
+<p>
+	You're already an author. You've already won. All you need to do is make it happen.</p>
+<p>
+	Your stories won't fix themselves nor will they run off and find their audience on their own.</p>
+<p>
+	These are your children and they are very welcome to stay at home as long as they want, but wouldn't you much rather boot them out into the world and see them succeed? </p>
+<p>
+	Be a proud parent. Be an author. Be a dreamer and bring your dreams to life.</p>
+<p>
+	It's in you. Unleash your power and you can do anything.</p>
+<p>
+	 </p>
+ </p>
+                </div>
+                
+                <div class="tabBioSection" id="vgifts" style="display:none">
+                  				   <div style="text-align: left;"><h3>Alan Dale Dalby's Virtual Gifts!</h3></div>	
+								  <div style="text-align: left;"><a href="/store/index.html/rid/2643" style="display: block; margin-top: 4px;"><img src="/images/gift3_32.png" width="20" height="20" border="0" align="absmiddle" style="margin-top: -3px;"/> Show the love. Send Alan Dale Dalby a virtual gift!</a></div>
+				  				   
+				  <div id="viximo_gifting" style="padding: 5px 5px 0 5px;"></div>
+
+				  
+                </div>
+                 
+                <h3>Alan Dale Dalby has 8   Fans  </h3>
+                <div class="newWritersBoxIEFix">
+                <div class="newWritersBox">
+                                                                                <div class="writers">
+              
+                <a href="/Pater_Profundus" class="newWriterImage" style="height:90px;">
+                                 <img src="/content/profiles/SM-168531_USER_PROFILE_.jpg" alt="Pater Profundus"/>
+                                </a> 
+                <h3><a href="/Pater_Profundus">Pater Profundus</a></h3>
+                </div> 
+
+                                                                                <div class="writers">
+              
+                <a href="/Marina_Y" class="newWriterImage" style="height:90px;">
+                                 <img src="/content/profiles/SM-71276_USER_PROFILE_.jpg" alt="Marina Y"/>
+                                </a> 
+                <h3><a href="/Marina_Y">Marina Y</a></h3>
+                </div> 
+
+                                                                                <div class="writers">
+              
+                <a href="/TheFizz20" class="newWriterImage" style="height:90px;">
+                                 <img src="/content/profiles/SM-40996_USER_PROFILE_.jpg" alt="TheFizz20"/>
+                                </a> 
+                <h3><a href="/TheFizz20">TheFizz20</a></h3>
+                </div> 
+
+                                <div class='clear'><!-- --></div>
+                                                                                <div class="writers">
+              
+                <a href="/Kittycat" class="newWriterImage" style="height:90px;">
+                                 <img src="/content/profiles/SM-3619_USER_PROFILE_.jpg" alt="Kittycat"/>
+                                </a> 
+                <h3><a href="/Kittycat">Kittycat</a></h3>
+                </div> 
+
+                                                                                <div class="writers">
+              
+                <a href="/FunnyBunny" class="newWriterImage" style="height:90px;">
+                                 <img src="/content/profiles/SM-3618_USER_PROFILE_.jpg" alt="FunnyBunny"/>
+                                </a> 
+                <h3><a href="/FunnyBunny">FunnyBunny</a></h3>
+                </div> 
+
+                                                                                <div class="writers">
+              
+                <a href="/Britany_Hill" class="newWriterImage" style="height:90px;">
+                                 <img src="/images/fav/user_suit.png" alt="Britany Hill"/>
+                
+                                </a> 
+                <h3><a href="/Britany_Hill">Britany Hill</a></h3>
+                </div> 
+
+                                <div class='clear'><!-- --></div>
+                                                                                <div class="writers">
+              
+                <a href="/ddrandall" class="newWriterImage" style="height:90px;">
+                                 <img src="/content/profiles/SM-2203_USER_PROFILE_.jpg" alt="ddrandall"/>
+                                </a> 
+                <h3><a href="/ddrandall">ddrandall</a></h3>
+                </div> 
+
+                                                                                <div class="writers">
+              
+                <a href="/EdwardJBradleySr" class="newWriterImage" style="height:90px;">
+                                 <img src="/content/profiles/SM-384_USER_PROFILE_.jpg" alt="EdwardJBradleySr"/>
+                                </a> 
+                <h3><a href="/EdwardJBradleySr">EdwardJBradleySr</a></h3>
+                </div> 
+
+                                                		
+		
+                <br /><br />
+                                 <div class='clear'><!-- --></div>
+                   
+                </div>
+                </div>
+                    
+                  
+             <h3>Comments</h3>
+                
+                    <input type="hidden" name="author" id="comments_author" value="Alan_Dale_Dalby">
+                   
+                   <div id="comments">
+                   </div>
+                 
+                   <div id="comments_debug"></div> 
+                   <div id="comments_result" style="display:none"></div> 
+                   <button name="comments_button"  id="comments_button">Leave Comment</button>
+                   <div id="comments_form_container" style="display:none">
+                   <form id="comment_form" onsubmit="return false;">
+                   <h3>Leave Comment</h3>
+                   <textarea id="comment" name="comment" id="comment"></textarea>
+                   <p>
+                   <button name="comments_save"  id="comments_save">Leave Comment</button> 
+                   <button name="comments_cancel" id="comments_cancel">Cancel</button>
+                   </p>
+                   </form>
+                   </div>
+                           
+                 
+                  
+            </div>
+        </div>
+        <div class="clear"><!-- --></div>
+        <div class="miniRule"><!-- --></div>    
+<div class="clear"><!-- --></div>
+</div>
+<div class="clear"><!-- --></div>
+<div  >
+ 
+ <div id="ad" align='center'>
+ <!-- manage-ad_manage-bottom-728-90 -->
+<div id='div-gpt-ad-1374247537846-1' style='width:728px; height:90px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1374247537846-1'); });
+</script>
+</div>
+</div>
+ 
+<div id="azk20205"></div></div>
+
+<div class="footer2">
+<p><a href="/about/">About</a> | <a href="/news/">News</a> | <a href="/contact/" rel="nofollow">Contact</a> | <a href="/users/" rel="nofollow">Your Account </a> | <a href="http://www.booksiesilk.com" target="_blank">BooksieSilk</a> | <a href="http://www.thenextbigwriter.com" target="_blank">TheNextBigWriter</a> | <a href="http://www.thewriterssite.com/direct_pages/self_publishing.html">Self Publishing</a> | <a href="/about/advertise.html rel="nofollow"">Advertise</a></p>
+<p>&copy; 2013 TheNextBigWriter, LLC.  All Rights Reserved.  <a href="/about/terms.html" rel="nofollow">Terms </a>under which this service is provided to you. <a href="/about/site_privacy_policy.html" rel="nofollow">Privacy Policy.</a></p>
+<script src="http://www.google-analytics.com/urchin.js"
+type="text/javascript">
+
+</script>
+
+<script type="text/javascript">
+
+_uacct = "UA-512990-2";
+
+urchinTracker();
+
+</script>
+    
+</div>
+
+
+</div>
+</body>
+</html>

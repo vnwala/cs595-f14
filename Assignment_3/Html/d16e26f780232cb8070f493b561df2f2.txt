@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<!-- ----------------------------------
+     Theme Urban 3
+     
+     Theme is made by Max Davis.
+     More free tumblr themes at: 
+     http://themes.themaxdavis.com  
+     ---------------------------------- -->
+
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="color:Background" content="#fff"/>
+<meta name="color:Center" content="#fff"/>
+<meta name="color:Text" content="#B3B3B3"/>
+<meta name="color:Title" content="#777777"/>
+<meta name="color:Link" content="#777777"/>
+<meta name="color:Hover" content="#777777"/>
+
+<meta name="image:Background" content="http://static.tumblr.com/b2ajd3k/4NGlriytz/wp_1920.jpg" />
+<meta name="image:Portrait" content="http://static.tumblr.com/b2ajd3k/0s6lriyd4/tumblr_lrbwqc3fv01qfvouao1_500.jpg" />
+
+<meta name="if:infinite scrolling" content="1"/>
+<meta name="if:2 Columns" content="1"/>
+<meta name="if:Sidebar Fixed" content="1"/>
+<meta name="if:Sidebar Left Or Right" content="1"/>
+<meta name="if:Sidebar Transparent" content="0"/>
+<meta name="if:Center Light Transparent" content="0"/>
+<meta name="if:Center Dark Transparent" content="1"/>
+<meta name="if:Round Borders" content="1"/>
+<meta name="if:Shadow" content="1"/>
+<meta name="if:Text Italic" content="0"/>
+<meta name="if:Hide Permalinks" content="0"/>
+<meta name="if:Yanone Kaffeesatz font" content="1"/>
+<meta name="if:Great Vibes font" content="0"/>
+<meta name="if:Trochut font" content="0"/>
+<meta name="if:Show Title Shadows" content="0"/>
+<meta name="if:Show Captions" content="0"/>
+<meta name="if:Show Submit" content="0" />
+<meta name="if:Show RSS" content="0" />
+<meta name="if:Show Archive" content="1" />
+<meta name="if:Show Random" content="1" />
+
+<meta name="text:Twitter Username" content=""/>
+<meta name="text:Tweet Count" content="6"/>
+<meta name="text:Next Page" content="Next Page" />
+<meta name="text:Previous Page" content="Previous Page" />
+<meta name="text:Ask Title" content="Ask" />
+<meta name="text:Link 1" content="" />
+<meta name="text:Link 1 Title" content="" />
+<meta name="text:Link 2" content="" />
+<meta name="text:Link 2 Title" content="" />
+<meta name="text:Link 3" content="" />
+<meta name="text:Link 3 Title" content="" />
+<meta name="text:Link 4" content="" />
+<meta name="text:Link 4 Title" content="" />
+<meta name="text:Link 5" content="" />
+<meta name="text:Link 5 Title" content="" />
+
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_67ca6cca7836_128.png">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://gloverland.tumblr.com/rss" />
+<meta name="viewport" content="width=820" />
+<meta name="robots" content="noindex"/>
+<meta name="description" content="WELCOME TO GLOVERLAND!!!!!!! My names Colin Glover, im 20, goin to college for computer science, my social security number is 24..............w8 to much info lol. but im a kool calm collective...">
+<title></title>
+
+
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300' rel='stylesheet' type='text/css'>
+
+
+
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,800' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript" src="http://themaxdavisthemes.com/code/jQuery.js"></script>
+
+<script type="text/javascript" src="http://static.tumblr.com/me5sfsd/12Qlmj66n/script.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/twte3d7/0pellzh2t/infinitescroll.js"></script>
+
+<script>
+$(window).load(function(){
+    var $wall = $('#content');
+    
+    $wall.masonry({
+      itemSelector: '#entry, #entry_photo',
+      columnWidth:280
+    });
+    
+    $wall.infinitescroll({
+      navSelector    : '#page-nav',  
+      nextSelector   : '#page-nav a', 
+      itemSelector   : '#entry, #entry_photo', 
+      loading        : '',
+      donetext       : ''
+    },
+
+    function( newElements ) { 
+        var $newElems = $( newElements ).css({ 
+            opacity: 0 
+        });
+        $newElems.imagesLoaded(function(){
+            $newElems.animate({ opacity: 1 });
+            $wall.masonry( "appended", $newElems, true );
+        });
+    });
+});
+</script>
+
+
+
+ 
+<style type="text/css">
+a{
+    color:#777777;
+    text-decoration:none;
+    -webkit-transition: all 0.2s linear; 
+    -moz-transition: all 0.2s linear; 
+    transition: all 0.2s linear;}
+a:hover{
+    color:#777777;
+    -webkit-transition: all 0.2s linear; 
+    -moz-transition: all 0.2s linear; 
+    transition: all 0.2s linear;}
+a:active{outline: none;}
+a:focus{-moz-outline-style: none;}
+:-moz-any-link:focus{outline: none;}
+img{border:none;}
+
+body{
+   background:#fff url(http://static.tumblr.com/939e3834b0d4d07804b0522095b5b597/ahrzihj/b7Fmiy7p1/tumblr_static_2_chainz___wiz.jpg) repeat center top;
+   background-attachment: fixed;
+   color: #B3B3B3; 
+   font-family: 'Open Sans', arial, sans-serif;
+   font-size: 10px; 
+   line-height: 12px;
+   overflow-x:hidden; 
+   margin:0px;
+   
+   text-align: left;}
+
+
+div#center{
+   margin:10px auto 20px;text-align: left;
+   position:relative;
+   
+   width:790px;
+   width:980px;
+   }
+
+div#content{margin-top:15px;
+
+
+
+width:580px;
+
+
+margin-left:225px;
+
+
+
+
+
+}
+
+div#content p{
+   font-size: 9px;
+   padding: 0 10px;}
+div#content .source{
+   margin:20px 0 0;}
+
+div#sidebar{
+   padding: 10px;
+   margin-top:0px;margin-top:5px;
+   width:200px;overflow:hidden;
+   background-color:#fff;
+   
+   position:fixed;
+   
+   
+   
+   
+   
+   margin-left:790px;
+   
+   
+   
+   -o-border-radius: 3px
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   
+   
+   
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+   
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+   
+   
+   background-color:rgba(255,255,255,0.5);
+   background-color:rgba(0,0,0,0.8);
+   }
+div#sidebar .description{
+    margin:-10px 0 20px;}
+
+.portrait {-o-border-radius: 3px-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;}
+
+#entry {background-color: #fff;
+   width:250px;float:left;padding:10px;margin:5px;
+   
+   -o-border-radius: 3px-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;
+   background-color:rgba(255,255,255,0.5);
+   background-color:rgba(0,0,0,0.8);
+   
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+   
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+   
+   
+   overflow:hidden;}
+#entry img{max-width:210px;height:auto;}
+
+#entry_photo {background-color: #fff;
+   width:270px;float:left;padding:0px;margin:5px;
+   
+   -o-border-radius: 3px-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;
+   background-color:rgba(255,255,255,0.5);
+   background-color:rgba(0,0,0,0.8);
+   -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);box-shadow: 0px 0px 5px rgba(0,0,0,0.2);overflow:hidden;}
+
+
+h1{
+   font-family:'Yanone Kaffeesatz',  sans-serif;
+   font-size: 30px;
+   font-style:normal;
+   line-height: 25px;
+   font-weight:normal;
+   color: #777777;
+   
+   }
+
+blockquote{
+   margin:3px 10px;
+   color: #B3B3B3;
+   padding: 10px;}
+
+
+div.post div.conversation ul {
+   list-style-type:none;}
+
+ol.notes {
+   padding: 0px;
+   font-weight:normal;
+   margin: 0px 0px;
+   list-style-type: none !important;
+   border-bottom: 0px;
+   margin-left: 0px;
+   text-align: left;}
+
+ul {list-style-type:bullet;}
+ul:hover {color: #999;}
+
+ol {list-style-type: upper-roman;}
+ul:hover {color: #999;}
+
+.user_1 .label, .user_2 .label, .user_3 .label, .user_4 .label, .user_5 .label, .user_6 .label, 
+.user_7 .label, .user_8 .label, .user_9 .label {font-weight:normal;}
+
+#answer{
+   margin-top: 8px;
+   margin-left: -34px;}
+
+.title{
+   font-family:'Yanone Kaffeesatz',  sans-serif;
+   font-size: 30px;font-style:normal;
+   line-height: 25px;
+   color: #777777;
+   }
+.title2{
+    font-style:normal;
+    font-family:'Yanone Kaffeesatz',  sans-serif;
+    font-size:16px;
+    display:block;
+    padding:5px 10px;
+    margin:3px 0;
+    width:auto;
+    background-color:rgba(0,0,0,0.1);color:#777777;
+    
+    
+  background-color:rgba(0,0,0,0.3);
+  background-color:rgba(255,255,255,0.5);
+   
+   -o-border-radius: 3px
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+     -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;}
+.title2:hover{background-color:rgba(0,0,0,0);color:#777777;
+  background-color:rgba(0,0,0,0);
+  background-color:rgba(255,255,255,0); -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;}
+
+.title2 a:hover{color: #777777;
+-webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;}
+
+.title3{
+   font-family:'Yanone Kaffeesatz',  sans-serif;
+   font-size:18px;display:block;
+   padding:5px 10px;margin:3px 0;width:auto;
+   background-color:rgba(0,0,0,0.1);color:#777777;
+   
+   
+  background-color:rgba(0,0,0,0.5);
+  background-color:rgba(255,255,255,0.5);
+   
+   -o-border-radius: 3px
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+     -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;
+   }
+.title3:hover{color:#777777;}
+.quotesymbols{
+   font-size: 30px;
+   opacity: 0.5;
+   line-height: -10px;}
+
+.title4{font-style:normal;
+   font-family:'Yanone Kaffeesatz',  sans-serif;
+   font-size:13px;display:block;
+   padding:3px 6px;margin:3px 0;width:auto;
+   background-color:rgba(0,0,0,0.1);color:#777777;
+  background-color:rgba(0,0,0,0.3);
+  background-color:rgba(255,255,255,0.5);
+   
+   -o-border-radius: 3px
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   
+   }
+
+.title5{
+   font-family:'Yanone Kaffeesatz',  sans-serif;
+   font-size:17px;display:block;margin:3px 0;color:#777777;
+   }
+
+
+.permalink{
+   height:auto;
+   text-align:center;
+   display:block;
+   margin-top:10px;
+   padding:5px 0;
+   line-height:12px;}
+
+
+
+.border{
+    margin:-5px 0 10px;
+    border-bottom:1px solid rgba(0,0,0,0.9);
+    
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    }
+.border2{
+    margin: 10px 0 -2px;
+    border-bottom:1px solid rgba(0,0,0,0.9);
+    
+    border-bottom:1px solid rgba(0,0,0,0.1);
+    }
+
+#photo {width:500px;width:270px;overflow:hidden;}
+#photo img {max-width:500px;display:block;-webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;
+         
+         -o-border-radius: 3px
+         -webkit-border-radius: 3px;
+         -moz-border-radius: 3px;
+         border-radius: 3px;
+         }
+div#photo div#picture {position:relative;}
+div#photo div#picture div#info {
+         position:absolute;
+         top:0;
+         left:0;
+     width:100%;
+     height:100%;
+         opacity:0;
+         
+         
+         background:rgba(255,255,255,0.5);
+         
+         
+     visibility:hidden;z-index:998;text-align:center;
+         
+         -o-border-radius: 3px
+         -webkit-border-radius: 3px;
+         -moz-border-radius: 3px;
+         border-radius: 3px;
+         
+-webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;}
+div#photo:hover div#picture div#info {
+opacity:1;-webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;}
+div#photo div#picture div#info div#holder {
+     position:absolute;
+	 
+         width:270px;top:40%;
+	 height:auto;
+	 text-align:center;
+	 z-index:999;
+-webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;}
+div#photo div#picture div#info div#holder a,div#photo div#picture div#info div#holder a:hover {
+	 text-decoration:none;}
+      div#photo div#picture div#info div#holder span#day {
+	 font-size:30px;
+	 line-height:15px;}
+      div#photo div#picture div#info div#holder span#month {
+	 font-size:10px;color:white;
+	 text-transform:uppercase;}
+      div#photo div#picture div#info div#holder span#month a {color:white;}
+      div#photo div#picture div#info div#holder span#month a:hover {color:white;}
+      div#photo div#picture div#info div#holder span#note_count {
+         font-weight:normal;font-family: 'arial', sans-serif;
+         letter-spacing: -1px;color:white;
+         line-height: 10px;letter-spacing:-2px;
+	 font-size:30px;font-weight:bold;
+	 text-transform:uppercase;}
+      div#photo div#picture div#info div#holder span#note_count a {color:white;}
+      div#photo div#picture div#info div#holder span#note_count a:hover{color:white;}
+      div#photo div#picture:hover div#info {
+	 visibility:visible;}
+      div#shadowphoto{
+text-shadow: 0 0 3px rgba(0,0,0,0.4);}
+
+.permalink_button{
+   
+   background-color:rgba(255,255,255,0.7);border:1px solid rgba(255,255,255,0.5);color:#888;padding:2px 5px;-webkit-border-radius:2px;-moz-border-radius:2px;-o-border-radius:3px;border-radius:2px;}
+.permalink_button a{
+   
+   color:#888;}
+.permalink_button a:hover{
+   
+   color:#888;}
+#permalink_button a:hover{
+   
+   color:#888;}
+
+.chat {margin-left:-40px;margin-top:0px;}
+.chat li {padding:5px;list-style-type:none;
+   
+   -o-border-radius: 3px
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   }
+.chat li:nth-child(even) {background-color:rgba(0,0,0,0.1);color:#B3B3B3;background-color:rgba(0,0,0,0.5);
+background-color:rgba(255,255,255,0.5);}
+
+.audio {width:auto;padding:5px;background-color:white;
+   opacity:0.5;
+   
+   background-color:black;opacity:0.5;
+   
+   
+   -o-border-radius: 3px
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   }
+
+#photosidebaradd{
+   margin-top: -100px;
+   margin-left: -30px;}
+
+div.padd {
+   line-height: 11px;
+   padding-top: 0px;
+   padding-left: 5px;
+   margin: 0px;}
+
+.album_art {
+    
+    
+    min-width: 250px !important;
+    
+    margin-bottom:10px;
+    
+    border-radius: 3px;
+    }
+
+.twitter{
+   padding: 10px;
+   margin-top:5px;
+   background-color: #fff;
+   width:200px;color:#B3B3B3;
+   position:fixed;
+   
+   margin-left:0px;
+   
+   
+   margin-left:0px;
+   
+   
+   
+   -o-border-radius: 3px
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   
+   background-color:rgba(255,255,255,0.5);
+   background-color:rgba(0,0,0,0.8);
+   
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+   
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+   
+   }
+.twitter:hover {color:#B3B3B3;}
+
+ul#twitter_update_list{
+    color:#B3B3B3;
+    list-style:none;
+    margin-left:-40px;
+    margin-top:5px;
+    margin-bottom:-2px;}
+ul#twitter_update_list li{
+    margin:2.5px 0;
+    padding:7px;
+   
+   -o-border-radius: 3px
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   }
+ul#twitter_update_list li:nth-child(even) {
+    
+    background-color:rgba(255,255,255,0.5);
+    
+   
+   background-color:rgba(0,0,0,0.8);
+   
+   color:#B3B3B3;
+   -webkit-transition: all 0.2s linear; 
+   -moz-transition: all 0.2s linear; 
+   transition: all 0.2s linear;}
+ul#twitter_update_list li span{
+    display:block;
+    line-height:13px;
+    color:#B3B3B3;}
+</style>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=gloverland" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="comeup,playazclub,pc4life,sunking,reallyfuckincool" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="" /><meta property="og:url" content="http://gloverland.tumblr.com/?og=1" /><meta property="og:description" content="WELCOME TO GLOVERLAND!!!!!!! My names Colin Glover, im 20, goin to college for computer science, my..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_67ca6cca7836_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=gloverland" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=gloverland" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="gloverland" /><meta name="twitter:description" content="WELCOME TO GLOVERLAND!!!!!!! My names Colin Glover, im 20, goin to college for computer science, my social security number is 24..............w8 to much info lol. but im a kool calm collective fellow......i tend to rant about random shixt but its all apart of my randomness lol.........My wife is http://mrsalfredbitchcock.tumblr.com/ so follow her........follow da blog if ya wanna get to kno meh.........#LEHGO" /><meta name="twitter:creator" content="supacolinxxx" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=gloverland&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=gloverland&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=gloverland&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+<div id="center">
+
+<div class="twitter"><a href="http://twitter.com/MrTurnUppp" class="title3">Tweets</a>
+<div class="border2"></div>
+<div id="twitter_div"><ul id="twitter_update_list"></ul></div>
+<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
+<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/MrTurnUppp.json?callback=twitterCallback2&count=6"></script></div>
+<div id="sidebar">
+<center>
+
+<a href="/"><img src="http://static.tumblr.com/ahrzihj/e5Bm3gzzw/colinlogo.png" class="portrait" width="200px" /></a><br>
+
+
+<a href="/"><h1></h1></a></center>
+<div class="description">WELCOME TO GLOVERLAND!!!!!!! My names Colin Glover, im 20, goin to college for computer science, my social security number is 24..............w8 to much info lol. but im a kool calm collective fellow......i tend to rant about random shixt but its all apart of my randomness lol.........My wife is http://mrsalfredbitchcock.tumblr.com/ so follow her........follow da blog if ya wanna get to kno meh.........#LEHGO</div>
+
+
+
+
+
+
+
+
+<a href="/archive" class="title2">Archive</a> 
+<a href="/random" class="title2">Random</a>
+
+<br>
+<center>
+Theme <a href="http://themes.themaxdavis.com/">Urban 3</a> by <a href="http://themaxdavisthemes.com/">Max Davis</a></center>
+   </div>
+
+      <div id="content">
+     <div id="posts">
+          
+	      
+
+	      
+
+
+	      
+
+
+	      
+
+
+	      
+
+	
+	      
+
+	      
+	
+	      
+	      <div id="entry">
+               <center><iframe src="//instagram.com/p/tiA_QttK57/embed/" width="250" height="290" frameborder="0" scrolling="no" allowtransparency="true"></iframe></center><br><p>Goodmornin&#8230;&#8230;.I&#8217;m weird&#8230;&#8230;</p>
+              <div class="permalink">
+<div class="border"></div>
+<a href="http://gloverland.tumblr.com/post/98722991301/goodmornin-im-weird">Posted on Monday, 29 September</a>
+<br><a href="https://www.tumblr.com/reblog/98722991301/4oJvRqEp">Reblog This Post.</a>
+</div> 
+	      </div>
+	      
+
+                
+
+              
+	  
+	      
+
+	      
+
+
+	      
+
+
+	      
+
+
+	      
+	      <div id="entry_photo">
+	        <div class="post">
+                <div id="extraonephoto">
+	          <div id="photo">
+       	        
+    	          <div id="picture">
+	            
+	          <div id="info">
+	          <div id="holder">
+	          <span id="note_count"><a href="http://gloverland.tumblr.com/post/98572642696/volleyball-sleaze"><div id="shadowphoto">0 notes</div><br></a></span>
+	          <span id="month"><div id="shadowphoto"><a href="http://gloverland.tumblr.com/post/98572642696/volleyball-sleaze">Posted on Saturday, 27 September 2014</a>.</div></span><br>
+	          </span>
+	          <center><span id="permalink_button">
+	          <a href="https://www.tumblr.com/reblog/98572642696/lMlJdyEA" target="_blank" class="permalink_button" style="display:inline;margin-right:5px;">Reblog</a>
+              <a href="http://gloverland.tumblr.com/post/98572642696/volleyball-sleaze" class="permalink_button" style="display:inline;margin-right:5px;">Permalink</a>
+</span></center>
+	      </div></div>
+	      
+	      <img src="http://33.media.tumblr.com/bba994ee45d890aea52e9a9c48c460bd/tumblr_nckt27hhBe1qf5btko1_500.jpg" alt="Volleyball Sleaze" width="270px"/>
+	      </div></div></div></div>        
+            
+            
+	        
+	      </div>         
+	      
+
+	
+	      
+
+	      
+	
+	      
+
+                
+
+              
+	  
+	      
+
+	      
+
+
+	      
+
+
+	      
+
+
+	      
+	      <div id="entry_photo">
+	        <div class="post">
+                <div id="extraonephoto">
+	          <div id="photo">
+       	        
+    	          <div id="picture">
+	            
+	          <div id="info">
+	          <div id="holder">
+	          <span id="note_count"><a href="http://gloverland.tumblr.com/post/98321549566/doitwitsleaze"><div id="shadowphoto">0 notes</div><br></a></span>
+	          <span id="month"><div id="shadowphoto"><a href="http://gloverland.tumblr.com/post/98321549566/doitwitsleaze">Posted on Wednesday, 24 September 2014</a>.</div></span><br>
+	          </span>
+	          <center><span id="permalink_button">
+	          <a href="https://www.tumblr.com/reblog/98321549566/QiuapgCh" target="_blank" class="permalink_button" style="display:inline;margin-right:5px;">Reblog</a>
+              <a href="http://gloverland.tumblr.com/post/98321549566/doitwitsleaze" class="permalink_button" style="display:inline;margin-right:5px;">Permalink</a>
+</span></center>
+	      </div></div>
+	      
+	      <img src="http://31.media.tumblr.com/0a637e1a4cf63beed7f93425e12ae9f6/tumblr_ncf49ljcYr1qf5btko1_500.jpg" alt="#DoItWitSleaze" width="270px"/>
+	      </div></div></div></div>        
+            
+            
+	        
+	      </div>         
+	      
+
+	
+	      
+
+	      
+	
+	      
+
+                
+
+              
+	  
+	      
+
+	      
+
+
+	      
+
+
+	      
+
+
+	      
+	      <div id="entry_photo">
+	        <div class="post">
+                <div id="extraonephoto">
+	          <div id="photo">
+       	        
+    	          <div id="picture">
+	            
+	          <div id="info">
+	          <div id="holder">
+	          <span id="note_count"><a href="http://gloverland.tumblr.com/post/98258131221/may-they-never-catch-the-fuck-her-right-in-the"><div id="shadowphoto">0 notes</div><br></a></span>
+	          <span id="month"><div id="shadowphoto"><a href="http://gloverland.tumblr.com/post/98258131221/may-they-never-catch-the-fuck-her-right-in-the">Posted on Tuesday, 23 September 2014</a>.</div></span><br>
+	          </span>
+	          <center><span id="permalink_button">
+	          <a href="https://www.tumblr.com/reblog/98258131221/ocq9lP0W" target="_blank" class="permalink_button" style="display:inline;margin-right:5px;">Reblog</a>
+              <a href="http://gloverland.tumblr.com/post/98258131221/may-they-never-catch-the-fuck-her-right-in-the" class="permalink_button" style="display:inline;margin-right:5px;">Permalink</a>
+</span></center>
+	      </div></div>
+	      
+	      <img src="http://38.media.tumblr.com/7e08bdbb22a52d7fb46e9c6bc8aa18da/tumblr_ncdkqi42kS1qf5btko1_500.jpg" alt="May they never catch the fuck her right in the pussy guy #TeamFuckHerRightInThePussy" width="270px"/>
+	      </div></div></div></div>        
+            
+            
+	        
+	      </div>         
+	      
+
+	
+	      
+
+	      
+	
+	      
+
+                
+
+              
+	  
+	      
+
+	      
+
+
+	      
+
+
+	      
+
+
+	      
+	      <div id="entry_photo">
+	        <div class="post">
+                <div id="extraonephoto">
+	          <div id="photo">
+       	        
+    	          <div id="picture">
+	            
+	          <div id="info">
+	          <div id="holder">
+	          <span id="note_count"><a href="http://gloverland.tumblr.com/post/98243720786/this-that-shixt-you-always-wanted"><div id="shadowphoto">0 notes</div><br></a></span>
+	          <span id="month"><div id="shadowphoto"><a href="http://gloverland.tumblr.com/post/98243720786/this-that-shixt-you-always-wanted">Posted on Tuesday, 23 September 2014</a>.</div></span><br>
+	          </span>
+	          <center><span id="permalink_button">
+	          <a href="https://www.tumblr.com/reblog/98243720786/f3ZsqdcN" target="_blank" class="permalink_button" style="display:inline;margin-right:5px;">Reblog</a>
+              <a href="http://gloverland.tumblr.com/post/98243720786/this-that-shixt-you-always-wanted" class="permalink_button" style="display:inline;margin-right:5px;">Permalink</a>
+</span></center>
+	      </div></div>
+	      
+	      <img src="http://33.media.tumblr.com/412606e35a36d6f59f047ada42cf1ac0/tumblr_ncdbm9nj6X1qf5btko1_500.jpg" alt="This that shixt you always wanted #ReallyFuckinCool" width="270px"/>
+	      </div></div></div></div>        
+            
+            
+	        
+	      </div>         
+	      
+
+	
+	      
+
+	      
+	
+	      
+
+                
+
+              
+	  
+	      
+
+	      
+
+
+	      
+
+
+	      
+
+
+	      
+
+	
+	      
+
+	      
+	
+	      
+	      <div id="entry">
+               <center><iframe src="//instagram.com/p/tBXKfgtKxO/embed/" width="250" height="290" frameborder="0" scrolling="no" allowtransparency="true"></iframe></center><br><p>One Night&#8230;&#8230;</p>
+              <div class="permalink">
+<div class="border"></div>
+<a href="http://gloverland.tumblr.com/post/97676571361/one-night">Posted on Tuesday, 16 September</a>
+<br><a href="https://www.tumblr.com/reblog/97676571361/qanZHBK9">Reblog This Post.</a>
+</div> 
+	      </div>
+	      
+
+                
+
+              
+	  
+	      
+
+	      
+
+
+	      
+
+
+	      
+
+
+	      
+	      <div id="entry_photo">
+	        <div class="post">
+                <div id="extraonephoto">
+	          <div id="photo">
+       	        
+    	          <div id="picture">
+	            
+	          <div id="info">
+	          <div id="holder">
+	          <span id="note_count"><a href="http://gloverland.tumblr.com/post/97510263441/all-day-lol"><div id="shadowphoto">0 notes</div><br></a></span>
+	          <span id="month"><div id="shadowphoto"><a href="http://gloverland.tumblr.com/post/97510263441/all-day-lol">Posted on Sunday, 14 September 2014</a>.</div></span><br>
+	          </span>
+	          <center><span id="permalink_button">
+	          <a href="https://www.tumblr.com/reblog/97510263441/cDxAWYmS" target="_blank" class="permalink_button" style="display:inline;margin-right:5px;">Reblog</a>
+              <a href="http://gloverland.tumblr.com/post/97510263441/all-day-lol" class="permalink_button" style="display:inline;margin-right:5px;">Permalink</a>
+</span></center>
+	      </div></div>
+	      
+	      <img src="http://38.media.tumblr.com/bcdcb2b0839041b154c403de8cc648d3/tumblr_nbwvlefcyy1qf5btko1_500.jpg" alt="All day lol&amp;#8230;.." width="270px"/>
+	      </div></div></div></div>        
+            
+            
+	        
+	      </div>         
+	      
+
+	
+	      
+
+	      
+	
+	      
+
+                
+
+              
+	  
+	      
+
+	      
+
+
+	      
+
+
+	      
+
+
+	      
+	      <div id="entry_photo">
+	        <div class="post">
+                <div id="extraonephoto">
+	          <div id="photo">
+       	        
+    	          <div id="picture">
+	            
+	          <div id="info">
+	          <div id="holder">
+	          <span id="note_count"><a href="http://gloverland.tumblr.com/post/97391719621/sunking"><div id="shadowphoto">0 notes</div><br></a></span>
+	          <span id="month"><div id="shadowphoto"><a href="http://gloverland.tumblr.com/post/97391719621/sunking">Posted on Saturday, 13 September 2014</a>.</div></span><br>
+	          </span>
+	          <center><span id="permalink_button">
+	          <a href="https://www.tumblr.com/reblog/97391719621/mMzet1nS" target="_blank" class="permalink_button" style="display:inline;margin-right:5px;">Reblog</a>
+              <a href="http://gloverland.tumblr.com/post/97391719621/sunking" class="permalink_button" style="display:inline;margin-right:5px;">Permalink</a>
+</span></center>
+	      </div></div>
+	      
+	      <img src="http://38.media.tumblr.com/09632dc6421f31daac02b6c4b5ded3c6/tumblr_nbulcyYoCi1qf5btko1_500.jpg" alt="#SunKing 😎" width="270px"/>
+	      </div></div></div></div>        
+            
+            
+	        
+	      </div>         
+	      
+
+	
+	      
+
+	      
+	
+	      
+
+                
+
+              
+	  
+	      
+
+	      
+
+
+	      
+
+
+	      
+
+
+	      
+
+	
+	      
+
+	      
+	
+	      
+	      <div id="entry">
+               <center><iframe src="//instagram.com/p/s0n7LbtKyQ/embed/" width="250" height="290" frameborder="0" scrolling="no" allowtransparency="true"></iframe></center><br>
+              <div class="permalink">
+<div class="border"></div>
+<a href="http://gloverland.tumblr.com/post/97252373336">Posted on Thursday, 11 September</a>
+<br><a href="https://www.tumblr.com/reblog/97252373336/TpTWSIsS">Reblog This Post.</a>
+</div> 
+	      </div>
+	      
+
+                
+
+              
+	  
+	      
+
+	      
+
+
+	      
+
+
+	      
+
+
+	      
+	      <div id="entry_photo">
+	        <div class="post">
+                <div id="extraonephoto">
+	          <div id="photo">
+       	        
+    	          <div id="picture">
+	            
+	          <div id="info">
+	          <div id="holder">
+	          <span id="note_count"><a href="http://gloverland.tumblr.com/post/97237598251/my-nigga-keyzdiddy-pc-bout-to-fuck-eardrums-up"><div id="shadowphoto">0 notes</div><br></a></span>
+	          <span id="month"><div id="shadowphoto"><a href="http://gloverland.tumblr.com/post/97237598251/my-nigga-keyzdiddy-pc-bout-to-fuck-eardrums-up">Posted on Thursday, 11 September 2014</a>.</div></span><br>
+	          </span>
+	          <center><span id="permalink_button">
+	          <a href="https://www.tumblr.com/reblog/97237598251/ZgWqQBKW" target="_blank" class="permalink_button" style="display:inline;margin-right:5px;">Reblog</a>
+              <a href="http://gloverland.tumblr.com/post/97237598251/my-nigga-keyzdiddy-pc-bout-to-fuck-eardrums-up" class="permalink_button" style="display:inline;margin-right:5px;">Permalink</a>
+</span></center>
+	      </div></div>
+	      
+	      <img src="http://33.media.tumblr.com/a0b6d257c12c0a7d6d8f91ba5a5923f6/tumblr_nbr4hsoFYK1qf5btko1_500.jpg" alt="My nigga @keyzdiddy_pc bout to fuck eardrums up wit this one #ComeUp #PlayazClub #PC4Life" width="270px"/>
+	      </div></div></div></div>        
+            
+            
+	        
+	      </div>         
+	      
+
+	
+	      
+
+	      
+	
+	      
+
+                
+
+              
+	  
+
+</div>
+</div>
+</div>
+<div id="page-nav"><a href="/page/2"></a></div>
+
+<!--Hypster Music Player-->
+<script type="text/javascript" src="http://scm.hypster.com/script.php" ><!--
+//--></script>
+<script type="text/javascript"><!--
+SCMMusicPlayer.init("{'skin':'skins/cyber/skin.css','playback':{'autostart':'true','shuffle':'true','volume':'100'},'playlist':'5168153','placement':'bottom','showplaylist':'false'}");
+//--></script>
+<!--Hypster Music Player-->
+
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://gloverland.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037891&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZ2xvdmVybGFuZC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=EMPELCCJNA&K=a9ad84b9abf2e6373c848295f9201510b78c020eae7566d4d0e2b8f0f29aabb8&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037891&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZ2xvdmVybGFuZC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=EMPELCCJNA&K=b0718457a38b3a1a113fab707cd46156ebf2bbb17251efc32639d13c7a49f97e&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037891&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2dsb3ZlcmxhbmQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5ODcyMjk5MTMwMSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODU3MjY0MjY5NiIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODMyMTU0OTU2NiIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODI1ODEzMTIyMSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODI0MzcyMDc4NiIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzY3NjU3MTM2MSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzUxMDI2MzQ0MSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzM5MTcxOTYyMSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzI1MjM3MzMzNiIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzIzNzU5ODI1MSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM31dfQ==&U=PMPMBJANBD&K=23aa3ec37a3d097ffe69e117db96824519d2dc1e4d5ceac76e33bbe7015a1006&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037891&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2dsb3ZlcmxhbmQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiI5ODcyMjk5MTMwMSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODU3MjY0MjY5NiIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODMyMTU0OTU2NiIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODI1ODEzMTIyMSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODI0MzcyMDc4NiIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzY3NjU3MTM2MSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzUxMDI2MzQ0MSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzM5MTcxOTYyMSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzI1MjM3MzMzNiIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzIzNzU5ODI1MSIsImJsb2dpZCI6IjEwMTM2ODY1Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=PMPMBJANBD&K=13a27d63fc09fdfb20107efed8d6743adbc21d5b02f616d937b538fdf2e78e53&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:10136865,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fgloverland.tumblr.com%2F&amp;lang=en_US&amp;name=gloverland&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_67ca6cca7836_64.png&amp;url=http%3A%2F%2Fgloverland.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fgloverland.tumblr.com%2F&amp;lang=en_US&amp;name=gloverland&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_67ca6cca7836_64.png&amp;url=http%3A%2F%2Fgloverland.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body></html>

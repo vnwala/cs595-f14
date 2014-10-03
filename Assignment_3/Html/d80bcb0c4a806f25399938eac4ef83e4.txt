@@ -1,0 +1,546 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head id="ctl00_Head1"><title>
+	Luca Forzin Twitter / Instagram
+</title><meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+<script type="text/javascript">
+
+    (function(e,t,n,r){_errs=[r];var i=e.onerror;e.onerror=function(){var e=arguments;_errs.push(e);i&&i.apply(this,e)};var s=function(){window.$$error=true;var e=t.createElement(n),i=t.getElementsByTagName(n)[0];e.src="//beacon.errorception.com/"+r+".js";e.async=!0;i.parentNode.insertBefore(e,i)};e.addEventListener?e.addEventListener("load",s,!1):e.attachEvent("onload",s)
+    })(window,document,"script","522e0e3d238d18034c001758");
+ 
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-11158380-3', 'twiends.com');
+    ga('set', 'dimension1', 'guest');
+    ga('send', 'pageview');
+
+    Date.now = Date.now || function () { return +new Date; };
+    if (top != self) top.location = location;
+
+    $$up = false;
+    $$loggedin = false;
+    $$st = Date.now();
+    
+    function $$log(d) {
+        if (window.console) {
+            if (console.log) {
+                var t = Date.now() - $$st; console.log(t, d);
+            }
+        }
+    };
+    
+    function $$async(u) {
+        $$log('fetch:' + u);
+        if (u.indexOf('.js') !== -1) {
+            var d = document, t = 'script';
+            var s = d.getElementsByTagName(t)[0];
+            var a = d.createElement(t); a.src = u; a.async = true; a.type = 'text/java' + t;
+            s.parentNode.insertBefore(a, s);
+        }
+        else {
+            var a = new Image();
+            a.src = "http://cdn4.twiends.com/images/" + u;
+        }
+    };
+
+    function $$crash() {
+        var g = document.getElementById('AppLoading'); 
+        if (g) { 
+            g.style.display = 'block'; 
+            g.innerHTML = "Well this is emabarrasing, this page failed to load correctly. Please reload it..."; 
+        }
+    };
+
+    $$log('parsing start');
+
+    if (document.images) {
+        $$async('noise.png');
+        $$async('packs/menu.png');
+        $$async('footer.png');
+        $$async('packs/sharing.png');      
+    }
+    
+    
+    $$ = {        
+        ready: function (f) { 
+            $$crash();
+        }
+    };
+    
+</script>
+
+<link href='http://cdn5.twiends.com/ver/107/final.min.css' rel='stylesheet' type='text/css' /><script src='http://cdn4.twiends.com/ver/98/final.jquery.min.js' type='text/javascript'></script><script src='http://cdn5.twiends.com/ver/107/final.app.min.js' type='text/javascript'></script><script src='http://cdn6.twiends.com/ver/98/templates.js' type='text/javascript'></script>
+
+<script type="text/javascript">
+(function () {
+                
+    
+        $$.ready(function(){ $('.sharebutton').mouseover(); });
+     
+    
+})();
+</script>
+
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" /><meta http-equiv="Cache-Control" content="no-cache" /><meta http-equiv="Pragma" content="no-cache" /><meta http-equiv="expires" content="FRI, 13 APR 1999 01:00:00 GMT" /><meta name="verify-v1" content="dHsQUaX1Nr3FRe5U9CIO8CQ6W//JKV8Lml2FvQlbp5c=" /><meta name="google-site-verification" content="E_WJip_068dIkro0LLD_lfB9JoM5RyXd-xLCoKjkR1g" /><meta name="google-site-verification" content="GkjJHsz7MDcwG1q0N6vaItnJqYhxc53G_J-i7C6MgXU" /><meta name="p:domain_verify" content="989e1936ad10c7fb63f9bac08139f107" /><meta property="fb:admins" content="632586362" /><link rel='shortcut icon' href='http://cdn4.twiends.com/favicon.ico' /><meta name='description' content='Luca Forzin Twitter / Instagram. View their profile on Twiends, the leading free directory of twitter & instagram users, celebrities, and twitter followers.' /><meta property='og:title' content='Luca Forzin Twitter / Instagram' /><meta property='og:type' content='article' /><meta property='og:url' content='http://twiends.com/luca_forzin' /><meta property='og:image' content='http://twiends.com/images/logoblock.png' /><meta property='og:site_name' content='Twiends' /><meta property='og:description' content='Luca Forzin Twitter / Instagram. View their profile on Twiends, the leading free directory of twitter & instagram users, celebrities, and twitter followers.' />
+
+<script type="text/javascript">
+// stub
+    $ce = { div: 'masonary', tile: '.tile', blanker: function (c) { document.getElementById($ce.div).className = c; } }
+$ceup = false;
+</script>
+<script type="text/javascript" src="http://cdn6.twiends.com/ver/15/final.masonry.min.js"></script>
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js" data-pin-hover="true"></script>
+<script type="text/javascript" language="javascript">
+
+    
+        (function () {       
+
+            
+
+            $$.ready(function () {
+
+                $$.wall.init('Luca Forzin', '2852027', '0', 'all', '9/13/2014 12:11:57 PM', '9/13/2014 4:27:00 AM');
+
+                $(".picture.loading img").each(function () {
+                    if (this.complete && this.src!="") $(this).load();
+                });
+
+                
+                        $$.wall.refresh(120);                          
+                    
+            });
+                        
+
+        })();
+      
+</script>
+</head>
+
+<body id="ctl00_body" style="background: #f7f7f7 url(http://cdn4.twiends.com/images/noise.png) repeat;">
+<form name="aspnetForm" method="post" action="/luca_forzin" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEzNzk4NzcxMjNkZAYNp+tiucCw/wL8ccZSWbfr5lMg" />
+
+ <div id="BodyContainer">
+  <div id="Main" class="clearfix">
+   
+
+<div class="menu">
+<div class="padLR clear">
+
+
+<div class="bar">
+<div id="DropMenu" class="user" onclick="if($$up)$$.menu.more()" style="position:relative;" title="More menu options">
+<span class="usertxt">&#x25BE; Menu</span>
+<span class="nopic">&nbsp;</span>
+</div>
+<a class="mpack logo" href="/"></a>
+<a class="item " href="/">
+<span class="txt">Home</span>
+</a>
+<a class="item change600 " href="/all">
+<span class="txt">Browse</span>
+</a>
+<a class="item change600 " href="/seeds">
+<span class="txt">Promote</span>
+</a>
+<a class="item change800 " href="/help">
+<span class="txt">Help</span>
+</a>
+<a class="item change600 " href="/login">
+<span class="txt">Login</span>
+</a>
+
+</div>
+
+<div id="MenuMore" class="dropmenu">
+ <div class="aa">
+  <a class="dropitem " href="/">Home</a>
+  <a class="dropitem " href="/browse">Browse</a>
+  <a class="dropitem " href="/seeds">VIP</a>  
+ </div>
+ <div class="bb">
+
+   <a class="dropitem " href="/help">Help</a>
+   <a class="dropitem " href="/login">Login</a>
+ </div>
+</div>
+
+
+
+</div>
+</div>
+
+<div id="SiteMessage" class="wallRibbon fixed txtGrey" style="display:none;z-index:20;">
+<span class="text"></span>
+<a id="SiteMessageMore" class='link' href=''></a>
+<i class='link' onclick="if($$up)$$.msg.hide()">close</i>
+</div>
+
+
+    <noscript>
+    <div class="showstopper">
+     In order to use twiends you'll need to enable JavaScript -
+     <a href="http://www.enable-javascript.com/" target="_blank">more info</a>.
+    </div>
+    </noscript>
+    <div id="NoMediaQueries" class="showstopper">
+     Please upgrade your browser to make full use of twiends. &nbsp;
+        <a href="//google.com/chrome" target="_blank">chrome</a> &nbsp;
+        <a href="//mozilla.org/firefox" target="_blank">firefox</a> &nbsp;
+        <a href="//windows.microsoft.com/en-US/internet-explorer/download-ie" target="_blank">ie</a> &nbsp;
+         <a href="//apple.com/safari/" target="_blank">safari</a> &nbsp;
+    </div>
+    <div id="AppLoading">      
+    </div>
+    
+
+
+       
+            <div id="wall" class="padUpMedium bigscreen" style="overflow:hidden;" itemscope itemtype='http://schema.org/Person'>    
+               
+
+                              
+                <div>
+
+
+                                       
+                          <a class='scratchpad blue' href="http://twiends.com/oauth/twitter">
+                                                                <img src="http://cdn6.twiends.com/images/icons/bird_white_15.png" style="vertical-align: top;" />
+                                                                Create your own wall, sign in free!
+                                                             </a>     
+                        
+                    <div class="wall_title">                                                                            
+                        <div class='namepic'> <img class='thumb' src='http:&#x2F;&#x2F;cdn5.twiends.com&#x2F;uploads&#x2F;thumbs&#x2F;http3a2f2fpbs.twimg.com2fprofile_images2f15278486752fIMG_0323_normal.jpg.jpg' itemprop='image'/> <span class='personname'> <span itemprop='name'>Luca Forzin</span>   <img class='flag' src='http://cdn6.twiends.com/images/flags/105.gif' title='Italy'/>   </span> </div>
+                    </div>
+
+                    <div class="details">               
+
+
+                        <a href='https:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin' target='_blank' class='bt tagged'> <img src='http://cdn6.twiends.com/images/icons/twitter_white_tag.png' /> </a><a href='http:&#x2F;&#x2F;instagram.com&#x2F;thanos81' target='_blank' class='bt tagged'> <img src='http://cdn6.twiends.com/images/icons/instagram_white_tag.png' /> </a><a href='&#x2F;all&#x2F;music' class='bt tagged'>music</a><a href='&#x2F;all&#x2F;taylorswift' class='bt tagged'>taylorswift</a><a href='&#x2F;all&#x2F;dogs' class='bt tagged'>dogs</a><a href='&#x2F;all&#x2F;photography' class='bt tagged'>photography</a><a href='&#x2F;all&#x2F;computers' class='bt tagged'>computers</a>
+
+                            <span class="followers">
+                                10,691 followers
+                            </span> 
+                        
+                        
+                                  
+
+                        <div id="Filters" class="filters">
+                            
+                            
+                                        <a id="Filter_all" href="&#x2F;luca_forzin/all" onclick="if($$up) return $$.wall.changeOptions('All',this)" class='uline selected' style="margin-left:0;">All</a>                        
+                                        <a id="Filter_photos" href="&#x2F;luca_forzin/photos" onclick="if($$up) return $$.wall.changeOptions('Photos',this)" class='uline '>Photos</a>
+                                    
+                                        <a id="Filter_twitter" href="&#x2F;luca_forzin/twitter" onclick="if($$up) return $$.wall.changeOptions('Twitter',this)" class='uline '>Twitter</a>
+                                    
+                                        <a id="Filter_instagram" href="&#x2F;luca_forzin/instagram" onclick="if($$up) return $$.wall.changeOptions('Instagram',this)" class='uline '>Instagram</a>
+                                       
+                         
+                        </div>
+
+                        <br class="fix" />
+                    </div>                                     
+                </div> 
+
+
+                <div id="EmptyMessage" class="indent_message txtInset" style='display:none;'>
+                    This page has no updates
+                </div>
+      
+                
+
+                
+                <div id="preload" class="loading" style="">
+                    <div id="masonary"> 
+
+                        <div class="tile" style="width:300px;">                                                                                
+                            
+
+<div id="Social" class="social-box ">    
+          
+<a class="sharesquare twit active" href="https://twitter.com/intent/tweet?text=Check+out+this+cool+page+for+Luca+Forzin&url=http%3a%2f%2ftwiends.com%2fluca_forzin&via=twiends&related=twiends" 
+    onclick="if($$up)return $$.social.open(this,'550','260','twitter','share','&#x2F;luca_forzin');" onmouseover="if($$up)$$.social.over(this)">share         
+</a>   
+
+<a class="sharesquare fb" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftwiends.com%2fluca_forzin" 
+    onclick="if($$up)return $$.social.open(this,'600','470','facebook','share','&#x2F;luca_forzin')" onmouseover="if($$up)$$.social.over(this)">share          
+</a>         
+
+<a class="sharesquare linkd" href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2ftwiends.com%2fluca_forzin&title=Luca+Forzin+Twitter+%2f+Instagram&summary=Check+out+this+cool+page+for+Luca+Forzin&source=twiends" 
+    onclick="if($$up)return $$.social.open(this,'550','500','linkedin','share','&#x2F;luca_forzin')" onmouseover="if($$up)$$.social.over(this)">share          
+</a>
+
+<a class="sharesquare goog" href="https://plus.google.com/share?url=http%3a%2f%2ftwiends.com%2fluca_forzin" 
+    onclick="if($$up)return $$.social.open(this,'550','570','google','share','&#x2F;luca_forzin')" onmouseover="if($$up)$$.social.over(this)">share         
+</a>      
+
+</div>
+
+
+
+   
+                          
+                            
+
+
+
+    <div id="BannerLanding" class="creditDisplay hidemobile" style="margin-bottom: 15px;">
+		
+
+
+        <div class="LL copy black creditsRemaining promo" onclick="window.location = '/';">
+            Want to Grow Your Twitter Following, Free? 
+     
+            <div style="padding-top:10px;">
+                <a href="/">Watch Our Video!</a>
+            </div> 
+
+        </div>
+        
+	</div>
+
+
+
+
+
+                            
+                                            <div class="contentUpdate" style="">
+                                                <div style="color: #b6c2c4;font-size: 12px;margin-bottom: 6px;">Popular</div>
+                                                <a id='pop2563207' class='userpluscount style2' href='&#x2F;mtvhive'><img class='pic' src='http:&#x2F;&#x2F;cdn5.twiends.com&#x2F;uploads&#x2F;thumbs&#x2F;http3a2f2fpbs.twimg.com2fprofile_images2f3788000006743632372f5388b7f951327fe05fe6d1e5028ad312_normal.jpeg.jpg' /> MTV Artists <span class='followers' title='number of followers'>280,285</span></a><a id='pop2931678' class='userpluscount style2' href='&#x2F;johndeandrade'><img class='pic' src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;475390438984388608&#x2F;lgeEU0Fv_normal.jpeg' /> John de Andrade <span class='followers' title='number of followers'>210,320</span></a><a id='pop3185636' class='userpluscount style2' href='&#x2F;huseinidol8'><img class='pic' src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;506556974733856769&#x2F;_SheI567_normal.jpeg' /> Husein Al atas <span class='followers' title='number of followers'>128,417</span></a>
+                                            </div>
+                                        
+                        
+                        </div>  
+
+                        <div id='s1-510762806883680256' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=2230560153' class='name' target='_blank' rel='nofollow'> <img src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;510436544285380608&#x2F;J_W8v7Xg_normal.jpeg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=2230560153' class='name' target='_blank' rel='nofollow'>طيف</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=2230560153' class='username' target='_blank' rel='nofollow'>@_taufGh</a> </div>    <a id='s1-510762806883680256-pic' href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510762806883680256' class='picture' target='_blank' rel='nofollow' style='height:413px;'> <img src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;media&#x2F;BxaXVPzCEAAqnny.jpg:small'/> </a>   <div class='text'><a href='http://t.co/fF9joqKkNX' target='_blank' rel='nofollow'>swiftpic.me/tw</a> <a href='http://t.co/19khcukdFr' target='_blank' rel='nofollow'>pic.twitter.com/19khcukdFr</a></div>  <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='retweeted' target='_blank' rel='nofollow'> Retweeted by Luca Forzin</a>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510762806883680256' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510762806883680256' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510762806883680256' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510762806883680256' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510758830754766848' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Kelly Brook’s given her most revealing interview yet, speaking to the Mail about her cheating ex Danny Cipriani,... <a href='http://t.co/ShwUGLxAmj' target='_blank' rel='nofollow'>ift.tt/1sIpBfW</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510758830754766848' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510758830754766848' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510758830754766848' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510758830754766848' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510757294179901440' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Mockingjay's Natalie Dormer Brings Her Yoga Mat Everywhere <a href='http://t.co/rFXCWdpwHi' target='_blank' rel='nofollow'>ift.tt/1AJuGVP</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510757294179901440' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510757294179901440' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510757294179901440' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510757294179901440' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510755568521601024' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Pair performed together as the On The Run tour reaches France <a href='http://t.co/PNlp7cKImj' target='_blank' rel='nofollow'>ift.tt/1qRI3kk</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510755568521601024' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510755568521601024' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510755568521601024' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510755568521601024' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510754274020978688' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Hayden Christensen Premieres 'American Heist' in Toronto 
+Hayden Christensen sure is able to make us swoon while... <a href='http://t.co/3Xg185N4ah' target='_blank' rel='nofollow'>ift.tt/1rYzfqw</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510754274020978688' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510754274020978688' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510754274020978688' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510754274020978688' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510750794992594944' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Kelly Brook has wasted time on “stupid boys”.
+
+<a href='http://t.co/4XMv1fZW7d' target='_blank' rel='nofollow'>ift.tt/16S7MNu</a>
+
+<a href='http://t.co/6S2sxUgQos' target='_blank' rel='nofollow'>ift.tt/1oG8ciQ</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510750794992594944' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510750794992594944' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510750794992594944' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510750794992594944' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510750790626320384' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Kim Kardashian West and Kanye West are taking private yoga classes naked.
+
+<a href='http://t.co/4XMv1fZW7d' target='_blank' rel='nofollow'>ift.tt/16S7MNu</a>
+
+<a href='http://t.co/tc0lr8qRNN' target='_blank' rel='nofollow'>ift.tt/1qvBZjF</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510750790626320384' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510750790626320384' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510750790626320384' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510750790626320384' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510750786440425472' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Jay Z has been “going all out to treat” his wife Beyonce during their weekend in Paris.
+
+<a href='http://t.co/4XMv1fZW7d' target='_blank' rel='nofollow'>ift.tt/16S7MNu</a>
+
+<a href='http://t.co/1tPrARnNC4' target='_blank' rel='nofollow'>ift.tt/1oG8aqY</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510750786440425472' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510750786440425472' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510750786440425472' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510750786440425472' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510750782057349121' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Jessie J ‘Photoshopped’ her cellulite.
+
+<a href='http://t.co/4XMv1fZW7d' target='_blank' rel='nofollow'>ift.tt/16S7MNu</a>
+
+<a href='http://t.co/7a211rCFLE' target='_blank' rel='nofollow'>ift.tt/1oG8c2e</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510750782057349121' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510750782057349121' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510750782057349121' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510750782057349121' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510750774675398656' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>SHE WAS famed for her fantastic figure during her Baywatch days, in which she showcased her enviable curves in a... <a href='http://t.co/7xzr5CMHbN' target='_blank' rel='nofollow'>ift.tt/1AJpOQy</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510750774675398656' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510750774675398656' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510750774675398656' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510750774675398656' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510740114356858880' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Band pay tribute to "brilliant, skilful and charismatic" member <a href='http://t.co/792usgaMuK' target='_blank' rel='nofollow'>ift.tt/YFIHbv</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510740114356858880' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510740114356858880' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510740114356858880' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510740114356858880' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510740112028999680' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Band reveal blood-spattered new visuals for '.5: The Gray Chapter' song <a href='http://t.co/wuRYFXy5Az' target='_blank' rel='nofollow'>ift.tt/YFIHbs</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510740112028999680' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510740112028999680' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510740112028999680' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510740112028999680' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510738702545719296' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>January Jones Gets Her Sugar Fix with a Donut! <a href='http://t.co/PLjhQVA3Nr' target='_blank' rel='nofollow'>ift.tt/1qvujy4</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510738702545719296' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510738702545719296' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510738702545719296' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510738702545719296' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510730829484785665' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Kim Kardashian is supposedly “not the same person” after marrying Kanye West in May.
+
+<a href='http://t.co/AIFxHGVnE8' target='_blank' rel='nofollow'>ift.tt/11m2Ou6</a>
+
+<a href='http://t.co/sCqT1bJGQr' target='_blank' rel='nofollow'>ift.tt/YFF4T4</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510730829484785665' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510730829484785665' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510730829484785665' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510730829484785665' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510730824367734785' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Britain’s Prince Harry is thought to be getting close to a long-term friend, but is still dating Camilla Thurlow.
+
+<a href='http://t.co/CUTuEuVJLI' target='_blank' rel='nofollow'>ift.tt/YFF4SY</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510730824367734785' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510730824367734785' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510730824367734785' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510730824367734785' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510730821846978561' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Lenny Kravitz likes to be surrounded by funny people and knows how lucky he is to have a great family.
+
+... <a href='http://t.co/S7Bo88jUkz' target='_blank' rel='nofollow'>ift.tt/1pZUt5C</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510730821846978561' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510730821846978561' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510730821846978561' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510730821846978561' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510730818407661568' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>CORONATION Street star Jack P Shepherd has apologised after he made a joke about the dogs’ home fire in Manchest... <a href='http://t.co/5nmp3a7L9F' target='_blank' rel='nofollow'>ift.tt/YFF4SS</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510730818407661568' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510730818407661568' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510730818407661568' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510730818407661568' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510730813919727616' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>LOUIS Smith is at the centre of a sex tape storm after video of him performing a solo sex act was sold to a cele... <a href='http://t.co/XDsZiz7UQk' target='_blank' rel='nofollow'>ift.tt/1pZUre7</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510730813919727616' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510730813919727616' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510730813919727616' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510730813919727616' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510730808777515008' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Tumble will never be the same again (Picture: Getty)
+A solo sex tape of Tumble judge and Olympic medalist Louis ... <a href='http://t.co/HGSUxjpcZA' target='_blank' rel='nofollow'>ift.tt/1pZUsyR</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510730808777515008' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510730808777515008' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510730808777515008' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510730808777515008' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510725182936600576' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Singer will now play three times at O2 Academy Brixton [link removed]</div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510725182936600576' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510725182936600576' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510725182936600576' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510725182936600576' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510725179912507392' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>'Would You Fight For My Love?' is the new single from solo album 'Lazaretto' [link removed]</div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510725179912507392' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510725179912507392' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510725179912507392' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510725179912507392' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510725176842285056' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Bugg's email was found by Don McLean's website manager <a href='http://t.co/rZ1IUvJfG9' target='_blank' rel='nofollow'>ift.tt/1BAHKz4</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510725176842285056' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510725176842285056' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510725176842285056' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510725176842285056' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510725174883516416' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>The album will be released on November 3 <a href='http://t.co/7sC1lO6uBY' target='_blank' rel='nofollow'>ift.tt/1pZR9rr</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510725174883516416' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510725174883516416' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510725174883516416' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510725174883516416' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510725173256146944' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Short video filmed at the New York Metropolitan Opera House <a href='http://t.co/Y7U5qvdzZ0' target='_blank' rel='nofollow'>ift.tt/1D3m28s</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510725173256146944' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510725173256146944' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510725173256146944' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510725173256146944' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510725003214868480' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Di Grassi wins inaugural race after last corner drama <a href='http://t.co/Qh1e4GmoiV' target='_blank' rel='nofollow'>ift.tt/1qLTDOY</a> Lucas di Grassi won Formula E's inaugural race in Beijing ...</div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510725003214868480' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510725003214868480' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510725003214868480' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510725003214868480' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510721039073308672' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Milla Jovovich Craves Fastfood Giant McDonald's During Pregnancy <a href='http://t.co/xVShS9Kiho' target='_blank' rel='nofollow'>ift.tt/XbBcI0</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510721039073308672' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510721039073308672' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510721039073308672' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510721039073308672' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510719127225655296' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=2464881747' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;509754053698801664&#x2F;oeELB7BH_normal.jpeg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=2464881747' class='name' target='_blank' rel='nofollow'>♡</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=2464881747' class='username' target='_blank' rel='nofollow'>@_fleurrrx_</a> </div>   <div class='text'>En toen stuurde swiftpic naar iedereen fucking domme snaps😁😏</div>  <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='retweeted' target='_blank' rel='nofollow'> Retweeted by Luca Forzin</a>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510719127225655296' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510719127225655296' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510719127225655296' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510719127225655296' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510717618756812801' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Jessica Simpson’s husband has convinced her to have another baby.
+
+<a href='http://t.co/4XMv1fZW7d' target='_blank' rel='nofollow'>ift.tt/16S7MNu</a>
+
+<a href='http://t.co/sNP5cAwySK' target='_blank' rel='nofollow'>ift.tt/1m2u4t5</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510717618756812801' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510717618756812801' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510717618756812801' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510717618756812801' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510717614893826049' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Mila Kunis is considering a home birth.
+
+<a href='http://t.co/4XMv1fZW7d' target='_blank' rel='nofollow'>ift.tt/16S7MNu</a>
+
+<a href='http://t.co/l8D3VBKaLd' target='_blank' rel='nofollow'>ift.tt/1pZNkCA</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510717614893826049' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510717614893826049' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510717614893826049' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510717614893826049' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510717608677883904' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Scarlett Johansson flew back to New York City to give birth to her daughter.
+
+<a href='http://t.co/4XMv1fZW7d' target='_blank' rel='nofollow'>ift.tt/16S7MNu</a>
+
+<a href='http://t.co/CwtNttyOoy' target='_blank' rel='nofollow'>ift.tt/1pZNjhZ</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510717608677883904' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510717608677883904' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510717608677883904' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510717608677883904' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510706223734591488' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Grab a bean bag and some Funyuns and trip out on all these lava lamp looks — if you’re feeling extra adventurous... <a href='http://t.co/LaWIfYE23s' target='_blank' rel='nofollow'>ift.tt/1D3aG4x</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510706223734591488' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510706223734591488' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510706223734591488' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510706223734591488' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510706221209632768' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Bravo reality star Geneva S. Thomas got nailed in an alleged ride ‘n dash … after cops say she skipped out on an... <a href='http://t.co/So87HhA4hh' target='_blank' rel='nofollow'>ift.tt/1D3aH8u</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510706221209632768' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510706221209632768' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510706221209632768' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510706221209632768' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510706219020201984' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>UFC badass Lyoto Machida is about to get to the bottom of a mystery — a bottom mystery — ’cause the pro face bre... <a href='http://t.co/BVuVwuHtVt' target='_blank' rel='nofollow'>ift.tt/1pZH7X6</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510706219020201984' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510706219020201984' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510706219020201984' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510706219020201984' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510706216553938944' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Here’s the 60-year-old John Travolta showing off his freshly sprouted mane and matching chin gristle at a movie ... <a href='http://t.co/DYZXY8pJ0f' target='_blank' rel='nofollow'>ift.tt/1pZH7GL</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510706216553938944' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510706216553938944' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510706216553938944' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510706216553938944' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510706214234521600' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Mo’Nique just joined an even smaller club than than the Academy Award winners group she already belongs to … peo... <a href='http://t.co/OCDiO1j3bV' target='_blank' rel='nofollow'>ift.tt/1pZH7GB</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510706214234521600' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510706214234521600' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510706214234521600' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510706214234521600' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510706210010828800' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Paris Hilton’s family is breaking bad — if you believe a Costa Rican newspaper … which reported cops had seized ... <a href='http://t.co/4vLCJQwBZy' target='_blank' rel='nofollow'>ift.tt/1pZH9OE</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510706210010828800' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510706210010828800' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510706210010828800' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510706210010828800' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510706207104188416' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>One on of the head writers for “Orange is the New Black” has filed for divorce … the logical step since she’s no... <a href='http://t.co/bPAO2Pl9TO' target='_blank' rel='nofollow'>ift.tt/1D3aGRR</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510706207104188416' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510706207104188416' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510706207104188416' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510706207104188416' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510706204776366080' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>The Ray Rice elevator video resonated about as big as anything in TMZ’s 9-year history. So we gotta ask …
+
+WWW.T... <a href='http://t.co/9qgwwxs7bt' target='_blank' rel='nofollow'>ift.tt/1pZH9yk</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510706204776366080' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510706204776366080' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510706204776366080' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510706204776366080' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510706202087817216' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Ray Rice’s criminal case was handled “outrageously” and “shamefully” … this according to numerous prosecutors in... <a href='http://t.co/x6hrEIBaFb' target='_blank' rel='nofollow'>ift.tt/1D3aGBx</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510706202087817216' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510706202087817216' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510706202087817216' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510706202087817216' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510706199730585602' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Plebs star Ryan Sampson has revealed his grandparents watch the show on mute because they find it so offensive.
+... <a href='http://t.co/MpUJJpB9xn' target='_blank' rel='nofollow'>ift.tt/1D3aFNY</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510706199730585602' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510706199730585602' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510706199730585602' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510706199730585602' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510706193808232449' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Tim Wonnacott has admitted even he can’t put a price on the experience of taking part in Strictly Come Dancing.
+... <a href='http://t.co/zKhxxTux6T' target='_blank' rel='nofollow'>ift.tt/1D3aFNT</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510706193808232449' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510706193808232449' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510706193808232449' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510706193808232449' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510704955276394496' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Kellan Lutz Takes a Scenic Bike Ride Around Venice Beach <a href='http://t.co/NP0waFWrET' target='_blank' rel='nofollow'>ift.tt/YFtqHG</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510704955276394496' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510704955276394496' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510704955276394496' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510704955276394496' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510677650005057536' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Brenda Song Nails Sporty Chic During Lunch in Studio City 
+Brenda Song goes casual in her Converse kicks for lun... <a href='http://t.co/w4XkB2c3zA' target='_blank' rel='nofollow'>ift.tt/1quSQDb</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510677650005057536' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510677650005057536' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510677650005057536' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510677650005057536' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510674151192137728' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Nicki Minajâ€™s Former High School Not Letting Her Return to Speak to Students
+
+Looks like the students at Fiore... <a href='http://t.co/prQdR32uSt' target='_blank' rel='nofollow'>ift.tt/WWpDnF</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510674151192137728' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510674151192137728' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510674151192137728' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510674151192137728' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510665181584982016' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Ariana Grande Is Enchanted By Chris Brown in 'Don’t Be Gone Too Long' Music Video-Watch Now! 
+Check out Ariana G... <a href='http://t.co/KjBqFZIgQz' target='_blank' rel='nofollow'>ift.tt/1qQael8</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510665181584982016' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510665181584982016' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510665181584982016' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510665181584982016' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510664369026629632' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Chris Brown &amp; Ariana Grande Are Enchanted Lovers In 'Don’t Be Gone Too Long' Music Video-Watch Now! <a href='http://t.co/G8TmPKt3I7' target='_blank' rel='nofollow'>ift.tt/1AIGbwG</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510664369026629632' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510664369026629632' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510664369026629632' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510664369026629632' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510651976699625472' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Pregnant Mila Kunis &amp; Fiance Ashton Kutcher Satisfy Her Cravings at SunCafe <a href='http://t.co/xHoFpIAKhL' target='_blank' rel='nofollow'>ift.tt/WW8YAp</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510651976699625472' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510651976699625472' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510651976699625472' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510651976699625472' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510649062668775424' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>Miss Teen USA K. Lee Graham Walks Runway For New York Fashion Week 
+Miss Teen USA K. Lee Graham struts her stuff... <a href='http://t.co/Kon58G4J0o' target='_blank' rel='nofollow'>ift.tt/1tKL59S</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510649062668775424' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510649062668775424' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510649062668775424' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510649062668775424' title='Favorite this tweet'></a>  </span> </div> </div><div id='s1-510645799844610048' class='contentUpdate tile' style='width:275px;'>  <div class='topNames'> <a class='thumb' href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'> <img waiting-src='http:&#x2F;&#x2F;pbs.twimg.com&#x2F;profile_images&#x2F;1527848675&#x2F;IMG_0323_normal.jpg' /> </a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='name' target='_blank' rel='nofollow'>Luca Forzin</a> <a href='https:&#x2F;&#x2F;twitter.com&#x2F;intent&#x2F;user?user_id=218569600' class='username' target='_blank' rel='nofollow'>@Luca_Forzin</a> </div>   <div class='text'>An editor’s take on favorite films – and performances that just could go all the way
+
+<a href='http://t.co/Z3D2jQRMhi' target='_blank' rel='nofollow'>people.com</a>
+
+<a href='http://t.co/HdUp29rf7F' target='_blank' rel='nofollow'>ift.tt/1sFHT1j</a></div>  <div class='foot'> <a href='http:&#x2F;&#x2F;twitter.com' class='icon twitter' target='_blank' rel='nofollow'>&nbsp;</a> <a href='http:&#x2F;&#x2F;twitter.com&#x2F;Luca_Forzin&#x2F;status&#x2F;510645799844610048' class='time' target='_blank' rel='nofollow'>13 Sep</a> <span class='actions'>  <a class='icon reply hid' href='https://twitter.com/intent/tweet?in_reply_to=510645799844610048' title='Reply to this tweet'></a> <a class='icon retweet hid' href='https://twitter.com/intent/retweet?tweet_id=510645799844610048' title='Retweet this'></a> <a class='icon fav hid' href='https://twitter.com/intent/favorite?tweet_id=510645799844610048' title='Favorite this tweet'></a>  </span> </div> </div>
+                                    <div id="BSA_Extra_Tile" class="tile" style="height:265px;">
+                                        
+
+
+
+
+<div id="BSA" class="waiting">
+    <div id="bsap_1288312" style="margin: 0 0 0 1px;" class="bsarocks bsap_c6314b2d84fc35f906c3ed96071d5035"></div>
+</div>
+
+<script type="text/javascript">
+    (function () {
+        //$$async('//s3.buysellads.com/ac/bsa.js');
+    })();
+</script>
+
+
+
+
+
+                                    </div>
+                                
+                    </div>
+                </div>
+
+                <script type="text/javascript" language="javascript">
+                    (function () {                      
+                        if (window.$ce) $ce.blanker("blanked");                                                
+                    })();
+                                    
+                                
+                </script>
+            </div>   
+
+        
+        
+   <div class="middle">
+    
+    
+    <div class="content"> 
+        
+        
+    </div>
+    <div class="side"> 
+        
+        
+    </div>
+   </div>  
+  </div>
+ </div>
+
+ <div class="footer">
+  <div class="inner">
+   <ul>
+
+    
+    <li><a href="/recent">Recent</a></li>
+    <li id="Footethics"><a href="/ethics">Ethics</a></li>
+    <li><a href="/rules">Rules</a></li>
+    <li><a href="/privacy">Privacy</a></li>
+    <li><a href="/cookies">Cookies</a></li>
+    <li><a href="/terms">Terms</a></li>
+    <li><a href="/help">Help</a></li>
+    <li><a href="/support" style="margin-right:0;">Support</a></li>      
+       
+     
+    
+   </ul>
+   <div class="disclaimers">   
+       <p>Twiends uses the Instagram&trade; API and Twitter&trade; API and is not endorsed or certified by Instagram or Twitter. 
+        All Instagram&trade; and Twitter&trade; logos and trademarks displayed on twiends are property of Instagram and Twitter respectively.</p>
+   </div>
+
+
+  </div>
+ </div>
+
+<div id="popupmask"></div> 
+<div id="popupparent">
+  
+  <div id="description" class="popup">
+    <h1>What is twiends</h1>
+    <p>Luca Forzin Twitter &#x2F; Instagram. View their profile on Twiends, the leading free directory of twitter &amp; instagram users, celebrities, and twitter followers. </p>     
+  </div>
+
+
+  <div id="whatistwiends" class="popup">
+   <h1>What is twiends</h1>
+    <p>We're a twitter community that allows you to get twitter followers. Using seeds you can get free followers on twitter simply by listing yourself here.
+    You should not buy twitter followers, as this is not permitted, but rather promote your twitter account safely and ethically using our directory.
+    Buying followers is a bad idea, as it will only expose you to a large number of fake accounts.</p>      
+    <a href="/crawling_control">&nbsp;</a>    
+  </div>
+
+
+
+
+    <div id="AuthModal" class="popup">
+     <div class="center">
+
+        <h3 style="margin-bottom:20px;display:none;" class="xx x1">Please Sign In</h3>
+        <p style="display:none;" class="xx x1">In order to view this page you need to sign into twiends using your twitter or instagram profile.
+        Please take note of the following:</p>    
+
+        <h3 style="margin-bottom:20px;display:none;" class="xx x2">Please sign into <span class="xtype"></span></h3>
+        <p style="display:none;" class="xx x2">In order to perform a <span class="xtype"></span> action you will need to first connect your <span class="xtype"></span> profile.
+        Please make sure you are logged into the correct account on <span class="xtype"></span> before connecting. Please take note of the following:</p>
+
+        <h3 style="margin-bottom:20px;display:none;" class="xx x3">We need to reconnect your <span class="xtype"></span></h3>
+        <p style="display:none;" class="xx x3">Occasionally you will need to connect to <span class="xtype"></span> in order to refresh the connection with twiends. 
+        This is also needed when you connect to <span class="xtype"></span> for the first time.
+        Please make sure you are logged into the correct account on <span class="xtype"></span> before reconnecting. Please take note of the following:</p>
+
+        <p style="color: #6A8A28;font-weight:bold;margin-bottom:21px;">We never post updates or follow others without your express permission</p>
+
+        <p>
+            <a class="twitterConnect xx xall xtwitter" style="display:none;margin: 0 10px;" href="http://twiends.com/oauth/twitter" rel='nofollow'></a>
+            <a class="instagramConnect xx xall xinstagram" style="display:none;margin: 0 10px;" href="http://twiends.com/oauth/instagram" rel='nofollow'></a>
+        </p>
+
+        <i onclick="if($$up)$$.popup.hide()">Cancel</i>
+
+     </div>
+    </div>
+
+
+<div id="mystickytooltip" class="stickytooltip">
+    <div style="padding:0px 4px 4px 4px;">
+    <div id="sticky1" class="atip" style="min-height:170px; text-align:center;">
+    <br /><br /><br /><br /><img src='//cdn5.twiends.com/images/popupload.gif' />
+    </div>
+    </div>
+    <div class="stickystatus"></div>
+</div>       
+
+</div>
+
+<div style="opacity:0;width:1px;height:1px;overflow:hidden;display:inline-block;z-index:1;">
+    
+    
+</div>
+
+
+
+</form>
+
+<div id="fb-root"></div>
+
+ 
+
+<script type="text/javascript" language="javascript">   
+(function () {
+ if (window.$ce) { if($ce.startEngine) $ce.startEngine(); }
+ if(!window.$ceup){
+  if (window.$ce) $ce.blanker("");
+  $$crash();
+ }
+})(); 
+</script>
+
+
+
+
+<script type="text/javascript" language="javascript">
+
+    $$log('parsing end');
+    $$.ready(null);    
+
+</script>
+
+</body>
+</html>
+
+
+

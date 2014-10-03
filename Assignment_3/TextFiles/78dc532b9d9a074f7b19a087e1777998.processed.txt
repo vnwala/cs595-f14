@@ -1,0 +1,418 @@
+   #[1]Meow is my name » Лента [2]Meow is my name » Лента комментариев
+
+[3]Meow is my name
+
+Такой себе бложек вебмастера и скриптера
+
+Меню
+
+   [4]Перейти к содержимому
+     * [5]Главная
+     * [6]Кто я такой
+     * [7]Мои наработки
+     * [8]Услуги
+     * [9]Что у меня есть сейчас?
+     * [10]Связаться со мной
+
+[11]0day уязвимость в приложениях для iOS: Gmail, Google+ и FB Messenger
+
+   [12]Добавить комментарий
+
+Интро
+
+   Нормальные люди проводят ночи смотря фильмы, читая статьи, общаясь в
+   социальных сетях или (да, я знаю — это странно) засыпая на кровати.
+
+   Я же провожу свои ночи читая документации и тестируя самые
+   разнообразные приложения и сервисы.
+
+   Одной ночью я просто читал [13]документацию о ссылках tel, так как я
+   был в восторге от старых технологий, которые использовались до сих пор,
+   их недостатков и того, что люди никогда не читали RFC, что и приводит
+   их к RTFM PWNAGE (как я привык это называть).
+
+   [14]Читать больше “0day уязвимость в приложениях для iOS: Gmail,
+   Google+ и FB Messenger” »
+   [15]Twitt
+   Запись опубликована [16]02.09.2014 автором [17]Alex “Meow” Novak в
+   рубрике [18]Без рубрики.
+
+[19]Пошаговая инструкция создания бота для Вконтакте
+
+   [20]Добавить комментарий
+
+   По многочисленным просьбам, которыми я был засыпан после
+   [21]предыдущего поста — рассказываю пошаговую инструкцию создания бота
+   для Вконтакте, который может отвечать человекоподобными сообщениями в
+   личных сообщениях.
+
+   [22]Читать больше “Пошаговая инструкция создания бота для Вконтакте” »
+   [23]Twitt
+   Запись опубликована [24]18.08.2014 автором [25]Alex “Meow” Novak в
+   рубрике [26]VK.COM с метками [27]бот в вк, [28]бот для вк,
+   [29]вконтакте бот говорун, [30]вконтакте создать разговорного бота,
+   [31]скачать бот для вк, [32]создать бота вк.
+
+[33]Как создать бота Вконтакте (vk.com)? Или как мой бот постепенно
+захватывает мир
+
+   [34]1 комментарий
+
+   Все мы отлично помним ICQ ботов, всяких «Болтунов», «Nekto.me» и
+   прочих, которые выжимали последние капли серой жидкости из головы во
+   время разговора с ними.
+
+   [35]Читать больше “Как создать бота Вконтакте (vk.com)? Или как мой бот
+   постепенно захватывает мир” »
+   [36]Twitt
+   Запись опубликована [37]06.08.2014 автором [38]Alex “Meow” Novak в
+   рубрике [39]VK.COM, [40]Социальные сети, [41]Текущие проекты с метками
+   [42]болтун, [43]бот вк, [44]вконтакте, [45]как создать бота,
+   [46]общалка.
+
+[47]TwiToRSS — инструмент, который позволит из вашей Twitter ленты сделать
+RSS канал
+
+   [48]Добавить комментарий
+
+[ [49]ЖМАК ]
+
+   Сделал сервис, который позволит сделать из ленты в Твиттере RSS канал.
+   Пока-что функционал немного скудноват. Все что можно делать — это
+   парсить твиты из ленты. Немного позднее добавлю возможность парсить
+   твиты из списков (Lists), Любимых твитов (Favourites) и из поиска.
+
+   Для чего его можно использовать? Например для заполнения кучи профилей
+   в Twidium Accounter ну или кросспостинга из RSS в блог (учел
+   возможность автообновления ленты каждые n-секунд).
+
+   Если нужно — сделаю все тоже самое в формате JSON ну и вообще — следите
+   за обновлениями. :)
+
+
+   [50]Twitt
+   Запись опубликована [51]17.07.2014 автором [52]Alex “Meow” Novak в
+   рубрике [53]Социальные сети, [54]Твиттер.
+
+[55]Ключ для Adobe Audition 3 (serial number)
+
+   [56]Добавить комментарий
+
+   Попробуйте использовать следующие ключи:
+
+   1135-1381-2149-2687-0272-1819
+   1137-1169-2027-9958-3365-2151
+   1137-1166-4495-7943-6946-8864
+   1137-1166-4495-7943-6946-8864
+   [57]Twitt
+   Запись опубликована [58]02.04.2014 автором [59]Alex “Meow” Novak в
+   рубрике [60]Без рубрики.
+
+[61]Ошибка «Could not reliably determine the server’s fully qualified domain
+name, using 127.0.0.1 for ServerName»
+
+   [62]Комментарии (2)
+
+   Ошибку эту решить очень просто:
+   1. Необходимо отредактировать файл /etc/apache2/httpd.conf
+   2. Впишите туда следующее ServerName localhost
+   3. Затем запустите /etc/init.d/apache2 restart
+
+   Все это нужно делать под root правами, то есть после того как войдете
+   на сервер по ssh введите su и пароль админа, либо сразу авторизуйтесь
+   под root.
+   [63]Twitt
+   Запись опубликована [64]02.04.2014 автором [65]Alex “Meow” Novak в
+   рубрике [66]Без рубрики.
+
+[67]Движок для Twitter Bootstrap
+
+   [68]Добавить комментарий
+
+   Последнее время загорелся поехавшей идеей сделать что-то необычное и
+   тем самым подтянуть познания в PHP.
+
+   Итак для приготовления блюда нам понадобится:
+   1. PHP
+   2. MySQL
+   3. Twitter Bootstrap 3.1.1
+
+   Начинаем готовить сегодня.
+   Если есть желающие — после первых наработок закину скрипт на GitHub.
+   [69]Twitt
+   Запись опубликована [70]23.02.2014 автором [71]Alex “Meow” Novak в
+   рубрике [72]Новые поступления, [73]Обновление скриптов, [74]Текущие
+   проекты.
+
+[75]Как ломать игры для Android? Или почему я так круто играю в CandyCrush?
+
+   [76]Добавить комментарий
+    1. Ну очевидно что для всего этого действа вам понадобится «root»
+       доступ. Если вы не знаете что такое «рут» и что с ним делать —
+       ждите следующих постов.
+    2. Это все, теперь вам нужно установить на свой смартфон приложение
+       [77]Freedom после нехитрых манипуляций с данным приложением —
+       покупки в приложениях будут осуществляться с помощью FreeCard.
+
+   [78]Читать больше “Как ломать игры для Android? Или почему я так круто
+   играю в CandyCrush?” »
+   [79]Twitt
+   Запись опубликована [80]03.02.2014 автором [81]Alex “Meow” Novak в
+   рубрике [82]Без рубрики.
+
+[83]Skype подсвечивает номера телефонов на сайте. Как убрать?
+
+   [84]Добавить комментарий
+
+   Бывает такое, что скайп при подсветке номеров телефонов на сайте
+   негативно влияет на верстку и что-то может «сьехать» или «поползти».
+   Чтобы принудительно отключить подобную «фишку» нужно добавить следующий
+   код в шаблон между тэгов
+   и
+
+   Вуаля! Никаких проблем!
+   [85]Twitt
+   Запись опубликована [86]03.02.2014 автором [87]Alex “Meow” Novak в
+   рубрике [88]Без рубрики.
+
+[89]Округление до десятков и сотен в большую сторону (PHP)
+
+   [90]Добавить комментарий
+
+   Все гениальное просто — для округления до десятков можно использовать
+   функции, которые уже есть в PHP по-умолчанию (ceil и round), но для
+   поставленной задачи они не совсем хорошо подходят.
+
+   Можно использовать следующий код:
+   $p = 199.99; // 199 долларов 99 центов
+   echo ceil($p/10) * 10; // 200 долларов ровно
+
+   Если сменить 10 на 100 во второй строке- скрипт будет округлять до
+   сотых.
+   [91]Twitt
+   Запись опубликована [92]02.02.2014 автором [93]Alex “Meow” Novak в
+   рубрике [94]Без рубрики.
+
+Навигация по записям
+
+   [95]← Предыдущие записи
+   Найти: ____________________ Поиск
+
+Свежие записи
+
+     * [96]0day уязвимость в приложениях для iOS: Gmail, Google+ и FB
+       Messenger
+     * [97]Пошаговая инструкция создания бота для Вконтакте
+     * [98]Как создать бота Вконтакте (vk.com)? Или как мой бот постепенно
+       захватывает мир
+     * [99]TwiToRSS — инструмент, который позволит из вашей Twitter ленты
+       сделать RSS канал
+     * [100]Ключ для Adobe Audition 3 (serial number)
+
+Следите за мной на Твиттере
+
+   Мои Твиты
+
+Свежие комментарии
+
+     * [101]Пошаговая инструкция создания бота для Вконтакте | Meow is my
+       name к записи [102]Как создать бота Вконтакте (vk.com)? Или как мой
+       бот постепенно захватывает мир
+     * [103]meow к записи [104]Ошибка BOOTMGR is missing
+     * [105]meow к записи [106]Ошибка «Could not reliably determine the
+       server’s fully qualified domain name, using 127.0.0.1 for
+       ServerName»
+     * Saboteur к записи [107]Ошибка «Could not reliably determine the
+       server’s fully qualified domain name, using 127.0.0.1 for
+       ServerName»
+     * Saboteur к записи [108]Ошибка BOOTMGR is missing
+
+Архивы
+
+     * [109]Сентябрь 2014
+     * [110]Август 2014
+     * [111]Июль 2014
+     * [112]Апрель 2014
+     * [113]Февраль 2014
+     * [114]Январь 2014
+     * [115]Декабрь 2013
+     * [116]Сентябрь 2013
+
+Рубрики
+
+     * [117]VK.COM
+     * [118]Без рубрики
+     * [119]Новые поступления
+     * [120]Обновление скриптов
+     * [121]Пулл
+     * [122]Социальные сети
+     * [123]Твиттер
+     * [124]Текущие проекты
+
+Мета
+
+     * [125]Регистрация
+     * [126]Войти
+     * [127]RSS записей
+     * [128]RSS комментариев
+     * [129]WordPress.org
+
+Подписаться на блог по эл. почте
+
+   Enter your email address to subscribe to this blog and receive
+   notifications of new posts by email.
+
+   Join 1 other subscriber
+
+   E-mail адрес___
+
+   Подписаться
+
+Счетчики
+
+   [130]Rambler's Top100
+
+Some adv
+
+   [INS: :INS]
+
+                                 [INS: :INS]
+
+   Yeah! That's what I do. Feel free to copy or edit, but use links to
+   [131]my blog
+
+   Рейтинг@Mail.ru
+
+References
+
+   1. https://mew.su/feed/
+   2. https://mew.su/comments/feed/
+   3. https://mew.su/
+   4. http://mew.su/#content
+   5. https://mew.su/
+   6. https://mew.su/kto-ya-takoj/
+   7. https://mew.su/moi-narabotki/
+   8. https://mew.su/uslugi/
+   9. https://mew.su/chto-u-menya-est-sejchas/
+  10. https://mew.su/svyazat-sya-so-mnoj/
+  11. https://mew.su/2014/09/166/
+  12. https://mew.su/2014/09/166/#respond
+  13. http://tools.ietf.org/html/rfc3966
+  14. https://mew.su/2014/09/166/#more-166
+  15. http://twitter.com/share?url=https://mew.su/2014/09/166/&text=0day уязвимость в приложениях для iOS: Gmail, Google+ и FB Messenger
+  16. https://mew.su/2014/09/166/
+  17. https://mew.su/author/meow/
+  18. https://mew.su/category/bez-rubriki/
+  19. https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/
+  20. https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/#respond
+  21. http://www.mew.su/2014/08/как-создать-бота-вконтакте-vk-com-или-как-м/
+  22. https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/#more-151
+  23. http://twitter.com/share?url=https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/&text=Пошаговая инструкция создания бота для Вконтакте
+  24. https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/
+  25. https://mew.su/author/meow/
+  26. https://mew.su/category/vk-com/
+  27. https://mew.su/tag/bot-v-vk/
+  28. https://mew.su/tag/bot-dlya-vk/
+  29. https://mew.su/tag/vkontakte-bot-govorun/
+  30. https://mew.su/tag/vkontakte-sozdat-razgovornogo-bota/
+  31. https://mew.su/tag/skachat-bot-dlya-vk/
+  32. https://mew.su/tag/sozdat-bota-vk/
+  33. https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/
+  34. https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/#comments
+  35. https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/#more-146
+  36. http://twitter.com/share?url=https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/&text=Как создать бота Вконтакте (vk.com)? Или как мой бот постепенно захватывает мир
+  37. https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/
+  38. https://mew.su/author/meow/
+  39. https://mew.su/category/vk-com/
+  40. https://mew.su/category/sotsial-ny-e-seti/
+  41. https://mew.su/category/tekushhie-proekty/
+  42. https://mew.su/tag/boltun/
+  43. https://mew.su/tag/bot-vk/
+  44. https://mew.su/tag/vkontakte/
+  45. https://mew.su/tag/kak-sozdat-bota/
+  46. https://mew.su/tag/obshhalka/
+  47. https://mew.su/2014/07/twitorss-instrument-kotory-j-pozvolit-iz-vash/
+  48. https://mew.su/2014/07/twitorss-instrument-kotory-j-pozvolit-iz-vash/#respond
+  49. http://twitter.mew.su/rss.php
+  50. http://twitter.com/share?url=https://mew.su/2014/07/twitorss-instrument-kotory-j-pozvolit-iz-vash/&text=TwiToRSS - инструмент, который позволит из вашей Twitter ленты сделать RSS канал
+  51. https://mew.su/2014/07/twitorss-instrument-kotory-j-pozvolit-iz-vash/
+  52. https://mew.su/author/meow/
+  53. https://mew.su/category/sotsial-ny-e-seti/
+  54. https://mew.su/category/tvitter/
+  55. https://mew.su/2014/04/klyuch-dlya-adobe-audition-3-serial-number/
+  56. https://mew.su/2014/04/klyuch-dlya-adobe-audition-3-serial-number/#respond
+  57. http://twitter.com/share?url=https://mew.su/2014/04/klyuch-dlya-adobe-audition-3-serial-number/&text=Ключ для Adobe Audition 3 (serial number)
+  58. https://mew.su/2014/04/klyuch-dlya-adobe-audition-3-serial-number/
+  59. https://mew.su/author/meow/
+  60. https://mew.su/category/bez-rubriki/
+  61. https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/
+  62. https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/#comments
+  63. http://twitter.com/share?url=https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/&text=Ошибка "Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerName"
+  64. https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/
+  65. https://mew.su/author/meow/
+  66. https://mew.su/category/bez-rubriki/
+  67. https://mew.su/2014/02/dvizhok-dlya-twitter-bootstrap/
+  68. https://mew.su/2014/02/dvizhok-dlya-twitter-bootstrap/#respond
+  69. http://twitter.com/share?url=https://mew.su/2014/02/dvizhok-dlya-twitter-bootstrap/&text=Движок для Twitter Bootstrap
+  70. https://mew.su/2014/02/dvizhok-dlya-twitter-bootstrap/
+  71. https://mew.su/author/meow/
+  72. https://mew.su/category/novy-e-skripty/
+  73. https://mew.su/category/obnovleniya-skriptov/
+  74. https://mew.su/category/tekushhie-proekty/
+  75. https://mew.su/2014/02/kak-lomat-igry-dlya-android-ili-pochemu-ya-tak-k/
+  76. https://mew.su/2014/02/kak-lomat-igry-dlya-android-ili-pochemu-ya-tak-k/#respond
+  77. http://4pda.ru/forum/index.php?showtopic=411446
+  78. https://mew.su/2014/02/kak-lomat-igry-dlya-android-ili-pochemu-ya-tak-k/#more-108
+  79. http://twitter.com/share?url=https://mew.su/2014/02/kak-lomat-igry-dlya-android-ili-pochemu-ya-tak-k/&text=Как ломать игры для Android? Или почему я так круто играю в CandyCrush?
+  80. https://mew.su/2014/02/kak-lomat-igry-dlya-android-ili-pochemu-ya-tak-k/
+  81. https://mew.su/author/meow/
+  82. https://mew.su/category/bez-rubriki/
+  83. https://mew.su/2014/02/skype-podsvechivaet-nomera-telefonov-na-sa/
+  84. https://mew.su/2014/02/skype-podsvechivaet-nomera-telefonov-na-sa/#respond
+  85. http://twitter.com/share?url=https://mew.su/2014/02/skype-podsvechivaet-nomera-telefonov-na-sa/&text=Skype подсвечивает номера телефонов на сайте. Как убрать?
+  86. https://mew.su/2014/02/skype-podsvechivaet-nomera-telefonov-na-sa/
+  87. https://mew.su/author/meow/
+  88. https://mew.su/category/bez-rubriki/
+  89. https://mew.su/2014/02/okruglenie-do-desyatkov-i-soten-v-bol-sh/
+  90. https://mew.su/2014/02/okruglenie-do-desyatkov-i-soten-v-bol-sh/#respond
+  91. http://twitter.com/share?url=https://mew.su/2014/02/okruglenie-do-desyatkov-i-soten-v-bol-sh/&text=Округление до десятков и сотен в большую сторону (PHP)
+  92. https://mew.su/2014/02/okruglenie-do-desyatkov-i-soten-v-bol-sh/
+  93. https://mew.su/author/meow/
+  94. https://mew.su/category/bez-rubriki/
+  95. https://mew.su/page/2/
+  96. https://mew.su/2014/09/166/
+  97. https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/
+  98. https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/
+  99. https://mew.su/2014/07/twitorss-instrument-kotory-j-pozvolit-iz-vash/
+ 100. https://mew.su/2014/04/klyuch-dlya-adobe-audition-3-serial-number/
+ 101. http://www.mew.su/2014/08/пошаговая-инструкция-создания-б�
+ 102. https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/#comment-16
+ 103. http://mew.su/
+ 104. https://mew.su/2014/01/oshibka-bootmgr-is-missing/#comment-14
+ 105. http://mew.su/
+ 106. https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/#comment-13
+ 107. https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/#comment-12
+ 108. https://mew.su/2014/01/oshibka-bootmgr-is-missing/#comment-11
+ 109. https://mew.su/2014/09/
+ 110. https://mew.su/2014/08/
+ 111. https://mew.su/2014/07/
+ 112. https://mew.su/2014/04/
+ 113. https://mew.su/2014/02/
+ 114. https://mew.su/2014/01/
+ 115. https://mew.su/2013/12/
+ 116. https://mew.su/2013/09/
+ 117. https://mew.su/category/vk-com/
+ 118. https://mew.su/category/bez-rubriki/
+ 119. https://mew.su/category/novy-e-skripty/
+ 120. https://mew.su/category/obnovleniya-skriptov/
+ 121. https://mew.su/category/yama/
+ 122. https://mew.su/category/sotsial-ny-e-seti/
+ 123. https://mew.su/category/tvitter/
+ 124. https://mew.su/category/tekushhie-proekty/
+ 125. https://mew.su/wp-login.php?action=register
+ 126. https://mew.su/wp-login.php
+ 127. https://mew.su/feed/
+ 128. https://mew.su/comments/feed/
+ 129. http://ru.wordpress.org/
+ 130. http://top100.rambler.ru/navi/3046182/
+ 131. https://mew.su/

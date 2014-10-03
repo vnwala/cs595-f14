@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+
+
+<!-- -------------------------------------------------------------
+     
+
+     Theme Neptune By Max Davis.
+     
+     
+     Get this free theme: http://themes.themaxdavis.com/theme/neptune
+     More Themes: http://themes.themaxdavis.com
+
+     
+     PROMOTE YOUR TUMBLR: http://themes.themaxdavis.com/spotlight
+     
+     
+     ------------------------------------------------------------- -->
+     
+
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+<meta charset="utf-8" />
+<title>△</title>
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_bda9c8577f62_128.png"> 
+<link rel="alternate" type="application/rss+xml" href="http://livesinfinity.tumblr.com/rss">
+<meta name="description" content="&dagger; light of my life fire of my lions &dagger;" />
+        
+<meta name="color:Background" content="#FFFFFF"/>
+<meta name="color:Center" content="#000000"/>
+<meta name="color:Titles" content="#FFFFFF"/>
+<meta name="color:Text" content="#FFFFFF"/>
+<meta name="color:Links" content="#FFFFFF"/>
+<meta name="color:Links Hover" content="#DDDDDD"/>
+<meta name="color:Borders" content="#FFFFFF"/>
+
+<meta name="image:Background Image" content="http://static.tumblr.com/b2ajd3k/doTmcm6qf/os_x_mountain_lion_galaxy_angelceballos.jpg" />
+<meta name="image:Header Logo" content="" />
+<meta name="image:Portrait" content="" />
+
+<meta name="if:Infinite scrolling" content="1" />
+<meta name="if:Sidebar left or right" content="1" />
+<meta name="if:Large or Small footer" content="1" />
+<meta name="if:Show Permalink On Photo Posts" content="0" />
+<meta name="if:Center Background img" content="0" />
+<meta name="if:Repeat Background img" content="0" />
+<meta name="if:Fixed Background img" content="0" />
+<meta name="if:Fullscreen Background img" content="1" />
+
+<meta name="text:Center Transparency" content="0.9" />
+<meta name="text:Reblog Title" content="Reblog post" />
+<meta name="text:Ask Title" content="Ask" />
+<meta name="text:Twitter Username" content=""/>
+<meta name="text:Link 1" content="" />
+<meta name="text:Link 1 Title" content="" />
+<meta name="text:Link 2" content="" />
+<meta name="text:Link 2 Title" content="" />
+<meta name="text:Link 3" content="" />
+<meta name="text:Link 3 Title" content="" />
+<meta name="text:Link 4" content="" />
+<meta name="text:Link 4 Title" content="" />
+<meta name="text:Link 5" content="" />
+<meta name="text:Link 5 Title" content="" />
+
+<script type="text/javascript" src="http://themaxdavisthemes.com/code/jQuery.js"></script><script type="text/javascript" src="http://static.tumblr.com/8jq17g7/Q6hmelz1k/jquery.tweet.js"></script>
+<script>
+$(window).load(function(){
+    var $wall = $('#center');
+    
+    $wall.masonry({
+      itemSelector: '.post, .twitter',
+      columnWidth:220
+    });
+    
+    $wall.infinitescroll({
+    navSelector  : ".nav",
+    nextSelector : ".nav a",
+    itemSelector : ".post",
+    loading      : "",
+    donetext     : ""
+    },
+
+    function( newElements ) { 
+        var $newElems = $( newElements ).css({ 
+            opacity: 0 
+        });
+        $newElems.imagesLoaded(function(){
+            $newElems.animate({ opacity: 1 });
+            $wall.masonry( "appended", $newElems, true );
+        });
+    });
+});
+
+    jQuery(function($){
+        $("#tweets").tweet({
+          username: "",
+          count: 3,
+          loading_text: "loading tweets..."
+        });
+    });
+</script>
+
+<style type="text/css">  html { background: url(http://static.tumblr.com/b2ajd3k/doTmcm6qf/os_x_mountain_lion_galaxy_angelceballos.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}  body { padding:0; margin:0; overflow-x:hidden; font-family: 'helvetica', arial, sans-serif; font-size:11px; color:#224b37; } a {text-decoration:none; color:#224b37; font-weight:800; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;} a:hover { color:; -webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;} a:active{outline: none;} a:focus{-moz-outline-style: none;} :-moz-any-link:focus{outline: none;} img{border:none;} .clear {clear:both;} .install_button: {position:fixed !important;} #tumblr_controls: {position:fixed !important;} #container{ margin: 0 auto; padding: 10px 20px 30px; position: relative; width: 860px;} #container #background { bottom: 0; left: 0; padding: 0 20px; position: absolute; top: 0; width: 860px; z-index:-1; opacity: 0.9; background-color:#000000;} #header{ width:860px;  margin:10px 0 20px;  } #header h1{ font-size: 70px; letter-spacing: -3px; margin: 0; padding:20px 0; word-spacing: -2px; text-overflow: ellipsis; overflow:hidden; white-space: nowrap; color:#FFFFFF;  -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; transition: all 0.3s ease;} #header h1:hover{ color:#FFFFFF;} #header img{ max-width:860px; max-height:300px;} #sidebar{ position: relative; width: 200px; z-index: 4000; color:#FFFFFF;   float:left;  } #sidebar h1{ font-size: 17px; height: 13px; line-height: 16px; margin: 15px 0; overflow: hidden; padding: 0 0 20px; text-overflow: ellipsis; text-transform: uppercase; white-space: nowrap; border-bottom:2px solid #FFFFFF; color:#FFFFFF;  text-align: right; } #sidebar .inner{ margin:10px 0 0;} #sidebar .portrait{ width:200px;} #sidebar .portrait img{ max-width:200px;} #sidebar .description{ margin:5px 0 15px; padding:5px 0 20px; font-weight: 700;  text-align: right;   border-bottom:2px solid #FFFFFF;        } #sidebar .links{ margin:0; padding:0 0 10px; list-style:none;} #sidebar .links a{ display: block; font-size: 10px; font-weight: 700; line-height: 150%; text-transform: capitalize; color:#FFFFFF;  text-align: right; } #sidebar .links a:hover{ color:#FFFFFF;} #sidebar .pagination{ padding:10px 0 0; font-weight:700; text-transform:uppercase; font-size:9px; line-height:12px; border-top:2px solid #FFFFFF;} #sidebar .pagination .prev{ float:left;} #sidebar .pagination .next{ float:right;} #center{ width:660px;  float:right;  } #center .post{ width:200px; float:left; margin:0 20px 14px 0; overflow:hidden;  margin:0 0 20px 20px;  } #center .photo_post{ } #center .post p{ margin:0; } #center .post blockquote{ margin: 5px 0 5px 10px; padding-left: 10px; border-left: 2px solid #FFFFFF;} #center .post .margin{  width:200px;  } #center .post .margin h1, #center .twitter h1{ margin:0; padding:0; font-size:12px; text-transform:uppercase; line-height:14px; color:#224b37;} #center .post .margin .source{ margin:5px 0 0;} #center .post .margin img{ max-width:150px; height:auto; } #center #tweets .tweet_list { list-style: none; margin: 0; padding: 0;} #center #tweets .tweet_list li { line-height: 110%; margin: 0 0 3px; padding: 5px 0 4px;} #center #tweets .tweet_list .tweet_time, #center #tweets .tweet_list .tweet_avatar, #center #tweets .tweet_list .tweet_avatar img { display:none;} #center .post .chat{ margin:0; padding:0; list-style:none;} #center .post .chat li{ font-weight:bold; font-size:9px; padding: 4px 5px; border-bottom:1px solid ; } #center .post .chat li:last-child{ margin:0 0 8px; border:none;} #center .asker_portrait { float:left; width:30px; height:30px; margin-right:10px; margin-bottom:10px; display:none;} #center .question { font-weight: bold; line-height: 11px; margin-bottom: 10px; width: 200px; } #center .question span{ text-transform:uppercase;} #center .answer{ clear: both; display: block; font-style: italic; font-weight: bold; line-height: 20px; margin: 10px;} #center .answer p{ margin:0; padding:0; line-height: 13px;} #center .photoset { margin:0 0 0 -12.5px; position:relative;} #center .photoset .box{ background-color: rgba(0, 0, 0, 0.3); background-image: url("http://static.tumblr.com/8jq17g7/ZRflvr254/screen-pattern.png"); bottom: 4px; box-shadow: 0 0 30px rgba(0, 0, 0, 0.7) inset; height: 100%; margin: 0 0 0 12.5px; position: absolute; width: 200px; z-index: 500;} #center .photoset .hover{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.9); bottom: 50%; box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.4), 0 3px 0 rgba(0, 0, 0, 0.4); font-family: 'Cookie',cursive; font-size: 16px; line-height: 16px; margin: 0 0 -58px 0; padding: 40px 0; position: absolute; text-align: center; width: 200px; z-index: 500;} #center .photoset:hover .box{ background-color: rgba(0, 0, 0, 0.6);} #center .photoset:hover .hover{ box-shadow:none; background-color: rgba(0, 0, 0, 0.0);} #center .photoset .hover a{color:white;} #center .photoset .hover a:hover{color:white;} #center .photoset .hover a.set{ display: block; font-family: 'Open Sans',arial; font-size: 9px; font-weight: bold; letter-spacing: 10px; line-height: 10px; margin: 0 0 10px 10px;} #center .post .audio{ background: none repeat scroll 0 0 black; overflow: hidden; padding: 5px 5px 1px; width: 190px; } #center .post .inner{ margin: auto; overflow: hidden; width: 28px;} #center .post .picture{ position:relative; width:200px; } #center .post .picture img{ width:200px; display:block; } #center .post .picture .hover{ position:absolute; height:100%; width:200px; background:rgba(0,0,0,0.85); opacity:0; -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; transition: all 0.8s ease;} #center .post .picture .hover:hover{ opacity:1; -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; transition: all 0.8s ease;} #center .post .picture .hover .box{ height: 52px; left: 0; margin: -21px 0 0; position: absolute; right: 0; text-align: center; top: 50%; width: 200px;} #center .post .picture .hover .notes{ border-bottom: 1px dotted rgba(255, 255, 255, 0.3); display: inline-block; font-family: Andale Mono,Courier New,Courier; font-size: 18px; font-weight: bold; letter-spacing: 10px; line-height: 100%; margin: 0 auto 13px; padding: 0 5px 12px 15px; text-align: center;} #center .post .picture .hover .reblog{ color: white; display: block; font-size: 7px; font-style: italic; letter-spacing: 3px; padding: 0 0 0 4px; text-align: center; text-shadow: 0 0 2px rgba(0, 0, 0, 0.8); text-transform: uppercase;} .notes a, .reblog a{color:white;font-weight:normal;} .notes a:hover, .reblog a:hover{color:white;} #center .post .caption{ padding: 10px 13px; position: relative; background: none repeat scroll 0 0 #FFFFFF; border-bottom: 18px solid #FFFFFF;  } #center .post .caption img { max-width:100%; height: auto;} #center .post .au_caption{ border:none;} #center .post .permalink{ margin: 10px 0 0; padding: 6px 6px 5px;  border-top:2px solid #FFFFFF; border-bottom:2px solid #FFFFFF; color:#FFFFFF;} #center .post .permalink a{ font-size:10px; font-weight:700; text-transform:uppercase; color:#224b37; margin:0 10px;} #center .post .permalink a:hover{ color:#224b37} #center .post .permalink a:last-child{ margin:0 0 0 10px;} #center .post .photo_perma{  display:none;  } #center #share { clear: both; height: 20px; margin: 10px 0; padding: 0 13px; position:relative;} #center #share .tweet_button { float: left; width: 85px;} #center #share .like_button { float: left;} #center #share #permalink_navigation { color: #999999; font-family: Lucida Grande; font-size: 20px; font-weight: bold; height: 24px; line-height: 16px; opacity: 0.4; position: absolute; right: 0; color:#224b37;} #center #share #permalink_navigation a{ color:#224b37;} #center .twitter{ width:200px; float:left; margin:0 20px 20px 0; overflow:hidden;  margin:0 0 20px 20px; } #center .twitter .border{ margin:5px 0; border-bottom:2px solid #FFFFFF;} #center .twitter #twitter_update_list{ margin:0; padding:0; list-style:none;} #center .twitter #twitter_update_list li{ padding: 4px 5px; } #center .twitter #twitter_update_list li a{ font-weight:normal;} #center .twitter #twitter_update_list li span { font-weight:900;} #center .twitter #twitter_update_list li span a{ font-weight:normal;} #center .twitter #twitter_update_list li a:hover{ text-shadow:none;} #center .twitter #twitter_update_list li:nth-child(even){ background:#FFFFFF; color:#224b37;} #center .twitter #twitter_update_list li:nth-child(even) a{ color:#224b37;} #center .twitter #twitter_update_list li:last-child{ margin:0} ol.notes { clear: both; font-weight: normal; list-style-type: none; margin: 10px 0; padding: 9px 6px; border-top: 2px solid #FFFFFF; } ol.notes a{ text-decoration:none; padding:0; background-color:transparent;} ol.notes li.note { padding: 2px 0; } ol.notes li.note img.avatar { vertical-align: -4px; margin-right: 10px; width: 16px; height: 16px; display:none;} ol.notes li.note span.action a{ font-weight:bold; color:#224b37;} ol.notes li.note .answer_content { color:black;} ol.notes li.note blockquote { border-left: medium none !important; font-size: 11px; margin: 3px 0 0 !important; padding: 3px 8px 2px !important; text-transform: none; background:#FFFFFF;} ol.notes li.note blockquote a { color:#224b37;} ol.notes li.note .note more_notes_link_container { font-size: 8px; font-weight: bold; letter-spacing: 2px; margin: 10px 0 0; padding: 10px; text-align: center; color:#224b37; border-top: 2px solid #FFFFFF;} .footer { bottom: 0; display: none; left: 50%; position: fixed; z-index:5000;  width: 860px; margin: 0 0 0 -450px; padding: 5px 20px; opacity: 0.85; -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; transition: all 0.8s ease;  } .footer #background { bottom: 0; left: 0; padding: 0 20px; position: absolute; top: 0; width: 860px; z-index:-1; opacity:0.5; background-color:#000000;  -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; transition: all 0.8s ease;} .footer:hover #background { opacity:0.8; -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; transition: all 0.8s ease;} .footer h1{ font-weight: 700; line-height: 100%; text-transform: uppercase; color:#FFFFFF;  float:left; font-size: 13px; margin: -1px 0 -4px; padding: 6px 20px 5px 0;  } .footer .links{ padding:0; margin: 6px 0 0; float:left; } .footer .links a{ font-size:9px; font-weight:700; text-transform:uppercase;  margin:0 10px 0 0;   color:#224b37; } .footer .links a:hover{ color:#224b37} .footer #up{ bottom: 6px; font-size: 9px; font-weight: 700; margin: 0; position: absolute; right: 20px; text-transform: uppercase; color:#224b37; } .footer .pagination{ float: right; font-size: 9px; font-weight: 700; line-height: 12px; margin: 6px 0 0; text-transform: uppercase; width: 200px;} .footer .pagination .prev{ float:left;} .footer .pagination .next{ float:right;} </style>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=livesinfinity" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="△" /><meta property="og:url" content="http://livesinfinity.tumblr.com/?og=1" /><meta property="og:description" content="&dagger; light of my life fire of my lions &dagger;" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_bda9c8577f62_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=livesinfinity" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=livesinfinity" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="livesinfinity" /><meta name="twitter:description" content="&dagger; light of my life fire of my lions &dagger;" /><meta name="twitter:creator" content="livesinfinity" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=livesinfinity&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=livesinfinity&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=livesinfinity&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+<div class="nav"><a href="/page/2"></a></div>
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div id="container">
+<div id="background"></div>
+<div id="header">
+    
+    <a href="/"><h1>△</h1></a>
+    
+    
+</div>
+
+<div id="sidebar">
+   
+   
+   <div class="inner">
+   <a href="/"><h1>△</h1></a>
+   <div class="description">† light of my life fire of my lions †</div>
+
+       <ul class="links">
+             
+             <a href="/ask">
+             Ask
+             
+             </a>
+              
+             
+             
+             
+             
+             
+             
+        </ul>
+        
+        
+   </div>
+</div>
+
+<div id="center">
+    
+    
+    
+
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/98597765215">
+                    271932
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/98597765215/vObfj6Of">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://40.media.tumblr.com/836d0fc70f73e4e1837ec4dd7dbea414/tumblr_mtr39b81FS1qf2tibo1_500.jpg" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/98597765215">♥ 271932</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/98597765215">1 day ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/98597739005/thisis-bella-blunt-smoking-babe">
+                    48540
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/98597739005/raDFdkfk">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://36.media.tumblr.com/tumblr_mce06lPPhQ1qe8j5wo1_500.jpg" alt="thisis-bella:
+
+blunt smoking babe
+"/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/98597739005/thisis-bella-blunt-smoking-babe">♥ 48540</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/98597739005/thisis-bella-blunt-smoking-babe">1 day ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/97490957155">
+                    420651
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/97490957155/nbGX83VU">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://33.media.tumblr.com/ea6ff6a5864e25d81963cf53083d52d1/tumblr_mju2lnFjS61rwfk79o1_500.gif" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/97490957155">♥ 420651</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/97490957155">2 weeks ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/97355257120">
+                    1257
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/97355257120/L7CrAYyY">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://38.media.tumblr.com/70040a441130cd205cfcd86eef4ea4c3/tumblr_nbph9d2o211txcb93o1_500.gif" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/97355257120">♥ 1257</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/97355257120">2 weeks ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/97355213650">
+                    4098
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/97355213650/BBRTm5s6">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://33.media.tumblr.com/c1b2605749aeb227886af44a892ec3f0/tumblr_nbtee4ZxpS1t03tcvo1_500.gif" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/97355213650">♥ 4098</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/97355213650">2 weeks ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/96651712285">
+                    156816
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/96651712285/0tN6unyy">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://40.media.tumblr.com/8011e61d7b695aaf79a2df02e01c4b10/tumblr_n4k8sssci91qbpdcto1_500.jpg" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/96651712285">♥ 156816</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/96651712285">3 weeks ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/96421732045">
+                    36790
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/96421732045/1LXsqKQD">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://40.media.tumblr.com/e801e9078b3dc1ce08090f2a8d663628/tumblr_n2ealfsGS01qdhzsio1_500.jpg" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/96421732045">♥ 36790</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/96421732045">3 weeks ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/96418908960/kyliejenner-feeeeeeet">
+                    745
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/96418908960/XBp85xS3">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://38.media.tumblr.com/0d91a5f512fe4336c08fbc681e9f3e16/tumblr_nb96ffujae1sculzro1_500.png" alt="
+kyliejenner -&nbsp;Feeeeeeet
+"/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/96418908960/kyliejenner-feeeeeeet">♥ 745</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/96418908960/kyliejenner-feeeeeeet">3 weeks ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/96299592115/lillynguyenphoto-the-1975-june-5th-2014">
+                    394
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/96299592115/DfqU1MYP">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://33.media.tumblr.com/b01de29365e0a77eeb4d0d8abb850177/tumblr_naudzn2U3L1sjjedpo1_500.jpg" alt="lillynguyenphoto:
+
+the 1975
+june 5th, 2014 | baltimore, md
+flickr&nbsp;//&nbsp;tumblr&nbsp;//&nbsp;instagram"/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/96299592115/lillynguyenphoto-the-1975-june-5th-2014">♥ 394</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/96299592115/lillynguyenphoto-the-1975-june-5th-2014">4 weeks ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/96299280820">
+                    19974
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/96299280820/wljYPfvl">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://40.media.tumblr.com/e8962a2381b7410fe898032dd5f3b1eb/tumblr_n2bjv0JPtU1rr6og1o1_500.jpg" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/96299280820">♥ 19974</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/96299280820">4 weeks ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/96038169555">
+                    5883
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/96038169555/ACZUaU5x">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://41.media.tumblr.com/72bfef197769849cafbbdfa63504a270/tumblr_nb18pm3c1i1rlfl6ro1_500.png" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/96038169555">♥ 5883</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/96038169555">1 month ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/95947920345">
+                    89359
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/95947920345/xISdnhpy">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://41.media.tumblr.com/e4f54a074f717b212bf22e6b0c3f2379/tumblr_n3umsmHdep1slb5q8o1_500.jpg" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/95947920345">♥ 89359</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/95947920345">1 month ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/95777909320">
+                    1981
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/95777909320/ohUFvMOx">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://36.media.tumblr.com/a4d6aa1ceb20ac5458d6f060661176c3/tumblr_navua30uNr1qimturo1_500.png" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/95777909320">♥ 1981</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/95777909320">1 month ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/95612803660">
+                    995
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/95612803660/oYR0B4FY">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://40.media.tumblr.com/5d2112292a11ed57444b33cb43048b85/tumblr_n8xb9uo6Kj1qagrs9o1_500.jpg" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/95612803660">♥ 995</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/95612803660">1 month ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="post photo_post">
+        
+
+        
+            <div class="picture">
+               
+              <div class="hover">
+                 <div class="box">
+                    <div class="notes">
+                    <a href="http://livesinfinity.tumblr.com/post/95503446355">
+                    343
+                    </a>
+                    </div>
+                    <div class="reblog">
+                       <a href="https://www.tumblr.com/reblog/95503446355/ol2N15B8">Reblog post</a>
+                    </div>
+                 </div>
+              </div>
+               
+            <img src="http://41.media.tumblr.com/2c083202a4eeada3ac72f8474a120e22/tumblr_nanc71O6Ke1qak673o1_500.jpg" alt=""/>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+        
+        
+      
+         
+         
+        <div class="permalink photo_perma">
+            
+            <a href="http://livesinfinity.tumblr.com/post/95503446355">♥ 343</a> -
+            
+            <a href="http://livesinfinity.tumblr.com/post/95503446355">1 month ago</a>
+        </div>
+        
+         
+        
+         
+    </div>
+    
+    <div class="clear"></div>
+</div><div class="clear"></div>
+</div><!-- End Container -->
+
+
+    <div class="footer clearfix" id="go_up">
+        <div id="background"></div>
+        <h1>△</h1>
+    
+        <div class="links">
+             
+             <a href="/ask">
+             Ask
+             
+             </a>
+              
+             
+             
+             
+             
+             
+             
+        </div>
+    
+    
+    
+    <a href="#">
+        <div id="up">Back to top</div>     
+    </a>
+    
+    <div class="clear"></div>
+    </div>
+
+    
+<script type="text/javascript">
+$(function() {      
+      $(window).scroll(function() {
+        if($(this).scrollTop() != 0) {
+            $('#go_up').fadeIn();     	
+        } 
+        else {
+			$('#go_up').fadeOut(); 		
+        }
+	  });
+ 
+	  $('#up').click(function() {
+		$('body,html').animate({scrollTop:0},800);
+	  });
+});
+</script>
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://livesinfinity.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037608&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbGl2ZXNpbmZpbml0eS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=FFBPPJAEEC&K=fe62e2db47b621b01f881df3de50e28f1d14f2d42cbd825254889a584dd83473&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037608&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbGl2ZXNpbmZpbml0eS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=FFBPPJAEEC&K=d3338eff1869a26480dfa094225bbbf9cdb5e5d625cd79c4f6ae0a48dd9269cb&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037608&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2xpdmVzaW5maW5pdHkudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6Ijk5ODcwNjAiLCJyb290X3Bvc3RpZCI6NjIzNTc3MzgzMDEsInBvc3RpZCI6Ijk4NTk3NzY1MjE1IiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg2MDcxNzUiLCJyb290X3Bvc3RpZCI6IjM0MjIwNjg1NjA3IiwicG9zdGlkIjoiOTg1OTc3MzkwMDUiLCJibG9naWQiOiIxMTQ5ODQwMDEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTY1NzA5MDEiLCJyb290X3Bvc3RpZCI6IjQ1NjQwMTI3NTk3IiwicG9zdGlkIjoiOTc0OTA5NTcxNTUiLCJibG9naWQiOiIxMTQ5ODQwMDEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTc5MDMxMzAzIiwicm9vdF9wb3N0aWQiOiI5NzMzNDc3NTAyMCIsInBvc3RpZCI6Ijk3MzU1MjU3MTIwIiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0NDQwMjc3NCIsInJvb3RfcG9zdGlkIjoiOTczNDI1NTM1NTIiLCJwb3N0aWQiOiI5NzM1NTIxMzY1MCIsImJsb2dpZCI6IjExNDk4NDAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNzQ3ODkyIiwicm9vdF9wb3N0aWQiOjgzNzY1Nzg1OTA5LCJwb3N0aWQiOiI5NjY1MTcxMjI4NSIsImJsb2dpZCI6IjExNDk4NDAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3OTQxNDAzIiwicm9vdF9wb3N0aWQiOiI3OTQ5NDM3MTM1OSIsInBvc3RpZCI6Ijk2NDIxNzMyMDQ1IiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM31dfQ==&U=GAEKOBMIKH&K=f895d9f35137b2328bc45b8e83cbfe68629cc1f4963208e33892e750ad499364&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037608&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2xpdmVzaW5maW5pdHkudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6Ijk5ODcwNjAiLCJyb290X3Bvc3RpZCI6NjIzNTc3MzgzMDEsInBvc3RpZCI6Ijk4NTk3NzY1MjE1IiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijg2MDcxNzUiLCJyb290X3Bvc3RpZCI6IjM0MjIwNjg1NjA3IiwicG9zdGlkIjoiOTg1OTc3MzkwMDUiLCJibG9naWQiOiIxMTQ5ODQwMDEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTY1NzA5MDEiLCJyb290X3Bvc3RpZCI6IjQ1NjQwMTI3NTk3IiwicG9zdGlkIjoiOTc0OTA5NTcxNTUiLCJibG9naWQiOiIxMTQ5ODQwMDEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTc5MDMxMzAzIiwicm9vdF9wb3N0aWQiOiI5NzMzNDc3NTAyMCIsInBvc3RpZCI6Ijk3MzU1MjU3MTIwIiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0NDQwMjc3NCIsInJvb3RfcG9zdGlkIjoiOTczNDI1NTM1NTIiLCJwb3N0aWQiOiI5NzM1NTIxMzY1MCIsImJsb2dpZCI6IjExNDk4NDAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNzQ3ODkyIiwicm9vdF9wb3N0aWQiOjgzNzY1Nzg1OTA5LCJwb3N0aWQiOiI5NjY1MTcxMjI4NSIsImJsb2dpZCI6IjExNDk4NDAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3OTQxNDAzIiwicm9vdF9wb3N0aWQiOiI3OTQ5NDM3MTM1OSIsInBvc3RpZCI6Ijk2NDIxNzMyMDQ1IiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=GAEKOBMIKH&K=20149c911c621cf37ac20fd1c9995d9a680ca60208b65310ae1b8012a8c99208&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037608&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2xpdmVzaW5maW5pdHkudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjEyNjYwMzM5OCIsInJvb3RfcG9zdGlkIjo5NjQxODQ3Mzg5OSwicG9zdGlkIjoiOTY0MTg5MDg5NjAiLCJibG9naWQiOiIxMTQ5ODQwMDEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTM5MDUxNjIwIiwicm9vdF9wb3N0aWQiOiI5NjIxMTcyODQ1OCIsInBvc3RpZCI6Ijk2Mjk5NTkyMTE1IiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ3MTE4NjYxIiwicm9vdF9wb3N0aWQiOiI3OTQzNzM4MDcxMiIsInBvc3RpZCI6Ijk2Mjk5MjgwODIwIiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgxNzY2NDA2Iiwicm9vdF9wb3N0aWQiOiI5NjAyMTU0ODM5MCIsInBvc3RpZCI6Ijk2MDM4MTY5NTU1IiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0MjAwODYyMCIsInJvb3RfcG9zdGlkIjoiODIzNTc1NTc3NTEiLCJwb3N0aWQiOiI5NTk0NzkyMDM0NSIsImJsb2dpZCI6IjExNDk4NDAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjU2NTA0MiIsInJvb3RfcG9zdGlkIjoiOTU3NjYwNDAyMzQiLCJwb3N0aWQiOiI5NTc3NzkwOTMyMCIsImJsb2dpZCI6IjExNDk4NDAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyODQ1NTA5Iiwicm9vdF9wb3N0aWQiOiI5MjE2OTk5MTMzNSIsInBvc3RpZCI6Ijk1NjEyODAzNjYwIiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMwMjE0NzEiLCJyb290X3Bvc3RpZCI6Ijk1NDg2Mzc3NDYxIiwicG9zdGlkIjoiOTU1MDM0NDYzNTUiLCJibG9naWQiOiIxMTQ5ODQwMDEiLCJzb3VyY2UiOjMzfV19&U=NFBEFMIHDG&K=fa106090fe35cac1c7ef83519dbd4e64ae79cb355f2ce6db4a435e0fac268ba8&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037608&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2xpdmVzaW5maW5pdHkudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjEyNjYwMzM5OCIsInJvb3RfcG9zdGlkIjo5NjQxODQ3Mzg5OSwicG9zdGlkIjoiOTY0MTg5MDg5NjAiLCJibG9naWQiOiIxMTQ5ODQwMDEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTM5MDUxNjIwIiwicm9vdF9wb3N0aWQiOiI5NjIxMTcyODQ1OCIsInBvc3RpZCI6Ijk2Mjk5NTkyMTE1IiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQ3MTE4NjYxIiwicm9vdF9wb3N0aWQiOiI3OTQzNzM4MDcxMiIsInBvc3RpZCI6Ijk2Mjk5MjgwODIwIiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgxNzY2NDA2Iiwicm9vdF9wb3N0aWQiOiI5NjAyMTU0ODM5MCIsInBvc3RpZCI6Ijk2MDM4MTY5NTU1IiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0MjAwODYyMCIsInJvb3RfcG9zdGlkIjoiODIzNTc1NTc3NTEiLCJwb3N0aWQiOiI5NTk0NzkyMDM0NSIsImJsb2dpZCI6IjExNDk4NDAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjU2NTA0MiIsInJvb3RfcG9zdGlkIjoiOTU3NjYwNDAyMzQiLCJwb3N0aWQiOiI5NTc3NzkwOTMyMCIsImJsb2dpZCI6IjExNDk4NDAwMSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyODQ1NTA5Iiwicm9vdF9wb3N0aWQiOiI5MjE2OTk5MTMzNSIsInBvc3RpZCI6Ijk1NjEyODAzNjYwIiwiYmxvZ2lkIjoiMTE0OTg0MDAxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjMwMjE0NzEiLCJyb290X3Bvc3RpZCI6Ijk1NDg2Mzc3NDYxIiwicG9zdGlkIjoiOTU1MDM0NDYzNTUiLCJibG9naWQiOiIxMTQ5ODQwMDEiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=NFBEFMIHDG&K=3539d473b597bdd8568224f7a30191f75511450b78e7307bc3ab0a5bc47b7a6b&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:114984001,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Flivesinfinity.tumblr.com%2F&amp;lang=en_US&amp;name=livesinfinity&amp;brag=false&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_bda9c8577f62_64.png&amp;title=%E2%96%B3&amp;url=http%3A%2F%2Flivesinfinity.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Flivesinfinity.tumblr.com%2F&amp;lang=en_US&amp;name=livesinfinity&amp;brag=false&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_bda9c8577f62_64.png&amp;title=%E2%96%B3&amp;url=http%3A%2F%2Flivesinfinity.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>    

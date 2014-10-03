@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+
+<!-- Browser specific stylesheets -->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+
+
+<title>Sirqul</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37182403-1']);
+  _gaq.push(['_setDomainName', 'sirqul.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type =
+'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script>
+            // TODO: put this into a config file since it will be unique per server
+            globalconfig = {};
+            globalconfig.serviceHost = '';
+            globalconfig.cdKey = 'abd781fde8bb5f2e0ec6f90ba91f9f9e';
+            
+            	
+</script>
+
+<!-- Debug and CDN Logic { -->
+
+
+
+
+<script
+	data-dojo-config="async: 1, dojoBlankHtmlUrl: '/blank.html',
+                packages: [ {
+                    name: 'sirqul',
+                    location: '/js/dojo-release/sirqul'
+                } ]"
+	src="//ajax.googleapis.com/ajax/libs/dojo/1.8.4/dojo/dojo.js">
+	
+</script>
+
+
+
+
+<!-- END Debug and CDN Logic } -->
+
+<!-- Foundation Framework JS Dependencies { -->
+
+<!-- Load jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" /> -->
+
+<script type="text/javascript" src="/js/foundation/foundation-ck.js"></script><script type="text/javascript" src="/js/foundation/foundation.topbar-ck.js"></script>
+
+
+<!-- End Foundation Framework JS Dependencies } -->
+
+<!-- Styles { -->
+
+<link id="themeStyles" rel="stylesheet"
+	href="//ajax.googleapis.com/ajax/libs/dojo/1.8.4/dijit/themes/tundra/tundra.css" />
+<link id="themeStyles" rel="stylesheet"
+	href="//ajax.googleapis.com/ajax/libs/dojo/1.8.4/dijit/themes/claro/claro.css" />
+<!-- <link id="themeStyles" rel="stylesheet"
+                href="/js/sirqul/consumer/widget/css/LoginDialog.css" />
+         -->
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<link rel="stylesheet" type="text/css" href="/css/normalize.css" /><link rel="stylesheet" type="text/css" href="/css/main.css" />
+
+<!-- Styles } -->
+
+<script>
+	require([ "dijit/Tooltip", "dojo/domReady!" ], function(Tooltip) {
+
+		$(function() {
+			$(document).foundation();
+		});
+		new Tooltip({
+			connectId : [ "user-account-name" ],
+			label : "View your account"
+		});
+	});
+</script>
+
+
+</head>
+
+<body class="claro">
+
+	<div class="wrap">
+		<!-- Begin Wrap { -->
+
+		<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+		<header class="row module-style-1-inv top" id="header">
+
+			<div class="large-12 large-centered columns">
+
+				<a href="/" class="large-3"> <img
+					src="/img/Sirqulheaderlogo.png" alt="Sirqul Logo">
+				</a>
+				
+				<span class="large-4 columns right" id="login-header">
+					<a class="header-username" href="http://dev.sirqul.com/registration">Sign Up</a>
+					<span class="header-username-seperator">&nbsp;&nbsp;|&nbsp;&nbsp;</span> 
+					<a class="" href="http://dev.sirqul.com/users/login">Login</a>
+				</span>	
+
+			</div>
+
+			<hr id="top-divider" />
+
+			<nav class="main-nav top-bar large-12 large-centered columns">
+
+				<ul class="title-area">
+					<!--  Required for top-bar -->
+
+					<!-- Title Area -->
+
+					<li class="name"><span class="hidden" id="logo">
+
+							<h2 class="visuallyhidden">
+								<a href="http://www.sirqul.com" class="">Sirqul</a>
+							</h2>
+
+					</span></li>
+					<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+
+				</ul>
+
+
+				<section class="top-bar-section">
+					<!--  Required for top-bar -->
+
+					<ul class="left">
+						<!--  Required for top-bar -->
+
+						<li class="nav-item"><a class="nav-link"
+							href="http://www.sirqul.com"> <img src="/img/home.png"
+								alt="Home" class="nav-icon" />
+						</a></li>
+
+						
+						<li class="nav-item"><a class="nav-link"
+							href="http://dev.sirqul.com">Products</a></li>
+
+						<li class="nav-item"><a class="nav-link"
+							href="http://www.sirqul.com/apps">Customers</a></li>
+
+						<li class="nav-item"><a class="nav-link"
+							href="http://dev.sirqul.com/registration">Sign Up</a></li>
+
+						<li class="nav-item"><a class="nav-link"
+							href="http://www.sirqul.com/about/press">Press</a></li>
+
+						<li class="nav-item"><a class="nav-link"
+							href="http://www.sirqul.com/about">About</a></li>
+
+						<li class="nav-item"><a class="nav-link"
+							href="http://www.sirqul.com/contact">Contact</a></li>
+
+						
+					</ul>
+			</nav>
+
+		</header>
+
+		<!-- </div>  -->
+
+<style>
+	#facebookLoginButton {
+		background-color:#3b5998;
+	}
+</style>
+
+<section class="row" id="top">
+	
+	<div class="large-12 columns large-centered">
+		<div class="small-10 columns">
+			
+			<img src="/game/cashdash/images/cashdash_banner.png" alt="Cash Dash" id="banner-image">
+			
+			<div class="doodlePlayer hidden" id="unityPlayer">
+				<div id="missing" class="missing">
+					<a href="http://unity3d.com/webplayer/"
+						title="Unity Web Player. Install now!"> 
+						<img
+						alt="Unity Web Player. Install now!"
+						src="http://webplayer.unity3d.com/installation/getunity.png"
+						width="193" height="63" />
+					</a>
+				</div>
+			</div>
+		
+		</div>	
+	</div>
+
+</section>
+
+<section class="row" id="bottom">
+	<div class="large-12 columns large-centered">
+		<div class="small-10 columns">
+			
+			<div class="small-7 columns">
+
+				<h3>THE "26" MGMT PLAY & WIN CHALLENGE!!</h3>
+
+				<p>PRIZES:</p>
+			
+				<table>
+					<tr><td width="20%">1</td><td width="5%"/><td width="70%">Fam Tour VIP Tix + Hotel & Airfare winner!</td></tr>
+					<tr><td width="20%">6</td><td width="5%"/><td width="70%">Facetime Winners!</td></tr>
+					<tr><td width="20%">26</td><td width="5%"/><td width="70%">1 year Gander Subscription Winners!</td></tr>
+					<tr><td width="20%">26</td><td width="5%"/><td width="70%">"Merch Piece of Your Choice" Winners!</td></tr>
+					<tr><td width="20%">26</td><td width="5%"/><td width="70%">Autographed Photo Winners!</td></tr>
+				</table>
+
+				<p>TO WIN: Make sure you are logged in, make sure we have your twitter name & email address, start at Level 1, beat level 26, and you are entered to win!</p>
+				<p>Winners will be picked at Random!</p>	
+
+				<hr/>			
+
+				<h3>Get Your Share Url</h3>
+
+				<p>Enter the email address you used when you registered in Cash Dash and click "Go" to get an invite URL to give to your friends!<br>
+				<input type="text" name="username" value=""
+    					data-dojo-type="dijit/form/TextBox"
+    					data-dojo-props="placeholder:'ENTER YOUR CASH DASH EMAIL', trim:true, propercase:true" id="username" />
+				<button id="inviteFriendsButton">Go</button><br>
+				<span id="inviteUrl" style="font-weight:bold"></span>
+				</p>
+				
+				<p>Copy and post this URL to post to Facebook, Twitter, Instagram or give directly to your friends and when they register you will
+				get credit.</p>
+
+			</div> <!-- end small-7 -->
+		
+
+			<div class="small-5 columns displayArea">
+
+			<div id="download-links">
+					<h3>Not Registered Yet? Click one of the links below to get the app:</h3>
+					
+					<hr />
+					
+					<ul class="app-downloads">
+						<div class="">
+							<li>
+								<a href="http://bit.ly/1po79bd"><img src="/img/app-icon/ios.png" alt="iOS"></a>
+							</li>
+					
+							<li>
+								<a href="http://bit.ly/YLgUWS"><img src="/img/app-icon/google.png" alt="google play"></a>
+							</li>
+
+						</div>
+						
+					</ul>
+					
+										
+				
+				</div>
+				<div style="clear:both"></div>
+				<div id="login-area" class='row hidden'>
+
+					<div class="small-12 columns userMessage alert-box success" id="userMessage"></div>
+
+					<div id="login">
+						<div id="fb-root"></div>
+<script>
+    (function(d) {
+
+        var js, 
+            id = 'facebook-jssdk', 
+            ref = d.getElementsByTagName('script')[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement('script');
+            js.id = id;
+            js.async = true;
+            js.src = "//connect.facebook.net/en_US/all.js";
+            ref.parentNode.insertBefore(js, ref);
+        }(document));
+
+    // Load the SDK Asynchronously
+    //219152931439171 test
+    //243395795754767 live
+    // Init the SDK upon load
+    window.fbAsyncInit = function() {
+        FB.init({
+            // appId : '219152931439171', // App ID test
+            appId : '243395795754767', // App ID live
+            channelUrl : "/js/channel", // Path to your Channel File
+            status : true, // check login status
+            cookie : true, // enable cookies to allow the server to access the session
+            xfbml : true
+        // parse XFBML,
+        });
+    };
+</script>
+
+<script>
+
+    require(
+            [ "dojo/dom", 
+            "dojo/on",
+            "dojo/parser",
+            "dojo/_base/connect", 
+            "dojo/_base/window", 
+            "dojo/dom-form",
+            "dojo/_base/fx",
+            "sirqul/kernel",  
+            "dojo/keys",
+            "sirqul/consumer/invite",
+            "dojo/dom-construct",
+            "dijit/dijit", 
+            "dojo/store/Observable", 
+            "dijit/form/ComboBox",
+            "dijit/form/TextBox", 
+            "dijit/form/ValidationTextBox",
+            "dijit/form/Button", 
+            "dijit/form/Form",
+            "dijit/Dialog",
+            "dijit/TooltipDialog",
+            "dijit/form/DropDownButton",
+            "dojo/domReady!" ],
+            function(dom, on, parser, connect, win, domForm, fx, kernel, keys, invite, domConstruct) {
+                
+                dojo.addClass(win.body(), "loginPage");
+                
+                kernel.startup();
+
+                dojo.removeClass("loadingDialog", 'hidden'); // hide form before parse
+
+                /* Login Logic */
+
+                var userLogin = function() {
+
+                    if (dijit.byId("loginForm").validate()) {
+
+                        dijit.byId("loadingDialog").show();
+                        
+                        var serviceURL = globalconfig.serviceHost
+                                + "/api/2.2/consumer/login";
+                        
+                        var queryString = domForm.toQuery("loginForm");
+                        
+                        var xhrArgs = {
+                            url : serviceURL,
+                            postData : queryString,
+                            handleAs : "json",
+
+                            load: function(data) {
+
+                                dijit.byId("loadingDialog").hide();
+
+                                if (data.valid) {
+                                    fx.fadeOut({ node: "login" }).play();
+
+                                    dojo.replaceClass("userMessage", 'success', 'visuallyhidden alert'); 
+
+                                    globalconfig.accountId = data.account.accountId;
+                                    globalconfig.accountName = data.account.display;
+
+                                    domConstruct.destroy(dojo.byId("login"));
+
+                                    invite.showAccept();
+
+                                    dojo.byId("userMessage").innerHTML = "Welcome, " + globalconfig.accountName + "! Would you like like to accept your invite?";
+
+                                } else {
+
+                                    dojo.byId("userMessage").innerHTML = "Invalid username and/or password";
+                                    dojo.replaceClass("userMessage", 'alert', 'visuallyhidden');  
+                                }
+
+                            },
+                            error: function(error){
+
+                                dijit.byId("loadingDialog").hide();
+                        }
+                      }
+
+                      //Make our request
+                      var dfd = dojo.xhrPost(xhrArgs);
+                        
+                    }
+                };
+
+                dojo.connect(dojo.byId("loginButton"), "onclick", function(){ userLogin(); }); 
+                dojo.connect(dojo.byId("password"), "keypress", function(evt){ 
+                    switch(evt.charOrCode){
+                        case keys.ENTER:
+                            userLogin(); 
+                            break;
+                    }   
+                }); 
+
+                // End normal login }
+
+                // Facebook Login Logic {
+
+                on(dom.byId('facebookLoginButton'), 'click', 
+                    function() {
+                        //Make a call to get FB auth token
+
+                        dijit.byId("loadingDialog").show();
+
+                        FB.login(function(response){
+
+                            if(response.status === "connected") {
+
+                                var serviceURL = globalconfig.serviceHost + "/api/2.2/facebook/login",
+                                    token = response.authResponse.accessToken;
+
+                                var queryString = "token=" + token;
+
+                                var xhrArgs = {
+                                    url: serviceURL,
+                                    postData: queryString,
+                                    handleAs: "json",
+
+                                    load: function(data) {
+
+                                        if(data.valid) {
+
+                                            fx.fadeOut({ node: "login" }).play();
+
+                                            dojo.replaceClass("userMessage", 'success', 'visuallyhidden alert'); 
+
+                                            globalconfig.accountId = data.account.accountId;
+
+                                            domConstruct.destroy(dojo.byId("login"));
+
+                                            invite.showAccept();
+
+                                            dojo.byId("userMessage").innerHTML = "Welcome, " + globalconfig.accountName + "! Would you like like to accept your invite?";
+                                            
+                                        }
+                                        else {
+                                            
+                                        }
+                                    },
+
+                                    error: function(data) {
+                                        dojo.byId("userMessage").innerHTML = data.message;
+                                    },
+
+                                    handle: function(data) { 
+
+                                        dijit.byId("loadingDialog").hide();
+                                    }
+                                }
+                              
+                                // Call the asynchronous xhrPost
+                                var dfd = dojo.xhrPost(xhrArgs);
+                            }
+
+
+
+                        }, { 
+                        scope:"email,user_about_me,offline_access"
+                    }); 
+
+                });
+
+                // Facebook Login Logic }
+
+                dojo.connect(dojo.byId("resetPassword"), "onclick", function() {
+                    dojo.removeClass("resetPasswordDialog",'hidden');
+                    dijit.byId("resetPasswordDialog").show();
+                    dojo.addClass(win.body(), "dialogShowing");
+                });
+
+                dojo.connect(dojo.byId("sendResetButton"), "onclick", function() {
+            
+                    if (dijit.byId("changePasswordForm").validate()) { 
+                        
+                        var serviceURL = globalconfig.serviceHost
+                            + "/api/2.9/consumer/requestpasswordreset";
+
+                        var queryString = domForm.toQuery("changePasswordForm");
+                        queryString = queryString + "&from=Cash%20Dash&domain=http://" + window.location.host + "&subUrl=/apps/cashdashpassreset";
+                            
+                        var xhrArgs = {
+                            url: serviceURL,
+                            postData: queryString,
+                            handleAs: "json",
+
+                            load: function(data) {
+
+                                if(data.valid) {
+
+                                    dojo.byId("userMessage").innerHTML = "An email was sent to reset your password.";
+                                    dojo.replaceClass("userMessage", 'success', 'hidden alert');
+                                    dijit.byId("resetPasswordDialog").hide();
+                                }
+                                else {
+                                    dojo.byId("userMessage").innerHTML = data.message;
+                                    dojo.replaceClass("userMessage", 'alert', 'hidden');
+                                }
+                            },
+
+                            error: function(data) {
+                                dojo.byId("userMessage").innerHTML = data.message;
+                            },
+
+                            handle: function(data) { 
+
+                                dijit.byId("resetPasswordDialog").hide();
+                                dojo.removeClass(win.body(), "dialogShowing");
+                            }
+                        }
+                      
+                        // Call the asynchronous xhrPost
+                        var dfd = dojo.xhrPost(xhrArgs);
+                    }
+                   });
+        
+                dojo.connect(dojo.byId("cancelResetButton"), "onclick", function() {
+                    dijit.byId("resetPasswordDialog").hide();
+                    setTimeout(function() {
+                        dojo.removeClass(win.body(), "dialogShowing");
+                    }, 200);
+                });
+    });
+</script>
+
+<h3>Log in to accept <br/><br/><i>Click Facebook Login if you haven't downloaded and registered in the game yet!!</i></h3>
+<p></p>
+<form class="signin" id="loginForm" data-dojo-type="dijit.form.Form" action="login" onsubmit="return false">
+                     
+
+    <fieldset for="signin">
+        
+        <div class="row">
+
+            <label class="large-3 columns">Username</label>
+            
+            <div class="large-9 columns">
+                <div type="text" class="form-input" name="username" data-dojo-type="dijit.form.ValidationTextBox" 
+                data-dojo-props="placeholder:'Username',
+                    maxLength:50,
+                    required:true,
+                    autocomplete:true,
+                    promptMessage:'Please enter your username or email.',
+                    missingMessage:'Please enter your username or email.'">
+                </div> 
+            </div>
+
+        </div>
+        
+        <div class="row">
+
+            <label class="large-3 columns" for="password">Password</label>
+            
+            <div class="large-9 columns">
+                <div type="password"  name="password" id="password",
+                class="form-input"
+                required
+                data-dojo-type="dijit.form.ValidationTextBox" type="password"
+                data-dojo-props="placeholder:'Password',
+                    maxLength:50,
+                    required:true,
+                    promptMessage:'Please enter your password.',
+                    missingMessage:'Please enter your password.'">
+                </div>
+            </div>
+
+        </div>
+
+    </fieldset>
+
+</form>
+        
+    <div class="large-12 right columns">
+        <button class="button-style-1 button radius success" id="facebookLoginButton">Facebook Login</button>
+        
+        <button class="button-style-1 button radius right success" id="loginButton">Login</button>
+    </div>
+    <a href="#" class="" id="resetPassword">Forgot Password</a>
+
+
+<div id="loadingDialog" class="confirmDialog infoDialog hidden"
+    data-dojo-type="dijit.Dialog">
+    <div class="confirmDialogInner">
+        <div class="subSubHeader">Please wait while we log you in.</div>    
+        <div class="loadingVan"></div>  
+    </div>
+</div>
+
+<div id="resetPasswordDialog" class="resetPasswordDialog hidden infoDialog"
+    data-dojo-type="dijit.Dialog">
+    <div class="subHeader dialogHeader">Reset Password</div>
+
+    <div class="confirmDialogInner">
+        <div class="registerFormWrapper">
+    
+            <form id="changePasswordForm" data-dojo-type="dijit.form.Form"
+                onsubmit="return false">
+                <div class="formRow">
+                    <label for="email" class="signupLabel nameLabel">Email</label>
+                    <div id="email" class="form-input signupFormField" name="email"
+                        data-dojo-type="dijit.form.ValidationTextBox"
+                        data-dojo-props="placeholder:'Email',maxLength:255,required:true,promptMessage:'Please enter your email.',missingMessage:'Please enter your email.'"></div>
+                </div>
+                
+                <div class="buttonRow">
+                    <div id="errorText" class="errorText" style="width: 400px;"></div>
+                    <span id="cancelResetButton" class="blankButton dialogCancelButton">Cancel</span>
+                    <button id="sendResetButton" class="button dialogOkButton radius button-style-1" tabindex="-1">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<form id="hiddenLogin" action="/landing" method="POST">     
+    <input id="accountId" name="accountId" type="hidden"></input>      
+    <input id="accountName" name="accountName" type="hidden"></input>
+    <input id="customerInfo" name="customerInfo" type="hidden"></input>     
+</form>
+					</div>
+
+					<div id="invite-prompts" class="large-12 columns hidden">
+        				
+        				<button class="button-style-1 button radius" id="accept-invite">Accept Invite</button>
+
+					</div>
+
+				</div> <!-- // Login Area -->
+				
+				
+				<p style="clear:both;margin-top:100px">"You Don't need great thumbs to win, Just a great Heart!"</p>
+				
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+<script type="text/javascript"
+	src="http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject.js"></script>
+
+<script>
+    require(["dojo/dom", 
+		"dojo/parser", 
+		"dojo/_base/window",
+		"dojo/on",
+		"dojo/dom-class",
+		"dojo/io-query",
+		"sirqul/consumer/invite",
+		"dijit/form/TextBox",
+        "dojo/domReady!"], function(dom, parser, win, on, domClass, ioQuery, invite){
+
+        // parser.parse();
+    	
+    	dojo.addClass(win.body(), "claro split-page adventures");
+
+        //************************
+        // Unity Functions
+        //************************
+
+    	function getUnity() //Default unity functions
+		{
+			if (typeof unityObject != "undefined") {
+				return unityObject.getObjectById("unityPlayer");
+			}
+			
+			return null;
+		};
+
+		function loadUnity() {
+			if (typeof unityObject != "undefined") {
+				unityObject.embedUnity("unityPlayer", "/game/cashdash/webplayer/WebPlayer.unity3d", 750, 470);
+			
+			}
+		};
+
+		//************************
+        // Connect Events
+        //************************
+
+        // Unity Player
+
+/*        on(dojo.byId('play'), "click", function(evt){
+        	domClass.remove(dojo.byId('unityPlayer'), 'hidden');
+
+        	domClass.add(dojo.byId('banner-image'), 'hidden');
+
+        	loadUnity();
+        });*/
+
+        //Invite Logic 
+        on(dojo.byId("inviteFriendsButton"), "click", function(){
+
+        	var username = dijit.byId("username").get("value");
+			var serviceURL = globalconfig.serviceHost + "/api/2.9/account/profile/get";
+			var queryString = "connectionAccountEmail=" + username
+			+ "&accountId=1";
+
+			var xhrArgs = {
+				url : serviceURL,
+				postData : queryString,
+				handleAs : "text"
+			};
+
+			dojo.byId("inviteUrl").innerHTML = "Generating your personalized invite URL...";
+			
+			dojo.xhrPost(xhrArgs).addBoth(
+					dojo.hitch(this, function(results) {
+						var r = dojo.fromJson(results);
+						if (r.valid) {
+							if (r.profileInfo && r.profileInfo.accountId && r.profileInfo.accountId != 1) {
+								getInvite(r.profileInfo.accountId);
+								return;
+							}	
+						}
+						dojo.byId("inviteUrl").innerHTML = "Invalid email address";
+					}));
+			
+        });
+
+        var getInvite = function(accountId) {
+        	var username = dijit.byId("username").get("value");
+			var serviceURL = globalconfig.serviceHost + "/api/2.9/consumer/invite";
+			var queryString = "appKey=" + globalconfig.cdKey + "&accountId=" + accountId;
+
+			var xhrArgs = {
+				url : serviceURL,
+				postData : queryString,
+				handleAs : "text"
+			};
+
+			dojo.xhrPost(xhrArgs).addBoth(
+					dojo.hitch(this, function(results) {
+						var r = dojo.fromJson(results);
+						if (r.valid) {
+							dojo.byId("inviteUrl").innerHTML = r.url;	
+							return;
+						}
+						dojo.byId("inviteUrl").innerHTML = "Error generating URL";
+					}));
+        
+        }
+        
+        
+        on(dojo.byId("accept-invite"), "click", function(){
+        	invite.acceptInvite();
+        	invite.hideAccept();
+
+        	dojo.byId("userMessage").innerHTML = "Invite Accepted!";
+        	domClass.remove(dojo.byId('download-links'), 'hidden');
+    	});
+
+        //************************
+        // RUN
+        //************************
+
+        var token = invite.getInviteCode();
+
+        if(token) {
+//        	domClass.add(dojo.byId('download-links'), 'hidden');
+        	domClass.remove(dojo.byId('login-area'), 'hidden');
+
+        	invite.getInvite();
+        }
+		
+	});
+</script>
+				            
+	            <div class="row module-style-3" id="footer2">
+	            	
+	            	<aside class="large-12 large-centered columns">
+	            	
+	            	    <div class="footer-content">
+	            	        
+	            	        <div class="large-8 columns">               
+	            	
+	            	            <small class="copyright">&copy;2013 Sirqul</small>
+	            	
+	            	            <nav class="legal">
+	            	            
+	            	                <ul class="inline-list">
+	            	                    <li><a href="/about/">About</a></li>
+	            	                    <li><a href="/contact">Contact Us</a></li>
+	            	                    <li><a href="/privacypolicy">Privacy Policy</a></li>
+	            	                    <li><a href="/termsofservice">Terms of Service</a></li>
+	            	                    
+	            	                </ul>
+	            	
+	            	            </nav>
+	            	
+	            	        </div>
+	            	
+	            	        <div class="large-4 columns">
+	            	
+	            	            <ul class="inline-list social-links">
+    <li class="social-icons-google"><a target="_blank" href="https://plus.google.com/u/0/b/117362728527285760317/"></a></li>
+    <li class="social-icons-facebook"><a target="_blank" href="http://www.facebook.com/sirqul"></a></li>
+    <li class="social-icons-twitter"><a target="_blank" href="https://twitter.com/Sirqul"></a></li>
+    <li class="social-icons-linkedin"><a target="_blank" href="http://www.linkedin.com/company/3035321"></a></li>
+    </ul>     
+	            	
+	            	        </div>
+	            	    
+	            	    </div> 	            	
+	            	</aside>
+	            </div>
+		            
+		        </footer>
+		        
+		    </div> 
+        </div> <!-- End Wrap } -->
+
+
+
+
+        <!-- Begin Scripts { --> 
+	        
+	       
+			
+			
+		<!-- End Scripts } --> 
+        
+
+    </body>
+</html>

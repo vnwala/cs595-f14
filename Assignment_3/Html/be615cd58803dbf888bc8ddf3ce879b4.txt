@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome To My Flex Job!</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/simplyscroll.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="css/iefix.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<style type="text/css">
+.mqee img {
+	height:192px;
+}
+
+#wss {
+	opacity:0; 
+	-webkit-transition:opacity 1.0s linear 0s; 
+	transition:opacity 1.5s linear 0s;
+	text-align:center;
+	height:192px;
+	overflow:hidden;
+}
+#wss img {
+	max-width:288px;
+	max-height:192px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	text-align:center;
+}
+</style>       
+<script> 
+var wss_i = 0; 
+var wss_array = [
+	'<img src="images/home_workers_1.jpg" />',
+	'<img src="images/home_workers_2.jpg" />',
+	'<img src="images/home_workers_3.jpg">'
+];
+var wss_elem; 
+
+function wssNext(){ 
+	wss_i++; 
+	wss_elem.style.opacity = 0; 
+	if(wss_i > (wss_array.length - 1)){ wss_i = 0; } 
+	setTimeout('wssSlide()',1000);
+} 
+
+function wssSlide(){ 
+	wss_elem.innerHTML = wss_array[wss_i]; 
+	wss_elem.style.opacity = 1; 
+	setTimeout('wssNext()',5000); 
+}
+</script>
+</head>
+<body class="homepage">
+<div id="header-wrapper">
+  <div id="header" class="container"><div id="logo">
+	<h1><a href="index.php">My<span>Flex</span>Job</a></h1>
+</div>
+<div id="menu">
+ <ul>
+    <li ><a href="index.php" title=""><span>Home</span></a></li>
+    <!--<li ><a href="how_it_works.php" title=""><span>Q&amp;A</span></a></li>-->
+    <li ><a href="application.php" title=""><span>Job&nbsp;Application</span></a></li>
+    <li ><a href="employers.php" title=""><span>Employers</span></a></li>
+    <li ><a href="about.php" title=""><span>About Us</span></a></li>
+ </ul>
+</div></div>
+</div>
+<div id="banner-wrapper">
+	<div id="banner">
+		<h2>Fortune 500 Companies Need Flex Workers!</h2>
+		<p>We connect individuals looking for Flex Jobs to hundreds of companies every day.</p>
+		<p>You can start working right now!</p>
+      <div class="v_tny"></div>
+		<a href="application.php" class="button lg">Submit Your Application</a>
+	</div>
+</div>
+<div id="page-wrapper">
+	<div id="page" class="container">
+
+		<div id="box4" class="box-style2">
+	    <h2 align="center" class="title">How It Works...</h2></div>
+
+		<div id="page-content">
+			<div id="box1" class="box-style1">
+				<h2 class="title">1. Create a Processing Profile</h2>
+				<p>Complete a short application so that we can match you with companies currently looking for processors that fit your profile.  This is an equal opportunity offer and no one will be discriminated against because of age, race, sex, education, employment history and you will not be asked for references. No one will be refused the opportunity of processing offers for our company.</p>
+</div>
+		  <div id="box2" class="box-style1">
+			<h2 class="title">2. Pick Your Job(s)</h2>
+			  <p>Compare and choose which of our partner companies you would like to process trial offers for.  There is NO limit on how many companies you can start working for because we have such a huge demand for processors.  You will have multiple companies interested in hiring you today.  In short...we need Trial Offer Processors immediately to fulfill our ongoing demand.<br />
+			  </p>
+			</div>
+		  <div id="box3" class="box-style1">
+			<h2 class="title">3. Complete Assignments</h2>
+			  <p>You can work at your own pace and choose the days and hours you wish to work.  If you can follow simple step-by-step instructions and type out some basic information, then you can be a Trail Offer Processor. You will be paid between $12.33 to $27.90 per hour depending on the company and offers you process.  Many of our processors are making up to 371.25+ a week part-time.</p>
+			</div>
+		</div>
+	  <div id="box4" class="box-style2">
+			<h2 align="center" class="title">Who Are We?</h2>
+		<img src="images/pics07.jpg" width="165" height="88" alt="" class="round left" />
+		  <p>MyFlexJob.com creates online flex jobs for individuals looking for a solid flexible career. Working with Fortune 500 companies we help individuals find flexible spare-time, part-time and full-time work online. <br />
+		  We operate and offer our unique services in the trial offer processing industry in the United States of America, Canada, United Kingdom, Australia and New Zealand and help find excellent paying flex jobs and careers for over 730,000 employees annually. Our extensive network allows us to offer a variety of flex jobs with the most reputable companies all around the world.</p>
+		  <p><br />
+      Our goal is to become the world leader in trial offer processing flex jobs and you can prosper along with us, by joining our growing team today...</p>
+		  <p>&nbsp;</p>
+		</div>
+
+		<div id="page-content">
+		  <div id="box1" class="box-style1">
+				<h2 class="title">The Companies...</h2>
+<marquee height="192px" style="overflow:hidden;" behavior="alternate" loop="true" direction="left" scrollamount="3" class="mqee" >
+         <img src="images/logos/01.jpg">
+         <img src="images/logos/02.jpg">
+         <img src="images/logos/03.jpg">
+         <img src="images/logos/04.jpg">
+         <img src="images/logos/05.jpg">
+         <img src="images/logos/06.jpg">
+         <img src="images/logos/07.jpg">
+        </marquee><br />
+
+				<p>Fortune 500 Companies, you already know and trust need your help...we are the bridge between these corporations and people like you!</p>
+
+                
+				<!--
+                <ul id="scroller1">
+                 <li><img src="images/logos/01.jpg"></li>
+                 <li><img src="images/logos/02.jpg"></li>
+                 <li><img src="images/logos/03.jpg"></li>
+                 <li><img src="images/logos/04.jpg"></li>
+                 <li><img src="images/logos/05.jpg"></li>
+                 <li><img src="images/logos/06.jpg"></li>
+                 <li><img src="images/logos/07.jpg"></li>
+				</ul> --> 
+	    </div>
+			<div id="box2" class="box-style1">
+				<h2 class="title">The Team...</h2>
+                <img src="images/about_us_2.jpg" width="288" class="round" />
+                <br />
+				<p>We prefer to work with our flex job processors like a team and support you all the way.  Together Everyone Achieves More!</p>
+                
+      
+				
+</div>
+			<div id="box3" class="box-style1">
+				<h2 class="title">The Workers...</h2>
+                <div id="wss"></div>
+				<script>wss_elem = document.getElementById("wss"); wssSlide(); </script>
+                
+				<p>Stay at home moms, individuals looking to just earn extra income part-time, students, people 
+			    restricted or limited due to health reasons and people simply wanting a flexible career.</p>
+                
+                
+
+		  </div>
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<div id="footer-columns" class="container">
+		<div id="column1">
+		 <ul class="style1">
+            <li><a href="index.php">Home</a></li>
+            <!--<li><a href="#">How It Works</a></li>-->
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="terms.php">Terms</a></li>
+            <li><a href="privacy.php">Privacy Policy</a></li>
+		 </ul>
+		</div>
+        
+		<div id="column2">
+		 <ul class="style1">
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="partner.php">Partner With Us</a></li>
+            <li><a href="employers.php">Employers</a></li>
+            <li><a href="contact.php">Have Questions?</a></li>
+		 </ul>
+		</div>
+
+		
+            <div id="column3">
+                <h2>Ready To Get Started?</h2>
+                <p>Simply complete the application form on the next page and be working within 24 hours!</p>
+                <div class="v_tny"></div>
+                <center><a href="application.php" class="button md">Submit Your Application</a></center>
+            </div>
+            <div id="column4">
+                <h2>Job Center Login</h2>
+                <form action="login.php" method="post" enctype="multipart/form-data">
+                 <input type="hidden" name="login_post" value="true">
+                 
+                 <input type="text" name="e" value="Email Address" class="login_footer" onfocus="if(this.value=='Email Address')this.value='';"  onblur="if(this.value=='')this.value='Email Address';" />
+                 
+                 <input type="text" name="p" value="Password" class="login_footer" onfocus="this.type='password'; this.value=(this.value == 'Password') ? '' : this.value;" 
+             onblur="if(this.value==''){this.value='Password'; this.type='text';}" />
+                 <input type="submit" value="Log In" class="button sm" />
+                </form>
+            </div>
+        	</div>
+
+	<div class="clearfix"></div>
+	<p class="copy">Copyright &copy; My Flex Job 2013-2014 All Rights Reserved.</p>
+</div>
+
+</body>
+</html>

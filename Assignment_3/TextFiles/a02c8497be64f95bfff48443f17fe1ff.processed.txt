@@ -1,0 +1,255 @@
+   #[1]The Tairus Blog - Atom [2]The Tairus Blog - RSS
+
+The Tairus Blog
+
+   OOP,PHP,Web Development,MYSQL,Yii,Bootstrap...Blog.
+
+                                   IFRAME:
+   [3]//platform.twitter.com/widgets/follow_button.html?screen_name=_tairu
+                                      s
+
+Thursday, 29 May 2014
+
+[4]MYSQLi PHP Basics without prepared statements
+
+   MySQLi and PDO are object oriented and support Prepared Statements
+   (also support Transactions, Stored Procedures and more). Prepared
+   Statements are very important for web application security, as they
+   protect from SQL injection. Using Prepared Statements you do not have
+   to escape strings before insert them in Database. Moreover, PDO offers
+   support for many databases (not only MySQL).
+   Establish a database connection
+   $DBServer = 'localhost';  // or an IP address
+   $DBUser   = 'root';
+   $DBPass   = 'your password';
+   $DBName   = 'dbname';
+    $conn = new mysqli($DBServer, $DBUser, $DBPass, $DBName);
+   // check connection
+   if ($conn->connect_error) {
+   trigger_error('Database connection failed: '  . $conn->connect_error,
+   E_USER_ERROR);
+   }
+   //select rows
+   $sql='SELECT * FROM users';
+   $rs=$conn->query($sql);
+     $rows_returned = $rs->num_rows;
+   echo $rows_returned;  //returns number of rows
+   //loop through the records
+   $rs->data_seek(0);
+   while($row = $rs->fetch_assoc()){
+       echo $row['id'] . '<br>';
+   }
+   //insert
+   $sql="INSERT INTO users VALUES ($id)";
+   if($conn->query($sql) === false) {
+     trigger_error('Wrong SQL: ' . $sql . ' Error: ' . $conn->error,
+   E_USER_ERROR);
+   } else {
+     $last_inserted_id = $conn->insert_id;
+     $affected_rows = $conn->affected_rows;
+   }
+   //update
+   $sql="UPDATE tbl SET col1_varchar=$v1, col2_number=1 WHERE id>10";
+   if($conn->query($sql) === false) {
+     trigger_error('Wrong SQL: ' . $sql . ' Error: ' . $conn->error,
+   E_USER_ERROR);
+   } else {
+     $affected_rows = $conn->affected_rows;
+   }
+   //delete
+   $sql="DELETE FROM tbl WHERE id>10";
+   if($conn->query($sql) === false) {
+     trigger_error('Wrong SQL: ' . $sql . ' Error: ' . $conn->error,
+   E_USER_ERROR);
+   } else {
+     $affected_rows = $conn->affected_rows;
+   }
+   Remember to escape_string when inserting since you are not using
+   prepared sql statements.
+   $conn->real_escape_string('col1_value')
+   By [5]Tairus Maina at [6]06:03 [7]No comments : [8]Links to this post
+   [9]Email This [10]BlogThis! [11]Share to Twitter [12]Share to Facebook
+   [13]Share to Pinterest
+   Labels: [14]mysql , [15]mysqli , [16]php
+   [17]Older Posts [18]Home
+   Subscribe to: [19]Posts ( Atom )
+
+Search Posts
+
+   Loading...
+
+Blogger Profile
+
+   [20]My Photo
+
+   [21]Tairus Maina
+          Nairobi, Nairobi, Kenya
+
+   [22]View my complete profile
+
+Popular Posts
+
+     * [23]Ten output devices, advantages and disadvantages, inter-site
+       back-up mechanism, Expert systems for medical diagnosis,information
+       systems security
+       (i)Printer Printer enables us to produce information output on
+       paper. It is one of the most popular computer output devices...
+     * [24]Windows Server Manager Step-by-Step Guide: Scenarios
+       Windows Server Manager Step-by-Step Guide: Scenarios Applies To:
+       Windows Server 2008 Server Manager is a new tool available wi...
+     * [25]Create a Local PHP MySQL Development Environment
+       Step 1. Download the installation files You will need to download
+       and install the windows version of the installers for each of the
+       below...
+     * [26]simple basic object oriented java code for employee salary
+       calculation
+       import java.io.*; import java.util.Scanner; public class Employees
+       {     Scanner scan=new Scanner(System.in);     String Fname;   int
+       EmpID;...
+
+Got A Question? Ask Me, Its free!
+
+   Name
+   ______________________________
+
+   Email *
+   ______________________________
+
+   Message *
+
+   _________________________
+   _________________________
+   _________________________
+   _________________________
+   _________________________
+
+   [BUTTON Input] (not implemented)____
+
+Archive
+
+     * [27]▼  [28]2014 ( 11 )
+          + [29]▼  [30]May ( 2 )
+               o [31]▼  [32]May 29 ( 1 )
+                    # [33]MYSQLi PHP Basics without prepared statements
+               o [34]►  [35]May 03 ( 1 )
+          + [36]►  [37]Apr ( 9 )
+               o [38]►  [39]Apr 29 ( 1 )
+               o [40]►  [41]Apr 28 ( 1 )
+               o [42]►  [43]Apr 25 ( 1 )
+               o [44]►  [45]Apr 24 ( 2 )
+               o [46]►  [47]Apr 23 ( 2 )
+               o [48]►  [49]Apr 22 ( 1 )
+               o [50]►  [51]Apr 15 ( 1 )
+
+     * [52]►  [53]2013 ( 12 )
+          + [54]►  [55]Nov ( 6 )
+               o [56]►  [57]Nov 15 ( 6 )
+          + [58]►  [59]Jul ( 1 )
+               o [60]►  [61]Jul 17 ( 1 )
+          + [62]►  [63]May ( 3 )
+               o [64]►  [65]May 02 ( 3 )
+          + [66]►  [67]Mar ( 1 )
+               o [68]►  [69]Mar 05 ( 1 )
+          + [70]►  [71]Jan ( 1 )
+               o [72]►  [73]Jan 17 ( 1 )
+
+     * [74]►  [75]2012 ( 1 )
+          + [76]►  [77]Apr ( 1 )
+               o [78]►  [79]Apr 16 ( 1 )
+
+   Tairus © 2014. All rights Reserved. Template images by [80]Jason
+   Morrow. Powered by [81]Blogger.
+
+References
+
+   Visible links
+   1. http://tairusinc.blogspot.com/feeds/posts/default
+   2. http://tairusinc.blogspot.com/feeds/posts/default?alt=rss
+   3. http://platform.twitter.com/widgets/follow_button.html?screen_name=_tairus
+   4. http://tairusinc.blogspot.com/2014/05/mysqli-php-basics-without-prepared.html
+   5. http://www.blogger.com/profile/05262904619078459701
+   6. http://tairusinc.blogspot.com/2014/05/mysqli-php-basics-without-prepared.html
+   7. http://tairusinc.blogspot.com/2014/05/mysqli-php-basics-without-prepared.html#comment-form
+   8. http://tairusinc.blogspot.com/2014/05/mysqli-php-basics-without-prepared.html#links
+   9. http://www.blogger.com/share-post.g?blogID=5058498909264152393&postID=6215018246756099295&target=email
+  10. http://www.blogger.com/share-post.g?blogID=5058498909264152393&postID=6215018246756099295&target=blog
+  11. http://www.blogger.com/share-post.g?blogID=5058498909264152393&postID=6215018246756099295&target=twitter
+  12. http://www.blogger.com/share-post.g?blogID=5058498909264152393&postID=6215018246756099295&target=facebook
+  13. http://www.blogger.com/share-post.g?blogID=5058498909264152393&postID=6215018246756099295&target=pinterest
+  14. http://tairusinc.blogspot.com/search/label/mysql
+  15. http://tairusinc.blogspot.com/search/label/mysqli
+  16. http://tairusinc.blogspot.com/search/label/php
+  17. http://tairusinc.blogspot.com/search?updated-max=2014-05-29T06:03:00-07:00&max-results=1
+  18. http://tairusinc.blogspot.com/
+  19. http://tairusinc.blogspot.com/feeds/posts/default
+  20. http://www.blogger.com/profile/05262904619078459701
+  21. http://www.blogger.com/profile/05262904619078459701
+  22. http://www.blogger.com/profile/05262904619078459701
+  23. http://tairusinc.blogspot.com/2013/05/ten-output-devices-advantages-and.html
+  24. http://tairusinc.blogspot.com/2013/05/windows-server-manager-step-by-step_2.html
+  25. http://tairusinc.blogspot.com/2013/11/create-local-php-mysql-development.html
+  26. http://tairusinc.blogspot.com/2013/11/simple-basic-object-oriented-java-code.html
+  27. javascript:void(0)
+  28. http://tairusinc.blogspot.com/search?updated-min=2014-01-01T00:00:00-08:00&updated-max=2015-01-01T00:00:00-08:00&max-results=11
+  29. javascript:void(0)
+  30. http://tairusinc.blogspot.com/search?updated-min=2014-05-01T00:00:00-07:00&updated-max=2014-06-01T00:00:00-07:00&max-results=2
+  31. javascript:void(0)
+  32. http://tairusinc.blogspot.com/2014_05_29_archive.html
+  33. http://tairusinc.blogspot.com/2014/05/mysqli-php-basics-without-prepared.html
+  34. javascript:void(0)
+  35. http://tairusinc.blogspot.com/2014_05_03_archive.html
+  36. javascript:void(0)
+  37. http://tairusinc.blogspot.com/search?updated-min=2014-04-01T00:00:00-07:00&updated-max=2014-05-01T00:00:00-07:00&max-results=9
+  38. javascript:void(0)
+  39. http://tairusinc.blogspot.com/2014_04_29_archive.html
+  40. javascript:void(0)
+  41. http://tairusinc.blogspot.com/2014_04_28_archive.html
+  42. javascript:void(0)
+  43. http://tairusinc.blogspot.com/2014_04_25_archive.html
+  44. javascript:void(0)
+  45. http://tairusinc.blogspot.com/2014_04_24_archive.html
+  46. javascript:void(0)
+  47. http://tairusinc.blogspot.com/2014_04_23_archive.html
+  48. javascript:void(0)
+  49. http://tairusinc.blogspot.com/2014_04_22_archive.html
+  50. javascript:void(0)
+  51. http://tairusinc.blogspot.com/2014_04_15_archive.html
+  52. javascript:void(0)
+  53. http://tairusinc.blogspot.com/search?updated-min=2013-01-01T00:00:00-08:00&updated-max=2014-01-01T00:00:00-08:00&max-results=12
+  54. javascript:void(0)
+  55. http://tairusinc.blogspot.com/search?updated-min=2013-11-01T00:00:00-07:00&updated-max=2013-12-01T00:00:00-08:00&max-results=6
+  56. javascript:void(0)
+  57. http://tairusinc.blogspot.com/2013_11_15_archive.html
+  58. javascript:void(0)
+  59. http://tairusinc.blogspot.com/search?updated-min=2013-07-01T00:00:00-07:00&updated-max=2013-08-01T00:00:00-07:00&max-results=1
+  60. javascript:void(0)
+  61. http://tairusinc.blogspot.com/2013_07_17_archive.html
+  62. javascript:void(0)
+  63. http://tairusinc.blogspot.com/search?updated-min=2013-05-01T00:00:00-07:00&updated-max=2013-06-01T00:00:00-07:00&max-results=3
+  64. javascript:void(0)
+  65. http://tairusinc.blogspot.com/2013_05_02_archive.html
+  66. javascript:void(0)
+  67. http://tairusinc.blogspot.com/search?updated-min=2013-03-01T00:00:00-08:00&updated-max=2013-04-01T00:00:00-07:00&max-results=1
+  68. javascript:void(0)
+  69. http://tairusinc.blogspot.com/2013_03_05_archive.html
+  70. javascript:void(0)
+  71. http://tairusinc.blogspot.com/search?updated-min=2013-01-01T00:00:00-08:00&updated-max=2013-02-01T00:00:00-08:00&max-results=1
+  72. javascript:void(0)
+  73. http://tairusinc.blogspot.com/2013_01_17_archive.html
+  74. javascript:void(0)
+  75. http://tairusinc.blogspot.com/search?updated-min=2012-01-01T00:00:00-08:00&updated-max=2013-01-01T00:00:00-08:00&max-results=1
+  76. javascript:void(0)
+  77. http://tairusinc.blogspot.com/search?updated-min=2012-04-01T00:00:00-07:00&updated-max=2012-05-01T00:00:00-07:00&max-results=1
+  78. javascript:void(0)
+  79. http://tairusinc.blogspot.com/2012_04_16_archive.html
+  80. http://jasonmorrow.etsy.com/
+  81. http://www.blogger.com/
+
+   Hidden links:
+  83. http://www.blogger.com/email-post.g?blogID=5058498909264152393&postID=6215018246756099295
+  84. http://www.blogger.com/rearrange?blogID=5058498909264152393&widgetType=CustomSearch&widgetId=CustomSearch1&action=editWidget&sectionId=sidebar-left-1
+  85. http://www.blogger.com/rearrange?blogID=5058498909264152393&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=sidebar-left-1
+  86. http://www.blogger.com/rearrange?blogID=5058498909264152393&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar-left-1
+  87. http://www.blogger.com/rearrange?blogID=5058498909264152393&widgetType=ContactForm&widgetId=ContactForm1&action=editWidget&sectionId=sidebar-left-3
+  88. http://www.blogger.com/rearrange?blogID=5058498909264152393&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar-left-3
+  89. http://www.blogger.com/rearrange?blogID=5058498909264152393&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer-3

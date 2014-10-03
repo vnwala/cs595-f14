@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+		<title>vb-hellfire visual basic faq</title>
+		<meta name="keywords" 	 content="visual basic, vb, programmieren, programmierer, entwicklung, faq, vb-faq, fragen, antworten, newsgroups, netzwerk, internet, dateien, runtime, lösungen , cd-rom, cd, autorun, system, activex, com, office, automatisierung, datenbank, dao, ado, access, mdb, setup, installation, vertrieb, steuerelemente, usercontrols, form, forms, formulare, hilfe, lösungen, dateien, windows, system">
+		<meta name="description" content=" - Themenübersicht: Alle Themen">
+		<meta name="author" 	 content="Thorsten Dörfler">
+		<meta name="robots" 	 content="INDEX,FOLLOW">
+		
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="http://vb-faq.de/news.rss">
+		<link rel="search" type="text/html" title="Suchen" href="/search.php">
+		<link rel="copyright" type="text/html" title="Impressum" href="/imprint.php">
+		<link rel="Shortcut Icon" type="image/png" href="/common/main/images/vbh_icon.png">
+		<link rel="stylesheet" type="text/css" href="/common/main/css/faqmain.css" media="screen" title="Main Style">
+		<link rel="stylesheet" type="text/css" href="/common/main/css/faqmain_print.css" media="print">
+		
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-2187463-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<div id="head">
+			<a href="/"><img src="/common/main/images/vbh_logo.gif" width="121" height="43" alt="vb-hellfire" title="" style="margin:15px;"></a>
+			<img src="/common/main/images/faq_banner.gif" width="241" height="33" style="position:absolute; top:34px;" alt="visual basic faq - antworten auf die h&auml;ufigsten fragen" title="">
+			</div>
+			<div id="headline">&nbsp;</div>
+			<!-- obere Navigationsleiste -->
+			<div id="headband">
+			<form   method="GET" action="/search.php">
+				<div style="float: right"><a class="rss" href="/news.rss"><img style="margin-top:3px;" src="/common/main/images/toolband/rss.png" height="16" width="28" alt="RSS" title="RSS Feed abonnieren"></a></div>
+				<div style="float: right;">
+					<input class="text" type="text" id="find" name="find" placeholder="Suchen..." size="18" title="Suchbegriff">
+					<input name="submit" type="hidden" >
+				</div></form>
+					  
+				<div><a href="/">Startseite</a><a href="/knowlib/">Knowledge Library</a><a href="/top10.php">Top 10</a><a href="/imprint.php">Impressum</a></div>
+				
+			</div>
+		</header>
+		<!-- // obere Navigationsleiste -->
+		
+		<ul id="navigate">
+			<li class="title">themen</li>
+			<li><a href="/?Topic=12">Informationen zu dieser FAQ</a></li>
+<li><a href="/?Topic=1">Allgemein</a></li>
+<li><a href="/?Topic=2">IDE</a></li>
+<li><a href="/?Topic=15">Formulare</a></li>
+<li><a href="/?Topic=3">Steuerelemente</a></li>
+<li><a href="/?Topic=4">Datenbanken</a></li>
+<li><a href="/?Topic=14">Dateien</a></li>
+<li><a href="/?Topic=5">Internet/Netzwerk</a></li>
+<li><a href="/?Topic=10">Automatisierung (ActiveX/COM)</a></li>
+<li><a href="/?Topic=6">Windows System</a></li>
+<li><a href="/?Topic=11">Vertrieb und Installation</a></li>
+			
+		</ul>
+		<!-- // Themennavigation -->
+		<article>
+			
+			<div id="google">
+				<script type="text/javascript"><!--
+				google_ad_client = "pub-0456706348287071";
+				/* vbfaq top */
+				google_ad_slot = "4679835378";
+				google_ad_width = 468;
+				google_ad_height = 60;
+				//-->
+				</script>
+				<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+			</div>
+			<div class="newsbox"><h3>Neuigkeiten</h3>
+<dl class="index">
+<dt><time datetime="2011-08-26">26.08.2011</time><br><a href="/news/facelift/">Facelift und das Ende von vb-hellfire.de</a></dt><dd>Nach über 10 Jahren beinahe ohne sichtbare Veränderung dachte ich, wäre es doch mal an der Zeit etwas Neues zu machen. Um Raum für Neues zu schaffen, muss das Alte aber erst Mal weg.</dd><dt><time datetime="2011-05-15">15.05.2011</time><br><a href="/knowlib/assignedip/">Die Frage nach der IP</a></dt><dd>Der IP Service myip.bdsw.de wird ab 29.05.2011 nicht mehr erreichbar sein. 
+Über diesen Stichtag hinaus ist dieser nunmehr nur noch über <a href="http://myip.tdsw.de/">http://myip.tdsw.de/</a> abrufbar.
+Die Adresse im Artikel und Beispielprojekt wurden bereits im Februar entsprechend aktualisiert.</dd><dt><time datetime="2011-02-13">13.02.2011</time><br><a href="/knowlib/assignedip/">Mit Bordmitteln die öffentliche IP-Adresse hinter einem Hardware-Router ermitteln</a></dt><dd>Immer mehr Nutzer gehen mit DSL online. Meist erfolgt dieser Zugang über
+einen Router, mit W-LAN, Firewall und allem was dazu gehört, damit man selbst,
+seine Familie, Freunde oder WG-Kollegen halbwegs sicher im Internet unterwegs
+sein können. Damit ist aber auch der Nachteil verbunden, dass man auf dem
+eigenen Rechner nicht mehr ohne weiteres die öffentliche IP-Adresse in
+Erfahrung bringen kann, wie bei der klassischen RAS-Einwahl.</dd><dt><time datetime="2010-10-06">06.10.2010</time><br><a href="/wo-finde-ich-weitere-hilfestellungen/">Wo finde ich weitere Hilfestellungen?</a></dt><dd>Weitergehende Hilfe zu Problemen mit Visual Basic in den Versionen 1.0-6.0 gibt es unter anderem ...</dd></dl></div>
+
+			<h3><a href="/?Topic=12">1. Informationen zu dieser FAQ</a></h3>
+<ul class="index">
+<li><a href="wer-traegt-zu-dieser-faq-bei/">Wer trägt zu dieser FAQ bei?</a></li>
+<li><a href="bezug-der-vb-hellfire-visual-basic-faq/">Bezug der vb-hellfire Visual Basic FAQ</a></li>
+<li><a href="ber-dieses-dokument/">Über dieses Dokument</a></li>
+<li><a href="wo-finde-ich-weitere-hilfestellungen/">Wo finde ich weitere Hilfestellungen?</a></li>
+<li><a href="was-ist-mit-den-microsoft-newsgroups-passiert/">Was ist mit den Microsoft Newsgroups passiert?</a></li>
+</ul>
+<h3><a href="/?Topic=1">2. Allgemein</a></h3>
+<ul class="index">
+<li><a href="kann-man-mit-vb-ausfuehrbare-programme-erstellen-die-keine-runtime-benoetigen/">Kann man mit VB ausführbare Programme erstellen, die keine Runtime benötigen?</a></li>
+<li><a href="kann-man-vb-programme-decompilieren/">Kann man VB Programme decompilieren?</a></li>
+<li><a href="koennen-vb-programme-ohne-installation-von-cd-gestartet-werden-autorun/">Können VB Programme ohne Installation von CD gestartet werden (Autorun)?</a></li>
+<li><a href="wie-greife-ich-auf-die-zwischenablage-zu/">Wie greife ich auf die Zwischenablage zu?</a></li>
+<li><a href="wie-kann-ich-den-aktuellen-prozedurnamen-herausfinden/">Wie kann ich den aktuellen Prozedurnamen herausfinden?</a></li>
+<li><a href="wie-kann-ich-bilder-scrollen/">Wie kann ich Bilder scrollen?</a></li>
+<li><a href="wie-kann-ich-avi-dateien-anzeigen-und-abspielen/">Wie kann ich AVI-Dateien anzeigen und abspielen?</a></li>
+<li><a href="wie-kann-ich-eine-programm-pause-erreichen/">Wie kann ich eine Programm-Pause erreichen?</a></li>
+<li><a href="wie-kann-ich-eine-zeichenfolge-aufteilen/">Wie kann ich eine Zeichenfolge aufteilen?</a></li>
+<li><a href="wie-spiele-ich-einen-wave---sound-ab/">Wie spiele ich einen Wave - Sound ab?</a></li>
+<li><a href="wie-kann-ich-menueeintraege-mit-icons-versehen/">Wie kann ich Menüeinträge mit Icons versehen?</a></li>
+<li><a href="wie-verhindere-ich-das-beenden-meines-programms/">Wie verhindere ich das Beenden meines Programms?</a></li>
+<li><a href="wie-kann-man-daten-einfach-verschluesseln/">Wie kann man Daten einfach verschlüsseln?</a></li>
+<li><a href="wie-kann-sicherstellen-dass-nur-eine-programminstanz-ausgefuehrt-wird/">Wie kann sicherstellen, dass nur eine Programminstanz ausgeführt wird?</a></li>
+<li><a href="wie-laesst-sich-feststellen-ob-der-benutzer-bei-der-inputbox-abbrechen-gewaehlt-hat/">Wie lässt sich feststellen, ob der Benutzer bei der InputBox &quot;Abbrechen&quot; gewählt hat?</a></li>
+<li><a href="wie-nutze-ich-drag--drop-in-meiner-anwendung/">Wie nutze ich Drag &amp; Drop in meiner Anwendung?</a></li>
+<li><a href="woher-bekomme-ich-symbole-fuer-meine-anwendung/">Woher bekomme ich Symbole für meine Anwendung?</a></li>
+<li><a href="wie-gebe-ich-animierte-gif-grafiken-in-meiner-anwendung-wieder/">Wie gebe ich animierte GIF Grafiken in meiner Anwendung wieder?</a></li>
+<li><a href="was-unterscheidet-vb-von-vba/">Was unterscheidet VB von VBA?</a></li>
+<li><a href="welche-bezugsmoeglichkeiten-bestehen-fuer-visual-basic-60/">Welche Bezugsmöglichkeiten bestehen für Visual Basic 6.0?</a></li>
+<li><a href="wie-kann-ich-feststellen-ob-ein-dynamisches-array-leer-ist/">Wie kann ich feststellen, ob ein dynamisches Array leer ist?</a></li>
+<li><a href="wie-stelle-ich-fest-ob-ein-key-in-einer-collection-vorhanden-ist/">Wie stelle ich fest, ob ein Key in einer Collection vorhanden ist?</a></li>
+<li><a href="kann-ich-meine-vb6-anwendungen-nach-vbnet-uebernehmen/">Kann ich meine VB6 Anwendungen nach VB.NET übernehmen?</a></li>
+<li><a href="wie-verwende-ich-benutzerdefinierte-typen-in-oeffentlichen-methoden/">Wie verwende ich benutzerdefinierte Typen in öffentlichen Methoden?</a></li>
+<li><a href="muessen-objektvariablen-auf-nothing-gesetzt-werden/">Müssen Objektvariablen auf Nothing gesetzt werden?</a></li>
+<li><a href="warum-wird-mein-mauszeiger-nicht-geaendert/">Warum wird mein Mauszeiger nicht geändert?</a></li>
+<li><a href="wirkt-sich-die-verwendung-von-konstanten-negativ-auf-die-performance-aus/">Wirkt sich die Verwendung von Konstanten negativ auf die Performance aus?</a></li>
+<li><a href="was-ist-der-unterschied-zwischen--und--bei-der-zeichenfolgen-verkettung/">Was ist der Unterschied zwischen + und &amp; bei der Zeichenfolgen-Verkettung?</a></li>
+</ul>
+<h3><a href="/?Topic=2">3. IDE</a></h3>
+<ul class="index">
+<li><a href="wie-behebe-ich-systemfehler-h80004002--2147467262-schnittstelle-nicht-unterstuetzt/">Wie behebe ich &quot;Systemfehler &amp;H80004002 (-2147467262). Schnittstelle nicht unterstützt.&quot;?</a></li>
+<li><a href="wie-behebe-ich-lizenzierungsinformationen-fuer-diese-komponente-nicht-gefunden/">Wie behebe ich &quot;Lizenzierungsinformationen für diese Komponente nicht gefunden.&quot;?</a></li>
+<li><a href="vb6-verlangt-nach-dem-start-die-installation-von-vba6msi--vba6demsi/">VB6 verlangt nach dem Start die Installation von VBA6.MSI / VBA6DE.MSI?</a></li>
+<li><a href="wie-erreiche-ich-dass-fenster-in-der-ide-maximiert-angezeigt-werden/">Wie erreiche ich, dass Fenster in der IDE maximiert angezeigt werden?</a></li>
+<li><a href="vb-meldet-projekt-oder-bibliothek-nicht-gefunden-bei-vba-funktionen/">VB meldet &quot;Projekt oder Bibliothek nicht gefunden&quot; bei VBA-Funktionen?</a></li>
+<li><a href="warum-kann-ich-keine-projekte-mehr-kompilieren/">Warum kann ich keine Projekte mehr kompilieren?</a></li>
+<li><a href="warum-funktioniert-mein-scroll-rad-nicht-in-der-vb-ide/">Warum funktioniert mein Scroll-Rad nicht in der VB-IDE?</a></li>
+<li><a href="welches-service-pack-ist-aktuell/">Welches Service Pack ist aktuell?</a></li>
+<li><a href="beim-kompilieren-erhalte-ich-den-fehler-zugriff-verweigert-oder-linkexe-fehler/">Beim Kompilieren erhalte ich den Fehler &quot;Zugriff verweigert&quot; oder Link.exe Fehler?</a></li>
+<li><a href="warum-stuerzt-die-vb-ide-ab-wenn-ich-die-ausfuehrung-beende-stop-button/">Warum stürzt die VB-IDE ab, wenn ich die Ausführung beende (Stop-Button)?</a></li>
+<li><a href="warum-erhalte-ich-beim-auswaehlen-von-komponenten-die-meldung-zugriff-verweigert/">Warum erhalte ich beim Auswählen von Komponenten die Meldung &quot;Zugriff verweigert&quot;?</a></li>
+</ul>
+<h3><a href="/?Topic=15">4. Formulare</a></h3>
+<ul class="index">
+<li><a href="wie-kann-ich-feststellen-ob-ein-formular-bereits-geladen-ist/">Wie kann ich feststellen, ob ein Formular bereits geladen ist?</a></li>
+<li><a href="wie-erstelle-ich-ein-fenster-ohne-titelleiste/">Wie erstelle ich ein Fenster ohne Titelleiste?</a></li>
+<li><a href="wie-halte-ich-ein-formular-immer-im-vordergrund/">Wie halte ich ein Formular immer im Vordergrund?</a></li>
+<li><a href="wie-zeige-ich-ein-neues-formular-an-ohne-es-zu-aktivieren/">Wie zeige ich ein neues Formular an ohne es zu aktivieren?</a></li>
+<li><a href="wie-kann-ich-formulare-ohne-titelleiste-verschieben/">Wie kann ich Formulare ohne Titelleiste verschieben?</a></li>
+<li><a href="wie-schalte-ich-ein-formular-transparent/">Wie schalte ich ein Formular transparent? </a></li>
+<li><a href="wie-ermittel-ich-den-handle-eines-externen-fensters/">Wie ermittel ich den Handle eines externen Fensters?</a></li>
+<li><a href="warum-werden-meine-menue-shortcuts-nicht-angezeigt/">Warum werden meine Menü-Shortcuts nicht angezeigt?</a></li>
+<li><a href="wie-stelle-ich-ein-formular-wieder-her-normalmaximiert/">Wie stelle ich ein Formular wieder her (normal/maximiert)?</a></li>
+<li><a href="warum-wird-mein-formular-nicht-in-der-taskleiste-angezeigt/">Warum wird mein Formular nicht in der Taskleiste angezeigt?</a></li>
+<li><a href="wie-lagere-ich-mdi-child-formulare-in-dlls-aus/">Wie lagere ich MDI Child-Formulare in DLLs aus?</a></li>
+</ul>
+<h3><a href="/?Topic=3">5. Steuerelemente</a></h3>
+<ul class="index">
+<li><a href="wie-fuege-ich-steuerelemente-zur-laufzeit-hinzu/">Wie füge ich Steuerelemente zur Laufzeit hinzu?</a></li>
+<li><a href="wie-speichert-man-listbox-eintraege/">Wie speichert man ListBox-Einträge?</a></li>
+<li><a href="gibt-es-ein-mouseout-ereignis-fuer-controls/">Gibt es ein MouseOut Ereignis für Controls?</a></li>
+<li><a href="wie-kann-ich-das-beep-signal-bei-return-in-einer-textbox-abschalten/">Wie kann ich das Beep-Signal bei Return in einer TextBox abschalten?</a></li>
+<li><a href="wie-markiere-ich-den-inhalt-eines-textfeldes-bei-fokuserhalt/">Wie markiere ich den Inhalt eines Textfeldes bei Fokuserhalt?</a></li>
+<li><a href="wie-stelle-ich-usercontrol-toolbox-bitmaps-richtig-dar/">Wie stelle ich UserControl Toolbox Bitmaps richtig dar?</a></li>
+<li><a href="wie-kann-ich-die-common-dialogs-ohne-form-verwenden/">Wie kann ich die Common Dialogs ohne Form verwenden?</a></li>
+<li><a href="wie-stelle-ich-fest-ob-der-benutzer-beim-common-dialog-abbrechen-gewaehlt-hat/">Wie stelle ich fest, ob der Benutzer beim Common Dialog &quot;Abbrechen&quot; gewählt hat?</a></li>
+<li><a href="wie-kann-ich-den-listindex-einer-combo--listbox-setzen-ohne-das-click---ereignis-auszuloesen/">Wie kann ich den ListIndex einer Combo-/ ListBox setzen ohne das Click - Ereignis auszulösen?</a></li>
+<li><a href="wie-kann-ich-eine-combobox-automatisch-aufklappen-lassen/">Wie kann ich eine ComboBox automatisch aufklappen lassen?</a></li>
+<li><a href="wie-kann-ich-ein-flexgrid-mit-einer-eingabemoeglichkeit-versehen/">Wie kann ich ein FlexGrid mit einer Eingabemöglichkeit versehen?</a></li>
+<li><a href="wie-erreicht-man-einen-feldwechsel-mit-der-eingabe--statt-mit-der-tab-taste/">Wie erreicht man einen Feldwechsel mit der Eingabe- statt mit der TAB-Taste?</a></li>
+<li><a href="wie-kann-ich-eine-datacombo-automatisch-aufklappen-lassen/">Wie kann ich eine DataCombo automatisch aufklappen lassen?</a></li>
+<li><a href="wie-zeige-ich-ein-kontextmenue-in-einem-listviewtreeview-an/">Wie zeige ich ein Kontextmenü in einem ListView/TreeView an?</a></li>
+<li><a href="wie-speichere-ich-dateien-mit-dem-common-dialog/">Wie speichere ich Dateien mit dem Common Dialog?</a></li>
+<li><a href="wie-stelle-ich-mehrere-spalten-in-einer-listbox-dar/">Wie stelle ich mehrere Spalten in einer ListBox dar?</a></li>
+<li><a href="wie-selektiere-ich-einen-eintrag-im-listview/">Wie selektiere ich einen Eintrag im ListView?</a></li>
+<li><a href="wie-stelle-ich-fest-ob-ein-eintrag-im-listview-wirklich-ausgewaehlt-ist/">Wie stelle ich fest, ob ein Eintrag im ListView wirklich ausgewählt ist?</a></li>
+<li><a href="wie-erstelle-ich-einen-info-dialog-fuer-eigene-steuerelemente/">Wie erstelle ich einen Info-Dialog für eigene Steuerelemente?</a></li>
+<li><a href="wie-erhalte-ich-eine-eigenschaft-zur-farbauswahl/">Wie erhalte ich eine Eigenschaft zur Farbauswahl?</a></li>
+<li><a href="wie-erhalte-ich-eine-eigenschaft-zur-grafikauswahl/">Wie erhalte ich eine Eigenschaft zur Grafikauswahl?</a></li>
+<li><a href="wie-erhalte-ich-eine-eigenschaft-zur-schriftauswahl/">Wie erhalte ich eine Eigenschaft zur Schriftauswahl?</a></li>
+<li><a href="wie-entferne-ich-eine-auswahl-beim-listview/">Wie entferne ich eine Auswahl beim ListView?</a></li>
+<li><a href="wie-kann-ich-den-index-eines-optionsfeld-array-ermitteln/">Wie kann ich den Index eines Optionsfeld-Array ermitteln?</a></li>
+<li><a href="wie-aendere-ich-die-schriftfarbe-bei-einen-commandbutton/">Wie ändere ich die Schriftfarbe bei einen CommandButton?</a></li>
+<li><a href="wie-kann-ich-auf-implementierte-schnittstellen-eines-usercontrol-zugreifen/">Wie kann ich auf implementierte Schnittstellen eines UserControl zugreifen?</a></li>
+</ul>
+<h3><a href="/?Topic=4">6. Datenbanken</a></h3>
+<ul class="index">
+<li><a href="warum-liefern-die-absoluteposition--recordcount---eigenschaften-immer--1-ado/">Warum liefern die AbsolutePosition-/ RecordCount - Eigenschaften immer -1? (ADO)</a></li>
+<li><a href="warum-wird-der-ole-db-provider-jet-35140-nicht-gefunden-ado/">Warum wird der OLE DB Provider Jet 3.51/4.0 nicht gefunden? (ADO)</a></li>
+<li><a href="wie-erfasse-ich-dezimalzahlen-in-ado-recordsets/">Wie erfasse ich Dezimalzahlen in ADO-Recordsets?</a></li>
+<li><a href="wie-ermittel-ich-den-wert-eines-autoincrease--feldes-direkt-nach-hinzufuegen-des-datensatzes/">Wie ermittel ich den Wert eines AutoIncrease- Feldes direkt nach Hinzufügen des Datensatzes?</a></li>
+<li><a href="wie-oeffnet-man-eine-passwortgeschuetzte-datenbank-dao/">Wie öffnet man eine Passwortgeschützte Datenbank (DAO)?</a></li>
+</ul>
+<h3><a href="/?Topic=14">7. Dateien</a></h3>
+<ul class="index">
+<li><a href="wie-kann-ich-die-groesse-einer-datei-ermitteln/">Wie kann ich die Größe einer Datei ermitteln?</a></li>
+<li><a href="wie-kann-ich-feststellen-ob-eine-datei-bereits-geoeffnet-ist/">Wie kann ich feststellen, ob eine Datei bereits geöffnet ist?</a></li>
+<li><a href="wie-extrahiere-ich-symbole-aus-einer-datei-und-zeige-diese-an/">Wie extrahiere ich Symbole aus einer Datei und zeige diese an?</a></li>
+<li><a href="wie-ermittel-ich-die-datentraeger-bezeichnung--nummer-/">Wie ermittel ich die Datenträger-Bezeichnung/ -Nummer ?</a></li>
+<li><a href="wie-ermittel-ich-den-pfad-der-temporaeren-dateien/">Wie ermittel ich den Pfad der temporären Dateien?</a></li>
+<li><a href="wie-ermittel-ich-den-pfad-des-windows-ordner/">Wie ermittel ich den Pfad des Windows Ordner?</a></li>
+<li><a href="wie-ermittel-ich-den-pfad-des-windows-system-ordner/">Wie ermittel ich den Pfad des Windows-System Ordner?</a></li>
+<li><a href="wie-ermittel-ich-den-pfad-eines-besonderen-ordners-zb-eigene-dateien/">Wie ermittel ich den Pfad eines besonderen Ordners (z.B. &quot;Eigene Dateien&quot;)? </a></li>
+<li><a href="wie-oeffne-ich-eine-datei-mit-der-ihr-zugeordneten-anwendung/">Wie öffne ich eine Datei mit der ihr zugeordneten Anwendung?</a></li>
+<li><a href="wie-stelle-ich-fest-ob-eine-datei-ein-verzeichnis-schon-existiert/">Wie stelle ich fest, ob eine Datei/ ein Verzeichnis schon existiert?</a></li>
+<li><a href="wie-ermittel-ich-den-pfad-des-anwendungsverzeichnisses/">Wie ermittel ich den Pfad des Anwendungsverzeichnisses?</a></li>
+<li><a href="wie-stelle-ich-fest-ob-ein-laufwerk-bereit-ist/">Wie stelle ich fest, ob ein Laufwerk bereit ist?</a></li>
+<li><a href="wie-kann-ich-bei-der-shell-funktion-ein-arbeitsverzeichnis-mitgeben/">Wie kann ich bei der Shell-Funktion ein Arbeitsverzeichnis mitgeben?</a></li>
+</ul>
+<h3><a href="/?Topic=5">8. Internet/Netzwerk</a></h3>
+<ul class="index">
+<li><a href="wie-stelle-ich-fest-ob-eine-df-verbindung-besteht/">Wie stelle ich fest, ob eine DFÜ Verbindung besteht?</a></li>
+<li><a href="wie-ermittel-ich-den-rechnernamen/">Wie ermittel ich den Rechnernamen?</a></li>
+<li><a href="wie-ermittel-ich-den-anmeldenamen-des-aktuellen-benutzers/">Wie ermittel ich den Anmeldenamen des aktuellen Benutzers?</a></li>
+</ul>
+<h3><a href="/?Topic=10">9. Automatisierung (ActiveX/COM)</a></h3>
+<ul class="index">
+<li><a href="wie-kann-ich-word-von-vb-aus-fernsteuern/">Wie kann ich Word von VB aus fernsteuern?</a></li>
+<li><a href="wie-stelle-ich-fest-ob-word-bereits-geoeffnet-ist/">Wie stelle ich fest, ob Word bereits geöffnet ist?</a></li>
+<li><a href="komfortable-late-bound-office-automation/">Komfortable Late-Bound Office Automation</a></li>
+<li><a href="loesen-nicht-vorhandene-verweise-einen-fehler-aus/">Lösen nicht vorhandene Verweise einen Fehler aus?</a></li>
+<li><a href="wie-kann-ich-feststellen-ob-ein-objekt-registriert-ist/">Wie kann ich feststellen, ob ein Objekt registriert ist?</a></li>
+</ul>
+<h3><a href="/?Topic=6">10. Windows System</a></h3>
+<ul class="index">
+<li><a href="wie-erstelle-ich-ein-symbol-im-taskleisten-statusbereich-tray/">Wie erstelle ich ein Symbol im Taskleisten-Statusbereich (Tray)?</a></li>
+<li><a href="wie-greife-ich-auf-die-windows-registrierung-zu/">Wie greife ich auf die Windows-Registrierung zu?</a></li>
+<li><a href="wie-ermittel-ich-die-aktuelle-bildschirmaufloesung/">Wie ermittel ich die aktuelle Bildschirmauflösung?</a></li>
+<li><a href="wie-kann-ich-umgebungsvariablen-auslesen/">Wie kann ich Umgebungsvariablen auslesen?</a></li>
+<li><a href="wie-ermittel-ich-die-aktuelle-mausposition/">Wie ermittel ich die aktuelle Mausposition?</a></li>
+<li><a href="wie-kann-ich-den-mauszeiger-versetzen/">Wie kann ich den Mauszeiger versetzen?</a></li>
+<li><a href="wie-blende-ich-den-mauszeiger-aus/">Wie blende ich den Mauszeiger aus?</a></li>
+<li><a href="wie-erreiche-ich-dass-ein-dos-fenster-automatisch-nach-der-ausfuehrung-geschlossen-wird/">Wie erreiche ich, dass ein DOS Fenster automatisch nach der Ausführung geschlossen wird?</a></li>
+<li><a href="wie-greife-ich-auf-ini-dateien-zu/">Wie greife ich auf INI-Dateien zu?</a></li>
+<li><a href="wie-kann-ich-windows-von-vb-aus-neu-startenbeenden/">Wie kann ich Windows von VB aus neu starten/beenden?</a></li>
+<li><a href="wie-rufe-ich-den-beenden--ausfuehren--dialog-von-windows-auf/">Wie rufe ich den Beenden-/ Ausführen- Dialog von Windows auf?</a></li>
+<li><a href="wie-kann-ich-die-arbeitsstation-sperrenden-benutzer-wechseln-bildschirm-anzeigen/">Wie kann ich die Arbeitsstation sperren/den Benutzer wechseln Bildschirm anzeigen?</a></li>
+<li><a href="wie-kann-ich-einstiegspunkte-und-parameter-unbekannter-dlls-ermitteln/">Wie kann ich Einstiegspunkte und Parameter unbekannter DLLs ermitteln?</a></li>
+<li><a href="wie-stelle-ich-fest-ob-eine-soundkarte-installiert-ist/">Wie stelle ich fest, ob eine Soundkarte installiert ist?</a></li>
+<li><a href="wie-kann-ich-die-groesse-des-verfuegbaren-arbeitsbereichs-ermitteln/">Wie kann ich die Größe des verfügbaren Arbeitsbereichs ermitteln?</a></li>
+<li><a href="wie-liste-ich-die-verfuegbaren-seriellen-schnittstellen-auf/">Wie liste ich die verfügbaren seriellen Schnittstellen auf?</a></li>
+</ul>
+<h3><a href="/?Topic=11">11. Vertrieb und Installation</a></h3>
+<ul class="index">
+<li><a href="wie-erstelle-ich-ein-setup-mit-inno-setup/">Wie erstelle ich ein Setup mit Inno Setup?</a></li>
+<li><a href="wie-kann-ich-dateien-automatisch-meinem-installationspaket-hinzufuegen-lassen/">Wie kann ich Dateien automatisch meinem Installationspaket hinzufügen lassen?</a></li>
+<li><a href="wie-behebe-ich-den-fehler-fehler-beim-registrieren-der-msadoxxtlb/">Wie behebe ich den Fehler &quot;Fehler beim Registrieren der 'msadoxx.tlb'&quot;?</a></li>
+<li><a href="warum-wird-eine-aktuellere-version-meines-programms-nicht-durchs-setup-ersetzt/">Warum wird eine aktuellere Version meines Programms nicht durchs Setup ersetzt?</a></li>
+<li><a href="wie-erstelle-ich-ein-setup-mit-inno-setup-ii/">Wie erstelle ich ein Setup mit Inno Setup? II</a></li>
+<li><a href="warum-erfordert-das-setup-einen-neustart-von-windows/">Warum erfordert das Setup einen Neustart von Windows?</a></li>
+<li><a href="wie-erstelle-ich-internationale-setuppakete/">Wie erstelle ich internationale Setuppakete?</a></li>
+</ul>
+
+		</article>
+		
+		<footer>
+			<p><a href="imprint.php">Copyright &copy;1999-2011 Thorsten Dörfler. Alle Rechte vorbehalten.</a></p>
+		</footer>
+	</body>
+</html>

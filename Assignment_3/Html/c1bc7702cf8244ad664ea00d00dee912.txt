@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        
+        <meta charset="utf-8">
+        <title>mengo</title>
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_716ec833e573_128.png">
+        <link rel="apple-touch-icon-precomposed" href="http://33.media.tumblr.com/avatar_716ec833e573_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://yourmengostuff.tumblr.com/rss">
+        
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/qE8n2yg06/optica-icons.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/lu6nbykui/main.css">
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+            <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /* Colors */
+            body {
+                background: #888888;
+            }
+
+            h1 {
+                font-family: 'Streetscript', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+                font-weight: bold;
+            }
+
+            h1 a,
+            .description,
+            .search-header {
+                color: #e17e66;
+            }
+
+            .h-line {
+                background: #e17e66;
+            }
+
+            a {
+                color: #D95E40;
+            }
+            
+            #pagination a,
+            .exposed-nav-wrapper li a {
+                color: #D95E40;
+            }
+
+            #pagination a.next:after {
+                border-left-color: #D95E40;
+            }
+
+            #pagination a.previous:after {
+                border-right-color: #D95E40;
+            }
+
+            .loader .loader-bar {
+                background-color: #e17e66;
+            }
+
+            .link-wrapper h2 a {
+                background-color: #D95E40;
+            }
+            
+            .header-image.cover {
+                background-image: url(http://static.tumblr.com/2036586e00d449298dce47f9d4dd2dac/iuxlo7k/g7Cn9mrty/tumblr_static_exaugmslxp4c4k4s8kg0k04og_2048_v2.jpg);
+            }
+
+            .user-avatar {
+                background-color: #888888;
+                border-color: #888888;
+            }
+
+            .avatar-style-square .user-avatar {
+                -wekbit-box-shadow: 0 0 0 4px #888888;
+                -moz-box-shadow: 0 0 0 4px #888888;
+                box-shadow: 0 0 0 4px #888888;
+            }
+            
+            .no-header-image .selector .bar-icon,
+            .contain-header-image .selector .bar-icon {
+                background: #D95E40;
+            }
+
+            .no-header-image .search-only .selector .icon,
+            .contain-header-image .search-only .selector .icon {
+                color: #D95E40;
+            }
+
+            /* Adjust menus for light accents on light backgrounds */
+            .light-on-light.no-header-image .selector .bar-icon,
+            .light-on-light.contain-header-image .selector .bar-icon {
+                background: #444;
+            }
+
+            .light-on-light.no-header-image .search-only .selector .icon,
+            .light-on-light.contain-header-image .search-only .selector .icon {
+                color: #444;
+            }
+
+            /* Adjust menus for dark accents on dark backgrounds */
+            .dark-on-dark.no-header-image .selector .bar-icon,
+            .dark-on-dark.contain-header-image .selector .bar-icon {
+                background: #fff;
+            }
+
+            .dark-on-dark.no-header-image .search-only .selector .icon,
+            .dark-on-dark.contain-header-image .search-only .selector .icon {
+                color: #fff;
+            }
+
+            @media screen and (max-device-width: 568px) {
+                .header-image.cover {
+                    background-image: url(http://static.tumblr.com/2036586e00d449298dce47f9d4dd2dac/iuxlo7k/g7Cn9mrty/tumblr_static_exaugmslxp4c4k4s8kg0k04og_640_v2.jpg);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                .nav-menu-bg,
+                .nav-menu-wrapper .nav-menu.active:before,
+                .nav-menu .pop-menu ul {
+                    background: #888888;
+                }
+
+                .nav-menu.active .selector .bar-icon,
+                .below-header .selector .bar-icon {
+                    background: #D95E40;
+                }
+
+                .nav-menu .pop-menu ul li a,
+                .below-header .search-only .selector .icon {
+                    color: #D95E40;
+                }
+                
+                /* Adjust menus for light accents on light backgrounds */
+                .light-on-light.below-header .nav-menu .selector .bar-icon,
+                .light-on-light.below-header .selector .bar-icon {
+                    background: #444;
+                }
+
+                .light-on-light .nav-menu .pop-menu ul li a,
+                .light-on-light.below-header .search-only .selector .icon {
+                    color: #444;
+                }
+                
+                /* Adjust menus for dark accents on dark backgrounds */
+                .dark-on-dark .nav-menu .selector .bar-icon,
+                .dark-on-dark .below-header .selector .bar-icon {
+                    background: #fff;
+                }
+
+                .dark-on-dark .nav-menu .pop-menu ul li a,
+                .dark-on-dark.below-header .search-only .selector .icon {
+                    color: #fff;
+                }
+
+                .avatar-style-square .user-avatar {
+                    -wekbit-box-shadow: 0 0 0 3px #888888;
+                    -moz-box-shadow: 0 0 0 3px #888888;
+                    box-shadow: 0 0 0 3px #888888;
+                }
+
+            }
+
+            /* Custom CSS */
+            
+        </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=yourmengostuff" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/streetscript/stylesheet.css?v=1">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="mengo" /><meta property="og:url" content="http://yourmengostuff.tumblr.com/?og=1" /><meta property="og:description" content="" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_716ec833e573_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=yourmengostuff" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=yourmengostuff" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="yourmengostuff" /><meta name="twitter:description" content=" " /><meta name="twitter:creator" content="__MengZahari" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=yourmengostuff&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=yourmengostuff&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=yourmengostuff&amp;referrer=twitter-cards" />
+
+</head>
+    <body data-urlencoded-name="yourmengostuff" class="grid index-page contain-header-image">
+        <section id="page">
+            <div class="nav-menu-wrapper ">
+                <nav class="nav-menu pop">
+                    <a class="selector">
+                        
+                            <div class="bar-icon-wrapper">
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                            </div>
+                        
+                        
+                    </a>
+                    <div class="pop-menu west">
+                        <ul>
+                            <li class="no-hover search">
+                                <form action="/search" method="get" id="search">
+                                    <input type="text" name="q" id="q" placeholder="Search" value="">
+                                    <button type="submit" class="icon-search_16"></button>
+                                </form>
+                            </li>
+                            
+                                <li>
+                                    <a href="/archive" class="archive">Archive <i class="icon-arrow_carrot_right"></i></a>
+                                </li>
+                                
+                                
+                                
+                            
+                        </ul>
+                    </div> 
+                </nav>
+                <div class="glass"></div>
+            </div>
+            
+            <div class="nav-menu-bg"></div>
+            
+            <div class="header-wrapper
+                
+                
+                
+                avatar-style-circle">
+
+                <header id="header">
+                    
+                    <div class="header-image-wrapper contain">
+                        <a href="/" class="header-image parallax  contain" data-bg-image="http://static.tumblr.com/2036586e00d449298dce47f9d4dd2dac/iuxlo7k/g7Cn9mrty/tumblr_static_exaugmslxp4c4k4s8kg0k04og_2048_v2.jpg">
+                            
+                            <img src="http://static.tumblr.com/2036586e00d449298dce47f9d4dd2dac/iuxlo7k/g7Cn9mrty/tumblr_static_exaugmslxp4c4k4s8kg0k04og_2048_v2.jpg" alt="">
+                            
+                        </a>
+                        <div class="loader-bg"></div>
+                    </div>
+                    
+
+                    <div class="blog-title content">
+                        <figure class="avatar-wrapper animate">
+                            <a href="/" style="background-image: url(http://33.media.tumblr.com/avatar_716ec833e573_128.png)" class="user-avatar"><img src="http://33.media.tumblr.com/avatar_716ec833e573_128.png" alt="" class="print-only invisible"></a>
+                        </figure>
+
+                        <div class="title-group animate">
+                            
+                            <h1><a href="/">mengo</a></h1>
+                            
+                            
+                            <span class="description">
+                                
+                            </span>
+                            
+                        </div>
+                    </div>
+
+                    
+                </header>
+            </div>
+            
+            <section id="posts" class="content clearfix  avatar-style-circle  ">
+    
+                <div data-page-id="1">
+                    
+                            <article class="photo not-page post-98694724031 " data-post-id="post_98694724031">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="640">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://instagram.com/p/tg3POHAMH6/"><img src="http://33.media.tumblr.com/f147dd31c416433715ffe182e01f3580/tumblr_ncn6wxeUnu1tiz97vo1_500.jpg" alt="Sebab rindu, sebab sayang &amp;amp; sebab Cinta." width="640" height="640"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>Sebab rindu, sebab sayang &amp; sebab Cinta.</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://yourmengostuff.tumblr.com/post/98694724031/sebab-rindu-sebab-sayang-sebab-cinta" title="21 hours ago">Sep 28th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98694724031">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98694724031">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98694724031%2Fsebab-rindu-sebab-sayang-sebab-cinta&amp;t=mengo" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20Sebab%20rindu%2C%20sebab%20sayang%20%26%20sebab%20Cinta.%20http%3A%2F%2Ftmblr.co%2FZUW7rm1RwgVc-" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20mengo&amp;body=Photo%3A%20Sebab%20rindu%2C%20sebab%20sayang%20%26%20sebab%20Cinta.%20http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98694724031%2Fsebab-rindu-sebab-sayang-sebab-cinta" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://yourmengostuff.tumblr.com/post/98694724031/sebab-rindu-sebab-sayang-sebab-cinta" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98694724031/fYKU4Bkl" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98694724031" id="like_button_98694724031"><iframe id="like_iframe_98694724031" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=yourmengostuff&amp;post_id=98694724031&amp;color=black&amp;rk=fYKU4Bkl" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-98694605051 " data-post-id="post_98694605051">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="640">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://instagram.com/p/tg3FAJAMHu/"><img src="http://33.media.tumblr.com/9759d85509ee2e7cc66ea11a2a93ccb4/tumblr_ncn6ulbkQg1tiz97vo1_500.jpg" alt="Sebenarnya kita nak bagi tahu yang mata kita cantik kan? Macam cantik je. Macam comel je. Hahaha" width="640" height="640"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>Sebenarnya kita nak bagi tahu yang mata kita cantik kan? Macam cantik je. Macam comel je. Hahaha</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://yourmengostuff.tumblr.com/post/98694605051/sebenarnya-kita-nak-bagi-tahu-yang-mata-kita" title="21 hours ago">Sep 28th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98694605051">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98694605051">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98694605051%2Fsebenarnya-kita-nak-bagi-tahu-yang-mata-kita&amp;t=mengo" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20Sebenarnya%20kita%20nak%20bagi%20tahu%20yang%20mata%20kita%20cantik%20kan%3F%20Macam%20cantik%20je.%20Macam%20comel%20je.%20Hahaha%20http%3A%2F%2Ftmblr.co%2FZUW7rm1Rwg2Zx" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20mengo&amp;body=Photo%3A%20Sebenarnya%20kita%20nak%20bagi%20tahu%20yang%20mata%20kita%20cantik%20kan%3F%20Macam%20cantik%20je.%20Macam%20comel%20je.%20Hahaha%20http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98694605051%2Fsebenarnya-kita-nak-bagi-tahu-yang-mata-kita" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://yourmengostuff.tumblr.com/post/98694605051/sebenarnya-kita-nak-bagi-tahu-yang-mata-kita" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98694605051/dAS6hmaF" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98694605051" id="like_button_98694605051"><iframe id="like_iframe_98694605051" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=yourmengostuff&amp;post_id=98694605051&amp;color=black&amp;rk=dAS6hmaF" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-98694428956 " data-post-id="post_98694428956">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="640">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://instagram.com/p/tg21hyAMHa/"><img src="http://38.media.tumblr.com/ca64fc38db10ce3d5904043b97b2c46c/tumblr_ncn6r25YWa1tiz97vo1_500.jpg" alt="Muka excited." width="640" height="640"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>Muka excited.</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://yourmengostuff.tumblr.com/post/98694428956/muka-excited" title="21 hours ago">Sep 28th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98694428956">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98694428956">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98694428956%2Fmuka-excited&amp;t=mengo" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20Muka%20excited.%20http%3A%2F%2Ftmblr.co%2FZUW7rm1RwfNaS" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20mengo&amp;body=Photo%3A%20Muka%20excited.%20http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98694428956%2Fmuka-excited" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://yourmengostuff.tumblr.com/post/98694428956/muka-excited" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98694428956/Y3R3lvGX" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98694428956" id="like_button_98694428956"><iframe id="like_iframe_98694428956" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=yourmengostuff&amp;post_id=98694428956&amp;color=black&amp;rk=Y3R3lvGX" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photo not-page post-98694373501 " data-post-id="post_98694373501">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+                                        <figure class="high-res with-caption" data-photo-width="640">
+                                            <div class="photo-wrapper">
+                                                <div class="photo-wrapper-inner">
+                                                    <a href="http://instagram.com/p/tg2wVLAMHQ/"><img src="http://33.media.tumblr.com/bde9beb2eea4f4d4b15f94f5161a9a97/tumblr_ncn6pz2esv1tiz97vo1_500.jpg" alt="Muka serabai." width="640" height="640"></a>
+                                                </div>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>Muka serabai.</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://yourmengostuff.tumblr.com/post/98694373501/muka-serabai" title="21 hours ago">Sep 28th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98694373501">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98694373501">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98694373501%2Fmuka-serabai&amp;t=mengo" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photo%3A%20Muka%20serabai.%20http%3A%2F%2Ftmblr.co%2FZUW7rm1RwfA1z" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20mengo&amp;body=Photo%3A%20Muka%20serabai.%20http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98694373501%2Fmuka-serabai" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://yourmengostuff.tumblr.com/post/98694373501/muka-serabai" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98694373501/zDWXCSCv" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98694373501" id="like_button_98694373501"><iframe id="like_iframe_98694373501" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=yourmengostuff&amp;post_id=98694373501&amp;color=black&amp;rk=zDWXCSCv" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-98621088521 " data-post-id="post_98621088521">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://yourmengostuff.tumblr.com/post/98621088521/chandelier">chandelier</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><span>I&#8217;m gonna swing from the chandelier, from the chandelier</span><br/><span>I&#8217;m gonna live like tomorrow doesn&#8217;t exist</span><br/><span>Like it doesn&#8217;t exist</span><br/><span>I&#8217;m gonna fly like a bird through the night, feel my tears as they dry</span><span><br/></span></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://yourmengostuff.tumblr.com/post/98621088521/chandelier" title="1 day ago">Sep 28th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98621088521">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98621088521">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98621088521%2Fchandelier&amp;t=chandelier" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=chandelier%20-%20I%E2%80%99m%20gonna%20swing%20from%20the%20chandelier%2C%20from%20the%20chandelier%20I%E2%80%99m%20gonna%20live%20like%20tomorrow%20doesn%E2%80%99t...%20http%3A%2F%2Ftmblr.co%2FZUW7rm1RsHcC9" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20mengo&amp;body=chandelier%20-%20I%E2%80%99m%20gonna%20swing%20from%20the%20chandelier%2C%20from%20the%20chandelier%20I%E2%80%99m%20gonna%20live%20like%20tomorrow%20doesn%E2%80%99t%20exist%20Like%20it%20doesn%E2%80%99t%20exist%20I%E2%80%99m%20gonna%20fly%20like%20a%20bird%20through%20the%20night%2C%20feel%20my...%20http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98621088521%2Fchandelier" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://yourmengostuff.tumblr.com/post/98621088521/chandelier" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98621088521/nzh9EmtT" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98621088521" id="like_button_98621088521"><iframe id="like_iframe_98621088521" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=yourmengostuff&amp;post_id=98621088521&amp;color=black&amp;rk=nzh9EmtT" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-98621063416 " data-post-id="post_98621063416">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p><span>But I&#8217;m holding on for dear life, won&#8217;t look down won&#8217;t open my eyes</span><br/><span>Keep my glass full until morning light, &#8216;cos I&#8217;m just holding on for tonight</span><br/><span>Help me, I&#8217;m holding on for dear life, won&#8217;t look down won&#8217;t open my eyes</span><br/><span>Keep my glass full until morning light, &#8216;cos I&#8217;m just holding on for tonight</span><span><br/></span></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://yourmengostuff.tumblr.com/post/98621063416/but-im-holding-on-for-dear-life-wont-look-down" title="1 day ago">Sep 28th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98621063416">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98621063416">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98621063416%2Fbut-im-holding-on-for-dear-life-wont-look-down&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=But%20I%E2%80%99m%20holding%20on%20for%20dear%20life%2C%20won%E2%80%99t%20look%20down%20won%E2%80%99t%20open%20my%20eyes%20Keep%20my%20glass%20full%20until%20morning...%20http%3A%2F%2Ftmblr.co%2FZUW7rm1RsHW3u" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20mengo&amp;body=But%20I%E2%80%99m%20holding%20on%20for%20dear%20life%2C%20won%E2%80%99t%20look%20down%20won%E2%80%99t%20open%20my%20eyes%20Keep%20my%20glass%20full%20until%20morning%20light%2C%20%E2%80%98cos%20I%E2%80%99m%20just%20holding%20on%20for%20tonight%20Help%20me%2C...%20http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98621063416%2Fbut-im-holding-on-for-dear-life-wont-look-down" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://yourmengostuff.tumblr.com/post/98621063416/but-im-holding-on-for-dear-life-wont-look-down" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98621063416/UcOWC9gW" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98621063416" id="like_button_98621063416"><iframe id="like_iframe_98621063416" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=yourmengostuff&amp;post_id=98621063416&amp;color=black&amp;rk=UcOWC9gW" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-98620937441 " data-post-id="post_98620937441">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://yourmengostuff.tumblr.com/post/98620937441/hanieff">hanieff</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p>today was the diffrent days. Hanieff dah start buat perangai dia and si ex couple dia &#8220;Dora Shahidah&#8221; tu pun sibuk kacau hanieff kat moment and i was like &#8221; aku ni siapa weh? and sebelum ni takde pulak perempuan tu nak kacau hidup kau kan? and sekarang ni kau cari masalah pulak.&#8221; aku dah penat and aku dah bosan dah ngan perangai hanieff ni tapi sebab sayang aku layan kan je. tapi dia tak appreciate langsung apa yang aku buat tuk dia? semua nya dia fikir aku buat tu sebab penting kan diri sendiri. go die lah with all ur bitches and after this aku buat tak tahu je dengan apa kau buat lepas ni. fuck u&#160;!</p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://yourmengostuff.tumblr.com/post/98620937441/hanieff" title="1 day ago">Sep 28th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98620937441">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98620937441">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98620937441%2Fhanieff&amp;t=hanieff" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=hanieff%20-%20today%20was%20the%20diffrent%20days.%20Hanieff%20dah%20start%20buat%20perangai%20dia%20and%20si%20ex%20couple%20dia%20%E2%80%9CDora...%20http%3A%2F%2Ftmblr.co%2FZUW7rm1RsH1JX" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20mengo&amp;body=hanieff%20-%20today%20was%20the%20diffrent%20days.%20Hanieff%20dah%20start%20buat%20perangai%20dia%20and%20si%20ex%20couple%20dia%20%E2%80%9CDora%20Shahidah%E2%80%9D%20tu%20pun%20sibuk%20kacau%20hanieff%20kat%20moment%20and%20i%20was%20like%20%E2%80%9D%20aku%20ni%20siapa%20weh%3F%20and...%20http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F98620937441%2Fhanieff" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://yourmengostuff.tumblr.com/post/98620937441/hanieff" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98620937441/N43Vpz5s" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98620937441" id="like_button_98620937441"><iframe id="like_iframe_98620937441" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=yourmengostuff&amp;post_id=98620937441&amp;color=black&amp;rk=N43Vpz5s" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="photoset reblogged not-page post-94460972591 " data-post-id="post_94460972591">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://t3llm3ab0ut1t-stud.tumblr.com/post/94439492434/selena-gomez-receiving-her-teen-choice-2009-2014"><i class="icon-reblog"></i>t3llm3ab0ut1t-stud</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+                                        <figure class="photoset with-caption">
+                                            <div id="photoset_94460972591" class="html_photoset">    <iframe id="photoset_iframe_94460972591" class="photoset" scrolling="no" frameborder="0" height="-10" width="100%"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://yourmengostuff.tumblr.com/post/94460972591/photoset_iframe/yourmengostuff/tumblr_na3mflFuQ71r3c2g9/0/false"></iframe></div>
+                                            
+                                            <figcaption class="caption">
+                                                <blockquote>
+<p><em>Selena Gomez receiving her Teen Choice <strong>2009-2014.</strong></em></p>
+</blockquote>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://t3llm3ab0ut1t-stud.tumblr.com/post/94439492434/selena-gomez-receiving-her-teen-choice-2009-2014"><i class="icon-reblog"></i>t3llm3ab0ut1t-stud</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://sserenades.tumblr.com/post/94397427884/selena-gomez-receiving-her-teen-choice-2009-2014">Source: sserenades</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://yourmengostuff.tumblr.com/post/94460972591/selena-gomez-receiving-her-teen-choice-2009-2014#notes">2,504 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://yourmengostuff.tumblr.com/post/94460972591/selena-gomez-receiving-her-teen-choice-2009-2014" title="1 month ago">Aug 11th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_94460972591">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="94460972591">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F94460972591%2Fselena-gomez-receiving-her-teen-choice-2009-2014&amp;t=mengo" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Photoset%3A%20Selena%20Gomez%20receiving%20her%20Teen%20Choice%202009-2014.%20http%3A%2F%2Ftmblr.co%2FZUW7rm1N_K0ul" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20photo%20from%20mengo&amp;body=Photoset%3A%20Selena%20Gomez%20receiving%20her%20Teen%20Choice%202009-2014.%20http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F94460972591%2Fselena-gomez-receiving-her-teen-choice-2009-2014" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://yourmengostuff.tumblr.com/post/94460972591/selena-gomez-receiving-her-teen-choice-2009-2014" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/94460972591/9UYSdUZ6" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="94460972591" id="like_button_94460972591"><iframe id="like_iframe_94460972591" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=yourmengostuff&amp;post_id=94460972591&amp;color=black&amp;rk=9UYSdUZ6" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="video not-page post-93970234631 " data-post-id="post_93970234631">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                                                    
+                                        <figure class="with-caption">
+                                            <div class="video-wrapper">
+                                                <iframe width="700" height="393" src="https://www.youtube.com/embed/xj6fHiF8Osg?feature=oembed" frameborder="0" allowfullscreen></iframe>
+                                            </div>
+                                            
+                                            <figcaption class="caption">
+                                                <p>i think this is the best song of the month ❤ hahaha</p>
+                                            </figcaption>
+                                            
+                                        </figure>
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://yourmengostuff.tumblr.com/post/93970234631/i-think-this-is-the-best-song-of-the-month" title="1 month ago">Aug 6th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_93970234631">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="93970234631">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F93970234631%2Fi-think-this-is-the-best-song-of-the-month&amp;t=mengo" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Video%3A%20i%20think%20this%20is%20the%20best%20song%20of%20the%20month%20%E2%9D%A4%20hahaha%20http%3A%2F%2Ftmblr.co%2FZUW7rm1NX3-q7" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20video%20from%20mengo&amp;body=Video%3A%20i%20think%20this%20is%20the%20best%20song%20of%20the%20month%20%E2%9D%A4%20hahaha%20http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F93970234631%2Fi-think-this-is-the-best-song-of-the-month" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://yourmengostuff.tumblr.com/post/93970234631/i-think-this-is-the-best-song-of-the-month" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/93970234631/pvYR4qa6" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="93970234631" id="like_button_93970234631"><iframe id="like_iframe_93970234631" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=yourmengostuff&amp;post_id=93970234631&amp;color=black&amp;rk=pvYR4qa6" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text reblogged not-page post-93970139366 " data-post-id="post_93970139366">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <header class="reblog-header">
+                                        <a class="reblog-link" href="http://t3llm3ab0ut1t-stud.tumblr.com/post/93844118514/stilinski-is-a-cutie-im-still-so-confused-how"><i class="icon-reblog"></i>t3llm3ab0ut1t-stud</a>
+                                    </header>
+                                    
+                                    <section class="post">
+                                        
+                                            
+                                            
+                                            <div class="body-text">
+                                                <p><a class="tumblr_blog" href="http://stilinski-is-a-cutie.tumblr.com/post/93841740810/im-still-so-confused-how-this-is">stilinski-is-a-cutie</a>:</p>
+<blockquote>
+<p>I’M STILL SO CONFUSED HOW THIS </p>
+<p><img alt="image" src="http://media.tumblr.com/6ad0aa07c9dc24d6af2a12017078a362/tumblr_inline_n9tejkrnnE1r5l5g8.gif"/></p>
+<p><img alt="image" src="http://media.tumblr.com/76dbc46d478cbe9adc2ef605597023f5/tumblr_inline_n9tekeNAdR1r5l5g8.gif"/></p>
+<p><img alt="image" src="http://media.tumblr.com/19c3304a3faac3abb2121ddefbc82076/tumblr_inline_n9te7mf9tj1r5l5g8.gif"/></p>
+<p><img alt="image" src="http://media.tumblr.com/55672741c7180f33ae9c774f7d2fe417/tumblr_inline_n9tec8baZ11r5l5g8.gif"/></p>
+<p><img alt="image" src="http://media.tumblr.com/e78be4635f0b23d779166e2c7335aa42/tumblr_inline_n9telqvA8R1r5l5g8.gif"/></p>
+<p><img alt="image" src="http://media.tumblr.com/945d9aaa07b1a5fc29b8c5ab83465c4b/tumblr_inline_n9tem0gSek1r5l5g8.gif"/></p>
+<p>IS NOT SOMEONE’S FAVORITE COUPLE </p>
+</blockquote>
+
+<p></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+                                        <section class="attribution-tags clearfix">
+                                            <ul>
+                                                <li class="reblog">
+                                                    <a class="reblog-link" href="http://t3llm3ab0ut1t-stud.tumblr.com/post/93844118514/stilinski-is-a-cutie-im-still-so-confused-how"><i class="icon-reblog"></i>t3llm3ab0ut1t-stud</a>
+                                                </li>
+                                                
+                                                <li>
+                                                    <a class="source-link" href="http://stilinski-is-a-cutie.tumblr.com/post/93841740810/im-still-so-confused-how-this-is">Source: stilinski-is-a-cutie</a>
+                                                </li>
+                                                
+                                                 
+                                            </ul>
+                                        </section>
+                                        
+
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://yourmengostuff.tumblr.com/post/93970139366/stilinski-is-a-cutie-im-still-so-confused-how#notes">1,125 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://yourmengostuff.tumblr.com/post/93970139366/stilinski-is-a-cutie-im-still-so-confused-how" title="1 month ago">Aug 6th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_93970139366">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="93970139366">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F93970139366%2Fstilinski-is-a-cutie-im-still-so-confused-how&amp;t=" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=stilinski-is-a-cutie%3A%20I%E2%80%99M%20STILL%20SO%20CONFUSED%20HOW%20THIS%C2%A0%20IS%20NOT%20SOMEONE%E2%80%99S%20FAVORITE%20COUPLE%C2%A0%20http%3A%2F%2Ftmblr.co%2FZUW7rm1NX3eZc" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20mengo&amp;body=stilinski-is-a-cutie%3A%20I%E2%80%99M%20STILL%20SO%20CONFUSED%20HOW%20THIS%C2%A0%20IS%20NOT%20SOMEONE%E2%80%99S%20FAVORITE%20COUPLE%C2%A0%20http%3A%2F%2Fyourmengostuff.tumblr.com%2Fpost%2F93970139366%2Fstilinski-is-a-cutie-im-still-so-confused-how" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://yourmengostuff.tumblr.com/post/93970139366/stilinski-is-a-cutie-im-still-so-confused-how" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/93970139366/Jd5HXTO9" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="93970139366" id="like_button_93970139366"><iframe id="like_iframe_93970139366" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=yourmengostuff&amp;post_id=93970139366&amp;color=black&amp;rk=Jd5HXTO9" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                </div>
+            </section>
+            <footer id="footer" class="content clearfix">
+                
+                    
+                    <div id="pagination">
+                        
+                        
+                        <a href="/page/2" class="next" data-current-page="1" data-total-pages="3">Next<span class="bg"></span></a>
+                        
+                        <div class="loader"><div class="loader-bar"></div><div class="loader-bar"></div><div class="loader-bar"></div></div>
+                    </div>
+                    
+                
+            </footer>
+        </section>
+        <script>
+            var Optica = {};
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.LAYOUT = "grid";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.TITLE_COLOR = "#e17e66";
+            Optica.ACCENT_COLOR = "#D95E40";
+            Optica.BACKGROUND_COLOR = "#888888";
+            Optica.ENDLESS_NOTES_SCROLLING = true;
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vr9xgox/sBgmmjhyw/jquery-1.9.1.min.js"%3E%3C/script%3E'));</script>
+        <script src="http://static.tumblr.com/vr9xgox/Azhmnml1q/jquery.masonry.min.js"></script>
+        <script src="http://static.tumblr.com/wogenvz/kcyn7f6re/main-min.js"></script>
+
+        
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://yourmengostuff.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037461&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wveW91cm1lbmdvc3R1ZmYudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=NFCJABHLJO&K=1ea24a07beab85039def46a1aa96587b1228dbefb2daef762fb631fc1b223be2&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037461&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wveW91cm1lbmdvc3R1ZmYudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=NFCJABHLJO&K=641d08b84160c64d033450252bc7be2269828bd2edac46577ee56827f58a9544&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037461&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3lvdXJtZW5nb3N0dWZmLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiOTg2OTQ3MjQwMzEiLCJibG9naWQiOiIxOTczNDc2MTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk4Njk0NjA1MDUxIiwiYmxvZ2lkIjoiMTk3MzQ3NjE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODY5NDQyODk1NiIsImJsb2dpZCI6IjE5NzM0NzYxNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg2OTQzNzM1MDEiLCJibG9naWQiOiIxOTczNDc2MTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk4NjIxMDg4NTIxIiwiYmxvZ2lkIjoiMTk3MzQ3NjE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODYyMTA2MzQxNiIsImJsb2dpZCI6IjE5NzM0NzYxNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg2MjA5Mzc0NDEiLCJibG9naWQiOiIxOTczNDc2MTQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjk1MTc2OTMiLCJyb290X3Bvc3RpZCI6OTQzOTc0Mjc4ODQsInBvc3RpZCI6Ijk0NDYwOTcyNTkxIiwiYmxvZ2lkIjoiMTk3MzQ3NjE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Mzk3MDIzNDYzMSIsImJsb2dpZCI6IjE5NzM0NzYxNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjk4NDc0MDgiLCJyb290X3Bvc3RpZCI6IjkzODQxNzQwODEwIiwicG9zdGlkIjoiOTM5NzAxMzkzNjYiLCJibG9naWQiOiIxOTczNDc2MTQiLCJzb3VyY2UiOjMzfV19&U=LNFMDGDJGD&K=a920887db1ac5a3ae5bf08214792ac067119ed8f964d4d936c0987ffc35a0c7a&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037461&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3lvdXJtZW5nb3N0dWZmLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiOTg2OTQ3MjQwMzEiLCJibG9naWQiOiIxOTczNDc2MTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk4Njk0NjA1MDUxIiwiYmxvZ2lkIjoiMTk3MzQ3NjE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODY5NDQyODk1NiIsImJsb2dpZCI6IjE5NzM0NzYxNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg2OTQzNzM1MDEiLCJibG9naWQiOiIxOTczNDc2MTQiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk4NjIxMDg4NTIxIiwiYmxvZ2lkIjoiMTk3MzQ3NjE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODYyMTA2MzQxNiIsImJsb2dpZCI6IjE5NzM0NzYxNCIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTg2MjA5Mzc0NDEiLCJibG9naWQiOiIxOTczNDc2MTQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjk1MTc2OTMiLCJyb290X3Bvc3RpZCI6OTQzOTc0Mjc4ODQsInBvc3RpZCI6Ijk0NDYwOTcyNTkxIiwiYmxvZ2lkIjoiMTk3MzQ3NjE0Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5Mzk3MDIzNDYzMSIsImJsb2dpZCI6IjE5NzM0NzYxNCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNjk4NDc0MDgiLCJyb290X3Bvc3RpZCI6IjkzODQxNzQwODEwIiwicG9zdGlkIjoiOTM5NzAxMzkzNjYiLCJibG9naWQiOiIxOTczNDc2MTQiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=LNFMDGDJGD&K=de6ec0fcf20730bcff2d3de45e63518ef71a57578dc8544a561734ef7e66f113&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:197347614,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fyourmengostuff.tumblr.com%2F&amp;lang=en_US&amp;name=yourmengostuff&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_716ec833e573_64.png&amp;title=mengo&amp;url=http%3A%2F%2Fyourmengostuff.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fyourmengostuff.tumblr.com%2F&amp;lang=en_US&amp;name=yourmengostuff&amp;avatar=http%3A%2F%2F33.media.tumblr.com%2Favatar_716ec833e573_64.png&amp;title=mengo&amp;url=http%3A%2F%2Fyourmengostuff.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

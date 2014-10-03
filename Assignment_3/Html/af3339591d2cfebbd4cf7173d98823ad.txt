@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+
+<html prefix="og: http://ogp.me/ns#" lang="en-gb">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="サッカー, Soccer, フットボール, Football, Calcio, カルチョ, webマガジン, Premiere League, プレミアリーグ, Serie A, セリエＡ, リーガ・エスパニョーラ, ユニフォーム, ニュース, チャンピオンズリーグ" />
+		<meta name="description" content="Qoly.jp は、最新移籍情報やマニアックなサッカーネタからデータを取り扱うウェブマガジンです。" />
+		<meta name="generator" content="WallRide - Open Source Content Management" />
+		<title>Football Web Magazine 『Qoly』</title>
+		 
+		<link rel="alternate" type="application/atom+xml" title="Football Web Magazine 『Qoly』" href="http://qoly.jp/feed/atom.xml" />
+		<link rel="alternate" type="application/rss+xml" title="Football Web Magazine 『Qoly』" href="http://qoly.jp/feed/rss.xml" />
+		<link href="/resources/joomla/template/gk_fashion/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+		<link rel="stylesheet" href="/resources/joomla/media/system/css/modal.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/k2.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/tablet.css" type="text/css" media="(max-width: 720px)" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/mobile.css" type="text/css" media=" (max-width: 480px)" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/normalize.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/layout.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/joomla.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/system/system.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/template.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/menu/menu.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/gk.stuff.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/style1.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/typography/typography.style1.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/template/gk_fashion/css/typography/typography.iconset.style1.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/modules/mod_news_pro_gk4/interface/css/style.css" type="text/css" />
+		<link rel="stylesheet" href="/resources/joomla/modules/mod_image_show_gk4/styles/gk_fashion/style.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="/resources/css/common.css" />
+		<style type="text/css">
+			.gkcol { width: 200px; }
+			#gkPageWrap { min-width: 320px; max-width: 3200px; margin: 0 auto; }
+			body { padding: 0 10px; }
+			#gkPage > #gkContent { width: 640px; padding: 5px; }
+			#gkInset { width: 200px; padding: 5px; padding-left: 0; }
+			#gkContent .box { padding: 10px 0 0 0!important; }
+			body #gkPageTop { padding-left: 10px; padding-right: 10px; }
+			@media screen and (max-width: 512px) {
+				#k2Container .itemsContainer { width: 100%!important; }
+				.cols-2 .column-1,
+				.cols-2 .column-2,
+				.cols-3 .column-1,
+				.cols-3 .column-2,
+				.cols-3 .column-3,
+				.demo-typo-col2,
+				.demo-typo-col3,
+				.demo-typo-col4 {width: 100%; }
+			}
+			.masonry .box.half { width: 160px; max-width: 100%; }
+			.masonry .box.one,
+			.masonry > .box { width: 320px; max-width: 100%; }
+			.masonry .box.double { width: 640px; max-width: 100%; }
+			.masonry .box.triple { width: 960px; max-width: 100%; }
+			.masonry .box.fourfold { width: 1280px; max-width: 100%; }
+			.masonry .box.full { width: 100%; max-width: 100%; }
+			.masonry .box { padding: 5px }
+			.box .pr { text-align: center; font-size: 12px; margin: 0 }
+
+			body[data-content-width="1"] .masonry .box.double,
+			body[data-content-width="1.5"] .masonry .box.double,
+			body[data-content-width="1"] .masonry .box.triple,
+			body[data-content-width="1.5"] .masonry .box.triple,
+			body[data-content-width="1"] .masonry .box.fourfold,
+			body[data-content-width="1.5"] .masonry .box.fourfold { width: 320px; max-width: 100%; }
+			body[data-content-width="2"] .masonry .box.triple,
+			body[data-content-width="2.5"] .masonry .box.triple,
+			body[data-content-width="2"] .masonry .box.fourfold,
+			body[data-content-width="2.5"] .masonry .box.fourfold { width: 640px; max-width: 100%; }
+			body[data-content-width="3"] .masonry .box.fourfold,
+			body[data-content-width="3.5"] .masonry .box.fourfold { width: 960px; max-width: 100%; }
+		</style>
+		 
+		 
+		<script src="/resources/joomla/media/system/js/mootools-core.js" type="text/javascript"></script>
+		<script src="/resources/joomla/media/system/js/core.js" type="text/javascript"></script>
+		<script src="/resources/joomla/media/system/js/modal.js" type="text/javascript"></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+		<script src="/resources/joomla/media/k2/assets/js/k2.noconflict.js" type="text/javascript"></script>
+		<script src="/resources/joomla/components/com_k2/js/k2.js" type="text/javascript"></script>
+		<script src="/resources/joomla/media/system/js/caption.js" type="text/javascript"></script>
+		<script src="/resources/joomla/media/system/js/mootools-more.js" type="text/javascript"></script>
+		<script src="/resources/joomla/template/gk_fashion/js/gk.scripts.js" type="text/javascript"></script>
+		<script src="/resources/joomla/template/gk_fashion/js/gk.menu.js" type="text/javascript"></script>
+		<script src="/resources/joomla/template/gk_fashion/js/moo.masonry.js" type="text/javascript"></script>
+		<script src="/resources/joomla/modules/mod_news_pro_gk4/interface/scripts/engine.js" type="text/javascript"></script>
+		<script src="/resources/joomla/modules/mod_image_show_gk4/styles/gk_fashion/engine.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			/*<![CDATA[*/
+			window.addEvent('domready', function() {
+				SqueezeBox.initialize({});
+				SqueezeBox.assign($$('a.modal'), {
+					parse: 'rel'
+				});
+			});
+			var K2SitePath = '/';
+			window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+			$GKMenu = { height:false, width:false, duration: 500 };
+			$GK_TMPL_URL = '/resources/joomla/templates/';
+			$GK_URL = '/';
+			window.addEvent('load', function() {
+				(function() {
+					document.id('gkPage').masonry({
+						columnWidth: 160,
+						itemSelector: '.box'
+					});
+					if(document.id('gkTop')){
+						document.id('gkTop').masonry({
+							columnWidth: 160,
+							itemSelector: '.box'
+						});
+					}
+					if(document.id('gkBottom')) {
+						document.id('gkBottom').masonry({
+							columnWidth: 160,
+							itemSelector: '.box'
+						});
+					}
+				}).delay(500);
+			});
+			try {$Gavick;}catch(e){$Gavick = {};};$Gavick["gkIs-gk-is-88"] = { "anim_speed": 500, "anim_interval": 5000, "autoanim": 1, "slide_links": 1 };
+			/*]]>*/
+		</script>
+		<!--[if IE 9]>
+		<link rel="stylesheet" th:href="@{/resources/joomla/template/gk_fashion/css/ie/ie9.css}" href="http://www.qoly.jp/templates/gk_fashion/css/ie/ie9.css" type="text/css" />
+		<![endif]-->
+		<!--[if IE 8]>
+		<link rel="stylesheet" th:href="@{/resources/joomla/template/gk_fashion/css/ie/ie8.css}" href="http://www.qoly.jp/templates/gk_fashion/css/ie/ie8.css" type="text/css" />
+		<![endif]-->
+		<!--[if lte IE 7]>
+		<link rel="stylesheet" th:href="@{/resources/joomla/template/gk_fashion/css/ie/ie7.css}" href="http://www.qoly.jp/templates/gk_fashion/css/ie/ie7.css" type="text/css" />
+		<![endif]-->
+		<!--[if (gte IE 6)&(lte IE 8)]>
+		<script type="text/javascript" th:src="@{/resources/joomla/template/gk_fashion/js/respond.js}" src="http://www.qoly.jp/templates/gk_fashion/js/respond.js"></script>
+		<script type="text/javascript" th:src="@{/resources/joomla/template/gk_fashion/js/selectivizr.js}" src="http://www.qoly.jp/templates/gk_fashion/js/selectivizr.js"></script>
+		<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]--><!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+		 
+	</head>
+	<body data-tablet-width="720" data-mobile-width="480" data-blocks-animation="1" data-content-width="2" data-loading-translation="Loading">
+		<div id="gkPageWrap">
+			<section id="gkPageTop">
+				<a href="/" id="gkLogo">
+					<img src="/resources/joomla/template/gk_fashion/images/logo.png" alt="Qoly.jp / 全てのフットボールラバーに捧ぐウェブマガジン" />
+				</a>
+				<div id="gkMainMenu">
+					<nav id="gkExtraMenu" class="gkMenu">
+						<ul class="gkmenu level0">
+							<li class="first active"><a href="/" class="first" id="menu101" title="Home">Home</a></li>
+							<li><a href="/category/news" id="menu102" title="News">News</a></li>
+							<li><a href="/category/story" id="menu103" title="Story">Story</a></li>
+							<li><a href="/category/goods" id="menu104" title="Goods">Goods</a></li>
+							<li><a href="/category/event" id="menu105" title="Event">Event</a></li>
+							<li><a href="/category/special" class=" last" id="menu106" title="Special">Special</a></li>
+							<li class="last"><a href="/player/worldcup/" class="last" id="menu107" title="2014WC-PLAYERS">2014WC-PLAYERS</a></li>
+						</ul>
+					</nav>
+					<div id="gkMobileMenu">
+						Menu
+					<select onChange="window.location.href=this.value;">
+						<option selected="selected" value="/">Home</option>
+						<option value="/category/news">News</option>
+						<option value="/category/story">Story</option>
+						<option value="/category/goods">Goods</option>
+						<option value="/category/event">Event</option>
+						<option value="/category/special">Special</option>
+						<option value="/player/worldcup/">2014WC-PLAYERS</option>
+					</select>
+					</div>
+				</div>
+				<div class="form-search">
+					<form class="form-inline" role="form" action="/search">
+						<div class="form-group">
+							<input type="text" name="keyword" class="form-control" style="width: 220px" placeholder="キーワード" />
+							<button type="submit" name="search" class="btn btn-default">検索</button>
+						</div>
+					</form>
+				</div>
+			</section>
+			<div id="gkPageContent">
+				<section id="gkPage" class="masonry">
+					<section id="gkContent" class="box">
+						<div>
+							<section id="gkMainbody">
+								<div class="box">
+									<div>
+										<div class="content">
+											<div id="gkIs-gk-is-88" class="gkIsWrapper-gk_fashion">
+												<div class="gkIsPreloader"></div>
+												<figure class="active">
+													<div class="gkIsSlide" style="z-index:1">
+														/media/4612ed2f-ef00-4d50-9c1c-2a7b597fe388?h=320
+														<a href="http://qoly.jp/2014/09/28/1415-serieb-start-dash-success-perugia" target="_self">link</a>
+													</div>
+													<figcaption class="bottom">
+														<h3><a href="http://qoly.jp/2014/09/28/1415-serieb-start-dash-success-perugia" target="_self">セリエBで首位を快走する日本人に馴染みの”あのチーム”</a></h3>
+													</figcaption>
+												</figure>
+												<figure>
+													<div class="gkIsSlide" style="z-index:2">
+														/media/f6795ef8-0c56-4f96-a78b-8f6c901be174?h=320
+														<a href="http://qoly.jp/2014/09/25/komatsu-column-frank-lampard" target="_self">link</a>
+													</div>
+													<figcaption class="bottom">
+														<h3><a href="http://qoly.jp/2014/09/25/komatsu-column-frank-lampard" target="_self">現地観戦者は見た！ シティ戦でランパードとチェルシーサポーターが確認した永遠の絆</a></h3>
+													</figcaption>
+												</figure>
+												<figure>
+													<div class="gkIsSlide" style="z-index:3">
+														/media/8d51b524-f038-4533-b5df-180545b0b4f9?h=320
+														<a href="http://qoly.jp/2014/09/24/column-yuuki-louis-van-gaal-2" target="_self">link</a>
+													</div>
+													<figcaption class="bottom">
+														<h3><a href="http://qoly.jp/2014/09/24/column-yuuki-louis-van-gaal-2" target="_self">【コラム】ファン・ハールの仕込む「マジック・ダイヤモンド」とは。攻撃編＆対策編。</a></h3>
+													</figcaption>
+												</figure>
+												<figure>
+													<div class="gkIsSlide" style="z-index:4">
+														/media/b215e461-3907-424b-987f-4f20021014d5?h=320
+														<a href="http://qoly.jp/2014/09/23/column-furuya-san-mames-barria-athletic-bilbao" target="_self">link</a>
+													</div>
+													<figcaption class="bottom">
+														<h3><a href="http://qoly.jp/2014/09/23/column-furuya-san-mames-barria-athletic-bilbao" target="_self">【コラム】ビルバオとサン・マメス・バリア</a></h3>
+													</figcaption>
+												</figure>
+												<ol class="top">
+													<li>0</li>
+													<li>1</li>
+													<li>2</li>
+													<li>3</li>
+												</ol>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+					</section>
+					 
+					<div class="box">
+						<div>
+							<h3 class="header"><span>Latest News</span></h3>
+							<div class="content">
+								<ul class="latestnews">
+									<li><a href="/2014/09/30/happy-birthday-footballer-0930">おめでとう！ ジルーにサパタなど今日9月30日が誕生日の主なフットボーラーまとめ</a></li>
+									<li><a href="/2014/09/30/andre-santos-transfer-to-fc-goa">元アーセナルのDFアンドレ・サントス、インドへ。FCゴアへの移籍が決定</a></li>
+									<li><a href="/2014/09/30/martin-palermo-block-river-teo-gutierrez">監督になったマルティン・パレルモ、リーベル戦で相手FWのドリブル突破を止めちゃう！</a></li>
+									<li><a href="/2014/09/30/psp-announced-that-zlatan-ibrahimovic-cant-play-the-cl-against-barcelona">イブラヒモヴィッチ、バルセロナ戦の出場は不可能に</a></li>
+									<li><a href="/2014/09/29/al-nasr-close-to-sign-with-hugo-almeida">アル・ナスル、暴力行為のI・トゥレの代わりにポルトガル代表FWを獲得？</a></li>
+									<li><a href="/2014/09/29/adam-lallana-and-dejan-lovren-vs-everton-derby">初のマージーサイド・ダービーを堂々と戦ったララーナとロヴレン、そのプレーを振り返る</a></li>
+									<li><a href="/2014/09/29/sporting-cp-fans-vs-porto">ポルトとのビッグマッチを戦ったスポルティング、サポーターたちも大騒ぎで跳ぶ！</a></li>
+									<li><a href="/2014/09/29/jeremy-mathieu-said-that-zlatan-ibrahimovic-outstanding-in-psg">ジェレミ・マテュー「PSGはズラタンに依存している」</a></li>
+									<li><a href="/2014/09/29/chelsea-diego-costa-flick-vs-aston-villa">ゴールだけじゃない！ チェルシーFWジエゴ・コスタ、おしゃれなヒールパスを決める！</a></li>
+									<li><a href="/2014/09/29/bahia-female-fan-fall-out-arena-fonte-nova-against-flamengo">ブラジル1部の試合で、観客席から女性ファンが落下。出血し搬送される</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<div>
+							<h3 class="header"><span>Qoly Recommends</span></h3>
+							<div class="content">
+								<div class="custom">
+									<ul class="latestnews new">
+										<li><a href="/2014/09/29/cs-sfaxien-announced-ended-of-contact-with-philippe-troussier">フィリップ・トルシエ監督、わずか3か月でチュニジアのクラブを退任</a></li>
+										<li><a href="/2014/09/29/harry-redknapp-wants-to-rulesof-temporary-replacement">QPRのレドナップ監督、脳震とうの選手を一時的に交代できるルールを提案</a></li>
+										<li><a href="/2014/09/29/fk-ventspils-goal-celebration">仲が良くて微笑ましい… 「みんな集まれ～」な記念撮影ゴールセレブレーションが実にイイ！</a></li>
+										<li><a href="/2014/09/29/Juventus-wants-to-sign-with-netherlands-young-talents">ユヴェントス、オランダでブルマなどをチェック？</a></li>
+										<li><a href="/2014/09/29/jose-mourinho-said-that-diego-costa-cant-be-practicing">モウリーニョ監督「ジエゴ・コスタはほとんど練習していない」</a></li>
+										<li><a href="/2014/09/29/giuliano-simeone-cristiano-ronaldo">C・ロナウドのモノマネを着実に体得し、アトレティコの練習で披露するシメオネ監督のやんちゃな三男</a></li>
+										<li><a href="/2014/09/29/3-white-tigers-in-the-pitch">3頭のホワイトタイガーがドイツのスタジアムに…気になるそのワケは？</a></li>
+										<li><a href="/2014/09/29/boa-gk-joao-carlos-owngoal-vs-avai">レア感がすごい…飛び出したGKの頭にブチ当たるコメディなオウンゴールがブラジルで発生</a></li>
+										<li><a href="/2014/09/29/pep-guardiola-emergency-situation">バイエルンが宿泊するホテルで火災報知機が作動。その時、逃げ出したペップの格好がなんだかかわいい（画像あり）</a></li>
+										<li><a href="/2014/09/29/xabi-alonso-175-passes">シャビ・アロンソが樹立したブンデス記録となる175本のパス数、欧州5大リーグでも暫定トップ</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<div style="padding: 0">
+							<p class="pr">PR</p>
+							<div class="content">
+								<div class="custom qoly">
+									<div style="margin: 5px;">
+			<script type="text/javascript" src="http://sh.adingo.jp/?G=1000017248&amp;guid=ON"></script>
+			<script type="text/javascript" src="http://sh.adingo.jp/?G=1000017273&amp;guid=ON"></script>
+			<script type="text/javascript">// <![CDATA[
+			function ua_detect() {
+				var ua = navigator.userAgent;
+				var androidMatch = ua.toUpperCase().match(/ANDROID ([0-9]\.[0-9]\.[0-9]|[0-9]\.[0-9])[^;]*;/);
+				if (androidMatch !== null && androidMatch.length >= 2) {
+					return true;
+				}
+				var iphoneMatch = ua.toUpperCase().match(/IPHONE OS ([0-9]_[0-9]_[0-9]|[0-9]_[0-9]) /);
+				if (iphoneMatch !== null && iphoneMatch.length >= 2) {
+					return true;
+				}
+				var ipadMatch = ua.toUpperCase().match(/IPAD;.+OS ([0-9]_[0-9]_[0-9]|[0-9]_[0-9]) /);
+				if (ipadMatch !== null && ipadMatch.length >= 2) {
+					return true;
+				}
+				return false;
+			}
+			// ]]></script>
+			<span id="fluct_tag6">
+				<script type="text/javascript">// <![CDATA[
+				if(!ua_detect()) {
+					if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000024241');
+				} else {
+					if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000024293');
+					if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000024294');
+				}
+				// ]]></script>
+			</span>
+		</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="box">
+						<div>
+							<h3 class="header"><span>Ranking</span></h3>
+							<div class="content">
+								<ul class="latestnews">
+									<li><a href="/2014/09/29/pep-guardiola-emergency-situation"><span style="font-weight: bold;">1</span>. <span>バイエルンが宿泊するホテルで火災報知機が作動。その時、逃げ出したペップの格好がなんだかかわいい（画像あり）</span></a></li>
+									<li><a href="/2014/09/27/top10-unbelievable-goals-from-arsenal-vs-tottenham"><span style="font-weight: bold;">2</span>. <span>ノースロンドンダービーでのアンビリーバブルなゴール ベスト10</span></a></li>
+									<li><a href="/2014/09/28/1415-serieb-start-dash-success-perugia"><span style="font-weight: bold;">3</span>. <span>セリエBで首位を快走する日本人に馴染みの”あのチーム”</span></a></li>
+									<li><a href="/2014/09/27/cristiano-ronaldo-james-rodriguez-nutmeg"><span style="font-weight: bold;">4</span>. <span>ロナウド、ハメス・ロドリゲスを股抜きして会心のガッツポーズ！</span></a></li>
+									<li><a href="/2014/09/26/chelsea-funny-moment-before-training"><span style="font-weight: bold;">5</span>. <span>雰囲気よすぎ！好調チェルシー、トレーニング前に最高に“絵”になるシーンがあった</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/28/assistant-referee-fail" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/1faf40d9-9b7c-440d-af81-66ba1c6a159a?w=300" alt="やっぱりあった！ ピッチ脇の給水ボトルが突然、副審に牙をむく" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/28/assistant-referee-fail" title="やっぱりあった！ ピッチ脇の給水ボトルが突然、副審に牙をむく">やっぱりあった！ ピッチ脇の給水ボトルが突然、副審に牙をむく</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/28/alvaro-recoba-goal-conerkick-vs-wanderers" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/a5f5b20c-8034-4326-83db-e56cc5b86cb3?w=300" alt="レコバがまたまたやった！ コーナーキックを直接叩き込むビューティフルゴラッソ！" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/28/alvaro-recoba-goal-conerkick-vs-wanderers" title="レコバがまたまたやった！ コーナーキックを直接叩き込むビューティフルゴラッソ！">レコバがまたまたやった！ コーナーキックを直接叩き込むビューティフルゴラッソ！</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/28/hannes-sigurosson-valerenga-vs-sandnes-ulf" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/38870690-1fd1-4fa5-bd80-c4f6851a0a22?w=300" alt="絶体絶命のピンチをスーパーなバイシクルクリアで“神”回避がすごい！" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/28/hannes-sigurosson-valerenga-vs-sandnes-ulf" title="絶体絶命のピンチをスーパーなバイシクルクリアで“神”回避がすごい！">絶体絶命のピンチをスーパーなバイシクルクリアで“神”回避がすごい！</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					<div class="box qoly">
+						<div>
+							<p class="pr">PR</p>
+							<div class="content">
+								<div class="custom qoly">
+									<div style="margin: 5px;">
+			<script type="text/javascript" src="//y.one.impact-ad.jp/imp?p=17220&amp;w=300&amp;h=250&amp;t=j"></script>
+			<noscript><iframe scrolling="no" height="250" frameborder="0" width="300" allowtransparency="true" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" src="//y.one.impact-ad.jp/imp?p=17220&amp;h=250&amp;w=300"></iframe></noscript>
+		</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/28/thorgan-hazard-nintendo-3ds-yoshi" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/9a62faff-90b2-4a02-8d70-118e1f04fc32?w=300" alt="アザール弟が愛用する海外限定販売の「ニンテンドー3DS」がかわいい" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/28/thorgan-hazard-nintendo-3ds-yoshi" title="アザール弟が愛用する海外限定販売の「ニンテンドー3DS」がかわいい">アザール弟が愛用する海外限定販売の「ニンテンドー3DS」がかわいい</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/27/cristiano-ronaldo-james-rodriguez-nutmeg" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/d79cc65f-2e71-4182-9c76-1e3493eacb7c?w=300" alt="ロナウド、ハメス・ロドリゲスを股抜きして会心のガッツポーズ！" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/27/cristiano-ronaldo-james-rodriguez-nutmeg" title="ロナウド、ハメス・ロドリゲスを股抜きして会心のガッツポーズ！">ロナウド、ハメス・ロドリゲスを股抜きして会心のガッツポーズ！</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/27/kurt-zouma-named-after-kurt-sloane-in-film-kickboxer" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/65c877f1-5b87-4609-b758-e62d690f5ea4?w=300" alt="チェルシー期待のDFズマ、その名前の由来は「筋肉ムキムキの映画俳優」" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/27/kurt-zouma-named-after-kurt-sloane-in-film-kickboxer" title="チェルシー期待のDFズマ、その名前の由来は「筋肉ムキムキの映画俳優」">チェルシー期待のDFズマ、その名前の由来は「筋肉ムキムキの映画俳優」</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/27/deandre-yedlin-2014-mls-under-24-top-player" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/8e5588bb-651a-48f7-9cd0-eb81f4a9d863?w=300" alt="村上春樹氏の一節も引用したMLSの24歳以下トップランキング、No.1はトッテナム移籍のイェドリン！" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/27/deandre-yedlin-2014-mls-under-24-top-player" title="村上春樹氏の一節も引用したMLSの24歳以下トップランキング、No.1はトッテナム移籍のイェドリン！">村上春樹氏の一節も引用したMLSの24歳以下トップランキング、No.1はトッテナム移籍のイェドリン！</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					<div class="box qoly">
+						<div>
+							<div class="content">
+								<div class="custom">
+									<div><iframe style="border: none; overflow: hidden; width: 290px; height: 258px;" src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FQoly.jp&amp;width=290&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" frameborder="0" scrolling="no"></iframe></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/27/jonjo-shelvey-is-harrys-hero" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/7fff5ef3-c807-43e5-a818-7f0ef069241b?w=300" alt="スウォンジーMFシェルヴィ、自身と同じ脱毛症の男の子を試合に招待。夢を叶えてあげる" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/27/jonjo-shelvey-is-harrys-hero" title="スウォンジーMFシェルヴィ、自身と同じ脱毛症の男の子を試合に招待。夢を叶えてあげる">スウォンジーMFシェルヴィ、自身と同じ脱毛症の男の子を試合に招待。夢を叶えてあげる</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/27/what-did-players-eat-after-barcelona-vs-malaga" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/3ecefe84-4293-4669-a246-c488dab7a837?w=300" alt="バルセロナの食事メニューが流出、ラキティッチやテア・シュテーゲンは寿司もお好き？" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/27/what-did-players-eat-after-barcelona-vs-malaga" title="バルセロナの食事メニューが流出、ラキティッチやテア・シュテーゲンは寿司もお好き？">バルセロナの食事メニューが流出、ラキティッチやテア・シュテーゲンは寿司もお好き？</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/26/steven-pienaar-thank-to-first-coach-cavin-johnson" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/d494c1fa-b400-4171-981a-706b9d15b956?w=300" alt="エヴァートンMFピーナール、お世話になったコーチへ感謝を伝える涙のメッセージ" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/26/steven-pienaar-thank-to-first-coach-cavin-johnson" title="エヴァートンMFピーナール、お世話になったコーチへ感謝を伝える涙のメッセージ">エヴァートンMFピーナール、お世話になったコーチへ感謝を伝える涙のメッセージ</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/26/philipp-hofmann-epic-fail" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/d9394d82-e7dc-40ed-96e6-ef44bddb1360?w=300" alt="ミス・オブ・ザ・シーズン？ ドイツ期待の大型FWがもはや芸術と言えるシュートミス" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/26/philipp-hofmann-epic-fail" title="ミス・オブ・ザ・シーズン？ ドイツ期待の大型FWがもはや芸術と言えるシュートミス">ミス・オブ・ザ・シーズン？ ドイツ期待の大型FWがもはや芸術と言えるシュートミス</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/26/chelsea-funny-moment-before-training" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/62cc47e1-0d0d-472e-a9b0-f6055c03cc75?w=300" alt="雰囲気よすぎ！好調チェルシー、トレーニング前に最高に“絵”になるシーンがあった" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/26/chelsea-funny-moment-before-training" title="雰囲気よすぎ！好調チェルシー、トレーニング前に最高に“絵”になるシーンがあった">雰囲気よすぎ！好調チェルシー、トレーニング前に最高に“絵”になるシーンがあった</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/25/sampdoria-2014-15-kappa" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/667a4963-0b12-42de-bb19-ba1caeedfa9a?w=300" alt="期間限定で映画のPRを行っているサンプドリアの2014-15新ユニフォーム" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/25/sampdoria-2014-15-kappa" title="期間限定で映画のPRを行っているサンプドリアの2014-15新ユニフォーム">期間限定で映画のPRを行っているサンプドリアの2014-15新ユニフォーム</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					<div class="box qoly">
+						<div>
+							<p class="pr">PR</p>
+							<div class="content">
+								<div class="custom qoly">
+									<div style="margin: 5px;">
+			<script type="text/javascript" src="http://sh.adingo.jp/?G=1000017247&amp;guid=ON"></script>
+			<script type="text/javascript">// <![CDATA[
+			  function ua_detect() {
+				  var ua = navigator.userAgent;
+				  var androidMatch = ua.toUpperCase().match(/ANDROID ([0-9]\.[0-9]\.[0-9]|[0-9]\.[0-9])[^;]*;/);
+				  if (androidMatch !== null && androidMatch.length >= 2) {
+					  return true;
+				  }
+				  var iphoneMatch = ua.toUpperCase().match(/IPHONE OS ([0-9]_[0-9]_[0-9]|[0-9]_[0-9]) /);
+				  if (iphoneMatch !== null && iphoneMatch.length >= 2) {
+					  return true;
+				  }
+				  var ipadMatch = ua.toUpperCase().match(/IPAD;.+OS ([0-9]_[0-9]_[0-9]|[0-9]_[0-9]) /);
+				  if (ipadMatch !== null && ipadMatch.length >= 2) {
+					  return true;
+				  }
+				  return false;
+			  }// ]]>
+			</script>
+			<span id="fluct_tag5">
+			  <script type="text/javascript">
+				//<![CDATA[
+				if(!ua_detect()) {
+					if(typeof(adingoFluct)!="undefined") adingoFluct.showAd('1000024240');
+				}
+				//]]>
+			  </script>
+			</span>
+		</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/25/david-silva-start-campaign-to-help-pallister-killian-syndrome-child" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/4ad87ea2-1b12-49a4-80a6-fe622f78d9f8?w=300" alt="シティMFダビド・シルバ、世界的にも事例が少ない難病の子供を持つ一家を支援" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/25/david-silva-start-campaign-to-help-pallister-killian-syndrome-child" title="シティMFダビド・シルバ、世界的にも事例が少ない難病の子供を持つ一家を支援">シティMFダビド・シルバ、世界的にも事例が少ない難病の子供を持つ一家を支援</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/25/valerie-courtois" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/b62f7e2d-a557-4294-aeb8-0409ee5336f9?w=300" alt="チェルシーGKクルトワ、お姉さんがバレーボール選手で日本代表と対戦していた（画像あり）" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/25/valerie-courtois" title="チェルシーGKクルトワ、お姉さんがバレーボール選手で日本代表と対戦していた（画像あり）">チェルシーGKクルトワ、お姉さんがバレーボール選手で日本代表と対戦していた（画像あり）</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/25/wellington-grab-messi-face" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/b6d8cce1-7c59-4afa-b624-e39f5aa7b348?w=300" alt="メッシをぷにっとして倒したマラガDF、辛くも審判の目から逃れる" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/25/wellington-grab-messi-face" title="メッシをぷにっとして倒したマラガDF、辛くも審判の目から逃れる">メッシをぷにっとして倒したマラガDF、辛くも審判の目から逃れる</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/24/makoto-hasebe-shinji-okazaki-interview" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/b8152242-a3bc-4503-b5b9-bda98d5b05d3?w=300" alt="長谷部誠と岡崎慎司、ブラジルW杯での結果や日本とドイツの違いについて率直に語り合う（動画あり）" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/24/makoto-hasebe-shinji-okazaki-interview" title="長谷部誠と岡崎慎司、ブラジルW杯での結果や日本とドイツの違いについて率直に語り合う（動画あり）">長谷部誠と岡崎慎司、ブラジルW杯での結果や日本とドイツの違いについて率直に語り合う（動画あり）</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/24/bahrain-international-defender-hakeem-al-araibi-confessed-the-circumstances-in-the-prison" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/6b1c5392-98cd-4268-aa44-362f8e401e0f?w=300" alt="政治難民になった元バーレーン代表DFが衝撃の告白「合計8か月拘留され拷問を受けた」" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/24/bahrain-international-defender-hakeem-al-araibi-confessed-the-circumstances-in-the-prison" title="政治難民になった元バーレーン代表DFが衝撃の告白「合計8か月拘留され拷問を受けた」">政治難民になった元バーレーン代表DFが衝撃の告白「合計8か月拘留され拷問を受けた」</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/24/gotoku-sakai-vfb-stuttgart" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/857fdf42-8638-4e94-a250-2345eaf93bb2?w=300" alt="日本代表DF酒井高徳、シュトゥットガルト公式HPの個人写真でめっちゃハジケてた！（画像あり）" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/24/gotoku-sakai-vfb-stuttgart" title="日本代表DF酒井高徳、シュトゥットガルト公式HPの個人写真でめっちゃハジケてた！（画像あり）">日本代表DF酒井高徳、シュトゥットガルト公式HPの個人写真でめっちゃハジケてた！（画像あり）</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/24/cesc-fabregas-instagram" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/a0a42856-a7ca-4392-973b-6cb283a6348d?w=300" alt="PCで映画を見ていたセスクが思わず一時停止ボタン。その理由がなかなか素敵だった" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/24/cesc-fabregas-instagram" title="PCで映画を見ていたセスクが思わず一時停止ボタン。その理由がなかなか素敵だった">PCで映画を見ていたセスクが思わず一時停止ボタン。その理由がなかなか素敵だった</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/24/liverpool-ladies-vs-birmingham-madness" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/3d4732cc-2129-49eb-bc87-c3afdb36b346?w=300" alt="やられたら即行やり返す！ リヴァプールの女子チームの試合でまさか過ぎるありえない展開" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/24/liverpool-ladies-vs-birmingham-madness" title="やられたら即行やり返す！ リヴァプールの女子チームの試合でまさか過ぎるありえない展開">やられたら即行やり返す！ リヴァプールの女子チームの試合でまさか過ぎるありえない展開</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/23/josep-guardiola-tries-keepy-uppies" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/54fc40ac-d164-4e66-84e3-c463a41d805d?w=300" alt="グアルディオラ監督、若手の前でいいところを見せられずに逃走" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/23/josep-guardiola-tries-keepy-uppies" title="グアルディオラ監督、若手の前でいいところを見せられずに逃走">グアルディオラ監督、若手の前でいいところを見せられずに逃走</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/22/yaya-toure-gives-eden-hazard-clip" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/79d1b2c9-9fff-429f-a9c5-a824a8edfb1a?w=300" alt="ヤヤ・トゥレさん、アザールの頭をバッシバシはたく（公式動画あり）" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/22/yaya-toure-gives-eden-hazard-clip" title="ヤヤ・トゥレさん、アザールの頭をバッシバシはたく（公式動画あり）">ヤヤ・トゥレさん、アザールの頭をバッシバシはたく（公式動画あり）</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/21/levante-2014-15-nike" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/8ae5e641-d3f3-47f4-996b-dedc294d42cf?w=300" alt="バルサ戦、胸に日本語で「幸運のかえる」と入れるレバンテの2014-15新ユニフォーム" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/21/levante-2014-15-nike" title="バルサ戦、胸に日本語で「幸運のかえる」と入れるレバンテの2014-15新ユニフォーム">バルサ戦、胸に日本語で「幸運のかえる」と入れるレバンテの2014-15新ユニフォーム</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/21/barcelona-fastest-player-jeremy-mathieu" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/bbc8ca30-1dd4-43aa-aac4-5f276a8fa210?w=300" alt="バルセロナで最速なのはメッシでもネイマールでもなく、なんとDFジェレミ・マテューらしい" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/21/barcelona-fastest-player-jeremy-mathieu" title="バルセロナで最速なのはメッシでもネイマールでもなく、なんとDFジェレミ・マテューらしい">バルセロナで最速なのはメッシでもネイマールでもなく、なんとDFジェレミ・マテューらしい</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/19/nike-football-boots-2014-fall" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/98935ba1-89d1-4ef4-be72-39a7ca2b0d75?w=300" alt="NIKEのサッカースパイク、カラフルな2014秋の新作・新色が登場" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/19/nike-football-boots-2014-fall" title="NIKEのサッカースパイク、カラフルな2014秋の新作・新色が登場">NIKEのサッカースパイク、カラフルな2014秋の新作・新色が登場</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/13/arsenal-shinobu-ohno-yukari-kinga" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/3153e604-e10c-4cf0-8bd4-515179024920?w=300" alt="アーセナルの男女合同撮影で目立つ「なでしこ」の大野と近賀、カソルラは“バランサー役”に？" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/13/arsenal-shinobu-ohno-yukari-kinga" title="アーセナルの男女合同撮影で目立つ「なでしこ」の大野と近賀、カソルラは“バランサー役”に？">アーセナルの男女合同撮影で目立つ「なでしこ」の大野と近賀、カソルラは“バランサー役”に？</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/09/08/ea-sports-fifa15-top-50-player" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/3b74b261-ef84-4bae-99fa-7a01ad725d04?w=300" alt="日本で来月発売予定のサッカーゲーム『FIFA15』、能力が最も高いトップ50選手はこの男達だ！" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/09/08/ea-sports-fifa15-top-50-player" title="日本で来月発売予定のサッカーゲーム『FIFA15』、能力が最も高いトップ50選手はこの男達だ！">日本で来月発売予定のサッカーゲーム『FIFA15』、能力が最も高いトップ50選手はこの男達だ！</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/08/26/mario-balotelli-funniest-episodes-18" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/f2490826-49d2-4138-94cf-87f9f186b89a?w=300" alt="みんな大好き！“悪童”バロテッリの思わず笑ってしまう18のエピソード" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/08/26/mario-balotelli-funniest-episodes-18" title="みんな大好き！“悪童”バロテッリの思わず笑ってしまう18のエピソード">みんな大好き！“悪童”バロテッリの思わず笑ってしまう18のエピソード</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					 
+					  
+					<div class="box nsp">
+						<div>
+							<div class="content">
+								<div class="nspMain nspFs100" id="nsp-nsp_135" style="width:100%;">
+									<div class="nspArts bottom" style="width:100%;">
+										<div class="nspArt" style="width:100%!important;">
+											<div style="padding:0">
+												<a href="/2014/08/15/gq-france-select-nice-kit-2014-15" class="nspImageWrapper tleft fleft" style="margin:0;">
+													<img class="nspImage tleft fleft" src="/media/081dae94-3d73-49cf-ae24-0dd153a22cee?w=300" alt="ファッション誌『GQ』フランス版が選ぶ今季のいけてるユニフォーム、ベスト16！" style="width: 300px;height:120px;" />
+												</a>
+												<h4 class="nspHeader tleft fnone"><a href="/2014/08/15/gq-france-select-nice-kit-2014-15" title="ファッション誌『GQ』フランス版が選ぶ今季のいけてるユニフォーム、ベスト16！">ファッション誌『GQ』フランス版が選ぶ今季のいけてるユニフォーム、ベスト16！</a></h4>
+											</div>
+										</div>
+									</div>
+								</div>
+								<script type="text/javascript">
+									//<![CDATA[
+									try {$Gavick;}catch(e){$Gavick = {};};
+									$Gavick["nsp-nsp_135"] = {
+										"animation_speed": 400,
+										"animation_interval": 5000,
+										"animation_function": Fx.Transitions.Expo.easeIn,
+										"news_column": 1,
+										"news_rows": 1,
+										"links_columns_amount": 1,
+										"links_amount": 3,
+										"counter_text": '<strong>Page:</strong>'
+									};
+									//]]>
+								</script>
+							</div>
+						</div>
+					</div>
+					  
+					  
+					  
+					  
+					<div class="box">
+						<div>
+							<div class="content">
+								<div class="custom">
+									<ul class="latestnews new">
+										<li><a href="/category/news">》 News</a></li>
+										<li><a href="/category/story">》 Story</a></li>
+										<li><a href="/category/goods">》 Goods</a></li>
+										<li><a href="/category/event">》 Event</a></li>
+										<li><a href="/category/special">》 Special</a></li>
+										<li><a href="/player/worldcup/">》 2014WC-PLAYERS</a></li>
+										<li><a href="/">》 Topへ</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="box qoly">
+						<div>
+							<p class="pr">PR</p>
+							<div class="content">
+								<div class="custom qoly">
+									<div style="margin: 5px;">
+			<script type="text/javascript" src="//y.one.impact-ad.jp/imp?p=17221&amp;w=300&amp;h=250&amp;t=j"></script>
+			<noscript><iframe scrolling="no" height="250" frameborder="0" width="300" allowtransparency="true" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" src="//y.one.impact-ad.jp/imp?p=17221&amp;h=250&amp;w=300"></iframe></noscript>
+		</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					 
+				</section>
+			</div>
+			<section id="gkBottom" class="masonry">
+				<div class="box_qoly1">
+					<div>
+						<div class="content">
+							<div class="custom_qoly1">
+								<div id="footer_navi" style="margin-top: 30px; font-size: 80%;">
+									<ul>
+										<li class="footer_gaiyo" style="float: left;"><a href="/company">運営者情報</a><span>　|　</span></li>
+										<li class="footer_privacy" style="float: left;"><a href="/privacypolicy">プライバシーポリシー</a><span>　|　</span></li>
+										<li class="footer_sitepolicy" style="float: left;"><a href="/sitepolicy">サイトポリシー</a><span>　|　</span></li>
+										<li class="footer_contact" style="float: left;"><a href="/contact1">お問い合わせ</a><span>　|　</span></li>
+										<li class="footer_contact" style="float: left;"><a href="/sitemap">サイトマップ</a><span>　|　</span></li>
+										<li class="footer_contact" style="float: left;"><a class="iconTwitter" href="https://twitter.com/Qoly_jp" target="_blank">Twitter</a>　<a class="iconFacebook" href="https://www.facebook.com/Qoly.jp" target="_blank">Facebook</a>　<a class="iconRSS" href="/staff">RSS</a></li>
+									</ul>
+								</div>
+								<div style="clear: both; height: 0;"> </div>
+								<div style="color: #000; font-size: 80%;">© Qoly.jp / football webmagazine Qoly All rights reserved.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="gkFooter gkInsetUsed"><p>Template Design &copy; <a href="//www.gavick.com" title="Joomla Templates">Joomla Templates</a> GavickPro. All rights reserved.</p></footer>
+		</div>
+		<div id="gkPopupOverlay"></div>
+		<!-- twitter -->
+		<!-- Pinterest script -->
+		<script>
+			/*<![CDATA[*/
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-10690895-1', 'auto');
+			ga('require', 'displayfeatures');
+			ga('send', 'pageview', {
+				'dimension1': null
+			});
+			/*]]>*/
+		</script>
+	</body>
+</html>

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="ru-RU" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="ru-RU" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="ru-RU" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Meow is my name</title>
+
+<link rel="pingback" href="https://mew.su/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://mew.su/wp-content/themes/twentytwelve/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<!-- SEO Ultimate (http://www.seodesignsolutions.com/wordpress-seo/) -->
+	<link rel="canonical" href="https://mew.su/" />
+	<link rel="author" href="https://plus.google.com/+AlexMeowNovak" />
+	<meta name="description" content="Такой себе бложек вебмастера и скриптера" />
+	<meta name="keywords" content="блог веб-мастера,скрипты,секреты,программирование,php,c++,пхп,взлом игр вконтакте,создать скрипт,полезные заметки,ключи,интересности,web,www,programming,soft" />
+	<meta property="og:type" content="blog" />
+	<meta property="og:title" content="Meow is my name" />
+	<meta property="og:description" content="Такой себе бложек вебмастера и скриптера" />
+	<meta property="og:url" content="https://mew.su/" />
+	<meta property="og:site_name" content="Meow is my name" />
+	<meta name="twitter:card" content="summary" />
+<!-- /SEO Ultimate -->
+
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="KYpWnvG9LBww9S27wj5K_FZy0zDH7Mv9iudsLKSvyrE" />
+<meta name="msvalidate.01" content="A1079BD723BA12CC8EDC039D6A670060" />
+<meta name="p:domain_verify" content="a6aaf73f50a0d7bbbeeb47b8760f20be" />
+<link rel="alternate" type="application/rss+xml" title="Meow is my name &raquo; Лента" href="https://mew.su/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Meow is my name &raquo; Лента комментариев" href="https://mew.su/comments/feed/" />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='https://mew.su/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twttr_stylesheet-css'  href='https://mew.su/wp-content/plugins/twitter-plugin/css/style.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-widgets-css'  href='https://mew.su/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&#038;subset=latin,latin-ext,cyrillic,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='https://mew.su/wp-content/themes/twentytwelve/style.css?ver=3.9.2' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='https://mew.su/wp-content/themes/twentytwelve/css/ie.css?ver=20121010' type='text/css' media='all' />
+<![endif]-->
+<script>
+if (document.location.protocol != "https:") {
+    document.location = document.URL.replace(/^http:/i, "https:");
+}
+</script>
+<script type='text/javascript' src='https://mew.su/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='https://mew.su/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mew.su/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://mew.su/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.9.2" />
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('https://www.mew.su/lecontent/uploads/2013/09/fon.jpg'); background-repeat: repeat; background-position: top center; background-attachment: scroll; }
+</style>
+</head>
+
+<body class="home blog custom-background custom-font-enabled single-author">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="https://mew.su/" title="Meow is my name" rel="home">Meow is my name</a></h1>
+			<h2 class="site-description">Такой себе бложек вебмастера и скриптера</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h3 class="menu-toggle">Меню</h3>
+			<a class="assistive-text" href="#content" title="Перейти к содержимому">Перейти к содержимому</a>
+			<div class="nav-menu"><ul><li class="current_page_item"><a href="https://mew.su/">Главная</a></li><li class="page_item page-item-23"><a href="https://mew.su/kto-ya-takoj/">Кто я такой</a></li><li class="page_item page-item-5"><a href="https://mew.su/moi-narabotki/">Мои наработки</a></li><li class="page_item page-item-88"><a href="https://mew.su/uslugi/">Услуги</a></li><li class="page_item page-item-40"><a href="https://mew.su/chto-u-menya-est-sejchas/">Что у меня есть сейчас?</a></li><li class="page_item page-item-8"><a href="https://mew.su/svyazat-sya-so-mnoj/">Связаться со мной</a></li></ul></div>
+		</nav><!-- #site-navigation -->
+
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+		
+										
+	<article id="post-166" class="post-166 post type-post status-publish format-standard hentry category-bez-rubriki">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://mew.su/2014/09/166/" rel="bookmark">0day уязвимость в приложениях для iOS: Gmail, Google+ и FB Messenger</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://mew.su/2014/09/166/#respond" title="Прокомментировать запись &laquo;0day уязвимость в приложениях для iOS: Gmail, Google+ и FB Messenger&raquo;"><span class="leave-reply">Добавить комментарий</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<h5>Интро</h5>
+<p>Нормальные люди проводят ночи смотря фильмы, читая статьи, общаясь в социальных сетях или (да, я знаю — это странно) засыпая на кровати.</p>
+<p>Я же провожу свои ночи читая документации и тестируя самые разнообразные приложения и сервисы.</p>
+<p>Одной ночью я просто читал <a href="http://tools.ietf.org/html/rfc3966">документацию о ссылках tel</a>, так как я был в восторге от старых технологий, которые использовались до сих пор, их недостатков и того, что люди никогда не читали RFC, что и приводит их к RTFM PWNAGE (как я привык это называть).</p>
+<p> <a href="https://mew.su/2014/09/166/#more-166" class="more-link">Читать больше &#8220;0day уязвимость в приложениях для iOS: Gmail, Google+ и FB Messenger&#8221; &raquo;</a></p>
+<div class="twttr_button">
+						<a href="http://twitter.com/share?url=https://mew.su/2014/09/166/&text=0day уязвимость в приложениях для iOS: Gmail, Google+ и FB Messenger" target="_blank" title="Кликай, если понравилась данная статья.">
+							<img src="https://mew.su/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+						</a>
+					</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Запись опубликована <a href="https://mew.su/2014/09/166/" title="13:24" rel="bookmark"><time class="entry-date" datetime="2014-09-02T13:24:22+00:00">02.09.2014</time></a><span class="by-author"> автором <span class="author vcard"><a class="url fn n" href="https://mew.su/author/meow/" title="Посмотреть все записи автора Alex “Meow” Novak" rel="author">Alex “Meow” Novak</a></span></span> в рубрике <a href="https://mew.su/category/bez-rubriki/" title="Просмотреть все записи в рубрике &laquo;Без рубрики&raquo;" rel="category tag">Без рубрики</a>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-151" class="post-151 post type-post status-publish format-standard hentry category-vk-com tag-bot-v-vk tag-bot-dlya-vk tag-vkontakte-bot-govorun tag-vkontakte-sozdat-razgovornogo-bota tag-skachat-bot-dlya-vk tag-sozdat-bota-vk">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/" rel="bookmark">Пошаговая инструкция создания бота для Вконтакте</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/#respond" title="Прокомментировать запись &laquo;Пошаговая инструкция создания бота для Вконтакте&raquo;"><span class="leave-reply">Добавить комментарий</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>По многочисленным просьбам, которыми я был засыпан после <a title="Как создать бота Вконтакте (vk.com)? Или как мой бот постепенно захватывает мир" href="http://www.mew.su/2014/08/%d0%ba%d0%b0%d0%ba-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d1%82%d1%8c-%d0%b1%d0%be%d1%82%d0%b0-%d0%b2%d0%ba%d0%be%d0%bd%d1%82%d0%b0%d0%ba%d1%82%d0%b5-vk-com-%d0%b8%d0%bb%d0%b8-%d0%ba%d0%b0%d0%ba-%d0%bc/">предыдущего поста</a> &#8212; рассказываю пошаговую инструкцию создания бота для Вконтакте, который может отвечать человекоподобными сообщениями в личных сообщениях.</p>
+<p> <a href="https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/#more-151" class="more-link">Читать больше &#8220;Пошаговая инструкция создания бота для Вконтакте&#8221; &raquo;</a></p>
+<div class="twttr_button">
+						<a href="http://twitter.com/share?url=https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/&text=Пошаговая инструкция создания бота для Вконтакте" target="_blank" title="Кликай, если понравилась данная статья.">
+							<img src="https://mew.su/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+						</a>
+					</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Запись опубликована <a href="https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/" title="14:45" rel="bookmark"><time class="entry-date" datetime="2014-08-18T14:45:05+00:00">18.08.2014</time></a><span class="by-author"> автором <span class="author vcard"><a class="url fn n" href="https://mew.su/author/meow/" title="Посмотреть все записи автора Alex “Meow” Novak" rel="author">Alex “Meow” Novak</a></span></span> в рубрике <a href="https://mew.su/category/vk-com/" title="Просмотреть все записи в рубрике &laquo;VK.COM&raquo;" rel="category tag">VK.COM</a> с метками <a href="https://mew.su/tag/bot-v-vk/" rel="tag">бот в вк</a>, <a href="https://mew.su/tag/bot-dlya-vk/" rel="tag">бот для вк</a>, <a href="https://mew.su/tag/vkontakte-bot-govorun/" rel="tag">вконтакте бот говорун</a>, <a href="https://mew.su/tag/vkontakte-sozdat-razgovornogo-bota/" rel="tag">вконтакте создать разговорного бота</a>, <a href="https://mew.su/tag/skachat-bot-dlya-vk/" rel="tag">скачать бот для вк</a>, <a href="https://mew.su/tag/sozdat-bota-vk/" rel="tag">создать бота вк</a>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-146" class="post-146 post type-post status-publish format-standard hentry category-vk-com category-sotsial-ny-e-seti category-tekushhie-proekty tag-boltun tag-bot-vk tag-vkontakte tag-kak-sozdat-bota tag-obshhalka">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/" rel="bookmark">Как создать бота Вконтакте (vk.com)? Или как мой бот постепенно захватывает мир</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/#comments" title="Прокомментировать запись &laquo;Как создать бота Вконтакте (vk.com)? Или как мой бот постепенно захватывает мир&raquo;">1 комментарий</a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Все мы отлично помним ICQ ботов, всяких &#171;Болтунов&#187;, &#171;Nekto.me&#187; и прочих, которые выжимали последние капли серой жидкости из головы во время разговора с ними.</p>
+<p> <a href="https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/#more-146" class="more-link">Читать больше &#8220;Как создать бота Вконтакте (vk.com)? Или как мой бот постепенно захватывает мир&#8221; &raquo;</a></p>
+<div class="twttr_button">
+						<a href="http://twitter.com/share?url=https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/&text=Как создать бота Вконтакте (vk.com)? Или как мой бот постепенно захватывает мир" target="_blank" title="Кликай, если понравилась данная статья.">
+							<img src="https://mew.su/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+						</a>
+					</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Запись опубликована <a href="https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/" title="16:50" rel="bookmark"><time class="entry-date" datetime="2014-08-06T16:50:44+00:00">06.08.2014</time></a><span class="by-author"> автором <span class="author vcard"><a class="url fn n" href="https://mew.su/author/meow/" title="Посмотреть все записи автора Alex “Meow” Novak" rel="author">Alex “Meow” Novak</a></span></span> в рубрике <a href="https://mew.su/category/vk-com/" title="Просмотреть все записи в рубрике &laquo;VK.COM&raquo;" rel="category tag">VK.COM</a>, <a href="https://mew.su/category/sotsial-ny-e-seti/" title="Просмотреть все записи в рубрике &laquo;Социальные сети&raquo;" rel="category tag">Социальные сети</a>, <a href="https://mew.su/category/tekushhie-proekty/" title="Просмотреть все записи в рубрике &laquo;Текущие проекты&raquo;" rel="category tag">Текущие проекты</a> с метками <a href="https://mew.su/tag/boltun/" rel="tag">болтун</a>, <a href="https://mew.su/tag/bot-vk/" rel="tag">бот вк</a>, <a href="https://mew.su/tag/vkontakte/" rel="tag">вконтакте</a>, <a href="https://mew.su/tag/kak-sozdat-bota/" rel="tag">как создать бота</a>, <a href="https://mew.su/tag/obshhalka/" rel="tag">общалка</a>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-139" class="post-139 post type-post status-publish format-standard hentry category-sotsial-ny-e-seti category-tvitter">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://mew.su/2014/07/twitorss-instrument-kotory-j-pozvolit-iz-vash/" rel="bookmark">TwiToRSS &#8212; инструмент, который позволит из вашей Twitter ленты сделать RSS канал</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://mew.su/2014/07/twitorss-instrument-kotory-j-pozvolit-iz-vash/#respond" title="Прокомментировать запись &laquo;TwiToRSS &#8212; инструмент, который позволит из вашей Twitter ленты сделать RSS канал&raquo;"><span class="leave-reply">Добавить комментарий</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<h2 style="text-align: center;">[ <a href="http://twitter.mew.su/rss.php">ЖМАК</a> ]</h2>
+<p>Сделал сервис, который позволит сделать из ленты в Твиттере RSS канал. Пока-что функционал немного скудноват. Все что можно делать &#8212; это парсить твиты из ленты. Немного позднее добавлю возможность парсить твиты из списков (Lists), Любимых твитов (Favourites) и из поиска.</p>
+<p>Для чего его можно использовать? Например для заполнения кучи профилей в Twidium Accounter ну или кросспостинга из RSS в блог (учел возможность автообновления ленты каждые n-секунд).</p>
+<p>Если нужно &#8212; сделаю все тоже самое в формате JSON ну и вообще &#8212; следите за обновлениями. <img src="https://mew.su/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p>&nbsp;</p>
+<div class="twttr_button">
+						<a href="http://twitter.com/share?url=https://mew.su/2014/07/twitorss-instrument-kotory-j-pozvolit-iz-vash/&text=TwiToRSS - инструмент, который позволит из вашей Twitter ленты сделать RSS канал" target="_blank" title="Кликай, если понравилась данная статья.">
+							<img src="https://mew.su/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+						</a>
+					</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Запись опубликована <a href="https://mew.su/2014/07/twitorss-instrument-kotory-j-pozvolit-iz-vash/" title="11:09" rel="bookmark"><time class="entry-date" datetime="2014-07-17T11:09:06+00:00">17.07.2014</time></a><span class="by-author"> автором <span class="author vcard"><a class="url fn n" href="https://mew.su/author/meow/" title="Посмотреть все записи автора Alex “Meow” Novak" rel="author">Alex “Meow” Novak</a></span></span> в рубрике <a href="https://mew.su/category/sotsial-ny-e-seti/" title="Просмотреть все записи в рубрике &laquo;Социальные сети&raquo;" rel="category tag">Социальные сети</a>, <a href="https://mew.su/category/tvitter/" title="Просмотреть все записи в рубрике &laquo;Твиттер&raquo;" rel="category tag">Твиттер</a>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-119" class="post-119 post type-post status-publish format-standard hentry category-bez-rubriki">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://mew.su/2014/04/klyuch-dlya-adobe-audition-3-serial-number/" rel="bookmark">Ключ для Adobe Audition 3 (serial number)</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://mew.su/2014/04/klyuch-dlya-adobe-audition-3-serial-number/#respond" title="Прокомментировать запись &laquo;Ключ для Adobe Audition 3 (serial number)&raquo;"><span class="leave-reply">Добавить комментарий</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Попробуйте использовать следующие ключи:</p>
+<p>1135-1381-2149-2687-0272-1819<br />
+1137-1169-2027-9958-3365-2151<br />
+1137-1166-4495-7943-6946-8864<br />
+1137-1166-4495-7943-6946-8864</p>
+<div class="twttr_button">
+						<a href="http://twitter.com/share?url=https://mew.su/2014/04/klyuch-dlya-adobe-audition-3-serial-number/&text=Ключ для Adobe Audition 3 (serial number)" target="_blank" title="Кликай, если понравилась данная статья.">
+							<img src="https://mew.su/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+						</a>
+					</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Запись опубликована <a href="https://mew.su/2014/04/klyuch-dlya-adobe-audition-3-serial-number/" title="09:39" rel="bookmark"><time class="entry-date" datetime="2014-04-02T09:39:07+00:00">02.04.2014</time></a><span class="by-author"> автором <span class="author vcard"><a class="url fn n" href="https://mew.su/author/meow/" title="Посмотреть все записи автора Alex “Meow” Novak" rel="author">Alex “Meow” Novak</a></span></span> в рубрике <a href="https://mew.su/category/bez-rubriki/" title="Просмотреть все записи в рубрике &laquo;Без рубрики&raquo;" rel="category tag">Без рубрики</a>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-117" class="post-117 post type-post status-publish format-standard hentry category-bez-rubriki">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/" rel="bookmark">Ошибка &#171;Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerName&#187;</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/#comments" title="Прокомментировать запись &laquo;Ошибка &#171;Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerName&#187;&raquo;">Комментарии (2)</a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Ошибку эту решить очень просто:<br />
+1. Необходимо отредактировать файл /etc/apache2/httpd.conf<br />
+2. Впишите туда следующее ServerName localhost<br />
+3. Затем запустите /etc/init.d/apache2 restart</p>
+<p>Все это нужно делать под root правами, то есть после того как войдете на сервер по ssh введите su и пароль админа, либо сразу авторизуйтесь под root.</p>
+<div class="twttr_button">
+						<a href="http://twitter.com/share?url=https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/&text=Ошибка &quot;Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerName&quot;" target="_blank" title="Кликай, если понравилась данная статья.">
+							<img src="https://mew.su/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+						</a>
+					</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Запись опубликована <a href="https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/" title="09:36" rel="bookmark"><time class="entry-date" datetime="2014-04-02T09:36:22+00:00">02.04.2014</time></a><span class="by-author"> автором <span class="author vcard"><a class="url fn n" href="https://mew.su/author/meow/" title="Посмотреть все записи автора Alex “Meow” Novak" rel="author">Alex “Meow” Novak</a></span></span> в рубрике <a href="https://mew.su/category/bez-rubriki/" title="Просмотреть все записи в рубрике &laquo;Без рубрики&raquo;" rel="category tag">Без рубрики</a>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-112" class="post-112 post type-post status-publish format-standard hentry category-novy-e-skripty category-obnovleniya-skriptov category-tekushhie-proekty">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://mew.su/2014/02/dvizhok-dlya-twitter-bootstrap/" rel="bookmark">Движок для Twitter Bootstrap</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://mew.su/2014/02/dvizhok-dlya-twitter-bootstrap/#respond" title="Прокомментировать запись &laquo;Движок для Twitter Bootstrap&raquo;"><span class="leave-reply">Добавить комментарий</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Последнее время загорелся поехавшей идеей сделать что-то необычное и тем самым подтянуть познания в PHP.</p>
+<p>Итак для приготовления блюда нам понадобится:<br />
+1. PHP<br />
+2. MySQL<br />
+3. Twitter Bootstrap 3.1.1</p>
+<p>Начинаем готовить сегодня.<br />
+Если есть желающие &#8212; после первых наработок закину скрипт на GitHub.</p>
+<div class="twttr_button">
+						<a href="http://twitter.com/share?url=https://mew.su/2014/02/dvizhok-dlya-twitter-bootstrap/&text=Движок для Twitter Bootstrap" target="_blank" title="Кликай, если понравилась данная статья.">
+							<img src="https://mew.su/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+						</a>
+					</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Запись опубликована <a href="https://mew.su/2014/02/dvizhok-dlya-twitter-bootstrap/" title="17:37" rel="bookmark"><time class="entry-date" datetime="2014-02-23T17:37:41+00:00">23.02.2014</time></a><span class="by-author"> автором <span class="author vcard"><a class="url fn n" href="https://mew.su/author/meow/" title="Посмотреть все записи автора Alex “Meow” Novak" rel="author">Alex “Meow” Novak</a></span></span> в рубрике <a href="https://mew.su/category/novy-e-skripty/" title="Просмотреть все записи в рубрике &laquo;Новые поступления&raquo;" rel="category tag">Новые поступления</a>, <a href="https://mew.su/category/obnovleniya-skriptov/" title="Просмотреть все записи в рубрике &laquo;Обновление скриптов&raquo;" rel="category tag">Обновление скриптов</a>, <a href="https://mew.su/category/tekushhie-proekty/" title="Просмотреть все записи в рубрике &laquo;Текущие проекты&raquo;" rel="category tag">Текущие проекты</a>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-108" class="post-108 post type-post status-publish format-standard hentry category-bez-rubriki">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://mew.su/2014/02/kak-lomat-igry-dlya-android-ili-pochemu-ya-tak-k/" rel="bookmark">Как ломать игры для Android? Или почему я так круто играю в CandyCrush?</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://mew.su/2014/02/kak-lomat-igry-dlya-android-ili-pochemu-ya-tak-k/#respond" title="Прокомментировать запись &laquo;Как ломать игры для Android? Или почему я так круто играю в CandyCrush?&raquo;"><span class="leave-reply">Добавить комментарий</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<ol>
+<li>
+<p>Ну очевидно что для всего этого действа вам понадобится &#171;root&#187; доступ. Если вы не знаете что такое &#171;рут&#187; и что с ним делать &#8212; ждите следующих постов.</p>
+</li>
+<li>
+<p>Это все, теперь вам нужно установить на свой смартфон приложение <a href="http://4pda.ru/forum/index.php?showtopic=411446">Freedom</a> после нехитрых манипуляций с данным приложением &#8212; покупки в приложениях будут осуществляться с помощью FreeCard.</p>
+</li>
+</ol>
+<p> <a href="https://mew.su/2014/02/kak-lomat-igry-dlya-android-ili-pochemu-ya-tak-k/#more-108" class="more-link">Читать больше &#8220;Как ломать игры для Android? Или почему я так круто играю в CandyCrush?&#8221; &raquo;</a></p>
+<div class="twttr_button">
+						<a href="http://twitter.com/share?url=https://mew.su/2014/02/kak-lomat-igry-dlya-android-ili-pochemu-ya-tak-k/&text=Как ломать игры для Android? Или почему я так круто играю в CandyCrush?" target="_blank" title="Кликай, если понравилась данная статья.">
+							<img src="https://mew.su/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+						</a>
+					</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Запись опубликована <a href="https://mew.su/2014/02/kak-lomat-igry-dlya-android-ili-pochemu-ya-tak-k/" title="19:49" rel="bookmark"><time class="entry-date" datetime="2014-02-03T19:49:08+00:00">03.02.2014</time></a><span class="by-author"> автором <span class="author vcard"><a class="url fn n" href="https://mew.su/author/meow/" title="Посмотреть все записи автора Alex “Meow” Novak" rel="author">Alex “Meow” Novak</a></span></span> в рубрике <a href="https://mew.su/category/bez-rubriki/" title="Просмотреть все записи в рубрике &laquo;Без рубрики&raquo;" rel="category tag">Без рубрики</a>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-103" class="post-103 post type-post status-publish format-standard hentry category-bez-rubriki">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://mew.su/2014/02/skype-podsvechivaet-nomera-telefonov-na-sa/" rel="bookmark">Skype подсвечивает номера телефонов на сайте. Как убрать?</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://mew.su/2014/02/skype-podsvechivaet-nomera-telefonov-na-sa/#respond" title="Прокомментировать запись &laquo;Skype подсвечивает номера телефонов на сайте. Как убрать?&raquo;"><span class="leave-reply">Добавить комментарий</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Бывает такое, что скайп при подсветке номеров телефонов на сайте негативно влияет на верстку и что-то может &#171;сьехать&#187; или &#171;поползти&#187;.<br />
+Чтобы принудительно отключить подобную &#171;фишку&#187; нужно добавить следующий код в шаблон между тэгов <head> и </head></p>
+<p><code><meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" /></code></p>
+<p>Вуаля! Никаких проблем!</p>
+<div class="twttr_button">
+						<a href="http://twitter.com/share?url=https://mew.su/2014/02/skype-podsvechivaet-nomera-telefonov-na-sa/&text=Skype подсвечивает номера телефонов на сайте. Как убрать?" target="_blank" title="Кликай, если понравилась данная статья.">
+							<img src="https://mew.su/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+						</a>
+					</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Запись опубликована <a href="https://mew.su/2014/02/skype-podsvechivaet-nomera-telefonov-na-sa/" title="10:33" rel="bookmark"><time class="entry-date" datetime="2014-02-03T10:33:44+00:00">03.02.2014</time></a><span class="by-author"> автором <span class="author vcard"><a class="url fn n" href="https://mew.su/author/meow/" title="Посмотреть все записи автора Alex “Meow” Novak" rel="author">Alex “Meow” Novak</a></span></span> в рубрике <a href="https://mew.su/category/bez-rubriki/" title="Просмотреть все записи в рубрике &laquo;Без рубрики&raquo;" rel="category tag">Без рубрики</a>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+							
+	<article id="post-105" class="post-105 post type-post status-publish format-standard hentry category-bez-rubriki">
+				<header class="entry-header">
+			
+						<h1 class="entry-title">
+				<a href="https://mew.su/2014/02/okruglenie-do-desyatkov-i-soten-v-bol-sh/" rel="bookmark">Округление до десятков и сотен в большую сторону (PHP)</a>
+			</h1>
+										<div class="comments-link">
+					<a href="https://mew.su/2014/02/okruglenie-do-desyatkov-i-soten-v-bol-sh/#respond" title="Прокомментировать запись &laquo;Округление до десятков и сотен в большую сторону (PHP)&raquo;"><span class="leave-reply">Добавить комментарий</span></a>				</div><!-- .comments-link -->
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Все гениальное просто &#8212; для округления до десятков можно использовать функции, которые уже есть в PHP по-умолчанию (ceil и round), но для поставленной задачи они не совсем хорошо подходят.</p>
+<p>Можно использовать следующий код:<br />
+<code><br />
+$p = 199.99; // 199 долларов 99 центов<br />
+echo ceil($p/10) * 10; // 200 долларов ровно<br />
+</code></p>
+<p>Если сменить 10 на 100 во второй строке- скрипт будет округлять до сотых.</p>
+<div class="twttr_button">
+						<a href="http://twitter.com/share?url=https://mew.su/2014/02/okruglenie-do-desyatkov-i-soten-v-bol-sh/&text=Округление до десятков и сотен в большую сторону (PHP)" target="_blank" title="Кликай, если понравилась данная статья.">
+							<img src="https://mew.su/wp-content/plugins/twitter-plugin/images/twitt.gif" alt="Twitt" />
+						</a>
+					</div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+			Запись опубликована <a href="https://mew.su/2014/02/okruglenie-do-desyatkov-i-soten-v-bol-sh/" title="20:45" rel="bookmark"><time class="entry-date" datetime="2014-02-02T20:45:01+00:00">02.02.2014</time></a><span class="by-author"> автором <span class="author vcard"><a class="url fn n" href="https://mew.su/author/meow/" title="Посмотреть все записи автора Alex “Meow” Novak" rel="author">Alex “Meow” Novak</a></span></span> в рубрике <a href="https://mew.su/category/bez-rubriki/" title="Просмотреть все записи в рубрике &laquo;Без рубрики&raquo;" rel="category tag">Без рубрики</a>.								</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+			
+					<nav id="nav-below" class="navigation" role="navigation">
+			<h3 class="assistive-text">Навигация по записям</h3>
+			<div class="nav-previous"><a href="https://mew.su/page/2/" ><span class="meta-nav">&larr;</span> Предыдущие записи</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-below .navigation -->
+	
+		
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="search-2" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://mew.su/">
+				<div>
+					<label class="screen-reader-text" for="s">Найти:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Поиск" />
+				</div>
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Свежие записи</h3>		<ul>
+					<li>
+				<a href="https://mew.su/2014/09/166/">0day уязвимость в приложениях для iOS: Gmail, Google+ и FB Messenger</a>
+						</li>
+					<li>
+				<a href="https://mew.su/2014/08/poshagovaya-instruktsiya-sozdaniya-bota-d/">Пошаговая инструкция создания бота для Вконтакте</a>
+						</li>
+					<li>
+				<a href="https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/">Как создать бота Вконтакте (vk.com)? Или как мой бот постепенно захватывает мир</a>
+						</li>
+					<li>
+				<a href="https://mew.su/2014/07/twitorss-instrument-kotory-j-pozvolit-iz-vash/">TwiToRSS &#8212; инструмент, который позволит из вашей Twitter ленты сделать RSS канал</a>
+						</li>
+					<li>
+				<a href="https://mew.su/2014/04/klyuch-dlya-adobe-audition-3-serial-number/">Ключ для Adobe Audition 3 (serial number)</a>
+						</li>
+				</ul>
+		</aside><aside id="twitter_timeline-3" class="widget widget_twitter_timeline"><h3 class="widget-title">Следите за мной на Твиттере</h3><a class="twitter-timeline" data-widget-id="486852442634477568" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-tweet-limit="3" width="225" height="400" lang="RU">Мои Твиты</a></aside><aside id="recent-comments-2" class="widget widget_recent_comments"><h3 class="widget-title">Свежие комментарии</h3><ul id="recentcomments"><li class="recentcomments"><a href='http://www.mew.su/2014/08/%d0%bf%d0%be%d1%88%d0%b0%d0%b3%d0%be%d0%b2%d0%b0%d1%8f-%d0%b8%d0%bd%d1%81%d1%82%d1%80%d1%83%d0%ba%d1%86%d0%b8%d1%8f-%d1%81%d0%be%d0%b7%d0%b4%d0%b0%d0%bd%d0%b8%d1%8f-%d0%b1%d0' rel='external nofollow' class='url'>Пошаговая инструкция создания бота для Вконтакте | Meow is my name</a> к записи <a href="https://mew.su/2014/08/kak-sozdat-bota-vkontakte-vk-com-ili-kak-m/#comment-16">Как создать бота Вконтакте (vk.com)? Или как мой бот постепенно захватывает мир</a></li><li class="recentcomments"><a href='http://mew.su' rel='external nofollow' class='url'>meow</a> к записи <a href="https://mew.su/2014/01/oshibka-bootmgr-is-missing/#comment-14">Ошибка BOOTMGR is missing</a></li><li class="recentcomments"><a href='http://mew.su' rel='external nofollow' class='url'>meow</a> к записи <a href="https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/#comment-13">Ошибка &#171;Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerName&#187;</a></li><li class="recentcomments">Saboteur к записи <a href="https://mew.su/2014/04/oshibka-could-not-reliably-determine-the-servers-fully-qualified-domain-name-using-127-0-0-1-for-servername/#comment-12">Ошибка &#171;Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerName&#187;</a></li><li class="recentcomments">Saboteur к записи <a href="https://mew.su/2014/01/oshibka-bootmgr-is-missing/#comment-11">Ошибка BOOTMGR is missing</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Архивы</h3>		<ul>
+	<li><a href='https://mew.su/2014/09/'>Сентябрь 2014</a></li>
+	<li><a href='https://mew.su/2014/08/'>Август 2014</a></li>
+	<li><a href='https://mew.su/2014/07/'>Июль 2014</a></li>
+	<li><a href='https://mew.su/2014/04/'>Апрель 2014</a></li>
+	<li><a href='https://mew.su/2014/02/'>Февраль 2014</a></li>
+	<li><a href='https://mew.su/2014/01/'>Январь 2014</a></li>
+	<li><a href='https://mew.su/2013/12/'>Декабрь 2013</a></li>
+	<li><a href='https://mew.su/2013/09/'>Сентябрь 2013</a></li>
+		</ul>
+</aside><aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Рубрики</h3>		<ul>
+	<li class="cat-item cat-item-5"><a href="https://mew.su/category/vk-com/" title="Просмотреть все записи в рубрике &laquo;VK.COM&raquo;">VK.COM</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://mew.su/category/bez-rubriki/" title="Просмотреть все записи в рубрике &laquo;Без рубрики&raquo;">Без рубрики</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="https://mew.su/category/novy-e-skripty/" title="Просмотреть все записи в рубрике &laquo;Новые поступления&raquo;">Новые поступления</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="https://mew.su/category/obnovleniya-skriptov/" title="Просмотреть все записи в рубрике &laquo;Обновление скриптов&raquo;">Обновление скриптов</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="https://mew.su/category/yama/" title="Просмотреть все записи в рубрике &laquo;Пулл&raquo;">Пулл</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="https://mew.su/category/sotsial-ny-e-seti/" title="Просмотреть все записи в рубрике &laquo;Социальные сети&raquo;">Социальные сети</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="https://mew.su/category/tvitter/" title="Просмотреть все записи в рубрике &laquo;Твиттер&raquo;">Твиттер</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="https://mew.su/category/tekushhie-proekty/" title="Просмотреть все записи в рубрике &laquo;Текущие проекты&raquo;">Текущие проекты</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h3 class="widget-title">Мета</h3>			<ul>
+			<li><a href="https://mew.su/wp-login.php?action=register">Регистрация</a></li>			<li><a href="https://mew.su/wp-login.php">Войти</a></li>
+			<li><a href="https://mew.su/feed/" title="Подпишитесь на RSS-ленту этого сайта"><abbr title="Really Simple Syndication">RSS</abbr> записей</a></li>
+			<li><a href="https://mew.su/comments/feed/" title="Последние комментарии ко всем записям в RSS"><abbr title="Really Simple Syndication">RSS</abbr> комментариев</a></li>
+<li><a href="http://ru.wordpress.org/" title="Сайт работает на WordPress &#8212; современной персональной платформе для публикаций.">WordPress.org</a></li>			</ul>
+</aside><aside id="blog_subscription-3" class="widget jetpack_subscription_widget"><h3 class="widget-title"><label for="subscribe-field">Подписаться на блог по эл. почте</label></h3>
+		<form action="#" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-3">
+			<p id="subscribe-text">Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p><p>Join 1 other subscriber</p>
+
+			<p id="subscribe-email"><input type="text" name="email" value="E-mail адрес" id="subscribe-field" onclick="if ( this.value == 'E-mail адрес' ) { this.value = ''; }" onblur="if ( this.value == '' ) { this.value = 'E-mail адрес'; }" /></p>
+
+			<p id="subscribe-submit">
+				<input type="hidden" name="action" value="subscribe" />
+				<input type="hidden" name="source" value="https://mew.su/" />
+				<input type="hidden" name="sub-type" value="widget" />
+				<input type="hidden" name="redirect_fragment" value="blog_subscription-3" />
+								<input type="submit" value="Подписаться" name="jetpack_subscriptions_widget" />
+			</p>
+		</form>
+
+		
+</aside><aside id="text-2" class="widget widget_text"><h3 class="widget-title">Счетчики</h3>			<div class="textwidget"><!-- begin of Top100 code -->
+
+<script id="top100Counter" type="text/javascript" src="https://scounter.rambler.ru/top100.jcn?3046182"></script>
+<noscript>
+<a href="http://top100.rambler.ru/navi/3046182/">
+<img src="https://scounter.rambler.ru/top100.cnt?3046182" alt="Rambler's Top100" border="0" />
+</a>
+
+</noscript>
+<!-- end of Top100 code -->
+
+<!--LiveInternet counter--><script type="text/javascript">document.write("<a href='//www.liveinternet.ru/click' target=_blank><img src='//counter.yadro.ru/hit?t57.6;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) + ";" + Math.random() + "' border=0 width=88 height=31 alt='' title='LiveInternet'><\/a>")</script><!--/LiveInternet-->
+</div>
+		</aside><aside id="text-3" class="widget widget_text"><h3 class="widget-title">Some adv</h3>			<div class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- MEW.SU RIGHT BLOCK ADAPT -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2301833805537748"
+     data-ad-slot="5410508514"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+		</aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+<div align="center">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- MEW.SU -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2301833805537748"
+     data-ad-slot="7166443315"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+		<div class="site-info">
+			Yeah! That's what I do. Feel free to copy or edit, but use links to <a href="https://mew.su/" title="Используйте, редактируйте, но не забывайте добавлять копирайт.">my blog</a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+
+<!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23451610 = new Ya.Metrika({id:23451610, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/23451610" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = _tmr || [];
+_tmr.push({id: "2452327", type: "pageView", start: (new Date()).getTime()});
+(function (d, w) {
+   var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true;
+   ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+   var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+   if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window);
+</script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=2452327;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54198704-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+	<div style="display:none">
+	</div>
+                <script type="text/javascript">
+                        !function(d,s,id){
+                                var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+                                if(!d.getElementById(id)){
+                                        js=d.createElement(s);
+                                        js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js,fjs);
+                                }
+                        }
+                        (document,"script","twitter-wjs");
+                </script>
+        <div id="su-footer-links" style="text-align: center;"></div><script type='text/javascript' src='https://mew.su/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201440'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2014Sepaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://mew.su/wp-content/plugins/jetpack/modules/wpgroho.js?ver=3.9.2'></script>
+<script type='text/javascript' src='https://mew.su/wp-content/themes/twentytwelve/js/navigation.js?ver=20140318'></script>
+
+	<script src="https://stats.wp.com/e-201440.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:3.1.1',blog:'58087297',post:'0',tz:'3'});
+	var load_cmc = function(){linktracker_init(58087297,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script></body>
+</html>

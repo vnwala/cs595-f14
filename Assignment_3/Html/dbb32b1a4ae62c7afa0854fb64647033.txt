@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<title>POWDER Magazine - The Ski Magazine for the Real Skier</title>
+	<meta name="viewport" content="width=1000" />
+    <meta name="robots" content="index, follow">
+
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="icon" href="http://stwww.powdermag.com/wp-content/themes/powdermag.com/images/favicon.ico?v=1" type="image/x-icon" />
+	<link rel="pingback" href="http://www.powder.com/xmlrpc.php" />
+    <link rel="alternate" type="application/rss+xml" title="Subscribe to POWDER Magazine" href="http://www.powder.com/feed/" />
+	<link rel="alternate" type="application/atom+xml" title="Subscribe to POWDER Magazine" href="http://www.powder.com/feed/atom/" />
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+        <!--[if IE]>
+        <style>
+            #mp_wrapper10652844 {margin-top: -15px;}
+        </style>
+        <![endif]-->
+
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noodp,noydir"/>
+<meta name="description" content="Latest skiing news, videos, photos, ski reviews, events and everything you want and need to know about skiing and powder for the real skier."/>
+<meta name="keywords" content="Homepage"/>
+<link rel="canonical" href="http://www.powder.com/" />
+<link rel="publisher" href="https://plus.google.com/+powdermag/"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="POWDER Magazine - The Ski Magazine for the Real Skier" />
+<meta property="og:description" content="Latest skiing news, videos, photos, ski reviews, events and everything you want and need to know about skiing and powder for the real skier." />
+<meta property="og:url" content="http://www.powder.com/" />
+<meta property="og:site_name" content="POWDER Magazine" />
+<meta property="article:publisher" content="https://www.facebook.com/powder" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@powdermagazine"/>
+<meta name="twitter:domain" content="POWDER Magazine"/>
+<meta name="twitter:creator" content="@powdermagazine"/>
+<script type="application/ld+json">{ "@context": "http://schema.org", "@type": "WebSite", "url": "http://www.powder.com/", "potentialAction": { "@type": "SearchAction", "target": "http://www.powder.com/?s={search_term}", "query-input": "required name=search_term" } }</script>
+<!-- / Yoast WordPress SEO plugin. -->
+
+<!-- Chartbeat -->
+	<script type="text/javascript">
+		var _sf_startpt = (new Date()).getTime();
+	</script>
+<!-- BEGIN Krux Integration, Part 1 (network-wide) -->
+<script class="kxint" type="text/javascript">
+	window.Krux || ((Krux = function() { Krux.q.push(arguments); }).q = []);
+	(function() {
+		function retrieve(n) {
+			var m, k= "kx" + n;
+			if (window.localStorage) {
+				return window.localStorage[k] || "";
+			} else if (navigator.cookieEnabled) {
+				m = document.cookie.match(k + "=([^;]*)");
+				return (m && unescape(m[1])) || "";
+			} else {
+				return "";
+			}
+		}
+		Krux.user = retrieve("user");
+		Krux.segments = retrieve("segs") ? retrieve("segs").split(",") : [];
+		var dfpp = [];
+		var dfpp_omniture = [];
+		if (Krux.user) {
+			dfpp.push("kuid=" + Krux.user);
+		}
+		for (var i = 0; i < Krux.segments.length && i < 10; i++) {
+			dfpp.push("ksg=" + Krux.segments[i]);
+			dfpp_omniture.push(Krux.segments[i]);
+		}
+		window.kruxvalue = Krux.dfppKeyValues = dfpp.length ? dfpp.join(";") + ";" : "";
+		window.kruxomnivalue = dfpp_omniture.length ? dfpp_omniture.join(",") : "";
+	})();
+</script>
+<!-- END Krux Integration, Part 1 (network-wide) -->
+
+<script>
+var kval = ""; 
+if (window.kruxvalue) 
+    kval = window.kruxvalue; 
+</script>
+<link rel='stylesheet' id='bootstrap-compat-css'  href='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/css/boostrap-compatability-1.0.0.css?ver=3.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='pagebuilder-css'  href='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/css/pagebuilder-3.0.0.css?ver=3.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/css/flexslider.css?ver=3.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='MagnificPopup-Styles-css'  href='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/Editorial/Instagram/assets/css/magnific-popup.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='masonry-instagram-css'  href='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/Editorial/Instagram/assets/css/masonry-instagram.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='instapress-css'  href='http://stwww.powdermag.com/wp-content/plugins/instapress/instapress.css?ver=3.9.2' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://stwww.powdermag.com/wp-content/plugins/instapress/fancybox/jquery.fancybox.css?ver=1.3.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/jquery-1.8.3.min.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/bootstrap-3.0.0.min.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/modernizr-2.7.1.min.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/jquery.unveil-1.0.0.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/jquery.carouFredSel-6.2.0-min.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/jquery.fitvids-1.0.3.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/jquery.fittext-1.1.0.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/jquery.flexslider-2.2.0-min.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/jquery.hcsticky-1.1.96.min.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/jquery.harvey.1.0.0.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/jquery.enquire-2.1.0.min.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/pagebuilder/js/pagebuilder.js?ver=3.0.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/instapress/fancybox/jquery.fancybox-1.3.4.pack.js?ver=3.9.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/instapress/instapress.js?ver=3.9.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/instapress/jquery.timeago.js?ver=3.9.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/Editorial/Instagram/assets/js/imagesloaded.pkgd.js?ver=3.9.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/Editorial/Instagram/assets/js/jquery.magnific-popup.min.js?ver=3.9.2'></script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/Editorial/Instagram/assets/js/masonry.pkgd.min.js?ver=3.9.2'></script>
+<script type='text/javascript' src='http://jwpsrv.com/library/cBZZivFpEeOWUSIACyaB8g.js?ver=1.0.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pagebuilder_embeds_version = "1.0.4";
+var pagebuilder_embeds_url = "http:\/\/stwww.powdermag.com\/wp-content\/plugins\/pagebuilder-embeds";
+var pagebuilder_embeds_ads = null;
+var pagebuilder_embeds_skip_offset = "http:\/\/www.powder.com\/wp-content\/plugins\/pagebuilder-embeds";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://stwww.powdermag.com/wp-content/plugins/pagebuilder-embeds/logic.js?ver=1.0.4'></script>
+<script type="text/javascript" src="http://stwww.powdermag.com/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.1"></script>
+<script type="text/javascript">AudioPlayer.setup("http://stwww.powdermag.com/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.1", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"E5E5E5",text:"333333",leftbg:"CCCCCC",lefticon:"333333",volslider:"666666",voltrack:"FFFFFF",rightbg:"B4B4B4",rightbghover:"999999",righticon:"333333",righticonhover:"FFFFFF",track:"FFFFFF",loader:"009900",border:"CCCCCC",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+
+		<script>
+		var pbGlobal = {};
+		pbGlobal.device = 'desktop';
+		enquire.register("(max-width: 767px)", {
+
+			match : function() {
+				pbGlobal.device = 'phone';
+			}
+		});
+		enquire.register("(min-width: 768px) and (max-width: 1024px)", {
+
+			match : function() {
+				pbGlobal.device = 'tablet';
+			}
+		});
+		</script><script type="text/javascript">var AccountName="aumopowdermaghub,aumoglobalhub"</script>
+<script type="text/javascript" src="http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/Omniture/assets/js/omniture_scode.js?AccountName=aumopowdermaghub,aumoglobalhub&ver=1.1"></script>
+<script type="text/javascript" src="http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/Omniture/assets/js/omniture_microtracking.js?ver=1.1"></script>
+<script type="text/javascript" src="http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/Omniture/assets/js/omniture_addthis.js?ver=1.1"></script>
+<script type="text/javascript" src="http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/Omniture/assets/js/omniture_grindmedia.js?ver=1.1"></script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-141486-32', 'auto', {'legacyCookieDomain': '.powder.com'});
+ga('require', 'linkid', 'linkid.js');   // Load the plug-in. Note: this call will block until the plug-in is loaded.
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+	<link rel="stylesheet" type="text/css" media="all" href="http://stwww.powdermag.com/wp-content/themes/powdermag.com/style.css?v=1412018414" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://stwww.powdermag.com/wp-content/themes/powdermag.com/css/photo-gallery.css?v=1412018414" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://stwww.powdermag.com/wp-content/themes/powdermag.com/css/buyers-guide.css?v=1390843637" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://stwww.powdermag.com/wp-content/themes/powdermag.com/css/unified-content.css?v=1389652722" />
+
+	<script type="text/javascript" src="http://stwww.powdermag.com/wp-content/themes/powdermag.com/js/jcarousel.min.js"></script>
+	<script type="text/javascript" src="http://stwww.powdermag.com/wp-content/themes/powdermag.com/js/jtimers.min.js"></script>
+	<script type="text/javascript" src="http://stwww.powdermag.com/wp-content/themes/powdermag.com/js/global.js?v=1390843637"></script>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js'></script>
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+	<script type="text/javascript">
+	//<![CDATA[
+	var ord;
+	if (typeof ord=='undefined') {ord=Math.random()*10000000000000000;}
+	var tile=1;
+	var ads_params = "homepage;site=powdermag;sect=homepage;subs=;subss=;page=";
+	var image_path = "http://stwww.powdermag.com/wp-content/themes/powdermag.com/images";
+	var arrow_next_active = "http://stwww.powdermag.com/wp-content/themes/powdermag.com/images/arrow_next_active.png";
+	var arrow_next_inactive = "http://stwww.powdermag.com/wp-content/themes/powdermag.com/images/arrow_next_inactive.gif";
+	var arrow_prev_active = "http://stwww.powdermag.com/wp-content/themes/powdermag.com/images/arrow_prev_active.png";
+	var arrow_prev_inactive = "http://stwww.powdermag.com/wp-content/themes/powdermag.com/images/arrow_prev_inactive.gif";
+
+	//Call the rotator function to run the slideshow, 6000 = change to next image after 6 seconds
+	var set = setInterval('rotate()',6000);
+
+	//]]>
+	</script>
+
+<!--
+	generated 254 seconds ago
+	generated in 0.516 seconds
+	served from batcache in 0.003 seconds
+	expires in 46 seconds
+-->
+</head>
+
+<body class="home page page-id-59317 page-template-default bootstrap-compat" id="">
+	<!-- Facebook Like -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+   <div id="TakeoverBackground">
+	<div id="PageContainer">
+<script language="JavaScript" type="text/javascript">var kval=""; if (window.kruxvalue){kval=window.kruxvalue;}document.write('<script language="JavaScript" src="http://ad.doubleclick.net/N3833/adj/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;dcopt=ist;pos=top;tile=1;sz=1x1;kw=;ord=' + ord + ';' + kval + '?" width="1" height="1" border="0" type="text/javascript"><\/sc'+'ript>');</script><noscript><a href="http://ad.doubleclick.net/N3833/jump/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;dcopt=ist;pos=top;tile=1;sz=1x1;kw=;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/N3833/ad/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;dcopt=ist;pos=top;tile=1;sz=1x1;kw=;ord=123456789?" width="1" height="1" border="0" alt=""></a></noscript><div class="superheader"><script language="JavaScript" type="text/javascript">var kval=""; if (window.kruxvalue){kval=window.kruxvalue;}document.write('<script language="JavaScript" src="http://ad.doubleclick.net/N3833/adj/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=2;sz=970x250;kw=;ord=' + ord + ';' + kval + '?" width="970" height="250" border="0" type="text/javascript"><\/sc'+'ript>');</script><noscript><a href="http://ad.doubleclick.net/N3833/jump/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=2;sz=970x250;kw=;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/N3833/ad/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=2;sz=970x250;kw=;ord=123456789?" width="970" height="250" border="0" alt=""></a></noscript></div>		<div id="container">
+			<div id="header">
+					<div id="latest-issue">			<div class="textwidget"><style>img.grindadops-tracking { display: none; }</style>
+
+<a href="http://www.powder.com/magazine/october-2014/"><img src="http://stwww.powdermag.com/wp-content/uploads/2014/09/powder-oct-cover-85pxlong.png"></a>
+<a href="http://www.powder.com/magazine/october-2014/"> <div class="latest-issue-text">Latest Issue</div></a>
+<div class="latest-issue-links">
+<p style="padding:10px 20px 0 0;">October 2014</p>
+<a target="_blank" href="https://www.circsource.com/store/Subscribe.html?magazineId=120&amp;sourceCode=I9ANLN">PRINT</a> |
+<a target="_blank" href="http://www.powdermag.com/apps/">DIGITAL</a>
+</div>
+</div>
+		</div>
+
+					<div class="ad_728 right" id="rotate-ad1">
+
+					<script language="JavaScript" type="text/javascript">var kval=""; if (window.kruxvalue){kval=window.kruxvalue;}document.write('<script language="JavaScript" src="http://ad.doubleclick.net/N3833/adj/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=3;sz=728x90;kw=;ord=' + ord + ';' + kval + '?" width="728" height="90" border="0" type="text/javascript"><\/sc'+'ript>');</script><noscript><a href="http://ad.doubleclick.net/N3833/jump/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=3;sz=728x90;kw=;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/N3833/ad/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=3;sz=728x90;kw=;ord=123456789?" width="728" height="90" border="0" alt=""></a></noscript>
+				</div>
+
+<div id="navigation" class="nav">
+    <a id="logo" href="http://www.powder.com/"><img src="http://stwww.powdermag.com/wp-content/themes/powdermag.com/images/powder-logo.png" alt="Powder Magazine" /></a>
+        <ul class="parent">
+                <li><a class="selected" href="http://www.powder.com/">Home</a></li>
+                <li onmouseover="this.className='on';" onmouseout="this.className='';">
+                    <a class="" title="Videos" href="http://www.powder.com/category/videos/">Videos</a>
+                    <ul class="children">
+                        <li><div class="nav-border"></div></li>
+                        <li><a title="Powder TV" href="http://www.powder.com/category/powder-tv/">Powder TV</a></li>					
+                    </ul>
+                </li>
+                <li onmouseover="this.className='on';" onmouseout="this.className='';">
+                    <a class="" title="Stories" href="http://www.powder.com/category/stories/">Stories</a>
+                    <ul class="children">
+                        <li><div class="nav-border"></div></li>
+                        <li><a title="News" href="http://www.powder.com/category/stories/news/">News</a></li>
+                        <li><a title="Events" href="http://www.powder.com/category/stories/events/">Events</a></li>
+                        <li><a title="People" href="http://www.powder.com/category/stories/people/">People</a></li>
+                        <li><a title="Opinion" href="http://www.powder.com/stories/opinion/">Opinion</a></li>
+                        <li><a title="Freeride World Tour" href="http://www.powder.com/freeride-world-tour/">Freeride World Tour</a></li>
+                        <li><a title="Digital Features" href="http://www.powder.com/category/digital-features/">Digital Features</a></li>
+                        <li><a title="Avalanche Education" href="http://www.powder.com/avalanche-education/">Avalanche Education</a></li>
+                        <li><a title="Sochi Olympics" href="http://www.powder.com/sochi2014/">Sochi Olympics</a></li>
+                    </ul>
+                </li>
+                <li onmouseover="this.className='on';" onmouseout="this.className='';">
+                    <a class="" title="Gear" href="http://www.powder.com/2015-buyers-guide/">Gear</a>
+                    <ul class="children">
+                        <li><div class="nav-border"></div></li>
+                        <li><a title="Junk in the Trunk" href="http://www.powder.com/gear/junk-in-the-trunk/">Junk in the Trunk</a></li>
+                        <li><a title="Buyer's Guide" href="http://www.powder.com/2015-buyers-guide/">Buyer's Guide</a></li>
+                        <li><a title="Apparel Guide" href="http://www.powder.com/2014-apparel-guide/">Apparel Guide</a></li>
+                        <li><a title="Accessories Guide" href="http://gear.powdermag.com/buyers-guide-2014/accessories.html">Accessories Guide</a></li>
+                    </ul>
+                </li>
+                <li onmouseover="this.className='on';" onmouseout="this.className='';">
+                    <a class="" title="Places" href="http://www.powder.com/places/">Places</a>
+                    <ul class="children">
+                        <li><div class="nav-border"></div></li>
+                        <li><a title="Trips" href="http://www.powder.com/places/trips/">Trips</a></li>
+                        <li><a title="Backcountry" href="http://www.powder.com/places/back-country/">Backcountry</a></li>
+                        <li><a title="Resort Guide" href="http://www.powder.com/resorts/">Resort Guide</a></li>
+                        <li><a title="Heli Cat Guide" href="http://www.powder.com/heli-cat-guide/">Heli Cat Guide</a></li>
+                    </ul>
+                </li>
+                <li onmouseover="this.className='on';" onmouseout="this.className='';">
+                    <a class="" title="Photos" href="http://www.powder.com/category/photos/">Photos</a>
+                    <ul class="children">
+                        <li><div class="nav-border"></div></li>
+                        <li><a title="Photo of the Day" href="http://www.powder.com/category/photo-of-the-day/">Photo of the Day</a></li>
+                    </ul>
+                </li>
+                <li onmouseover="this.className='on';" onmouseout="this.className='';">
+                    <a class="" title="Magazine" href="http://www.powder.com/magazine/">Magazine</a>
+                    <ul class="children">
+                        <li><div class="nav-border"></div></li>
+                        <li><a title="In This Issue" href="http://www.powder.com/magazine/">In This Issue</a></li>
+                        <li><a title="Print Edition" href="https://www.circsource.com/store/Subscribe.html?magazineId=120&sourceCode=I9ABNN">Print Edition</a></li>
+                        <li><a title="Digital Edition" href="http://www.powdermag.com/apps/">Digital Edition</a></li>
+                        <li><a title="Subscriber Services" href="https://www.circsource.com/store/csloginpage.html?MagId=120">Subscriber Services</a></li>
+                        <li><a title="Back Issues" href="https://www.circsource.com/store/storeBackIssMagazines.html?magazineId=120">Back Issues</a></li>
+                        <li><a title="Give a Gift" href="https://www.circsource.com/store/Subscribe.html?magazineId=120&type=gift&sourceCode=I9AGNN">Give a Gift</a></li>
+                        <li><a title="Newsletter" href="http://www.powder.com/newsletter/">Newsletter</a></li>
+                        <li><a title="Store" href="http://shop.powdermag.com/" target="_blank">Store</a></li>
+                    </ul>
+                </li>
+                <li onmouseover="this.className='on';" onmouseout="this.className='';">
+                    <a title="Olympics" href="http://www.powder.com/sochi2014/">Olympics</a>
+                </li>
+        </ul>
+    <div class="menu-search-wrapper">
+
+<div id="search" >
+
+    <form role="search" method="get" id="searchform" action="http://www.powder.com">
+            <div>
+                    <label class="screen-reader-text" for="s"></label>
+                    <input type="text" value="Search Powder.com" name="s" id="s" onfocus="this.value=(this.value=='Search Powder.com')?'':this.value; style.color=(this.value!='Search Powder.com')?'#333333':'#989898'" onblur="this.value=(this.value=='')?'Search Powder.com':this.value;style.color=(this.value=='Search Powder.com')?'#989898':'#333333'"  />
+                    <input type="image" src="http://stwww.powdermag.com/wp-content/themes/powdermag.com/images/search_btn.gif" id="searchsubmit" value="Search" />
+        </div>
+    </form><!-- .search-form -->
+    
+</div><!-- .search -->
+    </div>
+</div>
+<div id="nav-holder"></div>
+			</div> <!-- end header -->
+
+<div id="TakeoverBridge"></div>
+<div class="content">
+<script>
+$(function() {
+    initMantle();
+});
+</script>
+
+<div class="mantle-main">
+    <div class="mantle-bg">
+        <div class="contentdiv-hidden"></div>
+        <div class="contentdiv content_1">
+            <a class="featured" href="http://www.powder.com/experience-sage-project/" title="Experience Sage Project">
+<img width="520" height="350" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/Sage_mantle.jpg" class="attachment-hp-mantle wp-post-image" alt="Sage in the light." />            </a>
+            <p class="heading story">
+Digital Features</p>
+            <p class="mantle-title"><a href="http://www.powder.com/experience-sage-project/" title="Experience Sage Project">Experience Sage Project</a></p>
+            <p class="border"></p>
+            <p class="mantle-sub">A multimedia story featuring art and skiing of Sage Cattabriga-Alosa, with footage by Teton Gravity Research and Adam Clark</p>
+        </div><!-- /.contentdiv -->
+        <div class="contentdiv content_2">
+            <a class="featured" href="http://www.powder.com/videos/watch-issue-october-2014/" title="Watch This Issue, October 2014">
+<img width="520" height="350" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/WTIPromoOct1-520x350.jpg" class="attachment-hp-mantle wp-post-image" alt="WTIPromoOct1" />            </a>
+            <p class="heading story">
+POWDER TV</p>
+            <p class="mantle-title"><a href="http://www.powder.com/videos/watch-issue-october-2014/" title="Watch This Issue, October 2014">Watch This Issue, October 2014</a></p>
+            <p class="border"></p>
+            <p class="mantle-sub">The teaser for the second issue of POWDER's Volume 43 </p>
+        </div><!-- /.contentdiv -->
+        <div class="contentdiv content_3">
+            <a class="featured" href="http://www.powder.com/stories/people/touched-heavenly-angel/" title="Touched by a Heavenly Angel">
+<img width="520" height="350" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/heavenly-ski-angel-1-520x350.jpg" class="attachment-hp-mantle wp-post-image" alt="Heavenly&#039;s Angels are no 1994 TV drama. PHOTO: Heavenly Ski Resort" />            </a>
+            <p class="heading story">
+People</p>
+            <p class="mantle-title"><a href="http://www.powder.com/stories/people/touched-heavenly-angel/" title="Touched by a Heavenly Angel">Touched by a Heavenly Angel</a></p>
+            <p class="border"></p>
+            <p class="mantle-sub">A lesson in après from skiing's first go-go dancers</p>
+        </div><!-- /.contentdiv -->
+        <div class="contentdiv content_4">
+            <a class="featured" href="http://www.powder.com/digital-features/last-valley/" title="The Last Valley">
+<img width="520" height="350" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/ArollaOpenerGraphic.jpeg" class="attachment-hp-mantle wp-post-image" alt="ArollaOpenerGraphic" />            </a>
+            <p class="heading story">
+Digital Features</p>
+            <p class="mantle-title"><a href="http://www.powder.com/digital-features/last-valley/" title="The Last Valley">The Last Valley</a></p>
+            <p class="border"></p>
+            <p class="mantle-sub">A Flipbook feature on steep skiing in Arolla, the hidden gem of Switzerland</p>
+        </div><!-- /.contentdiv -->
+        <div class="pagination-mantle">
+            <div class="mantle-bullets">
+                <div class="toc-arrow-left"></div>
+                <div class="toc-arrow-right"></div>
+                <a class="toc-bullets content_1" href="#1"></a>
+                <a class="toc-bullets content_2" href="#2"></a>
+                <a class="toc-bullets content_3" href="#3"></a>
+                <a class="toc-bullets content_4" href="#4"></a>
+            </div>
+            <div class="mantle-thumbs">
+            <a class="toc-thumbs content_1" href="#1"><img width="200" height="200" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/Sage_mantle-200x200.jpg" class="attachment-small-1-1 wp-post-image" alt="Sage in the light." /></a>
+            <a class="toc-thumbs content_2" href="#2"><img width="200" height="200" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/WTIPromoOct1-200x200.jpg" class="attachment-small-1-1 wp-post-image" alt="WTIPromoOct1" /></a>
+            <a class="toc-thumbs content_3" href="#3"><img width="200" height="200" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/heavenly-ski-angel-1-200x200.jpg" class="attachment-small-1-1 wp-post-image" alt="Heavenly&#039;s Angels are no 1994 TV drama. PHOTO: Heavenly Ski Resort" /></a>
+            <a class="toc-thumbs content_4" href="#4"><img width="200" height="200" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/ArollaOpenerGraphic-200x200.jpeg" class="attachment-small-1-1 wp-post-image" alt="ArollaOpenerGraphic" /></a>
+            </div>
+        </div><!-- /.pagination-mantle -->
+    </div>
+</div>
+<div class="mantle-sidebar">
+    <p class="heading"><a href="/first-chair/" title="First Chair">First Chair Blog</a></p>
+    <ul class="mantle-sidebar-info">
+        <li class="ie-first-chair-1"><p class="arrow-right"></p>
+            <p class="title"><a href="http://www.powder.com/first-chair/#deep-andes" title="Deep in the Andes">Deep in the Andes</a></p>
+            <p class="date">September 29, 2014</p>
+        </li>
+        <li class="ie-first-chair-2"><p class="arrow-right"></p>
+            <p class="title"><a href="http://www.powder.com/first-chair/#trailer-park" title="The Trailer Park">The Trailer Park</a></p>
+            <p class="date">September 29, 2014</p>
+        </li>
+        <li class="ie-first-chair-3"><p class="arrow-right"></p>
+            <p class="title"><a href="http://www.powder.com/first-chair/#video-dane-tudors-comeback" title="VIDEO: Dane Tudor&#8217;s Comeback">VIDEO: Dane Tudor&#8217;s Comeback</a></p>
+            <p class="date">September 29, 2014</p>
+        </li>
+        <li><a class="ft" href="http://www.powder.com/first-chair/">See More</a></li>
+    </ul>
+</div>
+
+
+<div class="wide">
+    <div class="mod photo-of-the-day">
+        <div class="bg">
+            <p class="heading">Photo Of The Day</p>
+            <p class="date">September 29</p>
+            <p class="border"></p>
+            <p class="author">photo by <span>Christian Pondella</span></p>
+
+        </div>
+        <a href="http://www.powder.com/photo-of-the-day/christian-pondella-92914/" title="Photo of the Day: Christian Pondella">
+<img width="427" height="120" src="http://stwww.powdermag.com/wp-content/uploads/2014/08/PONDELLA_ROSOW_07122010_1502-427x120.jpg" class="attachment-photo-of-the-day wp-post-image" alt="Bernard Rosow; Mammoth Mountain, California" />            </a>
+    </div>
+<div class="mod latest-content">
+    <h1>Latest Content</h1>
+    <div id="sub-menu">
+        <ul class="sub-menu sub-menu-five">
+            <li><a id="tab1" href="#" onclick="select_tabs(['tab2','tab3','tab4','tab5'],'tab1','latest-content');return false;" class="selected">All</a></li>
+            <li><a id="tab2" href="#" onclick="select_tabs(['tab1','tab3','tab4','tab5'],'tab2','latest-content');return false;">Stories</a></li>
+            <li><a id="tab3" href="#" onclick="select_tabs(['tab1','tab2','tab4','tab5'],'tab3','latest-content');return false;">Photos</a></li>
+            <li><a id="tab4" href="#" onclick="select_tabs(['tab1','tab2','tab3','tab5'],'tab4','latest-content');return false;">Videos</a></li>
+            <li><a id="tab5" href="#" onclick="select_tabs(['tab1','tab2','tab3','tab4'],'tab5','most-popular');return false;">Most Popular</a></li>
+        </ul>
+    </div>
+    <div class="wrapper show" id="tab1-content">
+        <div id="div-1">
+            <a href="http://www.powder.com/stories/deep-andes/" title="Deep in the Andes">
+<img width="312" height="234" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/deep-andes-Créditos-Jeremías-Marinovic-6-312x234.jpg" class="attachment-thumbnail wp-post-image" alt="Four Chilean skiers explored the inner valleys of their country&#039;s mountain range this summer. PHOTO: Jeremias Marinovic/The North Face Chile" />            </a>
+            <p class="heading">
+First Chair            </p>
+            <p class="title"><a href="http://www.powder.com/stories/deep-andes/" title="Deep in the Andes">Deep in the Andes</a></p>
+            <p class="exerpt">Four Chilean skiers explore the steeper aspects in their homeland</p>
+            <p class="author">published: <span>September 29, 2014</span></p>
+	    <p class="comment-count"><a class="c-count" href="http://www.powder.com/stories/deep-andes/#disqus_thread"></a></p>
+        </div>
+        <div id="div-2">
+            <a href="http://www.powder.com/experience-sage-project/" title="Experience Sage Project">
+<img width="312" height="234" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/Sage_mantle-312x234.jpg" class="attachment-thumbnail wp-post-image" alt="Sage in the light." />            </a>
+            <p class="heading">
+Digital Features            </p>
+            <p class="title"><a href="http://www.powder.com/experience-sage-project/" title="Experience Sage Project">Experience Sage Project</a></p>
+            <p class="exerpt">A multimedia story featuring art and skiing of Sage Cattabriga-Alosa, with footage by Teton Gravity Research and Adam Clark</p>
+            <p class="author">published: <span>September 29, 2014</span></p>
+	    <p class="comment-count"><a class="c-count" href="http://www.powder.com/experience-sage-project/#disqus_thread"></a></p>
+        </div>
+<span class="ad-600x150"><script language="JavaScript" type="text/javascript">var kval=""; if (window.kruxvalue){kval=window.kruxvalue;}document.write('<script language="JavaScript" src="http://ad.doubleclick.net/N3833/adj/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=4;sz=600x150;kw=;ord=' + ord + ';' + kval + '?" width="600" height="150" border="0" type="text/javascript"><\/sc'+'ript>');</script><noscript><a href="http://ad.doubleclick.net/N3833/jump/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=4;sz=600x150;kw=;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/N3833/ad/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=4;sz=600x150;kw=;ord=123456789?" width="600" height="150" border="0" alt=""></a></noscript></span>        <div id="div-3">
+            <a href="http://www.powder.com/videos/trailer-park/" title="The Trailer Park">
+<img width="312" height="234" src="http://stwww.powdermag.com/wp-content/uploads/2014/07/TrailerPark-312x234.jpeg" class="attachment-thumbnail wp-post-image" alt="TrailerPark" />            </a>
+            <p class="heading">
+First Chair            </p>
+            <p class="title"><a href="http://www.powder.com/videos/trailer-park/" title="The Trailer Park">The Trailer Park</a></p>
+            <p class="exerpt">Every single ski movie trailer of the season, parked right here for your viewing pleasure</p>
+            <p class="author">published: <span>September 29, 2014</span></p>
+	    <p class="comment-count"><a class="c-count" href="http://www.powder.com/videos/trailer-park/#disqus_thread"></a></p>
+        </div>
+        <div id="div-4">
+            <a href="http://www.powder.com/videos/video-dane-tudors-comeback/" title="VIDEO: Dane Tudor&#8217;s Comeback">
+<img width="312" height="234" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/dane-tudor-312x234.jpg" class="attachment-thumbnail wp-post-image" alt="dane-tudor" />            </a>
+            <p class="heading">
+First Chair            </p>
+            <p class="title"><a href="http://www.powder.com/videos/video-dane-tudors-comeback/" title="VIDEO: Dane Tudor&#8217;s Comeback">VIDEO: Dane Tudor&#8217;s Comeback</a></p>
+            <p class="exerpt">Tudor's season edit for your Monday morning</p>
+            <p class="author">published: <span>September 29, 2014</span></p>
+	    <p class="comment-count"><a class="c-count" href="http://www.powder.com/videos/video-dane-tudors-comeback/#disqus_thread"></a></p>
+        </div>
+        <div id="div-5">
+            <a href="http://www.powder.com/stories/news/week-review-east-coast-making-snow/" title="Week In Review: East Coast Making Snow Up In Here">
+<img width="312" height="234" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-25-at-4.56.41-PM-312x234.jpg" class="attachment-thumbnail wp-post-image" alt="Screen-Shot-2014-09-25-at-4.56.41-PM" />            </a>
+            <p class="heading">
+First Chair            </p>
+            <p class="title"><a href="http://www.powder.com/stories/news/week-review-east-coast-making-snow/" title="Week In Review: East Coast Making Snow Up In Here">Week In Review: East Coast Making Snow Up In Here</a></p>
+            <p class="exerpt">KFC ski Jumping, Wolf Creek in trouble, and Finland skis cool</p>
+            <p class="author">published: <span>September 26, 2014</span></p>
+	    <p class="comment-count"><a class="c-count" href="http://www.powder.com/stories/news/week-review-east-coast-making-snow/#disqus_thread"></a></p>
+        </div>
+        <div id="div-6">
+            <a href="http://www.powder.com/videos/video-faces-dav-trailer/" title="VIDEO: &#8220;Faces of Dav&#8221; Trailer">
+<img width="312" height="234" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/faces-of-dav-1-312x234.jpg" class="attachment-thumbnail wp-post-image" alt="faces of dav" />            </a>
+            <p class="heading">
+First Chair            </p>
+            <p class="title"><a href="http://www.powder.com/videos/video-faces-dav-trailer/" title="VIDEO: &#8220;Faces of Dav&#8221; Trailer">VIDEO: &#8220;Faces of Dav&#8221; Trailer</a></p>
+            <p class="exerpt">Red Bull Media House presents new webisode series that follows Chris Davenport</p>
+            <p class="author">published: <span>September 25, 2014</span></p>
+	    <p class="comment-count"><a class="c-count" href="http://www.powder.com/videos/video-faces-dav-trailer/#disqus_thread"></a></p>
+        </div>
+        <div id="div-7">
+            <a href="http://www.powder.com/avalanche-education/love-local-avy-center/" title="Love Your Local Avy Center">
+<img width="312" height="234" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/avy-center-love-312x234.jpg" class="attachment-thumbnail wp-post-image" alt="avalanche-forecaster-snow" />            </a>
+            <p class="heading">
+Avalanche Education            </p>
+            <p class="title"><a href="http://www.powder.com/avalanche-education/love-local-avy-center/" title="Love Your Local Avy Center">Love Your Local Avy Center</a></p>
+            <p class="exerpt">Parties, ski movies, and other ways to put your money where your ski is</p>
+            <p class="author">published: <span>September 25, 2014</span></p>
+	    <p class="comment-count"><a class="c-count" href="http://www.powder.com/avalanche-education/love-local-avy-center/#disqus_thread"></a></p>
+        </div>
+        <div id="div-8">
+            <a href="http://www.powder.com/videos/watch-issue-october-2014/" title="Watch This Issue, October 2014">
+<img width="312" height="234" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/WTIPromoOct1-312x234.jpg" class="attachment-thumbnail wp-post-image" alt="WTIPromoOct1" />            </a>
+            <p class="heading">
+POWDER TV            </p>
+            <p class="title"><a href="http://www.powder.com/videos/watch-issue-october-2014/" title="Watch This Issue, October 2014">Watch This Issue, October 2014</a></p>
+            <p class="exerpt">The teaser for the second issue of POWDER's Volume 43 </p>
+            <p class="author">published: <span>September 24, 2014</span></p>
+	    <p class="comment-count"><a class="c-count" href="http://www.powder.com/videos/watch-issue-october-2014/#disqus_thread"></a></p>
+        </div>
+        <div id="div-9">
+            <a href="http://www.powder.com/stories/news/mammoth-mountain-buys-big-bear-ski-resorts/" title="Mammoth Mountain Buys Big Bear Ski Resorts">
+<img width="312" height="234" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/SNOW_SUMMIT_Calif4nia__061-312x234.jpg" class="attachment-thumbnail wp-post-image" alt="Snow Summit has been looking for a buyer since last summer. They finally found one at Mammoth Mountain. PHOTO: Snow Summit" />            </a>
+            <p class="heading">
+First Chair            </p>
+            <p class="title"><a href="http://www.powder.com/stories/news/mammoth-mountain-buys-big-bear-ski-resorts/" title="Mammoth Mountain Buys Big Bear Ski Resorts">Mammoth Mountain Buys Big Bear Ski Resorts</a></p>
+            <p class="exerpt">Mammoth, June, Bear, and Snow Summit unified under one season pass</p>
+            <p class="author">published: <span>September 24, 2014</span></p>
+	    <p class="comment-count"><a class="c-count" href="http://www.powder.com/stories/news/mammoth-mountain-buys-big-bear-ski-resorts/#disqus_thread"></a></p>
+        </div>
+        <div id="div-10">
+            <a href="http://www.powder.com/gear/junk-in-the-trunk/dynafit-crampons-junk-trunk/" title="Dynafit Crampons—Junk In The Trunk">
+<img width="312" height="234" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/DSC00818-2-312x234.png" class="attachment-thumbnail wp-post-image" alt="dynafit ski crampon" />            </a>
+            <p class="heading">
+First Chair            </p>
+            <p class="title"><a href="http://www.powder.com/gear/junk-in-the-trunk/dynafit-crampons-junk-trunk/" title="Dynafit Crampons—Junk In The Trunk">Dynafit Crampons—Junk In The Trunk</a></p>
+            <p class="exerpt">A handy tool to avoid the slippery moonwalk move on steep skin tracks</p>
+            <p class="author">published: <span>September 24, 2014</span></p>
+	    <p class="comment-count"><a class="c-count" href="http://www.powder.com/gear/junk-in-the-trunk/dynafit-crampons-junk-trunk/#disqus_thread"></a></p>
+        </div>
+    </div>
+    <div class="wrapper hide" id="tab2-content"></div>
+    <div class="wrapper hide" id="tab3-content"></div>
+    <div class="wrapper hide" id="tab4-content"></div>
+    <div class="wrapper hide" id="tab5-content"></div>
+</div></div>	<!-- .wide -->
+<div class="narrow">
+<div class="mod follow-us">
+        <p class="heading">Follow Us:</p>
+        <a class="facebook" href="http://www.facebook.com/powder" title="facebook"></a>
+        <a class="twitter" href="http://www.twitter.com/powdermagazine" title="twitter"></a>
+        <a class="google" href="https://plus.google.com/109507873137488831724/posts" rel="publisher" title="google plus"></a>
+        <a class="instagram" href="http://www.instagram.com/powdermagazine/" title="instagram"></a>
+        <a class="pinterest" href="http://pinterest.com/powdermag/" title="pinterest"></a>
+        <a class="newsletter" href="http://www.powder.com/newsletter/" title="newsletter"></a>
+        <a class="rss" href="http://www.powder.com/feed/" title="rss feed"></a>
+</div>			    <div class="mod hp-video">
+<script>
+  function playerAPICallback(playerId, eventName, eventArgs)
+  {
+    switch(eventName) {
+        case "apiReady":
+             document.getElementById('p1').setVolume('0');
+        break;
+    }
+  }
+</script>
+        <script src="http://player.ooyala.com/player.js?callback=playerAPICallback&playerId=p1&width=300&amp;height=169&amp;wmode=transparent&amp;embedCode=92Z3RxMTqrmmfCfeUHZ1CoSMlQjh8Rt2&autoplay=1"></script>
+    </div>
+    <div class="mod ad-300x250" id="rotate-ad2"><script language="JavaScript" type="text/javascript">var kval=""; if (window.kruxvalue){kval=window.kruxvalue;}document.write('<script language="JavaScript" src="http://ad.doubleclick.net/N3833/adj/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=5;sz=300x250;kw=;ord=' + ord + ';' + kval + '?" width="300" height="250" border="0" type="text/javascript"><\/sc'+'ript>');</script><noscript><a href="http://ad.doubleclick.net/N3833/jump/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=5;sz=300x250;kw=;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/N3833/ad/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=top;tile=5;sz=300x250;kw=;ord=123456789?" width="300" height="250" border="0" alt=""></a></noscript></div>
+<div class="mod grid">
+    <p class="heading">Updates and Social Media</p>
+    <table class="grid-menu">
+        <tr>
+            <td><a id="tab15" href="#" title="latest news" onclick="select_tabs(['tab16','tab17','tab18'],'tab15','social-media');return false;">Latest News</a></td>
+            <td><a id="tab16" class="selected" href="#" title="facebook" onclick="select_tabs(['tab15','tab17','tab18'],'tab16','social-media');return false;">Facebook</a></td>
+        </tr>
+        <tr>
+            <td><a id="tab17" href="#" title="twitter" onclick="select_tabs(['tab15','tab16','tab18'],'tab17','social-media');return false;">Twitter</a></td>
+            <td><a id="tab18" href="#" title="mtnadvisor" onclick="select_tabs(['tab15','tab16','tab17'],'tab18','social-media');return false;">Mtnadvisor</a></td>
+        </tr>
+    </table>
+    <div id="tab15-content" class="hide"></div>
+    <div id="tab16-content" class="show">
+        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpowder&amp;width=300&amp;colorscheme=light&amp;connections=0&amp;stream=true&amp;header=true&amp;height=300" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:300px;" allowTransparency="true"></iframe>
+    </div>
+    <div id="tab17-content" class="hide">
+        <a class="twitter-timeline" href="https://twitter.com/PowderMagazine" data-widget-id="349592508709343232">Tweets by @PowderMagazine</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+    <div id="tab18-content" class="hide"></div>
+</div>
+
+    <div class="mod ad-300x600"><script language="JavaScript" type="text/javascript">var kval=""; if (window.kruxvalue){kval=window.kruxvalue;}document.write('<script language="JavaScript" src="http://ad.doubleclick.net/N3833/adj/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=bottom;tile=6;sz=300x600;kw=;ord=' + ord + ';' + kval + '?" width="300" height="600" border="0" type="text/javascript"><\/sc'+'ript>');</script><noscript><a href="http://ad.doubleclick.net/N3833/jump/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=bottom;tile=6;sz=300x600;kw=;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/N3833/ad/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=bottom;tile=6;sz=300x600;kw=;ord=123456789?" width="300" height="600" border="0" alt=""></a></noscript></div>
+<div class="mod calendar hide">
+    <p class="heading">Calendar</p>
+    <ul>
+        <li>
+            <p class="date">11/1-30</p>
+            <a href="#">Powder to the People Tour</a>
+        </li>
+        <li><a class="more" href="#">See More</a></li>
+    </ul>
+</div>    <div class="mod ad-300x250"><script language="JavaScript" type="text/javascript">var kval=""; if (window.kruxvalue){kval=window.kruxvalue;}document.write('<script language="JavaScript" src="http://ad.doubleclick.net/N3833/adj/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=bottom;tile=7;sz=300x250;kw=;ord=' + ord + ';' + kval + '?" width="300" height="250" border="0" type="text/javascript"><\/sc'+'ript>');</script><noscript><a href="http://ad.doubleclick.net/N3833/jump/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=bottom;tile=7;sz=300x250;kw=;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/N3833/ad/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=bottom;tile=7;sz=300x250;kw=;ord=123456789?" width="300" height="250" border="0" alt=""></a></noscript></div>
+<script>
+$(function() { 
+    initMantleSidebar(); 
+});
+</script>
+<div class="mod current-issue">
+    <p class="heading" style="height:16px;"></p>
+    <div id="toc">
+            <a class="toc-sidebar content_1 selected" href="#1">1</a>
+            <a class="toc-sidebar content_2" href="#2">2</a>
+            <a class="toc-sidebar content_3" href="#3">3</a>
+            <a class="toc-sidebar content_4" href="#4">4</a>
+    </div>
+        <div class="sidebar-mantle">
+		<div class="contentdiv-sidebar content_1">
+                    <p class="heading-text">Subscribe</p>
+							
+			<a title="The October Issue" href="http://www.powder.com/magazine/october-2014/">
+			<img width="137" height="168" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/POWP-141000-CN1-R-137x168.jpeg" class="attachment-current-issue wp-post-image" alt="Powder october cover" />			</a>
+				
+				
+			<ul class="current-issue">	
+				<li>						
+					<a href="https://www.circsource.com/store/Subscribe.html?magazineId=120&sourceCode=I9ABQN" title="Print Edition" target="_blank">
+					<p class="redtxt">Print</p>
+					<p class="greytxt">Edition</p>
+					<p class="greytxtsm">65% Off Newsstand</p></a>
+				</li>							
+				<li class="border"></li>
+				<li>
+					<a href="http://www.powdermag.com/apps/" title="Digital Edition">
+					<p class="redtxt2">Digital</p>
+					<p class="greytxt">Edition</p>
+					<p class="greytxtsm">Additional 20% Off</p></a>
+				</li>							
+				<li class="border"></li>
+				<li><a href="https://www.circsource.com/store/csloginpage.html?MagId=120" title="Subscriber Services" target="_blank">Renew</a> | <a href="https://www.circsource.com/store/Subscribe.html?magazineId=120&type=gift&sourceCode=I8DGQN" title="Give a Gift" target="_blank">Give a Gift</a></li>							
+			</ul>
+		</div>
+		<div class="contentdiv-sidebar content_2">
+                    <p class="heading-text">Single Copy Sales</p>
+			<a href="http://powdermagstore.com/issues.html" title="Powder Magazine" target="_blank"><img src="http://stwww.powdermag.com/wp-content/themes/powdermag.com/images/powder-commemorative-cover.jpg" /></a>
+			<ul class="current-issue">	
+				<li>	
+					<a href="http://powdermagstore.com/issues.html" title="Powder Magazine" target="_blank">				
+					<p class="greytxtsm">Can't Find The</p>
+					<p class="greytxt">Magazine</p>
+					<p class="greytxtsm">Anywhere?</p></a>
+				</li>							
+				<li class="border"></li>
+				<li>
+					<a href="http://powdermagstore.com/issues.html" title="Powder Magazine" target="_blank">
+					<p class="redtxt2 big">BUY</p>
+					<p class="redtxt2">HERE!</p></a>
+				</li>							
+			</ul>
+	
+		</div>
+		<div class="contentdiv-sidebar content_3">	
+                    <p class="heading-text">Digital</p>
+			<div class="ipad-cover">
+			<a href="http://www.powdermag.com/apps/" title="Digital Edition">
+			<img width="845" height="1000" src="http://stwww.powdermag.com/wp-content/uploads/2014/09/POWP-141000-CN1-R.jpeg" class="attachment-full wp-post-image" alt="Powder october cover" />			</a>
+				
+							
+			</div>			
+			<ul class="current-issue">	
+				<li>						
+					<a href="http://www.powdermag.com/apps/" title="Digital Edition">					
+					<p class="greytxt big">Get</p>
+					<p class="greytxtsm">Powder</p>
+					<p class="greytxtsm">On Your</p>
+					</a>
+				</li>							
+				<li>
+					<a href="http://www.powdermag.com/apps/" title="Digital Edition">
+					<p class="redtxt2 big">iPAD/</p>
+					<p class="redtxt2">iPHONE</p></a>
+				</li>							
+			</ul>
+		</div>
+                <div class="contentdiv-sidebar content_4">
+                    <p class="heading-text">In This Issue</p>
+			<div class="in-this-issue">
+                    <a title="In This Issue" href="http://www.powder.com/magazine/">
+                        <img src="http://stwww.powdermag.com/wp-content/themes/powdermag.com/images/watch-this-issue.jpg" />
+                    </a>
+                </div>
+		</div>
+	</div>
+</div>    <div class="mod ad-300x100"><script language="JavaScript" type="text/javascript">var kval=""; if (window.kruxvalue){kval=window.kruxvalue;}document.write('<script language="JavaScript" src="http://ad.doubleclick.net/N3833/adj/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=bottom;tile=8;sz=300x100;kw=;ord=' + ord + ';' + kval + '?" width="300" height="100" border="0" type="text/javascript"><\/sc'+'ript>');</script><noscript><a href="http://ad.doubleclick.net/N3833/jump/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=bottom;tile=8;sz=300x100;kw=;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/N3833/ad/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;pos=bottom;tile=8;sz=300x100;kw=;ord=123456789?" width="300" height="100" border="0" alt=""></a></noscript></div>
+</div> <!-- end narrow -->
+<div class="bottom-border"></div>
+        <div class="ad_950"><script language="JavaScript" type="text/javascript">var kval=""; if (window.kruxvalue){kval=window.kruxvalue;}document.write('<script language="JavaScript" src="http://ad.doubleclick.net/N3833/adj/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;tile=9;sz=950x100;kw=;ord=' + ord + ';' + kval + '?" width="950" height="100" border="0" type="text/javascript"><\/sc'+'ript>');</script><noscript><a href="http://ad.doubleclick.net/N3833/jump/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;tile=9;sz=950x100;kw=;ord=123456789?" target="_blank"><img src="http://ad.doubleclick.net/N3833/ad/powdermag.primedia.com/homepage;site=powdermag;sect=homepage;subs=;subss=;page=;tile=9;sz=950x100;kw=;ord=123456789?" width="950" height="100" border="0" alt=""></a></noscript></div>
+</div> <!-- .content -->
+
+    <style>#sub_pop { height: 400px;  width: 550px; top: 200px; left: 210px !important;}</style>
+        <div id="sub_pop">
+            <a target="_BLANK" id="pop_click" href="https://www.circsource.com/store/Subscribe.html?magazineId=120&sourceCode=I9ABPU"><img border="0" width="550" height="400" src="/wp-content/themes/powdermag.com/images/2014-powder-popup.jpg"></a>
+            <a target="_self" href="#"><img border="0" id="pop_close" src="http://stwww.powdermag.com/wp-content/themes/powdermag.com/images/close1.jpg"></a>
+        </div>
+	
+				
+
+<footer class="site-footer clearfix"><div class="theme-footer clearfix"><div class="footer-sub"><h3>Subscribe</h3><div class="footer-sublinks"><a href="https://www.circsource.com/store/Subscribe.html?magazineId=120&sourceCode=I9ABSN" title="Print Magazine">Print<br>Magazine<i class="fa fa-chevron-circle-right"></i></a><a href="http://www.powdermag.com/apps/" title="Digital Edition">Digital<br>Edition<i class="fa fa-chevron-circle-right"></i></a><a href="https://www.circsource.com/store/csloginpage.html?MagId=120" title="Subscriber Services">Subscriber<br>Services<i class="fa fa-chevron-circle-right"></i></a></div><a href="https://www.circsource.com/store/Subscribe.html?magazineId=120&sourceCode=I9ABSN" title="POWDER Magazine"><img class="unveil" src="http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/UnifiedContent/Footer/assets/img/1px_shim.gif" data-src="http://stwww.powdermag.com/wp-content/themes/powdermag.com/img/footer_mags.png" alt="POWDER Magazine"/></a><noscript><a href="https://www.circsource.com/store/Subscribe.html?magazineId=120&sourceCode=I9ABSN" title="POWDER Magazine"><img src="http://stwww.powdermag.com/wp-content/themes/powdermag.com/img/footer_mags.png" alt="POWDER Magazine"/></a></noscript></div><div class="footer-social"><h3>Follow Us</h3><a href="http://www.facebook.com/powder" title="Facebook"><i class="fa fa-facebook"></i></a><a href="http://twitter.com/powdermagazine" title="Twitter"><i class="fa fa-twitter"></i></a><a href="https://plus.google.com/109507873137488831724" title="Google Plus"><i class="fa fa-google-plus"></i></a><a href="http://www.instagram.com/powdermagazine" title="Instagram"><i class="fa fa-instagram"></i></a><a href="http://www.pinterest.com/powdermag" title="Pinterest"><i class="fa fa-pinterest"></i></a><a href="http://www.youtube.com/POWDER" title="Youtube"><i class="fa fa-youtube"></i></a><a href="/feed" title="RSS"><i class="fa fa-rss"></i></a><a href="/newsletter" title="Email"><i class="fa fa-envelope"></i></a></div><div class="footer-news"><h3>Newsletter</h3><p>Subscribe to our free newsletter and stay up-to-date with the latest from Powder Magazine</p><form class="form-inline" role="form" method="GET" action="http://www.circtools.com/newsletters/signUp"><div class="form-group"><label class="sr-only" for="inputEmail">Email address</label><input type="email" class="form-control" id="inputEmail" name="email" placeholder="Enter email"><input type="hidden" name="successurl" value="http://www.powdermag.com/newsletter/?status=success"><input type="hidden" name="errorurl" value="http://www.powdermag.com/newsletter/?status=fail"><input type="hidden" name="news_id" value="8"></div><button type="submit" class="btn btn-default">Go</button></form></div></div><div class="network-footer clearfix refresh-footer"><div class="grind-block"><div class="clearfix"><a href="http://www.enthusiastnetwork.com/" title="About" target="_blank">About</a><a href="http://www.enthusiastnetwork.com/#contact-us" title="Contact" target="_blank">Contact</a><a href="http://www.grindmedia.com/media-kits/" title="Media Kit" target="_blank">Media Kit</a><a href="http://www.grindmedia.com/careers/" title="Careers" target="_blank">Careers</a><a href="http://www.enthusiastnetwork.com/privacy/ " title="Privacy Policy" target="_blank">Privacy Policy</a><a href="http://www.enthusiastnetwork.com/terms/" title="Terms of Use" target="_blank">Terms of Use</a></div><div class="copyright clearfix"><span>Copyright &copy; 2014 The Enthusiast Network. All rights reserved.</span></div></div><div class="network-block"><div class="network-drop clearfix"><a href="http://www.enthusiastnetwork.com/"><img class="unveil" src="http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/UnifiedContent/Footer/assets/img/1px_shim.gif" data-src="http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/UnifiedContent/Footer/assets/img/ten_logo.png?=v2014" alt="The Enthusiast Network"><noscript><img src="http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/UnifiedContent/Footer/assets/img/ten_logo.png?=v2014" alt="The Enthusiast Network"/></noscript></a><div class="btn-group dropup"><button type="button" class="btn btn-default dropdown-toggle">Visit our other sites <span class="caret"></span></button><ul class="dropdown-menu" role="menu"><li><a href="http://www.enthusiastnetwork.com/" title="The Enthusiast Network">The Enthusiast Network</a></li><li><a href="http://www.grindtv.com/" title="GrindTV">GrindTV</a></li><li><a href="http://www.baseballamerica.com/" title="Baseball America">Baseball America</a></li><li><a href="http://www.bikemag.com/" title="Bike">Bike</a></li><li><a href="http://www.canoekayak.com/" title="Canoe &amp; Kayak">Canoe &amp; Kayak</a></li><li><a href="http://www.endurocross.com/" title="EnduroCross">EnduroCross</a></li><li><a href="http://www.fantasysurfer.com/" title="Fantasy Surfer">Fantasy Surfer</a></li><li><a href="http://www.kayakfishmag.com/" title="Kayak Fish">Kayak Fish</a></li><li><a href="http://mtnadvisor.com/" title="MTN Advisor">MTN Advisor</a></li><li><a href="http://www.newschoolers.com/" title="Newschoolers">Newschoolers</a></li><li><a href="http://www.powder.com/" title="Powder">Powder</a></li><li><a href="http://www.ridemonkey.com/" title="Ridemonkey">Ridemonkey</a></li><li><a href="http://www.slamonline.com/" title="SLAM">SLAM</a></li><li><a href="http://www.snowboardermag.com/" title="Snowboarder">Snowboarder</a></li><li><a href="http://www.supthemag.com/" title="SUP">SUP</a></li><li><a href="http://www.surfermag.com/" title="Surfer">Surfer</a></li><li><a href="http://www.surfingmagazine.com/" title="Surfing">Surfing</a></li><li><a href="http://www.swellwatch.com/" title="SwellWatch">SwellWatch</a></li><li><a href="http://www.tddaily.com/" title="TD Daily">TD Daily</a></li><li><a href="http://business.transworld.net/" title="TransWorld Business">TransWorld Business</a></li><li><a href="http://motocross.transworld.net/" title="TransWorld Motocross">TransWorld Motocross</a></li><li><a href="http://bmx.transworld.net/" title="TransWorld RideBMX">TransWorld RideBMX</a></li><li><a href="http://skateboarding.transworld.net/" title="TransWorld Skateboarding">TransWorld Skateboarding</a></li><li><a href="http://snowboarding.transworld.net/" title="TransWorld Snowboarding">TransWorld Snowboarding</a></li></ul></div></div></div></div></footer>
+                
+				
+
+	<!-- Disqus -->
+	<script type="text/javascript">
+		var disqus_shortname = "powdermag";
+		(function () {
+			var s = document.createElement("script");
+			s.async = true;
+			s.type = "text/javascript";
+			s.src = "http://" + disqus_shortname + ".disqus.com/count.js";
+			(document.getElementsByTagName("HEAD")[0] || document.getElementsByTagName("BODY")[0]).appendChild(s);
+		}());
+	</script>
+
+		</div><!-- end #container -->
+
+        <!-- GrindMedia Ad Ops Integration --> 
+        <script type="text/javascript" src="http://cdn.grindnetworks.com/shared/adops.js"></script> 
+<!-- wp-web04.grindmedia.com--> 
+<!-- 53 queries. 0.510 seconds. -->
+
+		</div><!-- #PageContainer -->
+	</div><!-- #TakeoverBackground -->
+	<div id="OtherElements">
+<!-- SiteCatalyst code version: H.25. Copyright 1997-2012 Omniture, Inc. More info available at "http://www.omniture.com" -->
+<script type="text/javascript" language="javascript">var s_code_assigned=false; jQuery(document).ready(function(){
+
+var sObjectParams = {
+   "pageName": "Homepage",
+   "channel": "Homepage",
+   "server": "powdermag",
+   "eVar2": "Company: Homepage",
+   "prop2": "D=v2",
+   "eVar3": "Organic",
+   "eVar23": omnitureLandingPageTracker("Homepage"),
+   "eVar24": omnitureUserIdTracker(),
+   "prop52": "D=v24",
+   "eVar31": "Not Logged",
+   "eVar32": "172.16.20.37",
+   "prop36": "D=v32",
+   "prop37": "D=v31",
+   "prop38": "D=v50",
+   "prop49": GenerateProp49(),
+   "eVar50": "powdermag.com",
+   "eVar60": "powdermag.com",
+   "prop60": "D=v60"
+};
+
+jQuery.extend(s, sObjectParams);
+
+if (window.kruxomnivalue !== undefined && window.kruxomnivalue !== "") {
+   s.eVar57 = window.kruxomnivalue;
+   s.prop57 = "D=v57";
+   s.list1 = window.kruxomnivalue;
+}
+
+omnitureTrackLoadTime();
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code);s_code_assigned=true; });
+
+</script>
+<!-- End SiteCatalyst code version: H.25. -->
+		<!-- ComScore -->
+		<div class="hide">
+			<script type="text/javascript" src="http://b.scorecardresearch.com/beacon.js"></script>
+			<script type="text/javascript">
+				COMSCORE.beacon({
+					"c1": "2",
+					"c2": "7160762"
+				});
+			</script>
+			<noscript><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=7160762&amp;cj=1" alt="ComScore" /></noscript>
+		</div>
+
+		<!-- Quantcast -->
+		<div class="hide">
+			<script type="text/javascript">
+				_qoptions = {
+					"qacct": "p-71RtaiupeX40w"
+				};
+			</script>
+			<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+			<noscript><img src="http://pixel.quantserve.com/pixel/p-71RtaiupeX40w.gif" alt="Quantcast" /></noscript>
+		</div>
+
+		<!-- BlueKai -->
+		<div class="hide">
+			<iframe name="__bkframe" height="0" width="0" style="display:none;" src="javascript:void(0)"></iframe>
+			<script type="text/javascript" src="http://www.bkrtx.com/js/bk-static.js"></script>
+			<script type="text/javascript">
+				bk_doJSTag(2713, 4);
+			</script>
+		</div>
+
+		<!-- AddThis -->
+		<div class="hide">
+			<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e4432de651e7033"></script>
+		</div><!-- LinkSmart -->
+<script type="text/javascript">
+	var _ls_pub_id = "254";
+	(function(d, t) {
+		var mb = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		mb.async = mb.src = "//cdn.linksmart.com/linksmart_2.3.0.min.js";
+		s.parentNode.insertBefore(mb, s);
+	}(document, "script"));
+</script><!-- BEGIN Krux Integration, Part 2 (powdermag.com) -->
+<script class="kxct" data-id="Id99bRTt" data-timing="async" data-version="1.9" type="text/javascript">
+	window.Krux || ((Krux = function(){ Krux.q.push(arguments); }).q = []);
+	(function() {
+		var k = document.createElement("script"); k.type = "text/javascript"; k.async = true;
+		var m, src = (m = location.href.match(/\bkxsrc=([^&]+)/)) && decodeURIComponent(m[1]);
+		k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" : (location.protocol === "https:" ? "https:" : "http:") + "//cdn.krxd.net/controltag?confid=Id99bRTt&site=powdermag.com&edit=1";
+		var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(k,s);
+	}());
+</script>
+<!-- END Krux Integration, Part 2 (powdermag.com) -->
+		<!-- Chartbeat -->
+		<div class="hide">
+			<script type="text/javascript">
+				var _sf_async_config = {
+					uid: 42104,
+					domain: "powdermag.com",
+					authors: "",
+					sections: ""
+				};
+				(function() {
+					function loadChartbeat() {
+						window._sf_endpt = (new Date()).getTime();
+						var e = document.createElement("script");
+						e.setAttribute("language", "javascript");
+						e.setAttribute("type", "text/javascript");
+						e.setAttribute("src",
+							(("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+							"js/chartbeat.js");
+						document.body.appendChild(e);
+					};
+					var oldonload = window.onload;
+					window.onload = (typeof window.onload != "function") ?
+					loadChartbeat : function() { oldonload(); loadChartbeat(); };
+				})();
+			</script>
+		</div>
+
+<link rel='stylesheet' id='pagebuilder-unified-footer-css'  href='http://stwww.powdermag.com/wp-content/plugins/pagebuilder/PageBuilder/UnifiedContent/Footer/assets/css/footer.css?ver=3.0.2' type='text/css' media='all' />
+		<!-- Shared PageBuilder Logic -->
+		<script type="text/javascript">
+
+			$(document).ready(function () {
+
+				// Gets Domain
+			    var s = location.hostname.split('.');
+			    var domain = s[s.length-2]+'.'+s[s.length-1];
+
+			    // Modifies External Links To Open In A New Window, Excluding DoubleClick
+			    $('a').filter(function() {
+			        if (this.hostname && this.hostname != 'ad.doubleclick.net') {
+			            var t = this.hostname.split('.');
+			            var test = t[t.length-2]+'.'+t[t.length-1];
+			            if (test != domain)
+			                return true;
+			            else
+			                return false;
+			        }
+			    }).attr('target', '_blank');
+			    
+			    // Call Twitter Bootstrap v3.0 Dropdown in Footer
+			    // http://getbootstrap.com/
+				$('.network-drop .dropdown-toggle').click(function() {
+					$(this).dropdown('toggle');
+				});
+				$('.network-drop .dropdown-menu').focusout(function() {
+					$('.network-drop .dropup').removeClass('open');
+				});
+
+				$('#PageContainer').click(function() {
+					$('.network-drop .dropup').removeClass('open');
+				});
+			    
+			    // Lazy load images via Unveil jQuery plugin
+			    // http://luis-almeida.github.io/unveil/
+			    $('img.unveil').unveil(0, function() {
+				  $(this).load(function() {
+				    this.style.opacity = 1;
+				  });
+				});
+
+			});
+
+			// http://stackoverflow.com/questions/12393667/undefined-appearing-lots-of-time-in-my-404-error-log
+			window.suggestmeyes_loaded = true;
+
+		</script>
+
+	</div>
+</body>
+</html>

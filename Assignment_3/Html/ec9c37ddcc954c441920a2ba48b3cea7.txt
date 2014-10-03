@@ -1,0 +1,1029 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Body by Vi Challenge | ViSalus - Don Dobbie</title>
+    <meta name="title" content="Body by Vi Challenge | ViSalus - Don      Dobbie - The Challenge" />
+    <meta name="description" content="Someone joins the Body by Vi Challenge every 20 seconds. Find out more about the #1 weight loss and fitness Challenge platform in North America right now!" />
+    <meta name="keywords" content="what is body by vi, challenge, visalus, visalus sciences, body by vi, 90 day challenge, Don Dobbie, Don, Dobbie" />
+    <meta name="robots" content="noindex" /> 
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+	<meta http-equiv="cache-control" content="public" />
+	<meta name="revisit-after" content="10 days" />
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/admin.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/header.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/nav.css/can/eng" />
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/content.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/left_nav.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/footer.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/grid.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/modal.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/form.css/can/eng" />
+	
+	<!-- Module Styles -->
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/calendar.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/stats.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/blog.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/inbox.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/my_account.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/news.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/resources.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/blocks.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/pop_style.css/can/eng" />
+	
+	<!-- Custom Styles -->
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/landing_challenge.css/can/eng" />
+	<link rel="stylesheet" type="text/css" media="screen" charset="utf-8" href="/css/custom_fonts.css/can/eng" />
+    <script type="text/javascript" src="/js/jquery.js/can/eng"></script>
+    <script type="text/javascript" src="/js/year.js/can/eng"></script>
+    <script type="text/javascript">
+        var max_testimonials = 0;
+        var min_testimonials = 1;
+        var counter = 1; 
+        function DisplayTestimonials(id,num_max_testimonials){
+            max_testimonials = num_max_testimonials;
+            if (id == "back"){
+                counter--;
+                if (counter < min_testimonials){
+                    counter = max_testimonials;
+                    DisplayTestimonialBox(counter);
+                }
+                else{
+                    DisplayTestimonialBox(counter);
+                }
+            }
+            if (id == "next"){
+                counter++;
+                if (counter > max_testimonials){
+                    counter = (min_testimonials);
+                    DisplayTestimonialBox(counter);
+                }
+                else{
+                    DisplayTestimonialBox(counter);
+                }
+            }
+        }
+        function DisplayTestimonialBox(id){
+            for (var i=1; i<=max_testimonials; i++){
+                if (i == id){
+                    $("#Testimonial"+id).show();
+                }
+                else{
+                    $("#Testimonial"+i).hide();
+                }
+            }
+        }
+    </script>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-972891-5']);
+    _gaq.push(['_trackPageview']);
+    
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</head>
+<body>
+    
+    
+    <div id="CookiesNoticeBlock" style="position:relative; left:0px; top:0px; width:100%; z-index:200; display:none;">
+        <script type="text/javascript">
+//    $(document).ready(function () {
+//        hascookie = getCookieNotice("cookieNoticeBlock");
+//        if (hascookie != null && hascookie != "") {
+//            //$("#CookiesNoticeBlock").hide();
+//            //$("#Header").css("top", "0");
+//        }
+//        else{
+//            //$("#CookiesNoticeBlock").show();
+//        }
+    //    });
+    function loading() {
+        hascookie = getCookieNotice("cookieNoticeBlock");
+        if (hascookie != null && hascookie != "") {
+            if (document.getElementById("CookiesNoticeBlock") != null && document.getElementById("CookiesNoticeBlock") != 'undefined') document.getElementById("CookiesNoticeBlock").style.display = 'none';
+            if(document.getElementById("Header") !=null && document.getElementById("Header") != 'undefined') document.getElementById("Header").style.top = 0;
+        }
+        else{
+            document.getElementById("CookiesNoticeBlock").style.display = '';
+        }
+    }
+    function DisplayCookiesNoticeBlock(message) {
+        if (message == "hide") {
+           // $("#CookiesNoticeBlock").hide();
+            if (document.getElementById("CookiesNoticeBlock") != null && document.getElementById("CookiesNoticeBlock") != 'undefined') document.getElementById("CookiesNoticeBlock").style.display = 'none';
+            if (document.getElementById("Header") != null && document.getElementById("Header") != 'undefined') document.getElementById("Header").style.top = 0;
+            //$("#Header").css("top", "0");
+            var date = new Date();
+            date.setTime(date.getTime() + (365 * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + date.toGMTString();
+            document.cookie = "cookieNoticeBlock=AgreedToCookieNotice;" + expires + "; path=/";
+            return false;
+        }
+    }
+    function getCookieNotice(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+</script>
+<body onload="loading();">
+    <div style="font-size: 11px; padding: 8px; text-align: left; color: #000000; background-color: #D3D4D6;">
+    <div style="width:950px; margin:0 auto; margin-top:0px;">
+        <span local="cookies_use_message">We use cookies to give you the best possible experience on our site. By continuing to use the site you agree to our use of cookies.</span> <a href="/cookies/index.html" target="_blank" style="text-decoration: underline; color: #74AF43;" local="cookies_use_message_link">Find out how to manage your cookies here.</a>
+        <img width="20" height="20" alt="Close" title="Close" style="cursor:pointer; margin:-5px; padding-left: 10px;" onclick="DisplayCookiesNoticeBlock('hide');" src="/images/fancy_closebox.png/can/eng" />
+    </div>
+</div>
+</body>
+
+    </div>
+    <div id="Header">
+        <div id="InnerHeader">
+            <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+    <tr valign="top">
+        <td align="left">
+            <div style="position:absolute; top:0px; left:0px;">
+                <a href="/index.html"><img height="67" alt="Logo" src="/images/pwp/logo.png/can/eng" /></a>
+            </div>
+        </td>
+        <td valign="middle" align="right">
+            <div style="margin-top:20px; margin-right:20px;">
+                <img style="position:absolute; top:25px; right:175px;" width="16" height="11" alt="" src="/images/pwp/icon_flag.png/can/eng" />
+                    <form name="SelectLanguage1965282" action="/ModuleLocalization/SelectLanguage" method="get" />
+    <input type="hidden" name="URL" value="" />
+	<input type="hidden" name="SaveOfficeSetting" value="" />
+	<input type="hidden" name="ResetSession" value="" />
+        <select name="LanguageID" id="select_language_1965282" onchange="document.SelectLanguage1965282.submit();"> 
+			<option value="173">Austria : Deutsch</option><option value="172">Austria : English</option><option value="101">Canada : English</option><option value="103">Canada : French</option><option value="171">Deutschland : Deutsch</option><option value="170">Deutschland : English</option><option value="141">United Kingdom : English</option><option value="194">Ireland : English</option><option value="151">Jamaica : English</option><option value="203">Netherlands : English</option><option value="205">Netherlands : Nederlands</option><option value="87">United States : English</option><option value="100">United States : Spanish</option>
+        </select>
+    </form>
+
+    <script>
+        var ckLanguage = "101";
+
+        if (ckLanguage != "")
+        {
+            document.getElementById("select_language_1965282").value = ckLanguage;
+        }
+
+	</script>
+
+            </div>
+        </td>
+    </tr>
+</table>
+
+ 
+        </div>
+    </div>
+    <div id="MainContent">
+        <div id="InnerMainContent">
+            <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+                <tr valign="top">
+                    <td align="left" style="padding-top:20px;">
+                        <div style="width:550px;" class="BlackText">
+							<div>
+							
+							</div><!--<div style="font-size:30px; line-height:30px; text-transform:uppercase;" local="bbvi_title_1">Are you Up for</div>
+                            <div style="font-size:41px; text-transform:uppercase; margin-top:10px; line-height:41px; font-weight:bold;" local="bbvi_title_2">the challenge?</div>-->
+                            <div class="VideoBox">
+                                <div style="height:20px;"><img width="549" height="20" alt="" src="/images/challenge/video_box_top_bg.png/can/eng" /></div>
+                                <div class="InnerVideoBox" style="height:300px;">
+									<div style="position:relative; left:14px; top:-6px;">
+										
+									</div>
+								</div>
+                                <div style="height:20px;"><img width="549" height="20" alt="" src="/images/challenge/video_box_bottom_bg.png/can/eng" /></div>
+                            </div>
+                            <table border="0" cellpadding="0" cellspacing="0" style="width:100%; padding-top:20px;">
+                                <tr valign="top">
+                                    <td align="left" style="padding-left:140px;">
+                                        <div class="GreenButton" style="cursor:pointer;" onclick="javascript:parent.location=('https://enrollment.visalus.com/market?referrer=627265&language=en&country=ca&type=customer');">
+                                            <div style="padding-top:10px;">
+                                                <img style="float: left; padding-left: 10px;" width="26" height="31" alt="" src="/images/pwp/icon_join_challenge_white.png/can/eng" />
+                                                <span class="WhiteText" style="font-size:16px; font-weight:bold; text-align: center; position:relative; top: 5px; left:0px;" local="button_join_challenge">&quot;I Accept The Challenge&quot;</span><br />
+                                                <span class="WhiteText" style="font-size:12px; font-weight:bold; text-align: center; position:relative; top: 5px; left:0px;" local="button_join_challenge_customer">Become a Customer</span>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <!--<td align="right" style="padding-right:7px;">
+                                        <div class="GreenButton" style="cursor:pointer;" onclick="javascript:parent.location=('http://4freebmw.myvi.net/join/selectmarket.html');">
+                                            <div style="padding-top:15px;">
+                                                <img src="/images/pwp/icon_promote_challenge.png" width="30" height="27" alt="" />
+                                                <span class="WhiteText" style="font-size:18px; position:relative; top:-5px; left:0px;" local="button_promote_challenge">Promote The Challenge</span>
+                                            </div>
+                                        </div>
+                                    </td>-->
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td align="left" style="padding: 30px 20px 0 0;">
+                        <div style="width:388px;" class="BlackText">
+                            <div id="PwpInfoFormBox" style="display:none; width:385px; padding:20px;">
+    <div class="FormBox">
+		<div style="height:25px;"><img width="388" height="25" alt="" src="/images/pwp/form_box_top_bg.png/can/eng" /></div>
+		<div class="FormBoxHeader WhiteText">
+		    <div style="padding:0px 10px 0px 10px">
+			    <div style="text-align: center; font-size: 27px;"><span local="pwp_form_lose_weight" class="bold">LOSE WEIGHT</span> <span local="pwp_form_or">or</span><br /><span local="pwp_form_get_fit_for">Get Fit for</span> <span local="pwp_form_free" class="bold">FREE*</span></div>
+		    </div>
+		</div>
+		<div class="FormBoxContent BlackText">
+			<div style="width:348px; margin:0 auto; padding:10px 0px 10px 0px;">
+				<div style="font-size: 15px;"><span local="pwp_form_desc_1" class="bold italic">FILL OUT YOUR INFO BELOW</span> <span local="pwp_form_desc_2">and learn how you can get fit for free in the next 90 days, and earn awesome rewards along the way thanks to</span> <span local="pwp_form_desc_3" class="bold italic">NORTH AMERICA'S #1 WEIGHT LOSS AND FITNESS CHALLENGE.</span>
+				</div>
+				<div class="CustomerInfoForm">
+					<div id="captcha_retype_characters" local="unity_global_please_enter_captcha" style="display: none;">Please enter captcha</div>
+<div id="captcha_default_value" local="unity_global_retype_characters" style="display: none;">Retype Characters</div>
+<div id="captcha_alert_text" local="unity_global_captcha_image_not_match" style="display: none;">The characters in the image did not match yours, please try again.</div>
+<div id="office_contact_first_name" local="office_contact_first_name" style="display: none;">First Name</div>
+<div id="office_contact_last_name" local="office_contact_last_name" style="display: none;">Last Name</div>
+<div id="office_contact_email" local="office_contact_email" style="display: none;">Email Address</div>
+<div id="office_contact_phone_number" local="office_contact_phone_number" style="display: none;">Phone Number</div>
+
+    <form action="/ModuleProspects/PublicFormHandler" name="ContactFormPopUp" method="post" />
+    <input type="hidden" name="Redirect" value="/thankyou.html" />
+    <input type="hidden" name="CategoryID" value="3590" />
+    <input type="hidden" name="CaptchaIndex" id="CaptchaIndex" value="" />
+    
+    <table border="0" cellpadding="0" cellspacing="0" style="width:338px; margin:0 auto;">
+        <tr valign="top">
+            <td align="left" style="padding:10px 0px 10px 0px;">     
+                <input type="text" style="width:338px;  margin:0px 0px 5px 0px;" value="" id="FirstNamePopUp" name="FirstName" onfocus="if(this.value==document.getElementById('office_contact_first_name').innerHTML){this.value='';}" onblur="if(this.value==''){this.value=document.getElementById('office_contact_first_name').innerHTML;}" />
+            
+                <input type="text" style="width:338px; margin:5px 0px 5px 0px;" value="" id="LastNamePopUp" name="LastName" onfocus="if(this.value==document.getElementById('office_contact_last_name').innerHTML){this.value='';}" onblur="if(this.value==''){this.value=document.getElementById('office_contact_last_name').innerHTML;}" />
+            
+                <input type="text" style="width:338px; margin:5px 0px 5px 0px;" value="" id="EmailPopUp" name="Email" onfocus="if(this.value==document.getElementById('office_contact_email').innerHTML){this.value='';}" onblur="if(this.value==''){this.value=document.getElementById('office_contact_email').innerHTML;}" />
+                <div style="display: none;">
+                    <input type="text" style="width:338px; margin:5px 0px 5px 0px;" value="" id="TEmail" name="TEmail" />
+                </div>
+                <input type="text" style="width:338px; margin:5px 0px 5px 0px;" value="Phone Number" id="PhonePopUp" name="Phone" onfocus="if(this.value==document.getElementById('office_contact_phone_number').innerHTML){this.value='';}" onblur="if(this.value==''){this.value=document.getElementById('office_contact_phone_number').innerHTML;}" />
+                
+                <select id="SelectPopUp" name="CategoryID" style="margin:5px 0px 0px 0px; padding:2px; left:0px; top:0px; overflow:scroll; width:248px;">
+                    <option value="" local="form_interested_in_default">I'm interested in...</option>
+                    <option value="3" local="form_interested_in_losing_weight">Losing Weight</option>
+                    <option value="1" local="form_interested_in_getting_fit">Getting Fit</option>
+                    <option value="2" local="form_interested_in_making_money">Making Money</option>
+                    <option value="1367" local="form_interested_in_all">All of the above</option>
+                </select>
+                <div style="width:338px; margin:10px 0px 5px 0px;">
+
+<script language="JavaScript" type="text/javascript" src="/js/BuilderAjax.js/can/eng"></script>
+<script language="JavaScript" type="text/javascript" src="/js/MD5.js/can/eng"></script>
+<script language="JavaScript" type="text/javascript" src="/js/main.js/can/eng"></script>
+
+
+<script>
+
+
+    function CaptchaCheck()
+    {
+        captcha = document.getElementById("captcha").value;
+        AjaxMethod("/ModuleCaptcha/Check", CaptchaCheck_cb, "captcha", captcha);
+    }
+
+    function CaptchaCheck_cb(X)
+    {
+        Check = AjaxValue(X, "CaptchaCheck");
+
+        if (Check != "Success")
+        {
+            alert(document.getElementById("captcha_alert_text").innerHTML);
+            reloadImg("captcha_image");
+            document.getElementById("captcha").value = "";
+        }
+        else
+        {
+            CaptchaSubmit();
+        }
+    }
+
+    function reloadImg(id) 
+    {
+       var obj = document.getElementById(id);
+       var src = obj.src;
+       var pos = src.indexOf('?');
+       
+       if (pos >= 0) 
+       {
+          src = src.substr(0, pos);
+       }
+       
+       var date = new Date();
+       
+       obj.src = src + '?v=' + date.getTime();
+       return false;
+    }
+
+</script>
+
+<table cellpadding="0" cellspacing="0">
+<tr>
+    <td><input type="text" value="Retype Characters" id="captcha" name="captcha" class="captch_width" onfocus="if(this.value==CaptchaText){this.value='';}" onblur="if(this.value==''){this.value=CaptchaText;}" /></td>
+    <td valign="top"><img src="/ModuleCaptcha/Image" id="captcha_image" style="margin-left: 5px;" /></td>
+    <td valign="top" style="padding: 4px 3px 0;"><img width="16" height="14" style="cursor: pointer;" onclick="reloadImg('captcha_image');" src="/images/icons/reload.png/can/eng" /></td>
+</tr>
+</table>
+
+<script type="text/javascript">
+    var CaptchaText = document.getElementById("captcha_default_value").innerHTML;
+    document.getElementById("captcha").value = CaptchaText;
+
+</script></div>
+                <div style="color:black;font-weight:bold;" local="global_captcha_letters_case_sensitive">Letters are case sensitive</div>
+                <input type="hidden" name="TokenNamespaceUser" id="TokenNamespaceUser" value="1dd33210783178472215c55867e2bd9515620e3e3a63785c9eb758122634af197f7b961b" />
+    
+            </td>
+        </tr>
+         <tr valign="top">
+            <td align="left">
+                <div class="GrayButtonFindMore" onclick="ValidateFormPopUp();" style="cursor:pointer;">
+                    <span class="Black363636Text" style="font-size:17px; font-weight:bold; position:relative; top:8px; left:0px;" local="button_find_out_more">Find Out More</span>
+                </div>
+            </td>
+        </tr>
+    </table>
+    </form>
+    
+    <script type="text/javascript">
+        document.getElementById("FirstNamePopUp").value = document.getElementById("office_contact_first_name").innerHTML;
+        document.getElementById("LastNamePopUp").value = document.getElementById("office_contact_last_name").innerHTML;
+        document.getElementById("EmailPopUp").value = document.getElementById("office_contact_email").innerHTML;
+        document.getElementById("PhonePopUp").value = document.getElementById("office_contact_phone_number").innerHTML;
+
+        function isValidEmail(str) 
+        {
+            return (str.indexOf(".") > 0) && (str.indexOf("@") > 0);
+        }
+
+        function ValidateFormPopUp()
+        {
+            var Name = document.getElementById("FirstNamePopUp").value;
+            var LastName = document.getElementById("LastNamePopUp").value;
+            var Email = document.getElementById("EmailPopUp").value;
+            var Phone = document.getElementById("PhonePopUp").value;
+            var SelectBox = document.getElementById("SelectPopUp").value;
+            var captchaValue = document.getElementById('captcha_default_value').innerHTML;
+            var captcharetype = document.getElementById('captcha_retype_characters').innerHTML;
+
+            if (Name == "" || Name == "First Name")
+            {
+                var text = document.getElementById("alert_text").innerHTML;
+                alert(text);
+                return false;
+            }
+            if (LastName == "" || LastName == "Last Name")
+            {
+                var text1 = document.getElementById("alert_text1").innerHTML;
+                alert(text1);
+                return false;
+            }
+
+            if (isValidEmail(Name) || isValidEmail(LastName)) 
+            {
+                var text = document.getElementById("alert_text6").innerHTML;
+                alert(text);
+                return false;
+            }
+
+            if (Email == "" || Email == "Email Address"){
+                var text3 = document.getElementById("alert_text3").innerHTML;
+                alert(text3);
+                return false;
+            }
+            if (Email != "Email Address")
+            {
+                apos = Email.indexOf("@");
+                dotpos = Email.lastIndexOf(".");
+                if (apos < 1 || dotpos - apos < 2)
+                {
+                    var text2 = document.getElementById("alert_text2").innerHTML;
+                    alert(text2);
+                    return false;
+                }
+            }
+            if (Phone == "" || Phone == "Phone Number")
+            {
+                var text4 = document.getElementById("alert_text4").innerHTML;
+                alert(text4);
+                return false;
+            }
+            else if(SelectBox == ""){
+                var text5 = document.getElementById("alert_text5").innerHTML;
+                alert(text5);
+                return false;
+            }
+
+            var Captcha = document.getElementById('captcha').value;
+            if (Captcha == "" || document.getElementById('captcha').value == captchaValue) {
+                alert(captcharetype);
+                return false;
+            }   
+            CaptchaCheck();  
+        }
+
+        function CaptchaSubmit(_Idx) {
+            var PublicFormHandlerUseToken = '';
+
+            var TokenNamespaceUser = document.getElementById('TokenNamespaceUser').value;
+
+            if (PublicFormHandlerUseToken.length > 0 && PublicFormHandlerUseToken == 'true') {
+                //Validate the token
+                AjaxTokenValidate('4freebmw', TokenNamespaceUser)
+            }
+
+            if (PublicFormHandlerUseToken.length == 0 || PublicFormHandlerUseToken == 'false')
+
+            document.ContactFormPopUp.submit();
+        }
+
+        function AjaxTokenValidate(_ID, _Token) {
+            AjaxMethod("/ModuleInternal/AjaxTokenValidate", ajaxTokenValidateCB,
+                                                        "ID", _ID,
+                                                        "Token", _Token
+                                                    );
+        }
+
+        function ajaxTokenValidateCB(x) {
+            var IsValid = AjaxValue(x, "IsValid");
+            if (IsValid == "TRUE") {
+                
+                document.ContactFormPopUp.submit();
+            }
+        }
+    </script>
+
+    <div id="alert_text" local="office_forms_empty_name" style="display: none;">Please include your First Name</div>
+    <div id="alert_text1" local="office_forms_empty_last_name" style="display: none;">Please fill out the Last Name field.</div>
+    <div id="alert_text2" local="office_forms_invalid_email" style="display: none;">Invalid Email Address</div>
+    <div id="alert_text3" local="office_forms_empty_email" style="display: none;">Please include your Email</div>
+    <div id="alert_text4" local="office_forms_empty_phone" style="display: none;">Please include your Phone Number</div>
+    <div id="alert_text5" local="office_forms_empty_select_interested" style="display: none;">Please select an Interest Option</div>
+    <div style="display: none;" local="office_forms_email_notallowed" id="alert_text6">Email Not allowed in Name field</div>
+   
+				</div>
+				<div class="WhiteText" style="margin-top:20px;">
+					<span style="font-size: 10px;"><a href="/privacy.html" local="pwp_form_view_privacy_policy" class="WhiteText">View our Privacy Policy</a></span>							
+				</div>
+			</div>    
+		</div>
+		<div style="font-size:25px;"><img width="388" height="25" alt="" src="/images/pwp/form_box_bottom_bg.png/can/eng" /></div>
+	</div>
+</div>             
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" style="width:100%; padding-top: 0px;">
+                <tr valign="top">
+                    <td align="left">
+                        <div class="TestimonialBox">
+                            <div style="height:25px;"><img width="551" height="25" alt="" src="/images/pwp/testimonial_top_bg.png/can/eng" /></div>
+                                <div class="InnerTestimonialBox">
+                                    <div style="width:484px; margin:0 auto; text-align:left;">
+								        <div class="GreenText" style="font-size:15px; line-height:15px; text-transform:uppercase; font-weight:bold;" local="bbvi_challenge_success_stories">Challenge Success Stories</div>
+<div id="Testimonial1" style="display:block;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width:100%; margin-top:10px;">
+        <tr valign="top">
+            <td align="left" style="padding-left:35px;">
+                <img width="110" alt="" src="/images/pwp/stories/stories3.png/can/eng" />    
+            </td>
+            <td align="left" style="padding-left:20px;">
+                <div style="font-style:italic;" local="pwp_stories_quote_2">&quot;I like the Body by Vi™ Challenge because it gets people excited about living again...&quot;</div>
+                <div style="margin-top:20px; font-weight:bold;" local="pwp_stories_name_2">Danny Linares</div>
+                <div style="margin-top:10px;" local="pwp_stories_title_2">Body by Vi™ Couple Champion 2011</div>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="Testimonial2" style="display:none;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width:100%; margin-top:10px;">
+        <tr valign="top">
+            <td align="left" style="padding-left:35px;">
+                <img width="110" alt="" src="/images/pwp/stories/stories1.png/can/eng" />    
+            </td>
+            <td align="left" style="padding-left:20px;">
+                <div style="font-style:italic;" local="pwp_stories_quote_1">&quot;Now I live the lifestyle that I once admired from afar.&quot;</div>
+                <div style="margin-top:20px; font-weight:bold;" local="pwp_stories_name_1">Brian LeQue</div>
+                <div style="margin-top:10px;" local="pwp_stories_title_1">Body by Vi™ Male Champion 2012</div>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="Testimonial3" style="display:none;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width:100%; margin-top:10px;">
+        <tr valign="top">
+            <td align="left" style="padding-left:35px;">
+                <img width="110" alt="" src="/images/pwp/stories/stories2.png/can/eng" />    
+            </td>
+            <td align="left" style="padding-left:20px;">
+                <div style="font-style:italic;" local="pwp_stories_quote_3">&quot;With any diet that I’ve tried, I would plateau at week six. The Body by Vi™ Challenge got me to week seven, eight, nine and beyond!&quot;</div>
+                <div style="margin-top:20px; font-weight:bold;" local="pwp_stories_name_3">Angela &quot;Angie&quot; Mooij</div>
+                <div style="margin-top:10px;" local="pwp_stories_title_3">Body by Vi™ Female Champion 2011</div>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="Testimonial4" style="display:none;">
+    <table border="0" cellpadding="0" cellspacing="0" style="width:100%; margin-top:10px;">
+        <tr valign="top">
+            <td align="left" style="padding-left:35px;">
+                <img width="110" alt="" src="/images/pwp/stories/stories4.png/can/eng" />    
+            </td>
+            <td align="left" style="padding-left:20px;">
+                <div style="font-style:italic;" local="pwp_stories_quote_4">&quot;Now I know there is nothing I can’t do once I set my mind to it.&quot;</div>
+                <div style="margin-top:20px; font-weight:bold;" local="pwp_stories_name_4">Susan Difabio</div>
+                <div style="margin-top:10px;" local="pwp_stories_title_4">Body by Vi™ Female Champion 2012</div>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="TestimonialNav">
+    <a class="TestimonialNavLeft" href="javascript:void(0)" onclick="DisplayTestimonials('back',4);"><img width="25" height="24" alt="" src="/images/pwp/left_arrow_bt.png/can/eng" /></a>
+    <a class="TestimonialNavRight" href="javascript:void(0);" onclick="DisplayTestimonials('next',4);"><img width="25" height="24" alt="" src="/images/pwp/right_arrow_bt.png/can/eng" /></a>
+</div>
+                                    </div>
+                                </div>
+                            <div style="height:25px;"><img width="551" height="25" alt="" src="/images/pwp/testimonial_bottom_bg.png/can/eng" /></div>
+                        </div>
+                    </td>
+                    <td align="right">
+                        
+                                <div class="cInfoBox" style="margin-top:7px;">
+                            <div class="InnercInfoBoxHeader">
+<table border="0" cellpadding="0" cellspacing="0" style="width:352px; margin:0 auto; padding-top:20px;">
+    <tr valign="top">
+        <td align="left" colspan="2" style="padding-left:10px;">
+            <!--<span class="WhiteText" style="font-size:15px; font-weight:bold; text-transform:uppercase;"></span>-->
+        </td>
+    </tr>
+    <tr valign="top">
+        <td align="left" style="width:120px; padding:10px 0px 0px 10px;">
+            <div class="CustomerInfoPhoto">
+                <img src="/Images/1532408/305091/1762782" width="120" alt="" />
+            </div>
+        </td>
+        <td align="left" valign="top" style="padding:10px 10px 0 20px;">
+            <div class="WhiteText" style="font-size:16px; line-height:17px; text-transform:uppercase;">Don Dobbie</div>
+            <div class="WhiteText" style="margin-top:5px;">Victoria, BC</div>
+			<br />
+            <div id="follow" style="display:none;">
+                <span class="WhiteText" style="margin-top:10px; margin-bottom:10px;" local="office_global_connect_me">Connect with Me:</span><br /><br />
+                <span id="follow_facebook" style="display: none;"><a href="http://www.facebook.com/" target="_blank" style="text-decoration: none; font-weight: normal; color: #757575"><img width="23" height="23" alt="" style="margin-left: 1px;" align="absmiddle" src="/images/pwp/facebook.png/can/eng" /></a></span>
+                <span id="follow_instagram" style="display: none;"><a href="http://www.instagram.com/" target="_blank" style="text-decoration: none; font-weight: normal; color: #757575"><img width="23" height="23" alt="" style="margin-left: 1px;" align="absmiddle" src="/images/pwp/instagram.png/can/eng" /></a></span>
+                <span id="follow_pinterest" style="display: none;"><a href="http://www.pinterest.com/" target="_blank" style="text-decoration: none; font-weight: normal; color: #757575"><img width="23" height="23" alt="" style="margin-left: 1px;" align="absmiddle" src="/images/pwp/pinterest.png/can/eng" /></a></span>
+                <span id="follow_twitter" style="display: none;"><a href="http://www.twitter.com/" target="_blank" style="text-decoration: none; font-weight: normal; color: #757575"><img width="23" height="23" alt="" style="margin-left: 1px;" align="absmiddle" src="/images/pwp/twitter.png/can/eng" /></a></span>
+                <span id="follow_googleplus" style="display: none;"><a href="https://plus.google.com/" target="_blank" style="text-decoration: none; font-weight: normal; color: #757575"><img width="23" height="23" alt="" style="margin-left: 1px;" align="absmiddle" src="/images/pwp/googleplus.png/can/eng" /></a></span>
+                <span id="follow_youtube" style="display: none;"><a href="http://www.youtube.com/" target="_blank" style="text-decoration: none; font-weight: normal; color: #757575"><img width="23" height="23" alt="" style="margin-left: 1px;" align="absmiddle" src="/images/pwp/youtube.png/can/eng" /></a></span>
+                <span id="follow_linkedin" style="display: none;"><a href="" target="_blank" style="text-decoration: none; font-weight: normal; color: #757575"><img width="23" height="23" alt="" style="margin-left: 1px;" align="absmiddle" src="/images/pwp/linkedin.png/can/eng" /></a></span>
+            </div>
+        <script type="text/javascript">
+    var follow_facebook = "";
+    var follow_twitter = "";
+    var follow_googleplus = "";
+    var follow_linkedin = "";
+    var follow_youtube = "";
+    var follow_instagram = "";
+    var follow_pinterest = "";
+
+    if (follow_facebook != "")
+    {
+        document.getElementById("follow_facebook").style.display = "";
+        document.getElementById("follow").style.display = "";
+    }
+    
+    if (follow_twitter != "")
+    {
+        document.getElementById("follow_twitter").style.display = "";
+        document.getElementById("follow").style.display = "";
+    }
+
+    if (follow_googleplus != "") {
+        document.getElementById("follow_googleplus").style.display = "";
+        document.getElementById("follow").style.display = "";
+    }
+    
+    if (follow_linkedin != "")
+    {
+        document.getElementById("follow_linkedin").style.display = "";
+        document.getElementById("follow").style.display = "";
+    }
+    
+    if (follow_youtube != "")
+    {
+        document.getElementById("follow_youtube").style.display = "";
+        document.getElementById("follow").style.display = "";
+    }
+
+    if (follow_instagram != "") {
+        document.getElementById("follow_instagram").style.display = "";
+        document.getElementById("follow").style.display = "";
+    }
+    if (follow_pinterest != "") {
+        document.getElementById("follow_pinterest").style.display = "";
+        document.getElementById("follow").style.display = "";
+    }
+
+    function follow(f)
+    {
+        
+    }
+</script>
+        </td>
+    </tr>
+</table>
+</div>
+                            <div style="height:12px;"><img width="382" height="12" alt="" src="/images/pwp/cinfo_bottom_bg.png/can/eng" /></div>
+                        </div>
+
+    
+                            
+                    </td>
+                </tr>
+            </table>
+			
+			
+            <div style="width:950px; margin:0 auto; padding:20px 0px 40px 0px; text-align: left;" class="BlackText">
+				
+				
+			</div>
+        </div>
+    </div>
+    <div id="Footer">
+        <div id="InnerFooter">
+            <table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+    <tr valign="middle">
+        <td align="left" style="padding-top:20px;">
+            &copy; <span id="FooterCurrentYear"></span> <span local="footer_all_rights_reserved">ViSalus, Inc. All rights reserved.</span>
+        </td>
+        <td align="right" style="padding-top:20px;">
+            <div style="position:relative; top:0px; left:0px;"><span local="office_default_powered_by">Powered By</span> <span local="office_global_visalus">ViSalus</span>&#0153;</div>
+        </td>
+    </tr>
+</table>
+<!-- Google Code for Remarketing tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1005534105;
+var google_conversion_label = "xWCcCL__7gMQmfe83wM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1005534105/?value=0&label=xWCcCL__7gMQmfe83wM&guid=ON&script=0" />
+</div>
+</noscript>
+
+<!-- Optimal retargeting tag --> 
+<script type="text/javascript"> 
+/* <![CDATA[ */ 
+var optimal_pixel_code = "OAubzrVQNn6hQwI"; 
+/* ]]> */
+</script> 
+<script type="text/javascript" src="https://evjs.optorb.com/js/r1.js"> 
+</script> 
+<noscript>
+<div style="display:inline;"> 
+<img height="1" width="1" style="border-style:none;" alt="" src="http://u.optorb.com/m?p=1&r=OAubzrVQNn6hQwI" /> 
+</div> 
+</noscript>
+
+    
+        </div>
+    </div>
+	<script language="javascript" type="text/javascript" src="/js/frag-player.js/can/eng"></script>
+<link type="text/css" rel="stylesheet" media="screen" href="/css/pop_style.css/can/eng" />
+<script language="javascript" type="text/javascript" src="/js/jquery.js/can/eng"></script>
+
+<style>
+           
+                    
+    .pop_content
+    {
+     	padding: 0px;
+	}
+
+</style>
+    
+<script>
+    function show()
+    {
+        document.getElementById("pop_share_content").style.display = "";
+    }
+
+    function hide()
+    {
+        document.getElementById("pop_share_content").style.display = "none";
+    }
+
+</script>
+
+<div id="pop_share_content" class="pop_container" style="display: none;">
+    <div id="pop" style="width: 900px">
+        <img width="30" height="30" class="link" style="position:relative; z-index: 2000; margin: -15px 33px 0px 0px; float:right" onclick="hide();" src="/images/fancy_closebox.png/can/eng" />
+        <table cellpadding="0" cellspacing="0" style="width: 575px;">
+        <tr>
+            <td class="pop_top_left_white"><img width="10" height="10" src="/images/spacer.png/can/eng" /></td>
+            <td class="pop_top_border_white"><img width="10" height="10" src="/images/spacer.png/can/eng" /></td>
+            <td class="pop_top_right_white"><img width="10" height="10" src="/images/spacer.png/can/eng" /></td>
+        </tr>
+        <tr>
+            <td class="pop_border_side_white"><img width="10" height="10" src="/images/spacer.png/can/eng" /></td>
+            <td class="pop_content">
+                
+                <table>
+                <tr>
+                    <td valign="top">
+                    
+                    
+                    <div id="pop_share_blog" style="clear: both; text-align:left; width: 509px; height: 440px; padding: 30px; display: none; overflow-x: hidden; overflow-y: auto;">
+                
+                        <b></b>
+                
+                        <br />
+                        <br />
+                        <div id="pop_share_blog_content">
+                            
+                        </div>
+                    </div>
+                
+                    <div id="pop_share_photo" style="clear: both; text-align:left; width: 509px; padding: 10px; display: none;">
+                
+                        <div style="text-align: center;"></div>
+                
+                        <br />
+                        <br />
+
+                        <b></b>
+
+                    </div>
+                
+                    <div id="pop_share_video" style="clear: both; text-align:left; width: 509px; padding: 10px; display: none;">
+                
+                    
+                    
+                        <div id="video-holder">
+                            <div id="flash-share-video-div"></div>
+                            <script>
+
+                            var autoplay = true;
+                            ShowShareVideo('{VideoURL}', '{WebPath}', 500, 319, '/images/logo.png', autoplay);
+
+                            function ShowShareVideo(url, thumb, width, height, logo, autoplay)
+                            {
+                                if (logo.length == 0) logo = "logo.png";
+
+                                var so = new SWFObject("/images/frag-player.swf?videoPath=" + url + "&bufferSize=5&autoPlay=" + autoplay + "&videoVolume=50&imgPath=" + thumb + "&logo=" + logo + "&logoPlacement=bottomRight&logoLink=/&logoLinkTargetWindow=_self", "FragPlayer", width, height, "8", "#000000");
+
+                                so.addParam("quality", "high");
+                                so.addParam("menu", "false");
+                                so.addParam("loop", "false");
+                                so.addParam("scale", "noscale");
+                                so.addParam("allowFullScreen", "true");
+                                so.addParam("wmode", "transparent");
+                                so.write("flash-share-video-div");
+
+                            }
+
+
+                            </script>
+                        </div>
+                
+                        <br />
+                        <br />
+
+                        <b></b>
+                
+
+                    </div>
+                    
+                    <div style="clear: both; text-align:left; width: 500px; padding: 0px 10px;">
+                    
+                                    
+                        Posted By  &nbsp;&nbsp;&nbsp;&nbsp;
+                        <div style="border-top: 1px dotted #6B797E; clear: both; margin: 10px 0px;"></div>
+
+                        <div style="margin: 7px 0px 7px 0px;">
+                            <span id="view_photo_views" class="font_color_primary"></span> <span>Views</span>&nbsp;&nbsp;|&nbsp;&nbsp;
+                            <span id="photo_stars" class="stars">
+                                <img id="star_1" width="16" height="16" src="/images/icons/star_grey.png/can/eng" />
+                                <img id="star_2" width="16" height="16" src="/images/icons/star_grey.png/can/eng" />
+                                <img id="star_3" width="16" height="16" src="/images/icons/star_grey.png/can/eng" />
+                                <img id="star_4" width="16" height="16" src="/images/icons/star_grey.png/can/eng" />
+                                <img id="star_5" width="16" height="16" src="/images/icons/star_grey.png/can/eng" />
+                            </span>
+                            <span id="view_photo_votes"></span> Votes-Average <span id="view_photo_ave"></span>
+                        </div>
+                        
+                        <script>
+                            var ShareRating = "";
+                            var ShareVotes = "";
+                            var Ave = 0;
+
+                            if (parseInt(ShareVotes) > 0)
+                            {
+                                Ave = parseInt(ShareRating)/parseInt(ShareVotes);
+                            }
+
+                            for (var count = 1; count < Ave; count++)
+                            {
+                                document.getElementById("star_" + count).src = "/images/icons/star.png";
+                            }
+
+                            document.getElementById("view_photo_ave").innerHTML = Ave;
+                        </script>
+                             
+                    </div>
+
+                    </td>
+                    <td valign="top" style="padding: 0px 10px 0px 0px;">
+                    
+                    <img width="292" height="103" src="/images/landing_weightloss_bodybyvi.png/can/eng" />
+                    
+                    <ul>
+                        <li>Transform your Body in 90 Days!</li>
+                        <li>Lose Weight & Get Fit For FREE!</li>
+                        <li>Save Money on your Food Bills!</li>
+                        <li>Win over $100,000 in Prizes!</li>
+                        <li>Promote the Challenge to Earn<br />Cash & a FREE BMW!</li>
+                    </ul>
+
+                    
+
+                    <script type="text/javascript">
+                    function ExSelect(id){
+                        document.getElementById(id).style.width = '150px';
+    
+    
+                    }
+                    function CoSelect(id){
+                        document.getElementById(id).style.width = '150px';
+                    }
+                    </script>
+                        <form action="/ModuleProspects/PublicFormHandler" name="ContactShareForm" method="post" />
+                        <input type="Hidden" name="Redirect" value="/thankyou.html" />
+                        <input type="Hidden" name="CampaignID" value="205" />
+                        <input type="hidden" name="EmailTemplateID" value="1042" />
+    
+    
+                        <hr style="border:0; color:#a9abb2; background-color:#a9abb2; height:1px;" />
+                        <h5 style="margin-bottom: 12px; font-weight:bold; font-size: 16px;">Sign My Guestbook!</h5>
+                        <div id="InputWrapper">
+                            <input type="text" value="First Name" id="shareFirstName" name="FirstName" onfocus="if(this.value=='First Name'){this.value='';}" onblur="if(this.value==''){this.value='First Name';}" />
+                        </div>
+    
+                        <div id="InputWrapper">
+                            <input type="text" value="Last Name" id="shareLastName" name="LastName" onfocus="if(this.value=='Last Name'){this.value='';}" onblur="if(this.value==''){this.value='Last Name';}" />
+                        </div>
+    
+                        <div id="InputWrapper">
+                            <input type="text" value="Email Address" id="shareEmail" name="Email" onfocus="if(this.value=='Email Address'){this.value='';}" onblur="if(this.value==''){this.value='Email Address';}" />
+                        </div>
+    
+                        <div id="InputWrapper" style="float: left;">
+                            <input type="text" value="Phone Number" id="sharePhone" name="Phone" onfocus="if(this.value=='Phone Number'){this.value='';}" onblur="if(this.value==''){this.value='Phone Number';}" />
+                        </div>
+    
+                        <div id="InputWrapper" style="float:left;">
+                            <select id="sel1" name="CategoryID" style="overflow:scroll; width:150px;" onfocus="ExSelect('sel1');" onblur="CoSelect('sel1');">
+                                <option value="">I'm interested in...</option>
+                                <option value="3">Losing Weight</option>
+                                <option value="1">Getting Fit</option>
+                                <option value="2">Making Money</option>
+                                <option value="1367">All of the above</option>
+                            </select>
+                            <input type="hidden" name="TokenNamespaceUser" id="TokenNamespaceUser" value="1dd33210783178472215c55867e2bd9515620e3e3a63785c9eb758122634af197f7b961b" />
+    
+                            <!--<input type="text" value="Phone Number" id="Phone" name="Phone" onfocus="if(this.value=='&nbps; Phone Number'){this.value='';}" onblur="if(this.value==''){this.value='&nbps; Phone Number';}" />-->
+                        </div>
+    
+                        <img width="94" height="22" alt="" style="cursor:pointer; float: right; width: 94px; height: 22px;" onclick="ValidateShareForm()" src="/images/submit1.png/can/eng" />
+                        </form>
+    
+                        <script>
+                            function ValidateShareForm() {
+                                var Name = document.getElementById("shareFirstName").value;
+                                var Email = document.getElementById("shareEmail").value;
+                                var Phone = document.getElementById("sharePhone").value;
+
+                                if (Name == "" || Name == "First Name") {
+                                    var text = document.getElementById("alert_text").innerHTML;
+                                    alert(text);
+                                    return false;
+                                }
+                                if (Email != "Email Address") {
+                                    apos = Email.indexOf("@");
+                                    dotpos = Email.lastIndexOf(".");
+                                    if (apos < 1 || dotpos - apos < 2) {
+                                        var text2 = document.getElementById("alert_text2").innerHTML;
+                                        alert(text2);
+                                        return false;
+                                    }
+                                }
+                                else if (Phone == "" || Phone == "Phone Number") {
+                                    var text3 = document.getElementById("alert_text3").innerHTML;
+                                    alert(text3);
+                                    return false;
+                                }
+                                
+                                var PublicFormHandlerUseToken = '';
+
+                                var TokenNamespaceUser = document.getElementById('TokenNamespaceUser').value;
+
+                                if (PublicFormHandlerUseToken.length > 0 && PublicFormHandlerUseToken == 'true') {
+                                    //Validate the token
+                                    AjaxTokenValidateShare('4freebmw', TokenNamespaceUser)
+                                }
+
+                                if (PublicFormHandlerUseToken.length == 0 || PublicFormHandlerUseToken == 'false') document.ContactShareForm.submit();
+
+                            }
+
+                            function AjaxTokenValidateShare(_ID, _Token) {
+                                AjaxMethod("/ModuleInternal/AjaxTokenValidate", ajaxTokenValidateShareCB,
+                                                        "ID", _ID,
+                                                        "Token", _Token
+                                                    );
+                            }
+
+                            function ajaxTokenValidateShareCB(x) {
+                                var IsValid = AjaxValue(x, "IsValid");
+                                if (IsValid == "TRUE") {
+                                    document.ContactShareForm.submit();
+                                }
+                            }
+
+                            </script>
+
+                            <!--localization-->
+                            <div id="alert_text" local="office_forms_empty_name" style="display: none;">Please include your First Name</div>
+                            <div id="alert_text2" local="office_forms_invalid_email" style="display: none;">Invalid Email Address</div>
+                            <div id="alert_text3" local="office_forms_empty_email_phone" style="display: none;">Please include your Email or Phone</div>
+
+
+                    </td>
+                </tr>
+                </table>
+
+
+            </td>
+            <td class="pop_border_side_white"><img width="10" height="10" src="/images/spacer.png/can/eng" /></td>
+        </tr>
+        <tr>
+            <td class="pop_bottom_left_white"><img width="10" height="10" src="/images/spacer.png/can/eng" /></td>
+            <td class="pop_bottom_border_white"><img width="10" height="10" src="/images/spacer.png/can/eng" /></td>
+            <td class="pop_bottom_right_white"><img width="10" height="10" src="/images/spacer.png/can/eng" /></td>
+        </tr>
+        </table>
+    </div>
+</div>
+
+<script>
+    var Share = "";
+    if (Share != "")
+    {
+        if (Share == "Blogs")
+        {
+            document.getElementById("pop_share_blog").style.display = "";
+        }
+        if (Share == "Photos")
+        {
+            document.getElementById("pop_share_photo").style.display = "";
+        }
+        if (Share == "Videos")
+        {
+            document.getElementById("pop_share_video").style.display = "";
+        }
+        show();
+    }
+</script>
+
+<script type="text/javascript" language="javascript">
+    $(document).ready(function () {
+        $("#pop_share_blog_content").html($("#pop_share_blog_content").text());
+    });
+</script>
+
+
+    
+</body>
+</html>

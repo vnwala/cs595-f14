@@ -1,0 +1,355 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><link rel="icon" href="http://assets.tumblr.com/images/favicons/favicon.ico?1" type="image/gif"/><meta name="robots" content="noindex"/><meta http-equiv="x-dns-prefetch-control" content="off"/><meta name="viewport" content="width=600"/><title>Enter Password</title><style type="text/css">
+            body {
+                background: #eeeeee;
+            }
+
+            form {
+                margin: 0;
+                padding: 0;
+            }
+
+            #form {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin: -27px 0 0 -151px;
+                width: 302px;
+                height: 54px;
+            }
+
+            .input_with_button {
+                position: relative;
+            }
+            .input_with_button button:hover,
+            .input_with_button button {
+                opacity: 0;
+                transition: opacity .1s ease-in-out;
+                -moz-transition: opacity .1s ease-in-out;
+                -webkit-transition: opacity .1s ease-in-out;
+            }
+            .input_with_button.enabled button {
+                opacity: 0.99;
+            }
+            .is_ie .input_with_button button {
+                height: 0px;
+            }
+            .is_ie .input_with_button.enabled button {
+                height: 28px;
+            }
+
+            label, input, button {
+                font: bold 14px/1.4 "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+                opacity: 0.99;
+                margin: 0px;
+                padding: 0px;
+                vertical-align: top;
+            }
+
+            
+            label {
+                display: none;
+            }
+            label.placeholder {
+                display: block;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                z-index: 1;
+                padding: 13px 12px;
+                cursor: text;
+                color: #bbbbbb;
+            }
+            /*input {*/
+            .input_with_button {
+                background: #f4f4f4;
+                color: #444444;
+
+                border: 1px solid #bebebe;
+                -webkit-border-radius: 4px;
+                   -moz-border-radius: 4px;
+                        border-radius: 4px;
+                -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, .1), 0px 1px 0px 0px rgba(255, 255, 255, .5);
+                   -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, .1), 0px 1px 0px 0px rgba(255, 255, 255, .5);
+                        box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, .1), 0px 1px 0px 0px rgba(255, 255, 255, .5);
+                outline: none;
+            }
+            .input_with_button input {
+                background: transparent;
+                border: none;
+                outline: none;
+                padding: 10px 10px;
+                width: 205px;
+                height: 22px;
+            }
+            .input_with_button button {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+            }
+            input:-moz-placeholder {
+                color: #bbbbbb !important;
+            }
+            input::-webkit-input-placeholder {
+                color: #bbbbbb !important;
+            }
+            input:-ms-input-placeholder {
+                color: #bbbbbb !important;
+            }
+            button {
+                font-size: 12px;
+
+                background: #888888;
+                color: #f4f4f4;
+                transition: opacity .1s ease-in-out;
+                -moz-transition: opacity .1s ease-in-out;
+                -webkit-transition: opacity .1s ease-in-out;
+
+                height: 28px;
+                margin: 7px 7px 7px 0px;
+                padding: 0px 10px;
+                float: right;
+
+                border: none;
+                border-radius: 2px;
+
+                cursor: text;
+            }
+            .input_with_button.enabled button {
+                opacity: 0.7;
+                cursor: pointer;
+            }
+            .input_with_button.enabled button:hover,
+            button:hover {
+                opacity: 0.99;
+            }
+            .input_with_button.fast button {
+                transition-duration: opacity 0s;
+                -moz-transition-duration: opacity 0s;
+                -webkit-transition-duration: 0s;
+            }
+
+            h2.error {
+                font: bold 11px/1.4 "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+                text-align: center;
+
+                background: #e3e3e3;
+                color: #888888;
+
+                margin: 10px 0px 0px;
+                padding: 6px 0px;
+
+                border: 1px solid #d5d5d5;
+                border-radius: 2px;
+            }
+
+            .error {
+                        transition: margin-top .3s;
+                   -moz-transition: margin-top .3s;
+                -webkit-transition: margin-top .3s;
+                position: relative;
+                z-index: -1;
+            }
+            .error.hidden {
+                overflow: hidden;
+                margin-top: -36px;
+            }
+
+            .animated {
+                -webkit-animation-fill-mode: both;
+                -moz-animation-fill-mode: both;
+                -ms-animation-fill-mode: both;
+                -o-animation-fill-mode: both;
+                animation-fill-mode: both;
+                -webkit-animation: 1s ease;
+                -moz-animation: 1s ease;
+                -ms-animation: 1s ease;
+                -o-animation: 1s ease;
+                animation: 1s ease;
+            }
+
+            .shake.animated {
+                -webkit-animation-duration: .5s;
+                -moz-animation-duration: .5s;
+                -ms-animation-duration: .5s;
+                -o-animation-duration: .5s;
+                animation-duration: .5s;
+            }
+
+            @-webkit-keyframes lilshake {
+                0%, 100% {-webkit-transform: translateX(0);}
+                17%, 50%, 83% {-webkit-transform: translateX(-5px);}
+                33%, 67% {-webkit-transform: translateX(5px);}
+            }
+
+            @-moz-keyframes lilshake {
+                0%, 100% {-moz-transform: translateX(0);}
+                17%, 50%, 83% {-moz-transform: translateX(-5px);}
+                33%, 67% {-moz-transform: translateX(5px);}
+            }
+
+            @-ms-keyframes lilshake {
+                0%, 100% {-ms-transform: translateX(0);}
+                17%, 50%, 83% {-ms-transform: translateX(-5px);}
+                33%, 67% {-ms-transform: translateX(5px);}
+            }
+
+            @-o-keyframes lilshake {
+                0%, 100% {-o-transform: translateX(0);}
+                17%, 50%, 83% {-o-transform: translateX(-5px);}
+                33%, 67% {-o-transform: translateX(5px);}
+            }
+
+            @keyframes lilshake {
+                0%, 100% {transform: translateX(0);}
+                17%, 50%, 83% {transform: translateX(-5px);}
+                33%, 67% {transform: translateX(5px);}
+            }
+
+            .shake {
+                -webkit-animation-name: lilshake;
+                -moz-animation-name: lilshake;
+                -ms-animation-name: lilshake;
+                -o-animation-name: lilshake;
+                animation-name: lilshake;
+            }
+        </style><script>require=function r(t,n,e){function o(i,f){if(!n[i]){if(!t[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);throw new Error("Cannot find module '"+i+"'")}var a=n[i]={exports:{}};t[i][0].call(a.exports,function(r){var n=t[i][1][r];return o(n?n:r)},a,a.exports,r,t,n,e)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<e.length;i++)o(e[i]);return o}({"f/LVtH":[function(r,t){"use strict";function n(r){return"function"==typeof r}function e(r){return"undefined"==typeof r}function o(r){var t,e;if(!n(r))throw new TypeError;return function(){return t?e:(t=!0,e=r.apply(this,arguments),r=null,e)}}function u(r){return!(!c||!c[r])}function i(r){var t=u(r);return t?function o(r){var u=n(r)?r.call(this,t):r;return e(u)?o:u}:function i(r,o){var u=n(o)?o.call(this,t):o;return e(u)?i:u}}function f(r){try{c=JSON.parse(p(r))}catch(t){c={}}}var c,a=Object.prototype,p=(a.toString,n(window.atob)?window.atob:function(r){var t,n,e,o,u={},i=0,f=0,c="",a=String.fromCharCode,p=r.length,s="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";for(t=0;64>t;t++)u[s.charAt(t)]=t;for(e=0;p>e;e++)for(n=u[r.charAt(e)],i=(i<<6)+n,f+=6;f>=8;)((o=i>>>(f-=8)&255)||p-2>e)&&(c+=a(o));return c});t.exports=i,t.exports.bool=u,t.exports.setup=o(f)},{}],"prima/lib/flags":[function(r,t){t.exports=r("f/LVtH")},{}]},{},[]);</script><script>
+(function(exports, store) {
+    'use strict';
+    var flags = require('prima/lib/flags');
+    flags.setup(store);
+    exports.Flags = flags; // Legacy Tumblr.Flags
+})((this.Tumblr || (this.Tumblr = {})), "eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwic2VjdXJlX2Zvcm1fa2V5Ijp0cnVlLCJzZWN1cmVfZm9ybV9rZXlfZnVsbHlfb24iOnRydWUsInR1bWJsZWxvZ19wb3BvdmVyIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwibmV3X3Bvc3RfZm9ybXMiOnRydWUsInRhYmxldF9iYW5uZXJfYWN0aXZlIjp0cnVlLCJtb2JpbGVfYmFubmVyX2FjdGl2ZSI6dHJ1ZSwidXNlcl9tZW50aW9ucyI6dHJ1ZSwiaHRtbDVfYXVkaW9fcGxheWVyIjp0cnVlLCJwb3BvdmVyX3JlY29tbWVuZGF0aW9ucyI6dHJ1ZSwicG9wdGljYV90dW1ibGVsb2dfcG9wb3ZlcnMiOnRydWUsInRhYl9zd2l0Y2hlciI6dHJ1ZSwiZmFzdF9jb21wb3NlIjp0cnVlLCJhY2Nlc3NfbmV3X2RvdF90b29sdGlwIjp0cnVlLCJkb250X2Nhc3RfanNfZm9sbG93cyI6dHJ1ZSwiYWRzX2Rpc3BsYXlfYmx1ZV9mb2xsb3dfYnV0dG9uIjp0cnVlLCJndWxwanNfYWRtaW4iOnRydWUsImVuYWJsZV9qc19lcGhlbWVyYWxfbG9nIjp0cnVlLCJsb2dfbGFkeSI6dHJ1ZSwiY3Nsb2dnZXJfanMiOnRydWV9");
+</script>
+<script src="http://assets.tumblr.com/client/prod/app/vendor/index.js?_v=fd0e0686606983ee98df1bb6e34b11fe"></script><script src="http://assets.tumblr.com/assets/scripts/polyfills.js?_v=cfe98c810e69c8c24ffa448c197f8723"></script><script type="text/javascript">
+            function checkInput( field, enableTarget ) {
+                var $ = jQuery;
+                field = $( field );
+                enableTarget = enableTarget || field.parent();
+                if ( field.val().length ) enableTarget.addClass( 'enabled' );
+                else enableTarget.removeClass( 'enabled' );
+                return !!field.val().length;
+            }
+
+            (function($){
+                $(function(){
+                    var fastTransitionTimeout;
+                    $( '#password' ).on( {
+                        focus: function ( e ) {
+                            checkInput( this );
+                        },
+                        keyup: function ( e ) {
+                            if ( checkInput( this ) )
+                            {
+                                $( '#password_error' ).addClass( 'hidden' );
+                                clearTimeout( fastTransitionTimeout );
+                                fastTransitionTimeout = setTimeout( function () {
+                                    $( '.input_with_button' ).addClass( 'fast' );
+                                }, 500 );
+                            }
+                            else
+                            {
+                                $( '.input_with_button' ).removeClass( 'fast' );
+                            }
+                        }
+                    } ).focus();
+                    $( 'form button[type="submit"]' ).on( 'mousedown', function ( e ) {
+                        if ( !checkInput( '#password' ) )
+                        {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            $( '#password' ).focus();
+                        }
+                    } );
+                    $( 'form' ).on( 'submit', function ( e ) {
+                        if ( !checkInput( '#password' ) ) return false;
+                    } );
+                    // Placeholder fallback
+                    if ( $.browser.msie && parseInt( $.browser.version, 10 ) < 9 )
+                    {
+                        $( 'body' ).addClass( 'is_ie' );
+                        $( 'label[for="password"]' )
+                            .addClass( 'placeholder' )
+                            .text( $( '#password' ).attr( 'placeholder' ) )
+                            .css( 'display', 'block' )
+                            .on( 'mousedown', function ( e ) {
+                                e.preventDefault();
+                                e.stopPropagation();
+                                $( '#password' ).focus();
+                            } )
+                        ;
+                        $( '#password' ).attr( 'placeholder', '' ).on( {
+                            keyup: function ( e ) {
+                                if ( !checkInput( '#password' ) ) $( 'label[for="password"]' ).css( 'display', 'block' );
+                                else $( 'label[for="password"]' ).css( 'display', 'none' );
+                            }
+                        } );
+                    }
+                    // Measure the button
+                    $( '#password' ).width( $( '#password_and_button' ).innerWidth() - jQuery( 'button' ).outerWidth() - 27 );
+                                    });
+            })(jQuery);
+        </script></head><body><div id="form"><div id="form_content"><form method="post"><div id="password_and_button" class="input_with_button"><label for="password">Password</label><input type="password" name="password" id="password" class="text_field" placeholder="Enter password" /><button type="submit">Enter</button></div></form></div></div><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://princelyred.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037943&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvcHJpbmNlbHlyZWQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=JNJEPCGNAK&K=d61aa53a5812c9520a860b3b540abf1ae0a69bd06617be0305fae44afaa02395&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037943&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvcHJpbmNlbHlyZWQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=JNJEPCGNAK&K=82c2aea0b6740033095ce47bfddeacaffea94a705aafbb5a86f5464c3f93a1f1&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:203485939,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script></body></html>

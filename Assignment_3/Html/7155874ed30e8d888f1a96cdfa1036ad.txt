@@ -1,0 +1,710 @@
+<!doctype html>
+<html ng-app="rokuApp">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:site_name" content="Roku Streaming Player" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.roku.com/channels" />
+<link rel="shortcut icon" href="http://www.roku.com/sites/all/themes/roku/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="http://www.roku.com/node/251" />
+<link rel="canonical" href="http://www.roku.com/channels" />
+<meta content="Channel Store" about="/channels" property="dc:title" />
+<meta property="og:title" content="Channel Store" />
+<meta name="keywords" content="roku, netflix player, netflix ready devices, netflix movie player, roku streaming player, roku player, amazon video on demand, mlb tv, mlb, roku digital video player, roku 2, roku hd, roku xd, roku xs, amazon instant video, crackle, hulu plus" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="viewport" content="width=1276" />
+<title ng-bind="headTitle">Channel Store | Roku Streaming Player</title>
+<style type="text/css" media="all">@import url("http://www.roku.com/modules/system/system.base.css?nbz9em");
+@import url("http://www.roku.com/modules/system/system.menus.css?nbz9em");
+@import url("http://www.roku.com/modules/system/system.messages.css?nbz9em");
+@import url("http://www.roku.com/modules/system/system.theme.css?nbz9em");</style>
+<style type="text/css" media="all">@import url("http://www.roku.com/sites/all/modules/date/date_api/date.css?nbz9em");
+@import url("http://www.roku.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?nbz9em");
+@import url("http://www.roku.com/modules/field/theme/field.css?nbz9em");
+@import url("http://www.roku.com/modules/node/node.css?nbz9em");
+@import url("http://www.roku.com/modules/search/search.css?nbz9em");
+@import url("http://www.roku.com/modules/user/user.css?nbz9em");
+@import url("http://www.roku.com/sites/all/modules/views/css/views.css?nbz9em");</style>
+<style type="text/css" media="all">@import url("http://www.roku.com/sites/all/modules/ctools/css/ctools.css?nbz9em");</style>
+<style type="text/css" media="all">@import url("http://www.roku.com/sites/all/themes/roku/css/reset.css?nbz9em");
+@import url("http://www.roku.com/sites/all/themes/roku/css/fonts.css?nbz9em");
+@import url("http://www.roku.com/sites/all/themes/roku/css/style.css?nbz9em");
+@import url("http://www.roku.com/sites/all/themes/roku/css/shop.css?nbz9em");
+@import url("http://www.roku.com/sites/all/themes/roku/css/jplayer/jplayer.roku.css?nbz9em");</style>
+<style type="text/css" media="print">@import url("http://www.roku.com/sites/all/themes/roku/css/print.css?nbz9em");</style>
+
+<!--[if lte IE 9]>
+<link type="text/css" rel="stylesheet" href="http://www.roku.com/sites/all/themes/roku/css/ie.css?nbz9em" media="all" />
+<![endif]-->
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://www.roku.com/sites/all/themes/roku/css/ie7.css?nbz9em" media="all" />
+<![endif]-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.roku.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.roku.com/misc/drupal.js?nbz9em"></script>
+<script type="text/javascript" src="//cdn.optimizely.com/js/201186230.js"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/html5shiv.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/namespace.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/jquery.cookie.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/jquery.tools.min.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/jquery.ba-hashchange.min.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/jquery.jplayer.min.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/jquery.roku.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/jquery.roku.carousel.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/jquery.roku.products.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/main.js?nbz9em"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"roku","theme_token":"V9w1xJxrtRMqnol79WgSANmol9cUdn_lEZmrnI7nsmE","js":{"\/\/cdnjs.cloudflare.com\/ajax\/libs\/underscore.js\/1.3.3\/underscore-min.js":1,"\/\/cdnjs.cloudflare.com\/ajax\/libs\/backbone.js\/0.9.2\/backbone-min.js":1,"\/\/cdnjs.cloudflare.com\/ajax\/libs\/handlebars.js\/1.0.0.beta6\/handlebars.min.js":1,"sites\/all\/themes\/roku\/js\/jquery.roku.categories.js":1,"sites\/all\/themes\/roku\/js\/jquery.ba-postmessage.min.js":1,"sites\/all\/themes\/roku\/js\/channels.js":1,"sites\/all\/themes\/roku\/js\/jquery.roku.nowplaying.js":1,"0":1,"\/\/ajax.googleapis.com\/ajax\/libs\/angularjs\/1.2.13\/angular.min.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/angularjs\/1.2.13\/angular-route.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/angularjs\/1.2.13\/angular-resource.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/angularjs\/1.2.13\/angular-animate.js":1,"sites\/all\/themes\/roku\/js\/angular-shopping.cart.js":1,"sites\/all\/themes\/roku\/js\/angular-validation.js":1,"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.8.2\/jquery.min.js":1,"1":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/cdn.optimizely.com\/js\/201186230.js":1,"sites\/all\/themes\/roku\/js\/html5shiv.js":1,"sites\/all\/themes\/roku\/js\/namespace.js":1,"sites\/all\/themes\/roku\/js\/jquery.cookie.js":1,"sites\/all\/themes\/roku\/js\/jquery.tools.min.js":1,"sites\/all\/themes\/roku\/js\/jquery.ba-hashchange.min.js":1,"sites\/all\/themes\/roku\/js\/jquery.jplayer.min.js":1,"sites\/all\/themes\/roku\/js\/jquery.roku.js":1,"sites\/all\/themes\/roku\/js\/jquery.roku.carousel.js":1,"sites\/all\/themes\/roku\/js\/jquery.roku.products.js":1,"sites\/all\/themes\/roku\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/roku\/css\/reset.css":1,"sites\/all\/themes\/roku\/css\/fonts.css":1,"sites\/all\/themes\/roku\/css\/style.css":1,"sites\/all\/themes\/roku\/css\/shop.css":1,"sites\/all\/themes\/roku\/css\/jplayer\/jplayer.roku.css":1,"sites\/all\/themes\/roku\/css\/print.css":1,"sites\/all\/themes\/roku\/css\/ie.css":1,"sites\/all\/themes\/roku\/css\/ie7.css":1}}});
+//--><!]]>
+</script>
+</head>
+<body>
+<div id="skip-link">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<noscript>
+   <div class="error-box">You must have Javascript enabled to use this site.</div>
+</noscript>
+
+    <!-- SHOPPING CART OVERLAY -->
+<div id="cart-overlay" ng-class="overlay ? 'active' : ''" ng-controller="CartOverlayController">
+  <div class="wrapper">
+    <div class="right">
+      <div class="text-right"> <a href="#" class="cart-overlay-exit" ng-click="openOverlay()">Close</a> </div>
+      <div class="cart-row"> <span class="cart-discount" ng-show="discount != null && discount != '0'">Discount: {{ discount|currency:$ }}</span> <span class="cart-total">Estimated Total: {{ total == null ? 0 : total | currency:"$" }}</span> </div>
+      <div class="cart-row text-right"> <a href="/checkout" class="button large green" ng-show="cart.items.length > 0">View cart</a> <a href="/products/compare" class="button large green" ng-show="cart.items.length == 0 || cart.items == null">Browse Roku Players</a> </div>
+    </div>
+    <div class="cart-summary">
+      <h3>Cart summary</h3>
+      <div class="cart-row" ng-show="cart.items.length > 0">
+        <div class="cart-row-item" ng-repeat="item in cart.items"> <img ng-src="//wwwimg.roku.com/shop/{{item.sku}}.png" alt="" /> <span class="cart-item-name" ng-bind-html="item.name | convertHTML" title="{{ item.name | convertHTML }}"></span> <span class="cart-item-price">{{item.price * item.qty | currency:"$" }} ({{item.qty}})</span> </div>
+      </div>
+      <div class="cart-row" ng-show="cart.items.length == 0 || cart.items == null">
+        <p><strong>Your shopping cart is empty.</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /SHOPPING CART OVERLAY -->
+<div id="wrapper" overlay-toggle>
+  <header id="header">
+    <div class="wrapper">
+      <nav id="utility">
+  <div class="account">
+    <ul class="row">
+      <li>&nbsp;</li>
+    </ul>
+    <ul class="row">
+      <li><a class="cart" overlay-toggle>Cart</a> <a href="http://owner.roku.com/Account/Login/">Please sign in</a></li>
+    </ul>
+  </div>
+  <div class="buy"> <a href="/products/compare" class="button">Choose your Roku</a> </div>
+</nav>      <!-- /#utility-nav-->
+      
+            <a href="/" title="Home" rel="home" class="brand">Roku</a><!-- /#logo -->
+            <nav id="navigation">
+        <ul class="links"><li class="menu-1216 first"><a href="/meet-roku" title="">What is Roku</a></li>
+<li class="menu-1319 active-trail"><a href="/now-playing" title="" class="active-trail">Channels</a></li>
+<li class="menu-1367"><a href="/products/compare" title="">Products</a></li>
+<li class="menu-326 last"><a href="http://support.roku.com/home" title="">Support</a></li>
+</ul>      </nav>
+    </div>
+  </header>
+  <!-- /#header --> 
+  
+  <!-- #secondary navigation -->
+    <nav id="secondary" class="active">
+    <div class="wrapper">
+      <div class="what-is-roku-menu"> <ul class="links"><li class="menu-1221 first"><a href="/meet-roku" title="">Meet Roku</a></li>
+<li class="menu-1222"><a href="/why-its-cool" title="">Why It&#039;s Cool</a></li>
+<li class="menu-1432 last"><a href="/how-to-watch" title="">How to Watch</a></li>
+</ul> </div>
+      <div class="channels-menu">
+        <ul id="cs-navbar-pages">
+                  <li class="first active"><a href="/now-playing" title="">Now Playing</a></li>
+                  <li><a href="/channels/#!browse" title="">Browse</a></li>
+          
+                    <li id="search">
+            <fieldset>
+              <legend></legend>
+              <input id="cs-query" type="text" name="query" value="" placeholder="Search channels" />
+              <input type="image" src="/sites/all/themes/roku/images/button_search.png" />
+            </fieldset>
+          </li>
+                  </ul>
+      </div>
+      <div class="products-menu"> <ul class="links"><li class="menu-1371 first"><a href="/products/compare" title="">Streaming Players</a></li>
+<li class="menu-1604"><a href="/roku-ready" title="">Roku Ready</a></li>
+<li class="menu-1613 last"><a href="/roku-tv" title="">Roku TV</a></li>
+</ul> </div>
+      <div class="support-menu"> <ul class="links"><li class="menu-1389 first"><a href="http://support.roku.com/entries/27199764-Why-Roku" title="">Why Roku?</a></li>
+<li class="menu-1390"><a href="http://support.roku.com/entries/26409964-Select-a-Roku-player-model" title="">Setup</a></li>
+<li class="menu-1391"><a href="http://roku.zendesk.com/entries/27798254-Explore-Roku" title="">Explore Roku</a></li>
+<li class="menu-1392"><a href="http://support.roku.com/entries/28044570-Roku-Player-Warranty-and-Open-Source-Information" title="">Legal</a></li>
+<li class="menu-1388 last"><a href="http://support.roku.com/entries/413244-contact-support" title="">Contact us</a></li>
+</ul> </div>
+    </div>
+  </nav>   <!-- /#secondary navigation -->
+  
+  <section id="content">
+            <div class="tabs">  </div>
+                <div class="main-content" id="channels-page">       
+<!------------------------ NOW PLAYING --------------------- --> 
+<div id="cs-now-playing" class="cs-view">
+  <div id="hero" class="wide">
+            <div class="wrapper left" data-slide="12"> <span class="hero-background"><img src="//wwwimg.roku.com/Roku_NewGirl-Hero.jpg" alt="" /></span>
+      <div class="channel-details"> <script type="text/javascript">
+if(document.location.hash == '' || document.location.hash == '#!now-playing') {
+document.location.href = '/channels/#!browse/movies-and-tv/by-popular';
+}
+</script>
+<p><img alt="" src="//wwwimg.roku.com/static/nowplaying/netflix.png" style="width: 335px; height: 102px; " /></p>
+<p>The best Netflix experience is on Roku, featuring support for English subtitles, 1080p HD video and Dolby Digital + surround sound (where available). Works easily with your Netflix unlimited membership.</p>
+        <p> <a href="#!details/12" class="button blue button-details">Channel details</a> <a href="#" class="button green cs-add-channel cs-id-12" data-channel-id="12">+ Add channel</a> </p>
+      </div>
+    </div>
+            <div class="wrapper left" data-slide="2016"> <span class="hero-background"><img src="//wwwimg.roku.com/crackle_roku_punisherwarzone_contentpage_1275x492.jpg" alt="" /></span>
+      <div class="channel-details"> <p><img alt="" src="//wwwimg.roku.com/static/imageresources/channels-crackle-punisher.png" style="width: 335px; height: 102px; " /></p>
+<p>Crackle delivers hundreds of full-length, uncut Hollywood movies and TV series such as Snatch and Seinfeld every month &ndash; all free and on demand.</p>
+        <p> <a href="#!details/2016" class="button blue button-details">Channel details</a> <a href="#" class="button green cs-add-channel cs-id-2016" data-channel-id="2016">+ Add channel</a> </p>
+      </div>
+    </div>
+            <div class="wrapper left" data-slide="13"> <span class="hero-background"><img src="//wwwimg.roku.com/DowntonAbberyS1_roku_1275x492.jpg" alt="" /></span>
+      <div class="channel-details"> <p><img alt="Downtown Abbey on Amazon Instant Video" src="//wwwimg.roku.com/static/imageresources/downton-abbey-roku.png" style="width: 335px; height: 102px; " /></p>
+<p>Amazon Instant Video features more than 150,000 titles, including new release movies and next-day TV episodes to rent or purchase. In addition, Amazon Prime members can watch thousands of videos at no additional cost to their membership.</p>
+        <p> <a href="#!details/13" class="button blue button-details">Channel details</a> <a href="#" class="button green cs-add-channel cs-id-13" data-channel-id="13">+ Add channel</a> </p>
+      </div>
+    </div>
+            <div class="wrapper left" data-slide="23353"> <span class="hero-background"><img src="//wwwimg.roku.com/PBS_RokuWebsite_Carousel_ConstitutionUSA_IMAGE.jpg" alt="" /></span>
+      <div class="channel-details"> <p><img alt="Watch Curious George on PBS with Roku" src="//wwwimg.roku.com/static/imageresources/channels-pbs-contitution-usa.jpg" /></p>
+<p>PBS has partnered with Roku to give you free and easy access to PBS original and featured programs: thousands of videos from multiple genres including history, news, science, technology and the arts. Select your favorite PBS station for a unique localized experience.</p>
+        <p> <a href="#!details/23353" class="button blue button-details">Channel details</a> <a href="#" class="button green cs-add-channel cs-id-23353" data-channel-id="23353">+ Add channel</a> </p>
+      </div>
+    </div>
+            <div class="wrapper left" data-slide="14"> <span class="hero-background"><img src="//wwwimg.roku.com/channels_now_playing_slides_mlb.jpg" alt="" /></span>
+      <div class="channel-details"> <p><img alt="" src="//wwwimg.roku.com/page-assets/channels_now_playing_slides_mlb_header_0_0.png" style="width: 335px; height: 102px; " /></p>
+<p>With MLB.TV Premium, you can watch over 2,430 MLB regular season games LIVE or on-demand in HD Quality. Purchase a MLB.TV Premium subscription from <a href="http://www.MLB.tv/Roku">www.MLB.tv/Roku</a> and catch all the action.</p>
+        <p> <a href="#!details/14" class="button blue button-details">Channel details</a> <a href="#" class="button green cs-add-channel cs-id-14" data-channel-id="14">+ Add channel</a> </p>
+      </div>
+    </div>
+            <div class="wrapper left" data-slide="13842"> <span class="hero-background"><img src="//wwwimg.roku.com/Roku_channels_now_playing_slides_Jack-the-giant-slayer_1.jpg" alt="" /></span>
+      <div class="channel-details"> <p>
+	<style type="text/css">
+#wrapper { overflow:visible; }	</style>
+</p>
+<p><img alt="" src="//wwwimg.roku.com/static/imageresources/channels-vudu-jack-the-giant-slayer.png" style="width: 335px; height: 89px; " /></p>
+<p>VUDU delivers a cinema-like experience at home with the hottest new releases and the largest HD library. Choose to rent or own from thousands of titles available in vibrant 1080p with rich Dolby Digital Surround Sound.</p>
+        <p> <a href="#!details/13842" class="button blue button-details">Channel details</a> <a href="#" class="button green cs-add-channel cs-id-13842" data-channel-id="13842">+ Add channel</a> </p>
+      </div>
+    </div>
+            <div class="wrapper left" data-slide="8378"> <span class="hero-background"><img src="//wwwimg.roku.com/BWE_1798163_1275x492.jpg" alt="" /></span>
+      <div class="channel-details"> <p><img alt="" src="//wwwimg.roku.com/static/nowplaying/hbo-boardwalk-empire.png" style="width: 335px; height: 102px; " /></p>
+<p>Get unlimited access to every episode of every season of your favorite HBO shows, including HBO original series, hit movies, sports, comedy specials, documentaries &ndash; and more &ndash; all FREE with your HBO subscription through participating TV providers.</p>
+        <p> <a href="#!details/8378" class="button blue button-details">Channel details</a> <a href="#" class="button green cs-add-channel cs-id-8378" data-channel-id="8378">+ Add channel</a> </p>
+      </div>
+    </div>
+            <div class="wrapper left" data-slide="2157"> <span class="hero-background"><img src="//wwwimg.roku.com/channels_now_playing_slides_9disney_hero.jpg" alt="" /></span>
+      <div class="channel-details"> <p><img alt="" src="//wwwimg.roku.com/page-assets/channels_now_playing_slides_9disney_header.png" style="width: 335px; height: 102px;" /></p>
+<p>Watch Disney videos, like clips from your favorite Disney TV shows and movies, behind-the-scenes sneak peeks and interviews, classic cartoons, online originals, new music videos, and more.</p>
+        <p> <a href="#!details/2157" class="button blue button-details">Channel details</a> <a href="#" class="button green cs-add-channel cs-id-2157" data-channel-id="2157">+ Add channel</a> </p>
+      </div>
+    </div>
+            <div class="wrapper left" data-slide="2285"> <span class="hero-background"><img src="//wwwimg.roku.com/Awesome_Roku_2.jpg" alt="" /></span>
+      <div class="channel-details"> <p><img alt="" src="//wwwimg.roku.com/static/nowplaying/hulu.png" style="width: 335px; height: 102px; " /></p>
+<p>Hulu Plus brings the latest and greatest TV series to the biggest screen in the house. Enjoy every episode, all season long, of Glee, Modern Family, New Girl, and dozens of other popular TV shows in HD.</p>
+        <p> <a href="#!details/2285" class="button blue button-details">Channel details</a> <a href="#" class="button green cs-add-channel cs-id-2285" data-channel-id="2285">+ Add channel</a> </p>
+      </div>
+    </div>
+        <div class="cs-result-tip-container"> 
+      <!-- action success / error tips get added inside here --> 
+    </div>
+  </div>
+  <div id="featured">
+    <div class="wrapper">
+      <nav class="carousel-navigation"> 
+      	<a href="#" class="prev">prev</a> <a href="#" class="next">next</a> 
+        <ul>
+        		          <li><a href="#!details/12/" data-slide="12"><img src="//wwwimg.roku.com/channels_now_playing_slides_3netflix_icon.jpg" alt="" /></a></li>
+        		          <li><a href="#!details/2016/" data-slide="2016"><img src="//wwwimg.roku.com/channels_now_playing_slides_2crackle_icon.jpg" alt="" /></a></li>
+        		          <li><a href="#!details/13/" data-slide="13"><img src="//wwwimg.roku.com/RokuHD_HomeTile-AIV_336x210.jpg" alt="" /></a></li>
+        		          <li><a href="#!details/23353/" data-slide="23353"><img src="//wwwimg.roku.com/pbs-hd.jpg" alt="" /></a></li>
+        		          <li><a href="#!details/14/" data-slide="14"><img src="//wwwimg.roku.com/channels_now_playing_slides_mlb_icon_0.png" alt="" /></a></li>
+        		          <li><a href="#!details/13842/" data-slide="13842"><img src="//wwwimg.roku.com/channels_now_playing_slides_1vudu_icon_0.jpg" alt="" /></a></li>
+        		          <li><a href="#!details/8378/" data-slide="8378"><img src="//wwwimg.roku.com/channels_now_playing_slides_6hbogo_icon.jpg" alt="" /></a></li>
+        		          <li><a href="#!details/2157/" data-slide="2157"><img src="//wwwimg.roku.com/channels_now_playing_slides_9disney_icon_1.jpg" alt="" /></a></li>
+        		          <li><a href="#!details/2285/" data-slide="2285"><img src="//wwwimg.roku.com/336x210_new.jpg" alt="" /></a></li>
+                </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+ 
+      <!--- CHANNELS GRID --->
+      <div id="cs-channel-list" class="cs-view channel-grid-content"> 
+        <!-- channel category navigation -->
+        <nav id="cs-category-chooser" class="cs-view channel-categories wrapper"></nav>
+        <!-- /channel category navigation -->
+        <div class="wrapper">
+          <div id="cs-channel-list-sort" class="wrapper"></div>
+          <!-- grid -->
+          <div class="cs-channel-list-items channel-grid"> </div>
+          <!-- /grid --> 
+        </div>
+      </div>
+      <!-- tooltips -->
+      <div class="cs-view">
+        <div class="tool-tip installed"> <span class="carrot right"></span>
+          <p> <strong>{{name}}</strong><br />
+            has been added to your Roku player </p>
+        </div>
+      </div>
+      <!-- /tooltips --> 
+      <!--- /CHANNELS GRID ---> 
+      <!-- CHANNELS DETAILS --->
+      <div id="channels-details" class="cs-view"> 
+        <script id="cs-channel-details-template" type="text/x-handlebars-template">
+	     <div id="hero" class="wide">
+			  <div class="right">                        
+				<h3>{{name}}</h3>
+				<p class="categories">Categories: 
+				{{#each categories}}
+					<a href="{{fn_categoryUrlById this.id}}">{{this.name}}</a>{{#unless isLast}},{{/unless}} 
+				{{/each}}</p>
+				
+				<p>
+					{{description}}
+				<p>
+				<p>
+					<a href="#read-more">Read more</a>
+				</p>
+				<p>
+				{{#if fn_isRated}}
+				  <span class="ratings">
+				    <span id="rated" class="rated-{{userStarCount}}" data-starcount="{{userStarCount}}">  
+					{{#if isUserMappedChannel }}
+					  <a href="#" data-rating="1" data-channel="{{id}}" data-tip="Hated it">1 star</a>
+					  <a href="#" data-rating="2" data-channel="{{id}}" data-tip="Didn't like it">2 star</a>
+					  <a href="#" data-rating="3" data-channel="{{id}}" data-tip="Liked it">3 star</a>
+					  <a href="#" data-rating="4" data-channel="{{id}}" data-tip="Really liked it">4 star</a>
+					  <a href="#" data-rating="5" data-channel="{{id}}" data-tip="Loved it">5 star</a>
+					{{/if}}
+				    </span>
+					{{starRatingCount}} ratings &nbsp;&nbsp;&nbsp; {{fn_starAverage}}
+				  </span>	
+				  {{else}}
+					<span class="ratings {{fn_starWidth}}">
+					  <span id="rated" class="rated-{{userStarCount}}" data-starcount="{{userStarCount}}">  
+					  {{#if isUserMappedChannel }}
+						<a href="#" data-rating="1" data-channel="{{id}}" data-tip="Hated it">1 star</a>
+						<a href="#" data-rating="2" data-channel="{{id}}" data-tip="Didn't like it">2 star</a>
+						<a href="#" data-rating="3" data-channel="{{id}}" data-tip="Liked it">3 star</a>
+						<a href="#" data-rating="4" data-channel="{{id}}" data-tip="Really liked it">4 star</a>
+						<a href="#" data-rating="5" data-channel="{{id}}" data-tip="Loved it">5 star</a>
+					  {{/if}}
+					  </span>
+					  {{starRatingCount}} ratings &nbsp;&nbsp;&nbsp; {{fn_starAverage}}
+					</span>
+				{{/if}}	
+				</p>
+				<p style="position:relative; width:200px">
+				  {{#if fn_isAuthenticated }}
+					{{#if isUserMappedChannel }}   
+					  {{#if fn_addChannelTextNone}}<span class="installed">Installed</span>{{/if}}
+					  {{#if fn_addChannelTextOnce}}<span class="installed">Installed</span>{{/if}}
+					  {{#if fn_addChannelTextMonthly}}<a href="{{fn_addChannelUrl}}" class="button green">Manage Subscription</a>{{/if}}
+					  {{#if fn_addChannelTextYearly}}<a href="{{fn_addChannelUrl}}" class="button green">Manage Subscription</a>{{/if}}
+					{{else}}
+					  {{#if fn_addChannelTextNone}}<a href="{{fn_addChannelUrl}}" class="button green cs-add-channel" data-channel-id="{{id}}">+ Add Channel</a>{{/if}}
+					  {{#if fn_addChannelTextOnce}}<a href="{{fn_addChannelUrl}}" class="button green cs-add-channel" data-channel-id="{{id}}">Buy {{price}}</a>{{/if}}
+					  {{#if fn_addChannelTextMonthly}}<a href="{{fn_addChannelUrl}}" class="button green cs-add-channel" data-channel-id="{{id}}">Subscribe {{price}}/mo</a>{{/if}}
+					  {{#if fn_addChannelTextYearly}}<a href="{{fn_addChannelUrl}}" class="button green cs-add-channel" data-channel-id="{{id}}">Subscribe {{price}}/yr</a>{{/if}}
+					{{/if}}
+				  {{else}}
+					<a href="{{fn_addChannelUrl}}" class="button green cs-add-channel" data-channel-id="{{id}}">+ Add Channel</a>
+				  {{/if}}
+
+					<span class="cs-result-tip-container">
+					  <!-- action success / error tips get added inside here -->
+					</span>
+				</p>
+				
+				<small>
+				{{#if specialRequirements}}
+					<div>{{specialRequirements}}</div>
+				{{/if}}
+				{{#each requirements}}
+					<div>{{this}}</div>
+				{{/each}}
+				</small>
+			  </div>
+			  <div class="channel-image">
+				<span class="glaze">
+					<img class="cs-poster-big" src="{{hdPosterUrl}}" alt="" />
+				</span>
+			  </div>
+			  <div style="clear:both"></div>
+			</div>
+			<!-- screenshots -->
+			{{#if screenshotUrls.length}}
+			<div class="channel-screenshots">
+				<div class="channel-screenshots-thumbs">
+					{{#each screenshotUrls}}
+						<a class="cs-screenshot-thumb" href="#" data-url="{{this}}" ><img src="{{fn_screenshotThumb this}}"/></a> 
+					{{/each}}
+				</div>
+				<div class="channel-screenshots-full">
+					<img id="cs-screenshot-full" src="{{fn_screenshotFull screenshotUrls.0.this}}"/>    
+				</div>                    
+			</div>
+			{{/if}}
+			<!-- /screenshots -->
+			<!-- description -->
+			<article class="channel-description">
+						<div class="callout">    <style type="text/css">
+.callout { background-color: transparent; height: 290px; padding-bottom: 0px; overflow: hidden; }
+</style>
+<a href="/products/roku-3" onclick="_gaq.push(['_trackEvent', 'Promo Placement', 'Click', 'Channel Details']);"><img alt="Save $10 off Roku 3" src="//wwwimg.roku.com/static/promos/channels/2014/roku-3-save-10-americas-fav-ch-details.png" /></a>
+
+</div>
+						<div id="read-more" class="content-copy">
+				<p><strong>{{name}}</strong></p>
+				<p><em>Developer: {{developer}}</em></p>
+				<p>{{{fn_webDescription}}}</p>
+			</div>
+			</article>
+			<!-- /description -->
+			<!-- more from same category -->
+			<div class="channel-grid-content">
+			<div class="wrapper">
+				<h4>Other popular channels in {{primaryCategory.name}}</h4>
+				<!-- grid -->
+				<div class="cs-channel-list-items channel-grid">
+					<!-- grid-item -->
+				</div>
+				<!-- /grid -->
+			</div>
+			</div>
+			<!-- /more from same category -->
+       </script> 
+      </div>
+      <!-- /CHANNELS DETAILS ---> 
+    </div>
+  </section>
+  <!-- #footer -->
+  <footer id="footer">
+  <div class="wrapper">
+        <div class="right">
+      <div id="footer-columns">
+        <div class="column">    <h4>Company</h4>
+<ul>
+	<li><a href="/about/company">About Us</a></li>
+	<li><a href="/about/contact">Contact Us</a></li>
+	<li><a href="/about/contact">Advertise</a></li>
+	<li><a href="/developer">Developers</a></li>
+	<li><a href="/about/pressroom">Press Room</a></li>
+	<li><a href="/reviews">News &amp; Reviews</a></li>
+	<li><a href="/about/employment">Jobs</a></li>
+</ul>
+
+</div>
+        <div class="column">    <h4>What&#39;s On</h4>
+<ul>
+	<li><a href="/now-playing">Now Playing</a></li>
+	<li><a href="/channels#!details/12/netflix">Netflix</a></li>
+	<li><a href="/channels#!details/837/youtube">YouTube</a></li>
+	<li><a href="/channels#!details/2285/hulu-plus">Hulu Plus</a></li>
+	<li><a href="/channels#!details/13/amazon-instant-video">Amazon Instant Video</a></li>
+	<li><a href="/channels#!details/8378/hbo-go">HBO GO</a></li>
+	<li><a href="/channels#!details/28/pandora">Pandora</a></li>
+	<li><a href="/dishworld">Dishworld</a></li>
+	<li><a href="/channels#!browse/movies-and-tv/by-popular">See all channels</a></li>
+</ul>
+
+</div>
+        <div class="column">    <h4>Connect</h4>
+<ul>
+	<li><a href="/mobile-app">Mobile Apps</a></li>
+	<li><a href="http://www.facebook.com/roku" target="_blank">Facebook</a></li>
+	<li><a href="http://twitter.com/RokuPlayer" target="_blank">Twitter</a></li>
+	<li><a href="http://youtube.com/roku" target="_blank">YouTube</a></li>
+	<li><a href="http://blog.roku.com">Roku Blog</a></li>
+</ul>
+
+</div>
+        <div class="column">    <h4>Shop</h4>
+<ul>
+	<li><a href="/retail">Retail Locations</a></li>
+	<li><a href="/roku-ready/overview">Roku Ready</a></li>
+	<li><a href="/accessories">Accessories</a></li>
+	<li><a href="/coupons">Coupons &amp; Deals</a></li>
+	<li><a href="/about/affiliate">Affiliates</a></li>
+	<li><a href="/roku-vs-appletv-vs-firetv-vs-chromecast">Roku vs. Competition</a></li>
+</ul>
+
+</div>
+      </div>
+      <!-- /#footer-columns -->
+    </div>
+            <div id="footer-content" class="left">     <h4>About Roku</h4>
+<p>Roku launched the first product designed to deliver movies from Netflix instantly on TV, using the power of the Internet. Since then, our best-selling Roku streaming players have become synonymous with amazing choice, control, and value in TV entertainment. Join us&mdash;and be a part of the Roku revolution.</p>
+
+ </div>
+      </div>
+</footer>
+<div class="footer-legal">
+  <div class="wrapper">
+    <div id="footer-legal-addendum"><a class="bbb" href="http://www.bbb.org/sanjose/business-reviews/electronic-equipment-and-supplies-wholesale-and-manufacturers/roku-in-saratoga-ca-223541" target="_blank"><img alt="Better Business Bureau" class="footer-bbb-logo" src="/sites/all/themes/roku/images/asset_bbb-small.png" /></a>
+	<p>&copy; 2014 Roku, Inc. All rights reserved. ROKU, the ROKU Logo, ROKU READY, the ROKU READY Logo, "STOP DREAMING. START STREAMING.", "HAPPY STREAMING.", "THERE'S A TON OF ENTERTAINMENT IN THIS LITTLE BOX.", "STREAMING STICK", and "NOW THIS IS TV." are trademarks and/or registered trademarks of Roku, Inc. in the United States and other countries. <a href="/about/sitemap" title="">Site Map</a> | <a href="/about/privacy" title="Privacy Policy">Privacy Policy</a> | <a href="/about/termsofuse">Terms of Use</a> | <a href="/about/dmca" title="Copyright Infringement DMCA Procedures">Copyright Infringement DMCA Procedures</a></p>
+	<a class="footer-logo" href="/" title=""><img alt="Roku" src="/sites/all/themes/roku/images/asset_logo-small.png" /></a></div>
+</div>
+  <!-- /#footer --> 
+</div>
+<!-- /#wrapper --> 
+<!-- MODAL SIGN-IN WINDOW -->
+<div id="cs-signin-view" class="modal-overlay cs-view">
+  <div class="modal"> <a href="#" class="close">close</a>
+    <div class="signin">
+      <h2>Confirm your email and password</h2>
+      <iframe></iframe>
+    </div>
+    <div class="purchase">
+      <h2>Get a Roku today!</h2>
+      <a href="http://shop.roku.com" class="button">Buy now</a> </div>
+  </div>
+</div>
+<!-- /MODAL SIGN-IN WINDOW --> 
+<!-- MODAL CONFIRMATION WINDOW -->
+<div id="cs-modal-view" class="modal-overlay cs-modal-view">
+  <div class="modal"> <a href="#" class="close">close</a>
+    <h2 class="modal-title"></h2>
+    <div class="modal-content"></div>
+    <div class="modal-buttons"> <a href="#" class="button continue green"></a> <a href="#" class="button cancel">Cancel</a> </div>
+  </div>
+</div>
+<!-- /MODAL CONFIRMATION WINDOW --><!-- Google Code for All Visitors to Roku.com --><!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup --><script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1071785622;
+var google_conversion_label = "W9AqCIy8_AEQls2I_wM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script><script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script><noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1071785622/?value=0&amp;label=W9AqCIy8_AEQls2I_wM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript><!--Sellpoints tracking-->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0013/8548.js?"+Math.floor(new
+Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+<script type="text/javascript">
+$('#utility .buy .button').live('click', function() {
+	ga('send','event', 'Site Nav Button', 'Click', 'Site Nav Button');
+});
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || []; var _spt = _gaq.slice();
+var spt_s = document.createElement('script'); spt_s.type = 'text/javascript'; spt_s.async = true;
+spt_s.src = document.location.protocol + '//t.sellpoints.com/spt/p/6709/6709_sptaw.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(spt_s, s);
+</script>
+<script type="text/javascript">
+$(window).on('hashchange', function() {
+    var page = document.location.pathname + document.location.hash;
+    ga('send', 'pageview', page);
+});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-678051-1', 'roku.com');
+  ga('send', 'pageview');
+
+</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MC84F8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MC84F8');</script>
+<!-- End Google Tag Manager -->
+<script>
+    function closeYTVideo() {
+        $('#youtubeplayer').fadeOut(300, function() { $('.yt-modal-bg').remove();});
+
+    }
+
+function waitForYT(ytid){
+    if(typeof YT !== "undefined"){
+                var YTT = new YT.Player("player", {
+                    videoId: ytid,
+                    events: {
+                        'onStateChange': function(event) {
+                            if(event.data == YT.PlayerState.PLAYING) {
+								ga('send', 'event', 'Video', 'Play', ytid);
+                            }
+                            if(event.data == YT.PlayerState.ENDED) {
+								ga('send', 'event', 'Video', 'Ended', ytid);
+                            }
+                            if(event.data == YT.PlayerState.PAUSED) {
+								ga('send', 'event', 'Video', 'Paused', ytid);
+                            }
+                        }
+                    }
+                });
+    }
+    else{
+        setTimeout(function(){
+            waitForYT(ytid);
+        },250);
+    }
+}
+
+    $(function() {
+        if($('a[data-youtube]').length) {
+            $('a[data-youtube]').click(function(e) {
+                e.preventDefault();
+                var YTID = $(this).attr('data-youtube');
+                waitForYT(YTID);
+
+                $('body').append('<div class="yt-modal-bg" onclick="closeYTVideo();"><div class="modal_popup" id="youtubeplayer"><a class="close" onclick="closeYTVideo();"></a><iframe id="player" type="text/html" width="640" height="390" src="//www.youtube.com/embed/'+YTID+'?rel=0&enablejsapi=1&autoplay=1&autohide=1&modestbranding=1" frameborder="0" allowfullscreen></iframe></div></div>');
+                $('.yt-modal-bg').show();
+                $('#youtubeplayer').delay(100).fadeIn(300);
+
+                var dataPlacement = $(this).attr('data-placement');
+                if((window.location.pathname.split('/')[1] == 'now-playing') && (typeof dataPlacement !== 'undefined' && dataPlacement !== false)) {
+                    if(e.srcElement.className == 'play-video') {
+                        dataPlacementType = 'Play';
+                    } else {
+                        dataPlacementType = 'Image';
+                    }
+
+					ga('send', 'event', 'Now PLaying Placement', 'Click', 'What\'s Hot ' + dataPlacement + ' - ' + dataPlacementType);
+                } else {
+                    var gaTrackCategory = $(this).attr('data-ga-track-category');
+                    var gaTrackAction = $(this).attr('data-ga-track-action');
+                    var gaTrackLabel = $(this).attr('data-ga-track-label');
+                    
+                    if(!!gaTrackCategory && !!gaTrackAction && !!gaTrackLabel) {
+						ga('send', 'event', gaTrackCategory, gaTrackAction, gaTrackLabel);
+                    }
+                }
+            });
+        }
+    });
+</script>
+<script type="text/javascript">
+    function getQSParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+        return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+
+    $(function() {
+        qs = getQSParameterByName('playVideo');
+        
+        if (qs.length) {
+            $('.trailer-link[data-youtube=\'' + qs + '\']').click();
+        }
+    });
+</script>
+<!-- SHOPPING CART MODAL -->
+<div class="modal-overlay shop-modal-overlay" ng-controller="ModalController" ng-class="modal ? 'active' : ''">
+  <div class="modal shop-modal" ng-show="error">
+    <h4  ng-hide="info">Sorry,</h4>
+    <p ng-repeat="m in message" ng-bind-html="m.message | convertHTML"></p>
+    <p class="text-right"><a href="#close" ng-click="closeModal()">Close</a></p>
+  </div>
+  <div class="modal shop-modal" ng-show="verify">
+    <p>There can be only one. Two addresses enter, only one may leave. Please choose which version you want to use.</p>
+    <div class="modal-column" ng-repeat="customer in message.addresses">
+      <h4>{{ ($index == 0) ? 'You entered:' : 'Suggested:' }}</h4>
+      <div class="checkout-item">
+        <input type="radio" class="cart-checkbox" name="shipping-address" id="shipping-{{$index}}" ng-model="$parent.address" ng-value="$index" />
+        <label for="shipping-{{$index}}"> 
+          <span class="checked-wrapper"><span class="checked"></span></span>
+       	  {{ message.name }} <br />
+          <span ng-repeat="street in customer.street" ng-show="street != ''">{{ street }}<br /></span>
+          {{ customer.city }}, {{ customer.region }}<br />
+          {{ customer.postcode }}<br />
+          United States
+         </label>
+      </div>
+    </div>
+    <p class="text-center">
+      <button class="button checkout-button" ng-click="verifyAddress()">Continue</button>
+    </p>
+  </div>
+</div>
+<!-- /SHOPPING CART MODAL -->
+<script type="text/javascript">
+$(function() {
+$('#utility .buy a.button').html('Choose your player');
+});
+</script>
+<script type="text/javascript">
+    $(function() {
+        roku.setCartActive();
+    });
+</script>
+<script type="text/javascript">
+if(navigator.appName == "Microsoft Internet Explorer") {
+    if(parseInt(navigator.userAgent.split("MSIE")[1]) <= 8) {
+        var modal = '<div id="ie-check" class="modal-overlay shop-modal-overlay active" style="filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc000000,endColorstr=#cc000000);"><div class="modal shop-modal"><h3>Unsupported Browser</h3><p>You can use your current browser, but Roku works best with the latest version of Internet Explorer, Chrome, or Firefox. Please click "Learn More" to upgrade your browser or download a different browser.</p><br/><p class="text-right"><a href="#" onClick="$(\'#ie-check\').remove();">Ignore</a><a style="margin-left:20px;background-position:150px 8px;" href="http://www.whatbrowser.org/intl/en/" target="_blank" class="button checkout-button">Learn More</a></p></div></div>';
+        $('body').prepend(modal);
+    }
+}
+</script>
+<style type="text/css">
+@-moz-document url-prefix() { 
+  .menu-326.last {
+     margin-right:-19px;
+  }
+}</style>
+
+<script type="text/javascript">
+$(function() {
+    if(typeof xhook != 'undefined') {
+        xhook.disable();
+    }
+});
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.3.3/underscore-min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.9.2/backbone-min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0.beta6/handlebars.min.js"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/jquery.roku.categories.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/jquery.ba-postmessage.min.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/channels.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/jquery.roku.nowplaying.js?nbz9em"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _requestAddress = "10.182.154.105", isMobile = false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-route.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-resource.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/angular-shopping.cart.js?nbz9em"></script>
+<script type="text/javascript" src="http://www.roku.com/sites/all/themes/roku/js/angular-validation.js?nbz9em"></script>
+</body>
+</html>

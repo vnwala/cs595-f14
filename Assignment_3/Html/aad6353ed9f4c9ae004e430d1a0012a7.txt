@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+<!--
+
+	This theme borrows parts from Untitled Themes themes (http://www.untitledthemes.com), Level82 claims no ownership or credit for this or any Level82 theme.
+
+-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_5a487d41ff81_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://salmagonz.tumblr.com/rss">
+<meta name="description" content="Twitter: @Salmagonz" />
+
+<meta name="image:Background" content="" />
+<meta name="image:Header" content="" />
+<meta name="color:Background" content="#FFFFFF" />
+<meta name="text:Blog title size" content="75px" />
+<meta name="if:Infinite scroll" content="1" />
+<meta name="color:Body text" content="#000000" />
+<meta name="color:Blog title" content="#000000" />
+<meta name="if:Show Description" content="1" />
+<meta name="text:Visitor counter script" content="" />
+<meta name="text:Music player script" content="" />
+<meta name="if:Repeat background" content="1" />
+<meta name="if:Center background" content="1" />
+<meta name="if:Fixed background" content="0" />
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="http://static.tumblr.com/jw8fmba/JuPmhkses/theme.js"></script>
+
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Pompiere);
+html,body {
+	margin: 0;
+	font-size: 13px;
+	line-height: 160%;
+	height: 100%;
+}
+* {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+}
+a img {
+	border: none;
+}
+a {
+	color: inherit;
+	font-size: inherit;
+}
+em,em a,a em {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+blockquote {
+	margin: 0;
+	padding: 0 0 0 9px;
+	border-left: 1px #CCC dotted;
+}
+.header {
+	position: relative;
+	width: 100%;
+	margin: 50px 0 25px 0;
+	text-align: center;
+}
+.header a {
+	text-decoration: none;
+}
+.header img {
+	max-width: 100%;
+}
+.header .title h1 {
+	margin: 0;
+	line-height: 100%;
+	font-family: 'Pompiere', cursive;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 75px;
+	color: #FFFFFF;
+}
+.header p {
+	margin: 5px 0;
+}
+.header .menu_item {
+	margin: 0 10px;
+	opacity: 0.5;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+.header .menu_item:hover {
+	opacity: 1;
+}
+.posts {
+	position: relative;
+	margin: 25px auto;
+	
+}
+.post {
+	float: left;
+	position: relative;
+	margin: 5px;
+}
+.post h2 {
+	margin: 0;
+	font-size: 18px;
+	line-height: 20px;
+	
+}
+.post h2.quote {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: normal;
+}
+.post p,.post li {
+	line-height: 175%;
+}
+.post p {
+	margin: 10px 0 5px 0;
+}
+.post ol,.post ul {
+	margin: 3px 0;
+	padding: 0;
+}
+.post li {
+	margin: 2px 35px;
+}
+.post .info_bar {
+	width: 100%;
+	padding: 1px 0;
+	text-align: center;
+	position: absolute;
+	top: 90%;
+	left: 0;
+	font-size: 11px;
+	opacity: 0;
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+	background: #FFFFFF;
+	color: #FFFFFF;
+	
+}
+.post:hover .info_bar {
+	opacity: .9;
+}
+.post .info_bar a {
+	text-decoration: none;
+	margin: 0 5px;
+}
+.post .photo {
+	position: relative;
+	padding: 0;
+	line-height: 0 !important;
+	
+	background: #FFFFFF;
+	
+}
+.post .photo .photo_info {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	margin: -35px 0 0 0;
+	text-align: center;
+	z-index: 10;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	
+}
+.post:hover .photo .photo_info {
+	opacity: 1;
+}
+.post .photo .photo_info a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.post .photo .photo_info h2 a {
+	margin: 0;
+	line-height: 100%;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+.post .photo .photo_info p {
+	margin: 0;
+}
+.post .photo .photo_info p a {
+	margin: 0;
+	line-height: 100%;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bold;
+}
+.post img.main_photo {
+	width: 100%;
+}
+.post img {
+	max-width: 100%;
+	height: auto;
+}
+.post .photo img {
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	margin: 0;
+	line-height: 0;
+}
+.post:hover .photo img {
+	
+	opacity: 0.25;
+	
+}
+.post .player {
+	padding: 2px 10px;
+	background: #FFF;
+	margin: 0;
+}
+.post .lines {
+	margin: 0 0 5px 0;
+}
+.post .lines .line {
+	padding: 10px;
+}
+.post .lines .odd {
+}
+.post .lines .even {
+	background: #FFFFFF;
+	color: #FFFFFF;
+}
+.post .lines .even * {
+	color: #FFFFFF;
+}
+.post ol.notes {
+	padding: 0;
+	list-style-type: none;
+	font-size: 11px;
+}
+.post ol.notes a {
+	text-decoration: none;
+}
+.post ol.notes li.note {
+	border-top: solid 1px #FFFFFF;
+	padding: 5px 0;
+	margin: 0 !important;
+}
+.post ol.notes li.note img.avatar {
+	vertical-align: -4px;
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+}
+.post ol.notes li.note .answer_content {
+	font-weight: normal;
+}
+.post ol.notes li.note blockquote {
+	border-color: #FFFFFF;
+	padding: 4px 10px;
+	margin: 10px 0px 0px 25px;
+}
+.pagination {
+	display: none;
+}
+#infscr-loading {text-align: center;position: fixed;left: 45%;bottom: 50px;z-index: 999;background: #FFF;opacity: 0.75;padding: 5px 10px 2px 10px;-moz-border-radius: 6px;-webkit-border-radius: 6px;border-radius: 6px;}
+.masonry,.masonry .masonry-brick {-webkit-transition-duration: 0.25s;-moz-transition-duration: 0.25s;-o-transition-duration: 0.25s;transition-duration: 0.25s;}.masonry {-webkit-transition-property: height, width;-moz-transition-property: height, width;-o-transition-property: height, width;transition-property: height, width;}.masonry .masonry-brick {-webkit-transition-property: left, right, top;-moz-transition-property: left, right, top;-o-transition-property: left, right, top;transition-property: left, right, top;}
+body{background:url(http://static.tumblr.com/17d2ba11620488fab9ee293baba76082/tq4qdxx/6Fknb8a4i/tumblr_static_8g7ctmfjnt8oo8kog8wg4gggc.jpg) #FFFFFF   center 0}.small{width:245px}.large{width:500px}
+
+</style>
+
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=salmagonz" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/squareserif/stylesheet.css?v=4">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="" /><meta property="og:url" content="http://salmagonz.tumblr.com/?og=1" /><meta property="og:description" content="Twitter: @Salmagonz" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_5a487d41ff81_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=salmagonz" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=salmagonz" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="salmagonz" /><meta name="twitter:description" content="&lt;p&gt;Twitter: @Salmagonz&lt;/p&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=salmagonz&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=salmagonz&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=salmagonz&amp;referrer=twitter-cards" />
+
+</head>
+
+<body class="salmagonz" data-theme-network="level82" data-theme-id="33034">
+
+	<ul class="pagination">
+        	<li><a href="/page/2" class="pagination_nextlink">Next</a></li>
+    </ul>
+
+	<div class="header">
+    
+    	<a class="title" href="/"><h1></h1></a>
+        <p><p>Twitter: @Salmagonz</p></p>
+        <p><a class="menu_item" href="/ask">ask me anything.</a>/<a class="menu_item" href="/archive">Archive</a>/<a class="menu_item" href="http://salmagonz.tumblr.com/rss">RSS</a></p>
+    
+    </div>
+
+    <div class="posts">    
+    	
+        <div class="post large load" id="post_98761442413"><div id="photoset_98761442413" class="html_photoset">    <iframe id="photoset_iframe_98761442413" class="photoset" scrolling="no" frameborder="0" height="7168" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://salmagonz.tumblr.com/post/98761442413/photoset_iframe/salmagonz/tumblr_n0szugeiCL1sit9d2/500/false"></iframe></div><p><a class="tumblr_blog" href="http://avancidy.tumblr.com/post/97936221220">avancidy</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://officialbarack.tumblr.com/post/80101145839/what-the-fuck-is-this">officialbarack</a>:</p>
+<blockquote>
+<p>what the fuck is this</p>
+</blockquote>
+<p>i scrolled down for an explanation and there was none</p>
+</blockquote><p>(Source: <a href="http://senhor-gasmo.tumblr.com/post/76265868880/a-arte-e-o-humor-bizarro-de-joan-cornella" title="senhor-gasmo">senhor-gasmo</a>, via <a href='http://maarquan.tumblr.com/post/98731740812/avancidy-officialbarack-what-the-fuck-is'>maarquan</a>)</p>
+        
+        	<div class="info_bar" ><a href="http://salmagonz.tumblr.com/post/98761442413/avancidy-officialbarack-what-the-fuck-is">359,265 notes</a> / <a href="http://salmagonz.tumblr.com/post/98761442413/avancidy-officialbarack-what-the-fuck-is">1 hour ago</a> / <a href="https://www.tumblr.com/reblog/98761442413/d8eUJEds?redirect_to=http%3A%2F%2Fsalmagonz.tumblr.com%2Fpost%2F98761442413%2Favancidy-officialbarack-what-the-fuck-is">Reblog</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="post small load" id="post_98761257078"><div class="photo"><div class="photo_info"><h2><a href="http://salmagonz.tumblr.com/post/98761257078">162894</a></h2><p><a href="https://www.tumblr.com/reblog/98761257078/mw9y8Ff4?redirect_to=http%3A%2F%2Fsalmagonz.tumblr.com%2Fpost%2F98761257078">Reblog</a></p></div><a href="http://sua-marid4.tumblr.com"><img src="http://38.media.tumblr.com/tumblr_mdasgtGkbS1qfjeb5o1_500.jpg" alt="" class="main_photo" /></a></div>
+        
+        	<div class="info_bar" style="display: none"><a href="http://salmagonz.tumblr.com/post/98761257078">162,894 notes</a> / <a href="http://salmagonz.tumblr.com/post/98761257078">1 hour ago</a> / <a href="https://www.tumblr.com/reblog/98761257078/mw9y8Ff4?redirect_to=http%3A%2F%2Fsalmagonz.tumblr.com%2Fpost%2F98761257078">Reblog</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="post small load" id="post_98761234068"><div class="photo"><div class="photo_info"><h2><a href="http://salmagonz.tumblr.com/post/98761234068/the-personal-quotes-relatable-quotes-daily-here">3890</a></h2><p><a href="https://www.tumblr.com/reblog/98761234068/BWvnawY0?redirect_to=http%3A%2F%2Fsalmagonz.tumblr.com%2Fpost%2F98761234068%2Fthe-personal-quotes-relatable-quotes-daily-here">Reblog</a></p></div><a href="http://these-times-shall-pass.tumblr.com/"><img src="http://31.media.tumblr.com/c009f8b2d2da1486b78d884ff0e0dca9/tumblr_ncjc3fdzC01rkbqbko1_500.gif" alt="the-personal-quotes:
+
+relatable&nbsp;quotes&nbsp;daily here!" class="main_photo" /></a></div>
+        
+        	<div class="info_bar" style="display: none"><a href="http://salmagonz.tumblr.com/post/98761234068/the-personal-quotes-relatable-quotes-daily-here">3,890 notes</a> / <a href="http://salmagonz.tumblr.com/post/98761234068/the-personal-quotes-relatable-quotes-daily-here">1 hour ago</a> / <a href="https://www.tumblr.com/reblog/98761234068/BWvnawY0?redirect_to=http%3A%2F%2Fsalmagonz.tumblr.com%2Fpost%2F98761234068%2Fthe-personal-quotes-relatable-quotes-daily-here">Reblog</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="post small load" id="post_98761169698"><p><a class="tumblr_blog" href="http://kingorb.tumblr.com/post/92915104032/starts-a-group-sext">kingorb</a>:</p>
+<blockquote>
+<p>*starts a group sext*</p>
+</blockquote><p>(via <a href='http://onlyonedestiny.tumblr.com/post/98738295702/kingorb-starts-a-group-sext'>onlyonedestiny</a>)</p>
+        
+        	<div class="info_bar" ><a href="http://salmagonz.tumblr.com/post/98761169698/kingorb-starts-a-group-sext">45,763 notes</a> / <a href="http://salmagonz.tumblr.com/post/98761169698/kingorb-starts-a-group-sext">1 hour ago</a> / <a href="https://www.tumblr.com/reblog/98761169698/oy1YaXCm?redirect_to=http%3A%2F%2Fsalmagonz.tumblr.com%2Fpost%2F98761169698%2Fkingorb-starts-a-group-sext">Reblog</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="post large load" id="post_98761060808"><div id="photoset_98761060808" class="html_photoset">    <iframe id="photoset_iframe_98761060808" class="photoset" scrolling="no" frameborder="0" height="300" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://salmagonz.tumblr.com/post/98761060808/photoset_iframe/salmagonz/tumblr_ncmtqj7zby1rj2lrm/500/false"></iframe></div><p><a class="tumblr_blog" href="http://pardonmewhileipanic.tumblr.com/post/98708332670/omfg-dead">pardonmewhileipanic</a>:</p>
+<blockquote>
+<p>omfg -dead-</p>
+</blockquote><p>(Source: <a href="http://charmedrose.tumblr.com/post/98672598307" title="charmedrose">charmedrose</a>, via <a href='http://maarquan.tumblr.com/post/98739071947/pardonmewhileipanic-omfg-dead'>maarquan</a>)</p>
+        
+        	<div class="info_bar" ><a href="http://salmagonz.tumblr.com/post/98761060808/pardonmewhileipanic-omfg-dead">21,387 notes</a> / <a href="http://salmagonz.tumblr.com/post/98761060808/pardonmewhileipanic-omfg-dead">1 hour ago</a> / <a href="https://www.tumblr.com/reblog/98761060808/ihdzrERd?redirect_to=http%3A%2F%2Fsalmagonz.tumblr.com%2Fpost%2F98761060808%2Fpardonmewhileipanic-omfg-dead">Reblog</a></div>
+        </div>
+        
+        
+        
+        
+        
+        
+    
+    </div>
+    
+    
+    
+
+<script type="text/javascript">
+$(function(){var $container = $('.posts').css({ opacity: 0 });$container.imagesLoaded(function(){$container.animate({ opacity: 1 });$container.masonry({itemSelector:'.post',isFitWidth: true,columnWidth: 255});});$container.infinitescroll({navSelector:'.pagination',nextSelector:'.pagination li a.pagination_nextlink',itemSelector: '.load',loading: {img:'http://static.tumblr.com/jw8fmba/NRWlvha2e/loady.gif',donetext:''}},function( newElements ) { var $newElems = $( newElements ).css({ opacity: 0 });$newElems.imagesLoaded(function(){$newElems.animate({ opacity: 1 });$container.masonry( 'appended', $newElems, true );});});});
+</script>
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://salmagonz.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037624&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc2FsbWFnb256LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=GBOJDFJDBO&K=aa86498d89f23bcb9a2ebdfe95fad20c714eeb2038f4124bbb4739ed19341d7e&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037624&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc2FsbWFnb256LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=GBOJDFJDBO&K=ce0931acb3fa89b7e7aa14eec3bdbe0595c306d24453bd03421bf31b1c058ed3&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037624&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3NhbG1hZ29uei50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTM2NjAyMTcwIiwicm9vdF9wb3N0aWQiOiI3NjI2NTg2ODg4MCIsInBvc3RpZCI6OTg3NjE0NDI0MTMsImJsb2dpZCI6IjI5NDczMDM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExNDAwNzI1Iiwicm9vdF9wb3N0aWQiOiIzNTQ0NTk3MDEwMyIsInBvc3RpZCI6OTg3NjEyNTcwNzgsImJsb2dpZCI6IjI5NDczMDM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc5ODczNjE3Iiwicm9vdF9wb3N0aWQiOiI5ODU2NjI4NTA1OSIsInBvc3RpZCI6OTg3NjEyMzQwNjgsImJsb2dpZCI6IjI5NDczMDM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2NTczNzc5Iiwicm9vdF9wb3N0aWQiOiI5MjkxNTEwNDAzMiIsInBvc3RpZCI6Ijk4NzYxMTY5Njk4IiwiYmxvZ2lkIjoiMjk0NzMwMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzcxOTQ0MjciLCJyb290X3Bvc3RpZCI6Ijk4NjcyNTk4MzA3IiwicG9zdGlkIjo5ODc2MTA2MDgwOCwiYmxvZ2lkIjoiMjk0NzMwMzQiLCJzb3VyY2UiOjMzfV19&U=AMFPOOALKG&K=3979ca4d1258cc3d8fe258a1182366183491940e6344dae4180db1f0decd0e2b&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037624&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3NhbG1hZ29uei50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiMTM2NjAyMTcwIiwicm9vdF9wb3N0aWQiOiI3NjI2NTg2ODg4MCIsInBvc3RpZCI6OTg3NjE0NDI0MTMsImJsb2dpZCI6IjI5NDczMDM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExNDAwNzI1Iiwicm9vdF9wb3N0aWQiOiIzNTQ0NTk3MDEwMyIsInBvc3RpZCI6OTg3NjEyNTcwNzgsImJsb2dpZCI6IjI5NDczMDM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijc5ODczNjE3Iiwicm9vdF9wb3N0aWQiOiI5ODU2NjI4NTA1OSIsInBvc3RpZCI6OTg3NjEyMzQwNjgsImJsb2dpZCI6IjI5NDczMDM0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE2NTczNzc5Iiwicm9vdF9wb3N0aWQiOiI5MjkxNTEwNDAzMiIsInBvc3RpZCI6Ijk4NzYxMTY5Njk4IiwiYmxvZ2lkIjoiMjk0NzMwMzQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzcxOTQ0MjciLCJyb290X3Bvc3RpZCI6Ijk4NjcyNTk4MzA3IiwicG9zdGlkIjo5ODc2MTA2MDgwOCwiYmxvZ2lkIjoiMjk0NzMwMzQiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=AMFPOOALKG&K=0ec54c8419018449545d93a39dbddf0542bbbebf10876131c53005b9554ff2b1&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:29473034,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fsalmagonz.tumblr.com%2F&amp;lang=en_US&amp;name=salmagonz&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_5a487d41ff81_64.png&amp;url=http%3A%2F%2Fsalmagonz.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fsalmagonz.tumblr.com%2F&amp;lang=en_US&amp;name=salmagonz&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_5a487d41ff81_64.png&amp;url=http%3A%2F%2Fsalmagonz.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

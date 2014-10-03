@@ -1,0 +1,1418 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        
+        <meta charset="utf-8">
+        <title>The SideStreets Podcast</title>
+        
+        <meta name="description" content="Bringing Tucson, Arizona, to the world">
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_05a409e52c14_128.png">
+        <link rel="apple-touch-icon-precomposed" href="http://33.media.tumblr.com/avatar_05a409e52c14_128.png">
+        <link rel="alternate" type="application/rss+xml" href="http://sidestreetspodcast.tumblr.com/rss">
+        
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/PuGmmhqcs/normalize.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/qE8n2yg06/optica-icons.css">
+        <link rel="stylesheet" href="http://static.tumblr.com/vr9xgox/lu6nbykui/main.css">
+
+        <!-- HTML5 Shiv -->
+        <!--[if lt IE 9]>
+            <script src="http://static.tumblr.com/hriofhd/Qj0m8pn7q/html5shiv.js"></script>
+        <![endif]-->
+
+        <style>
+            /* Colors */
+            body {
+                background: #f6f6f6;
+            }
+
+            h1 {
+                font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+                font-weight: bold;
+            }
+
+            h1 a,
+            .description,
+            .search-header {
+                color: #444444;
+            }
+
+            .h-line {
+                background: #444444;
+            }
+
+            a {
+                color: #529ecc;
+            }
+            
+            #pagination a,
+            .exposed-nav-wrapper li a {
+                color: #529ecc;
+            }
+
+            #pagination a.next:after {
+                border-left-color: #529ecc;
+            }
+
+            #pagination a.previous:after {
+                border-right-color: #529ecc;
+            }
+
+            .loader .loader-bar {
+                background-color: #444444;
+            }
+
+            .link-wrapper h2 a {
+                background-color: #529ecc;
+            }
+            
+            .header-image.cover {
+                background-image: url(http://static.tumblr.com/8eb11a239b5be4b1de3de30b925358ba/qgsae9w/Zidn15yyx/tumblr_static_banner.jpg);
+            }
+
+            .user-avatar {
+                background-color: #f6f6f6;
+                border-color: #f6f6f6;
+            }
+
+            .avatar-style-square .user-avatar {
+                -wekbit-box-shadow: 0 0 0 4px #f6f6f6;
+                -moz-box-shadow: 0 0 0 4px #f6f6f6;
+                box-shadow: 0 0 0 4px #f6f6f6;
+            }
+            
+            .no-header-image .selector .bar-icon,
+            .contain-header-image .selector .bar-icon {
+                background: #529ecc;
+            }
+
+            .no-header-image .search-only .selector .icon,
+            .contain-header-image .search-only .selector .icon {
+                color: #529ecc;
+            }
+
+            /* Adjust menus for light accents on light backgrounds */
+            .light-on-light.no-header-image .selector .bar-icon,
+            .light-on-light.contain-header-image .selector .bar-icon {
+                background: #444;
+            }
+
+            .light-on-light.no-header-image .search-only .selector .icon,
+            .light-on-light.contain-header-image .search-only .selector .icon {
+                color: #444;
+            }
+
+            /* Adjust menus for dark accents on dark backgrounds */
+            .dark-on-dark.no-header-image .selector .bar-icon,
+            .dark-on-dark.contain-header-image .selector .bar-icon {
+                background: #fff;
+            }
+
+            .dark-on-dark.no-header-image .search-only .selector .icon,
+            .dark-on-dark.contain-header-image .search-only .selector .icon {
+                color: #fff;
+            }
+
+            @media screen and (max-device-width: 568px) {
+                .header-image.cover {
+                    background-image: url(http://static.tumblr.com/8eb11a239b5be4b1de3de30b925358ba/qgsae9w/Zidn15yyx/tumblr_static_banner.jpg);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                .nav-menu-bg,
+                .nav-menu-wrapper .nav-menu.active:before,
+                .nav-menu .pop-menu ul {
+                    background: #f6f6f6;
+                }
+
+                .nav-menu.active .selector .bar-icon,
+                .below-header .selector .bar-icon {
+                    background: #529ecc;
+                }
+
+                .nav-menu .pop-menu ul li a,
+                .below-header .search-only .selector .icon {
+                    color: #529ecc;
+                }
+                
+                /* Adjust menus for light accents on light backgrounds */
+                .light-on-light.below-header .nav-menu .selector .bar-icon,
+                .light-on-light.below-header .selector .bar-icon {
+                    background: #444;
+                }
+
+                .light-on-light .nav-menu .pop-menu ul li a,
+                .light-on-light.below-header .search-only .selector .icon {
+                    color: #444;
+                }
+                
+                /* Adjust menus for dark accents on dark backgrounds */
+                .dark-on-dark .nav-menu .selector .bar-icon,
+                .dark-on-dark .below-header .selector .bar-icon {
+                    background: #fff;
+                }
+
+                .dark-on-dark .nav-menu .pop-menu ul li a,
+                .dark-on-dark.below-header .search-only .selector .icon {
+                    color: #fff;
+                }
+
+                .avatar-style-square .user-avatar {
+                    -wekbit-box-shadow: 0 0 0 3px #f6f6f6;
+                    -moz-box-shadow: 0 0 0 3px #f6f6f6;
+                    box-shadow: 0 0 0 3px #f6f6f6;
+                }
+
+            }
+
+            /* Custom CSS */
+            
+        </style>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=sidestreetspodcast" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="The SideStreets Podcast" /><meta property="og:url" content="http://sidestreetspodcast.tumblr.com/?og=1" /><meta property="og:description" content="Bringing Tucson, Arizona, to the world" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_05a409e52c14_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=sidestreetspodcast" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=sidestreetspodcast" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="sidestreetspodcast" /><meta name="twitter:description" content="Bringing Tucson, Arizona, to the world" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=sidestreetspodcast&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=sidestreetspodcast&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=sidestreetspodcast&amp;referrer=twitter-cards" />
+
+</head>
+    <body data-urlencoded-name="sidestreetspodcast" class="regular index-page">
+        <section id="page">
+            <div class="nav-menu-wrapper ">
+                <nav class="nav-menu pop">
+                    <a class="selector">
+                        
+                            <div class="bar-icon-wrapper">
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                                <span class="bar-icon"></span>
+                            </div>
+                        
+                        
+                    </a>
+                    <div class="pop-menu west">
+                        <ul>
+                            <li class="no-hover search">
+                                <form action="/search" method="get" id="search">
+                                    <input type="text" name="q" id="q" placeholder="Search" value="">
+                                    <button type="submit" class="icon-search_16"></button>
+                                </form>
+                            </li>
+                            
+                                <li>
+                                    <a href="/archive" class="archive">Archive <i class="icon-arrow_carrot_right"></i></a>
+                                </li>
+                                
+                                
+                                
+                            
+                        </ul>
+                    </div> 
+                </nav>
+                <div class="glass"></div>
+            </div>
+            
+            <div class="nav-menu-bg"></div>
+            
+            <div class="header-wrapper
+                
+                
+                
+                avatar-style-square">
+
+                <header id="header">
+                    
+                    <div class="header-image-wrapper ">
+                        <a href="/" class="header-image parallax cover " data-bg-image="http://static.tumblr.com/8eb11a239b5be4b1de3de30b925358ba/qgsae9w/Zidn15yyx/tumblr_static_banner.jpg">
+                            
+                        </a>
+                        <div class="loader-bg"></div>
+                    </div>
+                    
+
+                    <div class="blog-title content">
+                        <figure class="avatar-wrapper animate">
+                            <a href="/" style="background-image: url(http://33.media.tumblr.com/avatar_05a409e52c14_128.png)" class="user-avatar"><img src="http://33.media.tumblr.com/avatar_05a409e52c14_128.png" alt="" class="print-only invisible"></a>
+                        </figure>
+
+                        <div class="title-group animate">
+                            
+                            <h1><a href="/">The SideStreets Podcast</a></h1>
+                            
+                            
+                            <span class="description">
+                                Bringing Tucson, Arizona, to the world
+                            </span>
+                            
+                        </div>
+                    </div>
+
+                    
+                </header>
+            </div>
+            
+            <section id="posts" class="content clearfix  avatar-style-square  ">
+    
+                <div data-page-id="1">
+                    
+                            <article class="text not-page post-98284900082 " data-post-id="post_98284900082">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://sidestreetspodcast.tumblr.com/post/98284900082/episode-031-home-teams-with-gregg-gethard">Episode 031: Home Teams (with Gregg Gethard)</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><strong><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850">Subscribe</a><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850"><strong> on iTun</strong>es!</a> (and rate it 5 stars!)</strong></p>
+<p><strong><a href="http://traffic.libsyn.com/dryheatpodcast/SideStreetsEpisode031.mp3">Download Episode 031: Home Teams (with Gregg Gethard)</a> (via LibSyn)</strong></p>
+<p><iframe height="360" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/3081924/height/360/width/500/theme/standard/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" width="500"></iframe></p>
+<p>We&#8217;re talking about sports this week.</p>
+<p><img alt="image" src="http://media.tumblr.com/06f68df026050036f7634d0512bd7afa/tumblr_inline_ncbtc9w4m11szsob5.jpg"/></p>
+<p>I&#8217;ve been a sports fan since&#8230;well&#8230;since I was able to form memories, I suppose. I was brought up around it and it&#8217;s in my blood. No matter how frustrating or infuriating or absurd sports fandom gets (look no further than <strong>JD &amp; The Straight Shot</strong> for peak absurdity), nobody completely shakes the things they loved as kids. My favorite sport (by a mile) is basketball, and that&#8217;s primarily what we cover in this episode. But any sports conversation inevitably turns into a conversation about how these games impact the atmosphere of the towns in which we live.</p>
+<p>Our guest this week is <strong>Gregg Gethard</strong>, a fellow basketball obsessive and sports fan. We talk about our experiences playing and following basketball, as well as a look into how a town&#8217;s mood can fluctuate depending on a team&#8217;s success (as weird and irrational as it is). We also talk about his brief stint as the <strong>Greggulator</strong> on The Best Show on WFMU and how much we&#8217;d give up just to be able to dunk a basketball for an hour.</p>
+<p>Gethard is a comedian, writer (<a href="http://theclassical.org/articles/leaving-it-on-the-field-in-coatesville">check out this phenomenal piece</a> on Coatesville&#8217;s football team for The Classical), <a href="http://abcnews.go.com/Lifestyle/man-publishes-series-yelp-reviews/story?id=24883140">Yelp novelist</a>, and all-around good guy. You might know his brother, <a href="http://thechrisgethardshow.com/">Chris</a>, who is one of the funniest comic performers working today. Follow Gregg on twitter (<a href="https://twitter.com/holdingcourtpod">@holdingcourtpod</a>).</p>
+<p>Also in this episode,<strong> I stake my claim to become the University of Arizona Men&#8217;s Basketball public address announcer</strong>. Let&#8217;s make it happen!</p>
+<p><iframe frameborder="no" height="450" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167920603&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" width="100%"></iframe></p>
+<p>Music credits:<br/>Bed music: <a class="tumblelog" href="http://tmblr.co/mZgqRR0VEQK4TRqGz9BBa_A">dashflanagan</a><br/>Songs in the podcast: Yogi&#8217;s beat for &#8220;Burial&#8221; plays under my UA Men&#8217;s Basketball PA submission.</p>
+<p><strong>Get in touch</strong><span>: Email me at sidestreetspodcast at gmail dot com, or follow me on twitter, either on my </span><a href="https://twitter.com/nprevenas">personal twitter feed</a><span>, or at the </span><a href="https://twitter.com/SideStreetsPod">official SideStreets twitter page</a><span>.</span></p>
+<p><span>Topics: Basketball, public address announcing, billionaire blues, dunking, the undeniable impact a sports team can have on a town, realizing you are not very athletic, the perfect grandfather, spectacular displays of athleticism, getting very specific, Greggulating, the band that shall not be named, and the things we do for love.</span></p>
+<p><em>- You ready to move your feet?</em></p>
+<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/0oGq8SbvpTc" width="560"></iframe></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/98284900082/episode-031-home-teams-with-gregg-gethard" title="5 days ago">Sep 24th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_98284900082">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="98284900082">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F98284900082%2Fepisode-031-home-teams-with-gregg-gethard&amp;t=Episode%20031%3A%20Home%20Teams%20%28with%20Gregg%20Gethard%29" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Episode%20031%3A%20Home%20Teams%20%28with%20Gregg%20Gethard%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download%20Episode...%20http%3A%2F%2Ftmblr.co%2FZgrVSo1RYF8xo" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20The%20SideStreets%20Podcast&amp;body=Episode%20031%3A%20Home%20Teams%20%28with%20Gregg%20Gethard%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download%20Episode%20031%3A%20Home%20Teams%20%28with%20Gregg%20Gethard%29%20%28via%20LibSyn%29...%20http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F98284900082%2Fepisode-031-home-teams-with-gregg-gethard" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sidestreetspodcast.tumblr.com/post/98284900082/episode-031-home-teams-with-gregg-gethard" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/98284900082/r4pI1Qr1" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="98284900082" id="like_button_98284900082"><iframe id="like_iframe_98284900082" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=sidestreetspodcast&amp;post_id=98284900082&amp;color=black&amp;rk=r4pI1Qr1" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-97708522942 " data-post-id="post_97708522942">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://sidestreetspodcast.tumblr.com/post/97708522942/episode-030-never-known-this-til-now-with-human">Episode 030: Never Known This Til Now (with Human Behavior)</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><strong><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850">Subscribe</a><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850"><strong> on iTun</strong>es!</a> (and rate it 5 stars!)</strong></p>
+<p><strong><a href="http://traffic.libsyn.com/dryheatpodcast/SideStreetsEpisode030.mp3">Download Episode 030: Never Known This Til Now (with Human Behavior)</a> (via LibSyn)</strong></p>
+<p><iframe height="360" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/3069635/height/360/width/500/theme/standard/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" width="500"></iframe></p>
+<p>Music is magic. It can creep under your skin, worm its way into your brain, and make you feel/remember things you can&#8217;t put words to. Tucson&#8217;s Human Behavior specializes in making audiences feel things &#8212; things they don&#8217;t typically feel when they&#8217;re at a bar watching live music.</p>
+<p><img alt="image" src="http://media.tumblr.com/c96c779b9fb3ac4efddc6280da6cc313/tumblr_inline_nc06fzZk4m1szsob5.png"/></p>
+<p>In this episode, we talk to <strong>Andres Parada</strong> (the lead singer/songwriter) and <strong>Chris Pierce</strong> (bass) to find out what makes this band tick, as well as how Andy is able to address such sensitive topics (mental illness, depression, suicide) on stage. His music is stark, haunting, and one-of-a-kind. If you like Will Oldham/Bonnie Prince Billy, Kurt Vile, Father John Misty, etc., you&#8217;ll love Human Behavior. There is also a strong connection to the music of Daniel Johnston or Roky Erickson. I wish I could tell you more about it, but words don&#8217;t really cover it. You really need to see them live to know what I&#8217;m talking about.</p>
+<p>Lucky for you, Human Behavior is hitting the road. They&#8217;re embarking upon an ambitious American tour. If they&#8217;re playing your city, make sure you go see them. <strong>[<a href="http://www.humanbehaviormusic.com/EARS.html">Click here for a full list of tour dates</a>]</strong></p>
+<p>Human Behavior has three full-length records (Golgotha, Eat The Wind, The Behavior of Death in Mower County) and a four-track EP (Sonora) that you can find <strong><a href="http://humanbehaviormusic.bandcamp.com/">at their bandcamp page</a></strong>. It&#8217;s all name-your-own-price, so check it out &#8212; you have nothing to lose and everything to gain!</p>
+<p>Music credits:<br/>Bed music: <a class="tumblelog" href="http://tmblr.co/mZgqRR0VEQK4TRqGz9BBa_A">dashflanagan</a><br/>Songs in the podcast: I&#8217;ve Never Known This Til Now by Roky Erickson. <a href="http://humanbehaviormusic.bandcamp.com/track/crag">Crag by Human Behavior</a>.</p>
+<p><strong>Get in touch</strong><span>: Email me at sidestreetspodcast at gmail dot com, or follow me on twitter, either on my </span><a href="https://twitter.com/nprevenas">personal twitter feed</a><span>, or at the </span><a href="https://twitter.com/SideStreetsPod">official SideStreets twitter page</a><span>.</span></p>
+<p><span>Topics: Music that gets under your skin, nostalgia, Human Behavior, things you can&#8217;t quite put into words, mental illness, doom folk, the spirit of hardcore, DIY touring, podcast parties, clanking glasses, downtown ambiance, chains, antlers, an eerie glow, and the things we do for love.</span></p>
+<p><em>- Inside the house inside of me&#8230;</em></p>
+<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/0dLf04MFJMo" width="560"></iframe></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/97708522942/episode-030-never-known-this-til-now-with-human#notes">5 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/97708522942/episode-030-never-known-this-til-now-with-human" title="1 week ago">Sep 17th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97708522942">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97708522942">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F97708522942%2Fepisode-030-never-known-this-til-now-with-human&amp;t=Episode%20030%3A%20Never%20Known%20This%20Til%20Now%20%28with%20Human%20Behavior%29" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Episode%20030%3A%20Never%20Known%20This%20Til%20Now%20%28with%20Human%20Behavior%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29...%20http%3A%2F%2Ftmblr.co%2FZgrVSo1Q-uRs_" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20The%20SideStreets%20Podcast&amp;body=Episode%20030%3A%20Never%20Known%20This%20Til%20Now%20%28with%20Human%20Behavior%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download%20Episode%20030%3A%20Never%20Known%20This%20Til...%20http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F97708522942%2Fepisode-030-never-known-this-til-now-with-human" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sidestreetspodcast.tumblr.com/post/97708522942/episode-030-never-known-this-til-now-with-human" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97708522942/DlII0hIu" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97708522942" id="like_button_97708522942"><iframe id="like_iframe_97708522942" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=sidestreetspodcast&amp;post_id=97708522942&amp;color=black&amp;rk=DlII0hIu" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-97115925197 " data-post-id="post_97115925197">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://sidestreetspodcast.tumblr.com/post/97115925197/episode-029-the-pope-of-long-island-with-will">Episode 029: The Pope Of Long Island (with Will Stegemann)</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><strong><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850">Subscribe</a><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850"><strong> on iTun</strong>es!</a> (and rate it 5 stars!)</strong></p>
+<p><strong><a href="http://traffic.libsyn.com/dryheatpodcast/SideStreetsEpisode029.mp3" target="_blank">Download Episode 029: The Pope Of Long Island (with Will Stevemann) (via LibSyn)</a></strong></p>
+<p><iframe height="360" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/3057855/height/360/width/500/theme/standard/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" width="500"></iframe></p>
+<p>Typically, this podcast focuses either on Tucson&#8217;s local music/arts community or burritos. Billy Joel does not fall into either category. In fact, I don&#8217;t really have a strong opinion about Billy Joel&#8217;s music either way.</p>
+<p><img alt="image" src="http://media.tumblr.com/5157339c0614406bb4dd317b4edae619/tumblr_inline_nbnjsj3nDm1szsob5.png"/></p>
+<p><strong>Will Stegemann</strong> does, however.</p>
+<p>Will is one of the funniest guys on twitter (<a href="https://twitter.com/BeTheBoy">@BeTheBoy</a>) and we share a major common interest (super-fandom of The Best Show on WFMU). I&#8217;ve always wanted to talk to Will about his up-and-down-and-then-up-again relationship with Billy Joel ever since I became aware of his blog (<a href="http://ayearofbillyjoel.com/">A Year Of Billy Joel</a>). In 2012, Will embarked upon a project to listen to every single piece of Billy Joel music in existence (official albums, pre-solo work, bootlegs, you name it) to fully confront his nemesis head on.</p>
+<p>Will HATED Billy Joel when he was younger, which is a sin growing up in Long Island. But a funny thing happened in 2012. This massive Billy Joel project turned into deep self-examination and an exploration of the threads that made up his life &#8212; family, class, his hometown, etc. At some point in the very near future, Will plans to put out a book chronicling his Billy Joel Experience. I can&#8217;t wait.</p>
+<p>Will is a wonderful guy to talk to, and this is one of the best interviews we&#8217;ve done on the show. I know you&#8217;ll enjoy this one.</p>
+<p>AS AN ADDED BONUS: Take your favorite Billy Joel tune and rewrite the lyrics to be about Mexican food. The winner gets a PRIZE! (no idea what the prize will be yet)</p>
+<p>Music credits:<br/>Bed music: <a class="tumblelog" href="http://tmblr.co/mZgqRR0VEQK4TRqGz9BBa_A">dashflanagan</a><br/>Songs in the podcast: None this time.</p>
+<p><strong>Get in touch</strong><span>: Email me at sidestreetspodcast at gmail dot com, or follow me on twitter, either on my </span><a href="https://twitter.com/nprevenas">personal twitter feed</a><span>, or at the </span><a href="https://twitter.com/SideStreetsPod">official SideStreets twitter page</a><span>.</span></p>
+<p><span>Topics: Billy Joel, the absence of moderation, plastic bowling pins, justifiable on-stage meltdowns, his punk record, a new appreciation for the man&#8217;s discography, Amityville, New Year&#8217;s resolutions, improper mastering techniques, seat belts, figuring things out, dogs on twitter, fathers and sons, tonic, gin, feeling completely lost in your early 20s, and the things we do for love.<br/></span></p>
+<p><em>-LET ME DO MY SHOW, FOR CHRIST&#8217;S SAKE!</em></p>
+<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/PqY6mXULzpw" width="420"></iframe></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/97115925197/episode-029-the-pope-of-long-island-with-will#notes">13 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/97115925197/episode-029-the-pope-of-long-island-with-will" title="2 weeks ago">Sep 10th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_97115925197">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="97115925197">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F97115925197%2Fepisode-029-the-pope-of-long-island-with-will&amp;t=Episode%20029%3A%20The%20Pope%20Of%20Long%20Island%20%28with%20Will%20Stegemann%29" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Episode%20029%3A%20The%20Pope%20Of%20Long%20Island%20%28with%20Will%20Stegemann%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29...%20http%3A%2F%2Ftmblr.co%2FZgrVSo1QSZshD" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20The%20SideStreets%20Podcast&amp;body=Episode%20029%3A%20The%20Pope%20Of%20Long%20Island%20%28with%20Will%20Stegemann%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download%20Episode%20029%3A%20The%20Pope%20Of%20Long%20Island...%20http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F97115925197%2Fepisode-029-the-pope-of-long-island-with-will" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sidestreetspodcast.tumblr.com/post/97115925197/episode-029-the-pope-of-long-island-with-will" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/97115925197/esz2iBIB" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="97115925197" id="like_button_97115925197"><iframe id="like_iframe_97115925197" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=sidestreetspodcast&amp;post_id=97115925197&amp;color=black&amp;rk=esz2iBIB" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-96514901922 " data-post-id="post_96514901922">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://sidestreetspodcast.tumblr.com/post/96514901922/episode-028-we-do-what-we-do-featuring-many-tucson">Episode 028: We Do What We Do (featuring many Tucson bands)</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><strong><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850">Subscribe</a><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850"><strong> on iTun</strong>es!</a> (and rate it 5 stars!)</strong></p>
+<p><strong><a href="http://traffic.libsyn.com/dryheatpodcast/SideStreetsEpisode028.mp3" target="_blank">Download Episode 028: We Do What We Do (featuring many Tucson bands) (via LibSyn)</a></strong></p>
+<p><iframe height="360" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/3045068/height/360/width/500/theme/standard/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" width="500"></iframe></p>
+<p>If you&#8217;re new to the podcast, let me make one thing perfectly clear: I LOVE living in Tucson, Arizona.</p>
+<p><img alt="image" src="http://media.tumblr.com/da7d9dd571265c63c0b962a2ed94ca72/tumblr_inline_nbaguq3M801szsob5.jpg"/></p>
+<p>It&#8217;s not perfect (no city is), but right now, the creative community that has elected to make stuff in this town is doing a remarkable job. It&#8217;s a vibrant, exciting place to be right now, and it still feels as if the best is yet to come.</p>
+<p>This weekend, my wife Kelly (<a href="https://twitter.com/kellyhawke">@kellyhawke</a> on twitter) and I took full advantage of what this town has to offer. We went to <strong>HoCo Fest Day 3</strong> to see some of Tucson&#8217;s best up-and-coming live bands and I&#8217;ve decided to highlight some of my favorite ones in this episode. Call it a sampler platter &#8212; you&#8217;ll get the sound snippets for free, but if you like what you hear, put down a few bucks at their Bandcamp pages and help support this burgeoning music scene.</p>
+<p>• <strong><a href="http://sunbones.com/">Sun Bones</a></strong>: Like if Grizzly Bear or Local Natives were looser and funnier on stage.</p>
+<p><iframe src="http://bandcamp.com/EmbeddedPlayer/album=209146548/size=small/bgcol=ffffff/linkcol=0687f5/track=574474343/transparent=true/">&amp;lt;a href=&#8221;http://sunbones.bandcamp.com/album/sentinel-peak&#8221; data-mce-href=&#8221;http://sunbones.bandcamp.com/album/sentinel-peak&#8221;&amp;gt;Sentinel Peak by Sun Bones&amp;lt;/a&amp;gt;</iframe></p>
+<p>• <strong><a href="http://bestdogaward.com/">Best Dog Award</a></strong>: Imagine if Yeasayer and Real Estate shared common ground.</p>
+<p><iframe height="281" src="//player.vimeo.com/video/98811419" width="500"></iframe></p>
+<p>• <strong><a href="http://katterwaul.bandcamp.com/">Katterwaul</a></strong>: You know this band. You love this band. We talked to <a href="http://sidestreetspodcast.tumblr.com/post/85697293317/episode-013-fishes-sleeping-in-your-bed-with-brittany">Brittany Katter in <strong>Episode 013</strong></a>.</p>
+<p>• <strong><a href="http://humanbehaviormusic.bandcamp.com/">Human Behavior</a></strong>: Dark Americana in the Will Oldham/Bonnie Prince Billy tradition. LOVE this band.</p>
+<p><iframe src="http://bandcamp.com/EmbeddedPlayer/album=2940975934/size=small/bgcol=ffffff/linkcol=0687f5/track=213486279/transparent=true/">&amp;lt;a href=&#8221;http://humanbehaviormusic.bandcamp.com/album/golgotha&#8221; data-mce-href=&#8221;http://humanbehaviormusic.bandcamp.com/album/golgotha&#8221;&amp;gt;Golgotha by Human Behavior&amp;lt;/a&amp;gt;</iframe></p>
+<p>• <a href="http://prom-body.com/"><strong>Prom Body</strong></a>: These guys celebrated their one-year anniversary at this show, and what a year it&#8217;s been. They&#8217;re opening for Ty Segall on Sept. 3! Listen to Michael Fay tell you everything you need to know about <a href="http://sidestreetspodcast.tumblr.com/post/92603080512/episode-023-the-breeze-in-our-heads-with-michael-fay">Prom Body on <strong>Episode 023</strong></a>.</p>
+<p>• Our friends Joel and Krysta at Topaz (<a href="http://sidestreetspodcast.tumblr.com/post/82866971437/episode-009-nothing-is-over-with-joel-and-krysta-of">our guests on <strong>Episode 009</strong></a>) recently put out a compilation called <strong>Dune Drift 2</strong>, and <a href="http://topazintucson.bandcamp.com/album/dune-drift-2">you can download that for free here</a>. We close the show with the hot new <strong>Lenguas Largas</strong> track, No Wrong No Right.</p>
+<p><iframe src="http://bandcamp.com/EmbeddedPlayer/album=3701700927/size=small/bgcol=ffffff/linkcol=0687f5/track=3931780449/transparent=true/">&amp;lt;a href=&#8221;http://topazintucson.bandcamp.com/album/dune-drift-2&#8221; data-mce-href=&#8221;http://topazintucson.bandcamp.com/album/dune-drift-2&#8221;&amp;gt;DUNE DRIFT 2 by T O P A Z&amp;lt;/a&amp;gt;</iframe></p>
+<p>Music credits:<br/>Bed music: <a class="tumblelog" href="http://tmblr.co/mZgqRR0VEQK4TRqGz9BBa_A">dashflanagan</a><br/>Songs in the podcast: A whole lot of &#8216;em!</p>
+<p><strong>Get in touch</strong><span>: Email me at sidestreetspodcast at gmail dot com, or follow me on twitter, either on my </span><a href="https://twitter.com/nprevenas">personal twitter feed</a><span>, or at the </span><a href="https://twitter.com/SideStreetsPod">official SideStreets twitter page</a><span>.</span></p>
+<p><span><span>Topics: Live music, public transportation, shows that start on time, the phenomenal Tucson music scene, Prom Body, Katterwaul, Best Dog Award, Sun Bones, Human Behavior, Lenguas Largas, Topaz, healthy living, running for a while, aging gracefully, and the things we do for love.<br/></span></span></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/96514901922/episode-028-we-do-what-we-do-featuring-many-tucson" title="3 weeks ago">Sep 3rd, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_96514901922">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="96514901922">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F96514901922%2Fepisode-028-we-do-what-we-do-featuring-many-tucson&amp;t=Episode%20028%3A%20We%20Do%20What%20We%20Do%20%28featuring%20many%20Tucson%20bands%29" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Episode%20028%3A%20We%20Do%20What%20We%20Do%20%28featuring%20many%20Tucson%20bands%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29...%20http%3A%2F%2Ftmblr.co%2FZgrVSo1Pul8UY" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20The%20SideStreets%20Podcast&amp;body=Episode%20028%3A%20We%20Do%20What%20We%20Do%20%28featuring%20many%20Tucson%20bands%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download%20Episode%20028%3A%20We%20Do%20What%20We%20Do...%20http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F96514901922%2Fepisode-028-we-do-what-we-do-featuring-many-tucson" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sidestreetspodcast.tumblr.com/post/96514901922/episode-028-we-do-what-we-do-featuring-many-tucson" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/96514901922/CM4lwCIB" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="96514901922" id="like_button_96514901922"><iframe id="like_iframe_96514901922" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=sidestreetspodcast&amp;post_id=96514901922&amp;color=black&amp;rk=CM4lwCIB" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-95885329702 " data-post-id="post_95885329702">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://sidestreetspodcast.tumblr.com/post/95885329702/episode-027-the-cause-of-and-solution-to-all-of">Episode 027: The Cause Of - And Solution To - All Of Life&#8217;s Problems</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><strong><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850">Subscribe</a><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850"><strong> on iTun</strong>es!</a> (and rate it 5 stars!)</strong></p>
+<p><strong><a href="http://traffic.libsyn.com/dryheatpodcast/SideStreetsEpisode027.mp3" target="_blank">Download Episode 027: The Cause Of - And Solution To - All Of Life&#8217;s Problems (via LibSyn)</a></strong></p>
+<p><iframe height="360" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/3032775/height/360/width/500/theme/standard/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" width="500"></iframe></p>
+<p>Like millions of other people, I grew up watching The Simpsons over and over and over again. To say it was &#8220;influential&#8221; would be a massive understatement. In fact, I&#8217;m not sure where my knowledge of The Simpsons ends and my original thoughts begin. This show completely shaped my sense of humor and the way I looked at the world.</p>
+<p><img alt="image" src="http://media.tumblr.com/8f1b655dea346f8ca1582ea0dfac4d02/tumblr_inline_naxphwVrRt1szsob5.jpg"/></p>
+<p>That&#8217;s what we&#8217;re talking about this week. No guest.</p>
+<p>For the past few days, FXX has been in the midst of its Every Simpsons Ever marathon. Watching all those classic episodes again, as well as reading everyone&#8217;s tweets/reactions to it, has been a wonderful experience. I&#8217;m not going to list all of my favorite Simpsons episodes/quotes (plenty of sites on tumblr can help you out if that&#8217;s what you need), but I will tell you that any extended time talking about The Simpsons will lead me down a path where I talk a LOT about myself.</p>
+<p>So.</p>
+<p>Here&#8217;s what else we&#8217;re covering this week:</p>
+<p>• Sobriety. I&#8217;m not drinking anymore.</p>
+<p>• Feeling less alone in the world.</p>
+<p>• <a href="http://www.bedlampublishing.com/LoudZoo_02.pdf">Bedlam Publishing&#8217;s Loud Zoo No. 2</a></p>
+<p>• Kelly and I started reading Andy Mascola&#8217;s novels. Great work, Andy!</p>
+<p>• New Ty Segall &amp; New Pornographers records. YES!</p>
+<p>• Hot rock shows coming up: (Ty Segall Sept. 3, New Pornographers Oct. 14, Free Psych Showcase Aug. 27, HoCo Fest Aug. 30 &#8212; with Prom Body, Katterwaul, and other friends of the podcast).</p>
+<p>• Going to see Sun Bones at Che&#8217;s Lounge.</p>
+<p>• A Nick original tune: <a href="https://soundcloud.com/nick-prevenas/left-for-good">Left For Good</a>.</p>
+<p>Music credits:<br/>Bed music: <a class="tumblelog" href="http://tmblr.co/mZgqRR0VEQK4TRqGz9BBa_A">dashflanagan</a><br/>Outro song: &#8220;Left For Good&#8221; by Nick Prevenas</p>
+<p><strong>Get in touch</strong><span>: Email me at sidestreetspodcast at gmail dot com, or follow me on twitter, either on my </span><a href="https://twitter.com/nprevenas">personal twitter feed</a><span>, or at the </span><a href="https://twitter.com/SideStreetsPod">official SideStreets twitter page</a><span>.</span></p>
+<p><span><span>Topics: The Simpsons, trouble sleeping, bidding farewell to alcohol, chimpan-A to chimpan-Z, boo-urns, healthy skepticism, comforting color palettes, awesome new rock music, a mini Tucson concert calendar, getting way more personal than I originally planned to, and the things we do for love.<br/></span></span></p>
+<p><em>- He can talk / he can talk / he can talk / I CAN SIIIING</em></p>
+<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/YwWK9le2CD8" width="420"></iframe></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/95885329702/episode-027-the-cause-of-and-solution-to-all-of" title="1 month ago">Aug 27th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_95885329702">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="95885329702">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F95885329702%2Fepisode-027-the-cause-of-and-solution-to-all-of&amp;t=Episode%20027%3A%20The%20Cause%20Of%20-%20And%20Solution%20To%20-%20All%20Of%20Life%26%238217%3Bs%20Problems" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Episode%20027%3A%20The%20Cause%20Of%20-%20And%20Solution%20To%20-%20All%20Of%20Life%27s%20Problems%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205...%20http%3A%2F%2Ftmblr.co%2FZgrVSo1PJDWKc" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20The%20SideStreets%20Podcast&amp;body=Episode%20027%3A%20The%20Cause%20Of%20-%20And%20Solution%20To%20-%20All%20Of%20Life%27s%20Problems%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download%20Episode%20027%3A%C2%A0The%20Cause%20Of%20-...%20http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F95885329702%2Fepisode-027-the-cause-of-and-solution-to-all-of" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sidestreetspodcast.tumblr.com/post/95885329702/episode-027-the-cause-of-and-solution-to-all-of" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/95885329702/4LTOfcCm" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="95885329702" id="like_button_95885329702"><iframe id="like_iframe_95885329702" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=sidestreetspodcast&amp;post_id=95885329702&amp;color=black&amp;rk=4LTOfcCm" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-95251926292 " data-post-id="post_95251926292">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://sidestreetspodcast.tumblr.com/post/95251926292/episode-026-fifty-shades-of-greg-with-greg-perryman">Episode 026: Fifty Shades Of Greg (with Greg Perryman)</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><strong><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850">Subscribe</a><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850"><strong> on iTun</strong>es!</a> (and rate it 5 stars!)</strong></p>
+<p><strong><a href="http://traffic.libsyn.com/dryheatpodcast/SideStreetsEpisode026.mp3" target="_blank">Download Episode 026: Fifty Shades Of Greg (with Greg Perryman) (via LibSyn)</a></strong></p>
+<p><iframe height="360" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/3021016/height/360/width/500/theme/standard/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" width="500"></iframe></p>
+<p>Frankly, I didn&#8217;t know what else to do.</p>
+<p>This is the silliest podcast we&#8217;ve recorded in our 26-episode history. It&#8217;s been a very long week, and all I wanted to do was make a funny half hour. One of the funniest guys I know is <strong>Greg Perryman</strong>, so I asked him to be on the podcast. He&#8217;s the innovator of a twitter persona I like to call &#8220;vulnerably narcissistic,&#8221; but in real life, he&#8217;s just a super-funny, super-nice dude. We talk about rock shows, twitter, comfort, jeans, actors, Canada, being made fun of, and dogs. I love how it turned out.</p>
+<p><img alt="image" src="http://media.tumblr.com/b379b44cfb23236098f4c68d2ca986f9/tumblr_inline_nakijdNWb41szsob5.jpg"/></p>
+<p>I&#8217;ve listened to this episode four times already. <strong>Maybe I&#8217;m the true narcissist?</strong> Whoa.</p>
+<p>Also in today&#8217;s episode:</p>
+<p>• <strong>The lead singer of a certain harmonica-based jam band from the 90s is a human disaster zone</strong>. Do not tweet anything about him, his vest, or his band. He will harass you and your friends. He searches his name and goes out of his way to upset people, including guests of this podcast and friends of mine. It&#8217;s awful. Just trust me on this one.</p>
+<p>• I play the harmonica, too, but I&#8217;m not a jerk about it.</p>
+<p>• I talk openly about my dream to write sketches for Saturday Night Live. Unfortunately, <strong>my sketch ideas might be a bit too &#8220;niche.&#8221;</strong> Oh well, at least I&#8217;m putting myself out there.</p>
+<p>• <a href="http://tucson.com/news/local/no-joke-tucson-is-among-the-least-funny-cities-in/article_e9929384-ca5c-11e3-9b7a-001a4bcf887a.html">Tucson was ranked 43rd</a> in a list of America&#8217;s Funniest Cities. We MUST try to do better than that!</p>
+<p>• <strong>Nick&#8217;s Family-Friendly Funnies</strong> and more can be found at <a href="https://twitter.com/nprevenas">twitter dot com slash me</a>.</p>
+<p>Music credits:<br/>Bed music: <a class="tumblelog" href="http://tmblr.co/mZgqRR0VEQK4TRqGz9BBa_A">dashflanagan</a><br/>Harmonica outro: That&#8217;s your host blowin&#8217; in the key of G. Hot stuff, right?</p>
+<p><strong>Get in touch</strong><span>: Email me at sidestreetspodcast at gmail dot com, or follow me on twitter, either on my </span><a href="https://twitter.com/nprevenas">personal twitter feed</a><span>, or at the </span><a href="https://twitter.com/SideStreetsPod">official SideStreets twitter page</a><span>.</span></p>
+<p><span>Topics: Laughter, harmonicas, sketch ideas, gray jeans, how sock removal signifies the end of the day, sounding like John Mulaney, attorneys watching the detectives, life in Ottawa, President Interpol, Bob Log III, </span><span>gravitating toward comedy</span><span>, laugh tracks, dealing with things, twitter personas, friendship, and the things we do for love.</span></p>
+<p><em>- Why&#8217;s everybody actin&#8217; funny?</em></p>
+<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/CO29Pz2Hw5w" width="560"></iframe></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/95251926292/episode-026-fifty-shades-of-greg-with-greg-perryman#notes">1 note</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/95251926292/episode-026-fifty-shades-of-greg-with-greg-perryman" title="1 month ago">Aug 19th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_95251926292">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="95251926292">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F95251926292%2Fepisode-026-fifty-shades-of-greg-with-greg-perryman&amp;t=Episode%20026%3A%20Fifty%20Shades%20Of%20Greg%20%28with%20Greg%20Perryman%29" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Episode%20026%3A%20Fifty%20Shades%20Of%20Greg%20%28with%20Greg%20Perryman%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29...%20http%3A%2F%2Ftmblr.co%2FZgrVSo1OjTGqK" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20The%20SideStreets%20Podcast&amp;body=Episode%20026%3A%20Fifty%20Shades%20Of%20Greg%20%28with%20Greg%20Perryman%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download%20Episode%20026%3A%20Fifty%20Shades%20Of%20Greg...%20http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F95251926292%2Fepisode-026-fifty-shades-of-greg-with-greg-perryman" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sidestreetspodcast.tumblr.com/post/95251926292/episode-026-fifty-shades-of-greg-with-greg-perryman" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/95251926292/qP28l5w6" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="95251926292" id="like_button_95251926292"><iframe id="like_iframe_95251926292" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=sidestreetspodcast&amp;post_id=95251926292&amp;color=black&amp;rk=qP28l5w6" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-94598953352 " data-post-id="post_94598953352">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://sidestreetspodcast.tumblr.com/post/94598953352/episode-025-floating-in-space-with-jamie-molaro">Episode 025: Floating In Space (with Jamie Molaro)</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><strong><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850">Subscribe</a><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850"><strong> on iTun</strong>es!</a> (and rate it 5 stars!)</strong></p>
+<p><strong><a href="http://traffic.libsyn.com/dryheatpodcast/SideStreetsEpisode025.mp3" target="_blank">Download Episode 025: Floating In Space (with Jamie Molaro) (via LibSyn)</a></strong></p>
+<p><iframe height="360" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/3009376/height/360/width/500/theme/standard/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" width="500"></iframe></p>
+<p>Today, we veer slightly away from our standard topics (music, literature, burritos) to talk about the infinite vastness of the universe and how art can help contextualize the seemingly limitless scope of available information.<img alt="image" src="http://media.tumblr.com/d064d874735a1c3b6e4d76a60925b005/tumblr_inline_na7h5kUWXC1szsob5.jpg"/></p>
+<p>Yeah.</p>
+<p>Our guest is <strong>Jamie Molaro</strong>, a graduate student with the University of Arizona&#8217;s Lunar and Planetary Laboratory. Her research focuses on physics, geology, and geomorphology of planetary surfaces. These are topics that fall a little bit outside of my areas of expertise, but Jamie does an excellent job explaining her research&#8217;s goals and practical applications.</p>
+<p>In fact, communication is a vitally important issue to Jamie. This is part of why she helped spearhead the<strong><a href="http://www.lpl.arizona.edu/art/"> Art of Planetary Science exhibition</a></strong>. Last year&#8217;s <a href="http://www.lpl.arizona.edu/art/2013">inaugural event</a> displayed dozens of different pieces of art that helped illuminate the kinds of research projects taking place, while bridging the gap for people who might not have a science/math/physics background. It&#8217;s phenomenal.</p>
+<p>I know there are a bunch of artists who listen to this podcast, so if you&#8217;d like to submit a piece, go to the <a href="http://www.lpl.arizona.edu/art/">Lunar and Planetary Lab&#8217;s website</a> and click &#8220;Submit Art.&#8221; <strong>Submissions are due Sept. 19</strong>. The show takes place Oct. 17-19.</p>
+<p>Follow Jamie on twitter: <a href="https://twitter.com/the_bait">@the_bait</a>.</p>
+<p>Also on today&#8217;s show:</p>
+<p>• There might be some background noise. It&#8217;s ok &#8212; you can handle it.</p>
+<p>• Our neighbor won&#8217;t stop revving his motorcycle. It&#8217;s so loud.</p>
+<p>• I discuss my favorite songs about space, including the tune <strong>"Lunar Kit" by our old pals, The Resonars</strong>. This song has been featured on the show before &#8212; it&#8217;s just that good. <a href="http://www.discogs.com/Resonars-Lunar-Kit/release/2581703">Buy the album, OK?</a></p>
+<p>Music credits:<br/>Bed music: @dashflanagan<br/>Song during the interview: Whatever songs were playing at Cartel Coffee Lab on Saturday afternoon.<br/>Closing song: “Lunar Kit&#8221; by The Resonars.</p>
+<p><strong>Get in touch</strong><span>: Email me at sidestreetspodcast at gmail dot com, or follow me on twitter, either on my </span><a href="https://twitter.com/nprevenas">personal twitter feed</a><span>, or at the </span><a href="https://twitter.com/SideStreetsPod">official SideStreets twitter page</a><span>.</span></p>
+<p><span>Topics: Art as unifying force, the infinite universe, the amount of things we will never know, Bowie, dumb loud pointless motorcycle revving, planetary science, physics, geology, Spiritualized, wedding songs, practical applications of scientific research, Spacehog, rocket men, space quilts, lunar kits, and the things we do for love.<br/></span></p>
+<p><em>- My lunar kit is all that I need.</em></p>
+<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/_65Yaf3pdmM" width="420"></iframe></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/94598953352/episode-025-floating-in-space-with-jamie-molaro" title="1 month ago">Aug 13th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_94598953352">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="94598953352">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F94598953352%2Fepisode-025-floating-in-space-with-jamie-molaro&amp;t=Episode%20025%3A%20Floating%20In%20Space%20%28with%20Jamie%20Molaro%29" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Episode%20025%3A%20Floating%20In%20Space%20%28with%20Jamie%20Molaro%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download...%20http%3A%2F%2Ftmblr.co%2FZgrVSo1O6YNc8" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20The%20SideStreets%20Podcast&amp;body=Episode%20025%3A%20Floating%20In%20Space%20%28with%20Jamie%20Molaro%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download%20Episode%20025%3A%20Floating%20In%20Space%20%28with%20Jamie...%20http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F94598953352%2Fepisode-025-floating-in-space-with-jamie-molaro" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sidestreetspodcast.tumblr.com/post/94598953352/episode-025-floating-in-space-with-jamie-molaro" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/94598953352/0oXQoV1c" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="94598953352" id="like_button_94598953352"><iframe id="like_iframe_94598953352" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=sidestreetspodcast&amp;post_id=94598953352&amp;color=black&amp;rk=0oXQoV1c" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-93938454497 " data-post-id="post_93938454497">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://sidestreetspodcast.tumblr.com/post/93938454497/episode-024-forgetting-to-forget-with-jordan-prather">Episode 024: Forgetting To Forget (with Jordan Prather, Belinda Esquer of Head Over Heart)</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><strong><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850">Subscribe</a><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850"><strong> on iTun</strong>es!</a> (and rate it 5 stars!)</strong></p>
+<p><strong><a href="http://traffic.libsyn.com/dryheatpodcast/SideStreetsEpisode024.mp3" target="_blank">Download Episode 024: Forgetting To Forget (with Jordan Prather, Belina Esquer of Head Over Heart) (via LibSyn)</a></strong></p>
+<p><iframe height="360" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/2996958/height/360/width/500/theme/standard/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" width="500"></iframe></p>
+<p>Hello and welcome to <strong>Season 2 of the SideStreets Podcast</strong>! We took a week off, but we&#8217;re back and better than ever with this week&#8217;s guests, the extremely sweet and cool <strong>Jordan Prather</strong> and <strong>Belinda Esquer</strong> of the super-cool Tucson band <strong>Head Over Heart</strong>.</p>
+<p><img src="http://media.tumblr.com/25149b5246c594f32214c2eb9968f8dc/tumblr_inline_n9walmQ6ZS1szsob5.jpg"/></p>
+
+<p>Many of the bands we&#8217;ve highlighted on this podcast come from a neo-psychedelic/garage-rock persuasion, but Head Over Heart occupies a unique niche in the Tucson music scene. Their sound leans heavily on synths and dance beats, paired with 90s-influenced alt-rock and Britpop. Think of the catchier moments on those XX records, only if they woke up from their nap to put on some Roxy Music or New Order.</p>
+<p><strong>• Find out everything you need to know about Head Over Heart at their website: <a href="http://headoverheartmusic.com/">headoverheartmusic.com</a>.</strong></p>
+<p>We talk about the origins of the band, as well as how they&#8217;ve meshed their individual songwriting styles into this project that doesn&#8217;t quite sound like anything either of them have done before. We also get into their interests in the visual element, their stage set-up, the color purple, and the role Jordan&#8217;s cat (Chicken Man) plays in the group&#8217;s image.</p>
+<p><strong>Their debut EP, &#8220;I Believe You, Liar,&#8221; will be officially released on Aug. 9 at Flycatcher (formerly Plush) in Tucson</strong>. See you there!</p>
+<p><img alt="image" src="http://media.tumblr.com/b1cdf7d1df3ddf771be0b204a5799445/tumblr_inline_n9ukklRkpO1szsob5.jpg"/></p>
+<p>Also in this episode:</p>
+<p>• The do&#8217;s and don&#8217;ts at rock shows. Last week&#8217;s Prom Body show was 95-percent amazing, but as always, a couple dummies trying to to dumb stuff.</p>
+<p>Music credits:<br/>Bed music: <a class="tumblelog" href="http://tmblr.co/mZgqRR0VEQK4TRqGz9BBa_A">dashflanagan</a><br/>Song before the interview: “You And Me” by Head Over Heart.<br/>Closing song: “No Sleep” by Head Over Heart.</p>
+<p><strong>Get in touch</strong><span>: Email me at sidestreetspodcast at gmail dot com, or follow me on twitter, either on my </span><a href="https://twitter.com/nprevenas">personal twitter feed</a><span>, or at the </span><a href="https://twitter.com/SideStreetsPod">official SideStreets twitter page</a><span>.</span></p>
+<p><span>Topics: Being cool, finding common ground, the color purple, things to avoid bringing to rock shows, sounding like few other bands in town, visual style, leggings, making music videos, being silly, teaming up with talented filmmakers, Head Over Heart, Chicken Man, and the things we do for love.<br/></span></p>
+<p><em>- Some days I feel so light, it&#8217;s like I could float away.</em></p>
+<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/v9PX_g6Zgm8" width="560"></iframe></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/93938454497/episode-024-forgetting-to-forget-with-jordan-prather#notes">1 note</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/93938454497/episode-024-forgetting-to-forget-with-jordan-prather" title="1 month ago">Aug 6th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_93938454497">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="93938454497">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F93938454497%2Fepisode-024-forgetting-to-forget-with-jordan-prather&amp;t=Episode%20024%3A%20Forgetting%20To%20Forget%20%28with%20Jordan%20Prather%2C%20Belinda%20Esquer%20of%20Head%20Over%20Heart%29" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Episode%20024%3A%20Forgetting%20To%20Forget%20%28with%20Jordan%20Prather%2C%20Belinda%20Esquer%20of%20Head%20Over%20Heart%29%20-%20Subscribe%C2%A0on...%20http%3A%2F%2Ftmblr.co%2FZgrVSo1NVAm-X" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20The%20SideStreets%20Podcast&amp;body=Episode%20024%3A%20Forgetting%20To%20Forget%20%28with%20Jordan%20Prather%2C%20Belinda%20Esquer%20of%20Head%20Over%20Heart%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download...%20http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F93938454497%2Fepisode-024-forgetting-to-forget-with-jordan-prather" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sidestreetspodcast.tumblr.com/post/93938454497/episode-024-forgetting-to-forget-with-jordan-prather" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/93938454497/nKStA26N" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="93938454497" id="like_button_93938454497"><iframe id="like_iframe_93938454497" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=sidestreetspodcast&amp;post_id=93938454497&amp;color=black&amp;rk=nKStA26N" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-92603080512 " data-post-id="post_92603080512">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://sidestreetspodcast.tumblr.com/post/92603080512/episode-023-the-breeze-in-our-heads-with-michael-fay">Episode 023: The Breeze In Our Heads (with Michael Fay of Prom Body)</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><strong><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850">Subscribe</a><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850"><strong> on iTun</strong>es!</a> (and rate it 5 stars!)</strong></p>
+<p><strong><a href="http://traffic.libsyn.com/dryheatpodcast/SideStreetsEpisode023.mp3" target="_blank">Download Episode 023: The Breeze In Our Heads (with Michael Fay of Prom Body) (via LibSyn)</a></strong></p>
+<p><iframe height="360" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/2962261/height/360/width/500/theme/standard/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" width="500"></iframe></p>
+<p>Unless you&#8217;re Calexico or Giant Sand, bands from Tucson traditionally don&#8217;t see their singles premiered on Stereogum or their videos shown on NPR.com. <strong><a href="http://prom-body.com/">Prom Body</a></strong> is changing that.</p>
+<p><img alt="image" src="http://media.tumblr.com/f103865fc627e0e282ae056b3013ae44/tumblr_inline_n92n6zRLOH1szsob5.jpg"/></p>
+<p>Over the past year, <strong>Michael Fay</strong> has seen this bedroom recording project blossom into one of the hottest bands in town &#8212; both from a creative and a commercial standpoint. Prom Body&#8217;s sound is tough to pin down &#8212; a little bit of Ty Segall-style garage, a bit of Wavves-influenced punk, some ambient post-rock thrown into the mix &#8212; but Fay and his crew (<a href="http://sidestreetspodcast.tumblr.com/post/78646741497/sidestreets-podcast-episode-003-all-the-best-stuff-is">including our guest from <strong>Episode 003: Matt Baquet</strong></a>) have established themselves as one of Tucson&#8217;s most promising bands, as well as the ambassador for our town&#8217;s burgeoning music scene as they head out on tour this summer.</p>
+<p>Mike and I talk about, well, a little bit of everything in this wide-ranging interview. He discusses his musical background and his songwriting process, as well as his appreciation for how the Tucson music community has come together to help him see this project through. Mike is one of the most insightful young musicians I&#8217;ve ever met, and it was a real pleasure to talk to him.</p>
+<p>Prom Body released <a href="http://prombody.bandcamp.com/album/creep-the-strange"><strong>Creep The Strange</strong></a> almost exactly one year ago &#8212; a collection of Fay&#8217;s bedroom recordings when he was living in Kansas City. These songs found a home in Tucson, when he put together a live band. For the past year, with the encouragement of <strong><a href="http://templeofcairo.com">Topaz Records</a></strong> co-founder <strong><a href="http://sidestreetspodcast.tumblr.com/post/82866971437/episode-009-nothing-is-over-with-joel-and-krysta-of">(and guest on Episode 009) Joel Leshefka</a></strong>, Fay has put every ounce of creative energy he can muster into his band&#8217;s second record, <a href="http://www.templeofcairo.com/records/prom-body-naughty-by-natural-lpcass"><strong>Naughty By Natural</strong></a>, which comes out July 29.</p>
+<p>The buzz has been deafening. <strong>The single (and official SideStreets Song Of Summer) &#8220;My Paradise&#8221;</strong> was premiered on Vice&#8217;s music blog, Noisey, magazine last month.</p>
+<p>• &#8220;<a href="http://noisey.vice.com/blog/prom-body-should-be-your-new-favorite-band-watch-my-paradise-14">Prom Body Should Be Your New Favorite Band</a>" <strong>Noisey</strong>, June 16.</p>
+<p>In addition their single &#8220;Pretty Flower&#8221; made its way to Spin Magazine&#8217;s website.</p>
+<p>• &#8220;<a href="http://Prom%20Body%20Share%20'Pretty%20Flower,'%20a%20Bouquet%20of%20Garage-Punk%20Goodness">Prom Body Share &#8216;Pretty Flower,&#8217; a Bouquet of Garage-Punk Goodness</a>" <strong>Spin</strong>, May 30.</p>
+<p>The momentum kept rolling, as Prom Body&#8217;s phenomenal Nika Kaiser-directed video for the instrumental track &#8220;Guttuggering&#8221; was premiered on NPR. <strong>Bob Boilen called the clip &#8220;jarringly beautiful.&#8221;</strong></p>
+<p>• &#8220;<a href="http://www.npr.org/event/music/325901243/prom-body-guttuggering">Prom Body: &#8216;Guttuggering&#8217;</a>" <strong>NPR</strong>, June 27.</p>
+<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/qJNClrHwSxk" width="560"></iframe></p>
+<p>The biggest break came on July 16, when <a href="http://www.stereogum.com/1692483/prom-body-vibrant-stereogum-premiere/mp3s/">Stereogum premiered the third single, &#8220;Vibrant,&#8221;</a> for its thousands upon thousands of visitors.</p>
+<p><iframe frameborder="no" height="450" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/158325890&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" width="100%"></iframe></p>
+<p>The culmination of all this hard work happens on July 29, when 500 limited-edition vinyl copies of <strong>Naughty By Natural</strong> go on sale at <a href="http://templeofcairo.com">templeofcairo.com</a> or at <a href="http://prombody.bandcamp.com">prombody.bandcamp.com.</a></p>
+<p>Be sure to check out Prom Body on tour, as well!</p>
+<p><strong>Upcoming Shows</strong><br/><strong>July 29th</strong> - Tucson - Album Release &amp; Tour Kick-off w/ Katterwaul &amp; Kid Puto @ TOPAZ<br/><strong>July 30th</strong> - Phoenix - w/ Numb Bats, Man Hands, &amp; Drainbow @ The Crescent Ballroom<br/><strong>July 31st</strong> - San Diego - w/ Heavy Hawaii &amp; Heaven @ The Hideout<br/><strong>August 1st</strong> - Los Angeles - w/ Numb Bats @ Lolipop Records<br/><strong>August 1st</strong> - Fullerton - w/ White Night &amp; Pine Hill Haints @ Dude&#8217;s House<br/><strong>August 2nd</strong> - Los Angeles - SOAI Harder Summer @ Pehrspace <br/><strong>August 2nd</strong> - Los Angeles - w/ Heaven, Heavy Hawaii, &amp; Susan @ The Smell<br/><strong>August 3rd</strong> - Oakland - w/ Meat Market, Numb Bats, &amp; Fiscal Cliff @ The Nerd Castle<br/><strong>August 4th</strong> - San Francisco - w/ Union Pacific, Numb Bats, &amp; Banshee Boardwalk @ Brick &amp; Mortar Music Hall<br/><strong>August 5th</strong> - Stockton - w/ MLTD &amp; Digital Ketchup @ The Bus Stop<br/><strong>August 6th</strong> - Portland - w/ Feel Young (Reunion), Sad Horse, &amp; DJ DNA @ The Know<br/><strong>August 7th</strong> - Olympia - w/ The San Onofre Lizards &amp; Clayface @ Hot Tub House<br/><strong>August 8th</strong> - Seattle - w/ Dude York &amp; Pony Time @ CAIRO<br/><strong>August 9th</strong> - Vancouver, BC - w/ WEED @ Horses Records<br/><strong>August 10th</strong> - Missoula - w/ Muff Dive @ Ole Beck VFW Post 209<br/><strong>August 11th</strong> - Boise - w/ Toy Zoo &amp; Numb Bats @ the Crux<br/><strong>August 12th</strong> - Salt Lake City - w/ Season of the Witch &amp; Numb Bats @ the Barrel Room<br/><strong>August 13th</strong> - Flagstaff - w/ Human Weather @ Cottage House<br/><strong>September 3rd</strong> - Tucson - w/ Ty Segall &amp; Wand @ Club Congress</p>
+<p>Music credits:<br/>Bed music: @dashflanagan<br/>Song before the Michael Fay interview: &#8220;Vibrant&#8221; by Prom Body.<br/>Bed music for Michael Fay interview: &#8220;Stupid Astrology&#8221; by Prom Body.<br/>Closing song: &#8220;My Paradise&#8221; by Prom Body.</p>
+<p><strong>Get in touch</strong><span>: Email me at sidestreetspodcast at gmail dot com, or follow me on twitter, either on my </span><a href="https://twitter.com/nprevenas">personal twitter feed</a><span>, or at the </span><a href="https://twitter.com/SideStreetsPod">official SideStreets twitter page</a><span>.</span></p>
+<p><span>Topics: Prom Body, four-track recording, making it happen, the buzz, hiding things in a recording that only you know about, a little help from your friends, trading stability for the artistic life, setting things on fire, getting off the assembly line, the Song Of Summer, excitement in all its forms, Tucson pride, paradise, and the things we do for love.<br/></span></p>
+<p><em>- It&#8217;s my paradise.</em></p>
+<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/fA5uxe3buuE" width="560"></iframe></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-notes">
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/92603080512/episode-023-the-breeze-in-our-heads-with-michael-fay#notes">2 notes</a>
+                                                    </li>
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/92603080512/episode-023-the-breeze-in-our-heads-with-michael-fay" title="2 months ago">Jul 23rd, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_92603080512">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="92603080512">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F92603080512%2Fepisode-023-the-breeze-in-our-heads-with-michael-fay&amp;t=Episode%20023%3A%20The%20Breeze%20In%20Our%20Heads%20%28with%20Michael%20Fay%20of%20Prom%20Body%29" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Episode%20023%3A%20The%20Breeze%20In%20Our%20Heads%20%28with%20Michael%20Fay%20of%20Prom%20Body%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205...%20http%3A%2F%2Ftmblr.co%2FZgrVSo1MFajz0" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20The%20SideStreets%20Podcast&amp;body=Episode%20023%3A%20The%20Breeze%20In%20Our%20Heads%20%28with%20Michael%20Fay%20of%20Prom%20Body%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download%20Episode%20023%3A%20The...%20http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F92603080512%2Fepisode-023-the-breeze-in-our-heads-with-michael-fay" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sidestreetspodcast.tumblr.com/post/92603080512/episode-023-the-breeze-in-our-heads-with-michael-fay" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/92603080512/vP60A01D" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="92603080512" id="like_button_92603080512"><iframe id="like_iframe_92603080512" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=sidestreetspodcast&amp;post_id=92603080512&amp;color=black&amp;rk=vP60A01D" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                            <article class="text not-page post-91914604887 " data-post-id="post_91914604887">
+                                <div class="post-wrapper clearfix">
+                                    
+                                    <section class="post">
+                                        
+                                            <h2><a href="http://sidestreetspodcast.tumblr.com/post/91914604887/episode-022-the-unmagnificent-lives-of-virgin-wolves">Episode 022: The Unmagnificent Lives Of Virgin Wolves (with Andy Mascola)</a></h2>
+                                            
+                                            <div class="body-text">
+                                                <p><strong><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850">Subscribe</a><a href="https://itunes.apple.com/us/podcast/the-sidestreets-podcast/id834949850"><strong> on iTun</strong>es!</a> (and rate it 5 stars!)</strong></p>
+<p><strong><a href="http://traffic.libsyn.com/dryheatpodcast/SideStreetsEpisode022.mp3" target="_blank">Download Episode 022: The Unmagnificent Lives Of Virgin Wolves (with Andy Mascola) (via LibSyn)</a></strong></p>
+<p><iframe height="360" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/2946415/height/360/width/500/theme/standard/direction/no/autoplay/no/autonext/no/thumbnail/yes/preload/no/no_addthis/no/" width="500"></iframe></p>
+<p>You ever have a conversation with someone so genuinely inspired and dedicated that it makes you feel simultaneously lazy (for your own inability to finish projects you start) and invigorated (to actually finish said project)? That&#8217;s how I felt after talking to <strong>Andy Mascola</strong> &#8212; author of the novels <strong>"Unmagnificent Lives"</strong> and <strong>"Who&#8217;s Afraid of the Virgin Wolves?"</strong>.</p>
+<p><img alt="image" src="http://media.tumblr.com/8d66d665d8d72332cd507f87284cb901/tumblr_inline_n8rhjf18LD1szsob5.jpg"/></p>
+<p>Writing a novel &#8212; let alone two! &#8212; is arduous, demanding work. Andy has managed to follow through on these massive undertakings, while working a day job and being an attentive husband and father. He sleeps very little.</p>
+<p>"Dreams are worth pursuing," Andy said. Yes, they are.</p>
+<p>We also reference Robert Altman and DMX in the course of the same interview. That&#8217;s fun! Andy is the best &#8212; <strong><a href="https://twitter.com/AndyMascola">follow him on twitter</a></strong> if you don&#8217;t already.</p>
+<p>-Buy: <strong><a href="http://www.amazon.com/dp/1451540116/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&amp;colid=3W4HOI7OWW1CA&amp;coliid=I1FVJ7GSH09XYE">Unmagnificent Lives</a></strong> (2010)<br/>-Buy: <strong><a href="http://www.amazon.com/dp/1499285728/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&amp;colid=3W4HOI7OWW1CA&amp;coliid=I1KQPI1LSCBP3I">Who&#8217;s Afraid of the Virgin Wolves</a></strong> (2014)</p>
+<p>Also on today&#8217;s episode:</p>
+<p>• Friend of the podcast (and friend of mine in life) Callie Rasmussen (<strong><a href="https://twitter.com/cbRasmussen">@cbRasmussen</a> on twitter</strong>) was responsible for one of my favorite burrito stories back on <a href="http://sidestreetspodcast.tumblr.com/post/86377883562/episode-014-the-years-we-spent-unpressured-with">Episode 014</a>. She checks back in with another wonderful burrito tale &#8212; Boloco (her favorite burrito spot in Vermont) hooked her up with a free burrito, just because they&#8217;re the kindest group of folks imaginable. Boloco gets it. <a href="https://twitter.com/bolocochurchst">Follow them on twitter</a>.</p>
+<p>• Our feud scout Cameron (<strong><a href="https://twitter.com/cameron_durkin">@cameron_durkin</a> on twitter</strong>) returns after his hiatus trying to rid the world of Rob Ford. Today, he brings to my attention the fact that <a href="http://www.usatoday.com/story/news/nation/2014/06/25/beaches-polluted-pollution-water-runoff-sewage-bacteria/11349409/">1 in 10 American beaches are unsafe for swimming</a> (editor&#8217;s note: WHAT?!?!). This is completely unacceptable. Get it together, American beaches &#8212; if not for us, but for Howard Kremer (have a summah!).</p>
+<p>• Fresh off the success (??) of last week&#8217;s segment, &#8220;The News Minute: With Stephin Merritt,&#8221; another musician has thrown his hat into the ring to become the podcast&#8217;s official news anchor. Thom Yorke of Radiohead submitted his audition tape, <strong>"The Yorke Report,"</strong> and it&#8217;s&#8230;well&#8230;</p>
+<p>• <strong><a href="http://howardkremer.bandcamp.com/">We love Howard Kremer</a></strong> at the SideStreets Podcast.</p>
+<p>Music credits:<br/>Bed music: @dashflanagan<br/>The Yorke Report: “Indecipherable” performed (badly) by Nick Prevenas.</p>
+<p><strong>Get in touch</strong><span>: Email me at sidestreetspodcast at gmail dot com, or follow me on twitter, either on my </span><a href="https://twitter.com/nprevenas">personal twitter feed</a><span>, or at the </span><a href="https://twitter.com/SideStreetsPod">official SideStreets twitter page</a><span>.</span></p>
+<p><span>Topics: Writing, finishing what you start, NaNoWriMo, self publishing, Robert Altman, DMX, unswimmable beaches, people who truly understand burritos, coming up with a workable creative process, chasing a dream, The Yorke Report, summah, and the things we do for love.<br/></span></p>
+<p><em>- &#8220;Youuu eee ahhh eeee ahh ooooo&#8221;</em></p>
+<p><iframe frameborder="0" height="315" src="//www.youtube.com/embed/rOoCixFA8OI" width="420"></iframe></p>
+                                            </div>
+                                            
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+                                                                            
+                                        
+
+                                    </section>
+                                    
+                                    
+                                    <section class="panel">
+                                        <footer class="post-footer">
+                                            <section class="meta"> 
+                                                <ul class="date-notes">
+                                                    
+                                                    <li class="post-date"> 
+                                                        <a href="http://sidestreetspodcast.tumblr.com/post/91914604887/episode-022-the-unmagnificent-lives-of-virgin-wolves" title="2 months ago">Jul 15th, 2014</a>
+                                                    </li>
+                                                </ul>
+                                            </section>
+                                            
+                                            <section class="post-controls">
+                                                <ul>
+                                                    <li class="share-control">
+                                                        <nav class="pop">
+                                                            <a href="#" class="share selector icon-export"></a>
+                                                            <div class="pop-menu share-menu south" id="share_91914604887">
+                                                                <ul>
+                                                                    <li class="open-in-app"><a href="#" class="share-item open-in-app" data-post="91914604887">Open in app</a></li>
+                                                                    <li><a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F91914604887%2Fepisode-022-the-unmagnificent-lives-of-virgin-wolves&amp;t=Episode%20022%3A%20The%20Unmagnificent%20Lives%20Of%20Virgin%20Wolves%20%28with%20Andy%20Mascola%29" class="share-item facebook" target="_blank">Facebook</a></li>
+                                                                    <li><a href="https://twitter.com/intent/tweet?text=Episode%20022%3A%20The%20Unmagnificent%20Lives%20Of%20Virgin%20Wolves%20%28with%20Andy%20Mascola%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate...%20http%3A%2F%2Ftmblr.co%2FZgrVSo1LcYP5N" class="share-item twitter" target="_blank">Tweet</a></li>
+                                                                    <li><a href="mailto:?subject=A%20post%20from%20The%20SideStreets%20Podcast&amp;body=Episode%20022%3A%20The%20Unmagnificent%20Lives%20Of%20Virgin%20Wolves%20%28with%20Andy%20Mascola%29%20-%20Subscribe%C2%A0on%20iTunes%21%C2%A0%28and%20rate%20it%205%20stars%21%29%20Download%20Episode%20022%3A%20The...%20http%3A%2F%2Fsidestreetspodcast.tumblr.com%2Fpost%2F91914604887%2Fepisode-022-the-unmagnificent-lives-of-virgin-wolves" class="share-item mail">Mail</a></li>
+                                                                    <li><a href="http://sidestreetspodcast.tumblr.com/post/91914604887/episode-022-the-unmagnificent-lives-of-virgin-wolves" class="share-item permalink">Permalink <i class="icon-arrow_carrot_right"></i></a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </nav>
+                                                    </li>
+                                                    <li class="reblog-control"><a href="https://www.tumblr.com/reblog/91914604887/CMnUU5NC" class="reblog_button"style="display: block;width:21px;height:21px;"><svg width="100%" height="100%" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000"><path d="M5.01092527,5.99908429 L16.0088498,5.99908429 L16.136,9.508 L20.836,4.752 L16.136,0.083 L16.1360004,3.01110845 L2.09985349,3.01110845 C1.50585349,3.01110845 0.979248041,3.44726568 0.979248041,4.45007306 L0.979248041,10.9999998 L3.98376463,8.30993634 L3.98376463,6.89801007 C3.98376463,6.20867902 4.71892527,5.99908429 5.01092527,5.99908429 Z"></path><path d="M17.1420002,13.2800293 C17.1420002,13.5720293 17.022957,14.0490723 16.730957,14.0490723 L4.92919922,14.0490723 L4.92919922,11 L0.5,15.806 L4.92919922,20.5103758 L5.00469971,16.9990234 L18.9700928,16.9990234 C19.5640928,16.9990234 19.9453125,16.4010001 19.9453125,15.8060001 L19.9453125,9.5324707 L17.142,12.203"></path></svg></a></li>
+                                                    <li class="like-control"><div class="like_button" data-post-id="91914604887" id="like_button_91914604887"><iframe id="like_iframe_91914604887" src="http://assets.tumblr.com/assets/html/like_iframe.html?_v=931e9b3b56df72f83a7a9186e61a02d6#name=sidestreetspodcast&amp;post_id=91914604887&amp;color=black&amp;rk=CMnUU5NC" scrolling="no" width="20" height="20" frameborder="0" class="like_toggle" allowTransparency="true"></iframe></div></li>
+                                                </ul>
+                                            </section>
+                                        </footer>
+                                    </section>
+                                    
+                                    
+                                </div>
+                            </article>
+                    
+                </div>
+            </section>
+            <footer id="footer" class="content clearfix">
+                
+                    
+                    <div id="pagination">
+                        
+                        
+                        <a href="/page/2" class="next" data-current-page="1" data-total-pages="4">Next<span class="bg"></span></a>
+                        
+                        <div class="loader"><div class="loader-bar"></div><div class="loader-bar"></div><div class="loader-bar"></div></div>
+                    </div>
+                    
+                
+            </footer>
+        </section>
+        <script>
+            var Optica = {};
+            Optica.ENDLESS_SCROLLING = true;
+            Optica.LAYOUT = "regular";
+            Optica.GRID_LAYOUT = (Optica.LAYOUT === 'grid');
+            Optica.TITLE_COLOR = "#444444";
+            Optica.ACCENT_COLOR = "#529ecc";
+            Optica.BACKGROUND_COLOR = "#f6f6f6";
+            Optica.ENDLESS_NOTES_SCROLLING = true;
+        </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>!window.jQuery && document.write(unescape('%3Cscript src="http://static.tumblr.com/vr9xgox/sBgmmjhyw/jquery-1.9.1.min.js"%3E%3C/script%3E'));</script>
+        <script src="http://static.tumblr.com/vr9xgox/Azhmnml1q/jquery.masonry.min.js"></script>
+        <script src="http://static.tumblr.com/wogenvz/kcyn7f6re/main-min.js"></script>
+
+        
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://sidestreetspodcast.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412038002&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc2lkZXN0cmVldHNwb2RjYXN0LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=CEIAEBNCJO&K=0e6f34f77ecd719e416b79287f3d9a49d2dbdfccc1f5aebe9f8061148251001c&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412038002&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvc2lkZXN0cmVldHNwb2RjYXN0LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=CEIAEBNCJO&K=e4426131a00e35b7606fadab479d22400bd91fa8ac1680661a84bfbaf4b5389d&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412038002&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3NpZGVzdHJlZXRzcG9kY2FzdC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijk4Mjg0OTAwMDgyIiwiYmxvZ2lkIjoiMTcwMjQ3MTIyIiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzcwODUyMjk0MiIsImJsb2dpZCI6IjE3MDI0NzEyMiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTcxMTU5MjUxOTciLCJibG9naWQiOiIxNzAyNDcxMjIiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NTE0OTAxOTIyIiwiYmxvZ2lkIjoiMTcwMjQ3MTIyIiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NTg4NTMyOTcwMiIsImJsb2dpZCI6IjE3MDI0NzEyMiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTUyNTE5MjYyOTIiLCJibG9naWQiOiIxNzAyNDcxMjIiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk0NTk4OTUzMzUyIiwiYmxvZ2lkIjoiMTcwMjQ3MTIyIiwic291cmNlIjozM30seyJwb3N0aWQiOiI5MzkzODQ1NDQ5NyIsImJsb2dpZCI6IjE3MDI0NzEyMiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTI2MDMwODA1MTIiLCJibG9naWQiOiIxNzAyNDcxMjIiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjkxOTE0NjA0ODg3IiwiYmxvZ2lkIjoiMTcwMjQ3MTIyIiwic291cmNlIjozM31dfQ==&U=LJGBHGKJBF&K=ab6469e514ddcbe1d6a2eef686530d4821bca200b2ae97daa8c1ba86b300c914&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412038002&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3NpZGVzdHJlZXRzcG9kY2FzdC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InBvc3RpZCI6Ijk4Mjg0OTAwMDgyIiwiYmxvZ2lkIjoiMTcwMjQ3MTIyIiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NzcwODUyMjk0MiIsImJsb2dpZCI6IjE3MDI0NzEyMiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTcxMTU5MjUxOTciLCJibG9naWQiOiIxNzAyNDcxMjIiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk2NTE0OTAxOTIyIiwiYmxvZ2lkIjoiMTcwMjQ3MTIyIiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NTg4NTMyOTcwMiIsImJsb2dpZCI6IjE3MDI0NzEyMiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTUyNTE5MjYyOTIiLCJibG9naWQiOiIxNzAyNDcxMjIiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk0NTk4OTUzMzUyIiwiYmxvZ2lkIjoiMTcwMjQ3MTIyIiwic291cmNlIjozM30seyJwb3N0aWQiOiI5MzkzODQ1NDQ5NyIsImJsb2dpZCI6IjE3MDI0NzEyMiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTI2MDMwODA1MTIiLCJibG9naWQiOiIxNzAyNDcxMjIiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjkxOTE0NjA0ODg3IiwiYmxvZ2lkIjoiMTcwMjQ3MTIyIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=LJGBHGKJBF&K=e67ced955dd538d6059fb499f0c548d3008ddd709e52abe9eb8a4a19ab118d8b&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:170247122,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2F&amp;lang=en_US&amp;name=sidestreetspodcast&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_05a409e52c14_64.png&amp;title=The+SideStreets+Podcast&amp;url=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2F&amp;lang=en_US&amp;name=sidestreetspodcast&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_05a409e52c14_64.png&amp;title=The+SideStreets+Podcast&amp;url=http%3A%2F%2Fsidestreetspodcast.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

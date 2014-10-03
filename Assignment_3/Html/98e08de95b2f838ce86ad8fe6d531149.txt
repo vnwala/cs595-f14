@@ -1,0 +1,737 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>Оформление ВКонтакте - VKDiz.ru</title>
+
+<meta name="description" content="Оформление публичной страницы, дизайн паблика, меню группы ВКонтакте. Фон Спрашивай.ру, вопросы Ask.fm, сигны." />
+<meta name="keywords" content="меню, группы, вконтакте, сделать, фон, спрашивай, вопросы, вк, скачать, шаблоны, код, дизайн, ава, psd, сигны, паблик, оформление, публичной страницы, сезон, серия" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="http://vkdiz.ru/engine/opensearch.php" title="Оформление ВКонтакте - VKDiz.ru" />
+<link rel="alternate" type="application/rss+xml" title="Оформление ВКонтакте - VKDiz.ru" href="http://vkdiz.ru/rss.xml" />
+<script type="text/javascript" src="/engine/classes/js/jquery.js"></script>
+<script type="text/javascript" src="/engine/classes/js/jqueryui.js"></script>
+<script type="text/javascript" src="/engine/classes/js/dle_js.js"></script>
+<script type="text/javascript" src="/engine/classes/highslide/highslide.js"></script>
+<link rel="shortcut icon" href="/templates/vkdiz/images/favicon.ico" />
+<link media="screen" href="/templates/vkdiz/style/styles.css" type="text/css" rel="stylesheet" />
+<link media="screen" href="/templates/vkdiz/style/engine.css" type="text/css" rel="stylesheet" />
+<link media="screen" href="/engine/buysystem/js/dle_buysystem.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/templates/vkdiz/js/jquery.jmpopups-0.5.1.js"></script>
+<script type="text/javascript" src="/templates/vkdiz/js/ddaccordion.js"></script>
+<script type="text/javascript" src="/engine/buysystem/js/dle_buysystem.js"></script> 
+<link rel="author" href="https://plus.google.com/112543143681643906047" />
+<link rel="publisher" href="https://plus.google.com/112543143681643906047" />
+<meta name="google-site-verification" content="ZNmH8ittQMmgoNqFKJM75m-klpS0XBtrFmTf_1TdZ3s" />
+<meta name="google-site-verification" content="txKoh0Gz4FCPVs9yeFTqg-iSSxlnoVNamnpPxEuh1N4" />
+<meta name="telderi" content="f67f4c4b0bd4d8a0a16040ae75fb5c1d" />
+<meta name='wmail-verification' content='4ea7cad98604cec9' />
+<META NAME="webmoney.attestation.label" CONTENT="webmoney attestation label#ACD1DF72-7C2A-4A94-B272-6EE03388939C">
+<meta name='yandex-verification' content='7386e2c95c03f779' />
+<meta name="cypr-verification" content="111d379acfff29de7eb3be6ae8613e7f"/>
+<script type="text/javascript" src="/templates/vkdiz/js/upbtn.js"></script>
+<link media="screen" href="/engine/inc/socialmagic/css/socialmagic.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript" src="http://vk.com/js/api/openapi.js?75"></script>
+<script type="text/javascript">
+  VK.init({apiId: 2880751, onlyWidgets: true});
+</script>
+<script type="text/javascript" src="/engine/inc/socialmagic/js/jquery.socialmagic.js"></script>
+<script type="text/javascript">
+jQuery(function() {
+	//jQuery(".socialmagic-target").socialmagic();
+	
+	jQuery(".socialmagic-target").socialmagic({
+					onlyHide: true
+			});
+	
+});	
+</script>
+
+<script type="text/javascript">
+		//<![CDATA[
+			$.setupJMPopups({
+				screenLockerBackground: "#000",
+				screenLockerOpacity: "0.7"
+			});
+
+			function openStaticPopup() {
+				$.openPopupLayer({
+					name: "loginPopup",
+					width: 360,
+					target: "loginform"
+				});
+			}
+        $(document).ready(function() {
+                $('.created,.support').append('<span class="hover"></span>').each(function () {
+                        var $span = $('> span.hover', this).css('opacity', 0);
+                $(this).hover(function () {
+                        $span.stop().fadeTo(400, 1);
+                        }, function () {
+                $span.stop().fadeTo(900, 0);
+                        });
+                });
+        });
+		ddaccordion.init({
+  headerclass: "sublink",
+  contentclass: "submenu",
+  revealtype: "click",
+  mouseoverdelay: 200,
+  collapseprev: false,
+  defaultexpanded: [],
+  onemustopen: false,
+  animatedefault: false,
+  persiststate: false,
+  toggleclass: ["closed", "opened"],
+  togglehtml: ["none", "", ""],
+  animatespeed: "fast",
+  oninit:function(expandedindices){ //custom code to run when headers have initalized
+    //do nothing
+  },
+  onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+    //do nothing
+  }
+})
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16386682-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+function showChat() {
+$(function(){
+
+    $('#chat').dialog({
+        autoOpen: true,
+        show: 'fade',
+        hide: 'fade',
+        width: 450,
+        height: 500,
+    });
+});
+}
+//]]>-->
+</script>
+</head>
+<body>
+<div id="loading-layer" style="display:none"><div id="loading-layer-text">Загрузка. Пожалуйста, подождите...</div></div>
+<script language="javascript" type="text/javascript">
+<!--
+var dle_root       = '/';
+var dle_admin      = '';
+var dle_login_hash = '';
+var dle_group      = 5;
+var dle_skin       = 'vkdiz';
+var dle_wysiwyg    = 'no';
+var quick_wysiwyg  = '0';
+var dle_act_lang   = ["Да", "Нет", "Ввод", "Отмена", "Сохранить"];
+var menu_short     = 'Быстрое редактирование';
+var menu_full      = 'Полное редактирование';
+var menu_profile   = 'Просмотр профиля';
+var menu_send      = 'Отправить сообщение';
+var menu_uedit     = 'Админцентр';
+var dle_info       = 'Информация';
+var dle_confirm    = 'Подтверждение';
+var dle_prompt     = 'Ввод информации';
+var dle_req_field  = 'Заполните все необходимые поля';
+var dle_del_agree  = 'Вы действительно хотите удалить? Данное действие невозможно будет отменить';
+var dle_complaint  = 'Укажите текст вашей жалобы для администрации:';
+var dle_big_text   = 'Выделен слишком большой участок текста.';
+var dle_orfo_title = 'Укажите комментарий для администрации к найденной грамматической ошибке';
+var dle_p_send     = 'Отправить';
+var dle_p_send_ok  = 'Уведомление успешно отправлено';
+var dle_save_ok    = 'Изменения успешно сохранены.';
+var dle_del_news   = 'Удалить статью';
+var allow_dle_delete_news   = false;
+//-->
+</script><script language="javascript" type="text/javascript">  
+<!--  
+	hs.graphicsDir = '/engine/classes/highslide/graphics/';
+	hs.outlineType = 'rounded-white';
+	hs.numberOfImagesToPreload = 0;
+	hs.showCredits = false;
+	
+	hs.lang = {
+		loadingText :     'Загрузка...',
+		playTitle :       'Просмотр слайдшоу (пробел)',
+		pauseTitle:       'Пауза',
+		previousTitle :   'Предыдущее изображение',
+		nextTitle :       'Следующее изображение',
+		moveTitle :       'Переместить',
+		closeTitle :      'Закрыть (Esc)',
+		fullExpandTitle : 'Развернуть до полного размера',
+		restoreTitle :    'Кликните для закрытия картинки, нажмите и удерживайте для перемещения',
+		focusTitle :      'Сфокусировать',
+		loadingTitle :    'Нажмите для отмены'
+	};
+	
+//-->
+</script>
+
+        <div id="ball" style="z-index:99999; position:fixed; width:276px; height:88px; left:100%; top:100%; margin-top:-100px; margin-left:-290px; font-weight:normal; text-decoration:none;">
+        <table width="276" height="88" cellpadding="8px">
+        <tr><td valign="top" background="/templates/vkdiz/images/window_bg.png">
+        <table width="276" height="88"><tr><td style="padding:0 10px;">
+        <div style="float:right;"><a onclick='document.getElementById("ball").style.display = "none";return false;' href="#"><img border="0" src="/templates/vkdiz/images/spacer.gif" class="closep" alt="close" /></a></div>
+        <div align="center">Войти на наш сайт при помощи:<br>
+        <a onclick="ShowLoading('');" href="/engine/modules/vauth/auth.php?auth_site=vkontakte"><img src="/engine/modules/vauth/styles/vk.png" alt="Войти через ВКонтакте" title="Войти через ВКонтакте" /></a>
+<a onclick="ShowLoading('');" href="/engine/modules/vauth/auth.php?auth_site=facebook"><img src="/engine/modules/vauth/styles/fb.png" alt="Войти через facebook" title="Войти через facebook" /></a>
+<a onclick="ShowLoading('');" href="/engine/modules/vauth/auth.php?auth_site=twitter"><img src="/engine/modules/vauth/styles/tw.png" alt="Войти через twitter" title="Войти через twitter" /></a>
+<a onclick="ShowLoading('');" href="/engine/modules/vauth/auth.php?auth_site=mail"><img src="/engine/modules/vauth/styles/m.png" alt="Войти через мой mail.ru" title="Войти через mail.ru" /></a>
+<a onclick="ShowLoading('');" href="/engine/modules/vauth/auth.php?auth_site=odnoklassniki"><img src="/engine/modules/vauth/styles/ok.png" alt="Войти через Одноклассников" title="Войти через oдноклассников" /></a>
+</div>
+        </td></tr></table>
+        </td></tr></table>
+        </div>
+
+
+<div id="wrapper">
+
+	<div id="header">
+		<a href="/" class="logo coll"></a>
+		<div class="bannerbg colr">
+		  <span class="banner coll"></span>
+		  <a href="/advertising.html"><img src="/templates/vkdiz/images/spacer.gif" class="adsa colr" alt="" /></a>
+		</div><div class="clr"></div>
+		<div class="panl coll">
+
+	<a href="javascript:;" onclick="openStaticPopup()">
+	<img src="/templates/vkdiz/images/spacer.gif" alt="" class="authbtn clr" />
+	</a>
+	<a href="http://vkdiz.ru/index.php?do=register">
+	<img src="/templates/vkdiz/images/spacer.gif" alt="" class="regbtn clr" border="0" />
+	</a>
+<div id="loginform" class="window">
+  
+    <div class="allwindow">
+     
+	  <div class="logom coll"></div>
+	  <a href="javascript:;" onclick="$.closePopupLayer('loginPopup')" class="close" title="Закрыть"><img src="/templates/vkdiz/images/close.png" class="colr" alt="close" /></a>
+	  <div class="clr"></div>
+    <div class="popup-body">
+      <form method="post" onsubmit="javascript:showBusyLayer()" action="">
+
+	  <ul>
+	      <li><label for="login_name">Логин:</label></li>
+          <li><input type="text" name="login_name" class="formbg" /></li>
+		  <li><label for="login_password">Пароль:</label></li>
+          <li><input type="password" class="formbg" name="login_password" /></li>
+	  </ul>
+	  <span>(<a href="http://vkdiz.ru/index.php?do=register">Регистрация</a> | <a href="http://vkdiz.ru/index.php?do=lostpassword">Забыли пароль?</a>)</span>
+
+        <input name="login" type="hidden" id="login" value="submit" />
+		<input class="enterbtn" onclick="submit();" type="image" style="margin-left:130px;" src="/templates/vkdiz/images/spacer.gif" value="Войти" />
+      </form>
+      </div>
+  </div>
+</div>
+
+</div>
+		<div class="panr coll">
+		  <!--topmenu-->
+		    <div id="menu">
+	           <ul>
+		        <li><a href="http://vkdiz.ru/sitemap/"><span>Карта сайта</span></a><div class="mp">|</div></li>
+				<li><a href="/index.php?do=feedback"><span>Контакты</span></a><div class="mp">|</div></li>
+				<li><a href="/design/"><span>Оформление группы ВКонтакте</span></a><div class="mp">|</div></li>
+				<li><a href="/movies/"><span>Видеоархив</span></a><div class="mp">|</div></li></ul>
+             </div><div class="clr"></div>
+		  <!--#topmenu-->
+					<!--search-->
+					    <span class="searcht coll"></span>
+						<form method="post" action=''>
+					    <input type="hidden" name="do" value="search" />
+                        <input type="hidden" name="subaction" value="search" />
+						<input title="Найти" class="colr marg" alt="Найти" type="image" src="/templates/vkdiz/images/search_btn.png" />
+						<input class="searchfield colr" id="story" name="story" value="Введите слово для поиска..." onBlur="if(this.value=='') this.value='Введите слово для поиска...';" onFocus="if(this.value=='Введите слово для поиска...') this.value='';" type="text" />
+		                </form>
+					<!--#search-->
+		</div>
+	</div><!-- #header-->
+    <div class="upmiddle"><div class="clr"><div class="speedbar"><span id="dle-speedbar" xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="http://vkdiz.ru/" rel="v:url" property="v:title">VKDiz.ru</a></span></span></div></div></div>
+	<div id="middle">
+
+		<div id="container">
+			<div id="content">
+			   <div class="infoh"></div>
+  <div class="infobg">
+
+    <h1>Оформление групп ВКонтакте и многое другое у нас на сайте</h1>
+
+
+
+    <div style = "text-align: justify;"><p>Добро пожаловать на портал. Здесь Вы сможете найти самую интересную информацию о социальной сети ВКонтакте. В целом мы уже не первый год находимся на просторах Рунета, и мы одни из первых сайтов, которые начали заниматься оформлением групп и разработкой графических <a href="http://vkdiz.ru/design/menu/" >меню для группы ВК</a>. Так что на нашем портале можно найти не только <a href="http://vkdiz.ru/graficheskie/besplatnye/" >бесплатные меню</a>, но также еще <a href="/signes/" >сигны на теле</a> с вашим именем, совершенно бесплатно.<br /><br />Кстати, если Вы задумывались или хотите изменить дизайн на сайте Спрашивай.ру или фон на Ask.fm, то у нас Вы можете <a href="/sprashivai/" >скачать красивый фон</a> для вашей страницы. На этом наш портал не заканчивается, так что всегда можете подобрать смешные, любовные или пошлые <a href="/main/7623-voprosy-dlya-sprashivayru-100-voprosov.html" >вопросы для Спрашивай.ру</a> и Ask.fm.<br /><br />Так же мы позаботились о тех пользователях которые любят смотреть <a href="http://vkdiz.ru/series/" >сериалы онлайн</a> и <a href="http://vkdiz.ru/video/tv/" >телепередачи</a>, поэтому вы всегда найдете новые серии и новые выпуски любимых сериалов и теле-шоу, к примеру такие как Comedy Club, Пусть говорят, Топ Гир, Давай поженимся, Хата на тата, Рассмеши комика и многое другое.</p></div>
+</div>
+<div class="infobtm"></div>
+               <div id='dle-content'><div class="storyup"></div>
+  <div class="storybg">
+    <span class="stitle coll"><h2><a href="http://vkdiz.ru/articles/igru_vkontakte/15329-onlayn-bot-dlya-tyuryagi-ot-vilki.html">Онлайн Бот для Тюряги от Вилки</a></h2></span>
+	 
+	 <div class="clr"></div>
+	  <div class="shadowline"></div>
+	   <p>Автор: Min-Z-Drav &nbsp; | &nbsp; Дата: 21 апр. 2012 г. &nbsp; | &nbsp; Категория: Приложения ВКонтакте</p>
+    <div class="newsbase"><div class="justify_text"><div id="news-id-15329" style="display:inline;"><div align="center"><!--dle_image_begin:http://vkdiz.ru/uploads/posts/2012-06/1339841478_fdnjjn2.jpg|--><img src="/uploads/posts/2012-06/1339841478_fdnjjn2.jpg" alt="Онлайн Бот для Тюряги от Вилки" title="Онлайн Бот для Тюряги от Вилки"  /><!--dle_image_end--></div><br /><!--QuoteBegin--><div class="quote"><!--QuoteEBegin--><div align="center">Автоматический онлайн бот для выполнения всевозможных действий в Тюряге.<br /> Работает удаленно и не требует включенного компютера!</div><!--QuoteEnd--></div><!--QuoteEEnd--><br /><!--QuoteBegin--><div class="quote"><!--QuoteEBegin--><div align="center"><!--sizestart:2--><span style="font-size:10pt;"><!--/sizestart--><strong>Бот реально работает!</strong><!--sizeend--></span><!--/sizeend--></div><!--QuoteEnd--></div><!--QuoteEEnd--><br /><!--QuoteBegin--><div class="quote"><!--QuoteEBegin--><div align="center">Ссылка на бот:  <a href="/go?a%3AaHR0cDovL3ZpbGthYS5jb20vP2lkPTEzNzQ1Nzk2" target="_blank">Авто-Бот для Тюряги</a></div><!--QuoteEnd--></div><!--QuoteEEnd--></div></div>
+      </div>
+	 <div class="shadowline"></div>
+	<div class="clr"></div>
+  <div class="panels">Комментов: 32<div class="more colr"><b><a href="http://vkdiz.ru/articles/igru_vkontakte/15329-onlayn-bot-dlya-tyuryagi-ot-vilki.html">Подробнее</a></b></div></div>
+  </div>
+<div class="storybtm"></div><div class="storyup"></div>
+  <div class="storybg">
+    <span class="stitle coll"><h2><a href="http://vkdiz.ru/articles/igru_vkontakte/18404-onlayn-bot-lordsswords.html">Онлайн Бот «Lords&Swords»</a></h2></span>
+	 
+	 <div class="clr"></div>
+	  <div class="shadowline"></div>
+	   <p>Автор: Min-Z-Drav &nbsp; | &nbsp; Дата: 29 авг. 2014 г. &nbsp; | &nbsp; Категория: Приложения ВКонтакте</p>
+    <div class="newsbase"><div class="justify_text"><div id="news-id-18404" style="display:inline;"><div align="center"><!--dle_image_begin:http://vkdiz.ru/uploads/posts/2014-08/1409316906_vkdiz.ru_lordsswords.jpg|--><img src="/uploads/posts/2014-08/1409316906_vkdiz.ru_lordsswords.jpg" alt="Онлайн Бот «Lords&amp;Swords»" title="Онлайн Бот «Lords&amp;Swords»"  /><!--dle_image_end--></div><br />Недавно в социальной сети ВКонтакте, я наткнулся на <strong>новое</strong> приложение «<strong>Lords&Swords</strong>». Но, после первого запуска, я понял что эта игра от разработчиков «В Окопе» и соответственно решил найти рабочий, а самое главное автоматический <strong>онлайн бот</strong> для выполнения всевозможных действий «Lords&Swords». После недолгих поисков, я все таки нашел один очень полезный сервис, который работают удаленно и не требует включенного компьютера, поэтому бот будет функционировать 24 часа в сутки.<br /><br /><!--QuoteBegin--><div class="quote"><!--QuoteEBegin--><div align="center"><!--sizestart:2--><span style="font-size:10pt;"><!--/sizestart--><strong>Бот реально работает!</strong><!--sizeend--></span><!--/sizeend--></div><!--QuoteEnd--></div><!--QuoteEEnd--><br /><!--QuoteBegin--><div class="quote"><!--QuoteEBegin--><div align="center">Ссылка на бот:  <a href="/go?a%3AaHR0cDovL2dhbWVyMTkxMi5ydS8%2Fcl9scz00MDgw" target="_blank">Урон 11,763,264 в сутки!</a></div><!--QuoteEnd--></div><!--QuoteEEnd--></div></div>
+      </div>
+	 <div class="shadowline"></div>
+	<div class="clr"></div>
+  <div class="panels">Комментов: 0<div class="more colr"><b><a href="http://vkdiz.ru/articles/igru_vkontakte/18404-onlayn-bot-lordsswords.html">Подробнее</a></b></div></div>
+  </div>
+<div class="storybtm"></div><div class="storyup"></div>
+  <div class="storybg">
+    <span class="stitle coll"><h2><a href="http://vkdiz.ru/articles/igru_vkontakte/18403-onlayn-bot-v-okope.html">Онлайн Бот «В Окопе»</a></h2></span>
+	 
+	 <div class="clr"></div>
+	  <div class="shadowline"></div>
+	   <p>Автор: Min-Z-Drav &nbsp; | &nbsp; Дата: 23 авг. 2014 г. &nbsp; | &nbsp; Категория: Приложения ВКонтакте</p>
+    <div class="newsbase"><div class="justify_text"><div id="news-id-18403" style="display:inline;"><div align="center"><!--dle_image_begin:http://vkdiz.ru/uploads/posts/2014-08/1408798267_vkdiz.ru_v-okope.jpg|--><img src="/uploads/posts/2014-08/1408798267_vkdiz.ru_v-okope.jpg" alt="Онлайн Бот «В Окопе»" title="Онлайн Бот «В Окопе»"  /><!--dle_image_end--></div><br />Недавно я начал <strong>играть</strong> в приложение «<strong>В Окопе</strong>», которое находиться в социальной сети ВКонтакте, но после того как понял что эта игра от разработчиков «Тюряги», решил найти рабочий, а самое главное автоматический <strong>онлайн бот</strong> для выполнения всевозможных действий «В Окопе». После недолгих поисков, я все таки нашел два очень полезных сервиса, которые работают удаленно и не требует включенного компьютера, поэтому боты будут функционировать 24 часа в сутки.<br /> <br /><!--QuoteBegin--><div class="quote"><!--QuoteEBegin--><div align="center"><!--sizestart:2--><span style="font-size:10pt;"><!--/sizestart--><strong>Боты реально работают!</strong><!--sizeend--></span><!--/sizeend--></div><!--QuoteEnd--></div><!--QuoteEEnd--><br /><!--QuoteBegin--><div class="quote"><!--QuoteEBegin--><div align="center">Ссылка на бот №1:  <a href="/go?a%3AaHR0cDovLzQ3ODIwODU0LnJzdmlkZW8ucnUvbw%3D%3D" target="_blank">Урон 1,840,177 в сутки!</a></div><!--QuoteEnd--></div><!--QuoteEEnd--><br /><!--QuoteBegin--><div class="quote"><!--QuoteEBegin--><div align="center">Ссылка на бот №2:  <a href="/go?a%3AaHR0cDovL2dhbWVyMTkxMi5ydS8%2Fcj05ODI3" target="_blank">Урон 18,664,888 в сутки!</a></div><!--QuoteEnd--></div><!--QuoteEEnd--></div></div>
+      </div>
+	 <div class="shadowline"></div>
+	<div class="clr"></div>
+  <div class="panels">Комментов: 0<div class="more colr"><b><a href="http://vkdiz.ru/articles/igru_vkontakte/18403-onlayn-bot-v-okope.html">Подробнее</a></b></div></div>
+  </div>
+<div class="storybtm"></div><div class="storyup"></div>
+  <div class="storybg">
+    <span class="stitle coll"><h2><a href="http://vkdiz.ru/design/graphic/18402-menyu-dlya-gruppy-vkontakte-minecraft-2608.html">Меню для группы ВКонтакте Minecraft №2608</a></h2></span>
+	 
+	 <div class="clr"></div>
+	  <div class="shadowline"></div>
+	   <p>Автор: Min-Z-Drav &nbsp; | &nbsp; Дата: 20 июл. 2014 г. &nbsp; | &nbsp; Категория: Графическое меню ВК</p>
+    <div class="newsbase"><div class="justify_text"><div id="news-id-18402" style="display:inline;"><div align="center"><!--dle_image_begin:http://vkdiz.ru/uploads/posts/2014-07/1405866081_vkdiz.ru_minecraft.jpg|--><img src="/uploads/posts/2014-07/1405866081_vkdiz.ru_minecraft.jpg" alt="Меню для группы ВКонтакте Minecraft №2608" title="Меню для группы ВКонтакте Minecraft №2608"  /><!--dle_image_end--></div><br />Графическое <strong>меню для группы ВКонтакте</strong> в стиле <strong>Minecraft</strong>. Создано, конечно, в цветах самой игры, что в очередной раз подчеркивает красочный и ошеломляющий кубический мир, где можно встретить зомби, скелетов и тех же криперов, которые при виде тебя начинают паниковать и взрыватся. Если говорить о дизайне, то он легко подойдет для тех людей, у кого есть свой собственный <strong>сервер Майнкрафт</strong>, так как в оформлении существует строчка, где можно самому изменить и прописать свой ip адрес сервера Minecraft. Стоимость данного дизайна составляет <strong>3$</strong>, при оплате которого, вы получаете уже готовое меню с исходниками, в которых вы сможете через Photoshop изменить, или поправить тот или иной фрагмент. Если возникнут проблемы, с установкой или оплатой, то вы всегда сможете обратиться ко мне, я с радостью вам помогу.</div></div>
+      </div>
+	 <div class="shadowline"></div>
+	<div class="clr"></div>
+  <div class="panels">Комментов: 0<div class="more colr"><b><a href="http://vkdiz.ru/design/graphic/18402-menyu-dlya-gruppy-vkontakte-minecraft-2608.html">Подробнее</a></b></div></div>
+  </div>
+<div class="storybtm"></div><div class="storyup"></div>
+  <div class="storybg">
+    <span class="stitle coll"><h2><a href="http://vkdiz.ru/design/graphic/18401-menyu-dlya-gruppy-vkontakte-counter-strike-source-2607.html">Меню для группы ВКонтакте Counter-Strike Source №2607</a></h2></span>
+	 
+	 <div class="clr"></div>
+	  <div class="shadowline"></div>
+	   <p>Автор: Min-Z-Drav &nbsp; | &nbsp; Дата: 28 ноя. 2013 г. &nbsp; | &nbsp; Категория: Графическое меню ВК</p>
+    <div class="newsbase"><div class="justify_text"><div id="news-id-18401" style="display:inline;"><div align="center"><!--dle_image_begin:http://cs403119.vk.me/v403119854/b3b8/BCjcBPU75SA.jpg|--><img src="http://cs403119.vk.me/v403119854/b3b8/BCjcBPU75SA.jpg" alt="Меню для группы ВКонтакте Counter-Strike Source №2607" title="Меню для группы ВКонтакте Counter-Strike Source №2607"  /><!--dle_image_end--></div><br />Новая версия <strong>меню для группы ВКонтакте</strong> - <strong>Counter Strike Source</strong>, на этот раз полностью в стиле оригами и темно серых тонах. Форма и расположение всех элементов выглядит довольно-таки симпатично, но спешу вас огорчить - <u>меню платное</u>. Поэтому, чтобы вы сильно не огорчались цену я поставил мизерную, а именно - <strong>3$</strong>. Оплатить и получить графическое меню Вы сможете в полной новости. После оплаты вы получите архив в котором будет: <em>Аватар</em>, <em>Баннер</em> и <em>Главное меню</em> (в разрезанном виде) в формате JPG. Всем кто решил купить меню рекомендуем посмотреть видео, которое находиться в этой новости.</div></div>
+      </div>
+	 <div class="shadowline"></div>
+	<div class="clr"></div>
+  <div class="panels">Комментов: 11<div class="more colr"><b><a href="http://vkdiz.ru/design/graphic/18401-menyu-dlya-gruppy-vkontakte-counter-strike-source-2607.html">Подробнее</a></b></div></div>
+  </div>
+<div class="storybtm"></div><div class="storyup"></div>
+  <div class="storybg">
+    <span class="stitle coll"><h2><a href="http://vkdiz.ru/design/menu/18400-menyu-dlya-gruppy-vkontakte-fifa-14-2605.html">Меню для группы ВКонтакте FIFA 14 №2606</a></h2></span>
+	 
+	 <div class="clr"></div>
+	  <div class="shadowline"></div>
+	   <p>Автор: Min-Z-Drav &nbsp; | &nbsp; Дата: 30 сен. 2013 г. &nbsp; | &nbsp; Категория: Меню для группы ВК</p>
+    <div class="newsbase"><div class="justify_text"><div id="news-id-18400" style="display:inline;"><div align="center"><!--dle_image_begin:http://cs616716.vk.me/v616716854/83a/yXTzVPIwwr8.jpg|--><img src="http://cs616716.vk.me/v616716854/83a/yXTzVPIwwr8.jpg" alt="Меню для группы ВКонтакте FIFA 14 №2606" title="Меню для группы ВКонтакте FIFA 14 №2606"  /><!--dle_image_end--></div><br />Хотим предложить вам <strong>графическое меню</strong> для вашей <strong>группы ВКонтакте</strong>, оно посвящено  новому футбольному симулятору от EA под названием <strong>FIFA 14</strong>. Данная игра вышла 27 сентября 2013 года и вы уже можете скачать игру FIFA 14 c торрента. Как на наш взгляд симулятор достоин внимания, поскольку если сравнивать прошлые игры серии, то тут вас ждет масса новых фишек, например безупречный удар, которая делает каждый удар невероятно реалистичным и траектория полета мяча соответствует реальной физики полета. Футболисты могут пробивать пушечный удар с дистанции, удивлять вратаря низколетящими мячом а также выполнять удары за шиворот и закручиванием мяча как настоящим футболе.</div></div>
+      </div>
+	 <div class="shadowline"></div>
+	<div class="clr"></div>
+  <div class="panels">Комментов: 6<div class="more colr"><b><a href="http://vkdiz.ru/design/menu/18400-menyu-dlya-gruppy-vkontakte-fifa-14-2605.html">Подробнее</a></b></div></div>
+  </div>
+<div class="storybtm"></div><div class="storyup"></div>
+  <div class="storybg">
+    <span class="stitle coll"><h2><a href="http://vkdiz.ru/sp/wallpaper/18398-fon-dlya-sprashivayru-coca-cola.html">Фон для Спрашивай.ру - Coca-Cola</a></h2></span>
+	 
+	 <div class="clr"></div>
+	  <div class="shadowline"></div>
+	   <p>Автор: Min-Z-Drav &nbsp; | &nbsp; Дата: 2 сен. 2013 г. &nbsp; | &nbsp; Категория: Фоны (Обои)</p>
+    <div class="newsbase"><div class="justify_text"><div id="news-id-18398" style="display:inline;"><div align="center"><!--TBegin--><a href="http://vkdiz.ru/uploads/posts/2013-09/1378134856_vkdiz.ru_coca-cola.jpg" onclick="return hs.expand(this)" ><img src="/uploads/posts/2013-09/thumbs/1378134856_vkdiz.ru_coca-cola.jpg" alt='Фон для Спрашивай.ру - Coca-Cola' title='Фон для Спрашивай.ру - Coca-Cola'  /></a><!--TEnd--></div><br />Предлагаем вам одну из темных картинок - это <strong>фон для Спрашивай.ру</strong>, который имеет название <strong>Coca-Cola</strong>. Так как недавно закончилось лето, но жажда осталась, ведь жара на улицах далеко не ушла, и попить хочется. Поэтому сделал этот замечательный фон, на котором изображена бутылочка с холодным напитком. Сама картинка выполнена в черных цветах, и отлично подойдет тем людям, которые жить не могут без темных цветов.<br /></div></div>
+      </div>
+	 <div class="shadowline"></div>
+	<div class="clr"></div>
+  <div class="panels">Комментов: 6<div class="more colr"><b><a href="http://vkdiz.ru/sp/wallpaper/18398-fon-dlya-sprashivayru-coca-cola.html">Подробнее</a></b></div></div>
+  </div>
+<div class="storybtm"></div><div class="storyup"></div>
+  <div class="storybg">
+    <span class="stitle coll"><h2><a href="http://vkdiz.ru/design/graphic/18397-menyu-dlya-gruppy-vkontakte-games-day-2605.html">Меню для группы ВКонтакте Games Day №2605</a></h2></span>
+	 
+	 <div class="clr"></div>
+	  <div class="shadowline"></div>
+	   <p>Автор: Min-Z-Drav &nbsp; | &nbsp; Дата: 2 авг. 2013 г. &nbsp; | &nbsp; Категория: Графическое меню ВК</p>
+    <div class="newsbase"><div class="justify_text"><div id="news-id-18397" style="display:inline;"><div align="center"><!--dle_image_begin:http://vkdiz.ru/uploads/posts/2013-08/1375472522_vkdiz.ru_bez-i-1.jpg|--><img src="/uploads/posts/2013-08/1375472522_vkdiz.ru_bez-i-1.jpg" alt="Меню для группы ВКонтакте Games Day №2605" title="Меню для группы ВКонтакте Games Day №2605"  /><!--dle_image_end--></div><br />Представляю вашему вниманию первое <strong>графическое меню</strong> нового формата для группы ВКонтакте, которое имеет название <strong>Games Day</strong>. Данный формат стал популярен в 2013 году, и стал использоваться как в группе так и в паблике. Поэтому все плавно начали переходить на новый формат, так как новый формат очень удобный, красивый, универсальный и самое главное является открытым оформлением для группы ВК. Но, и цена стала выше, за такое оформление нужно будет заплатить 600 русских рублей, наверно многие скажут дорого, но они этого стоят. Чтобы полностью убедиться в этом, рекомендую посмотреть видео, которое находиться в полной новости.</div></div>
+      </div>
+	 <div class="shadowline"></div>
+	<div class="clr"></div>
+  <div class="panels">Комментов: 5<div class="more colr"><b><a href="http://vkdiz.ru/design/graphic/18397-menyu-dlya-gruppy-vkontakte-games-day-2605.html">Подробнее</a></b></div></div>
+  </div>
+<div class="storybtm"></div><div class="storyup"></div>
+  <div class="storybg">
+    <span class="stitle coll"><h2><a href="http://vkdiz.ru/design/menu/18391-menyu-dlya-gruppy-vkontakte-fc-barcelona-2604.html">Меню для группы ВКонтакте FC Barcelona №2604</a></h2></span>
+	 
+	 <div class="clr"></div>
+	  <div class="shadowline"></div>
+	   <p>Автор: Min-Z-Drav &nbsp; | &nbsp; Дата: 15 июл. 2013 г. &nbsp; | &nbsp; Категория: Меню для группы ВК</p>
+    <div class="newsbase"><div class="justify_text"><div id="news-id-18391" style="display:inline;"><div align="center"><!--dle_image_begin:http://cs418121.vk.me/v418121854/5ca1/zOepqgCpZXc.jpg|--><img src="http://cs418121.vk.me/v418121854/5ca1/zOepqgCpZXc.jpg" alt="Меню для группы ВКонтакте FC Barcelona №2604" title="Меню для группы ВКонтакте FC Barcelona №2604"  /><!--dle_image_end--></div><br />Выполнил очередной бесплатный заказ <strong>меню для группы</strong> ВКонтакте с футбольным клубом <strong>Barcelona</strong>. Это меню выполнено в цветах клубной символики Барселоны, и отлично смотреться в группе ВК. Выполняя это оформление, я брал за основу игроков FC Barcelona, которые кстати презентовали <strong>новую форму</strong> 2013-2014. Также хочу отметить четкие и ровные кнопки в оформлении, которые делают меню строгим и в тоже время удобным, что не может не радовать. Установка, как всегда, очень легкая.</div></div>
+      </div>
+	 <div class="shadowline"></div>
+	<div class="clr"></div>
+  <div class="panels">Комментов: 8<div class="more colr"><b><a href="http://vkdiz.ru/design/menu/18391-menyu-dlya-gruppy-vkontakte-fc-barcelona-2604.html">Подробнее</a></b></div></div>
+  </div>
+<div class="storybtm"></div><div class="storyup"></div>
+  <div class="storybg">
+    <span class="stitle coll"><h2><a href="http://vkdiz.ru/design/menu/18390-menyu-dlya-gruppy-vkontakte-nissan-silvia-2603.html">Меню для группы ВКонтакте Nissan Silvia №2603</a></h2></span>
+	 
+	 <div class="clr"></div>
+	  <div class="shadowline"></div>
+	   <p>Автор: Min-Z-Drav &nbsp; | &nbsp; Дата: 14 июл. 2013 г. &nbsp; | &nbsp; Категория: Меню для группы ВК</p>
+    <div class="newsbase"><div class="justify_text"><div id="news-id-18390" style="display:inline;"><div align="center"><!--dle_image_begin:http://cs418121.vk.me/v418121854/5c03/_sF3bSi3x9I.jpg|--><img src="http://cs418121.vk.me/v418121854/5c03/_sF3bSi3x9I.jpg" alt="Меню для группы ВКонтакте Nissan Silvia №2603" title="Меню для группы ВКонтакте Nissan Silvia №2603"  /><!--dle_image_end--></div><br />Заказчик попросил сделать <strong>меню для группы ВКонтакте</strong> с машиной <strong>Nissan Silvia</strong>. Я в течении часа сделал ему оформление, но ему не понравилось, оказалось что машина обрезанная ему не по нраву. Поэтому я не стал париться, отказался от выполнения работы и выложил это меню сюда на сайт, как бесплатное оформление для группы ВК. Так как не люблю, когда заказчик не знает что ему нужно, и парит мозги дизайнеру. И совет на будущее тем кто будет заказывать меню - делайте заказ с уже подобранной картинкой.</div></div>
+      </div>
+	 <div class="shadowline"></div>
+	<div class="clr"></div>
+  <div class="panels">Комментов: 4<div class="more colr"><b><a href="http://vkdiz.ru/design/menu/18390-menyu-dlya-gruppy-vkontakte-nissan-silvia-2603.html">Подробнее</a></b></div></div>
+  </div>
+<div class="storybtm"></div><div class="clr"></div>
+<div align="center" style="margin-bottom:40px;">
+<div class="shadownav"></div>
+<div class="nav-1">
+    	<span><img style="margin-bottom:-10px;" src="/templates/vkdiz/images/lt.gif" alt="" /></span>
+		&nbsp; <span class="navigation"><span>1</span> <a href="http://vkdiz.ru/page/2/">2</a> <a href="http://vkdiz.ru/page/3/">3</a> <a href="http://vkdiz.ru/page/4/">4</a> <a href="http://vkdiz.ru/page/5/">5</a> <a href="http://vkdiz.ru/page/6/">6</a> <a href="http://vkdiz.ru/page/7/">7</a> <a href="http://vkdiz.ru/page/8/">8</a> <a href="http://vkdiz.ru/page/9/">9</a> <a href="http://vkdiz.ru/page/10/">10</a> <span class="nav_ext">...</span> <a href="http://vkdiz.ru/page/423/">423</a></span>  &nbsp;  
+		<a href="http://vkdiz.ru/page/2/"><img style="margin-bottom:-10px;" src="/templates/vkdiz/images/gt.gif" alt="" /></a>
+<div class="clr"></div>
+</div></div>
+<div class="clr"></div></div>
+			</div><!-- #content-->
+		</div><!-- #container-->
+
+		<div class="sidebar" id="sideLeft">
+			<!--menu--><div class="menuh"><h3>Меню сайта</h3></div>
+  <div class="menubg">
+    <div class="contd">
+     <ul class="reset">
+	  <li><a href="/">Главная</a></li>
+	  <li><a href="/public/">Оформление паблика ВК</a></li>
+     <li><span class="sublink">Оформление группы ВК</span>
+        <div class="submenu">
+          <ul class="reset">
+            <li><a href="/design/menu/">Меню для группы ВК</a></li>
+            <li><a href="/design/graphic/">Графическое меню ВК</a></li>
+            <li><a href="/design/pictures/">Картинки для группы ВК</a></li>
+            <li><a href="/go?a%3AaHR0cDovL3RhbGsudmtkaXoucnUvdG9waWMvMi8%3D">Заказать меню</a></li>
+            </ul>
+        </div>
+      </li>
+	<li><span class="sublink">Граффити ВК</span>
+        <div class="submenu">
+          <ul class="reset">
+            <li><a href="/graffiti/">Все граффити</a></li>
+            <li><a href="/graffiti/animals/">Животные</a></li>
+            <li><a href="/graffiti/love/">Любовь</a></li>
+            <li><a href="/graffiti/miscellaneous/">Разное</a></li>
+            <li><a href="/graffiti/humor/">Юмор</a></li>
+            </ul>
+        </div>
+      </li>
+	  <li><span class="sublink">Всё для Photoshop</span>
+        <div class="submenu">
+          <ul class="reset">
+            <li><a href="/ps/psd/avatars/">Аватарки (PSD)</a></li>
+            <li><a href="/ps/psd/elements/">Веб элементы (PSD)</a></li>
+            <li><a href="/ps/psd/icons/">Иконки (PSD)</a></li>
+            <li><a href="/ps/psd/layouts/">Макеты (PSD)</a></li>
+            <li><a href="/ps/psd/logo/">Логотипы (PSD)</a></li>
+			<li><a href="/photoshop/styles/">Стили (ASL, PSD)</a></li>
+			<li><a href="/photoshop/brushers/">Кисти (ABR)</a></li>
+			<li><a href="/photoshop/patterns/">Узоры (PAT)</a></li>
+            <li><a href="/photoshop/backgrounds/">Текстуры и фоны (JPG, PNG)</a></li>
+            </ul>
+        </div>
+      </li>
+	  <li><span class="sublink">Всё для Спрашивай.ру</span>
+        <div class="submenu">
+          <ul class="reset">
+            <li><a href="/sp/secrets/">Секреты Спрашивай.ру</a></li>
+            <li><a href="/sp/questions/">Вопросы для Спрашивай.ру</a></li>
+			<li><a href="/sp/nicknames/">Ники для Спрашивай.ру</a></li>
+            <li><a href="/sp/answers/">Смешные ответы</a></li>
+			<li><a href="/sp/wallpaper/">Фон для Спрашивай.ру</a></li>
+ </ul>
+        </div>
+      </li>
+	  <li><span class="sublink">Всё для Аск.фм</span>
+        <div class="submenu">
+          <ul class="reset">
+            <li><a href="/ask/secret/">Секреты Аск.фм</a></li>
+            <li><a href="/ask/question/">Вопросы для Аск.фм</a></li>
+			<li><a href="/ask/picture/">Картинки - ответы</a></li>
+			<li><a href="/ask/background/">Фон для Аск.фм</a></li>
+			<li><a href="/ask/nickname/">Ники для Аск.фм</a></li>
+		</ul>
+        </div>
+      </li>
+        <li><span class="sublink">Видеоархив</span>
+        <div class="submenu">
+          <ul class="reset">
+            <li><a href="/movies/videoyroki/">Видеоуроки онлайн</a></li>
+            <li><a href="/movies/slips/">Клипы онлайн</a></li>
+            <li><a href="/movies/love/">Видео про любовь</a></li>
+            <li><a href="/movies/world/">Новости онлайн</a></li>
+            <li><a href="/movies/animation/">Мультфильмы онлайн</a></li>
+            <li><a href="/movies/fun/"> Видео приколы</a></li>
+            <li><a href="/movies/miscellaneous/">Разное видео</a></li>
+            <li><a href="/movies/soaps/">Сериалы онлайн</a></li>
+            <li><a href="/movies/tv/">Телепередачи онлайн</a></li>
+            <li><a href="/movies/film/">Фильмы онлайн</a></li>
+            <li><a href="/movies/football/">Футбол онлайн</a></li>
+            </ul>
+        </div>
+      </li>
+      <li><span class="sublink">Все о ВКонтакте.ру</span>
+        <div class="submenu">
+          <ul class="reset">
+            <li><a href="/articles/news_vkontakte/">Новости</a></li>
+            <li><a href="/articles/secrety_vkontakte/">Секреты</a></li>
+             <li><a href="/articles/igru_vkontakte/">Приложения</a></li>
+              <li><a href="/articles/wiki_vkontakte/">Вики-разметка</a></li>
+               <li><a href="/articles/status_vkontakte/">Статусы</a></li>
+                <li><a href="/articles/raznoe__vkontakte/"> Разное</a></li>
+ </ul>
+        </div>
+      </li>
+            <li><span class="sublink">Платное под HIDE</span>
+        <div class="submenu">
+          <ul class="reset">
+            <li><a href="/buy/buygraphics/">Графика и PSD</a></li>
+            </ul>
+        </div>
+      </li>
+      <li><a href="/signes/">Сигны на теле с именами</a></li>
+      <li><a href="/series/">Сериалы онлайн</a></li>
+        <li><a href="/index.php?do=orderdesc">Стол заказов! Бесплатно!</a></li>
+       <li><a href="/video/videoyroki/">Видеоуроки</a></li>
+       <li><a href="/soft/">Программы</a></li>
+         <li><a href="/news_vkdiz">Новости</a></li>
+    </ul>
+</div>
+  </div>
+<div class="menub"></div><!--#menu-->
+
+<!--vote-->
+<div class="voteh"></div>
+  <div class="votebg">
+    <h3>Опрос</h3>
+     <span class="vpunkt"></span>
+     <script language="javascript" type="text/javascript">
+<!--
+function doVote( event ){
+
+	
+	var vote_check = $('#dle-vote input:radio[name=vote_check]:checked').val();
+
+	ShowLoading('');
+
+	$.get(dle_root + "engine/ajax/vote.php", { vote_id: "9", vote_action: event, vote_check: vote_check, vote_skin: dle_skin }, function(data){
+
+		HideLoading('');
+
+		$("#vote-layer").fadeOut(500, function() {
+			$(this).html(data);
+			$(this).fadeIn(500);
+		});
+
+	});
+}
+//-->
+</script><div id='vote-layer'>   <div class="vtitleh"></div>
+    <div class="vtitlebg">Вы кто?</div>
+   <div class="vtitleb"></div>
+  <form method="post" name="vote" action=''>
+
+	<div class="votel"><div id="dle-vote"><div class="vote"><input name="vote_check" type="radio" checked="checked" value="0" /> Девушка!</div><div class="vote"><input name="vote_check" type="radio"  value="1" /> Парень!</div></div>
+	
+	
+     </div>
+				<input type="hidden" name="vote_action" value="vote" />
+				<input type="hidden" name="vote_id" id="vote_id" value="1" />
+				<div class="clr"></div>
+				<input class="votebut" type="image" src="/templates/vkdiz/images/spacer.gif" onclick="doVote('vote'); return false;" value="Голосовать" />
+          <input type="hidden" name="vote_action" value="results" />
+          <input type="hidden" name="vote_id" value="1" />
+          <input class="resbut" src="/templates/vkdiz/images/spacer.gif" type="image" onclick="doVote('results'); return false;" alt="Результаты" title="Результаты" />
+<div class="clr"></div>
+
+			</form>
+	
+</div>
+  </div>
+<div class="votebtm"></div>
+<!--#vote-->
+
+<!--Наш выбор-->
+<div class="ourh"><h3>Наш выбор</h3></div>
+ <div class="ourbg">
+  <strong><a href="/586-image-cut-14.html">Image Cut 1.5 RUS</a></strong> - программа для разделения изображений на части для размещения на веб-страницах.
+ <a href="/586-image-cut-14.html" class="download">
+ Image Cut 1.5 RUS
+ </a>
+  </div>
+  <div class="ourbtm"></div>
+
+		</div><!-- .sidebar#sideLeft -->
+
+		<div class="sidebar" id="sideRight">
+			<!--tags-->
+<div class="righth"><h3>Видео</h3></div>
+  <div class="rightbg pdng"><div class="topnews"><ul><!-- Explay. Movie Informer: order (datetime), sort (DESC), limit (30), days(0), categories (), cache(1) --><li><a href="/movies/world/51664-novosti-24-2300-efir-290914.html" title="Новости 24 (23:00) (Эфир 29.09.14)">Новости 24 (23:00) (Эфир ...</a></li></tr><tr><li><a href="/movies/tv/51665-shuster-live-efir-290914.html" title="Шустер LIVE (Эфир 29.09.14)">Шустер LIVE (Эфир 29.09.1...</a></li></tr><tr><li><a href="/movies/world/51666-podrobnosti-efir-290914.html" title="Подробности (Эфир 29.09.14)">Подробности (Эфир 29.09.1...</a></li></tr><tr><li><a href="/movies/soaps/51663-otec-matvey-10-seriya-efir-290914.html" title="Отец Матвей (10 серия) (Эфир 29.09.14)">Отец Матвей (10 серия) (Э...</a></li></tr><tr><li><a href="/movies/soaps/51662-praktika-36-seriya-efir-290914.html" title="Практика (36 серия) (Эфир 29.09.14)">Практика (36 серия) (Эфир...</a></li></tr><tr><li><a href="/movies/world/51661-vesti-v-2300-efir-290914.html" title="Вести в 23:00 (Эфир 29.09.14)">Вести в 23:00 (Эфир 29.09...</a></li></tr><tr><li><a href="/movies/soaps/51660-otec-matvey-9-seriya-efir-290914.html" title="Отец Матвей (9 серия) (Эфир 29.09.14)">Отец Матвей (9 серия) (Эф...</a></li></tr><tr><li><a href="/movies/tv/51656-revizor-4-sezon-7-vypusk-efir-290914.html" title="Ревизор (4 сезон, 7 выпуск) (Эфир 29.09.14)">Ревизор (4 сезон, 7 выпус...</a></li></tr><tr><li><a href="/movies/world/51654-okna-novosti-efir-290914.html" title="Окна новости (Эфир 29.09.14)">Окна новости (Эфир 29.09....</a></li></tr><tr><li><a href="/movies/soaps/51655-praktika-35-seriya-efir-290914.html" title="Практика (35 серия) (Эфир 29.09.14)">Практика (35 серия) (Эфир...</a></li></tr><tr><li><a href="/movies/tv/51657-novorozhdennaya-rossiya-6-vypusk-efir-290914.html" title="Новорождённая Россия (6 выпуск) (Эфир 29.09.14)">Новорождённая Россия (6 в...</a></li></tr><tr><li><a href="/movies/world/51658-lifenews-2200-efir-290914.html" title="LifeNews (22:00) (Эфир 29.09.14)">LifeNews (22:00) (Эфир 29...</a></li></tr><tr><li><a href="/movies/soaps/51659-dvornyazhka-lyalya-31-seriya-efir-300914-anons.html" title="Дворняжка Ляля (31 серия) (Эфир 30.09.14) Анонс">Дворняжка Ляля (31 серия)...</a></li></tr><tr><li><a href="/movies/tv/51653-kub-5-sezon-5-vypusk-efir-290914.html" title="Куб (5 сезон, 5 выпуск) (Эфир 29.09.14)">Куб (5 сезон, 5 выпуск) (...</a></li></tr><tr><li><a href="/movies/soaps/51652-bruklin-9-9-2-sezon-1-seriya-kerob.html" title="Бруклин 9-9 (2 сезон, 1 серия) Kerob">Бруклин 9-9 (2 сезон, 1 с...</a></li></tr><tr><li><a href="/movies/soaps/51647-policiya-chikago-2-sezon-1-seriya-russkie-subtitry.html" title="Полиция Чикаго (2 сезон, 1 серия) Русские субтитры">Полиция Чикаго (2 сезон, ...</a></li></tr><tr><li><a href="/movies/soaps/51649-podpolnaya-imperiya-5-sezon-4-seriya-amedia.html" title="Подпольная империя (5 сезон, 4 серия) Amedia">Подпольная империя (5 сез...</a></li></tr><tr><li><a href="/movies/soaps/51651-podpolnaya-imperiya-5-sezon-4-seriya-russkie-subt.html" title="Подпольная империя (5 сезон, 4 серия) Русские субтитры">Подпольная империя (5 сез...</a></li></tr><tr><li><a href="/movies/tv/51635-chrezvychaynye-novosti-efir-290914.html" title="Чрезвычайные новости (Эфир 29.09.14)">Чрезвычайные новости (Эфи...</a></li></tr><tr><li><a href="/movies/world/51636-tsn-efir-290914.html" title="ТСН (Эфир 29.09.14)">ТСН (Эфир 29.09.14)</a></li></tr><tr><li><a href="/movies/world/51637-vesti-moskva-1935-efir-290914.html" title="Вести. Москва (19:35) (Эфир 29.09.14)">Вести. Москва (19:35) (Эф...</a></li></tr><tr><li><a href="/movies/world/51638-vesti-2000-efir-290914.html" title="Вести (20:00) (Эфир 29.09.14)">Вести (20:00) (Эфир 29.09...</a></li></tr><tr><li><a href="/movies/tv/51639-dom-2-lite-3795-den-efir-300914.html" title="Дом 2. Lite (3795 день) (Эфир 30.09.14)">Дом 2. Lite (3795 день) (...</a></li></tr><tr><li><a href="/movies/tv/51640-sekretnye-materialy-efir-290914.html" title="Секретные материалы (Эфир 29.09.14)">Секретные материалы (Эфир...</a></li></tr><tr><li><a href="/movies/tv/51641-govorit-ukraina-sudba-trehletney-evy-novaya-sem.html" title="Говорит Украина - Судьба трехлетней Евы: новая семья или смерть? (Эфир 29.09.14)">Говорит Украина - Судьба ...</a></li></tr><tr><li><a href="/movies/world/51642-chisto-news-efir-290914.html" title="Чисто NEWS (Эфир 29.09.14)">Чисто NEWS (Эфир 29.09.14...</a></li></tr><tr><li><a href="/movies/world/51643-programma-vremya-efir-290914.html" title="Программа Время (Эфир 29.09.14)">Программа Время (Эфир 29....</a></li></tr><tr><li><a href="/movies/tv/51644-dostalo-efir-290914.html" title="Достало! (Эфир 29.09.14)">Достало! (Эфир 29.09.14)</a></li></tr><tr><li><a href="/movies/tv/51645-vecherniy-urgant-efir-290914.html" title="Вечерний Ургант (Эфир 29.09.14)">Вечерний Ургант (Эфир 29....</a></li></tr><tr><li><a href="/movies/tv/51646-novorozhdennaya-rossiya-5-vypusk-efir-290914.html" title="Новорождённая Россия (5 выпуск) (Эфир 29.09.14)">Новорождённая Россия (5 в...</a></li> </ul></div></div>
+<div class="rightbtm"></div>
+<!--#tags-->
+
+<!--topnews-->
+<div class="righth"><h3>Популярные статьи</h3></div>
+  <div class="rightbg pdng"></div>
+<div class="rightbtm"></div>
+<!--#topnews-->
+<!--support-->
+<div class="righth"><h3>Поддержи сайт</h3></div>
+  <div class="rightbg center">
+<a href="http://vkdiz.ru/webpay.html"><IMG SRC="http://vkdiz.ru/templates/vkdiz/images/88x31_wm_blue_on_white_ru.png"></a>
+ 
+  
+  
+</div>
+<div class="rightbtm"></div>
+<!--#support-->
+<!--support-->
+<div class="righth"><h3>Помоги человеку</h3></div>
+  <div class="rightbg center">
+<a href="/go?a%3AaHR0cHM6Ly92ay5jb20vc2F2ZV9raXJlZXZh"><IMG SRC="http://vkdiz.ru/templates/vkdiz/images/pomogi.jpg"></a>
+ 
+  
+  
+</div>
+<div class="rightbtm"></div>
+<!--#support-->
+<!--support-->
+<div class="righth"><h3>Поддержи сайт</h3></div>
+  <div class="rightbg center">
+  <img src="http://vkdiz.com/uploads/banner.gif" alt="VKDiz - Оформление групп В Контакте" width="88" border="0" height="31">
+  
+  <br/>
+  <input style="height:22px;" type="button" class="bbcodes" value="Получить код кнопки" onclick="showCode();"></center> 
+ 
+<div id="code" title="Код баннера для вставки на сайт" style="display:none;" > 
+<div style="height:260px;overflow: auto;"> 
+  <center><img src="http://vkdiz.com/uploads/banner.gif" alt="VKDiz.ru - Оформление групп ВКонтакте" width="88" border="0" height="31"><input type="text" value="&lt;a href='http://vkdiz.ru' title='VKDiz - Оформление групп ВКонтакте' target=_blank&gt;&lt;img src='http://vkdiz.ru/uploads/banner.gif' alt='VKDiz - Оформление групп ВКонтакте' title='VKDiz - Оформление групп ВКонтакте'&gt;&lt;/a&gt;<br />" style="width: 466px;" onclick="$(this).select();" /></center><br />
+  
+  <center><img src="/uploads/1329911173_vk.gif" alt="VKDiz - Оформление групп ВКонтакте"><input type="text" value="&lt;a href='http://vkdiz.ru' title='VKDiz - Оформление групп ВКонтакте' target=_blank&gt;&lt;img src='http://vkdiz.ru/uploads/1329911173_vk.gif' alt='VKDiz - Оформление групп ВКонтакте' title='VKDiz - Оформление групп ВКонтакте'&gt;&lt;/a&gt;<br />" style="width: 466px;" onclick="$(this).select();" /></center><br />
+ <center><b>Код баннера для вставки в группу ВКонтакте</b></center>
+ <hr /><br />
+<center><img src="http://cs302414.userapi.com/v302414854/2db6/75Ex12f7EBw.jpg" alt="VKDiz - Оформление групп ВКонтакте"><input type="code" value="<center>[[photo-12676524_285203700|noborder;380px;nopadding|club12676524]]</center>" style="width: 466px;" onclick="$(this).select();" /></center>
+<br />
+</div> 
+
+</div> 
+<script type="text/javascript"> 
+function showCode() {
+$(function(){
+  $('#code').dialog({
+    autoOpen: true,
+    show: 'fade',
+    hide: 'fade',
+    width: 550,
+	buttons: {
+            "Закрыть окно" : function() {
+                $(this).dialog("close");
+            }
+               }
+	
+  });
+});
+}
+</script>
+</div>
+<div class="rightbtm"></div>
+<!--#support-->
+<!--vkontakte-->
+<div class="righth"><h3>Мы ВКонтакте</h3></div>
+  <div class="rightbg center"><noindex>Официальная группа
+     <a href="/go?a%3AaHR0cDovL3Zrb250YWt0ZS5ydS9jbHViMTI2NzY1MjQ%3D" target="_blank" alt="VKDiz.com | Оформление групп (ex vkdiz.ru)"><img src="/uploads/vk.png" alt="VKDiz.com | Оформление групп (ex vkdiz.ru)" title="VKDiz.com | Оформление групп (ex vkdiz.ru)" /></a><br />
+Публичная страница<br />
+<a href="/go?a%3AaHR0cDovL3Zrb250YWt0ZS5ydS9wdWJsaWMyMzQ2ODAwOQ%3D%3D" target="_blank" alt="VKDiz.com | Оформление групп (ex vkdiz.ru)"><img src="/uploads/vk.png" alt="VKDiz.com | Оформление групп (ex vkdiz.ru)" title="VKDiz.com | Оформление групп (ex vkdiz.ru)" /></a>
+  </noindex></div>
+<div class="rightbtm"></div>
+<!--#vkontakte-->
+		</div><!-- .sidebar#sideRight -->
+
+	</div><!-- #middle-->
+
+	<div id="footer">
+		<div class="footl coll"></div>
+		<div class="footbg coll">
+		  <noindex><a href="/go?a%3AaHR0cDovL2Rlcy1hcnRzLnJ1" title="Дизайн и верстка by Des-Arts.Ru" target="_blank" rel="nofollow" class="created coll"></a></noindex>
+		  <ul>
+		    <li><a href="/">Главная</a><span>|</span></li>
+		    <li><a href="/rules.html">Правила</a><span>|</span></li>
+		    <li><a href="/rss.xml">RSS</a></li>
+		  </ul>
+		  <div class="counters colr"><!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='/go?a%3AaHR0cDovL3d3dy5saXZlaW50ZXJuZXQucnUvY2xpY2s%3D' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t17.3;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'></a>")
+//--></script><!--/LiveInternet--></div>
+		  <div class="counters colr"><!--Rating@Mail.ru counter-->
+<script language="javascript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></script>
+<script language="javascript1.1"><!--
+a+=';j='+navigator.javaEnabled();js=11;//--></script>
+<script language="javascript1.2"><!--
+s=screen;a+=';s='+s.width+'*'+s.height;
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></script>
+<script language="javascript1.3"><!--
+js=13;//--></script><script language="javascript" type="text/javascript"><!--
+d.write('<a href="/go?a%3AaHR0cDovL3RvcC5tYWlsLnJ1L2p1bXA%2FZnJvbT0xODY0OTIy" target="_top">'+
+'<img src="http://d4.c7.bc.a1.top.mail.ru/counter?id=1864922;t=47;js='+js+
+a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+
+'height="31" width="88"></a>');if(11<js)d.write('<'+'!-- ');//--></script>
+<noscript><a target="_top" href="/go?a%3AaHR0cDovL3RvcC5tYWlsLnJ1L2p1bXA%2FZnJvbT0xODY0OTIy">
+<img src="http://d4.c7.bc.a1.top.mail.ru/counter?js=na;id=1864922;t=47" 
+height="31" width="88" border="0" alt="Рейтинг@Mail.ru"></a></noscript>
+<script language="javascript" type="text/javascript"><!--
+if(11<js)d.write('--'+'>');//--></script>
+<!--// Rating@Mail.ru counter--></div>
+		</div>
+		<div class="footr coll"></div>
+		<div class="clr"></div>
+		  <p class="copyright">Copyright © 2010-2013 VKDiz.ru - Оформление групп 
+ВКонтакте. Все права защищены. При копировании 
+материалов с сайта, активная ссылка на сайт обязательна!</p>
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+<a href="/" id="toTo_button"><img src="/templates/vkdiz/images/up.png" alt="" /></a>
+<!-- Yandex.Metrika counter -->
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+<script type="text/javascript">
+try { var yaCounter1294637 = new Ya.Metrika({id:1294637,
+          clickmap:true,
+          trackLinks:true, webvisor:true});}
+catch(e) { }
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/1294637" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</body>
+</html><!-- dude Smart Leech time: 2,074003 msec -->

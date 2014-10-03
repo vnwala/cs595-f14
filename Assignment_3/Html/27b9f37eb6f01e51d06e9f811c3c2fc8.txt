@@ -1,0 +1,452 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>ItsMyURLs: Romario Rodrigues's URLs</title>
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=0.6667, user-scalable=no" name="viewport" />
+    <meta name="google-translate-customization" content="b208ac9b1dad8c91-06965e4d9787c335-g2d94fbdd210310e0-11"></meta> 
+
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.form.js"></script>
+    <script type="text/javascript" src="/js/underscore.min.js"></script>
+    <script type="text/javascript" src="/js/backbone.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/h.js"></script>
+    <script type="text/javascript" src="/js/application.js"></script>
+    
+
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+            
+<title> profile_user.name + "'s URLs" </title>
+<meta property="og:title" content="iironicc's social profiles - ItsMyURLs">
+<meta property="og:type" content="profile">
+<meta property="og:image" content="http://itsmyurls_profile_photos.s3.amazonaws.com/iironicc.jpg">
+<meta property="og:site_name" content="ItsMyURLs">
+<meta property="fb:admins" content="USER_ID">
+<meta property="fb:app_id" content="APP_ID">
+<meta property="og:description" content="Get in touch with Romario Rodrigues on all of their social profiles in one click.  Join for free and get your own at ItsMyURLs.">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ItsMyURLs">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="iironicc's social profiles">
+<meta name="twitter:description" content="Get in touch with Romario Rodrigues on all of their social profiles in one click.  Join for free and get your own at ItsMyURLs.">
+<meta name="twitter:image:src" content="http://itsmyurls_profile_photos.s3.amazonaws.com/iironicc.jpg">
+
+<style type="text/css">
+    body {
+        background-image: url('http://itsmyurls_profile_backgrounds.s3.amazonaws.com/iironicc.jpg?t=1412037715.0');
+    }
+    .stButton { margin-top: 3px; margin-left: 0 !important; }
+    .verified {
+        font-weight: bold;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #aaa;
+        text-shadow: 0 1px 1px rgba(255,255,255,.75);
+    }
+    .verified.small img { height: 25px; margin-top: -5px; }
+</style>
+
+   
+         
+</head>
+
+<body>
+
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+
+                <a class="brand" href="/"><span id="logo"><img src="/images/itsmyurls_logo.png" /></span></a> 
+
+                <div class="nav-collapse">
+                    <ul class="nav pull-right">
+                        <li class="divider-vertical"></li>
+
+                        
+                        <li><a href="/login">Log in</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="/signup">Sign Up</a></li>
+                        
+
+                    </ul>
+
+                    <form class="navbar-search pull-right" action="/search">
+                        <input type="text" class="search-query span2" name="keywords" placeholder="Search users...">
+                    </form>
+
+                </div><!-- /.nav-collapse -->
+            </div><!-- /.container -->
+        </div><!-- /.navbar-inner -->
+    </div><!-- /.navbar -->
+
+    
+
+    <div id="main">
+
+        
+            <div class="content container">
+
+                <div class="messages">
+                    
+                </div><!-- /.messages -->
+
+                <div class="errors">
+                    
+                </div><!-- /.errors -->
+
+                
+
+<div class="row">
+    <div class="span3 sidebar">
+        <!--USER AVATAR HEADER-->
+        <div class="well visible-phone">
+
+            <h2>Romario Rodrigues <small>iironicc</small></h2>
+            
+            <a href="http://itsmyurls.com/iironicc">ItsMyURLs.com/iironicc</a>
+            <!--//SUBSCRIBE/VERIFY BUTTONS-->		
+
+
+        </div>
+        <!--//USERNAME HEADER-->
+        <div class="well well-micro thumbnail">
+        <!--<div class="circular-image"> tried to get profile image to be circlular with no success-->
+            <img src="http://itsmyurls_profile_photos.s3.amazonaws.com/iironicc.jpg" />
+        </div>
+
+        <ul class="well well-small nav nav-pills nav-stacked">
+            <li class="active"><a href="#links" data-toggle="tab">Links <i class="icon-chevron-right pull-right"></i></a></li>
+
+            <!-- 
+
+            <!--
+            <li><a href="#">Subscribing To <i class="icon-chevron-right pull-right"></i></a></li>
+            <li><a href="#">Subscribers <i class="icon-chevron-right pull-right"></i></a></li>
+            -->
+            <li><a href="#profile_userbio" data-toggle="tab">User Info <i class="icon-chevron-right pull-right"></i></a></li>        
+            
+            <li><a href="/signup">Get Your Own Profile <i class="icon-chevron-right pull-right"></i></a></li>
+            
+        </ul>            
+    </div><!--//span2-->
+
+    <div class="span7">
+        <!--USERNAME HEADER-->
+        <div class="well hidden-phone">
+
+            <!--SUBSCRIBE/VERIFY BUTTONS-->
+            <div class="pull-right">
+
+                <!-- SUBSCRIBE BUTTON
+                <button type="submit" class="btn btn-primary"><i class="icon-cog icon-white"></i> Subscribe</button>
+                END SUBSCRIBE BUTTON-->
+            </div>			
+            <!--//SUBSCRIBE/VERIFY BUTTONS-->		
+                
+
+            <h2>Romario Rodrigues <small>iironicc</small></h2>
+            <p>
+            <!-- I Am The Greatest Rapper Alive.<br/> -->
+            <a href="http://itsmyurls.com/iironicc">ItsMyURLs.com/iironicc</a>
+            </p>
+
+        </div>
+        <!--//USERNAME HEADER-->
+
+    
+        <script type="text/javascript">
+            google_ad_client = "ca-pub-6138043056997740";
+            if (window.innerWidth >= 800) { /* Desktop */
+                google_ad_slot = "0362857081";
+                google_ad_width = 468;
+                google_ad_height = 60;
+            } else if (window.innerWidth < 400) { /* Mobile */
+                google_ad_slot = "2311480112";
+                google_ad_width = 320;
+                google_ad_height = 50;
+            } else { /* Tablet */
+                google_ad_slot = "0196396249";
+                google_ad_width = 320;
+                google_ad_height = 50;
+            }
+        </script>
+        <div class="center ad">
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>				  
+        </div>
+        
+    
+        
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="links">
+                <!--LINKS-->
+                <div class="well">
+                    <h2>Links</h2>
+                    <div class="link_list">
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/52641fc6b7e3a705cfaceeaf" target="_blank"><img src="http://www.google.com/s2/favicons?domain=www.scribd.com" /> Read first two chapters of my DUTCH book</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/521ba3f4b7e3a704e15e2687" target="_blank"><img src="http://www.google.com/s2/favicons?domain=www.youtube.com" /> Check the TGF/NMG Cypher!</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/51794ee9b7e3a72125874ba4" target="_blank"><img src="http://www.google.com/s2/favicons?domain=www.mediafire.com" /> Download No Feelings the Pretape !!</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50ba3e9cb7e3a748db077fe4" target="_blank"><img src="http://www.google.com/s2/favicons?domain=www.mediafire.com" /> Download TGF - MotIVation the mixtape</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b21738b7e3a72e62c84eb6" target="_blank"><img src="http://www.google.com/s2/favicons?domain=twitter.com" /> Follow @iiRonicc</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b216f9b7e3a72e62c84eb1" target="_blank"><img src="http://www.google.com/s2/favicons?domain=www.facebook.com" /> LIKE iiRonicc</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b3b9f9b7e3a72e62c8a102" target="_blank"><img src="http://www.google.com/s2/favicons?domain=soundcloud.com" /> My Soundcloud</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b21775b7e3a72e62c84ebb" target="_blank"><img src="http://www.google.com/s2/favicons?domain=iironical.blogspot.com" /> My Blog</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/52641e04b7e3a705cfacee75" target="_blank"><img src="http://www.google.com/s2/favicons?domain=skyerdan.blogspot.nl" /> Check Skyerdan Blog</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b22275b7e3a72e62c85124" target="_blank"><img src="http://www.google.com/s2/favicons?domain=rapgenius.com" /> Lyrics + Explanation</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b21c31b7e3a72e62c84f4d" target="_blank"><img src="http://www.google.com/s2/favicons?domain=" /> Instagram : @iironicc</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b21942b7e3a72e62c84ef9" target="_blank"><img src="http://www.google.com/s2/favicons?domain=" /> Mail : mr_rodrigues@live.nl</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/52641d6cb7e3a705cfacee6e" target="_blank"><img src="http://www.google.com/s2/favicons?domain=www.youtube.com" /> My youtube channel</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b2180eb7e3a72e62c84ec9" target="_blank"><img src="http://www.google.com/s2/favicons?domain=www.youtube.com" /> Check out TGF's Youtube Channel</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b21b8cb7e3a72e62c84f39" target="_blank"><img src="http://www.google.com/s2/favicons?domain=twitter.com" /> Follow @Mickeyvandross</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b21855b7e3a72e62c84ed5" target="_blank"><img src="http://www.google.com/s2/favicons?domain=www.reverbnation.com" /> Download and listen to music</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b2189fb7e3a72e62c84ee3" target="_blank"><img src="http://www.google.com/s2/favicons?domain=soundcloud.com" /> TGF's Soundcloud</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b218d4b7e3a72e62c84eea" target="_blank"><img src="http://www.google.com/s2/favicons?domain=ilovenomoneygang.tumblr.com" /> TGF's Tumblr</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b21be4b7e3a72e62c84f42" target="_blank"><img src="http://www.google.com/s2/favicons?domain=www.facebook.com" /> My Facebook</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b224c0b7e3a72e62c8515a" target="_blank"><img src="http://www.google.com/s2/favicons?domain=www.hotnewhiphop.com" /> Chairo Beats</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b21ce2b7e3a72e62c84f64" target="_blank"><img src="http://www.google.com/s2/favicons?domain=" /> Instagram @Franky1994</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b21d0fb7e3a72e62c84f6b" target="_blank"><img src="http://www.google.com/s2/favicons?domain=" /> Instagram @excellenceblack</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/50b3b724b7e3a72e62c8a05f" target="_blank"><img src="http://www.google.com/s2/favicons?domain=www.audiomack.com" /> Audio Mack</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/52641db7b7e3a705cfacee70" target="_blank"><img src="http://www.google.com/s2/favicons?domain=" /> instagram @mickeyvandross</a>
+                        </div>
+                        
+                        <div class="link">
+                            <a href="http://itsmyurls.com/outbound/5383616bb7e3a73f9a353e56" target="_blank"><img src="http://www.google.com/s2/favicons?domain=snapchat.com" /> my snapchat</a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!--//LINKS-->
+            </div>
+
+            
+
+            <div class="tab-pane" id="profile_userbio">
+                <!--USER BIO-->
+                <div class="well">
+                    <h2>User Info</h2>
+
+                    
+                    <div class="row-fluid">
+                        <div class="span6">
+                           <script type="text/javascript">
+                                  google_ad_client = "ca-pub-6138043056997740";
+                                  google_ad_slot = "6378187712";
+                                  google_ad_width = 300;
+                                  google_ad_height = 250;
+                              </script>
+                              <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+                        </div>
+                    </div>
+                    <hr />
+                    
+
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <h6>Location</h6>
+                            <p>Rotterdam, NL</p>
+                        </div>
+
+                        <div class="span6">
+                            <h6>About</h6>
+                            Rapper/Songwriter.
+I'm 18, unsigned and weird. My pencil draws attention, instrumentals are my enemies. TGF/ NMG. Hiiipower.
+                        </div>
+                    </div><!--//USER BIO-->
+
+                </div>
+            </div>
+        </div>
+    </div><!--//span8-->
+
+    <div class="span2">
+        <!--QRCODE-->
+        <div class="well well-small">
+            <h2>Scan</h2>
+                <img src="http://itsmyurls_qrs.s3.amazonaws.com/iironicc.png" />
+            </a>
+            </p>
+
+            <p class="center">
+
+            <p class="center">
+            <a class="btn btn-primary" href="http://itsmyurls_qrs.s3.amazonaws.com/iironicc.png"><i class="icon-qrcode icon-white"></i> Download</a>
+            </p>
+        </div>          
+        <!--//QRCODE--> 
+
+        <!--SHARE-->
+        <div class="well well-small">
+            <h2>Share</h2>
+
+            <!--WIDGET CODE-->
+            <!--TWITTER-->
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://itsmyurls.com/iironicc" data-text="All of @iironicc's online profiles can be found at this one link thanks to @ItsMyURLs!">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>			  
+            <!--//TWITTER-->
+
+            <!--FB LIKE/SEND-->
+            <div class="fb-like" data-href="http://itsmyurls.com/iironicc" data-send="false" data-layout="button_count" data-width="140" data-show-faces="false"></div>
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=90645042103";
+                fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+            </script>
+            <!--//FB LIKE/SEND-->
+
+            <!--LINKEDIN-->
+            <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
+            <script type="IN/Share" data-url="http://itsmyurls.com/iironicc" data-counter="right"></script>
+            <!--//LINKEDIN-->
+
+            <!--GOOGLE PLUS-->
+            <g:plusone size="small" annotation="none" width="140" href="http://itsmyurls.com/iironicc"></g:plusone>
+            <script type="text/javascript">
+                (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                })();
+            </script>
+            <!--//GOOGLE PLUS-->
+
+            <!--TUMBLR SHARE-->
+            <div id="tumblr_share"></div>
+            <script type="text/javascript">
+                var tumblr_link_url = "http://itsmyurls.com/iironicc";
+                var tumblr_link_name = "Romario Rodrigues's URLs";
+                var tumblr_link_description = "Check out all of Romario Rodrigues's social network profiles on ItsMyURLs!";
+                var tumblr_button = document.createElement("a");
+                tumblr_button.setAttribute("href", "http://www.tumblr.com/share/link?url=" + encodeURIComponent(tumblr_link_url) + "&name=" + encodeURIComponent(tumblr_link_name) + "&description=" + encodeURIComponent(tumblr_link_description));
+                tumblr_button.setAttribute("title", "Share on Tumblr");
+                tumblr_button.setAttribute("style", "display:inline-block; text-indent:-9999px; overflow:hidden; width:81px; height:20px; background:url('http://platform.tumblr.com/v1/share_1.png') top left no-repeat transparent;");
+                tumblr_button.innerHTML = "Share on Tumblr";
+                document.getElementById("tumblr_share").appendChild(tumblr_button);
+            </script>   
+            <!--//TUMBLR SHARE-->
+            
+            <!--SHARE THIS-->
+            <div class='st_sharethis_button' displayText='ShareThis'></div>
+            <script type="text/javascript">var switchTo5x=false;</script>
+            <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+            <script type="text/javascript">stLight.options({publisher: "1ceff4d1-7642-4167-a9cd-a67754c03cce"}); </script>
+            <!--//SHARE THIS-->
+
+        </div>
+        <!--//SHARE-->  
+    </div><!--//span2-->  
+</div><!--//row-->
+
+
+            </div><!-- /.content.container -->
+        
+
+        <div class="footer container">
+            <hr />
+            <small>&copy; 2014 ItsMyURLs  |  <a href="mailto:itsmyurls@gmail.com?subject=ItsMyURLs%20Contact%20Request">Contact ItsMyURLs</a></small>  |  <a href="mailto:itsmyurls@gmail.com?subject=Investor%20Relations">Investor Relations</a></small>  |  <a href="mailto:itsmyurls@gmail.com?subject=Advertisement%20Contact%20Request">Advertise</a></small>  |  <iframe src="http://itsmyurls.com/links/widget?style=icons" frameborder=0 width="500" height="40" /></small>
+        </div>
+
+    </div><!-- /.main -->
+
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-9436351-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    })();
+    </script>
+
+</body>
+</html>

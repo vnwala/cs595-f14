@@ -1,0 +1,824 @@
+<!DOCTYPE html><html
+xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head> <script type="text/javascript">
+_atrk_opts = { atrk_acct:"Jg8li1aUCm008u", domain:"411vibes.net",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script><noscript><img
+src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=Jg8li1aUCm008u" style="display:none" height="1" width="1" alt="" /></noscript><meta
+charset="UTF-8" /><title>411Vibes.net - Blog for entertainment, gossip, music and news</title><meta
+name="keywords" content="411vibes, nigerian entertainment, entertainment, music, gossip, news, videos, downloads"/><link
+rel="stylesheet" href="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/handheld.css" type="text/css" /><link
+rel="stylesheet" href="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/style.css" type="text/css" media="screen"/><link
+rel="shortcut icon" href="http://www.411vibes.net/wp-content/uploads/2014/06/411Vibes1-e1403372864346.png"/><link
+rel="shortcut icon" href="http://www.411vibes.net/wp-content/uploads/2014/06/411Vibes1-e1403372864346.png" type="image/x-icon"/><meta
+name="generator" content="Magazine3 Framework Version 3.5" /> <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--><link
+rel="alternate" type="application/rss+xml" title="411Vibes.net RSS Feed" href="http://411vibes.net/feed/" /><link
+rel="pingback" href="http://411vibes.net/xmlrpc.php" /><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script><script type="text/javascript"> $(document).ready(function() { $(".tab_content").hide(); $("ul.tabs li:first").addClass("active").show(); $(".tab_content:first").show(); $("ul.tabs li").click(function() { $("ul.tabs li").removeClass("active"); $(this).addClass("active"); $(".tab_content").hide(); var activeTab = $(this).find("a").attr("href"); $(activeTab).fadeIn(); return false;	}); }); </script><script type="text/javascript">  $(document).ready(function () {  createTicker();  }); function createTicker(){ var tickerLIs = $("#header3-1-left-ticker ul").children();  tickerItems = new Array(); tickerLIs.each(function(el) { tickerItems.push( jQuery(this).html() ); });                                                       
+	i = 0                                                     
+	rotateTicker(); }  function rotateTicker(){   if( i == tickerItems.length ){    	  i = 0;   	}                                                         
+      tickerText = tickerItems[i];  c = 0;  typetext();     setTimeout( "rotateTicker()", 5000 );                     
+	i++;    }   var isInTag = false;  function typetext() { var thisChar = tickerText.substr(c, 1);  if( thisChar == '<' ){ isInTag = true; } if( thisChar == '>' ){ isInTag = false; }  $('#header3-1-left-ticker').html("&nbsp;" + tickerText.substr(0, c++));   
+	if(c < tickerText.length+1) if( isInTag ){ typetext(); }else{ setTimeout("typetext()", 28); }                                                             
+	else { 	c = 1;   	tickerText = "";  } }    </script><script type="text/javascript" src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/js/slides.min.jquery.js"></script><script> $(function(){ $('#slides').slides({ preload: true, play: 5000, pause: 2500, hoverPause: true, animationStart: function(current){ $('.caption').animate({ 	bottom:-35 },100); if (window.console && console.log) { console.log('animationStart on slide: ', current); }; }, animationComplete: function(current){ 
+ $('.caption').animate({ bottom:0 },200); if (window.console && console.log) { console.log('animationComplete on slide: ', current); }; }, slidesLoaded: function() { $('.caption').animate({ bottom:0 },200); } }); });
+ </script><style media="screen" type="text/css"> .custom1{border-top:3px solid #FF0000 !important;} .custom1 a{color:#FF0000 !important;} .custom2{border-top:3px solid #050505 !important;}  .custom2 a{color:#050505 !important}  .custom3{border-top:3px solid #c4049e !important;}  .custom3 a{color:#c4049e !important} .custom4{border-top:3px solid #0000FF  !important;} .custom4 a{color:#0000FF  !important} .custom5{border-top:3px solid #00FF00 !important;} .custom5 a{color:#00FF00 !important} .custom6{border-top:3px solid #002bff !important;} .custom6 a{color:#002bff !important} .custom7{border-top:3px solid #025724 !important;} .custom7 a{color:#025724 !important}    
+.custom8{border-top:3px solid #000000 !important;} .custom8 a{color:#000000 !important} .custom9{border-top:3px solid #d40808 !important;} .custom9 a{color:#d40808 !important} .custom10{border-top:3px solid #0000A0 !important;} .custom10 a{color:#0000A0 !important} .custom11{border-top:3px solid #039603 !important;} .custom11 a{color:#039603 !important} .custom12{border-top:3px solid #edd900 !important;} .custom12 a{color:#edd900 !important}     </style><style type="text/css" media="screen">.mymail-form{margin-bottom:20px;}.mymail-form .input, .mymail-form .mymail-form-info{width:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}.mymail-form label{line-height:1.6em;}.mymail-form li{list-style:none !important;margin-left:0;}.mymail-form label .required{color:#f33;}.mymail-form input.required{color:inherit;}.mymail-form .mymail-email{}.mymail-form .mymail-firstname{}.mymail-form .mymail-lastname{}.mymail-form .mymail-lists-wrapper ul{list-style:none;margin-left:0;}.mymail-form .mymail-lists-wrapper ul li{margin-left:0;}.mymail-form .mymail-list-description{color:inherit;display:block;margin-left:25px;font-size:0.8em;}.mymail-form .mymail-form-info{display:none;border-radius:3px;padding:5px;margin-bottom:4px;}.mymail-form .error input{border:1px solid;border-color:#df6f8b #da5f75 #d55061;}.mymail-form .mymail-form-info.error{border:1px solid #E9B9BB;background:#FFDCDD;}.mymail-form .mymail-form-info ul li{color:inherit;margin-left:0;}.mymail-form .mymail-form-info.success{border:1px solid #BADEB1;background-color: #E1FFD9;}.mymail-form .mymail-form-info p{margin-bottom:0;}.mymail-form .mymail-form-info ul{list-style-type:circle;margin-left:0;margin-bottom:0;}.mymail-form .submit-button{margin:6px 0 0;}.mymail-form .submit-button:active{margin:7px 1px 1px;}.mymail-form .mymail-loader{display: none;width:16px;height:16px;margin:4px;vertical-align: middle;background-image:url('http://411vibes.net/wp-content/plugins/myMail/assets/img/loading.gif');background-repeat:no-repeat;background-position:center center;}.mymail-form .mymail-loader.loading{display: inline-block;}@media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio: 2),only screen and (-o-min-device-pixel-ratio: 2/1),only screen and (min-device-pixel-ratio: 2),only screen and ( min-resolution: 192dpi),only screen and ( min-resolution: 2dppx){ .mymail-form .mymail-loader{background-image:url('http://411vibes.net/wp-content/plugins/myMail/assets/img/loading_2x.gif');background-size:100%;}}</style><meta
+name="google-site-verification" content="thxHhwvAD7CEyxj0LFso8Zhyfy3d1Dqm7OmoB4HQ1e4" /><link
+rel="canonical" href="http://411vibes.net/" /><link
+rel='next' href='http://411vibes.net/page/2/' /><link
+rel='stylesheet' id='jetpack-subscriptions-css'  href='http://411vibes.net/wp-content/plugins/jetpack/modules/subscriptions/subscriptions.css?ver=4.0' type='text/css' media='all' /><link
+rel='stylesheet' id='jetpack-widgets-css'  href='http://411vibes.net/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003' type='text/css' media='all' /><link
+rel='stylesheet' id='sharedaddy-css'  href='http://411vibes.net/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=3.1.1' type='text/css' media='all' /><link
+rel='stylesheet' id='genericons-css'  href='http://411vibes.net/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' /><link
+rel='stylesheet' id='widget-grid-and-list-css'  href='http://411vibes.net/wp-content/plugins/jetpack/modules/widgets/widget-grid-and-list.css?ver=4.0' type='text/css' media='all' /><script type='text/javascript' src='http://411vibes.net/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script><script type='text/javascript' src='http://411vibes.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script><script type='text/javascript' src='http://411vibes.net/wp-content/plugins/anti-spam/js/anti-spam.js?ver=2.2'></script><meta
+name="generator" content="WordPress 4.0" /><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #000000; }
+</style><meta
+property="og:type" content="website" /><meta
+property="og:title" content="411Vibes.net" /><meta
+property="og:description" content="Blog for entertainment, gossip, music and news" /><meta
+property="og:url" content="http://411vibes.net/" /><meta
+property="og:site_name" content="411Vibes.net" /><meta
+property="og:image" content="http://wordpress.com/i/blank.jpg" /><meta
+name="twitter:site" content="@411Vibes" /></head><div
+class="ad-topmost"></div><body><div
+class="top1"> <a
+name="top"></a></div> <a
+class="body-link" target="_blank" href="http://411vibes.net/category/entertainment-news/"></a><div
+id="wrapper"><div
+id="header"><div
+id="topheaderbar"><div
+id="topheaderbar-l"><div
+id="topnavigation"><div
+id="nav"><div
+id="menu"><ul><div
+class="menu-header"><ul
+id="menu-top-menu" class="menu"><li
+id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"><a
+href="http://411vibes.net/about/">About</a></li><li
+id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a
+href="http://411vibes.net/contact-2/">Contact</a></li><li
+id="menu-item-75" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-75"><a
+href="http://411vibes.net/advertise/">Advertise</a></li><li
+id="menu-item-25566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25566"><a
+href="http://411vibes.net/newsletter-signup/">Newsletter</a></li><li
+id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a
+href="http://411vibes.net/privacy-policy/">Privacy Policy</a></li><li
+id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a
+href="http://411vibes.net/disclaimer/">Disclaimer</a></li></ul></div></ul></div></div></div></div><div
+id="topheaderbar-r">Tuesday 30 September, 2014</div><div
+class="cb"></div></div><div
+id="header2"><div
+id="logoleft"><a
+href="http://411vibes.net"><img
+src="http://www.411vibes.net/wp-content/uploads/2014/06/411vibes-site-logo1.png" alt="411vibes.net" /></a></div><div
+id="logoright"><div
+id="logoright-left"><div
+id="logoright-left-cat"><div
+id="logoright-left-cat-wrapper"><div
+id="logoright-left-cat-wrapper-title">New On The Go >></div><div
+id="logoright-left-cat-wrapper-left"> <a
+href="http://411vibes.net/2014/09/fashola-calls-for-patience-on-synagogue-building-collapse-investigation-see-what-he-said/"><img
+width="55" height="45" src="http://411vibes.net/wp-content/uploads/2014/09/Gov-Babatunde-Fashola1-55x45.jpg" class="attachment-singlegalthumb wp-post-image" alt="Gov-Babatunde-Fashola1" /></a></div><div
+id="logoright-left-cat-wrapper-right"><div
+id="logoright-left-cat-wrapper-right-cattitle"><a
+href="http://411vibes.net/category/news/nigerian-news/" rel="category tag">National</a></div><h2><a
+href="http://411vibes.net/2014/09/fashola-calls-for-patience-on-synagogue-building-collapse-investigation-see-what-he-said/" title="Fashola Calls for Patience on Synagogue Building Collapse Investigation &#8211; See What He Said!">Fashola Calls for Patience on Synagogue Building ...</a></h2></div><div
+class="cb"></div></div></div></div><div
+id="logoright-right"><div
+id="logoright-right-search"><form
+method="get" id="footersearch1" action="http://411vibes.net/"> <input
+type="text" name="s" value=" Search News - Type Keyword & Hit Enter" onblur="if(this.value=='') this.value=' Search News - Type Keyword & Hit Enter';" onfocus="if(this.value==' Search News - Type Keyword & Hit Enter') this.value='';" id="s2" /> <input
+type="submit" value=" " id="searchsubmit" /></form></div><div
+id="logoright-right-trending"><ul><li><b>Trending Topics:</b></li><li><a
+href="http://411vibes.net/?s=WORLD+CUP">WORLD CUP</a></li><li> - <a
+href="http://411vibes.net/?s=NIGERIA">NIGERIA</a></li><li> - <a
+href="http://411vibes.net/tag/boko-haram/">BOKO HARAM</a></li><li> - <a
+href="http://411vibes.net/?s=ALLVIDEOS">VIDEOS</a></li><li> - <a
+href="http://411vibes.net/tag/super-eagles/">SUPER EAGLES</a></li></ul></div></div><div
+class="cb"></div></div><div
+class="cb"></div></div><div
+id="header3"><div
+id="header3-1"><div
+id="header3-1-left"><div
+id="header3-1-left-tickerimg"><img
+src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/images/headlines.png" alt="Headlines" /></div><div
+id="header3-1-left-ticker"><ul><li><a
+href="http://411vibes.net/2014/09/fashola-calls-for-patience-on-synagogue-building-collapse-investigation-see-what-he-said/" rel="bookmark" title="Permanent Link: Fashola Calls for Patience on Synagogue Building Collapse Investigation - See What He Said!  ">Fashola Calls for Patience on Synagogue Building Collapse Investigation - See What He Said! </a></li><li><a
+href="http://411vibes.net/2014/09/are-you-ready-dance-go-with-wizkid-2face-idibia-see-when-its-dropping/" rel="bookmark" title="Permanent Link: Are You Ready? ‘Dance Go’ with Wizkid &amp; 2Face Idibia! - See When Its Dropping ">Are You Ready? ‘Dance Go’ with Wizkid &amp; 2Face Idibia! - See When Its Dropping </a></li><li><a
+href="http://411vibes.net/2014/09/must-read-lagos-state-trains-80-females-to-drive-commercial-brt-buses/" rel="bookmark" title="Permanent Link: Must Read ! Lagos State Trains 80 Females to Drive Commercial “BRT” Buses ">Must Read ! Lagos State Trains 80 Females to Drive Commercial “BRT” Buses </a></li><li><a
+href="http://411vibes.net/2014/09/flavour-n-abania-and-sandra-okagbue-welcome-baby-girl/" rel="bookmark" title="Permanent Link: Flavour N’Abania and Sandra Okagbue Welcome Baby Girl ">Flavour N’Abania and Sandra Okagbue Welcome Baby Girl </a></li><li><a
+href="http://411vibes.net/2014/09/meet-tayo-the-2nd-nigerian-housemate-for-big-brother-africa-hotshots-2014-see-pics/" rel="bookmark" title="Permanent Link: Meet Tayo! The 2nd Nigerian Housemate For Big Brother Africa Hotshots &quot;2014&quot;  [See Pics]">Meet Tayo! The 2nd Nigerian Housemate For Big Brother Africa Hotshots &quot;2014&quot;  [See Pics]</a></li></ul></div><div
+class="cb"></div></div><div
+id="header3-1-right"><ul><li
+style="margin-left: 2px;"><a
+href="http://411vibes.net/?feed=rss2" target="_blank"><img
+src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/images/rss.png" /></a></li><li
+style="margin-left: 8px;"><a
+href="mailto:officialjpon411vibes@gmail.com" target="_blank"><img
+src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/images/email.png" /></a></li><li><a
+href="http://instagram.com/411vibes" target="_blank"><img
+src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/images/digg.png" /></a></li><li><a
+href="http://facebook.com/411vibes" target="_blank"><img
+src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/images/facebook.png" /></a></li><li><a
+href="http://uk.linkedin.com/pub/paulinus-okodugha/59/85a/a4a" target="_blank"><img
+src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/images/linkedin.png" /></a></li><li><a
+href="http://youtube.com/411vibes" target="_blank"><img
+src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/images/youtube.png" /></a></li><li><a
+href="http://twitter.com/411vibes" target="_blank"><img
+src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/images/twitter.png" /></a></li><li><a
+href="http://instagram.com/411vibes" target="_blank"><img
+src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/images/skype.png" /></a></li></ul></div><div
+class="cb"></div></div><div
+id="header3-2"><div
+id="menu2"><ul><div
+class="menu-header"><ul
+id="menu-main-menu" class="menu"><li
+id="menu-item-10" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children arrow menu-item-10"><a
+href="http://411vibes.net/category/entertainment-news/">Entertainment</a><ul
+class="sub-menu"><li
+id="menu-item-9209" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9209"><a
+href="http://411vibes.net/category/entertainment-news/e-news/">ENews!</a></li><li
+id="menu-item-1422" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1422"><a
+href="http://411vibes.net/category/entertainment-news/photos/">E-Photos!</a></li><li
+id="menu-item-25567" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-25567"><a
+href="http://411vibes.net/category/entertainment-news/interviews/">Interviews</a></li></ul></li><li
+id="menu-item-19" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children arrow menu-item-19"><a
+href="http://411vibes.net/category/news/">News</a><ul
+class="sub-menu"><li
+id="menu-item-25" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-25"><a
+href="http://411vibes.net/category/news/nigerian-news/">National</a></li><li
+id="menu-item-24" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-24"><a
+href="http://411vibes.net/category/news/foreign-news/">Foreign</a></li><li
+id="menu-item-32" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32"><a
+href="http://411vibes.net/category/news/politics/">Politics</a></li><li
+id="menu-item-9225" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9225"><a
+href="http://411vibes.net/category/news/odd-news/">Odd News</a></li></ul></li><li
+id="menu-item-13" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children arrow menu-item-13"><a
+href="http://411vibes.net/category/music/">Music</a><ul
+class="sub-menu"><li
+id="menu-item-21" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-21"><a
+href="http://411vibes.net/category/music/africantracks/">African</a></li><li
+id="menu-item-15" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15"><a
+href="http://411vibes.net/category/music/american-tracks/">American</a></li><li
+id="menu-item-16" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16"><a
+href="http://411vibes.net/category/music/european-tracks/">European</a></li><li
+id="menu-item-18" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18"><a
+href="http://411vibes.net/category/music/music-videos/">Music Videos</a></li><li
+id="menu-item-17" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17"><a
+href="http://411vibes.net/category/music/lyrics/">Lyrics</a></li></ul></li><li
+id="menu-item-9" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children arrow menu-item-9"><a
+href="http://411vibes.net/category/articles/">Articles</a><ul
+class="sub-menu"><li
+id="menu-item-22" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22"><a
+href="http://411vibes.net/category/articles/love-and-sex-articles/">Love and Sex</a></li><li
+id="menu-item-27" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-27"><a
+href="http://411vibes.net/category/articles/how-to-articles/">How To</a></li><li
+id="menu-item-26" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-26"><a
+href="http://411vibes.net/category/articles/editorials/">Editorials</a></li></ul></li><li
+id="menu-item-20" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20"><a
+href="http://411vibes.net/category/videos/">Videos</a></li><li
+id="menu-item-12" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12"><a
+href="http://411vibes.net/category/movies/">Movies &#038; TV</a></li><li
+id="menu-item-11" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children arrow menu-item-11"><a
+href="http://411vibes.net/category/fashion/">Fashion</a><ul
+class="sub-menu"><li
+id="menu-item-11227" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-11227"><a
+href="http://411vibes.net/category/fashion/events/">Events</a></li></ul></li><li
+id="menu-item-28" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28"><a
+href="http://411vibes.net/category/health-and-fitness/">Health &#038; Fitness</a></li><li
+id="menu-item-29" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-29"><a
+href="http://411vibes.net/category/tech-editorials/">Tech</a></li><li
+id="menu-item-9184" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9184"><a
+href="http://411vibes.net/category/job-vacancies/">Jobs</a></li><li
+id="menu-item-9434" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9434"><a
+href="http://411vibes.net/category/top-post-2/">Most Viewed Posts</a></li></ul></div></ul></div><div
+id="menu3"><ul><li
+id="current-home-nav" style="float:left"><a
+href="http://411vibes.net">Home</a></li><div
+class="menu-header"><ul
+id="menu-secondary-menu" class="menu"><li
+id="menu-item-9206" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9206"><a
+href="http://411vibes.net/category/entertainment-news/e-news/">Gist &#038; Gossip</a></li><li
+id="menu-item-82" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-82"><a
+href="http://411vibes.net/category/articles/love-and-sex-articles/">Love, Sex &#038; Relationships</a></li><li
+id="menu-item-1421" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1421"><a
+href="http://411vibes.net/category/entertainment-news/photos/">E-Photos!</a></li><li
+id="menu-item-88" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-88"><a
+href="http://411vibes.net/category/music/music-videos/">Music Video</a></li><li
+id="menu-item-90" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children arrow menu-item-90"><a
+href="http://411vibes.net/category/news/nigerian-news/">National</a><ul
+class="sub-menu"><li
+id="menu-item-89" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-89"><a
+href="http://411vibes.net/category/news/foreign-news/">Foreign</a></li></ul></li><li
+id="menu-item-9440" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children arrow menu-item-9440"><a
+href="http://411vibes.net/category/music/">Mp3 downloads</a><ul
+class="sub-menu"><li
+id="menu-item-85" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-85"><a
+href="http://411vibes.net/category/music/africantracks/">African</a></li><li
+id="menu-item-87" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-87"><a
+href="http://411vibes.net/category/music/european-tracks/">European</a></li><li
+id="menu-item-86" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-86"><a
+href="http://411vibes.net/category/music/american-tracks/">American</a></li></ul></li><li
+id="menu-item-91" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children arrow menu-item-91"><a
+href="http://411vibes.net/category/news/politics/">Politics</a><ul
+class="sub-menu"><li
+id="menu-item-92" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-92"><a
+href="http://411vibes.net/category/news/sports/">Sports</a></li></ul></li><li
+id="menu-item-9187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children arrow menu-item-9187"><a
+href="http://411vibes.net/advertise/">Advertise</a><ul
+class="sub-menu"><li
+id="menu-item-9435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9435"><a
+href="http://411vibes.net/contact-2/">Contact</a></li><li
+id="menu-item-9436" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9436"><a
+href="http://411vibes.net/disclaimer/">Disclaimer</a></li><li
+id="menu-item-9437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9437"><a
+href="http://411vibes.net/privacy-policy/">Privacy Policy</a></li><li
+id="menu-item-9439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9439"><a
+href="http://411vibes.net/about/">About</a></li><li
+id="menu-item-9438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9438"><a
+href="http://411vibes.net/pr-services/">PR Services</a></li></ul></li><li
+id="menu-item-9441" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9441"><a
+href="http://411vibes.net/category/hype-2/">Hype</a></li><li
+id="menu-item-28482" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28482"><a
+href="http://411vibes.net/category/word-of-god/">Word Of GOD</a></li></ul></div></ul></div></div></div></div><div
+id="section"><div
+class="hidead"><center
+style="margin-top: 2px;margin-bottom: 2px;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins
+class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-5590233556137727"
+data-ad-slot="5163429493"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div><div
+id="column-wrap"><div
+id="main-content"><div
+id="featwrapper"><div
+id="feat"><div
+id="featbig"><div
+class="featbig"><h2 style="min-height:58px;"><a
+href="http://411vibes.net/2014/09/flavour-n-abania-and-sandra-okagbue-welcome-baby-girl/" rel="bookmark">Flavour N’Abania and Sandra Okagbue Welcome Baby Girl</a></h2> <a
+href="http://411vibes.net/2014/09/flavour-n-abania-and-sandra-okagbue-welcome-baby-girl/"><img
+width="418" height="215" src="http://411vibes.net/wp-content/uploads/2014/09/7628117028985_2097326624672-418x215.jpg" class="attachment-featbigimg wp-post-image" alt="7628117028985_2097326624672" /></a><p>Word on the street is that Flavour N’Abania is the latest daddy in town. He welcomed a baby girl to the world with model Sandra Okagbue this past Saturday, Sepetember 27th, 2014 in Houston, TX, USA.
+More..Nu&nbsp;<a
+href='http://411vibes.net/2014/09/flavour-n-abania-and-sandra-okagbue-welcome-baby-girl/'>More...</a></p><div
+id="featbig-author">by <a
+href="http://411vibes.net/author/blessedking/" title="View all posts by King O">King O</a> | Published 3 hours ago</div><div
+id="featsmall"><h2><a
+href="http://411vibes.net/2014/09/genevieve-nnaji-to-relaunch-her-clothing-line-st-genevieve-see-some-exclusive-promo-shots-look/" rel="bookmark">Genevieve Nnaji To Relaunch Her Clothing Line (St. Genevieve) &#8211; See Some Exclusive Promo Shots [LOOK]</a></h2><h2><a
+href="http://411vibes.net/2014/09/another-round-of-jennifer-lawrence-nu-d-images-are-leaked-by-hackers/" rel="bookmark">Another round of Jennifer Lawrence nu d£ images are leaked by hackers</a></h2></div><div
+class="cb"></div></div></div><div
+id="left-insidebar"><div
+class="home-post-wrap"><div
+class="thumbnail-div" style=""> <a
+href="http://411vibes.net/2014/09/see-what-pastor-chris-did-to-his-wife-anita-oyakhilome-again-look/"><span
+class="header"><img
+width="216" height="125" src="http://411vibes.net/wp-content/uploads/2014/08/Pastor-Chris-Oyakhilome-With-Wife-Anita-411vibes-216x125.jpg" class="attachment-featgalimg wp-post-image" alt="Pastor-Chris-Oyakhilome-With-Wife-Anita-411vibes" /></span> </a></div><h2><a
+href="http://411vibes.net/2014/09/see-what-pastor-chris-did-to-his-wife-anita-oyakhilome-again-look/" class="the2title" title="See what Pastor Chris did to his wife, Anita Oyakhilome again!! (Look)" rel="bookmark"> See what Pastor Chris did to his wife, Anita Oyakhilome again!! (Look)</a></h2></div><div
+class="home-post-wrap"><div
+class="thumbnail-div" style=""> <a
+href="http://411vibes.net/2014/09/nicki-minaj-s-mother-finally-reveals-deep-secret-about-her-daughter-see-what-she-said-look/"><span
+class="header"><img
+width="216" height="125" src="http://411vibes.net/wp-content/uploads/2014/09/nm1-216x125.jpg" class="attachment-featgalimg wp-post-image" alt="nm1" /></span> </a></div><h2><a
+href="http://411vibes.net/2014/09/nicki-minaj-s-mother-finally-reveals-deep-secret-about-her-daughter-see-what-she-said-look/" class="the2title" title="Nicki Minaj&#8217;s Mother Finally reveals Deep Secret about Her daughter &#8211; See What she said [ LOOk ]" rel="bookmark"> Nicki Minaj&#8217;s Mother Finally reveals Deep Secret about Her daughter &#8211; See What she said [ LOOk ]</a></h2></div><div
+class="home-post-wrap"><div
+class="thumbnail-div" style=""> <a
+href="http://411vibes.net/2014/09/flavour-nabania-welcomes-baby-with-girlfriend-photo/"><span
+class="header"><img
+width="216" height="125" src="http://411vibes.net/wp-content/uploads/2014/09/flav1-216x125.png" class="attachment-featgalimg wp-post-image" alt="flav" /></span> </a></div><h2><a
+href="http://411vibes.net/2014/09/flavour-nabania-welcomes-baby-with-girlfriend-photo/" class="the2title" title="Flavour Nabania Welcomes Baby With Girlfriend (PHOTO)" rel="bookmark"> Flavour Nabania Welcomes Baby With Girlfriend (PHOTO)</a></h2></div></div></div><div
+id="featgal"><div
+id="slider-wrapper"><div
+id="example"><div
+id="slides"><div
+class="slides_container"><div
+class="slide"> <a
+href="http://411vibes.net/2014/09/downoad-high-grade-by-p-r-e-prod-by-pheelz-audio/"><img
+width="298" height="295" src="http://411vibes.net/wp-content/uploads/2014/08/PRE-298x295.jpg" class="attachment-featgalsliderimg wp-post-image" alt="PRE" /></a><a
+href="http://411vibes.net/2014/09/downoad-high-grade-by-p-r-e-prod-by-pheelz-audio/"><div
+style="padding:1px 6px;"><h2 style="margin-bottom:1px;">Downoad High Grade by P.R.E &#8211; Prod. by Pheelz (Audio)</h2><div
+id="featgalsliderp"><p>P.R.E, who has delivered several catchy songs in the past,  is revamping everything, from his look all the way through his music.
+On&nbsp;<a
+href='http://411vibes.net/2014/09/downoad-high-grade-by-p-r-e-prod-by-pheelz-audio/'>More...</a></p></div></div> </a></div><div
+class="slide"> <a
+href="http://411vibes.net/2014/09/download-nicki-minaj-by-tee-blaq-ft-olamide-prod-by-jay-pizzle-audio/"><img
+width="298" height="295" src="http://411vibes.net/wp-content/uploads/2014/09/nickiminajbyteeblaq-298x295.jpg" class="attachment-featgalsliderimg wp-post-image" alt="nickiminajbyteeblaq" /></a><a
+href="http://411vibes.net/2014/09/download-nicki-minaj-by-tee-blaq-ft-olamide-prod-by-jay-pizzle-audio/"><div
+style="padding:1px 6px;"><h2 style="margin-bottom:1px;">Download Nicki Minaj by Tee-Blaq ft Olamide &#8211; Prod. by Jay Pizzle (Audio)</h2><div
+id="featgalsliderp"><p>Eldar Records releases new Olamide assisted single from her frontline act, Tee-Blaq. This would be his follow up to the club and street&nbsp;<a
+href='http://411vibes.net/2014/09/download-nicki-minaj-by-tee-blaq-ft-olamide-prod-by-jay-pizzle-audio/'>More...</a></p></div></div> </a></div><div
+class="slide"> <a
+href="http://411vibes.net/2014/09/download-happy-day-by-patoranking-official-video/"><img
+width="298" height="295" src="http://411vibes.net/wp-content/uploads/2014/09/Screen-Shot-2014-09-27-at-11.52.11-AM-298x295.png" class="attachment-featgalsliderimg wp-post-image" alt="Screen-Shot-2014-09-27-at-11.52.11-AM" /></a><a
+href="http://411vibes.net/2014/09/download-happy-day-by-patoranking-official-video/"><div
+style="padding:1px 6px;"><h2 style="margin-bottom:1px;">Download Happy Day by Patoranking (Official Video)</h2><div
+id="featgalsliderp"><p>Fresh video drops from the rave of the moment  foston music Dancehall star , Patoranking &#8211; Happy Day, this is definitely&nbsp;<a
+href='http://411vibes.net/2014/09/download-happy-day-by-patoranking-official-video/'>More...</a></p></div></div> </a></div><div
+class="slide"> <a
+href="http://411vibes.net/2014/09/full-album-download-epiphany-by-timaya/"><img
+width="298" height="295" src="http://411vibes.net/wp-content/uploads/2014/09/Timaya-Epiphany-Album-Art-298x295.jpg" class="attachment-featgalsliderimg wp-post-image" alt="Timaya-Epiphany-Album-Art" /></a><a
+href="http://411vibes.net/2014/09/full-album-download-epiphany-by-timaya/"><div
+style="padding:1px 6px;"><h2 style="margin-bottom:1px;">Full Album Download: &#8220;Epiphany&#8221; by Timaya</h2><div
+id="featgalsliderp"><p>The Egberi Papa 1 of Africa and CEO of DM Records, Timaya  released his 5th solo album “Epiphany” on the 25th of this month.&nbsp;<a
+href='http://411vibes.net/2014/09/full-album-download-epiphany-by-timaya/'>More...</a></p></div></div> </a></div><div
+class="slide"> <a
+href="http://411vibes.net/2014/09/download-care-about-us-by-k9-ft-sound-sultan-official-video/"><img
+width="298" height="295" src="http://411vibes.net/wp-content/uploads/2014/09/K9-ft.-Sound-Sultan_tooXclusive.com_-300x300-298x295.jpeg" class="attachment-featgalsliderimg wp-post-image" alt="K9-ft.-Sound-Sultan_tooXclusive.com_-300x300" /></a><a
+href="http://411vibes.net/2014/09/download-care-about-us-by-k9-ft-sound-sultan-official-video/"><div
+style="padding:1px 6px;"><h2 style="margin-bottom:1px;">Download Care About Us by K9 ft Sound Sultan (Official Video)</h2><div
+id="featgalsliderp"><p>Just a few days ago the song was released, K9 follows it up with the visuals to the conscious song that features naija ninja Sound&nbsp;<a
+href='http://411vibes.net/2014/09/download-care-about-us-by-k9-ft-sound-sultan-official-video/'>More...</a></p></div></div> </a></div><div
+class="slide"> <a
+href="http://411vibes.net/2014/09/download-girls-dem-ft-patoranking-overflow-ft-olamide-by-timaya-audio/"><img
+width="298" height="295" src="http://411vibes.net/wp-content/uploads/2014/09/Timaya-Epiphany-Album-Art-298x295.jpg" class="attachment-featgalsliderimg wp-post-image" alt="Timaya-Epiphany-Album-Art" /></a><a
+href="http://411vibes.net/2014/09/download-girls-dem-ft-patoranking-overflow-ft-olamide-by-timaya-audio/"><div
+style="padding:1px 6px;"><h2 style="margin-bottom:1px;">Download Girls Dem ft Patoranking + Overflow ft Olamide by Timaya (Audio)</h2><div
+id="featgalsliderp"><p>Girls Dem ft Patoranking &#8211; Timaya’s 5th studio album titled Epiphany is finally out, Overflow featuring Olamide + Girls Dem&nbsp;<a
+href='http://411vibes.net/2014/09/download-girls-dem-ft-patoranking-overflow-ft-olamide-by-timaya-audio/'>More...</a></p></div></div> </a></div><div
+class="slide"> <a
+href="http://411vibes.net/2014/09/download-baby-jollof-by-solidstar-ft-tiwa-savage-audio/"><img
+width="298" height="295" src="http://411vibes.net/wp-content/uploads/2014/09/baby-jollof-1-298x295.jpg" class="attachment-featgalsliderimg wp-post-image" alt="baby-jollof (1)" /></a><a
+href="http://411vibes.net/2014/09/download-baby-jollof-by-solidstar-ft-tiwa-savage-audio/"><div
+style="padding:1px 6px;"><h2 style="margin-bottom:1px;">Download Baby Jollof by Solidstar ft Tiwa Savage (Audio)</h2><div
+id="featgalsliderp"><p>We brought you the snippet to this sweet Solidstar track featuring Tiwa Savage just yesterday and now we have the full track.  ‘Baby&nbsp;<a
+href='http://411vibes.net/2014/09/download-baby-jollof-by-solidstar-ft-tiwa-savage-audio/'>More...</a></p></div></div> </a></div><div
+class="slide"> <a
+href="http://411vibes.net/2014/09/download-loke-loke-by-sean-tizzle-official-video/"><img
+width="298" height="295" src="http://411vibes.net/wp-content/uploads/2014/09/Sean-Tizzle-Loke-Loke-Video-Art1-298x295.jpg" class="attachment-featgalsliderimg wp-post-image" alt="Sean-Tizzle-Loke-Loke-Video-Art1" /></a><a
+href="http://411vibes.net/2014/09/download-loke-loke-by-sean-tizzle-official-video/"><div
+style="padding:1px 6px;"><h2 style="margin-bottom:1px;">Download Loke Loke by Sean Tizzle (Official Video)</h2><div
+id="featgalsliderp"><p>“In just a couple of weeks after he dropped his long awaited Perfect Gentleman video and his most anticipated UK tour dates gets&nbsp;<a
+href='http://411vibes.net/2014/09/download-loke-loke-by-sean-tizzle-official-video/'>More...</a></p></div></div> </a></div></div> <a
+href="#" class="prev"><img
+src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/images/prev.png" width="65" height="10" alt="Arrow Prev"></a> <a
+href="#" class="next"><img
+src="http://411vibes.net/wp-content/themes/newspapertimes-single-pro-psd/images/next.png" width="37" height="9" alt="Arrow Next"></a></div></div></div></div><div
+class="cb"></div></div><center
+style="margin-top: 12px;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins
+class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-5590233556137727"
+data-ad-slot="2349563891"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center><div
+id="colorcontent"><div
+id="colorcontent_left"><div
+id="colorcontentblock"><div
+id="colorcontenth3" class="custom1"> <a
+href="http://411vibes.net/category/love-and-sex-articles" title="love-and-sex-articles">Love, Sex & Relationship</a></div><div
+id="colorcontentwrap"><h3><a
+href="http://411vibes.net/2014/09/8-reasons-your-ms-right-might-actually-be-ms-wrong-must-see/" rel="bookmark">8 Reasons Your Ms. Right Might Actually Be Ms. WRONG!  (Must See)</a></h3> <a
+href="http://411vibes.net/2014/09/8-reasons-your-ms-right-might-actually-be-ms-wrong-must-see/"><img
+width="146" height="85" src="http://411vibes.net/wp-content/uploads/2014/09/Beautiful-Black-Woman-411vibes-795x397-146x85.jpg" class="attachment-colorcontentblock1 wp-post-image" alt="Beautiful-Black-girl-Woman-411vibes-795x397" /></a><p>75% of the path to marriage lies in the selection process. Now, there isn’t any scientific theory to this number it’s merely my opinion gathered from coaching so many people.
+It&nbsp;<a
+href='http://411vibes.net/2014/09/8-reasons-your-ms-right-might-actually-be-ms-wrong-must-see/'>More...</a></p><div
+class="cb"></div></div><div
+id="colorcontentwrap"><h2><a
+href="http://411vibes.net/2014/09/revealed-9-secrets-girls-never-tell-you-must-read/" rel="bookmark">Revealed: 9 Secrets Girls Never Tell You (Must Read)</a></h2> <a
+href="http://411vibes.net/2014/09/revealed-9-secrets-girls-never-tell-you-must-read/"><img
+width="146" height="85" src="http://411vibes.net/wp-content/uploads/2014/09/COUPLE-ON-DATE-AFRICAN-AMERICAN-Love-Sex-Relationship-Man-Woman-Boy-Girl-Article-411Vibes-795x397-146x85.jpg" class="attachment-colorcontentblock1 wp-post-image" alt="COUPLE-ON-DATE-AFRICAN-AMERICAN-Love-Sex-Relationship-Man-Woman-Boy-Girl-Article-411Vibes-795x397" /></a><p>1. We want men to take initiative
+It is a very important thing. We do not like to take care, to plan and to do all sorts of things by ourselves. We want men to take initiative.&nbsp;<a
+href='http://411vibes.net/2014/09/revealed-9-secrets-girls-never-tell-you-must-read/'>More...</a></p><div
+class="cb"></div></div><div
+id="colorcontentwrap"><h2><a
+href="http://411vibes.net/2014/09/5-reasons-why-women-cheat-and-how-to-prevent-it-must-see/" rel="bookmark">5 Reasons Why Women Cheat And How To Prevent It (Must See)</a></h2> <a
+href="http://411vibes.net/2014/09/5-reasons-why-women-cheat-and-how-to-prevent-it-must-see/"><img
+width="146" height="85" src="http://411vibes.net/wp-content/uploads/2014/09/man-woman-boy-girl-love-sex-relationshio-411vibes-article-146x85.jpg" class="attachment-colorcontentblock1 wp-post-image" alt="man woman boy girl love sex relationshio 411vibes article" /></a><p>There are a lot of women that do not cheat on their partners. If they are happy with their partner and secure in their relationship, it is unlikely that most women will stray.
+That&nbsp;<a
+href='http://411vibes.net/2014/09/5-reasons-why-women-cheat-and-how-to-prevent-it-must-see/'>More...</a></p><div
+class="cb"></div></div></div></div><div
+id="colorcontent_right"><div
+id="colorcontent_right_1"><div
+id="colorcontentblock"><div
+id="colorcontenth3" class="custom2"> <a
+href="http://411vibes.net/category/nigerian-news">World News</a></div> <a
+href="http://411vibes.net/2014/09/fashola-calls-for-patience-on-synagogue-building-collapse-investigation-see-what-he-said/"><img
+width="384" height="217" src="http://411vibes.net/wp-content/uploads/2014/09/Gov-Babatunde-Fashola1-384x217.jpg" class="attachment-colorcontentblock2 wp-post-image" alt="Gov-Babatunde-Fashola1" /></a><div
+id="colorcontentwrap2"><h2><a
+href="http://411vibes.net/2014/09/fashola-calls-for-patience-on-synagogue-building-collapse-investigation-see-what-he-said/" rel="bookmark">Fashola Calls for Patience on Synagogue Building Collapse Investigation &#8211; See What He Said!</a></h2><p>Governor Babatunde Fashola of Lagos State on Monday said the government would follow due process in the investigation of the September 12th building collapse at the Synagogue Church&nbsp;<a
+href='http://411vibes.net/2014/09/fashola-calls-for-patience-on-synagogue-building-collapse-investigation-see-what-he-said/'>More...</a></p><div
+class="cb"></div></div><div
+id="colorcontentwrap2"><h2><a
+href="http://411vibes.net/2014/09/must-read-lagos-state-trains-80-females-to-drive-commercial-brt-buses/" rel="bookmark">Must Read ! Lagos State Trains 80 Females to Drive Commercial “BRT” Buses</a></h2><p>Lagos state is currently training 80 women to drive commercial LAGBUS buses, popularly known as “BRT”.
+Mass transportation firm, LAGBUS Asset Management is conducting the&nbsp;<a
+href='http://411vibes.net/2014/09/must-read-lagos-state-trains-80-females-to-drive-commercial-brt-buses/'>More...</a></p><div
+class="cb"></div></div></div></div><div
+id="colorcontent_right_2"><div
+id="colorcontentblock"><div
+id="colorcontenth3_small" class="custom3"><a
+href="http://411vibes.net/category/photos">Fashion & Events</a></div><div
+id="colorcontentwrap3"><h2><a
+href="http://411vibes.net/2014/09/wizkid-chidinma-thrill-fans-with-mind-blowing-performance-in-london-see-pics/" rel="bookmark">Wizkid, Chidinma thrill fans with mind blowing performance in London (See Pics)</a></h2> <a
+href="http://411vibes.net/2014/09/wizkid-chidinma-thrill-fans-with-mind-blowing-performance-in-london-see-pics/"><img
+width="173" height="137" src="http://411vibes.net/wp-content/uploads/2014/09/wizkid-and-chidinma-photos-173x137.jpg" class="attachment-colorcontentblock3 wp-post-image" alt="wizkid and chidinma photos" /></a><p>The show wouldn’t have been complete without his collabos which included ‘Back To The Matter’, ‘Caro’ and ‘Emi&nbsp;<a
+href='http://411vibes.net/2014/09/wizkid-chidinma-thrill-fans-with-mind-blowing-performance-in-london-see-pics/'>More...</a></p><div
+class="cb"></div></div><div
+id="colorcontentwrap3"><h2><a
+href="http://411vibes.net/2014/09/meet-the-most-beautiful-girl-in-unilag-miss-unilag-2014-winner-photos/" rel="bookmark">Meet the Most beautiful girl in UNILAG &#8211;  Miss Unilag 2014 winner (Photos)</a></h2> <a
+href="http://411vibes.net/2014/09/meet-the-most-beautiful-girl-in-unilag-miss-unilag-2014-winner-photos/"><img
+width="173" height="75" src="http://411vibes.net/wp-content/uploads/2014/09/miss-unilag-2014-411vibes-173x75.jpg" class="attachment-colorcontentblock3a wp-post-image" alt="miss unilag 2014 411vibes" /></a><p>Miss Unilag &#8211; WHO IS SHE? The Search for the most beautiful girl in UNILAG took a massive turn as people&nbsp;<a
+href='http://411vibes.net/2014/09/meet-the-most-beautiful-girl-in-unilag-miss-unilag-2014-winner-photos/'>More...</a></p><div
+class="cb"></div></div></div></div><div
+class="cb"></div></div><div
+class="cb"></div></div><div
+style="margin: 3px 0px;"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins
+class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-5590233556137727"
+data-ad-slot="2349563891"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div><div
+id="content"><div
+id="coloredblock4"><div
+id="colorcontentblock"><div
+id="colorcontenth3" class="custom4"><a
+href="http://411vibes.net/category/e-news">Entertainment & Gossip</a></div><div
+id="colorcontentwrap4"><h2> <a
+href="http://411vibes.net/2014/09/flavour-n-abania-and-sandra-okagbue-welcome-baby-girl/"><img
+width="205" height="120" src="http://411vibes.net/wp-content/uploads/2014/09/7628117028985_2097326624672-205x120.jpg" class="attachment-colorcontentblock4 wp-post-image" alt="7628117028985_2097326624672" /></a> <a
+href="http://411vibes.net/2014/09/flavour-n-abania-and-sandra-okagbue-welcome-baby-girl/" rel="bookmark">Flavour N’Abania and Sandra Okagbue Welcome Baby Girl</a></h2> Word on the street is that Flavour N’Abania is the latest daddy in town. He welcomed...<div
+class="cb"></div></div><div
+id="colorcontentwrap4"><h2> <a
+href="http://411vibes.net/2014/09/meet-tayo-the-2nd-nigerian-housemate-for-big-brother-africa-hotshots-2014-see-pics/"><img
+width="205" height="120" src="http://411vibes.net/wp-content/uploads/2014/09/tayo-nigeria-205x120.png" class="attachment-colorcontentblock4 wp-post-image" alt="tayo-nigeria" /></a> <a
+href="http://411vibes.net/2014/09/meet-tayo-the-2nd-nigerian-housemate-for-big-brother-africa-hotshots-2014-see-pics/" rel="bookmark">Meet Tayo! The 2nd Nigerian Housemate For Big Brother Africa Hotshots &#8220;2014&#8221;  [See Pics]</a></h2> Just last week we introduced to you the first Nigerian contestant, Lillian, for this year’s Big...<div
+class="cb"></div></div><div
+id="colorcontentwrap4"><h2> <a
+href="http://411vibes.net/2014/09/genevieve-nnaji-to-relaunch-her-clothing-line-st-genevieve-see-some-exclusive-promo-shots-look/"><img
+width="205" height="120" src="http://411vibes.net/wp-content/uploads/2014/09/10665356_561316870635311_1000345471_n-205x120.jpg" class="attachment-colorcontentblock4 wp-post-image" alt="10665356_561316870635311_1000345471_n" /></a> <a
+href="http://411vibes.net/2014/09/genevieve-nnaji-to-relaunch-her-clothing-line-st-genevieve-see-some-exclusive-promo-shots-look/" rel="bookmark">Genevieve Nnaji To Relaunch Her Clothing Line (St. Genevieve) &#8211; See Some Exclusive Promo Shots [LOOK]</a></h2> Genevieve Nnaji is expanding her brand, and going into one thing she’s very popular for; Style....<div
+class="cb"></div></div></div></div><div
+style="margin:5px 3px 0px 3px;"><center><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins
+class="adsbygoogle"
+style="display:inline-block;width:468px;height:15px"
+data-ad-client="ca-pub-5590233556137727"
+data-ad-slot="8514700690"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins
+class="adsbygoogle"
+style="display:inline-block;width:468px;height:15px"
+data-ad-client="ca-pub-5590233556137727"
+data-ad-slot="8514700690"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins
+class="adsbygoogle"
+style="display:inline-block;width:468px;height:15px"
+data-ad-client="ca-pub-5590233556137727"
+data-ad-slot="8514700690"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></center></div><div
+id="coloredblock567"><div
+id="coloredblock5"><div
+id="colorcontentblock"><div
+id="colorcontenth3_small" class="custom5"><a
+href="http://411vibes.net/category/africantracks">African Music</a></div><div
+id="colorcontentwrap5"><h2><a
+href="http://411vibes.net/2014/09/downoad-high-grade-by-p-r-e-prod-by-pheelz-audio/" rel="bookmark">Downoad High Grade by P.R.E &#8211; Prod. by Pheelz (Audio)</a></h2> <a
+href="http://411vibes.net/2014/09/downoad-high-grade-by-p-r-e-prod-by-pheelz-audio/"><img
+width="220" height="288" src="http://411vibes.net/wp-content/uploads/2014/08/PRE-220x288.jpg" class="attachment-colorcontentblock5 wp-post-image" alt="PRE" /></a><p>P.R.E, who has delivered several catchy songs in the past,  is&nbsp;<a
+href='http://411vibes.net/2014/09/downoad-high-grade-by-p-r-e-prod-by-pheelz-audio/'>More...</a></p><div
+class="cb"></div></div><div
+id="colorcontentwrap5"><h3><a
+href="http://411vibes.net/2014/09/download-nicki-minaj-by-tee-blaq-ft-olamide-prod-by-jay-pizzle-audio/" rel="bookmark">Download Nicki Minaj by Tee-Blaq..</a></h3><div
+class="cb"></div></div><div
+id="colorcontentwrap5"><h3><a
+href="http://411vibes.net/2014/09/full-album-download-epiphany-by-timaya/" rel="bookmark">Full Album Download: &#8220;Epip..</a></h3><div
+class="cb"></div></div><div
+id="colorcontentwrap5"><h3><a
+href="http://411vibes.net/2014/09/download-care-about-us-by-k9-ft-sound-sultan-official-video/" rel="bookmark">Download Care About Us by K9 ft ..</a></h3><div
+class="cb"></div></div><div
+id="colorcontentwrap5"><h3><a
+href="http://411vibes.net/2014/09/download-girls-dem-ft-patoranking-overflow-ft-olamide-by-timaya-audio/" rel="bookmark">Download Girls Dem ft Patorankin..</a></h3><div
+class="cb"></div></div><div
+id="colorcontentwrap5"><h3><a
+href="http://411vibes.net/2014/09/download-baby-jollof-by-solidstar-ft-tiwa-savage-audio/" rel="bookmark">Download Baby Jollof by Solidsta..</a></h3><div
+class="cb"></div></div><div
+id="colorcontentwrap5"><h3><a
+href="http://411vibes.net/2014/09/download-believe-by-dj-neptune-ft-sarkodie-phyno-audio-video/" rel="bookmark">Download Believe by Dj Neptune f..</a></h3><div
+class="cb"></div></div></div></div><div
+id="coloredblock67"><div
+id="coloredblock6"><div
+id="colorcontentblock"><div
+id="colorcontenth3_small" class="custom6"><a
+href="http://411vibes.net/category/music-videos">Music Video</a></div><div
+id="colorcontentwrap6_l"><div
+id="colorcontentwrap6"><h2><a
+href="http://411vibes.net/2014/09/download-happy-day-by-patoranking-official-video/" rel="bookmark">Download Happy Day by Patoranking (Official Video)</a></h2> <a
+href="http://411vibes.net/2014/09/download-happy-day-by-patoranking-official-video/"><img
+width="220" height="146" src="http://411vibes.net/wp-content/uploads/2014/09/Screen-Shot-2014-09-27-at-11.52.11-AM-220x146.png" class="attachment-colorcontentblock6 wp-post-image" alt="Screen-Shot-2014-09-27-at-11.52.11-AM" /></a><p>Fresh video drops from the rave of the moment  foston music Dancehall star , Patoranking &#8211; Happy Day,&nbsp;<a
+href='http://411vibes.net/2014/09/download-happy-day-by-patoranking-official-video/'>More...</a></p><div
+class="cb"></div></div></div><div
+id="colorcontentwrap6_r"><div
+id="colorcontentwrap6_a"><h2><a
+href="http://411vibes.net/2014/09/download-care-about-us-by-k9-ft-sound-sultan-official-video/" rel="bookmark">Download Care About Us by K9 ft Sound Sultan (Official Video)</a></h2> Just a few days ago the song was released, K9 follows it up with the visuals to the conscious song that..<div
+class="cb"></div></div><div
+id="colorcontentwrap6_a"><h2><a
+href="http://411vibes.net/2014/09/download-loke-loke-by-sean-tizzle-official-video/" rel="bookmark">Download Loke Loke by Sean Tizzle (Official Video)</a></h2> “In just a couple of weeks after he dropped his long awaited Perfect Gentleman video and his most anticipated UK tour..<div
+class="cb"></div></div></div><div
+class="cb"></div></div></div><div
+id="coloredblock7"><div
+id="colorcontentblock"><div
+id="colorcontenth3_small" class="custom7"><a
+href="http://411vibes.net/category/nigerian-news">National News</a></div><div
+id="colorcontentwrap7_l"><div
+id="colorcontentwrap7"><h2><a
+href="http://411vibes.net/2014/09/fashola-calls-for-patience-on-synagogue-building-collapse-investigation-see-what-he-said/" rel="bookmark">Fashola Calls for Patience on Synagogue Building Collapse Investigation &#8211; See What He Said!</a></h2> <a
+href="http://411vibes.net/2014/09/fashola-calls-for-patience-on-synagogue-building-collapse-investigation-see-what-he-said/"><img
+width="220" height="146" src="http://411vibes.net/wp-content/uploads/2014/09/Gov-Babatunde-Fashola1-220x146.jpg" class="attachment-colorcontentblock6 wp-post-image" alt="Gov-Babatunde-Fashola1" /></a><p>Governor Babatunde Fashola of Lagos State on Monday said the government would follow due process in the investigation&nbsp;<a
+href='http://411vibes.net/2014/09/fashola-calls-for-patience-on-synagogue-building-collapse-investigation-see-what-he-said/'>More...</a></p><div
+class="cb"></div></div></div><div
+id="colorcontentwrap7_r"><div
+id="colorcontentwrap7_a"><h2><a
+href="http://411vibes.net/2014/09/must-read-lagos-state-trains-80-females-to-drive-commercial-brt-buses/" rel="bookmark">Must Read ! Lagos State Trains 80 Females to Drive Commercial “BRT” Buses</a></h2> Lagos state is currently training 80 women to drive commercial LAGBUS buses, popularly known as “BRT”. Mass transportation firm, LAGBUS Asset..<div
+class="cb"></div></div><div
+id="colorcontentwrap7_a"><h2><a
+href="http://411vibes.net/2014/09/tb-joshua-in-big-trouble-details/" rel="bookmark">TB Joshua in big trouble (Details)</a></h2> A coroner of inquest has been set up by the Lagos state government for the purpose of investigating the cause of..<div
+class="cb"></div></div></div><div
+class="cb"></div></div></div></div><div
+class="cb"></div></div><div
+id="coloredblock89"><div
+id="colorcontentblock" class="colorcontentwrap8_left"><div
+id="colorcontentwrap8line"><div
+id="colorcontenth3_small" class="custom8"><a
+href="http://411vibes.net/category/movies">Movies & TV</a></div><div
+id="colorcontentwrap8"><h3><a
+href="http://411vibes.net/2014/09/watch-half-of-a-yellow-sun-watch-or-download-full-movie-here/" rel="bookmark">Watch Half of A Yellow Sun (Watch or Download Full Movie Here)</a></h3> <a
+href="http://411vibes.net/2014/09/watch-half-of-a-yellow-sun-watch-or-download-full-movie-here/"><img
+width="320" height="190" src="http://411vibes.net/wp-content/uploads/2014/09/watch-half-of-a-yellow-sun-411vibes-320x190.png" class="attachment-colorcontentblock8 wp-post-image" alt="watch-half-of-a-yellow-sun-411vibes" /></a> Watch Half of A Yellow Sun - Sisters Olanna and Kainene return home to 1960s Nigeria, where they soon diverge on different..<div
+class="cb"></div></div><div
+id="colorcontentwrap8"><h2><a
+href="http://411vibes.net/2014/07/full-movie-watch-the-expendables-3-here/" rel="bookmark">Full Movie: Watch The Expendables 3 Here</a></h2><div
+class="cb"></div></div><div
+id="colorcontentwrap8"><h2><a
+href="http://411vibes.net/2014/07/watch-non-stop-online-full-movie/" rel="bookmark">Full Movie: Watch Non Stop Here</a></h2><div
+class="cb"></div></div><div
+id="colorcontentwrap8"><h2><a
+href="http://411vibes.net/2014/07/watch-22-jump-street-full-movie/" rel="bookmark">Watch 22 Jump Street Full Movie Here</a></h2><div
+class="cb"></div></div></div></div><div
+id="colorcontentblock" class="colorcontentwrap9_right"><div
+id="colorcontenth3_small" class="custom9"><a
+href="http://411vibes.net/category/top-post-2">Fun & Random Videos</a></div><div
+id="colorcontentwrap9"><h3><a
+href="http://411vibes.net/2014/09/must-see-25-facts-you-probably-didn-t-know-about-aaliyah-look/" rel="bookmark">Must See ! 25 Facts You Probably Didn’t Know About Aaliyah [ LOOK ]</a></h3> <a
+href="http://411vibes.net/2014/09/must-see-25-facts-you-probably-didn-t-know-about-aaliyah-look/"><img
+width="320" height="190" src="http://411vibes.net/wp-content/uploads/2014/09/Aaliyah-320x190.jpg" class="attachment-colorcontentblock9 wp-post-image" alt="Aaliyah" /></a>Aaliyah is one of the most beloved artists of our time. A talented singer and dancer, she won our hearts when..<div
+class="cb"></div></div><div
+id="colorcontentwrap9"><h2><a
+href="http://411vibes.net/2014/09/must-watch-south-african-pastor-pours-petrol-down-his-members-throats-and-they-said-it-tastes-like-pineapple-juice-video/" rel="bookmark">Must Watch! South African Pastor Pours Petrol Down His Members Throats And They Said It Tastes Like Pineapple Juice (Video)</a></h2><div
+class="cb"></div></div><div
+id="colorcontentwrap9"><h2><a
+href="http://411vibes.net/2014/09/popular-pastor-caught-pants-down-with-a-female-church-member-photo-video-2/" rel="bookmark">Popular Pastor Caught Pants Down With A Female Church Member [PHOTO &#038; VIDEO]</a></h2><div
+class="cb"></div></div><div
+id="colorcontentwrap9"><h2><a
+href="http://411vibes.net/2014/09/omg-yung6ix-now-doing-p0rn-check-out-this-again-video-of-his-you-need-to-see-this/" rel="bookmark">OMG!! Yung6ix now doing p0rn?? Check out this &#8220;Again&#8221; video of his &#8211; You need to see this!</a></h2><div
+class="cb"></div></div></div><div
+class="cb"></div></div><div
+id="coloredblock10"><div
+id="colorcontentblock" class="colorcontentwrap10"><div
+id="colorcontenth3_small" class="custom10"><a
+href="http://411vibes.net/category/sports">Sports</a></div><div
+id="colorcontentwrap10"> <a
+href="http://411vibes.net/2014/09/stephen-keshi-announces-super-eagles-squad-for-acn-qualifiers/"><img
+width="210" height="146" src="http://411vibes.net/wp-content/uploads/2014/09/Stephen-Keshi1-210x146.jpg" class="attachment-colorcontentblock10 wp-post-image" alt="Stephen-Keshi1" /></a><h3><a
+href="http://411vibes.net/2014/09/stephen-keshi-announces-super-eagles-squad-for-acn-qualifiers/" rel="bookmark">Stephen Keshi Announces Super Eagles Squad For ACN Qualifiers</a></h3> Super Eagles head coach Stephen Keshi has released his 25-man squad to face Sudan in the African Cup of Nations qualifiers...<div
+class="cb"></div></div></div><div
+id="colorcontentblock" class="colorcontentwrap10"><div
+id="colorcontenth3_small" class="custom11"><a
+href="http://411vibes.net/category/job-vacancies">Apply For Jobs Here</a></div><div
+id="colorcontentwrap10"> <a
+href="http://411vibes.net/2014/07/job-vacancy-customer-care-agent-wanted-urgently-with-pay-of-up-to-n120k-monthly-apply-here/"><img
+width="146" height="146" src="http://411vibes.net/wp-content/uploads/2014/07/job-vacancy-nigeria-411vibes.png" class="attachment-colorcontentblock10 wp-post-image" alt="job vacancy nigeria 411vibes" /></a><h3><a
+href="http://411vibes.net/2014/07/job-vacancy-customer-care-agent-wanted-urgently-with-pay-of-up-to-n120k-monthly-apply-here/" rel="bookmark">Job Vacancy: Customer care agent wanted urgently with pay of up to N120k monthly (Apply Here)</a></h3> Are you interested in working as a customer service representative/call centre agent in any of the Telecommunication Firms, Financial Sector, ISPs,..<div
+class="cb"></div></div></div><div
+id="colorcontentblock" class="colorcontentwrap10" style="margin-right: 0px !important;"><div
+id="colorcontenth3_small" class="custom12"><a
+href="http://411vibes.net/category/photos">Photos!</a></div><div
+id="colorcontentwrap10"> <a
+href="http://411vibes.net/2014/09/meet-tayo-the-2nd-nigerian-housemate-for-big-brother-africa-hotshots-2014-see-pics/"><img
+width="210" height="146" src="http://411vibes.net/wp-content/uploads/2014/09/tayo-nigeria-210x146.png" class="attachment-colorcontentblock10 wp-post-image" alt="tayo-nigeria" /></a><h3><a
+href="http://411vibes.net/2014/09/meet-tayo-the-2nd-nigerian-housemate-for-big-brother-africa-hotshots-2014-see-pics/" rel="bookmark">Meet Tayo! The 2nd Nigerian Housemate For Big Brother Africa Hotshots &#8220;2014&#8221;  [See Pics]</a></h3> Just last week we introduced to you the first Nigerian contestant, Lillian, for this year’s Big Brother Africa show dubbed, Hotshots...<div
+class="cb"></div></div></div></div></div></div><div
+id="aside"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins
+class="adsbygoogle"
+style="display:inline-block;width:300px;height:250px"
+data-ad-client="ca-pub-5590233556137727"
+data-ad-slot="3686696299"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script><div
+style="margin-top: 10px;"></div><div
+id="sidebar"><div
+class="section jetpack_subscription_widget"><div
+id="sidebartitlewrapper"><h3><span><label
+for="subscribe-field">Subscribe to 411Vibes</label></span></h3></div><div
+class="sectioncont"><form
+action="#" method="post" accept-charset="utf-8" id="subscribe-blog-blog_subscription-2"><p
+id="subscribe-text">Type in your email add. in the box below, then go check your inbox so as to get instant updates on post published.</p><p
+id="subscribe-email"><input
+type="text" name="email" value="Email Address" id="subscribe-field" onclick="if ( this.value == 'Email Address' ) { this.value = ''; }" onblur="if ( this.value == '' ) { this.value = 'Email Address'; }" /></p><p
+id="subscribe-submit"> <input
+type="hidden" name="action" value="subscribe" /> <input
+type="hidden" name="source" value="http://411vibes.net/" /> <input
+type="hidden" name="sub-type" value="widget" /> <input
+type="hidden" name="redirect_fragment" value="blog_subscription-2" /> <input
+type="submit" value="Subscribe" name="jetpack_subscriptions_widget" /></p></form></div></div><div
+class="section widget_archive"><div
+id="sidebartitlewrapper"><h3><span>All Posts On 411Vibes</span></h3></div><div
+class="sectioncont"> <select
+name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'><option
+value="">Select Month</option><option
+value='http://411vibes.net/2014/09/'> September 2014 &nbsp;(965)</option><option
+value='http://411vibes.net/2014/08/'> August 2014 &nbsp;(441)</option><option
+value='http://411vibes.net/2014/07/'> July 2014 &nbsp;(726)</option><option
+value='http://411vibes.net/2014/06/'> June 2014 &nbsp;(397)</option> </select></div></div><div
+class="section widget_text"><div
+id="sidebartitlewrapper"><h3><span>Social Links</span></h3></div><div
+class="sectioncont"><div
+class="textwidget"><iframe
+src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2F411vibes&amp;width&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px;" allowTransparency="true"></iframe><a
+href="https://twitter.com/411Vibes" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @411Vibes</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div></div></div><div
+class="section widget_recent_entries"><div
+id="sidebartitlewrapper"><h3><span>Recent Posts</span></h3></div><div
+class="sectioncont"><ul><li> <a
+href="http://411vibes.net/2014/09/fashola-calls-for-patience-on-synagogue-building-collapse-investigation-see-what-he-said/">Fashola Calls for Patience on Synagogue Building Collapse Investigation &#8211; See What He Said!</a></li><li> <a
+href="http://411vibes.net/2014/09/are-you-ready-dance-go-with-wizkid-2face-idibia-see-when-its-dropping/">Are You Ready? ‘Dance Go’ with Wizkid &#038; 2Face Idibia! &#8211; See When Its Dropping</a></li><li> <a
+href="http://411vibes.net/2014/09/must-read-lagos-state-trains-80-females-to-drive-commercial-brt-buses/">Must Read ! Lagos State Trains 80 Females to Drive Commercial “BRT” Buses</a></li><li> <a
+href="http://411vibes.net/2014/09/flavour-n-abania-and-sandra-okagbue-welcome-baby-girl/">Flavour N’Abania and Sandra Okagbue Welcome Baby Girl</a></li><li> <a
+href="http://411vibes.net/2014/09/meet-tayo-the-2nd-nigerian-housemate-for-big-brother-africa-hotshots-2014-see-pics/">Meet Tayo! The 2nd Nigerian Housemate For Big Brother Africa Hotshots &#8220;2014&#8221;  [See Pics]</a></li></ul></div></div><div
+class="section widget_top-posts"><div
+id="sidebartitlewrapper"><h3><span>Most Viewed Today</span></h3></div><div
+class="sectioncont"><ul><li><a
+href="http://411vibes.net/2014/09/nu-d-pics-of-nicki-minaj-after-having-x-leaked-by-hackers-look/" class="bump-view" data-bump-view="tp">Nu d£ pics of Nicki Minaj after having $£x leaked by hackers (Look)</a></li><li><a
+href="http://411vibes.net/2014/09/omg-secondary-school-girl-caught-showing-her-bf-her-stuffs-in-class-see-photo/" class="bump-view" data-bump-view="tp">OMG!! Secondary school girl caught showing her BF her stuffs in class? (See Photo)</a></li><li><a
+href="http://411vibes.net/2014/09/meet-davido-s-father-dr-adeleke-adedeji-photo/" class="bump-view" data-bump-view="tp">Meet Davido&#039;s Father Dr Adeleke Adedeji [ Photo ]</a></li><li><a
+href="http://411vibes.net/2014/09/n-d-photo-amber-rose-private-bedroom-pix-comes-out-look/" class="bump-view" data-bump-view="tp">N*d£ Photo: Amber Rose Private Bedroom Pix Comes Out (Look)</a></li><li><a
+href="http://411vibes.net/2014/09/see-the-winner-of-mtn-project-fame-season-7-see-how-much-was-given-to-the-winner-look/" class="bump-view" data-bump-view="tp">See the winner of MTN project fame season 7 + See how much was given to the winner (Look)</a></li></ul></div></div><div
+class="section widget_mostpopular"><div
+id="sidebartitlewrapper"><h3><span>Most Popular Posts</span></h3></div><div
+class="sectioncont"><ul
+class="mostpopular"><li
+class="mostpopular_li color0"><a
+href="http://411vibes.net/2014/09/top-post-today-nu-d-pics-of-amber-heard-having-a-three-s0m-with-a-guy-and-a-girl-leaked-by-hackers-look/" class="barlinko">Top Post Today: Nu d£ pics of Amber Heard having a three-s0m£ with a guy and a girl leaked by hackers (Look)</a><span
+style="display: inline-block;width:100%;"><span
+style="float: left;font-size:10px;color:#f5f5f5;"> </span><span
+style="float: right;" class="barco"><a
+href="http://411vibes.net/2014/09/top-post-today-nu-d-pics-of-amber-heard-having-a-three-s0m-with-a-guy-and-a-girl-leaked-by-hackers-look/#comments" class="thethingwithc">55 comments</a></span><span
+class="cb"></span></span></li><li
+class="mostpopular_li color1"><a
+href="http://411vibes.net/2014/09/top-post-today-nicki-minaj-s-ukwu-implants-flips-out-of-control-on-stage-see-pics/" class="barlinko">Top Post Today:  Nicki Minaj’s Ukwu Implants Flips Out Of Control on Stage [See Pics]</a><span
+style="display: inline-block;width:100%;"><span
+style="float: left;font-size:10px;color:#f5f5f5;"> </span><span
+style="float: right;" class="barco"><a
+href="http://411vibes.net/2014/09/top-post-today-nicki-minaj-s-ukwu-implants-flips-out-of-control-on-stage-see-pics/#comments" class="thethingwithc">51 comments</a></span><span
+class="cb"></span></span></li><li
+class="mostpopular_li color2"><a
+href="http://411vibes.net/2014/09/must-see-private-pics-of-rihanna-gabrielle-leaked-by-celebs-hackers-see-pics/" class="barlinko">MUST SEE ! Private pics of Rihanna &#038; Gabrielle Leaked by celebs hackers [ see pics ]</a><span
+style="display: inline-block;width:100%;"><span
+style="float: left;font-size:10px;color:#f5f5f5;"> </span><span
+style="float: right;" class="barco"><a
+href="http://411vibes.net/2014/09/must-see-private-pics-of-rihanna-gabrielle-leaked-by-celebs-hackers-see-pics/#comments" class="thethingwithc">49 comments</a></span><span
+class="cb"></span></span></li><li
+class="mostpopular_li color3"><a
+href="http://411vibes.net/2014/09/top-post-see-the-man-with-the-longest-manhood-in-the-world-see-how-long-it-is-photos/" class="barlinko">Top Post: See the man with the longest manhood in the world – See how long it is (Photos)</a><span
+style="display: inline-block;width:100%;"><span
+style="float: left;font-size:10px;color:#f5f5f5;"> </span><span
+style="float: right;" class="barco"><a
+href="http://411vibes.net/2014/09/top-post-see-the-man-with-the-longest-manhood-in-the-world-see-how-long-it-is-photos/#comments" class="thethingwithc">44 comments</a></span><span
+class="cb"></span></span></li><li
+class="mostpopular_li color4"><a
+href="http://411vibes.net/2014/07/venus-williams-looks-like-a-goddess-in-new-photos/" class="barlinko">Photos: Venus Williams str1ps fully NA K£D and looks like a goddess (Look)</a><span
+style="display: inline-block;width:100%;"><span
+style="float: left;font-size:10px;color:#f5f5f5;"> </span><span
+style="float: right;" class="barco"><a
+href="http://411vibes.net/2014/07/venus-williams-looks-like-a-goddess-in-new-photos/#comments" class="thethingwithc">44 comments</a></span><span
+class="cb"></span></span></li><li
+class="mostpopular_li color5"><a
+href="http://411vibes.net/2014/09/nu-d-pics-of-amber-heard-having-a-three-s0m-with-a-guy-and-a-girl-leaked-by-hackers-look/" class="barlinko">Nu d£ pics of Amber Heard having a three-s0m£ with a guy and a girl leaked by hackers (Look)</a><span
+style="display: inline-block;width:100%;"><span
+style="float: left;font-size:10px;color:#f5f5f5;"> </span><span
+style="float: right;" class="barco"><a
+href="http://411vibes.net/2014/09/nu-d-pics-of-amber-heard-having-a-three-s0m-with-a-guy-and-a-girl-leaked-by-hackers-look/#comments" class="thethingwithc">42 comments</a></span><span
+class="cb"></span></span></li><li
+class="mostpopular_li color6"><a
+href="http://411vibes.net/2014/09/see-proof-that-tiwa-savage-and-tee-billz-mariage-is-heading-for-a-divorce-photo-proof/" class="barlinko">See proof that Tiwa Savage and Tee Billz mariage is heading for a divorce (Photo Proof)</a><span
+style="display: inline-block;width:100%;"><span
+style="float: left;font-size:10px;color:#f5f5f5;"> </span><span
+style="float: right;" class="barco"><a
+href="http://411vibes.net/2014/09/see-proof-that-tiwa-savage-and-tee-billz-mariage-is-heading-for-a-divorce-photo-proof/#comments" class="thethingwithc">41 comments</a></span><span
+class="cb"></span></span></li></ul></div></div><div
+id="minibars"><div
+id="lmb"></div><div
+id="rmb"></div><div
+class="cb"></div></div></div></div><script type="text/javascript">
+		/* <![CDATA[ */
+		(function() {
+		var s = document.createElement("script"); s.type = "text/javascript"; s.src = "http://intensedebate.com/js/wordpressTemplateLinkWrapper2.php?acct=f4976bfddb07ea0d62affacc7d04f0fd"; document.getElementsByTagName("head")[0].appendChild(s);
+		}());
+		/* ]]> */
+		</script></div></div></div><div
+id="footer"><div
+id="footer1"><div
+id="footerwrapper1"><div
+id="fsidebar1"> <a
+href="http://411vibes.net"><img
+src="http://www.411vibes.net/wp-content/uploads/2014/06/411vibes-site-logo1.png" alt="411vibes.net" /></a></div><div
+id="fsidebar2"><div
+style="margin-top:12px;float:left"><div
+class="fsearchbg1"><form
+method="get" id="footersearch1" action="http://411vibes.net/"> <input
+type="text" name="s" value=" Search News - Type Keyword & Hit Enter" onblur="if(this.value=='') this.value=' Search News - Type Keyword & Hit Enter';" onfocus="if(this.value==' Search News - Type Keyword & Hit Enter') this.value='';" id="s2" /> <input
+type="submit" value=" " id="searchsubmit" /></form></div></div><div
+id="btt"> <a
+href="#top"> </a></div></div><div
+class="cb"></div><center><ul
+id="fnav"><div
+id="fotnav" class="ddsmoothmenu1"><ul
+id="menu-secondary-menu-1" class="menu"><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9206"><a
+href="http://411vibes.net/category/entertainment-news/e-news/">Gist &#038; Gossip</a></li><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-82"><a
+href="http://411vibes.net/category/articles/love-and-sex-articles/">Love, Sex &#038; Relationships</a></li><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-1421"><a
+href="http://411vibes.net/category/entertainment-news/photos/">E-Photos!</a></li><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-88"><a
+href="http://411vibes.net/category/music/music-videos/">Music Video</a></li><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children arrow menu-item-90"><a
+href="http://411vibes.net/category/news/nigerian-news/">National</a><ul
+class="sub-menu"><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-89"><a
+href="http://411vibes.net/category/news/foreign-news/">Foreign</a></li></ul></li><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children arrow menu-item-9440"><a
+href="http://411vibes.net/category/music/">Mp3 downloads</a><ul
+class="sub-menu"><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-85"><a
+href="http://411vibes.net/category/music/africantracks/">African</a></li><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-87"><a
+href="http://411vibes.net/category/music/european-tracks/">European</a></li><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-86"><a
+href="http://411vibes.net/category/music/american-tracks/">American</a></li></ul></li><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children arrow menu-item-91"><a
+href="http://411vibes.net/category/news/politics/">Politics</a><ul
+class="sub-menu"><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-92"><a
+href="http://411vibes.net/category/news/sports/">Sports</a></li></ul></li><li
+class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children arrow menu-item-9187"><a
+href="http://411vibes.net/advertise/">Advertise</a><ul
+class="sub-menu"><li
+class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9435"><a
+href="http://411vibes.net/contact-2/">Contact</a></li><li
+class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9436"><a
+href="http://411vibes.net/disclaimer/">Disclaimer</a></li><li
+class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9437"><a
+href="http://411vibes.net/privacy-policy/">Privacy Policy</a></li><li
+class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9439"><a
+href="http://411vibes.net/about/">About</a></li><li
+class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9438"><a
+href="http://411vibes.net/pr-services/">PR Services</a></li></ul></li><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9441"><a
+href="http://411vibes.net/category/hype-2/">Hype</a></li><li
+class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-28482"><a
+href="http://411vibes.net/category/word-of-god/">Word Of GOD</a></li></ul></div></ul></center><div
+style="clear: both;"></div></div></div><div
+id="footer2"><div
+id="footerwrapper2"><div
+id="fotbot"><div
+class="fotlogoleft"><div
+class="fotcopy"> 411Vibes - Blog for entertainment, gossip, music and news | Powered by <a
+href='http://411vibes.net'>411Vibes Groups</a> © 2014. All Rights Reserved. Designed by <a
+href='http://facebook.com/paulinusokodugha'>Paulinus Okodugha</a></div></div><div
+class="fotlogoright"></div><div
+class="cb"></div></div></div></div></div><div
+style="display:none"></div><script type="text/javascript">
+                        !function(d,s,id){
+                                var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+                                if(!d.getElementById(id)){
+                                        js=d.createElement(s);
+                                        js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js,fjs);
+                                }
+                        }
+                        (document,"script","twitter-wjs");
+                </script><link
+rel='stylesheet' id='mediaelement-css'  href='http://411vibes.net/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.15.0' type='text/css' media='all' /><link
+rel='stylesheet' id='wp-mediaelement-css'  href='http://411vibes.net/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.0' type='text/css' media='all' /><script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201440'></script><script type='text/javascript' src='http://s.gravatar.com/js/gprofiles.js?ver=2014Sepaa'></script><script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script><script type='text/javascript' src='http://411vibes.net/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.0'></script><script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script><script type='text/javascript' src='http://411vibes.net/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.15.0'></script><script type='text/javascript' src='http://411vibes.net/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.0'></script><script src="http://stats.wp.com/e-201440.js" type="text/javascript"></script><script type="text/javascript">
+	st_go({v:'ext',j:'1:3.1.1',blog:'70211781',post:'0',tz:'0'});
+	var load_cmc = function(){linktracker_init(70211781,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script><div
+class="float-ad-bottom"> <aside
+id="text-7" class="widget widget_text"><div
+class="textwidget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins
+class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-5590233556137727"
+data-ad-slot="2349563891"></ins><script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div> </aside></div></body></html>

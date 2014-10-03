@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+<script type="text/javascript">
+// <![CDATA[
+var bgcolour="#130C11"; // background colour
+var fgcolour="#000000"; // foreground colour
+var speed=100; // speed of bubbling, lower is faster
+var shades=10; // number of shades of bubble
+
+/****************************
+* Bubbling Text Effect *
+*(c) 2003-6 mf2fm web-design*
+* http://www.mf2fm.com/rv *
+* DON'T EDIT BELOW THIS BOX *
+****************************/
+var bubbcol=new Array();
+var bubbler, bubbtxt;
+var bubbchr=new Array();
+window.onload=function() { if (document.getElementById) {
+for (bubbler=0; bubbler<=shades; bubbler++) {
+bubbtxt="#";
+for (var i=1; i<6; i+=2) {
+var bg=parseInt(bgcolour.substring(i,i+2),16);
+bubbtxt+=dechex(Math.floor(bg+(parseInt(fgcolour.substring(i,i+2),16)-bg)*(bubbler/shades)));
+}
+bubbcol[bubbler+1]=bubbtxt;
+}
+bubbler=document.getElementById("bubble");
+bubbtxt=bubbler.firstChild.nodeValue;
+while (bubbler.childNodes.length) bubbler.removeChild(bubbler.childNodes[0]);
+for (var i=0; i<bubbtxt.length; i++) {
+var bubbi=document.createElement("span");
+bubbi.setAttribute("id", "bubb"+i);
+bubbi.appendChild(document.createTextNode(bubbtxt.charAt(i)));
+bubbler.appendChild(bubbi);
+}
+bubbler=setInterval ("bubbling()", speed);
+}}
+
+function dechex(dec) {
+var hex=dec.toString(16);
+if (dec<16) return "0"+hex;
+else return hex;
+}
+
+function bubbling() {
+for (var i=0; i<bubbtxt.length; i++) {
+var bubbme=document.getElementById("bubb"+i);
+if (bubbchr[i]) {
+bubbme.style.color=bubbcol[bubbchr[i]];
+bubbchr[i]=(bubbchr[i]+1)%bubbcol.length;
+}
+else if (Math.random()<0.75/bubbchr.length) bubbchr[i]=1;
+}
+}
+// ]]>
+</script>
+
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+
+
+<meta name="color:Background" content="#FFFFFF"/>
+<meta name="color:Text" content="#130C11"/>
+<meta name="color:Hover" content="#130C11"/>
+<meta name="color:Scrollbar" content="#130C11"/>
+<meta name="color:Link" content="#000000"/>
+<meta name="image:sidebar" content="1"/>
+<meta name="image:Background" content="1"/>
+<meta name="if:show photo" content="0"/>
+<meta name="if:shadow hover" content="1"/>
+<meta name="if:Infinite Scroll" content="1"/>
+<meta name="if:tiny cursor" content="1"/>
+<meta name="if:tiny scrollbar" content="1"/>
+<meta name="if:cute font" content="1"/>
+<meta name="text:Link One Title" content="Link" />
+<meta name="text:Link One" content="" />
+<meta name="text:Link Two Title" content="Link" />
+<meta name="text:Link Two" content="" />
+<meta name="text:Link Three Title" content="Link" />
+<meta name="text:Link Three" content="" />
+<meta name="text:Link Four Title" content="Link" />
+<meta name="text:Link Four" content="" />
+<meta name="text:Your Url" content="" />
+
+<link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_e96d59c8b624_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://fuorviantee.tumblr.com/rss">
+<meta name="description" content="Hover ^ Hi, names Claritza ; isn&#039;t it rather dangerous to use one&#039;s entire vocabulary in a single sentence?" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js" type="text/javascript"><!--mce:0--></script>
+
+<link href='http://fonts.googleapis.com/css?family=Short+Stack' rel='stylesheet' type='text/css'>
+
+
+<style type="text/css">
+#biter 
+
+#bite a {display:block}
+
+#bite .death {margin-top:-40px;filter: alpha(opacity = 0);opacity:0;-webkit-transition: all 0.5s ease-out;-moz-transition: all 0.5s ease-out;transition: all 0.5s ease-out;}
+
+#bite:hover .death {margin-top:2px;-webkit-transition: all 0.8s ease-out;-moz-transition: all 0.8s ease-out;transition: all 0.8s ease-out; filter: alpha(opacity = 100);filter: alpha(opacity = 100);opacity:100;}
+
+iframe#tumblr_controls {right:3px !important; position: fixed !important;-webkit-transition: opacity 0.7s linear;opacity: 0.2;-webkit-transition: all 0.8s ease-out;-moz-transition: all 0.8s ease-out;transition: all 0.8s ease-out;}
+
+
+iframe#tumblr_controls:hover{-webkit-transition: opacity 0.7s linear;opacity: 1;-webkit-transition: all 0.4s ease-out;-moz-transition: all 0.4s ease-out;transition: all 0.4s ease-out;}
+
+
+::-webkit-scrollbar {width: 6px; height: 4px; background: #ffffff; }
+
+::-webkit-scrollbar-thumb { background-color: #dddddd;}
+a:link, a:active, a:visited{
+color: #000000;
+text-decoration:none; 
+-webkit-transition-duration: 0.2s;}
+
+a:hover{ color: #fff;
+text-shadow:0px 0px 3px #000000;}
+
+.wrapper{
+margin: 0px auto;
+width: 717px;
+}
+
+.left{
+float: left;
+margin-right: 20px;
+width: 717px;
+}
+
+body {
+padding: 0px;
+margin: 0px;
+color:#090408;
+background-color: #454040;
+background-image:url(1); 
+background-attachment: fixed; 
+background-repeat: repeat;
+font-family: 'Short Stack', cursive;
+
+font-size: 10px;
+line-height:11px
+}
+
+
+a:link, a:active, a:visited{
+color: #000000; 
+text-decoration: none; 
+-webkit-transition: color 0.5s ease-out; 
+-moz-transition: color 0.5s ease-out; 
+}
+
+a:hover{
+color:#130C11;
+text-decoration: none;
+-webkit-transition: color 0.3s ease-out; 
+-moz-transition: color 0.3s ease-out; 
+}
+
+
+
+.entry {
+
+width:270px;
+
+
+margin-top:2px;
+margin-bottom:4px;
+margin-left:4px;
+margin-right:4px;
+padding: 4px;
+float:left;
+background-color: transparent;
+font-family: 'Short Stack', cursive;
+
+font-size: 10px;
+line-height:13px
+}
+
+div#font{ font-family: littlefont !important; font-size: 8px; letter-spacing:0px; color:#000000; text-transform:uppercase; font weight: normal; }
+
+@font-face {font-family: "littlefont";src: url('http://static.tumblr.com/4yxykdm/NMJlre6xz/04b_03___1_.ttf');}
+
+@font-face {font-family: "tinytots";src: url('http://static.tumblr.com/rmj06l2/Usellxb4i/tinytots.ttf') !important;}
+
+
+.photo img{
+
+border: 1px solid #000000;
+box-shadow: 0px 11px 32px rgba(0,0,0,0.35);
+
+}
+.entry .perma{
+width:270px;
+margin-top: 0px;
+margin-left:1px;
+position: absolute; 
+font-family: 'Short Stack', cursive;
+
+font-size: 10px; 
+line-height: 15px; 
+text-align: center;
+overflow:hidden; 
+opacity: 0.0; 
+background-color:white;
+-webkit-transition: all 0.3s linear; 
+-webkit-transition: all 0.3s linear;
+-moz-transition: all 0.3s linear;
+transition: all 0.3s linear;
+}
+
+.entry:hover .perma{
+margin-left:1px;
+margin-top:4px;
+overflow:visible;
+-webkit-transition: all 0.2s linear; opacity: .8;
+-webkit-transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+transition: all 0.2s linear;
+}
+
+
+div#sidebar{ 
+width: 235px;
+height:auto;
+position: fixed;
+text-align:center;
+margin-left:-200px;
+margin-top:143px;
+z-index:100;
+color:#090408;
+font-family: tinytots;
+font-size: 8px;
+line-height:9px
+padding: 0px; 
+background-color: ;
+}
+
+
+#posts {
+width: 682px;
+margin-left: 430px;
+margin-top: 0px;
+
+float:left;
+}
+
+div#sidebar3{
+margin-top: 84px;
+margin-left: 110px;
+font-family: 'Short Stack', cursive;
+font-size: 70px;
+line-height: 73px;
+text-shadow: 1px 1px 10px #000;
+padding: 0px;
+border: 0px solid #000000;
+background-color: transparent;
+float: left;
+position: fixed;
+top: 27%; left: 65%;
+z-index: 99999;
+-webkit-transform: rotate(90deg); 
+-moz-transform: rotate(90deg);    
+}
+
+.navigate {
+width: 26px; 
+height: 26px; 
+background-color: white ;
+font-size:8px;
+letter-spacing:0px;
+font-family: 'Tinytots';
+margin-top:5px; 
+margin-left:6px;
+line-height:28px; 
+border: dashed 1px #000000;
+text-align:center; 
+-webkit-transition-duration: .6s;
+border-top-right-radius:70px;
+border-bottom-right-radius:70px; 
+border-top-left-radius:70px; 
+border-bottom-left-radius:70px;
+display: inline-block;
+}
+
+.navigate:hover {
+background-color: white ;
+border: solid 1px #fff;
+-moz-transition: all .2s ease-in-out; 
+-o-transition: all .2s ease-in-out; 
+transition: all .2s ease-in-out; 
+-webkit-transition: all .2s ease-in-out;
+-webkit-transition-duration: .8s;
+transform: rotate(360deg); 
+border-top-right-radius:0px;
+border-bottom-right-radius:0px; 
+border-top-left-radius:0px; 
+border-bottom-left-radius:0px;
+-moz-transform: rotate(360deg); 
+-webkit-transform: rotate(360deg); 
+-o-transform: rotate(360deg);
+box-shadow: 0px 5px 10px rgba(0,0,0,0.35); 
+-webkit-box-shadow: 0px 5px 20px rgba(0,0,0,0.35); 
+-moz-box-shadow: 0px 5px 20px rgba(0,0,0,0.35); 
+border: 1px solid
+}
+
+
+@font-face {
+font-family: "tinytots";
+src: url('http://static.tumblr.com/rmj06l2/Usellxb4i/tinytots.ttf');
+}
+
+
+#postnotes{
+text-align: justify;}
+
+#postnotes blockquote{
+border: 0px;}
+
+#infscr-loading{
+bottom: -70px;
+position: absolute;
+left: 50%;
+margin-left:-8px;
+width:16px;
+height:11px;
+overflow:hidden;
+margin-bottom: 50px;
+}
+
+.title{
+font-family: 'Short Stack', cursive;
+
+font-size: 15px;
+line-height:10px
+color: ; 
+font-weight: normal;
+padding:0px 0px 0px 0px; 
+}
+
+.blogtitle{
+font-family: 'Short Stack', cursive;
+
+font-size: 25px;
+line-height:10px
+color: ; 
+font-weight: normal;
+padding:0px 0px 0px 0px; 
+}
+
+.per{
+margin-top: 2px; 
+font-size: 8px; 
+text-transform: lowercase;
+font-family: tinytots;
+font-size: 8px;
+-webkit-transition-duration: .6s;
+opacity: 0;}
+
+.entry:hover .per{opacity: 0.4;}
+.entry:hover .per:hover{opacity: 1;}
+
+
+
+
+</style>
+
+
+<script type="text/javascript" src="http://static.tumblr.com/dbek3sy/iBElrgjim/jquerymasonry.js"></script>
+
+<script type="text/javascript" src="http://static.tumblr.com/dbek3sy/Qyblrgjfn/jqueryinfintescroll.js"></script>
+
+
+<script type="text/javascript">
+$(window).load(function () {
+var $content = $('#posts');
+$content.masonry({itemSelector: '.entry'}),
+$content.infinitescroll({
+navSelector : 'div#pagination', 
+nextSelector : 'div#pagination a#nextPage', 
+itemSelector : '.entry',
+loading: {
+finishedMsg: '',
+img: 'http://i12.photobucket.com/albums/a213/superkate_2468/favicon-2ico.gif'
+},
+bufferPx : 600,
+debug : false,
+},
+// call masonry as a callback.
+function( newElements ) {
+var $newElems = $( newElements );
+$newElems.hide();
+// ensure that images load before adding to masonry layout
+$newElems.imagesLoaded(function(){
+$content.masonry( 'appended', $newElems, true, function(){$newElems.fadeIn(300);} );
+
+
+});
+});
+});
+</script>
+
+
+
+<meta name="robots" content="noindex"/>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=fuorviantee" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="La traviata" /><meta property="og:url" content="http://fuorviantee.tumblr.com/?og=1" /><meta property="og:description" content="Hover ^ Hi, names Claritza ; isn&#039;t it rather dangerous to use one&#039;s entire vocabulary in a single..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_e96d59c8b624_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=fuorviantee" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=fuorviantee" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="fuorviantee" /><meta name="twitter:description" content="Hover ^
+Hi, names Claritza ; isn&#039;t it rather dangerous to use one&#039;s entire vocabulary in a single sentence?" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=fuorviantee&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=fuorviantee&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=fuorviantee&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+
+
+<div class="wrapper">
+
+<div id="sidebar3"><span id="bubble"></span></div>
+
+
+<div id="sidebar">
+
+<div id="bite">
+<span class=blogtitle><a href="/">La traviata</a></span>
+<br>
+<br>
+
+<div class="death">
+<div class="navigate"><a href="/"><center>Home</center></a></div> <div class="navigate"><a href="https://twitter.com/YouGoGlen_Cocoa"><center>twitta</center></a></div> <div class="navigate"><a href="http://thequietplaceproject.com/thequietplace"><center>quiet</center></a></div>   
+<br>
+
+<br>
+
+</div></div>
+</center>
+<center>Hover ^<br />
+Hi, names Claritza ; isn't it rather dangerous to use one's entire vocabulary in a single sentence?</center>
+<big><b><div style="float: left; position: fixed; bottom: 5px; left: 5px; text-transform:lowercase;"><a href="http://www.rev-rse.tumblr.com"><small> © theme</small></a></div></big></b>
+</div>
+
+
+
+
+
+<div id="pagination">
+
+<a id="nextPage" href="/page/2"></a>
+
+
+</div>
+
+
+</div>
+
+<div class="header">
+
+<div class="left">
+
+<div id="posts">
+
+
+<div class="entry">
+
+
+<span class="entrytext"><p><a href="http://snorlaxatives.com/post/77627806292/the-annual-scholastic-book-fair-was-the-only" class="tumblr_blog" target="_blank">snorlaxatives</a>:</p>
+
+<blockquote><p>the annual scholastic book fair was the only reason i didn’t drop out of elementary school</p></blockquote><p>(via <a href='http://bullied.tumblr.com/post/98676014081/snorlaxatives-the-annual-scholastic-book-fair'>bullied</a>)</p></span>
+<a href="http://fuorviantee.tumblr.com/post/98676403099"><div class="per"><center> 210743 notes</center></div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<div class="perma">
+<a href="http://fuorviantee.tumblr.com/post/98676343934">1 day ago</a> || <a href="http://fuorviantee.tumblr.com/post/98676343934">126,039 notes</a> || <a href="https://www.tumblr.com/reblog/98676343934/fIaQuFlE" target="_blank">reblog</a></span></div>
+
+<div class="photo"><a href="http://fuorviantee.tumblr.com/post/98676343934"><img class="photo" src="http://38.media.tumblr.com/1ef1f854fa7b62ba85f67d18beaa6d6b/tumblr_nbfnwgSBnN1ry0gfbo1_500.gif" alt="youaintrunningshit:
+
+beyoncefashionstyle:
+
+Beyonc&eacute;, Jay Z and Blue Ivy after Beyonce&rsquo;s performance at the VMAs 2014
+
+Blue ivy threatening the lives of the vma crew + demanding their worship
+" width="270"/></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<div class="perma">
+<a href="http://fuorviantee.tumblr.com/post/98676314084">1 day ago</a> || <a href="http://fuorviantee.tumblr.com/post/98676314084">1,451 notes</a> || <a href="https://www.tumblr.com/reblog/98676314084/mxKNmb07" target="_blank">reblog</a></span></div>
+
+<a href="http://wearevanity.co/"><div class="photo"><a href="http://fuorviantee.tumblr.com/post/98676314084"><img class="photo" src="http://33.media.tumblr.com/ea61b39eec07a6bb8b719c05e8f5b893/tumblr_nc0hm0jmWU1sq3g2zo1_500.png" alt="
+Aston Baby &copy;
+" width="270"/></a></div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<div class="perma">
+<a href="http://fuorviantee.tumblr.com/post/98676283774">1 day ago</a> || <a href="http://fuorviantee.tumblr.com/post/98676283774">119,670 notes</a> || <a href="https://www.tumblr.com/reblog/98676283774/0y6E9YLQ" target="_blank">reblog</a></span></div>
+
+<div class="photo"><a href="http://fuorviantee.tumblr.com/post/98676283774"><img class="photo" src="http://33.media.tumblr.com/ee9664b5a2339517bd75c3c13e493a9a/tumblr_muvj919HPX1rtf85po1_500.gif" alt="" width="270"/></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<div class="perma">
+<a href="http://fuorviantee.tumblr.com/post/98676212179">1 day ago</a> || <a href="http://fuorviantee.tumblr.com/post/98676212179">3,268 notes</a> || <a href="https://www.tumblr.com/reblog/98676212179/9o9MVd01" target="_blank">reblog</a></span></div>
+
+<div class="photo"><a href="http://fuorviantee.tumblr.com/post/98676212179"><img class="photo" src="http://38.media.tumblr.com/06c573d9e2ea861ba9942aea2ad1b3ec/tumblr_n01h5fetM31ro0lpyo1_500.png" alt="takemeback-:
+
+Breaks by Jamilex Castillo" width="270"/></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+<span class="entrytext"><p><a class="tumblr_blog" href="http://arbors.tumblr.com/post/97109184841/theres-always-a-white-boy-in-every-class-that" target="_blank">arbors</a>:</p>
+<blockquote>
+<p>there’s always a white boy in every class that just talks and talks and talks like timothy stop just write it down!! make a mental note!!! wait till after class and tell ya friends on reddit!!</p>
+</blockquote><p>(via <a href='http://zackisontumblr.tumblr.com/post/98675694142'>zackisontumblr</a>)</p></span>
+<a href="http://fuorviantee.tumblr.com/post/98675949189"><div class="per"><center> 41133 notes</center></div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<div class="perma">
+<a href="http://fuorviantee.tumblr.com/post/98675921894">1 day ago</a> || <a href="http://fuorviantee.tumblr.com/post/98675921894">13,401 notes</a> || <a href="https://www.tumblr.com/reblog/98675921894/6annX8HO" target="_blank">reblog</a></span></div>
+
+<a href="http://fuorviantee.tumblr.com/image/98675921894"><div class="photo"><a href="http://fuorviantee.tumblr.com/post/98675921894"><img class="photo" src="http://33.media.tumblr.com/07e77109ecb8632e5c9b9e46415e045f/tumblr_n92xjj0iFt1qbmzy3o1_1280.jpg" alt="ethiopienne:
+
+&quot;I was on the cover of&nbsp;Time&nbsp;magazine in June, and that same month, four trans women of color were murdered in the United States. So just because I got an Emmy nomination doesn&rsquo;t mean the lives of trans people aren&rsquo;t in peril every day.&rdquo; - Laverne Cox" width="270"/></a></div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+<span class="title">A Guide to Terminology as used by Western Males of the Species</span><span class="entrytext"><p><a class="tumblr_blog" href="http://thescienceofjohnlock.tumblr.com/post/88946353900/a-guide-to-terminology-as-used-by-western-males-of-the" target="_blank">thescienceofjohnlock</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://societyghost.tumblr.com/post/33680705188" target="_blank">societyghost</a>:</p>
+<blockquote>
+<p>Prude - a woman who won’t fuck you</p>
+<p>Dyke - a woman who won’t fuck you because you have a penis</p>
+<p>Slut - a woman who fucks other people and not you</p>
+<p>Tease - a woman who won’t fuck you even though she smiled at you</p>
+<p>Feminist - a woman who won’t fuck you because she has, like, thoughts and stuff</p>
+</blockquote>
+<p>Bitch - a woman who treats you the same as you treat women</p>
+</blockquote><p>(via <a href='http://cooknut.tumblr.com/post/98675793111/a-guide-to-terminology-as-used-by-western-males-of-the'>cooknut</a>)</p></span>
+<a href="http://fuorviantee.tumblr.com/post/98675876264"><div class="per"><center> 238372 notes</center></div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="chat">
+
+<li class="user_1">
+
+<span class="label">Me:</span>
+
+
+Who&#039;s a good boy?
+</li>
+
+<li class="user_2">
+
+<span class="label">Dog:</span>
+
+
+???????????????????????????????????????????????????????????????????????????????????????????????????????????
+</li>
+
+<li class="user_1">
+
+<span class="label">Me:</span>
+
+
+YOU&#039;RE A GOOD BOY!
+</li>
+
+<li class="user_2">
+
+<span class="label">Dog:</span>
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+</li>
+
+</ul>
+<a href="http://fuorviantee.tumblr.com/post/98675852869"><div class="per"><center> 344026 notes</center></div></a>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+<span class="entrytext"><p><a class="tumblr_blog" href="http://sassyabrahamlincoln.noip.me/post/93717875599/do-you-ever-get-your-period-and-just-think-about" target="_blank">sassyabrahamlincoln</a>:</p>
+<blockquote>
+<p>do you ever get your period and just think about your recent behavior like wow that explains a lot</p>
+</blockquote><p>(via <a href='http://hatterswonderland.tumblr.com/post/98501828821/sassyabrahamlincoln-do-you-ever-get-your-period'>hatterswonderland</a>)</p></span>
+<a href="http://fuorviantee.tumblr.com/post/98502626454"><div class="per"><center> 167571 notes</center></div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+<span class="entrytext"><p><a class="tumblr_blog" href="http://alekshdfilms.tumblr.com/post/83157834854/one-time-i-forced-my-mom-to-play-pokemon-for-at" target="_blank">alekshdfilms</a>:</p>
+<blockquote>
+<p>one time i forced my mom to play pokemon for at least half an hour and all she did was catch a butterfree and name it lowfat</p>
+</blockquote><p>(Source: <a href="http://mitchkaplan.tumblr.com/post/83157834854/one-time-i-forced-my-mom-to-play-pokemon-for-at" title="mitchkaplan">mitchkaplan</a>, via <a href='http://confirmance.tumblr.com/post/98501923934/alekshdfilms-one-time-i-forced-my-mom-to-play'>confirmance</a>)</p></span>
+<a href="http://fuorviantee.tumblr.com/post/98502592619"><div class="per"><center> 384169 notes</center></div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+
+<center><div id="photoset_98502428864" class="html_photoset">    <iframe id="photoset_iframe_98502428864" class="photoset" scrolling="no" frameborder="0" height="1178" width="250"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://fuorviantee.tumblr.com/post/98502428864/photoset_iframe/fuorviantee/tumblr_n3o2vpzxhS1tx3jwg/250/false"></iframe></div></center>
+<center></center>
+<a href="http://fuorviantee.tumblr.com/post/98502428864"><div class="per"><center> 47606 notes</center></div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+<span class="entrytext"><p><a class="tumblr_blog" href="http://foxzes.tumblr.com/post/98282101791/fakethistoyourgrave-whats-the-word-for-horny" target="_blank">foxzes</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://brentwilsonofficial.co.vu/post/98282008550/whats-the-word-for-horny-but-not-in-a-sexual-way" target="_blank">fakethistoyourgrave</a>:</p>
+<blockquote>
+<p>What’s the word for horny but not in a sexual way like I’m horny for Halloween but I don’t wanna fuck a pumpkin you feel</p>
+</blockquote>
+<p>do u mean excited</p>
+</blockquote><p>(via <a href='http://hatterswonderland.tumblr.com/post/98502195226/foxzes-fakethistoyourgrave-whats-the-word'>hatterswonderland</a>)</p></span>
+<a href="http://fuorviantee.tumblr.com/post/98502298714"><div class="per"><center> 137007 notes</center></div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+<div class="perma">
+<a href="http://fuorviantee.tumblr.com/post/98502225704">3 days ago</a> || <a href="http://fuorviantee.tumblr.com/post/98502225704">222,610 notes</a> || <a href="https://www.tumblr.com/reblog/98502225704/Jv1gybYY" target="_blank">reblog</a></span></div>
+
+<a href="http://fuorviantee.tumblr.com/image/98502225704"><div class="photo"><a href="http://fuorviantee.tumblr.com/post/98502225704"><img class="photo" src="http://38.media.tumblr.com/f740ed3f752477b7a06ff05d790c1303/tumblr_mw7g1loQda1rs1gaeo1_1280.jpg" alt="" width="270"/></a></div></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<div class="entry">
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="title">reaction to disney movie songs</span>
+<ul class="chat">
+
+<li class="user_1">
+
+<span class="label">age of 8:</span>
+
+
+oh my god this is so awkward i hate these parts why isn&#039;t there just normal dialogue please stop the singing
+</li>
+
+<li class="user_2">
+
+<span class="label">age of 18:</span>
+
+
+PRINCE ALIII FABULOUS HEEE ALI ABABWAAAA
+</li>
+
+</ul>
+<a href="http://fuorviantee.tumblr.com/post/98502092424"><div class="per"><center> 45060 notes</center></div></a>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+</div> 
+<div class="right">
+</div> 
+<div class="footer">
+<br>
+</div>
+</div>
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://fuorviantee.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037434&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZnVvcnZpYW50ZWUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=FIIBAIHEED&K=dd330293846da449b1ce0c00fef58a5829d92db3b3d0e7cc65c85a70dbf8ed71&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037434&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvZnVvcnZpYW50ZWUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=FIIBAIHEED&K=30383782bb0cf67157e35c035722b7e7b01a775da5e2035a59d0bf9b41688c23&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037434&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Z1b3J2aWFudGVlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIzNDkwODQ2Iiwicm9vdF9wb3N0aWQiOiI3NzYyNzgwNjI5MiIsInBvc3RpZCI6Ijk4Njc2NDAzMDk5IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTg2MTkzNTIiLCJyb290X3Bvc3RpZCI6OTY3MDQ3MTIxODUsInBvc3RpZCI6Ijk4Njc2MzQzOTM0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTA1Nzg3NjMwIiwicm9vdF9wb3N0aWQiOiI5NzY3MzcwODQ3MyIsInBvc3RpZCI6Ijk4Njc2MzE0MDg0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTE0OTk1ODQiLCJyb290X3Bvc3RpZCI6NjQzOTc0OTQ3OTUsInBvc3RpZCI6Ijk4Njc2MjgzNzc0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDE4MjkwOTMiLCJyb290X3Bvc3RpZCI6Ijc0NjgwMzMwMDQ2IiwicG9zdGlkIjoiOTg2NzYyMTIxNzkiLCJibG9naWQiOiIxMTgwMTg0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3NTk5MDYyIiwicm9vdF9wb3N0aWQiOiI5NzEwOTE4NDg0MSIsInBvc3RpZCI6Ijk4Njc1OTQ5MTg5IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDgxNTYzOSIsInJvb3RfcG9zdGlkIjoiOTI0NjE1NTM1MTMiLCJwb3N0aWQiOiI5ODY3NTkyMTg5NCIsImJsb2dpZCI6IjExODAxODQ0Iiwic291cmNlIjozM31dfQ==&U=COONGDCJIN&K=bddbb390da5a370ad00a833d24483903a214e5be323d8563a98b4f55b8253b76&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037434&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Z1b3J2aWFudGVlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiIzNDkwODQ2Iiwicm9vdF9wb3N0aWQiOiI3NzYyNzgwNjI5MiIsInBvc3RpZCI6Ijk4Njc2NDAzMDk5IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTg2MTkzNTIiLCJyb290X3Bvc3RpZCI6OTY3MDQ3MTIxODUsInBvc3RpZCI6Ijk4Njc2MzQzOTM0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTA1Nzg3NjMwIiwicm9vdF9wb3N0aWQiOiI5NzY3MzcwODQ3MyIsInBvc3RpZCI6Ijk4Njc2MzE0MDg0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTE0OTk1ODQiLCJyb290X3Bvc3RpZCI6NjQzOTc0OTQ3OTUsInBvc3RpZCI6Ijk4Njc2MjgzNzc0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDE4MjkwOTMiLCJyb290X3Bvc3RpZCI6Ijc0NjgwMzMwMDQ2IiwicG9zdGlkIjoiOTg2NzYyMTIxNzkiLCJibG9naWQiOiIxMTgwMTg0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3NTk5MDYyIiwicm9vdF9wb3N0aWQiOiI5NzEwOTE4NDg0MSIsInBvc3RpZCI6Ijk4Njc1OTQ5MTg5IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDgxNTYzOSIsInJvb3RfcG9zdGlkIjoiOTI0NjE1NTM1MTMiLCJwb3N0aWQiOiI5ODY3NTkyMTg5NCIsImJsb2dpZCI6IjExODAxODQ0Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=COONGDCJIN&K=5458bb62d625c8463f5022b6fbd53ebe8d23cf39e8c92712014a2147abbd5bad&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037434&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Z1b3J2aWFudGVlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI5NzkxNjciLCJyb290X3Bvc3RpZCI6IjMzNjgwNzA1MTg4IiwicG9zdGlkIjoiOTg2NzU4NzYyNjQiLCJibG9naWQiOiIxMTgwMTg0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2MDg4NTg3MCIsInJvb3RfcG9zdGlkIjoiOTY0NDIyMzE2NjciLCJwb3N0aWQiOiI5ODY3NTg1Mjg2OSIsImJsb2dpZCI6IjExODAxODQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgyNDc5Mzk5Iiwicm9vdF9wb3N0aWQiOiI5MzcxNzg3NTU5OSIsInBvc3RpZCI6Ijk4NTAyNjI2NDU0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzQ5MjMyMTciLCJyb290X3Bvc3RpZCI6IjgzMTU3ODM0ODU0IiwicG9zdGlkIjoiOTg1MDI1OTI2MTkiLCJibG9naWQiOiIxMTgwMTg0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzgwMTU2MjUiLCJyb290X3Bvc3RpZCI6IjgxOTk2NjgyMTUzIiwicG9zdGlkIjoiOTg1MDI0Mjg4NjQiLCJibG9naWQiOiIxMTgwMTg0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDkzNjAyNTMiLCJyb290X3Bvc3RpZCI6OTgyODIwMDg1NTAsInBvc3RpZCI6Ijk4NTAyMjk4NzE0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDg1ODgxMzUiLCJyb290X3Bvc3RpZCI6NjY4OTU3Mjk4MDMsInBvc3RpZCI6Ijk4NTAyMjI1NzA0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTQxNDg2NDgxIiwicm9vdF9wb3N0aWQiOiI5NzkzNDE1MDg0MyIsInBvc3RpZCI6Ijk4NTAyMDkyNDI0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfV19&U=FOAMLAONHE&K=170c74ae1166c700eb9dc9d1476bf8970cbaba6f168b4fffc806d52cd8f1d05d&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037434&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2Z1b3J2aWFudGVlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI5NzkxNjciLCJyb290X3Bvc3RpZCI6IjMzNjgwNzA1MTg4IiwicG9zdGlkIjoiOTg2NzU4NzYyNjQiLCJibG9naWQiOiIxMTgwMTg0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2MDg4NTg3MCIsInJvb3RfcG9zdGlkIjoiOTY0NDIyMzE2NjciLCJwb3N0aWQiOiI5ODY3NTg1Mjg2OSIsImJsb2dpZCI6IjExODAxODQ0Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgyNDc5Mzk5Iiwicm9vdF9wb3N0aWQiOiI5MzcxNzg3NTU5OSIsInBvc3RpZCI6Ijk4NTAyNjI2NDU0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNzQ5MjMyMTciLCJyb290X3Bvc3RpZCI6IjgzMTU3ODM0ODU0IiwicG9zdGlkIjoiOTg1MDI1OTI2MTkiLCJibG9naWQiOiIxMTgwMTg0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzgwMTU2MjUiLCJyb290X3Bvc3RpZCI6IjgxOTk2NjgyMTUzIiwicG9zdGlkIjoiOTg1MDI0Mjg4NjQiLCJibG9naWQiOiIxMTgwMTg0NCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDkzNjAyNTMiLCJyb290X3Bvc3RpZCI6OTgyODIwMDg1NTAsInBvc3RpZCI6Ijk4NTAyMjk4NzE0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDg1ODgxMzUiLCJyb290X3Bvc3RpZCI6NjY4OTU3Mjk4MDMsInBvc3RpZCI6Ijk4NTAyMjI1NzA0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTQxNDg2NDgxIiwicm9vdF9wb3N0aWQiOiI5NzkzNDE1MDg0MyIsInBvc3RpZCI6Ijk4NTAyMDkyNDI0IiwiYmxvZ2lkIjoiMTE4MDE4NDQiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=FOAMLAONHE&K=5b9d1e47c523fe26258b2fa21921beb70eb26dfda6ae4723f00729b33c954a7d&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:11801844,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Ffuorviantee.tumblr.com%2F&amp;lang=en_US&amp;name=fuorviantee&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_e96d59c8b624_64.png&amp;title=La+traviata&amp;url=http%3A%2F%2Ffuorviantee.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Ffuorviantee.tumblr.com%2F&amp;lang=en_US&amp;name=fuorviantee&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_e96d59c8b624_64.png&amp;title=La+traviata&amp;url=http%3A%2F%2Ffuorviantee.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

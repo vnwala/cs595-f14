@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+
+Theme V3.002
+pistachi-o (nutty-themes @ tumblr)
+
+Theme Documentation:
+http://nutty-themes.tumblr.com/themedoc
+
+Please Do Not:
+http://nutty-themes.tumblr.com/terms
+
+-->
+ 
+
+
+
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+<!-- DEFAULT VARIABLES -->
+<meta name="text:Body Font" content="'Source Sans Pro', Calibri, Arial, sans-serif" />
+<meta name="text:Header Font" content="'Oranienbaum', Arial, sans-serif" />
+<meta name="text:Font Size" content="11px" />
+
+<meta name="color:Colour1" content="#fafafa" /> 
+<meta name="color:Colour2" content="#dddddd" /> 
+<meta name="color:Colour3" content="#7aabb0" /> 
+<meta name="color:Header" content="#fafafa" /> 
+<meta name="color:Link" content="#cea81e" /> 
+<meta name="color:Link Hover" content="#bca78e" /> 
+<meta name="color:Text" content="#0a0a0a" /> 
+
+<meta name="image:Sidebar" content=""/>
+<meta name="image:Header" content=""/>
+
+<meta name="image:Spot1" content=""/>
+<meta name="image:Spot2" content=""/>
+<meta name="image:Spot3" content=""/>
+
+<meta name="text:Description Subtitle" content="Description Subtitle" />
+<meta name="if:Fixed Sidebar" content="1"/>
+
+<meta name="if:400 Posts" content="0"/>
+<meta name="if:500 Posts" content="1"/>
+
+<meta name="if:External Sidebar Image" content="0"/>
+<meta name="if:Tumblr Sidebar Image" content="0"/>
+<meta name="text:Sidebar Image" content="" />
+
+<meta name="text:Link1" content="" />
+<meta name="text:Link1 Title" content="" />
+<meta name="text:Link2" content="" />
+<meta name="text:Link2 Title" content="" />
+<meta name="text:Link3" content="" />
+<meta name="text:Link3 Title" content="" />
+<meta name="text:Link4" content="" />
+<meta name="text:Link4 Title" content="" />
+
+<meta name="if:Links Widget 1" content="1"/>
+<meta name="text:Navigation One" content="Links Widget 1" />
+<meta name="text:Navigation1A" content="" />
+<meta name="text:Navigation1A Title" content="" />
+<meta name="text:Navigation1B" content="" />
+<meta name="text:Navigation1B Title" content="" />
+<meta name="text:Navigation1C" content="" />
+<meta name="text:Navigation1C Title" content="" />
+<meta name="text:Navigation1D" content="" />
+<meta name="text:Navigation1D Title" content="" />
+<meta name="text:Navigation1E" content="" />
+<meta name="text:Navigation1E Title" content="" />
+<meta name="text:Navigation1F" content="" />
+<meta name="text:Navigation1F Title" content="" />
+<meta name="text:Navigation1G" content="" />
+<meta name="text:Navigation1G Title" content="" />
+<meta name="text:Navigation1H" content="" />
+<meta name="text:Navigation1H Title" content="" />
+
+<meta name="if:Links Widget 2" content="1"/>
+<meta name="text:Navigation Two" content="Links Widget 2" />
+<meta name="text:Navigation2A" content="" />
+<meta name="text:Navigation2A Title" content="" />
+<meta name="text:Navigation2B" content="" />
+<meta name="text:Navigation2B Title" content="" />
+<meta name="text:Navigation2C" content="" />
+<meta name="text:Navigation2C Title" content="" />
+<meta name="text:Navigation2D" content="" />
+<meta name="text:Navigation2D Title" content="" />
+<meta name="text:Navigation2E" content="" />
+<meta name="text:Navigation2E Title" content="" />
+<meta name="text:Navigation2F" content="" />
+<meta name="text:Navigation2F Title" content="" />
+<meta name="text:Navigation2G" content="" />
+<meta name="text:Navigation2G Title" content="" />
+<meta name="text:Navigation2H" content="" />
+<meta name="text:Navigation2H Title" content="" />
+
+<meta name="if:Links Widget 3" content="1"/>
+<meta name="text:Navigation Three" content="Links Widget 3" />
+<meta name="text:Navigation3A" content="" />
+<meta name="text:Navigation3A Title" content="" />
+<meta name="text:Navigation3B" content="" />
+<meta name="text:Navigation3B Title" content="" />
+<meta name="text:Navigation3C" content="" />
+<meta name="text:Navigation3C Title" content="" />
+<meta name="text:Navigation3D" content="" />
+<meta name="text:Navigation3D Title" content="" />
+<meta name="text:Navigation3E" content="" />
+<meta name="text:Navigation3E Title" content="" />
+<meta name="text:Navigation3F" content="" />
+<meta name="text:Navigation3F Title" content="" />
+<meta name="text:Navigation3G" content="" />
+<meta name="text:Navigation3G Title" content="" />
+<meta name="text:Navigation3H" content="" />
+<meta name="text:Navigation3H Title" content="" />
+
+<meta name="if:Text Widget 1" content="1"/>
+<meta name="text:Text Widget 1" content="Text Widget 1" />
+<meta name="text:Text Widget 1 Content" content="" />
+
+<meta name="if:Text Widget 2" content="1"/>
+<meta name="text:Text Widget 2" content="Text Widget 2" />
+<meta name="text:Text Widget 2 Content" content="" />
+
+<meta name="if:Text Widget 3" content="1"/>
+<meta name="text:Text Widget 3" content="Text Widget 3" />
+<meta name="text:Text Widget 3 Content" content="" />
+
+<meta name="if:Spotlight Widget" content="0"/>
+<meta name="text:Spotlight" content="Spotlight of the Month" />
+
+<meta name="if:Projects Widget" content="0"/>
+<meta name="text:Projects" content="Project Listography" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Queen of minds</title>
+<meta name="description" content="&quot;Why suffer from broken hearts and mumbled insults when you can be a queen of your own mind and body?&quot;" />
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_768e5753526f_128.png" />
+<link rel="alternate" type="application/rss+xml" href="http://adelaxde.tumblr.com/rss" />
+
+<link href='http://fonts.googleapis.com/css?family=Oranienbaum' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
+
+<link href='http://static.tumblr.com/whx9ghv/xp0nb6ay5/fontello.css' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+
+<script src="http://static.tumblr.com/whx9ghv/WzQn8f0lh/stickup.js"></script>
+  <script type="text/javascript">
+              jQuery(function($) {
+                $(document).ready( function() {
+                  $('#sidebar').stickUp();
+                });
+              });
+
+            </script>
+
+
+            
+<style type="text/css">
+
+
+/* Reset
+-------------------------------------------------------------*/
+
+body,div,dl,dt,dd,pre,form,fieldset,input,textarea,p,th,td {margin:0;padding:0;}
+
+
+/* Webkit-Scrollbar
+-------------------------------------------------------------*/
+
+::-webkit-scrollbar {width: 10px; height: 10px; height:auto; background:;}
+::-webkit-scrollbar-thumb:vertical {background:#dddddd;}
+::-webkit-scrollbar-thumb:horizontal {background:#dddddd}
+::-webkit-scrollbar-thumb {background:#dddddd;}
+
+
+/* General
+-------------------------------------------------------------*/
+
+body { 
+background-color: #fafafa;
+font-family: 'Source Sans Pro', Calibri, Arial, sans-serif;
+font-size: 12px;
+text-align: justify;
+color: #535353;
+line-height: 140%; 
+}
+
+a:link, a:active, a:visited {
+color: #f7c282; 
+text-decoration: none;
+}
+
+a:hover {
+color: #bca78e; 
+text-decoration: none;
+}
+
+b, strong{
+color: #7aabb0;
+}
+
+p {
+margin: 8px 0px;
+}
+
+.answer_form_container {
+margin: 10px 0px;
+}
+
+h1 {
+font-family: 'Oranienbaum', Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 100%;
+text-transform: uppercase; 
+text-align: left; 
+padding: 10px 0px;
+margin: 0px 0px 10px;
+letter-spacing: 1px;
+border-top: 1px solid #dddddd;
+border-bottom: 1px solid #dddddd;
+}
+
+h2 {
+font-family: 'Oranienbaum', Arial, sans-serif;
+color: ; 
+font-size: 14px; 
+line-height: 100%;  
+font-weight: 400;
+text-transform: uppercase; 
+text-align: center; 
+}
+
+h3 {
+font-family: 'Oranienbaum', Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 100%;
+text-transform: uppercase; 
+text-align: left; 
+padding: 10px 0px;
+margin: 0px 0px 10px;
+letter-spacing: 1px;
+border-bottom: 1px solid #dddddd;
+clear: both;
+}
+
+h4 {
+font-family: 'Oranienbaum', Arial, sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 100%;
+text-transform: uppercase; 
+text-align: left; 
+padding: 5px 0px 10px;
+margin: 0;
+letter-spacing: 1px;
+}
+
+.cut {
+margin: 10px auto;
+width: 80%;
+height: 1px;
+background: #dddddd;
+clear: both;
+}
+
+ul li {
+list-style-image: none;
+list-style: none;
+}
+
+ul li:before {
+font-family: 'fontello';
+content: '\e803';
+float: left;
+width: 12px;
+}
+
+blockquote {
+border-left: 3px solid #7aabb0;
+padding: 3px 10px; 
+text-align: justify;
+}
+
+blockquote i {
+color: #535353;
+}
+
+blockquote img {
+max-width: 100%;
+display: block;
+margin-bottom: 5px;
+}
+
+blockquote blockquote {
+margin: 10px; 
+padding: 10px; 
+}
+
+
+
+
+/* Header
+-------------------------------------------------------------*/
+
+#container {
+
+width: 1000px;
+margin: 0px auto;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-direction: row;
+flex-direction: row;
+}
+
+#header {
+top: 0;
+left: 0;
+width: 100%;
+height: 200px;
+background: #fafafa;
+background-image: url('http://static.tumblr.com/1c7523bd857c58b5111e5ee99b11ffcf/xe6odiy/JIuncgr53/tumblr_static_c0z60i4498g0g0kkock0g008c.jpg');
+background-repeat: no-repeat;
+background-position: center bottom;
+border-bottom: 1px solid #dddddd;
+position: relative;
+}
+
+.mtitle {
+display: block;
+text-align: center; 
+font-family: 'Oranienbaum', Arial, sans-serif;
+text-transform: uppercase;
+font-size: 45px;
+letter-spacing: 1px;
+padding: 90px;
+}
+
+.subtitle {
+font-size: 14px;
+padding: 15px;
+}
+
+#side1 {
+width: 220px;
+border-right: 1px solid #dddddd;
+}
+
+#side2 {
+width: 220px;
+border-left: 1px solid #dddddd;
+}
+
+#sidebar {
+width: 220px;
+padding: 20px 0px;
+}
+
+.desc, .navlinks {
+margin: 0px 20px 20px 0px;
+}
+
+.sideimg img {
+width: 200px;
+margin-bottom: 10px;
+}
+
+.navlinks {
+font-family: 'Oranienbaum', Arial, sans-serif;
+font-size: 12px;
+text-transform: uppercase;
+text-align: left; 
+}
+
+.navlinks a {
+display: block;
+line-height: 120%;
+margin-bottom: 2px;
+}
+
+.spotlight {
+display: inline;
+width: 60px;
+padding-right: 5px;
+}
+
+.spotlight img {
+width: 50px;
+padding: 3px;
+border: 1px solid #dddddd;
+}
+
+.box {
+width: 200px;
+text-align: left;
+margin-bottom: 10px;
+padding: 10px 0px;
+border-top: 1px solid #dddddd;
+clear: both;
+}
+ 
+.box img {
+width: 50px;
+padding: 3px;
+border: 1px solid #dddddd;
+float: left;
+margin: 0px 5px 10px 0px;
+}
+
+.box:first-child {
+border: none;
+padding: 0px 0px 10px;
+}
+
+
+
+.pagination {
+font-family: 'Oranienbaum', Arial, sans-serif;
+font-size: 12px;
+font-weight: 400;
+text-align: center;
+padding: 10px 0px;
+margin: 10px 0px;
+text-transform: uppercase;
+border-top: 1px solid #dddddd;
+}
+ 
+.prevpage,
+.nextpage {
+background: transparent;
+padding: 3px 5px;
+}
+
+
+
+
+/* Entries
+-------------------------------------------------------------*/
+
+#mside {
+-webkit-flex: 1;
+flex: 1;
+}
+
+#entries {
+margin: 20px auto 0px; 
+}
+
+.postwrap {
+padding: 10px 30px; 
+background: #fafafa;
+text-align: left; 
+position: relative; 
+margin: 10px auto 80px;
+word-wrap: break-word;
+}
+
+#entries img {
+max-width: 100%;
+}
+
+/* Read More
+-------------------------------------------------------------*/
+
+.moretext {
+position: relative; 
+font-weight: 700;
+font-size: 10px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.moretext a {
+padding: 3px 4px 3px 6px;
+text-transform: uppercase;
+color: #fafafa;
+background: #7aabb0;
+letter-spacing: 1px;
+}
+
+.moretext a:hover {
+color: #bca78e;
+background: #fafafa;
+}
+
+/* Post Info
+-------------------------------------------------------------*/
+
+.info {
+position: absolute; 
+left: 100%;
+width: 180px;
+padding: 0px 20px;
+text-transform: uppercase;
+font-family: 'Oranienbaum', Arial, sans-serif;
+font-size: 14px;
+letter-spacing: 1px;
+}
+
+.dated, .noted, .rblog{
+margin-bottom: 5px;
+}
+
+.tagged {
+padding: 5px 0px;
+border-top: 1px solid #dddddd;
+}
+
+
+/* Ask Posts
+-------------------------------------------------------------*/
+
+.asker {
+padding: 0px 0px 2px 45px;
+text-transform: uppercase;
+}
+
+.question {
+position: relative;
+background: #7aabb0;
+margin: 0px 0px 20px 0px;
+padding: 15px;
+}
+
+.question:after, .question:before {
+bottom: 100%;
+border: solid transparent;
+content: "";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+}
+
+.question:after {
+border-color: rgba(136, 183, 213, 0);
+border-bottom-color: #7aabb0;
+border-width: 10px;
+left: 30px;
+margin-left: -10px;
+}
+
+.answer {
+margin-bottom: 20px;
+}
+ 
+/* Quote Posts
+-------------------------------------------------------------*/
+
+.quotewrap {
+width: 350px;
+margin: 20px auto;
+padding: 20px 25px;
+position: relative;    
+}
+
+.quote {
+margin-top: 15px;
+padding-top: 20px; 
+}
+
+.out:after {
+font-family: 'fontello';
+content: '\e804';
+background: transparent;
+width: 50px;
+height: 50px;
+position: absolute;
+color: #7aabb0;
+text-shadow: 0 1px 1px rgba(255,255,255,0.1);
+font-size: 35px;
+line-height: 50px;
+text-align: center;
+left: 50%;
+margin-left: -25px; 
+top: -15px; 
+cursor: pointer; 
+z-index: 100; 
+}
+
+.soucite {
+font-size: 9px; 
+letter-spacing: 1px; 
+margin: 10px; 
+padding-left: 10px; 
+text-transform: uppercase; 
+}
+ 
+/* Audio Posts
+-------------------------------------------------------------*/
+ 
+.audioplayer {background: white; height: 120px;}
+
+.audio {position: absolute; margin: 50px 10px;}
+
+#audioimg img {
+width: 100px;
+float: right;
+border: 10px solid white;
+}
+
+#audioinfo {
+font-family: 'Oranienbaum', Arial, sans-serif;
+clear: both; 
+text-align: center;
+padding: 10px;
+font-size: 18px;
+font-weight: 300;
+}
+ 
+/* Chat Posts
+-------------------------------------------------------------*/
+ 
+.user_1 .label {color: #f7c282; font-weight: 700;}
+.user_2 .label {color: #bca78e; font-weight: 700;}
+.user_3 .label {color: #f7c282; font-weight: 700;}
+.user_4 .label {color: #bca78e; font-weight: 700;}
+.user_5 .label {color: #f7c282; font-weight: 700;}
+.user_6 .label {color: #bca78e; font-weight: 700;}
+.user_7 .label {color: #f7c282; font-weight: 700;}
+.user_8 .label {color: #bca78e; font-weight: 700;}
+
+ul.chat {list-style:none; margin: 0px 0px 20px 0px; padding: 0px;}
+
+.chat li {
+list-style: none; 
+margin: 0px; 
+padding: 10px;
+border-top: 1px solid #dddddd;
+}
+
+.chat li:first-child {
+border: none;
+}
+       
+/* Post Notes (Permalink Page)
+-------------------------------------------------------------*/
+ 
+ol.notes, .notes li {
+list-style:none;
+margin: 0px;
+padding: 0px;
+}
+ 
+.ending {
+text-align: left;
+margin: 20px;
+padding: 30px;
+text-decoration: none;
+line-height: 180%;
+position: relative;
+}
+ 
+.ending a {
+text-transform: uppercase;
+font-size: 10px;
+}
+ 
+.ending img {
+width: 10px;
+height: 10px;
+border: 2px solid #7aabb0;
+margin-right: 2px;
+}
+ 
+</style>
+<style type="text/css"></style>
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=adelaxde" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="11th Doctor,The Last Airbender,Amy Pond,Avatar,The Doctor" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Queen of minds" /><meta property="og:url" content="http://adelaxde.tumblr.com/?og=1" /><meta property="og:description" content="&quot;Why suffer from broken hearts and mumbled insults when you can be a queen of your own mind and..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_768e5753526f_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=adelaxde" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=adelaxde" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="adelaxde" /><meta name="twitter:description" content="&lt;br&gt;&lt;i&gt;&quot;Why suffer from broken hearts and mumbled insults when you can be a queen of your own mind and body?&quot;&lt;/i&gt;
+&lt;p&gt;  &lt;script language=&quot;JavaScript&quot;&gt; 
+var ref = (&#039;&#039;+document.referrer+&#039;&#039;);
+var w_h = window.screen.width + &quot; x &quot; + window.screen.height;
+document.write(&#039;&lt;script src=&quot;http://s1.freehostedscripts.net/ocounter.php?site=ID4018460&amp;e1=&amp;e2=&amp;r=&#039; + ref + &#039;&amp;wh=&#039; + w_h + &#039;&quot;&gt;&lt;\/script&gt;&#039;); 
+&lt;/script&gt;&lt;/i&gt;
+
+" /><meta name="twitter:creator" content="DamSeaweedBrain" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=adelaxde&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=adelaxde&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=adelaxde&amp;referrer=twitter-cards" />
+
+</head>
+
+<body>
+
+<div id="header">
+<div class="mtitle">Queen of minds
+<div class="subtitle"><a href="/">Refresh</a> &nbsp;&nbsp; <a href="/ask">Message Me</a>  &nbsp;&nbsp; <a href="/ring">About</a>
+ &nbsp;&nbsp; <a href="/sword">Stories</a>
+
+&nbsp;&nbsp; <a href="http://nutty-themes.tumblr.com/">Theme</a>
+</div>
+</div>
+</div>
+
+<div id="container">
+
+<div id="side1"><div id="sidebar">
+
+<div class="sideimg"><img src="http://static.tumblr.com/cbb52f683d0ed7a402428d8b4ec1581e/xe6odiy/KPgncginn/tumblr_static_a134pktl8bkgcwg0s0ggg0goc.gif"></div>
+
+<h3>And young hearts</h3>
+<div class="desc"><br><i>"Why suffer from broken hearts and mumbled insults when you can be a queen of your own mind and body?"</i>
+<p>  <script language="JavaScript"> 
+var ref = (''+document.referrer+'');
+var w_h = window.screen.width + " x " + window.screen.height;
+document.write('<script src="http://s1.freehostedscripts.net/ocounter.php?site=ID4018460&e1=&e2=&r=' + ref + '&wh=' + w_h + '"><\/script>'); 
+</script></i></div>
+
+
+<h3>Find it!</h3>
+<div class="navlinks">
+<ul>
+<li><a href="/rp">Characters</a></li>
+<li><a href="/shadow">Likes</a></li>
+<li><a href="/tagged/edit">Edits</a></li>
+<li><a href="http://fanfiction.net/~princessmeera">Fanfictions</a></li>
+<li><a href="http://Twitter.com/adelaxde">Twitter</a></li>
+<li><a href="http://instagram.com/ereborian">Instagram</a></li>
+
+
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagination">
+ Page 1 of 358 <span class="nextpage"><a href="/page/2">Next »</a></span>
+</div>
+
+</div></div>
+
+<div id="mside">
+
+<div id="entries">
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 3 hours ago <br>
+<a href="http://adelaxde.tumblr.com/post/98750662191/put-the-bannanas-away-lokiallthefucksigive">September 29 2014</a></div>
+<div class="noted">138,301 notes</div>
+<div class="rblog"><span><a href="http://glorious-winchesters.tumblr.com/post/98747490900/put-the-bannanas-away-lokiallthefucksigive" title="">Via: glorious-winchesters</a> <br> <a href="http://jackfreak1994.tumblr.com/post/59265120692/when-lilo-graduated-from-high-school-grand" title="">Source: jackfreak1994</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+ 
+
+ 
+
+
+
+<a href="http://adelaxde.tumblr.com/image/98750662191"><img src="http://38.media.tumblr.com/142e350eef29cb59f3f94c64e2ea9c22/tumblr_ms2leefplp1rwlgtwo1_500.jpg" alt="put-the-bannanas-away:
+
+lokiallthefucksigive:
+
+selchieproductions:
+
+4fuckssake:
+
+jackfreak1994:
+
+When Lilo graduated from High School, Grand Councilwoman immediately calls her and tells her that she is really interested for her to become a future Captain of the Galactic Armada, but for her to do that she will first have to attend G.A.C.C. (Galactic Alliance Community College). Lilo is happy for the offer, but says that she will only accept if Stitch could go with her. With the Councilwoman&rsquo;s approval, both friends waste no time to pack their bags, excited of what their future awaits.
+
+I would watch this so hard
+
+Lilo and Stitch is my favourite Disney film of all times, and I&rsquo;d definitely watch this.
+
+
+#lilo and stitch#the&rsquo;d spend the first year#dealing with prejuidice#ISN&rsquo;T THAT EXPERIMENT 626#EWWWWW#people implying either lilo or stitch is a pet#*humans* don&rsquo;t you mean *mosquito food*#even though pleakley published a paper on the symbiotic relationship of all earth&rsquo;s species#in fact pleakley keeps publishing scientific studies#but they get relegated to journals no one reads#JUMBA SHOWS UP#AND TAKES OVER A SCIENCE CLASS#and Lilo and Stitch pretend not to know him#but he is all#AH#LITTLE GIRL#AND 626#TIME TO BLOW SHIT UP#and she ends up saving the school#on a regular basis
+
+Give me all of this.
+
+
+YESSS
+"/></a>
+
+
+<div class="text"><p><a class="tumblr_blog" href="http://put-the-bannanas-away.tumblr.com/post/74370558957/lokiallthefucksigive-selchieproductions" target="_blank">put-the-bannanas-away</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://lokiallthefucksigive.tumblr.com/post/73856020981/selchieproductions-4fuckssake" target="_blank">lokiallthefucksigive</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://selchieproductions.tumblr.com/post/73832908422/4fuckssake-jackfreak1994-when-lilo-graduated" target="_blank">selchieproductions</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://4fuckssake.tumblr.com/post/73690487307/jackfreak1994-when-lilo-graduated-from-high" target="_blank">4fuckssake</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://jackfreak1994.tumblr.com/post/59265120692/when-lilo-graduated-from-high-school-grand" target="_blank">jackfreak1994</a>:</p>
+<blockquote>
+<p>When Lilo graduated from High School, Grand Councilwoman immediately calls her and tells her that she is really interested for her to become a future Captain of the Galactic Armada, but for her to do that she will first have to attend G.A.C.C. (Galactic Alliance Community College). Lilo is happy for the offer, but says that she will only accept if Stitch could go with her. <br/><br/>With the Councilwoman’s approval, both friends waste no time to pack their bags, excited of what their future awaits.</p>
+</blockquote>
+<p>I would watch this so hard</p>
+</blockquote>
+<p>Lilo and Stitch is my favourite Disney film of all times, and I’d definitely watch this.</p>
+</blockquote>
+<div class="post_tags no_pop">
+<div class="xkit_post_tags_inner_add_back"><a class="post_tag" href="http://tumblr.com/tagged/lilo-and-stitch" target="_blank">#lilo and stitch</a><a class="post_tag" href="http://tumblr.com/tagged/the%27d-spend-the-first-year" target="_blank">#the’d spend the first year</a><a class="post_tag" href="http://tumblr.com/tagged/dealing-with-prejuidice" target="_blank">#dealing with prejuidice</a><a class="post_tag" href="http://tumblr.com/tagged/ISN%27T-THAT-EXPERIMENT-626" target="_blank">#ISN’T THAT EXPERIMENT 626</a><a class="post_tag" href="http://tumblr.com/tagged/EWWWWW" target="_blank">#EWWWWW</a><a class="post_tag" href="http://tumblr.com/tagged/people-implying-either-lilo-or-stitch-is-a-pet" target="_blank">#people implying either lilo or stitch is a pet</a><a class="post_tag" href="http://tumblr.com/tagged/%2Ahumans%2A-don%27t-you-mean-%2Amosquito-food%2A" target="_blank">#*humans* don’t you mean *mosquito food*</a><a class="post_tag" href="http://tumblr.com/tagged/even-though-pleakley-published-a-paper-on-the-symbiotic-relationship-of-all-earth%27s-species" target="_blank">#even though pleakley published a paper on the symbiotic relationship of all earth’s species</a><a class="post_tag" href="http://tumblr.com/tagged/in-fact-pleakley-keeps-publishing-scientific-studies" target="_blank">#in fact pleakley keeps publishing scientific studies</a><a class="post_tag" href="http://tumblr.com/tagged/but-they-get-relegated-to-journals-no-one-reads" target="_blank">#but they get relegated to journals no one reads</a><a class="post_tag" href="http://tumblr.com/tagged/JUMBA-SHOWS-UP" target="_blank">#JUMBA SHOWS UP</a><a class="post_tag" href="http://tumblr.com/tagged/AND-TAKES-OVER-A-SCIENCE-CLASS" target="_blank">#AND TAKES OVER A SCIENCE CLASS</a><a class="post_tag" href="http://tumblr.com/tagged/and-Lilo-and-Stitch-pretend-not-to-know-him" target="_blank">#and Lilo and Stitch pretend not to know him</a><a class="post_tag" href="http://tumblr.com/tagged/but-he-is-all" target="_blank">#but he is all</a><a class="post_tag" href="http://tumblr.com/tagged/AH" target="_blank">#AH</a><a class="post_tag" href="http://tumblr.com/tagged/LITTLE-GIRL" target="_blank">#LITTLE GIRL</a><a class="post_tag" href="http://tumblr.com/tagged/AND-626" target="_blank">#AND 626</a><a class="post_tag" href="http://tumblr.com/tagged/TIME-TO-BLOW-SHIT-UP" target="_blank">#TIME TO BLOW SHIT UP</a><a class="post_tag" href="http://tumblr.com/tagged/and-she-ends-up-saving-the-school" target="_blank">#and she ends up saving the school</a><a class="post_tag" href="http://tumblr.com/tagged/on-a-regular-basis" target="_blank">#on a regular basis</a></div>
+<div class="xkit_post_tags_inner_add_back"></div>
+<div class="xkit_post_tags_inner_add_back">Give me all of this.</div>
+</div>
+</blockquote>
+<p>YESSS</p>
+</blockquote>
+</div>
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Lilo-and-Stitch">#Lilo and Stitch</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Lilo">#Lilo</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Stitch">#Stitch</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Yes-please-I-want-this">#Yes please I want this</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/I-even-want-to-write-a-fanfic-on-this">#I even want to write a fanfic on this</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 1 day ago <br>
+<a href="http://adelaxde.tumblr.com/post/98668085676/2007-ios-1-2008-ios-2-2009-ios-3-2010-ios">September 28 2014</a></div>
+<div class="noted">745 notes</div>
+<div class="rblog"><span><a href="http://solidaminuswork.tumblr.com/post/98659563359/2007-ios-1-2008-ios-2-2009-ios-3-2010-ios" title="">Via: solidaminuswork</a> <br> <a href="http://awkwardstandinglewiskennedy.tumblr.com/post/97769184986" title="">Source: awkwardstandinglewiskennedy</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+<ul class="chat"><li class="user_1"><span class="label">2007:</span>&nbsp;iOS 1</li><li class="user_2"><span class="label">2008:</span>&nbsp;iOS 2</li><li class="user_3"><span class="label">2009:</span>&nbsp;iOS 3</li><li class="user_4"><span class="label">2010:</span>&nbsp;iOS 4</li><li class="user_5"><span class="label">2011:</span>&nbsp;iOS 5</li><li class="user_6"><span class="label">2012:</span>&nbsp;iOS 6</li><li class="user_7"><span class="label">2013:</span>&nbsp;iOS 7</li><li class="user_8"><span class="label">2014:</span>&nbsp;iOS 8</li><li class="user_9"><span class="label">2015:</span>&nbsp;iOS War</li><li class="user_10"><span class="label">2016:</span>&nbsp;iOS 9</li><li class="user_11"><span class="label">2017:</span>&nbsp;iOS 10</li><li class="user_12"><span class="label">2018:</span>&nbsp;iOS Metacrisis</li><li class="user_13"><span class="label">2019:</span>&nbsp;iOS 11</li><li class="user_14"><span class="label">2020:</span>&nbsp;iOS 12</li></ul>
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/No-don%27t-you-dare">#No don&#039;t you dare</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 1 day ago <br>
+<a href="http://adelaxde.tumblr.com/post/98667952736/history-is-a-burden-stories-can-make-us-fly">September 28 2014</a></div>
+<div class="noted">5,508 notes</div>
+<div class="rblog"><span><a href="http://elevensgreatlove.tumblr.com/post/98662342528/history-is-a-burden-stories-can-make-us-fly" title="">Via: elevensgreatlove</a> <br> <a href="http://peetamelalrk.tumblr.com/post/97508384406/history-is-a-burden-stories-can-make-us-fly" title="">Source: peetamelalrk</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+<div id="photoset_98667952736" class="html_photoset">    <iframe id="photoset_iframe_98667952736" class="photoset" scrolling="no" frameborder="0" height="590" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://adelaxde.tumblr.com/post/98667952736/photoset_iframe/adelaxde/tumblr_nbwdd9AfXS1s9q9dr/500/false"></iframe></div>
+
+
+<div class="text"><blockquote>
+<p><small>History is a burden. Stories can make us fly.</small></p>
+</blockquote>
+</div>
+
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Doctor-Who">#Doctor Who</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/The-Doctor">#The Doctor</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/10th-Doctor">#10th Doctor</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/11th-Doctor">#11th Doctor</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Rory-Williams">#Rory Williams</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Amy-Pond">#Amy Pond</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Clara-Oswin-Oswald">#Clara Oswin Oswald</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 1 day ago <br>
+<a href="http://adelaxde.tumblr.com/post/98667905846/fuck-bones-people-think-i-have-my-future">September 28 2014</a></div>
+<div class="noted">396 notes</div>
+<div class="rblog"><span><a href="http://solidaminuswork.tumblr.com/post/98662565050/fuck-bones-people-think-i-have-my-future" title="">Via: solidaminuswork</a> <br> <a href="http://fuck-bones.tumblr.com/post/98586898806" title="">Source: fuck-bones</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+
+<div class="text"><p><a class="tumblr_blog" href="http://fuck-bones.tumblr.com/post/98586898806" target="_blank">fuck-bones</a>:</p>
+<blockquote>
+<p>people think i have my future planned but the reality is i’m hoping Starfleet is happening sooner rather than later</p>
+</blockquote>
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Star-Trek">#Star Trek</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Or-that-the-Doctor-come-and-pick-me-up">#Or that the Doctor come and pick me up</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 1 day ago <br>
+<a href="http://adelaxde.tumblr.com/post/98667871421">September 28 2014</a></div>
+<div class="noted">10,331 notes</div>
+<div class="rblog"><span><a href="http://queenofdale.tumblr.com/post/98663376665" title="">Via: queenofdale</a> <br> <a href="http://tonysbanner.tumblr.com/post/61211525015" title="">Source: tonysbanner</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+ 
+
+ 
+
+
+
+<img src="http://38.media.tumblr.com/a3cd6e72bca873a9a419870112287bf2/tumblr_mt4hvd585D1qmgwmbo1_500.png" alt=""/>
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/The-Avengers">#The Avengers</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 1 day ago <br>
+<a href="http://adelaxde.tumblr.com/post/98667834516/agent-you-should-know-that-there-are-some-on-this">September 28 2014</a></div>
+<div class="noted">474 notes</div>
+<div class="rblog"><span><a href="http://queenofdale.tumblr.com/post/98663839775/agent-you-should-know-that-there-are-some-on-this" title="">Via: queenofdale</a> <br> <a href="http://darkknightbegins.tumblr.com/post/98598177876/agent-you-should-know-that-there-are-some-on-this" title="">Source: darkknightbegins</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+<div id="photoset_98667834516" class="html_photoset">    <iframe id="photoset_iframe_98667834516" class="photoset" scrolling="no" frameborder="0" height="1460" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://adelaxde.tumblr.com/post/98667834516/photoset_iframe/adelaxde/tumblr_nclackWkyD1rq4i1u/500/false"></iframe></div>
+
+
+<div class="text"><blockquote>
+<p><small><span>Agent, you should know that there are some on this committee who feel, given your service record, both for this country and against it, that you belong in a penitentiary, not mouthing off on Capitol Hill.</span></small></p>
+</blockquote>
+</div>
+
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Captain-America">#Captain America</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/The-Winter-Soldier">#The Winter Soldier</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Natasha-Romanoff">#Natasha Romanoff</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 1 day ago <br>
+<a href="http://adelaxde.tumblr.com/post/98667688706/picture-of-you-name-of-crush-religion">September 28 2014</a></div>
+<div class="noted">89,476 notes</div>
+<div class="rblog"><span><a href="http://anunexpectedhotdwarf.tumblr.com/post/98667307239/picture-of-you-name-of-crush-religion" title="">Via: anunexpectedhotdwarf</a> <br> <a href="http://triforce-powers.tumblr.com/post/68603805241/these-are-nice" title="">Source: triforce-powers</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+
+<div class="text"><blockquote>
+<p>☄ Picture of you<br/>♥ Name of crush<br/><span>☯ Religion<br/><span>✉ State of origin<br/><span>♬ Favorite song/s<br/><span>♪ Favorite band<br/><span>☑ Full name<br/><span><span>Ω Favorite Book<br/></span></span></span></span></span></span></span>♘ Favorite Animal<br/><span>✞ Are you religious<br/><span>☥ Cats or dogs<br/><span>☝ Dominant hand<br/><span>♨ Ocean or Lake<br/><span>♉ Star Sign<br/><span>♧ Eye color<br/>✌ Favorite character<br/><span>✏ Writer or reader<br/><span><span>☪ Hair color<br/><span>♀</span><span>♂ Gender<br/><span>✈ Last vacation<br/><span>☍ Silver or gold</span></span></span></span></span></span></span></span></span></span></span></span></p>
+</blockquote>
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Ask-me">#Ask me</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Let%27s-give-another-one-of-these-a-shot">#Let&#039;s give another one of these a shot</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Because-I-like-these">#Because I like these</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 1 day ago <br>
+<a href="http://adelaxde.tumblr.com/post/98667619496/syafatirepublic-first-time-in-this-fandom-and">September 28 2014</a></div>
+<div class="noted">1,914 notes</div>
+<div class="rblog"><span><a href="http://solidaminuswork.tumblr.com/post/98667475540/syafatirepublic-first-time-in-this-fandom-and" title="">Via: solidaminuswork</a> <br> <a href="http://syafatirepublic.tumblr.com/post/96265542087/first-time-in-this-fandom-and-already-im-jumping" title="">Source: syafatirepublic</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+<div id="photoset_98667619496" class="html_photoset">    <iframe id="photoset_iframe_98667619496" class="photoset" scrolling="no" frameborder="0" height="2181" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://adelaxde.tumblr.com/post/98667619496/photoset_iframe/adelaxde/tumblr_nb665bVW641rov0yr/500/false"></iframe></div>
+
+
+<div class="text"><p><a class="tumblr_blog" href="http://syafatirepublic.tumblr.com/post/96265542087/first-time-in-this-fandom-and-already-im-jumping" target="_blank">syafatirepublic</a>:</p>
+<blockquote>
+<p>first time in this fandom and already im jumping on bandwagons</p>
+</blockquote>
+</div>
+
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Avatar">#Avatar</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/The-Last-Airbender">#The Last Airbender</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Zuko">#Zuko</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Sokka">#Sokka</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Aang">#Aang</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Jet">#Jet</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Korra">#Korra</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Haha-this-was-the-best-one">#Haha this was the best one</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 4 days ago <br>
+<a href="http://adelaxde.tumblr.com/post/98412210661/finally-think-im-finished-with-editing-my-theme">September 25 2014</a></div>
+<div class="noted">0 notes</div>
+<div class="rblog"></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+
+<div class="text"><p><small>Finally think I&#8217;m finished with editing my theme. Took ages as Tumblr&#8217;s customiser always freezes when I edit the blog and it bugs the hell out of me, but now it&#8217;s done and dusted at least, and I will head to bed.<br/>Plan for tomorrow (as I&#8217;m free from school yay): </small></p>
+<ul><li><small><span>Head into town to take photos for my photography homework, while hanging out with my friend and his girlfriend&#8217;s dog. </span></small></li>
+<li><small><span>Have a shopping afternoon in my favourite stores, as well as afternoon tea with my mum, sister and bestie at some cosy café.</span></small></li>
+<li><small><span>Visit my favourite store (aka the Science Fiction Bookshop).</span></small></li>
+<li><small><span>Take more photos</span></small></li>
+<li><small><span>Write on my Being Human fanfic and try to get a new chapter up! </span></small></li>
+<li><small><span>Make new covers for said BH fanfic, as well as a few others.</span></small></li>
+<li><small><span>Do some more changes to my blog.</span></small></li>
+<li><small><span>Watch Elementary.</span></small></li>
+<li><small><span>Catch up on Doctor Who (because I&#8217;m two episodes behind).</span></small></li>
+</ul>
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Maybe-unintresting-but-hey">#Maybe unintresting but hey</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/I%27m-tired-and-it%27s-late">#I&#039;m tired and it&#039;s late</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/And-someone%27s-stealing-Shai-noo">#And someone&#039;s stealing Shai noo</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/And-I-have-Frary-feels">#And I have Frary feels</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Trillium-speaks">#Trillium speaks</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 4 days ago <br>
+<a href="http://adelaxde.tumblr.com/post/98382698946/i-have-no-inspiration-for-anything-right-now-and">September 25 2014</a></div>
+<div class="noted">1 note</div>
+<div class="rblog"></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+
+<div class="text"><p><small>I have no inspiration for anything right now and it makes me so angry. I have two characters to write for, a roleplay group to finish and a ton of fanfics to update. But whenever I have time to do any of this, I never know what to do. I should just quit everything and get a job, I suppose. That&#8217;s what my parents want me to do. My mum even googled a place I&#8217;ve talked about a lot and shoved the application page in my face. I don&#8217;t want to have responsibilities. I don&#8217;t want a life. I just want to write and be creative.</small></p>
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/I-just-want-to-live-in-the-1800%3As-or-something">#I just want to live in the 1800:s or something</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Because-even-though-that-would-mean-marrying-young">#Because even though that would mean marrying young</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/I-would-at-least-be-encouraged-to-write-and-read">#I would at least be encouraged to write and read</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Trillium-speaks">#Trillium speaks</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 4 days ago <br>
+<a href="http://adelaxde.tumblr.com/post/98382463336/harry-potter-and-the-philosophers-stone-color">September 25 2014</a></div>
+<div class="noted">1,435 notes</div>
+<div class="rblog"><span><a href="http://anunexpectedhotdwarf.tumblr.com/post/98381013847/harry-potter-and-the-philosophers-stone-color" title="">Via: anunexpectedhotdwarf</a> <br> <a href="http://wandkeepers.tumblr.com/post/95493119005/harry-potter-and-the-philosophers-stone-color" title="">Source: wandkeepers</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+<div id="photoset_98382463336" class="html_photoset">    <iframe id="photoset_iframe_98382463336" class="photoset" scrolling="no" frameborder="0" height="615" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://adelaxde.tumblr.com/post/98382463336/photoset_iframe/adelaxde/tumblr_naq9cvjXyM1qevwzg/500/false"></iframe></div>
+
+
+<div class="text"><blockquote>
+<p><em><sub>harry potter and the philosopher’s stone <a href="http://wandkeepers.tumblr.com/tagged/hpcp" target="_blank">+</a> color palette</sub></em></p>
+<p><img alt="" src="http://media.tumblr.com/96d254c126b82763c45224041bf83cd6/tumblr_inline_naqa4nTlxm1qdibck.gif"/></p>
+</blockquote>
+</div>
+
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Harry-Potter">#Harry Potter</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Ron-Weasley">#Ron Weasley</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Hermione-Granger">#Hermione Granger</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Oliver-Wood">#Oliver Wood</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Draco-Malfoy">#Draco Malfoy</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Lily-Potter">#Lily Potter</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/James-Potter">#James Potter</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 4 days ago <br>
+<a href="http://adelaxde.tumblr.com/post/98375092011/spiderbad-coooooooooooooorvo-bujnik">September 25 2014</a></div>
+<div class="noted">35,112 notes</div>
+<div class="rblog"><span><a href="http://qvicksilvered.tumblr.com/post/98367094363/spiderbad-coooooooooooooorvo-bujnik" title="">Via: qvicksilvered</a> <br> <a href="http://insomniatasteslikecottoncandy.tumblr.com/post/98270151608/thanks-google" title="">Source: insomniatasteslikecottoncandy</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+<div id="photoset_98375092011" class="html_photoset">    <iframe id="photoset_iframe_98375092011" class="photoset" scrolling="no" frameborder="0" height="434" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://adelaxde.tumblr.com/post/98375092011/photoset_iframe/adelaxde/tumblr_ncdsjhwvVQ1rajtxv/500/false"></iframe></div>
+
+
+<div class="text"><p><a class="tumblr_blog" href="http://spiderbad.tumblr.com/post/98366557611/coooooooooooooorvo-bujnik" target="_blank">spiderbad</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://calzone.co.vu/post/98360692749/bujnik-eldritch-abomination-267198-not" target="_blank">coooooooooooooorvo</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://bujnik.tumblr.com/post/98345040996/eldritch-abomination-267198-not-really" target="_blank">bujnik</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://eldritch-abomination.tumblr.com/post/98344744202/267198-not-really-no-logan-is-an" target="_blank">eldritch-abomination</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://267198.tumblr.com/post/98344347399/estherand-smittygirl-ray-rabies" target="_blank">267198</a>:</p>
+<blockquote>
+<div><br/><p><img alt="image" src="http://media.tumblr.com/bf2237e0bc1674132d7d7044fcc8c806/tumblr_inline_ncfj3oIB4b1qis6h7.png"/></p>
+<p>not really, no</p>
+</div>
+</blockquote>
+<p>'logan is an unsuccessful businessman'</p>
+<p>hey.</p>
+</blockquote>
+<p><img alt="" src="http://media.tumblr.com/f549bf7bdbedf7cd2e7ba75c54d40880/tumblr_ncfjkplJg21qd1atho1_1280.png"/></p>
+</blockquote>
+<p><img alt="image" src="http://media.tumblr.com/ddeac36f8008b0d2a76b95580e5358cb/tumblr_inline_ncft36hUMy1qeg2wb.png"/></p>
+<p>alight fuck you google</p>
+</blockquote>
+<p><img alt="" src="http://puu.sh/bMVt7/104953e059.png"/></p>
+</blockquote>
+<p>"Erica is a man"<br/>Thanks</p>
+</div>
+
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/What-the-hell%3F%21">#What the hell?!</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Stuff">#Stuff</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 1 week ago <br>
+<a href="http://adelaxde.tumblr.com/post/98090770826/intoasylum-doctor-who-text-posts">September 21 2014</a></div>
+<div class="noted">13,771 notes</div>
+<div class="rblog"><span><a href="http://solidaminuswork.tumblr.com/post/98089812824/intoasylum-doctor-who-text-posts" title="">Via: solidaminuswork</a> <br> <a href="http://intoasylum.tumblr.com/post/94115303360/doctor-who-text-posts" title="">Source: intoasylum</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+<div id="photoset_98090770826" class="html_photoset">    <iframe id="photoset_iframe_98090770826" class="photoset" scrolling="no" frameborder="0" height="2890" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://adelaxde.tumblr.com/post/98090770826/photoset_iframe/adelaxde/tumblr_n9yrd1WCAE1qzg3f8/500/false"></iframe></div>
+
+
+<div class="text"><p><a class="tumblr_blog" href="http://intoasylum.tumblr.com/post/94115303360/doctor-who-text-posts" target="_blank">intoasylum</a>:</p>
+<blockquote>
+<p><img alt="image" src="http://media.tumblr.com/826b9cb7e781e36771de21de5e747d87/tumblr_inline_n9yramNTJX1qzdapl.png"/></p>
+<p><img alt="image" src="http://media.tumblr.com/cfca34acdb22326d56d59d96b5796d26/tumblr_inline_n9yrc6dz5A1qzdapl.png"/></p>
+<p><img alt="image" src="http://media.tumblr.com/57c2bcf5ebfed08217624ef9b08ed8bf/tumblr_inline_n9yrcfqWHz1qzdapl.png"/></p>
+<p><sub><strong>doctor who</strong> | <a href="http://intoasylum.tumblr.com/tagged/text-posts" target="_blank">text posts</a></sub></p>
+</blockquote>
+</div>
+
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Doctor-Who">#Doctor Who</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/The-Doctor">#The Doctor</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/11th-Doctor">#11th Doctor</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/10th-Doctor">#10th Doctor</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Rose-Tyler">#Rose Tyler</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/William-Shakespeare">#William Shakespeare</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Amy-Pond">#Amy Pond</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Martha-Jones">#Martha Jones</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/This-is-great">#This is great</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 1 week ago <br>
+<a href="http://adelaxde.tumblr.com/post/98089062661/tipsycersei-never-forget">September 21 2014</a></div>
+<div class="noted">145,582 notes</div>
+<div class="rblog"><span><a href="http://solidaminuswork.tumblr.com/post/98087880204/tipsycersei-never-forget" title="">Via: solidaminuswork</a> <br> <a href="http://tipsycersei.tumblr.com/post/57942260766/never-forget" title="">Source: tipsycersei</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+<div id="photoset_98089062661" class="html_photoset">    <iframe id="photoset_iframe_98089062661" class="photoset" scrolling="no" frameborder="0" height="710" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://adelaxde.tumblr.com/post/98089062661/photoset_iframe/adelaxde/tumblr_mrcp9bBfYR1r0fjm8/500/false"></iframe></div>
+
+
+<div class="text"><p><a class="tumblr_blog" href="http://tipsycersei.tumblr.com/post/57942260766/never-forget" target="_blank">tipsycersei</a>:</p>
+<blockquote>
+<p><sub><strong>Never forget.</strong></sub></p>
+</blockquote>
+</div>
+
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Avatar">#Avatar</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/The-Last-Airbender">#The Last Airbender</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/I-loved-this-thing-in-the-show-haha">#I loved this thing in the show haha</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Everyone-got-so-pissed-except-for-Toph-who-LOVED-it">#Everyone got so pissed except for Toph who LOVED it</a>&nbsp;&nbsp;</div>
+
+</div>
+<div class="postwrap">
+
+<div class="info">
+<div class="dated">Posted 1 week ago <br>
+<a href="http://adelaxde.tumblr.com/post/97964680751/memes-translated-to-swedish">September 20 2014</a></div>
+<div class="noted">544 notes</div>
+<div class="rblog"><span><a href="http://frozencap.tumblr.com/post/97963736668/memes-translated-to-swedish" title="">Via: frozencap</a> <br> <a href="http://useless-swedenfacts.tumblr.com/post/92236168380/memes-translated-to-swedish" title="">Source: useless-swedenfacts</a></span></div>
+
+</div>
+
+<div class="posts">
+    
+
+ 
+
+<h1>memes translated to swedish</h1>
+<div class="text"><p><a class="tumblr_blog" href="http://useless-swedenfacts.tumblr.com/post/92236168380/memes-translated-to-swedish" target="_blank">useless-swedenfacts</a>:</p>
+<blockquote>
+<ul><li>hunde</li>
+<li>jag kom hit för att ha det trevligt men ärligt talat så känner jag mig attackerad just nu</li>
+<li>månemåne</li>
+<li>extra timme i bollhålan</li>
+<li>när mamma kommer hem och gör dgi sphageti</li>
+</ul></blockquote>
+
+</div>
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+</div>
+
+<div class="tagged">Tags: &nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Sweden">#Sweden</a>&nbsp;&nbsp;<a href="http://adelaxde.tumblr.com/tagged/Welcome-to-Sweden">#Welcome to Sweden</a>&nbsp;&nbsp;</div>
+
+</div>
+
+ 
+
+ 
+</div>
+</div>
+
+<div id="side2">
+</div>
+
+</div>
+
+
+
+
+
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://adelaxde.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037689&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYWRlbGF4ZGUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=EDFPKCOLOE&K=ffb1ef836c2a50c0f5961b1faa55e432c92100575a42d761dce7befd4cb5866a&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037689&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvYWRlbGF4ZGUudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=EDFPKCOLOE&K=34b96d03d37689c4d3dde07bad308c1b7a35e74c8906ee6be2720069fe409372&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037689&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2FkZWxheGRlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI1Njg0NTk4NyIsInJvb3RfcG9zdGlkIjoiNTkyNjUxMjA2OTIiLCJwb3N0aWQiOjk4NzUwNjYyMTkxLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDM1NzUxMSIsInJvb3RfcG9zdGlkIjoiOTc3NjkxODQ5ODYiLCJwb3N0aWQiOiI5ODY2ODA4NTY3NiIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk5NTEwNjYyIiwicm9vdF9wb3N0aWQiOiI5NzUwODM4NDQwNiIsInBvc3RpZCI6Ijk4NjY3OTUyNzM2IiwiYmxvZ2lkIjoiNDc5MDQzMTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTAwOTYwMTY5Iiwicm9vdF9wb3N0aWQiOiI5ODU4Njg5ODgwNiIsInBvc3RpZCI6Ijk4NjY3OTA1ODQ2IiwiYmxvZ2lkIjoiNDc5MDQzMTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjMwMDgxMTYiLCJyb290X3Bvc3RpZCI6IjYxMjExNTI1MDE1IiwicG9zdGlkIjoiOTg2Njc4NzE0MjEiLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NTM3MDY2MSIsInJvb3RfcG9zdGlkIjoiOTg1OTgxNzc4NzYiLCJwb3N0aWQiOiI5ODY2NzgzNDUxNiIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQyMDUwNzE4Iiwicm9vdF9wb3N0aWQiOiI2ODYwMzgwNTI0MSIsInBvc3RpZCI6Ijk4NjY3Njg4NzA2IiwiYmxvZ2lkIjoiNDc5MDQzMTUiLCJzb3VyY2UiOjMzfV19&U=LBOCIJAICM&K=59046c7c76c8c8e8eb747d34102a6006f73e2fa428472886875d4a1907dd7841&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037689&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2FkZWxheGRlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI1Njg0NTk4NyIsInJvb3RfcG9zdGlkIjoiNTkyNjUxMjA2OTIiLCJwb3N0aWQiOjk4NzUwNjYyMTkxLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMDM1NzUxMSIsInJvb3RfcG9zdGlkIjoiOTc3NjkxODQ5ODYiLCJwb3N0aWQiOiI5ODY2ODA4NTY3NiIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6Ijk5NTEwNjYyIiwicm9vdF9wb3N0aWQiOiI5NzUwODM4NDQwNiIsInBvc3RpZCI6Ijk4NjY3OTUyNzM2IiwiYmxvZ2lkIjoiNDc5MDQzMTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTAwOTYwMTY5Iiwicm9vdF9wb3N0aWQiOiI5ODU4Njg5ODgwNiIsInBvc3RpZCI6Ijk4NjY3OTA1ODQ2IiwiYmxvZ2lkIjoiNDc5MDQzMTUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMjMwMDgxMTYiLCJyb290X3Bvc3RpZCI6IjYxMjExNTI1MDE1IiwicG9zdGlkIjoiOTg2Njc4NzE0MjEiLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0NTM3MDY2MSIsInJvb3RfcG9zdGlkIjoiOTg1OTgxNzc4NzYiLCJwb3N0aWQiOiI5ODY2NzgzNDUxNiIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjQyMDUwNzE4Iiwicm9vdF9wb3N0aWQiOiI2ODYwMzgwNTI0MSIsInBvc3RpZCI6Ijk4NjY3Njg4NzA2IiwiYmxvZ2lkIjoiNDc5MDQzMTUiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=LBOCIJAICM&K=10fe0bf028a73d9beec0d19f4c961879dbf982ecc16c4678c1b5977cfe5c84ae&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037689&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2FkZWxheGRlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI0MjYyNTE1NCIsInJvb3RfcG9zdGlkIjoiOTYyNjU1NDIwODciLCJwb3N0aWQiOiI5ODY2NzYxOTQ5NiIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODQxMjIxMDY2MSIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM4MjY5ODk0NiIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkwNTc1MDkiLCJyb290X3Bvc3RpZCI6Ijk1NDkzMTE5MDA1IiwicG9zdGlkIjoiOTgzODI0NjMzMzYiLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2MzQ1NDQzNCIsInJvb3RfcG9zdGlkIjoiOTgyNzAxNTE2MDgiLCJwb3N0aWQiOiI5ODM3NTA5MjAxMSIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExNTIxMDQiLCJyb290X3Bvc3RpZCI6Ijk0MTE1MzAzMzYwIiwicG9zdGlkIjoiOTgwOTA3NzA4MjYiLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNDY1NzkwOCIsInJvb3RfcG9zdGlkIjo1Nzk0MjI2MDc2NiwicG9zdGlkIjoiOTgwODkwNjI2NjEiLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODg2MTUxMDkiLCJyb290X3Bvc3RpZCI6IjkyMjM2MTY4MzgwIiwicG9zdGlkIjoiOTc5NjQ2ODA3NTEiLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9XX0=&U=OFJJNCMBBM&K=a5e54051a41255f17299e815bea19e74b26f8f96f0904f3c4c00794cb609fa56&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037689&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2FkZWxheGRlLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI0MjYyNTE1NCIsInJvb3RfcG9zdGlkIjoiOTYyNjU1NDIwODciLCJwb3N0aWQiOiI5ODY2NzYxOTQ5NiIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODQxMjIxMDY2MSIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5ODM4MjY5ODk0NiIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjkwNTc1MDkiLCJyb290X3Bvc3RpZCI6Ijk1NDkzMTE5MDA1IiwicG9zdGlkIjoiOTgzODI0NjMzMzYiLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI2MzQ1NDQzNCIsInJvb3RfcG9zdGlkIjoiOTgyNzAxNTE2MDgiLCJwb3N0aWQiOiI5ODM3NTA5MjAxMSIsImJsb2dpZCI6IjQ3OTA0MzE1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExNTIxMDQiLCJyb290X3Bvc3RpZCI6Ijk0MTE1MzAzMzYwIiwicG9zdGlkIjoiOTgwOTA3NzA4MjYiLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyNDY1NzkwOCIsInJvb3RfcG9zdGlkIjo1Nzk0MjI2MDc2NiwicG9zdGlkIjoiOTgwODkwNjI2NjEiLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxODg2MTUxMDkiLCJyb290X3Bvc3RpZCI6IjkyMjM2MTY4MzgwIiwicG9zdGlkIjoiOTc5NjQ2ODA3NTEiLCJibG9naWQiOiI0NzkwNDMxNSIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=OFJJNCMBBM&K=823c05f1fed76ff15182f59936ba75a7df578d612bd2e1a430e5439ba582ab7c&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:47904315,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fadelaxde.tumblr.com%2F&amp;lang=en_US&amp;name=adelaxde&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_768e5753526f_64.png&amp;title=Queen+of+minds&amp;url=http%3A%2F%2Fadelaxde.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fadelaxde.tumblr.com%2F&amp;lang=en_US&amp;name=adelaxde&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_768e5753526f_64.png&amp;title=Queen+of+minds&amp;url=http%3A%2F%2Fadelaxde.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

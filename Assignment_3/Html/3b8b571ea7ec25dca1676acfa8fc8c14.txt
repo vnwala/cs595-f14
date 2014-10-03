@@ -1,0 +1,1463 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!--
+Clarity Theme, designed and created by Maria (SYNTHAZE on Tumblr). Brought to you by Aesthetic Themes.
+ 
+By using this theme you're agreeing to NOT to do any of the following:
+- Removing the credit(s) or alter them in any way;
+- Stealing any parts/codes of the theme and claiming them as yours;
+- Editing the HTML and claiming it to be yours;
+- Using this theme as base code;
+ 
+**Violating any of these terms will result in blog suspension/termination**
+-->
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#"><title>Alex❤️</title>
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_93a36265c31c_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://teslatoy.tumblr.com/rss">
+ 
+
+<meta name="description" content="I don&#039;t know what your problem is but I bet It&#039;s hard to pronounce." />
+
+<meta name="font:body" content="">
+ 
+<meta name="image:background" content="">
+<meta name="image:sidebar" content="">
+ 
+<meta name="color:background" content="#ffffff">
+<meta name="color:body" content="#858585">
+<meta name="color:title"content="#858585">
+<meta name="color:border"content="#efefef">
+<meta name="color:link" content="#F6358A">
+<meta name="color:link hover" content="#efefef">
+<meta name="color:scrollbar" content="#F6358A">
+ 
+ 
+<meta name="if:border" content="1">
+<meta name="if:uppercase title" content="1">
+<meta name="if:banner" content="0">
+<meta name="if:font one" content="0">
+<meta name="if:font two" content="1">
+ 
+<meta name="text:link 1"content="/nameoflink">
+<meta name="text:link 1 title" content="link 1">
+<meta name="text:link 2" content="">
+<meta name="text:link 2 title"content="link 2">
+<meta name="text:link 3" content="">
+<meta name="text:link 3 title" content="link 3">
+<meta name="text:link 4" content="">
+<meta name="text:link 4 title" content="link 4">
+<meta name="text:font size"content="12px">
+<meta name="text:header font size"content="35px">
+ 
+<link href='http://fonts.googleapis.com/css?family=Codystar|Quicksand|Raleway' rel='stylesheet' type='text/css'>
+     
+    <style type="text/css">
+::-webkit-scrollbar{width:5px;height:5px;}
+::-webkit-scrollbar-button:start:decrement
+::-webkit-scrollbar-button:end:increment{display:block;height:0;background-color:transparent;}
+::-webkit-scrollbar-track-piece{background-color:#ffffff;}
+::-webkit-scrollbar-thumb:vertical{height:50px;background-color:#F6358A;}
+::-webkit-scrollbar-thumb:horizontal{width:50px;background-color:#F6358A;}
+ 
+ 
+ body {
+    background:#ffffff;
+    background-image:url(http://assets.tumblr.com/images/x.gif);
+    background-size:cover;
+    font-family:raleway;
+    font-size:12px;
+    color:#858585;
+    margin:auto;
+}
+ 
+a {
+    color:#F6358A;
+    text-decoration:none;
+    -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+    }
+ 
+a:hover {
+    color:#efefef;
+    border-bottom:3px solid #F6358A;
+    -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+}
+ 
+ 
+ 
+ 
+#content {
+    width: 950px;
+    left:390px;
+    top:20px;
+    margin:auto;
+    float:left;
+    position:relative;
+}
+ 
+ 
+.posts {
+    padding: 8px;
+    overflow: hidden;
+    background:transparent;
+    margin:2%;
+    width:250px;
+    float:left;
+    
+}
+ 
+ 
+.posts img {
+    max-width: 100%;
+}
+ 
+ 
+ .sidebar {
+    position: fixed;
+    margin:auto;
+    top:180px;
+    left: 30px;
+    width: 330px;
+    height:200px;
+    text-align: justify;
+    background-color:transparent;
+    padding: 3px;
+   }
+ 
+ 
+ 
+ 
+ 
+#title{
+    text-align:center;
+    font-family:quicksand;
+    font-size:35px;
+    padding: 5px;
+    margin-left:-5px;
+    margin-top:-5px;
+    color:#858585;
+    letter-spacing: 1px;
+    text-align:left;
+    height:auto;
+    
+    text-transform:uppercase;
+    
+}
+ 
+.links {
+width: 65px;
+height: 5px;
+padding: 6px;
+Text-transform: uppercase;
+background-color:transparent;
+margin-right: 2px;
+margin-top: 3px;
+font-size:10.5px;
+letter-spacing:2px;
+line-height: 5px;
+display: inline-block;
+text-align:left;
+-webkit-transition-duration: .4s;
+}
+ 
+.links:hover {
+color:#efefef;
+-moz-box-shadow: 0px 0px;
+-webkit-box-shadow: 0px 0px;
+}
+   
+#home{
+width:60px;
+height:auto;
+overflow:hidden;
+z-index:967588;
+position:fixed;
+margin-top:auto;
+margin-left:-5px;
+padding:2px;
+-webkit-transition: all .5s ease-in-out;
+}
+ 
+ 
+#link{
+width:90px;
+height:20px;
+overflow:hidden;
+z-index:967588;
+position:fixed;
+margin-top:auto;
+margin-left:90px;
+padding:2px;
+-webkit-transition: all .5s ease-in-out;
+}
+ 
+#link:hover{
+    opacity:1;
+    z-index:9;
+    height:120px;
+    -webkit-transition: all .5s ease-in-out;
+    }
+ 
+ 
+
+#bord{
+width:auto;
+border-bottom:2px solid #efefef;
+}
+
+ 
+ 
+#desc{
+    text-align:left;
+    margin-left:5px;
+    }
+ 
+#cod{
+background:transparent;
+position:fixed;
+right:30px;
+bottom:5px;
+padding:5px;
+width:auto;
+height:auto;
+z-index:9;
+font-family:blake;
+font-size:25px;
+ 
+}
+ 
+ 
+.pd{
+font-family:blake;
+font-size:25px;
+text-shadow: -1px -1px white, 1px 1px #efefef;
+box-shadow: 0px 1px 1px #efefef;
+}
+ 
+ 
+blockquote {
+    border-left: 1px solid #efefef;
+    padding: 1px 1px 1px 10px;
+    margin: 5px;
+}
+ 
+ 
+ 
+#captions {
+    background: #FFF;
+    display: block;
+    padding: 1px 10px 1px 10px;
+    margin-top: 10px;
+    
+}
+ 
+#audiocaptions {
+    display: block;
+    padding: 1px 10px 1px 10px;
+    margin-top: 10px;
+    border-top: 1px solid #F0F0F0;
+    
+}
+ 
+ 
+   
+    .permalink_text{
+        background:transparent;
+        text-align:right;
+        position:relative;
+        margin-top: -10px;
+        font-size:12px;
+        opacity: 0;filter: alpha(opacity = 0);
+        -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+        }
+       
+.permalink_text a{
+    text-decoration:none;
+    }
+ 
+div.posts:hover .permalink_text{
+    margin-top: -2px;
+    opacity:1;
+    border:none;
+    filter: alpha(opacity = 100);
+    -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+    }
+   
+    #photo_permalink {
+    padding:5px;
+    position: absolute;
+    top: 7.5px;
+    left: 8px;
+    height:auto;
+    width:auto;
+    border:2px solid #efefef;
+    opacity: 0;
+    text-align: center;
+    background-color:white;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+      -webkit-border-top-radius: 15px;
+    -moz-border-radius-top: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+      -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+    
+    }
+   
+   
+#photo_permalink a {
+    color:#858585;
+     text-decoration:none;
+    -webkit-transition-duration: .3s;
+    color: #858585;
+     -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+    font-family:;
+    font-size:12px;
+    }
+   
+#photo_permalink a:hover {
+    text-decoration:none;
+    color:#efefef;
+    opacity: 0.6;
+     -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+    }
+.posts:hover #photo_permalink {
+    opacity: 0.9;
+    -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+   
+    }
+   
+   
+#photo_permalinkk {
+    border:2px solid #efefef;
+    padding:5px;
+    position: absolute;
+    top: 7.5px;
+    left: 65px;
+    height:auto;
+    width:auto;
+    opacity: 0;
+    text-align: center;
+    background-color:white;
+    -webkit-border-bottom-right-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -moz-border-radius-bottomleft: 15px;
+      -webkit-border-top-radius: 15px;
+    -moz-border-radius-top: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+      -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+    
+    }
+       
+   
+#photo_permalinkk a {
+    color:#858585;
+     text-decoration:none;
+    -webkit-transition-duration: .3s;
+     -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+    font-family:;
+    font-size:12px;
+    }
+   
+#photo_permalinkk a:hover {
+    text-decoration:none;
+    color:#efefef;
+    opacity: 0.6;
+     -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+    }
+.posts:hover #photo_permalinkk {
+    opacity: 0.9;
+    -moz-transition: all 0.4s;-webkit-transition: all 0.4s;-o-transition: all 0.4s;transition: all 0.4;
+   
+    }
+   
+   
+ 
+.pagination {
+display: none;
+}
+ 
+ 
+ 
+#albumart img {
+    width: 70px;
+    height: 70px;
+}
+ 
+ 
+ 
+ 
+#tumblr_controls{
+position:absolute !important;
+-webkit-filter: invert(100%)
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+ 
+<script src="http://static.tumblr.com/6hsqxdt/vmwm2rb4g/infinitescrolling.js"></script><script src="http://static.tumblr.com/6hsqxdt/QBym35odk/jquery.masonry.js"></script>
+ 
+<script>
+$(function(){
+var $container = $('#content');
+$container.imagesLoaded(function(){
+$container.masonry({
+itemSelector: '.posts',
+});
+});
+$container.infinitescroll({
+itemSelector : ".posts",
+navSelector : "div.pagination",
+nextSelector : ".pagination a#next",
+loadingImg : "",
+loadingText : "<em></em>",
+bufferPx : 10000,
+extraScrollPx: 12000,
+},
+// trigger Masonry as a callback
+function( newElements ) {
+  var $newElems = $( newElements ).css({ opacity: 0 });
+// ensure that images load before adding to masonry layout
+$newElems.imagesLoaded(function(){
+$newElems.animate({ opacity: 1 });
+$container.masonry( 'appended', $newElems, true );
+});
+}
+);
+});
+</script>
+ 
+ 
+ 
+ 
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=teslatoy" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/streetscript/stylesheet.css?v=1">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Alex❤️" /><meta property="og:url" content="http://teslatoy.tumblr.com/?og=1" /><meta property="og:description" content="I don&#039;t know what your problem is but I bet It&#039;s hard to pronounce." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_93a36265c31c_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=teslatoy" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=teslatoy" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="teslatoy" /><meta name="twitter:description" content="I don&#039;t know what your problem is but I bet It&#039;s hard to pronounce." /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=teslatoy&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=teslatoy&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=teslatoy&amp;referrer=twitter-cards" />
+
+</head>
+ 
+ 
+<body>
+ 
+<div class="pagination">
+ <a href="/page/2" id="next"></a>
+</div>
+ 
+<div id="content">
+ <div class="sidebar">
+  
+ <div id="title">
+ Alex❤️
+ </div>
+ 
+ <div id="bord">
+ <br>
+ </div>
+<div id="desc">
+<br>
+I don't know what your problem is but I bet It's hard to pronounce.
+</div>
+<div id="home">
+<a href="/" class="links">home</a>
+</div>
+<div id="link">
+<a href="" class="links">links</a>
+<a href="/ask"class="links">contact</a>
+
+<a href=" http://teslatoy.tumblr.com/me"class="links">ME</a>
+
+
+
+<a href="http://aesthetic-themes.tumblr.com/"class="links">theme</a>
+</div></div>
+ 
+ 
+ 
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+    <b><a href="http://c-ryan-gmeza.tumblr.com/" class="asker">c-ryan-gmeza</a></b>: so i hate college right now .-. and how are you?
+   <br>
+        <p>I&#8217;m great!! I&#8217;m a junior in highschol it&#8217;s really hard</p>
+<div class="permalink_text"><a href="http://teslatoy.tumblr.com/post/97627942788/so-i-hate-college-right-now-and-how-are-you">0</a></div>
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+    <div class="photoset">
+    <div id="photo_permalink"><a href="http://teslatoy.tumblr.com/post/97627854318/foxborough-8-08"><center>8230</a>&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/97627854318/HVLrftfT" target="_blank" class="details"></a></div><center>
+        <div id="photoset_97627854318" class="html_photoset">    <iframe id="photoset_iframe_97627854318" class="photoset" scrolling="no" frameborder="0" height="344" width="250"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://teslatoy.tumblr.com/post/97627854318/photoset_iframe/teslatoy/tumblr_na2p66ZS9m1qc1lai/250/false"></iframe></div>
+         
+    </div>
+       
+       
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+        <center>
+        <div id="photo_permalinkk"><a href="http://teslatoy.tumblr.com/post/95609116408"><center>10241</a></div>
+        <div id="photo_permalink">
+        <a href="https://www.tumblr.com/reblog/95609116408/sFHqrPBu" target="_blank" class="details">reblog</a></div>
+        <img src="http://33.media.tumblr.com/ed3060eb1c7bb00b25e48d9795cb058a/tumblr_mo048tL50m1qcbrcyo1_500.png">
+        </center>
+   
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+        
+       
+        <p><a class="tumblr_blog" href="http://17yr.tumblr.com/post/62033415369" target="_blank">17yr</a>:</p>
+<blockquote>
+<p><img alt="image" src="http://media.tumblr.com/8444d2bd00bc87c86f697d9260081f59/tumblr_inline_mtk83mx1Pk1r4urqn.gif"/></p>
+<p>drake stoppin the game to see if the ladies in the crowd are being treated well</p>
+</blockquote>
+<div class="permalink_text"><a href="http://teslatoy.tumblr.com/post/95609101938/17yr-drake-stoppin-the-game-to-see-if-the">261987</a></div>
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+        
+       
+        <p><a class="tumblr_blog" href="http://creak.tumblr.com/post/81346863656/waking-up-for-school-like" target="_blank">creak</a>:</p>
+<blockquote>
+<p>Waking up for school like</p>
+<p><img alt="image" src="http://media.tumblr.com/d19e5b02edfe82dcea9ee06fa9d8a61b/tumblr_inline_n3bwgoK4Vt1sokpsm.gif"/></p>
+</blockquote>
+<div class="permalink_text"><a href="http://teslatoy.tumblr.com/post/95589915713/creak-waking-up-for-school-like">26192</a></div>
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+        <center>
+        <div id="photo_permalinkk"><a href="http://teslatoy.tumblr.com/post/95589908213/bvsedjesus-drowssy-rrelevant"><center>29519</a></div>
+        <div id="photo_permalink">
+        <a href="https://www.tumblr.com/reblog/95589908213/ug76xCpx" target="_blank" class="details">reblog</a></div>
+        <img src="http://33.media.tumblr.com/979afd59364335af710d73235d1b6e4f/tumblr_n0e65fyn0Q1r8tyjfo1_r1_500.gif">
+        </center>
+   
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+    <div class="photoset">
+    <div id="photo_permalink"><a href="http://teslatoy.tumblr.com/post/95589856263"><center>221744</a>&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/95589856263/D63Ks89s" target="_blank" class="details"></a></div><center>
+        <div id="photoset_95589856263" class="html_photoset">    <iframe id="photoset_iframe_95589856263" class="photoset" scrolling="no" frameborder="0" height="250" width="250"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://teslatoy.tumblr.com/post/95589856263/photoset_iframe/teslatoy/tumblr_na69vqUfA71r0lxml/250/false"></iframe></div>
+         
+    </div>
+       
+       
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+    <div class="photoset">
+    <div id="photo_permalink"><a href="http://teslatoy.tumblr.com/post/95589850178"><center>1781</a>&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/95589850178/HW9LPJee" target="_blank" class="details"></a></div><center>
+        <div id="photoset_95589850178" class="html_photoset">    <iframe id="photoset_iframe_95589850178" class="photoset" scrolling="no" frameborder="0" height="450" width="250"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://teslatoy.tumblr.com/post/95589850178/photoset_iframe/teslatoy/tumblr_nafn2yRB9Y1s758oe/250/false"></iframe></div>
+         
+    </div>
+       
+       
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+    <div class="photoset">
+    <div id="photo_permalink"><a href="http://teslatoy.tumblr.com/post/95589672458/wtfuckzaynno-zayn-malik-being-the-cause-of-my"><center>4261</a>&nbsp;&nbsp;<a href="https://www.tumblr.com/reblog/95589672458/1pYslpK2" target="_blank" class="details"></a></div><center>
+        <div id="photoset_95589672458" class="html_photoset">    <iframe id="photoset_iframe_95589672458" class="photoset" scrolling="no" frameborder="0" height="250" width="250"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://teslatoy.tumblr.com/post/95589672458/photoset_iframe/teslatoy/tumblr_namafq1Lw91sxfbed/250/false"></iframe></div>
+         
+    </div>
+       
+       
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+        
+       
+        <p><a href="http://trust.tumblr.com/post/36489456447" class="tumblr_blog" target="_blank">trust</a>:</p>
+
+<blockquote><p>when people have really nice clear faces i want punch myself </p></blockquote>
+<div class="permalink_text"><a href="http://teslatoy.tumblr.com/post/95589667828/trust-when-people-have-really-nice-clear-faces">196935</a></div>
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+        <div id="albumart">
+        
+        <img src="http://33.media.tumblr.com/tumblr_n3vvd3SP2R1rv594lo1_1397247880_cover.jpg">
+        
+        </div>
+ 
+    <span id="audio_player_95589636328"><div class="audio_player"><iframe class="tumblr_audio_player tumblr_audio_player_95589636328" src="http://teslatoy.tumblr.com/post/95589636328/audio_player_iframe/teslatoy/tumblr_n3vvd3SP2R1rv594l?audio_file=https%3A%2F%2Fwww.tumblr.com%2Faudio_file%2Fteslatoy%2F95589636328%2Ftumblr_n3vvd3SP2R1rv594l&color=grey&simple=1" frameborder="0" allowtransparency="true" scrolling="no" width="207" height="27"></iframe></div></span>
+   
+        
+        
+        
+        <b>Plays:</b> 37429<br>
+       
+        
+        <div id="audiocaptions">
+        <p><a class="tumblr_blog" href="http://jaesama.tumblr.com/post/94058351589/loumoans-one-of-many-reasons-to-love-zayn-malik" target="_blank">jaesama</a>:</p>
+<blockquote>
+<p><a class="tumblr_blog" href="http://loumoans.tumblr.com/post/82411051418/one-of-many-reasons-to-love-zayn-malik" target="_blank">loumoans</a>:</p>
+<blockquote>
+<p>one of many reasons to love zayn malik</p>
+</blockquote>
+<p><img alt="" src="http://media.tumblr.com/8426a53d5bde22a546c32a48de6600b4/tumblr_inline_n9xozfKaV61qenvq0.gif"/></p>
+</blockquote></div>
+        
+<div class="permalink_text"><a href="http://teslatoy.tumblr.com/post/95589636328/jaesama-loumoans-one-of-many-reasons-to-love">5202</a></div>
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+        <center>
+        <div id="photo_permalinkk"><a href="http://teslatoy.tumblr.com/post/95589603998"><center>62662</a></div>
+        <div id="photo_permalink">
+        <a href="https://www.tumblr.com/reblog/95589603998/lRkD1LnF" target="_blank" class="details">reblog</a></div>
+        <img src="http://33.media.tumblr.com/ceb3a0a4057d73a95b03c03046983612/tumblr_n9pafvncsd1soiubto1_500.jpg">
+        </center>
+   
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+        <center>
+        <div id="photo_permalinkk"><a href="http://teslatoy.tumblr.com/post/95589592778"><center>125362</a></div>
+        <div id="photo_permalink">
+        <a href="https://www.tumblr.com/reblog/95589592778/psiXpdV5" target="_blank" class="details">reblog</a></div>
+        <img src="http://38.media.tumblr.com/a57c83f89c32f965de129e40beac3e9b/tumblr_n8s7iqHqA81qasjkvo1_500.jpg">
+        </center>
+   
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+        
+       
+        <p><a class="tumblr_blog" href="http://rubybellucci.tumblr.com/post/95253854622/watches-anaconda-video-me-does-100-squats" target="_blank">rubybellucci</a>:</p>
+<blockquote>
+<p>*watches anaconda video*</p>
+<p>me: *does 100 squats*</p>
+</blockquote>
+<div class="permalink_text"><a href="http://teslatoy.tumblr.com/post/95589423563/rubybellucci-watches-anaconda-video-me">28723</a></div>
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+ 
+ 
+<div class="posts">
+ 
+ 
+
+ 
+        
+       
+        <p><a class="tumblr_blog" href="http://6ee.tumblr.com/post/92403390617" target="_blank">6ee</a>:</p>
+<blockquote>
+<p>"Don’t wear that you’ll give people the wrong idea"</p>
+<p>What idea? That I’m a fine as hell? That ain’t an idea that’s a fact ma</p>
+</blockquote>
+<div class="permalink_text"><a href="http://teslatoy.tumblr.com/post/95589418113/6ee-dont-wear-that-youll-give-people-the">96469</a></div>
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+</div>
+
+</div>
+</div>
+</div>
+</center>
+<!--Please refrain from removing this code unless you've messaged us. Erasing this code and other theme credits violates our themes' Terms and Conditions. We will find out, and we won't hestitate to contact Tumblr and terminate your account.!-->
+<div style="position:fixed;bottom:16px;right:15px;z-index:9999999;"><a href="http://aesthetic-themes.tumblr.com/"><img src="http://static.tumblr.com/eogznet/aKvmr12r1/ae.png" height="25" title="Aesthetic Themes"></a></div>
+ 
+<div style="position:absolute;z-index:99999999; !important;top:27px;right:3px;-webkit-filter:invert(100%);"><a href="http://aesthetic-themes.tumblr.com/"><img src="http://static.tumblr.com/wpm3fau/FLGmm1cfw/it.png"></a></div>
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://teslatoy.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037504&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdGVzbGF0b3kudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyJ9&U=KNDHKJGIJO&K=5630016e70c41b73cd6db9d05bf256edd3b899c60ef7e93963a63aff15b683f6&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037504&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdGVzbGF0b3kudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsIm5vc2NyaXB0IjoxfQ==&U=KNDHKJGIJO&K=3688d8b117fff0f0f587a275c378cd2ca0f684f6463fc7e3240968fc45a8d843&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037504&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Rlc2xhdG95LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiOTc2Mjc5NDI3ODgiLCJibG9naWQiOiI1NjcxNTM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0OTI0NjAzIiwicm9vdF9wb3N0aWQiOiI5NDMwODA2NDI3NSIsInBvc3RpZCI6Ijk3NjI3ODU0MzE4IiwiYmxvZ2lkIjoiNTY3MTUzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTk3MTgzMyIsInJvb3RfcG9zdGlkIjo1MjM0OTAzMjc3NiwicG9zdGlkIjoiOTU2MDkxMTY0MDgiLCJibG9naWQiOiI1NjcxNTM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNzgwMTMwNSIsInJvb3RfcG9zdGlkIjoiNjIwMzM0MTUzNjkiLCJwb3N0aWQiOiI5NTYwOTEwMTkzOCIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0MDg5MjY0NSIsInJvb3RfcG9zdGlkIjoiODEzNDY4NjM2NTYiLCJwb3N0aWQiOiI5NTU4OTkxNTcxMyIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjM3NTIwNjIwIiwicm9vdF9wb3N0aWQiOjc1NDE4OTczNjk2LCJwb3N0aWQiOiI5NTU4OTkwODIxMyIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI0OTIyMzE4Iiwicm9vdF9wb3N0aWQiOiI5NDQ5NTk1NTAxNiIsInBvc3RpZCI6Ijk1NTg5ODU2MjYzIiwiYmxvZ2lkIjoiNTY3MTUzODEiLCJzb3VyY2UiOjMzfV19&U=LKHGCJNIFI&K=545e412d90929bcf9c4f149c370be0dd3f594fc86434b2253dfa64ffe49fc25e&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037504&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Rlc2xhdG95LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicG9zdGlkIjoiOTc2Mjc5NDI3ODgiLCJibG9naWQiOiI1NjcxNTM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI0OTI0NjAzIiwicm9vdF9wb3N0aWQiOiI5NDMwODA2NDI3NSIsInBvc3RpZCI6Ijk3NjI3ODU0MzE4IiwiYmxvZ2lkIjoiNTY3MTUzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTk3MTgzMyIsInJvb3RfcG9zdGlkIjo1MjM0OTAzMjc3NiwicG9zdGlkIjoiOTU2MDkxMTY0MDgiLCJibG9naWQiOiI1NjcxNTM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzNzgwMTMwNSIsInJvb3RfcG9zdGlkIjoiNjIwMzM0MTUzNjkiLCJwb3N0aWQiOiI5NTYwOTEwMTkzOCIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0MDg5MjY0NSIsInJvb3RfcG9zdGlkIjoiODEzNDY4NjM2NTYiLCJwb3N0aWQiOiI5NTU4OTkxNTcxMyIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjM3NTIwNjIwIiwicm9vdF9wb3N0aWQiOjc1NDE4OTczNjk2LCJwb3N0aWQiOiI5NTU4OTkwODIxMyIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjI0OTIyMzE4Iiwicm9vdF9wb3N0aWQiOiI5NDQ5NTk1NTAxNiIsInBvc3RpZCI6Ijk1NTg5ODU2MjYzIiwiYmxvZ2lkIjoiNTY3MTUzODEiLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=LKHGCJNIFI&K=748788cde66c15594947bd4b4c891578420d50769de911710e9879ca5cb7a289&R="></noscript><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037504&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Rlc2xhdG95LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI5NTc3NjM1OSIsInJvb3RfcG9zdGlkIjoiOTQ5Njg1NTY1ODAiLCJwb3N0aWQiOiI5NTU4OTg1MDE3OCIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExODcwNTc2NiIsInJvb3RfcG9zdGlkIjoiOTUyOTY4ODEyNjEiLCJwb3N0aWQiOiI5NTU4OTY3MjQ1OCIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgyODIyNDciLCJyb290X3Bvc3RpZCI6MzY0ODk0NTY0NDcsInBvc3RpZCI6Ijk1NTg5NjY3ODI4IiwiYmxvZ2lkIjoiNTY3MTUzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTM3ODcwMTAiLCJyb290X3Bvc3RpZCI6IjgyNDExMDUxNDE4IiwicG9zdGlkIjoiOTU1ODk2MzYzMjgiLCJibG9naWQiOiI1NjcxNTM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDM3MjAwMDAiLCJyb290X3Bvc3RpZCI6IjkzNjI0NzM4MDA1IiwicG9zdGlkIjoiOTU1ODk2MDM5OTgiLCJibG9naWQiOiI1NjcxNTM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMjE2MzEwIiwicm9vdF9wb3N0aWQiOiI5MTkwMzcxNjc3NiIsInBvc3RpZCI6Ijk1NTg5NTkyNzc4IiwiYmxvZ2lkIjoiNTY3MTUzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTY1MjU5MjIiLCJyb290X3Bvc3RpZCI6Ijk1MjUzODU0NjIyIiwicG9zdGlkIjoiOTU1ODk0MjM1NjMiLCJibG9naWQiOiI1NjcxNTM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzODgwNTg3NiIsInJvb3RfcG9zdGlkIjoiOTI0MDMzOTA2MTciLCJwb3N0aWQiOiI5NTU4OTQxODExMyIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM31dfQ==&U=PLMAPFHJCI&K=d334e1a33662f94e4b6ea5508ebca9d2fdb63088c877762d053fb0dfc69286c2&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037504&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3Rlc2xhdG95LnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJwb3N0cyI6W3sicm9vdF9ibG9naWQiOiI5NTc3NjM1OSIsInJvb3RfcG9zdGlkIjoiOTQ5Njg1NTY1ODAiLCJwb3N0aWQiOiI5NTU4OTg1MDE3OCIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjExODcwNTc2NiIsInJvb3RfcG9zdGlkIjoiOTUyOTY4ODEyNjEiLCJwb3N0aWQiOiI5NTU4OTY3MjQ1OCIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjgyODIyNDciLCJyb290X3Bvc3RpZCI6MzY0ODk0NTY0NDcsInBvc3RpZCI6Ijk1NTg5NjY3ODI4IiwiYmxvZ2lkIjoiNTY3MTUzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTM3ODcwMTAiLCJyb290X3Bvc3RpZCI6IjgyNDExMDUxNDE4IiwicG9zdGlkIjoiOTU1ODk2MzYzMjgiLCJibG9naWQiOiI1NjcxNTM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDM3MjAwMDAiLCJyb290X3Bvc3RpZCI6IjkzNjI0NzM4MDA1IiwicG9zdGlkIjoiOTU1ODk2MDM5OTgiLCJibG9naWQiOiI1NjcxNTM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIyMjE2MzEwIiwicm9vdF9wb3N0aWQiOiI5MTkwMzcxNjc3NiIsInBvc3RpZCI6Ijk1NTg5NTkyNzc4IiwiYmxvZ2lkIjoiNTY3MTUzODEiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNTY1MjU5MjIiLCJyb290X3Bvc3RpZCI6Ijk1MjUzODU0NjIyIiwicG9zdGlkIjoiOTU1ODk0MjM1NjMiLCJibG9naWQiOiI1NjcxNTM4MSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzODgwNTg3NiIsInJvb3RfcG9zdGlkIjoiOTI0MDMzOTA2MTciLCJwb3N0aWQiOiI5NTU4OTQxODExMyIsImJsb2dpZCI6IjU2NzE1MzgxIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=PLMAPFHJCI&K=dbf5dd623b4b7028644a95a9a7c43a65846a61033ef4fbb70c5634bc57730a44&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:56715381,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fteslatoy.tumblr.com%2F&amp;lang=en_US&amp;name=teslatoy&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_93a36265c31c_64.png&amp;title=Alex%E2%9D%A4%EF%B8%8F&amp;url=http%3A%2F%2Fteslatoy.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fteslatoy.tumblr.com%2F&amp;lang=en_US&amp;name=teslatoy&amp;avatar=http%3A%2F%2F31.media.tumblr.com%2Favatar_93a36265c31c_64.png&amp;title=Alex%E2%9D%A4%EF%B8%8F&amp;url=http%3A%2F%2Fteslatoy.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

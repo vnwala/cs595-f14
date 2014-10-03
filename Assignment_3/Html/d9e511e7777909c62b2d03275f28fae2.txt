@@ -1,0 +1,3137 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+
+		<!--
+
+		      ___           ___           ___           ___           ___
+		     /  /\         /  /\         /  /\         /  /\         /  /\
+		    /  /:/_       /  /::\       /  /:/_       /  /:/_       /  /:/_
+		   /  /:/ /\     /  /:/\:\     /  /:/ /\     /  /:/ /\     /  /:/ /\
+		  /  /:/_/::\   /  /:/~/:/    /  /:/ /:/_   /  /:/_/::\   /  /:/ /::\
+		 /__/:/__\/\:\ /__/:/ /:/___ /__/:/ /:/ /\ /__/:/__\/\:\ /__/:/ /:/\:\
+		 \  \:\ /~~/:/ \  \:\/:::::/ \  \:\/:/ /:/ \  \:\ /~~/:/ \  \:\/:/~/:/
+		  \  \:\  /:/   \  \::/~~~~   \  \::/ /:/   \  \:\  /:/   \  \::/ /:/
+		   \  \:\/:/     \  \:\        \  \:\/:/     \  \:\/:/     \__\/ /:/
+		    \  \::/       \  \:\        \  \::/       \  \::/        /__/:/
+		     \__\/         \__\/         \__\/         \__\/         \__\/
+
+
+		Postage Theme for Tumblr by Greg Cooper (http://gre.gs)
+		Please keep all copyright notices in place to keep the theme valid.
+
+		-->
+
+		<meta name="if:Show portrait" content="1" />
+		<meta name="if:Show people I follow" content="1" />
+		<meta name="if:Show group members" content="" />
+		<meta name="if:Show Twitter feed" content="1" />
+		<meta name="if:Show Likes" content="1" />
+		<meta name="text:LastFM Username" content="" />
+		<meta name="text:Disqus Shortname" content="" />
+		<meta name="text:Google Analytics UA Code" content="" />
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Chum Lagulao Almaquer. Philippines. UPV. Biology is the insufferable science. Randomness comes after thoughts. Grimm. Grey&#039;s Anatomy. New Girl. The Big Bang Theory. Game Of Thrones. Modern Family...." />
+		<link href="http://33.media.tumblr.com/avatar_08206cc5b56f_128.png" rel="shortcut icon" />
+		<link rel="alternate" type="application/rss+xml" href="http://chumirthlight.tumblr.com/rss">
+		
+		<style type="text/css">
+		
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---      CSS RESET      --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+				background: transparent;
+				border: 0;
+				color: #737373;
+				font-family: Helvetica, Arial, Verdana, "Lucida Grande", sans-serif;
+				margin: 0;
+				outline: 0;
+				padding: 0;
+				vertical-align: baseline;
+				}
+			
+			body {
+				line-height: 1;
+				}
+			
+			ol, ul {
+				list-style: none;
+				}
+			
+			blockquote, q {
+				quotes: none;
+				}
+			
+			:focus {
+				outline: 0;
+				}
+			
+			ins {
+				text-decoration: none;
+				}
+			
+			del {
+				text-decoration: line-through;
+				}
+			
+			table {
+				border-collapse: collapse;
+				border-spacing: 0;
+				}
+			
+			blockquote, q {
+				quotes: none;
+				}
+			
+			blockquote:before, blockquote:after, q:before, q:after {
+				content: "";
+				content: none;
+				}
+			
+			textarea {
+				border: 0;
+				color: #737373;
+				font-family: Helvetica, Arial, Verdana, "Lucida Grande", sans-serif;
+				font-size: 13px;
+				overflow: auto;
+				}
+			
+			input[type="text"], input[type="password"], input[type="submit"] {
+				border: 0;
+				color: #737373;
+				font-family: Helvetica, Arial, Verdana, "Lucida Grande", sans-serif;
+				font-size: 13px;
+				margin: 0;
+				outline: none;
+				padding: 0;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---        FONTS        --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			a, a:visited {
+				color: #dc2509;
+				font-size: inherit;
+				font-weight: inherit;
+				text-decoration: none;
+				}
+			
+			a:hover {
+				text-decoration: underline;
+				}
+			
+			h1, h2, h3, h4, h5, h6 {
+				color: #595959;
+				line-height: 1.25em;
+				text-shadow: #ffffff 0 1px 0;
+				}
+			
+			h1 { 
+				font-size: 23px;
+				}
+				
+			h2 {
+				font-size: 20px; 
+				}
+				
+			h3 {
+				font-size: 18px; 
+				}
+				
+			h4 {
+				font-size: 16px; 
+				}
+				
+			h5 {
+				font-size: 15px;
+				}
+				
+			h6 { 
+				font-size: 14px; 
+				}
+			
+			p {
+				font-size: 13px;
+				line-height: 1.25em;
+				padding: 7px 0;
+				text-shadow: #ffffff 0 1px 1px;
+				}
+			
+			hr {
+				background: transparent;
+				border-bottom: 1px #ffffff solid;
+				border-left: 0;
+				border-right: 0;
+				border-top: 1px #dcdcdc solid;
+				height: 0px;
+				margin: 10px 50px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---        BUILD        --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			body {
+				background: #fafafa url('http://static.tumblr.com/l3zugnz/7KJkvwe70/bg.png') fixed repeat-x 0 0;
+				min-width: 1000px;
+				}
+			
+			iframe#tumblr_controls {
+				margin: 11px 3px 0 0;
+				position: fixed !important;
+				}
+			
+			a.PST-install, a.PST-install:visited, a.PST-install:hover {
+				background: url('http://static.tumblr.com/thpaaos/dHHkt0jor/install_theme.png') no-repeat 0 0;
+				cursor: pointer;
+				display: block;
+				height: 20px;
+				position: fixed;
+				right: 5px;
+				top: 37px;
+				width: 96px;
+				}
+				
+			.PST-stripes {
+				background: url('http://static.tumblr.com/l3zugnz/YbHkvwe99/postage.png') repeat-x 0 0;
+				height: 11px;
+				position: fixed;
+				width: 100%;
+				z-index: 50;
+				}
+			
+			a.PST-stamp, a.PST-stamp:visited, a.PST-stamp:hover {
+				background: url('http://static.tumblr.com/l3zugnz/0QGkvweay/tumblrstamp.png') no-repeat 0 0;
+				display: block;
+				height: 87px;
+				position: fixed;
+				left: 0;
+				top: 8px;
+				width: 104px;
+				z-index: 30;
+				}
+				
+			.PST-wrapper {
+				margin: 0 auto;
+				position: relative;
+				top: 0;
+				width: 787px;
+				z-index: 40;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---       HEADER        --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			.PST-header {
+				border-bottom: 1px #dcdcdc solid;
+				padding-bottom: 25px;
+				}
+			
+			.PST-header h1 {
+				font-size: 36px;
+				line-height: 42px;
+				padding: 40px 0 20px;
+				text-align: center;
+				}
+			
+			.PST-header h1 a, .PST-header h1 a:visited {
+				color: #595959;
+				}
+			
+			.PST-header h1 a:hover {
+				color: #dc2509;
+				text-decoration: none;
+				}
+			
+			.PST-description {
+				text-align: center;
+				}
+			
+			.PST-description, .PST-description p, .PST-description span, .PST-description b, .PST-description strong, .PST-description i, .PST-description em, .PST-description u, .PST-description s {
+				color: #8c8c8c;
+				font-size: 17px;
+				line-height: 1.25em;
+				text-shadow: #ffffff 0 1px 1px;
+				}
+			
+			.PST-description a, .PST-description a:visited {
+				color: #dc2509;
+				font-size: 17px;
+				line-height: 1.25em;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---       COLUMNS       --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			.PST-columns {
+				border-bottom: 1px #dcdcdc solid;
+				border-top: 1px #ffffff solid;
+				overflow: hidden;
+				padding: 25px 0;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---        POSTS        --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts {
+				border-right: 1px #dcdcdc solid;
+				float: left;
+				padding-right: 25px;
+				width: 535px;
+				}
+			
+			ul.PST-posts li.PST-posts-li {
+				min-height: 60px;
+				overflow: hidden;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box {
+				overflow: hidden;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box .PST-posts-box-side {
+				float: left;
+				width: 26px;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background: url('http://static.tumblr.com/l3zugnz/2sGl2gwc0/sideicons.png') no-repeat 0 0;
+				height: 25px;
+				width: 26px;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box .PST-posts-box-side a.PST-posts-box-side-perma, ul.PST-posts li.PST-posts-li .PST-posts-box .PST-posts-box-side a.PST-posts-box-side-perma:visited {
+				background: url('http://static.tumblr.com/l3zugnz/2sGl2gwc0/sideicons.png') no-repeat 0 -216px;
+				display: none;
+				height: 25px;
+				margin-top: 10px;
+				width: 26px;
+				}
+			
+			ul.PST-posts li:hover .PST-posts-box .PST-posts-box-side a.PST-posts-box-side-perma {
+				display: block;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box .PST-posts-box-side a.PST-posts-box-side-perma:hover {
+				background-position: -32px -216px;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box .PST-posts-box-content {
+				float: right;
+				width: 500px;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content ul, ul.PST-posts li.PST-posts-li .PST-posts-box-content ol {
+				font-size: 13px;
+				margin: 7px 0 7px 40px;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content ul {
+				list-style: disc outside;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content ol {
+				list-style: decimal outside;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content ul li, ul.PST-posts li.PST-posts-li .PST-posts-box-content ol li {
+				line-height: 1.3em;
+				padding: 3px 0;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content blockquote {
+				-moz-border-radius-bottomright: 4px;
+				-moz-border-radius-topright: 4px;
+				-webkit-border-bottom-right-radius: 4px;
+				-webkit-border-top-right-radius: 4px;
+				background: #f0f0f0;
+				border-left: 2px #bababa solid;
+				border-bottom-right-radius: 4px;
+				border-top-right-radius: 4px;
+				color: #323232;
+				font-size: 13px;
+				margin: 7px 20px;
+				padding: 3px 10px;
+				text-shadow: #ffffff 0 1px 1px;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details {
+				margin-top: 13px;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details p {
+				color: #8c8c8c;
+				font-size: 11px;
+				line-height: 13px;
+				padding: 2px 0 2px 17px;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details a, ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details a:visited {
+				color: #595959;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details a:hover {
+				color: #dc2509;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details .PST-posts-box-content-details-icon {
+				background: url('http://static.tumblr.com/l3zugnz/ClVl2gwax/detailsicons.png') no-repeat 0 0;
+				height: 13px;
+				left: 0;
+				margin-top: 2px;
+				position: absolute;
+				top: 0;
+				width: 14px;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details .PST-posts-box-content-details-upper, ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details .PST-posts-box-content-tags {
+				overflow: hidden;
+				position: relative;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details .PST-posts-box-content-timestamp, ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details .PST-posts-box-content-notes, ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details .PST-posts-box-content-comments {
+				float: left;
+				margin-right: 5px;
+				position: relative;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details .PST-posts-box-content-notes .PST-posts-box-content-details-icon {
+				background-position: -20px 0;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details .PST-posts-box-content-comments .PST-posts-box-content-details-icon {
+				background-position: -40px 0;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details .PST-posts-box-content-tags .PST-posts-box-content-details-icon {
+				background-position: -60px 0;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-box-content .PST-posts-box-content-details .PST-posts-box-content-external .PST-posts-box-content-details-icon {
+				background-position: -80px 0;
+				}
+			
+			ul.PST-posts li.PST-posts-li .PST-posts-break {
+				border-bottom: 1px #ffffff solid;
+				border-top: 1px #dcdcdc solid;
+				height: 0;
+				margin: 25px 0;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- ---    SEARCHPAGE, DAYPAGE, TAGPAGE     --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.SEARCHPAGE, ul.PST-posts li.DAYPAGE, ul.PST-posts li.TAGPAGE {
+				min-height: 0;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---    POSTS - TEXT     --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.TEXT .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background-position: 0 -372px;
+				}
+			
+			ul.PST-posts li.TEXT .PST-posts-box-content img {
+				-moz-border-radius: 3px;
+				-moz-box-shadow: 2px 2px 3px #e0e0e0;
+				-webkit-border-radius: 3px;
+				-webkit-box-shadow: 2px 2px 3px #e0e0e0;
+				background: #ffffff;
+				border: 1px #b9b9b9 solid;
+				border-radius: 3px;
+				box-shadow: 2px 2px 3px #e0e0e0;
+				max-width: 488px;
+				padding: 4px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---    POSTS - PHOTO    --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.PHOTO .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background-position: 0 -31px;
+				}
+			
+			ul.PST-posts li.PHOTO .PHOTO-display {
+				overflow: hidden;
+				}
+			
+			ul.PST-posts li.PHOTO .PHOTO-display .PHOTO-display-width {
+				float: left;
+				position: relative;
+				}
+			
+			ul.PST-posts li.PHOTO .PHOTO-display a.PHOTO-display-high-res, ul.PST-posts li.PHOTO .PHOTO-display a.PHOTO-display-high-res:visited, ul.PST-posts li.PHOTO .PHOTO-display a.PHOTO-display-high-res:hover {
+				background: url('http://static.tumblr.com/l3zugnz/78Lkvwe7w/hiresbutton.png') no-repeat 0 0;
+				bottom: 0;
+				display: none;
+				height: 50px;
+				margin: 0 14px 16px 0;
+				position: absolute;
+				right: 0;
+				width: 50px;
+				z-index: 100;
+				}
+			
+			ul.PST-posts li:hover .PHOTO-display a.PHOTO-display-high-res, ul.PST-posts li:hover .PHOTO-display a.PHOTO-display-high-res:visited, ul.PST-posts li:hover .PHOTO-display a.PHOTO-display-high-res:hover {
+				display: block !important;
+				}
+			
+			ul.PST-posts li.PHOTO .PHOTO-display img {
+				-moz-border-radius: 3px;
+				-moz-box-shadow: 2px 2px 3px #e0e0e0;
+				-webkit-border-radius: 3px;
+				-webkit-box-shadow: 2px 2px 3px #e0e0e0;
+				background: #ffffff;
+				border: 1px #b9b9b9 solid;
+				border-radius: 3px;
+				box-shadow: 2px 2px 3px #e0e0e0;
+				max-width: 488px;
+				padding: 4px;
+				position: relative;
+				z-index: 90;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---  POSTS - PHOTOSET   --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.PHOTOSET .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background-position: 0 -31px;
+				}
+			
+			ul.PST-posts li.PHOTOSET .PST-posts-box .PST-posts-box-content .html_photoset embed {
+				background: #ffffff;
+				border: 1px #dcdcdc solid;
+				max-width: 492px;
+				padding: 3px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---    POSTS - VIDEO    --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.VIDEO .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background-position: 0 -62px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---    POSTS - AUDIO    --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.AUDIO .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background-position: 0 -93px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info {
+				background: url('http://static.tumblr.com/l3zugnz/oTgkw04g1/player.png') no-repeat 0 0;
+				height: 125px;
+				overflow: hidden;
+				width: 500px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_album {
+				float: left;
+				height: 104px;
+				margin: 11px 0 0 11px;
+				position: relative;
+				width: 104px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_album .AUDIO_info_album_overlay {
+				background: url('http://static.tumblr.com/l3zugnz/3CMkw05at/album.png') no-repeat 0 0;
+				height: 104px;
+				position: absolute;
+				width: 104px;
+				z-index: 90;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_album img {
+				height: 102px;
+				margin: 1px;
+				position: absolute;
+				width: 102px;
+				z-index: 80;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_album .AUDIO_info_album_none {
+				background: url('http://static.tumblr.com/l3zugnz/3CMkw05at/album.png') no-repeat 0 -110px;
+				height: 104px;
+				position: absolute;
+				width: 104px;
+				z-index: 70;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_float {
+				float: right;
+				margin: 11px 10px 0 0;
+				overflow: hidden;
+				width: 370px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_player {
+				overflow: hidden;
+				margin-bottom: 1px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_player .AUDIO_info_player_embed {
+				float: left;
+				margin: 3px 0 3px 3px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_player .AUDIO_info_player_embed embed {
+				height: 33px;
+				width: 251px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_player .AUDIO_info_player_download {
+				float: right;
+				margin: 8px 7px 0 0;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_player .AUDIO_info_player_download a, ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_player .AUDIO_info_player_download a:visited {
+				background: url('http://static.tumblr.com/l3zugnz/oTgkw04g1/player.png') no-repeat -506px 0;
+				display: block;
+				height: 25px;
+				width: 26px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_player .AUDIO_info_player_download a:hover {
+				background-position: -506px -31px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_ta {
+				float: left;
+				height: 60px;
+				width: 279px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_ta .AUDIO_info_track, ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_ta .AUDIO_info_artist {
+				height: 28px;
+				line-height: 28px;
+				margin: 1px 6px 0 27px;
+				overflow: hidden;
+				position: relative;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_ta .AUDIO_info_none {
+				font-size: 13px;
+				font-weight: bold;
+				height: 28px;
+				line-height: 28px;
+				position: absolute;
+				z-index: 80;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_ta .AUDIO_info_overlay {
+				background: url('http://static.tumblr.com/l3zugnz/oTgkw04g1/player.png') no-repeat -148px -55px;
+				color: #595959;
+				font-size: 13px;
+				font-weight: bold;
+				height: 28px;
+				line-height: 28px;
+				position: absolute;
+				width: 270px;
+				z-index: 90;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_ta .AUDIO_info_artist {
+				margin: 4px 6px 0 27px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_ta .AUDIO_info_artist a, ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_ta .AUDIO_info_artist a:visited {
+				color: #595959;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_ta .AUDIO_info_artist a:hover {
+				color: #dc2509;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_plays {
+				float: left;
+				height: 60px;
+				margin-left: 4px;
+				overflow: hidden;
+				width: 87px;
+				text-align: center;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_plays .AUDIO_info_plays_count {
+				color: #595959;
+				font-size: 20px;
+				font-weight: bold;
+				padding: 13px 0 1px;
+				}
+			
+			ul.PST-posts li.AUDIO .PST-posts-box-content .AUDIO_info .AUDIO_info_plays .AUDIO_info_plays_label {
+				color: #acb09b;
+				font-size: 11px;
+				font-weight: bold;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---    POSTS - QUOTE    --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.QUOTE .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background-position: 0 -124px;
+				}
+			
+			ul.PST-posts li.QUOTE .PST-posts-box-content h1 span.QUOTE_quotation {
+				color: #c7c7c7;
+				float: right;
+				font-size: 90px;
+				line-height: 1em;
+				margin-top: -10px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---    POSTS - LINK    --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.LINK .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background-position: 0 -155px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---    POSTS - CHAT    --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.CHAT .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background-position: 0 -186px;
+				}
+			
+			ul.PST-posts li.CHAT .PST-posts-box-content ul {
+				list-style: none;
+				margin: 7px 0;
+				}
+			
+			ul.PST-posts li.CHAT .PST-posts-box-content ul li {
+				background: #f0f0f0;
+				font-size: 13px;
+				margin: 2px 0;
+				padding: 5px;
+				}
+			
+			ul.PST-posts li.CHAT .PST-posts-box-content ul li.even {
+				background: #e5e5e5;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---    POSTS - NOTES    --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.NOTES .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background-position: 0 -279px;
+				}
+			
+			ul.PST-posts li.NOTES .PST-posts-box-content ol.notes {
+				list-style: none;
+				margin: 0;
+				}
+			
+			ul.PST-posts li.NOTES .PST-posts-box-content ol.notes li {
+				-khtml-border-radius: 4px;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+				margin: 2px 0;
+				overflow: hidden;
+				padding: 4px;
+				}
+			
+			ul.PST-posts li.NOTES .PST-posts-box-content ol.notes li.reblog {
+				background: #ebebeb;
+				}
+			
+			ul.PST-posts li.NOTES .PST-posts-box-content ol.notes li.like {
+				background: #e0e0e0;
+				}
+			
+			ul.PST-posts li.NOTES .PST-posts-box-content ol.notes li img {
+				float: left;
+				margin-right: 4px;
+				}
+			
+			ul.PST-posts li.NOTES .PST-posts-box-content ol.notes li span.action {
+				font-size: 11px;
+				font-weight: bold;
+				}
+			
+			ul.PST-posts li.NOTES .PST-posts-box-content ol.notes li.like a, ul.PST-posts li.NOTES .PST-posts-box-content ol.notes li.like a:visited, ul.PST-posts li.NOTES .PST-posts-box-content ol.notes li.like a:hover {
+				color: #005c89;
+				}
+			
+			ul.PST-posts li.NOTES .PST-posts-box-content ol.notes li.reblog blockquote a, ul.PST-posts li.NOTES .PST-posts-box-content ol.notes li.reblog blockquote a:visited, ul.PST-posts li.NOTES .PST-posts-box-content ol.notes li.reblog blockquote a:hover {
+				color: #595959;
+				font-size: 11px;
+				text-decoration: none;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---   POSTS - COMMENTS  --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.COMMENTS .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background-position: 0 -248px;
+				}
+			
+			ul.PST-posts li.COMMENTS .PST-posts-box-content #disqus_thread #dsq-content #dsq-comments-title h3 {
+				padding-bottom: 10px;
+				}
+			
+			ul.PST-posts li.COMMENTS .PST-posts-box-content #disqus_thread #dsq-content #dsq-comments-title h3 span {
+				font-size: inherit;
+				}
+			
+			ul.PST-posts li.COMMENTS .PST-posts-box-content #disqus_thread #dsq-content .dsq-options {
+				display: none;
+				}
+			
+			ul.PST-posts li.COMMENTS .PST-posts-box-content #disqus_thread #dsq-content #dsq-new-post {
+				-kthml-border-radius: 4px;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+				background: url('http://media.disqus.com/images/themes/narcissus/header-grey.png') repeat 0 0;
+				padding: 10px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---     POSTS - ANSWER     --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.ANSWER .PST-posts-box .PST-posts-box-side .PST-posts-box-side-type {
+				background-position: 0 -310px;
+				}
+			
+			ul.PST-posts li.ANSWER .PST-posts-box-content hr {
+				margin: 15px 50px;
+				}
+			
+			ul.PST-posts li.ANSWER .PST-posts-box-content .ANSWER_question h1 span, ul.PST-posts li.ANSWER .PST-posts-box-content .ANSWER_answer h3 span {
+				color: #a6a6a6;
+				font-size: 23px;
+				}
+			
+			ul.PST-posts li.ANSWER .PST-posts-box-content .ANSWER_question h1 {
+				line-height: 1.1em;
+				}
+			
+			ul.PST-posts li.ANSWER .PST-posts-box-content .ANSWER_answer h3 span {
+				display: inline;
+				font-size: 18px;
+				}
+			
+			ul.PST-posts li.ANSWER .PST-posts-box-content .ANSWER_answer p {
+				display: inline;
+				font-size: 18px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---      PAGINATION     --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			ul.PST-posts li.PST-posts-pagination {
+				min-height: 0;
+				}
+				
+			ul.PST-posts li.PST-posts-pagination div {
+				float: left;
+				height: 27px;
+				width: 34px;
+				}
+			
+			ul.PST-posts li.PST-posts-pagination .PST-posts-pagination-older {
+				float: right;
+				}
+			
+			ul.PST-posts li.PST-posts-pagination a, ul.PST-posts li.PST-posts-pagination a:visited, ul.PST-posts li.PST-posts-pagination a:hover {
+				background: url('http://static.tumblr.com/l3zugnz/5wcl2gwbj/pagination.png') no-repeat 0 0;
+				display: block;
+				height: 27px;
+				width: 34px;
+				}
+			
+			ul.PST-posts li.PST-posts-pagination .PST-posts-pagination-newer a, ul.PST-posts li.PST-posts-pagination .PST-posts-pagination-newer a:visited {
+				background-position: 0 0;
+				}
+			
+			ul.PST-posts li.PST-posts-pagination .PST-posts-pagination-newer a:hover {
+				background-position: 0 -33px;
+				}
+			
+			ul.PST-posts li.PST-posts-pagination .PST-posts-pagination-older a, ul.PST-posts li.PST-posts-pagination .PST-posts-pagination-older a:visited {
+				background-position: -40px 0;
+				}
+			
+			ul.PST-posts li.PST-posts-pagination .PST-posts-pagination-older a:hover {
+				background-position: -40px -33px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---       SIDEBAR       --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			.PST-sidebar {
+				border-left: 1px #ffffff solid;
+				float: right;
+				padding-left: 25px;
+				width: 200px;
+				}
+			
+			.PST-sidebar .PST-sidebar-box {
+				margin-bottom: 15px;
+				}
+			
+			.PST-sidebar .PST-sidebar-box h3 a, .PST-sidebar .PST-sidebar-box h3 a:visited {
+				color: #595959;
+				}
+			
+			.PST-sidebar .PST-sidebar-box h3 a:hover {
+				color: #dc2509;
+				}
+			
+			.PST-portrait {
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				background: #f0f0f0;
+				border-radius: 3px;
+				display: block;
+				padding: 30px;
+				text-align: center;
+				}
+			
+			.PST-portrait img {
+				-moz-border-radius: 3px;
+				-moz-box-shadow: 2px 2px 3px #e0e0e0;
+				-webkit-border-radius: 3px;
+				-webkit-box-shadow: 2px 2px 3px #e0e0e0;
+				background: #ffffff;
+				border: 1px #b9b9b9 solid;
+				border-radius: 3px;
+				box-shadow: 2px 2px 3px #e0e0e0;
+				padding: 4px;
+				width: 128px;
+				}
+			
+			.PST-portrait img:hover {
+				border-color: #dc2509;
+				}
+				
+			ul.PAGES {
+				border-bottom: 1px #ffffff solid;
+				border-top: 1px #dcdcdc solid;
+				margin-top: 6px;
+				}
+				
+			ul.PAGES li a, ul.PAGES li a:visited {
+				border-bottom: 1px #dcdcdc solid;
+				border-top: 1px #ffffff solid;
+				cursor: pointer;
+				display: block;
+				font-size: 13px;
+				font-weight: bold;
+				padding: 8px;
+				}
+				
+			ul.PAGES li a:hover {
+				background: #dc2509;
+				border-bottom-color: #8f1806;
+				color: #ffffff;
+				text-decoration: none;
+				}
+			
+			form.PST-search {
+				background: url('http://static.tumblr.com/l3zugnz/PZ0kvwe9t/searchinput.png') no-repeat 0 0;
+				height: 30px;
+				width: 200px;
+				}
+			
+			form.PST-search input {
+				background: transparent;
+				font-size: 12px;
+				line-height: 12px;
+				margin: 8px 5px 8px 28px;
+				width: 167px;
+				}
+				
+			.PST-sidebar ul.PST-sidebar-buttons li {
+				height: 45px;
+				margin-bottom: 8px;
+				width: 200px;
+				}
+			
+			.PST-sidebar ul.PST-sidebar-buttons li a, .PST-sidebar ul.PST-sidebar-buttons li a:visited {
+				background: url('http://static.tumblr.com/l3zugnz/yEkkvyh0v/sidebarbutton.png') no-repeat 0 0;
+				display: block;
+				height: 45px;
+				width: 200px;
+				}
+			
+			.PST-sidebar ul.PST-sidebar-buttons li a:hover {
+				background-position: 0 -51px;
+				}
+			
+			.PST-sidebar ul.PST-sidebar-buttons li a em, .PST-sidebar ul.PST-sidebar-buttons li a:visited em {
+				background: url('http://static.tumblr.com/l3zugnz/TJol2gwah/buttonicons.png') no-repeat 0 0;
+				display: block;
+				float: left;
+				height: 17px;
+				margin: 12px 7px 0 12px;
+				width: 18px;
+				}
+			
+			.PST-sidebar ul.PST-sidebar-buttons li a span, .PST-sidebar ul.PST-sidebar-buttons li a:visited span {
+				display: block;
+				float: left;
+				font-size: 15px;
+				font-weight: bold;
+				line-height: 34px;
+				height: 34px;
+				margin-top: 4px;
+				width: 160px;
+				}
+			
+			.PST-sidebar ul.PST-sidebar-buttons li a:hover span {
+				color: #dc2509;
+				text-decoration: none;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---       FOLLOW       --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			.PST-sidebar ul.PST-sidebar-buttons li a:hover em {
+				background-position: -24px 0;
+				}
+			
+			.PST-sidebar ul.PST-sidebar-buttons li a span .FOLLOW-text, .PST-sidebar .FOLLOW .SIDEBAR_button a:visited span .FOLLOW-text {
+				font-size: 15px;
+				float: left;
+				width: 80;
+				}
+			
+			.PST-sidebar ul.PST-sidebar-buttons li a:hover span strong.FOLLOW-text {
+				color: #dc2509;
+				text-decoration: none;
+				}
+			
+			.PST-sidebar ul.PST-sidebar-buttons li a span strong.FOLLOW-logo, .PST-sidebar ul.PST-sidebar-buttons li a:visited span strong.FOLLOW-logo {
+				background: url('http://static.tumblr.com/l3zugnz/V0skvyiow/followlogo.png') no-repeat 0 0;
+				display: block;
+				float: left;
+				height: 13px;
+				margin: 9px 0 0 4px;
+				width: 59px;
+				}
+			
+			.PST-sidebar ul.PST-sidebar-buttons li a:hover span strong.FOLLOW-logo {
+				background-position: 0 -19px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---        ASK ME       --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			.PST-sidebar ul.PST-sidebar-buttons li.ASK-ME a em, .PST-sidebar ul.PST-sidebar-buttons li.ASK-ME a:visited em {
+				background-position: 0 -23px;
+				}
+			
+			.PST-sidebar ul.PST-sidebar-buttons li.ASK-ME a:hover em {
+				background-position: -24px -23px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---       SUBMIT        --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			.PST-sidebar ul.PST-sidebar-buttons li.SUBMIT a em, .PST-sidebar ul.PST-sidebar-buttons li.SUBMIT a:visited em {
+				background-position: 0 -46px;
+				}
+			
+			.PST-sidebar ul.PST-sidebar-buttons li.SUBMIT a:hover em {
+				background-position: -24px -46px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---       TWITTER       --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			.TWITTER {
+				overflow: hidden;
+				}
+			
+			.TWITTER #tweets a, .TWITTER #tweets a:visited {
+				-khtml-border-radius: 4px;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+				background: #79a4ba;
+				color: #ffffff;
+				display: block;
+				margin: 4px 0;
+				padding: 10px;
+				}
+			
+			.TWITTER #tweets .content {
+				color: #ffffff;
+				font-size: 11px;
+				font-weight: bold;
+				}
+			
+			.TWITTER .TWITTER_bird {
+				background: url('http://static.tumblr.com/l3zugnz/204kvwebe/twitterbird.png') no-repeat 0 0;
+				height: 55px;
+				margin-top: -10px;
+				width: 200px;
+				}
+			
+			.TWITTER .TWITTER_bird a, .TWITTER .TWITTER_bird a:visited, .TWITTER .TWITTER_bird a:hover {
+				display: block;
+				height: 55px;
+				width: 200px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---       LASTFM        --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			.LASTFM h3 {
+				padding-bottom: 6px;
+				}
+			
+			.LASTFM .LASTFM_widget {
+				-khtml-border-radius: 4px;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+				border-bottom: 7px #e5e5e5 solid;
+				border-left: 8px #e5e5e5 solid;
+				border-right: 8px #e5e5e5 solid;
+				border-top: 7px #e5e5e5 solid;
+				}
+			
+			.LASTFM .LASTFM_widget object {
+				display: block;
+				height: 179px;
+				margin: 0;
+				padding: 0;
+				width: 186px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---        LIKES        --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			.LIKES ul#likes li {
+				-khtml-border-radius: 4px;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+				background: #ebebeb;
+				margin: 4px 0;
+				padding: 10px;
+				}
+			
+			.LIKES ul#likes li .post_info_top {
+				display: block !important;
+				padding-bottom: 4px;
+				}
+			
+			.LIKES ul#likes li .post_info_top a, .LIKES ul#likes li .post_info_top span {
+				font-size: 11px;
+				}
+			
+			.LIKES ul#likes li.like_chat_post .like_title {
+				font-size: 13px;
+				font-weight: bold;
+				}
+			
+			.LIKES ul#likes li.like_photo_post img {
+				-moz-border-radius: 3px;
+				-moz-box-shadow: 2px 2px 3px #e0e0e0;
+				-webkit-border-radius: 3px;
+				-webkit-box-shadow: 2px 2px 3px #e0e0e0;
+				background: #ffffff;
+				border: 1px #b9b9b9 solid;
+				border-radius: 3px;
+				box-shadow: 2px 2px 3px #e0e0e0;
+				max-height: 174px;
+				max-width: 174px;
+				padding: 3px;
+				}
+			
+			.LIKES ul#likes li.like_photo_post img:hover {
+				border-color: #dc2509;
+				}
+			
+			.LIKES ul#likes li.like_video_post .like_video img {
+				background: #ffffff;
+				border: 1px #d7d7d7 solid;
+				max-width: 174px;
+				max-height: 174px;
+				padding: 2px;
+				}
+			
+			.LIKES ul#likes li.like_video_post .like_video img:hover {
+				border-color: #dc2509;
+				}
+			
+			.LIKES ul#likes li.like_audio_post .like_audio embed {
+				width: 180px;
+				}
+			
+			.LIKES ul#likes li.like_quote_post .like_quote span {
+				font-size: 13px;
+				font-weight: bold;
+				}
+			
+			.LIKES ul#likes li.like_quote_post .like_source {
+				font-size: 11px;
+				}
+			
+			.LIKES ul#likes li.like_photo_post .like_caption, .LIKES ul#likes li.like_chat_post p, .LIKES ul#likes li.like_link_post .like_caption, .LIKES ul#likes li.like_audio_post .like_post_body, .LIKES ul#likes li.like_chat_post .like_chat, .LIKES ul#likes li.like_video_post p, .LIKES ul#likes li.like_link_post .like_caption {
+				display: none;
+				}
+				
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---       MEMBERS       --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			.MEMBERS ul li {
+				overflow: hidden;
+				margin: 4px 0;
+				}
+			
+			.MEMBERS ul li img {
+				background: #ffffff;
+				border: 1px #dcdcdc solid;
+				float: left;
+				margin-right: 5px;
+				padding: 2px;
+				}
+			
+			.MEMBERS ul li span.MEMBERS_name {
+				font-weight: bold;
+				line-height: 36px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---      FOLLOWING      --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			.FOLLOWING ul {
+				display: block;
+				max-height: 200px;
+				margin: 5px 0 12px;
+				overflow: hidden;
+				width: 200px;
+				}
+			
+			.FOLLOWING ul li {
+				float: left;
+				height: 40px;
+				width: 40px;
+				}
+			
+			
+			/*  --- --- --- --- --- --- --- --- --- --- --- ---
+			--- --- --- ---        FOOTER       --- --- --- ---
+			--- --- --- --- --- --- --- --- --- --- --- ---  */
+			
+			
+			.PST-footer {
+				border-top: 1px #ffffff solid;
+				overflow: hidden;
+				padding: 25px 0 35px;
+				}
+				
+			.PST-footer .PST-footer-info {
+				float: left;
+				overflow: hidden;
+				width: 655px;
+				}
+			
+			.PST-footer .PST-footer-info a#PST-footer-info-powered, .PST-footer .PST-footer-info a#PST-footer-info-powered:visited {
+				background: url('http://static.tumblr.com/l3zugnz/sKbkvydni/powered.png') no-repeat 0 0;
+				display: block;
+				float: left;
+				height: 33px;
+				margin-right: 6px;
+				width: 125px;
+				}
+			
+			.PST-footer .PST-footer-info a#PST-footer-info-powered:hover {
+				background-position: 0 -39px;
+				}
+			
+			.PST-footer .PST-footer-info .PST-footer-info-text {
+				float: left;
+				width: 510px;
+				}
+			
+			.PST-footer .PST-footer-info .PST-footer-info-text p.PST-footer-info-text-notices {
+				font-size: 11px;
+				padding: 6px 0px 1px;
+				}
+			
+			.PST-footer .PST-footer-info .PST-footer-info-text p.PST-footer-info-text-search {
+				color: #999999;
+				font-size: 10px;
+				padding: 0;
+				}
+			
+			.PST-footer ul.PST-footer-actions {
+				float: right;
+				width: 122px;
+				}
+			
+			.PST-footer ul.PST-footer-actions li.PST-footer-actions-rss, .PST-footer ul.PST-footer-actions li.PST-footer-actions-random, .PST-footer ul.PST-footer-actions li.PST-footer-actions-archive {
+				float: left;
+				width: 34px;
+				}
+			
+			.PST-footer ul.PST-footer-actions li.PST-footer-actions-rss, .PST-footer ul.PST-footer-actions li.PST-footer-actions-random {
+				margin-right: 10px;
+				}
+			
+			.PST-footer ul.PST-footer-actions a, .PST-footer ul.PST-footer-actions a:visited, .PST-footer ul.PST-footer-actions a:hover {
+				background: url('http://static.tumblr.com/l3zugnz/Id5l2gw9t/actionicons.png') no-repeat 0 0;
+				display: block;
+				height: 33px;
+				width: 34px;
+				}
+			
+			.PST-footer ul.PST-footer-actions li.PST-footer-actions-rss a, .PST-footer ul.PST-footer-actions li.PST-footer-actions-rss a:visited {
+				background-position: 0 -78px;
+				}
+			
+			.PST-footer ul.PST-footer-actions li.PST-footer-actions-rss a:hover {
+				background-position: -40px -78px;
+				}
+			
+			.PST-footer ul.PST-footer-actions li.PST-footer-actions-random a, .PST-footer ul.PST-footer-actions li.PST-footer-actions-random a:visited {
+				background-position: 0 -39px;
+				}
+			
+			.PST-footer ul.PST-footer-actions li.PST-footer-actions-random a:hover {
+				background-position: -40px -39px;
+				}
+			
+			.PST-footer ul.PST-footer-actions li.PST-footer-actions-archive a, .PST-footer ul.PST-footer-actions li.PST-footer-actions-archive a:visited {
+				background-position: 0 0;
+				}
+			
+			.PST-footer ul.PST-footer-actions li.PST-footer-actions-archive a:hover {
+				background-position: -40px 0;
+				}
+            
+            .tag:before, .search_query:before { content:'“'; }
+        	.tag:after, .search_query:after { content:'”'; }
+            
+			
+
+		</style>
+		
+		<title>Boredom and Blackholes - Page 1 of 92</title>
+
+	<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=chumirthlight" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+<meta name="keywords" content="essay,God,chum almaquer,bacolod,bonnet" />
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Boredom and Blackholes" /><meta property="og:url" content="http://chumirthlight.tumblr.com/?og=1" /><meta property="og:description" content="Chum Lagulao Almaquer. Philippines. UPV. Biology is the insufferable science. Randomness comes after..." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_08206cc5b56f_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=chumirthlight" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=chumirthlight" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="chumirthlight" /><meta name="twitter:description" content="Chum Lagulao Almaquer. Philippines. UPV.
+Biology is the insufferable science.
+Randomness comes after thoughts.
+Grimm. Grey&#039;s Anatomy. New Girl. The Big Bang Theory. Game Of Thrones. Modern Family. 
+Alternative Rock. CCM. Techno Retro. Space Rock. RnB. 
+Mirthlights we are. Romans 8:31 If God is for us, who can be against us? =]" /><meta name="twitter:creator" content="chumalmaquer" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=chumirthlight&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=chumirthlight&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=chumirthlight&amp;referrer=twitter-cards" />
+
+</head>
+	<body>
+	
+		<a class="PST-install" href="http://www.tumblr.com/theme/6177" target="_blank"></a>
+		<div class="PST-stripes"></div>
+		<a class="PST-stamp" href="http://gre.gs" target="_blank" title="Made by Gre.gs"></a>
+
+		<div class="PST-wrapper">
+		
+			<div class="PST-header">
+			
+				<h1><a href="/">Boredom and Blackholes</a></h1>
+				<div class="PST-description">Chum Lagulao Almaquer. Philippines. UPV.<br />
+Biology is the insufferable science.<br />
+Randomness comes after thoughts.<br />
+Grimm. Grey's Anatomy. New Girl. The Big Bang Theory. Game Of Thrones. Modern Family. <br />
+Alternative Rock. CCM. Techno Retro. Space Rock. RnB. <br />
+Mirthlights we are. Romans 8:31 If God is for us, who can be against us? =]</div>
+				
+			</div>
+			
+			<div class="PST-columns">
+
+				<ul class="PST-posts" id="posts">
+
+					
+					
+					
+					
+					
+					
+					<li class="PST-posts-li PHOTO 98715523662 reblog new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/98715523662/spiritualinspiration-what-a-powerful-promise-we"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+									<div class="PHOTO-display">
+										<div class="PHOTO-display-width">
+											
+											<img alt="spiritualinspiration:
+
+What a powerful promise we have from Almighty God! When we put our hope in Him, we will never be disappointed. Of course, that doesn&rsquo;t mean that things will always go our way. There may be temporary disappointments, but we will never be permanently disappointed. Somewhere down the road, God will cause it to all work out for our good. With God on your side, you will always end in victory!
+Are you carrying frustration, worry or aggravation about something? That&rsquo;s usually a clear sign that your hope is in the wrong place. If you hope in circumstances, it will deplete you of joy and peace. But when you turn those circumstances over to God, when you refuse to worry, when you refuse to allow the temporary things of this world to dictate your happiness, that&rsquo;s when God can do a work in your life. When you trust in Him, He will make your crooked places straight; He will cause you to mount up with wings like the eagle.
+Today, choose to put your hope in the Father; you won&rsquo;t be disappointed. Trust Him because He is faithful. Find rest for your soul in knowing that He is good, and He has good things in store for your future!
+" src="http://38.media.tumblr.com/tumblr_mbod0q6mOj1qhmhdfo1_500.jpg" />
+										</div>
+									</div>
+									<p><a class="tumblr_blog" href="http://spiritualinspiration.tumblr.com/post/33297371591/what-a-powerful-promise-we-have-from-almighty-god">spiritualinspiration</a>:</p>
+<blockquote>
+<p>What a powerful promise we have from Almighty God! When we put our hope in Him, we will never be disappointed. Of course, that doesn’t mean that things will always go our way. There may be temporary disappointments, but we will never be permanently disappointed. Somewhere down the road, God will cause it to all work out for our good. With God on your side, you will always end in victory!</p>
+<p>Are you carrying frustration, worry or aggravation about something? That’s usually a clear sign that your hope is in the wrong place. If you hope in circumstances, it will deplete you of joy and peace. But when you turn those circumstances over to God, when you refuse to worry, when you refuse to allow the temporary things of this world to dictate your happiness, that’s when God can do a work in your life. When you trust in Him, He will make your crooked places straight; He will cause you to mount up with wings like the eagle.</p>
+<p>Today, choose to put your hope in the Father; you won’t be disappointed. Trust Him because He is faithful. Find rest for your soul in knowing that He is good, and He has good things in store for your future!</p>
+</blockquote>
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p>Reblogged 14 hours ago from <a href="http://spiritualinspiration.tumblr.com/post/98711265703/spiritualinspiration-what-a-powerful-promise-we">spiritualinspiration</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/98715523662/spiritualinspiration-what-a-powerful-promise-we#notes">1,039 notes</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li PHOTO 98715310622 reblog new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/98715310622/spiritualinspiration-he-who-began-a-good-work"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+									<div class="PHOTO-display">
+										<div class="PHOTO-display-width">
+											
+											<a href="http://www.facebook.com/naeemcallaway"><img alt="spiritualinspiration:
+
+&ldquo;&hellip;he who began a good work in you will carry it on to completion until the day of Christ Jesus&rdquo; (Philippians 1:6, NIV)
+Sometimes when God is doing a work in our lives, it can begin to feel a little uncomfortable. We may encounter people who are hard to get along with or have circumstances that seem beyond our control. When this happens, instead of complaining, getting sour or trying to change everything around you, why don&rsquo;t you look deep inside and say, &ldquo;Lord, thank You for doing a work in me.&rdquo; See, I&rsquo;ve learned that God is more interested in changing me than He is in changing my circumstances. If I choose to stay sour because I&rsquo;m not getting my way or discouraged because things aren&rsquo;t happening on my time table, that&rsquo;s going to keep me right where I am.
+If you want to see change, if you want to see God open up new doors, the key is to bloom right where you&rsquo;re planted. You can&rsquo;t wait until everything gets better before you decide to have a good attitude. You have to be the best that you can be right where you are. When you bloom where you&rsquo;re planted, you&rsquo;re allowing God to work in you, and He will be faithful to complete what He&rsquo;s started in you!
+A PRAYER FOR TODAYFather God, thank You for doing a work in me. I choose to align myself with Your plan by blooming where I&rsquo;m planted. Help me, by Your Spirit, to be an example of Your love and life everywhere I go in Jesus&rsquo; name. Amen.
+" src="http://38.media.tumblr.com/tumblr_md9srfOd4A1qhmhdfo1_r1_500.png" /></a>
+										</div>
+									</div>
+									<p><a class="tumblr_blog" href="http://spiritualinspiration.tumblr.com/post/35402077597/he-who-began-a-good-work-in-you-will-carry-it-on">spiritualinspiration</a>:</p>
+<blockquote>
+<p><em>“…he who began a good work in you will carry it on to completion until the day of Christ Jesus”<br/> (Philippians 1:6, NIV)</em></p>
+<p>Sometimes when God is doing a work in our lives, it can begin to feel a little uncomfortable. We may encounter people who are hard to get along with or have circumstances that seem beyond our control. When this happens, instead of complaining, getting sour or trying to change everything around you, why don’t you look deep inside and say, “Lord, thank You for doing a work in me.” See, I’ve learned that God is more interested in changing me than He is in changing my circumstances. If I choose to stay sour because I’m not getting my way or discouraged because things aren’t happening on my time table, that’s going to keep me right where I am.</p>
+<p>If you want to see change, if you want to see God open up new doors, the key is to bloom right where you’re planted. You can’t wait until everything gets better before you decide to have a good attitude. You have to be the best that you can be right where you are. When you bloom where you’re planted, you’re allowing God to work in you, and He will be faithful to complete what He’s started in you!</p>
+<p><em>A PRAYER FOR TODAY<br/></em><br/><em>Father God, thank You for doing a work in me. I choose to align myself with Your plan by blooming where I’m planted. Help me, by Your Spirit, to be an example of Your love and life everywhere I go in Jesus’ name. Amen.</em></p>
+</blockquote>
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p>Reblogged 14 hours ago from <a href="http://spiritualinspiration.tumblr.com/post/98712085384/spiritualinspiration-he-who-began-a-good-work">spiritualinspiration</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/98715310622/spiritualinspiration-he-who-began-a-good-work#notes">20,785 notes</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li PHOTO 97461709867 up quezon_city diliman mashitaa japanese japan chopsticks oriental bored hungry new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/97461709867/do-i-enjoy-using-chopsticks-and-make-it-a-delivery"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+									<div class="PHOTO-display">
+										<div class="PHOTO-display-width">
+											<a class="PHOTO-display-high-res" href="http://33.media.tumblr.com/8ae470887e47ba5822f186b45e67b63c/tumblr_nbvz00iX6J1qafu0ko1_1280.jpg"></a>
+											<a href="http://chumirthlight.tumblr.com/image/97461709867"><img alt="Do I enjoy using chopsticks and make it a delivery service with the aid of my hands for the oriental dish to my mouth? No. I am struggling on every module of it. I managed, I did, because I was way too hungry to consider it as a stumbling block to the nonstop missed calls of my stomach. Oh look at me, do I enjoy my food? I did! But let me share with you little story about the cashier at Mashitta..she was close to murdering us because she was upset about her life taking orders. We are customers! We have rights and our rights are always right in all goodness and mercy this university has to offer! Okay, that was a lot of raging hormones flowing.
+I had a great time Mashitaa. Come visit them at the UP Student Center at University of the Philippines Diliman at Quezon City. =)
+Itadakimasu!" src="http://33.media.tumblr.com/8ae470887e47ba5822f186b45e67b63c/tumblr_nbvz00iX6J1qafu0ko1_500.jpg" /></a>
+										</div>
+									</div>
+									<p>Do I enjoy using chopsticks and make it a delivery service with the aid of my hands for the oriental dish to my mouth? No. I am struggling on every module of it. I managed, I did, because I was way too hungry to consider it as a stumbling block to the nonstop missed calls of my stomach. Oh look at me, do I enjoy my food? I did! But let me share with you little story about the cashier at Mashitta..she was close to murdering us because she was upset about her life taking orders. We are customers! We have rights and our rights are always right in all goodness and mercy this university has to offer! Okay, that was a lot of raging hormones flowing.</p>
+<p>I had a great time Mashitaa. Come visit them at the UP Student Center at University of the Philippines Diliman at Quezon City. =)</p>
+<h2 id="cquery">Itadakimasu!</h2>
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="/day/2014/09/14">Posted 2 weeks ago</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/97461709867/do-i-enjoy-using-chopsticks-and-make-it-a-delivery#notes">1 note</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+									<div class="PST-posts-box-content-tags">
+										<span class="PST-posts-box-content-details-icon"></span>
+										<p>Tags: <a href="http://chumirthlight.tumblr.com/tagged/UP/chrono">UP</a>, <a href="http://chumirthlight.tumblr.com/tagged/quezon-city/chrono">quezon city</a>, <a href="http://chumirthlight.tumblr.com/tagged/diliman/chrono">diliman</a>, <a href="http://chumirthlight.tumblr.com/tagged/mashitaa/chrono">mashitaa</a>, <a href="http://chumirthlight.tumblr.com/tagged/japanese/chrono">japanese</a>, <a href="http://chumirthlight.tumblr.com/tagged/japan/chrono">japan</a>, <a href="http://chumirthlight.tumblr.com/tagged/chopsticks/chrono">chopsticks</a>, <a href="http://chumirthlight.tumblr.com/tagged/oriental/chrono">oriental</a>, <a href="http://chumirthlight.tumblr.com/tagged/bored/chrono">bored</a>, <a href="http://chumirthlight.tumblr.com/tagged/hungry/chrono">hungry</a>, </p>
+									</div>
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li PHOTO 95817234652  new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/95817234652"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+									<div class="PHOTO-display">
+										<div class="PHOTO-display-width">
+											<a class="PHOTO-display-high-res" href="http://33.media.tumblr.com/60799f669f4b9c4eff4e56ed0685e24f/tumblr_nawwpkDV4W1qafu0ko1_1280.jpg"></a>
+											<a href="http://chumirthlight.tumblr.com/image/95817234652"><img alt="" src="http://38.media.tumblr.com/60799f669f4b9c4eff4e56ed0685e24f/tumblr_nawwpkDV4W1qafu0ko1_500.jpg" /></a>
+										</div>
+									</div>
+									
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="/day/2014/08/26">Posted 1 month ago</a></p>
+										</div>
+										
+										
+										
+										
+										
+	
+									</div>
+									
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li TEXT 95657514957  new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/95657514957/made-for-him"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+									<h2><a href="http://chumirthlight.tumblr.com/post/95657514957/made-for-him">Made for Him</a></h2>
+									<p>No one is truly free if he chooses to please others than choosing to please God. We were formed from His image, we were made to be loved by Him and in return we need to follow Him and with that, it means loving Him back by giving Him our lives. </p>
+<p>We don&#8217;t even own our lives, it&#8217;s His from the very beginning.</p>
+<p>Yes, I&#8217;ve been through struggle where I try to please the people around me, guys I want to hang out with rather than thinking of things I could do that will put a smile on my Creator&#8217;s face. Isn&#8217;t it pathetic?</p>
+<p>I&#8217;m writing this because it seems like nothing is happening to me for the past few days, weeks..seems like God is actually silent although I know in my heart that He isn&#8217;t, never will be. I honestly know that I will have a deeper relationship with Him when He gives me challenges and I&#8217;m through trials. I am in a current struggle, I need You Lord to be with me and my faith in You is tested during these times of silence.</p>
+<p>Reveal Your word to me Father.</p>
+<p>I really really really need You more than anything in my life.</p>
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="/day/2014/08/24">Posted 1 month ago</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/95657514957/made-for-him#notes">1 note</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li TEXT 91042519292 struggle salvation christian god essay new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/91042519292/the-struggle-and-the-salvation"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+									<h2><a href="http://chumirthlight.tumblr.com/post/91042519292/the-struggle-and-the-salvation">The Struggle and the Salvation.</a></h2>
+									<p>I have been into an account of struggles with the people around me which all do experience but with my situation being more or less  pricking my faith.</p>
+<p>Those who criticize my Savior and it hurts even more to only listen and not defend Him because you have to respect their opinion as much as they respect yours. A fine struggle, a bagful of guilt you can only bear with such low esteem. Lord, I pray for those people who do not believe in You, who use the pain and hurt they are experiencing to question Your plans for them. I pray that sooner or later in Your perfect timing, You will reveal Yourself to them in a manner no one can explain. Open their hearts Father to listen to Your word and use their intellect to know You more and not to break their reason. This reason You have given us must be used for Your glory and knowing You deeper, it has never meant to detract us from the path You want us to tread.</p>
+<p>Give me the courage dear Lord to face these people and may You be seen in my life. It&#8217;s really indeed sad to think that some of my friends do not believe in You because of their own ridiculous reasons but all I am asking is that You would make me a good soul as I relay to them the joy that You have given me.</p>
+<p>I cry Lord for these people who abandon the thought of Your existence and glory. Make me an instrument Lord, please do so.</p>
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="/day/2014/07/07">Posted 2 months ago</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/91042519292/the-struggle-and-the-salvation#notes">2 notes</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+									<div class="PST-posts-box-content-tags">
+										<span class="PST-posts-box-content-details-icon"></span>
+										<p>Tags: <a href="http://chumirthlight.tumblr.com/tagged/struggle/chrono">struggle</a>, <a href="http://chumirthlight.tumblr.com/tagged/salvation/chrono">salvation</a>, <a href="http://chumirthlight.tumblr.com/tagged/christian/chrono">christian</a>, <a href="http://chumirthlight.tumblr.com/tagged/God/chrono">God</a>, <a href="http://chumirthlight.tumblr.com/tagged/essay/chrono">essay</a>, </p>
+									</div>
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li PHOTO 90215416677 bonnet bacolod sunset palmas new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/90215416677/not-an-item-haha-until-then-bonney"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+									<div class="PHOTO-display">
+										<div class="PHOTO-display-width">
+											<a class="PHOTO-display-high-res" href="http://38.media.tumblr.com/dd4c00cc5866b24f11c8bd8baabf75d1/tumblr_n7wuu0LDNI1qafu0ko1_1280.jpg"></a>
+											<a href="http://chumirthlight.tumblr.com/image/90215416677"><img alt="Not an item.
+Haha. Until then Bonney. =)" src="http://33.media.tumblr.com/dd4c00cc5866b24f11c8bd8baabf75d1/tumblr_n7wuu0LDNI1qafu0ko1_500.jpg" /></a>
+										</div>
+									</div>
+									<p>Not an item.<br/>
+Haha. Until then Bonney. =)</p>
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="/day/2014/06/28">Posted 3 months ago</a></p>
+										</div>
+										
+										
+										
+										
+										
+	
+									</div>
+									
+									
+									<div class="PST-posts-box-content-tags">
+										<span class="PST-posts-box-content-details-icon"></span>
+										<p>Tags: <a href="http://chumirthlight.tumblr.com/tagged/bonnet/chrono">bonnet</a>, <a href="http://chumirthlight.tumblr.com/tagged/bacolod/chrono">bacolod</a>, <a href="http://chumirthlight.tumblr.com/tagged/sunset/chrono">sunset</a>, <a href="http://chumirthlight.tumblr.com/tagged/palmas/chrono">palmas</a>, </p>
+									</div>
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li TEXT 90056624312 essay random chum_almaquer new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/90056624312/albeit"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+									<h2><a href="http://chumirthlight.tumblr.com/post/90056624312/albeit">Albeit</a></h2>
+									<p>I have been abandoning the idea and the activity of writing about my emotions because I do not want to revisit it someday and just hover with the idea again of feeling that way. I want to forget my emotions, may not be easy, but I want to do so simply because it never lasts and I do not want to get attached to it.</p>
+<p>Albeit a happy or a sad one, I just want to bury them in me like a uranium ore never to be dug out.</p>
+<p>I don&#8217;t keep a record anymore like I used to. Memories I learned to give away because I find it easier to meditate and focus on things that will come albeit sooner they will be the past too.</p>
+<p>Is this healthy? I guess so but I miss writing and a sad thing to admit is that emotions often are the fuel that drive us to write without draft. Such a sad thing to happen for a creative writer who used all inches of her emotions to give out a masterpiece. Now look at her, contented to write to and fro research proposals and boring outputs.</p>
+<p>It&#8217;s a choice maybe, but if ever I will get used to it, I won&#8217;t regret a damn thing I never kept track of what I felt.</p>
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="/day/2014/06/27">Posted 3 months ago</a></p>
+										</div>
+										
+										
+										
+										
+										
+	
+									</div>
+									
+									
+									<div class="PST-posts-box-content-tags">
+										<span class="PST-posts-box-content-details-icon"></span>
+										<p>Tags: <a href="http://chumirthlight.tumblr.com/tagged/essay/chrono">essay</a>, <a href="http://chumirthlight.tumblr.com/tagged/random/chrono">random</a>, <a href="http://chumirthlight.tumblr.com/tagged/chum-almaquer/chrono">chum almaquer</a>, </p>
+									</div>
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li PHOTO 89954158487 reblog new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/89954158487/spiritualinspiration-the-vision-is-yet-for-an"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+									<div class="PHOTO-display">
+										<div class="PHOTO-display-width">
+											
+											<img alt="spiritualinspiration:
+
+&ldquo;The vision is yet for an appointed time&hellip;&rdquo;
+(Habakkuk 2:3, NKJV)
+
+The scripture says, &ldquo;The vision is for an appointed time.&rdquo; That means there is a specific time already determined for the fulfillment of the desires God has placed in your heart. The appointed time is the best time! We have to trust that God can see the big picture for our lives. He knows what&rsquo;s up ahead. He knows what we&rsquo;re going to need, who we&rsquo;re going to need, and when they need to show up. If God did everything we ask on our timetable, it would limit us because sometimes, what we&rsquo;re asking for is too small. Sometimes the person we think we can&rsquo;t live without, God knows in ten years they&rsquo;re not going to be good for us. So He is closing the door right now. Sometimes the promotion we want so badly, if God gave it to us right now, He knows it would keep us from a much bigger promotion that He has three years down the road.
+
+Remember, God has the advantage of seeing it all. The longer I live, the more I trust Him. The more I see His hand of faithfulness, the more I know that His plan is better than my plan. Today, trust that He knows what He&rsquo;s doing. Trust that He has an appointed time, and it is the best time to bring to pass His promises in your life!" src="http://38.media.tumblr.com/78644f4ac8c9b92279df9c23a90ccaa7/tumblr_mhhn73bgr81qhmhdfo1_500.jpg" />
+										</div>
+									</div>
+									<p><a href="http://spiritualinspiration.tumblr.com/post/41940044115/the-vision-is-yet-for-an-appointed-time" class="tumblr_blog">spiritualinspiration</a>:</p>
+
+<blockquote><p><i>“The vision is yet for an appointed time…”<br/>
+(Habakkuk 2:3, NKJV)</i></p>
+
+<p>The scripture says, “The vision is for an appointed time.” That means there is a specific time already determined for the fulfillment of the desires God has placed in your heart. The appointed time is the best time! We have to trust that God can see the big picture for our lives. He knows what’s up ahead. He knows what we’re going to need, who we’re going to need, and when they need to show up. If God did everything we ask on our timetable, it would limit us because sometimes, what we’re asking for is too small. Sometimes the person we think we can’t live without, God knows in ten years they’re not going to be good for us. So He is closing the door right now. Sometimes the promotion we want so badly, if God gave it to us right now, He knows it would keep us from a much bigger promotion that He has three years down the road.</p>
+
+<p>Remember, God has the advantage of seeing it all. The longer I live, the more I trust Him. The more I see His hand of faithfulness, the more I know that His plan is better than my plan. Today, trust that He knows what He’s doing. Trust that He has an appointed time, and it is the best time to bring to pass His promises in your life!</p></blockquote>
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p>Reblogged 3 months ago from <a href="http://spiritualinspiration.tumblr.com/post/89953683690/spiritualinspiration-the-vision-is-yet-for-an">spiritualinspiration</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/89954158487/spiritualinspiration-the-vision-is-yet-for-an#notes">3,689 notes</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li PHOTO 86500168807 reblog new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/86500168807/spiritualinspiration-if-god-made-everything"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+									<div class="PHOTO-display">
+										<div class="PHOTO-display-width">
+											<a class="PHOTO-display-high-res" href="http://33.media.tumblr.com/ce32553c06089325ab466202d59dd24d/tumblr_n5z8ecwC961qhmhdfo1_1280.jpg"></a>
+											<a href="http://chumirthlight.tumblr.com/image/86500168807"><img alt="spiritualinspiration:
+
+If God made everything happen right away, or whenever we wanted it to happen, it wouldn&rsquo;t require anything of us. We would miss the opportunity to grow because we grow in the difficult times. We grow when our faith is being stretched, when we have to believe when we don&rsquo;t see any reason to believe, when we stay in faith when our mind is telling us we&rsquo;re wasting our time, when we give God praise but we really feel like complaining. That&rsquo;s passing the test. When you do that every day, your faith is not only increasing, your character is not only being developed, but you are one day closer to seeing the promise come to pass.
+
+Today, don&rsquo;t give up on a promise just because you&rsquo;ve been waiting a long time. Dig your heels in. Put on a new attitude. God is saying, &ldquo;Every promise I&rsquo;ve spoken over you, every dream I&rsquo;ve placed in your spirit, even the secret petitions of your heart, the dreams you haven&rsquo;t told anyone about, I still have every intention of bringing them to pass.&rdquo; Stay close to Him. Obey His Word and move forward in the blessing and victory He has prepared for you!" src="http://38.media.tumblr.com/ce32553c06089325ab466202d59dd24d/tumblr_n5z8ecwC961qhmhdfo1_500.jpg" /></a>
+										</div>
+									</div>
+									<p><a href="http://spiritualinspiration.tumblr.com/post/86500032336/if-god-made-everything-happen-right-away-or" class="tumblr_blog">spiritualinspiration</a>:</p>
+
+<blockquote><p>If God made everything happen right away, or whenever we wanted it to happen, it wouldn’t require anything of us. We would miss the opportunity to grow because we grow in the difficult times. We grow when our faith is being stretched, when we have to believe when we don’t see any reason to believe, when we stay in faith when our mind is telling us we’re wasting our time, when we give God praise but we really feel like complaining. That’s passing the test. When you do that every day, your faith is not only increasing, your character is not only being developed, but you are one day closer to seeing the promise come to pass.</p>
+
+<p>Today, don’t give up on a promise just because you’ve been waiting a long time. Dig your heels in. Put on a new attitude. God is saying, “Every promise I’ve spoken over you, every dream I’ve placed in your spirit, even the secret petitions of your heart, the dreams you haven’t told anyone about, I still have every intention of bringing them to pass.” Stay close to Him. Obey His Word and move forward in the blessing and victory He has prepared for you!</p></blockquote>
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p>Reblogged 4 months ago from <a href="http://spiritualinspiration.tumblr.com/post/86500032336/if-god-made-everything-happen-right-away-or">spiritualinspiration</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/86500168807/spiritualinspiration-if-god-made-everything#notes">1,119 notes</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li TEXT 86093665757 love god christianity partner sunday essay chum_almaquer new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/86093665757/who-wants-to-be-lonely-in-a-world-that-demands-a"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+									
+									<p>Who wants to be lonely in a world that demands a life that needs a companion? A definition they perfectly made for a person whom you share your thoughts, emotions, time and frantic vulnerability with. How hard it is to meet that person, how tragic it is to be alone. That, is what social media and the people all around you displays in your window..talk about pathetic, talk about telling these things and not being bitter.</p>
+<p>Things do not always go our way, they have never been made to submit in our randomness and instability of emotions. That is why we need a superior Being to lead us, Somebody who knows better than us, Somebody who sees the whole picture and not a portion of it. It is but God.</p>
+<p>We make a perfect check list of the person who we want to end up with. A fleeting time comes and all the boxes have been checked but we still feel indifferent or so. This is because we haven&#8217;t submitted that checklist to God, we haven&#8217;t prayed for it, we just went our own way and submitted to our selfishness instead of His wisdom.</p>
+<p>Why do we need to consult Him? Or the right question is, why should we seek a person that has his heart set for God?</p>
+<p>Let&#8217;s talk about reality here. Men and women who go to church, sit on pews and never miss a Bible study are not perfect, but good suggestions for a partner. But let us try to examine those people&#8217;s hearts. Let us venture out to those who do not attend church regularly, look at their hearts and see if we have something to get. We must not judge, however we were led to be in that character.</p>
+<p>A person who loves God and prioritizes Him more than you is a man we ought to seek. That person will never hurt you, he will cherish you for the love you give to him is inspired by God and he knows well it is not a toy to be played. You are a music to his soul, his anchor at times he feels disturbed, the one that helps him to know God, a person who you can grow in love and faith with. </p>
+<p>But it takes time and patience to find that person.</p>
+<p>Let us not lose our standards and commit to the empty promises of this world. It has always been meant to disappoint, let us not hear its voices, let us not conform with it. We are not meant to live in it, we were built for eternity. We were made for more.</p>
+<p>=]</p>
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="/day/2014/05/18">Posted 4 months ago</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/86093665757/who-wants-to-be-lonely-in-a-world-that-demands-a#notes">1 note</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+									<div class="PST-posts-box-content-tags">
+										<span class="PST-posts-box-content-details-icon"></span>
+										<p>Tags: <a href="http://chumirthlight.tumblr.com/tagged/love/chrono">love</a>, <a href="http://chumirthlight.tumblr.com/tagged/God/chrono">God</a>, <a href="http://chumirthlight.tumblr.com/tagged/christianity/chrono">christianity</a>, <a href="http://chumirthlight.tumblr.com/tagged/partner/chrono">partner</a>, <a href="http://chumirthlight.tumblr.com/tagged/sunday/chrono">sunday</a>, <a href="http://chumirthlight.tumblr.com/tagged/essay/chrono">essay</a>, <a href="http://chumirthlight.tumblr.com/tagged/chum-almaquer/chrono">chum almaquer</a>, </p>
+									</div>
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li PHOTO 85905589357 reblog new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/85905589357/hahahahahaha-inde-ah-sa-june-inde-na-lol"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+									<div class="PHOTO-display">
+										<div class="PHOTO-display-width">
+											<a class="PHOTO-display-high-res" href="http://38.media.tumblr.com/dfa9521806238244ecbc7deaf9b2c4cf/tumblr_n5b95azJQT1rkzr7to1_1280.jpg"></a>
+											<a href="http://chumirthlight.tumblr.com/image/85905589357"><img alt="Hahahahahaha. Inde ah. Sa June inde na. LOL" src="http://33.media.tumblr.com/dfa9521806238244ecbc7deaf9b2c4cf/tumblr_n5b95azJQT1rkzr7to1_500.jpg" /></a>
+										</div>
+									</div>
+									<p><u>Hahahahahaha. Inde ah. Sa June inde na. LOL</u></p>
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p>Reblogged 4 months ago from <a href="http://ohhmyepicfail.tumblr.com/post/85823703866/visit-us-on-rock-quotes">ohhmyepicfail</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/85905589357/hahahahahaha-inde-ah-sa-june-inde-na-lol#notes">20 notes</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li QUOTE 85616745122 reblog new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/85616745122/can-a-mortal-ask-questions-which-god-finds"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+									<h1><span class="QUOTE_quotation">&rdquo;</span>Can a mortal ask questions which God finds unanswerable? Quite easily, I should think. All nonsense questions are unanswerable. How many hours are there in a mile? Is yellow square or round? Probably half the questions we ask - half our great theological and metaphysical problems - are like that.</h1>
+									<p>C. S. Lewis, <em>A Grief Observed</em> (via <a class="tumblr_blog" href="http://how-quick-come-the-reasons.tumblr.com/">how-quick-come-the-reasons</a>)</p>
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p>Reblogged 4 months ago from <a href="http://how-quick-come-the-reasons.tumblr.com/post/78243218637/can-a-mortal-ask-questions-which-god-finds">how-quick-come-the-reasons</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/85616745122/can-a-mortal-ask-questions-which-god-finds#notes">10 notes</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li PHOTO 85615409622 reblog new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/85615409622/excited"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+									<div class="PHOTO-display">
+										<div class="PHOTO-display-width">
+											<a class="PHOTO-display-high-res" href="http://33.media.tumblr.com/065d53ac6107bceb975a40f19b5718a2/tumblr_mvx82yuXjl1qfqzivo1_1280.gif"></a>
+											<a href="http://chumirthlight.tumblr.com/image/85615409622"><img alt="#Excited" src="http://33.media.tumblr.com/065d53ac6107bceb975a40f19b5718a2/tumblr_mvx82yuXjl1qfqzivo1_500.gif" /></a>
+										</div>
+									</div>
+									<p>#Excited</p>
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p>Reblogged 4 months ago from <a href="http://jcluforever.tumblr.com/post/66329012947/a-message-from-our-heavenly-father">jcluforever</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/85615409622/excited#notes">64 notes</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					<li class="PST-posts-li PHOTO 85615206692 reblog new_post">
+						
+						<div class="PST-posts-box">
+						
+							<div class="PST-posts-box-side">
+								<div class="PST-posts-box-side-type"></div>
+								<a class="PST-posts-box-side-perma" href="http://chumirthlight.tumblr.com/post/85615206692/positivelifetips-consider-that-maybe-god-closed"></a>
+							</div>
+							
+							<div class="PST-posts-box-content">
+							
+								<!-- TEXT -->
+								
+								<!-- /TEXT -->
+	
+								<!-- PHOTO -->
+								
+									<div class="PHOTO-display">
+										<div class="PHOTO-display-width">
+											<a class="PHOTO-display-high-res" href="http://33.media.tumblr.com/15bbfab8da05e7a335a941c2ce184055/tumblr_n1mewmWPaH1rprhpmo1_1280.jpg"></a>
+											<a href="http://chumirthlight.tumblr.com/image/85615206692"><img alt="positivelifetips:
+
+Consider that maybe God closed that door because he knew you were worth so much more.
+" src="http://38.media.tumblr.com/15bbfab8da05e7a335a941c2ce184055/tumblr_n1mewmWPaH1rprhpmo1_500.jpg" /></a>
+										</div>
+									</div>
+									<p><a class="tumblr_blog" href="http://positivelifetips.com/post/78108055842/consider-that-maybe-god-closed-that-door-because">positivelifetips</a>:</p>
+<blockquote>
+<p>Consider that maybe God closed that door because he knew you were worth so much more.</p>
+</blockquote>
+								
+								<!-- /PHOTO -->
+	
+	
+								<!-- PHOTOSET -->
+								
+								<!-- /PHOTOSET -->
+	
+	
+								<!-- VIDEO -->
+								
+								<!-- /VIDEO -->
+	
+	
+								<!-- AUDIO -->
+								
+								<!-- /AUDIO -->
+	
+	
+								<!-- QUOTE -->
+								
+								<!-- QUOTE -->
+	
+	
+								<!-- LINK -->
+								
+								<!-- /LINK -->
+	
+	
+								<!-- CHAT -->
+								
+								<!-- /CHAT -->
+	
+	
+								<!-- ANSWER -->
+								
+								<!-- ANSWER -->
+								
+								<div class="PST-posts-box-content-details">
+									<div class="PST-posts-box-content-details-upper">
+									
+										
+										<div class="PST-posts-box-content-timestamp">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p>Reblogged 4 months ago from <a href="http://positivelifetips.com/post/78108055842/consider-that-maybe-god-closed-that-door-because">positivelifetips</a></p>
+										</div>
+										
+										
+										
+										<div class="PST-posts-box-content-notes">
+											<span class="PST-posts-box-content-details-icon"></span>
+											<p><a href="http://chumirthlight.tumblr.com/post/85615206692/positivelifetips-consider-that-maybe-god-closed#notes">299 notes</a></p>
+										</div>
+										
+										
+										
+	
+									</div>
+									
+									
+	
+								</div>
+	
+							</div>
+						</div>
+						<div class="PST-posts-break"></div>
+					</li>
+					
+					
+					
+
+					<li class="PST-posts-li PST-posts-pagination">
+					
+						
+							
+							
+							<div class="PST-posts-pagination-older">
+								<a href="/page/2"></a>
+							</div>
+							
+						
+						
+						
+						
+						
+
+					</li>
+
+				</ul>
+				
+				<div class="PST-sidebar">
+					
+					
+						<a class="PST-sidebar-box PST-portrait" href="/"><img alt="Boredom and Blackholes" src="http://33.media.tumblr.com/avatar_08206cc5b56f_128.png" /></a>
+					
+					
+					<script type="text/javascript">
+						function clearText(defaultText, theText, theID){
+							if(defaultText == theText){
+								document.getElementById(theID).value = "";
+							}
+						}
+
+						function fillText(defaultText, theText, theID){
+							if(theText == ""){
+								document.getElementById(theID).value = defaultText;
+							}
+						}
+					</script>
+					<form action="/search" class="PST-sidebar-box PST-search" method="get">
+						<input type="text" id="PST-search-input" name="q" value="Lost something in the post?*" onfocus="clearText('Lost something in the post?*', this.value, this.id);" onblur="fillText('Lost something in the post?*', this.value, this.id);" />
+					</form>
+				
+					
+					
+					<ul class="PST-sidebar-box PST-sidebar-buttons">
+					
+						<li class="FOLLOW">
+							<a href="http://tumblr.com/follow/chumirthlight" target="_blank">
+								<em></em>
+								<span>
+									<strong class="FOLLOW-text">Follow On</strong>
+									<strong class="FOLLOW-logo"></strong>
+								</span>
+							</a>
+						</li>
+						
+						
+							<li class="PST-sidebar-box ASK-ME">
+								<a href="/ask">
+									<em></em>
+									<span>Ask me anything</span>
+								</a>
+							</li>
+						
+						
+						
+							<li class="PST-sidebar-box SUBMIT">
+								<a href="/submit">
+									<em></em>
+									<span>Submit</span>
+								</a>
+							</li>
+						
+						
+					</ul>
+					
+					
+					
+					
+					
+					
+					
+					
+						
+							<div class="PST-sidebar-box LIKES">
+								<h3><a href="/liked/by/chumirthlight" target="_blank">Likes</a></h3>
+								<ul id="likes"><li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://soudainerevelation.tumblr.com/post/98705962335">Photo</a> <span class="via">via</span> <a href="http://soudainerevelation.tumblr.com/">soudainerevelation</a></div><a href="http://soudainerevelation.tumblr.com/post/98705962335" class="photo_link"><img class="like_photo" alt=""
+                                src="http://40.media.tumblr.com/20e0ff7c74f3212738db430cb6aaaa31/tumblr_n7ck083OHr1tsafqco1_250.jpg"/></a><div class="like_below_photo"></div><div class="post_info_bottom" style="display:none;"><a href="http://soudainerevelation.tumblr.com/post/98705962335">Photo</a> <span class="via">via</span> <a href="http://soudainerevelation.tumblr.com/">soudainerevelation</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://spiritualinspiration.tumblr.com/post/98706821258">Photo</a> <span class="via">via</span> <a href="http://spiritualinspiration.tumblr.com/">spiritualinspiration</a></div><a href="http://spiritualinspiration.tumblr.com/post/98706821258" class="photo_link"><img class="like_photo" alt=""
+                                src="http://40.media.tumblr.com/8d04aeb642cdfcb4852c58df2d5148b9/tumblr_mjnztqCELa1qhmhdfo1_250.jpg"/></a><div class="like_below_photo"></div><div class="post_info_bottom" style="display:none;"><a href="http://spiritualinspiration.tumblr.com/post/98706821258">Photo</a> <span class="via">via</span> <a href="http://spiritualinspiration.tumblr.com/">spiritualinspiration</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://spiritualinspiration.tumblr.com/post/98708159947">Photo</a> <span class="via">via</span> <a href="http://spiritualinspiration.tumblr.com/">spiritualinspiration</a></div><a href="http://spiritualinspiration.tumblr.com/post/98708159947" class="photo_link"><img class="like_photo" alt=""
+                                src="http://40.media.tumblr.com/2f64356b105ddb29127c506e1c63d96a/tumblr_mjwlxdjVaD1qhmhdfo1_250.jpg"/></a><div class="like_below_photo"></div><div class="post_info_bottom" style="display:none;"><a href="http://spiritualinspiration.tumblr.com/post/98708159947">Photo</a> <span class="via">via</span> <a href="http://spiritualinspiration.tumblr.com/">spiritualinspiration</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://spiritualinspiration.tumblr.com/post/98710365072/spiritualinspiration-then-jesus-said-to-him">Photo</a> <span class="via">via</span> <a href="http://spiritualinspiration.tumblr.com/">spiritualinspiration</a></div><a href="http://spiritualinspiration.tumblr.com/post/98710365072/spiritualinspiration-then-jesus-said-to-him" class="photo_link"><img class="like_photo" alt=""
+                                src="http://41.media.tumblr.com/tumblr_mahp7quqi81qhmhdfo1_250.jpg"/></a><div class="like_below_photo"></div><div class="like_caption">
+<p><a href="http://spiritualinspiration.tumblr.com/post/31723340891/then-jesus-said-to-him-get-up-pick-up-your-bed">spiritualinspiration</a>:</p> <blockquote>
+<p><i>Then Jesus said to him, “Get up! Pick up your bed and walk.” (John 5:</i>8)</p> </blockquote>
+</div><div class="post_info_bottom" style="display:none;"><a href="http://spiritualinspiration.tumblr.com/post/98710365072/spiritualinspiration-then-jesus-said-to-him">Photo</a> <span class="via">via</span> <a href="http://spiritualinspiration.tumblr.com/">spiritualinspiration</a></div></li>
+<li class="like_post like_photo_post"><div class="post_info_top" style="display:none;"><a href="http://morphne.tumblr.com/post/98710695362/rnortal-my-neighbor-totoro-garden-in-japan">Photo</a> <span class="via">via</span> <a href="http://morphne.tumblr.com/">morphne</a></div><a href="http://morphne.tumblr.com/post/98710695362/rnortal-my-neighbor-totoro-garden-in-japan" class="photo_link"><img class="like_photo" alt=""
+                                src="http://33.media.tumblr.com/881e0ed75f09ab65fed6f93d6605a293/tumblr_mjvafoauMg1r3ftpno1_250.jpg"/></a><div class="like_below_photo"></div><div class="like_caption">
+<p><a href="http://yuno.god.jp/post/45682861371/my-neighbor-totoro-garden-in-japan-source" target="_blank">rnortal</a>:</p>
+<blockquote>
+<p>My Neighbor Totoro garden in Japan! </p>
+<p><a href="http://ameblo.jp/starrbeam/entry-10094200422.html" target="_blank">source</a></p>
+</blockquote>
+</div><div class="post_info_bottom" style="display:none;"><a href="http://morphne.tumblr.com/post/98710695362/rnortal-my-neighbor-totoro-garden-in-japan">Photo</a> <span class="via">via</span> <a href="http://morphne.tumblr.com/">morphne</a></div></li>
+</ul>
+							</div>
+				        
+			        
+			        
+					
+
+				</div>
+
+			</div>
+
+			<div class="PST-footer">
+				<div class="PST-footer-info">
+					<a id="PST-footer-info-powered" href="http://tumblr.com" target="_blank"></a>
+					<div class="PST-footer-info-text">
+						<p class="PST-footer-info-text-notices">&copy;2010–2014. <a href="http://www.tumblr.com/theme/6177" target="_blank">Postage</a> by <a href="http://gre.gs" target="_blank">Greg Cooper</a>. Icons by <a href="http://pixelresort.com/" target="_blank">PixelResort</a>. Thanks to <a href="http://jamiecassidy.co.uk/" target="_blank">Jamie Cassidy</a> &amp; <a href="http://panic.com" target="_blank">Panic</a>.</p>
+						<p class="PST-footer-info-text-search">*Unlikely to find your lost post using this but you can try...</p>
+					</div>
+				</div>
+				<ul class="PST-footer-actions">
+					<li class="PST-footer-actions-rss">
+						<a href="http://chumirthlight.tumblr.com/rss"></a>
+					</li>
+					<li class="PST-footer-actions-random">
+						<a href="/random"></a>
+					</li>
+					<li class="PST-footer-actions-archive">
+						<a href="/archive"></a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+		
+		
+		
+		
+		
+
+	<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://chumirthlight.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412038084&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvY2h1bWlydGhsaWdodC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=DODCPDJECA&K=bcb6ebc7de8deac7b08e9bd50d2e6b0024454a428743b109d073c074b0228bde&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412038084&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvY2h1bWlydGhsaWdodC50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=DODCPDJECA&K=bf2146d74cf517dfd942851d41785dcc1f189b8f67e748b0e17d1fc5cca9b030&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412038084&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2NodW1pcnRobGlnaHQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE0OTAzOTA4Iiwicm9vdF9wb3N0aWQiOiIzMzI5NzM3MTU5MSIsInBvc3RpZCI6Ijk4NzE1NTIzNjYyIiwiYmxvZ2lkIjoiMjgwMjIyNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDkwMzkwOCIsInJvb3RfcG9zdGlkIjoiMzU0MDIwNzc1OTciLCJwb3N0aWQiOiI5ODcxNTMxMDYyMiIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk3NDYxNzA5ODY3IiwiYmxvZ2lkIjoiMjgwMjIyNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTU4MTcyMzQ2NTIiLCJibG9naWQiOiIyODAyMjI1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NTY1NzUxNDk1NyIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjkxMDQyNTE5MjkyIiwiYmxvZ2lkIjoiMjgwMjIyNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTAyMTU0MTY2NzciLCJibG9naWQiOiIyODAyMjI1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5MDA1NjYyNDMxMiIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTQ5MDM5MDgiLCJyb290X3Bvc3RpZCI6IjQxOTQwMDQ0MTE1IiwicG9zdGlkIjoiODk5NTQxNTg0ODciLCJibG9naWQiOiIyODAyMjI1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0OTAzOTA4Iiwicm9vdF9wb3N0aWQiOjg2NTAwMDMyMzM2LCJwb3N0aWQiOiI4NjUwMDE2ODgwNyIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijg2MDkzNjY1NzU3IiwiYmxvZ2lkIjoiMjgwMjIyNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3OTc4MDk3MiIsInJvb3RfcG9zdGlkIjoiODU4MjM3MDM4NjYiLCJwb3N0aWQiOiI4NTkwNTU4OTM1NyIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTAzNjkzNzc0Iiwicm9vdF9wb3N0aWQiOiI3ODI0MzIxODYzNyIsInBvc3RpZCI6Ijg1NjE2NzQ1MTIyIiwiYmxvZ2lkIjoiMjgwMjIyNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDUwODA0NiIsInJvb3RfcG9zdGlkIjoiNjYzMjkwMTI5NDciLCJwb3N0aWQiOiI4NTYxNTQwOTYyMiIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDQxNTY3MjMiLCJyb290X3Bvc3RpZCI6Ijc4MTA4MDU1ODQyIiwicG9zdGlkIjoiODU2MTUyMDY2OTIiLCJibG9naWQiOiIyODAyMjI1Iiwic291cmNlIjozM31dfQ==&U=IFPPBKJHOP&K=0f1ef823befef5b0d0dc45c4d1260ca1b6c146507812e4febef97928d9648ea6&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412038084&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2NodW1pcnRobGlnaHQudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJyb290X2Jsb2dpZCI6IjE0OTAzOTA4Iiwicm9vdF9wb3N0aWQiOiIzMzI5NzM3MTU5MSIsInBvc3RpZCI6Ijk4NzE1NTIzNjYyIiwiYmxvZ2lkIjoiMjgwMjIyNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNDkwMzkwOCIsInJvb3RfcG9zdGlkIjoiMzU0MDIwNzc1OTciLCJwb3N0aWQiOiI5ODcxNTMxMDYyMiIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijk3NDYxNzA5ODY3IiwiYmxvZ2lkIjoiMjgwMjIyNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTU4MTcyMzQ2NTIiLCJibG9naWQiOiIyODAyMjI1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5NTY1NzUxNDk1NyIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjkxMDQyNTE5MjkyIiwiYmxvZ2lkIjoiMjgwMjIyNSIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiOTAyMTU0MTY2NzciLCJibG9naWQiOiIyODAyMjI1Iiwic291cmNlIjozM30seyJwb3N0aWQiOiI5MDA1NjYyNDMxMiIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTQ5MDM5MDgiLCJyb290X3Bvc3RpZCI6IjQxOTQwMDQ0MTE1IiwicG9zdGlkIjoiODk5NTQxNTg0ODciLCJibG9naWQiOiIyODAyMjI1Iiwic291cmNlIjozM30seyJyb290X2Jsb2dpZCI6IjE0OTAzOTA4Iiwicm9vdF9wb3N0aWQiOjg2NTAwMDMyMzM2LCJwb3N0aWQiOiI4NjUwMDE2ODgwNyIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6Ijg2MDkzNjY1NzU3IiwiYmxvZ2lkIjoiMjgwMjIyNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3OTc4MDk3MiIsInJvb3RfcG9zdGlkIjoiODU4MjM3MDM4NjYiLCJwb3N0aWQiOiI4NTkwNTU4OTM1NyIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTAzNjkzNzc0Iiwicm9vdF9wb3N0aWQiOiI3ODI0MzIxODYzNyIsInBvc3RpZCI6Ijg1NjE2NzQ1MTIyIiwiYmxvZ2lkIjoiMjgwMjIyNSIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxMDUwODA0NiIsInJvb3RfcG9zdGlkIjoiNjYzMjkwMTI5NDciLCJwb3N0aWQiOiI4NTYxNTQwOTYyMiIsImJsb2dpZCI6IjI4MDIyMjUiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNDQxNTY3MjMiLCJyb290X3Bvc3RpZCI6Ijc4MTA4MDU1ODQyIiwicG9zdGlkIjoiODU2MTUyMDY2OTIiLCJibG9naWQiOiIyODAyMjI1Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=IFPPBKJHOP&K=f44a43b1148716dc21e973d05ad285d46ddb82cb0ba1e0f65f7858c0337db5dd&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:2802225,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Fchumirthlight.tumblr.com%2F&amp;lang=en_US&amp;name=chumirthlight&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_08206cc5b56f_64.png&amp;title=Boredom+and+Blackholes&amp;url=http%3A%2F%2Fchumirthlight.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Fchumirthlight.tumblr.com%2F&amp;lang=en_US&amp;name=chumirthlight&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_08206cc5b56f_64.png&amp;title=Boredom+and+Blackholes&amp;url=http%3A%2F%2Fchumirthlight.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

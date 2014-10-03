@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warnung: Gib dein Tumblr-Passwort nur dann ein, wenn du \u201chttps://www.tumblr.com/login\u201d\x0ain der Adresszeile deines Browsers siehst.\x0a\x0aAu\u00dferdem sollte dort ein gr\u00fcnes \u201cTumblr, Inc.\u201d-Logo zu sehen sein.\x0a\x0aSpammer und andere Strolche benutzen gef\u00e4lschte Formulare, um an Passw\u00f6rter zu kommen.\x0a\x0aTumblr wird dich niemals bitten, dich vom Blog eines Users aus einzuloggen.\x0a\x0aWillst du ganz sicher fortfahren?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=e90984c6ca35aacd4904439beb8bf066"></script>
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+ 
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+ 
+<!--  
+THEME BY CAULDERS (regansthemes.tumblr.com)
+DO NOT REMOVE CREDIT
+-->
+ 
+<meta name="color:background" content="#FFFFFF" />
+<meta name="color:text" content="#2e2e2e"/>
+<meta name="color:link" content="#2e2e2e"/>
+<meta name="color:linkHover" content="#85ddfa"/>
+<meta name="color:infobg" content="#FCFCFC">
+<meta name="color:scrollbar" content="#2e2e2e" />
+<meta name="color:textpost" content="#f8f8f8" />
+ 
+<meta name="image:sidebar" content=""/>
+<meta name="if:400px posts" content=""/>
+ 
+<meta name="text:Link 1" content="/">
+<meta name="text:Link 1 Title" content="/">
+<meta name="text:Link 2" content="/">
+<meta name="text:Link 2 Title" content="/">
+ 
+<head><title></title>
+<link rel="shortcut icon" href="http://33.media.tumblr.com/avatar_195d4e109955_128.png">
+<link rel="alternate" type="application/rss+xml" href="http://louisftjauregui.tumblr.com/rss">
+<meta name="description" content="Saskia, 18, Germany &hearts;" />
+    <style type="text/css">
+ 
+::-webkit-scrollbar {width: 3px; height:auto; background:#FFFFFF}
+::-webkit-scrollbar-corner {padding:2px;background:#FFFFFF}
+::-webkit-scrollbar-button:vertical {height:5px; display: block; background:#2e2e2e}
+::-webkit-scrollbar-button:horizontal {width: 3px; height: 5px; display: block; background:#2e2e2e}
+::-webkit-scrollbar-thumb:vertical {background:#2e2e2e;}
+::-webkit-scrollbar-thumb:horizontal {background: #FFFFFF;}
+::-webkit-scrollbar-thumb {background: #2e2e2e;}
+ 
+body {
+background:#FFFFFF;
+font-family:calibri;
+font-size:10px;
+letter-spacing:0px;
+color:#2e2e2e;
+line-height:120%;}
+ 
+a:link, a:active, a:visited{color: #2e2e2e;}
+a:hover{color:#85ddfa; text-decoration:none;}
+ 
+    a {
+    color:#2e2e2e;
+    text-decoration:none;
+    -moz-transition-duration:0.4s;
+    -webkit-transition-duration:0.4s;
+    -o-transition-duration:0.4s;
+    }
+   
+    a:hover {
+    color:#85ddfa;
+    text-decoration:none;
+    -moz-transition-duration:0.4s;
+    -webkit-transition-duration:0.4s;
+    -o-transition-duration:0.4s;
+    }
+ 
+    #container {
+    background-color:#FFFFFF;
+    width:700px;
+    margin: 0 auto -12px auto;
+    text-align: center;
+    }
+   
+    .links{
+    margin-top:5px;
+    word-spacing:1px;
+    font-size:9px;
+    text-align:center;
+    }
+   
+    .links a{
+    padding:5px;
+    letter-spacing:0px;
+    color:#2e2e2e;
+    text-decoration:none;
+    -moz-transition-duration:0.4s;
+    -webkit-transition-duration:0.4s;
+    -o-transition-duration:0.4s;
+    }
+   
+    .links a:hover{
+    color:#85ddfa;
+    text-decoration:none;
+    -moz-transition-duration:0.4s;
+    -webkit-transition-duration:0.4s;
+    -o-transition-duration:0.4s;
+    }
+ 
+    #sidebar {
+    margin-left:0px;
+    top: 150px;
+    position:fixed;
+    width:245px;
+    }
+ 
+    #descri {
+    background-color:#ffffff;
+    width:245px;
+    padding:15px;
+    }
+ 
+    #descri img {
+    width:245px;
+    margin-bottom:5px;
+    }
+ 
+    #stext {
+    padding:5px;
+    padding-top:15px;
+    text-align:justify;
+    }
+ 
+    .pagi {
+    text-transform:lowercase;
+    font-size:10px;
+    text-align:center;
+    padding:10px;
+    }
+ 
+    .audio {
+    padding-bottom:10px;
+    background-color:#FCFCFC;
+    }
+   
+    .albumart {
+    float:left;
+    padding:0px 10px 10px 0px;
+    }
+   
+    .albumart img {
+    width:64px;
+    height:64px;
+    padding:10px;
+    padding-bottom:15px;
+    }
+   
+    .playercontainer {
+    text-align:left;
+    padding:10px;
+    background-color:#ffffff;
+    }
+   
+    .audioinfo {
+    padding:10px;
+    color:#2e2e2e;
+    }
+ 
+    h1 {
+    font-weight:normal;
+    font-size:10px;
+    text-align:left;
+    padding:10px;
+    font-style:normal;
+    line-height:120%;
+    letter-spacing:0px;
+    color:#2e2e2e;
+    border-bottom: 1px solid #f8f8f8;
+    }
+ 
+    h2 {
+    font-size:10px;
+    text-align:left;
+    line-height:120%;
+    letter-spacing:0px;
+    color:#2e2e2e;
+    font-weight:normal;
+    padding:10px;
+    }
+   
+    .ask {
+    font-size:15px;
+    font-weight:bold;
+    text-align:right;
+    font-style:italic;
+    padding:10px;
+    text-transform:capitalize;
+    border-bottom: 1px solid #f8f8f8;
+    }
+ 
+    .question {
+    font-size:10px;
+    letter-spacing:0px;
+    padding:10px;
+    text-align:right;
+    color:#2e2e2e;
+    }
+ 
+    .ans {
+    font-size:10px;
+    letter-spacing:0px;
+    text-align:left;
+    padding:10px;
+    color:#2e2e2e;
+    }
+   
+    blockquote {
+    border-left:1px solid #f8f8f8;
+    padding-left:10px;
+    margin:5px;
+    }
+   
+    #stuffcontainer {
+    float:left;
+    text-align:justify;
+    background-color:;
+    color:#2e2e2e;
+    margin-bottom: 35px;
+    }
+ 
+    #stuff {
+    
+    width:500px;
+    margin-left:300px;
+    
+    
+    margin-top:70px;
+    text-align:justify;
+    font-size:10px;
+    padding:10px;
+    line-height:150%;
+    letter-spacing:0px;
+    background-color:#ffffff;
+    color:#2e2e2e;
+    }
+ 
+    #postinfo {
+    margin-top:5px;
+    
+    width:490px;
+    
+    
+    font-size:10px;
+    text-transform:capitalize;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top: 1px solid #fafafa;
+    text-align:left;
+    -moz-transition-duration:0.5s;
+    -webkit-transition-duration:0.5s;
+    -o-transition-duration:0.5s;
+    }
+   
+    #postinfo a{
+    padding:5px;
+    }
+   
+    #postinfo a:hover {
+    color:#85ddfa;
+    }
+   
+    .note {
+    color:;
+    margin-left:250px;
+    
+    width:500px;
+    
+    
+    }
+   
+    .note li {
+    
+    width:500px;
+    
+    
+    }
+       
+    .tags {
+    
+    width:500px;
+    
+    
+    line-height:120%;
+    margin-top:-10px;
+    text-align:left;
+    padding:5px;
+    font-size:10px;
+    -moz-transition-duration:0.5s;
+    -webkit-transition-duration:0.5s;
+    -o-transition-duration:0.5s;
+    }
+   
+    .tags a{
+    margin-right:5px;
+    }
+   
+    .tags a:hover {
+    color:#85ddfa;
+    }
+ 
+</style>
+<style type="text/css"></style>
+ 
+<link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=louisftjauregui" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8082b4b919d77a05b6accc3336dce2f1"></script>
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+<meta http-equiv="x-dns-prefetch-control" content="off"/>
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="" /><meta property="og:url" content="http://louisftjauregui.tumblr.com/?og=1" /><meta property="og:description" content="Saskia, 18, Germany &hearts;" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://33.media.tumblr.com/avatar_195d4e109955_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=louisftjauregui" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=louisftjauregui" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="louisftjauregui" /><meta name="twitter:description" content="                                                                                                                                        &lt;center&gt; Saskia, 18, Germany &hearts; &lt;center&gt;
+
+&lt;script language=&quot;JavaScript&quot; src=&quot;http://freehostedscripts.net/ocount.php?site=ID2237421&amp;name=beauties&quot;&gt;&lt;/script&gt;" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=louisftjauregui&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=louisftjauregui&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=louisftjauregui&amp;referrer=twitter-cards" />
+
+</head>
+<body>
+ 
+<div id="container">
+ 
+<div id="sidebar">
+<div id="descri">
+ 
+<div id="sidebarimage"><img src="http://static.tumblr.com/75b4f7cd55a16a99089a796a2baf2a4a/sbaxyxs/XkHnbaatv/tumblr_static_5kp4c9jw9t0kggg4cowgs0wk0.gif"></div>
+ 
+<center><div class="links">
+<a href="/" title="home">↺</a>
+<a href="/ask" title="askbox">?</a>
+<a href="/faves" title="Beauties">✿</a>
+<a href="" title="">♡</a>
+<a href="http://regansthemes.tumblr.com/">&copy;</a>
+</div></center>
+ 
+<div id="stext"><center> Saskia, 18, Germany ♥ <center>
+
+<script language="JavaScript" src="http://freehostedscripts.net/ocount.php?site=ID2237421&name=beauties"></script></div>
+ 
+
+<div class="pagi">
+
+—
+
+<a href="/page/2">next</a>
+
+</div>
+
+ 
+</div></div>
+ 
+<div id="stuffcontainer">
+ 
+<div id="stuff">
+ 
+
+ 
+<center><img src="http://33.media.tumblr.com/014cbaa709ec61b7853bd81fd1c1a6c2/tumblr_ncfr8tcz1Q1rqv2jbo1_r2_500.png"/></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div id="postinfo"><div id="date"><a href="http://louisftjauregui.tumblr.com/post/98708725683">September 29</a> <a href="http://louisftjauregui.tumblr.com/post/98708725683">12.250 Anmerkungen</a><a href="http://styzles.tumblr.com/post/98357528773/cazoff-that-dinosaur-is-water-based-harrystyles">&copy;</a>
+</div></div>
+
+</div>
+<div id="stuff">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<center><div id="photoset_98707514236" class="html_photoset">    <iframe id="photoset_iframe_98707514236" class="photoset" scrolling="no" frameborder="0" height="737" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://louisftjauregui.tumblr.com/post/98707514236/photoset_iframe/louisftjauregui/tumblr_mdctc6Ndm31qcy2za/500/false"></iframe></div></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div id="postinfo"><div id="date"><a href="http://louisftjauregui.tumblr.com/post/98707514236">September 29</a> <a href="http://louisftjauregui.tumblr.com/post/98707514236">35.493 Anmerkungen</a><a href="http://zedmaliks.tumblr.com/post/35539619995">&copy;</a>
+</div></div>
+
+</div>
+<div id="stuff">
+ 
+<p><a class="tumblr_blog" href="http://sugarscapeharry.tumblr.com/post/98431842741/me-whenever-i-try-to-be-productive">sugarscapeharry</a>:</p>
+<blockquote>
+<p>me whenever i try to be productive</p>
+<p><img alt="image" src="http://media.tumblr.com/9bc4eee31c623a1f0f32d2a07066617e/tumblr_inline_nchi0gdHWk1rvllzb.gif"/></p>
+</blockquote>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div id="postinfo"><div id="date"><a href="http://louisftjauregui.tumblr.com/post/98706149809/sugarscapeharry-me-whenever-i-try-to-be">September 29</a> <a href="http://louisftjauregui.tumblr.com/post/98706149809/sugarscapeharry-me-whenever-i-try-to-be">5.885 Anmerkungen</a><a href="http://sugarscapeharry.tumblr.com/post/98431842741/me-whenever-i-try-to-be-productive">&copy;</a>
+</div></div>
+
+</div>
+<div id="stuff">
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<center><div id="photoset_98704633289" class="html_photoset">    <iframe id="photoset_iframe_98704633289" class="photoset" scrolling="no" frameborder="0" height="500" width="500"
+                style="border:0px; background-color:transparent; overflow:hidden;" src="http://louisftjauregui.tumblr.com/post/98704633289/photoset_iframe/louisftjauregui/tumblr_mit6nt4nSZ1r59rtu/500/false"></iframe></div></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div id="postinfo"><div id="date"><a href="http://louisftjauregui.tumblr.com/post/98704633289">September 29</a> <a href="http://louisftjauregui.tumblr.com/post/98704633289">2.886 Anmerkungen</a><a href="http://princenialler.tumblr.com">&copy;</a>
+</div></div>
+
+</div>
+<div id="stuff">
+ 
+<p><a class="tumblr_blog" href="http://kingsleypalmer.com/post/87605009280/if-you-like-water-you-already-like-60-of-me">outrights</a>:</p>
+<blockquote>
+<p>if you like water you already like 60% of me</p>
+</blockquote>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div id="postinfo"><div id="date"><a href="http://louisftjauregui.tumblr.com/post/98702948703/outrights-if-you-like-water-you-already-like">September 29</a> <a href="http://louisftjauregui.tumblr.com/post/98702948703/outrights-if-you-like-water-you-already-like">83.962 Anmerkungen</a><a href="http://idkoutrights.tumblr.com/post/87605009280/if-you-like-water-you-already-like-60-of-me">&copy;</a>
+</div></div>
+
+</div>
+<div id="stuff">
+ 
+
+ 
+<center><img src="http://33.media.tumblr.com/090d8dfa9168846013e8b84754e01056/tumblr_ncig9llHFL1rdh4z9o1_500.jpg"/></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div id="postinfo"><div id="date"><a href="http://louisftjauregui.tumblr.com/post/98701064421">September 29</a> <a href="http://louisftjauregui.tumblr.com/post/98701064421">1.017 Anmerkungen</a><a href="http://larryandstiles.tumblr.com/post/98466098193">&copy;</a>
+</div></div>
+
+</div>
+<div id="stuff">
+ 
+
+ 
+<center><img src="http://38.media.tumblr.com/45cc360425d7e0226cb6fa609b156a95/tumblr_nbvjgq4fZE1tud8d9o1_500.png"/></center><blockquote>
+<p><small><strong>Pasadena, CA.</strong> <a href="https://www.flickr.com/photos/kyilynnphotography/">September 12, 2014</a></small></p>
+</blockquote>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div id="postinfo"><div id="date"><a href="http://louisftjauregui.tumblr.com/post/98699059760/pasadena-ca-september-12-2014">September 29</a> <a href="http://louisftjauregui.tumblr.com/post/98699059760/pasadena-ca-september-12-2014">559 Anmerkungen</a><a href="http://haroldmadness.tumblr.com/post/97445987204/pasadena-ca-september-12-2014">&copy;</a>
+</div></div>
+
+</div>
+<div id="stuff">
+ 
+
+ 
+<center><img src="http://41.media.tumblr.com/140cd135eb6dcd6ee59c44692898cc5c/tumblr_mstmi5YADo1rko18bo1_500.png"/></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div id="postinfo"><div id="date"><a href="http://louisftjauregui.tumblr.com/post/98696942473">September 29</a> <a href="http://louisftjauregui.tumblr.com/post/98696942473">28.405 Anmerkungen</a><a href="http://harrycmon.tumblr.com/post/60676166525/louis-today">&copy;</a>
+</div></div>
+
+</div>
+<div id="stuff">
+ 
+
+ 
+<center><img src="http://33.media.tumblr.com/823c986c2c284a69e4bbadb837da9a72/tumblr_ncdtvsA4Zj1qzmjfxo1_500.png"/></center><blockquote>
+<p><small>Vote FIFTH HARMONY for <a href="http://tv.mtvema.com/vote#cat=best-us">Best US Act</a> for the EMA</small></p>
+</blockquote>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div id="postinfo"><div id="date"><a href="http://louisftjauregui.tumblr.com/post/98694724968/vote-fifth-harmony-for-best-us-act-for-the-ema">September 29</a> <a href="http://louisftjauregui.tumblr.com/post/98694724968/vote-fifth-harmony-for-best-us-act-for-the-ema">675 Anmerkungen</a><a href="http://coffeecaine.tumblr.com/post/98272386253/vote-fifth-harmony-for-best-us-act-for-the-ema">&copy;</a>
+</div></div>
+
+</div>
+<div id="stuff">
+ 
+
+ 
+<center><img src="http://33.media.tumblr.com/cd802429b59d8729da957b5172179a6b/tumblr_nc2eajRmDJ1s2ep8zo1_500.jpg"/></center>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+<div id="postinfo"><div id="date"><a href="http://louisftjauregui.tumblr.com/post/98692449439">September 29</a> <a href="http://louisftjauregui.tumblr.com/post/98692449439">341 Anmerkungen</a><a href="http://laurenjphotography.tumblr.com/post/97758395663">&copy;</a>
+</div></div>
+
+</div>
+
+ 
+
+ 
+<!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?8e2e4c4925ffdbc9cc9c5e2bd9661c3e#http://louisftjauregui.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037475&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbG91aXNmdGphdXJlZ3VpLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8ifQ==&U=HLCGGBBAKA&K=83570abff2b0a96e78a8d92d1c7a6cd138a239eb608994d1aa019c45181314be&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037475&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvbG91aXNmdGphdXJlZ3VpLnR1bWJsci5jb21cLyIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC8iLCJub3NjcmlwdCI6MX0=&U=HLCGGBBAKA&K=74102389df8b5d9fba8459c6a8b4749ddd92c27e945e74700fb9101aa291983d&R="></noscript><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='http://www.tumblr.com/impixu?T=1412037475&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2xvdWlzZnRqYXVyZWd1aS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiNDU5ODczODQiLCJyb290X3Bvc3RpZCI6OTgzNTc1Mjg3NzMsInBvc3RpZCI6Ijk4NzA4NzI1NjgzIiwiYmxvZ2lkIjoiODg4NjgwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1ODE2MjA3Iiwicm9vdF9wb3N0aWQiOiIzNTUzOTYxOTk5NSIsInBvc3RpZCI6Ijk4NzA3NTE0MjM2IiwiYmxvZ2lkIjoiODg4NjgwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3MDM5NzExOSIsInJvb3RfcG9zdGlkIjoiOTg0MzE4NDI3NDEiLCJwb3N0aWQiOiI5ODcwNjE0OTgwOSIsImJsb2dpZCI6Ijg4ODY4MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzIxNDU1MjEiLCJyb290X3Bvc3RpZCI6NDQwMzgzNDg2NDAsInBvc3RpZCI6Ijk4NzA0NjMzMjg5IiwiYmxvZ2lkIjoiODg4NjgwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzOTA2NjI1MiIsInJvb3RfcG9zdGlkIjoiODc2MDUwMDkyODAiLCJwb3N0aWQiOiI5ODcwMjk0ODcwMyIsImJsb2dpZCI6Ijg4ODY4MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjgzODQ0ODEiLCJyb290X3Bvc3RpZCI6OTg0NjYwOTgxOTMsInBvc3RpZCI6Ijk4NzAxMDY0NDIxIiwiYmxvZ2lkIjoiODg4NjgwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzQwMTg5OTMiLCJyb290X3Bvc3RpZCI6OTc0NDU5ODcyMDQsInBvc3RpZCI6Ijk4Njk5MDU5NzYwIiwiYmxvZ2lkIjoiODg4NjgwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3OTI1MDk1MiIsInJvb3RfcG9zdGlkIjoiNjA2NzYxNjY1MjUiLCJwb3N0aWQiOiI5ODY5Njk0MjQ3MyIsImJsb2dpZCI6Ijg4ODY4MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTQ2OTYzNiIsInJvb3RfcG9zdGlkIjoiOTgyNzIzODYyNTMiLCJwb3N0aWQiOiI5ODY5NDcyNDk2OCIsImJsb2dpZCI6Ijg4ODY4MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODg0MDk3ODIiLCJyb290X3Bvc3RpZCI6Ijk3NzU4Mzk1NjYzIiwicG9zdGlkIjoiOTg2OTI0NDk0MzkiLCJibG9naWQiOiI4ODg2ODA4Iiwic291cmNlIjozM31dfQ==&U=LNIIEIGDNI&K=6abbc6c2fb59d812b7636128e0ae5f72a5c4462ab2c3ccdc6daa21117a8ad0e0&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="http://www.tumblr.com/impixu?T=1412037475&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL2xvdWlzZnRqYXVyZWd1aS50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwicG9zdHMiOlt7InJvb3RfYmxvZ2lkIjoiNDU5ODczODQiLCJyb290X3Bvc3RpZCI6OTgzNTc1Mjg3NzMsInBvc3RpZCI6Ijk4NzA4NzI1NjgzIiwiYmxvZ2lkIjoiODg4NjgwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI1ODE2MjA3Iiwicm9vdF9wb3N0aWQiOiIzNTUzOTYxOTk5NSIsInBvc3RpZCI6Ijk4NzA3NTE0MjM2IiwiYmxvZ2lkIjoiODg4NjgwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3MDM5NzExOSIsInJvb3RfcG9zdGlkIjoiOTg0MzE4NDI3NDEiLCJwb3N0aWQiOiI5ODcwNjE0OTgwOSIsImJsb2dpZCI6Ijg4ODY4MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMzIxNDU1MjEiLCJyb290X3Bvc3RpZCI6NDQwMzgzNDg2NDAsInBvc3RpZCI6Ijk4NzA0NjMzMjg5IiwiYmxvZ2lkIjoiODg4NjgwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIzOTA2NjI1MiIsInJvb3RfcG9zdGlkIjoiODc2MDUwMDkyODAiLCJwb3N0aWQiOiI5ODcwMjk0ODcwMyIsImJsb2dpZCI6Ijg4ODY4MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiNjgzODQ0ODEiLCJyb290X3Bvc3RpZCI6OTg0NjYwOTgxOTMsInBvc3RpZCI6Ijk4NzAxMDY0NDIxIiwiYmxvZ2lkIjoiODg4NjgwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiIxNzQwMTg5OTMiLCJyb290X3Bvc3RpZCI6OTc0NDU5ODcyMDQsInBvc3RpZCI6Ijk4Njk5MDU5NzYwIiwiYmxvZ2lkIjoiODg4NjgwOCIsInNvdXJjZSI6MzN9LHsicm9vdF9ibG9naWQiOiI3OTI1MDk1MiIsInJvb3RfcG9zdGlkIjoiNjA2NzYxNjY1MjUiLCJwb3N0aWQiOiI5ODY5Njk0MjQ3MyIsImJsb2dpZCI6Ijg4ODY4MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiMTQ2OTYzNiIsInJvb3RfcG9zdGlkIjoiOTgyNzIzODYyNTMiLCJwb3N0aWQiOiI5ODY5NDcyNDk2OCIsImJsb2dpZCI6Ijg4ODY4MDgiLCJzb3VyY2UiOjMzfSx7InJvb3RfYmxvZ2lkIjoiODg0MDk3ODIiLCJyb290X3Bvc3RpZCI6Ijk3NzU4Mzk1NjYzIiwicG9zdGlkIjoiOTg2OTI0NDk0MzkiLCJibG9naWQiOiI4ODg2ODA4Iiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=LNIIEIGDNI&K=66f52ab56a8d21f0b9d0ee353af4c7580941a20b6a3125863233b9c46b55f28d&R="></noscript><script>
+                (function() {
+                    var s = document.createElement('script');
+                    var el = document.getElementsByTagName('script')[0];
+                                            s.src = ('https:' == document.location.protocol ? 'https://s' : 'http://l') + '.yimg.com/ss/rapid-3.18.1.js';
+                                        s.onload = function(){
+                        var YAHOO = window.YAHOO;
+                        if (YAHOO) {
+                            var keys = {
+                                pd:'/',
+                                _li:0,
+                                b_id:8886808,
+                                i_rad:0,
+                                i_strm:0
+                            };
+                            var conf = {
+                                                                spaceid:1197716038,
+                                client_only:1,
+                                yql_enabled:false,
+                                keys:keys,
+                                nol:1
+                            };
+                            YAHOO.rapid = new YAHOO.i13n.Rapid(conf);
+                        }
+                    };
+                    el.parentNode.insertBefore(s, el);
+                })();
+            </script><script>
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.min.js?_v=c12dc6d1225974846ed59abb54fe5010';
+                s.type = 'text/javascript';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=abe6669cd842a0df28b0aa40721d3493#src=http%3A%2F%2Flouisftjauregui.tumblr.com%2F&amp;lang=de_DE&amp;name=louisftjauregui&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_195d4e109955_64.png&amp;url=http%3A%2F%2Flouisftjauregui.tumblr.com%2F&amp;page_slide=slide"></iframe><div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="https://www.tumblr.com/assets/html/iframe/teaser.html?_v=ba2f8652fd0fd0656aba923ca1a3ad2b#src=http%3A%2F%2Flouisftjauregui.tumblr.com%2F&amp;lang=de_DE&amp;name=louisftjauregui&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_195d4e109955_64.png&amp;url=http%3A%2F%2Flouisftjauregui.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=4abd3d77a48a9ae29d2b9e0d83a7bd41");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

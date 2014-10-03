@@ -1,0 +1,934 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Compara el catalogo de Netflix, Clarovideo y Cinepolisklic </title>
+<meta name="keywords" content="peliculas,pelicula,net,flix,netflix,series,series tv,netflix gratis,descargar netflix,trucos netflix,netflix vs clarovideo,netflix vs cinepolisklic,netflix vs totalmovie,clarovideo vs cinepolisklic,clarovideo vs totalmovie,cinepolisklic vs totalmovie,peliculas de,netflix,clarovideo,cinepolisklic,totalmovie,megacable,amazon,hulu,vudu,crackle,catalogo netflix,usa,canada,uk,latinoamerica,america latina,mexico,peru,argentina,brasil,venezuela,costa rica,panama,cine,dvd,cinedvd,peliculas gratis,movies,films,filmes,moviescine,moviecity,series,trailer,trailler,traillers,peliculas en linea, peliculas online,pelis,peliculas de,terror,accion,estrenos,dramas,comedias,animes,infantiles,trhillers,suspenso,peliculas2014,nuevas peliculas,divx,movi,peliculas en espa?ol,peliculas latino,todo peliculas,cuevana,cinepolis,cinemex,blockbuster,ver peliculas,como ver peliculas,para ver peliculas,ver peliculas online,ver peliculas completas,peliculas en cartelera,estrenos 2014" />
+<meta name="description" content="Compara los catalogos de Netflix vs Clarovideo vs Cinepolisklic vs Hulu vs Vudu vs Amazon vs Crackle vs Megacable vs Blockbuster, busca peliculas por nombre, a&ntilde;o de estreno, director, elenco, descripcion, entre muchos otros filtros." />
+        <link rel="stylesheet" href="css/style110.css" type="text/css"/>
+
+<script type="text/javascript">
+
+function post_to_url(path, params, method) {
+
+    method = method || "post"; // Set method to post by default if not specified.
+
+    // The rest of this code assumes you are not using a library.
+    // It can be made less wordy if you use one.
+    var form = document.createElement("form");
+    form.setAttribute("method", method);
+    form.setAttribute("action", path);
+
+alert ('entro' + path);
+
+    for(var key in params) {
+        if(params.hasOwnProperty(key)) {
+            var hiddenField = document.createElement("input");
+            hiddenField.setAttribute("type", "hidden");
+            hiddenField.setAttribute("name", key);
+            hiddenField.setAttribute("value", params[key]);
+
+            form.appendChild(hiddenField);
+         }
+    }
+
+    document.body.appendChild(form);
+    form.submit();
+}
+
+
+function login()
+{
+            document.getElementById("formalogin").submit();
+            document.getElementById("myusername").value = ""; 
+            document.getElementById("mypassword").value = ""; 
+}
+
+function validate()
+{
+  document.getElementById("filtro_catalogo").value = "";
+
+  document.getElementById("filtro_suscriptores").value = "";
+
+  document.getElementById("filtro_subtitulosdfxp").value = "";
+
+  document.getElementById("filtro_audioespanol").value = "";
+
+  document.getElementById("filtro_audioingles").value = "";
+
+  document.getElementById("filtro_audioportugues").value = "";
+
+  document.getElementById("filtro_audiokoreano").value = "";
+
+  document.getElementById("filtro_audiojapones").value = "";
+
+  document.getElementById("filtro_audiocantones").value = "";
+
+  document.getElementById("filtro_subtitulosespanol").value = "";
+
+  document.getElementById("filtro_subtitulosingles").value = "";
+
+  document.getElementById("filtro_subtitulosportugues").value = "";
+
+  document.getElementById("filtro_subtituloskoreano").value = "";
+
+  document.getElementById("filtro_subtitulosjapones").value = "";
+
+  document.getElementById("filtro_subtituloscantones").value = "";
+
+  if (netflixmx.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value + "-" + "MX";
+  }
+
+
+  if (netflixbr.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value + "-" + "BR";
+  }
+
+  if (netflixar.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value  + "-" + "AR";
+  }
+
+  if (netflixla.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value + "-" + "PA";
+  }
+
+  if (netflixfr.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value + "-" + "FR";
+  }
+
+  if (netflixde.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value + "-" + "DE";
+  }
+
+  if (netflixat.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value + "-" + "AT";
+  }
+
+  if (netflixus.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value + "-" + "US";
+  }
+
+  if (netflixca.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value + "-" + "CA";
+  }
+
+  if (netflixuk.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value + "-" + "GB";
+  }
+
+  if (clarovideomx.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value + "-" + "MEXICO";
+  }
+
+  if (cinepolisklic.checked == 1)
+  {
+          document.getElementById("filtro_catalogo").value = document.getElementById("filtro_catalogo").value + "-" + "CK";
+  }
+
+  if (gratissuscriptores.checked == 1)
+  {
+          document.getElementById("filtro_suscriptores").value = "GRATIS";
+  }
+
+  if (subtitulosdfxp.checked == 1)
+  {
+          document.getElementById("filtro_subtitulosdfxp").value = "DFXP";
+  }
+
+  if (audioespanol.checked == 1)
+  {
+          document.getElementById("filtro_audioespanol").value = "espanol";
+  }
+
+  if (audioespanol.checked == 1)
+  {
+          document.getElementById("filtro_audioespanol").value = "espanol";
+  }
+
+  if (audioingles.checked == 1)
+  {
+          document.getElementById("filtro_audioingles").value = "ingles";
+  }
+
+  if (audioportugues.checked == 1)
+  {
+          document.getElementById("filtro_audioportugues").value = "portugues";
+  }
+
+  if (audiokoreano.checked == 1)
+  {
+          document.getElementById("filtro_audiokoreano").value = "koreano";
+  }
+
+  if (audiojapones.checked == 1)
+  {
+          document.getElementById("filtro_audiojapones").value = "japones";
+  }
+
+  if (audiocantones.checked == 1)
+  {
+          document.getElementById("filtro_audiocantones").value = "cantones";
+  }
+
+  if (subtitulosespanol.checked == 1)
+  {
+          document.getElementById("filtro_subtitulosespanol").value = "espanol";
+  }
+
+  if (subtitulosingles.checked == 1)
+  {
+          document.getElementById("filtro_subtitulosingles").value = "ingles";
+  }
+
+  if (subtitulosportugues.checked == 1)
+  {
+          document.getElementById("filtro_subtitulosportugues").value = "portugues";
+  }
+
+  if (subtituloskoreano.checked == 1)
+  {
+          document.getElementById("filtro_subtituloskoreano").value = "koreano";
+  }
+
+  if (subtitulosjapones.checked == 1)
+  {
+          document.getElementById("filtro_subtitulosjapones").value = "japones";
+  }
+
+  if (subtituloscantones.checked == 1)
+  {
+          document.getElementById("filtro_subtituloscantones").value = "cantones";
+  }
+
+  if (transmisionhd.checked == 1)
+  {
+          document.getElementById("filtro_transmision").value = "HD";
+  }
+
+}
+
+        function aplica_filtro()
+        {
+            document.getElementById("forma").submit();
+        }
+
+
+
+        function select_nombre() { document.getElementById('option').value = 'nombre'; }
+        function select_nombreza() { document.getElementById('option').value = 'nombreza'; }
+        function select_anio() { document.getElementById('option').value = 'anio'; }
+        function select_anioasc() { document.getElementById('option').value = 'anioasc'; }
+        function select_calificacion() { document.getElementById('option').value = 'calificacion'; }
+        function select_calificacionasc() { document.getElementById('option').value = 'calificacionasc'; }
+
+        function buscar_pelicula() { document.getElementById('option').value = 'buscarpelicula'; }
+        function buscar_director() { document.getElementById('option').value = 'buscardirector'; }
+        function buscar_elenco() { document.getElementById('option').value = 'buscarelenco'; }
+        function buscar_sinopsis() { document.getElementById('option').value = 'buscarsinopsis'; }
+
+        function ordenarporanio() { document.getElementById('optionordenar').value = 'ordenarporanio'; }
+        function ordenarporanioretro() { document.getElementById('optionordenar').value = 'ordenarporanioretro'; }
+        function ordenarporcalificacion() { document.getElementById('optionordenar').value = 'ordenarporcalificacion'; }
+        function ordenarporcalificacionpeor() { document.getElementById('optionordenar').value = 'ordenarporcalificacionpeor'; }
+
+        function buscar_all() { document.getElementById('option').value = 'buscarall'; }
+
+        function select_MX() { document.getElementById('country').value = 'MX'; }
+        function select_FR() { document.getElementById('country').value = 'FR'; }
+        function select_DE() { document.getElementById('country').value = 'DE'; }
+        function select_AT() { document.getElementById('country').value = 'AT'; }
+        function select_USA() { document.getElementById('country').value = 'USA'; }
+        function select_BR() { document.getElementById('country').value = 'BR'; }
+        function select_CA() { document.getElementById('country').value = 'CA'; }
+        function select_UK() { document.getElementById('country').value = 'GB'; }
+        function select_AR() { document.getElementById('country').value = 'AR'; }
+        function select_PE() { document.getElementById('country').value = 'PE'; }
+        function select_VE() { document.getElementById('country').value = 'VE'; }
+        function select_CK() { document.getElementById('country').value = 'CK'; }
+
+
+      </script>
+
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&appId=252368034920397&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<table>
+<tr>
+<td valign="top">
+
+<!-- main -->
+<div id="main">
+<!-- Left side bar -->
+	<div id="LTsidebar">
+		<div id="logo"></div>
+
+			<div id="quicksearch">
+				<div id="quickheadRT" class="boxheadRT"><h1>Acceso premium</h1></div>
+				<div class="boxheadLT"></div>
+					<div class="boxmain">
+						<div class="boxmainRT" style="width:144px">
+
+
+<form name="formalogin" id="formalogin" action="/members/checklogin.php" method="post">
+
+<p class="label">Usuario</p>
+<input name="myusername" id="" type="myusername" size="10" />
+<p class="label">Contrase&ntilde;a</p>
+<input name="mypassword" id="password" type="password" size="10" />
+
+<br>
+<br>
+<img src="img/login_btn.jpg" width="54" height="21" alt="" onclick="login()" />
+
+<br>
+<a href="http://www.cineflixer.com/members/register.html" target="_blank"> Registro </a> | <a href="http://www.cineflixer.com/members/recover.html" target="_blank"> Recuperar </a>
+
+
+</form>
+
+
+
+						</div>
+					 	<div class="boxmainLT"></div>
+					</div>
+				<div class="boxbottRT"></div>
+				<div id="quickbottLT" class="boxbottLT"></div>
+			</div>
+
+
+
+
+<!-- Monetize --><div class="inner_copy"></div>
+			<div id="categories">
+				<div id="categorieheadRT" class="boxheadRT"><h1>Ayudanos a crecer</h1></div>
+		 		<div class="boxheadLT"></div>
+					<div class="boxmain">
+						<div class="boxmainRT" style="width: 144px;">
+<p class="label">Invitanos un refresco :) y apoyanos a mantener el servicio.</p>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="S2LMVTYR8KMDC">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal, la forma m�s segura y r�pida de pagar en l�nea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+<p class="label">Promoci&oacute;nate con nosotros</p>
+
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="ZS87R9SH2M2UU">
+<table>
+<tr><td><input type="hidden" name="on0" value="Publicidad web y social">Publicidad web y social</td></tr><tr><td><select name="os0">
+	<option value="1 mes">1 mes $5.00 USD</option>
+	<option value="3 meses">3 meses $13.00 USD</option>
+	<option value="6 meses">6 meses $24.00 USD</option>
+	<option value="1 a&ntilde;o">1 a&ntilde;o $40.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal, la forma m�s segura y r�pida de pagar en l�nea.">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+
+
+
+								</div>
+					 		<div class="boxmainLT"></div>
+						</div>
+						<div class="boxbottRT"></div>
+						<div id="categoriebottLT" class="boxbottLT"></div>
+				</div>
+
+
+
+
+<!-- Social -->
+			<div id="quicksearch">
+				<div id="quickheadRT" class="boxheadRT"><h1>Social</h1></div>
+				<div class="boxheadLT"></div>
+					<div class="boxmain">
+						<div class="boxmainRT" style="width:144px">
+
+<p class="label">Facebook:</p>
+<table>
+<tr>
+<td>
+<div class="fb-like" data-href="http://www.cineflixer.com" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+</td>
+<td>
+<div class="fb-send" data-href="http://www.cineflixer.com" data-colorscheme="light"></div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="fb-share-button" data-href="http://www.cineflixer.com" data-type="button"></div>
+</td>
+<td>
+<div class="fb-follow" data-href="https://www.facebook.com/cineflixercom" data-colorscheme="light" data-layout="button" data-show-faces="false"></div>
+</td>
+</tr>
+<tr>
+<td>
+<p class="label">Twitter:</p>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.cineflixer.com" data-text="Ent�rate de lo nuevo en #Netflix, #Clarovideo y #Cinepolisklic en cineflixer.com" data-via="cineflixer" data-lang="es" data-count="none">Twittear</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</td>
+<td>
+<a href="https://twitter.com/cineflixer" class="twitter-follow-button" data-show-count="false" data-lang="es" data-show-screen-name="false">Seguir a @cineflixer</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</td>
+</tr>
+</table>
+<br>
+<a href="https://twitter.com/intent/tweet?button_hashtag=Cineflixer&text=Compara%20los%20cat%C3%A1logos%20de%20%23Netflix%2C%20%23Clarovideo%20y%20%23Cinepolisklic." class="twitter-hashtag-button" data-lang="es" data-related="cineflixer" data-url="http://www.cineflixer.com">Tweet #Cineflixer</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<br>
+<a href="https://twitter.com/intent/tweet?screen_name=cineflixer" class="twitter-mention-button" data-lang="es" data-related="cineflixer">Tweet to @cineflixer</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<br>
+<br>
+<!-- Inserta esta etiqueta donde quieras que aparezca Bot�n +1. -->
+<div class="g-plusone" data-annotation="inline" data-width="300" data-href="http://www.cineflixer.com"></div>
+
+<!-- Inserta esta etiqueta despu�s de la �ltima etiqueta de Bot�n +1. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'es-419'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+
+						</div>
+					 	<div class="boxmainLT"></div>
+					</div>
+				<div class="boxbottRT"></div>
+				<div id="quickbottLT" class="boxbottLT"></div>
+			</div>
+
+
+<!-- Categories --><div class="inner_copy"></div>
+			<div id="categories">
+				<div id="categorieheadRT" class="boxheadRT"><h1>Links directos</h1></div>
+		 		<div class="boxheadLT"></div>
+					<div class="boxmain">
+						<div class="boxmainRT" style="width: 144px;">
+							<ul>
+											<li><a href="http://www.cineflixer.com/index.html" target="_blank">Buscador integral</a></li>
+											<li><a href="http://www.cineflixer.com/buscador-netflix.html" target="_blank">Buscador solo Netflix</a></li>
+											<li><a href="http://www.cineflixer.com/buscador-clarovideo.html" target="_blank">Buscador solo Clarovideo</a></li>
+											<li><a href="http://www.cineflixer.com/buscador-cinepolisklic.html" target="_blank">Buscador solo CinepolisKlic</a></li>
+											<li><a href="http://www.cineflixer.com/recientes-netflix.html" target="_blank">Novedades Netflix Latino</a></li>
+											<li><a href="http://www.cineflixer.com/recientes-clarovideo.html" target="_blank">Novedades Clarovideo Mexico</a></li>
+											<li><a href="http://www.cineflixer.com/vencimientos-netflix.html" target="_blank">Vencimientos Netflix Latino</a></li>
+											<li><a href="http://www.subtitulosnetflixusa.com" target="_blank">Subt&iacute;tulos Netflix USA</a></li>
+									</ul>
+								</div>
+					 		<div class="boxmainLT"></div>
+						</div>
+						<div class="boxbottRT"></div>
+						<div id="categoriebottLT" class="boxbottLT"></div>
+				</div>
+
+
+
+
+
+			<div id="quicksearch">
+				<div id="quickheadRT" class="boxheadRT"><h1>Top recomendaciones</h1></div>
+				<div class="boxheadLT"></div>
+					<div class="boxmain">
+						<div class="boxmainRT" style="width:144px">
+
+<p class="label"><a href="http://www.recomendacionesnetflix.com" target="_blank"> recomendacionesnetflix.com </a></p>
+<br>
+<p class="label2">
+<a href="http://www.recomendacionesnetflix.com/news.php?name=2014014055" target="_blank"> La dama de negro </a><br><br><a href="http://www.recomendacionesnetflix.com/news.php?name=2014060937" target="_blank"> El mayordomo de la Casa Blanca </a><br><br><a href="http://www.recomendacionesnetflix.com/news.php?name=2014121936" target="_blank"> El gran truco </a><br><br><a href="http://www.recomendacionesnetflix.com/news.php?name=2014122422" target="_blank"> Frozen </a><br><br><a href="http://www.recomendacionesnetflix.com/news.php?name=2014071922" target="_blank"> Un juego vs el destino </a><br><br><a href="http://www.recomendacionesnetflix.com/news.php?name=2014080814" target="_blank"> El último maestro del aire </a><br><br><a href="http://www.recomendacionesnetflix.com/news.php?name=2014092414" target="_blank"> V de venganza </a><br><br><a href="http://www.recomendacionesnetflix.com/news.php?name=2014055005" target="_blank"> Sword Art Online </a><br><br><a href="http://www.recomendacionesnetflix.com/news.php?name=2014060552" target="_blank"> Gigantes de Acero </a><br><br><a href="http://www.recomendacionesnetflix.com/news.php?name=2014033447" target="_blank"> Red social </a><br><br></p>
+
+
+
+						</div>
+					 	<div class="boxmainLT"></div>
+					</div>
+				<div class="boxbottRT"></div>
+				<div id="quickbottLT" class="boxbottLT"></div>
+			</div>
+
+
+			<div id="quicksearch">
+				<div id="quickheadRT" class="boxheadRT"><h1>Aplicaciones</h1></div>
+				<div class="boxheadLT"></div>
+					<div class="boxmain">
+						<div class="boxmainRT" style="width:144px">
+<img src="/images/news.jpg"/>
+<p class="label">App para ocultar historial de Netflix (Nueva version):</p>
+<iframe width="150" height="100" src="//www.youtube.com/embed/MRf2cpNIMXc" frameborder="0" allowfullscreen></iframe>
+<br>
+<p class="label2">
+<a href='http://dstats.net/download/http://www.cineflixer.com/downloads/hidenetflixhistoryv2.zip'>Hide netflix history app V2</a>
+<script type='text/javascript' src='http://dstats.net/dstatsjs.php?file=http://www.cineflixer.com/downloads/hidenetflixhistoryv2.zip'></script>
+<script type='text/javascript'>document.write(dsdlcounter(dsCounter));</script>
+
+<br>
+<br>
+
+<B>&Uacute;sala gratis.</B>
+<br>
+Usuario cineflixer M&Eacute;XICO: apptestmx
+<br>
+Usuario cineflixer USA: apptestus
+<br>
+Usuario cineflixer CANAD&Aacute;: apptestca
+<br>
+Usuario cineflixer REINO UNIDO: apptestuk
+<br>
+Usuario cineflixer ARGENTINA: apptestar
+<br>
+Usuario cineflixer PER&Uacute;: apptestpe
+<br>
+Usuario cineflixer VENEZUELA: apptestve
+
+</p>
+
+						</div>
+					 	<div class="boxmainLT"></div>
+					</div>
+				<div class="boxbottRT"></div>
+				<div id="quickbottLT" class="boxbottLT"></div>
+			</div>
+			<div class="clear"></div>
+
+
+		</div>
+
+</td>
+<td valign="top">
+
+<!-- Right sidebar -->
+		<div id="RTsidebar">
+			<div id="headder"><p class="label"><a href="index.html" class="companyname">www.cineflixer.com</a> / Bienvenido </p> </div>
+			<div id="navbar">
+				<ul>
+					<li><a href="index.html">Inicio</a></li><li><span></span></li>
+					<li><a href="tips.html">Tips</a></li><li><span></span></li>
+					<li><a href="http://www.recomendacionesnetflix.com" target="_blank">Recomendaciones</a></li><li><span></span></li>
+					<li><a href="http://cineflixerblog.blogspot.mx/" target="_blank">Blog</a></li><li><span></span></li>
+					<li><a href="https://www.facebook.com/cineflixerfan" target="_blank">FanPage</a></li><li><span></span></li>
+					<li><a href="contacto.html">Contacto</a></li><li><span></span></li>
+					<li><a href="quienes-somos.html" class="divider">Quienes somos</a></li>
+				</ul>
+			</div>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Leaderboard -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2004187412110517"
+     data-ad-slot="2863303988"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br>
+
+Descarga nuestra app para Android y ent&eacute;rate de las novedades y recomendaciones de Netflix al momento.
+<br><br>
+<a href="downloads/recomendaciones-netflix.apk"><img src="images/recomendaciones-netflix-app-android.jpg" width="50" height="50" alt="Recomendaciones Netflix app"></a>
+
+<br>
+
+<h2>Compara los catalogos de Netflix, Clarovideo y Cinepolisklic.</h2>
+<br>
+Estamos trabajando para darte la mayor informaci&oacute;n posible de los principales servicios de Video On Demand, nos centramos
+primordialmente en el cat&aacute;logo de Netflix Mexico, Netflix Argentina, Netflix Brasil, Netflix latinoamerica, Netflix usa, Netflix uk y Netflix Canada, adem&aacute;s incluimos el catalogo de Clarovideo Mexico y Cinepolisklic.
+<br>
+<br>
+En breve incluiremos m&aacute;s pa&iacute;ses y servicios para mantenerte informado en todo momento de una forma r&aacute;pida y sin navegar por todos los catalogos cambiando IP's, de este modo te enterar&aacute;s sobre las novedades de Netflix, Clarovideo y Cinepolisklic, antes que nadie.
+<br>
+Por otro lado, recientemente agregamos subtitulos de Netflix USA (DFXP) para que no te pierdas ninguno de los grandes estrenos del mayor catalogo de Netflix.
+
+		<fieldset>
+			<legend>Filtros de busqueda</legend><div id="products">
+
+<form name="forma" id="forma" action="index.html" method="post">
+
+<table>
+<tr>
+<td>
+<B>Filtrar cat&aacute;logo:</B> <br>
+<table>
+<tr>
+
+<td><input type="checkbox" name="netflixmx" id="netflixmx" onclick="validate()" value=""><IMG SRC="images/mx_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td><td><input type="checkbox" name="netflixar" id="netflixar" onclick="validate()" value=""><IMG SRC="images/ar_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td><td><input type="checkbox" name="netflixbr" id="netflixbr" onclick="validate()" value=""><IMG SRC="images/br_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td><td><input type="checkbox" name="netflixla" id="netflixla" onclick="validate()" value=""><IMG SRC="images/co_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td><td><input type="checkbox" name="netflixus" id="netflixus" onclick="validate()" checked value="netflixus"><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td><td><input type="checkbox" name="netflixca" id="netflixca" onclick="validate()" value=""><IMG SRC="images/ca_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td><td><input type="checkbox" name="netflixuk" id="netflixuk" onclick="validate()" value=""><IMG SRC="images/uk_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td><td><input type="checkbox" name="netflixfr" id="netflixfr" onclick="validate()" value=""><IMG SRC="images/fr_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td><td><input type="checkbox" name="netflixde" id="netflixde" onclick="validate()" value=""><IMG SRC="images/de_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td><td><input type="checkbox" name="netflixat" id="netflixat" onclick="validate()" value=""><IMG SRC="images/at_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td><td><input type="checkbox" name="clarovideomx" disabled id="clarovideomx" onclick="validate()" value=""><IMG SRC="images/cv/mexico_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td><td><input type="checkbox" name="cinepolisklic" disabled id="cinepolisklic" onclick="validate()" value=""><IMG SRC="images/ck_flag.jpg" border="0" WIDTH=30 HEIGHT=30></td>
+</tr>
+</table>
+
+</td>
+<td></td>
+<td>
+</td>
+</tr>
+
+</table>
+
+<table>
+<tr>
+<td>
+
+<table>
+<tr>
+<td>
+<B>Rango de a&ntilde;os:</B>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+Rango inicial:
+</td>
+<td>
+
+<select name="rango_inicial" id="rango_inicial">
+<option value=1900 selected>1900</option><option value=1901>1901</option><option value=1902>1902</option><option value=1903>1903</option><option value=1904>1904</option><option value=1905>1905</option><option value=1906>1906</option><option value=1907>1907</option><option value=1908>1908</option><option value=1909>1909</option><option value=1910>1910</option><option value=1911>1911</option><option value=1912>1912</option><option value=1913>1913</option><option value=1914>1914</option><option value=1915>1915</option><option value=1916>1916</option><option value=1917>1917</option><option value=1918>1918</option><option value=1919>1919</option><option value=1920>1920</option><option value=1921>1921</option><option value=1922>1922</option><option value=1923>1923</option><option value=1924>1924</option><option value=1925>1925</option><option value=1926>1926</option><option value=1927>1927</option><option value=1928>1928</option><option value=1929>1929</option><option value=1930>1930</option><option value=1931>1931</option><option value=1932>1932</option><option value=1933>1933</option><option value=1934>1934</option><option value=1935>1935</option><option value=1936>1936</option><option value=1937>1937</option><option value=1938>1938</option><option value=1939>1939</option><option value=1940>1940</option><option value=1941>1941</option><option value=1942>1942</option><option value=1943>1943</option><option value=1944>1944</option><option value=1945>1945</option><option value=1946>1946</option><option value=1947>1947</option><option value=1948>1948</option><option value=1949>1949</option><option value=1950>1950</option><option value=1951>1951</option><option value=1952>1952</option><option value=1953>1953</option><option value=1954>1954</option><option value=1955>1955</option><option value=1956>1956</option><option value=1957>1957</option><option value=1958>1958</option><option value=1959>1959</option><option value=1960>1960</option><option value=1961>1961</option><option value=1962>1962</option><option value=1963>1963</option><option value=1964>1964</option><option value=1965>1965</option><option value=1966>1966</option><option value=1967>1967</option><option value=1968>1968</option><option value=1969>1969</option><option value=1970>1970</option><option value=1971>1971</option><option value=1972>1972</option><option value=1973>1973</option><option value=1974>1974</option><option value=1975>1975</option><option value=1976>1976</option><option value=1977>1977</option><option value=1978>1978</option><option value=1979>1979</option><option value=1980>1980</option><option value=1981>1981</option><option value=1982>1982</option><option value=1983>1983</option><option value=1984>1984</option><option value=1985>1985</option><option value=1986>1986</option><option value=1987>1987</option><option value=1988>1988</option><option value=1989>1989</option><option value=1990>1990</option><option value=1991>1991</option><option value=1992>1992</option><option value=1993>1993</option><option value=1994>1994</option><option value=1995>1995</option><option value=1996>1996</option><option value=1997>1997</option><option value=1998>1998</option><option value=1999>1999</option><option value=2000>2000</option><option value=2001>2001</option><option value=2002>2002</option><option value=2003>2003</option><option value=2004>2004</option><option value=2005>2005</option><option value=2006>2006</option><option value=2007>2007</option><option value=2008>2008</option><option value=2009>2009</option><option value=2010>2010</option><option value=2011>2011</option><option value=2012>2012</option><option value=2013>2013</option><option value=2014>2014</option></select>
+
+</td>
+</tr>
+<tr>
+<td>
+Rango final:
+</td>
+<td>
+
+<select name="rango_final" id="rango_final">
+
+<option value=2014 selected>2014</option><option value=2013>2013</option><option value=2012>2012</option><option value=2011>2011</option><option value=2010>2010</option><option value=2009>2009</option><option value=2008>2008</option><option value=2007>2007</option><option value=2006>2006</option><option value=2005>2005</option><option value=2004>2004</option><option value=2003>2003</option><option value=2002>2002</option><option value=2001>2001</option><option value=2000>2000</option><option value=1999>1999</option><option value=1998>1998</option><option value=1997>1997</option><option value=1996>1996</option><option value=1995>1995</option><option value=1994>1994</option><option value=1993>1993</option><option value=1992>1992</option><option value=1991>1991</option><option value=1990>1990</option><option value=1989>1989</option><option value=1988>1988</option><option value=1987>1987</option><option value=1986>1986</option><option value=1985>1985</option><option value=1984>1984</option><option value=1983>1983</option><option value=1982>1982</option><option value=1981>1981</option><option value=1980>1980</option><option value=1979>1979</option><option value=1978>1978</option><option value=1977>1977</option><option value=1976>1976</option><option value=1975>1975</option><option value=1974>1974</option><option value=1973>1973</option><option value=1972>1972</option><option value=1971>1971</option><option value=1970>1970</option><option value=1969>1969</option><option value=1968>1968</option><option value=1967>1967</option><option value=1966>1966</option><option value=1965>1965</option><option value=1964>1964</option><option value=1963>1963</option><option value=1962>1962</option><option value=1961>1961</option><option value=1960>1960</option><option value=1959>1959</option><option value=1958>1958</option><option value=1957>1957</option><option value=1956>1956</option><option value=1955>1955</option><option value=1954>1954</option><option value=1953>1953</option><option value=1952>1952</option><option value=1951>1951</option><option value=1950>1950</option><option value=1949>1949</option><option value=1948>1948</option><option value=1947>1947</option><option value=1946>1946</option><option value=1945>1945</option><option value=1944>1944</option><option value=1943>1943</option><option value=1942>1942</option><option value=1941>1941</option><option value=1940>1940</option><option value=1939>1939</option><option value=1938>1938</option><option value=1937>1937</option><option value=1936>1936</option><option value=1935>1935</option><option value=1934>1934</option><option value=1933>1933</option><option value=1932>1932</option><option value=1931>1931</option><option value=1930>1930</option><option value=1929>1929</option><option value=1928>1928</option><option value=1927>1927</option><option value=1926>1926</option><option value=1925>1925</option><option value=1924>1924</option><option value=1923>1923</option><option value=1922>1922</option><option value=1921>1921</option><option value=1920>1920</option><option value=1919>1919</option><option value=1918>1918</option><option value=1917>1917</option><option value=1916>1916</option><option value=1915>1915</option><option value=1914>1914</option><option value=1913>1913</option><option value=1912>1912</option><option value=1911>1911</option><option value=1910>1910</option><option value=1909>1909</option><option value=1908>1908</option><option value=1907>1907</option><option value=1906>1906</option><option value=1905>1905</option><option value=1904>1904</option><option value=1903>1903</option><option value=1902>1902</option><option value=1901>1901</option><option value=1900>1900</option></select>
+
+</td>
+</tr>
+<tr>
+<td>
+<B>Filtrar por categor&iacute;a: </B>
+</td>
+<td>
+
+
+<select name="categorias" id="categorias">
+<option value="Todas" selected>Todas</option><option value="Recientes">Recientes</option><option value="'Accion'">Accion</option><option value="'Accion y aventuras'">Accion y aventuras</option><option value="'Action'">Action</option><option value="'Action & Adventure'">Action & Adventure</option><option value="'Adventures'">Adventures</option><option value="'Alemanas'">Alemanas</option><option value="'Amigos'">Amigos</option><option value="'Animacion'">Animacion</option><option value="'Animales'">Animales</option><option value="'Animals'">Animals</option><option value="'Animated'">Animated</option><option value="'Anime'">Anime</option><option value="'Animes'">Animes</option><option value="'Argentinian Movies'">Argentinian Movies</option><option value="'Aventura'">Aventura</option><option value="'Aventura/Fantasia'">Aventura/Fantasia</option><option value="'Aventuras'">Aventuras</option><option value="'Aventuras en el oceano'">Aventuras en el oceano</option><option value="'Award-winning Movies'">Award-winning Movies</option><option value="'Basados en libros'">Basados en libros</option><option value="'BBC'">BBC</option><option value="'Blockbuster Movies'">Blockbuster Movies</option><option value="'Britanicas'">Britanicas</option><option value="'British'">British</option><option value="'Canadienses'">Canadienses</option><option value="'Chicas poderosas'">Chicas poderosas</option><option value="'Children & Family'">Children & Family</option><option value="'Ciencia Ficcion'">Ciencia Ficcion</option><option value="'Ciencia ficcion y fantasia'">Ciencia ficcion y fantasia</option><option value="'Cine del Mundo'">Cine del Mundo</option><option value="'Cine Mexicano'">Cine Mexicano</option><option value="'Clasicas'">Clasicas</option><option value="'Classics'">Classics</option><option value="'Comedia'">Comedia</option><option value="'Comedia en vivo'">Comedia en vivo</option><option value="'Comedias'">Comedias</option><option value="'Comedies'">Comedies</option><option value="'Concert Channel'">Concert Channel</option><option value="'Cortometrajes'">Cortometrajes</option><option value="'Crime Movies'">Crime Movies</option><option value="'Crimen'">Crimen</option><option value="'Cult Movies'">Cult Movies</option><option value="'De interes especial'">De interes especial</option><option value="'Deportes'">Deportes</option><option value="'Deportes y salud fisica'">Deportes y salud fisica</option><option value="'Disney'">Disney</option><option value="'Documentales'">Documentales</option><option value="'Documentaries'">Documentaries</option><option value="'Drama'">Drama</option><option value="'Dramas'">Dramas</option><option value="'Education'">Education</option><option value="'Educativas'">Educativas</option><option value="'Entretenimiento'">Entretenimiento</option><option value="'Extranjeras'">Extranjeras</option><option value="'Fairy Tales'">Fairy Tales</option><option value="'Faith & Spirituality'">Faith & Spirituality</option><option value="'Fantasia'">Fantasia</option><option value="'Fe y espiritualidad'">Fe y espiritualidad</option><option value="'Foreign'">Foreign</option><option value="'Francesas'">Francesas</option><option value="'Friends'">Friends</option><option value="'From Books'">From Books</option><option value="'Gay & Lesbian'">Gay & Lesbian</option><option value="'Gays y lesbianas'">Gays y lesbianas</option><option value="'Girl Power'">Girl Power</option><option value="'gratis'">gratis</option><option value="'Horror'">Horror</option><option value="'http://movies.netflix.com/WiPlayer?movieid=70243043'">http://movies.netflix.com/WiPlayer?movieid=70243043</option><option value="'Independent'">Independent</option><option value="'Independiente'">Independiente</option><option value="'Independientes'">Independientes</option><option value="'Infantil'">Infantil</option><option value="'Infantil y Familia'">Infantil y Familia</option><option value="'Infantiles y familiares'">Infantiles y familiares</option><option value="'International Movies'">International Movies</option><option value="'Karaokes'">Karaokes</option><option value="'Latinoamericanas'">Latinoamericanas</option><option value="'Little Kids'">Little Kids</option><option value="'Mexican Movies'">Mexican Movies</option><option value="'Mexicanas'">Mexicanas</option><option value="'Music'">Music</option><option value="'Music & Musicals'">Music & Musicals</option><option value="'Musica'">Musica</option><option value="'Musica y musicales'">Musica y musicales</option><option value="'Musical'">Musical</option><option value="'Musicales'">Musicales</option><option value="'Musicals'">Musicals</option><option value="'PAGO POR EVENTO'">PAGO POR EVENTO</option><option value="'Para cantar'">Para cantar</option><option value="'Para la familia'">Para la familia</option><option value="'Para pequenitos'">Para pequenitos</option><option value="'Peliculas de crimen'">Peliculas de crimen</option><option value="'Peliculas de culto'">Peliculas de culto</option><option value="'Peliculas mexicanas'">Peliculas mexicanas</option><option value="'Peliculas policiales'">Peliculas policiales</option><option value="'Peliculas sobre deportes'">Peliculas sobre deportes</option><option value="'Picture Box'">Picture Box</option><option value="'Police Movies'">Police Movies</option><option value="'Princesses'">Princesses</option><option value="'Programas de TV y series'">Programas de TV y series</option><option value="'Romance'">Romance</option><option value="'Sala de Arte'">Sala de Arte</option><option value="'Sci-Fi'">Sci-Fi</option><option value="'Sci-Fi & Fantasy'">Sci-Fi & Fantasy</option><option value="'Series'">Series</option><option value="'Sing-Alongs'">Sing-Alongs</option><option value="'Special Interest'">Special Interest</option><option value="'Sports'">Sports</option><option value="'Sports & Fitness'">Sports & Fitness</option><option value="'Sports Movies'">Sports Movies</option><option value="'Suspenso'">Suspenso</option><option value="'Talking Animals'">Talking Animals</option><option value="'Ted Talks'">Ted Talks</option><option value="'Telenovelas'">Telenovelas</option><option value="'Terror'">Terror</option><option value="'Thriller'">Thriller</option><option value="'Thrillers'">Thrillers</option><option value="'TV Shows'">TV Shows</option><option value="'TV Soaps'">TV Soaps</option><option value="'Watch with the Family'">Watch with the Family</option></select>
+</td>
+</tr>
+<tr>
+<td>
+
+
+
+<B>Buscar pelicula</B>
+</td>
+<td>
+          <input id="buscatexto" type="text" name="buscatexto" value=""></td>
+</tr>
+<tr>
+<td>
+Por:
+</td>
+</tr>
+</table>
+
+<input type="radio" name="Grupo1" value="Buscarpelicula" onclick="buscar_pelicula();"/> Nombre de pel&iacute;cula<br> <input type="radio" name="Grupo1" value="Buscardirector" onclick="buscar_director();"/> Nombre de director<br> <input type="radio" name="Grupo1" value="Buscarelenco" onclick="buscar_elenco();"/> Nombre de actor o actriz<br> <input type="radio" name="Grupo1" value="Buscarsinopsis" onclick="buscar_sinopsis();"/> Sinopsis<br> <input type="radio" name="Grupo1" checked value="Buscarall" onclick="buscar_all();"/> Todo (nombre, director, actor y/o actriz)
+
+              <input type="hidden" name="country" id="country" value="all" />
+
+<br>
+<br>
+
+
+<input type="radio" name="Grupo2" checked value="ordenarporanio" onclick="ordenarporanio();"/> Ordenar por recientes<input type="radio" name="Grupo2" value="ordenarporcalificacion" onclick="ordenarporcalificacion();"/> Ordenar por mejor calificadas<br><input type="radio" name="Grupo2" value="ordenarporanioretro" onclick="ordenarporanioretro();"/> Ordenar por antiguas<input type="radio" name="Grupo2" value="ordenarporcalificacion" onclick="ordenarporcalificacionpeor();"/> Ordenar por peor calificadas
+
+<input type="hidden" name="option" id="option" value="buscarall" /><input type="hidden" name="optionordenar" id="optionordenar" value="ordenarporanio" /><input type="hidden" name="filtro_catalogo" id="filtro_catalogo" value="-US"><input type="hidden" name="filtro_suscriptores" id="filtro_suscriptores" value=""><input type="hidden" name="filtro_subtitulosdfxp" id="filtro_subtitulosdfxp" value=""><input type="hidden" name="filtro_audioespanol" id="filtro_audioespanol" value=""><input type="hidden" name="filtro_subtitulosespanol" id="filtro_subtitulosespanol" value=""><input type="hidden" name="filtro_audioingles" id="filtro_audioingles" value=""><input type="hidden" name="filtro_subtitulosingles" id="filtro_subtitulosingles" value=""><input type="hidden" name="filtro_audioportugues" id="filtro_audioportugues" value=""><input type="hidden" name="filtro_subtitulosportugues" id="filtro_subtitulosportugues" value=""><input type="hidden" name="filtro_audiokoreano" id="filtro_audiokoreano" value=""><input type="hidden" name="filtro_subtituloskoreano" id="filtro_subtituloskoreano" value=""><input type="hidden" name="filtro_audiojapones" id="filtro_audiojapones" value=""><input type="hidden" name="filtro_subtitulosjapones" id="filtro_subtitulosjapones" value=""><input type="hidden" name="filtro_audiocantones" id="filtro_audiocantones" value=""><input type="hidden" name="filtro_subtituloscantones" id="filtro_subtituloscantones" value="">
+
+
+<br>
+<br>
+
+<B>Mostrar solo t&iacute;tulos:</B>
+<br>
+<table>
+<tr>
+<td>
+
+<td><input type="checkbox" name="gratissuscriptores" id="gratissuscriptores" onclick="validate()" value="gratissuscriptores">Gratuitos
+</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="subtitulosdfxp" id="subtitulosdfxp" onclick="validate()" value="subtitulosdfxp">Con subtitulos DFXP</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="audioespanol" id="audioespanol" onclick="validate()" value="audioespanol">Audio espanol(Netflix)</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="audioingles" id="audioingles" onclick="validate()" value="audioingles">Audio ingles(Netflix)</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="audioportugues" id="audioportugues" onclick="validate()" value="audioportugues">Audio portugues(Netflix)</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="audiokoreano" id="audiokoreano" onclick="validate()" value="audiokoreano">Audio koreano(Netflix)</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="audiojapones" id="audiojapones" onclick="validate()" value="audiojapones">Audio japones(Netflix)</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="audiocantones" id="audiocantones" onclick="validate()" value="audiocantones">Audio cantones(Netflix)</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="subtitulosespanol" id="subtitulosespanol" onclick="validate()" value="subtitulosespanol">Subtitulos espanol(Netflix)</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="subtitulosingles" id="subtitulosingles" onclick="validate()" value="subtitulosingles">Subtitulos ingles(Netflix)</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="subtitulosportugues" id="subtitulosportugues" onclick="validate()" value="subtitulosportugues">Subtitulos portugues(Netflix)</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="subtituloskoreano" id="subtituloskoreano" onclick="validate()" value="subtituloskoreano">Subtitulos koreano(Netflix)</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="subtitulosjapones" id="subtitulosjapones" onclick="validate()" value="subtitulosjapones">Subtitulos japones(Netflix)</td>
+</tr>
+<tr>
+<td>
+
+<td><input type="checkbox" name="subtituloscantones" id="subtituloscantones" onclick="validate()" value="subtituloscantones">Subtitulos cantones(Netflix)</td>
+</tr>
+</table>
+
+</form>
+
+
+<span style=" float:left;margin:10px 37px 0"><img src="img/btn_search.jpg" width="62" height="21" alt="" onclick="aplica_filtro();" /></span>
+
+</td>
+<td>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- cineflixerv2mid -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-2004187412110517"
+     data-ad-slot="7740813180"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</td>
+</tr>
+</table>
+
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend></legend><div id="products">
+
+
+
+
+
+<div id="pro"><a href="http://movies.netflix.com/WiMovie/70291114" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/7799/2827799.jpg" alt="13 Sins" title="13 Sins" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>13 Sins</strong><br />        <img src="http://cdn1.nflximg.net/images/7799/2827799.jpg" style="float:right;" />        <B> Sinopsis: </B> Un hombre acepta aparecer en un juego con un premio de seis millones de dólares. Pero los desafíos son cada vez más extremos y se da cuenta de que cometió un grave error. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> R <br> <B> Calificaci&oacute;n: </B> 2.982 <br> <B> Director: </B> Daniel Stamm <br> <B> Elenco: </B> Mark Webber, Rutina Wesley, Devon Graye, Pruitt Taylor Vince, Tom Bower, Ron Perlman <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> español,inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-12  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-13-sins.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-13-sins.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70306703" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/3637/4233637.jpg" alt="20 Feet Below" title="20 Feet Below" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>20 Feet Below</strong><br />        <img src="http://cdn1.nflximg.net/images/3637/4233637.jpg" style="float:right;" />        <B> Sinopsis: </B> A documentary filmmaker encounters a mysterious figure when she descends into the netherworld of New York City's subway tunnels. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> R <br> <B> Calificaci&oacute;n: </B> 2.906 <br> <B> Director: </B> Marc Clebanoff <br> <B> Elenco: </B> Danny Trejo, Frank Krueger, Kinga Philipps, John Hennigan, Tiffany Adams, Kristoff St. John <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-20-feet-below.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-20-feet-below.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/80001103" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/3184/9603184.jpg" alt="30 for 30: Bad Boys" title="30 for 30: Bad Boys" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>30 for 30: Bad Boys</strong><br />        <img src="http://cdn0.nflximg.net/images/3184/9603184.jpg" style="float:right;" />        <B> Sinopsis: </B> Led by players like Isiah Thomas and Dennis Rodman, the Detroit Pistons of the late 1980s and early '90s made their mark as the "bad boys" of the NBA. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 4.329 <br> <B> Director: </B> Zak Levitt <br> <B> Elenco: </B>  <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-30-for-30-bad-boys.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-30-for-30-bad-boys.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70299782" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/6833/9706833.jpg" alt="After the Dark" title="After the Dark" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>After the Dark</strong><br />        <img src="http://cdn1.nflximg.net/images/6833/9706833.jpg" style="float:right;" />        <B> Sinopsis: </B> Philosophy students at an international school in Indonesia must decide who among them would survive a hypothetical nuclear apocalypse. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> R <br> <B> Calificaci&oacute;n: </B> 2.69 <br> <B> Director: </B> John Huddles <br> <B> Elenco: </B> James D'Arcy, Sophie Lowe, Daryl Sabara, Freddie Stroma, Rhys Wakefield, Bonnie Wright <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-06-13  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-after-the-dark.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-after-the-dark.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70305218" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/8961/9738961.jpg" alt="Agent F.O.X." title="Agent F.O.X." border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Agent F.O.X.</strong><br />        <img src="http://cdn1.nflximg.net/images/8961/9738961.jpg" style="float:right;" />        <B> Sinopsis: </B> Agent F.O.X. arrives in Carrot Town to infiltrate a community of rabbits and locate a mysterious artifact, but he's mistaken for someone else. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> PG <br> <B> Calificaci&oacute;n: </B> 2.75 <br> <B> Director: </B> Ge Shuiying <br> <B> Elenco: </B> Michael Yeager, Shannon Settlemyre <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-06-26  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-agent-fox.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-agent-fox.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70302621" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/0358/9990358.jpg" alt="Airplane vs. Volcano" title="Airplane vs. Volcano" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Airplane vs. Volcano</strong><br />        <img src="http://cdn0.nflximg.net/images/0358/9990358.jpg" style="float:right;" />        <B> Sinopsis: </B> A commercial airliner enters dangerous territory over a ring of active volcanoes, which prevent them from escaping to safety and landing. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2.889 <br> <B> Director: </B> Jon Kondelik, James Kondelik <br> <B> Elenco: </B> Dean Cain, Robin Givens, Lawrence Hilton-Jacobs, Natalie Burtney, Tamara Goodwin, Anthony Marks <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-27  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-airplane-vs-volcano.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-airplane-vs-volcano.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"> <IMG SRC="images/subtitles.jpg" border="0" WIDTH=20 HEIGHT=20 /> <a href="http://movies.netflix.com/WiMovie/70307594" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/6819/10896819.jpg" alt="Alien Abduction" title="Alien Abduction" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Alien Abduction</strong><br />        <img src="http://cdn1.nflximg.net/images/6819/10896819.jpg" style="float:right;" />        <B> Sinopsis: </B> A real-life phenomenon inspired this horror tale about a family camping trip that becomes a nightmare when a wrong turn leads to an alien encounter. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 3.063 <br> <B> Director: </B> Matty Beckerman <br> <B> Elenco: </B> Katherine Sigismund, &nbsp;Corey Eid, &nbsp;Riley Polanski, Jillian Clare, Jeff Bowser, Peter Holden <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B>  <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-08-04  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-alien-abduction.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-alien-abduction.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form>  </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70302616" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/0120/4140120.jpg" alt="Alpha House" title="Alpha House" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Alpha House</strong><br />        <img src="http://cdn0.nflximg.net/images/0120/4140120.jpg" style="float:right;" />        <B> Sinopsis: </B> Hard times are forcing Alpha House, the most notorious party fraternity on campus, to either share their residence with a sorority or be shut down. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 3.2 <br> <B> Director: </B> Jacob Cooney <br> <B> Elenco: </B> D.C. Douglas, Mindy Robinson, Jean Louise O'Sullivan, Sam Aotaki, Jessica Sonneborn, Julien Bensimhon <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-alpha-house.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-alpha-house.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/80003144" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/9356/9919356.jpg" alt="American Experience: Butch Cassidy and the Sundance Kid" title="American Experience: Butch Cassidy and the Sundance Kid" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>American Experience: Butch Cassidy and the Sundance Kid</strong><br />        <img src="http://cdn0.nflximg.net/images/9356/9919356.jpg" style="float:right;" />        <B> Sinopsis: </B> This episode peels back the Hollywood veneer to reveal the truth about two of the Old West's most memorable real-life figures. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> TV-PG <br> <B> Calificaci&oacute;n: </B> 3 <br> <B> Director: </B> John Maggio <br> <B> Elenco: </B> Michael Murphy <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-09-01  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-american-experience-butch-cassidy-and-the-sundance-kid.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-american-experience-butch-cassidy-and-the-sundance-kid.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70300692" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/0785/9940785.jpg" alt="American Experience: The Amish: Shunned" title="American Experience: The Amish: Shunned" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>American Experience: The Amish: Shunned</strong><br />        <img src="http://cdn1.nflximg.net/images/0785/9940785.jpg" style="float:right;" />        <B> Sinopsis: </B> This documentary follows former members of the Amish community as they discuss their decisions to leave one of America's most closed communities. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> TV-PG <br> <B> Calificaci&oacute;n: </B> 3.362 <br> <B> Director: </B> Callie T. Wiser <br> <B> Elenco: </B>  <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-08-02  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-american-experience-the-amish-shunned.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-american-experience-the-amish-shunned.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70301291" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/2129/9462129.jpg" alt="Angels in Stardust" title="Angels in Stardust" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Angels in Stardust</strong><br />        <img src="http://cdn1.nflximg.net/images/2129/9462129.jpg" style="float:right;" />        <B> Sinopsis: </B> A teenage girl living in a community along the Texas-Oklahoma border struggles to realize her potential and escape the world she was born into. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> PG-13 <br> <B> Calificaci&oacute;n: </B> 2.728 <br> <B> Director: </B> William Robert Carey <br> <B> Elenco: </B> Alicia Silverstone, Billy Burke, AJ Michalka, Dennis Cockrum, Michael Spears, Chandler Massey <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-angels-in-stardust.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-angels-in-stardust.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70307997" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/1335/9691335.jpg" alt="Ankhon Dekhi" title="Ankhon Dekhi" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Ankhon Dekhi</strong><br />        <img src="http://cdn1.nflximg.net/images/1335/9691335.jpg" style="float:right;" />        <B> Sinopsis: </B> After a dramatic incident, Raje Bauji, a man in his late fifties, decides that he will only believe what he sees with his eyes. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 3 <br> <B> Director: </B> Rajat Kapoor <br> <B> Elenco: </B> Sanjay Mishra, Rajat Kapoor, Seema Pahwa, Namit Das, Manu Rishi, Brijendra Kala <br> <B> Audio: </B> hindi <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-06-17  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-ankhon-dekhi.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-ankhon-dekhi.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70302618" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/0133/4140133.jpg" alt="Asian Schoolgirls" title="Asian Schoolgirls" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Asian Schoolgirls</strong><br />        <img src="http://cdn1.nflximg.net/images/0133/4140133.jpg" style="float:right;" />        <B> Sinopsis: </B> Taken hostage by a Los Angeles crime syndicate, a plucky band of schoolgirls decides to fight back any way they can, even with the power of seduction. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2.347 <br> <B> Director: </B> Lawrence Silverstein <br> <B> Elenco: </B> Catherine Hyein Kim, Sam Aotaki, Minnie Scarlett, William Thomas Jones, Alan Pietruszewski, Andray Johnson <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-asian-schoolgirls.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-asian-schoolgirls.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70302619" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/5559/9745559.jpg" alt="Asteroid vs. Earth" title="Asteroid vs. Earth" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Asteroid vs. Earth</strong><br />        <img src="http://cdn1.nflximg.net/images/5559/9745559.jpg" style="float:right;" />        <B> Sinopsis: </B> An elite team of scientists races against time when a torrential storm of giant meteors threatens to annihilate all life on Earth. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2.723 <br> <B> Director: </B> Christopher Ray <br> <B> Elenco: </B> Tia Carrere, Robert Davi, Tim Russ, Jason Brooks, Jose Rosete, Robert R. Shafer <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-06  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-asteroid-vs-earth.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-asteroid-vs-earth.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70298431" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/3299/9693299.jpg" alt="Authors Anonymous" title="Authors Anonymous" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Authors Anonymous</strong><br />        <img src="http://cdn1.nflximg.net/images/3299/9693299.jpg" style="float:right;" />        <B> Sinopsis: </B> A band of unpublished writers who gather to gripe about their misfortunes must cope with the sudden success of a newcomer to their group. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> PG-13 <br> <B> Calificaci&oacute;n: </B> 2.334 <br> <B> Director: </B> Ellie Kanner <br> <B> Elenco: </B> Kaley Cuoco, Chris Klein, Dennis Farina, Jonathan Bennett, Dylan Walsh, Teri Polo <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-17  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-authors-anonymous.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-authors-anonymous.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70295699" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/6795/9466795.jpg" alt="Back in the Day" title="Back in the Day" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Back in the Day</strong><br />        <img src="http://cdn1.nflximg.net/images/6795/9466795.jpg" style="float:right;" />        <B> Sinopsis: </B> With his acting career failing to ignite, Jim Owens decides it's time to revisit his high school glory days and heads back for his 15-year reunion. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> R <br> <B> Calificaci&oacute;n: </B> 3.452 <br> <B> Director: </B> Michael Rosenbaum <br> <B> Elenco: </B> Morena Baccarin, Danielle Bisutti, Liz Carey, Emma Caulfield, Sarah Colonna, Jay R. Ferguson <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-back-in-the-day.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-back-in-the-day.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70302736" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/4396/4214396.jpg" alt="Bad Ass 2: Bad Asses" title="Bad Ass 2: Bad Asses" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Bad Ass 2: Bad Asses</strong><br />        <img src="http://cdn0.nflximg.net/images/4396/4214396.jpg" style="float:right;" />        <B> Sinopsis: </B> When a young boxer he's been mentoring turns up dead, Vietnam veteran Frank Vega hits the streets with his new partner, Bernie, to get revenge. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> R <br> <B> Calificaci&oacute;n: </B> 3.2 <br> <B> Director: </B> Craig Moss <br> <B> Elenco: </B> Danny Trejo, Danny Glover, Andrew Divoff, Jacqueline Obradors <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-08-06  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bad-ass-2-bad-asses.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bad-ass-2-bad-asses.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70308046" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/4116/9724116.jpg" alt="Bad Grandpa .5" title="Bad Grandpa .5" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Bad Grandpa .5</strong><br />        <img src="http://cdn0.nflximg.net/images/4116/9724116.jpg" style="float:right;" />        <B> Sinopsis: </B> The geriatric antics of Irving Zisman continue in this next installment of the Jackass franchise, which features unused footage from the first film. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> UR <br> <B> Calificaci&oacute;n: </B> 3.8 <br> <B> Director: </B> Jeff Tremaine <br> <B> Elenco: </B> Johnny Knoxville, Jackson Nicoll, Greg Harris, Georgina Cates, Kamber Hejlik, Jill Kill <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-06  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bad-grandpa-5.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bad-grandpa-5.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/80002863" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/4165/9724165.jpg" alt="Bad Grandpa .5: Bonus Material" title="Bad Grandpa .5: Bonus Material" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Bad Grandpa .5: Bonus Material</strong><br />        <img src="http://cdn1.nflximg.net/images/4165/9724165.jpg" style="float:right;" />        <B> Sinopsis: </B> Watch deleted scenes, a history of Johnny Knoxville's character Irving Zisman and interviews between Knoxville and the people he pranked in the film. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> TV-14 <br> <B> Calificaci&oacute;n: </B> 3.856 <br> <B> Director: </B>  <br> <B> Elenco: </B> Johnny Knoxville, Jackson Nicoll, Spike Jonze, Catherine Keener <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-06  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bad-grandpa-5-bonus-material.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bad-grandpa-5-bonus-material.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/80004462" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/5510/10905510.jpg" alt="Being Mary Jane" title="Being Mary Jane" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Being Mary Jane</strong><br />        <img src="http://cdn0.nflximg.net/images/5510/10905510.jpg" style="float:right;" />        <B> Sinopsis: </B> After Mary Jane decides David is the man for her -- and loses friends over him -- he rejects her because of another woman. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> TV-14 <br> <B> Calificaci&oacute;n: </B> 4.1 <br> <B> Director: </B>  <br> <B> Elenco: </B> Gabrielle Union, Lisa Vidal, Margaret Avery, Omari Hardwick, Latarsha Rose, Aaron D. Spears <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-09-01  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-being-mary-jane.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-being-mary-jane.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"> <IMG SRC="images/subtitles.jpg" border="0" WIDTH=20 HEIGHT=20 /> <a href="http://movies.netflix.com/WiMovie/70295076" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/7003/9457003.jpg" alt="Best Night Ever" title="Best Night Ever" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Best Night Ever</strong><br />        <img src="http://cdn1.nflximg.net/images/7003/9457003.jpg" style="float:right;" />        <B> Sinopsis: </B> With her sister and pals in tow, a bride-to-be heads to her bachelorette bash in Las Vegas, where the women's exploits land them in raunchy territory. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> R <br> <B> Calificaci&oacute;n: </B> 3.379 <br> <B> Director: </B> Aaron Seltzer, Jason Friedberg <br> <B> Elenco: </B> Desiree Hall, Samantha Colburn, Eddie Ritchard, Crista Flanagan, Skyler Stone, Amin Joseph <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-best-night-ever.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-best-night-ever.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form>  </p> </div><div id="bigdivider"></div><div id="pro"> <IMG SRC="images/subtitles.jpg" border="0" WIDTH=20 HEIGHT=20 /> <a href="http://movies.netflix.com/WiMovie/70257859" target="_blank" class="tooltip"><IMG SRC="http://cdn6.nflximg.net/images/3166/4173166.jpg" alt="Beyond Outrage" title="Beyond Outrage" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Beyond Outrage</strong><br />        <img src="http://cdn6.nflximg.net/images/3166/4173166.jpg" style="float:right;" />        <B> Sinopsis: </B> This sequel to the yakuza thriller Outrage depicts a brutal war between the Sanno and Hanabishi crime families, both now more powerful than ever. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> R <br> <B> Calificaci&oacute;n: </B> 3.619 <br> <B> Director: </B> Takeshi Kitano <br> <B> Elenco: </B> Takeshi Kitano, Toshiyuki Nishida, Tomokazu Miura, Ryô Kase, Hideo Nakano, Yutaka Matsushige <br> <B> Audio: </B> japonés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-beyond-outrage.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-beyond-outrage.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form>  </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70273249" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/3384/9653384.jpg" alt="Big Joy: The Adventures of James Broughton" title="Big Joy: The Adventures of James Broughton" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Big Joy: The Adventures of James Broughton</strong><br />        <img src="http://cdn0.nflximg.net/images/3384/9653384.jpg" style="float:right;" />        <B> Sinopsis: </B> This documentary spotlights James Broughton, the filmmaker and poet whose passion for life galvanized pre-Beat era San Francisco. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2.234 <br> <B> Director: </B> Stephen Silha, Eric Slade, Dawn Logsdon <br> <B> Elenco: </B>  <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-big-joy-the-adventures-of-james-broughton.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-big-joy-the-adventures-of-james-broughton.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70300066" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/6241/9456241.jpg" alt="Bitten" title="Bitten" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Bitten</strong><br />        <img src="http://cdn1.nflximg.net/images/6241/9456241.jpg" style="float:right;" />        <B> Sinopsis: </B> Having learned the truth about Clay's role in her werewolf origins, Elena reunites with the Pack at Stonehaven. Together, they prepare for a final stand against a Mutt army led by Santos and the mysterious James Williams, poised to take them down. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> TV-MA <br> <B> Calificaci&oacute;n: </B> 4.086 <br> <B> Director: </B>  <br> <B> Elenco: </B> Laura Vandervoort, Greyston Holt, Greg Bryk, Paul Greene, Steve Lund <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bitten.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bitten.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/80002482" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/9964/11109964.jpg" alt="Blood Glacier" title="Blood Glacier" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Blood Glacier</strong><br />        <img src="http://cdn0.nflximg.net/images/9964/11109964.jpg" style="float:right;" />        <B> Sinopsis: </B> After a glacier in the Alps leaks a mysterious red liquid, a group of scientists must defend themselves against hordes of biological monstrosities. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2.8 <br> <B> Director: </B> Marvin Kren <br> <B> Elenco: </B> Gerhard Liebmann, Edita Malovcic, Brigitte Kren, Santos, Hille Beseler, Peter Knaack <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-09-01  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-blood-glacier.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-blood-glacier.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70300800" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/9295/11129295.jpg" alt="BoJack Horseman" title="BoJack Horseman" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>BoJack Horseman</strong><br />        <img src="http://cdn1.nflximg.net/images/9295/11129295.jpg" style="float:right;" />        <B> Sinopsis: </B> Conoce al caballo más querido de los 90...pero 20 años después. BoJack Horseman fue la estrella de la famosa serie “Horsin’Around”, pero hoy está acabado. Vive en Hollywood, en su piso de soltero, se queja de todo y usa suéteres de colores vivos. Grabada en LA donde conviven humanos y humanoides antropomórficos, “BoJack Horseman” es la historia de un hombre (bueno, un caballo-hombre) que llegó muy rápido a la cima y luego se quedó sin qué hacer.\n <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B>  <br> <B> Calificaci&oacute;n: </B> 3.8 <br> <B> Director: </B>  <br> <B> Elenco: </B>  <br> <B> Audio: </B>  <br> <B> Subt&iacute;tulos: </B>  <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-09-01  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bojack-horseman.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bojack-horseman.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70302349" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/3712/4233712.jpg" alt="Boys Of Abu Ghraib" title="Boys Of Abu Ghraib" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Boys Of Abu Ghraib</strong><br />        <img src="http://cdn0.nflximg.net/images/3712/4233712.jpg" style="float:right;" />        <B> Sinopsis: </B> An American soldier deployed at Abu Ghraib finds himself behind the walls of the infamous Hard Site. He reluctantly develops a secret friendship with an Iraqi detainee, and begins to realize that not everything is what it seems. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> R <br> <B> Calificaci&oacute;n: </B> 2.957 <br> <B> Director: </B> Luke Moran <br> <B> Elenco: </B> Luke Moran, Sean Astin, Sara Paxton, Omid Abtahi, John Heard, Michael Welch <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-06-15  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-boys-of-abu-ghraib.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-boys-of-abu-ghraib.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"> <IMG SRC="images/subtitles.jpg" border="0" WIDTH=20 HEIGHT=20 /> <a href="http://movies.netflix.com/WiMovie/70305960" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/6967/4226967.jpg" alt="Bullet" title="Bullet" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Bullet</strong><br />        <img src="http://cdn1.nflximg.net/images/6967/4226967.jpg" style="float:right;" />        <B> Sinopsis: </B> When a mob boss kidnaps a tough cop's grandson and the governor's daughter, the streets of Los Angeles become a very deadly place to be. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> TV-MA <br> <B> Calificaci&oacute;n: </B> 3.387 <br> <B> Director: </B> Nick Lyon <br> <B> Elenco: </B> Danny Trejo, Jonathan Banks, Julia Dietze, Torsten Voges, John Savage, Eve Mauro <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bullet.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-bullet.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form>  </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70299284" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/7450/10867450.jpg" alt="Cesar's Last Fast" title="Cesar's Last Fast" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Cesar's Last Fast</strong><br />        <img src="http://cdn0.nflximg.net/images/7450/10867450.jpg" style="float:right;" />        <B> Sinopsis: </B> Rindiendo homenaje a la extraordinaria vida del líder laboral César Chávez, este biodocumental subraya su controvertido "Ayuno por la vida" en 1988. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 3 <br> <B> Director: </B> Richard Ray Perez, Lorena Parlee <br> <B> Elenco: </B> Cesar Chavez <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-09-01  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-cesars-last-fast.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-cesars-last-fast.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/80003170" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/1048/9941048.jpg" alt="Chasing Shackleton" title="Chasing Shackleton" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Chasing Shackleton</strong><br />        <img src="http://cdn0.nflximg.net/images/1048/9941048.jpg" style="float:right;" />        <B> Sinopsis: </B> Jarvis and his team wrestle with the climate, illness and more as they cross the mountains of South Georgia in the last leg of their trek. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> TV-PG <br> <B> Calificaci&oacute;n: </B> 2.551 <br> <B> Director: </B>  <br> <B> Elenco: </B> Tim Jarvis <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-08-02  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-chasing-shackleton.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-chasing-shackleton.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70298202" target="_blank" class="tooltip"><IMG SRC="http://cdn2.nflximg.net/images/2362/3792362.jpg" alt="Chris Porter: Ugly and Angry" title="Chris Porter: Ugly and Angry" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Chris Porter: Ugly and Angry</strong><br />        <img src="http://cdn2.nflximg.net/images/2362/3792362.jpg" style="float:right;" />        <B> Sinopsis: </B> In this stand-up special, "Last Comic Standing" alum Chris Porter gives his takes on drugs, growing old, women's fashion and his love for Taco Bell. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 3.975 <br> <B> Director: </B> Jay Chapman <br> <B> Elenco: </B> Chris Porter <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-chris-porter-ugly-and-angry.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-chris-porter-ugly-and-angry.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70298204" target="_blank" class="tooltip"><IMG SRC="http://cdn2.nflximg.net/images/2582/4202582.jpg" alt="Christian Finnegan: The Fun Part" title="Christian Finnegan: The Fun Part" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Christian Finnegan: The Fun Part</strong><br />        <img src="http://cdn2.nflximg.net/images/2582/4202582.jpg" style="float:right;" />        <B> Sinopsis: </B> Funny guy Christian Finnegan gabs in his disarmingly honest manner about everything from America's role in the world to his own sexual humiliations. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 3.664 <br> <B> Director: </B> Jay Chapman <br> <B> Elenco: </B> Christian Finnegan <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-christian-finnegan-the-fun-part.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-christian-finnegan-the-fun-part.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70303296" target="_blank" class="tooltip"><IMG SRC="http://cdn2.nflximg.net/images/3862/9573862.jpg" alt="Cloud 9" title="Cloud 9" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Cloud 9</strong><br />        <img src="http://cdn2.nflximg.net/images/3862/9573862.jpg" style="float:right;" />        <B> Sinopsis: </B> In the world of competitive snowboarding, two unlikely friends must overcome self-doubt to learn that achieving their dreams is possible. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> TV-G <br> <B> Calificaci&oacute;n: </B> 4.46 <br> <B> Director: </B> Paul Hoen <br> <B> Elenco: </B> Luke Benward, Dove Cameron, Mike C. Manning, Kiersey Clemons, Amy Farrington, Patrick Fabian <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-cloud-9.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-cloud-9.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70302483" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/6645/9466645.jpg" alt="Cocaine Cowboys Reloaded" title="Cocaine Cowboys Reloaded" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Cocaine Cowboys Reloaded</strong><br />        <img src="http://cdn1.nflximg.net/images/6645/9466645.jpg" style="float:right;" />        <B> Sinopsis: </B> En la década de 1970, Miami se convirtió en el centro de operaciones del narcotráfico internacional que adoptó tecnología avanzada para incrementar sus ganancias. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> R <br> <B> Calificaci&oacute;n: </B> 3.97 <br> <B> Director: </B> Billy Corben <br> <B> Elenco: </B> Jon Roberts, Mickey Munday, Jorge Ayala, Al Sunshine, Sam Burstyn <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-cocaine-cowboys-reloaded.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-cocaine-cowboys-reloaded.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70260129" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/2323/9852323.jpg" alt="Codebreaker" title="Codebreaker" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Codebreaker</strong><br />        <img src="http://cdn1.nflximg.net/images/2323/9852323.jpg" style="float:right;" />        <B> Sinopsis: </B> This biopic follows the life of World War II codebreaker Alan Turing, who fell victim to Britain's harsh laws at the time concerning homosexuality. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2.511 <br> <B> Director: </B> Clare Beavan, Nic Stacey <br> <B> Elenco: </B> Ed Stoppard, Henry Goodman, Paul McGann, Asa Briggs, Jean Valentine, David Leavitt <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-06  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-codebreaker.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-codebreaker.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/80004448" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/2642/9972642.jpg" alt="Cosmos: A Spacetime Odyssey" title="Cosmos: A Spacetime Odyssey" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Cosmos: A Spacetime Odyssey</strong><br />        <img src="http://cdn0.nflximg.net/images/2642/9972642.jpg" style="float:right;" />        <B> Sinopsis: </B> Meet one of science's greatest unsung heroes, Fritz Zwicky, whose prediction of supernovas paved the way for our larger understanding of dark energy. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> TV-PG <br> <B> Calificaci&oacute;n: </B> 4.7 <br> <B> Director: </B>  <br> <B> Elenco: </B> Neil deGrasse Tyson <br> <B> Audio: </B> español,inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-cosmos-a-spacetime-odyssey.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-cosmos-a-spacetime-odyssey.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70297310" target="_blank" class="tooltip"><IMG SRC="http://cdn5.nflximg.net/images/7575/4187575.jpg" alt="Dark Legacy II" title="Dark Legacy II" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Dark Legacy II</strong><br />        <img src="http://cdn5.nflximg.net/images/7575/4187575.jpg" style="float:right;" />        <B> Sinopsis: </B> This follow-on documentary asserts that the Bush family dynasty engineered the deaths of John F. Kennedy and his son, who died in a 1999 plane crash. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 3.232 <br> <B> Director: </B> John Hankey <br> <B> Elenco: </B> John F. Kennedy, Jr. <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-dark-legacy-ii.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-dark-legacy-ii.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/80002942" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/9175/9929175.jpg" alt="Dead Famous DNA" title="Dead Famous DNA" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Dead Famous DNA</strong><br />        <img src="http://cdn1.nflximg.net/images/9175/9929175.jpg" style="float:right;" />        <B> Sinopsis: </B> Along with a tooth of John Lennon's, Evans tracks down bones and hair purported to be Adolf Hitler's and Eva Braun's, which offer surprising results. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2 <br> <B> Director: </B>  <br> <B> Elenco: </B> Mark Evans <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-12  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-dead-famous-dna.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-dead-famous-dna.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70304245" target="_blank" class="tooltip"><IMG SRC="http://cdn2.nflximg.net/images/5332/8035332.jpg" alt="Del crepúsculo al amanecer" title="Del crepúsculo al amanecer" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Del crepúsculo al amanecer</strong><br />        <img src="http://cdn2.nflximg.net/images/5332/8035332.jpg" style="float:right;" />        <B> Sinopsis: </B> Seth y Richie conquistan el laberinto pero descubren que han sido traicionados. Entre tanto, los Fuller enfrentan sus demonios. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> TV-14 <br> <B> Calificaci&oacute;n: </B> 3.9 <br> <B> Director: </B>  <br> <B> Elenco: </B> D.J. Cotrona, Zane Holtz, Eiza Gonzalez, Jesse Garcia, Madison Davenport, Brandon Soo Hoo <br> <B> Audio: </B> español,inglés <br> <B> Subt&iacute;tulos: </B> español,inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-del-crepusculo-al-amanecer.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-del-crepusculo-al-amanecer.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70301389" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/8131/9118131.jpg" alt="Doc of the Dead" title="Doc of the Dead" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Doc of the Dead</strong><br />        <img src="http://cdn1.nflximg.net/images/8131/9118131.jpg" style="float:right;" />        <B> Sinopsis: </B> Follow the history of the zombie film, from its origins in early monster movies through its reinvention in the 1960s to its modern renaissance. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 3.245 <br> <B> Director: </B> Alexandre O. Philippe <br> <B> Elenco: </B> Simon Pegg, Bruce Campbell, Fran Kranz, George A. Romero, Tom Savini <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-06-13  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-doc-of-the-dead.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-doc-of-the-dead.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/80003062" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/2955/9912955.jpg" alt="Easter Island: Mysteries of a Lost World" title="Easter Island: Mysteries of a Lost World" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Easter Island: Mysteries of a Lost World</strong><br />        <img src="http://cdn1.nflximg.net/images/2955/9912955.jpg" style="float:right;" />        <B> Sinopsis: </B> Scientific and archaeological evidence leads one researcher to a shocking conclusion about the demise of civilization at Easter Island, or Rapa Nui. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2.008 <br> <B> Director: </B> Spike Geilinger <br> <B> Elenco: </B> Jago Cooper <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-12  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-easter-island-mysteries-of-a-lost-world.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-easter-island-mysteries-of-a-lost-world.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/80005231" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/7699/9957699.jpg" alt="Eddie Pepitone: In Ruins" title="Eddie Pepitone: In Ruins" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Eddie Pepitone: In Ruins</strong><br />        <img src="http://cdn1.nflximg.net/images/7699/9957699.jpg" style="float:right;" />        <B> Sinopsis: </B> Eddie Pepitone delivers dark, raging humor in his hometown of Brooklyn, covering the perils of being a male model and the death of the American Dream. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 3.495 <br> <B> Director: </B> Steven Feinartz <br> <B> Elenco: </B> Eddie Pepitone <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-08-18  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-eddie-pepitone-in-ruins.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-eddie-pepitone-in-ruins.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70303294" target="_blank" class="tooltip"><IMG SRC="http://cdn6.nflximg.net/images/0316/4170316.jpg" alt="Elon Gold: Chosen and Taken" title="Elon Gold: Chosen and Taken" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Elon Gold: Chosen and Taken</strong><br />        <img src="http://cdn6.nflximg.net/images/0316/4170316.jpg" style="float:right;" />        <B> Sinopsis: </B> With a manic wit that transcends race and religion, sharp-tongued comedian Elon Gold explores the ridiculous things people manage to get away with. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 3.7 <br> <B> Director: </B> Jay Chapman <br> <B> Elenco: </B> Elon Gold <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-elon-gold-chosen-and-taken.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-elon-gold-chosen-and-taken.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70298524" target="_blank" class="tooltip"><IMG SRC="http://cdn6.nflximg.net/images/0736/4080736.jpg" alt="ETXR" title="ETXR" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>ETXR</strong><br />        <img src="http://cdn6.nflximg.net/images/0736/4080736.jpg" style="float:right;" />        <B> Sinopsis: </B> Un prometedor DJ de música electrónica, Bix the Bug, lucha por conectarse con su público hasta que un excompañero de clase, Curtis Garrett, lo localiza con una propuesta. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2.409 <br> <B> Director: </B> Trevor Sands <br> <B> Elenco: </B> Caleb Hunt, Jeremy Luke, Levi Fiehler, Brianne Howey, Lindsey Morgan, Danielle Moné Truitt <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-etxr.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-etxr.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70305017" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/6792/9706792.jpg" alt="Fractured" title="Fractured" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Fractured</strong><br />        <img src="http://cdn0.nflximg.net/images/6792/9706792.jpg" style="float:right;" />        <B> Sinopsis: </B> Coming out of a long coma with no memory of his previous life, Dylan White awakens slowly to the disturbing facts about his criminal past. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2.441 <br> <B> Director: </B> Adam Gierasch <br> <B> Elenco: </B> Callum Blue, Vinnie Jones, Ashlynn Yennie, Nicole LaLiberte, Jon Eyez, Eric F. Adams <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2013-08-31  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-fractured.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-fractured.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/80003199" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/9112/9929112.jpg" alt="Frisky Business" title="Frisky Business" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Frisky Business</strong><br />        <img src="http://cdn0.nflximg.net/images/9112/9929112.jpg" style="float:right;" />        <B> Sinopsis: </B> It's Christmas, and everyone -- including the bosses -- is on the shop floor trying to get the holiday goodies out on time. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2.202 <br> <B> Director: </B>  <br> <B> Elenco: </B>  <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-12  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-frisky-business.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-frisky-business.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70267832" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/2365/9852365.jpg" alt="Gideon's Army" title="Gideon's Army" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Gideon's Army</strong><br />        <img src="http://cdn1.nflximg.net/images/2365/9852365.jpg" style="float:right;" />        <B> Sinopsis: </B> At Atlanta's Southern Public Defender Training Center, three recent law school grads prepare to represent some of the poorest of the poor. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 3.459 <br> <B> Director: </B> Dawn Porter <br> <B> Elenco: </B>  <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-06  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-gideons-army.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-gideons-army.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70296883" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/9330/9669330.jpg" alt="Grand Piano" title="Grand Piano" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Grand Piano</strong><br />        <img src="http://cdn0.nflximg.net/images/9330/9669330.jpg" style="float:right;" />        <B> Sinopsis: </B> A pianist returning to the stage five years after a public meltdown learns that a sniper will shoot him and his wife if he plays just one wrong note. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> R <br> <B> Calificaci&oacute;n: </B> 2.666 <br> <B> Director: </B> Eugenio Mira <br> <B> Elenco: </B> Elijah Wood, John Cusack, Kerry Bishé, Tamsin Egerton, Allen Leech, Don McManus <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-06-19  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-grand-piano.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-grand-piano.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70307646" target="_blank" class="tooltip"><IMG SRC="http://cdn0.nflximg.net/images/1622/9881622.jpg" alt="Gunday" title="Gunday" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Gunday</strong><br />        <img src="http://cdn0.nflximg.net/images/1622/9881622.jpg" style="float:right;" />        <B> Sinopsis: </B> Two childhood friends travel from Bangladesh to Calcutta during the turbulent 1970s, becoming criminal superstars who both fall for a cabaret dancer. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> NR <br> <B> Calificaci&oacute;n: </B> 2.937 <br> <B> Director: </B> Ali Abbas Zafar <br> <B> Elenco: </B> Ranveer Singh, Priyanka Chopra, Arjun Kapoor, Irrfan Khan, Saurabh Shukla, Victor Banerjee <br> <B> Audio: </B> hindi <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-07-06  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-gunday.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-gunday.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div><div id="pro"><a href="http://movies.netflix.com/WiMovie/70302753" target="_blank" class="tooltip"><IMG SRC="http://cdn1.nflximg.net/images/7923/10827923.jpg" alt="Hamlet and Hutch" title="Hamlet and Hutch" border="0" WIDTH=140 HEIGHT=180>     <span>        <img class="callout" src="images/callout_black.gif" />        <strong>Hamlet and Hutch</strong><br />        <img src="http://cdn1.nflximg.net/images/7923/10827923.jpg" style="float:right;" />        <B> Sinopsis: </B> Stricken with Alzheimer's disease, a former Broadway star moves in with his estranged granddaughter, who owns a struggling theater. <br><br> <B> A&ntilde;o: </B> 2014 <br> <B> Clasificaci&oacute;n: </B> TV-PG <br> <B> Calificaci&oacute;n: </B> 2.549 <br> <B> Director: </B> Carelton Holt, Jared Young, Matthew Young <br> <B> Elenco: </B> Burt Reynolds, Emma Rayne Lyle, Elizabeth Leiner, Terri J. Vaughn, Cassi Davis, Travis Young <br> <B> Audio: </B> inglés <br> <B> Subt&iacute;tulos: </B> inglés <br> <B> Transmisi&oacute;n: </B>  <br> <B> Costo: </B> GRATIS <br><br> <B> Agregada el: </B> 2014-08-18  <br><br> <B> Subt&iacute;tulo(s): </B> <br>    </span> </a><p><IMG SRC="images/us_flag.jpg" border="0" WIDTH=30 HEIGHT=30 /> </p> <p> 2014 </p> <p> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-hamlet-and-hutch.html"/> <input type="hidden" name="recnet" value="2"/> <input type="hidden" name="recusu" value=""/> <input type="hidden" name="recusuid" value=""/> <input type="hidden" name="recusuthumbs" value=""/> <input type="image" src="images/recomendar.jpg" alt="Recomendar" title="Recomendar" width=20 heigth=20 /> </form> <br> <form action="http://www.recomendacionesnetflix.com/postcineflixer.php" method="post" target="_blank"> <input type="hidden" name="incname" value="http://www.cineflixer.com/recomendaciones/netflix-hamlet-and-hutch.html"/> <input type="hidden" name="recnet" value="3"/> <input type="image" src="images/antirecomendar.jpg" alt="Anti Recomendar" title="Anti Recomendar" width=20 heigth=20 /> </form> </p> </div><div id="bigdivider"></div>			</div>
+
+<br><br><a href="?page=0&option=&country=&buscatexto=&filtro_catalogo=-US&rango_inicial=1900&rango_final=2014&categorias=Todas&filtro_suscriptores=&filtro_subtitulosdfxp=&filtro_audioespanol=&filtro_subtitulosespanol=&filtro_audioingles=&filtro_subtitulosingles=&filtro_audioportugues=&filtro_subtitulosportugues=&filtro_audiokoreano=&filtro_subtituloskoreano=&filtro_audiojapones=&filtro_subtitulosjapones=&filtro_audiocantones=&filtro_subtituloscantones=&optionordenar=">Siguiente</a>
+		</fieldset>
+		<div id="content">
+			<h4>Enfrenta a los proveedores de Video On Demand</h4>
+			<p class="normalcon">Netflix vs Clarovideo vs Cinepolisklic vs Hulu vs Vudu vs Amazon vs Crackle vs Megacable vs Blockbuster</p>
+<p>
+<h2>Qu&eacute; te ofrecemos en cineflixer.com?.</h2>
+<br>
+<ul>
+<li>Acceso al cat&aacute;logo de Netflix Mexico.</li>
+<li>Acceso al cat&aacute;logo de Netflix Argentina.</li>
+<li>Acceso al cat&aacute;logo de Netflix Brasil.</li>
+<li>Acceso al cat&aacute;logo de Netflix Latinoamerica.</li>
+<li>Acceso al cat&aacute;logo de Netflix USA.</li>
+<li>Acceso al cat&aacute;logo de Netflix UK.</li>
+<li>Acceso al cat&aacute;logo de Netflix Canada.</li>
+<li>Acceso al cat&aacute;logo de Netflix Europeo.</li>
+<li>Acceso al cat&aacute;logo de Netflix Francia.</li>
+<li>Acceso al cat&aacute;logo de Netflix Alemania.</li>
+<li>Acceso al cat&aacute;logo de Netflix Austria.</li>
+<li>Acceso al cat&aacute;logo de Netflix Luxemburgo.</li>
+<li>Acceso al cat&aacute;logo de Netflix Suiza.</li>
+<li>Acceso al cat&aacute;logo de Clarovideo Mexico (temporalmente deshabilitado).</li>
+<li>Acceso al cat&aacute;logo de Cinepolisklic. (temporalmente deshabilitado)</li>
+<li>Comparar los diferentes catalogos de Netflix, Clarovideo y Cinepolisklic.</li>
+<li>Filtros de b&uacute;squeda optimizados.</li>
+<li>Informaci&oacute;n relevante de los servicios.</li>
+<li>Noticias diarias de Netflix via twitter y facebook.</li>
+<li>Identificar los titulos gratuitos de Clarovideo y Cinepolisklic (temporalmente deshabilitado).</li>
+<li>Subtitulos de Netflix USA.</li>
+<li>Recomendaciones de Netflix.</li>
+<li>Avisos autom&aacute;ticos de nuevos titulos en Netflix mediante correo, twitter y facebook.</li>
+</ul>
+<br>
+Siguenos en redes sociales y participa en nuestros blogs!!!.
+</p>
+		</div>
+		<div id="headder"><center>
+	<div class="fleft">cineflixer.com | 2014</div>
+
+	</div class="fclear"></div>
+</center>
+</div>
+	</div>
+</div>
+
+
+</td>
+<td valign="top">
+
+
+
+<!-- Left side bar -->
+	<div id="LTsidebar">
+		<div id="logo2"></div>
+
+
+
+<!-- Social -->
+			<div id="quicksearch">
+				<div id="quickheadRT" class="boxheadRT"><h1>Consejos</h1></div>
+				<div class="boxheadLT"></div>
+					<div class="boxmain">
+						<div class="boxmainRT" style="width:144px">
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- skyscrapper_right -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-2004187412110517"
+     data-ad-slot="3558610381"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+						</div>
+					 	<div class="boxmainLT"></div>
+					</div>
+				<div class="boxbottRT"></div>
+				<div id="quickbottLT" class="boxbottLT"></div>
+			</div>
+			<div class="clear"></div>
+
+<!-- Categories --><div class="inner_copy"></div>
+			<div id="categories">
+				<div id="categorieheadRT" class="boxheadRT"><h1>Encuestas</h1></div>
+		 		<div class="boxheadLT"></div>
+					<div class="boxmain">
+						<div class="boxmainRT" style="width: 144px;">
+<p class="label2">
+
+<script type="text/javascript" src="http://www.tusencuestas.com/Acciones/tusencuestas.aspx?0-36401-0-0-b6fc201a_a0f4_4013_b1b5_15ac23fc8424-0-0"></script>
+
+</p>
+								</div>
+					 		<div class="boxmainLT"></div>
+						</div>
+						<div class="boxbottRT"></div>
+						<div id="categoriebottLT" class="boxbottLT"></div>
+				</div>
+
+<!--
+
+			<div id="quicksearch">
+				<div id="quickheadRT" class="boxheadRT"><h1>B&uacute;squeda r&aacute;pida</h1></div>
+				<div class="boxheadLT"></div>
+					<div class="boxmain">
+						<div class="boxmainRT" style="width:144px">
+							<p class="label">Buscar por:</p>
+							<input name="search" type="text" size="18" />
+							<span style=" float:left;margin:10px 37px 0"><a href="#"><img src="img/btn_search.jpg" width="62" height="21" alt="" /></a></span>
+							<p><a href="#" class="comlink">B&uacute;squeda avanzada</a></p>
+						</div>
+					 	<div class="boxmainLT"></div>
+					</div>
+				<div class="boxbottRT"></div>
+				<div id="quickbottLT" class="boxbottLT"></div>
+			</div>
+			<div class="clear"></div>
+-->
+
+</td>
+</tr>
+</table>
+
+<script type="text/javascript">
+var infolinks_pid = 1963446;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+
+</body>
+</html>
